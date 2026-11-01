@@ -24,7 +24,7 @@ flowchart TD
     I -. "E050 and E012 retained" .-> P["Human choice: E050, E012, E051"]
     K --> P
     P --> Q["Targeted revisions + clarity rewrites + separate checks"]
-    Q --> S["E050, E012, E051: submission reported by Ruslan"]
+    Q --> S["E050, E012, E051: submitted PDFs verified"]
     classDef chosen fill:#e4f0e8,stroke:#245845,color:#18382d
     classDef retained fill:#f6f2ea,stroke:#8b8170,color:#3c372f
     class P,S chosen
@@ -61,7 +61,7 @@ All twenty-two received three neutral and two judge-profile reviews. Ten dispute
 | AI reserves | [E078](../essays/E078/README.md), [E041](../essays/E041/README.md) | Same checks; retained as alternatives |
 | Human choice | [E050](../essays/E050/README.md), [E012](../essays/E012/README.md), [E051](../essays/E051/README.md) | Ruslan kept E050 and E012 and brought back E051 |
 
-The [five historical cards](final-shortlist.md) retain the coordinator's recommendation and reservations. The [current three](current-selection.md) explain the human choice and its six accepted reviews: four reused, two new. The later revision and submission branch is recorded in the [final edition](../evidence/final-edition/20261101/README.md); submission status is Ruslan’s report. Selection itself does not certify novelty.
+The [five historical cards](final-shortlist.md) retain the coordinator's recommendation and reservations. The [current three](current-selection.md) explain the human choice and its six accepted reviews: four reused, two new. The later revision and submission branch is recorded in the [final edition](../evidence/final-edition/20261101/README.md); all six attachments have since been [downloaded and verified](submitted-edition.md). Selection itself does not certify novelty.
 
 ## Trace the evidence
 

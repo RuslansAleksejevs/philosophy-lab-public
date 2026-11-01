@@ -2,6 +2,8 @@
 
 # Evidence behind the account
 
+**Current edition:** [submitted-file verification and closeout](closeout/20261101/README.md). The earlier collections below retain their original scope and dates.
+
 **Final edition:** [Three final manuscripts, separate checks, final PDFs and submission status](final-edition/20261101/README.md). [New conversation supplement](../logs/updates/20261101-release/README.md).
 
 **Earlier reading update:** [human choice and two new E051 checks](selection-update/20261101/README.md), [dated version register](../docs/reading-state.json), and [E012 from objection to decision](../docs/worked-example.md). These accepted results extend the guide; the conversation export retains its stated cutoff.

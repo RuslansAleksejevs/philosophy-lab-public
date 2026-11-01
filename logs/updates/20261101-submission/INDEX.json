@@ -1,0 +1,98 @@
+{
+  "schema": "visible-log-supplement.v1",
+  "started_at": "2026-11-01T12:07:03.628970+00:00",
+  "finished_at": "2026-11-01T12:07:28.187221+00:00",
+  "baseline": {
+    "path": "logs/updates/20261101-release/INDEX.json",
+    "sha256": "ba261dea7b46dbef333fea944266342ec008ff83372dbf213e47f887c718ae7e",
+    "messages": 15657,
+    "sessions": 3424
+  },
+  "added_messages": 38,
+  "total_visible_messages": 15695,
+  "sessions_with_new_messages": 2,
+  "new_session_ids": [],
+  "total_sessions_in_union": 3424,
+  "scanned_native_sources": 3395,
+  "internal_runtime_sessions_excluded": 342,
+  "missing_sources": [],
+  "gap_counts": {
+    "unknown_record_metadata": 162,
+    "unknown_payload_fields": 1446,
+    "oversized_or_incomplete_record": 20,
+    "unknown_event_message_type": 2,
+    "unknown_response_item_type": 44,
+    "user_prompt_content_or_origin_unsupported": 2
+  },
+  "excluded_counts": {
+    "excluded:message_role:developer": 10604,
+    "excluded:non_user_text_context": 3603,
+    "nonvisible_envelope:world_state": 4612,
+    "noncanonical_or_hidden_event:item_completed": 152699,
+    "nonvisible_envelope:token_usage_record": 53209,
+    "noncanonical_or_hidden_event:token_count": 54917,
+    "excluded:reasoning": 57958,
+    "noncanonical_or_hidden_event:thread_settings_applied": 1201,
+    "nonvisible_envelope:inter_agent_communication_metadata": 5671,
+    "excluded:agent_message": 5672,
+    "nonvisible_envelope:compacted": 307,
+    "excluded:sensitive_tool_body": 1246
+  },
+  "older_messages_retained_without_reprojection": 77,
+  "bundle": {
+    "path": "visible-messages.tar.gz",
+    "sha256": "ffcd7946f6d50f8719a8717d9ca9e383c54ab23aff416687e9997eeaa64a3c22",
+    "bytes": 15686
+  },
+  "cutoffs": {
+    "path": "native-source-cutoffs.json.gz",
+    "sha256": "76264355d8672ea50459e4247f6c5c6799859ff20f3e4614f04422f8abb46fe5"
+  },
+  "sessions": [
+    {
+      "session_id": "01a190b5-03e2-70d0-8fcf-b4a1e67148d0",
+      "title": "(*) завершаем",
+      "member": "sessions/01a190b5-03e2-70d0-8fcf-b4a1e67148d0.json",
+      "sha256": "b94364b35b943a38c1caa6f11636a2829cdc45b32dc4d8824518d6abc1141052",
+      "bytes": 82591,
+      "added_messages": 31,
+      "previous_messages": 312,
+      "counts": {
+        "assistant": 23,
+        "user": 8
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T11:20:24.281Z",
+        "last_message_at": "2026-11-01T12:03:28.941Z",
+        "first_message_local": "2026-11-01T03:20:24.281000-08:00",
+        "last_message_local": "2026-11-01T04:03:28.941000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 31,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a1958a-af92-7fa3-98bc-4a34bcf2afd2",
+      "title": "(*) гитхаб",
+      "member": "sessions/01a1958a-af92-7fa3-98bc-4a34bcf2afd2.json",
+      "sha256": "dccb11fdcaa407028b461a0bb1d85e1c4912bb3c70dc5712b3c11faca691fbd6",
+      "bytes": 13003,
+      "added_messages": 7,
+      "previous_messages": 43,
+      "counts": {
+        "assistant": 6,
+        "user": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T11:20:38.713Z",
+        "last_message_at": "2026-11-01T11:28:39.265Z",
+        "first_message_local": "2026-11-01T03:20:38.713000-08:00",
+        "last_message_local": "2026-11-01T03:28:39.265000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 7,
+        "undated_messages": 0
+      }
+    }
+  ],
+  "limits": "A bounded supplement to the existing export. Tool bodies, internal runtime, hidden reasoning and attachments are not included. Existing gaps and eight labelled inherited copies remain. This is not a whole-provider archive audit. Logging continues locally."
+}

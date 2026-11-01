@@ -34,7 +34,11 @@ The collector does not infer an essay's causal history. That needs explicit link
 
 The repository keeps both layers: readable histories for navigation, original text and machine-readable records for close inspection. The [conversation bundle manifest](../logs/bundles/manifest.json) lists the indexed conversation and tool bundles. The [late-receipts manifest](../logs/updates/20261031-late-receipts/MANIFEST.json) and [final-delta manifest](../logs/updates/20261031-final-verification/MANIFEST.json) separately list their supplemental bundles, members and checksums. Together these lists cover 40 unique bundle files: 37 in the global manifest, one late bundle and two final supplemental bundles.
 
-## November 1 release
+## November 1 submitted edition
+
+The [submission supplement](../logs/updates/20261101-submission/README.md) adds the last 38 visible messages at the documented cutoff, bringing the retained union to **15,695 messages across 3,424 sessions**. The [submitted-edition receipt](submitted-edition.md) binds the six final PDFs to files downloaded from OpenReview. Earlier methodology reports and release pages remain as predecessor versions. This closeout updates the archive and its navigation; it does not revise the submitted essays or run another scientific review.
+
+## Earlier November 1 release
 
 The [new supplement](../logs/updates/20261101-release/README.md) adds 355 visible messages, bringing the union to **15,657 messages in 3,424 sessions**. It preserves the prior index and messages. The [final research import](../evidence/final-edition/20261101/RESEARCH_IMPORT.json) separately retains the closed revision and prose-check stages; the final package has its own file register. These additions do not broaden earlier coverage claims.
 

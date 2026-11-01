@@ -1,11 +1,16 @@
-[← Philosophy Lab](README.md) · [Final three](docs/current-selection.md) · [Selection tree](docs/selection-tree.md)
+[Home](README.md) · [Submitted essays](docs/current-selection.md) · [Verification](docs/submitted-edition.md)
 
 # Project status
 
-**November 1, 2026:** E050, E012 and E051 have final AI revisions, separate checks, PDFs, abstracts and method reports. Ruslan reports all three submitted. The repository now gathers the final texts with the earlier work that led to them.
+**The competition submission phase is complete.** E050, E012 and E051 were submitted on November 1, 2026. The three essays and three final methodology reports were downloaded from OpenReview and matched byte for byte. The category shown for each entry is **AI throughout**.
 
-The public edition is a complete copy of the prepared release; the original working repository remains private. [Publication record](PUBLICATION.md).
+This edition preserves the submitted files, their sources, earlier versions, reviews, rejected candidates and available conversations. Both repositories receive the same final tree. A future competition result, erratum or new research project should be a separately dated addition; the submitted PDFs remain fixed. This does not set GitHub's repository archive flag or stop local logging.
 
-Future changes should be dated additions: record any competition response, correct a specific discovered error, or develop a new research question when commissioned. Completed reviews are not repeated by default. Earlier versions, rejected candidates, failures and disagreements remain part of the record.
+## Possible work after the competition
 
-Local logging continues. This release's [conversation supplement](logs/updates/20261101-release/README.md) has a fixed cutoff; later activity is not silently treated as already exported.
+- Record the organizers' decisions when available. No result or award is claimed now.
+- If a specific error is found, publish an erratum linked to the submitted version.
+- For a new research project, investigate the open questions described in the essays; do not silently extend the submitted claims.
+- Consider a permanent external deposit and a deliberately chosen archive-wide reuse licence. Neither is created by this edition.
+
+The project has no further essay-writing or review campaign running as part of this closeout. [Preservation instructions](docs/preservation.md) explain how to retain and verify a copy. Logging beyond the documented export cutoff remains local until a later explicit update.

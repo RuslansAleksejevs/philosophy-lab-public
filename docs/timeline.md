@@ -2,7 +2,7 @@
 
 # A working history
 
-**Latest turn, November 1:** the chosen three have final revisions, separate checks, PDFs and method reports. Ruslan reports all three submitted and authorizes a separate public copy of the prepared private repository. [Final edition and evidence](../evidence/final-edition/20261101/README.md).
+**Latest turn, November 1:** all three entries are submitted. Their six essay and methodology PDFs were downloaded from OpenReview and match the final local files byte for byte. Both repository editions preserve those files, the late report amendments and the verification record. [Submitted edition](submitted-edition.md).
 
 [Follow the full selection tree](selection-tree.md) · [Browse every essay by question](../essays/topics.md)
 
@@ -43,7 +43,7 @@ The 60/40 selection combined three neutral and two judge-profile reviews per tex
 
 Ruslan retained E050 and E012 and returned E051 from outside the comparison pool. Two new E051 checks joined four reused checks before targeted revisions of all three. A later round rewrote the prose for clarity, using fresh authors and separate critics. E012 kept its full minor-fix verdict alongside the accepted exact wording repair. The calculations in E050 moved into an appendix within the same PDF.
 
-The final layout added links from citations to bibliography entries and refined the abstracts and method reports. On November 1, Ruslan confirmed all three submissions and requested this public edition. These are distinct events: revision acceptance, file preparation, a human report of submission, and repository publication. [Final files](current-selection.md) · [Accepted research records](../evidence/final-edition/20261101/README.md) · [Submission report](../evidence/final-edition/20261101/SUBMISSION_CONFIRMATION.json).
+The final layout added links from citations to bibliography entries and refined the abstracts and method reports. On November 1, Ruslan confirmed all three submissions and requested this public edition. The later signed-in download check verified all six uploaded attachments. Revision acceptance, file preparation, submission confirmation, attachment verification and repository publication remain distinct events. [Final files](current-selection.md) · [Accepted research records](../evidence/final-edition/20261101/README.md) · [Initial submission report](../evidence/final-edition/20261101/SUBMISSION_CONFIRMATION.json) · [Subsequent attachment verification](submitted-edition.md).
 
 [Explore eight defining ideas](ideas.md) · [Read the practical lessons](lessons.md) · [See activity by week](activity.md)
 

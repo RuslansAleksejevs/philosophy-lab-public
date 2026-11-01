@@ -11,4 +11,6 @@ Confirmed personal choices: Name Attribution = Yes, attach my name; Philosophica
 
 Deadline: 1 November 2026, 03:59 PST San Francisco / 11:59 UTC.
 
-The ZIP is for convenience; do not upload it in place of either required PDF. LaTeX sources are included for editing, not submission. Compile each main.tex with Tectonic or XeLaTeX. All six PDFs and all 44 pages were checked. This preparation step did not submit any entry.
+The ZIP is for convenience; do not upload it in place of either required PDF. LaTeX sources are included for editing, not submission. Compile each main.tex with Tectonic or XeLaTeX. All six PDFs and all 47 pages were checked. This preparation step did not submit any entry.
+
+Methodology update: each report now begins with a highlighted Anonymous GitHub archive link and includes a section 7 reading guide. The linked README was observed to retain a personal name and a direct named GitHub link; full anonymization has not been certified. The user is preparing the three submission forms; completion is not independently confirmed.

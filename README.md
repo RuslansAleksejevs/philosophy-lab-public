@@ -2,78 +2,56 @@
 
 # Philosophy Lab
 
-**What can AI contribute to philosophy—and how do we tell when an argument deserves to survive?**
+**107 essays. Three submissions. The questions, objections and revisions in between.**
 
-This laboratory began on **September 7, 2026**, with the AI Philosophy Competition. We tried different ways of finding questions, writing essays, challenging arguments, and choosing which work to develop. Each change of method has a history; each surviving essay has earlier versions and objections behind it.
+A research notebook from the **AI Philosophy Competition**, September 7–November 1, 2026. AI developed the essay topics, arguments and prose. Ruslan commissioned the project, chose among the resulting candidates and requested clearer writing. Codex assembled this repository; each essay's history identifies its actual Codex, Claude or mixed-model contributions.
 
-**100 original essays + 7 later essays · 23 judge profiles · 3 essays submitted by Ruslan**
+## Read the three submitted essays
 
-| Read the philosophy | Understand the experiment | Inspect the record |
-| --- | --- | --- |
-| [The three final essays](docs/current-selection.md) | [How the lab works](docs/method.md) | [Conversations and evidence](logs/README.md) |
-| [Browse 107 essays by question](essays/topics.md) | [The actual selection tree](docs/selection-tree.md) | [Authorship and provenance](docs/provenance.md) |
+| Essay | The question | Read | Methodology | Submission |
+| --- | --- | --- | --- | --- |
+| **E050 · What Holding Cannot Tell Us About Letting Go** | Can complete knowledge of holding outcomes tell us what happens after release? | [PDF](submission/20261101/pdf/E050-essay.pdf) · [Text](essays/final-20261101/E050.md) | [Report](submission/20261101/pdf/E050-methodology.pdf) | [#809](https://openreview.net/forum?id=APWsLGxrNL) |
+| **E012 · When a Remedy Becomes Evidence** | Can fair compensation leave a duty to help someone challenge a later mistake? | [PDF](submission/20261101/pdf/E012-essay.pdf) · [Text](essays/final-20261101/E012.md) | [Report](submission/20261101/pdf/E012-methodology.pdf) | [#813](https://openreview.net/forum?id=yVPI6bUn4S) |
+| **E051 · Difference without Reconstruction** | Can recollections reveal an original difference without recreating either experience? | [PDF](submission/20261101/pdf/E051-essay.pdf) · [Text](essays/final-20261101/E051.md) | [Report](submission/20261101/pdf/E051-methodology.pdf) | [#816](https://openreview.net/forum?id=hkyjmSMpzW) |
 
-## Start with a question
+**Submission edition · November 1, 2026.** All six PDFs were downloaded from OpenReview and compared byte for byte with this edition. They match, including the final methodology reports marked **AI throughout**. [Verification and version history](docs/submitted-edition.md) · [Complete package](submission/20261101/Submission-Package-E050-E012-E051.zip). OpenReview pages may require access; the files here can be read directly.
 
-- **Can holding a system steady tell us what happens when we let go?** [What Holding Cannot Tell Us About Letting Go · E050](essays/E050/README.md)
-- **Can memory reveal a difference without recreating an experience?** [Difference without Reconstruction · E051](essays/E051/README.md)
-- **Can paying compensation leave an obligation unfinished?** [When a Remedy Becomes Evidence · E012](essays/E012/README.md)
+## Explore the laboratory
 
-Ruslan confirmed on **November 1** that he submitted all three. [Read the final texts and PDFs](docs/current-selection.md). The earlier [AI recommendation and its two reserves](docs/final-shortlist.md) remain part of the history. To explore beyond the selection, browse [ten themes](essays/topics.md), from memory and consent to scientific models, institutions and art.
+| If you want to… | Start here |
+| --- | --- |
+| Find an idea beyond the final three | [Browse 107 essays across ten themes](essays/topics.md) |
+| Understand how the writing and criticism worked | [Method](docs/method.md) → [one worked revision](docs/worked-example.md) |
+| Follow the choices and rejected alternatives | [Selection tree](docs/selection-tree.md) → [essay biographies](essays/README.md) |
+| See what worked, and what did not | [Lessons from the experiment](docs/lessons.md) |
+| Inspect prompts, conversations and evidence | [Archive guide](logs/README.md) → [coverage and limits](docs/provenance.md) |
+| Check or cite this exact edition | [Preservation and verification](docs/preservation.md) · [Citation and attribution](docs/citing.md) |
 
-## The experiment behind the essays
+## How the work unfolded
 
-We built agents intended to imitate the intellectual approaches of the competition's judges, ran tournaments of ideas before writing full essays, gave argument and originality critics different jobs, and compared branches with different amounts of revision. Later, we tested the reviewers themselves and revisited rejected candidates.
+| Period, 2026 | Turning point |
+| --- | --- |
+| **Sep 7** | Start the lab, idea tournaments, judge profiles and logging. |
+| **Sep 8–10** | Reach 50 essays; test separate contexts, broader fields and plain language. |
+| **Sep 12–27** | Add Claude, contribution checks and revision branches; reach 100 essays. |
+| **Oct 7–11** | Review the corpus and test the evaluators themselves. |
+| **Oct 12–17** | Explore 300 more ideas, revisit rejections and add seven essays. |
+| **Oct 18–19** | Compare 22 candidates and choose ten reading places. |
+| **Oct 31–Nov 1** | Deep checks, the human choice of three, targeted revisions and clearer prose. |
+| **Nov 1** | Submit E050, E012 and E051; download and verify all six submitted files. |
 
-Some results changed the process. Fresh author contexts still converged on similar subjects. The midterm's 2,400 primary reviews did not recommend setting a single essay aside. A critic caught a shortening edit that removed an essential qualification. These episodes are the starting points of [what we learned](docs/lessons.md). Follow [one E012 revision](docs/worked-example.md) from the objection through the changed example and its separate review.
+[Full timeline and sources](docs/timeline.md) · [Recorded activity](docs/activity.md) · [Original ideas](docs/ideas.md)
 
 > “И да, логирование это только база, только начало.”
 >
 > “And yes, logging is just the foundation, just the beginning.”
 >
-> — Ruslan, September 7 · [Original prompt and full excerpt](docs/quotes.md#q02)
+> — Ruslan, September 7 · [Original prompt](docs/quotes.md#q02)
 
-## From the first conversation to the current selection
+## What this archive preserves
 
-| Period, 2026 | Turning point |
-| --- | --- |
-| **Sep 7** | Plan the lab, idea tournaments, judge imitations, and a record that readers can explore. |
-| **Sep 8–10** | Reach 50 essays; test separate contexts, broader fields, and plain language. |
-| **Sep 12–24** | Use judge profiles and Claude; separate argument criticism from contribution criticism. |
-| **Sep 25–27** | Reach 100 essays through six methods, including debate and revision branches. |
-| **Oct 7–11** | Review all 100, challenge the coordinator's choices, and test the evaluators. |
-| **Oct 12–17** | Search 300 more ideas, revisit rejections, add seven essays, and prepare 22 candidates. |
-| **Oct 18–19** | Select ten using three neutral and two judge-profile reviewers per text. |
-| **Oct 31** | Twenty argument/source checks support an AI recommendation of three essays and two reserves. |
-| **Oct 31–Nov 1** | Ruslan chooses E050, E012 and E051; two new checks of E051 join four accepted checks of the other two. |
-| **Nov 1** | Targeted revisions and plainer prose pass separate checks; final PDFs and method reports are prepared. Ruslan reports all three submitted. |
+Every candidate keeps its biography and earlier versions. Rejections, disagreements, failed attempts and changes of method remain visible. The judge profiles were AI approximations; the real judges did not participate in those reviews. Human prompts and external quotations retain their attribution and original wording.
 
-[Follow the decisions and their sources](docs/timeline.md) · [Explore the original ideas](docs/ideas.md) · [Recorded activity by week](docs/activity.md)
+The logs are a dated export, with explicit gaps and exclusions—not a claim to every provider interaction. The [archive guide](logs/README.md) gives exact counts and cutoffs. File integrity and completed reviews do not establish exhaustive novelty or empirical validity.
 
-<details>
-<summary>Activity from the beginning</summary>
-
-| Week | Retained messages in the morning snapshot | Active dates |
-| --- | ---: | ---: |
-| Sep 7–13 | 2,067 | 7 |
-| Sep 14–20 | 189 | 4 |
-| Sep 21–27 | 2,516 | 7 |
-| Sep 28–Oct 4 | 46 | 2 |
-| Oct 5–11 | 5,868 | 5 |
-| Oct 12–18 | 4,100 | 7 |
-| Oct 19–25 | 63 | 1 |
-| Oct 26–31, through the morning snapshot | 90 | 2 |
-
-Counts include AI workers and describe a dated conversation snapshot, not human work hours. [Method and cutoff](docs/activity.md).
-
-</details>
-
-## Current edition
-
-**Final edition: November 1, 2026.** Start with **E050, E012 and E051**, each with a final manuscript, PDF, abstract, and method report in the [three-essay guide](docs/current-selection.md). Their earlier versions, critical reviews and selection disagreements remain available. The [selection tree](docs/selection-tree.md) follows the route to submission; the [release register](docs/release-state.json) identifies this edition's exact files.
-
-Codex built this repository and wrote its guide. The essays credit **Codex, Claude, and mixed-model contributions** in their histories. Ruslan directed the process; human prompts and external quotations remain separately attributed. The guide is in English, with [short Russian reading cards](reading/20261031/FIVE_CARDS_RU.md); conversations keep their original language.
-
-The archive contains **15,657 visible messages in 3,424 indexed sessions**, including eight labelled inherited copies. The latest [conversation supplement](logs/updates/20261101-release/README.md) was fixed on November 1, 11:19:50–11:20:13 UTC. It retains explicit gaps and exclusions. The work does not establish exhaustive novelty, validated copies of real judges, or a controlled ranking of models.
-
-This edition is prepared for the separate [public repository](https://github.com/RuslansAleksejevs/philosophy-lab-public). The original working repository stays private. [Publication record](PUBLICATION.md) · [Project status](ROADMAP.md). Local logging continues beyond this export's cutoff.
+The [public repository](https://github.com/RuslansAleksejevs/philosophy-lab-public) and private working repository receive the same submitted-edition tree while retaining separate Git histories. Future findings belong in dated additions. [Project status](ROADMAP.md) · [Publication record](PUBLICATION.md).

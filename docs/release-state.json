@@ -1,5 +1,5 @@
 {
-  "schema": "philosophy-lab-final-edition.v1",
+  "schema": "philosophy-lab-submitted-edition.v2",
   "edition_date": "2026-11-01",
   "selected": [
     "E050",
@@ -7,25 +7,22 @@
     "E051"
   ],
   "submission": {
-    "recorded_at": "2026-11-01T11:12:01.707793+00:00",
-    "source": "Direct human reply in GitHub chat 01a1958a-af92-7fa3-98bc-4a34bcf2afd2",
-    "question": "Три эссе E050, E012 и E051 уже отправлены на конкурс? Это нужно для точного статуса в публичном репозитории.",
-    "answer": "Да, все три",
-    "submitted_essays": [
-      "E050",
-      "E012",
-      "E051"
+    "basis": "authenticated_platform_download_and_byte_comparison",
+    "verified_at_utc": "2026-11-01T11:59:06.707460+00:00",
+    "external_receipts_independently_verified": true,
+    "uploaded_pdf_bytes_verified": true,
+    "selected_metadata_checked": [
+      "AI Involvement"
     ],
-    "basis": "human_report",
-    "external_receipts_independently_verified": false,
-    "source_identity": {
-      "session_id": "01a1958a-af92-7fa3-98bc-4a34bcf2afd2",
-      "source_line": 1073,
-      "source_line_sha256": "0aa22e6dac21f07072c0ff28dc33b0f2a5e4dc12b3584af381a63f3efb334bbd",
-      "text_sha256": "13e93729a0d9377d937987b5f1b1caf4f400fbc5d94fa8c5d340dcfcced4ef94",
-      "source_timestamp": "2026-11-01T11:08:49.276Z"
+    "all_form_fields_audited": false,
+    "ai_involvement": "AI throughout",
+    "verification": {
+      "path": "evidence/closeout/20261101/SUBMISSION_VERIFICATION.json",
+      "sha256": "b31deac0fb74fb7e756fcb5c0a7fa6abb10b374ec6823ffad109b3688a1c0188",
+      "bytes": 3940
     },
-    "native_reply": "<send_user_message_question_reply>\n[{\"questionItemId\":\"[\\\"request_user_input_async\\\",\\\"call_5ae5d1db1b16486d9cbc5272eb4be097\\\",0]\",\"question\":\"Три эссе E050, E012 и E051 уже отправлены на конкурс? Это нужно для точного статуса в публичном репозитории.\",\"answer\":\"Да, все три\"}]\n</send_user_message_question_reply>\n"
+    "previous_human_report": "evidence/final-edition/20261101/SUBMISSION_CONFIRMATION.json",
+    "note": "The earlier report preceded the final attachments. The present verification supersedes that status without deleting its record."
   },
   "essays": [
     {
@@ -42,8 +39,8 @@
       },
       "methodology_pdf": {
         "path": "submission/20261101/pdf/E050-methodology.pdf",
-        "sha256": "a29d7fe248cb631fb2b43dcec70c7421606c2f66f03e01777601263560481583",
-        "bytes": 43769
+        "sha256": "e971ecf04830203a64a0b8a844723d15468f8bd0b17e9b61063a1aa9895a24a8",
+        "bytes": 46596
       },
       "abstract": {
         "path": "submission/20261101/forms/E050-abstract.txt",
@@ -64,7 +61,9 @@
         "path": "essays/final-20261101/prior-revisions/E050.md",
         "sha256": "451823414dc95441657d7b0b8fccf1e415823f3f55d1cb6efdee7f4f5a770eaa",
         "bytes": 24618
-      }
+      },
+      "submission_number": 809,
+      "forum_url": "https://openreview.net/forum?id=APWsLGxrNL"
     },
     {
       "id": "E012",
@@ -80,8 +79,8 @@
       },
       "methodology_pdf": {
         "path": "submission/20261101/pdf/E012-methodology.pdf",
-        "sha256": "3874d55d5d711dc4683108feedae6d8ebb32205d5fad104b605e2e2ae7af5eff",
-        "bytes": 45346
+        "sha256": "d1daf6f6f81c6f700919cf25cf3cd7aee88bb02e030654ad1ab5ab52ba3f34e9",
+        "bytes": 48010
       },
       "abstract": {
         "path": "submission/20261101/forms/E012-abstract.txt",
@@ -108,7 +107,9 @@
         "path": "evidence/final-edition/20261101/reviews/E012-wording-check.json",
         "sha256": "09bd8eb111d91b027422a9bae8b3dd886070bf5905f6f99a7f068b46c66e6d5b",
         "bytes": 3813
-      }
+      },
+      "submission_number": 813,
+      "forum_url": "https://openreview.net/forum?id=yVPI6bUn4S"
     },
     {
       "id": "E051",
@@ -124,8 +125,8 @@
       },
       "methodology_pdf": {
         "path": "submission/20261101/pdf/E051-methodology.pdf",
-        "sha256": "a77d3b0babdd5d45f59c56c9eac6464ceb25c1dca0c20547930fa9d3b9b1ad4d",
-        "bytes": 42843
+        "sha256": "5406b58468d58b80525475f789c9b47db62b7d42bacb8d2641612f7ea93b5781",
+        "bytes": 45652
       },
       "abstract": {
         "path": "submission/20261101/forms/E051-abstract.txt",
@@ -146,7 +147,9 @@
         "path": "essays/final-20261101/prior-revisions/E051.md",
         "sha256": "f014d67df443c2aef3c67896d4f7594e79c8dcf04798c52d6a51716d52ef790c",
         "bytes": 22525
-      }
+      },
+      "submission_number": 816,
+      "forum_url": "https://openreview.net/forum?id=hkyjmSMpzW"
     }
   ],
   "previous_selection_register": {
@@ -155,14 +158,21 @@
     "bytes": 57700
   },
   "log_supplement": {
-    "path": "logs/updates/20261101-release/INDEX.json",
-    "sha256": "ba261dea7b46dbef333fea944266342ec008ff83372dbf213e47f887c718ae7e",
-    "bytes": 19284
+    "path": "logs/updates/20261101-submission/INDEX.json",
+    "sha256": "2d5a979e282bb878cab60445ce78dde802fa463b64c0c719fd615969711f959f",
+    "bytes": 3741
   },
   "publication": {
     "private_source": "RuslansAleksejevs/philosophy-lab",
     "public_copy": "RuslansAleksejevs/philosophy-lab-public",
     "copy_scope": "complete prepared current tree; separate Git history",
     "automatic_mirror": false
+  },
+  "edition": "submitted-2026-11-01",
+  "immutable_submission": "The six PDFs are the bytes downloaded from OpenReview. Later corrections must be separate dated descendants, never replacements presented as submitted originals.",
+  "previous_log_supplement": {
+    "path": "logs/updates/20261101-release/INDEX.json",
+    "sha256": "ba261dea7b46dbef333fea944266342ec008ff83372dbf213e47f887c718ae7e",
+    "bytes": 19284
   }
 }

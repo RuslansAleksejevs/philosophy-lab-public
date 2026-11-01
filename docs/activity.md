@@ -2,6 +2,8 @@
 
 # Recorded activity by week
 
+The table below preserves its original October 31 scope. The full archive now extends through submission on November 1: **15,695 visible messages in 3,424 sessions**. See the [latest export and cutoffs](../logs/updates/20261101-submission/README.md).
+
 This page describes the frozen October 31 morning snapshot: **14,939 visible message records across 35 active dates**, from September 7 to October 31, 2026. The dates below use **America/Los_Angeles**. An active date means at least one retained message with an original source timestamp.
 
 | Week | Message records | Active dates | Example dated record |
@@ -28,4 +30,4 @@ The preserved [activity calculation](../evidence/repository-audit/20261031/histo
 
 These are message counts, not counts of human contributions, finished reviews, essays, or hours worked. Agent task prompts can carry the `user` role. A week with fewer messages does not establish inactivity: per-session cutoffs and missing or excluded records limit coverage. Accepted Claude fragments, tool records, and [later receipts](../logs/updates/20261031-late-receipts/MANIFEST.json) are separate, sometimes overlapping evidence and are not added to this Codex message total.
 
-The denominator is the preserved 13,880-message export plus 1,059 recovered visible messages. The [union plan](../logs/updates/20261031-complete-visible/union-plan.json), [recovery summary](../logs/updates/20261031-complete-visible/native-recovery-summary.json), [source cutoffs](../logs/updates/20261031-complete-visible/native-source-cutoffs.json), and [frozen export manifest](../logs/updates/20261031-complete-visible/MANIFEST.json) describe that recovery and its remaining gaps. The later [final supplement](../logs/updates/20261031-final-verification/MANIFEST.json) brings the current union to 15,302 messages, including eight labelled inherited copies. Those additions do not change this frozen activity table.
+The denominator is the preserved 13,880-message export plus 1,059 recovered visible messages. The [union plan](../logs/updates/20261031-complete-visible/union-plan.json), [recovery summary](../logs/updates/20261031-complete-visible/native-recovery-summary.json), [source cutoffs](../logs/updates/20261031-complete-visible/native-source-cutoffs.json), and [frozen export manifest](../logs/updates/20261031-complete-visible/MANIFEST.json) describe that recovery and its remaining gaps. The later [final supplement](../logs/updates/20261031-final-verification/MANIFEST.json) brought that dated union to 15,302 messages, including eight labelled inherited copies. Those additions do not change this frozen activity table.

@@ -1,211 +1,188 @@
 {
-  "schema": "prepared-submission-copy.v1",
-  "source_manifest": {
-    "path": "evidence/final-edition/20261101/layout/READY.json",
-    "sha256": "d5a15e29d46cc9b9090c5b7fce80b3bf3fdf03482ef93730fcafdf0fcd211de8",
-    "bytes": 12975
-  },
-  "status": "EXACT_COPY_OF_CHECKED_PREPARED_PACKAGE",
-  "six_pdf_pages": 44,
+  "schema": "verified-submission-package.v2",
+  "edition": "submitted-2026-11-01",
   "files": [
     {
-      "path": "submission/20261101/pdf/E012-essay.pdf",
-      "sha256": "6cd4bc64165c84b712b98f7805503033b89b2761526d0b016263f40282ca98ae",
-      "bytes": 60365,
-      "source_path": "output/pdf/submission-20261101/E012-essay.pdf"
+      "path": "submission/20261101/README.md",
+      "sha256": "2d2a7a3fb22d3e8ed8bf1789eb4a54eaca32b201034f5a390974a91b1d3aef3f",
+      "bytes": 1710
     },
     {
-      "path": "submission/20261101/pdf/E012-methodology.pdf",
-      "sha256": "3874d55d5d711dc4683108feedae6d8ebb32205d5fad104b605e2e2ae7af5eff",
-      "bytes": 45346,
-      "source_path": "output/pdf/submission-20261101/E012-methodology.pdf"
+      "path": "submission/20261101/SHA256SUMS.txt",
+      "sha256": "f882d92d90d68d48e600b9e642bc739bed7c29d8bbbe970c1bec750d91e46dad",
+      "bytes": 528
     },
     {
-      "path": "submission/20261101/pdf/E050-essay.pdf",
-      "sha256": "ed332e2687f7c6273636fc8fbef6f46a75c7d131e20bc0c0f733745d314cf45b",
-      "bytes": 81591,
-      "source_path": "output/pdf/submission-20261101/E050-essay.pdf"
-    },
-    {
-      "path": "submission/20261101/pdf/E050-methodology.pdf",
-      "sha256": "a29d7fe248cb631fb2b43dcec70c7421606c2f66f03e01777601263560481583",
-      "bytes": 43769,
-      "source_path": "output/pdf/submission-20261101/E050-methodology.pdf"
-    },
-    {
-      "path": "submission/20261101/pdf/E051-essay.pdf",
-      "sha256": "ec2b29245f2fec6b32e9c39f8769ee2e92dea62f339127601d06ff3b335a0844",
-      "bytes": 50322,
-      "source_path": "output/pdf/submission-20261101/E051-essay.pdf"
-    },
-    {
-      "path": "submission/20261101/pdf/E051-methodology.pdf",
-      "sha256": "a77d3b0babdd5d45f59c56c9eac6464ceb25c1dca0c20547930fa9d3b9b1ad4d",
-      "bytes": 42843,
-      "source_path": "output/pdf/submission-20261101/E051-methodology.pdf"
-    },
-    {
-      "path": "submission/20261101/latex/E012/body.tex",
-      "sha256": "6d84f51c19b1aa63cf386d28a7fb11e853236ecd056ec5c63475bd3e45c807aa",
-      "bytes": 31433,
-      "source_path": "output/latex/submission-20261101/E012/body.tex"
-    },
-    {
-      "path": "submission/20261101/latex/E012/main.tex",
-      "sha256": "6eae1665ed88d47747dd6f70307679e194e0c718738f4a066e2118c4062628ee",
-      "bytes": 2173,
-      "source_path": "output/latex/submission-20261101/E012/main.tex"
-    },
-    {
-      "path": "submission/20261101/latex/E012-methodology/body.tex",
-      "sha256": "55639a254652fabcd96717966b512e7448ef9aa9252ce16cbbbc4d869373e8bc",
-      "bytes": 22732,
-      "source_path": "output/latex/submission-20261101/E012-methodology/body.tex"
-    },
-    {
-      "path": "submission/20261101/latex/E012-methodology/main.tex",
-      "sha256": "d5dd99c3ab8803d819d8655546bcf15dffeea2c4ea0b73592d56a04cfb27d91a",
-      "bytes": 2121,
-      "source_path": "output/latex/submission-20261101/E012-methodology/main.tex"
-    },
-    {
-      "path": "submission/20261101/latex/E050/body.tex",
-      "sha256": "e9d811c118ba0659d4b675576fabf3a4a20d87d40409605ce5600273deeb97a9",
-      "bytes": 30927,
-      "source_path": "output/latex/submission-20261101/E050/body.tex"
-    },
-    {
-      "path": "submission/20261101/latex/E050/main.tex",
-      "sha256": "c0f72cf95d30e35630bb9d4fece2df5ff4c3147fde07c531d15111258c140f75",
-      "bytes": 2230,
-      "source_path": "output/latex/submission-20261101/E050/main.tex"
-    },
-    {
-      "path": "submission/20261101/latex/E050-methodology/body.tex",
-      "sha256": "7f5939289310ec17cb1ae9cd6654b62dead5b6c37681c99a944edec731670277",
-      "bytes": 21251,
-      "source_path": "output/latex/submission-20261101/E050-methodology/body.tex"
-    },
-    {
-      "path": "submission/20261101/latex/E050-methodology/main.tex",
-      "sha256": "d5dd99c3ab8803d819d8655546bcf15dffeea2c4ea0b73592d56a04cfb27d91a",
-      "bytes": 2121,
-      "source_path": "output/latex/submission-20261101/E050-methodology/main.tex"
-    },
-    {
-      "path": "submission/20261101/latex/E051/body.tex",
-      "sha256": "37c94668a25b709b5d3e2344f4da492a889ee0a0ff583e9c3f7d43937800c170",
-      "bytes": 23587,
-      "source_path": "output/latex/submission-20261101/E051/body.tex"
-    },
-    {
-      "path": "submission/20261101/latex/E051/main.tex",
-      "sha256": "cab456c593f0338df5c0057f677d77a69999b3c778295e5dc3490c46901c6d18",
-      "bytes": 2185,
-      "source_path": "output/latex/submission-20261101/E051/main.tex"
-    },
-    {
-      "path": "submission/20261101/latex/E051-methodology/body.tex",
-      "sha256": "6572d4d62e353827250c23cd3434c0b647a6d00d268d33ec05935ae6d752aa95",
-      "bytes": 21449,
-      "source_path": "output/latex/submission-20261101/E051-methodology/body.tex"
-    },
-    {
-      "path": "submission/20261101/latex/E051-methodology/main.tex",
-      "sha256": "d5dd99c3ab8803d819d8655546bcf15dffeea2c4ea0b73592d56a04cfb27d91a",
-      "bytes": 2121,
-      "source_path": "output/latex/submission-20261101/E051-methodology/main.tex"
+      "path": "submission/20261101/Submission-Package-E050-E012-E051.zip",
+      "sha256": "d9c1514d10a2da21222349d86647bd5b588b2c2224848bb1a76c90f430e1ba28",
+      "bytes": 427258
     },
     {
       "path": "submission/20261101/forms/E012-abstract.txt",
       "sha256": "5e4e32403c79931ebe0ace5de22acb8421aa1cf636b5140c8aa2c131d9d2a6ac",
-      "bytes": 1057,
-      "source_path": "output/submission-20261101/E012-abstract.txt"
+      "bytes": 1057
+    },
+    {
+      "path": "submission/20261101/forms/E012-form.json",
+      "sha256": "4551ad8fa324141b4d7092f0d23c0e97d187556a225024df3994357544aec26e",
+      "bytes": 2384
     },
     {
       "path": "submission/20261101/forms/E012-form.txt",
-      "sha256": "fe5dd5c99123a3f2e0c5f8c6ab9f507bf9fa8ac885e6f08a64dd481389cb2db0",
-      "bytes": 2483,
-      "source_path": "output/submission-20261101/E012-form.txt"
+      "sha256": "58cf90585bacec3b8c73c7e56d586605bf4cd47892a0fe022c8930baab66ab15",
+      "bytes": 2496
     },
     {
       "path": "submission/20261101/forms/E012-methodology.txt",
-      "sha256": "19c55abbc18e5d0eba8c813f67c851580f13d8eb4b716abfa36d6f13b3ad79ad",
-      "bytes": 22416,
-      "source_path": "output/submission-20261101/E012-methodology.txt"
+      "sha256": "538fb2bfd633a499df7f98d05cbadd640b4f54f5162640cc528bf9a9a95f73a1",
+      "bytes": 24357
     },
     {
       "path": "submission/20261101/forms/E050-abstract.txt",
       "sha256": "96fdd1870a55f20a3e935df61f9d94042ed4a63a4582e329ecc77fc53341e14b",
-      "bytes": 1026,
-      "source_path": "output/submission-20261101/E050-abstract.txt"
+      "bytes": 1026
+    },
+    {
+      "path": "submission/20261101/forms/E050-form.json",
+      "sha256": "621645304ac400c4d6f0a8b79ad869f95d36cbfbe1660e7bffe76754078efb0f",
+      "bytes": 2519
     },
     {
       "path": "submission/20261101/forms/E050-form.txt",
-      "sha256": "bae65ea812a34d5ff96eeada522c5bfd5301b2e910a962e91b9c38842dd42629",
-      "bytes": 2606,
-      "source_path": "output/submission-20261101/E050-form.txt"
+      "sha256": "cb9c5dbd63e4614df728f7823624cf18a0cd889c9131282f6ee607a375969677",
+      "bytes": 2619
     },
     {
       "path": "submission/20261101/forms/E050-methodology.txt",
-      "sha256": "b3b61c99b800d98480f8899b597f6667b153693b7d95e43ce5d277019791f4e8",
-      "bytes": 20935,
-      "source_path": "output/submission-20261101/E050-methodology.txt"
+      "sha256": "0fa3a65bb6e8f03fd8d2ba41029bc3724a6f22215b2d87c3f51026ec6d401c84",
+      "bytes": 22876
     },
     {
       "path": "submission/20261101/forms/E051-abstract.txt",
       "sha256": "367393cfd637615da3fd38773bd6124f7247284e6036f23eb1120d5b3b1cd660",
-      "bytes": 1030,
-      "source_path": "output/submission-20261101/E051-abstract.txt"
-    },
-    {
-      "path": "submission/20261101/forms/E051-form.txt",
-      "sha256": "d0da3d9fee69c27467c208f07cd52734df4089fade599c72ee3dcbc9f1ba1f42",
-      "bytes": 2492,
-      "source_path": "output/submission-20261101/E051-form.txt"
-    },
-    {
-      "path": "submission/20261101/forms/E051-methodology.txt",
-      "sha256": "1c71ab49baeb3b2a4aa71f586a9951d6c75d9943a2206cec9725b823031848a9",
-      "bytes": 21151,
-      "source_path": "output/submission-20261101/E051-methodology.txt"
-    },
-    {
-      "path": "submission/20261101/forms/FORM_GUIDE_RU.txt",
-      "sha256": "10d5d26be64142cec8069b68d97a4ceb14f3a4b7a2ebc1fe74e5554481eab612",
-      "bytes": 2235,
-      "source_path": "output/submission-20261101/FORM_GUIDE_RU.txt"
-    },
-    {
-      "path": "submission/20261101/forms/README.txt",
-      "sha256": "09478323af69f7305682294a88429042ac229a4cbe8f025117d32cfc21514888",
-      "bytes": 1288,
-      "source_path": "output/submission-20261101/README.txt"
-    },
-    {
-      "path": "submission/20261101/forms/E012-form.json",
-      "sha256": "1f66b62fb48bf2c5d150ed9a1b9b87dcbfaa79fc9fa7ea278880be03ba76678c",
-      "bytes": 2371,
-      "source_path": "output/submission-20261101/E012-form.json"
-    },
-    {
-      "path": "submission/20261101/forms/E050-form.json",
-      "sha256": "c835c8abc8b7ab6ee4a8fe9f70839c728a42d0a7c84df9c8590ef86febada74d",
-      "bytes": 2506,
-      "source_path": "output/submission-20261101/E050-form.json"
+      "bytes": 1030
     },
     {
       "path": "submission/20261101/forms/E051-form.json",
-      "sha256": "34246080fd253438d78be814813d0b1ef26cd0e9817a24bfde7cc79c576b1691",
-      "bytes": 2414,
-      "source_path": "output/submission-20261101/E051-form.json"
+      "sha256": "febcae5a57f7e1e9eec05d50f4aa8729d24e6d9de36b027826fd45f262d05a45",
+      "bytes": 2427
     },
     {
-      "path": "submission/20261101/Submission-Package-E050-E012-E051.zip",
-      "sha256": "b81242214221bea01feffd2e5b01a86c3b16bed967d4a425fdd1cfbe12a7ca56",
-      "bytes": 414893,
-      "source_path": "output/Submission-Package-E050-E012-E051.zip"
+      "path": "submission/20261101/forms/E051-form.txt",
+      "sha256": "1e00476b6493296baf335ca98b49b4fe2399f2377438ae6c1bff2b3c29e14508",
+      "bytes": 2505
+    },
+    {
+      "path": "submission/20261101/forms/E051-methodology.txt",
+      "sha256": "236dd25fe4952766c6acf733da3154b33cffc274267e22e37201e34781ad4efe",
+      "bytes": 23092
+    },
+    {
+      "path": "submission/20261101/forms/FORM_GUIDE_RU.txt",
+      "sha256": "e09396607bdff286d437f8b8661a69263c67bfd78dc959ea16b10ad7ab92bfd8",
+      "bytes": 2248
+    },
+    {
+      "path": "submission/20261101/forms/README.txt",
+      "sha256": "c726d401d3ac0420d2f1c10b446600e2c49dc129cb79bcb634eb0bf30aa9258b",
+      "bytes": 1646
+    },
+    {
+      "path": "submission/20261101/latex/E012/body.tex",
+      "sha256": "6d84f51c19b1aa63cf386d28a7fb11e853236ecd056ec5c63475bd3e45c807aa",
+      "bytes": 31433
+    },
+    {
+      "path": "submission/20261101/latex/E012/main.tex",
+      "sha256": "6eae1665ed88d47747dd6f70307679e194e0c718738f4a066e2118c4062628ee",
+      "bytes": 2173
+    },
+    {
+      "path": "submission/20261101/latex/E012-methodology/body.tex",
+      "sha256": "852d62400e88451e78da89516f0626e91ba7dee5aba556af47077740b99c344b",
+      "bytes": 24900
+    },
+    {
+      "path": "submission/20261101/latex/E012-methodology/main.tex",
+      "sha256": "d5dd99c3ab8803d819d8655546bcf15dffeea2c4ea0b73592d56a04cfb27d91a",
+      "bytes": 2121
+    },
+    {
+      "path": "submission/20261101/latex/E050/body.tex",
+      "sha256": "e9d811c118ba0659d4b675576fabf3a4a20d87d40409605ce5600273deeb97a9",
+      "bytes": 30927
+    },
+    {
+      "path": "submission/20261101/latex/E050/main.tex",
+      "sha256": "c0f72cf95d30e35630bb9d4fece2df5ff4c3147fde07c531d15111258c140f75",
+      "bytes": 2230
+    },
+    {
+      "path": "submission/20261101/latex/E050-methodology/body.tex",
+      "sha256": "9a220313f03d75763a7271acf325bbe77f2110c675ccd389060df4b71a3c4d49",
+      "bytes": 23419
+    },
+    {
+      "path": "submission/20261101/latex/E050-methodology/main.tex",
+      "sha256": "d5dd99c3ab8803d819d8655546bcf15dffeea2c4ea0b73592d56a04cfb27d91a",
+      "bytes": 2121
+    },
+    {
+      "path": "submission/20261101/latex/E051/body.tex",
+      "sha256": "37c94668a25b709b5d3e2344f4da492a889ee0a0ff583e9c3f7d43937800c170",
+      "bytes": 23587
+    },
+    {
+      "path": "submission/20261101/latex/E051/main.tex",
+      "sha256": "cab456c593f0338df5c0057f677d77a69999b3c778295e5dc3490c46901c6d18",
+      "bytes": 2185
+    },
+    {
+      "path": "submission/20261101/latex/E051-methodology/body.tex",
+      "sha256": "fbf77695ffc03ba748e36c6f9497b1b5cf98032073b4d34d7e781b6f11f6fa87",
+      "bytes": 23617
+    },
+    {
+      "path": "submission/20261101/latex/E051-methodology/main.tex",
+      "sha256": "d5dd99c3ab8803d819d8655546bcf15dffeea2c4ea0b73592d56a04cfb27d91a",
+      "bytes": 2121
+    },
+    {
+      "path": "submission/20261101/pdf/E012-essay.pdf",
+      "sha256": "6cd4bc64165c84b712b98f7805503033b89b2761526d0b016263f40282ca98ae",
+      "bytes": 60365
+    },
+    {
+      "path": "submission/20261101/pdf/E012-methodology.pdf",
+      "sha256": "d1daf6f6f81c6f700919cf25cf3cd7aee88bb02e030654ad1ab5ab52ba3f34e9",
+      "bytes": 48010
+    },
+    {
+      "path": "submission/20261101/pdf/E050-essay.pdf",
+      "sha256": "ed332e2687f7c6273636fc8fbef6f46a75c7d131e20bc0c0f733745d314cf45b",
+      "bytes": 81591
+    },
+    {
+      "path": "submission/20261101/pdf/E050-methodology.pdf",
+      "sha256": "e971ecf04830203a64a0b8a844723d15468f8bd0b17e9b61063a1aa9895a24a8",
+      "bytes": 46596
+    },
+    {
+      "path": "submission/20261101/pdf/E051-essay.pdf",
+      "sha256": "ec2b29245f2fec6b32e9c39f8769ee2e92dea62f339127601d06ff3b335a0844",
+      "bytes": 50322
+    },
+    {
+      "path": "submission/20261101/pdf/E051-methodology.pdf",
+      "sha256": "5406b58468d58b80525475f789c9b47db62b7d42bacb8d2641612f7ea93b5781",
+      "bytes": 45652
     }
   ],
-  "submission_boundary": "Human confirmation is separate; these hashes identify the prepared local files, not independently verified uploads."
+  "submission_verification": {
+    "path": "evidence/closeout/20261101/SUBMISSION_VERIFICATION.json",
+    "sha256": "b31deac0fb74fb7e756fcb5c0a7fa6abb10b374ec6823ffad109b3688a1c0188",
+    "bytes": 3940
+  },
+  "pdf_pages": 47,
+  "note": "Form templates are preparation aids; the six PDFs are verified platform attachments."
 }

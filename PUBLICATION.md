@@ -6,11 +6,11 @@
 
 The copy includes all files in the prepared release: earlier essays and versions, rejected candidates, disagreements, retained conversations, judge profiles, methods, final manuscripts and their checks. It starts its own Git history from that release. The original private Git history is preserved in place; private files removed before this release do not reappear through old commits. This is a dated copy, not an automatic mirror of later local activity.
 
-[Publication instruction](evidence/final-edition/20261101/REQUEST.txt) · [Final research import](evidence/final-edition/20261101/RESEARCH_IMPORT.json) · [Conversation boundary](logs/updates/20261101-release/README.md).
+[Publication instruction](evidence/final-edition/20261101/REQUEST.txt) · [Final research import](evidence/final-edition/20261101/RESEARCH_IMPORT.json) · [Latest conversation boundary](logs/updates/20261101-submission/README.md).
 
 ## Submission status
 
-Ruslan confirmed that E050, E012 and E051 were submitted. This is a human-reported status, separate from the prepared file checks; no platform receipt or exact uploaded-file hash is asserted. [Confirmation](evidence/final-edition/20261101/SUBMISSION_CONFIRMATION.json) · [Final package](submission/20261101/README.md).
+The final E050, E012 and E051 submissions are now verified: their six attachments were downloaded through the signed-in OpenReview pages and matched byte for byte against the local files. [Exact verification and later report amendments](docs/submitted-edition.md). The earlier human confirmation below remains a historical record. [Confirmation](evidence/final-edition/20261101/SUBMISSION_CONFIRMATION.json) · [Final package](submission/20261101/README.md).
 
 ## Language and authorship
 

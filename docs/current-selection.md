@@ -2,7 +2,7 @@
 
 # Three final essays
 
-**E050, E012 and E051.** Ruslan confirmed on November 1, 2026 that he submitted all three to the competition. The files below are the final prepared edition. The submission status comes from his report; platform receipts and exact uploaded file hashes have not been independently checked.
+**E050, E012 and E051 — submitted and verified.** On November 1, all six attachments were downloaded from the signed-in OpenReview pages and matched byte for byte to the files below. This includes the last methodology amendments. [Submission numbers, checksums and preserved earlier versions](submitted-edition.md).
 
 | Essay | Read | Accompanying material |
 | --- | --- | --- |

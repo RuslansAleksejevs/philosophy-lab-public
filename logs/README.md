@@ -7,14 +7,14 @@
 - [Original planning](codex/chats/01a07d7c-05c5-7091-a7cc-692e19ff8fca/conversation.md): the archive, idea tournaments, and agents in the judges' image.
 - [Selected quotations](../docs/quotes.md): 65 excerpts, with original Russian and English translations.
 - [History and turning points](../docs/timeline.md): a guided route through the work.
-- [Earlier session index](index.json) + [new fragments](updates/20261101-release/INDEX.json): the structured inventory for deeper inspection.
+- [Earlier session index](index.json) + [release fragments](updates/20261101-release/INDEX.json) + [submission fragments](updates/20261101-submission/INDEX.json): the structured inventory for deeper inspection.
 - [Evidence guide](../evidence/README.md): manuscripts, reviews, decisions and verification records.
 
-**Current union:** 15,657 visible messages across 3,424 indexed sessions. The [November 1 supplement](updates/20261101-release/README.md) adds 355 messages to the unchanged earlier export. Its scan ran at 11:19:50–11:20:13 UTC; exact boundaries are recorded per source. Eight labelled inherited copies remain included in the old baseline. Gaps, unsupported tools and attachments remain explicit.
+**Current union:** 15,695 visible messages across 3,424 indexed sessions. The [release supplement](updates/20261101-release/README.md) added 355 messages; the [submission supplement](updates/20261101-submission/README.md) adds another 38. The latest scan ran on November 1 at 12:07:03–12:07:28 UTC; exact boundaries are recorded per source. Eight labelled inherited copies remain included in the old baseline. Gaps, unsupported tools and attachments remain explicit.
 
 The [final three](../docs/current-selection.md) now have exact manuscripts, PDFs and checks. Local logging continues beyond this release's cutoff.
 
-The current edition's verification command is in the [release record](../evidence/final-edition/20261101/README.md).
+The current edition's verification command is in the [preservation guide](../docs/preservation.md).
 
 The commands inside older snapshots below apply to those historical views.
 

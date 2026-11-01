@@ -2,7 +2,7 @@
 
 # What Holding Cannot Tell Us About Letting Go
 
-**Final edition · November 1, 2026.** Ruslan reports this essay submitted. [Read the final PDF](../../submission/20261101/pdf/E050-essay.pdf) · [Final text](../final-20261101/E050.md) · [Method report](../../submission/20261101/pdf/E050-methodology.pdf) · [All three](../../docs/current-selection.md).
+**Verified submission edition · November 1, 2026.** The submitted essay and its final report were downloaded from OpenReview and matched byte for byte. [Read the final PDF](../../submission/20261101/pdf/E050-essay.pdf) · [Final text](../final-20261101/E050.md) · [Method report](../../submission/20261101/pdf/E050-methodology.pdf) · [All three](../../docs/current-selection.md).
 
 
 **E050 · Recommended · Assessment as of October 31, 2026**
