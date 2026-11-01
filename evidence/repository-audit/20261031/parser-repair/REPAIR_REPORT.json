@@ -1,0 +1,38 @@
+{
+  "status": "IMPLEMENTED_AND_REVIEWED_BOUNDED_SCHEMA_SUPPORT",
+  "production_files_changed": [
+    "scripts/capture_codex.py"
+  ],
+  "tests_file": "tests/test_capture_codex_current_schema.py",
+  "observed_schema": {
+    "ordinary_user": "content_item_kinds exactly [user.text], optional content_item_metadata exactly [{provenance:{type:user}}]",
+    "assistant": "status exactly completed, existing visible phases only; only empty annotations/logprobs presentation arrays",
+    "connected_attribution": "connector_ followed by 32 lowercase hex digits; server codex_apps; bounded provider.method tool identifier; no simultaneous plugin_id"
+  },
+  "checks": [
+    {
+      "command": "python3 -B -m unittest discover -s tests -p 'test_capture_codex*.py'",
+      "tests": 32,
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -B -m unittest discover -s tests -p 'test_collector*.py'",
+      "tests": 109,
+      "exit_code": 0
+    }
+  ],
+  "independent_review": {
+    "agent": "/root/archive_audit",
+    "result": "No blocking findings; exact user provenance/kinds, context exclusion, completed/empty-array validation, and connector constraints reviewed."
+  },
+  "real_preflight": "REAL_SOURCE_PREFLIGHT.json",
+  "integration": [
+    "Capture current authorization using an explicit bounded source line (3056), exact session/cwd, and normal canonical archive writer. This audit did not perform that write.",
+    "capture_codex.py is capture-critical. Do not extend the old renderer-only signature alias to this new parser change. Plan collector rollout/reconciliation separately; current service was not restarted.",
+    "All current visible messages through source line3085 classify; remaining unsupported tool/internal schema gaps remain explicit. This is not a whole-provider coverage claim."
+  ],
+  "sha256": {
+    "scripts/capture_codex.py": "26c6d6781df7e9e02a4c4258c699e3fb798618e6b4815ff3431b23c31399f2c7",
+    "tests/test_capture_codex_current_schema.py": "023dcde7c308ac179986d94c708580b57bffda0cfe42b023ed6bb24982d6269e"
+  }
+}

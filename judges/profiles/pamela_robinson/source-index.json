@@ -1,0 +1,315 @@
+{
+  "schema": "judge-source-index-v1",
+  "judge_id": "pamela_robinson",
+  "prepared_date": "2026-10-07",
+  "source_packet": "source-packet.md",
+  "profile": "profile-v1.md",
+  "coverage_boundary": "Bounded text-extraction corpus; source-specific read limits apply. No exhaustive corpus or raw-document preservation claim. Hashes demonstrate internal consistency only.",
+  "sources": [
+    {
+      "source_id": "I1",
+      "title": "UBC Okanagan institutional page",
+      "url": "https://epp.ok.ubc.ca/about/contact/pamela-robinson/",
+      "coverage": "metadata",
+      "read_limits": "Institutional identity.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn5search1.txt",
+          "tool_reference_id": "turn5search1",
+          "sha256": "7e61479754419224506c83a452968f657df724d2266281cfea15e3fe01433472",
+          "size_bytes": 1097,
+          "returned_or_attempted_urls": [
+            "https://epp.ok.ubc.ca/about/contact/pamela-robinson/"
+          ],
+          "extracted_line_ranges_present": []
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "I2",
+      "title": "Author research catalogue",
+      "url": "https://pamela-robinson.com/research/",
+      "coverage": "metadata",
+      "read_limits": "Author attribution and publication links.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn7view3.txt",
+          "tool_reference_id": "turn7view3",
+          "sha256": "b69ee82baebb667136d99f50aae9f96b27211f4b64a25bd33d54fe4bf3e64653",
+          "size_bytes": 2682,
+          "returned_or_attempted_urls": [
+            "https://pamela-robinson.com/research/"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              22
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "S1",
+      "title": "Moral disagreement and artificial intelligence, online2023/volume2024",
+      "url": "https://doi.org/10.1007/s00146-023-01697-y",
+      "coverage": "substantial_excerpt",
+      "read_limits": "Extracted lines0–97 and145–219: introduction and2.1.2–3.2.1. Later complete risk argument not read.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn15view2.txt",
+          "tool_reference_id": "turn15view2",
+          "sha256": "515e0c7c336a38f8178993410c407fe17a16344c28a16356ed00b6bb44f07d1b",
+          "size_bytes": 10112,
+          "returned_or_attempted_urls": [
+            "https://doi.org/10.1007/s00146-023-01697-y"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              97
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn69view2.txt",
+          "tool_reference_id": "turn69view2",
+          "sha256": "b8d2455ad47175067979dd758fb5915ab0f073658c55fcedd3f2b31b34d0c737",
+          "size_bytes": 17780,
+          "returned_or_attempted_urls": [
+            "https://doi.org/10.1007/s00146-023-01697-y"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              145,
+              219
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": true,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "S2",
+      "title": "Why Explanationists Shouldn’t Make Evidential Fit Dispositional (with Andrew Moon), Syndicate symposium",
+      "url": "https://syndicate.network/symposia/philosophy/evidentialism-and-epistemic-justification/",
+      "coverage": "full_contribution",
+      "read_limits": "Joint contribution lines615–706 read. The page contains other contributors; preceding text and Kevin McCain’s response from709 onward are not Robinson’s words. Author catalogue gives a variant title beginning Why Evidentialists.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn66view2.txt",
+          "tool_reference_id": "turn66view2",
+          "sha256": "d89965266a79792876e0263e640b5e08800f510ffb54285b193c69a31759f57f",
+          "size_bytes": 16573,
+          "returned_or_attempted_urls": [
+            "https://syndicate.network/symposia/philosophy/evidentialism-and-epistemic-justification/"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              597,
+              667
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn69view1.txt",
+          "tool_reference_id": "turn69view1",
+          "sha256": "04c64ced5214dc3dcccba8c7601e1b34b6e9bac6403847a584a3ec8fa9991327",
+          "size_bytes": 17911,
+          "returned_or_attempted_urls": [
+            "https://syndicate.network/symposia/philosophy/evidentialism-and-epistemic-justification/"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              642,
+              718
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": true,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "D1",
+      "title": "AI design regress, event and access attempts",
+      "url": "https://pamela-robinson.com/research/",
+      "coverage": "metadata",
+      "read_limits": "Abstract/notes, event description, and failed or empty viewer routes; not substantive reading. Exact URLs in evidence.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn15view1.txt",
+          "tool_reference_id": "turn15view1",
+          "sha256": "67e9202262545e120a5744fbefd7181b7051005e1f5d5e216da512603cf49d0f",
+          "size_bytes": 11220,
+          "returned_or_attempted_urls": [
+            "https://link.springer.com/article/10.1007/s11098-024-02176-w",
+            "https://www.bloomberg.com/features/2024-ai-warfare-project-maven/?srnd=homepage-americas&sref=62t700Zl†www.bloomberg.com",
+            "https://futureoflife.org/project/artificial-escalation/†futureoflife.org",
+            "https://www.sae.org/blog/sae-j3016-update†www.sae.org"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              126
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn39search9.txt",
+          "tool_reference_id": "turn39search9",
+          "sha256": "7abbd3f967b2c2dfb76ad701fe1663bf68f60aeba4ce48428fa35812831bb676",
+          "size_bytes": 3395,
+          "returned_or_attempted_urls": [
+            "https://law.anu.edu.au/news-and-events/event-calendar/hard-problem-value-alignment"
+          ],
+          "extracted_line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn61view0.txt",
+          "tool_reference_id": "turn61view0",
+          "sha256": "5eda2b635b90a14ffa2ed2ec9450af4d21719f82421f3f7d8aa04fc752fa5555",
+          "size_bytes": 155,
+          "returned_or_attempted_urls": [
+            "https://philarchive.org/archive/MOOWES"
+          ],
+          "extracted_line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn64view1.txt",
+          "tool_reference_id": "turn64view1",
+          "sha256": "4e11fe3d481a2a51889894b91ae40f115a63b17d8d9ae82d4daf5d621c50733d",
+          "size_bytes": 205,
+          "returned_or_attempted_urls": [
+            "https://philarchive.org/archive/ROBINU:"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn42view5.txt",
+          "tool_reference_id": "turn42view5",
+          "sha256": "012d984664c393071cbc67308d30507b35e4f435fc5c2d2c89e535751bfb591e",
+          "size_bytes": 308,
+          "returned_or_attempted_urls": [
+            "https://drive.google.com/file/d/1EyvSCJbYRn43Ih3zyM0LxPV4MmWED_8z/view?usp=sharing"
+          ],
+          "extracted_line_ranges_present": []
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": false
+    },
+    {
+      "source_id": "D2",
+      "title": "McCain reply discovery",
+      "url": "https://syndicate.network/symposia/philosophy/evidentialism-and-epistemic-justification/",
+      "coverage": "metadata",
+      "read_limits": "Reply disputes interpretation/counterexamples; not attributed to Robinson and not adjudicated here.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn63search2.txt",
+          "tool_reference_id": "turn63search2",
+          "sha256": "ceee7ccad041999547fa1d094f05825ecda30459b9d286010c262990bf72704d",
+          "size_bytes": 10250,
+          "returned_or_attempted_urls": [
+            "https://syndicate.network/symposia/philosophy/evidentialism-and-epistemic-justification/"
+          ],
+          "extracted_line_ranges_present": []
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": false
+    },
+    {
+      "source_id": "X1",
+      "title": "Excluded homonyms",
+      "url": "https://pamela-robinson.com/",
+      "coverage": "excluded",
+      "read_limits": "Unrelated ballet and urban-planning search results retained for disambiguation audit only; never evaluator evidence.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn39search1.txt",
+          "tool_reference_id": "turn39search1",
+          "sha256": "931e47653bc1ec6a4dc024eff2da0c8802f1f5f939d90c79c89ac6a814bbd424",
+          "size_bytes": 2776,
+          "returned_or_attempted_urls": [
+            "https://www.balletwest.org/news/detail/pamela-robinsons-40-year-journey-with-ballet-west"
+          ],
+          "extracted_line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn39search8.txt",
+          "tool_reference_id": "turn39search8",
+          "sha256": "fa803f3727690ad5f15808718c574edde6cb933c69c94c4100327d029323cd5b",
+          "size_bytes": 1580,
+          "returned_or_attempted_urls": [
+            "https://urbantechnology.substack.com/p/pamela-robinson-imagines-supportive"
+          ],
+          "extracted_line_ranges_present": []
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": false
+    }
+  ],
+  "other_evidence_files": [
+    {
+      "path": "evidence/catalogs-tool.txt",
+      "sha256": "b69ee82baebb667136d99f50aae9f96b27211f4b64a25bd33d54fe4bf3e64653",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    },
+    {
+      "path": "evidence/read1-tool.txt",
+      "sha256": "78e246410a2341441423dd2101dd1933f45a922c59bda120b4a4cc1c7537c833",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    },
+    {
+      "path": "evidence/search2-tool.txt",
+      "sha256": "855aae37be2f863df9b82c9a26cef50f92232efaacccf0085fb7ad83759fcbfb",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    },
+    {
+      "path": "evidence/sources1-tool.txt",
+      "sha256": "692de31f3380306b1e579891d2a3b413762df52fd47557ba1f8f26e40e5ea7dd",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    }
+  ]
+}

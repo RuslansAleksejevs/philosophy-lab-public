@@ -1,0 +1,171 @@
+{
+  "schema": "judge-reading-log-v1",
+  "judge_id": "pamela_robinson",
+  "access_date": "2026-10-07",
+  "retrieval_form": "Web-tool source fragments; originals retained verbatim, including errors and extraction defects. Not raw HTTP or original PDF files.",
+  "readings": [
+    {
+      "source_id": "I1",
+      "coverage": "metadata",
+      "read_locations": "Institutional identity.",
+      "artifacts": [
+        {
+          "path": "evidence/turn5search1.txt",
+          "sha256": "7e61479754419224506c83a452968f657df724d2266281cfea15e3fe01433472",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "I2",
+      "coverage": "metadata",
+      "read_locations": "Author attribution and publication links.",
+      "artifacts": [
+        {
+          "path": "evidence/turn7view3.txt",
+          "sha256": "b69ee82baebb667136d99f50aae9f96b27211f4b64a25bd33d54fe4bf3e64653",
+          "line_ranges_present": [
+            [
+              0,
+              22
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S1",
+      "coverage": "substantial_excerpt",
+      "read_locations": "Extracted lines0–97 and145–219: introduction and2.1.2–3.2.1. Later complete risk argument not read.",
+      "artifacts": [
+        {
+          "path": "evidence/turn15view2.txt",
+          "sha256": "515e0c7c336a38f8178993410c407fe17a16344c28a16356ed00b6bb44f07d1b",
+          "line_ranges_present": [
+            [
+              0,
+              97
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn69view2.txt",
+          "sha256": "b8d2455ad47175067979dd758fb5915ab0f073658c55fcedd3f2b31b34d0c737",
+          "line_ranges_present": [
+            [
+              145,
+              219
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S2",
+      "coverage": "full_contribution",
+      "read_locations": "Joint contribution lines615–706 read. The page contains other contributors; preceding text and Kevin McCain’s response from709 onward are not Robinson’s words. Author catalogue gives a variant title beginning Why Evidentialists.",
+      "artifacts": [
+        {
+          "path": "evidence/turn66view2.txt",
+          "sha256": "d89965266a79792876e0263e640b5e08800f510ffb54285b193c69a31759f57f",
+          "line_ranges_present": [
+            [
+              597,
+              667
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn69view1.txt",
+          "sha256": "04c64ced5214dc3dcccba8c7601e1b34b6e9bac6403847a584a3ec8fa9991327",
+          "line_ranges_present": [
+            [
+              642,
+              718
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "D1",
+      "coverage": "metadata",
+      "read_locations": "Abstract/notes, event description, and failed or empty viewer routes; not substantive reading. Exact URLs in evidence.",
+      "artifacts": [
+        {
+          "path": "evidence/turn15view1.txt",
+          "sha256": "67e9202262545e120a5744fbefd7181b7051005e1f5d5e216da512603cf49d0f",
+          "line_ranges_present": [
+            [
+              0,
+              126
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn39search9.txt",
+          "sha256": "7abbd3f967b2c2dfb76ad701fe1663bf68f60aeba4ce48428fa35812831bb676",
+          "line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn61view0.txt",
+          "sha256": "5eda2b635b90a14ffa2ed2ec9450af4d21719f82421f3f7d8aa04fc752fa5555",
+          "line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn64view1.txt",
+          "sha256": "4e11fe3d481a2a51889894b91ae40f115a63b17d8d9ae82d4daf5d621c50733d",
+          "line_ranges_present": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn42view5.txt",
+          "sha256": "012d984664c393071cbc67308d30507b35e4f435fc5c2d2c89e535751bfb591e",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "D2",
+      "coverage": "metadata",
+      "read_locations": "Reply disputes interpretation/counterexamples; not attributed to Robinson and not adjudicated here.",
+      "artifacts": [
+        {
+          "path": "evidence/turn63search2.txt",
+          "sha256": "ceee7ccad041999547fa1d094f05825ecda30459b9d286010c262990bf72704d",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "X1",
+      "coverage": "excluded",
+      "read_locations": "Unrelated ballet and urban-planning search results retained for disambiguation audit only; never evaluator evidence.",
+      "artifacts": [
+        {
+          "path": "evidence/turn39search1.txt",
+          "sha256": "931e47653bc1ec6a4dc024eff2da0c8802f1f5f939d90c79c89ac6a814bbd424",
+          "line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn39search8.txt",
+          "sha256": "fa803f3727690ad5f15808718c574edde6cb933c69c94c4100327d029323cd5b",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    }
+  ],
+  "temperament_search": "Targeted public author/institutional pages, media/interview or public discussion/review discovery. Actual accessible and failed results are indexed; metadata is not personality evidence.",
+  "gap_rule": "UNKNOWN is retained where the accessed material is inadequate. Full/excerpt refers to the contribution or main text, not all navigation, references, linked content or rendered equations."
+}

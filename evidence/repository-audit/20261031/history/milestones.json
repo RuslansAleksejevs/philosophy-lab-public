@@ -1,0 +1,1412 @@
+{
+  "display_timezone": "America/Los_Angeles",
+  "date_policy": "Source-observed time for messages; explicitly labelled recorded acceptance for receipts. No filesystem or Git commit date substitutes for production. Folder names can use UTC and are not treated as local dates.",
+  "earliest_preserved_source": {
+    "path": "research/views/chats/01a07d7c-05c5-7091-a7cc-692e19ff8fca/conversation.json",
+    "session_id": "01a07d7c-05c5-7091-a7cc-692e19ff8fca",
+    "source_line": 9,
+    "source_timestamp": "2026-09-07T20:08:33.758Z",
+    "raw_event_id": "event-50f738a68d9d450aa1147d5cca82aacd",
+    "raw_object_path": "research/archive/objects/f1f5c5e8f8e6c1e51231642051c07aceeb2da37886613600dc202e72e30fb571",
+    "raw_sha256": "f1f5c5e8f8e6c1e51231642051c07aceeb2da37886613600dc202e72e30fb571",
+    "text_sha256": "8cbed00ac45eed4421e587a88a6ef9d868dd236e7715fac4700eb093bb201ed0",
+    "repository_link": "../logs/codex/chats/01a07d7c-05c5-7091-a7cc-692e19ff8fca/conversation.md#source-line-9"
+  },
+  "existing_timeline": {
+    "path": "repository/docs/timeline.json",
+    "sha256": "22f9e04a0e79922129c72e45da4f2de62cc8578062f690655babee0b8102db60"
+  },
+  "milestones": [
+    {
+      "date_local": "2026-09-07",
+      "source_timestamp": "2026-09-07T20:08:33.758Z",
+      "kind": "Source-observed beginning",
+      "title": "The project begins in conversation",
+      "detail": "The earliest preserved message asks about the philosophy competition and its AI rules. Later that afternoon, the human explicitly declares the start of the project and asks for a complete record. This predates both the dedicated lab and its GitHub edition.",
+      "sources": [
+        {
+          "path": "research/views/chats/01a07d7c-05c5-7091-a7cc-692e19ff8fca/conversation.json",
+          "session_id": "01a07d7c-05c5-7091-a7cc-692e19ff8fca",
+          "source_line": 9,
+          "source_timestamp": "2026-09-07T20:08:33.758Z",
+          "raw_event_id": "event-50f738a68d9d450aa1147d5cca82aacd",
+          "raw_object_path": "research/archive/objects/f1f5c5e8f8e6c1e51231642051c07aceeb2da37886613600dc202e72e30fb571",
+          "raw_sha256": "f1f5c5e8f8e6c1e51231642051c07aceeb2da37886613600dc202e72e30fb571",
+          "text_sha256": "8cbed00ac45eed4421e587a88a6ef9d868dd236e7715fac4700eb093bb201ed0",
+          "repository_link": "../logs/codex/chats/01a07d7c-05c5-7091-a7cc-692e19ff8fca/conversation.md#source-line-9"
+        },
+        {
+          "path": "research/views/chats/01a07d7c-05c5-7091-a7cc-692e19ff8fca/conversation.json",
+          "session_id": "01a07d7c-05c5-7091-a7cc-692e19ff8fca",
+          "source_line": 852,
+          "source_timestamp": "2026-09-07T22:21:17.375Z",
+          "raw_event_id": "event-2ebd5c35cf4d4ecb9a92950436e6f3a9",
+          "raw_object_path": "research/archive/objects/707cfb4127efe5e8d65ece6734f3dceee541b229ccb5950b53cee49e3070ae5b",
+          "raw_sha256": "707cfb4127efe5e8d65ece6734f3dceee541b229ccb5950b53cee49e3070ae5b",
+          "text_sha256": "923681aa52f5c1374a86e54757e58163d536b4035ee332fa8ca7a04547105c92",
+          "repository_link": "../logs/codex/chats/01a07d7c-05c5-7091-a7cc-692e19ff8fca/conversation.md#source-line-852"
+        }
+      ],
+      "link": "../logs/codex/chats/01a07d7c-05c5-7091-a7cc-692e19ff8fca/conversation.md#source-line-9",
+      "id": "h01"
+    },
+    {
+      "date_local": "2026-09-07",
+      "source_timestamp": "2026-09-08T01:56:55.956377+00:00",
+      "kind": "Implementation recorded",
+      "title": "A dedicated laboratory is created",
+      "detail": "The first canonical lab-bound event is recorded at 18:56 PDT. The build connects a portable archive, exact source records, independent criticism, and recovery checks. The evening conversation confirms the separate Philosophy Lab exists.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000000001.json",
+          "sha256": "115110d197a9cdf5caf61db0c2fc64bc0c167ba17ee764a9675e52d38124b569",
+          "recorded_at": "2026-09-08T01:56:55.956377+00:00"
+        },
+        {
+          "path": "research/views/chats/01a07e00-3e51-7363-862a-73ce44b486e4/conversation.json",
+          "session_id": "01a07e00-3e51-7363-862a-73ce44b486e4",
+          "source_line": 826,
+          "source_timestamp": "2026-09-08T02:01:40.308Z",
+          "raw_event_id": "event-6ab67746fb7148cd9cea5e22f07bfd13",
+          "raw_object_path": "research/archive/objects/022a53a0c7ae79bb8d34ee7915f351440e34d48a6ec5b45eb8b4320fecb2c1f4",
+          "raw_sha256": "022a53a0c7ae79bb8d34ee7915f351440e34d48a6ec5b45eb8b4320fecb2c1f4",
+          "text_sha256": "341e343608036b7ee97d9933f2bc5189f5fb448844bf4d07900f82d686aedc1e",
+          "repository_link": "../logs/codex/chats/01a07e00-3e51-7363-862a-73ce44b486e4/conversation.md#source-line-826"
+        }
+      ],
+      "link": "provenance.md",
+      "id": "h02"
+    },
+    {
+      "date_local": "2026-09-08",
+      "source_timestamp": "2026-09-08T09:51:47.864666+00:00",
+      "kind": "Completion recorded",
+      "title": "The first ten essay cycles finish",
+      "detail": "Ten fresh author contexts produce ten essays, each retaining its draft, separate criticism, revision and final. Completion is recorded on September 8; it is not a ranking or a novelty certificate.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000011464.json",
+          "sha256": "fab278dfe8f4f3b0670a1a02c5eb0050e6ef3a6a4e429b633621badce83fa6d5",
+          "event_id": "event-dc23a19ad1b6424ba1b0c00c908fd69a",
+          "recorded_at": "2026-09-08T09:51:47.864666+00:00",
+          "kind": "campaign.completed"
+        },
+        {
+          "path": "research/campaigns/pilot10-20260908/completion.json",
+          "sha256": "bee8c9599686cc32b3a9238cce300983d08e955beb6bf352eb96fc1e6a8ff9e3"
+        }
+      ],
+      "link": "../essays/README.md",
+      "id": "h03"
+    },
+    {
+      "date_local": "2026-09-09",
+      "source_timestamp": "2026-09-10T00:51:30.416727+00:00",
+      "kind": "Completion recorded",
+      "title": "Twenty more essays test a lighter configuration",
+      "detail": "The second batch finishes with twenty more complete manuscripts and separate author/critic contexts. Astra low and AI-assigned broad areas change the process, so this is not a controlled comparison with the first ten.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000016018.json",
+          "sha256": "4ace59e8c1af23abbe465c6689d75d4722277a63e7dd935c92134a69cfd631e2",
+          "event_id": "event-2afedfa322694e238467f0ffd8df22a9",
+          "recorded_at": "2026-09-10T00:51:30.416727+00:00",
+          "kind": "campaign.completed"
+        },
+        {
+          "path": "research/campaigns/pilot20-20260909/campaign.json",
+          "sha256": "0a275531673a45e7f1a73aea824205936d68ea4b7e0cc302076fef5a4a70d718"
+        }
+      ],
+      "link": "../essays/README.md",
+      "id": "h04"
+    },
+    {
+      "date_local": "2026-09-10",
+      "source_timestamp": "2026-09-10T20:47:29.984442+00:00",
+      "kind": "Completion recorded",
+      "title": "Plain language becomes an explicit experiment",
+      "detail": "A third batch adds twenty essays with deliberately simpler prose and language criticism. Subscription limits lead to a recorded Astra-to-Sol continuation. Fifty completed essays now exist across the three initial batches.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000021152.json",
+          "sha256": "eb789fe32151b83b98e03d12a7325b11c36daa52d276de76137d34fd3bf56f05",
+          "event_id": "event-9e826584618f45c6a215a094159c07b3",
+          "recorded_at": "2026-09-10T20:47:29.984442+00:00",
+          "kind": "campaign.completed"
+        },
+        {
+          "path": "research/campaigns/plain20-20260910/MODEL_TRANSITION.md",
+          "sha256": "2ae1f59318c2c132088dca322ac83710fdcfe769f5f3ae25383247d0ef36e67e"
+        }
+      ],
+      "link": "methodology-index.md",
+      "id": "h05"
+    },
+    {
+      "date_local": "2026-09-12",
+      "source_timestamp": "2026-09-13T02:39:04.457Z",
+      "kind": "Rationale",
+      "title": "Use the second subscription",
+      "detail": "The bridge was meant to let the project use Claude Code’s subscription allowance too.",
+      "sources": [
+        {
+          "session_id": "01a09477-5a98-7ca2-bc2b-8e27701fee47",
+          "source_line": 1432,
+          "text_sha256": "bd4c82bfcc14cf0dccdf543d8844d4cec7c92de6283261550d071fd421e0be48"
+        }
+      ],
+      "link": "quotes.md#q43",
+      "existing_timeline_id": "t07",
+      "id": "h06"
+    },
+    {
+      "date_local": "2026-09-12",
+      "source_timestamp": "2026-09-13T04:01:12.285515+00:00",
+      "kind": "Implementation recorded",
+      "title": "Persistent bridge build accepted",
+      "detail": "The build was registered and checked; live transport and research acceptance were separate gates.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000080366.json",
+          "sha256": "121fd6439f3a342d75bb0b56c671af3d155c9597c7e08abb554794a9b640759b",
+          "field": "recorded_at",
+          "event_id": "event-df14e43c5aeb489482971721c33a4b00"
+        }
+      ],
+      "link": "bridge.md",
+      "existing_timeline_id": "t08",
+      "id": "h07"
+    },
+    {
+      "date_local": "2026-09-13",
+      "source_timestamp": "2026-09-14T02:51:07.533Z",
+      "kind": "Incident",
+      "title": "Preserve the tool-name misunderstanding",
+      "detail": "The Superset detour became part of the history, including its later rollback.",
+      "sources": [
+        {
+          "session_id": "01a09c03-070e-7342-bcca-f0653192c5fb",
+          "source_line": 1764,
+          "text_sha256": "048d8eb5af7f1ceb7d5fa50a7bca3e5c02f604aab017d3887f2226d6c58c74c0"
+        }
+      ],
+      "link": "quotes.md#q53",
+      "existing_timeline_id": "t09",
+      "id": "h08"
+    },
+    {
+      "date_local": "2026-09-20",
+      "source_timestamp": "2026-09-20T09:41:09.017011+00:00",
+      "kind": "Test completed",
+      "title": "The simple CLI runner passes a bounded live test",
+      "detail": "Three separate tasks test file context, dependency delivery, and interruption/resume. This opens a simpler route for the remaining Claude work; the test does not establish long-essay or quota-exhaustion reliability.",
+      "sources": [
+        {
+          "path": "runs/cli-smoke-live-20260920/final-report.json",
+          "sha256": "3e2e3c129ffa19a48118b30b55779dcdde633e4fc42ddf5d928c3348afc0a0f9",
+          "source_timestamp": "2026-09-20T09:41:09.017011+00:00"
+        }
+      ],
+      "link": "bridge.md",
+      "id": "h09"
+    },
+    {
+      "date_local": "2026-09-21",
+      "source_timestamp": "2026-09-21T21:38:47.170434+00:00",
+      "kind": "Implementation recorded",
+      "title": "Essay biographies become explicit records",
+      "detail": "The lineage backfill connects 86 existing essay folders to readable histories and source artifacts. Missing original birth times remain unknown instead of being replaced by the date of this backfill.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000103040.json",
+          "sha256": "3fba050db23719afd42295e4f5c5aa7b7e3b1abd79a99c27eb160bbe43b867cd",
+          "event_id": "event-9319c6b2c47d4bd6b8c414932df02c09",
+          "recorded_at": "2026-09-21T21:38:47.170434+00:00",
+          "kind": "essay.lineage.backfill_completed"
+        },
+        {
+          "path": "runs/essay-lineage-build-20260921/backfill-final-report.json",
+          "sha256": "4406d2f3f07f74cfca0bd13552be22d6ec1685b3a8c91ec1fda8c3d21e08db48"
+        }
+      ],
+      "link": "provenance.md",
+      "id": "h10"
+    },
+    {
+      "date_local": "2026-09-22",
+      "source_timestamp": "2026-09-22T11:42:23.621769+00:00",
+      "kind": "Series completion recorded",
+      "title": "A contribution check moves ahead of drafting",
+      "detail": "The creative series closes with ten selected manuscripts and seven preserved unsuccessful attempts. After early full-draft failures, checking the proposed contribution before drafting becomes part of the method; argument criticism and contribution criticism have different jobs.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000109590.json",
+          "sha256": "a7ff5cd883d233eeba474849c793b78a433133fbfad0bd7c2ab530227f8d13ec",
+          "event_id": "event-e28495eacb6842fc80326e6e09a40532",
+          "recorded_at": "2026-09-22T11:42:23.621769+00:00",
+          "kind": "essay.lineage.entry"
+        },
+        {
+          "path": "runs/creative10-20260922/completion-record.receipt.json",
+          "sha256": "48aab0f85eeaf7794ca7a5c590267d5d6e6bd22007de1e3fbb758877a1608a17"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/METHOD_AND_LIMITS_RU.md",
+          "sha256": "5eeb5aec6cb1a768f6d7d2dc8c2c29ee883225e007d2b2ee77a37b783830deea"
+        }
+      ],
+      "link": "methodology-index.md",
+      "id": "h11"
+    },
+    {
+      "date_local": "2026-09-23",
+      "source_timestamp": "2026-09-23T07:26:15.647667+00:00",
+      "kind": "Closeout recorded",
+      "title": "The ten-essay Claude series is saved",
+      "detail": "The closeout binds all ten Claude-series essays and 168 associated files, preserving interruptions, versions and known input problems. These essays are a real exception to any claim of exclusively Codex authorship.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000110152.json",
+          "sha256": "76703af02082220042548c2fa3c2a0185861ee73cfd75d8d947c7dcaaddb06ad",
+          "event_id": "event-6984e444fbc642faa6fb72b4cb5cfcab",
+          "recorded_at": "2026-09-23T07:26:15.647667+00:00",
+          "kind": "essay.closeout.saved"
+        },
+        {
+          "path": "runs/claude10-closeout-20260923/receipt.json",
+          "sha256": "6bc755638af01f2074932789f0cb8c78862c4721df33c0a421d9a4e3cb97ce12"
+        }
+      ],
+      "link": "bridge.md",
+      "id": "h12"
+    },
+    {
+      "date_local": "2026-09-24",
+      "source_timestamp": "2026-09-24T08:57:16.348717+00:00",
+      "kind": "Reduced scopes completed",
+      "title": "Five imaginative essays and eight judge-reviewed essays close",
+      "detail": "The five-essay Russian branch finishes after its earlier interruption. The named-profile series closes at eight complete essays; the twelve unstarted places are cancelled rather than presented as completed work.",
+      "sources": [
+        {
+          "path": "research/campaigns/phantasm5-20260912-01a0944c/finish-20260924/COMPLETION_RECEIPT.json",
+          "sha256": "20f1c31407d89c3a7eeb95068430ad5218e5d811a58bc76d7751bd1c1c58ddaa",
+          "recorded_at": "2026-09-24T08:57:16.348717+00:00"
+        },
+        {
+          "path": "research/archive/events/000000112004.json",
+          "sha256": "2c026b5120670ccf899b58e86d0741ea19490f1c8d809d29c453bd669110356b",
+          "event_id": "event-c9a239ea6904411d9b5d6978c7a39aa9",
+          "recorded_at": "2026-09-24T09:22:47.470503+00:00",
+          "kind": "round.source_snapshot"
+        }
+      ],
+      "link": "../essays/README.md",
+      "id": "h13"
+    },
+    {
+      "date_local": "2026-09-25",
+      "source_timestamp": "2026-09-26T01:00:46.906Z",
+      "kind": "Program authorized",
+      "title": "The route to one hundred combines six methods",
+      "detail": "Starting from 83 completed essays, the program adds sixteen new manuscripts through free investigations, an idea tournament, debates, source expeditions, counterexamples, and branching revision. It also closes one older Claude pilot through a Codex edit and independent meaning check.",
+      "sources": [
+        {
+          "path": "research/views/chats/01a0d281-ce48-72a3-8f42-b3a849471fd1/conversation.json",
+          "session_id": "01a0d281-ce48-72a3-8f42-b3a849471fd1",
+          "source_line": 182,
+          "source_timestamp": "2026-09-26T01:00:46.906Z",
+          "raw_event_id": "collector-66d8a49dae262e010573517d0f99eb45",
+          "raw_object_path": "research/archive/objects/768114a668b8bab2603218429149463cc28db37b3afbd70ac0ccc3946a0ea064",
+          "raw_sha256": "768114a668b8bab2603218429149463cc28db37b3afbd70ac0ccc3946a0ea064",
+          "text_sha256": "e7a8b2ee5a6878bf618dd591e27829ff8a20aca15dd4869eac441ce6268a45f1",
+          "repository_link": "../logs/codex/chats/01a0d281-ce48-72a3-8f42-b3a849471fd1/conversation.md#source-line-182"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/HISTORY.md",
+          "sha256": "3ae5bc5ad0eef95ecc853cb4be95af9b62e77ed7cb23c03afbfc664b564af957"
+        }
+      ],
+      "link": "../essays/E076/README.md",
+      "id": "h14"
+    },
+    {
+      "date_local": "2026-09-27",
+      "source_timestamp": "2026-09-28T06:24:56.929132+00:00",
+      "kind": "Accepted inventory",
+      "title": "The corpus reaches one hundred",
+      "detail": "The accepted snapshot counts 83 earlier essays, sixteen new manuscripts and the completed mixed Claude→Codex pilot. The count reaches 100 late on September 27 in California; the final follow-up report is issued after midnight on September 28.",
+      "sources": [
+        {
+          "path": "runs/hundred-20260925/accepted-finals-013.json",
+          "sha256": "d0acc3fa25d55779dc1e59e856cb41fac6d0dab2722a0b06f96abee90a8d20bc",
+          "source_timestamp": "2026-09-28T06:24:56.929132+00:00"
+        },
+        {
+          "path": "research/views/chats/01a0d281-ce48-72a3-8f42-b3a849471fd1/conversation.json",
+          "session_id": "01a0d281-ce48-72a3-8f42-b3a849471fd1",
+          "source_line": 37303,
+          "source_timestamp": "2026-09-28T07:38:25.471Z",
+          "raw_event_id": "collector-afe46e6da7c7e72eceb44003fa63243c",
+          "raw_object_path": "research/archive/objects/f726618473b2f7feda940d363b9a315b524efb0365473e9ce2ef266a35c17398",
+          "raw_sha256": "f726618473b2f7feda940d363b9a315b524efb0365473e9ce2ef266a35c17398",
+          "text_sha256": "d198b010b37818c5ab3abdffd7724c7c9ce17392cf416a602b989bc6c9dbf2be",
+          "repository_link": "../logs/codex/chats/01a0d281-ce48-72a3-8f42-b3a849471fd1/conversation.md#source-line-37303"
+        }
+      ],
+      "link": "../essays/README.md",
+      "id": "h15"
+    },
+    {
+      "date_local": "2026-10-07",
+      "source_timestamp": "2026-10-07T09:30:01.066Z",
+      "kind": "Blinding instruction",
+      "title": "Hide the biography from reviewers",
+      "detail": "Full manuscripts were reviewed without production histories or earlier ratings.",
+      "sources": [
+        {
+          "session_id": "01a115ac-4e5a-72f1-b5fd-3ff075cf8433",
+          "source_line": 42,
+          "text_sha256": "f33a67e6bf7f5ce57df59260b199fd7b7e501745919dab956cc3743a1841a7ac"
+        }
+      ],
+      "link": "quotes.md#q34",
+      "existing_timeline_id": "t19",
+      "id": "h16"
+    },
+    {
+      "date_local": "2026-10-07",
+      "source_timestamp": "2026-10-07T09:58:56.433Z",
+      "kind": "Midterm instruction",
+      "title": "Review every essay with every profile",
+      "detail": "The full panel was requested for all essays, with pilot results reused.",
+      "sources": [
+        {
+          "session_id": "01a115ac-4e5a-72f1-b5fd-3ff075cf8433",
+          "source_line": 185,
+          "text_sha256": "52520dcbc7a8fc71b368652ec7ee7388aa9f719ab74d8891fc554bcbe8948749"
+        }
+      ],
+      "link": "quotes.md#q35",
+      "existing_timeline_id": "t20",
+      "id": "h17"
+    },
+    {
+      "date_local": "2026-10-08",
+      "source_timestamp": "2026-10-09T06:33:44.952Z",
+      "kind": "Selection decision",
+      "title": "Keep a wildcard route",
+      "detail": "The selection procedure left room for an unusual candidate outside its ordinary route.",
+      "sources": [
+        {
+          "session_id": "01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0",
+          "source_line": 82,
+          "text_sha256": "1d6031a56e1a4a8eaa27890d6cb96a2d7e473dbeed8678b534daa30b2e272af4"
+        }
+      ],
+      "link": "quotes.md#q38",
+      "existing_timeline_id": "t21",
+      "id": "h18"
+    },
+    {
+      "date_local": "2026-10-10",
+      "source_timestamp": "2026-10-11T01:12:14.086Z",
+      "kind": "Diagnostic instruction",
+      "title": "Test the evaluators in separate experiments",
+      "detail": "Error detection, wording, comparison order, repetitions, and false positives needed separate tests.",
+      "sources": [
+        {
+          "session_id": "01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0",
+          "source_line": 985,
+          "text_sha256": "3233a53534d8f05f737b962d6a947810a61231c57f62362b963b3a5db22c6f07"
+        }
+      ],
+      "link": "quotes.md#q39",
+      "existing_timeline_id": "t22",
+      "id": "h19"
+    },
+    {
+      "date_local": "2026-10-10",
+      "source_timestamp": "2026-10-11T01:12:14.086Z",
+      "kind": "Process clarification",
+      "title": "Make clarity a general writing rule",
+      "detail": "Simplify expression while preserving essential premises, objections, and qualifications.",
+      "sources": [
+        {
+          "session_id": "01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0",
+          "source_line": 985,
+          "text_sha256": "3233a53534d8f05f737b962d6a947810a61231c57f62362b963b3a5db22c6f07"
+        }
+      ],
+      "link": "quotes.md#q19",
+      "existing_timeline_id": "t23",
+      "id": "h20"
+    },
+    {
+      "date_local": "2026-10-11",
+      "source_timestamp": "2026-10-12T03:06:07.794813+00:00",
+      "kind": "Closure recorded",
+      "title": "Record midterm closure",
+      "detail": "The finite campaign closed with nine candidates, five diagnostic gaps, no final winner, and the E036 version choice open.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000311972.json",
+          "sha256": "dd19b4c0ad4cf6cbf337fba16cf22ba3835d96af91a2f8fe3a6d0cea3eba7556",
+          "field": "recorded_at",
+          "event_id": "event-9d9e2f2b2731446599257592ee28a016"
+        }
+      ],
+      "link": "evaluation.md",
+      "existing_timeline_id": "t24",
+      "id": "h21"
+    },
+    {
+      "date_local": "2026-10-12",
+      "source_timestamp": "2026-10-13T03:09:53.199Z",
+      "kind": "Process decision",
+      "title": "Choose five programs and enlarge the idea search",
+      "detail": "The user chose literature audits, argument development, a larger idea search, new essays, and a rejection check. The prepared plan expanded the search from 60 to 300 attempts; 300 was the coordinator’s choice of scale.",
+      "sources": [
+        {
+          "session_id": "01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0",
+          "source_line": 10814,
+          "text_sha256": "1a64681195ba95ad5af8e7f5767696d666520b9778a8c4456b05f2b7ea9d13ce",
+          "repository_path": "logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.json"
+        }
+      ],
+      "link": "../logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.md#source-line-10814",
+      "existing_timeline_id": "t37",
+      "id": "h22"
+    },
+    {
+      "date_local": "2026-10-13",
+      "source_timestamp": "2026-10-14T05:41:08Z",
+      "kind": "Repository import",
+      "title": "Import the first private edition",
+      "detail": "100 originals, English biographies, five translations, logs, and 61 exact quotations.",
+      "sources": [
+        {
+          "path": "runs/github-import-20261013/remote-commit.json",
+          "sha256": "d2ea7544fddfa6110cd73c372e1e650e539cbdf44969d6ec19db55ae6f52adcf",
+          "field": "author.date",
+          "commit": "514d88fc2583235d298ca41378c8661a3aa31a68"
+        }
+      ],
+      "link": "../essays/README.md",
+      "existing_timeline_id": "t25",
+      "id": "h23"
+    },
+    {
+      "date_local": "2026-10-14",
+      "source_timestamp": "2026-10-14T11:48:34.832917+00:00",
+      "kind": "Release recorded",
+      "title": "Complete the fixed-20 rejection check",
+      "detail": "Forty blind reviews of 20 preselected rejected essays produced six conditional returns, eleven reserves, and three rejections of the current argument.",
+      "sources": [
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/releases/v3/READY.json",
+          "sha256": "6e9b9a8f2c4f5aa5c6145df4e5412b930e09b70c4c804914fc8e0d06de028f09",
+          "field": "created_at",
+          "repository_index": "evidence/post-midterm/releases.json"
+        }
+      ],
+      "link": "post-midterm.md",
+      "existing_timeline_id": "t36",
+      "id": "h24"
+    },
+    {
+      "date_local": "2026-10-14",
+      "source_timestamp": "2026-10-14T17:22:06.292842+00:00",
+      "kind": "Release recorded",
+      "title": "Complete the argument work",
+      "detail": "Forty roles developed and tested 12 branches for four candidates; four syntheses recorded what could support a later revision.",
+      "sources": [
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E009/releases/v3/READY.json",
+          "sha256": "30ba8c6d54037b33b2b610101da517aee79f544d7977ca3e521e51295a8f0400",
+          "field": "created_at",
+          "repository_index": "evidence/post-midterm/releases.json"
+        }
+      ],
+      "link": "post-midterm.md",
+      "existing_timeline_id": "t35",
+      "id": "h25"
+    },
+    {
+      "date_local": "2026-10-14",
+      "source_timestamp": "2026-10-14T18:14:34.022729+00:00",
+      "kind": "Closure status recorded",
+      "title": "Close the Claude C2/C5 repair cycle",
+      "detail": "C2 was set aside with support; C5 achieved a partial repair. The larger 60-idea branch remained paused.",
+      "sources": [
+        {
+          "path": "runs/claude-independent-20261012/repair-cycle-20261014/FINAL_STATUS.json",
+          "sha256": "d077e7688a2a424f62aca731d985f46be5b109dc4b8f9d5c8be09c1e750e0b00",
+          "field": "time",
+          "event_id": null
+        }
+      ],
+      "link": "post-midterm.md#the-separate-claude-branch",
+      "existing_timeline_id": "t26",
+      "id": "h26"
+    },
+    {
+      "date_local": "2026-10-14",
+      "source_timestamp": "2026-10-15T01:59:35.776711+00:00",
+      "kind": "Acceptance recorded",
+      "title": "Finish nine literature audits",
+      "detail": "18 searches and nine syntheses were complete. Close predecessors were found; originality remained open.",
+      "sources": [
+        {
+          "path": "runs/postmidterm-20261012/01-literature/FINAL_RECEIPT.json",
+          "sha256": "eef79321708a305b213fbe56b32590c69cbe58a395608a755fe5949fe70485b1",
+          "field": "created_at",
+          "event_id": null
+        }
+      ],
+      "link": "post-midterm.md",
+      "existing_timeline_id": "t27",
+      "id": "h27"
+    },
+    {
+      "date_local": "2026-10-15",
+      "source_timestamp": "2026-10-15T12:59:45.879331+00:00",
+      "kind": "Acceptance recorded",
+      "title": "Close the 300-attempt idea search",
+      "detail": "600 reviews and 24 deep dossiers produced one tentative seed; 17 planned seeded essay places stayed empty.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000451225.json",
+          "sha256": "7282fcf285c1fcb8d1bcce06b889386f3e28855d62a36c8324c8b039a50c22f3",
+          "field": "recorded_at",
+          "event_id": "event-aafa3065336d42919627a97e2e80d8fd"
+        }
+      ],
+      "link": "post-midterm.md",
+      "existing_timeline_id": "t28",
+      "id": "h28"
+    },
+    {
+      "date_local": "2026-10-15",
+      "source_timestamp": "2026-10-15T21:51:00.815158+00:00",
+      "kind": "Acceptance recorded",
+      "title": "Accept seven complete essay cycles",
+      "detail": "Six free investigations and S02 from I012; each retained D0, two critiques, a response, and R1.",
+      "sources": [
+        {
+          "path": "runs/postmidterm-20261012/04-essays/seeded-sol-max-20261015/FINAL_RECEIPT.json",
+          "sha256": "799ceb56284afad6f34e29be24ec0bb61b7aa2dbe4e94c44e5594bde40d8d5a8",
+          "field": "recorded_at",
+          "event_id": "event-596bd97cb66744e3acab70b70b8be94d"
+        }
+      ],
+      "link": "../essays/post-midterm/README.md",
+      "existing_timeline_id": "t29",
+      "id": "h29"
+    },
+    {
+      "date_local": "2026-10-16",
+      "source_timestamp": "2026-10-17T06:48:40.450088+00:00",
+      "kind": "Verification",
+      "title": "Verify the five-program consolidation",
+      "detail": "24 current release packages and 6,108 linked files passed the consolidation’s byte checks. This was not a new philosophical review.",
+      "sources": [
+        {
+          "path": "runs/postmidterm-20261012/consolidation-20261016/VERIFICATION.v3.json",
+          "sha256": "2aa6fda75551c034bfeebdd9292938d32f32c8db332c0d3fbef4c8458b2f3682",
+          "field": "checked_at",
+          "event_id": null
+        }
+      ],
+      "link": "post-midterm.md",
+      "existing_timeline_id": "t30",
+      "id": "h30"
+    },
+    {
+      "date_local": "2026-10-17",
+      "source_timestamp": "2026-10-17T07:02:17.900449+00:00",
+      "kind": "Acceptance recorded",
+      "title": "Record final consolidation acceptance",
+      "detail": "Acceptance was recorded after midnight in California; the preceding overview and verification belong to October 16.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000452521.json",
+          "sha256": "0797614adb0539e821e83286292fd91010323165d632a85c68b038a5f7fc0d13",
+          "field": "recorded_at",
+          "event_id": "event-8e64f6c0c12e4b7bba15701a77c0cfc2"
+        }
+      ],
+      "link": "post-midterm.md",
+      "existing_timeline_id": "t31",
+      "id": "h31"
+    },
+    {
+      "date_local": "2026-10-17",
+      "source_timestamp": "2026-10-17T21:23:02.166405+00:00",
+      "kind": "Workflow accepted",
+      "title": "Agree the 22 → 10 → 3 route",
+      "detail": "Prepare exact versions, make justified repairs, choose ten with two wildcards, then three entries and two reserves. The fixed reading calendar and division into chats were dropped.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000452801.json",
+          "sha256": "b03d3dd7c0f65a025bd8d12b27ad8015e2df1ab7a5b546e09fad6e07a1782446",
+          "field": "recorded_at",
+          "event_id": "event-bf6a2f8674144f108372724ab9d26b1c"
+        }
+      ],
+      "link": "selection.md",
+      "existing_timeline_id": "t32",
+      "id": "h32"
+    },
+    {
+      "date_local": "2026-10-17",
+      "source_timestamp": "2026-10-17T22:46:53.807435+00:00",
+      "kind": "Decision corrected",
+      "title": "Return E086 and explain all 22 decisions plainly",
+      "detail": "The corrected inventory keeps 13 versions for comparison and assigns nine targeted tasks. E086 returned because its previous deferral was not sufficiently distinguished from E074; no manuscript was rewritten.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000452957.json",
+          "sha256": "c4d3a48b5dba3731ed662683e042a7279f7a8f0540cd1175a02bc81a5a46f9de",
+          "field": "recorded_at",
+          "event_id": "event-9a43499aee7d425b839017b4957ea633"
+        }
+      ],
+      "link": "selection.md",
+      "existing_timeline_id": "t34",
+      "id": "h33"
+    },
+    {
+      "date_local": "2026-10-17",
+      "source_timestamp": "2026-10-17T23:31:37.390051+00:00",
+      "kind": "Version decision",
+      "title": "E036 receives a working version",
+      "detail": "The comparison chooses R1 as the working E036 text, retaining the original and the earlier disagreement. This is a choice between existing versions, not a new blind review.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000452974.json",
+          "sha256": "772e61dbeeaa91165458b46758f24688527af6f2cdc762663e963976f23b30dc",
+          "event_id": "event-611e01e87fe84276ab736d8b77045a13",
+          "recorded_at": "2026-10-17T23:31:37.390051+00:00",
+          "kind": "selection.e036_base.completed"
+        },
+        {
+          "path": "runs/final-selection-e036-20261017/FINAL_RECEIPT.json",
+          "sha256": "8034ff886613717f0d6856c173fd8ebbb9080b154a507d0f1237b964273910c9"
+        }
+      ],
+      "link": "selection.md",
+      "id": "h34"
+    },
+    {
+      "date_local": "2026-10-17",
+      "source_timestamp": "2026-10-18T02:25:42.423159+00:00",
+      "kind": "Preparation accepted",
+      "title": "The twenty-two candidates are ready for comparison",
+      "detail": "The bounded preparation finishes eight targeted tasks and separate checks of seven newer essays. It preserves 32 protected originals, records all 22 current versions, and stops before choosing ten.",
+      "sources": [
+        {
+          "path": "research/archive/events/000000454019.json",
+          "sha256": "5e697ee6d573e9b0443aa05705b5138735d86f1da30e2591f3e4bfd1b5d97398",
+          "event_id": "event-1e4c69a0c81e49f6b638e88d3aa8e42f",
+          "recorded_at": "2026-10-18T02:25:42.423159+00:00",
+          "kind": "research.preselection.completed"
+        },
+        {
+          "path": "runs/final-preselection-20261017/FINAL_RECEIPT.json",
+          "sha256": "16f73ed8f7cdc02e60b8464cf8139936a04764c6ec94e2a56f791198f6236bfc"
+        }
+      ],
+      "link": "selection.md",
+      "id": "h35"
+    },
+    {
+      "date_local": "2026-10-18",
+      "source_timestamp": "2026-10-19T00:54:43.635Z",
+      "kind": "Process decision",
+      "title": "Give both kinds of reviewer a substantial role",
+      "detail": "The user chose a 60/40 balance between neutral and named-profile reviewers. The later accepted design uses three neutral reviews and two profile reviews per text.",
+      "sources": [
+        {
+          "session_id": "01a1496a-7b42-7a11-b00a-11d33df80222",
+          "source_line": 4828,
+          "text_sha256": "4c58a6401cdfa77d040b9d67df051c483b208aafa992bcd22f8943dd76e221bd",
+          "source_record": {
+            "kind": "visible_fragments",
+            "manifest_path": "evidence/final-selection/updates/20261018/quotes/manifest.json",
+            "manifest_sha256": "559e49392b4447006cef2e85503620f9722765b0acd35fadc254365294b01780",
+            "record_id": "reviewer-roles-60-40",
+            "source_line_sha256": "c0fea6e8c86c1ef7fbf2738be5d2ace7835d9bc87f1335d9cd02212fab720535"
+          }
+        }
+      ],
+      "link": "quotes.md#q64",
+      "existing_timeline_id": "t45",
+      "id": "h36"
+    },
+    {
+      "date_local": "2026-10-18",
+      "source_timestamp": "2026-10-19T00:58:37.102Z",
+      "kind": "Process decision",
+      "title": "Launch the reading selection and record it",
+      "detail": "The user authorized the selection for reading, independent execution, project-memory updates, and an update to the existing private GitHub repository after completion.",
+      "sources": [
+        {
+          "session_id": "01a1496a-7b42-7a11-b00a-11d33df80222",
+          "source_line": 4882,
+          "text_sha256": "9931562aa3e9a1f8afd33552acd4fb4214bbcd4ab585805c168dfc6ca3f42e11",
+          "source_record": {
+            "kind": "visible_fragments",
+            "manifest_path": "evidence/final-selection/updates/20261018/quotes/manifest.json",
+            "manifest_sha256": "559e49392b4447006cef2e85503620f9722765b0acd35fadc254365294b01780",
+            "record_id": "selection-launch-and-github",
+            "source_line_sha256": "7ee2a0ee4e6f8db4f92237491dc6fa9748a227b213bab57e8274baabce8a3772"
+          }
+        }
+      ],
+      "link": "quotes.md#q65",
+      "existing_timeline_id": "t46",
+      "id": "h37"
+    },
+    {
+      "date_local": "2026-10-19",
+      "source_timestamp": "2026-10-19T07:38:32.199445+00:00",
+      "kind": "Bounded completion recorded",
+      "title": "Accept the reading selection",
+      "detail": "The accepted package fixes 10 essays for reading, preserves the decisions for all 22 candidates, and records the remaining limitations. No final three or submission is implied. Two initial capacity failures produced no visible reviews and remain preserved. After a pause, the user resumed the same Astra configuration. A separate local initialization failure in M12-N2 attempt-002 produced no observed session or review; backend activity remains unknown. After the recorded repair, accepted M12-N2 attempt-003 and M13-N2 attempt-002 filled the original slots without adding votes. All three failed physical attempts remain preserved.",
+      "sources": [
+        {
+          "path": "runs/final-selection-20261018/FINAL_RECEIPT.json",
+          "sha256": "783d3e52a15e42c999dc83db36a1ff90e4f74c923675ad9729453c9ed142a7b2",
+          "field": "/completed_at",
+          "repository_path": "evidence/final-selection/updates/20261018/selection/FINAL_RECEIPT.json",
+          "execution_evidence": [
+            {
+              "path": "runs/final-selection-20261018/capacity-launch-repair-001/ACCEPTED_ATTEMPTS.v3.json",
+              "sha256": "83954703643b913dcd08a3a9875147c4703d3a0397246c4064ab41de532ba850",
+              "bytes": 616,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-launch-repair-001/ACCEPTED_ATTEMPTS.v3.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-launch-repair-001/ACCEPTED_ATTEMPTS_RECEIPT.json",
+              "sha256": "85de8abfe9ab296bca3b25341240fb0c61273d6c013580d471631222244472c7",
+              "bytes": 327,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-launch-repair-001/ACCEPTED_ATTEMPTS_RECEIPT.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-launch-repair-001/M12-N2/ACCEPTED_ATTEMPTS.v3.json",
+              "sha256": "a77dadf0aa592581c8b9abdbe89b65eebca02ad7e0ea997fbf983b4b7a74d770",
+              "bytes": 4498,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-launch-repair-001/M12-N2/ACCEPTED_ATTEMPTS.v3.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-launch-repair-001/M12-N2/ACCEPTED_ATTEMPTS_RECEIPT.json",
+              "sha256": "d79650d1697c94ebadec517bffdf72a993d9bf6f4e9ee1507c00d9635f666439",
+              "bytes": 1656,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-launch-repair-001/M12-N2/ACCEPTED_ATTEMPTS_RECEIPT.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-launch-repair-001/M13-N2/ACCEPTED_ATTEMPTS.v3.json",
+              "sha256": "81c719c69e5698526b2a41f9b6ac60ba8b185c4be2c854a89d46be96f0b771a8",
+              "bytes": 3278,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-launch-repair-001/M13-N2/ACCEPTED_ATTEMPTS.v3.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-launch-repair-001/M13-N2/ACCEPTED_ATTEMPTS_RECEIPT.json",
+              "sha256": "cac1711f0a5a370e85d51274f62c009a43ab5bb7dfdf797e80e3d0e7b09f7671",
+              "bytes": 1656,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-launch-repair-001/M13-N2/ACCEPTED_ATTEMPTS_RECEIPT.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-launch-repair-001/PLAN.json",
+              "sha256": "fe07317e88775495aeb834a92267cc67fc231bb87354ec55e46b6c34e93da1d4",
+              "bytes": 2300,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-launch-repair-001/PLAN.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-launch-repair-001/REPAIR_RECEIPT.json",
+              "sha256": "7b55050df2c3b6369246ad25b09757758bb90ceeaa15feacd8e41c8179da32c4",
+              "bytes": 5899,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-launch-repair-001/REPAIR_RECEIPT.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-launch-repair-001/local-launch-evidence/FAILURE_INSPECTION.json",
+              "sha256": "5a10b34c4de10941abb1131295e42f52d52c9802116cfc743052a8c149ab0e8f",
+              "bytes": 6265,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-launch-repair-001/local-launch-evidence/FAILURE_INSPECTION.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-launch-repair-001/local-launch-evidence/STOP_ORIGINAL.json",
+              "sha256": "71ea6844970a93fd10834a38faa9bab19c430de27ac56f84f3ee398f25fdaa6f",
+              "bytes": 154,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-launch-repair-001/local-launch-evidence/STOP_ORIGINAL.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-recovery-001/FAILURE_INSPECTION.json",
+              "sha256": "ca8bff0f8a6bdb02faa7b5321a9f4ec4f475a16b105ac14110577de8f4be2330",
+              "bytes": 2951,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-recovery-001/FAILURE_INSPECTION.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-recovery-002/FAILURE_INSPECTION.json",
+              "sha256": "054a9875628b02c96788449deb40173f24452880442ab24f7deaf16017e40be0",
+              "bytes": 2424,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-recovery-002/FAILURE_INSPECTION.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-resume-20261018/ARCHIVE_RECEIPT.json",
+              "sha256": "54710760e511a2006e685aeb3563e7c5cfc208afa386f91fe26e238a4ead80e2",
+              "bytes": 16524,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-resume-20261018/ARCHIVE_RECEIPT.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-resume-20261018/AUTHORIZATION.json",
+              "sha256": "c480f1cbf5435596488eef0f118f439f2b0825f14d971c1a21a630b719ff9b8f",
+              "bytes": 1046,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-resume-20261018/AUTHORIZATION.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/M12-N2/PLAN.json",
+              "sha256": "add93350d520b9e9ef33375f249049f0fed593d60f72c646e3e166c3e4d6eccc",
+              "bytes": 3130,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-resume-20261018/replacement-v2/M12-N2/PLAN.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/M12-N2/READY_RECEIPT.json",
+              "sha256": "df41ac58cccc2d196a033e8f9c0f05d9521330ee9d9cf8ae8f777554ef845e5e",
+              "bytes": 5182,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-resume-20261018/replacement-v2/M12-N2/READY_RECEIPT.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/M13-N2/PLAN.json",
+              "sha256": "63a5824cf60b7a6c24663601292d03e8fa4690e4e7e103c5cc8f7da24f6662c2",
+              "bytes": 3191,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-resume-20261018/replacement-v2/M13-N2/PLAN.json"
+            },
+            {
+              "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/M13-N2/READY_RECEIPT.json",
+              "sha256": "995344c7a999120ff1cb8caf5837bbfc878581259e8850d85751dc87fff0aa92",
+              "bytes": 5182,
+              "repository_path": "evidence/final-selection/updates/20261018/selection/capacity-resume-20261018/replacement-v2/M13-N2/READY_RECEIPT.json"
+            }
+          ]
+        }
+      ],
+      "link": "selection.md",
+      "existing_timeline_id": "t47",
+      "id": "h38"
+    },
+    {
+      "date_local": "2026-10-31",
+      "source_timestamp": "2026-10-31T09:30:13.087094+00:00",
+      "kind": "Maintenance accepted",
+      "title": "Compressed logs and missing evidence are recovered",
+      "detail": "Technical maintenance restores compressed-source reading, adds the missing preparation outputs and later completion records to the private repository, and preserves the accepted ten-essay selection. Historical capture gaps remain explicit; the final three and submission are still ahead.",
+      "sources": [
+        {
+          "path": "runs/maintenance-20261031/FINAL_RECEIPT.json",
+          "sha256": "262ba7486319f7a1f03d5d26c907fcfdcfac6158b4afc7d3015c04233220c029",
+          "source_timestamp": "2026-10-31T09:30:13.087094+00:00"
+        },
+        {
+          "path": "runs/maintenance-20261031/CORE_RECEIPT.json",
+          "sha256": "66ccb278a5a44ae285877855d073c7eb38aef8834e1133e2644484ed47cd9251"
+        }
+      ],
+      "link": "../evidence/maintenance/20261031/README.md",
+      "id": "h39"
+    }
+  ],
+  "existing_timeline_checks": [
+    {
+      "id": "t01",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "ff2f0fb8e1b6a7ebdbef12a81c548e8365ada5022a91eb29cb0a11e193806b5d"
+        }
+      ]
+    },
+    {
+      "id": "t02",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "a49d38aeba445c736f928d9b49a56e0c7c2e86446726dd87b597f5c7e6644215"
+        }
+      ]
+    },
+    {
+      "id": "t03",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "fb3b3283079f761f5b8a8cf271ba564a7412a4b22e4b7e76aa0b9a71b12beef7"
+        }
+      ]
+    },
+    {
+      "id": "t04",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "b93229e6cbf9afb203fe7239a71a6c5dffbe79b3b53ffa81d989b15d81e82442"
+        }
+      ]
+    },
+    {
+      "id": "t05",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "9755a2c896fca1584a99f8c01fab2f48cb882e7ccfa40d89ae4f57f1fc80a912"
+        }
+      ]
+    },
+    {
+      "id": "t06",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "5601cf7fa84ebfc55eda7b5949ac82f87c4d1856908e21f809eea94663542d05"
+        }
+      ]
+    },
+    {
+      "id": "t07",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "73b14eaa1997d27899cffd005e1c4572db220467832afabacf8400466bcdb4f2"
+        }
+      ]
+    },
+    {
+      "id": "t08",
+      "checks": [
+        {
+          "path": "research/archive/events/000000080366.json",
+          "expected_sha256": "121fd6439f3a342d75bb0b56c671af3d155c9597c7e08abb554794a9b640759b",
+          "actual_sha256": "121fd6439f3a342d75bb0b56c671af3d155c9597c7e08abb554794a9b640759b",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t09",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "1b3e57919fee83040fac3b5513c51489328aadaf5fab90decd3e256158846383"
+        }
+      ]
+    },
+    {
+      "id": "t10",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "969eaedb811555c7cffd67ad4a41bbbb26d1f75cfa5b5765d6738be7a952137b"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "checks": [
+        {
+          "path": "runs/cli-runner-build-20260920/round-start.json",
+          "expected_sha256": "9880122063751d145798ec40178e43a5874e9aa6922389c5cda5df784f8fdf4f",
+          "actual_sha256": "9880122063751d145798ec40178e43a5874e9aa6922389c5cda5df784f8fdf4f",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t12",
+      "checks": [
+        {
+          "path": "runs/cli-smoke-live-20260920/final-report.json",
+          "expected_sha256": "3e2e3c129ffa19a48118b30b55779dcdde633e4fc42ddf5d928c3348afc0a0f9",
+          "actual_sha256": "3e2e3c129ffa19a48118b30b55779dcdde633e4fc42ddf5d928c3348afc0a0f9",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t13",
+      "checks": [
+        {
+          "path": "research/archive/events/000000103040.json",
+          "expected_sha256": "3fba050db23719afd42295e4f5c5aa7b7e3b1abd79a99c27eb160bbe43b867cd",
+          "actual_sha256": "3fba050db23719afd42295e4f5c5aa7b7e3b1abd79a99c27eb160bbe43b867cd",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t14",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "0bf08f1a7b1a44c7ed30d2f407b19351d3c766893002467b1f92670c4fa2ad95"
+        }
+      ]
+    },
+    {
+      "id": "t15",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "0bf08f1a7b1a44c7ed30d2f407b19351d3c766893002467b1f92670c4fa2ad95"
+        }
+      ]
+    },
+    {
+      "id": "t16",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "19c7e67a61b4dc0830f7611ab50278427f138b9a7003802161454edb3a0d37f3"
+        }
+      ]
+    },
+    {
+      "id": "t17",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "fe734d71f69778911338166cad6121793badaf96b789cd8b49270a42d410325d"
+        }
+      ]
+    },
+    {
+      "id": "t18",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "b33e77a2addc0cbae3731ecb92541221b6f742f0f27469be66e5de51f5eea8e1"
+        }
+      ]
+    },
+    {
+      "id": "t19",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "b4b9f9496c3bd7f724341ea293d88205c4d3acb99fea0c3e3c6102dc43ab5b2a"
+        }
+      ]
+    },
+    {
+      "id": "t20",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "cace6ab0161e9ff773eb0c03166da4d4693f5610bcc0ad0a99bb2928877cd5b7"
+        }
+      ]
+    },
+    {
+      "id": "t21",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "0e88a1094f515a113ca74820aa0685360e4eaa7f5abf64f9e0224f3bfc67d893"
+        }
+      ]
+    },
+    {
+      "id": "t22",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "e94590de4cf9e3f7a93f496e708e10404b2440bc3c9d49d4e24d8578cca5c018"
+        }
+      ]
+    },
+    {
+      "id": "t23",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "e94590de4cf9e3f7a93f496e708e10404b2440bc3c9d49d4e24d8578cca5c018"
+        }
+      ]
+    },
+    {
+      "id": "t24",
+      "checks": [
+        {
+          "path": "research/archive/events/000000311972.json",
+          "expected_sha256": "dd19b4c0ad4cf6cbf337fba16cf22ba3835d96af91a2f8fe3a6d0cea3eba7556",
+          "actual_sha256": "dd19b4c0ad4cf6cbf337fba16cf22ba3835d96af91a2f8fe3a6d0cea3eba7556",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t37",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "7a2328964e55d758183e8be78e62d132af6fbac95dbfc2792c8817fbc7549bbd"
+        }
+      ]
+    },
+    {
+      "id": "t38",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "53f88c82c14136b0ad70458d88d9805449504cab0f6fd6740c9171f58946b635"
+        }
+      ]
+    },
+    {
+      "id": "t39",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "21ffcc54e14c0f837c67c99bf66d6cbedef6339cf010eac72d50a18bc73241e6"
+        }
+      ]
+    },
+    {
+      "id": "t40",
+      "checks": [
+        {
+          "current_view_lookup": "unavailable; existing fragment-bound source retained"
+        }
+      ]
+    },
+    {
+      "id": "t25",
+      "checks": [
+        {
+          "path": "runs/github-import-20261013/remote-commit.json",
+          "expected_sha256": "d2ea7544fddfa6110cd73c372e1e650e539cbdf44969d6ec19db55ae6f52adcf",
+          "actual_sha256": "d2ea7544fddfa6110cd73c372e1e650e539cbdf44969d6ec19db55ae6f52adcf",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t36",
+      "checks": [
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/releases/v3/READY.json",
+          "expected_sha256": "6e9b9a8f2c4f5aa5c6145df4e5412b930e09b70c4c804914fc8e0d06de028f09",
+          "actual_sha256": "6e9b9a8f2c4f5aa5c6145df4e5412b930e09b70c4c804914fc8e0d06de028f09",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t35",
+      "checks": [
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E009/releases/v3/READY.json",
+          "expected_sha256": "30ba8c6d54037b33b2b610101da517aee79f544d7977ca3e521e51295a8f0400",
+          "actual_sha256": "30ba8c6d54037b33b2b610101da517aee79f544d7977ca3e521e51295a8f0400",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t26",
+      "checks": [
+        {
+          "path": "runs/claude-independent-20261012/repair-cycle-20261014/FINAL_STATUS.json",
+          "expected_sha256": "d077e7688a2a424f62aca731d985f46be5b109dc4b8f9d5c8be09c1e750e0b00",
+          "actual_sha256": "d077e7688a2a424f62aca731d985f46be5b109dc4b8f9d5c8be09c1e750e0b00",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t27",
+      "checks": [
+        {
+          "path": "runs/postmidterm-20261012/01-literature/FINAL_RECEIPT.json",
+          "expected_sha256": "eef79321708a305b213fbe56b32590c69cbe58a395608a755fe5949fe70485b1",
+          "actual_sha256": "eef79321708a305b213fbe56b32590c69cbe58a395608a755fe5949fe70485b1",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t41",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "f8cbdce05c2568d83f96b5dd2a648f6a9229156f00ea361064f625328e619d2b"
+        }
+      ]
+    },
+    {
+      "id": "t42",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "1434e77da38ac7f8dae8832c94180ab151af82b71eff1ac83d556136932b59ef"
+        }
+      ]
+    },
+    {
+      "id": "t28",
+      "checks": [
+        {
+          "path": "research/archive/events/000000451225.json",
+          "expected_sha256": "7282fcf285c1fcb8d1bcce06b889386f3e28855d62a36c8324c8b039a50c22f3",
+          "actual_sha256": "7282fcf285c1fcb8d1bcce06b889386f3e28855d62a36c8324c8b039a50c22f3",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t29",
+      "checks": [
+        {
+          "path": "runs/postmidterm-20261012/04-essays/seeded-sol-max-20261015/FINAL_RECEIPT.json",
+          "expected_sha256": "799ceb56284afad6f34e29be24ec0bb61b7aa2dbe4e94c44e5594bde40d8d5a8",
+          "actual_sha256": "799ceb56284afad6f34e29be24ec0bb61b7aa2dbe4e94c44e5594bde40d8d5a8",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t30",
+      "checks": [
+        {
+          "path": "runs/postmidterm-20261012/consolidation-20261016/VERIFICATION.v3.json",
+          "expected_sha256": "2aa6fda75551c034bfeebdd9292938d32f32c8db332c0d3fbef4c8458b2f3682",
+          "actual_sha256": "2aa6fda75551c034bfeebdd9292938d32f32c8db332c0d3fbef4c8458b2f3682",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t31",
+      "checks": [
+        {
+          "path": "research/archive/events/000000452521.json",
+          "expected_sha256": "0797614adb0539e821e83286292fd91010323165d632a85c68b038a5f7fc0d13",
+          "actual_sha256": "0797614adb0539e821e83286292fd91010323165d632a85c68b038a5f7fc0d13",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t43",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "7cc2519f2850f3245a25aac19ae6d674a376944bf0f35ffac3a99ccc18a87004"
+        }
+      ]
+    },
+    {
+      "id": "t32",
+      "checks": [
+        {
+          "path": "research/archive/events/000000452801.json",
+          "expected_sha256": "b03d3dd7c0f65a025bd8d12b27ad8015e2df1ab7a5b546e09fad6e07a1782446",
+          "actual_sha256": "b03d3dd7c0f65a025bd8d12b27ad8015e2df1ab7a5b546e09fad6e07a1782446",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t33",
+      "checks": [
+        {
+          "path": "research/archive/events/000000452946.json",
+          "expected_sha256": "a2bcf0bd482fb084fdc3840813df36815f3fc9fdce97d6e4fe3e61cfc7ebab2f",
+          "actual_sha256": "a2bcf0bd482fb084fdc3840813df36815f3fc9fdce97d6e4fe3e61cfc7ebab2f",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t34",
+      "checks": [
+        {
+          "path": "research/archive/events/000000452957.json",
+          "expected_sha256": "c4d3a48b5dba3731ed662683e042a7279f7a8f0540cd1175a02bc81a5a46f9de",
+          "actual_sha256": "c4d3a48b5dba3731ed662683e042a7279f7a8f0540cd1175a02bc81a5a46f9de",
+          "matches": true
+        }
+      ]
+    },
+    {
+      "id": "t44",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "2a13736e08e59f5a0f91b70e3ab990c94b8ba72a495b5f91a78b07b3eff3ce25"
+        }
+      ]
+    },
+    {
+      "id": "t45",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "c0fea6e8c86c1ef7fbf2738be5d2ace7835d9bc87f1335d9cd02212fab720535"
+        }
+      ]
+    },
+    {
+      "id": "t46",
+      "checks": [
+        {
+          "source_timestamp_matches": true,
+          "native_hash_verified": true,
+          "raw_sha256": "7ee2a0ee4e6f8db4f92237491dc6fa9748a227b213bab57e8274baabce8a3772"
+        }
+      ]
+    },
+    {
+      "id": "t47",
+      "checks": [
+        {
+          "path": "runs/final-selection-20261018/FINAL_RECEIPT.json",
+          "expected_sha256": "783d3e52a15e42c999dc83db36a1ff90e4f74c923675ad9729453c9ed142a7b2",
+          "actual_sha256": "783d3e52a15e42c999dc83db36a1ff90e4f74c923675ad9729453c9ed142a7b2",
+          "matches": true
+        }
+      ]
+    }
+  ]
+}

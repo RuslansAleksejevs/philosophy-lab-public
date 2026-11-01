@@ -1,0 +1,42 @@
+{
+  "schema": "fixed-gap-review.v1",
+  "status": "REVIEW_COMPLETE_EIGHT_INHERITED_COPIES_PENDING_FINAL_DELTA",
+  "files": [
+    {
+      "path": "GAP_REVIEW.json",
+      "bytes": 136342,
+      "sha256": "258f98f2d085e8156daa6c9cb1ff40acb56be132a08b36e070c1b905f52af451",
+      "source": "runs/repository-rebuild-20261031/history-audit/gap-shapes-final/REPORT.json"
+    },
+    {
+      "path": "GAP_SHAPES.json",
+      "bytes": 584148,
+      "sha256": "2859b8e055e4e36cdd71deaa3dc693f5ef03595b066ad782a3d26d380a8e4106",
+      "source": "runs/repository-rebuild-20261031/history-audit/gap-shapes-final/SHAPES.json"
+    },
+    {
+      "path": "VISIBLE_OVERLAP.json",
+      "bytes": 97622,
+      "sha256": "45ff3ecdcad46fb1d46777a926f0eeeeb52ac335fc614557a08f2029f1f036bc",
+      "source": "runs/repository-rebuild-20261031/history-audit/gap-shapes-final/VISIBLE_OVERLAP.json"
+    },
+    {
+      "path": "ACTIVITY_SOURCE_COUNTS.json",
+      "bytes": 1861320,
+      "sha256": "6c0405f0a5da199d0256577856e7677a9c80d491900a03ecc804eecbaddcfe1a",
+      "source": "runs/repository-rebuild-20261031/history-audit/activity-final/SOURCE_COUNTS.json"
+    },
+    {
+      "path": "ACTIVITY_VERIFICATION.json",
+      "bytes": 1466,
+      "sha256": "43883378bbd1e1fd6ded39071e56700beb4a096daefa62654b459bf4bb5b8b65",
+      "source": "runs/repository-rebuild-20261031/history-audit/activity-final/REPORT.json"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1346,
+      "sha256": "760849ecd1a16836435d74b6716f8f1f66336fba46c5eabd9d8aef4e524bfe16"
+    }
+  ],
+  "boundary": "Metadata shapes and hashes only. Original recovery reports and repository log bundles remain unchanged. Activity counts apply to the frozen14939-message union."
+}

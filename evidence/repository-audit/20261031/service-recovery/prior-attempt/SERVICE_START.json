@@ -1,0 +1,33 @@
+{
+  "status": "ONE_NORMAL_SERVICE_START_CONFIRMED",
+  "started_at": "2026-10-31T20:39:01+00:00",
+  "observed_at": "2026-10-31T20:41:25.721483+00:00",
+  "command": [
+    "python3",
+    "-B",
+    "scripts/collector_service.py",
+    "start"
+  ],
+  "command_exit_code": 0,
+  "successful_start_commands": 1,
+  "launchd": {
+    "pid": 40522,
+    "state": "running",
+    "program": "/opt/homebrew/bin/python3",
+    "arguments": [
+      "/opt/homebrew/bin/python3",
+      "-B",
+      "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/scripts/collector.py",
+      "--root",
+      "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab",
+      "watch"
+    ],
+    "working_directory": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab"
+  },
+  "launchctl_output_sha256": "ba896525516bb99698daa94953c14194ea641e981d732d75b35fd758f80e3140",
+  "baseline_sha256": "a78c8d0736f0987e0d943cb78afc763fa613cacca2a1b8c046dab64bb7105665",
+  "parser_successor_sha256": "c345be22562b29a171c016544e719233f7574333789fdc5a134dbc43bb967eab",
+  "process_metadata": "40522 02:22  42.1 1906240 R",
+  "canonical_operations_by_helper": 0,
+  "priority_changed": false
+}

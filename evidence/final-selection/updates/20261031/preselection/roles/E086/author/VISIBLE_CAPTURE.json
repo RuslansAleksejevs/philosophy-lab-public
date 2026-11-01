@@ -1,0 +1,96 @@
+{
+  "session_id": "01a14cb9-8902-7281-84a6-c0a24d8c7083",
+  "status": "BOUNDED_VISIBLE_FRAGMENTS_COMPLETE",
+  "observed_configuration": [
+    {
+      "source_line": 8,
+      "timestamp": "2026-10-18T01:56:31.126Z",
+      "fields": {
+        "model": "gpt-6-astra",
+        "effort": "max"
+      }
+    }
+  ],
+  "records": [
+    {
+      "source_line": 15,
+      "source_line_sha256": "ce4c110a7b238160fa5b19c26636b9b1c0773ad9d765e7f3032fe7afb2e9ffc6",
+      "timestamp": "2026-10-18T01:56:38.994Z",
+      "role": "assistant",
+      "phase": "commentary",
+      "parts": [
+        {
+          "path": "runs/final-preselection-20261017/roles/E086/author/capture-001/line-15-part-0.json-string.txt",
+          "sha256": "64a8921df735e80aec0f4f3618fb2376ae6e864f406fc1e8dd8d15bb744c487a"
+        }
+      ]
+    },
+    {
+      "source_line": 47,
+      "source_line_sha256": "52819dbcd767e345fba6bf85b53bd2ec48cc4308ccbf156e7214c124e2b1e948",
+      "timestamp": "2026-10-18T01:57:40.444Z",
+      "role": "assistant",
+      "phase": "commentary",
+      "parts": [
+        {
+          "path": "runs/final-preselection-20261017/roles/E086/author/capture-001/line-47-part-0.json-string.txt",
+          "sha256": "72de4f1b83c71b0bfea2ebd1b43472f6eab2ea04c33ef2bd7ea3cf82f9e2b7d5"
+        }
+      ]
+    },
+    {
+      "source_line": 100,
+      "source_line_sha256": "611f573a9a2b9c87032b7ed34f76432fa011ffebe30e96ded8219384f73c6af6",
+      "timestamp": "2026-10-18T01:59:21.626Z",
+      "role": "assistant",
+      "phase": "commentary",
+      "parts": [
+        {
+          "path": "runs/final-preselection-20261017/roles/E086/author/capture-001/line-100-part-0.json-string.txt",
+          "sha256": "ac79e9da058ef2a37714d7844524df37edd5ee8191900752c6f0089522e9ebc1"
+        }
+      ]
+    },
+    {
+      "source_line": 147,
+      "source_line_sha256": "97a168878c66734e1b276e1b8d207de7e7b255720a2d3da35c603b3ae7af6777",
+      "timestamp": "2026-10-18T02:03:26.091Z",
+      "role": "assistant",
+      "phase": "commentary",
+      "parts": [
+        {
+          "path": "runs/final-preselection-20261017/roles/E086/author/capture-001/line-147-part-0.json-string.txt",
+          "sha256": "dfc567f770064b17881bf5a6580963fe4e970e203a778c785f703f3de59c1251"
+        }
+      ]
+    },
+    {
+      "source_line": 215,
+      "source_line_sha256": "2abd26a5ff33645d5acf670bc1021fc6cf1dada1afbbb93978bbf98dcd65b1da",
+      "timestamp": "2026-10-18T02:08:16.844Z",
+      "role": "assistant",
+      "phase": "final_answer",
+      "parts": [
+        {
+          "path": "runs/final-preselection-20261017/roles/E086/author/capture-001/line-215-part-0.json-string.txt",
+          "sha256": "2206cb6d11cb251075619cee317c913c4521b24376d41e1ecca01e0e7c3af7c6"
+        }
+      ]
+    }
+  ],
+  "parent_dispatch": {
+    "parent_session": "01a1496a-7b42-7a11-b00a-11d33df80222",
+    "source_line": 4114,
+    "source_line_sha256": "7336b75d3d60689561a9a58e3e20f49e57d848a325a6e1a7e0c4534d9750cfb2",
+    "timestamp": "2026-10-18T01:56:30.068Z",
+    "call_id": "call_749fb300e067488797d5421a8dfeeb02",
+    "task_name": "e086_author",
+    "fork_turns": "none",
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "message_body_capture": "EXCLUDED_OPAQUE_NATIVE_AGENT_FIELD",
+    "plaintext_task_record": "Coordinator-preserved visible tool-call text in DISPATCH.json plus frozen PROMPT.txt; not asserted to be native plaintext byte capture."
+  },
+  "task_exposed_as_child_user_record": false,
+  "boundary": "Exact recognized child commentary/final text string bytes and selected parent dispatch metadata only. Native inter-agent task bodies are opaque/encrypted and excluded. Plain task text is retained separately from the coordinator visible call record and frozen packet, not claimed as native plaintext capture or proof of exact backend delivery. Unsupported full envelopes, injected instructions, reasoning, unreviewed tool bodies and future records excluded. Actual manuscript/source artifacts captured separately. No full provider trace or intellectual-independence proof."
+}

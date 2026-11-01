@@ -1,0 +1,201 @@
+{
+  "schema": "judge-source-index-v1",
+  "judge_id": "henry_shevlin",
+  "prepared_date": "2026-10-07",
+  "source_packet": "source-packet.md",
+  "profile": "profile-v1.md",
+  "coverage_boundary": "Bounded text-extraction corpus; source-specific read limits apply. No exhaustive corpus or raw-document preservation claim. Hashes demonstrate internal consistency only.",
+  "sources": [
+    {
+      "source_id": "I1",
+      "title": "Author about page and homepage",
+      "url": "https://henryshevlin.com/about-me/",
+      "coverage": "metadata",
+      "read_limits": "Substantial authored about-page text returned through search; professional identity and intellectual self-description only. Homepage https://henryshevlin.com/.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn5search2.txt",
+          "tool_reference_id": "turn5search2",
+          "sha256": "b7b8105a52d1de9f15595809bc8cad3f12e53c75b03541360dc651adb67f670d",
+          "size_bytes": 3303,
+          "returned_or_attempted_urls": [
+            "https://henryshevlin.com/about-me/"
+          ],
+          "extracted_line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn5search3.txt",
+          "tool_reference_id": "turn5search3",
+          "sha256": "b31641f38e3ab30270368b2a66aaa40177f06a67003e73ec235b25244d806ed9",
+          "size_bytes": 779,
+          "returned_or_attempted_urls": [
+            "https://henryshevlin.com/"
+          ],
+          "extracted_line_ranges_present": []
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "S1",
+      "title": "Three frameworks for AI mentality, 4 February 2026",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1715835/full",
+      "coverage": "substantial_excerpt",
+      "read_limits": "Main lines330–395 plus discontinuous find excerpts around388–400,427–438,467–486,515–529. Substantial introduction and selected framework discussion; not full article.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn61view1.txt",
+          "tool_reference_id": "turn61view1",
+          "sha256": "77d1c318608a4d97d7ebc69187922aa92d1be768fabc8f046bdf9779f1ed9686",
+          "size_bytes": 35907,
+          "returned_or_attempted_urls": [
+            "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1715835/full",
+            "https://doi.org/10.3389/fpsyg.2026.1715835†doi.org"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              395
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn65view3.txt",
+          "tool_reference_id": "turn65view3",
+          "sha256": "735df6299fe3b05a5c84b4472d203c6f4911ad7663d99b0edd581e9d3ae2b547",
+          "size_bytes": 28117,
+          "returned_or_attempted_urls": [
+            "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1715835/full",
+            "https://doi.org/10.3389/fpsyg.2026.1715835†doi.org"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              231,
+              341
+            ],
+            [
+              388,
+              400
+            ],
+            [
+              427,
+              438
+            ],
+            [
+              467,
+              486
+            ],
+            [
+              515,
+              529
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": true,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "S2",
+      "title": "The House Elf Problem, 1 May 2026",
+      "url": "https://www.polytropolis.com/p/the-house-elf-problem",
+      "coverage": "full_main_text",
+      "read_limits": "Authored article body lines18–126 read; surrounding wrapper and comments not used as author evidence.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn64view0.txt",
+          "tool_reference_id": "turn64view0",
+          "sha256": "c6ef65aa84677bac7fb48c567260c370295c7cf29e3a518f192c77fd328c1067",
+          "size_bytes": 36382,
+          "returned_or_attempted_urls": [
+            "https://www.polytropolis.com/p/the-house-elf-problem",
+            "https://philarchive.org/rec/PETTEO†philarchive.org",
+            "https://academic.oup.com/pq/advance-article/doi/10.1093/pq/pqaf031/8100849†academic.oup.com",
+            "https://philarchive.org/archive/MOGDMI†philarchive.org"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              166
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": true,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "D1",
+      "title": "Research catalogue",
+      "url": "https://henryshevlin.com/my-research/",
+      "coverage": "metadata",
+      "read_limits": "Discovery of publications; listed works not deemed read.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn38view0.txt",
+          "tool_reference_id": "turn38view0",
+          "sha256": "52acb4ae6898661c90509ec0d49edb4eef163e943db2c9886212d33bca546a25",
+          "size_bytes": 4808,
+          "returned_or_attempted_urls": [
+            "https://henryshevlin.com/my-research/"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              44
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": false
+    },
+    {
+      "source_id": "F1",
+      "title": "Limits of Machine Intelligence DOI attempt",
+      "url": null,
+      "coverage": "unavailable",
+      "read_limits": "Failed click on research catalogue link19; resolved target URL was not exposed by this return. No article reading claimed.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn39view4.txt",
+          "tool_reference_id": "turn39view4",
+          "sha256": "e523d25fdac03eae5c779b15568b5c48a4d25c04debc3bc8d552c5cd3f8ab8bc",
+          "size_bytes": 124,
+          "returned_or_attempted_urls": [],
+          "extracted_line_ranges_present": []
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": false
+    }
+  ],
+  "other_evidence_files": [
+    {
+      "path": "evidence/search2-tool.txt",
+      "sha256": "dac79d8c12ba8e64d2aff76b053cf7ac0782b5e6f5fc03d0e46f05a03705b31a",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    }
+  ]
+}

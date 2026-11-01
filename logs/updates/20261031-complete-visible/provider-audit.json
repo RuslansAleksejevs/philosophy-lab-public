@@ -1,0 +1,559 @@
+{
+  "status": "PASS_BOUNDED_PROVIDER_INVENTORY",
+  "claude_collections": [
+    {
+      "source": "runs/claude10-cli-autorepair-20260921/campaign-collection-001",
+      "local_records": 444,
+      "exported_records": 444,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/claude10-cli-autorepair-resume-20260921/campaign-collection-001",
+      "local_records": 764,
+      "exported_records": 764,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/claude10-cli-opus55-20260923/campaign-collection-001",
+      "local_records": 1822,
+      "exported_records": 1822,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/claude10-cli-opus55-updated-20260923/campaign-collection-001",
+      "local_records": 1921,
+      "exported_records": 1921,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/claude10-cli-resume-20260920-1826/campaign-collection-001",
+      "local_records": 295,
+      "exported_records": 295,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/claude10-cli-resume-20260920-2342/campaign-collection-001",
+      "local_records": 435,
+      "exported_records": 435,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/claude10-cli-xhigh-finish-20260921/campaign-collection-001",
+      "local_records": 1181,
+      "exported_records": 1181,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/claude10-cli-xhigh-resume-20260922/campaign-collection-001",
+      "local_records": 1410,
+      "exported_records": 1410,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/claude10-cli-xhigh-resume2-20260922/campaign-collection-001",
+      "local_records": 1813,
+      "exported_records": 1813,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/cli-repair-launch-20260920/campaign-collection-001",
+      "local_records": 108,
+      "exported_records": 108,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/cli-repair-launch-20260920/smoke-collection",
+      "local_records": 67,
+      "exported_records": 67,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/cli-smoke-live-20260920/collection",
+      "local_records": 51,
+      "exported_records": 51,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/cli-source-check-20260920/collection",
+      "local_records": 37,
+      "exported_records": 37,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/a0-b-launch-20261010/A0/error-validator/collection-001",
+      "local_records": 67,
+      "exported_records": 67,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/a0-b-launch-20261010/A0/style-author/collection-001",
+      "local_records": 61,
+      "exported_records": 61,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/a0-b-launch-20261010/A0/style-repair-r1/collection-001",
+      "local_records": 49,
+      "exported_records": 49,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/claude-runs/E010/collection-001",
+      "local_records": 25,
+      "exported_records": 25,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/claude-runs/E015/collection-001",
+      "local_records": 26,
+      "exported_records": 26,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/claude-runs/E036/collection-001",
+      "local_records": 26,
+      "exported_records": 26,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/claude-selective-20261008/E009/collection-001",
+      "local_records": 128,
+      "exported_records": 128,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/claude-selective-20261008/E022/collection-001",
+      "local_records": 107,
+      "exported_records": 107,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/claude-selective-20261008/E036/collection-001",
+      "local_records": 81,
+      "exported_records": 81,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/claude-selective-20261008/E050/collection-001",
+      "local_records": 107,
+      "exported_records": 107,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/claude-selective-20261008/E055/collection-001",
+      "local_records": 90,
+      "exported_records": 90,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/claude-selective-20261008/E078/collection-001",
+      "local_records": 142,
+      "exported_records": 142,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/claude-selective-20261008/E079/collection-001",
+      "local_records": 87,
+      "exported_records": 87,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/claude-selective-20261008/E096/collection-001",
+      "local_records": 107,
+      "exported_records": 107,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/claude-selective-20261008/E100/collection-001",
+      "local_records": 45,
+      "exported_records": 45,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/closure-20261010/claude-critic-xhigh/collection-001",
+      "local_records": 40,
+      "exported_records": 40,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J001/collection-001",
+      "local_records": 28,
+      "exported_records": 28,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J007/collection-001",
+      "local_records": 27,
+      "exported_records": 27,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J008/collection-001",
+      "local_records": 29,
+      "exported_records": 29,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J009/collection-001",
+      "local_records": 27,
+      "exported_records": 27,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J012/collection-001",
+      "local_records": 27,
+      "exported_records": 27,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J022/collection-001",
+      "local_records": 26,
+      "exported_records": 26,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J023/collection-001",
+      "local_records": 26,
+      "exported_records": 26,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J026/collection-001",
+      "local_records": 28,
+      "exported_records": 28,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J031/collection-001",
+      "local_records": 27,
+      "exported_records": 27,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J032/collection-001",
+      "local_records": 28,
+      "exported_records": 28,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J035/collection-001",
+      "local_records": 29,
+      "exported_records": 29,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J037/collection-001",
+      "local_records": 28,
+      "exported_records": 28,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J038/collection-001",
+      "local_records": 25,
+      "exported_records": 25,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J041/collection-001",
+      "local_records": 27,
+      "exported_records": 27,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J044/collection-001",
+      "local_records": 28,
+      "exported_records": 28,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J045/collection-001",
+      "local_records": 29,
+      "exported_records": 29,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J050/collection-001",
+      "local_records": 33,
+      "exported_records": 33,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J053/collection-001",
+      "local_records": 26,
+      "exported_records": 26,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J054/collection-001",
+      "local_records": 27,
+      "exported_records": 27,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J055/collection-001",
+      "local_records": 29,
+      "exported_records": 29,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J056/collection-001",
+      "local_records": 27,
+      "exported_records": 27,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J058/collection-001",
+      "local_records": 30,
+      "exported_records": 30,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J061/collection-001",
+      "local_records": 28,
+      "exported_records": 28,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J068/collection-001",
+      "local_records": 26,
+      "exported_records": 26,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J069/collection-001",
+      "local_records": 27,
+      "exported_records": 27,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J077/collection-001",
+      "local_records": 26,
+      "exported_records": 26,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J078/collection-001",
+      "local_records": 27,
+      "exported_records": 27,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J083/collection-001",
+      "local_records": 27,
+      "exported_records": 27,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/literature/L01/collection-001",
+      "local_records": 241,
+      "exported_records": 241,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/literature/L02/collection-001",
+      "local_records": 236,
+      "exported_records": 236,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/literature/L03/collection-001",
+      "local_records": 218,
+      "exported_records": 218,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/revision-trial-20261008/claude-v2/pair-1/collection-001",
+      "local_records": 33,
+      "exported_records": 33,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/revision-trial-20261008/claude-v2/pair-2/collection-001",
+      "local_records": 33,
+      "exported_records": 33,
+      "missing_records": 0
+    },
+    {
+      "source": "runs/midterm-20261007/revision-trial-20261008/claude-v2/pair-3/collection-001",
+      "local_records": 27,
+      "exported_records": 27,
+      "missing_records": 0
+    }
+  ],
+  "claude_distinct_source_records": 4824,
+  "claude_missing_collection_records": [],
+  "claude_legacy_fragment_hashes_verified": 575,
+  "claude_direct_conversations": [
+    {
+      "task": "search-RS-R01",
+      "session_id": null,
+      "messages": 2,
+      "source_path": "runs/claude-independent-20261012/intake-r01-20261014/originals/sessions/RS-R01-visible-records.jsonl",
+      "bound_source_bytes_unchanged": true,
+      "excluded_blocks": {
+        "thinking": 90,
+        "tool_use": 115,
+        "tool_result": 115
+      }
+    },
+    {
+      "task": "critic-PCR-C2",
+      "session_id": null,
+      "messages": 1,
+      "source_path": "runs/claude-independent-20261012/repair-cycle-20261014/intake/originals/sessions/PCR-C2-visible-records.jsonl",
+      "bound_source_bytes_unchanged": true,
+      "excluded_blocks": {
+        "thinking": 28,
+        "tool_use": 49,
+        "tool_result": 49
+      }
+    },
+    {
+      "task": "critic-PCR-C5",
+      "session_id": null,
+      "messages": 3,
+      "source_path": "runs/claude-independent-20261012/repair-cycle-20261014/intake/originals/sessions/PCR-C5-visible-records.jsonl",
+      "bound_source_bytes_unchanged": true,
+      "excluded_blocks": {
+        "thinking": 49,
+        "tool_use": 66,
+        "tool_result": 66
+      }
+    },
+    {
+      "task": "repair-PCR-C2",
+      "session_id": "aa0ed66b-fc3d-4974-8b05-bbc9ee0c916f",
+      "messages": 8,
+      "source_path": "runs/claude-independent-20261012/repair-cycle-20261014/claude-results/PCR-C2/VISIBLE_TEXT.jsonl",
+      "bound_source_bytes_unchanged": true,
+      "excluded_blocks": {
+        "internal_or_nonmessage_record": 212,
+        "excluded_thinking": 21,
+        "tool_body_withheld": 27,
+        "excluded_tool_result": 34
+      }
+    },
+    {
+      "task": "repair-PCR-C5",
+      "session_id": "6c42a777-20b2-4777-8420-b7270f24d62f",
+      "messages": 10,
+      "source_path": "runs/claude-independent-20261012/repair-cycle-20261014/claude-results/PCR-C5/VISIBLE_TEXT.jsonl",
+      "bound_source_bytes_unchanged": true,
+      "excluded_blocks": {
+        "internal_or_nonmessage_record": 329,
+        "excluded_thinking": 37,
+        "tool_body_withheld": 48,
+        "excluded_tool_result": 61
+      }
+    }
+  ],
+  "additional_accepted_claude_fragments": 40,
+  "additional_claude_by_job": {
+    "midterm-closure-20261011-critic-xhigh": 2,
+    "PCR-C2-repair": 15,
+    "PCR-C5-repair": 23
+  },
+  "reviewed_codex_tool_fragment_count": 1938,
+  "reviewed_codex_tool_sessions": 81,
+  "current_validation_withheld_fragments": [
+    {
+      "event_id": "event-43bd0a0ee27f494c9abf7a9465329626",
+      "session_id": "01a139b3-1182-7500-a3a1-e9be40bcb68c",
+      "source_line": 116,
+      "raw_sha256": "838db7a9303208592cd38e472595d8f6a2fd63b1ccb85a830bf91bb5b8c7332b",
+      "reason": "credential_shape"
+    },
+    {
+      "event_id": "event-6d0bbbc37c2a43d59c50bd68d6a52cfe",
+      "session_id": "01a139e1-15fc-7f82-ada5-a50d4db0c516",
+      "source_line": 113,
+      "raw_sha256": "831acfcc3fff6e7110c9414832a39ec872537dcc78d7e85638c2b9dbd8a69475",
+      "reason": "credential_shape"
+    },
+    {
+      "event_id": "event-fa6aed3cb2314be89a644638ddde2a74",
+      "session_id": "01a139e2-6983-7f53-a320-41b5433e3a1d",
+      "source_line": 17,
+      "raw_sha256": "495233368cedde8b749bd8d0e0f0fc4c18a31b791afea22f2a7556dfe6722c7f",
+      "reason": "credential_shape"
+    },
+    {
+      "event_id": "event-d1154df7576c4645a214877c6315d0aa",
+      "session_id": "01a139e2-6983-7f53-a320-41b5433e3a1d",
+      "source_line": 25,
+      "raw_sha256": "a300120e5ef9a084d9e88d9e19e75e377bc192f1cd2566659e9c1681c8470443",
+      "reason": "credential_shape"
+    },
+    {
+      "event_id": "event-bee1221f18034c78a051a823c34227d4",
+      "session_id": "01a139e2-6983-7f53-a320-41b5433e3a1d",
+      "source_line": 32,
+      "raw_sha256": "a1d96f65fd11e5080117e86757cae4143e963b1645e969ea7fb2f54531f2203c",
+      "reason": "credential_shape"
+    },
+    {
+      "event_id": "event-da809b5d5c204a63ae1761494860c999",
+      "session_id": "01a139e2-6983-7f53-a320-41b5433e3a1d",
+      "source_line": 49,
+      "raw_sha256": "6df42cb5f4c7a505fd7927275ed987e690f57b5ebc0df73865ecb9a7a79a4c38",
+      "reason": "credential_shape"
+    },
+    {
+      "event_id": "event-aa02ef8b071e465daf3114bc92d4d52f",
+      "session_id": "01a139e2-6983-7f53-a320-41b5433e3a1d",
+      "source_line": 63,
+      "raw_sha256": "e91b746259988c94459689e3b01a6037665b377366e4f6abdeeb5f09bf42c766",
+      "reason": "credential_shape"
+    },
+    {
+      "event_id": "event-9eced561b31849508a399a0a32495e9a",
+      "session_id": "01a139e2-6983-7f53-a320-41b5433e3a1d",
+      "source_line": 96,
+      "raw_sha256": "5b7a252cd4b67aa4d3b77aa0682bccc089dcc04151b948c68259e812aebbda1c",
+      "reason": "credential_shape"
+    },
+    {
+      "event_id": "event-ccf03c2f262b43858a2c0889286dea38",
+      "session_id": "01a139e8-ce83-7fe3-bca9-7116fe6ed6f1",
+      "source_line": 16,
+      "raw_sha256": "424cfc258e0951752b52b0bb4b363474c88ff3de1dd0313e9daabb2c5c7ef996",
+      "reason": "credential_shape"
+    },
+    {
+      "event_id": "event-27c75bb9f80844629c53fea1d725b362",
+      "session_id": "01a139e8-ce83-7fe3-bca9-7116fe6ed6f1",
+      "source_line": 56,
+      "raw_sha256": "418eeaa60b6f2169ded97b361c639a3dce80f35b13c5b823eec0e932fcb33c72",
+      "reason": "credential_shape"
+    },
+    {
+      "event_id": "event-75810f41c64345e0aeceb87f629e9cea",
+      "session_id": "01a139ea-690a-7080-a5c0-2d6923d376c5",
+      "source_line": 44,
+      "raw_sha256": "689331020b23eabaccedc27dfe4615ebf8deda35917dd3d06d160232fa3bc155",
+      "reason": "credential_shape"
+    },
+    {
+      "event_id": "event-f8c13b9830c241d085136ebba4443538",
+      "session_id": "01a139ee-5277-7242-88c6-9a191b4c7e53",
+      "source_line": 89,
+      "raw_sha256": "24f895eff001c1ba741e52397942f1e6fa4ba375859af6efc46c36336f7ae52f",
+      "reason": "credential_shape"
+    }
+  ],
+  "canonical_raw_capture_counts": {
+    "('codex-visible-selection.v1', 'custom_tool_call')": 967,
+    "('codex-visible-selection.v1', 'custom_tool_call_output')": 963,
+    "('codex-visible-selection.v1', 'function_call')": 8,
+    "('codex-visible-selection.v1', 'function_call_output')": 12,
+    "('codex-visible-selection.v1', 'message')": 13921,
+    "('claude-visible-fragments.v1', 'message')": 88,
+    "('claude-visible-fragments.v1', 'tool_call')": 273,
+    "('claude-visible-fragments.v1', 'tool_result')": 253,
+    "('claude-cli-critic-visible.v5', 'tool_call')": 1,
+    "('claude-cli-critic-visible.v5', 'tool_result')": 1,
+    "(None, 'text')": 18,
+    "(None, 'tool_use')": 20
+  },
+  "boundary": "All63 known launcher collection directories reconciled by original source record hashes; all5 legacy jobs verified; all5 direct conversation sources compared. Existing unsupported/duplicate provider metadata is not a new model run. This is not discovery of every Claude account session."
+}

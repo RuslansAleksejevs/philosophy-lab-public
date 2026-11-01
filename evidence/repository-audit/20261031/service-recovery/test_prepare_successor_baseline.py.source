@@ -1,0 +1,109 @@
+from pathlib import Path
+import copy
+import importlib.util
+import json
+import subprocess
+import unittest
+from unittest.mock import patch
+
+P = Path(__file__).with_name('prepare_successor_baseline.py')
+spec = importlib.util.spec_from_file_location('successor_baseline_tested', P)
+M = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(M)
+
+
+class BaselineTests(unittest.TestCase):
+    def setUp(self):
+        self.base = {'archive_sequence': 20}
+        self.raw = b'fixed canonical bytes'
+        self.event = {'id': 'collector-test', 'sha256': 'a' * 64}
+        self.stop = {
+            'status': 'PRIOR_COLLECTOR_ATTEMPT_STOPPED', 'pid': 40522,
+            'command_exit_code': 0, 'successful_stop_commands': 1,
+            'process_exit_proof': {'returncode': 1, 'stdout': '', 'stderr': ''},
+            'archive_frontier': {'sequence': 30, 'event_id': 'collector-test',
+                                 'sha256': 'a' * 64, 'file_sha256': M.sha(self.raw)},
+            'archive_temp_metadata': []}
+
+    def test_later_collector_frontier_allowed(self):
+        M.check_prior(self.base, self.stop)
+        M.check_frontier(self.stop, 30, self.event, self.raw)
+
+    def test_prior_stop_identity_and_exit(self):
+        for key, value in [('pid', 12), ('status', 'RUNNING'), ('command_exit_code', 1),
+                           ('command_exit_code', False), ('successful_stop_commands', 2)]:
+            with self.subTest(key=key, value=value):
+                bad = copy.deepcopy(self.stop)
+                bad[key] = value
+                with self.assertRaises(ValueError):
+                    M.check_prior(self.base, bad)
+
+    def test_prior_pid_unknown_is_not_absent(self):
+        for replacement in ({'returncode': 2, 'stdout': '', 'stderr': ''},
+                            {'returncode': 1, 'stdout': '', 'stderr': 'Permission denied'},
+                            {'returncode': 0, 'stdout': '40522', 'stderr': ''}):
+            bad = copy.deepcopy(self.stop)
+            bad['process_exit_proof'] = replacement
+            with self.assertRaises(ValueError):
+                M.check_prior(self.base, bad)
+
+    def test_archive_temporaries_preserved_fail_closed(self):
+        bad = copy.deepcopy(self.stop)
+        bad['archive_temp_metadata'] = [{'name': '.tmp-interrupted'}]
+        with self.assertRaises(ValueError):
+            M.check_prior(self.base, bad)
+
+    def test_regressed_frontier_rejected(self):
+        bad = copy.deepcopy(self.stop)
+        bad['archive_frontier']['sequence'] = 19
+        with self.assertRaises(ValueError):
+            M.check_prior(self.base, bad)
+
+    def test_frontier_sequence_id_hash_and_bytes_exact(self):
+        for seq, event, raw in [(31, self.event, self.raw),
+                                (30, {**self.event, 'id': 'other'}, self.raw),
+                                (30, {**self.event, 'sha256': 'b' * 64}, self.raw),
+                                (30, self.event, b'changed bytes')]:
+            with self.subTest(seq=seq, event=event, raw=raw):
+                with self.assertRaises(ValueError):
+                    M.check_frontier(self.stop, seq, event, raw)
+
+    @staticmethod
+    def result(rc, stdout='', stderr=''):
+        return subprocess.CompletedProcess([], rc, stdout, stderr)
+
+    def test_absence_requires_known_ps_result(self):
+        self.assertTrue(M.absent(self.result(1)))
+        for r in [self.result(0), self.result(2), self.result(1, '40522'), self.result(1, '', 'failure')]:
+            self.assertFalse(M.absent(r))
+
+    def test_actual_stop_check_queries_all_pids_and_launchd(self):
+        results = [self.result(1) for _ in M.CLOSED_PIDS]
+        results.append(self.result(113, '', 'Could not find service "org.philosophylab.collector"'))
+        with patch.object(M.subprocess, 'run', side_effect=results) as run:
+            proof = M.require_stopped()
+        self.assertEqual([x['pid'] for x in proof['closed_processes']], list(M.CLOSED_PIDS))
+        self.assertEqual(run.call_count, len(M.CLOSED_PIDS) + 1)
+        self.assertEqual(run.call_args.args[0][0:2], ['/bin/launchctl', 'print'])
+
+    def test_launchd_error_is_not_absence(self):
+        for bad in [self.result(1, '', 'denied'), self.result(113, '', 'operation not permitted'),
+                    self.result(0, 'running'), self.result(113, 'unexpected', 'Could not find service "org.philosophylab.collector"')]:
+            results = [self.result(1) for _ in M.CLOSED_PIDS] + [bad]
+            with self.subTest(result=bad), patch.object(M.subprocess, 'run', side_effect=results):
+                with self.assertRaises(ValueError):
+                    M.require_stopped()
+
+    def test_contract_uses_exact_frozen_probe_and_nine_pins(self):
+        raw = P.with_name('CONTRACT.json').read_bytes()
+        self.assertEqual(M.sha(raw), M.CONTRACT_SHA)
+        value = json.loads(raw)
+        self.assertEqual(value['probe_sha256'], M.PROBE_SHA)
+        self.assertEqual(len(value['files']), 9)
+        self.assertEqual(value['expected_compatibility'], {'active': False, 'reason': 'exact_transition_not_compatible'})
+        self.assertEqual(M.sha(M.PROBE.read_bytes()), M.PROBE_SHA)
+        self.assertEqual(M.sha(M.OLD_HELPER.read_bytes()), M.OLD_HELPER_SHA)
+
+
+if __name__ == '__main__':
+    unittest.main()

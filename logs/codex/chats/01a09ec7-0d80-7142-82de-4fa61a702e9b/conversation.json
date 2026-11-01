@@ -1,0 +1,164 @@
+{
+  "session": {
+    "session_id": "01a09ec7-0d80-7142-82de-4fa61a702e9b",
+    "agent_name": null,
+    "agent_path": null,
+    "metadata_source": "native-threads-database",
+    "parent_session_id": null,
+    "role": null,
+    "selection": "exact-project-cwd",
+    "session_kind": "primary_chat",
+    "source": "vscode",
+    "source_cwd": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab",
+    "source_project": "Philosophy Lab",
+    "title": "Объясни структуру папок проекта",
+    "counts": {
+      "user_prompts": 1,
+      "assistant_commentary": 1,
+      "assistant_final": 1
+    },
+    "text_coverage": "TEXT_COMPLETE_THROUGH_CURSOR",
+    "tools_coverage": "REVIEW_REQUIRED",
+    "cutoff_source_line": 28,
+    "last_capture_at": "2026-10-14T18:45:10.062915+00:00",
+    "pending_tool_records": 4,
+    "gaps": [],
+    "excluded_surfaces": {
+      "excluded:message_role:developer": 3,
+      "excluded:non_user_text_context": 1,
+      "noncanonical_or_hidden_event:item_completed": 6,
+      "noncanonical_or_hidden_event:token_count": 3,
+      "nonvisible_envelope:token_usage_record": 3,
+      "nonvisible_envelope:world_state": 1
+    },
+    "turns": 1,
+    "whole_trace": "INCOMPLETE",
+    "export_source_bytes_at_start": null,
+    "export_cutoff_source_line": 25,
+    "export_snapshot_at": "2026-10-17T19:24:48.323739+00:00",
+    "export_method": "Merged previously exported visible text and current collector view; native file unavailable at its indexed path.",
+    "export_gaps": [],
+    "message_counts": {
+      "user": 1,
+      "assistant": 2
+    },
+    "whole_provider_trace": "NOT_CLAIMED"
+  },
+  "boundary": "Visible conversation text only; hidden reasoning and internal instructions excluded. Agent and CLI user-role packets are not new human contributions.",
+  "messages": [
+    {
+      "attachment_gaps": [],
+      "observed_model": {
+        "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+        "source": "native-turn-context-observation",
+        "source_line": 8,
+        "status": "known",
+        "value": {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "low"
+        }
+      },
+      "phase": null,
+      "raw_event_id": "collector-7a262f752f4ed10decb09f04c7fbdaa1",
+      "retain_original": true,
+      "role": "user",
+      "session_id": "01a09ec7-0d80-7142-82de-4fa61a702e9b",
+      "source_line": 9,
+      "source_timestamp": "2026-09-14T07:17:38.627Z",
+      "turn_id": "01a09ec7-537a-7b72-bd14-6671043d8b32",
+      "event_id": "collector-06bbe90a6b88e35eaeca248c1cf6c867",
+      "timestamp": "2026-09-14T07:17:38.627Z",
+      "recorded_at": "2026-10-07T12:07:46.643478+00:00",
+      "model": {
+        "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+        "source": "native-turn-context-observation",
+        "source_line": 8,
+        "status": "known",
+        "value": {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "low"
+        }
+      },
+      "text": "Расскажи простым языком и коротко как у нас на уровне папок проект организован\n",
+      "raw_sha256": "4651fd552d9358603853d063912236ac1ee5503eab6a84edc9ab06c3409faafb",
+      "origin": "HUMAN",
+      "text_sha256": "8485eeea186da3766c404ebfcbdec6edb4cc2f5eb4e8ec2686a680a5a266a4b1"
+    },
+    {
+      "attachment_gaps": [],
+      "observed_model": {
+        "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+        "source": "native-turn-context-observation",
+        "source_line": 8,
+        "status": "known",
+        "value": {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "low"
+        }
+      },
+      "phase": "commentary",
+      "raw_event_id": "collector-4ecd1605063b74d6ecb732f702c70fc9",
+      "retain_original": true,
+      "role": "assistant",
+      "session_id": "01a09ec7-0d80-7142-82de-4fa61a702e9b",
+      "source_line": 12,
+      "source_timestamp": "2026-09-14T07:17:42.277Z",
+      "turn_id": "01a09ec7-537a-7b72-bd14-6671043d8b32",
+      "event_id": "collector-b1a7bcbf7445322d1bc67263d2c9de56",
+      "timestamp": "2026-09-14T07:17:42.277Z",
+      "recorded_at": "2026-10-07T12:07:46.643658+00:00",
+      "model": {
+        "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+        "source": "native-turn-context-observation",
+        "source_line": 8,
+        "status": "known",
+        "value": {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "low"
+        }
+      },
+      "text": "Посмотрю структуру папок и кратко объясню, что где лежит.\n",
+      "raw_sha256": "b9cd08765a4f23fe4d5df143fc60fb1188462ef140b25b27c971ccaf80e53a4a",
+      "origin": "AI",
+      "text_sha256": "c3bf21febe3a012562d0aa28ff73b46f9e143fa2c87d60f25acffa9636a4e267"
+    },
+    {
+      "attachment_gaps": [],
+      "observed_model": {
+        "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+        "source": "native-turn-context-observation",
+        "source_line": 8,
+        "status": "known",
+        "value": {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "low"
+        }
+      },
+      "phase": "final_answer",
+      "raw_event_id": "collector-df791a11b210ede41497c05da81cc203",
+      "retain_original": true,
+      "role": "assistant",
+      "session_id": "01a09ec7-0d80-7142-82de-4fa61a702e9b",
+      "source_line": 25,
+      "source_timestamp": "2026-09-14T07:18:04.659Z",
+      "turn_id": "01a09ec7-537a-7b72-bd14-6671043d8b32",
+      "event_id": "collector-68797449ab48c0e413ff3d725913548a",
+      "timestamp": "2026-09-14T07:18:04.659Z",
+      "recorded_at": "2026-10-07T12:07:46.644544+00:00",
+      "model": {
+        "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+        "source": "native-turn-context-observation",
+        "source_line": 8,
+        "status": "known",
+        "value": {
+          "model": "gpt-6-astra",
+          "reasoning_effort": "low"
+        }
+      },
+      "text": "У нас **две основные папки**:\n\n**[Codex / Philosophy Lab](</Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab>) — главный проект и архив.**\n- **research/** — эссе: серии в `campaigns`, пробные работы в `pilots`, материалы судей в `judges`. У каждого эссе своя папка с версиями и историей.\n- **research/archive/** — записи происхождения работ и сохранённые материалы.\n- **docs/**, **methods/**, **workflows/** — инструкции и описание процессов.\n- **scripts/**, **tests/** — программы обслуживания и их проверки.\n- **runs/** — материалы отдельных технических запусков и ремонтов.\n- **collector/** — служебные файлы сборщика истории чатов.\n- **knowledge/** — краткая память о состоянии проекта.\n- **exports/** — отдельные копии для передачи наружу.\n\n**[Claude Code / Philosophy Lab](</Users/ruslansaleksejevs/Documents/Claude Code/Philosophy Lab>) — рабочая папка Claude.**\nТуда передаются задания: в **work/** лежат их входные материалы и результаты; **jobs/** хранит старые задания.\n\nClaude работает в своей папке, а Codex проверяет и сохраняет результаты в главном проекте.",
+      "raw_sha256": "2f2afc511caa2d10d7100fa637fef073e38333db4930671030c7a8195d4d2f0d",
+      "origin": "AI",
+      "text_sha256": "3ff54cf582aabcc9a55b2a4a610db0f8a6046521629df48bf88e72bb363b1306"
+    }
+  ]
+}

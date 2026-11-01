@@ -1,0 +1,21 @@
+{
+  "method": "Exact Fraction arithmetic; enumerated joint distribution, not copied posterior inputs",
+  "positive_probability_states": 14,
+  "before_squared_loss_both": "9/100",
+  "after_squared_loss_keep": "7/100",
+  "after_squared_loss_erase": "2/25",
+  "expected_squared_posterior_difference": "1/100",
+  "after_classification_accuracy_both": "9/10",
+  "source_A_given_report_and_inspection": "1/2 in every positive-probability state",
+  "blue_posteriors": {
+    "A_faulty": "1/2",
+    "A_sound": "1",
+    "B_faulty": "9/10",
+    "B_sound": "9/10",
+    "erased_faulty": "7/10",
+    "erased_sound": "19/20"
+  },
+  "shared_condition_alternative_squared_loss_both": "1/20",
+  "all_assertions_passed": true,
+  "limitations": "Verifies the stipulated finite model only; not empirical sensor performance or the normative value of the score."
+}

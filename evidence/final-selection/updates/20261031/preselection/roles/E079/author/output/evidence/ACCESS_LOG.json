@@ -1,0 +1,85 @@
+{
+  "window_utc": {
+    "from": "2026-10-18T00:35:27Z",
+    "to": "2026-10-18T00:45:54.617726+00:00",
+    "precision_note": "Bounded by observed tool/current clock times; separate exact per-page UTC timestamps were not exposed."
+  },
+  "successful_access": [
+    {
+      "source": "SEKINE2026",
+      "url": "https://www.cambridge.org/core/journals/canadian-journal-of-law-and-jurisprudence/article/in-defence-of-secondorder-reasons/D56F92244ED38017F40338C7869A9121",
+      "method": "direct_primary_html",
+      "scope": "§3, nn.39–43; contextual §2.1 selections"
+    },
+    {
+      "source": "WISTRICH2005",
+      "url": "https://repository.law.upenn.edu/Documents/Detail/can-judges-ignore-inadmissible-information-the-difficulty-of-deliberately-disregarding/153906",
+      "method": "direct_primary_repository_viewer_ocr",
+      "scope": "pp.1282–84,1298–1303,1336–37"
+    },
+    {
+      "source": "WITTLIN2023",
+      "url": "https://cdn.vanderbilt.edu/vu-wordpress-0/wp-content/uploads/sites/278/2023/11/27125213/Binding-Hercules-A-Proposal-for-Bench-Trials.pdf",
+      "method": "direct_primary_pdf_text",
+      "scope": "pp.1759–60, n.143"
+    },
+    {
+      "source": "KEELING2024",
+      "url": "https://oai.e-spacio.uned.es/server/api/core/bitstreams/9f1abaa9-65ba-4db0-8296-93b68e536cbc/content",
+      "method": "direct_primary_published_pdf_text",
+      "scope": "§3.1 selected passages; §§3.2.1,3.2.4; §3.3 opening"
+    },
+    {
+      "source": "HOEFTWP2024",
+      "url": "https://www.crctr224.de/research/discussion-papers/archive/dp610/@@download/file/CRCTR224_2024_610.pdf",
+      "method": "direct_primary_working_paper_pdf_text",
+      "scope": "§3 pp.6–7; §6 pp.12–13"
+    }
+  ],
+  "failed_or_partial_access": [
+    {
+      "url": "https://doi.org/10.1017/cjlj.2026.10062",
+      "method": "web open",
+      "outcome": "Internal Error; publisher HTML subsequently succeeded"
+    },
+    {
+      "url": "https://scholarship.law.cornell.edu/lsrp_papers/20/",
+      "outcome": "Metadata page read by web; PDF click failed; urllib page request returned 403"
+    },
+    {
+      "url": "https://scholarship.law.vanderbilt.edu/faculty-publications/821/",
+      "outcome": "Metadata page read; PDF endpoint returned 403 via web and urllib"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=696781",
+      "outcome": "Search metadata read; direct web and urllib access returned 403"
+    },
+    {
+      "url": "https://pennlawreview.com/2020/04/28/can-judges-ignore-inadmissible-information-the-difficulty-of-deliberately-disregarding/",
+      "outcome": "Journal page read; old PDF link redirects to new repository search, which was searched through public UI to reach primary text"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/phpr.13069",
+      "outcome": "Direct open timed out; institutional published PDF used"
+    },
+    {
+      "url": "https://pure.mpg.de/rest/items/item_3639909_2/component/file_3639910/content",
+      "outcome": "Direct final PDF open failed; separate working paper used"
+    },
+    {
+      "method": "initial local urllib request",
+      "outcome": "Sandbox DNS unavailable; authorized public-source reads subsequently used reviewed network escalation. No approval rejection."
+    }
+  ],
+  "search_scope": [
+    "Exact Sekine title",
+    "Exact Wistrich title and official author/publisher repositories",
+    "Exact Keeling title and institutional PDF"
+  ],
+  "not_claimed": [
+    "Exhaustive literature search",
+    "novelty verification",
+    "raw individual data access",
+    "full primary source capture"
+  ]
+}

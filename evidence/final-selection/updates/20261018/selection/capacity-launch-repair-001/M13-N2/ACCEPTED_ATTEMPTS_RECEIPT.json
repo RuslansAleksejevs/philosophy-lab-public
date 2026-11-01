@@ -1,0 +1,42 @@
+{
+  "status": "ACCEPTED_ATTEMPTS_MAP_ARCHIVED",
+  "logical_job_id": "M13-N2",
+  "event_id": "event-af192c4097ef4983bd435bbc69b263b7",
+  "map": {
+    "path": "runs/final-selection-20261018/capacity-launch-repair-001/M13-N2/ACCEPTED_ATTEMPTS.v3.json",
+    "sha256": "81c719c69e5698526b2a41f9b6ac60ba8b185c4be2c854a89d46be96f0b771a8",
+    "bytes": 3278
+  },
+  "ready_receipt": {
+    "path": "runs/final-selection-20261018/capacity-launch-repair-001/REPAIR_RECEIPT.json",
+    "sha256": "7b55050df2c3b6369246ad25b09757758bb90ceeaa15feacd8e41c8179da32c4",
+    "bytes": 5899
+  },
+  "execution_files": [
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/archive_repair.py",
+      "sha256": "ac2a80a1a535096a089d15bacc6f3195c4165564f8d001f208f1bbf7c71094bb",
+      "bytes": 18749
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/resolver_map_repair.py",
+      "sha256": "ebeb9e8cef491c3b8838212e8c98969b224b5b96c315f7f8fd67f674090b200f",
+      "bytes": 10308
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/finish_replacements.py",
+      "sha256": "0566cffc87966ef6f0023e682e1226cca585c4eb28c3d8a0618aa1943126a1f0",
+      "bytes": 3360
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/test_map_repair.py",
+      "sha256": "9a66f6ac1dad77723aab86555a2b9e162489b710696bf07b3a44cfda662a499c",
+      "bytes": 9718
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/MAP_TESTS.json",
+      "sha256": "69a6d92e13b3140a2aec811585108fe9daf31ce7c062cce89fd47f676a048a36",
+      "bytes": 2493
+    }
+  ]
+}

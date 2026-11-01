@@ -1,0 +1,1224 @@
+{
+  "schema": "candidate-triage-plain.v2",
+  "run_id": "final-selection-e036-20261017",
+  "supersedes_for_current_navigation": "runs/final-selection-step1-clarification-20261017/DECISIONS.json",
+  "prior_completion_event": "event-9a43499aee7d425b839017b4957ea633",
+  "counts": {
+    "keep": 14,
+    "revise": 8,
+    "defer": 0
+  },
+  "candidate_count": 22,
+  "changed_decisions": [
+    "E086"
+  ],
+  "correction": "E086 deferred without sufficient distinction from the repair route accepted for E074. Existing rescue evidence describes its significance problem as repairable and gives a concrete next step. Move defer → revise; no new philosophical result is claimed.",
+  "editorial_corrections": [
+    "F04: Leo is the son, not the father. The new explanation avoids the earlier ambiguous wording."
+  ],
+  "reading_boundary": "Non-blinded coordinator selection from two full manuscripts, accepted earlier reviews and argument/literature syntheses. No new independent reviewer or external source search.",
+  "manuscript_edits": false,
+  "step2_started": true,
+  "candidates": [
+    {
+      "id": "E009",
+      "title": "Обещание вернуть автобус",
+      "decision": "keep",
+      "action": "Сравнивать как есть",
+      "idea": "Город закрывает автобусный маршрут и обещает вернуть его, если жители соберут жалобы. Но без автобуса им может стать трудно встретиться и организовать жалобу.",
+      "problem": "Нужно ещё выяснить, насколько эта мысль продвигает уже известные рассуждения о праве обжаловать решения.",
+      "why": [
+        "Эссе показывает конкретный обманчивый довод: обещание исправить ошибку не защищает людей, если сама ошибка лишает их возможности попросить об исправлении.",
+        "Этот вывод уже объяснён и не требует запретить любое закрытие маршрута, поэтому сейчас я не вижу причины переписывать текст."
+      ],
+      "next_action": "При сравнении с другими эссе оценить, насколько полезен этот способ проверять обещания исправления.",
+      "issue_type": "Нужно оценить ценность результата, конкретная ошибка не установлена.",
+      "previous_decision": "keep",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E009.md",
+          "sha256": "6fcfd9ef400a61abed5b52b1a810c8e233a764ca059804b1223c9fb4794f4605",
+          "bytes": 26402,
+          "current": true,
+          "actual_title": "Before You Tell Us to Try Again",
+          "previous_inventory_title": "Before You Tell Us to Try Again"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/blind/E009.md",
+          "sha256": "6fcfd9ef400a61abed5b52b1a810c8e233a764ca059804b1223c9fb4794f4605"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E009/releases/v1/READY.json",
+          "sha256": "029d8d431cb30d7491b3d54fbdf045817f5d16dc2b320f549e96055e4e5768c3"
+        },
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E009/releases/v3/READY.json",
+          "sha256": "30ba8c6d54037b33b2b610101da517aee79f544d7977ca3e521e51295a8f0400"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E009/releases/v1/REPORT_RU.txt",
+          "sha256": "41d436d7e2b49d50c7cf5ae00bf88393f0e9b2acf4dc5fcd093cc47e6608ddf7"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E009/releases/v1/OPEN_QUESTIONS.json",
+          "sha256": "31baad96c428d709738207b4191e703980887fab3a884ef7b3ddf37ca4805ae3"
+        },
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E009/scoped-workspaces/synthesis-NONE-replacement-r4-v1/outputs/synthesis/RESULT_RU.txt",
+          "sha256": "9e0295cb1394e5847bf55b5ec3bf203fb4555bc3819144f95588ea0fe88c9094"
+        },
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E009/scoped-workspaces/synthesis-NONE-replacement-r4-v1/outputs/synthesis/SUGGESTED_REVISION_RU.txt",
+          "sha256": "c63fb96c3ff6ca9926f598cdbadd850a6ef3dd0df7512a8ff0933977f4e11a6e"
+        },
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E009/releases/v3/RESULT_RU.txt",
+          "sha256": "9e0295cb1394e5847bf55b5ec3bf203fb4555bc3819144f95588ea0fe88c9094"
+        },
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E009/releases/v3/SUGGESTED_REVISION_RU.txt",
+          "sha256": "c63fb96c3ff6ca9926f598cdbadd850a6ef3dd0df7512a8ff0933977f4e11a6e"
+        }
+      ]
+    },
+    {
+      "id": "E036",
+      "title": "Личный дневник при отборе на стипендию",
+      "decision": "keep",
+      "action": "Сравнивать R1 с остальными; выбор версии закрыт",
+      "idea": "Троим кандидатам обещают равные шансы и право не показывать личные записи. Один добровольно показывает дневник и получает стипендию; шансы остальных исчезают.",
+      "problem": "Остаётся проверить, достаточно ли важна и нова узкая мысль о справедливом исправлении ошибки и дополнительном преимуществе. Общего запрета добровольных личных свидетельств в сравнительном конкурсе R1 не доказывает.",
+      "why": [
+        "R1 лучше объясняет, почему участникам положены именно такие шансы: их задаёт обоснованное правило распределения, а не само право не показывать дневник. В исходнике переход от защиты личной жизни к сохранению всего прежнего шанса остаётся недостаточно обоснованным.",
+        "R1 подробно показывает, почему возвращение несправедливо исключённого человека законно уменьшает шансы остальных, но не даёт ему всю стипендию. Её вывод уже исходного замысла, однако на этой основе можно работать без принятия нерешённого перехода за доказанный."
+      ],
+      "next_action": "Взять R1 для общего сравнения; при отборе десятки оценить значимость и новизну её узкого вклада.",
+      "issue_type": "Выбор основы завершён; философская новизна и попадание в десятку не установлены.",
+      "previous_decision": "revise",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E036.md",
+          "sha256": "11b983431d03c7256f921790f60da2ad2391bb52552dfd031afc6af9abefca5a",
+          "bytes": 24861,
+          "current": false,
+          "actual_title": "No Penalty for Silence",
+          "previous_inventory_title": "No Penalty for Silence"
+        },
+        {
+          "variant": "R1-display",
+          "path": "runs/midterm-20261007/revision-trial-20261008/comparison-copies/E036-R1.md",
+          "sha256": "657500614bc4836ba88baecc27661d1b4a90c00ae51888fc766e5c9e9c231e33",
+          "bytes": 25638,
+          "current": true,
+          "actual_title": "No Penalty for Silence",
+          "previous_inventory_title": "No Penalty for Silence"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/blind/E036.md",
+          "sha256": "11b983431d03c7256f921790f60da2ad2391bb52552dfd031afc6af9abefca5a"
+        },
+        {
+          "path": "runs/midterm-20261007/revision-trial-20261008/comparison-copies/E036-R1.md",
+          "sha256": "657500614bc4836ba88baecc27661d1b4a90c00ae51888fc766e5c9e9c231e33"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E036/releases/v1/READY.json",
+          "sha256": "ac3adcc209483dac71360d6d6eb7958acf8e119cd863639067bcfe3ed9a1cb76"
+        },
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E036/releases/v1/READY.json",
+          "sha256": "2e1fca1a8ccc1b163b48f13922c2ea5b0a548b11ef22eaa33c7001c40318aac0"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E036/releases/v1/REPORT_RU.txt",
+          "sha256": "cf935a215100f9b2047506451b2e8eb97712e4b41ad5d5c1688aa21479e5efca"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E036/releases/v1/OPEN_QUESTIONS.json",
+          "sha256": "be983189ed7829836b7cccdee9c675de6e1dc6489a1c10bbe93d19a84fe9c382"
+        },
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E036/scoped-workspaces/synthesis-NONE-v2/outputs/synthesis/RESULT_RU.txt",
+          "sha256": "938254aeff0b4bf20480ffdc1115e0edf253cda1b3a5968e11e577a19a4c541f"
+        },
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E036/scoped-workspaces/synthesis-NONE-v2/outputs/synthesis/SUGGESTED_REVISION_RU.txt",
+          "sha256": "dd5a89027373378c44e4f6619c02d8e4d8b6a34bd79d85c544d1e068af972724"
+        },
+        {
+          "path": "runs/final-selection-e036-20261017/RESULT_RU.txt",
+          "sha256": "b20b06b18e325bf9773e0fe1cd0905e57f1aafd91e5694a04887ef31e5605cb4"
+        }
+      ],
+      "version_choice_open": false,
+      "selected_variant": "R1-display",
+      "selection_report": "runs/final-selection-e036-20261017/RESULT_RU.txt"
+    },
+    {
+      "id": "E047",
+      "title": "Отказ, который не хотят принимать",
+      "decision": "keep",
+      "action": "Сравнивать как есть",
+      "idea": "Учреждение обещает человеку право оценить пережитую программу. Его «да» принимает сразу, а «нет» считает временным и ждёт, пока он передумает.",
+      "problem": "Возможно, это удачное применение уже известных требований уважать отказ, а не отдельное новое правило.",
+      "why": [
+        "Если отрицательный ответ не может повлиять на решение, человеку фактически не дали обещанного права решать.",
+        "Текст ясно показывает эту проблему и не утверждает, что любой отказ всегда обязан победить, поэтому оставляю нынешнюю версию."
+      ],
+      "next_action": "Оценить, достаточно ли содержательно это объяснение для места в десятке.",
+      "issue_type": "Вопрос о силе и новизне объяснения, явная ошибка не установлена.",
+      "previous_decision": "keep",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E047.md",
+          "sha256": "98da4f7f05e2b79ce05f6f337e9dee5dd47de7582022f0257bd322097947f0fc",
+          "bytes": 21986,
+          "current": true,
+          "actual_title": "Who Gets to Declare the Transformation Complete?",
+          "previous_inventory_title": "Who Gets to Declare the Transformation Complete?"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/blind/E047.md",
+          "sha256": "98da4f7f05e2b79ce05f6f337e9dee5dd47de7582022f0257bd322097947f0fc"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E047/releases/v1/READY.json",
+          "sha256": "a32a269b29e45d3e05547b32f24c26c8a5ec95bd85262c5100fc5dcf97624b00"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E047/releases/v1/REPORT_RU.txt",
+          "sha256": "d7f3c8bed119359d2bf332c6df280caa3015db12125c5a073acbe790ac0c04f6"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E047/releases/v1/OPEN_QUESTIONS.json",
+          "sha256": "fd16d8488602fecb0b48dfa3c8dd44bf0acc2c6ab8c41b47a5c8ac39f9a904d7"
+        }
+      ]
+    },
+    {
+      "id": "E050",
+      "title": "Что случится после снятия поддержки",
+      "decision": "keep",
+      "action": "Сравнивать как есть",
+      "idea": "Две системы могут одинаково вести себя, пока некоторые величины принудительно удерживают на заданном уровне, но после снятия этих ограничений прийти к разным результатам.",
+      "problem": "Нужно ещё проверить, насколько точный математический пример нов по сравнению с прежними работами и где его условия выполняются на практике.",
+      "why": [
+        "В принятой проверке математический пример устоял: одинаковые наблюдения при удержании действительно допускают разные исходы после освобождения.",
+        "Текст также показывает, когда порядок снятия ограничений помогает выбрать надёжное действие, и прямо называет нужные условия, поэтому оснований чинить доказанный результат сейчас нет."
+      ],
+      "next_action": "Сравнить результат с ближайшими известными примерами; практическую применимость не считать уже доказанной.",
+      "issue_type": "Нужно проверить новизну и применение; текущий математический результат проверку выдержал.",
+      "previous_decision": "keep",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E050.md",
+          "sha256": "a45eb471cb62fac13b3a032a4fc77aec7ec21a34e077812eccef0e0a1c897ee0",
+          "bytes": 19496,
+          "current": false,
+          "actual_title": "What Holding Cannot Tell Us About Letting Go",
+          "previous_inventory_title": "What Holding Cannot Tell Us About Letting Go"
+        },
+        {
+          "variant": "R1-display",
+          "path": "runs/midterm-20261007/revision-trial-20261008/comparison-copies/E050-R1.md",
+          "sha256": "af21989e46757835e64576fa666612652b04c26a6d367740de2c9a910645023e",
+          "bytes": 20641,
+          "current": true,
+          "actual_title": "What Holding Cannot Tell Us About Letting Go",
+          "previous_inventory_title": "What Holding Cannot Tell Us About Letting Go"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/revision-trial-20261008/comparison-copies/E050-R1.md",
+          "sha256": "af21989e46757835e64576fa666612652b04c26a6d367740de2c9a910645023e"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E050/releases/v1/READY.json",
+          "sha256": "d5c63420738dc7f033501ced0f2b025f96da83fa1463e10951402b36f7c732b8"
+        },
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E050/releases/v1/READY.json",
+          "sha256": "3aafb058c287b8b383682ecb9271277d7e98719bc211712eb34e9b85ea05cb9d"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E050/releases/v1/REPORT_RU.txt",
+          "sha256": "794b3a36d9010b37798e96a0b67f9f47ccb1f6e546a1797c03d4d58cca3fa146"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E050/releases/v1/OPEN_QUESTIONS.json",
+          "sha256": "16cd6b908b8f85673d4d131fec671c3aa9ac0624d40d899dedc37f299f7fc7b5"
+        },
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E050/synthesis/RESULT_RU.txt",
+          "sha256": "45c0df077a71eea3839f8bf75fdef8cfb70ffef1d871eb092564acefb1c87372"
+        },
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E050/synthesis/SUGGESTED_REVISION_RU.txt",
+          "sha256": "406aed4e90b560db8d54d20a19c693848177eba4496dcec6f8375e2af6cb4881"
+        }
+      ]
+    },
+    {
+      "id": "E055",
+      "title": "Кнопка отмены не помогает увидеть ошибку",
+      "decision": "keep",
+      "action": "Сравнивать как есть",
+      "idea": "Программа составляет расписание и скрывает просьбу работника, ошибочно сочтя её неважной. Менеджер может отменить решение, но не знает, что именно надо исправить.",
+      "problem": "Другие авторы уже обсуждали требования к человеческому контролю; ещё нужно оценить, что добавляет это эссе.",
+      "why": [
+        "Пример показывает, почему одного права нажать «отменить» мало: сообщение о самой ошибке до человека не доходит.",
+        "Текст не требует показывать менеджеру вообще всё, а требует достаточно сведений для обещанной проверки, поэтому переписывать его из-за чрезмерного требования к информации сейчас не нужно."
+      ],
+      "next_action": "Сопоставить этот пример с прежними требованиями к человеческой проверке автоматических решений.",
+      "issue_type": "Нужно оценить добавленную пользу, конкретное требование уже ограничено.",
+      "previous_decision": "keep",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E055.md",
+          "sha256": "7e89cbede4b8b1a236ecfa87e684ba46b51707b099fa0f072ccbacb833d3b520",
+          "bytes": 20567,
+          "current": true,
+          "actual_title": "Who Gets to Tell the Tool It Is Wrong?",
+          "previous_inventory_title": "Who Gets to Tell the Tool It Is Wrong?"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/blind/E055.md",
+          "sha256": "7e89cbede4b8b1a236ecfa87e684ba46b51707b099fa0f072ccbacb833d3b520"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E055/releases/v1/READY.json",
+          "sha256": "16da40da43b1c39912972d20aa06f6edd78b8d46729aa6ef5f957343f350e854"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E055/releases/v1/REPORT_RU.txt",
+          "sha256": "3e430cc5174c14d16be2d5183a49f7e9dc406993a71a2dc3b5dd37147ee011a0"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E055/releases/v1/OPEN_QUESTIONS.json",
+          "sha256": "253c909b78038c5f67fe38e56fc815b29b3d9e82ec964a9b9c8d12c57031aae2"
+        }
+      ]
+    },
+    {
+      "id": "E074",
+      "title": "Кого считать успешным участником религиозной практики",
+      "decision": "revise",
+      "action": "Добавить трудный пример",
+      "idea": "Община подтверждает пользу своей практики рассказами участников, но исключает тех, кто разочаровался и ушёл. Иногда уход объясняется недоученностью, иногда им просто убирают неудобный результат.",
+      "problem": "Текст хорошо различает эти крайности, но ещё не разобрал случай, где претензия к подготовке человека частично обоснована и одновременно помогает отсеять несогласного.",
+      "why": [
+        "Понятно, почему нельзя считать подтверждением успеха только рассказы тех, кто остался доволен.",
+        "Но настоящий спор начинается там, где человека могли исключить и по делу, и из-за его несогласия; нужен такой пример, чтобы показать, как правило эссе помогает решить трудный случай."
+      ],
+      "next_action": "Найти и разобрать один случай с неизменным обещанием общины, проверяемыми требованиями к обучению и известной историей ушедшего участника.",
+      "issue_type": "Нужно усилить применение идеи; логическая ошибка не установлена.",
+      "previous_decision": "revise",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E074.md",
+          "sha256": "819580e498e7e5359dcb3908916ee75783dfd484c9e3acc23edc1722459acdbc",
+          "bytes": 24024,
+          "current": true,
+          "actual_title": "When Only Believers Count: Faith and the Evidence of Participation",
+          "previous_inventory_title": "When Only Believers Count: Faith and the Evidence of Participation"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/blind/E074.md",
+          "sha256": "819580e498e7e5359dcb3908916ee75783dfd484c9e3acc23edc1722459acdbc"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E074/releases/v1/READY.json",
+          "sha256": "322167dc1c89077bd1b4ca4f20be0579261ade9ac4d5f0f968eae106d6278798"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E074/releases/v1/REPORT_RU.txt",
+          "sha256": "2d056f4e2ce74dab0606b880e1a90218ca3e71e7d4894a839f1310d7ce707028"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E074/releases/v1/OPEN_QUESTIONS.json",
+          "sha256": "9703366c97a3e09468f3659d26c240c1a5bd8fa7c7db81f6fa7a125d64db4588"
+        }
+      ]
+    },
+    {
+      "id": "E078",
+      "title": "Кто должен платить за возможность забрать свой насос",
+      "decision": "revise",
+      "action": "Обосновать, кто платит",
+      "idea": "Человек одолжил насос с правом забрать его обратно. Получатель продал запасной насос, и теперь возврат оставит жителей без воды: формально отказаться можно, но ценой вреда другим.",
+      "problem": "Эссе хочет возложить разумные расходы на сохранение возможности отказа на получателя. Но дешевизна запаса и ценность свободы владельца ещё не решают, кому оплачивать запас.",
+      "why": [
+        "После продажи запаса владелец уже не может просто забрать насос: пострадают жители.",
+        "Но вывод «поэтому платит получатель» требует отдельного объяснения, особенно если у него самого важные нужды; до сравнения финалистов нужно укрепить именно этот переход."
+      ],
+      "next_action": "Проверить несколько случаев с разной ценой запасного решения и разными нуждами обеих сторон; объяснить, когда обязан платить получатель, а когда расходы нужно делить.",
+      "issue_type": "Спорный переход в главном доводе; не окончательное опровержение.",
+      "previous_decision": "revise",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E078.md",
+          "sha256": "04dc45eb5eb4d24982ee5f24c70afef04b1efcd7dfb31edbed034ce5db17d52e",
+          "bytes": 24360,
+          "current": false,
+          "actual_title": "Revocable Consent and the Duty to Preserve an Exit",
+          "previous_inventory_title": "Revocable Consent and the Duty to Preserve an Exit"
+        },
+        {
+          "variant": "R1-display",
+          "path": "runs/midterm-20261007/revision-trial-20261008/comparison-copies/E078-R1.md",
+          "sha256": "74dc1443a74d63ba4fc3bfea95e4c6967bfed7b35c9501759008f2e1cdb68758",
+          "bytes": 24139,
+          "current": true,
+          "actual_title": "Revocable Consent and Responsibility for Preserving Choice",
+          "previous_inventory_title": "Revocable Consent and the Duty to Preserve an Exit"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/revision-trial-20261008/comparison-copies/E078-R1.md",
+          "sha256": "74dc1443a74d63ba4fc3bfea95e4c6967bfed7b35c9501759008f2e1cdb68758"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E078/releases/v1/READY.json",
+          "sha256": "f794609b7be2397e1684e9c866fd1ced5eec49c547dce43fc1f1c71dc8efd712"
+        },
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E078/releases/v1/READY.json",
+          "sha256": "97d9c49459f22910216584a32153f3edb88f27689c2d832854b7cbad45996629"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E078/releases/v1/REPORT_RU.txt",
+          "sha256": "9e4aaccfd323782c9ffe5789d049bc1aa3bffce9b5b129566dd0a1cba3264a0e"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E078/releases/v1/OPEN_QUESTIONS.json",
+          "sha256": "1f823358abe680bf83e2e8fa064bfe3a8a185a5b25305916ebaaeda2459643f4"
+        },
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E078/scoped-workspaces/synthesis-NONE-v1/outputs/synthesis/RESULT_RU.txt",
+          "sha256": "61a334f13da9b0b8dbd74f44ed6646303e58ba523dc493f0389f7b49a6c81647"
+        },
+        {
+          "path": "runs/postmidterm-20261012/02-argument-research/E078/scoped-workspaces/synthesis-NONE-v1/outputs/synthesis/SUGGESTED_REVISION_RU.txt",
+          "sha256": "98ef7a2e94c2fe7338d5e3aacbefbfeeda23c99fe382bdc0a28363dec9afa014"
+        }
+      ]
+    },
+    {
+      "id": "E079",
+      "title": "Мог ли судья всё ещё учитывать запрещённое доказательство",
+      "decision": "revise",
+      "action": "Проверить, какой вывод оспариваем",
+      "idea": "Одинаковая доля обвинительных приговоров может получиться и когда часть судей совсем игнорирует запрещённое доказательство, и когда все учитывают его, но слабее.",
+      "problem": "Автор, с которым спорит эссе, возможно, хотел показать лишь способность изменить решение из уважения к запрету, а не полное исчезновение влияния доказательства.",
+      "why": [
+        "Расчёт в эссе показывает, что по числу приговоров нельзя узнать, кто полностью исключил доказательство из рассуждения.",
+        "Но если оппонент и не заявлял полного исключения, этот расчёт не опровергает его вывод; сначала проверим его точное утверждение и при необходимости сузим спор."
+      ],
+      "next_action": "Проверить нужное место у Sekine и исходный эксперимент; после этого решить, надо ли менять формулировку главного возражения.",
+      "issue_type": "Возможное несовпадение с целью спора; сначала проверка источника, затем решение о правке.",
+      "previous_decision": "revise",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E079.md",
+          "sha256": "3ff50cb0c41cc9267cdf2b839fb8a7b5aab278a6810dab4b41757f2cc3074cfd",
+          "bytes": 18150,
+          "current": true,
+          "actual_title": "What the Verdict Does Not Tell Us",
+          "previous_inventory_title": "What the Verdict Does Not Tell Us"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/blind/E079.md",
+          "sha256": "3ff50cb0c41cc9267cdf2b839fb8a7b5aab278a6810dab4b41757f2cc3074cfd"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E079/releases/v1/READY.json",
+          "sha256": "5d13d42e1400ab1e3b2c6d363e914abbe00e3315a109b68c4d266098e071cf09"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E079/releases/v1/REPORT_RU.txt",
+          "sha256": "5cd98994299a1dbbcefa193addbcd2e540335d63df4dea345b939a0e70b09850"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E079/releases/v1/OPEN_QUESTIONS.json",
+          "sha256": "782987c9f945876c53c5ccb8645b1875438dc3e5e0f6e7f8e10007cdfbf40172"
+        }
+      ]
+    },
+    {
+      "id": "E100",
+      "title": "Музей, который не даёт музыке закончиться",
+      "decision": "keep",
+      "action": "Сравнивать как есть",
+      "idea": "Музей бесконечно удерживает последнюю ноту произведения, желая его сохранить. Но исполнение должно закончиться, и именно этого музей ему не даёт.",
+      "problem": "Ещё нужно понять, насколько мысль отличается от прежних рассуждений о сохранении искусства.",
+      "why": [
+        "Рассказ ясно показывает потерю: сохранённый звук не заменяет произведение, у которого есть завершение.",
+        "При этом текст разрешает запись и повторное исполнение, поэтому не обязан доказывать, что искусство вообще лучше уничтожать после одного показа; оставляю его для сравнения."
+      ],
+      "next_action": "Сохранить форму рассказа и сравнить его мысль с ближайшими работами о сохранении искусства.",
+      "issue_type": "Вопрос о ценности и новизне, а не требование доказать более сильный тезис, которого в тексте нет.",
+      "previous_decision": "keep",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E100.md",
+          "sha256": "7b30ee405892b61615bfb48bd9def7e1d0e746e9eb59511a0a8114e005db8318",
+          "bytes": 13342,
+          "current": true,
+          "actual_title": "Музей последней секунды",
+          "previous_inventory_title": "Музей последней секунды"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/blind/E100.md",
+          "sha256": "7b30ee405892b61615bfb48bd9def7e1d0e746e9eb59511a0a8114e005db8318"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E100/releases/v1/READY.json",
+          "sha256": "f802416dd5adc58e4918622c84942aa6da4838e79c3abec78d333cb89929d9a0"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E100/releases/v1/REPORT_RU.txt",
+          "sha256": "56599010507aaa61051d6fd15783513df7c6076b87d883c942f3d3f3275da7b7"
+        },
+        {
+          "path": "runs/postmidterm-20261012/01-literature/E100/releases/v1/OPEN_QUESTIONS.json",
+          "sha256": "cb2e1ec780af8eaa16a76cb6f31bc928866d633f4123aeefdf2b9f4ca6b773fe"
+        }
+      ]
+    },
+    {
+      "id": "E012",
+      "title": "Деньги за потерянные доказательства не закрывают всякий ущерб",
+      "decision": "revise",
+      "action": "Прояснить главный пример",
+      "idea": "Учреждение удалило фотографии, нужные для жалобы, и заплатило компенсацию. Позже другое ведомство неверно поняло итог дела; человеку снова нужна помощь в защите своей правоты.",
+      "problem": "Во втором споре требуют официальную справку. В примере недостаточно ясно, чем здесь помогли бы фотографии, если бы они сохранились.",
+      "why": [
+        "Чтобы обязанность помогать сейчас следовала именно из прежнего удаления фотографий, нужно показать, как их отсутствие мешает человеку теперь.",
+        "Если даже сохранившиеся фотографии не решили бы проблему со справкой, этот пример не подтверждает нужную связь; поэтому сначала проясним её или заменим пример."
+      ],
+      "next_action": "Показать отдельно случай, где фотографии действительно помогли бы оспорить запись, и случай, где нужна только справка от учреждения.",
+      "issue_type": "Недостаточно объяснена причинная связь в основном примере.",
+      "previous_decision": "revise",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E012.md",
+          "sha256": "7d0772e0c5393c7a0b669bb7c584ad4d24dd87caebedf5f2461a5f9f7ebbb84b",
+          "bytes": 28063,
+          "current": true,
+          "actual_title": "When a Remedy Becomes Evidence",
+          "previous_inventory_title": "When a Remedy Becomes Evidence"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/blind/E012.md",
+          "sha256": "7d0772e0c5393c7a0b669bb7c584ad4d24dd87caebedf5f2461a5f9f7ebbb84b"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/releases/v3/READY.json",
+          "sha256": "6e9b9a8f2c4f5aa5c6145df4e5412b930e09b70c4c804914fc8e0d06de028f09"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/cases/E012/CASE_RU.txt",
+          "sha256": "6c0923a633ebc860fc6a24070a974e19a5e8378e76284abbc51a6d8eb7a58c7e"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/cases/E012/CASE_METADATA.json",
+          "sha256": "47547add8bd24456da6f0d108c4484e0cd02c97d81cf5d6b1b690b2e9d30260c"
+        }
+      ]
+    },
+    {
+      "id": "E037",
+      "title": "Можно простить человека, но не принять его извинение",
+      "decision": "revise",
+      "action": "Разделить два возможных возражения",
+      "idea": "Человека уже простили. Он искренне извиняется, но одновременно ложно оправдывает другого виновного; пострадавший не принимает такое объяснение.",
+      "problem": "Неясно, отвергли ли само извинение или только добавленную к нему ложную фразу о другом человеке.",
+      "why": [
+        "Эссе хочет показать, что прощение человека и принятие его извинения — разные вещи.",
+        "Но отказ поверить отдельной ложной фразе ещё не доказывает отказ принять извинение; нужно сравнить ту же фразу внутри извинения и отдельно от него."
+      ],
+      "next_action": "Удержать вину, прощение и искренность одинаковыми, меняя только место спорной фразы; объяснить, что именно не принимает пострадавший.",
+      "issue_type": "Главный пример допускает другое объяснение.",
+      "previous_decision": "revise",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E037.md",
+          "sha256": "66c52f19e2f49b0a127680e1b85664f519db84539dd7712cbb84d44dde8395f3",
+          "bytes": 17936,
+          "current": true,
+          "actual_title": "Sincere, Forgiven, and Still Unacceptable",
+          "previous_inventory_title": "Sincere, Forgiven, and Still Unacceptable"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/blind/E037.md",
+          "sha256": "66c52f19e2f49b0a127680e1b85664f519db84539dd7712cbb84d44dde8395f3"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/releases/v3/READY.json",
+          "sha256": "6e9b9a8f2c4f5aa5c6145df4e5412b930e09b70c4c804914fc8e0d06de028f09"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/cases/E037/CASE_RU.txt",
+          "sha256": "9ed8526ecf9b0ec4ff286cf03e17c5f14589d737769326eb210d660bc5a3ecdd"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/cases/E037/CASE_METADATA.json",
+          "sha256": "12aa39edf27e55edc1cd6f2069a6ec9df71252ac6401928129858baa2486ec34"
+        }
+      ]
+    },
+    {
+      "id": "E039",
+      "title": "Зачем помнить, откуда взялся вывод",
+      "decision": "keep",
+      "action": "Сравнивать как есть",
+      "idea": "Исследователь сейчас уверен в результате. Позже выяснится, какой источник ошибался; если он стёр запись о своём источнике, ему будет труднее правильно пересмотреть вывод.",
+      "problem": "Из пользы хранения ещё не следует обязанность хранить запись; также нужно сравнить это эссе с похожим F02.",
+      "why": [
+        "Проверенный пример показывает измеримую пользу записи: после проверки источников ожидаемая ошибка меньше, хотя первоначальная уверенность была одинаковой.",
+        "Текст уже отделяет эту пользу от спорного вывода об обязанности, поэтому главная недостача сейчас — оценить силу результата в сравнении с другими работами, а не заново чинить расчёт."
+      ],
+      "next_action": "Сравнить с F02: какое эссе объясняет важную мысль яснее и защищает более сильный вывод.",
+      "issue_type": "Нужно сравнить силу результата и обоснование обязанности.",
+      "previous_decision": "keep",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E039.md",
+          "sha256": "37f240addafd761d1d361ce9c0ac1aeb3ba6997eed5b936f9386c11bd09c1a59",
+          "bytes": 30275,
+          "current": true,
+          "actual_title": "Settled, but Still Revisable",
+          "previous_inventory_title": "Settled, but Still Revisable"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/blind/E039.md",
+          "sha256": "37f240addafd761d1d361ce9c0ac1aeb3ba6997eed5b936f9386c11bd09c1a59"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/releases/v3/READY.json",
+          "sha256": "6e9b9a8f2c4f5aa5c6145df4e5412b930e09b70c4c804914fc8e0d06de028f09"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/cases/E039/CASE_RU.txt",
+          "sha256": "fa2af506f280ab6eab3dd171ffdf58c042f172d01abbb05dd664b6b524dd8ed9"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/cases/E039/CASE_METADATA.json",
+          "sha256": "8e34953241c44ea478a1f8613e5546dbd942fb30791d729ca442190b37eb52af"
+        }
+      ]
+    },
+    {
+      "id": "E041",
+      "title": "Что теряется, когда знаешь сюжет заранее",
+      "decision": "revise",
+      "action": "Уточнить ошибку зрителя и ценность её исправления",
+      "idea": "Фильм сначала подталкивает зрителя к одной догадке, а потом заставляет её пересмотреть. Спойлер может лишить его этого личного изменения взгляда.",
+      "problem": "Текст называет прежнюю уверенность зрителя чрезмерной, хотя ложная догадка могла быть разумной по доступным тогда сведениям.",
+      "why": [
+        "Нельзя заключать «зритель плохо рассуждал» только из того, что сюжет опроверг его догадку.",
+        "Нужно убрать этот лишний вывод и объяснить, чем собственное пережитое изменение взгляда ценно по сравнению с возможностью просто представить его, уже зная сюжет."
+      ],
+      "next_action": "Исправить фразу о чрезмерной уверенности и проверить довод о ценности реального пересмотра.",
+      "issue_type": "Есть конкретная неточная формулировка и спорный довод, который нужно укрепить.",
+      "previous_decision": "revise",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E041.md",
+          "sha256": "3042c92a6093450cb7e6a7b17f8c1acdfa9d9aa98bade4d58e07157f3c4cd6f9",
+          "bytes": 19335,
+          "current": true,
+          "actual_title": "What Foreknowledge Can Take Away",
+          "previous_inventory_title": "What Foreknowledge Can Take Away"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/blind/E041.md",
+          "sha256": "3042c92a6093450cb7e6a7b17f8c1acdfa9d9aa98bade4d58e07157f3c4cd6f9"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/releases/v3/READY.json",
+          "sha256": "6e9b9a8f2c4f5aa5c6145df4e5412b930e09b70c4c804914fc8e0d06de028f09"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/cases/E041/CASE_RU.txt",
+          "sha256": "72c5901dd66112ff848b474f2b4631366402d4248a2647858f1e35d982d70251"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/cases/E041/CASE_METADATA.json",
+          "sha256": "87ef40005d62eeb15612b9b561e0b899443804ab78401ca8d063b01038e2916c"
+        }
+      ]
+    },
+    {
+      "id": "E086",
+      "title": "Когда призыв верить мешает нужной проверке",
+      "decision": "revise",
+      "action": "Найти пример, где мысль действительно помогает",
+      "idea": "Уверенность в успехе может помочь людям действовать вместе. Но призыв «верьте и перестаньте проверять» иногда убирает саму работу или сведения, на которых держалось обещание успеха.",
+      "problem": "Нынешние примеры слишком лёгкие: убрать единственного проверяющего качество явно плохо, а прошлый результат лотереи явно не сообщает исход новой.",
+      "why": [
+        "В этих примерах вывод понятен ещё до предложенного разбора, поэтому они слабо показывают, зачем нужно эссе.",
+        "Но задача улучшения ясна — найти спорный призыв к доверию, где различение меняет ответ; поэтому перевожу E086 из «отложить» в «усилить пример», как E074."
+      ],
+      "next_action": "Разобрать один документированный спор о доверии и проверке; показать, что именно в нём становится понятнее благодаря идее эссе.",
+      "issue_type": "Нужно усилить применение идеи; прежнее отложение недостаточно обосновано.",
+      "previous_decision": "defer",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E086.md",
+          "sha256": "f4fca601f52d3e7e5082025c92350935254f70dbbf0841026454d999376426a9",
+          "bytes": 20432,
+          "current": true,
+          "actual_title": "The Inquiry Inside an Invitation to Faith",
+          "previous_inventory_title": "The Inquiry Inside an Invitation to Faith"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/blind/E086.md",
+          "sha256": "f4fca601f52d3e7e5082025c92350935254f70dbbf0841026454d999376426a9"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/releases/v3/READY.json",
+          "sha256": "6e9b9a8f2c4f5aa5c6145df4e5412b930e09b70c4c804914fc8e0d06de028f09"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/cases/E086/CASE_RU.txt",
+          "sha256": "c0d868a780a523c61b96806e08f2259b3c3acead4e88566de57d65c04dae495a"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/cases/E086/CASE_METADATA.json",
+          "sha256": "eda22c3be8bb8f1d46a92e76d153c9373573f657ecb7beb61bc84418eaa7b52f"
+        }
+      ]
+    },
+    {
+      "id": "E098",
+      "title": "Можно ли считать чужую помощь своим контролем",
+      "decision": "revise",
+      "action": "Объяснить, какую роль играет помощник",
+      "idea": "Плотник сможет вовремя остановить работу, если коллега сообщит об изменении приказа. Сам плотник оценит сообщение и решит, что делать.",
+      "problem": "Он способен отреагировать, но отсюда ещё не ясно, контролирует ли всё действие сам или контроль обеспечивают двое.",
+      "why": [
+        "Сигнал от помощника оставляет плотнику собственное решение, в отличие от случая, когда помощник просто останавливает его силой.",
+        "Однако этого различия мало, чтобы приписать весь контроль одному плотнику; эссе должно объяснить, когда помощь поддерживает личную способность, а когда создаёт совместную."
+      ],
+      "next_action": "Сравнить собственное наблюдение, заранее согласованную помощь и неожиданную помощь постороннего при одинаковой надёжности сигнала.",
+      "issue_type": "Не до конца защищён главный вывод о том, кому принадлежит контроль.",
+      "previous_decision": "revise",
+      "versions": [
+        {
+          "variant": "original",
+          "path": "runs/midterm-20261007/blind/E098.md",
+          "sha256": "2c031255a92853d4276e2599c637ce7a565ce1feb46da2c97393dc5bfe73d191",
+          "bytes": 15807,
+          "current": true,
+          "actual_title": "Being Able to Stop",
+          "previous_inventory_title": "Being Able to Stop"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/midterm-20261007/blind/E098.md",
+          "sha256": "2c031255a92853d4276e2599c637ce7a565ce1feb46da2c97393dc5bfe73d191"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/releases/v3/READY.json",
+          "sha256": "6e9b9a8f2c4f5aa5c6145df4e5412b930e09b70c4c804914fc8e0d06de028f09"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/cases/E098/CASE_RU.txt",
+          "sha256": "ba01d99d28a44bf9d511c376c5fba39b90be4d86d7cb40c80ae73d3dc4ad1273"
+        },
+        {
+          "path": "runs/postmidterm-20261012/05-rescue/cases/E098/CASE_METADATA.json",
+          "sha256": "4cd458079efabf5ad9cff06cdf162a78c5b86c08f29db2baab8b14516dd67c50"
+        }
+      ]
+    },
+    {
+      "id": "F01",
+      "title": "Жалоба на консультацию, которую нельзя записывать",
+      "decision": "keep",
+      "action": "Сравнивать новую версию",
+      "idea": "Сервис обещает вернуть деньги, если вместо консультации клиенту навязывали посторонний товар. Но разговор не записывают ради приватности, а затем жалобу отклоняют из-за отсутствия записи.",
+      "problem": "Остаётся спорным, какие обязанности сервиса следуют из его власти решать жалобы и как честно делить риск, если правду установить не удалось.",
+      "why": [
+        "Новая версия различает отказ вообще выслушать клиента и честное рассмотрение жалобы, после которого оснований платить всё же не хватило.",
+        "Она больше не требует выплаты только потому, что сервис может её позволить, поэтому прежняя чрезмерность исправлена и можно проверять нынешний довод при сравнении."
+      ],
+      "next_action": "Оценить, убедительно ли обоснована обязанность дать работающий способ жаловаться, даже когда записи разговора быть не должно.",
+      "issue_type": "Спорная дополнительная посылка открыто защищена; требуется оценить её, а не автоматически переписывать.",
+      "previous_decision": "keep",
+      "versions": [
+        {
+          "variant": "R1",
+          "path": "runs/postmidterm-20261012/04-essays/F01/releases/v1/R1.md",
+          "sha256": "7ebe3c5bb07a49e5236dd546be634d564c68bf3341d33c25e1602857960df599",
+          "bytes": 28685,
+          "current": true,
+          "actual_title": "Answerability Without Surveillance",
+          "previous_inventory_title": "Answerability Without Surveillance"
+        },
+        {
+          "variant": "D0",
+          "path": "runs/postmidterm-20261012/04-essays/F01/releases/v1/draft.md",
+          "sha256": "c25a45dd02e5a96aedee143c41aa6faa4a0e599d7ac2630299f27a4c1a58e108",
+          "bytes": 27547,
+          "current": false,
+          "actual_title": "Answerability Without Surveillance",
+          "previous_inventory_title": "Answerability Without Surveillance"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F01/releases/v1/R1.md",
+          "sha256": "7ebe3c5bb07a49e5236dd546be634d564c68bf3341d33c25e1602857960df599"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F01/releases/v1/READY.json",
+          "sha256": "60c01232028797d92dea322f8a5baff8f60d3552a996254432e158823d70b72a"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F01/releases/v1/author-response.md",
+          "sha256": "3ad9de37c2e3e46f2439641b50d940b3484ba40311e85465ace769ce1c1de9fe"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F01/releases/v1/critique-A.md",
+          "sha256": "42f19efb688c1a8b4eb6f0e01a58b4188f723e966376b9b601e8017974cda80d"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F01/releases/v1/critique-B.md",
+          "sha256": "ceb7a9ef00ef6c9e5002578a9fa198deae743587fffd0f69368110102479df43"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F01/releases/v1/HISTORY_RU.txt",
+          "sha256": "d34c88cd44f7c5e483f9b11f65ef783a75804c491bccaa676a077ffcdbe5f137"
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "title": "Можно рассуждать правильно и плохо хранить сведения",
+      "decision": "keep",
+      "action": "Сравнивать новую версию",
+      "idea": "Исследователь правильно оценивает всё, что помнит, но заранее удалил полезную запись об источнике. Поэтому после новой проверки он знает меньше, чем мог бы.",
+      "problem": "Расчёт зависит от явно заданных условий; он показывает выигрыш в точности степени уверенности, а не обязательно в ответах «да» или «нет».",
+      "why": [
+        "Раньше пример ломался при определённой связи между ошибками источников; новая версия прямо задаёт нужную независимость.",
+        "Она также указывает, какой именно вид точности улучшается, поэтому старые возражения не являются основанием снова переписывать исправленный пример."
+      ],
+      "next_action": "Проверить расчёт при его нынешних условиях и сравнить объяснение с E039.",
+      "issue_type": "Условия примера ограничены и названы; отдельная проверка новой версии ещё нужна.",
+      "previous_decision": "keep",
+      "versions": [
+        {
+          "variant": "R1",
+          "path": "runs/postmidterm-20261012/04-essays/F02/releases/v1/R1.md",
+          "sha256": "76d5c28417d5b87baebe2640a1636312d3a5f4ee69ab57c1486320e0a81148c9",
+          "bytes": 26179,
+          "current": true,
+          "actual_title": "Perfectly Proportioned, Poorly Informed",
+          "previous_inventory_title": "Perfectly Proportioned, Poorly Informed"
+        },
+        {
+          "variant": "D0",
+          "path": "runs/postmidterm-20261012/04-essays/F02/releases/v1/draft.md",
+          "sha256": "ea4d988d1600be64c69289b309d2778229336a0342e0c3424bb876e48adbd9c4",
+          "bytes": 28809,
+          "current": false,
+          "actual_title": "Perfectly Proportioned, Poorly Informed",
+          "previous_inventory_title": "Perfectly Proportioned, Poorly Informed"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F02/releases/v1/R1.md",
+          "sha256": "76d5c28417d5b87baebe2640a1636312d3a5f4ee69ab57c1486320e0a81148c9"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F02/releases/v1/READY.json",
+          "sha256": "56ba9d05f9d26d79f31a5886d925139ebccbebf7b3c10a5bf234857f4ca3b5c1"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F02/releases/v1/author-response.md",
+          "sha256": "fcd2f36faa8d7982736b85c062507e67077c74f1239ea9f75d955a9685759524"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F02/releases/v1/critique-A.md",
+          "sha256": "572c7a5632154313746e3f92f2cc84549350731e571c8e5e4e7d1c95cc0f4739"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F02/releases/v1/critique-B.md",
+          "sha256": "7904f45870fe58cfd90ee071a0d7f52d021fbcb6c9eda9ee49751b15759683ac"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F02/releases/v1/HISTORY_RU.txt",
+          "sha256": "e8a229ca38e3c937c93484902b7bdc17bc83e08912261e6bb1cbd0525a21082d"
+        }
+      ]
+    },
+    {
+      "id": "F03",
+      "title": "Как одна обнаруженная ошибка влияет на другие ответы философа",
+      "decision": "keep",
+      "action": "Сравнивать новую версию",
+      "idea": "Философ дал ответ о сущности вещей, но на проверочном вопросе ошибся из-за способа рассуждения. Нужно понять, насколько это подрывает доверие к его исходному ответу.",
+      "problem": "Числа в примере условны; они показывают возможный эффект ошибки, а не доказывают, как реально думают люди и какая теория сущности верна.",
+      "why": [
+        "Старая версия слишком быстро объявляла проверочную ошибку неважной, если её одинаково допускали обе спорящие теории.",
+        "Новая версия считает оба ответа вместе и показывает, что доверие к исходному ответу всё-таки может упасть, поэтому найденную ошибку уже исправили; дальше нужен свежий разбор этого расчёта."
+      ],
+      "next_action": "Проверить новый совместный расчёт и убедиться, что условный пример не выдаётся за установленный психологический факт.",
+      "issue_type": "Ранее найденный дефект исправлен в тексте; независимое подтверждение исправления впереди.",
+      "previous_decision": "keep",
+      "versions": [
+        {
+          "variant": "R1",
+          "path": "runs/postmidterm-20261012/04-essays/F03/releases/v1/R1.md",
+          "sha256": "42accea7f8647e8de5dac9d6c55e834e2b62c07d6655730ec6e7948eff9319b5",
+          "bytes": 28072,
+          "current": true,
+          "actual_title": "Errors, Repairs, and Evidence about Essence",
+          "previous_inventory_title": "Errors, Repairs, and Evidence about Essence"
+        },
+        {
+          "variant": "D0",
+          "path": "runs/postmidterm-20261012/04-essays/F03/releases/v1/draft.md",
+          "sha256": "e6b2d3c86ed880b42346735e3a214c03c2f5963633c297ae895d3930dab541fe",
+          "bytes": 23322,
+          "current": false,
+          "actual_title": "An Error Is Not Yet a Metaphysical Verdict",
+          "previous_inventory_title": "Errors, Repairs, and Evidence about Essence"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F03/releases/v1/R1.md",
+          "sha256": "42accea7f8647e8de5dac9d6c55e834e2b62c07d6655730ec6e7948eff9319b5"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F03/releases/v1/READY.json",
+          "sha256": "5ede53d5b59b626cd90ced5a4bfa9ad02c9884575d16c55ef466a875b2ff747b"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F03/releases/v1/author-response.md",
+          "sha256": "a9605c233820dbfa5c943da8c8ec6fab3b76201532bb1c9388c8fbeb64cb0055"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F03/releases/v1/critique-A.md",
+          "sha256": "058ef8a33f1ba45e03e86b43f1e780adbf72d9bc4541ace6f0c377c74bbe9493"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F03/releases/v1/critique-B.md",
+          "sha256": "603d605aaa016f2e121f28d2cb43803799cfc8970d93d5de82fc095c3493dfb9"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F03/releases/v1/HISTORY_RU.txt",
+          "sha256": "0a140439a345c27bfb23d5ea292efaf3ca6a6df900ac268a57d5ae7d9ba36126"
+        }
+      ]
+    },
+    {
+      "id": "F04",
+      "title": "Перестать требовать обещанное — не всегда простить обещание",
+      "decision": "keep",
+      "action": "Сравнивать новую версию",
+      "idea": "Отец сказал, что купит сыну крендель, потом отрицает, что обещал. Сын перестаёт настаивать и просит колу: исчезло ли обязательство или он просто сменил просьбу?",
+      "problem": "Случай сам по себе не решает, что именно произошло: отмена обязательства, освобождение от него или прекращение спора.",
+      "why": [
+        "Новая версия указывает на конкретный пробел в объяснении: по одной реакции сына нельзя узнать, почему он больше не требует крендель.",
+        "Она использует пример самого оппонента и ограничивает свой вывод этой неоднозначностью, поэтому оставляю текст для сравнения вместо требования доказать гораздо более общий тезис."
+      ],
+      "next_action": "Проверить, действительно ли объяснение оппонента оставляет эти возможности неразличёнными.",
+      "issue_type": "Ограниченный спор об объяснении; решающего опровержения всех случаев эссе не обещает.",
+      "previous_decision": "keep",
+      "versions": [
+        {
+          "variant": "R1",
+          "path": "runs/postmidterm-20261012/04-essays/F04/releases/v1/R1.md",
+          "sha256": "14f8333ca0f09587596b044eea9992ea85fec7427773b0c07bc0bd74b15b4b6f",
+          "bytes": 30740,
+          "current": true,
+          "actual_title": "After Agreement Ends: What Denial Can Change",
+          "previous_inventory_title": "After Agreement Ends: What Denial Can Change"
+        },
+        {
+          "variant": "D0",
+          "path": "runs/postmidterm-20261012/04-essays/F04/releases/v1/draft.md",
+          "sha256": "2ba900d992d57eef7375f38e7949d1dd615c29bd0909561679aee25bfd4fcd50",
+          "bytes": 26982,
+          "current": false,
+          "actual_title": "After Agreement Ends",
+          "previous_inventory_title": "After Agreement Ends: What Denial Can Change"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F04/releases/v1/R1.md",
+          "sha256": "14f8333ca0f09587596b044eea9992ea85fec7427773b0c07bc0bd74b15b4b6f"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F04/releases/v1/READY.json",
+          "sha256": "c032669b5f45e74bef90ecee597cb44874386a19160bb00803eff21c3f27293c"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F04/releases/v1/author-response.md",
+          "sha256": "3c49e9e1a2570a84c86020ebfe7664dddaadd33a15415e334831cf3b9b8884a4"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F04/releases/v1/critique-A.md",
+          "sha256": "dd7b4ff652687dc6c2f8d5aaa625a149cdd254a84fd64c1c7a923de4e26c6b99"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F04/releases/v1/critique-B.md",
+          "sha256": "48e8916d0bc172507a3a26f5ed28342c896c6a1f80dd6fa272dc391b4ac08024"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F04/releases/v1/HISTORY_RU.txt",
+          "sha256": "b6d92cda0c009038b9e5258c502d049f1b1e2e87d80f8a787365c5a2690d873a"
+        }
+      ]
+    },
+    {
+      "id": "F05",
+      "title": "Мы заметили образ или создали его вниманием",
+      "decision": "keep",
+      "action": "Сравнивать новую версию",
+      "idea": "Человек всмотрелся во внутренний образ и увидел его ярким. Но таким ли образ был до внимания, или внимание его изменило?",
+      "problem": "Чтобы сделать вывод о прошлом опыте, нужно обосновать, что внимание могло в нём изменить; для реальных способов наблюдения это ещё не установлено.",
+      "why": [
+        "Эссе даёт понятное условие: если наблюдение не могло создать нужное свойство с нуля, его наличие после наблюдения подтверждает, что оно было раньше.",
+        "В новой версии исправлены переходы между разными свойствами и моментами времени, поэтому можно оценивать этот ограниченный довод, не требуя от него уже готовой теории всего самонаблюдения."
+      ],
+      "next_action": "Проверить условия вывода на разобранных примерах; применимость к реальному наблюдению оценивать отдельно.",
+      "issue_type": "Условный довод сохранён; фактическое выполнение условий остаётся открытым.",
+      "previous_decision": "keep",
+      "versions": [
+        {
+          "variant": "R1",
+          "path": "runs/postmidterm-20261012/04-essays/F05/releases/v1/R1.md",
+          "sha256": "7757b995b75b8c311e1bdb9e67056be1af5ee6cbb0cb158b40e3e45485eafd01",
+          "bytes": 27281,
+          "current": true,
+          "actual_title": "Knowing the Experience You Changed",
+          "previous_inventory_title": "Knowing the Experience You Changed"
+        },
+        {
+          "variant": "D0",
+          "path": "runs/postmidterm-20261012/04-essays/F05/releases/v1/draft.md",
+          "sha256": "83acd34e516c617a5eebe6f2c4ec78e05b93888d9235c423a6a55fea60a71893",
+          "bytes": 26912,
+          "current": false,
+          "actual_title": "Knowing the Experience You Changed",
+          "previous_inventory_title": "Knowing the Experience You Changed"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F05/releases/v1/R1.md",
+          "sha256": "7757b995b75b8c311e1bdb9e67056be1af5ee6cbb0cb158b40e3e45485eafd01"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F05/releases/v1/READY.json",
+          "sha256": "b567badb28f4a6cd0535c6479fe664c460343da7bb2fb6beb4d7b9305145f9e1"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F05/releases/v1/author-response.md",
+          "sha256": "58ad821890091d1b15c7c11e03c6d7e3e25be11f58243612118543e962d31fc5"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F05/releases/v1/critique-A.md",
+          "sha256": "c1ec6a9f4d762ec633094284ab3964826d056c5a3c003174b10ab9d34470438c"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F05/releases/v1/critique-B.md",
+          "sha256": "de0bb41b8e33f2ccd353d468d2ea7ec4f4471d3877322366b46893364ed4cd4a"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F05/releases/v1/HISTORY_RU.txt",
+          "sha256": "2a01eaf5c8db7af13e7a36f09622975e49db4d589a337fd64d4feeca920b0fa6"
+        }
+      ]
+    },
+    {
+      "id": "F06",
+      "title": "Пробный проект, который потом невозможно остановить",
+      "decision": "keep",
+      "action": "Сравнивать новую версию",
+      "idea": "Новую систему помощи вводят на два года с правом отказаться от неё. За это время убирают старые способы помощи, и отказ теперь оставит людей без необходимого обслуживания.",
+      "problem": "Нужно обосновать, какое право отказа было действительно дано и сколько допустимо тратить на возможность перехода к другой системе.",
+      "why": [
+        "Новая версия отличает обещание обсудить результаты от настоящего права прекратить проект: обязанность готовить переход выводится только во втором случае.",
+        "Если подготовка слишком дорога, текст предлагает заново согласовать условия или изменить проект, а не держать любой запас любой ценой, поэтому старую чрезмерность уже убрали."
+      ],
+      "next_action": "Проверить, убедительно ли задано право прекращения и его разумная цена в выбранном случае.",
+      "issue_type": "Условие полномочия и предел затрат названы; остаётся оценить их обоснование.",
+      "previous_decision": "keep",
+      "versions": [
+        {
+          "variant": "R1",
+          "path": "runs/postmidterm-20261012/04-essays/F06/releases/v1/R1.md",
+          "sha256": "c2e4d644eb13efb18583f3b7fb01665639018cb510146aba942cf294bfc4d63d",
+          "bytes": 34611,
+          "current": true,
+          "actual_title": "Keeping Refusal Possible",
+          "previous_inventory_title": "Keeping Refusal Possible"
+        },
+        {
+          "variant": "D0",
+          "path": "runs/postmidterm-20261012/04-essays/F06/releases/v1/draft.md",
+          "sha256": "60fcea0d10d4e4867f7a6cbe686fd8c98d9e11f15fb03256075b47a61677f80b",
+          "bytes": 29151,
+          "current": false,
+          "actual_title": "Keeping Refusal Possible",
+          "previous_inventory_title": "Keeping Refusal Possible"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F06/releases/v1/R1.md",
+          "sha256": "c2e4d644eb13efb18583f3b7fb01665639018cb510146aba942cf294bfc4d63d"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F06/releases/v1/READY.json",
+          "sha256": "5fce4f6b958bcb4ae0753886438c59e31fd97baac30b5e09d87ed9cc4a73a718"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F06/releases/v1/author-response.md",
+          "sha256": "2be0d59cf4969be0f680b161d7d7de92b2f0a6895e8db123e3f8558b0ee36933"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F06/releases/v1/critique-A.md",
+          "sha256": "789ff6b994fff30dbbfd0f08123ce7fb03216de00895984075c0d3c750611ee3"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F06/releases/v1/critique-B.md",
+          "sha256": "72dd53228933d2391396a2f5b7dd444a4f81036567f0db1e80417483596b3204"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/F06/releases/v1/HISTORY_RU.txt",
+          "sha256": "e3010af8785961a803b4cfe91b8ce55b965b3313e84f72a979e9401358d6cb7b"
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "Мэр спрашивает граждан, пока не получит нужный ответ",
+      "decision": "keep",
+      "action": "Сравнивать новую версию",
+      "idea": "Две случайно выбранные группы граждан отвергли предложение мэра, третья одобрила. Мэр прекращает консультации и представляет третью группу как официальный голос проведённого обсуждения.",
+      "problem": "Нужно знать правила консультации: иногда поиск хотя бы одного одобрения был честно согласован заранее и тогда сам повтор не доказывает нарушения.",
+      "why": [
+        "Новая версия критикует конкретную подмену: обещали независимую оценку предложения, а мэр сам выбрал, какой ответ станет итоговым.",
+        "Она уже допускает повторы по заранее оправданным правилам, поэтому не нужно чинить слишком широкий запрет повторных голосований — такого запрета в нынешнем тексте нет."
+      ],
+      "next_action": "Проверить правила консультации, право мэра её повторять и основание особого статуса последнего ответа.",
+      "issue_type": "Нужно проверить условия конкретного случая; общий запрет повторов не заявлен.",
+      "previous_decision": "keep",
+      "versions": [
+        {
+          "variant": "R1",
+          "path": "runs/postmidterm-20261012/04-essays/S02/releases/v1/R1.md",
+          "sha256": "0ff5fb0984993915d9fd049be178d5c4bd2c50893353b5e8758996d795fd1056",
+          "bytes": 29774,
+          "current": true,
+          "actual_title": "Who Chooses the Last Citizens’ Assembly?",
+          "previous_inventory_title": "Who Chooses the Last Citizens’ Assembly?"
+        },
+        {
+          "variant": "D0",
+          "path": "runs/postmidterm-20261012/04-essays/S02/releases/v1/draft.md",
+          "sha256": "5cf43ea11a62bc351779a443d785b068681be6efb39d1205d24daff9b0ccf41a",
+          "bytes": 26634,
+          "current": false,
+          "actual_title": "Who Chooses the Last Citizens’ Assembly?",
+          "previous_inventory_title": "Who Chooses the Last Citizens’ Assembly?"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "runs/postmidterm-20261012/04-essays/S02/releases/v1/R1.md",
+          "sha256": "0ff5fb0984993915d9fd049be178d5c4bd2c50893353b5e8758996d795fd1056"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/S02/releases/v1/READY.json",
+          "sha256": "3d39b8775674810b82b416a8b57820006f8765c5a5fa61774d44d25e8ae28c84"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/S02/releases/v1/author-response.md",
+          "sha256": "3dcecf85e5cbf70f40f369d4531bbdb23a151c03547646bba618febf18d4085d"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/S02/releases/v1/critique-A.md",
+          "sha256": "b4e5054869716ce38474c7007afc671e64e225f030abaf82c01f7d63db7e9279"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/S02/releases/v1/critique-B.md",
+          "sha256": "76d2aea14dac423e75464f40fdfad639c99957ded01b9ae84dccf3bf844cde07"
+        },
+        {
+          "path": "runs/postmidterm-20261012/04-essays/S02/releases/v1/HISTORY_RU.txt",
+          "sha256": "1b74d9d860cae33d5383029fbcd52c40e23815e1ec9a2739520d85add34239d2"
+        }
+      ]
+    }
+  ],
+  "changes_this_step": [
+    {
+      "candidate": "E036",
+      "from": "revise/choose between original and R1",
+      "to": "keep R1 as working base",
+      "manuscript_changed": false
+    }
+  ],
+  "step2_completed": false,
+  "remaining_preliminary_candidates": [
+    "E078",
+    "E079",
+    "E012",
+    "E037",
+    "E074",
+    "E041",
+    "E098",
+    "E086"
+  ]
+}

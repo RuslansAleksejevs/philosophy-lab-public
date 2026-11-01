@@ -1,0 +1,53 @@
+{
+  "status": "TRIO_VERIFICATION_AND_PLAN_COMPLETE_BOUNDED",
+  "selected": [
+    "E050",
+    "E012",
+    "E051"
+  ],
+  "selection_origin": "HUMAN",
+  "new_scientific_results_accepted": 2,
+  "prior_scientific_results_reused": 4,
+  "old_scientific_roles_repeated": 0,
+  "manuscripts_unchanged": true,
+  "revisions_launched": false,
+  "submission_authorized": false,
+  "question_stage_event_id": "event-eb043f553f7d41248918b4ea676cddee",
+  "typed_stage_event_ids": {
+    "sources": "event-0e3fd2d89a114c65a2bd91a14d1817cb",
+    "contribution": "event-62f74d6afa16468cb59ee955f17e22a4",
+    "critique": "event-6a129c594db04c369974a1d1616a2f1a",
+    "decision": "event-847d7e27312f404da099f091c19d1013"
+  },
+  "administrative_checkpoint_event_id": "event-58e70de176914027a32328f40008065b",
+  "administrative_capture_status": "INCOMPLETE",
+  "accepted_review_event_ids": [
+    "event-5ff6ba45c77842a6b845bad16b48f413",
+    "event-e4fadd62eef24e13a878a78297d7a63f",
+    "event-c274f7d52cb840dd8d424b3e0c8f1d7b",
+    "event-95b7ce2e6e224d849bbfbbb726294557",
+    "event-7ea1031337c9416491d6e269ff1fc9f2",
+    "event-f95e4b1fee104c778823c9ef01e4a2b6"
+  ],
+  "critique_lineage_event_ids": [
+    "event-41b1b67dca5b44d7b0c9c20de455c7e4",
+    "event-40e98150b6784f7cadbb450485056b5f"
+  ],
+  "plan": {
+    "path": "runs/submission-trio-20261031/coordinator/REVISION_PLAN.json",
+    "sha256": "f7e23cc533e4b7e693f2ceb59ad9b0f8249483230aa7a80976bd051de0d2551c",
+    "bytes": 12260
+  },
+  "readable_plan": {
+    "path": "runs/submission-trio-20261031/coordinator/REVISION_PLAN_RU.md",
+    "sha256": "912fbaf60c57b0228336c2aa228a4f960af996c6f3aac0a720cd32ed4aea628c",
+    "bytes": 8065
+  },
+  "decision": {
+    "path": "runs/submission-trio-20261031/coordinator/DECISION.json",
+    "sha256": "78e304ff355ecfd5e484238d3a2265d63e5675fc6aada5cc632cf6e35c2e7adb",
+    "bytes": 3863
+  },
+  "boundary": "Two new E051 reviews plus four previously accepted E050/E012 reviews. The trio selection is human input; the revision plan is AI coordinator work. Sources and critiques retain their actual authors; later plan and decision are coordinator compilations. Reviewers did not review that later plan. Legacy checkpoint remains administratively INCOMPLETE. No manuscript edits, revision launch, submission, novelty certificate or complete provider trace.",
+  "event_id": "event-ace68e06923c4b58966d41a930943376"
+}

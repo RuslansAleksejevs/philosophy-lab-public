@@ -1,0 +1,62 @@
+{
+  "review_id": "M04-J1",
+  "manuscript_id": "M04",
+  "profile_id": "christian_tarsney",
+  "read_complete": true,
+  "thesis": "Preserving a settled conclusion's present probability can destroy information needed for foreseeable correction. Avoiding that loss supplies a pro tanto epistemic reason for retention; retention becomes obligatory only given a further instrumental principle, a continuing accuracy aim, recognized alternatives, and no additional relevant costs.",
+  "contribution": "The defensible contribution is a modest account of responsible closure. It distinguishes rational belief after information loss from the quality of an earlier preservation decision, and distinguishes permission to believe, stop investigating, and delete records. Its formal criterion makes this distinction assessable relative to specified future observations. It does not establish a new informational theorem or an unconditional duty to preserve evidence.",
+  "argument_map": [
+    "In §1, symmetric channels make source identity irrelevant to present confidence: either positive report supports probability 0.9. After an audit distinguishes channel reliability, retaining identity supports 0.5 or 1, whereas deleting it supports 0.75. These calculations follow from the stipulated model.",
+    "Section 2 generalizes the mechanism: a deterministic summary preserves subsequent posteriors exactly when it never merges records supporting different probabilities after the same possible future observation. Present sufficiency alone does not ensure this.",
+    "Section 3 connects that informational difference to expected accuracy. The conditional-variance identity is valid, including conditional on the agent's original record. Expected squared error after the audit is 0.05 with identity and 0.07 without it; neither policy guarantees superior accuracy in every realized world.",
+    "An avoidable expected accuracy loss plausibly supplies an epistemic reason against deletion, even though subsequent updating remains rational. Converting this reason into a requirement additionally needs the proposed principle against gratuitous loss; probability theory does not supply that premise.",
+    "Sections 4–7 separate preservation from continued investigation and apply the distinction to shared records. They explicitly restrict the result to controllable retention, relevant correction practices, and specified models, allowing costs, competing aims, reconstruction, and model revision to change the assessment."
+  ],
+  "strongest_merit": {
+    "location": "§2, paragraphs beginning 'A simple criterion follows' and 'The criterion also explains'; §3, conditional-variance argument.",
+    "reason": "The formal example has a clear philosophical role: it defeats present confidence as a sufficient test of permissible compression while identifying exactly what the omitted information enables. Connecting posterior reproduction to expected accuracy explains why the distinction matters. The manuscript also carefully separates this result from blame, irrational subsequent belief, and an obligation to retain everything."
+  },
+  "concerns": [
+    {
+      "severity": "open",
+      "kind": "premise",
+      "location": "§3, paragraphs beginning 'Why accept this principle' and 'A thoroughgoing satisficer can still deny the principle'.",
+      "excerpt": "It simply makes the continuing aim harder to serve.",
+      "reason": "Removing opportunity costs strengthens the reason for retention, but does not establish that acknowledging an aim obligates taking every free improvement. An agent can value accuracy above an adequacy threshold without considering every improvement mandatory. The stronger conclusion therefore depends on a substantive instrumental norm whose justification remains less secure than the informational result.",
+      "text_response": "The manuscript explicitly recognizes this objection, excludes agents with only threshold aims, and concedes that unrestricted satisficers may reject its principle. Its positive argument is that deletion protects no competing purpose under the stipulated conditions.",
+      "discriminating_check": "Hold costs and the continuing accuracy aim fixed. Consider an agent who values further accuracy yet permits both expected errors 0.05 and 0.07. Identify an independent inconsistency in that permission. Without one, the requirement remains conditional on the proposed norm, while the pro tanto reason survives independently."
+    },
+    {
+      "severity": "minor",
+      "kind": "significance",
+      "location": "§7, opening paragraph; §6, paragraphs beginning 'There is no context-free solution' and 'Exact equality of posterior probabilities'.",
+      "excerpt": "The map can remain with a custodian at no additional cost or risk.",
+      "reason": "The institutional illustration reproduces the ideal assumptions, establishing applicability in principle rather than substantial practical guidance. The defended requirement no longer applies when preservation adds relevant costs. The weaker reason's weight depends on correction frequency, model reliability, and competing preservation opportunities. This limits practical significance without defeating the central counterexample.",
+      "text_response": "Sections 5–6 acknowledge model dependence, difficulties selecting relevant challenges, competing burdens, and permissible discrepancies. Section 7 allows custody, qualified summaries, and reconstruction rather than requiring universal access to complete evidence.",
+      "discriminating_check": "Let the same audit occur independently with probability a, and let retention cause expected accuracy loss c in an equally weighted inquiry elsewhere. The illustrated benefit becomes 0.02a. Test whether the account discriminates policies when c approaches that benefit and a is uncertain; this separates actionable guidance from identifying a relevant consideration."
+    }
+  ],
+  "scores": {
+    "overall": 3,
+    "argument": 3,
+    "significance": 3,
+    "originality": null
+  },
+  "originality_limit": "The manuscript identifies antecedents in forgotten-evidence cases, signal comparisons, iterated revision, and information value. Its prospective responsibility framing is an articulated difference in evaluative target, but that alone does not establish historical novelty. The packet supports a worthwhile synthesis; priority and the extent of overlap remain unassessed.",
+  "recommendation": "borderline",
+  "reason_ru": [
+    "Эссе убедительно показывает, что сохранённой уверенности недостаточно для будущего пересмотра вывода.",
+    "Полезный результат — различение разумности позднего убеждения и качества прежнего решения удалить данные.",
+    "Рекомендую рассмотреть работу, но пока не включать в шорт-лист: обязательность хранения остаётся спорной, а практический вывод ограничен строгими условиями."
+  ],
+  "confidence": "medium",
+  "profile_basis": [
+    "The supplied B0 profile motivates separating the failure of one informational test from the stronger claim that a particular preservation policy is required.",
+    "The supplied B0 and T1 materials motivate checking assumptions, practical significance, and actual replies to objections. No doctrinal-agreement bonus was applied."
+  ],
+  "limits": [
+    "The entire supplied manuscript, including its bibliography, was read.",
+    "Only the supplied packet was used; no tools or outside sources were consulted.",
+    "External source correctness and exhaustive novelty were not checked. No attribution is classified as false merely because it remains unverified."
+  ]
+}

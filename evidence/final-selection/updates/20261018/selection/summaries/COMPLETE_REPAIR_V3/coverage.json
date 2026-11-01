@@ -1,0 +1,2913 @@
+{
+  "status": "COMPLETE_110_ACCEPTED",
+  "summary_generated": true,
+  "expected_reviews": 110,
+  "accepted_reviews": 110,
+  "preserved_failed_attempts": 3,
+  "preserved_capacity_failures": 2,
+  "preserved_local_launch_failures": 1,
+  "failed_provider_review_slots": 2,
+  "attempt_resolution": {
+    "logical_job_ids": [
+      "M12-N2",
+      "M13-N2"
+    ],
+    "accepted_attempt_numbers": {
+      "M12-N2": 3,
+      "M13-N2": 2
+    },
+    "local_launch_failure_event_id": "event-7efc0413ca594658a8c8f068b0b0d891",
+    "map_event_id": "event-4f254724575943f8b0b8e411db2ef095",
+    "input_event_id": "event-3a08660ab4024183b9acf41dc1fb7907",
+    "exceptions": {
+      "M12-N2": {
+        "map_event_id": "event-f80fb3a74ae9442d853589d7e823d2e5",
+        "ready_event_id": "event-2bdaf0713e544748b88747fa4a0d3cd4",
+        "preserved_failed_event_id": "event-b3519057c6a24486bca718c999d0a20e",
+        "accepted_event_id": "event-b2bb6b9a773143adaa305b58dd34b07d"
+      },
+      "M13-N2": {
+        "map_event_id": "event-af192c4097ef4983bd435bbc69b263b7",
+        "ready_event_id": "event-2bdaf0713e544748b88747fa4a0d3cd4",
+        "preserved_failed_event_id": "event-1118f540c1644baf8ca3fea78bdacf12",
+        "accepted_event_id": "event-38dd247a80b94f44831774c6c71a9a42"
+      }
+    }
+  },
+  "missing_reviews": 0,
+  "status_counts": {
+    "ACCEPTED_VERIFIED": 110
+  },
+  "input_event_id": "event-3a08660ab4024183b9acf41dc1fb7907",
+  "jobs": [
+    {
+      "job_id": "M01-N1",
+      "manuscript_id": "M01",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M01-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "367f9b1903885c0e8aeb953475561e4b22386308633867c947f16c4b2770a6ef",
+        "event_id": "event-c059daa14687423fbb8a3abf67bf367b",
+        "lineage_event_id": "event-6860e80aa0234b21a84bbf9e36af05eb",
+        "lineage_entry_id": "final-selection-20261018:M01-N1:evaluation-v1",
+        "session_id": "01a151c0-3140-7ff3-a5f3-76038b20dc0b",
+        "response_file": "runs/final-selection-20261018/results/M01-N1/attempt-001/response.json",
+        "response_sha256": "5a48e8e30318c81e6974a1607fa82aeeab18d042c7972c089ac043a56c5015fa",
+        "prompt_sha256": "1ae9e04bd397ef57d0aa3a671a69e6ce642ece344f2a3eea51e56f7df0ccaa9d",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "b2aefada385d6728fad0e889e09eab69ae6cea488fc05618ed91bebd6023ccd8",
+        "capture_evidence_events": [
+          "event-bbc0b30cb5934d3eaef8986f96c36170",
+          "event-36b3bc03357b4aaa961ed240c5cecf4c",
+          "event-60a675ee96bc480e8c520858b0287204"
+        ]
+      }
+    },
+    {
+      "job_id": "M01-N2",
+      "manuscript_id": "M01",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M01-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "ff61afb060a14c3cb600efece05355f7c468442385859f0c9a3dae2e2ed26b9f",
+        "event_id": "event-b79d23acc40242cf960b7ae284dce4eb",
+        "lineage_event_id": "event-ce65b234ae2d47378b982f3ebad3147f",
+        "lineage_entry_id": "final-selection-20261018:M01-N2:evaluation-v1",
+        "session_id": "01a151c5-63a4-7122-aa29-20eaee6bd43d",
+        "response_file": "runs/final-selection-20261018/results/M01-N2/attempt-001/response.json",
+        "response_sha256": "d11eac94064a07a58288770058a600d6a9ca1f23cc04e482dd0eefa1c08106b2",
+        "prompt_sha256": "c6decef770394d0a978a0d1f289026416f5f92b88298260d098b0acb2a07aec6",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "32da15ad6b7e3a20af0e55b996ea1ed1020cf47a8d2d768011e79c75067d9fe9",
+        "capture_evidence_events": [
+          "event-e095ca42f384434ba5064010eb1733ad",
+          "event-9ad48cdf0e0e4868ae9577cd995bb7c6",
+          "event-283eeb4dc8414c4cba7b25e4caf44f6d"
+        ]
+      }
+    },
+    {
+      "job_id": "M01-N3",
+      "manuscript_id": "M01",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M01-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "e25c1f433fd8a6114bb74d1d30c334044bb0f192bad5b99650ef66a2a9d5da3b",
+        "event_id": "event-1b9714c3b70f42aa8ab685b4ca604199",
+        "lineage_event_id": "event-3f2e44cafd434194b64bc1f1227cb95e",
+        "lineage_entry_id": "final-selection-20261018:M01-N3:evaluation-v1",
+        "session_id": "01a151c5-63a4-7351-be25-8d1e26076561",
+        "response_file": "runs/final-selection-20261018/results/M01-N3/attempt-001/response.json",
+        "response_sha256": "2f5ef406ce037587b33bc5e1e47eef211d8153b869ab85660534b1fb765bc5b2",
+        "prompt_sha256": "14e26848a7cfd2bcdad9f5f2b8b29d3c516b8cde391e9266ee78554a37a1326a",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "8f87d6c8107b00b5ad955c95c72e66f9a05172eccaf3af21b5da14a67c073168",
+        "capture_evidence_events": [
+          "event-2c98ff2beaf24981b65a3127593c1c87",
+          "event-1001f2de51ef49d8a3a2075a29782e19",
+          "event-8f03def20a5f40c6baa0fb437e8d0f3a"
+        ]
+      }
+    },
+    {
+      "job_id": "M01-J1",
+      "manuscript_id": "M01",
+      "role": "J1",
+      "profile_id": "hilary_greaves",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M01-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "23c0256744b85b83d243308d8c4d5f7720b28ca79bc52e0bd2b7c777523f914a",
+        "event_id": "event-2f0a7ef27d5a4ab19d9f084a626023bc",
+        "lineage_event_id": "event-30f481f696a64ce6982e6a460c03c162",
+        "lineage_entry_id": "final-selection-20261018:M01-J1:evaluation-v1",
+        "session_id": "01a151c0-3140-74d2-a0e6-52d22868652b",
+        "response_file": "runs/final-selection-20261018/results/M01-J1/attempt-001/response.json",
+        "response_sha256": "c88c21817e75a1ebf5f87375b6f75681581b1bc29c889496bb88113894e1ec87",
+        "prompt_sha256": "6badd5c48ab71d2650ea0d7e3f6b02b75e0684a3dde2ae1e471bbaf6ee5cd396",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "f53571e53a8eb619ea747283d6d768869f328d951a55c6a47e609ebc1f8cc02e",
+        "capture_evidence_events": [
+          "event-46f6dd43840747879abddd4891531325",
+          "event-d8af56053d9b444b9a0e05b4f56e800a",
+          "event-219ebbb21e594ea29d7b12d3e7fcd56b"
+        ]
+      }
+    },
+    {
+      "job_id": "M01-J2",
+      "manuscript_id": "M01",
+      "role": "J2",
+      "profile_id": "pamela_robinson",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M01-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "8c53620d04de38b7a46a45aae6a2e0d70fb924a14f1908469d256abb6aff24d6",
+        "event_id": "event-0390369afef54383a1d3e3db42332b7e",
+        "lineage_event_id": "event-6cc48b575a944e2295bf9178defd7c13",
+        "lineage_entry_id": "final-selection-20261018:M01-J2:evaluation-v1",
+        "session_id": "01a151c5-63a4-7463-994b-459c562ae1f3",
+        "response_file": "runs/final-selection-20261018/results/M01-J2/attempt-001/response.json",
+        "response_sha256": "73254e168f35e16eb27a2715ee63c65bea29fb187917e276fcdd5d9f11b1effb",
+        "prompt_sha256": "c46a8df8cf3c9b0e147329e4fd0bfefbb25154fcfa9f061604f4b5165d3e3a1b",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "d9262eb7a2bb1451b9225e700c46e40ca5a4d333860aed899b464cf635bd0738",
+        "capture_evidence_events": [
+          "event-8ab69a7644ca4f06b1668ddc91cb1f8d",
+          "event-0cc32980ef0f4b338900cb780166e28f",
+          "event-513d20f355ba4f5fa0a38ae53428ae21"
+        ]
+      }
+    },
+    {
+      "job_id": "M02-N1",
+      "manuscript_id": "M02",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M02-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "f34edcce38e80de84d705e35858395d02e5548525568e561f559110e1020b281",
+        "event_id": "event-5a95a5534911466ab1fe1c0ff391031f",
+        "lineage_event_id": "event-86c0f4d946f54711a5a2c5a6b5a03b0c",
+        "lineage_entry_id": "final-selection-20261018:M02-N1:evaluation-v1",
+        "session_id": "01a151c6-c270-7fe0-9008-444d2aa77e20",
+        "response_file": "runs/final-selection-20261018/results/M02-N1/attempt-001/response.json",
+        "response_sha256": "13595baf2ab6ae5892bafc247c6b26b01d51b2afc48379895e5adc068c2154e8",
+        "prompt_sha256": "dcbe0a54f88954b68eb9dae2263e1f9ac26aff53f262212811b68453bb7cbbe3",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "fff99489316dfa8148e2b475f5fe34fa394d7e2bc0e503376fd92cb195526464",
+        "capture_evidence_events": [
+          "event-1afed31a37794171bff6b94d2574a410",
+          "event-6df1c37dabe44e3ba317da94c31ab859",
+          "event-d00c046f137c459fb97ecf6ba2ac1c97"
+        ]
+      }
+    },
+    {
+      "job_id": "M02-N2",
+      "manuscript_id": "M02",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M02-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "eeb06b1682b128e284209851a5ad8fd23c1b6882f9dcec3c0ab6529b376d383f",
+        "event_id": "event-8d325d749af14a82b21d763453f64cb5",
+        "lineage_event_id": "event-a88f54dae4384ab088ff6481da1c8fc2",
+        "lineage_entry_id": "final-selection-20261018:M02-N2:evaluation-v1",
+        "session_id": "01a151c7-3bfc-7fb3-bebc-bdfb0be782d6",
+        "response_file": "runs/final-selection-20261018/results/M02-N2/attempt-001/response.json",
+        "response_sha256": "348b1e4a676b999b432a3cfa47408c54b36291f2490349e95d72281ff53f184c",
+        "prompt_sha256": "1d130fe4bebac74f71dc0798b15e6ae1ae1a1fc71b3a7d650c01b68404d250ab",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "f30f78d3c9ef8a007579860d3e6fb5943a7f42219ab2e6f8ea8bbd440ec14f23",
+        "capture_evidence_events": [
+          "event-cbcd03e8d62946b2907f8c386944e97a",
+          "event-ed94cb0487174ee09842d7fffe7cd03d",
+          "event-56536e7fa1dd4446938ee85a6289ba09"
+        ]
+      }
+    },
+    {
+      "job_id": "M02-N3",
+      "manuscript_id": "M02",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M02-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "a65e2e78497080754eb48995f1daf98f09296c472075b64dd75be23f0c6b2dd4",
+        "event_id": "event-9fc2203968b34535b902ca0411a1fa3a",
+        "lineage_event_id": "event-822f0c05c1b5467c95a8cf23bf92b55b",
+        "lineage_entry_id": "final-selection-20261018:M02-N3:evaluation-v1",
+        "session_id": "01a151c7-43ac-77c2-af03-acf205d21ae7",
+        "response_file": "runs/final-selection-20261018/results/M02-N3/attempt-001/response.json",
+        "response_sha256": "4cd2ec3b9a4c419a3759689fe311c90cfe8590e1aea9db8f7047f259d5aa459a",
+        "prompt_sha256": "1d0e4f3986d479be8d2c2322882384aba7737ab99bf80ca8c81aa04724dc7c7d",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "c9c3ee04adece30d2776d92f5ea205be572153ec08f868d2f95d6abfe5a9f5b0",
+        "capture_evidence_events": [
+          "event-2e3553738ea04360ba81e637f146a104",
+          "event-6368503a01dc4f12871cb4b421d03da4",
+          "event-5e025cd21f63417caea06a65724d5597"
+        ]
+      }
+    },
+    {
+      "job_id": "M02-J1",
+      "manuscript_id": "M02",
+      "role": "J1",
+      "profile_id": "cian_dorr",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M02-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "ade7045c6b8d1d8ca4d2f69315c69a41cf88f1130ae0b6dd882a927c15bc4e91",
+        "event_id": "event-ebe05bfe7d8b4584804a00a7833533e9",
+        "lineage_event_id": "event-3426dd15fc774b6c95ed01efa3dd277f",
+        "lineage_entry_id": "final-selection-20261018:M02-J1:evaluation-v1",
+        "session_id": "01a151c8-e24b-7392-bdc2-c509d31f600e",
+        "response_file": "runs/final-selection-20261018/results/M02-J1/attempt-001/response.json",
+        "response_sha256": "08debe58bfa837fb47309b872adb5517d2f830426d892cb81d91d7d2060f9f6f",
+        "prompt_sha256": "ea9c5afe93a3d59fec36b89e53fbf9d575bc771ab2dd374f79ee4322138e7a42",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "1cb49a3fbf4194ca57be21f2e84772f07bdd2afc1e17b731110124aa22fb7b62",
+        "capture_evidence_events": [
+          "event-c238e7ef072a4f4b92bbedcfa1aa8ebc",
+          "event-c50379ee144f4395a4ecc2bf27a5f601",
+          "event-573186fbefb54f7d9cf1907e5841f30f"
+        ]
+      }
+    },
+    {
+      "job_id": "M02-J2",
+      "manuscript_id": "M02",
+      "role": "J2",
+      "profile_id": "bernhard_salow",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M02-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "6bbcf686fb8003c6766eaef704ea22ea6b01c491842385a9c2f4fd1a384b27c5",
+        "event_id": "event-b805712f9c34449f8e007bfbc69e3dbc",
+        "lineage_event_id": "event-296133df80694ca4af8229dc3f264935",
+        "lineage_entry_id": "final-selection-20261018:M02-J2:evaluation-v1",
+        "session_id": "01a151c9-17c8-7943-a98a-8ce016620ffc",
+        "response_file": "runs/final-selection-20261018/results/M02-J2/attempt-001/response.json",
+        "response_sha256": "af92798e97e05577c2fa46e8d5148c7bf8a1df326d17526f66c73a6f47797f1b",
+        "prompt_sha256": "9e80b6830145c0379d180ab6f3e566d3b81d636baa5376e117ea1a626d47b916",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "c32e6c52c7595e28bb52f0fc910931e4ff338defb5c4a785807ac5d064b88fb7",
+        "capture_evidence_events": [
+          "event-fe7160eeace84e43966e0371f58e6f8f",
+          "event-1aa7f88df580486f96fcf7fefc6cff07",
+          "event-9405e7302e7445f29ffbbc25494d92b0"
+        ]
+      }
+    },
+    {
+      "job_id": "M03-N1",
+      "manuscript_id": "M03",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M03-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "6e950266f5394544b5aef1e0259e1a26435db034b9d356c2f084355f4c588e35",
+        "event_id": "event-35dca147643e436dbe357b665ddcc3c2",
+        "lineage_event_id": "event-03b5304f5e584d1db50210237b9be388",
+        "lineage_entry_id": "final-selection-20261018:M03-N1:evaluation-v1",
+        "session_id": "01a151c9-3901-7ee0-983b-3b730094aeac",
+        "response_file": "runs/final-selection-20261018/results/M03-N1/attempt-001/response.json",
+        "response_sha256": "e5d5354af3f95caba18c31ff39134eb30601989a218ed1217fd61d96cd31dd49",
+        "prompt_sha256": "46344a767fb6c9839900794fd2301701380f9bc09688b0f4d840c6b48c7ce83a",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "c8296a95c1f50d590d91b113d56de8f4cc2edf8ce3cc55ba1302795af3afe261",
+        "capture_evidence_events": [
+          "event-535a4d58f78f4920b781a9a2b634b5cb",
+          "event-69a0c81a49cc4dcf81aef03c705cb21d",
+          "event-437fae4585c249d097c7f1f125565598"
+        ]
+      }
+    },
+    {
+      "job_id": "M03-N2",
+      "manuscript_id": "M03",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M03-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "0a8af252c773f8e137c85ce7e268a08f1fbb8759850069d2b4b8ac6f6cc2e85c",
+        "event_id": "event-b866c273370545db8d9a88ef60793a66",
+        "lineage_event_id": "event-719dad679e904072a2e0024063276d41",
+        "lineage_entry_id": "final-selection-20261018:M03-N2:evaluation-v1",
+        "session_id": "01a151ca-f9c8-7250-b214-55bb4691d999",
+        "response_file": "runs/final-selection-20261018/results/M03-N2/attempt-001/response.json",
+        "response_sha256": "51904ed63abc6f8ff985ac46616b3ea6206ad662edc394c64291e8240fd3baa1",
+        "prompt_sha256": "9d236334770388f352e839c2cc50af3efaf07ce3e30b7df6c44170ae23dbcafc",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "536fc2860fb3b40276932f967dae20e2705b36152cf2c268eac03ccfac85da09",
+        "capture_evidence_events": [
+          "event-ebab2df454594aeeaa831e512cd9abb9",
+          "event-b5b52cb5c6254a528063031ebcd821a6",
+          "event-b80f44075e5c44958969a49d63c35622"
+        ]
+      }
+    },
+    {
+      "job_id": "M03-N3",
+      "manuscript_id": "M03",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M03-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "e5c7a6c307b4931d0a70c51877cf1cca4c45621874e8a584cffcee6a01ee8ddd",
+        "event_id": "event-ce5d01a3366745b092655a4cb5edb67c",
+        "lineage_event_id": "event-d135bfa06dda476aaa722c7ec169c9fe",
+        "lineage_entry_id": "final-selection-20261018:M03-N3:evaluation-v1",
+        "session_id": "01a151cb-2140-7fa2-909a-f789306ae703",
+        "response_file": "runs/final-selection-20261018/results/M03-N3/attempt-001/response.json",
+        "response_sha256": "2251a5205e1380ba69fd38d8d4200665dfa9266d3d6487d0980297c62c408b17",
+        "prompt_sha256": "fd15942731450dbba0c47d88a022ba9744db430b786b3bea3f83a839b2f71de8",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "fea7576bd7717031784a83589ebe6da2d862527793de309fb01132d8ec2faa63",
+        "capture_evidence_events": [
+          "event-33d51e094adc429cba660acc1c855b48",
+          "event-26cb9f0aff354c3199ce9bffebf202c0",
+          "event-10a8e491bbb442dfad0fbbcc953e43d2"
+        ]
+      }
+    },
+    {
+      "job_id": "M03-J1",
+      "manuscript_id": "M03",
+      "role": "J1",
+      "profile_id": "rachel_sterken",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M03-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "4b5deb11aa7dcdb32bbd6ca5b9fcdaa109ce695ca06f27b4a0baa859609a5bf5",
+        "event_id": "event-30c994b1044643748313f15fee044d69",
+        "lineage_event_id": "event-98f0ba3a9f32414daa52b420611342e2",
+        "lineage_entry_id": "final-selection-20261018:M03-J1:evaluation-v1",
+        "session_id": "01a151cb-a9a9-71d0-a8bb-996c06bd6456",
+        "response_file": "runs/final-selection-20261018/results/M03-J1/attempt-001/response.json",
+        "response_sha256": "c9718fe4be45b6e4554777d2e0347c3bf0a425a3ec5da564ddb22dc185fa688e",
+        "prompt_sha256": "e35f4667ec01a1b9aec664865c1381ef9258fc4949219751666560456615d9cc",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "ca1fac17e2896087d74101c0706fed16310b8bea6a58e3cbbb4d6dd9fb9e992a",
+        "capture_evidence_events": [
+          "event-f0b36cc75d8b421ca627aa6a3e430c93",
+          "event-190180f2bbc7408884455aae5dcd5f00",
+          "event-74575c1694a6421eb2f3b7e7e44558cf"
+        ]
+      }
+    },
+    {
+      "job_id": "M03-J2",
+      "manuscript_id": "M03",
+      "role": "J2",
+      "profile_id": "mario_gunther",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M03-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "3ab28f3d506073da35b736e809436ef0fa2bdf438f7a17e504c6c85c348fb3a1",
+        "event_id": "event-181e3b060c854016ae350696e234002d",
+        "lineage_event_id": "event-74c9e703451d4c2587ccbf009319688e",
+        "lineage_entry_id": "final-selection-20261018:M03-J2:evaluation-v1",
+        "session_id": "01a151cc-b841-7580-89da-26d52335d094",
+        "response_file": "runs/final-selection-20261018/results/M03-J2/attempt-001/response.json",
+        "response_sha256": "c0a016bd3523f87347b974dacd932f9d9c4107574e4f9f6d2938404dbf074d04",
+        "prompt_sha256": "0a6a7027dc8dd7a05c7bbec8e85edcbe3e29235da7ba9f0df9c6aeaacad34fc1",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "9df92788530cc1639439e06c364f56531240c14391db510815fd89b99c5748ca",
+        "capture_evidence_events": [
+          "event-7e02c0d7cc5a4914893ce4ab5db97360",
+          "event-2265ab0d07ef47e4b7a91215a72e3ff4",
+          "event-60bccdc3a3ba4e73b5717f05989cfc0d"
+        ]
+      }
+    },
+    {
+      "job_id": "M04-N1",
+      "manuscript_id": "M04",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M04-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "f6a9b9139188dc32b40a25ca240f152163d5803cbd7e110a4ea5fadcc0f6fc2c",
+        "event_id": "event-8d1ce1546178410db8a045da5605d640",
+        "lineage_event_id": "event-5f1402daa0a14ba99fb86b81d9b658b0",
+        "lineage_entry_id": "final-selection-20261018:M04-N1:evaluation-v1",
+        "session_id": "01a151cc-ca04-7322-abac-b23d83c409f5",
+        "response_file": "runs/final-selection-20261018/results/M04-N1/attempt-001/response.json",
+        "response_sha256": "6e6e578c161a1df47c8ee23ae15a5a34f28eb79d56cccc2c0e4661377ca9ed6c",
+        "prompt_sha256": "97f15c55fdf2b99d2c626cca05f3b69091038e9a5b8129c558e3d1496c40ffb9",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "c5f832f2d21f534d12ab2002f4a48ea7eab1b9c7c53b31a4c8a36273b105bbaa",
+        "capture_evidence_events": [
+          "event-7cc321c1bad74e689a058efeeaa736e5",
+          "event-cc122ecc76b44af3b3814435bff6a22f",
+          "event-a4b7617777514faeab0a06b6bc6d984f"
+        ]
+      }
+    },
+    {
+      "job_id": "M04-N2",
+      "manuscript_id": "M04",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M04-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "a5812118327273dd4bedd22d2e73c53af1f0e35236021e5590f5310d0639a534",
+        "event_id": "event-ae0b216fe41d4389acc844bc59544b27",
+        "lineage_event_id": "event-78d7fc5eb49d4123894c3677820cf1ca",
+        "lineage_entry_id": "final-selection-20261018:M04-N2:evaluation-v1",
+        "session_id": "01a151cd-767f-7bd0-94d8-de3ecb299476",
+        "response_file": "runs/final-selection-20261018/results/M04-N2/attempt-001/response.json",
+        "response_sha256": "b62aca98f82ba8f4bda6412c7299e9a15911436b995f6ea9ae46c528f816e1fc",
+        "prompt_sha256": "b02cb613fb23f6dc2ec773a656d7febe54a1461055ca1cc233261796254714f3",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "baf463d63aeeec020b73617f97b126e20b4b9117845ae8d361bfa2cc82ddcafb",
+        "capture_evidence_events": [
+          "event-cbebfd8a77ea4d06a6184a3c54462310",
+          "event-bf623be78a3e49bf824bd4fa51dfede3",
+          "event-7d43ed6fb9244285b8e31beda62cfad2"
+        ]
+      }
+    },
+    {
+      "job_id": "M04-N3",
+      "manuscript_id": "M04",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M04-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "8f6c2699e5c86812622deb8a33915bced7fa68735f5e707c70e18b58c74ac4c8",
+        "event_id": "event-eaa7673ee7f640fa9fac38ff49922c7f",
+        "lineage_event_id": "event-334027f527b342df9c049066b9e82d9c",
+        "lineage_entry_id": "final-selection-20261018:M04-N3:evaluation-v1",
+        "session_id": "01a151ce-aa89-7312-8501-8c054040d9b6",
+        "response_file": "runs/final-selection-20261018/results/M04-N3/attempt-001/response.json",
+        "response_sha256": "da078ff601a17fb555bd78a6052141a91f2f338d8e0bcdc231eced5ba16a0c57",
+        "prompt_sha256": "fce0f52f6a23260a000c8a49a11a718f91055f9f39511bf63acf8efe9d9ae479",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "974aa5207edfe5066a20f4b2e1e33247cd2b9daf2e5a2dd44d35aa14875397cd",
+        "capture_evidence_events": [
+          "event-cd4bc042a8024345a2a6dac7b1fba551",
+          "event-6b632ab4981241e3baff1fe140e567b6",
+          "event-f9cc3a39d9f74ce7a2868932e9c84ed6"
+        ]
+      }
+    },
+    {
+      "job_id": "M04-J1",
+      "manuscript_id": "M04",
+      "role": "J1",
+      "profile_id": "christian_tarsney",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M04-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "9fc51996299bb7e52e6fe6f04e0c968595fb6e9e6e32c669fd8028cf9dda0968",
+        "event_id": "event-18256125ce004830b37f7efd6c4e99a7",
+        "lineage_event_id": "event-aa4014a25f64442b94839df01ffaf2fb",
+        "lineage_entry_id": "final-selection-20261018:M04-J1:evaluation-v1",
+        "session_id": "01a151ce-c166-74f0-937d-96c4e6f9b619",
+        "response_file": "runs/final-selection-20261018/results/M04-J1/attempt-001/response.json",
+        "response_sha256": "6348cd4773f6170e01736332ed4eaa734bd39c67e0ab4d8215a355a31c48919a",
+        "prompt_sha256": "c2e23dcb4270dc7051193a91e725b41b89a28bfe70ad0074eb2c568986bc9d6a",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "2232ef68feda62a99cc290168cb7ef123618e1b0427c614a68782cce95e4ef1f",
+        "capture_evidence_events": [
+          "event-04bf1aa8cc804a2186a7d2a5e0453978",
+          "event-55ce5f19b105417b9e204de99e27c823",
+          "event-85c5fbd7b43c42818a1f49a8f185f51c"
+        ]
+      }
+    },
+    {
+      "job_id": "M04-J2",
+      "manuscript_id": "M04",
+      "role": "J2",
+      "profile_id": "josh_dever",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M04-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "bb6c3ec924fdeb550fa7d2b64cffc17087bf1e969b5083dd9ba417d62ee20e59",
+        "event_id": "event-a566501637864a249edcc3888cce1207",
+        "lineage_event_id": "event-25146c28a5204f309b9da96d67b06727",
+        "lineage_entry_id": "final-selection-20261018:M04-J2:evaluation-v1",
+        "session_id": "01a151cf-1c31-7ac1-90d5-e97c4f5e87be",
+        "response_file": "runs/final-selection-20261018/results/M04-J2/attempt-001/response.json",
+        "response_sha256": "1da72e944e92e2ece06b636195d3fb01be49ed5d6aeb7443894032d782d1a497",
+        "prompt_sha256": "552959e4769e486e5d9b3fdfc526b2ec06904e66294458b0ee436bad7a86efc6",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "6b08f96e366accb98541274bde3f6979bf33b35a12068f242dbfa6700e0b0749",
+        "capture_evidence_events": [
+          "event-72c20d0656f5434cb2955a4f579f53d9",
+          "event-961d963f222c4a39a349c53879c49b61",
+          "event-67609dc63cfe40088679460dd23d08f6"
+        ]
+      }
+    },
+    {
+      "job_id": "M05-N1",
+      "manuscript_id": "M05",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M05-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "d79eb0758e85cfd7c165a5e0d24cb67077bf230ff47ed250d0afd913e365a8c6",
+        "event_id": "event-e4027d39da5141fc81b98285b4708256",
+        "lineage_event_id": "event-239364f9dfac43a98fea133ebc7d6528",
+        "lineage_entry_id": "final-selection-20261018:M05-N1:evaluation-v1",
+        "session_id": "01a151d0-ca7d-7a80-8276-3b210fc06ef2",
+        "response_file": "runs/final-selection-20261018/results/M05-N1/attempt-001/response.json",
+        "response_sha256": "35a256680ec20ee6783094b7c3361fd85a47e66f6049a6ce0046d4392b5711bd",
+        "prompt_sha256": "ab6c13f02634a81908706fd6727cb3beb9b299480fc964132f4e91e50143f4ef",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "a9ae53787d8dabe6eeb12538b5baf3421c83a1340f50c2e95f6217c1228ac4f3",
+        "capture_evidence_events": [
+          "event-53ea01a5dcfc4633ab9f82ffc446a2fc",
+          "event-2d36046da223423ea80f5303809622c2",
+          "event-a607eb38e03f4c77907c9f45c07d7c38"
+        ]
+      }
+    },
+    {
+      "job_id": "M05-N2",
+      "manuscript_id": "M05",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M05-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "3fd919f64643aa972792019c3a6576d4c67e7aaac5c18a7ac2a071be2d8fcbcd",
+        "event_id": "event-9a222a5a43f3460c89e8392c85883fee",
+        "lineage_event_id": "event-8a2f054bc342402297228a262c573c1b",
+        "lineage_entry_id": "final-selection-20261018:M05-N2:evaluation-v1",
+        "session_id": "01a151d0-eb13-74e0-bdd4-f8b3ca9e82fc",
+        "response_file": "runs/final-selection-20261018/results/M05-N2/attempt-001/response.json",
+        "response_sha256": "efe783a38d7bddd908c074fb289f30ca4c3eb476cb1c1edd5d8c3ca1f583fda8",
+        "prompt_sha256": "28dd7637b2871381595c11a87a06e74c70a3a37335628968f1b6fe8450d0d35e",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "117bfa03d5cea052276c40226b0ae3383d34a41ad92fc1a5691bd6674ae7b38f",
+        "capture_evidence_events": [
+          "event-94581a14475a4f8abee4cc6e9e6ebf04",
+          "event-9bf3eb94244e4dd09f5e1f0428074105",
+          "event-e1e3eb9ac3f640fa98135653f8fb085e"
+        ]
+      }
+    },
+    {
+      "job_id": "M05-N3",
+      "manuscript_id": "M05",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M05-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "540462117948fe4ab617f6ba5790920d801a66dab189f3d84598567290a4d2a8",
+        "event_id": "event-1af36866cb7b4e9d94b021863fbe4cb7",
+        "lineage_event_id": "event-8c87629714ba4f72af12705867497a26",
+        "lineage_entry_id": "final-selection-20261018:M05-N3:evaluation-v1",
+        "session_id": "01a151d1-22f9-7a61-97fb-dc8f14dd9d50",
+        "response_file": "runs/final-selection-20261018/results/M05-N3/attempt-001/response.json",
+        "response_sha256": "c440536d3532e8ddc996bd69ed3eedf8988969920d1fd49f539450cb1996479a",
+        "prompt_sha256": "d20a4dbc152566c0c29e85241bec3cb36b4642d03dd9a0499a4f62100a9b2c55",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "c338460c62615a250e021810947e9be4e2a58d7d226963d96d75ac1da6d2423a",
+        "capture_evidence_events": [
+          "event-8e1faec93ea44a0a8b462d389d96cb07",
+          "event-ea6bf91fea514d7aa69f44fb196f3706",
+          "event-b19d23f4d6254b3ab782ba5e49544970"
+        ]
+      }
+    },
+    {
+      "job_id": "M05-J1",
+      "manuscript_id": "M05",
+      "role": "J1",
+      "profile_id": "jonathan_weisberg",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M05-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "a7ace4be37737e8605547841af6ac85c98a4fbe482d3aa018f73a022c00d4104",
+        "event_id": "event-63bf852def8f4feb860a4973907faafc",
+        "lineage_event_id": "event-fcbe15f73f5a4068a80dd2fa3b2abaea",
+        "lineage_entry_id": "final-selection-20261018:M05-J1:evaluation-v1",
+        "session_id": "01a151d2-691e-7c41-974a-be7e426e7544",
+        "response_file": "runs/final-selection-20261018/results/M05-J1/attempt-001/response.json",
+        "response_sha256": "4ba4a4b3b89bc889865bb2da9c5a08cd8bee395be5cec02d064f7212c179e101",
+        "prompt_sha256": "c3369966c4a80c9fb598acb9ebd24ba994f35f0cb519616ffaa4be045fcebca3",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "6aa3c1faed29b57d6e1d3c93534819d7d0176ea3b4a8d13e293ffa47e655e69d",
+        "capture_evidence_events": [
+          "event-d935d22ef63140ab9dad21cd950bb4d3",
+          "event-7ce763891b21408c8871a4c2b4e375db",
+          "event-aa82df3ec0264318aa65d4d1a9240e50"
+        ]
+      }
+    },
+    {
+      "job_id": "M05-J2",
+      "manuscript_id": "M05",
+      "role": "J2",
+      "profile_id": "henry_shevlin",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M05-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "51d95efb57a00aef152a0824f414be8b1d5aa7c5dc643ad34e9ff68672f02bd8",
+        "event_id": "event-21ff5ca284f548cd9700414019b28b7d",
+        "lineage_event_id": "event-b432a4edb2e24aeea8448e0ad134c58d",
+        "lineage_entry_id": "final-selection-20261018:M05-J2:evaluation-v1",
+        "session_id": "01a151d2-bff3-7922-a33b-b66797269b43",
+        "response_file": "runs/final-selection-20261018/results/M05-J2/attempt-001/response.json",
+        "response_sha256": "7660cec66def79837e31775ff9dc4ea13b08d8a5988d694978e1b0d79e1d5957",
+        "prompt_sha256": "89306c07834a6190ee66293947732052efb9ac2fce4a73671c8f322b97619e13",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "b67f9bde5599a59b6fda4665a74bb8593dc899eff442c550d99bc0f3a3fd8fba",
+        "capture_evidence_events": [
+          "event-eafc9b2810e9459499c0e8b594b5188a",
+          "event-6171b1e8371b4aff88afc5adfe78a12b",
+          "event-4ca2611896614f7691be95e1804b9048"
+        ]
+      }
+    },
+    {
+      "job_id": "M06-N1",
+      "manuscript_id": "M06",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M06-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "a79b99a3f2fa2d1e036b1e2b8bc2c9aadeb7bc188ef77720816e1fe6c2f2bc97",
+        "event_id": "event-2646eb98efe945e38e6edce9b99a8a84",
+        "lineage_event_id": "event-8347a5830cf14d8f9a3f8bbcb565273c",
+        "lineage_entry_id": "final-selection-20261018:M06-N1:evaluation-v1",
+        "session_id": "01a151d3-8299-7cf2-869c-b9e9532c7663",
+        "response_file": "runs/final-selection-20261018/results/M06-N1/attempt-001/response.json",
+        "response_sha256": "87cde64397f3ce2271a673e371e5e8fe79bc3fd92dda9ecb49f41dfb6b80a383",
+        "prompt_sha256": "11299606fce1476471c724db931ec8d0955ccbe4ba34191ef0d38fc3a5d93e03",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "5390b18e17d46708592cda54b0825dbd20c9a7333d60743b05187884cd4d44a4",
+        "capture_evidence_events": [
+          "event-fe0355e74fc14eac90536d8da60c0337",
+          "event-9b93bfd02a2344e39d002f672463c77b",
+          "event-62f724578fd74e7286ed7d6eef98cb2a"
+        ]
+      }
+    },
+    {
+      "job_id": "M06-N2",
+      "manuscript_id": "M06",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M06-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "d18e3f3fb382c1e26deb0c56a6115246196b2617148e7709c7ab044150b5ab4f",
+        "event_id": "event-5cb1a6ec4e5f40ef8caab32dbe40c5e3",
+        "lineage_event_id": "event-a6dea0dece3a4ec5888dab5ff36b3e62",
+        "lineage_entry_id": "final-selection-20261018:M06-N2:evaluation-v1",
+        "session_id": "01a151d4-9cf6-7852-9d89-8230de2ff210",
+        "response_file": "runs/final-selection-20261018/results/M06-N2/attempt-001/response.json",
+        "response_sha256": "54f3bc799e0f81c490415ec4c7b7dc76546baad1c2d3debfecd9bd6861ff6d8c",
+        "prompt_sha256": "01618d1f6eb7e3c926c771dcb7eb11c3905e8c4fe6353fea83c55c754f1b3296",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "936d04dbf165a330bd9974359868b4d4aacce28467279f740e1a642872e01936",
+        "capture_evidence_events": [
+          "event-aa1478871ded427bacfcd950d0353486",
+          "event-3d49763dd91a4838871e765f48075d32",
+          "event-cd695d84da994629a1b4468f50f6b34d"
+        ]
+      }
+    },
+    {
+      "job_id": "M06-N3",
+      "manuscript_id": "M06",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M06-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "a7c595be9f416fa7b2da3e516439133e46bb7d68f4811654619c60764b56133c",
+        "event_id": "event-c4fe2032547b488994d08d5fbb79f28f",
+        "lineage_event_id": "event-b67bb17a93ff4fb498f8dd1e8a3cf3de",
+        "lineage_entry_id": "final-selection-20261018:M06-N3:evaluation-v1",
+        "session_id": "01a151d4-c66f-74d2-af50-8c7e0f35e5f2",
+        "response_file": "runs/final-selection-20261018/results/M06-N3/attempt-001/response.json",
+        "response_sha256": "00177fd4f5f705adfec3fa822cd7649c3d756443854bda9eb0a464b075b0b9a0",
+        "prompt_sha256": "8fb0250a5f143dc094ac802c94aaead4c9bdddc8c13335f3e9be0988e3143bb3",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "92da847db9c6a219aad2ff467da5222350efc9d316d6721a7964af6924e3dd1f",
+        "capture_evidence_events": [
+          "event-3c390374f6e24c6c884613d41fa15729",
+          "event-95f8832c0a8d40c8b6747875f1cd4bb3",
+          "event-99d4d9553660462286177fe0b668f6a2"
+        ]
+      }
+    },
+    {
+      "job_id": "M06-J1",
+      "manuscript_id": "M06",
+      "role": "J1",
+      "profile_id": "simon_goldstein",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M06-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "a6532a5ff35bf87c03df62294eee77e3bfe4e54a64a8535b7d195d99f0e944fe",
+        "event_id": "event-945d6483f1b245aca50748b0fee41262",
+        "lineage_event_id": "event-b3bd32990e914cca911febe5659f7a41",
+        "lineage_entry_id": "final-selection-20261018:M06-J1:evaluation-v1",
+        "session_id": "01a151d5-4670-76c3-b84a-16d76da5dde0",
+        "response_file": "runs/final-selection-20261018/results/M06-J1/attempt-001/response.json",
+        "response_sha256": "9b666c6b5f09f37c21bffc4bc0cde80efabf2f82d2ba6297942102d71396e1a7",
+        "prompt_sha256": "2dd7e868992f52c06ff5e90cfc4be91d7d4d5a49b3deb16fc2f779e03787882c",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "d3516a9a7240099253d156ce2f788460ef6f7f62f71670cf0015d61fa50abc11",
+        "capture_evidence_events": [
+          "event-368f8ae85d9a47b9a4ff1d90fef1399c",
+          "event-38833ede47d24b07bfbe98d76fc110ed",
+          "event-bfa39172b0c443b78608711bfa379617"
+        ]
+      }
+    },
+    {
+      "job_id": "M06-J2",
+      "manuscript_id": "M06",
+      "role": "J2",
+      "profile_id": "herman_cappelen",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M06-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "6c77824875d8571aa11194abdfb8ed0b577e88e1f7d4e9e96e6dfdce3fbefb3f",
+        "event_id": "event-90b02c11bea0460a9167dd3b255d5b4f",
+        "lineage_event_id": "event-5b887d89449442b39d73722cfb763cc2",
+        "lineage_entry_id": "final-selection-20261018:M06-J2:evaluation-v1",
+        "session_id": "01a151d6-714d-7a73-8fe1-7cc2535ea0f3",
+        "response_file": "runs/final-selection-20261018/results/M06-J2/attempt-001/response.json",
+        "response_sha256": "19e07481a3ca677d780d8d77d59b5dc960df297a4cbfe55bec3b649f486af7f8",
+        "prompt_sha256": "d9034f4e4fd418d6c1fd99300eb25b073fde8eba888af9ad4853b9765dd0cf71",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "61d44750776a1e3a06c92d2adf653b48b9b132835eab12e87387da11321c0635",
+        "capture_evidence_events": [
+          "event-367807237e2246f09b375dba967d4f80",
+          "event-2d8d2a373f864ce5ba2e3b2f5eb7da71",
+          "event-6921ccc2719d480f83f70f93ada106fd"
+        ]
+      }
+    },
+    {
+      "job_id": "M07-N1",
+      "manuscript_id": "M07",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M07-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "1960db2308c2c1fc510e5575066802d93e0755375c091f94eb916dbbafd1bc87",
+        "event_id": "event-6168e7e805a04adfa35b4054771d8845",
+        "lineage_event_id": "event-1c1e8a464221426c96bcd58953ba3579",
+        "lineage_entry_id": "final-selection-20261018:M07-N1:evaluation-v1",
+        "session_id": "01a151d6-76da-76a3-a77f-0b91c7822b83",
+        "response_file": "runs/final-selection-20261018/results/M07-N1/attempt-001/response.json",
+        "response_sha256": "49804c58f5aef3882262336e2dcc0a4391621ea88bc3bc1aab1e4fd5dac85d6e",
+        "prompt_sha256": "81e06d7400c18b6ed756bbf5dc038184f3206e50beb1f5774f1a9e2ffe694eb5",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "8bde42491bab01ffd5c6e696ef3539e13599624f1397e2c2b4b08a9d83732b39",
+        "capture_evidence_events": [
+          "event-e7416a26439e41b9bc4034a991e67a77",
+          "event-5655849ad71f4889a86f5f41cf978479",
+          "event-b86d39cac8d4442f8c534e1b6b9e8966"
+        ]
+      }
+    },
+    {
+      "job_id": "M07-N2",
+      "manuscript_id": "M07",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M07-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "22d040eab52c703d60282a1425571f326781992fe0d5111b78b68665af2ecc5f",
+        "event_id": "event-77eb82f5cf654c53aaff6304554814da",
+        "lineage_event_id": "event-65bbd7e87ea54ca1a148f3d5c684ce61",
+        "lineage_entry_id": "final-selection-20261018:M07-N2:evaluation-v1",
+        "session_id": "01a151d7-74c5-7e21-98fa-1596875f55c8",
+        "response_file": "runs/final-selection-20261018/results/M07-N2/attempt-001/response.json",
+        "response_sha256": "37ca9cd0eee8c7dddfbf498c52236c3b7e57e4ba55c35cb358d9e94c7c688e17",
+        "prompt_sha256": "24a5525cbdd5e0e928f18d9693459c4c20fd973d9c2d36a23848feff5a97a72a",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "a2bcc99fc0c43f228b11410235a1b4c438f8a3db29fd05ab432246493d876005",
+        "capture_evidence_events": [
+          "event-b5dabb57e8d144ff809124cd821c4f31",
+          "event-3e1f5177f3e849ce98499b6a39367e8e",
+          "event-49349d898edb4c9e96ba39dae0714131"
+        ]
+      }
+    },
+    {
+      "job_id": "M07-N3",
+      "manuscript_id": "M07",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M07-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "9681e75310d33945df5d2e1d14d94fb19268e04032f53781b5fa126f8e51b2e1",
+        "event_id": "event-ad6bffebccac463ab3925a0ff186273f",
+        "lineage_event_id": "event-52b709ed0a3147ee844ef6633e8eb94d",
+        "lineage_entry_id": "final-selection-20261018:M07-N3:evaluation-v1",
+        "session_id": "01a151d8-11a5-7a80-9dfa-f4fc3997faff",
+        "response_file": "runs/final-selection-20261018/results/M07-N3/attempt-001/response.json",
+        "response_sha256": "4f590686741e1e177822344b47911cfab1569908ac6a5ab43f92131308217c20",
+        "prompt_sha256": "f3647f4da7e235e704d5b83bd7cff7a0d413137401c667d2821084c271f15462",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "d1f7b5d9086ee127c868f45b1b2fb0350eea8565a339d2ad1a67b98ceabb3f6d",
+        "capture_evidence_events": [
+          "event-259bb1075e1149448e7e25e1547e0a0a",
+          "event-de9b0c9a2bc64e2a9be39a26473e5956",
+          "event-78facd0ac8154fbf84a8809819ff7b39"
+        ]
+      }
+    },
+    {
+      "job_id": "M07-J1",
+      "manuscript_id": "M07",
+      "role": "J1",
+      "profile_id": "david_chalmers",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M07-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "08da82f2b74867140250253df5b01a22513ac35a5dd869518e8f35531f8ac378",
+        "event_id": "event-1baa0c7d2f3642689facc084519015d1",
+        "lineage_event_id": "event-7927914a528141e9888a2c599035d7ad",
+        "lineage_entry_id": "final-selection-20261018:M07-J1:evaluation-v1",
+        "session_id": "01a151d9-0a2d-7fa2-ad3f-8e2317beefab",
+        "response_file": "runs/final-selection-20261018/results/M07-J1/attempt-001/response.json",
+        "response_sha256": "a3fba35de9dfbf4c17da335150cd188879d1159b19dcc8f3c716f7ab42ba420e",
+        "prompt_sha256": "f2a411601d7967131774a2c48cb03f91dbc4911e25ccc635feb69819a95aa962",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "d3f841c98b1dcea9d30599bb1f6e21066029fbdeeaf8b5902a0902aaad2b5474",
+        "capture_evidence_events": [
+          "event-b50aa74f41ae4418b6a84e258cd1d1e2",
+          "event-bbcb3a49698146d0a9bf898e47f1f2d7",
+          "event-5c8157d3bbff49a7b2b5fdcb8e6b04cc"
+        ]
+      }
+    },
+    {
+      "job_id": "M07-J2",
+      "manuscript_id": "M07",
+      "role": "J2",
+      "profile_id": "raphael_milliere",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M07-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "8ec46156472dc0106bb87ca1dfd2c4a2840f534805bb00cd9a5d51cb8d97a82e",
+        "event_id": "event-984afcd1554942e5808bf618c5508b85",
+        "lineage_event_id": "event-0a0d97b9ffe24dacae1d9d412d58e0e1",
+        "lineage_entry_id": "final-selection-20261018:M07-J2:evaluation-v1",
+        "session_id": "01a151d9-6ac0-7d63-9382-cf6a0483e74a",
+        "response_file": "runs/final-selection-20261018/results/M07-J2/attempt-001/response.json",
+        "response_sha256": "197c96631a9dae60de7c4f4a34490ff1d05cf759f00bbb7f786041e803b8b75e",
+        "prompt_sha256": "1d2d6c2cea858ac420a67079d30ba7606e1307d2ff6aa81dce8205366deb6c4c",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "8265cacd2acbaa3e0be39783ce6174744d1037917e1cbc76f291145be682cb65",
+        "capture_evidence_events": [
+          "event-82466da7ce3347ce94399f7cd880eb19",
+          "event-e1a83bff9a2a4f6ead4e8811f6d8c1b4",
+          "event-0043a4bbca8e49fbadf71706b8dbb400"
+        ]
+      }
+    },
+    {
+      "job_id": "M08-N1",
+      "manuscript_id": "M08",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M08-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "c3a64375ab645a8b40e219249edf9ba0af6680548d827e33482680e06b796d03",
+        "event_id": "event-34bfaca7575b48278ad43cd24fda8de9",
+        "lineage_event_id": "event-d4dcb69b477a48dc89f76c5b834e9ab5",
+        "lineage_entry_id": "final-selection-20261018:M08-N1:evaluation-v1",
+        "session_id": "01a151da-7e2d-7681-aa57-642843832c84",
+        "response_file": "runs/final-selection-20261018/results/M08-N1/attempt-001/response.json",
+        "response_sha256": "f31c061769a02009ddb0de6593d717befdaed4df2a65a33c8f9c05ff86df2b91",
+        "prompt_sha256": "c10b2748e2288ad934b59f024a9dec02d56177375c46d13931f9226e43aa3ecb",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "f48faa1372fb788c4bf1244cd55ac3af98ec5c66e808ed9db49c57c0518f26af",
+        "capture_evidence_events": [
+          "event-30a113fae173400b9e1a728ec463d504",
+          "event-5517dddfa40a45a69765c4fc07915df2",
+          "event-a695c3b86e9d45d28c863f9e5dd48309"
+        ]
+      }
+    },
+    {
+      "job_id": "M08-N2",
+      "manuscript_id": "M08",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M08-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "b57f3a7bcf68c39f295546e4f51ad9cecf92df8b686b88edc1232dedca1ad2b5",
+        "event_id": "event-673d22929f2d48919e1054708134cf09",
+        "lineage_event_id": "event-0a350658bafc4bfb805c7d203824a3be",
+        "lineage_entry_id": "final-selection-20261018:M08-N2:evaluation-v1",
+        "session_id": "01a151db-10e9-7fe1-bccd-d7f292c58a70",
+        "response_file": "runs/final-selection-20261018/results/M08-N2/attempt-001/response.json",
+        "response_sha256": "c65f8c0c7f1d5e965402eed9faf278537da826c46a7c6a11872fd0ccc7d94a9d",
+        "prompt_sha256": "9ddd00ea22222aefc3d99861cdc8c5e1d103331f6b7a89777dc9cc096f72763b",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "3773b66f7517377c957f85c7b92d7a0eaed13ea285bede896267040f7bc00665",
+        "capture_evidence_events": [
+          "event-b2ef0cbafe6f47f49ada06a71faf2d5f",
+          "event-95ea904fa85d4ca99bfdca5e68a1bf88",
+          "event-bed7f141043a4f528ee74dfb1aef601f"
+        ]
+      }
+    },
+    {
+      "job_id": "M08-N3",
+      "manuscript_id": "M08",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M08-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "b9b6687187b729308a4ce4fd25bc74b10e6e2bc4d20374237da608fb62e9a85b",
+        "event_id": "event-b3e8cfafbf344ab39e79305e782d27d2",
+        "lineage_event_id": "event-421d8e6122294737abc6d0fd602ee682",
+        "lineage_entry_id": "final-selection-20261018:M08-N3:evaluation-v1",
+        "session_id": "01a151db-74db-71d0-afca-bd9d8bcf3905",
+        "response_file": "runs/final-selection-20261018/results/M08-N3/attempt-001/response.json",
+        "response_sha256": "e266876483da5ab6b60521ef22d2d7e9077798b5437e3079d6504232b78f87f4",
+        "prompt_sha256": "56663b962d93597e8da4779c09a65199f3bf8864f274dccee274ae3c64bf1ded",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "e9ad0abf1ee75bda88640f70c6ee9bf022e851ba1cc7e5fec2d513da2598d030",
+        "capture_evidence_events": [
+          "event-1a8df1e291c34f31984bed931f949848",
+          "event-6323a88dc5c648568bd6400d138f3fe5",
+          "event-ef9e840eb23240bd890b2641e53d583b"
+        ]
+      }
+    },
+    {
+      "job_id": "M08-J1",
+      "manuscript_id": "M08",
+      "role": "J1",
+      "profile_id": "matthew_mandelkern",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M08-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "3092782802450f7fbbbed19b3851fabec0589fd174a23fac09014d7b2c751e65",
+        "event_id": "event-9ae6fa5468574916bd754bdebe48f08d",
+        "lineage_event_id": "event-cdd6eff075c04e7dba79a08305cc85b7",
+        "lineage_entry_id": "final-selection-20261018:M08-J1:evaluation-v1",
+        "session_id": "01a151dc-1364-7cf2-8bca-bc74db09a8c4",
+        "response_file": "runs/final-selection-20261018/results/M08-J1/attempt-001/response.json",
+        "response_sha256": "0def92d19c72af0aa4804182a2cff5ff667bca0836945e6c150799e9676ad89d",
+        "prompt_sha256": "3f35ee4aad0b9b8bdbe41c68d8adcaf75408100c466d172b8f630193fb6562ca",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "f007aae083cfe4e14c1ccc9d005da90275d39314a156878d649cc110c7cbcbf3",
+        "capture_evidence_events": [
+          "event-bd2bb85fa83a45e4b45165588929e555",
+          "event-02b802c6cb24467e905cbd46349b6ad3",
+          "event-5c9064eaabf74c54a9046b0c197fd513"
+        ]
+      }
+    },
+    {
+      "job_id": "M08-J2",
+      "manuscript_id": "M08",
+      "role": "J2",
+      "profile_id": "daniel_greco",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M08-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "9c5c8708f1519f7da248cb6ba9b84dc6d27dde2129a320dec7df96214e8eb113",
+        "event_id": "event-7da4f2b54bb84e59886f4fdbfe4e359e",
+        "lineage_event_id": "event-eb88dc6f184d4a248e846d78310e032f",
+        "lineage_entry_id": "final-selection-20261018:M08-J2:evaluation-v1",
+        "session_id": "01a151dc-e8fd-7e70-baed-6045122d938a",
+        "response_file": "runs/final-selection-20261018/results/M08-J2/attempt-001/response.json",
+        "response_sha256": "a5ef18eaa8ac9f2948cdb1168561172bb24b7f976f65f8624fc9360a3eb78d91",
+        "prompt_sha256": "9f7957dd76c16452bac2b6ebca57b6f4d100f97cf09eb9536d6f1f9fe951f23f",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "69d14fc718b993c79e30f6839cc99313df21e8ed6c8836564fd98bb13e404b49",
+        "capture_evidence_events": [
+          "event-e0f2e62f0c1b43dfb9a6d9552f8826ac",
+          "event-26709f3aad724887b465f74cea6d5f9a",
+          "event-51e5097268cb46a6935a5bb688783ad9"
+        ]
+      }
+    },
+    {
+      "job_id": "M09-N1",
+      "manuscript_id": "M09",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M09-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "e35b963bab3e93651a86f8062a4f71e3ea0029aeb7c423cf981840a7329a2051",
+        "event_id": "event-4d24654f756046a7b3a304e03632097e",
+        "lineage_event_id": "event-ae533bca97614bd58a7528e19ff7fe67",
+        "lineage_entry_id": "final-selection-20261018:M09-N1:evaluation-v1",
+        "session_id": "01a151dd-11f1-7161-91df-5c9f8271832d",
+        "response_file": "runs/final-selection-20261018/results/M09-N1/attempt-001/response.json",
+        "response_sha256": "4f806088906b9bbe4d08d07bc5b8e3c9bf9800b8d9a6b04dd8103a8f6354f1cd",
+        "prompt_sha256": "90977744f13a1f2901747461a3e145f6124357ef54fd71db19428e4427981480",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "f55a5c648defeac3417d3334bf443d135dcc414cf994da9f167a1d3bdb7cf697",
+        "capture_evidence_events": [
+          "event-3e4f42fd728344f2a4e8725c764b77b5",
+          "event-dd16ed9a82df402c9d33d08924ad90ea",
+          "event-b13d02251cf94c5984f4ae41e11952b0"
+        ]
+      }
+    },
+    {
+      "job_id": "M09-N2",
+      "manuscript_id": "M09",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M09-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "2c5b3d337624ac174c7278ffcd07db97f8eb559e1de6202571818bb29c1d9ba4",
+        "event_id": "event-3123ce0a2cad4ca0bff9763168853e61",
+        "lineage_event_id": "event-fb0a12a28cff43da97c309c5d23a6c58",
+        "lineage_entry_id": "final-selection-20261018:M09-N2:evaluation-v1",
+        "session_id": "01a151dd-e004-7eb3-b5be-577b9f46e26c",
+        "response_file": "runs/final-selection-20261018/results/M09-N2/attempt-001/response.json",
+        "response_sha256": "dfdefb2b249f188439b00c788fbe4e8c79bd7a77a0ca477e826160282c134f7c",
+        "prompt_sha256": "01414e833b5efb25782fecd129d2b129725313cf5b95bf62962862fb946a00a1",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "2c70818d39ac0aa3d3079e8edb219aae38e82b8d445d61670f51a2694b1cf8b3",
+        "capture_evidence_events": [
+          "event-222de9a7d5874ae2880ad00ed9cfcd10",
+          "event-6d79e6690ebc44ff991072ffa28ba5f8",
+          "event-e9b39ebfee494bfe846d82cef9852ed0"
+        ]
+      }
+    },
+    {
+      "job_id": "M09-N3",
+      "manuscript_id": "M09",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M09-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "533793b142590052c6d2c5ef6477e9f980fe002f1c2d1aa08059e1bf7415b52d",
+        "event_id": "event-7d49f36e189e4263a093db96c8c8c02d",
+        "lineage_event_id": "event-358898d9204a4cf3ab60a60e00883e1c",
+        "lineage_entry_id": "final-selection-20261018:M09-N3:evaluation-v1",
+        "session_id": "01a151de-8f05-74b3-9481-d479cbc72038",
+        "response_file": "runs/final-selection-20261018/results/M09-N3/attempt-001/response.json",
+        "response_sha256": "988d1b4f99df3b2b3c8671b67d92595b0f43edd17bfffa6db5efb1b539e09f51",
+        "prompt_sha256": "bd998f148ee8e75e9fef17f6847fdc232466df9c63ea0cf5bcc9656465254426",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "f2140606b41277583dd396b71e1cb24bdb7832bd67f8122d77f9c9ca5f312dee",
+        "capture_evidence_events": [
+          "event-6fbfeb8cc2f74947881328064a29f6ff",
+          "event-08982106fb564cd19647229fbb655722",
+          "event-0c131691dcfa4ad69da276bcff9f3204"
+        ]
+      }
+    },
+    {
+      "job_id": "M09-J1",
+      "manuscript_id": "M09",
+      "role": "J1",
+      "profile_id": "karina_vold",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M09-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "2569eb3db4d48f70898fc95d8eb91b1f293e632a371106e2828c0e5414e9e453",
+        "event_id": "event-9a03bf7ff7784834a359d519fdbcaa52",
+        "lineage_event_id": "event-5bf48ba3ca5841dab96fe2073d4b56d9",
+        "lineage_entry_id": "final-selection-20261018:M09-J1:evaluation-v1",
+        "session_id": "01a151de-d482-7202-910a-b536eb125860",
+        "response_file": "runs/final-selection-20261018/results/M09-J1/attempt-001/response.json",
+        "response_sha256": "632d7f39a74063c0febb63ef4b494a769dfcbad2651344f3a98a0916358b2647",
+        "prompt_sha256": "dddc3dab3e230abbf55a583ff01945dbe9e969b3eae5c9f540fb53eebecc6bab",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "ad8ad3e11fe62bc06844708e7d8d314ab97877ea3aa99fd07af2432a45a6d1e1",
+        "capture_evidence_events": [
+          "event-0ab04adb029f4d66bb547f560e83c644",
+          "event-e8541c403884492ea468d7d8b964427d",
+          "event-fabc055e60124306a271c3e8ba525773"
+        ]
+      }
+    },
+    {
+      "job_id": "M09-J2",
+      "manuscript_id": "M09",
+      "role": "J2",
+      "profile_id": "kacper_kowalczyk",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M09-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "0c0276fdd5ef68828d8da9e3ecaa929f098baae7a71aaf2c1b6ecb4f48592992",
+        "event_id": "event-c62da52d67fc424face4034244520dad",
+        "lineage_event_id": "event-1053d1a605ad424fac6796bb3441528b",
+        "lineage_entry_id": "final-selection-20261018:M09-J2:evaluation-v1",
+        "session_id": "01a151df-5f0b-75b1-ad06-f154e7ffe228",
+        "response_file": "runs/final-selection-20261018/results/M09-J2/attempt-001/response.json",
+        "response_sha256": "63c8a4d687fef9bdf8586ba538bfff80abf5429d3f925bbc3b9b1768fe4ab92a",
+        "prompt_sha256": "b99bc55d9812d3d598791ff3c9dda376fe498ac87f0f5985d971b51510c444cb",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "3b0adecede52737066eee2426a2b1fda5fa2a2b365af7ba36b04622b86d19ae6",
+        "capture_evidence_events": [
+          "event-69d393b0f4d44e70a03f775487f8c44b",
+          "event-c4535c32f0cb4a05b473a4057f7bb12f",
+          "event-57c693e359bc4a09a096d28905d30ef2"
+        ]
+      }
+    },
+    {
+      "job_id": "M10-N1",
+      "manuscript_id": "M10",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M10-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "fd966c0f072fd0220362ce64fcc202f56707355df3ebb471614fee969bc4b253",
+        "event_id": "event-340eb80f38cb4d4b9d5c7428bf164bd6",
+        "lineage_event_id": "event-3c8849590304449dad8f03b7ca2d78db",
+        "lineage_entry_id": "final-selection-20261018:M10-N1:evaluation-v1",
+        "session_id": "01a151e0-85ae-74c2-8e17-4b826b62131b",
+        "response_file": "runs/final-selection-20261018/results/M10-N1/attempt-001/response.json",
+        "response_sha256": "c4d450fedef3ce7e769a619897edb85df70d19b5d92b15efa4ec37227aec7400",
+        "prompt_sha256": "2d4b4e32e7d4bf22d00cc76e1a294c4c8be820d072fd4c6ed0e09f30ec5ce753",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "f9e263d15ced16373a0e28042afb13071a121e4d1039accf532e8997b491a3ac",
+        "capture_evidence_events": [
+          "event-70940bd3547d4bc2905c3e667830289a",
+          "event-87a8bebef54e4b07b79a2883205caee1",
+          "event-8ab7e52802024ef485db894ec34d0e87"
+        ]
+      }
+    },
+    {
+      "job_id": "M10-N2",
+      "manuscript_id": "M10",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M10-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "564c4ad4dcf454e6e0e621bf62850e260a07ede706fc50f85d2e08d5ce562db4",
+        "event_id": "event-90f273ba26c8423bb4fa5ddbbc8573a9",
+        "lineage_event_id": "event-8059adacfa1f4363902140830363333c",
+        "lineage_entry_id": "final-selection-20261018:M10-N2:evaluation-v1",
+        "session_id": "01a151e1-3178-77a2-8059-c38da24b2a8f",
+        "response_file": "runs/final-selection-20261018/results/M10-N2/attempt-001/response.json",
+        "response_sha256": "cda561cfdc800617ce14c9495a38f94912455b784251f83c6f4c41e71180bab6",
+        "prompt_sha256": "ed66d917080ebf1ae97d573494271ff2fab6f86598a7fe006ea28a7850d7432f",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "002b8b5cf4725aa2f057b2f6fbb77a6278660acf2362284c5cd24db4ac70144c",
+        "capture_evidence_events": [
+          "event-c8e6d9d5b5c5465d8a0434e09a013dc9",
+          "event-5ece2f45d9ad46fb9f5094e696b9f79c",
+          "event-97c958fcb77243de8e16f9f98211e819"
+        ]
+      }
+    },
+    {
+      "job_id": "M10-N3",
+      "manuscript_id": "M10",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M10-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "0f918d22d0b466db2659c4f3ab37ca4d1350d70c455a54f1b1e34d8619ba66a5",
+        "event_id": "event-d9248c05fe7a457dba67474260babb9a",
+        "lineage_event_id": "event-e5a334bb207d4c1bb6b7e58d4f93817d",
+        "lineage_entry_id": "final-selection-20261018:M10-N3:evaluation-v1",
+        "session_id": "01a151e1-75aa-79b2-8be6-9c18331cac0d",
+        "response_file": "runs/final-selection-20261018/results/M10-N3/attempt-001/response.json",
+        "response_sha256": "23330ce480a88853ff3ea7d005603fe6937579f0c5f8027d8a98cc2b18cb331d",
+        "prompt_sha256": "919585cf48710be994ed587fe2d84a4facfec2b39682bd20a12d07fbbc82d7f1",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "53a917803534424f3e0d65828c73739546de3801b032c3870e6194bf2ab098b9",
+        "capture_evidence_events": [
+          "event-fb43d2b67ec54eae993e89fc5cfee698",
+          "event-e0437f0417af4cd6b992c422e923b9bc",
+          "event-b19f0c48f1e64471b62920799803fa19"
+        ]
+      }
+    },
+    {
+      "job_id": "M10-J1",
+      "manuscript_id": "M10",
+      "role": "J1",
+      "profile_id": "john_hawthorne",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M10-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "97c5b0ee6eb1016e3a64d160a0283ea8f764212a40bc8195225c84faab3f4947",
+        "event_id": "event-f63112a611f54808835efb8d8b97b516",
+        "lineage_event_id": "event-9d3ccafb243d43cbaaba4e1ce08ea899",
+        "lineage_entry_id": "final-selection-20261018:M10-J1:evaluation-v1",
+        "session_id": "01a151e2-2eba-7002-a04d-1b6cf6957aea",
+        "response_file": "runs/final-selection-20261018/results/M10-J1/attempt-001/response.json",
+        "response_sha256": "b4f9ee2dc6fc6906282a2a1d1d82a1337b8d4c2a3dc5a15e1db5e5cf50aa0160",
+        "prompt_sha256": "c52a126ff8cef78bb215563a3e1ad69f77c42aca984a8a7079da1a81e4f1e85c",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "1e1a22068e2561a3fc6c40083732ccacd929daece6f67f06829845a5073bd101",
+        "capture_evidence_events": [
+          "event-38336b899fca408b90d019cae628cfda",
+          "event-224a5bff03304bf99dd6428baf46dfa9",
+          "event-1e9174d18dd34f2a987be65ed02eba95"
+        ]
+      }
+    },
+    {
+      "job_id": "M10-J2",
+      "manuscript_id": "M10",
+      "role": "J2",
+      "profile_id": "branden_fitelson",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M10-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "b639ae1763311f1d805fab39940b70d1d9370da64df7f835c5da7d4422676532",
+        "event_id": "event-3c2a529fc6f44bf0ba486195aa0229c2",
+        "lineage_event_id": "event-d834f8c7515646e8b30c66ed973f1071",
+        "lineage_entry_id": "final-selection-20261018:M10-J2:evaluation-v1",
+        "session_id": "01a151e2-b936-70c2-be41-d2d325765371",
+        "response_file": "runs/final-selection-20261018/results/M10-J2/attempt-001/response.json",
+        "response_sha256": "44ea694b1307f28c04a5e208b94b60b7ddff01cd4913eda72676741970789ccb",
+        "prompt_sha256": "4406bf7926b6707703b03b17eda39b78a1ca224665c65499ec5ca85eb3905b4f",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "1ee0d78c239d9ab32eba48b8b895d1e38c7056ad5035d6349ba0bb75c832701a",
+        "capture_evidence_events": [
+          "event-5f24a60addae41dc8ff85e07cb05d607",
+          "event-9582f707d8444f9c88562820c4e5c6b4",
+          "event-00a87be0b3344b28817504f4e08e4ccb"
+        ]
+      }
+    },
+    {
+      "job_id": "M11-N1",
+      "manuscript_id": "M11",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M11-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "222d4ccf304014f99fb00f072f7b656c3a338c7836f044165a704d78f45201ac",
+        "event_id": "event-67fe19f30f6b45249c7f063f6d156a0d",
+        "lineage_event_id": "event-dc84c4ca42fd4f1a84d531971045a457",
+        "lineage_entry_id": "final-selection-20261018:M11-N1:evaluation-v1",
+        "session_id": "01a151e3-77ee-7622-a857-380b8ccc855a",
+        "response_file": "runs/final-selection-20261018/results/M11-N1/attempt-001/response.json",
+        "response_sha256": "cdca68184d6834a18de0c2deef2bbf5ad59390b1cddb96b9e9fcc3419e585e89",
+        "prompt_sha256": "b6a35b714b13ffcacda0ad8cd64ef38ad4cb91597cf22733c7dbf72d9be8b793",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "e9cf5cabedaf5b31e53a3af4be8c202ef94def3c8af51eec5eca74dc791b7ffa",
+        "capture_evidence_events": [
+          "event-3830731925bb498996cd5f515ec1e9a1",
+          "event-2353ce7c8e6e48c89dadc5cbd30a13e3",
+          "event-718cd15df94c44029007d337801d3717"
+        ]
+      }
+    },
+    {
+      "job_id": "M11-N2",
+      "manuscript_id": "M11",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M11-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "7ee8862f57bdab3618188a7e659445210a36f27b9a3f6a2c09421096943d465a",
+        "event_id": "event-b0c6fef90a514b38b09cb9324d3dd03a",
+        "lineage_event_id": "event-4f34d52613d746deab960e7b35a5ead0",
+        "lineage_entry_id": "final-selection-20261018:M11-N2:evaluation-v1",
+        "session_id": "01a151e3-a32b-7e13-8a14-a19d52c1f044",
+        "response_file": "runs/final-selection-20261018/results/M11-N2/attempt-001/response.json",
+        "response_sha256": "4f52ea49bf954146b970bd0e52180ed2e9d4e9290c08ca7884cc1725e40339c2",
+        "prompt_sha256": "1e92b7374a832506c9d1a47f7e8b6e317b78dd2480e94c833ef6ae8a2bb5dc99",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "c23908f615b7febe8069e2768655b74e0fdba713afc94bc44d2e602a1325e0cd",
+        "capture_evidence_events": [
+          "event-394bb9b67b1b418eb89f1cb4e59a2064",
+          "event-b83ce0b82db240fd8c6395a0358e5e37",
+          "event-564939a6005e45c0b3f05d73f27d8656"
+        ]
+      }
+    },
+    {
+      "job_id": "M11-N3",
+      "manuscript_id": "M11",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M11-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "49d2d069788495349ec988178495286e57169a07270406d9859b8da030696578",
+        "event_id": "event-00c029ee51b84da3956b6f7cb488b923",
+        "lineage_event_id": "event-1b5e4c8d5fcf48b6af527dfc84b986f7",
+        "lineage_entry_id": "final-selection-20261018:M11-N3:evaluation-v1",
+        "session_id": "01a151e4-904a-71f0-9a60-31af6770e183",
+        "response_file": "runs/final-selection-20261018/results/M11-N3/attempt-001/response.json",
+        "response_sha256": "d2e3149eaf6893449a482cd1773fdd8743ecd0b18f3fd3ea99a2fbbab2b4d067",
+        "prompt_sha256": "86c29f83a2fddb988ee1cdf4eabbe63e671fede62bd3875a03e3535c05bd2698",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "a3c74fc63b203a3795cba89b89b9dfbbe74a472991d8345551f2fcc5ff05f341",
+        "capture_evidence_events": [
+          "event-feee3f3b760c434a86f41a2e8dd47962",
+          "event-7c4c35266e714db8b656406ab29a1d0b",
+          "event-c72b88a134194f9587b9aceaecf74621"
+        ]
+      }
+    },
+    {
+      "job_id": "M11-J1",
+      "manuscript_id": "M11",
+      "role": "J1",
+      "profile_id": "jens_jaeger",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M11-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "0585c314b23586af53747d753fc5d32b485dbe2fdc33cef1c810c5c31dedd58e",
+        "event_id": "event-5afa245e52f9476d947cf2ad992fa35d",
+        "lineage_event_id": "event-50bc353aae4c41c7b15b253d8455f662",
+        "lineage_entry_id": "final-selection-20261018:M11-J1:evaluation-v1",
+        "session_id": "01a151e5-2524-7dd0-ab81-803789913853",
+        "response_file": "runs/final-selection-20261018/results/M11-J1/attempt-001/response.json",
+        "response_sha256": "a72f87a451824212cccc7ce8d526105ebc05390134227d81566aa873731008fa",
+        "prompt_sha256": "fbccff9dbe8f05ba3670ce9480bacc55215af698c65b1eb66e1553fea90c9d21",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "1192f8de990ef9fd30db495260db36013b643a30fdcc956828d921438587d7a2",
+        "capture_evidence_events": [
+          "event-022ee52e1e9a4ec6a363927a4a46024b",
+          "event-a06daf9dbd954eacb4e56ad77f550e71",
+          "event-500f1f3724254c3980b69cc067fd66c2"
+        ]
+      }
+    },
+    {
+      "job_id": "M11-J2",
+      "manuscript_id": "M11",
+      "role": "J2",
+      "profile_id": "kenny_easwaran",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M11-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "ebd0769ea935e573bd3321832585e72282eebf331095dc94761596fb04ad2420",
+        "event_id": "event-f6b4b6eace10468397967dab0391ef65",
+        "lineage_event_id": "event-a0ea1a4857994ddfad3345bbd238c2b2",
+        "lineage_entry_id": "final-selection-20261018:M11-J2:evaluation-v1",
+        "session_id": "01a151e5-dbc6-7c10-b8e7-93f27e2589ba",
+        "response_file": "runs/final-selection-20261018/results/M11-J2/attempt-001/response.json",
+        "response_sha256": "af89e59099a307eadfe252ee3e901c2228d0b36ee094a59291c6956752ce5f1b",
+        "prompt_sha256": "a5b8aa99d717874940adbad2e74efe06ce4990b75cfea86c8586a207ea15b76d",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "126818138c606ef4210deadc8c072b49c1140724b9418bd6bb484479f1107527",
+        "capture_evidence_events": [
+          "event-edfbdbaa5707480b9b45a2dfeb956ae7",
+          "event-9e47f5e283984cf99e4a09e8727779df",
+          "event-7924a0f5d0694b76ad1afd4a09721067"
+        ]
+      }
+    },
+    {
+      "job_id": "M12-N1",
+      "manuscript_id": "M12",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M12-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "8b434a9cbfebfc49ead55d8f02892a7fb265f22d5b766648fe00f316699b2aba",
+        "event_id": "event-a542facb4ccc4cf4b1a03d4ffb413475",
+        "lineage_event_id": "event-3535e9c3a9db4d23b3c6a45dfe1c5af8",
+        "lineage_entry_id": "final-selection-20261018:M12-N1:evaluation-v1",
+        "session_id": "01a151e6-3edb-7523-b1e4-d939140cd6f2",
+        "response_file": "runs/final-selection-20261018/results/M12-N1/attempt-001/response.json",
+        "response_sha256": "f463f8065367ae44cbe482ea74eea74ca711f5b6a05889bcd84332c6db06b9f0",
+        "prompt_sha256": "d5da32e0c9275b909d63fbab1ed93899868f400f5bba3266b18c8ddeb6208296",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "7c4adc165283a177570d86bcd58b1cd00b806c4acae09d9110db33feedc44da1",
+        "capture_evidence_events": [
+          "event-62a86befadf14fee9edef73cfaf4f1c1",
+          "event-37d91f1183b2452b93eb9dc965dda5db",
+          "event-24bde500bc2f4ff8841f3887f110cc14"
+        ]
+      }
+    },
+    {
+      "job_id": "M12-N2",
+      "manuscript_id": "M12",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "attempt_number": 3,
+        "attempt_resolution_event_id": "event-4f254724575943f8b0b8e411db2ef095",
+        "preserved_failed_event_id": "event-b3519057c6a24486bca718c999d0a20e",
+        "archive_receipt": "runs/final-selection-20261018/results/M12-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "3225165fb4338294e4431132d77153e427aad891a34b865b0dc8f1ce3aa0c192",
+        "event_id": "event-b2bb6b9a773143adaa305b58dd34b07d",
+        "lineage_event_id": "event-9d8e67165668450e8f96d75e5c4abf41",
+        "lineage_entry_id": "final-selection-20261018:M12-N2:evaluation-v1",
+        "session_id": "01a152b7-f2cd-77d1-aeda-2eb2ce54bbcb",
+        "response_file": "runs/final-selection-20261018/results/M12-N2/attempt-003/response.json",
+        "response_sha256": "3e43a6cabb69fc20a55a0c2c408480dfa2bcf80c4837f6f3463f0c1e0a51bca6",
+        "prompt_sha256": "43e9dfcac06808b870da817384f675ca277f13b2ad7c1b3405f403cc139b5371",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "a31b1ea723169f73d800c79737c246a94bc4f6ad176f5c103b779fb7dcaa0217",
+        "capture_evidence_events": [
+          "event-0d059e7f8abc41b086aa13139588005d",
+          "event-3a2468ee7f4348658f17ca6fb672a53f",
+          "event-e3009525279a409f8b114febc9018ad0"
+        ],
+        "local_launch_failure_event_id": "event-7efc0413ca594658a8c8f068b0b0d891"
+      }
+    },
+    {
+      "job_id": "M12-N3",
+      "manuscript_id": "M12",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M12-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "ef4502a8fce1c35c118d5bd74dad58ea49c9d2aa2add0033720daa577f19153b",
+        "event_id": "event-37616821655b47bd9737de09ec87876a",
+        "lineage_event_id": "event-74c5fc4737c549eb87f3fb689b1df7e0",
+        "lineage_entry_id": "final-selection-20261018:M12-N3:evaluation-v1",
+        "session_id": "01a151ee-b269-7ac1-8a3e-713359141da7",
+        "response_file": "runs/final-selection-20261018/results/M12-N3/attempt-001/response.json",
+        "response_sha256": "5010421ddb87d5d5cc7a1534d7f9f29ef18db57bf0b35cdac07db3b36b6bc046",
+        "prompt_sha256": "dcc9091aa211d45493baf836ae7e7c334d40597ebc242f8abc0815ba6ed22c3d",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "7c1be3c175ca5ee2d20b12383bde33ba6eba3385d7daeab440b39fdfe507ffb0",
+        "capture_evidence_events": [
+          "event-50daaa95e3f24242b040ea49c9eedca4",
+          "event-43820e29cad74357980d48ea967b7352",
+          "event-8f732c7fd9f7487ba009b3ac8a365489"
+        ]
+      }
+    },
+    {
+      "job_id": "M12-J1",
+      "manuscript_id": "M12",
+      "role": "J1",
+      "profile_id": "jake_nebel",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M12-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "4764d40dcf73e8792cdad6526f944713ca51208948d44712a1d9f5c426013c5a",
+        "event_id": "event-8c4ad6c64acc4000ac504566b550d229",
+        "lineage_event_id": "event-0143aa95f16046278fe14150575c8370",
+        "lineage_entry_id": "final-selection-20261018:M12-J1:evaluation-v1",
+        "session_id": "01a151f8-8c80-7e82-879d-db0cce20b710",
+        "response_file": "runs/final-selection-20261018/results/M12-J1/attempt-001/response.json",
+        "response_sha256": "a9ddf47ceae738919253d15151b0e6acc3f66fd5104c7c7b561f390f082d8d42",
+        "prompt_sha256": "59d9ae2a983bfecfb755f48125b62ea0c57660048295459eabf55ae76ef8e4a6",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "3ba6f32ffa5b489f13cbbdb519d87249752040c9b058ef8d3b1e4f7cd81b3fbb",
+        "capture_evidence_events": [
+          "event-0938150ebbee409c80c85e44e4830fe6",
+          "event-4e8c3b09d0f84c5e8cf3aa0dff1cb6b8",
+          "event-2ab702ddaf9a45329e6e8e7b9e12ff28"
+        ]
+      }
+    },
+    {
+      "job_id": "M12-J2",
+      "manuscript_id": "M12",
+      "role": "J2",
+      "profile_id": "hilary_greaves",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M12-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "64d53de043feb5d37be1e19cabf05f65a82882a2b274a819cfa8ee9e800ed929",
+        "event_id": "event-558c962714e14857a8190902c0a5631a",
+        "lineage_event_id": "event-8ec071b26cc04401a343f5807bb47714",
+        "lineage_entry_id": "final-selection-20261018:M12-J2:evaluation-v1",
+        "session_id": "01a151f8-8c80-7823-8d57-9a7983f9f41e",
+        "response_file": "runs/final-selection-20261018/results/M12-J2/attempt-001/response.json",
+        "response_sha256": "cd3d5f8c285313a9a54f79d586646f61e1cc94dd6151f40c3d63952a92f7f8ea",
+        "prompt_sha256": "a60c20947e92c1df9b5080e4b72f56d1f02e9cf3d59ab03d4b365af8f2d23fe0",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "6897f16f39c1957da67a5e224250f3d054398bea1a6675056fd1c8fc72407732",
+        "capture_evidence_events": [
+          "event-15c580259ca74da58c671d6274655ab1",
+          "event-c408580402f04cfeab7a93d65956cf13",
+          "event-fd8810f473594495b5c7d5c87b658240"
+        ]
+      }
+    },
+    {
+      "job_id": "M13-N1",
+      "manuscript_id": "M13",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M13-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "e07383ef8f6cfd3e15bc715eac2dc60e2678a807859a4e12a51e540ccb30224b",
+        "event_id": "event-e6e1eff9ebbc42ea91d89e2e555ee5e6",
+        "lineage_event_id": "event-5e6415d83a18451a83d24d5b5014af70",
+        "lineage_entry_id": "final-selection-20261018:M13-N1:evaluation-v1",
+        "session_id": "01a151fa-ddf8-7bc2-9a03-7176c8159b5c",
+        "response_file": "runs/final-selection-20261018/results/M13-N1/attempt-001/response.json",
+        "response_sha256": "3eae94c17d9bd39009579287debaa3339e729af1f96f5223d317eeed521897fb",
+        "prompt_sha256": "9f3b3085cd2bb65c8141fce30c16fc48db45e7ab92b8981b1aedb05a084066a2",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "c6407e69920a573f863590b7e0f8f29e929b6ac0d90c1957a6c6590704978bbf",
+        "capture_evidence_events": [
+          "event-8cb436bda4ee4721a7d6f4199d7c9953",
+          "event-0c7ce7ed5ef34c1aa8077eac069faa9c",
+          "event-23d9b5ffd93a40a6abf3a586eda5c978"
+        ]
+      }
+    },
+    {
+      "job_id": "M13-N2",
+      "manuscript_id": "M13",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "attempt_number": 2,
+        "attempt_resolution_event_id": "event-4f254724575943f8b0b8e411db2ef095",
+        "preserved_failed_event_id": "event-1118f540c1644baf8ca3fea78bdacf12",
+        "archive_receipt": "runs/final-selection-20261018/results/M13-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "e83aaa6d31cded50f01366cecdeed6d12986fd47417569ab6acf69e8ec08c104",
+        "event_id": "event-38dd247a80b94f44831774c6c71a9a42",
+        "lineage_event_id": "event-2d381138bfbf4d9da30b5b31f6307e52",
+        "lineage_entry_id": "final-selection-20261018:M13-N2:evaluation-v1",
+        "session_id": "01a152c0-3940-7a00-83d4-bac706f34401",
+        "response_file": "runs/final-selection-20261018/results/M13-N2/attempt-002/response.json",
+        "response_sha256": "8706cad69d60e2affa5de82690a9fa1a64c29632ef2bb2abc2a606f1f06b7e80",
+        "prompt_sha256": "fef925caadde5a5864181d5036ed4320c55050e684129867a0a15573dcbfb497",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "722981b6cad39e1878e6574a51c4d04d3a654dc1d91009238e9c460b058d6022",
+        "capture_evidence_events": [
+          "event-7722f87fadf94fc7b71ef2efd12efe14",
+          "event-fbd3a163ea5c40129d7d1fbf42a64062",
+          "event-1af761539fb6401599d7b35666110c8c"
+        ]
+      }
+    },
+    {
+      "job_id": "M13-N3",
+      "manuscript_id": "M13",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M13-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "e5d41b14c9f08fbcf92a2760305052e7daf45755d7d7a4b250c7121e870ee145",
+        "event_id": "event-241a032b7bf64752ae49f4b20d7d930f",
+        "lineage_event_id": "event-6fa51863393f4b6c8954dbac3b143d21",
+        "lineage_entry_id": "final-selection-20261018:M13-N3:evaluation-v1",
+        "session_id": "01a15242-4674-73a1-ad17-bc45b6001a98",
+        "response_file": "runs/final-selection-20261018/results/M13-N3/attempt-001/response.json",
+        "response_sha256": "e924110925a25d53e421d799d6c60eefcbcf8f337e4cf5e09f637298f4066207",
+        "prompt_sha256": "1b11f606ec2141681785dd30a799d74ab019547e050bbb9ac0522ad4cba71da4",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "3e26d9bc2c494990c79e5f247396372965e3a31ad88e530d751fa2ee5a9cf61a",
+        "capture_evidence_events": [
+          "event-d15d53f10e5941dba45582e63c339ba2",
+          "event-1d1e4ca4a7fc49f591625a776510196c",
+          "event-e0019287d32d4b61b3b6ae349305f3a9"
+        ]
+      }
+    },
+    {
+      "job_id": "M13-J1",
+      "manuscript_id": "M13",
+      "role": "J1",
+      "profile_id": "pamela_robinson",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M13-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "d86108d3fddf88f9f813507fdd38b66a8230af48b92dabd90f3e7f133f6e036f",
+        "event_id": "event-bf016bedb0d843c18c9463295ac74aa6",
+        "lineage_event_id": "event-f315877cc4554c1c87fe78e18d3fdab0",
+        "lineage_entry_id": "final-selection-20261018:M13-J1:evaluation-v1",
+        "session_id": "01a15247-83df-7232-85f6-62ce7b071669",
+        "response_file": "runs/final-selection-20261018/results/M13-J1/attempt-001/response.json",
+        "response_sha256": "aed91c8d0bfd0352f6e134da920ad9dc66b307d91afc3b856a92642d9b2f060d",
+        "prompt_sha256": "86b5e8bcca349d68c664c9af897db00d9c583f5f31659033d545f5898d488fe3",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "74ab1501318d40d882c2d3dca68b147155682faf5bc4ec4d557edf9f66c0983d",
+        "capture_evidence_events": [
+          "event-d6a95eeee327418b83b8ae83cc076a96",
+          "event-f2577fee4f944312bc18e2f9ebbacbd3",
+          "event-59e3f64a3e134b33a920146221f1f848"
+        ]
+      }
+    },
+    {
+      "job_id": "M13-J2",
+      "manuscript_id": "M13",
+      "role": "J2",
+      "profile_id": "cian_dorr",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M13-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "93aeb176569dbc5dbf6a351eb33d0221741890d3e3a0e739f100ee7858dd94da",
+        "event_id": "event-0b31294aba0841309540cacb6c7c3ef3",
+        "lineage_event_id": "event-f9f1e54715324d47ac1edbd0a8a0013b",
+        "lineage_entry_id": "final-selection-20261018:M13-J2:evaluation-v1",
+        "session_id": "01a15249-854d-7a22-961a-b82e33260fc3",
+        "response_file": "runs/final-selection-20261018/results/M13-J2/attempt-001/response.json",
+        "response_sha256": "6aecca395b8307bb3834949d855533616349eacc7c517eaa91a97ef3e9a8f603",
+        "prompt_sha256": "992739968550916f9a31f14febead59a7947455395e4a4b0c28a41593dcfd651",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "a33409db02307956a420a5420e590d9f1e09ee2cf08a4abcd63d11217c4eb06c",
+        "capture_evidence_events": [
+          "event-7d45bd1e094c47f8af4e8bb2eb8ff390",
+          "event-0c8694c63c5749c0ae2a532357710388",
+          "event-a4b5595600d141288cc92f32cbe19050"
+        ]
+      }
+    },
+    {
+      "job_id": "M14-N1",
+      "manuscript_id": "M14",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M14-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "9c5e5e28e7184ca46a708392c4c021488aa64cb8bde3df76d766d70cf7518461",
+        "event_id": "event-e1057fd93373474ba5c03b77f2810577",
+        "lineage_event_id": "event-bc8cac587dcb45bdba15bf9ba2a15759",
+        "lineage_entry_id": "final-selection-20261018:M14-N1:evaluation-v1",
+        "session_id": "01a1524b-71d0-7f00-8c83-548c1513fa14",
+        "response_file": "runs/final-selection-20261018/results/M14-N1/attempt-001/response.json",
+        "response_sha256": "f63efaa07a202922473f8eed1ac3e598069d65255099a2ace5bc3396ff9534f6",
+        "prompt_sha256": "bc2da99a9ced82f6ca97278f31584958ea01661e7599bb9cae02f1ff24ce1226",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "4b9a6236315b09758e569fb92f6dca93b2d249fc23d792fcc570afe2e8c76768",
+        "capture_evidence_events": [
+          "event-f702601403c44e9baf309bc3379c330d",
+          "event-dde472330b0048b288148ec3f90b1419",
+          "event-f12a1d5b8d1640c09d5a7a56bd3738a7"
+        ]
+      }
+    },
+    {
+      "job_id": "M14-N2",
+      "manuscript_id": "M14",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M14-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "595d90dc5b7e5490f6120cd231719487c3a085cdc467d6896d36c129da0d348d",
+        "event_id": "event-108b0edaa6b44adaa299c184c84947a9",
+        "lineage_event_id": "event-0ad9a01dacc94bd885917d2f3ab428e5",
+        "lineage_entry_id": "final-selection-20261018:M14-N2:evaluation-v1",
+        "session_id": "01a1524d-5c2e-7021-8883-16fa3a4180f7",
+        "response_file": "runs/final-selection-20261018/results/M14-N2/attempt-001/response.json",
+        "response_sha256": "f5eecddf78ddc1f3b0555be57b3c55bef777e41fa739fe187c52039c964245e7",
+        "prompt_sha256": "6530e25997cf5315a6a68173aefe8821e00433d624465bf1bd6abb678d850e3d",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "8e5db3038b54b318a3aacf811c87c8b0fb01ab00d580abe1ef4e01e236514e36",
+        "capture_evidence_events": [
+          "event-91280a22057a4f3da9fb02163075ff8f",
+          "event-fd45fe38bd8f44baa1d0268031820f63",
+          "event-9bf7d4dfc9044b3a81a9d007bfe197b2"
+        ]
+      }
+    },
+    {
+      "job_id": "M14-N3",
+      "manuscript_id": "M14",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M14-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "e50f3efc028c8beb2943fddf647f205665911b75140f3e92fc182ec323e88978",
+        "event_id": "event-0a8603e440984600a3042be5c93ea4ab",
+        "lineage_event_id": "event-9ae3598a98e9476e8c734606d44be2bb",
+        "lineage_entry_id": "final-selection-20261018:M14-N3:evaluation-v1",
+        "session_id": "01a15250-0c8e-76c3-9ea6-e506a204b2cc",
+        "response_file": "runs/final-selection-20261018/results/M14-N3/attempt-001/response.json",
+        "response_sha256": "304919c229b1cf0ffcfc7b6bba8ad3716d0f10f2b98bae0099d2f08ec2892cd9",
+        "prompt_sha256": "7f4c62524ce59e1bbfba1086f0023ce3c1e84204ca98bc5a97be12aab032b0a3",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "e41f35a0a58ab60fb433628f7b3b0d7285859cee4880914bb41aebab8bcb2a61",
+        "capture_evidence_events": [
+          "event-c9d2a2123e4a4b1a883046cef87b0fb4",
+          "event-bb37a6e59881477f84b9c9f76f6f051a",
+          "event-521b79ab073244b6862d5a608c84fce1"
+        ]
+      }
+    },
+    {
+      "job_id": "M14-J1",
+      "manuscript_id": "M14",
+      "role": "J1",
+      "profile_id": "bernhard_salow",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M14-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "072cd3508123a5fb581602de5e83dd8dfc51604d0e0d563fdfc09d8b65fad73b",
+        "event_id": "event-2091ee8a07034fb498066f39d411372b",
+        "lineage_event_id": "event-77934e9f0c204bd290582f0735a97584",
+        "lineage_entry_id": "final-selection-20261018:M14-J1:evaluation-v1",
+        "session_id": "01a15252-4c35-73f0-a80a-4b232922e0f6",
+        "response_file": "runs/final-selection-20261018/results/M14-J1/attempt-001/response.json",
+        "response_sha256": "81bb0930ae41872e5fb93ff1f5ffeeae0542defcd63e09f434ed17c5872dee15",
+        "prompt_sha256": "f104c1033a651b52ac46ef4ef175276e6d597aa7155f5d311d9b9993e8fd5a27",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "af87304852bc013ba12662fa497d1a0dd07d19542e7c3f31911958c52aea0444",
+        "capture_evidence_events": [
+          "event-300b7ed1d99a476fb2709d1aee16106d",
+          "event-3c8f5d15e2da452ea0b26ac48e0dd9e2",
+          "event-700a09ef3cc54b8688c0b53421b650c5"
+        ]
+      }
+    },
+    {
+      "job_id": "M14-J2",
+      "manuscript_id": "M14",
+      "role": "J2",
+      "profile_id": "rachel_sterken",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M14-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "acee21d5af61d0c19d0e8b8d33239fe1f666c2bd24703e9ea3c3cbb7ce8ab984",
+        "event_id": "event-6957d55cd9014f56a5a338330b444ccc",
+        "lineage_event_id": "event-e3d952aa183e472aa5ddd15219ec0613",
+        "lineage_entry_id": "final-selection-20261018:M14-J2:evaluation-v1",
+        "session_id": "01a15254-a3d8-77a3-ab49-a9c4b94b032a",
+        "response_file": "runs/final-selection-20261018/results/M14-J2/attempt-001/response.json",
+        "response_sha256": "75ee361239f6acad0c7908a3beae782b5a64bc3213c9faab5577f282a02c57ca",
+        "prompt_sha256": "1fc4646c8df6fe4689b209924f3c87c1061e3150cca01344cfc3ad4773661522",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "693e0f782c388edbfc7b8daf9a4aa1ba51d10eb2925aaf976077b0836042fdfd",
+        "capture_evidence_events": [
+          "event-a3357f2f78f0466d82cc96e9762d6145",
+          "event-c617d3452ad24ef984bf37e6a984156d",
+          "event-331ce168314e4599b8a26006b8ea6d77"
+        ]
+      }
+    },
+    {
+      "job_id": "M15-N1",
+      "manuscript_id": "M15",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M15-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "595171bdb15d4a1721525b2c5c578cb8046fdd08c63b53a1e6bbd190a6dafa95",
+        "event_id": "event-9bd3eeb850e64662af4fd4a0d0b576ac",
+        "lineage_event_id": "event-93d3cb74763042149f1890f379e05f96",
+        "lineage_entry_id": "final-selection-20261018:M15-N1:evaluation-v1",
+        "session_id": "01a15256-ba2c-7410-9557-c19a22103848",
+        "response_file": "runs/final-selection-20261018/results/M15-N1/attempt-001/response.json",
+        "response_sha256": "a24d5ff028bdbba3e95d6bf73b79151778487bb617aa257efbfa60569dd13d26",
+        "prompt_sha256": "a7b3034dc01ee201df73f0f9e7a9b52c2ab82458158eb4e784887b63dd5f3a4d",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "8b3efd34fab63178a794a3f24a54b6efdf667a8bad02e3f19eefe9f54df28027",
+        "capture_evidence_events": [
+          "event-31b1ae74fb8345388df836dc0471de17",
+          "event-71763baee10d4347962af07429542b3d",
+          "event-d2bf564ec37c4717926ba12dd0402083"
+        ]
+      }
+    },
+    {
+      "job_id": "M15-N2",
+      "manuscript_id": "M15",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M15-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "d128b8e5cfa95b98e122ff28a0938288263d89fafc56d03ae2ac38114e616429",
+        "event_id": "event-8055e3f85c014dc18e32f8e6c8140b86",
+        "lineage_event_id": "event-cd80dc0be81f45aabbc954e3a3b485f3",
+        "lineage_entry_id": "final-selection-20261018:M15-N2:evaluation-v1",
+        "session_id": "01a15258-b475-7b33-8586-8a570797f11d",
+        "response_file": "runs/final-selection-20261018/results/M15-N2/attempt-001/response.json",
+        "response_sha256": "78b24b966b22268a366586d9cb8b828ac8927d5fc73f2b3aaad229a0a10fdb43",
+        "prompt_sha256": "62ff48e36b2b4c1dcf1ded8924ee0684f688701ca55056936f0feb7be9514175",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "7ddb38fd3a430a97c90fb118365a46c5a9e14871cfef85c427865aab5b69f3bc",
+        "capture_evidence_events": [
+          "event-1808ce856f184b11924ef857448f26d3",
+          "event-130620779f5141429bc8813065d9b98b",
+          "event-f1666f76e91147b68165ab6f15bc919c"
+        ]
+      }
+    },
+    {
+      "job_id": "M15-N3",
+      "manuscript_id": "M15",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M15-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "92e537a876d33cc4d2863898a93fdf19e9ba6b821689a2963112768e03c5a210",
+        "event_id": "event-983f086e784d4cf3a420f2763ed92939",
+        "lineage_event_id": "event-9ae4440c58824d598767ed00a1b01c18",
+        "lineage_entry_id": "final-selection-20261018:M15-N3:evaluation-v1",
+        "session_id": "01a1525a-a1b9-7131-a4ee-a0c4f2f19f7a",
+        "response_file": "runs/final-selection-20261018/results/M15-N3/attempt-001/response.json",
+        "response_sha256": "af9a719245c8a4ce4140d26351ba419bdc7e95cc3f15bfb0ac924249ea11104c",
+        "prompt_sha256": "22a2dd2a783f1b68a34bc416788a37ec131b45ceb43c0e480ec5439bebd5ff68",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "4d12376fef41bd2a088a32daf549d2bdd79837523fdb5d644137815a7c335384",
+        "capture_evidence_events": [
+          "event-17140500e01341f18070ff0efb2ba8f9",
+          "event-3ee5ea732a4f49128a8903b6748b985d",
+          "event-ea38bd390fce418fa6f636ad7ba8487d"
+        ]
+      }
+    },
+    {
+      "job_id": "M15-J1",
+      "manuscript_id": "M15",
+      "role": "J1",
+      "profile_id": "mario_gunther",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M15-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "187f74345571782fb67f262198c99242a7d33d136df7060f9d235e8086792e19",
+        "event_id": "event-80e5941832c140ad9abf11a41bfd1313",
+        "lineage_event_id": "event-ef42c0fc3dc541b8add273dec8e47ee2",
+        "lineage_entry_id": "final-selection-20261018:M15-J1:evaluation-v1",
+        "session_id": "01a1525c-d165-7e53-9afd-ae8d8843297c",
+        "response_file": "runs/final-selection-20261018/results/M15-J1/attempt-001/response.json",
+        "response_sha256": "1a4686919aa93c889c8d33a259d45e03f35c5b5fca2a8135a2fdafc61c94255a",
+        "prompt_sha256": "087e9f4fa93db91db4cd46f0efb8e5907b095a9a528b1072b4070cbe39517924",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "b1bb8130dd0c16e6c716552d51d1d0ba166f65fcf64451c25841f258f9f17091",
+        "capture_evidence_events": [
+          "event-d462709fbb28485f87921f30b92fa2d1",
+          "event-a7d435fc0e12461bbe6768c0398a9de9",
+          "event-4f06d0d4a9024e7291e65dcae4a192e2"
+        ]
+      }
+    },
+    {
+      "job_id": "M15-J2",
+      "manuscript_id": "M15",
+      "role": "J2",
+      "profile_id": "christian_tarsney",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M15-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "eaf27ce0b91ea6d359e712754cd3adc863212c520aa690ac73f784322f69c0ef",
+        "event_id": "event-811916fbb58f4361b413408f5836b837",
+        "lineage_event_id": "event-2aa0ac02922a480a96832942634ce5e1",
+        "lineage_entry_id": "final-selection-20261018:M15-J2:evaluation-v1",
+        "session_id": "01a1525f-4e97-7020-9ce8-7e7a893bfdc7",
+        "response_file": "runs/final-selection-20261018/results/M15-J2/attempt-001/response.json",
+        "response_sha256": "f91dc1020a779bb0b505771f1bdbb1e401d9193dc3ef33242397db9e65a980bf",
+        "prompt_sha256": "231377340d7c4a3baf513a11e858ad342931dd895078803e4b28519764736a54",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "c4a14ce3b353778ec4fd7e9c3f1ec9d40e097aa7594e0c8e2cb4d48385ac9d19",
+        "capture_evidence_events": [
+          "event-9027e173b06b4cf7bcf8cd31ba5ac6f7",
+          "event-3dd1f67a353a478c918b38f58175af3c",
+          "event-9f23cb2f1f2d4af68c7269a886ee8980"
+        ]
+      }
+    },
+    {
+      "job_id": "M16-N1",
+      "manuscript_id": "M16",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M16-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "f336a9246c7f8d895605e6e61f951443494f3f26b1c37a82d9235f2349fcfccb",
+        "event_id": "event-802dadcfa58a4bd7b431cd6f404190dc",
+        "lineage_event_id": "event-34f5c992589945d184b4c9a75c7436c2",
+        "lineage_entry_id": "final-selection-20261018:M16-N1:evaluation-v1",
+        "session_id": "01a15261-80f1-79e0-9325-5fa523e6ee95",
+        "response_file": "runs/final-selection-20261018/results/M16-N1/attempt-001/response.json",
+        "response_sha256": "42548f244f073519cc85c4f5b4588c56cd7757a7df714a8fed42b734da5870d7",
+        "prompt_sha256": "44eed9c081c4a4c8d35c9d28ac99b63414ab41b3bde85d3a159dbacf940ea329",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "f3c4fe25971d055adf6276d268884aa714ffb8f111e5d08527fb6afd4b6ce9ca",
+        "capture_evidence_events": [
+          "event-50b4856e083b4a159170bc5d2b8db389",
+          "event-8f525b31af744085adc7a6ad4acad71a",
+          "event-391dc00fc7be466caaf740767cf41fd7"
+        ]
+      }
+    },
+    {
+      "job_id": "M16-N2",
+      "manuscript_id": "M16",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M16-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "97e5f199b3cc81144a000ff8d35e49f9c8d00c47b001cafbf3e98400f8096a96",
+        "event_id": "event-8541dbf7ed514f7aa00c15f909954952",
+        "lineage_event_id": "event-f25b1750fe1f4897a12ec3b182c7bcd3",
+        "lineage_entry_id": "final-selection-20261018:M16-N2:evaluation-v1",
+        "session_id": "01a15263-0f79-7973-a6d1-e6cac55bb00b",
+        "response_file": "runs/final-selection-20261018/results/M16-N2/attempt-001/response.json",
+        "response_sha256": "dba23fe07288bef07710e0b469d0f6cced764a5d44f9d50467a04b04c275b9ca",
+        "prompt_sha256": "0b4dbdaa5ee627c7ec070698f6fdcf1e827f6b09ce3069219aa5872552a76bec",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "3e02f2a76a3fa671c4d99e462dfd17680ea7d0a55a6dba67e8c8f1ced0d4baa2",
+        "capture_evidence_events": [
+          "event-e39da60e7cce48ffb5dc32bf5da2ef30",
+          "event-3760efe3460e493d8f8004325e68afef",
+          "event-1278931d8c4f4974a1b5f4a8cd0c2da3"
+        ]
+      }
+    },
+    {
+      "job_id": "M16-N3",
+      "manuscript_id": "M16",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M16-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "fee6d2a3294a2e9c4a158372421021cab85b8ce8e4cdaad76978b2e64c14372e",
+        "event_id": "event-7060c0ced202431684ed34a30647ad63",
+        "lineage_event_id": "event-9d1d8f9664ce4ddcad9316121f373304",
+        "lineage_entry_id": "final-selection-20261018:M16-N3:evaluation-v1",
+        "session_id": "01a15264-97df-7112-8555-f5ab3322d2af",
+        "response_file": "runs/final-selection-20261018/results/M16-N3/attempt-001/response.json",
+        "response_sha256": "1947efb675ddddcb397f6169a5ec860cf1950087f97240e3730997c7d550be09",
+        "prompt_sha256": "e03652f585bb360c0091dcbd9309b2855553b26daadce2abe9366681490127b6",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "4ed11e91dee60457e8f0a32673263d6dcba7a6b804ff28c47dc4cfd487524a60",
+        "capture_evidence_events": [
+          "event-ef070a86ffa948cdad3774803609866d",
+          "event-a9cabd102d3947258ef45985b9d107a9",
+          "event-44c865bdb79b4e38b3374244ad682644"
+        ]
+      }
+    },
+    {
+      "job_id": "M16-J1",
+      "manuscript_id": "M16",
+      "role": "J1",
+      "profile_id": "josh_dever",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M16-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "90633a7824bad367bdc1a921474de96595777b7b836424b0c2f31bccad341f9e",
+        "event_id": "event-4f1bdcb320f94d7e9dc1d62299ae8463",
+        "lineage_event_id": "event-3d3f99ff878940d58066a57bba287228",
+        "lineage_entry_id": "final-selection-20261018:M16-J1:evaluation-v1",
+        "session_id": "01a15265-f3ab-7081-831d-875352d473db",
+        "response_file": "runs/final-selection-20261018/results/M16-J1/attempt-001/response.json",
+        "response_sha256": "32974b33a999b93c6b6aff1becd1c598a4bee3fe3e77001840ba29f9a951247d",
+        "prompt_sha256": "626d1851d66d3896b0375a1a9d21ba27001ee7de9b1f5739f73ddc231b5bad50",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "5121e2348f942c33357bd035fff0f7f213a313a9a053709547c854ba4784487a",
+        "capture_evidence_events": [
+          "event-ef16e76dd711431f93c4ced6c7b85029",
+          "event-f4fc8421f1134e7da4c966994a0b75b3",
+          "event-78efb6f551d043a0b0efbb24253d52dc"
+        ]
+      }
+    },
+    {
+      "job_id": "M16-J2",
+      "manuscript_id": "M16",
+      "role": "J2",
+      "profile_id": "jonathan_weisberg",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M16-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "5379b7f337d305c8075a7e6d79d82acdfb1f5c4b6f3d5b569b3d092ff102bde9",
+        "event_id": "event-ae9b934e4bbc4608a596aff02e5f9969",
+        "lineage_event_id": "event-f7b6f80c446843baaaa895956fbc4d69",
+        "lineage_entry_id": "final-selection-20261018:M16-J2:evaluation-v1",
+        "session_id": "01a15267-b2f8-73d0-aa21-439e316245cd",
+        "response_file": "runs/final-selection-20261018/results/M16-J2/attempt-001/response.json",
+        "response_sha256": "20481e75c15028e3f8235686eff1e9df600f7692c08e792aef2c34d9eafdb05c",
+        "prompt_sha256": "6892d350b5306dd520b573b9e51e758063dd70f17225483b6ee9939132c218d2",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "ffc64c7aab44008b35b1e7e83f6b961b3c2bd38760d5ac6e3cb7ec59ede828d0",
+        "capture_evidence_events": [
+          "event-5499e76b62e04e588d6d9047520ffce2",
+          "event-e4f8474b820241459ce1839d8b1d1b4d",
+          "event-7c6fa9066f5e4653a222b90a5bf20ac5"
+        ]
+      }
+    },
+    {
+      "job_id": "M17-N1",
+      "manuscript_id": "M17",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M17-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "d7c19b781eb0715d7077a5cad37c9b7b06cb469bb518b60f91af7a62d0f7c1a9",
+        "event_id": "event-98915c5500e34ab687b1df637f36482f",
+        "lineage_event_id": "event-65bbee825c8d411aa9f3ea4c9cc606ef",
+        "lineage_entry_id": "final-selection-20261018:M17-N1:evaluation-v1",
+        "session_id": "01a15269-8277-7bc3-aba1-11b2e97b6d42",
+        "response_file": "runs/final-selection-20261018/results/M17-N1/attempt-001/response.json",
+        "response_sha256": "2efa5234f759f5720f9e45f9ef076dd677fe4c6680680f1eaa3f1e9edc50c120",
+        "prompt_sha256": "cd9026942bdcfd21d959fbd33adf06eef809e5170722cf95f8996ce66ea04a40",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "f637634df80ccd9b8f2a209b9d0e523fb63b01931b21b5780077a205846a2a78",
+        "capture_evidence_events": [
+          "event-a72df16860954e7da7678ca820171763",
+          "event-fb3bedc380d744adbdd2bdb1ee5f7ee7",
+          "event-55af216f81504ad4974dccc08fb92a97"
+        ]
+      }
+    },
+    {
+      "job_id": "M17-N2",
+      "manuscript_id": "M17",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M17-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "57ce78fbae6621199bf040c83cba87c8fe93900710cb54c067c10599486a5934",
+        "event_id": "event-f3ec199babfd475f8a8fb3350e0a848f",
+        "lineage_event_id": "event-85f108fc2a0a4068a504c64a22695225",
+        "lineage_entry_id": "final-selection-20261018:M17-N2:evaluation-v1",
+        "session_id": "01a1526a-e6e4-7d00-90b5-fd36d74a4f62",
+        "response_file": "runs/final-selection-20261018/results/M17-N2/attempt-001/response.json",
+        "response_sha256": "57c60a2e8befd2c9a8c303ea99eacaa50916b3d784721dd63710d9137f0e8ea6",
+        "prompt_sha256": "3cfc45e7d8cce01d1e29937df2997124a77294aa15d6c0dc85331e1bd6ca77f1",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "f0b9d990194a1ae86cdc2107622f91c2283e8172f8d54eb82957fdde71f87168",
+        "capture_evidence_events": [
+          "event-b5e3c3c4caeb49f89e26f65b0b6e0aa6",
+          "event-42260fdb4c444128bdc7b91413410f25",
+          "event-7d5abdf038f94a69a3172954f4d420fc"
+        ]
+      }
+    },
+    {
+      "job_id": "M17-N3",
+      "manuscript_id": "M17",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M17-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "48fb59cddbe2a8cf2298ace2da15000a09f13d01e0875df8ae3746e3d44ffb7d",
+        "event_id": "event-22cce97aa9d846179f4ef7f230ef6545",
+        "lineage_event_id": "event-2270ceafd51049a8881f7b1414b5a2ed",
+        "lineage_entry_id": "final-selection-20261018:M17-N3:evaluation-v1",
+        "session_id": "01a1526c-b0a9-7ea0-a6bc-5e51bbb4de1f",
+        "response_file": "runs/final-selection-20261018/results/M17-N3/attempt-001/response.json",
+        "response_sha256": "afc952bf484419574072664da937c62b5d2f91d73e8fe9935d99418d6b8220b6",
+        "prompt_sha256": "fc0585d42047e058af5a808121a04eb0bbf07a51d2bbc90dcab4a5f6b6f3f327",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "eee814ff448d7cf595b132213c2ce37ff0e8344f7d2c284a288fbf080a675ef7",
+        "capture_evidence_events": [
+          "event-e11d1b8a4ac84ef78d6dce2da3d66788",
+          "event-310bab22dd434f03a55718243978c3f6",
+          "event-b8df6426a4d2480daa02ca97a877e4ec"
+        ]
+      }
+    },
+    {
+      "job_id": "M17-J1",
+      "manuscript_id": "M17",
+      "role": "J1",
+      "profile_id": "henry_shevlin",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M17-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "635d44e881223b93e20465d914baa15eca59fa63a1f9dca204b613b33e100766",
+        "event_id": "event-acd9036d730440fe82dff751ca470c2b",
+        "lineage_event_id": "event-7e8218252bc145cd9ba382efdd07e391",
+        "lineage_entry_id": "final-selection-20261018:M17-J1:evaluation-v1",
+        "session_id": "01a1526e-28c2-7440-95c4-6f2846a0d728",
+        "response_file": "runs/final-selection-20261018/results/M17-J1/attempt-001/response.json",
+        "response_sha256": "7adbe199db07819ffd6fd8279fa8e2033f57ba557aa5d4a40447439615093092",
+        "prompt_sha256": "3b5268e896f9629c1a07d00795b02a1cd6a984018e09b543c4c403220d534ce4",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "d708137dbd1bed7e4fed8588e5c50aa44ab225b3514439560f6da79498c50b91",
+        "capture_evidence_events": [
+          "event-c1632535c523416481c44af1cd5ea234",
+          "event-47bb2ca4b8cd4ef7a2c46593a7ca34a1",
+          "event-c22f192b98e14af9bba3b43cf346e0c2"
+        ]
+      }
+    },
+    {
+      "job_id": "M17-J2",
+      "manuscript_id": "M17",
+      "role": "J2",
+      "profile_id": "simon_goldstein",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M17-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "6803f42b48d87d562bce9049efed58a18b6bbcdd5c77a20a585b37e5e970766e",
+        "event_id": "event-b6359f4dc1ae4fc79c6b92a7784b73cd",
+        "lineage_event_id": "event-f75d7c00615b4719b94b6a1f883dcba5",
+        "lineage_entry_id": "final-selection-20261018:M17-J2:evaluation-v1",
+        "session_id": "01a1526f-903d-70c3-a55c-011fe9f4b5a1",
+        "response_file": "runs/final-selection-20261018/results/M17-J2/attempt-001/response.json",
+        "response_sha256": "9074a1d8cfcae8141c312f02e18b9108019d93dbac2ece0bf5ae7dd6793cbc2f",
+        "prompt_sha256": "f96684233c16b0efd54a0d3b63117b6f09f347bb4197328d0307a0aa3384967e",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "5253da361383fe6b71727a2ade0c7f0d726276e84e2753f9fead7ee03c873a96",
+        "capture_evidence_events": [
+          "event-890e3cb241a54e08afa82d6acb893963",
+          "event-6a9046e44d96478595fa3a2606d929fd",
+          "event-e55c1d6e42ac4c0ead05c3cb2635b526"
+        ]
+      }
+    },
+    {
+      "job_id": "M18-N1",
+      "manuscript_id": "M18",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M18-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "46330f2f768df2194d143f358f8186966c1e0c7a1b216d289a3f849ff93c017e",
+        "event_id": "event-66f797ff45e14c81b99c1a1cbaf77c1e",
+        "lineage_event_id": "event-c8a784b2621e43ff964bdee59d8fd0ec",
+        "lineage_entry_id": "final-selection-20261018:M18-N1:evaluation-v1",
+        "session_id": "01a15271-d9d7-75c1-9641-e5f1e8940b28",
+        "response_file": "runs/final-selection-20261018/results/M18-N1/attempt-001/response.json",
+        "response_sha256": "76bf8e0d084c6ae5b347194af24b1c4a88a6c23ca4b67a63c416b1543d7c8695",
+        "prompt_sha256": "52e4e17445f8dbbc0bec881ec56e93809fa7f2683421454fca6efe98a35e0f47",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "0746cfe93f861792b2483db4ab083486b7297ac7e57daa648056e2bfaa40ad2e",
+        "capture_evidence_events": [
+          "event-cd91c4921e254512be69efc28d9e81aa",
+          "event-c8d4315d647b49bb90ba2440d9ccc9e4",
+          "event-61907c80dd1c4d2eb6fe0a3facb0e193"
+        ]
+      }
+    },
+    {
+      "job_id": "M18-N2",
+      "manuscript_id": "M18",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M18-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "318d119d9f24f071a73da9a5671403293fcccc0a5e867044ea44fd5bb93c2725",
+        "event_id": "event-fcffe205e98f403db48b8ab2acdaa3bc",
+        "lineage_event_id": "event-e220f3e588bf4f4c9dc4a87925512277",
+        "lineage_entry_id": "final-selection-20261018:M18-N2:evaluation-v1",
+        "session_id": "01a15273-3d7e-7073-acd2-ff20d4d7e285",
+        "response_file": "runs/final-selection-20261018/results/M18-N2/attempt-001/response.json",
+        "response_sha256": "726037ac7e6bc08ac66ddf747a582a379e4545a587afcfa9f3f8fecc22307dbc",
+        "prompt_sha256": "075e6b9976ac952535f166cbb40e9a6552ab26bf251234da6cc2ab418794754b",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "ad5ff4dfad5c40ece59a24ff47d8e13b6428afc9c106fec75679e83ff4ab3860",
+        "capture_evidence_events": [
+          "event-5f9337d426ed40a387927d8a370564a1",
+          "event-42998884c28a4c55a800000c7ba6fe0a",
+          "event-1fea0e5f897c42c6bd69cf6667d2a313"
+        ]
+      }
+    },
+    {
+      "job_id": "M18-N3",
+      "manuscript_id": "M18",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M18-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "90cb128abd52ed9bb0cfb7992c9f1a6d1d86b75ac29c9d99bb8ab4eab1b1dee7",
+        "event_id": "event-59844ff6647c4009b96af9664267a8ed",
+        "lineage_event_id": "event-9ad0f20b774f4133b99924abb02d0b0b",
+        "lineage_entry_id": "final-selection-20261018:M18-N3:evaluation-v1",
+        "session_id": "01a15274-c427-7712-b873-57a05e0701cf",
+        "response_file": "runs/final-selection-20261018/results/M18-N3/attempt-001/response.json",
+        "response_sha256": "00505eb166527bfc28deb5bd56a344ac4b9b4b2ad08f787ce966f850a34be027",
+        "prompt_sha256": "e9a9b9867ce19076e22e7d3ecc4e31cb46dc35c4e3d3b6adc2bb9f15398dd04e",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "da57e2b1243283e24af66631c0c8606dacc396ef6684a4e34eb9d65f7f88d729",
+        "capture_evidence_events": [
+          "event-b361fe2668f546639564cec3e6f61310",
+          "event-d345ea586ce94dc2a0397beead1c5985",
+          "event-7efd22d4770b4947b9b3ee95ebad0ae4"
+        ]
+      }
+    },
+    {
+      "job_id": "M18-J1",
+      "manuscript_id": "M18",
+      "role": "J1",
+      "profile_id": "herman_cappelen",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M18-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "f9457549d8fffca11e27300918efa9c2af34386672678e5d8159b6e746f39114",
+        "event_id": "event-9ee81c4ec0ac4d259da9fd04baec5ad0",
+        "lineage_event_id": "event-13e47193467146cc9a9cbb2f061ed801",
+        "lineage_entry_id": "final-selection-20261018:M18-J1:evaluation-v1",
+        "session_id": "01a15276-327d-7f33-91f8-16ed18e0cfd4",
+        "response_file": "runs/final-selection-20261018/results/M18-J1/attempt-001/response.json",
+        "response_sha256": "3601166210258c3427fed856670981db47ed4c0a9f97967bdd0e47b1bf104ecf",
+        "prompt_sha256": "28ba70133bb95573ab780ac09bd7eb17b4e2374ba560d56646863e320bbcb4bc",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "1394a3a4a516f7c4ffd268661f70eca68391b258a0b722afa29a67b7a78bbfaf",
+        "capture_evidence_events": [
+          "event-ed569531c1ef4a7db7a5b51ab66538e1",
+          "event-77125d46403e4d509cf2e8eef44576f5",
+          "event-abd6a3a2cbfd4287a383f5c3f330bd6c"
+        ]
+      }
+    },
+    {
+      "job_id": "M18-J2",
+      "manuscript_id": "M18",
+      "role": "J2",
+      "profile_id": "david_chalmers",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M18-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "ecf7184ee840c07e4bffbf38c779606f4edaa8b7324ced5e72dd8efc66728772",
+        "event_id": "event-df167428b2654b0ead7f25b96be8da51",
+        "lineage_event_id": "event-3d907dfe19714e598ecb2b597f493dcd",
+        "lineage_entry_id": "final-selection-20261018:M18-J2:evaluation-v1",
+        "session_id": "01a15277-ce49-7de2-a204-18853996a1ab",
+        "response_file": "runs/final-selection-20261018/results/M18-J2/attempt-001/response.json",
+        "response_sha256": "3011e89a32ad5471934ba4550d297ab58e5a3fd6a0d0261c139f2af06111da20",
+        "prompt_sha256": "2dac0ec3b8f5cc5894f0ed1d28716d879d45a61176ee01cb63cc49a98d48905b",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "d7c9f94ca810b993db05fd4f2e9e7fe17b7cc13c529d38cb369c148b8357d0f0",
+        "capture_evidence_events": [
+          "event-79b0bb20864f41eba870821a4522192d",
+          "event-9edc05c8491f446bb01fe14695a9c42e",
+          "event-74856aa6498f4719b9057943db8e7a66"
+        ]
+      }
+    },
+    {
+      "job_id": "M19-N1",
+      "manuscript_id": "M19",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M19-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "1096b99669967d50c225a629aa7f9f48941fa1d2d169c79523eecc4613717472",
+        "event_id": "event-1732f515e4974ba5bf157919c29d858c",
+        "lineage_event_id": "event-23646d130e464000a63626a9f8d03733",
+        "lineage_entry_id": "final-selection-20261018:M19-N1:evaluation-v1",
+        "session_id": "01a1527a-9938-7d63-b0d6-2ed31ffaf2fa",
+        "response_file": "runs/final-selection-20261018/results/M19-N1/attempt-001/response.json",
+        "response_sha256": "6cf25c90de2af3eca010e8431ff78bd677d2966bc4333c8e8c300014ee17585f",
+        "prompt_sha256": "7c88841fc99a87454d029d1299862d59e5d07365e63b667ccbf525b04d27765e",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "9bed55e3442afb6e276ca2d9bb8b1ec1672bb2638453deb41bb79654a9b7e8e9",
+        "capture_evidence_events": [
+          "event-99f3c24d175b448a8fdba929c16c67ac",
+          "event-ad1f426b9eec478e97c472f0d554c047",
+          "event-d8f764e597334be297da6c0ed5afdae4"
+        ]
+      }
+    },
+    {
+      "job_id": "M19-N2",
+      "manuscript_id": "M19",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M19-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "d1b78bc03fb3f21466d0eb9aafd104611614e9fc886aff01644a347223e35829",
+        "event_id": "event-12fd8eec52484694a3170ed713382b18",
+        "lineage_event_id": "event-e759827bd7014b17b5635e56b0cc7c8e",
+        "lineage_entry_id": "final-selection-20261018:M19-N2:evaluation-v1",
+        "session_id": "01a1527c-14bc-7c11-be07-71960a5683d8",
+        "response_file": "runs/final-selection-20261018/results/M19-N2/attempt-001/response.json",
+        "response_sha256": "90b72d2b0f1c636c9f25249f28ee15e4d70593c6b25c418d94f7724a8daf0922",
+        "prompt_sha256": "623db1baba229b1910f36bb09b56b26086d9ba9a943548d567b4a7c4e2bba608",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "e15e84838fffdec0fc25fc662746160e375ffea54371d5f8a8620089eded610c",
+        "capture_evidence_events": [
+          "event-55109af741a14931a0e0e58413b79284",
+          "event-a96f61f619554a76805539f4181fa6c5",
+          "event-a57d7462aae147f5a51a38464516e2aa"
+        ]
+      }
+    },
+    {
+      "job_id": "M19-N3",
+      "manuscript_id": "M19",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M19-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "262927bf7235cbc3e61debd7117b2be5cf386554546f2947160076eff6d9a863",
+        "event_id": "event-05e27d4abe854c51914b881573332ecb",
+        "lineage_event_id": "event-d4445d97d374424988717f94af999273",
+        "lineage_entry_id": "final-selection-20261018:M19-N3:evaluation-v1",
+        "session_id": "01a1527d-e10c-7501-81ec-632fc96c84eb",
+        "response_file": "runs/final-selection-20261018/results/M19-N3/attempt-001/response.json",
+        "response_sha256": "1ba50ee2eafbe46251ecaee1a0c163f97e43a93b2a03c75097e553656bf12394",
+        "prompt_sha256": "8567b44f686308f8c82fb34b7d363f20587c286998d29e2fb3f5ebd68c4a9c40",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "369ec6ccedb81ca394a8a707d08571637b9044012cffb91667a50b63c099827d",
+        "capture_evidence_events": [
+          "event-9bbc130bc87a4f05985dd04e37bde84c",
+          "event-9f6dec8d4ae04e0eacefb6679cae13c5",
+          "event-d390ce5a29274cdaaa3b5feb23d490c2"
+        ]
+      }
+    },
+    {
+      "job_id": "M19-J1",
+      "manuscript_id": "M19",
+      "role": "J1",
+      "profile_id": "raphael_milliere",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M19-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "ecfc89aa609b1806994b939a9d9be00ce22d7d9336654b1215dab51fbf4d47a7",
+        "event_id": "event-4554e584840142ec8322c3556150000c",
+        "lineage_event_id": "event-9f4dcb159c824d7fb312be0254efbac3",
+        "lineage_entry_id": "final-selection-20261018:M19-J1:evaluation-v1",
+        "session_id": "01a1527f-97ff-7e83-a005-b996eaf9ff17",
+        "response_file": "runs/final-selection-20261018/results/M19-J1/attempt-001/response.json",
+        "response_sha256": "bb32c63ddd3f6401d8728df2f4c643d259c61cb38392d2f62a809b9f3b3f5032",
+        "prompt_sha256": "00cbe89fbeb8efe6674e973917a841ce2b0b091cb53a57595addc6580f46bcc8",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "c2b126e0c024d2ce7cdeb0ff69497e4cd933b1534743f7a10c7e0c0888ffdf20",
+        "capture_evidence_events": [
+          "event-85b2a39bd79042c6b4a5c42582dbd83d",
+          "event-c32be6d4513a4265ad69440eb1268d0b",
+          "event-2a3aa5a4bb44472fad7eefe70416c68c"
+        ]
+      }
+    },
+    {
+      "job_id": "M19-J2",
+      "manuscript_id": "M19",
+      "role": "J2",
+      "profile_id": "matthew_mandelkern",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M19-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "382edbbfc1341414216efd5d0e03022081e73dfa7ecb193be552935f7d1d65c5",
+        "event_id": "event-e9d4172ea4294c028d5e267382151874",
+        "lineage_event_id": "event-75b36c9c786e464b90993d504c8f471d",
+        "lineage_entry_id": "final-selection-20261018:M19-J2:evaluation-v1",
+        "session_id": "01a15281-5504-7ef3-b9a4-cfcd6e2eea39",
+        "response_file": "runs/final-selection-20261018/results/M19-J2/attempt-001/response.json",
+        "response_sha256": "6591c98d333466e58bf1fd9c841a6242ab007591100845d7d14fb777e74750d6",
+        "prompt_sha256": "3f34be4cfa7f5048f552d56f4017cfb198a7b718758f7b8833a3a3b99da7b1fa",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "d2656dd9a3caebaf6d5488139772c39578de40cc48957e90ed3baefe868c661e",
+        "capture_evidence_events": [
+          "event-3d90146d46a74f299e3f6185d3e7237c",
+          "event-bde071757bb744fc8be33c9213e86c21",
+          "event-538f2ca6dfb942da9dafa22ba6f57a12"
+        ]
+      }
+    },
+    {
+      "job_id": "M20-N1",
+      "manuscript_id": "M20",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M20-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "83946243391c724339954950b95914550517e73875b4f35fc23d29514128f28f",
+        "event_id": "event-27084333e90b40d1b6c906838d3f7291",
+        "lineage_event_id": "event-7493f3449f85486dbe730a513f98f1fc",
+        "lineage_entry_id": "final-selection-20261018:M20-N1:evaluation-v1",
+        "session_id": "01a15283-1ea0-7761-b8c6-caf5e956c524",
+        "response_file": "runs/final-selection-20261018/results/M20-N1/attempt-001/response.json",
+        "response_sha256": "98b9dc99cbe33e75393bb0f68bf4794c2e64884a093519645e54fe78b291a6a7",
+        "prompt_sha256": "bfc2af5c1c90a7eb7a5c4ca34a92a19062d0aa28a5c5c0ff5a062ecd3098c0fd",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "70ae2d2df7c0fa8272f00abb560bd1cdc337b2857b535b50738abc78a7e54bf5",
+        "capture_evidence_events": [
+          "event-9b92b735b365435aad2d685ac78b788b",
+          "event-4d7a65ecc269415da1f1814f3c045ea9",
+          "event-67a3601ba17c4bed9ff5b46484a5e00f"
+        ]
+      }
+    },
+    {
+      "job_id": "M20-N2",
+      "manuscript_id": "M20",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M20-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "83d5f4acb491d947bf6c12d3bd3abd9f68ecbfce921ef695e8befdd85d8b5eff",
+        "event_id": "event-991267c8e15849f7bfd04de275102e9f",
+        "lineage_event_id": "event-4f35640faf624e0aa8e93625471e5a62",
+        "lineage_entry_id": "final-selection-20261018:M20-N2:evaluation-v1",
+        "session_id": "01a15284-c55b-7932-a707-3c5f296e7307",
+        "response_file": "runs/final-selection-20261018/results/M20-N2/attempt-001/response.json",
+        "response_sha256": "e8ed98d882a680d02597a1869832f30969ce7c72af2112e860d48d5dc87abdc1",
+        "prompt_sha256": "99ff1bdcccdca3d0e570a95bd53e661523b3999fbee3c47cf34c4c5b2ef023db",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "cdf19b862c44032c263469a1af43785929e59f8f3f696163855ae56da398a99b",
+        "capture_evidence_events": [
+          "event-4fbd4206e07f4b95bebf3128679b7ed0",
+          "event-a2adb9e2504c4e15bbda2f3de7781c15",
+          "event-2722cccaab6547838cb26557f597a6ef"
+        ]
+      }
+    },
+    {
+      "job_id": "M20-N3",
+      "manuscript_id": "M20",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M20-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "3ef18edeb0fdfb0a3e5093781bb54eb18af387e6b8029399c2cf2b6327b2a0bb",
+        "event_id": "event-386c31d37dd34157aadc296272b01cb4",
+        "lineage_event_id": "event-95ddcded62ee4538896ea04bee82b591",
+        "lineage_entry_id": "final-selection-20261018:M20-N3:evaluation-v1",
+        "session_id": "01a15286-2289-7dc0-ba5c-09083abf7821",
+        "response_file": "runs/final-selection-20261018/results/M20-N3/attempt-001/response.json",
+        "response_sha256": "dce6bd2373c1818b7eb4a48d913b375a343491dc6f007b50e441576c8f7bab32",
+        "prompt_sha256": "99d43d0a8d6951b12434422623af54c1b3f70c46763ca82e437521a208a07cf4",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "f82096398ad1308f4d6c5de0b3359c434bdf162ff013ae62b434e52407290115",
+        "capture_evidence_events": [
+          "event-455466171fff484caf09f4de82b09978",
+          "event-07e41a02be854ef2a6d78e71219b4118",
+          "event-84032f127b5243b7a1a4088c992463a4"
+        ]
+      }
+    },
+    {
+      "job_id": "M20-J1",
+      "manuscript_id": "M20",
+      "role": "J1",
+      "profile_id": "daniel_greco",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M20-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "6a7fabd425f6cec416faec60411bb8ddae27514c86687bcc980253b2b16c196f",
+        "event_id": "event-92e96983863d42da822b5850c74fe8e5",
+        "lineage_event_id": "event-b218d12b92794bc99c55fa68c2d8eea4",
+        "lineage_entry_id": "final-selection-20261018:M20-J1:evaluation-v1",
+        "session_id": "01a15287-a8d2-75e2-93a6-902b110f0d45",
+        "response_file": "runs/final-selection-20261018/results/M20-J1/attempt-001/response.json",
+        "response_sha256": "6001386ff8691c0c3ad04c0cbf92f60b9443c1717b15f516c12263b444eb9b25",
+        "prompt_sha256": "53270b89fcd0d80372334e2ec8c67574aff105d97eee2f915ce4aa6ca13d152a",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "fa0c3f15de8c4bf740d5365aa660602eb4ef3c4e0d5c90e2b972d7f37ff42805",
+        "capture_evidence_events": [
+          "event-10aa50bea4c04b7eb9925b41724e7c4d",
+          "event-9231f11d45824749a75efab42ab3c113",
+          "event-3ddd2af320d74d7687821b9788fac72b"
+        ]
+      }
+    },
+    {
+      "job_id": "M20-J2",
+      "manuscript_id": "M20",
+      "role": "J2",
+      "profile_id": "karina_vold",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M20-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "5faa8522b53be64d14d8a129c2bf02771c33746c3348ed3f63da78674630bdde",
+        "event_id": "event-f8b7d83f480943898f43c7f25081426a",
+        "lineage_event_id": "event-428b5be9d9fc4acda75c786973556554",
+        "lineage_entry_id": "final-selection-20261018:M20-J2:evaluation-v1",
+        "session_id": "01a15289-1783-7d02-99db-3f40a01ef010",
+        "response_file": "runs/final-selection-20261018/results/M20-J2/attempt-001/response.json",
+        "response_sha256": "9277795c6e3310723cc52650fcd62b27cb4d4c080a22f0dc40f123c8e4366e50",
+        "prompt_sha256": "1854b80f8c899ead7558ffc5494b120334f6570cd4310b3011b804d9b48852e0",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "af8448f6b4f79b4ba18c70584e2495132c6b0b687d5e204ed74bf34d5a075034",
+        "capture_evidence_events": [
+          "event-0ce0a368223d45639242fa1daa0c460c",
+          "event-bb9294c47d91437ca0dbec1dad005a0d",
+          "event-055474ffd3664d7999393cb92d85e2f1"
+        ]
+      }
+    },
+    {
+      "job_id": "M21-N1",
+      "manuscript_id": "M21",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M21-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "5ec4d4b0c7e6dc764bc5f8e4584f9db80f0ba88ed7a9f989c8972592dab3fd29",
+        "event_id": "event-5ac8c40d824f4aa59e78f276208b870e",
+        "lineage_event_id": "event-3d34a988b0fc41e99c5501290d3c8b5e",
+        "lineage_entry_id": "final-selection-20261018:M21-N1:evaluation-v1",
+        "session_id": "01a1528b-1752-71f0-ba1f-8add5d947c99",
+        "response_file": "runs/final-selection-20261018/results/M21-N1/attempt-001/response.json",
+        "response_sha256": "a39cd139a22278b356c28188dc30000f5cde2ceefc7bda01bd2d7597c716b717",
+        "prompt_sha256": "6ab38492c8dfea498a024faf2d2328bd522eb5f5df454ee9b22155a24ed4b501",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "8c4da307713f7093bf21101e3c544a7d72a211558d8adcd703173d56982e042d",
+        "capture_evidence_events": [
+          "event-162a0d05e5284f34abd9bf73d13204eb",
+          "event-7740e95bd1514423846bfab504da48cb",
+          "event-7b2d0b94d8d149a0bcede81d4f585300"
+        ]
+      }
+    },
+    {
+      "job_id": "M21-N2",
+      "manuscript_id": "M21",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M21-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "4261311879741c1a76417f683e7d08f19f25ace3b01eb971a7d3cc229afdd5d6",
+        "event_id": "event-16549e210d974bb5b9a7c29d664a9302",
+        "lineage_event_id": "event-0647d99d765d46fbb7c65b792947886a",
+        "lineage_entry_id": "final-selection-20261018:M21-N2:evaluation-v1",
+        "session_id": "01a1528c-c247-7f90-96eb-b77fab4689e6",
+        "response_file": "runs/final-selection-20261018/results/M21-N2/attempt-001/response.json",
+        "response_sha256": "881ab1340aca75e0e4fb2a3c10b78b310be1818aec224dfd53eba36923ff7321",
+        "prompt_sha256": "75c82137799442852a41e2e8bdf8b2718774a6758f3be310825d33e2d926dcaf",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "7953cd1062e0b38ddd27e51e5644d14a19f8039e504375c59baf1860ac015dab",
+        "capture_evidence_events": [
+          "event-8597318e9f1742efb4238125111d10cd",
+          "event-e9e049ba83ea436e95b100f9ce8ec068",
+          "event-30f64bebffe14ad8ba94bde49e09b65f"
+        ]
+      }
+    },
+    {
+      "job_id": "M21-N3",
+      "manuscript_id": "M21",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M21-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "ea3446a235f29d3f278df0e6caa1a955663e38a031760d5e069fe3502e07b4f5",
+        "event_id": "event-f81c9ebc23df43419b3827736c658a71",
+        "lineage_event_id": "event-874138d052c4461a93292ea1cdc101ce",
+        "lineage_entry_id": "final-selection-20261018:M21-N3:evaluation-v1",
+        "session_id": "01a1528e-6825-70b3-b2d0-836e0a555561",
+        "response_file": "runs/final-selection-20261018/results/M21-N3/attempt-001/response.json",
+        "response_sha256": "87cbe200998eb904f7d43a4958001af6207d72a1165bd92fc204d16592dafb3e",
+        "prompt_sha256": "823b2f436bc6edd6eee337e5615eb405d794b2aa795b02bee8a08e7cc77f6485",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "a56d11602e0b91e654326e6c424091e6fe62dde8c70287aef615b6a61898360d",
+        "capture_evidence_events": [
+          "event-650f75c9c5d7448498016fee373423d2",
+          "event-931c5691b843496d8012d144e909bb46",
+          "event-589a0967c8e2450ba2c37136406f0e22"
+        ]
+      }
+    },
+    {
+      "job_id": "M21-J1",
+      "manuscript_id": "M21",
+      "role": "J1",
+      "profile_id": "kacper_kowalczyk",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M21-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "1f4d9d3f10713edb7889d0a8033b72c2216c12a72afc0f9588a7fe8d8438a8a5",
+        "event_id": "event-fb02d75276f54501b36a7b892dda5366",
+        "lineage_event_id": "event-8276fb5daddb44809dd7d1995a547011",
+        "lineage_entry_id": "final-selection-20261018:M21-J1:evaluation-v1",
+        "session_id": "01a15290-1ac1-75e2-aec0-7b14d63202fd",
+        "response_file": "runs/final-selection-20261018/results/M21-J1/attempt-001/response.json",
+        "response_sha256": "98e07e6f014ee832fbe7fc134d18eab34c1119dc2124eb0c04a0d78ef220a0aa",
+        "prompt_sha256": "ffc3f48d2d095cbad0bc048b7d060543639c9f3d8e21de6174c6bf96963a04af",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "15d59c49cddc48964af036270b1fec0ad92bb99fb338d72ce07aca8ea53f8c4e",
+        "capture_evidence_events": [
+          "event-2358ce311c6642d1b937276366461363",
+          "event-16a0046889704e49acb4d3cb133c73e7",
+          "event-d1ce856f6f9f4244ba09191194984108"
+        ]
+      }
+    },
+    {
+      "job_id": "M21-J2",
+      "manuscript_id": "M21",
+      "role": "J2",
+      "profile_id": "john_hawthorne",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M21-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "8b661e2640a100a9f5d05f218fd2c5157f4873bf55f7b3c426cefc439db12ed1",
+        "event_id": "event-23d1324aea284447b95fa5657b848e56",
+        "lineage_event_id": "event-820ce95f1b804fbca763c2d69e196bb3",
+        "lineage_entry_id": "final-selection-20261018:M21-J2:evaluation-v1",
+        "session_id": "01a15292-5b4f-7fa1-9de8-c714bb2b935d",
+        "response_file": "runs/final-selection-20261018/results/M21-J2/attempt-001/response.json",
+        "response_sha256": "d8ce5c3c1cd8047651b5530f49b06b710296665690c89629e209bc798685d04b",
+        "prompt_sha256": "18207c1b84d6086d6bd5f7d797de05ba2c9ac3cdb4a8cbf12abc036c2c805e4a",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "59f95e2b1b4cd56dbc0722edd29bbec117fa870bba15446a63fe1b7289ceebca",
+        "capture_evidence_events": [
+          "event-45df35a706f24f7991490ef96d96bc51",
+          "event-e046d18841924f9c8a8de9a6fd787a3e",
+          "event-bc95820df0734b6a8fb3493b16d8a27d"
+        ]
+      }
+    },
+    {
+      "job_id": "M22-N1",
+      "manuscript_id": "M22",
+      "role": "N1",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M22-N1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "4b3fdb4e116a0909f56c16a38665a0415c3b0a728858ca0522ba32315e1d8e3e",
+        "event_id": "event-7b0dc584664a4612acbd7f4f8c4e985c",
+        "lineage_event_id": "event-63cc487ee4534286b434567800b101f7",
+        "lineage_entry_id": "final-selection-20261018:M22-N1:evaluation-v1",
+        "session_id": "01a15295-5a43-79f1-87e3-ead32bc3d07a",
+        "response_file": "runs/final-selection-20261018/results/M22-N1/attempt-001/response.json",
+        "response_sha256": "cbb5d619e0e1239618fc57e0aa36342ea65997e793a2eb34d4096c03fd2fca81",
+        "prompt_sha256": "f2911abf08b0efa23cb9f44b436072b14dfd248ec9ef2efa2591bc39b20be352",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "80dcee2a8740cc947f5b0a1f584fae0e7e2619b7e8cd179a94185cd57abd7ee1",
+        "capture_evidence_events": [
+          "event-0a3c1e545a794e9ab97ef392891575e0",
+          "event-32e4ab9e4bfd47c6b1184700de1c16e3",
+          "event-e445d8fec97c4af493c16a3597679da8"
+        ]
+      }
+    },
+    {
+      "job_id": "M22-N2",
+      "manuscript_id": "M22",
+      "role": "N2",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M22-N2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "73b3319a2cf7ebdbd670888556a52ea0682944e9cf96548eab01090eccce58b5",
+        "event_id": "event-b08843876d1a4b7798ecab614581e24e",
+        "lineage_event_id": "event-72f1c20974884fe4b010e96957014937",
+        "lineage_entry_id": "final-selection-20261018:M22-N2:evaluation-v1",
+        "session_id": "01a15297-cea0-78e0-9102-ad6aa70dc894",
+        "response_file": "runs/final-selection-20261018/results/M22-N2/attempt-001/response.json",
+        "response_sha256": "d253b094e1dcc1b6626e36f25fc565a4a75106f43d4ef9c48a68e477854f53b1",
+        "prompt_sha256": "1aeca0d08be896af4efaca12dd77d4e033b37cfec48bc82028134c1253fb3ecc",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "6a39f4d3c214fa4ab6faaad34b9883f38da0c1a4198321abc560b08ccbd1c614",
+        "capture_evidence_events": [
+          "event-637fd8da56214de0b05b8cd7459f25c9",
+          "event-cb14941134e74452812368e10cc111ac",
+          "event-4baa53a75ed943b1b134422d1010a36a"
+        ]
+      }
+    },
+    {
+      "job_id": "M22-N3",
+      "manuscript_id": "M22",
+      "role": "N3",
+      "profile_id": "neutral",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M22-N3/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "d7358bfb186879f616d6ee963d75be654b364fece136fb63842a283f1fa24c2b",
+        "event_id": "event-d793625348b84f4584b542685930f671",
+        "lineage_event_id": "event-9cdf40fe074847d99c5201d88b79b6b4",
+        "lineage_entry_id": "final-selection-20261018:M22-N3:evaluation-v1",
+        "session_id": "01a15299-8fa4-7ea2-bdc8-fe218fbe06e9",
+        "response_file": "runs/final-selection-20261018/results/M22-N3/attempt-001/response.json",
+        "response_sha256": "513bf55bc25580c1a8d91d9c770a7061e1dda62d806dfbd797c3bccf70b0d10c",
+        "prompt_sha256": "1207402a850dadeda68b4009eee7504722ced8fd2a060fa1abb36af41c13f6ed",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "fd63b95d8dbd968b444e5adc21a4be66e2419f062509ca8284fd25209727fe22",
+        "capture_evidence_events": [
+          "event-ca4f29930624455f80654e8607baaac8",
+          "event-330111d0dd4c41198c55b8ae70c27a40",
+          "event-cddb6248f5454baf924fd22beaa1bf5a"
+        ]
+      }
+    },
+    {
+      "job_id": "M22-J1",
+      "manuscript_id": "M22",
+      "role": "J1",
+      "profile_id": "branden_fitelson",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M22-J1/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "95cbf009fddb735bcc893109479fb012138e4e042f5679a426edcef2001be12b",
+        "event_id": "event-1ceb09630fd149d7a54ba569baf0f733",
+        "lineage_event_id": "event-679dfc27d234458e8ba938fb1df5e836",
+        "lineage_entry_id": "final-selection-20261018:M22-J1:evaluation-v1",
+        "session_id": "01a1529b-45df-7421-8232-a4bdf9bb52f3",
+        "response_file": "runs/final-selection-20261018/results/M22-J1/attempt-001/response.json",
+        "response_sha256": "07f400403f33b201a3fe98365f8d815ef2aebe59bfb1c79da6de445f6a87daba",
+        "prompt_sha256": "fcf7b8752401578956c90cf61fd0435c98ac931655562f4e3dbc951ae51d8f7f",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "883497a7438399f40a152ed23faae899663c9816a3541666389531e929f78127",
+        "capture_evidence_events": [
+          "event-48fc08f6155f440c819cc9047f0d28ad",
+          "event-5d7e8a6b8d2f48f5928835e7bc949244",
+          "event-d89ba0e05de14c16aa9118a58e518fc2"
+        ]
+      }
+    },
+    {
+      "job_id": "M22-J2",
+      "manuscript_id": "M22",
+      "role": "J2",
+      "profile_id": "jens_jaeger",
+      "status": "ACCEPTED_VERIFIED",
+      "accepted": true,
+      "evidence": {
+        "archive_receipt": "runs/final-selection-20261018/results/M22-J2/ARCHIVE_RECEIPT.json",
+        "archive_receipt_sha256": "7127bd4eb15b32aac81f730b5f3e900f32eb228d149063b9a979875029c4e504",
+        "event_id": "event-2db077ec605242ff83923c775e008ec1",
+        "lineage_event_id": "event-aac4be81831e4895ab0cdf1cfeb20128",
+        "lineage_entry_id": "final-selection-20261018:M22-J2:evaluation-v1",
+        "session_id": "01a1529c-facf-7572-ae95-ccc1b7f2c187",
+        "response_file": "runs/final-selection-20261018/results/M22-J2/attempt-001/response.json",
+        "response_sha256": "e5d8bb71a0f89aecd7355c5007df162520443d14056eca7ea5aefafb83a149f8",
+        "prompt_sha256": "9b232b88ca32540923c49f41a819f5fbe046107f72ba965f9179e0a9e2115880",
+        "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+        "capture_sha256": "aac352c63fa7d22f2ae4859be87a2d29e635097336155b31b7dd3a51c3c60c56",
+        "capture_evidence_events": [
+          "event-5346139fa0894580a739f13ea2ac8138",
+          "event-05b7ce550ac845118e2e1ecd052160a5",
+          "event-2abe01a2b8244a128315949eff49c507"
+        ]
+      }
+    }
+  ],
+  "boundary": "The required set remains 110 accepted logical reviews; two earlier capacity failures and one local launch failure are retained separately and are not reviews. Ordinary verification and the 60/40 calculation are unchanged. The supplied resolution must come from load_resolution with actual canonical events. No ranking or selection.",
+  "rule": "No score means, ranking, recommendations or concerns are emitted until all 110 reviews are accepted and verified."
+}

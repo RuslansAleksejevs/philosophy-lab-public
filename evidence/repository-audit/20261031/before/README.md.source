@@ -1,0 +1,36 @@
+# Philosophy Lab
+
+**AI-written philosophy, and the work of deciding which arguments deserve further scrutiny.**
+
+The project began with an AI philosophy competition and grew into a study of research methods: finding questions, developing arguments, using criticism, and preserving the reasons for each decision.
+
+**100 original essays · 7 later essays · 23 historical reviewer profiles**
+
+[Read the selected essays](reading/20261018/README.md) · [See all 22 decisions](docs/selection.md) · [Follow the history](docs/timeline.md) · [Open the logs](logs/README.md)
+
+## Where the work stands
+
+**2026-10-31 maintenance.** The [evidence supplement](evidence/final-selection/updates/20261031/README.md) adds the complete accepted preparation package and twelve later completion records, including the 270 preparation output files missing from the previous edition. The [maintenance record](evidence/maintenance/20261031/README.md) documents compressed-log support and its checks. The ten-essay selection is unchanged. Deep verification and the final three are still ahead; the custodian now prefers a short decision summary to reading all ten manuscripts.
+
+**2026-10-19.** The accepted reading package contains **10 essays from 22 candidates**. The next stage is the user's reading and deeper verification before choosing three essays and two reserves. The accepted record contains **110 individual reviews** (66 neutral and 44 profile reviews), plus **50 accepted reviews across 10 pair comparisons**. All 110 planned individual review slots were accepted.
+
+Two initial attempts ended with capacity errors and no visible reviews. The work was paused and resumed on the same Astra configuration. A later local app-server initialization failure also produced no observed session or review; its repair was recorded separately. Two accepted replacements ultimately filled the original slots. The preserved failures and resumption are explained in the [execution account](docs/evaluation.md#capacity-interruption-and-resumption).
+
+The [selection guide](docs/selection.md) explains the choices, exact versions, and remaining objections. The [reading packet](reading/20261018/README.md) contains complete texts without grades or selection labels.
+
+## How the selection was organized
+
+The accepted design gives neutral and judge-profile reviews a **60/40 balance**: three fresh neutral reviews and two fresh profile reviews per manuscript, using the same Astra model, ultra effort, and default service tier. A profile supplies instructions and source material; it is not a separately fine-tuned model or a validated forecast of the real jury.
+
+## Explore the record
+
+- [All original essays and preserved versions](essays/README.md), including rejected work.
+- [The judge experiment](docs/judges.md), [the midterm](docs/evaluation.md), and [the five later programs](docs/post-midterm.md).
+- [65 verbatim prompt excerpts with English translations](docs/quotes.md), alongside the [retained conversations](logs/README.md).
+- [Evidence packages](evidence/README.md) and [the detailed method index](docs/methodology-index.md).
+
+E036's version choice is closed: comparison R1 is its working version. The old preference for the original's greater ambition remains visible in the history. The preparation of all 22 candidates is also closed; its limitations were carried into the subsequent decisions.
+
+Completion is bounded to the accepted package. Earlier capture gaps remain in the record; this is not a claim that the complete history of either provider was captured. Exact visible fragments preserve selected text and its source hashes without exporting full native envelopes or hidden reasoning.
+
+The guide is in English; conversations retain their original language. This repository remains private. [Next steps](ROADMAP.md) · [Publication and language policy](PUBLICATION.md) · [Verify the current edition](tools/verify_current_edition.py)

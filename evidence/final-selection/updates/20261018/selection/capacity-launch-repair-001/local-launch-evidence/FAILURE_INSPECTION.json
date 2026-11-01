@@ -1,0 +1,151 @@
+{
+  "status": "LOCAL_LAUNCH_FAILURE_INSPECTED_NO_VISIBLE_REVIEW",
+  "logical_job_id": "M12-N2",
+  "physical_attempt": 2,
+  "source_started_at": "2026-10-19T05:36:07.129870+00:00",
+  "source_ended_at": "2026-10-19T05:36:07.481568+00:00",
+  "elapsed_seconds": 0.3512624576687813,
+  "classification": "local_app_server_initialization_permission_error",
+  "stderr_exact": [
+    "WARNING: proceeding, even though we could not create PATH aliases: Operation not permitted (os error 1)\n",
+    "Error: failed to initialize in-process app-server client: Operation not permitted (os error 1)\n"
+  ],
+  "cli_exit_code": 1,
+  "session_id": null,
+  "observed_session_count": 0,
+  "assistant_visible_records": 0,
+  "final_records": 0,
+  "observed_model_review_outputs": 0,
+  "accepted_reviews": 0,
+  "no_completed_output": true,
+  "native_proof": null,
+  "native_search_performed": false,
+  "requested_configuration": {
+    "requested_model": "gpt-6-astra",
+    "requested_effort": "ultra",
+    "requested_service_tier": "default"
+  },
+  "observed_model_configuration": null,
+  "backend_request_count": null,
+  "model_call_count": "UNKNOWN",
+  "backend_not_contacted_claimed": false,
+  "boundary": "The local CLI process started, then reported an in-process app-server initialization permission error. Empty stdout and null observed session identity prove no captured session or review output; they do not prove no network request or hidden provider computation. No native session was invented or searched for.",
+  "process_state": {
+    "process_stopped": true,
+    "stderr_drained": true,
+    "exit_code": 1,
+    "forced_kill": false
+  },
+  "original_input_event_id": "event-3a08660ab4024183b9acf41dc1fb7907",
+  "replacement_ready_event_id": "event-a1680030dedf4368a548920cef5e7e30",
+  "preserved_capacity_failure_event_id": "event-b3519057c6a24486bca718c999d0a20e",
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/launch.json",
+      "sha256": "b5789b5624653fb4054a87b2929fe8736ee9b4f703e4032c599c27ea84e98bdd",
+      "bytes": 1757
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/failure.json",
+      "sha256": "26e5bfbf74faddab1a4b9b71ebf642865fba09d0b1227f0d881472735295e566",
+      "bytes": 2152
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/stderr.json",
+      "sha256": "869f0405b651712fc588a08c068ceb8bbebbdd58eed349b112e6abc104ea6eeb",
+      "bytes": 255
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/visible-events.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "preserved_copies": [
+    {
+      "original": {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/launch.json",
+        "sha256": "b5789b5624653fb4054a87b2929fe8736ee9b4f703e4032c599c27ea84e98bdd",
+        "bytes": 1757
+      },
+      "copy": {
+        "path": "runs/github-selection-20261018/local-launch-failure-002/preserved-attempt-002/launch.json",
+        "sha256": "b5789b5624653fb4054a87b2929fe8736ee9b4f703e4032c599c27ea84e98bdd",
+        "bytes": 1757
+      }
+    },
+    {
+      "original": {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/failure.json",
+        "sha256": "26e5bfbf74faddab1a4b9b71ebf642865fba09d0b1227f0d881472735295e566",
+        "bytes": 2152
+      },
+      "copy": {
+        "path": "runs/github-selection-20261018/local-launch-failure-002/preserved-attempt-002/failure.json",
+        "sha256": "26e5bfbf74faddab1a4b9b71ebf642865fba09d0b1227f0d881472735295e566",
+        "bytes": 2152
+      }
+    },
+    {
+      "original": {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/stderr.json",
+        "sha256": "869f0405b651712fc588a08c068ceb8bbebbdd58eed349b112e6abc104ea6eeb",
+        "bytes": 255
+      },
+      "copy": {
+        "path": "runs/github-selection-20261018/local-launch-failure-002/preserved-attempt-002/stderr.json",
+        "sha256": "869f0405b651712fc588a08c068ceb8bbebbdd58eed349b112e6abc104ea6eeb",
+        "bytes": 255
+      }
+    },
+    {
+      "original": {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/visible-events.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      "copy": {
+        "path": "runs/github-selection-20261018/local-launch-failure-002/preserved-attempt-002/visible-events.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    }
+  ],
+  "stop_source": {
+    "path": "runs/final-selection-20261018/STOP.json",
+    "sha256": "71ea6844970a93fd10834a38faa9bab19c430de27ac56f84f3ee398f25fdaa6f",
+    "bytes": 154
+  },
+  "stop_snapshot": {
+    "path": "runs/github-selection-20261018/local-launch-failure-002/STOP_ORIGINAL.json",
+    "sha256": "71ea6844970a93fd10834a38faa9bab19c430de27ac56f84f3ee398f25fdaa6f",
+    "bytes": 154
+  },
+  "dispatch_source": {
+    "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/dispatch.jsonl",
+    "sha256": "1732ddbe6f75f839c36a1c9aa135aa3bb7d22e4ea52d16f5623dde9912c3f922",
+    "bytes": 248
+  },
+  "dispatch_snapshot": {
+    "path": "runs/github-selection-20261018/local-launch-failure-002/DISPATCH_SNAPSHOT.jsonl",
+    "sha256": "1732ddbe6f75f839c36a1c9aa135aa3bb7d22e4ea52d16f5623dde9912c3f922",
+    "bytes": 248
+  },
+  "attempt001_comparison": {
+    "inspection": {
+      "path": "runs/final-selection-20261018/capacity-recovery-001/FAILURE_INSPECTION.json",
+      "sha256": "ca8bff0f8a6bdb02faa7b5321a9f4ec4f475a16b105ac14110577de8f4be2330",
+      "bytes": 2951
+    },
+    "acceptance_receipt": {
+      "path": "runs/final-selection-20261018/capacity-recovery-001/ARCHIVE_RECEIPT.json",
+      "sha256": "6e796b5ac8a7cb0c0fb9a2208fc52917c7d59560955262dd8bccc2f3771a70bf",
+      "bytes": 2225
+    },
+    "session_id": "01a151e7-0c2c-75d3-a38e-17d3fb853a78",
+    "assistant_visible_records": 0,
+    "final_records": 0,
+    "failure_kind": "provider_capacity_no_visible_review",
+    "boundary": "Comparison uses the existing accepted inspection only; its native source was not reopened."
+  }
+}

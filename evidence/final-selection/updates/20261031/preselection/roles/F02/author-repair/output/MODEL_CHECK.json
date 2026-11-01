@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "method": "Exact rational enumeration; supplemented by the analytic conditional-expectation and Bayes arguments in revision.md \u00a73.",
+  "positive_probability_states": 14,
+  "initial_probability_preservation_all_histories": true,
+  "before_keep_loss": "9/100",
+  "before_erase_loss": "9/100",
+  "after_keep_loss": "7/100",
+  "after_erase_loss": "2/25",
+  "loss_gap_equals_expected_squared_posterior_gap": "1/100",
+  "no_disclosure_loss_gap": "0",
+  "independent_future_report_control": {
+    "reliability": "3/4",
+    "equal_posteriors_for_every_history": true,
+    "keep_loss": "9/112",
+    "erase_loss": "9/112"
+  },
+  "actual_inspection_probability_sound_given_red_token_blue_report": {
+    "A": "0",
+    "B": "4/5"
+  },
+  "classification_correctness": {
+    "Keep": "9/10",
+    "Erase": "9/10"
+  },
+  "shared_condition_control_loss_both": "1/20",
+  "limitation": "Checks the stipulated finite models and new mathematical clarification, not empirical feasibility, normative truth, novelty, or all literature."
+}

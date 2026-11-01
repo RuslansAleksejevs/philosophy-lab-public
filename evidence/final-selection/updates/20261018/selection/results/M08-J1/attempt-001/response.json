@@ -1,0 +1,63 @@
+{
+  "review_id": "M08-J1",
+  "manuscript_id": "M08",
+  "profile_id": "matthew_mandelkern",
+  "read_complete": true,
+  "thesis": "Exhaustive limiting outcomes under persistent coordinate clamps, supplemented by a baseline trajectory and qualitative equilibrium classifications, need not identify the outcome of simultaneous withdrawal. Nevertheless, an independently justified dynamical family can support a uniformly successful withdrawal procedure without identifying its unknown rate.",
+  "contribution": "The manuscript supplies a rigorous, philosophically relevant counterexample connecting experimental equivalence to temporary intervention design. Its useful distinction is between identifying a parameter, identifying one procedure’s outcome, and selecting a successful procedure. The contribution is credible but modest: it establishes these distinctions in a transparent family, rather than supplying a general identification criterion or demonstrating a substantial revision to existing philosophical accounts.",
+  "argument_map": [
+    "Fix the admissible family x′=x−x³+y, y′=−ky, with k>0. Define E using every nonempty constant coordinate clamp and its limiting outcome, together with the stipulated baseline and qualitative equilibrium information.",
+    "Every family member agrees on E: clamping y removes the equation containing k; clamping x leaves k operative but discards its rate through the endpoint readout. Joint clamps and qualitative stability likewise reveal no k.",
+    "After simultaneous release from (−1/2,1), sufficiently slow decay makes x positive and comparison establishes convergence to (1,0). Sufficiently fast decay supplies too little total input, keeping x negative and establishing convergence to (−1,0).",
+    "Consequently, E does not entail a unique simultaneous-release outcome. This negative result persists in any admissible class containing the displayed pair; it does not establish that prediction using additional assumptions is impossible.",
+    "Within the original family, releasing x while holding y=1 for one unit guarantees positive x before final withdrawal. Reversing the order leaves opposite outcomes possible for every fixed finite wait. Thus unresolved parameter uncertainty can coexist with successful procedure selection."
+  ],
+  "strongest_merit": {
+    "location": "“Systems and evidence,” proof following “Every member”; “The same release, opposite endpoints,” both decay cases; “An application: choosing the order of withdrawal,” both orders.",
+    "reason": "The separation and control arguments establish their actual targets with explicit inequalities. The manuscript checks initial-state dependence, nonhyperbolic clamped equilibria, convergence rather than mere sign change, and the reversed procedure. Its basin discussion also correctly distinguishes crossing x=0 from crossing an autonomous basin boundary. These checks support a strong argument score: no substantive mathematical gap is apparent in the supplied proof."
+  },
+  "concerns": [
+    {
+      "severity": "open",
+      "kind": "scope",
+      "location": "“An application: choosing the order of withdrawal,” opening paragraph and paragraph beginning “The successful procedure uses no additional measurements.”",
+      "excerpt": "Assume the functional form (1) is independently justified",
+      "reason": "The successful fixed-duration procedure requires knowledge of the shared x dynamics, including their timescale. That information is not supplied by E. The result therefore establishes robustness to a particular unknown rate, rather than a procedure certified by endpoint evidence alone. This limits its practical reach, although it does not undermine the stated theorem.",
+      "text_response": "The manuscript expressly restricts the guarantee to the justified family, says its assumptions are not consequences of E, and explains that enlarging the class can destroy success. This is an adequate logical reply; the remaining issue concerns how much independent knowledge an application would require.",
+      "discriminating_check": "Allow x′=a(x−x³+y), y′=−ky, with unknown a>0. This preserves E, but sufficiently small a and large k defeat the one-unit procedure. Determine whether an independently justified lower bound on a, or a state-dependent stopping rule, restores a useful guarantee."
+    },
+    {
+      "severity": "open",
+      "kind": "originality",
+      "location": "“The question and its scope,” paragraphs 1–5; “What experimental completeness amounts to,” paragraph beginning “This gives the philosophical contribution.”",
+      "excerpt": "No priority claim follows from these comparisons",
+      "reason": "The supplied comparisons establish relevant neighboring questions but do not show whether the exhaustive-clamp counterexample or withdrawal-order contrast adds a result absent from that literature. The general lesson that experimental equivalence is question-relative cannot alone establish novelty. Conversely, the packet provides no basis for declaring this particular construction already known.",
+      "text_response": "The manuscript acknowledges unverified literature descriptions, distinguishes representation from identification, disclaims priority, and offers self-contained mathematics. These responses protect the argument’s validity and establish an illustrative contribution, but leave its incremental originality unresolved.",
+      "discriminating_check": "Compare the cited treatments on four precise dimensions: admissible dynamics, available intervention outcomes, the release outcome being inferred, and guarantees across withdrawal orders. An equivalent earlier construction would reduce the contribution to exposition; a genuinely additional separation or control result would strengthen its significance."
+    }
+  ],
+  "scores": {
+    "overall": 3,
+    "argument": 4,
+    "significance": 3,
+    "originality": null
+  },
+  "originality_limit": "Originality remains unscored because the packet supports a specific mathematical contribution but not a reliable assessment of its precedence. The author's careful disclaimers are appropriate; they supply neither positive nor negative novelty evidence.",
+  "recommendation": "borderline",
+  "reason_ru": [
+    "Текст убедительно показывает: успех при постоянной поддержке не определяет результат её отмены.",
+    "Полезный результат — правильный порядок отмены обеспечивает успех даже при неизвестной скорости ослабления поддержки.",
+    "Но гарантия действует лишь для узкого семейства моделей, а новизна не установлена, поэтому работа пока на границе шорт-листа."
+  ],
+  "confidence": "medium",
+  "profile_basis": [
+    "The supplied Mandelkern–Linzen profile supports separating a negative result about identification from a positive claim about what can be established or achieved.",
+    "The supplied scholarly lenses support identifying exactly what experimental equivalence preserves and testing the boundary with a discriminating example. No doctrinal agreement receives credit."
+  ],
+  "limits": [
+    "The complete supplied manuscript, including its bibliography, was read. Assessment used only the supplied packet and no tools.",
+    "External source correctness and exhaustive novelty were not checked. Unverified attribution is not treated as demonstrated source error.",
+    "The mathematical assessment is a direct examination of the displayed arguments, not independent formal verification or empirical validation.",
+    "The profile informs a bounded AI reconstruction of scholarly approach, not the actual person's judgment."
+  ]
+}

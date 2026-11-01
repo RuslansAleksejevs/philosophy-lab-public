@@ -1,0 +1,59 @@
+{
+  "status": "LOCAL_CASE_COMPLETE_PENDING_CANONICAL_CAPTURE",
+  "run_id": "postmidterm05-rescue-sol-20261014-v3",
+  "item_id": "E012",
+  "author_session_id": "01a1335c-7b04-7f12-916b-f9715f387344",
+  "recorded_at": "2026-10-14T09:46:18.599878+00:00",
+  "model_reported": "gpt-6.1-sol",
+  "effort_reported": "high",
+  "speed": "Standard user-confirmed; backend unattested",
+  "review_events": [
+    "event-dc8bbc1e9b4e4b2092afbaf96c1770f7",
+    "event-ac3f0018cc1844feb0369c9272087ee5"
+  ],
+  "recommendation": "CONDITIONAL_RETURN_TO_FUTURE_RESEARCH_POOL",
+  "wildcard": false,
+  "classification": [
+    "EXISTING_WORTHWHILE_CONTRIBUTION",
+    "REPAIRABLE_CAUSAL_APPLICATION",
+    "ORIGINALITY_UNKNOWN"
+  ],
+  "missed_previously_unrecognized_contribution": false,
+  "serious_defect_confirmed": false,
+  "manuscript_edits": 0,
+  "canonical_case_event": null,
+  "inputs": {
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/midterm-20261007/blind/E012.md": "7d0772e0c5393c7a0b669bb7c584ad4d24dd87caebedf5f2461a5f9f7ebbb84b",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/planning/HISTORICAL_BASELINE.json": "57d10bc5520a0aa997629267f412819e592fcbfe81c17274fb2f25eaf677c88a",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J012/attempt-001/report.md": "e40d10af6601540deb14b08fad5053187ba2bf6484d02e5ddffba992fadfbeba",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J013/attempt-001/report.md": "909098c4419c8a4d0784d5a5d6500e943010c98450a3f547ca27a37155bf9ce2",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-archives-v3/j006-j012-v3/J012.json": "77f363a4a00f15882398e072ce9bcf7fc6dbbfa52fb1802710029536aaaa108c",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-archives-v3/j013-j019-v3/J013.json": "0096b3137e65c2272e5d4b3f763427fd7137054035ecadd859f5b69b94e6489d",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J013/attempt-001/sources/retrieved/web-return-000070.txt": "20537d8ee092aa40e5dacf8742cc063e20a78e7db0b721954575e8e88464e412",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J013/attempt-001/sources/retrieved/web-return-000049.txt": "5ddd00445c85e322dd383fa1b2d81988b20933ff87e5145133aa88e47a81b3d7",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J013/attempt-001/sources/retrieved/web-return-000091.txt": "8d45ef36ef723b215a6b5484e0bc6f16f577304e661c6ef730803aa21d8789ae"
+  },
+  "baseline_item_sha256": "be303a26a7663ba165e189dabcdbacbd1c0914c1b7e91969528b70c9ab7dbc8c",
+  "source_reading": [
+    {
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J013/attempt-001/sources/retrieved/web-return-000070.txt",
+      "sha256": "20537d8ee092aa40e5dacf8742cc063e20a78e7db0b721954575e8e88464e412",
+      "read_extent": "RELEVANT_PASSAGES_ONLY",
+      "details": "Nance: actual returned passages around preclusion and division of search/decision roles; keyword windows, not whole composite return."
+    },
+    {
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J013/attempt-001/sources/retrieved/web-return-000049.txt",
+      "sha256": "5ddd00445c85e322dd383fa1b2d81988b20933ff87e5145133aa88e47a81b3d7",
+      "read_extent": "RELEVANT_PASSAGES_ONLY",
+      "details": "Actual returned Porat-Stein abstract, Flowerree fitting-response passage, Ross conviction passage; bounded keyword windows, not whole publications."
+    },
+    {
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J013/attempt-001/sources/retrieved/web-return-000091.txt",
+      "sha256": "8d45ef36ef723b215a6b5484e0bc6f16f577304e661c6ef730803aa21d8789ae",
+      "read_extent": "RELEVANT_PASSAGES_ONLY",
+      "details": "Nance returned p1112/PDF23 fragment L989-L1037; first50 actual file lines reread after truncated combined display; later composite sections not claimed read."
+    }
+  ],
+  "case_sha256": "6c0923a633ebc860fc6a24070a974e19a5e8378e76284abbc51a6d8eb7a58c7e",
+  "boundary": "Publication reading limited; no novelty, eligibility or admission certificate. Original conditional argument is distinguished from proposed future repairs."
+}

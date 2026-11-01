@@ -1,0 +1,43 @@
+# The research record
+
+The record connects each essay to the work that produced it: the question, sources, draft, criticism, revision, and selection decision. Readers can follow that story through an [essay biography](../essays/README.md), then go deeper into its versions and [original-language conversations](../logs/README.md).
+
+The short chapters are an editorial layer over those records. The logs retain prompts as written, including Russian, errors, and profanity. Corrections and failed attempts remain available alongside successful work.
+
+**Key dates:** September 7 — collector-build authorization; September 21 — biography backfill accepted; October 4 — capture-repair instruction; October 13 — first full private repository import; October 17 — dated update. [Date meanings](../logs/DATES.md) · [Timeline](timeline.md).
+
+## Human direction and AI contributions
+
+The human chose goals, resources, process, style requests, and candidates. AI handled philosophical questions, arguments, criticism, and manuscript edits. Substantive suggestions originating with the human were recorded separately from the eligible AI contributions. The record supports tracing these assignments and contributions; it cannot establish the absence of every indirect human influence.
+
+The lab adapted versioning and checkpoints from an earlier mathematical research workflow. Philosophical assessment needed its own judgments about sources, premises, interpretation, significance, and originality.
+
+## Keep research inputs separate
+
+Fresh authors and critics were assigned minimal task packets and their own essay's material. The coordinator could compare completed results afterwards. The intended boundary kept the general archive, other essays, production biographies, and earlier ratings outside a researcher's input.
+
+The first pilot audit inspected 651 tool calls and 26 flags to check actual reading. Later, an overly broad search exposed a critic to another branch's handoff; that attempt was stopped and a fresh critic replaced it. Separate contexts reduced cross-essay exposure, but file access still needed checking.
+
+## Preserve changes without rewriting their origin
+
+The archive records the task and each attempt separately. It distinguishes when an event happened from when it was captured, requested settings from observed settings, and uncertain outcomes from completed work. Corrections append to history. File hashes let readers check that copied bytes match the recorded version.
+
+Methods also have histories. Fifteen early strategies remained proposals; later campaigns selected specific methods to run. Changes in models, budgets, and orchestration were dated so that a reader can see the actual conditions behind each result.
+
+## Logging and biographies do different work
+
+A local Python collector was built to save visible messages and available metadata without calling a language model. A live acceptance test checked that it could save the final answer without waiting for another human prompt. Separate small tests exercised restart and transfer of selected archive packages.
+
+The collector does not infer an essay's causal history. That needs explicit links from idea to draft, critique, revision, selection, and final. An early set of “biographies” was mostly technical cards; a user objection led to readable narratives for the Claude series.
+
+The repository keeps both layers: readable histories for navigation, original text and machine-readable records for close inspection. The [bundle manifest](../logs/bundles/manifest.json) lists the compressed records, their contents, and checksums.
+
+## Coverage and remaining gaps
+
+The October 12 retrospective indexed 2,875 saved Codex sessions and 10,646 visible messages. Those are historical counts; the [current log index](../logs/README.md) gives this edition's totals and snapshot boundaries. Close reading for the retrospective focused on organizational conversations, methods, profiles, decisions, and selected engineering records. The mechanical inventory covered much more material than that reading, including about 95 million text characters.
+
+The retrospective's collector-status snapshot was stale and listed unresolved gaps. The current export describes its own [coverage](../logs/README.md#coverage-and-dates): retained conversation text, unresolved tool or attachment records, unavailable native files, and fixed capture cutoffs. Hidden reasoning and inaccessible provider events are outside the record. A campaign's completion receipt describes the work completed; capture coverage describes what was saved of its execution.
+
+These distinctions matter when comparing results. Recorded elapsed time includes tools and waiting, and model changes complicate comparisons between methods. File consistency, good recordkeeping, and successful task completion each answer a different question from whether an essay is original or persuasive.
+
+**Evidence:** [Detailed method index](methodology-index.md#governance-and-the-archive), [source conversations](../logs/README.md), and [essay biographies](../essays/README.md). [Decision map →](decisions.md)

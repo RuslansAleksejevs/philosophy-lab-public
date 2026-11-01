@@ -1,0 +1,15 @@
+{
+  "kind": "coordinator_targeted_argument_check_not_a_fresh_review",
+  "candidate_id": "E050",
+  "blind_source": "runs/final-selection-20261018/blind/M08.md",
+  "method": "Read the complete displayed proof and check each claimed inference against the explicitly restricted evidence menu and model family. No simulation is offered as a proof and no new philosophical vote is added.",
+  "checks": [
+    {"claim": "All nonempty persistent-coordinate-clamp endpoints agree for every k>0", "finding": "Under x clamp, y decays to0; under y clamp, the remaining scalar equation contains no k; both clamped gives the stated pair. Uncontrolled baseline(-1,0) is constant. These claims do not supply arbitrary uncontrolled initial-state outcomes."},
+    {"claim": "Qualitative equilibrium catalogues agree", "finding": "Unclamped equilibria(-1,0),(0,0),(1,0) have triangular eigenvalues1-3x^2 and-k. Outer points stable and middle saddle for all positivek. Scalar y-clamped degeneracies agree because the same scalar equation is used. Numerical rates are explicitly excluded."},
+    {"claim": "Slow release tends to positive equilibrium", "finding": "On x in[-.5,0], x-x^3 is at least-2/(3sqrt3); y during first unit exceeds.990 for k=.01. Positive lower speed gives crossing before.827. At x=0 the forcing is positive, preventing return. Scalar comparison and eventual inward vector field above1+epsilon establish both limiting bounds."},
+    {"claim": "Fast release tends to negative equilibrium", "finding": "At x=-1 derivative is positive, giving the lower barrier. Before a hypothetical zero crossing, x-x^3<=0 and forcing integral<=.01, so x<=-.49; this excludes crossing. Once forcing is small, uniform negative derivative on[-1+epsilon,-.49] yields entry into an arbitrarily small negative-equilibrium neighbourhood."},
+    {"claim": "Staged x-first release succeeds uniformly", "finding": "Holding y=1 while freeingx gives a common equation and crossing before.814. After one timeunit x>0. The positive-state comparison applies for everyk>0 after y release. Guarantee requires the explicitly stipulated common equation, not endpoint evidence alone."},
+    {"claim": "Reverse order fails to guarantee success for every fixed finiteT", "finding": "For k<=.01/(T+1), remaining y over the first released unit exceeds.990 and slow proof applies. For k>=100 the remaining integral exp(-kT)/k<=.01 and fast proof applies. Quantifiers are for each fixed finiteT, not one slowk uniformly covering all possibleT."}
+  ],
+  "result": "No error identified in these specific proof steps. Neither novelty nor adequacy of the assumed model family for an actual application is established. This note does not change the manuscript or imply finalist admission."
+}

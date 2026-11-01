@@ -1,0 +1,242 @@
+{
+  "schema": "judge-source-index-v1",
+  "judge_id": "jonathan_weisberg",
+  "prepared_date": "2026-10-07",
+  "source_packet": "source-packet.md",
+  "profile": "profile-v1.md",
+  "coverage_boundary": "Bounded text-extraction corpus; source-specific read limits apply. No exhaustive corpus or raw-document preservation claim. Hashes demonstrate internal consistency only.",
+  "sources": [
+    {
+      "source_id": "I1",
+      "title": "Author homepage",
+      "url": "https://jonathanweisberg.org/",
+      "coverage": "metadata",
+      "read_limits": "Identity and publication links.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn9view0.txt",
+          "tool_reference_id": "turn9view0",
+          "sha256": "eecfbff96b02ae6f3b0fe51d7b0e34a67e4915d1932f1d5847bc6a86b57990bb",
+          "size_bytes": 3598,
+          "returned_or_attempted_urls": [
+            "https://jonathanweisberg.org/"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              54
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "S1",
+      "title": "Risk Writ Large (with Johanna Thoma)",
+      "url": "https://jonathanweisberg.org/pdf/RWL.pdf",
+      "coverage": "substantial_excerpt",
+      "read_limits": "PDF pp1–5, extracted lines0–175 with overlap;18pages total. Opening argument read, not all technical analyses.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn30view3.txt",
+          "tool_reference_id": "turn30view3",
+          "sha256": "43af0e37092f75b550700e2e06d11adcb0cc2848ebe3ebefe46db63c3745dfcd",
+          "size_bytes": 5500,
+          "returned_or_attempted_urls": [
+            "https://jonathanweisberg.org/pdf/RWL.pdf"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              83
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn38view4.txt",
+          "tool_reference_id": "turn38view4",
+          "sha256": "658abae995e4aeb88bd6b3d889277a80f0029661d71228670c9d69051aa1bc25",
+          "size_bytes": 6490,
+          "returned_or_attempted_urls": [
+            "https://jonathanweisberg.org/pdf/RWL.pdf"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              65,
+              175
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": true,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "S2",
+      "title": "Belief in Psyontology",
+      "url": "https://jonathanweisberg.org/pdf/Psyontology.pdf",
+      "coverage": "substantial_excerpt",
+      "read_limits": "PDF pp1–4, extracted lines0–129;39pages total. Thesis and conceptual framing read, not the later empirical survey.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn30view4.txt",
+          "tool_reference_id": "turn30view4",
+          "sha256": "d97fb13a44497978a0c50ad32ca074e6d38eb1f8fe598371a2d83a2f510ff349",
+          "size_bytes": 5397,
+          "returned_or_attempted_urls": [
+            "https://jonathanweisberg.org/pdf/Psyontology.pdf"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              60
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn38view3.txt",
+          "tool_reference_id": "turn38view3",
+          "sha256": "f6e98a00492b237061c493cfbf5eeb77085fc96b07aa897ce4a3a01c90c7ad6b",
+          "size_bytes": 6078,
+          "returned_or_attempted_urls": [
+            "https://jonathanweisberg.org/pdf/Psyontology.pdf"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              61,
+              129
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": true,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "S3",
+      "title": "How Robust is the Zollman Effect?",
+      "url": "https://jonathanweisberg.org/post/rbo/",
+      "coverage": "full_main_text",
+      "read_limits": "Short authored blog body and displayed discussion/code links, extracted lines0–55. Linked code was not run.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn66view1.txt",
+          "tool_reference_id": "turn66view1",
+          "sha256": "1613aee8123928851a3f92e051bc0d7f2de7d2436b2171bdfeeef9f3da12ceb1",
+          "size_bytes": 6428,
+          "returned_or_attempted_urls": [
+            "https://jonathanweisberg.org/post/rbo/"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              55
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": true,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "S4",
+      "title": "No Escape from Allais: Reply to Buchak (with Johanna Thoma)",
+      "url": "https://jonathanweisberg.org/pdf/no-escape.pdf",
+      "coverage": "full_main_text",
+      "read_limits": "Eight-page PDF, extracted lines0–250 read after predictions were saved. Some mathematical typography is garbled by extraction.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn71view0.txt",
+          "tool_reference_id": "turn71view0",
+          "sha256": "9ac12dea6c77257d9114494b98b9192026524aaca5f35749538c7dae6b5d189e",
+          "size_bytes": 20050,
+          "returned_or_attempted_urls": [
+            "https://jonathanweisberg.org/pdf/no-escape.pdf"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              250
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": true,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "F1",
+      "title": "Attempted papers route",
+      "url": "https://jonathanweisberg.org/papers/",
+      "coverage": "unavailable",
+      "read_limits": "Failed route; homepage supplied sources.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn7view1.txt",
+          "tool_reference_id": "turn7view1",
+          "sha256": "be83deb79d434923b94cd1f78f9596510053cb78a2f7af489d652b65381491c4",
+          "size_bytes": 231,
+          "returned_or_attempted_urls": [
+            "https://jonathanweisberg.org/papers/"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": false
+    }
+  ],
+  "other_evidence_files": [
+    {
+      "path": "evidence/catalogs-tool.txt",
+      "sha256": "be83deb79d434923b94cd1f78f9596510053cb78a2f7af489d652b65381491c4",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    },
+    {
+      "path": "evidence/read1-tool.txt",
+      "sha256": "8b8665c6a087d5b201a2e0810ca2a29527b97f6807529611e03d57f51826cb98",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    },
+    {
+      "path": "evidence/search1-tool.txt",
+      "sha256": "d882bccc205540b37d0bc39e064893d50ec7a964da87c2a2d2c6a4adadbf84eb",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    },
+    {
+      "path": "evidence/sources1-tool.txt",
+      "sha256": "eecfbff96b02ae6f3b0fe51d7b0e34a67e4915d1932f1d5847bc6a86b57990bb",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "status": "SUBMISSION_REVISIONS_VERIFIED_BOUNDED",
+  "selected": [
+    "E050",
+    "E012",
+    "E051"
+  ],
+  "selected_revisions": [
+    {
+      "essay_id": "E050",
+      "manuscript": {
+        "path": "runs/submission-revision-20261101/selected/E050.md",
+        "sha256": "451823414dc95441657d7b0b8fccf1e415823f3f55d1cb6efdee7f4f5a770eaa",
+        "bytes": 24618
+      },
+      "author_event_id": "event-328088ecf93e4ab1a120c9abbda9210d",
+      "critic_event_id": "event-4eb86bb0e52e4912976db37d8afb4653",
+      "author_session_id": "01a19642-c319-7923-968a-7a16008dcfcd",
+      "critic_session_id": "01a1964d-82d0-7482-8946-c25f77a913ee",
+      "critic_decision": "MINOR_FIXES",
+      "whole_text_reviewed_revision": {
+        "bytes": 24619,
+        "path": "runs/submission-revision-20261101/results/E050-author/derived/revision.md",
+        "sha256": "8c50e9c8e0973bd1383be050b7be6acb762f8e476b8731c457d52c813dd65ff3"
+      },
+      "read_original_complete": true,
+      "read_revision_complete": true,
+      "scoped_checker_event_id": "event-a162fe57bd454b2eb5400691006df18d",
+      "correction_event_id": "event-fd2a8e8d2e4744fd8812213fc51f347c",
+      "scoped_checker_session_id": "01a19663-2148-7d23-ac8a-40922efab4ca",
+      "scoped_checker_decision": "READY",
+      "scope": "EXACT_GRAMMAR_CHANGE_ONLY",
+      "resolved_findings": [
+        "F1"
+      ]
+    },
+    {
+      "essay_id": "E012",
+      "manuscript": {
+        "path": "runs/submission-revision-20261101/selected/E012.md",
+        "sha256": "8222a1388c9bfc7843fc9734c92058231ab4e1feb42cf7915196da495dd870c4",
+        "bytes": 32654
+      },
+      "author_event_id": "event-adb0dd345bd541aea198685de0fb2afd",
+      "critic_event_id": "event-635df5235a304bfe9865ae8edbe803c7",
+      "author_session_id": "01a19642-c319-7c30-9fe8-b83251ce36d6",
+      "critic_session_id": "01a1964d-82d0-76d3-933d-bd350e6b2478",
+      "critic_decision": "READY",
+      "whole_text_reviewed_revision": {
+        "bytes": 32654,
+        "path": "runs/submission-revision-20261101/results/E012-author/derived/revision.md",
+        "sha256": "8222a1388c9bfc7843fc9734c92058231ab4e1feb42cf7915196da495dd870c4"
+      },
+      "read_original_complete": true,
+      "read_revision_complete": true
+    },
+    {
+      "essay_id": "E051",
+      "manuscript": {
+        "path": "runs/submission-revision-20261101/selected/E051.md",
+        "sha256": "f014d67df443c2aef3c67896d4f7594e79c8dcf04798c52d6a51716d52ef790c",
+        "bytes": 22525
+      },
+      "author_event_id": "event-6222310a3b784b54ab35a81aaa8a045a",
+      "critic_event_id": "event-3e4244c8a99248abb7f43601fcaa082d",
+      "author_session_id": "01a19642-c319-7d80-ada6-e7aac6c12fd0",
+      "critic_session_id": "01a1964d-82cf-71d2-bf6a-9a3524519e94",
+      "critic_decision": "READY",
+      "whole_text_reviewed_revision": {
+        "bytes": 22525,
+        "path": "runs/submission-revision-20261101/results/E051-author/derived/revision.md",
+        "sha256": "f014d67df443c2aef3c67896d4f7594e79c8dcf04798c52d6a51716d52ef790c"
+      },
+      "read_original_complete": true,
+      "read_revision_complete": true
+    }
+  ],
+  "accepted_roles": [
+    {
+      "job_id": "E050-author",
+      "essay_id": "E050",
+      "scientific_role": "author",
+      "session_id": "01a19642-c319-7923-968a-7a16008dcfcd",
+      "accepted_event_id": "event-328088ecf93e4ab1a120c9abbda9210d",
+      "lineage_event_id": "event-ae49ea7f1d124885b32c90dacfcb952d",
+      "response": {
+        "bytes": 39495,
+        "path": "runs/submission-revision-20261101/results/E050-author/attempt-001/response.json",
+        "sha256": "12d2b7a311b06bddbe97adbbe96b042bd557dec62169c38bec3981aa485ce6ed"
+      },
+      "native_check": {
+        "bytes": 1998,
+        "path": "runs/submission-revision-20261101/results/E050-author/attempt-001/native-check.json",
+        "sha256": "a9c0abb176be980ee2975b0ed35aba5fc6d0e3acbe80c100f6b0a5a02fa1f1cb"
+      },
+      "configuration": {
+        "observed": [
+          {
+            "alternate_effort": null,
+            "effort": "ultra",
+            "line": 10,
+            "model": "gpt-6-astra",
+            "service_tier": null
+          }
+        ],
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra",
+          "service_tier": "default"
+        }
+      },
+      "requested_model": "gpt-6-astra",
+      "requested_effort": "ultra",
+      "requested_service_tier": "default"
+    },
+    {
+      "job_id": "E012-author",
+      "essay_id": "E012",
+      "scientific_role": "author",
+      "session_id": "01a19642-c319-7c30-9fe8-b83251ce36d6",
+      "accepted_event_id": "event-adb0dd345bd541aea198685de0fb2afd",
+      "lineage_event_id": "event-c58196ed07d549ec915f67ea9ee6b92a",
+      "response": {
+        "bytes": 47302,
+        "path": "runs/submission-revision-20261101/results/E012-author/attempt-001/response.json",
+        "sha256": "1603d9ba4864f607598dd6dca2bec05d7f0e0cb158da57e31503d4252c508148"
+      },
+      "native_check": {
+        "bytes": 1998,
+        "path": "runs/submission-revision-20261101/results/E012-author/attempt-001/native-check.json",
+        "sha256": "e0a43b22d15eabf8a49ac1c5e13400a1259e300f2e2619773f3e2867a7d96205"
+      },
+      "configuration": {
+        "observed": [
+          {
+            "alternate_effort": null,
+            "effort": "ultra",
+            "line": 10,
+            "model": "gpt-6-astra",
+            "service_tier": null
+          }
+        ],
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra",
+          "service_tier": "default"
+        }
+      },
+      "requested_model": "gpt-6-astra",
+      "requested_effort": "ultra",
+      "requested_service_tier": "default"
+    },
+    {
+      "job_id": "E051-author",
+      "essay_id": "E051",
+      "scientific_role": "author",
+      "session_id": "01a19642-c319-7d80-ada6-e7aac6c12fd0",
+      "accepted_event_id": "event-6222310a3b784b54ab35a81aaa8a045a",
+      "lineage_event_id": "event-69c3d57ff5d146c49b6ddd6ab57d3339",
+      "response": {
+        "bytes": 34981,
+        "path": "runs/submission-revision-20261101/results/E051-author/attempt-001/response.json",
+        "sha256": "a384d4df234dd9d6cdecca7367acc8d36be0b9c751b74afce15ba8399b58c573"
+      },
+      "native_check": {
+        "bytes": 1998,
+        "path": "runs/submission-revision-20261101/results/E051-author/attempt-001/native-check.json",
+        "sha256": "16c521caa4ddf1e251ea7d9c24674c95520c830effd1f43da22bced9520dbf82"
+      },
+      "configuration": {
+        "observed": [
+          {
+            "alternate_effort": null,
+            "effort": "ultra",
+            "line": 10,
+            "model": "gpt-6-astra",
+            "service_tier": null
+          }
+        ],
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra",
+          "service_tier": "default"
+        }
+      },
+      "requested_model": "gpt-6-astra",
+      "requested_effort": "ultra",
+      "requested_service_tier": "default"
+    },
+    {
+      "job_id": "E012-critic",
+      "essay_id": "E012",
+      "scientific_role": "critic",
+      "session_id": "01a1964d-82d0-76d3-933d-bd350e6b2478",
+      "accepted_event_id": "event-635df5235a304bfe9865ae8edbe803c7",
+      "lineage_event_id": "event-8d16e98509db4147ba93a64fee60c4ae",
+      "response": {
+        "bytes": 13644,
+        "path": "runs/submission-revision-20261101/results/E012-critic/attempt-001/response.json",
+        "sha256": "3907f83dc97ff58694a0c84d243f3a28dc8871cad3852039ba039eeb864e9b12"
+      },
+      "native_check": {
+        "bytes": 1998,
+        "path": "runs/submission-revision-20261101/results/E012-critic/attempt-001/native-check.json",
+        "sha256": "6493dc0a2beec514d81400d3d32526fc477097125d3ce2316feb70d2285d29e4"
+      },
+      "configuration": {
+        "observed": [
+          {
+            "alternate_effort": null,
+            "effort": "ultra",
+            "line": 10,
+            "model": "gpt-6-astra",
+            "service_tier": null
+          }
+        ],
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra",
+          "service_tier": "default"
+        }
+      },
+      "requested_model": "gpt-6-astra",
+      "requested_effort": "ultra",
+      "requested_service_tier": "default"
+    },
+    {
+      "job_id": "E050-critic",
+      "essay_id": "E050",
+      "scientific_role": "critic",
+      "session_id": "01a1964d-82d0-7482-8946-c25f77a913ee",
+      "accepted_event_id": "event-4eb86bb0e52e4912976db37d8afb4653",
+      "lineage_event_id": "event-cbd619bb244e4f86a85775d270ab049c",
+      "response": {
+        "bytes": 13719,
+        "path": "runs/submission-revision-20261101/results/E050-critic/attempt-001/response.json",
+        "sha256": "7047b167184c8082d0ca9b038d5d77c21d40490463f6276faf63f150f03a3b7e"
+      },
+      "native_check": {
+        "bytes": 1998,
+        "path": "runs/submission-revision-20261101/results/E050-critic/attempt-001/native-check.json",
+        "sha256": "3e7fca33417d7db9db73eb5decd49f80e095962df3cb74f1bf662dfc2613a1cc"
+      },
+      "configuration": {
+        "observed": [
+          {
+            "alternate_effort": null,
+            "effort": "ultra",
+            "line": 10,
+            "model": "gpt-6-astra",
+            "service_tier": null
+          }
+        ],
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra",
+          "service_tier": "default"
+        }
+      },
+      "requested_model": "gpt-6-astra",
+      "requested_effort": "ultra",
+      "requested_service_tier": "default"
+    },
+    {
+      "job_id": "E051-critic",
+      "essay_id": "E051",
+      "scientific_role": "critic",
+      "session_id": "01a1964d-82cf-71d2-bf6a-9a3524519e94",
+      "accepted_event_id": "event-3e4244c8a99248abb7f43601fcaa082d",
+      "lineage_event_id": "event-5b262c428c544195a23768e13c34b314",
+      "response": {
+        "bytes": 13876,
+        "path": "runs/submission-revision-20261101/results/E051-critic/attempt-001/response.json",
+        "sha256": "3bdb7510ae0be6c9b2dab086edf2e072a98d0ca9a2adb1aec90204b3fc91ac5a"
+      },
+      "native_check": {
+        "bytes": 1998,
+        "path": "runs/submission-revision-20261101/results/E051-critic/attempt-001/native-check.json",
+        "sha256": "72c6dd3b2fd200357a186bcbf9f6392dd20f84d1e7dfe8891844ea9bab44487c"
+      },
+      "configuration": {
+        "observed": [
+          {
+            "alternate_effort": null,
+            "effort": "ultra",
+            "line": 10,
+            "model": "gpt-6-astra",
+            "service_tier": null
+          }
+        ],
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra",
+          "service_tier": "default"
+        }
+      },
+      "requested_model": "gpt-6-astra",
+      "requested_effort": "ultra",
+      "requested_service_tier": "default"
+    }
+  ],
+  "accepted_scoped_checks": [
+    {
+      "job_id": "E050-grammar-check",
+      "essay_id": "E050",
+      "scientific_role": "grammar_checker",
+      "scope": "EXACT_GRAMMAR_CHANGE_ONLY",
+      "session_id": "01a19663-2148-7d23-ac8a-40922efab4ca",
+      "accepted_event_id": "event-a162fe57bd454b2eb5400691006df18d",
+      "lineage_event_id": "event-e9cf81917f30479d92e55fa6c883ad75",
+      "response": {
+        "bytes": 1141,
+        "path": "runs/submission-revision-20261101/grammar-repair/results/E050-grammar-check/attempt-001/response.json",
+        "sha256": "56bba28c2cf83a7c3673519065e70ccfbd1e3e329bea422000ab8ab14ab263ff"
+      },
+      "terminal_receipt": {
+        "bytes": 3813,
+        "path": "runs/submission-revision-20261101/grammar-repair/results/E050-grammar-check/attempt-001/receipt.json",
+        "sha256": "e8874e4e7128e29d0f275cd2cebe6dbe22eebed15491680fedcf676d707b61d5"
+      },
+      "decision": "READY",
+      "resolved_findings": [
+        "F1"
+      ],
+      "requested_model": "gpt-6-astra",
+      "requested_effort": "ultra",
+      "requested_service_tier": "default",
+      "whole_text_review_repeated": false,
+      "original_whole_text_critic_decision": "MINOR_FIXES",
+      "recorded_reviewer_decision": "READY",
+      "recorded_ready_for_exact_change": false,
+      "effective_scoped_readiness": "READY_FROM_EXACT_ACCEPTED_RESPONSE",
+      "amendment": {
+        "path": "runs/submission-revision-20261101/closure-grammar-observations/AMENDMENT.json",
+        "sha256": "aaeae4599ea409ce3f5e4816b3c72ec2aab980d6b9ada19380862fc4f78aaa2a",
+        "bytes": 1421
+      }
+    }
+  ],
+  "scoped_checks_accepted": 1,
+  "whole_text_critic_decisions": {
+    "E050": "MINOR_FIXES",
+    "E012": "READY",
+    "E051": "READY"
+  },
+  "resolved_findings": {
+    "E050": [
+      "F1"
+    ]
+  },
+  "scientific_results_accepted": 6,
+  "old_roles_repeated": 0,
+  "originals_unchanged": true,
+  "content_only": true,
+  "anonymous_submission_package_prepared": false,
+  "submission_authorized": false,
+  "provider_calls_by_closure": 0,
+  "selected_lineage_event_ids": [
+    "event-424d605947c044faaf79086137ba487c",
+    "event-0e2fa5aca802423abc43eb0608539560",
+    "event-652c051d3a42415ca489f5056c1b7a9e"
+  ],
+  "typed_stage_event_ids": {
+    "sources": "event-f44ac9ed8f49400fafcce0ff1534d066",
+    "contribution": "event-14470b7c4c834f9d9fbc9ae9b82c8039",
+    "critique": "event-da14b64ee5154c64bdf6d87fc0cb977c",
+    "decision": "event-90afbfc212ed42c3888d3d629636ed85"
+  },
+  "administrative_checkpoint_event_id": "event-a260dd16d3e54282bf23379a89e30509",
+  "administrative_capture_status": "INCOMPLETE",
+  "artifacts": {
+    "decisions": {
+      "path": "runs/submission-revision-20261101/coordinator/DECISIONS.json",
+      "sha256": "ccea0cdd80fb38e3123a8ecb73d713463b12ea6465a82a35ccb6850bf948f69b",
+      "bytes": 5298
+    },
+    "summary": {
+      "path": "runs/submission-revision-20261101/coordinator/CHANGE_SUMMARY_RU.md",
+      "sha256": "6d51d4b4b33a10285bde1d66009369a82ed3cf0d7b56d678ade8d91cfe58741e",
+      "bytes": 3369
+    },
+    "word_counts": {
+      "path": "runs/submission-revision-20261101/coordinator/WORD_COUNTS.json",
+      "sha256": "88743a93d4a0a938922d9e156ed86690626fab6fa6c8771dd12ca61f144c936f",
+      "bytes": 3153
+    },
+    "source_ledger": {
+      "path": "runs/submission-revision-20261101/coordinator/SOURCE_LEDGER.json",
+      "sha256": "f5b6a10b7cfc5bbb577389e465eae88f28802ba74e3cc1be116cf76691416d84",
+      "bytes": 21889
+    },
+    "checkpoint": {
+      "path": "runs/submission-revision-20261101/coordinator/CHECKPOINT.json",
+      "sha256": "797ba302b4df445e11ddd34d4107504ab8c96f9e5c99914b489532d2d71ac96f",
+      "bytes": 3335
+    }
+  },
+  "request": {
+    "path": "runs/submission-revision-20261101/closure-grammar-observations/REQUEST.json",
+    "sha256": "a340c49ce34622f3d30fcc4bd8e03d597e12f020cfdb401b1547521168447bf3",
+    "bytes": 4241
+  },
+  "boundary": "Three exact AI revisions and three separate whole-text AI critiques are canonically accepted. E012 and E051 have READY critiques. The original E050 whole-text verdict remains MINOR_FIXES with finding F1. A separate fresh checker accepted only the exact sentence correction, its grammar, diff and preservation of meaning. That scoped READY does not replace the original whole-text verdict or constitute another scientific or novelty review. The accepted checker itself said READY; its three findings are exact positive observations. The historical empty-findings predicate computed false and remains preserved. The critics confirmed reading the exact original/revised manuscripts; their supplied primary passages and source-check limits are preserved, not the later coordinator decisions, summaries, source ledger or word counts. This finite receipt confirms content-only revision acceptance. The standard administrative checkpoint remains INCOMPLETE and philosophical truth NOT_CERTIFIED. No whole-provider capture, exhaustive novelty, anonymous submission package, public release or actual submission is certified or launched.",
+  "event_id": "event-e6a96dde07564cfa99fd6e6bd60918dc",
+  "event_sequence": 729524,
+  "event_sha256": "b13519dd5529ec93e65452cbdf4e8d79ae178c0a666112303d09336906acc62e"
+}

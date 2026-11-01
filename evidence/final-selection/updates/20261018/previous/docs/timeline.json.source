@@ -1,0 +1,733 @@
+{
+  "display_timezone": "America/Los_Angeles",
+  "updated_on": "2026-10-17",
+  "date_policy": "Every row identifies whether it dates a request, start, test, release, verification, or archive recording. Never substitute import or filesystem time for production time.",
+  "events": [
+    {
+      "date_local": "2026-09-07",
+      "source_timestamp": "2026-09-07T20:16:52.828Z",
+      "kind": "Request",
+      "title": "Plan a complete conversation record",
+      "detail": "Logging and a future readable account were part of the plan from the beginning.",
+      "link": "quotes.md#q01",
+      "source": {
+        "session_id": "01a07d7c-05c5-7091-a7cc-692e19ff8fca",
+        "source_line": 54,
+        "text_sha256": "52dad3d1b488059c86062de398fa9a9363007c1a9f0e7420de2f0dead86e0b66"
+      },
+      "chapter": "provenance",
+      "date_basis": "Original human message",
+      "id": "t01"
+    },
+    {
+      "date_local": "2026-09-07",
+      "source_timestamp": "2026-09-08T05:09:04.722Z",
+      "kind": "Authorization",
+      "title": "Authorize the collector build",
+      "detail": "The request authorizes implementation; it is not itself a passing runtime check.",
+      "link": "quotes.md#q25",
+      "source": {
+        "session_id": "01a07ed5-d648-7693-a592-9f053c074716",
+        "source_line": 410,
+        "text_sha256": "7d53c5f3a03a503ee19ae7a91717cc1801eee89022a57077fe4c5935786da182"
+      },
+      "chapter": "provenance",
+      "date_basis": "Original human message",
+      "id": "t02"
+    },
+    {
+      "date_local": "2026-09-08",
+      "source_timestamp": "2026-09-08T07:08:16.911Z",
+      "kind": "Process decision",
+      "title": "Use the word ceiling as a ceiling",
+      "detail": "Argument quality, rather than reaching 6,000 words, sets the length.",
+      "link": "quotes.md#q10",
+      "source": {
+        "session_id": "01a07ed5-d648-7693-a592-9f053c074716",
+        "source_line": 1224,
+        "text_sha256": "b088293ea06992174f9c1d248edba8ef8879feb370fb5364a5c6bebdd3b1c03e"
+      },
+      "chapter": "generation",
+      "date_basis": "Original human message",
+      "id": "t03"
+    },
+    {
+      "date_local": "2026-09-08",
+      "source_timestamp": "2026-09-08T07:25:54.123Z",
+      "kind": "Process decision",
+      "title": "Separate the first ten author contexts",
+      "detail": "The first essays must be preserved without feeding one essay into another author’s context.",
+      "link": "quotes.md#q11",
+      "source": {
+        "session_id": "01a07ed5-d648-7693-a592-9f053c074716",
+        "source_line": 1292,
+        "text_sha256": "b99076d6c49486365d76cd759bfb4f7db4aa9acb36e2e4a4dc9d08152f045c04"
+      },
+      "chapter": "generation",
+      "date_basis": "Original human message",
+      "id": "t04"
+    },
+    {
+      "date_local": "2026-09-10",
+      "source_timestamp": "2026-09-10T07:17:05.567Z",
+      "kind": "Experiment requested",
+      "title": "Try deliberately plain language",
+      "detail": "The explicit very-simple-language request applied to that 20-essay batch.",
+      "link": "quotes.md#q13",
+      "source": {
+        "session_id": "01a07ed5-d648-7693-a592-9f053c074716",
+        "source_line": 5830,
+        "text_sha256": "07f0802697c1fc85b071ac3b3f367518a57b956a0bb5f77506c70b0c51ba518c"
+      },
+      "chapter": "generation",
+      "date_basis": "Original human message",
+      "id": "t05"
+    },
+    {
+      "date_local": "2026-09-10",
+      "source_timestamp": "2026-09-10T20:20:27.686Z",
+      "kind": "Process decision",
+      "title": "Record a model change",
+      "detail": "A switch made for subscription usage remains part of the lineage.",
+      "link": "quotes.md#q40",
+      "source": {
+        "session_id": "01a07ed5-d648-7693-a592-9f053c074716",
+        "source_line": 7861,
+        "text_sha256": "0cb91eca9598455220fd3731fbb0a4ece551135d59d1b4d7114ac0c5d1f341f9"
+      },
+      "chapter": "generation",
+      "date_basis": "Original human message",
+      "id": "t06"
+    },
+    {
+      "date_local": "2026-09-12",
+      "source_timestamp": "2026-09-13T02:39:04.457Z",
+      "kind": "Rationale",
+      "title": "Use the second subscription",
+      "detail": "The bridge was meant to let the project use Claude Code’s subscription allowance too.",
+      "link": "quotes.md#q43",
+      "source": {
+        "session_id": "01a09477-5a98-7ca2-bc2b-8e27701fee47",
+        "source_line": 1432,
+        "text_sha256": "bd4c82bfcc14cf0dccdf543d8844d4cec7c92de6283261550d071fd421e0be48"
+      },
+      "chapter": "bridge",
+      "date_basis": "Original human message",
+      "id": "t07"
+    },
+    {
+      "date_local": "2026-09-12",
+      "source_timestamp": "2026-09-13T04:01:12.285515+00:00",
+      "kind": "Implementation recorded",
+      "title": "Persistent bridge build accepted",
+      "detail": "The build was registered and checked; live transport and research acceptance were separate gates.",
+      "link": "bridge.md",
+      "source": {
+        "path": "research/archive/events/000000080366.json",
+        "sha256": "121fd6439f3a342d75bb0b56c671af3d155c9597c7e08abb554794a9b640759b",
+        "field": "recorded_at",
+        "event_id": "event-df14e43c5aeb489482971721c33a4b00"
+      },
+      "chapter": "bridge",
+      "date_basis": "Archive recording time; actual event time not independently known",
+      "id": "t08"
+    },
+    {
+      "date_local": "2026-09-13",
+      "source_timestamp": "2026-09-14T02:51:07.533Z",
+      "kind": "Incident",
+      "title": "Preserve the tool-name misunderstanding",
+      "detail": "The Superset detour became part of the history, including its later rollback.",
+      "link": "quotes.md#q53",
+      "source": {
+        "session_id": "01a09c03-070e-7342-bcca-f0653192c5fb",
+        "source_line": 1764,
+        "text_sha256": "048d8eb5af7f1ceb7d5fa50a7bca3e5c02f604aab017d3887f2226d6c58c74c0"
+      },
+      "chapter": "bridge",
+      "date_basis": "Original human message",
+      "id": "t09"
+    },
+    {
+      "date_local": "2026-09-14",
+      "source_timestamp": "2026-09-15T04:42:01.792Z",
+      "kind": "Design feedback",
+      "title": "Simplify the repeatedly failing bridge",
+      "detail": "Repeated operational failures prompted a change of approach.",
+      "link": "quotes.md#q55",
+      "source": {
+        "session_id": "01a09c03-070e-7342-bcca-f0653192c5fb",
+        "source_line": 3003,
+        "text_sha256": "903c372b612c09eb9ae7ac403a24a8b4ed76723941b4ca134e17c45c55b8476e"
+      },
+      "chapter": "bridge",
+      "date_basis": "Original human message",
+      "id": "t10"
+    },
+    {
+      "date_local": "2026-09-20",
+      "source_timestamp": "2026-09-20T09:24:05.250912+00:00",
+      "kind": "Implementation started",
+      "title": "Begin the small CLI runner implementation",
+      "detail": "A sequential main-session runner replaced the dispatcher relay in this new implementation.",
+      "link": "bridge.md",
+      "source": {
+        "path": "runs/cli-runner-build-20260920/round-start.json",
+        "sha256": "9880122063751d145798ec40178e43a5874e9aa6922389c5cda5df784f8fdf4f",
+        "field": "recorded_at",
+        "event_id": "event-a9c22781f40644d78be8ee8191df79ea"
+      },
+      "chapter": "bridge",
+      "date_basis": "Archive recording time; actual event time not independently known",
+      "id": "t11"
+    },
+    {
+      "date_local": "2026-09-20",
+      "source_timestamp": "2026-09-20T09:41:09.017011+00:00",
+      "kind": "Test completed",
+      "title": "Pass the bounded CLI smoke test",
+      "detail": "Three sessions checked file context, dependency delivery, and interruption/resume. This did not yet test long essays or real quota exhaustion.",
+      "link": "bridge.md",
+      "source": {
+        "path": "runs/cli-smoke-live-20260920/final-report.json",
+        "sha256": "3e2e3c129ffa19a48118b30b55779dcdde633e4fc42ddf5d928c3348afc0a0f9",
+        "field": "finished_at",
+        "event_id": null
+      },
+      "chapter": "bridge",
+      "date_basis": "Timestamp in the identified source record",
+      "id": "t12"
+    },
+    {
+      "date_local": "2026-09-21",
+      "source_timestamp": "2026-09-21T21:38:47.170434+00:00",
+      "kind": "Implementation recorded",
+      "title": "Complete the biography backfill",
+      "detail": "Readable per-essay histories were connected to canonical entries and source artifacts. Backfilling did not invent historical birth times.",
+      "link": "provenance.md",
+      "source": {
+        "path": "research/archive/events/000000103040.json",
+        "sha256": "3fba050db23719afd42295e4f5c5aa7b7e3b1abd79a99c27eb160bbe43b867cd",
+        "field": "recorded_at",
+        "event_id": "event-9319c6b2c47d4bd6b8c414932df02c09"
+      },
+      "chapter": "provenance",
+      "date_basis": "Archive recording time; actual event time not independently known",
+      "id": "t13"
+    },
+    {
+      "date_local": "2026-09-22",
+      "source_timestamp": "2026-09-22T08:14:36.240Z",
+      "kind": "Process clarification",
+      "title": "Put contribution checking before drafting",
+      "detail": "The creative series had moved an independent contribution check ahead of drafting after three full-manuscript failures.",
+      "link": "quotes.md#q16",
+      "source": {
+        "session_id": "01a0c80c-fc80-72f0-b1c3-c6337a451001",
+        "source_line": 31,
+        "text_sha256": "82a06e7b97c6bfc67634711be222e8215e7b20ff28b3d105db1174591a83158b"
+      },
+      "chapter": "generation",
+      "date_basis": "Original human message",
+      "id": "t14"
+    },
+    {
+      "date_local": "2026-09-22",
+      "source_timestamp": "2026-09-22T08:14:36.240Z",
+      "kind": "Process decision",
+      "title": "Give two critics distinct jobs",
+      "detail": "Argument criticism and contribution criticism had separate roles.",
+      "link": "quotes.md#q33",
+      "source": {
+        "session_id": "01a0c80c-fc80-72f0-b1c3-c6337a451001",
+        "source_line": 31,
+        "text_sha256": "82a06e7b97c6bfc67634711be222e8215e7b20ff28b3d105db1174591a83158b"
+      },
+      "chapter": "generation",
+      "date_basis": "Original human message",
+      "id": "t15"
+    },
+    {
+      "date_local": "2026-09-25",
+      "source_timestamp": "2026-09-26T00:53:54.738Z",
+      "kind": "Authorship boundary",
+      "title": "Let the AI propose the content",
+      "detail": "Human process design and selection stayed separate from AI-origin philosophical content.",
+      "link": "quotes.md#q18",
+      "source": {
+        "session_id": "01a0d281-ce48-72a3-8f42-b3a849471fd1",
+        "source_line": 158,
+        "text_sha256": "c5d3ea4332a3639e9789c1ba77738462d9907574b9868192efefd8635c129026"
+      },
+      "chapter": "generation",
+      "date_basis": "Original human message",
+      "id": "t16"
+    },
+    {
+      "date_local": "2026-09-25",
+      "source_timestamp": "2026-09-26T04:25:55.296Z",
+      "kind": "Pause instruction",
+      "title": "Save a precise resource-pause handoff",
+      "detail": "Preserve the exact stopping point, accepted work, and pending dependencies.",
+      "link": "quotes.md#q46",
+      "source": {
+        "session_id": "01a0d281-ce48-72a3-8f42-b3a849471fd1",
+        "source_line": 3735,
+        "text_sha256": "b855e42865b8a38fbdac4f09b0e055eaa2880e6d49ac4d8daeaeff671d8f5362"
+      },
+      "chapter": "generation",
+      "date_basis": "Original human message",
+      "id": "t17"
+    },
+    {
+      "date_local": "2026-10-04",
+      "source_timestamp": "2026-10-04T09:01:54.761Z",
+      "kind": "Repair instruction",
+      "title": "Repair capture without rewriting history",
+      "detail": "A capture correction must preserve original records and earlier failures.",
+      "link": "quotes.md#q29",
+      "source": {
+        "session_id": "01a0d281-ce48-72a3-8f42-b3a849471fd1",
+        "source_line": 37828,
+        "text_sha256": "12dad0f50213e4b1f613b200698af68baa780263269de24362cf655fc3ef734c"
+      },
+      "chapter": "provenance",
+      "date_basis": "Original human message",
+      "id": "t18"
+    },
+    {
+      "date_local": "2026-10-07",
+      "source_timestamp": "2026-10-07T09:30:01.066Z",
+      "kind": "Blinding instruction",
+      "title": "Hide the biography from reviewers",
+      "detail": "Full manuscripts were reviewed without production histories or earlier ratings.",
+      "link": "quotes.md#q34",
+      "source": {
+        "session_id": "01a115ac-4e5a-72f1-b5fd-3ff075cf8433",
+        "source_line": 42,
+        "text_sha256": "f33a67e6bf7f5ce57df59260b199fd7b7e501745919dab956cc3743a1841a7ac"
+      },
+      "chapter": "evaluation",
+      "date_basis": "Original human message",
+      "id": "t19"
+    },
+    {
+      "date_local": "2026-10-07",
+      "source_timestamp": "2026-10-07T09:58:56.433Z",
+      "kind": "Midterm instruction",
+      "title": "Review every essay with every profile",
+      "detail": "The full panel was requested for all essays, with pilot results reused.",
+      "link": "quotes.md#q35",
+      "source": {
+        "session_id": "01a115ac-4e5a-72f1-b5fd-3ff075cf8433",
+        "source_line": 185,
+        "text_sha256": "52520dcbc7a8fc71b368652ec7ee7388aa9f719ab74d8891fc554bcbe8948749"
+      },
+      "chapter": "evaluation",
+      "date_basis": "Original human message",
+      "id": "t20"
+    },
+    {
+      "date_local": "2026-10-08",
+      "source_timestamp": "2026-10-09T06:33:44.952Z",
+      "kind": "Selection decision",
+      "title": "Keep a wildcard route",
+      "detail": "The selection procedure left room for an unusual candidate outside its ordinary route.",
+      "link": "quotes.md#q38",
+      "source": {
+        "session_id": "01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0",
+        "source_line": 82,
+        "text_sha256": "1d6031a56e1a4a8eaa27890d6cb96a2d7e473dbeed8678b534daa30b2e272af4"
+      },
+      "chapter": "evaluation",
+      "date_basis": "Original human message",
+      "id": "t21"
+    },
+    {
+      "date_local": "2026-10-10",
+      "source_timestamp": "2026-10-11T01:12:14.086Z",
+      "kind": "Diagnostic instruction",
+      "title": "Test the evaluators in separate experiments",
+      "detail": "Error detection, wording, comparison order, repetitions, and false positives needed separate tests.",
+      "link": "quotes.md#q39",
+      "source": {
+        "session_id": "01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0",
+        "source_line": 985,
+        "text_sha256": "3233a53534d8f05f737b962d6a947810a61231c57f62362b963b3a5db22c6f07"
+      },
+      "chapter": "evaluation",
+      "date_basis": "Original human message",
+      "id": "t22"
+    },
+    {
+      "date_local": "2026-10-10",
+      "source_timestamp": "2026-10-11T01:12:14.086Z",
+      "kind": "Process clarification",
+      "title": "Make clarity a general writing rule",
+      "detail": "Simplify expression while preserving essential premises, objections, and qualifications.",
+      "link": "quotes.md#q19",
+      "source": {
+        "session_id": "01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0",
+        "source_line": 985,
+        "text_sha256": "3233a53534d8f05f737b962d6a947810a61231c57f62362b963b3a5db22c6f07"
+      },
+      "chapter": "generation",
+      "date_basis": "Original human message",
+      "id": "t23"
+    },
+    {
+      "date_local": "2026-10-11",
+      "source_timestamp": "2026-10-12T03:06:07.794813+00:00",
+      "kind": "Closure recorded",
+      "title": "Record midterm closure",
+      "detail": "The finite campaign closed with nine candidates, five diagnostic gaps, no final winner, and the E036 version choice open.",
+      "link": "evaluation.md",
+      "source": {
+        "path": "research/archive/events/000000311972.json",
+        "sha256": "dd19b4c0ad4cf6cbf337fba16cf22ba3835d96af91a2f8fe3a6d0cea3eba7556",
+        "field": "recorded_at",
+        "event_id": "event-9d9e2f2b2731446599257592ee28a016"
+      },
+      "chapter": "evaluation",
+      "date_basis": "Archive recording time; actual event time not independently known",
+      "id": "t24"
+    },
+    {
+      "id": "t37",
+      "date_local": "2026-10-12",
+      "source_timestamp": "2026-10-13T03:09:53.199Z",
+      "kind": "Process decision",
+      "title": "Choose five programs and enlarge the idea search",
+      "detail": "The user chose literature audits, argument development, a larger idea search, new essays, and a rejection check. The prepared plan expanded the search from 60 to 300 attempts; 300 was the coordinator’s choice of scale.",
+      "link": "../logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.md#source-line-10814",
+      "source": {
+        "session_id": "01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0",
+        "source_line": 10814,
+        "text_sha256": "1a64681195ba95ad5af8e7f5767696d666520b9778a8c4456b05f2b7ea9d13ce",
+        "repository_path": "logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.json"
+      },
+      "supplementary_sources": [
+        {
+          "path": "handoffs/postmidterm-20261012/PREPARATION_SCOPE.json",
+          "sha256": "21459159215f0a495f8ce237a7d9bf62574b4ec179e08937fc2073855c189152"
+        }
+      ],
+      "chapter": "post-midterm",
+      "date_basis": "Original human message; preparation and execution are dated separately"
+    },
+    {
+      "id": "t38",
+      "date_local": "2026-10-12",
+      "source_timestamp": "2026-10-13T03:11:57.719Z",
+      "kind": "Process decision",
+      "title": "Let Claude work independently of the five Codex chats",
+      "detail": "Each Codex task received its own file packet for manual delivery. The user chose a separate packet handed directly to Claude Code, so Codex completion would not depend on waiting for Claude.",
+      "link": "../logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.md#source-line-10852",
+      "source": {
+        "session_id": "01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0",
+        "source_line": 10852,
+        "text_sha256": "67f9b3a61f9c44c478a489c675a2ecee965d2d2024b6c0fea16a2410adfd227f",
+        "repository_path": "logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.json"
+      },
+      "supplementary_sources": [
+        {
+          "path": "handoffs/postmidterm-20261012/PREPARATION_SCOPE.json",
+          "sha256": "21459159215f0a495f8ce237a7d9bf62574b4ec179e08937fc2073855c189152"
+        }
+      ],
+      "chapter": "post-midterm",
+      "date_basis": "Original human message; preparation and execution are dated separately"
+    },
+    {
+      "id": "t39",
+      "date_local": "2026-10-13",
+      "source_timestamp": "2026-10-14T04:47:15.512Z",
+      "kind": "Process decision",
+      "title": "Prepare manual continuation on Sol with Standard speed",
+      "detail": "Following agreement on high/xhigh effort and no Fast mode, the five remaining task packets were prepared for GPT-6.1 Sol. The user would deliver them; the coordinator did not dispatch the continuations.",
+      "link": "../logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.md#source-line-11568",
+      "source": {
+        "session_id": "01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0",
+        "source_line": 11568,
+        "text_sha256": "6691a2c929b0ab9e7bd3fd99bbbdf962402422835546fe3de4fe7a84f41575f7",
+        "repository_path": "logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.json"
+      },
+      "supplementary_sources": [
+        {
+          "path": "handoffs/postmidterm-resume-sol-20261013/MANUAL_DELIVERY.json",
+          "sha256": "72a337074d5ec6c4f23370beb69a44af244df6c2f30160d1ee3a61e82f753581"
+        }
+      ],
+      "chapter": "post-midterm",
+      "date_basis": "Original human message; preparation and execution are dated separately"
+    },
+    {
+      "id": "t40",
+      "date_local": "2026-10-13",
+      "source_timestamp": "2026-10-14T05:00:07.088Z",
+      "kind": "Process decision",
+      "title": "Keep the guide in English and the Russian logs verbatim",
+      "detail": "The repository would present its account in English while retaining exact original prompts, including profanity. Selected Russian quotations would have English translations; the separate Russian methodology dossier was excluded.",
+      "link": "../logs/codex/chats/01a12e9b-c540-7b71-a01c-c5c660081ccb/conversation.md#source-line-1036",
+      "source": {
+        "session_id": "01a12e9b-c540-7b71-a01c-c5c660081ccb",
+        "source_line": 1036,
+        "text_sha256": "64dbf1da5d0762da5de17ae799adf436d0a906b85ddb30bf163cb48a8592767b",
+        "repository_path": "logs/codex/chats/01a12e9b-c540-7b71-a01c-c5c660081ccb/conversation.json"
+      },
+      "supplementary_sources": [],
+      "chapter": "post-midterm",
+      "date_basis": "Original human message; preparation and execution are dated separately"
+    },
+    {
+      "date_local": "2026-10-13",
+      "source_timestamp": "2026-10-14T05:41:08Z",
+      "kind": "Repository import",
+      "title": "Import the first private edition",
+      "detail": "100 originals, English biographies, five translations, logs, and 61 exact quotations.",
+      "link": "../essays/README.md",
+      "source": {
+        "path": "runs/github-import-20261013/remote-commit.json",
+        "sha256": "d2ea7544fddfa6110cd73c372e1e650e539cbdf44969d6ec19db55ae6f52adcf",
+        "field": "author.date",
+        "commit": "514d88fc2583235d298ca41378c8661a3aa31a68"
+      },
+      "chapter": "repository",
+      "date_basis": "GitHub commit timestamp; not manuscript production time",
+      "id": "t25"
+    },
+    {
+      "id": "t36",
+      "date_local": "2026-10-14",
+      "source_timestamp": "2026-10-14T11:48:34.832917+00:00",
+      "kind": "Release recorded",
+      "title": "Complete the fixed-20 rejection check",
+      "detail": "Forty blind reviews of 20 preselected rejected essays produced six conditional returns, eleven reserves, and three rejections of the current argument.",
+      "link": "post-midterm.md",
+      "source": {
+        "path": "runs/postmidterm-20261012/05-rescue/releases/v3/READY.json",
+        "sha256": "6e9b9a8f2c4f5aa5c6145df4e5412b930e09b70c4c804914fc8e0d06de028f09",
+        "field": "created_at",
+        "repository_index": "evidence/post-midterm/releases.json"
+      },
+      "chapter": "post-midterm",
+      "date_basis": "Accepted READY release creation time"
+    },
+    {
+      "id": "t35",
+      "date_local": "2026-10-14",
+      "source_timestamp": "2026-10-14T17:22:06.292842+00:00",
+      "kind": "Release recorded",
+      "title": "Complete the argument work",
+      "detail": "Forty roles developed and tested 12 branches for four candidates; four syntheses recorded what could support a later revision.",
+      "link": "post-midterm.md",
+      "source": {
+        "path": "runs/postmidterm-20261012/02-argument-research/E009/releases/v3/READY.json",
+        "sha256": "30ba8c6d54037b33b2b610101da517aee79f544d7977ca3e521e51295a8f0400",
+        "field": "created_at",
+        "repository_index": "evidence/post-midterm/releases.json"
+      },
+      "chapter": "post-midterm",
+      "date_basis": "Accepted READY release creation time"
+    },
+    {
+      "date_local": "2026-10-14",
+      "source_timestamp": "2026-10-14T18:14:34.022729+00:00",
+      "kind": "Closure status recorded",
+      "title": "Close the Claude C2/C5 repair cycle",
+      "detail": "C2 was set aside with support; C5 achieved a partial repair. The larger 60-idea branch remained paused.",
+      "link": "post-midterm.md#the-separate-claude-branch",
+      "source": {
+        "path": "runs/claude-independent-20261012/repair-cycle-20261014/FINAL_STATUS.json",
+        "sha256": "d077e7688a2a424f62aca731d985f46be5b109dc4b8f9d5c8be09c1e750e0b00",
+        "field": "time",
+        "event_id": null
+      },
+      "chapter": "bridge",
+      "date_basis": "Timestamp in the identified source record",
+      "id": "t26"
+    },
+    {
+      "date_local": "2026-10-14",
+      "source_timestamp": "2026-10-15T01:59:35.776711+00:00",
+      "kind": "Acceptance recorded",
+      "title": "Finish nine literature audits",
+      "detail": "18 searches and nine syntheses were complete. Close predecessors were found; originality remained open.",
+      "link": "post-midterm.md",
+      "source": {
+        "path": "runs/postmidterm-20261012/01-literature/FINAL_RECEIPT.json",
+        "sha256": "eef79321708a305b213fbe56b32590c69cbe58a395608a755fe5949fe70485b1",
+        "field": "created_at",
+        "event_id": null
+      },
+      "chapter": "post-midterm",
+      "date_basis": "Timestamp in the identified source record",
+      "id": "t27"
+    },
+    {
+      "id": "t41",
+      "date_local": "2026-10-14",
+      "source_timestamp": "2026-10-15T05:14:12.764Z",
+      "kind": "Process decision",
+      "title": "Temporarily allow Astra/max and Fast in the idea search",
+      "detail": "The user authorized repairs and completion of the remaining idea-search work at Astra/max, explicitly enabling Fast. This exception belonged to that branch, not all five programs.",
+      "link": "../logs/codex/chats/01a1335b-c010-7962-90bd-89c369f9e656/conversation.md#source-line-13507",
+      "source": {
+        "session_id": "01a1335b-c010-7962-90bd-89c369f9e656",
+        "source_line": 13507,
+        "text_sha256": "ec2dbdb08ef1a099ba2ba69dfaec844f496e104fdedfb21712791147df304431",
+        "repository_path": "logs/codex/chats/01a1335b-c010-7962-90bd-89c369f9e656/conversation.json"
+      },
+      "supplementary_sources": [
+        {
+          "path": "runs/postmidterm-20261012/03-ideas/resume-astra-max-fast-20261015-v1/METHOD_AMENDMENT.v1.json",
+          "sha256": "d9459b47df26f73234786546e7553e061019e63e9a04310ebcada43c4c599a75"
+        }
+      ],
+      "chapter": "post-midterm",
+      "date_basis": "Original human message; preparation and execution are dated separately"
+    },
+    {
+      "id": "t42",
+      "date_local": "2026-10-15",
+      "source_timestamp": "2026-10-15T08:07:15.574Z",
+      "kind": "Process decision",
+      "title": "Return the idea-search remainder to Sol/xhigh",
+      "detail": "After reporting a quota reset, the user switched the remaining work to GPT-6.1 Sol/xhigh. The continuation was bound to Standard speed. These changes remain part of the method history, not a controlled model comparison.",
+      "link": "../logs/codex/chats/01a1335b-c010-7962-90bd-89c369f9e656/conversation.md#source-line-14596",
+      "source": {
+        "session_id": "01a1335b-c010-7962-90bd-89c369f9e656",
+        "source_line": 14596,
+        "text_sha256": "489906f9ed8c2398dbc1bc244c093d5da6f06880b335c58300d48d4c874f4bac",
+        "repository_path": "logs/codex/chats/01a1335b-c010-7962-90bd-89c369f9e656/conversation.json"
+      },
+      "supplementary_sources": [
+        {
+          "path": "runs/postmidterm-20261012/03-ideas/resume-sol-xhigh-standard-20261015-v1/METHOD_AMENDMENT.v1.json",
+          "sha256": "1b0b1701855f01b392f7fdb3f137d7cb8109e844d477e92dd0c24fc31325b09f"
+        }
+      ],
+      "chapter": "post-midterm",
+      "date_basis": "Original human message; preparation and execution are dated separately"
+    },
+    {
+      "date_local": "2026-10-15",
+      "source_timestamp": "2026-10-15T12:59:45.879331+00:00",
+      "kind": "Acceptance recorded",
+      "title": "Close the 300-attempt idea search",
+      "detail": "600 reviews and 24 deep dossiers produced one tentative seed; 17 planned seeded essay places stayed empty.",
+      "link": "post-midterm.md",
+      "source": {
+        "path": "research/archive/events/000000451225.json",
+        "sha256": "7282fcf285c1fcb8d1bcce06b889386f3e28855d62a36c8324c8b039a50c22f3",
+        "field": "recorded_at",
+        "event_id": "event-aafa3065336d42919627a97e2e80d8fd"
+      },
+      "chapter": "post-midterm",
+      "date_basis": "Archive recording time; actual event time not independently known",
+      "id": "t28"
+    },
+    {
+      "date_local": "2026-10-15",
+      "source_timestamp": "2026-10-15T21:51:00.815158+00:00",
+      "kind": "Acceptance recorded",
+      "title": "Accept seven complete essay cycles",
+      "detail": "Six free investigations and S02 from I012; each retained D0, two critiques, a response, and R1.",
+      "link": "../essays/post-midterm/README.md",
+      "source": {
+        "path": "runs/postmidterm-20261012/04-essays/seeded-sol-max-20261015/FINAL_RECEIPT.json",
+        "sha256": "799ceb56284afad6f34e29be24ec0bb61b7aa2dbe4e94c44e5594bde40d8d5a8",
+        "field": "recorded_at",
+        "event_id": "event-596bd97cb66744e3acab70b70b8be94d"
+      },
+      "chapter": "post-midterm",
+      "date_basis": "Archive recording time; actual event time not independently known",
+      "id": "t29"
+    },
+    {
+      "date_local": "2026-10-16",
+      "source_timestamp": "2026-10-17T06:48:40.450088+00:00",
+      "kind": "Verification",
+      "title": "Verify the five-program consolidation",
+      "detail": "24 current release packages and 6,108 linked files passed the consolidation’s byte checks. This was not a new philosophical review.",
+      "link": "post-midterm.md",
+      "source": {
+        "path": "runs/postmidterm-20261012/consolidation-20261016/VERIFICATION.v3.json",
+        "sha256": "2aa6fda75551c034bfeebdd9292938d32f32c8db332c0d3fbef4c8458b2f3682",
+        "field": "checked_at",
+        "event_id": null
+      },
+      "chapter": "post-midterm",
+      "date_basis": "Timestamp in the identified source record",
+      "id": "t30"
+    },
+    {
+      "date_local": "2026-10-17",
+      "source_timestamp": "2026-10-17T07:02:17.900449+00:00",
+      "kind": "Acceptance recorded",
+      "title": "Record final consolidation acceptance",
+      "detail": "Acceptance was recorded after midnight in California; the preceding overview and verification belong to October 16.",
+      "link": "post-midterm.md",
+      "source": {
+        "path": "research/archive/events/000000452521.json",
+        "sha256": "0797614adb0539e821e83286292fd91010323165d632a85c68b038a5f7fc0d13",
+        "field": "recorded_at",
+        "event_id": "event-8e64f6c0c12e4b7bba15701a77c0cfc2"
+      },
+      "chapter": "post-midterm",
+      "date_basis": "Archive recording time; actual event time not independently known",
+      "id": "t31"
+    },
+    {
+      "id": "t32",
+      "date_local": "2026-10-17",
+      "source_timestamp": "2026-10-17T21:23:02.166405+00:00",
+      "kind": "Workflow accepted",
+      "title": "Agree the 22 → 10 → 3 route",
+      "detail": "Prepare exact versions, make justified repairs, choose ten with two wildcards, then three entries and two reserves. The fixed reading calendar and division into chats were dropped.",
+      "link": "selection.md",
+      "source": {
+        "path": "research/archive/events/000000452801.json",
+        "sha256": "b03d3dd7c0f65a025bd8d12b27ad8015e2df1ab7a5b546e09fad6e07a1782446",
+        "field": "recorded_at",
+        "event_id": "event-bf6a2f8674144f108372724ab9d26b1c"
+      },
+      "chapter": "selection",
+      "date_basis": "Archive recording time; actual event time not independently known"
+    },
+    {
+      "id": "t33",
+      "date_local": "2026-10-17",
+      "source_timestamp": "2026-10-17T22:17:18.287647+00:00",
+      "kind": "Step completed",
+      "title": "Bind the 22 candidates and their versions",
+      "detail": "The first inventory recorded 13 unchanged candidates, eight requiring work, and one deferral. It preserved 32 manuscript versions; the E086 decision was later corrected.",
+      "link": "selection.md",
+      "source": {
+        "path": "research/archive/events/000000452946.json",
+        "sha256": "a2bcf0bd482fb084fdc3840813df36815f3fc9fdce97d6e4fe3e61cfc7ebab2f",
+        "field": "recorded_at",
+        "event_id": "event-93348e3f8eac4e4cac88be052bae6b3b"
+      },
+      "chapter": "selection",
+      "date_basis": "Archive recording time; actual event time not independently known"
+    },
+    {
+      "id": "t34",
+      "date_local": "2026-10-17",
+      "source_timestamp": "2026-10-17T22:46:53.807435+00:00",
+      "kind": "Decision corrected",
+      "title": "Return E086 and explain all 22 decisions plainly",
+      "detail": "The corrected inventory keeps 13 versions for comparison and assigns nine targeted tasks. E086 returned because its previous deferral was not sufficiently distinguished from E074; no manuscript was rewritten.",
+      "link": "selection.md",
+      "source": {
+        "path": "research/archive/events/000000452957.json",
+        "sha256": "c4d3a48b5dba3731ed662683e042a7279f7a8f0540cd1175a02bc81a5a46f9de",
+        "field": "recorded_at",
+        "event_id": "event-9a43499aee7d425b839017b4957ea633"
+      },
+      "chapter": "selection",
+      "date_basis": "Archive recording time; actual event time not independently known"
+    }
+  ]
+}

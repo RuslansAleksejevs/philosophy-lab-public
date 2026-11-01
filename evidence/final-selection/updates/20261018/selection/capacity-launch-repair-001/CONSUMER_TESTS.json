@@ -1,0 +1,69 @@
+{
+  "schema": "local-launch-repair-consumer-tests.v1",
+  "status": "PASS_SYNTHETIC_PREPARATION_ONLY",
+  "created_at": "2026-10-19T06:00:37.554014+00:00",
+  "tests_run": 14,
+  "tests": [
+    "test_exact003_002_and110_accepted_by_frozen_pair_helper",
+    "test_M12_failed002_cannot_fill_slot",
+    "test_map_actual_output_cannot_be_omitted",
+    "test_accept_rechecks_actual_event_before_write",
+    "test_110_votes_three_preserved_failures_and_unchanged_60_40",
+    "test_summary_uses_frozen_verifier_for_exactly_108_ordinary_jobs",
+    "test_missing003_never_uses_failed002",
+    "test_ordinary001_validation_remains_strict",
+    "test_export_uses003_002_and_all_safe_local_failure_metadata",
+    "test_local_failure_dependency_cannot_be_dropped",
+    "test_wrong_attempt_or_fake_local_session_rejected",
+    "test_group_export_must_include_safe_local_failure_metadata",
+    "test_validator_separates_capacity_and_local_failures",
+    "test_validator_rejects_unaccounted_failure_or_fourth_attempt"
+  ],
+  "failures": 0,
+  "errors": 0,
+  "elapsed_seconds_observed": 3.484,
+  "scope": "Synthetic temporary files, mocked resolver at explicit test boundary, MemoryArchive only; no actual archive/model/network/collector calls. 110 coverage, strict 003/002 routing, unchanged ordinary108 and60:40, three failures separated, missing/reused output rejection, explicit export manifest, frozen pair-ready accept compatible. Full finite closure and timestamp/replay separately covered by MAP_TESTS.",
+  "launch_and_map_frozen_files_unchanged": true,
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/summary_repair_v3.py",
+      "sha256": "775b1ce366c89e97c41bc54a6f81ec9944c508ee134080c13f2479d7c6664d8c",
+      "bytes": 17838
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/export_repair_v3.py",
+      "sha256": "4da73ba29339e8fc5cca6f963b70e53f577a5ced727c097f60e8c6604de4814f",
+      "bytes": 15994
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/validate_repair_v5.py",
+      "sha256": "8cc5e2a97099015803f8b7887d18870a9a689af3705b0c5ae2cfc7d79397ba24",
+      "bytes": 14973
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/closure_repair_v4.py",
+      "sha256": "5a59c69a4c7585e458625e899e3bfcb9faf8d1e83e7b7d47a406a75d8c18ff2f",
+      "bytes": 22108
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/test_consumers_repair_v3.py",
+      "sha256": "7d1d1d1933c2817ad6ae2b3b5d27d6744eb5ace711fcd08a0279d3119bb5b37d",
+      "bytes": 10497
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/bind_pair_ready_repair.py",
+      "sha256": "d04bce8ab75e910b95cfe2e054d89dfe04b899b5d12cf12146d19d30bff062a3",
+      "bytes": 7448
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/test_pair_binder_repair.py",
+      "sha256": "db578b5bbe897e728128a4595bcc2c1fc3e0d31d37252ead8f7f66d9722a8f01",
+      "bytes": 3667
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/REPAIR_INTERFACE_RU.txt",
+      "sha256": "4c731c1abbeb6d8a94416742a996b79a0b0071b6558a7b093563b3df3530d5a2",
+      "bytes": 7294
+    }
+  ]
+}

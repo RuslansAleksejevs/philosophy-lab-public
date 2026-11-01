@@ -1,0 +1,50 @@
+{
+  "judge_id": "christian_tarsney",
+  "created_at": "2026-10-07T10:35:22.230262+00:00",
+  "baseline_reuse": "Reported substantive claims/coverage are inherited, explicitly attributed to B0; no new full-paper claim.",
+  "sources": [
+    {
+      "source_id": "B0",
+      "title": "Inherited profile with exact substantive citations and historical coverage",
+      "url": null,
+      "path": "research/judges/20260912/profiles/christian_tarsney-v1.md",
+      "sha256": "7ba57ab786ab438574584635163b8a16f6a5d59e2cace4f7e0a0c40080b988a5",
+      "coverage": "full profile read; underlying cited papers not newly read except explicitly logged",
+      "accessed_at": "2026-10-07T10:35:22.230262+00:00",
+      "copy": "baseline-profile-20260912.md"
+    },
+    {
+      "source_id": "T1",
+      "title": "80,000 Hours interview, 5 May 2021",
+      "url": "https://80000hours.org/podcast/episodes/christian-tarsney-future-bias-fanaticism/",
+      "path": "research/judges/20261007/christian_tarsney/sources/debating-web.json",
+      "sha256": "bc22d957114379a3e87ab67a89c89affbd8caf58eb17ab64272b13f66b72a670",
+      "accessed_at": "2026-10-07T10:32:54.303Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "Competitive debating [02:28:34], lines 811–838; Berry paradox [02:35:00], lines 840–851; initial interview extract also exposed"
+    },
+    {
+      "source_id": "identity-web",
+      "title": "Author identity page",
+      "url": "https://www.christiantarsney.com/",
+      "path": "research/judges/20261007/christian_tarsney/sources/identity-web.json",
+      "sha256": "fb46eb0296d650a8236254715cac810446c6cfae8d41fdcb37f8b5105ba8aa86",
+      "accessed_at": "2026-10-07T10:32:34.524Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "identity and research-interest statements only; bibliography is metadata"
+    },
+    {
+      "source_id": "interview-web",
+      "title": "interview-web",
+      "url": "https://80000hours.org/podcast/episodes/christian-tarsney-future-bias-fanaticism/",
+      "path": "research/judges/20261007/christian_tarsney/sources/interview-web.json",
+      "sha256": "b2b5772f2fc0cd1968e932a34919be2d1e022b4d4b29470a86c28ec7f184867b",
+      "accessed_at": "2026-10-07T10:31:26.875Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "discovery/exposure only; not a basis for full-source reading"
+    }
+  ]
+}

@@ -1,0 +1,866 @@
+{
+  "status": "BOUNDED_NEW_TAIL_METADATA_ONLY",
+  "observed_at": "2026-10-31T21:28:51.741409+00:00",
+  "from_sequence": 581686,
+  "through_sequence": 595112,
+  "new_event_count": 13427,
+  "kind_counts": {
+    "collector.version": 1,
+    "collector.agent_metadata": 140,
+    "collector.lifecycle": 578,
+    "collector.model": 311,
+    "collector.message": 1427,
+    "collector.tool_pending": 10836,
+    "collector.coverage": 130,
+    "collector.tool_reviewed": 4
+  },
+  "source_sessions_in_tail": 130,
+  "completed_coverage_events": 130,
+  "sample": [
+    {
+      "session_id": "01a088ba-b70b-7cb2-aa42-f6385b603d81",
+      "committed_at": "2026-10-31T21:21:35.753954+00:00",
+      "interval_since_previous_seconds": 5.760082,
+      "source_lines": 78,
+      "source_bytes": 448257,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 22,
+      "gap_count": 0,
+      "new_event_count": 31,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 22,
+        "collector.message": 4,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 590470,
+        "recorded_at": "2026-10-31T21:21:38.622311+00:00",
+        "sha256": "7ee09f678b3ef5e0e80ece9329561243d9c8d36d03e199dd707c7b9f8a366fd8",
+        "committed_at": "2026-10-31T21:21:35.753954+00:00"
+      }
+    },
+    {
+      "session_id": "01a088bf-43e0-7513-8cb0-f6c4a4550364",
+      "committed_at": "2026-10-31T21:21:42.022279+00:00",
+      "interval_since_previous_seconds": 6.268325,
+      "source_lines": 80,
+      "source_bytes": 468078,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 22,
+      "gap_count": 0,
+      "new_event_count": 31,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 22,
+        "collector.message": 4,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 590501,
+        "recorded_at": "2026-10-31T21:21:44.456797+00:00",
+        "sha256": "9405be6ec3bf349f25307e3596300b78af4fc608c680515f1534f2a8a69af430",
+        "committed_at": "2026-10-31T21:21:42.022279+00:00"
+      }
+    },
+    {
+      "session_id": "01a088c0-5384-7383-94d6-59118f9fee21",
+      "committed_at": "2026-10-31T21:21:48.152862+00:00",
+      "interval_since_previous_seconds": 6.130583,
+      "source_lines": 72,
+      "source_bytes": 505169,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 18,
+      "gap_count": 0,
+      "new_event_count": 27,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 18,
+        "collector.message": 4,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 590528,
+        "recorded_at": "2026-10-31T21:21:50.761955+00:00",
+        "sha256": "846cce24db441877a2e87ef9ce0665cdc0ccb6cecd036c9c4748d40d09d1ccdc",
+        "committed_at": "2026-10-31T21:21:48.152862+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a33-c94c-7a83-97e1-1aab40c6ef15",
+      "committed_at": "2026-10-31T21:21:59.124546+00:00",
+      "interval_since_previous_seconds": 10.971684,
+      "source_lines": 363,
+      "source_bytes": 1372935,
+      "counts": {
+        "assistant_commentary": 12,
+        "assistant_final": 2
+      },
+      "pending_tools": 106,
+      "gap_count": 0,
+      "new_event_count": 128,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 4,
+        "collector.model": 2,
+        "collector.tool_pending": 106,
+        "collector.message": 14,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 590656,
+        "recorded_at": "2026-10-31T21:22:03.526443+00:00",
+        "sha256": "33d141906f29c9d0f2a9f86df5e138533e9497dc101f54441ed851b02ab89724",
+        "committed_at": "2026-10-31T21:21:59.124546+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a33-df80-7813-ac36-54b9ec4bd6c8",
+      "committed_at": "2026-10-31T21:22:08.956819+00:00",
+      "interval_since_previous_seconds": 9.832273,
+      "source_lines": 351,
+      "source_bytes": 1178024,
+      "counts": {
+        "assistant_commentary": 13,
+        "assistant_final": 3
+      },
+      "pending_tools": 104,
+      "gap_count": 0,
+      "new_event_count": 131,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 6,
+        "collector.model": 3,
+        "collector.tool_pending": 104,
+        "collector.message": 16,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 590787,
+        "recorded_at": "2026-10-31T21:22:13.160924+00:00",
+        "sha256": "f9b4c60976ccf64b5a34a4f64fe26667e557e16e29e552b0b6d71d3c0f7023db",
+        "committed_at": "2026-10-31T21:22:08.956819+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a33-f248-7d83-9b40-ee264a7ee644",
+      "committed_at": "2026-10-31T21:22:19.310801+00:00",
+      "interval_since_previous_seconds": 10.353982,
+      "source_lines": 350,
+      "source_bytes": 1256253,
+      "counts": {
+        "assistant_commentary": 11,
+        "assistant_final": 2
+      },
+      "pending_tools": 110,
+      "gap_count": 0,
+      "new_event_count": 131,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 4,
+        "collector.model": 2,
+        "collector.tool_pending": 110,
+        "collector.message": 13,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 590918,
+        "recorded_at": "2026-10-31T21:22:24.546400+00:00",
+        "sha256": "63cafa91b42312badd2c352151a1b42d04f000f5074f9467cd2455a599de15ef",
+        "committed_at": "2026-10-31T21:22:19.310801+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a3a-95a8-7210-bce4-0e3bf609d689",
+      "committed_at": "2026-10-31T21:22:28.745577+00:00",
+      "interval_since_previous_seconds": 9.434776,
+      "source_lines": 296,
+      "source_bytes": 1067058,
+      "counts": {
+        "assistant_commentary": 10,
+        "assistant_final": 2
+      },
+      "pending_tools": 92,
+      "gap_count": 0,
+      "new_event_count": 112,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 4,
+        "collector.model": 2,
+        "collector.tool_pending": 92,
+        "collector.message": 12,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 591030,
+        "recorded_at": "2026-10-31T21:22:33.359533+00:00",
+        "sha256": "f112802aeddd8607d3b3ca5ac6863c9cbdd3bde3b219440077b334779f63529a",
+        "committed_at": "2026-10-31T21:22:28.745577+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a3b-53c4-7413-b002-45cbab7bda2b",
+      "committed_at": "2026-10-31T21:22:38.395027+00:00",
+      "interval_since_previous_seconds": 9.64945,
+      "source_lines": 348,
+      "source_bytes": 1190316,
+      "counts": {
+        "assistant_commentary": 11,
+        "assistant_final": 2
+      },
+      "pending_tools": 110,
+      "gap_count": 0,
+      "new_event_count": 134,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 6,
+        "collector.model": 3,
+        "collector.tool_pending": 110,
+        "collector.message": 13,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 591164,
+        "recorded_at": "2026-10-31T21:22:42.687867+00:00",
+        "sha256": "3f8cdb554d73ce0537b98f62ca1aff1f03799c67645f7714646267966d880557",
+        "committed_at": "2026-10-31T21:22:38.395027+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a3b-ab00-7582-8414-b316f853ce55",
+      "committed_at": "2026-10-31T21:22:48.083491+00:00",
+      "interval_since_previous_seconds": 9.688464,
+      "source_lines": 373,
+      "source_bytes": 1250307,
+      "counts": {
+        "assistant_commentary": 13,
+        "assistant_final": 2
+      },
+      "pending_tools": 118,
+      "gap_count": 0,
+      "new_event_count": 141,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 4,
+        "collector.model": 2,
+        "collector.tool_pending": 118,
+        "collector.message": 15,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 591305,
+        "recorded_at": "2026-10-31T21:22:52.399509+00:00",
+        "sha256": "ac7f89f64c0c814bbcb41a8c96c50cf8d235bc8aeb4b83793615192a9b7fe3bb",
+        "committed_at": "2026-10-31T21:22:48.083491+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a40-e05e-7c51-b5a2-f4f98b7c5206",
+      "committed_at": "2026-10-31T21:22:56.895046+00:00",
+      "interval_since_previous_seconds": 8.811555,
+      "source_lines": 351,
+      "source_bytes": 1254572,
+      "counts": {
+        "assistant_commentary": 10,
+        "assistant_final": 2
+      },
+      "pending_tools": 116,
+      "gap_count": 0,
+      "new_event_count": 136,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 4,
+        "collector.model": 2,
+        "collector.tool_pending": 116,
+        "collector.message": 12,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 591441,
+        "recorded_at": "2026-10-31T21:23:02.948955+00:00",
+        "sha256": "9138fe290e609327487bb01b27e3bf2639b8cd5c820c73f0d37e152fbe8cbb7f",
+        "committed_at": "2026-10-31T21:22:56.895046+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a42-dab3-7222-ac84-f0ac08d91a3d",
+      "committed_at": "2026-10-31T21:23:07.225653+00:00",
+      "interval_since_previous_seconds": 10.330607,
+      "source_lines": 255,
+      "source_bytes": 935840,
+      "counts": {
+        "assistant_commentary": 10,
+        "assistant_final": 2
+      },
+      "pending_tools": 80,
+      "gap_count": 0,
+      "new_event_count": 100,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 4,
+        "collector.model": 2,
+        "collector.tool_pending": 80,
+        "collector.message": 12,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 591541,
+        "recorded_at": "2026-10-31T21:23:10.051125+00:00",
+        "sha256": "cb6c88d4fd8d4d505a01ffc7aeb580ea3cf407b7e8b1ab1461ad37f8a7c4aaf7",
+        "committed_at": "2026-10-31T21:23:07.225653+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a43-6048-7883-9006-2f77248974cf",
+      "committed_at": "2026-10-31T21:23:15.747858+00:00",
+      "interval_since_previous_seconds": 8.522205,
+      "source_lines": 337,
+      "source_bytes": 1070262,
+      "counts": {
+        "assistant_commentary": 12,
+        "assistant_final": 2
+      },
+      "pending_tools": 110,
+      "gap_count": 0,
+      "new_event_count": 132,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 4,
+        "collector.model": 2,
+        "collector.tool_pending": 110,
+        "collector.message": 14,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 591673,
+        "recorded_at": "2026-10-31T21:23:20.235581+00:00",
+        "sha256": "b2dcec3392cc2e198cf4c47801dbd228d5841ef117623fbc315f356b2e2202bd",
+        "committed_at": "2026-10-31T21:23:15.747858+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a48-218c-7053-acc8-8fd99a5648c1",
+      "committed_at": "2026-10-31T21:23:24.563895+00:00",
+      "interval_since_previous_seconds": 8.816037,
+      "source_lines": 278,
+      "source_bytes": 1058452,
+      "counts": {
+        "assistant_commentary": 9,
+        "assistant_final": 2
+      },
+      "pending_tools": 88,
+      "gap_count": 0,
+      "new_event_count": 107,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 4,
+        "collector.model": 2,
+        "collector.tool_pending": 88,
+        "collector.message": 11,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 591780,
+        "recorded_at": "2026-10-31T21:23:28.432332+00:00",
+        "sha256": "0a0f4ff0c583a06625651f2afa4a968d9ab5a7e72993d71ccdceeb7281091d93",
+        "committed_at": "2026-10-31T21:23:24.563895+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a48-57a2-7543-b772-d692434b0bbe",
+      "committed_at": "2026-10-31T21:23:33.232450+00:00",
+      "interval_since_previous_seconds": 8.668555,
+      "source_lines": 318,
+      "source_bytes": 1089180,
+      "counts": {
+        "assistant_commentary": 11,
+        "assistant_final": 2
+      },
+      "pending_tools": 98,
+      "gap_count": 0,
+      "new_event_count": 119,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 4,
+        "collector.model": 2,
+        "collector.tool_pending": 98,
+        "collector.message": 13,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 591899,
+        "recorded_at": "2026-10-31T21:23:37.445113+00:00",
+        "sha256": "88cec00ed51928f22921e2ce620af171d829d0f9b3ab54e90de3610ba88d9d55",
+        "committed_at": "2026-10-31T21:23:33.232450+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a49-6487-78e3-850e-be6f9482112d",
+      "committed_at": "2026-10-31T21:23:40.954087+00:00",
+      "interval_since_previous_seconds": 7.721637,
+      "source_lines": 338,
+      "source_bytes": 1157982,
+      "counts": {
+        "assistant_commentary": 11,
+        "assistant_final": 2
+      },
+      "pending_tools": 110,
+      "gap_count": 0,
+      "new_event_count": 131,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 4,
+        "collector.model": 2,
+        "collector.tool_pending": 110,
+        "collector.message": 13,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592030,
+        "recorded_at": "2026-10-31T21:23:45.075738+00:00",
+        "sha256": "469ce4790223ce0a0e7dec90fde4daf04e70259f9c784976cf7d13757a3c70f9",
+        "committed_at": "2026-10-31T21:23:40.954087+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a4d-72b6-7142-ad4e-e8f08c69b07c",
+      "committed_at": "2026-10-31T21:23:49.873631+00:00",
+      "interval_since_previous_seconds": 8.919544,
+      "source_lines": 382,
+      "source_bytes": 1400336,
+      "counts": {
+        "assistant_commentary": 14,
+        "assistant_final": 2
+      },
+      "pending_tools": 116,
+      "gap_count": 0,
+      "new_event_count": 140,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 4,
+        "collector.model": 2,
+        "collector.tool_pending": 116,
+        "collector.message": 16,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592170,
+        "recorded_at": "2026-10-31T21:23:54.464754+00:00",
+        "sha256": "156bb074cad601c0a57cbe4964b828cd3011788206e7866a5d1ad76545bd6836",
+        "committed_at": "2026-10-31T21:23:49.873631+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a4e-b8a6-78f1-a821-ff0bac4f5ac9",
+      "committed_at": "2026-10-31T21:23:57.435032+00:00",
+      "interval_since_previous_seconds": 7.561401,
+      "source_lines": 324,
+      "source_bytes": 1165216,
+      "counts": {
+        "assistant_commentary": 10,
+        "assistant_final": 2
+      },
+      "pending_tools": 102,
+      "gap_count": 0,
+      "new_event_count": 122,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 4,
+        "collector.model": 2,
+        "collector.tool_pending": 102,
+        "collector.message": 12,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592292,
+        "recorded_at": "2026-10-31T21:24:02.017062+00:00",
+        "sha256": "7ba70efcb29c02e01ce6ee92468934595874f9f8f89ed56239bdb41fd02a8280",
+        "committed_at": "2026-10-31T21:23:57.435032+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a4f-2a1c-7fe1-a4a9-8706bd7d3f68",
+      "committed_at": "2026-10-31T21:24:06.634759+00:00",
+      "interval_since_previous_seconds": 9.199727,
+      "source_lines": 174,
+      "source_bytes": 743069,
+      "counts": {
+        "assistant_commentary": 6,
+        "assistant_final": 1
+      },
+      "pending_tools": 56,
+      "gap_count": 0,
+      "new_event_count": 68,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 56,
+        "collector.message": 7,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592360,
+        "recorded_at": "2026-10-31T21:24:09.206916+00:00",
+        "sha256": "aa1c11f0c5d7891ac7a97359e125ecb7db67b432fc7b87d61235ac936d5bb824",
+        "committed_at": "2026-10-31T21:24:06.634759+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a54-7265-7d73-862d-5e6725c9552d",
+      "committed_at": "2026-10-31T21:24:14.358653+00:00",
+      "interval_since_previous_seconds": 7.723894,
+      "source_lines": 177,
+      "source_bytes": 767804,
+      "counts": {
+        "assistant_commentary": 6,
+        "assistant_final": 1
+      },
+      "pending_tools": 56,
+      "gap_count": 0,
+      "new_event_count": 68,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 56,
+        "collector.message": 7,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592428,
+        "recorded_at": "2026-10-31T21:24:16.477531+00:00",
+        "sha256": "fece197353340a8ee6f925643a080c8f77dc9d2a16b928cf2f1efc6aaaf08fdb",
+        "committed_at": "2026-10-31T21:24:14.358653+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a54-bfc1-75a1-8139-51759fa40b90",
+      "committed_at": "2026-10-31T21:24:22.052851+00:00",
+      "interval_since_previous_seconds": 7.694198,
+      "source_lines": 205,
+      "source_bytes": 802613,
+      "counts": {
+        "assistant_commentary": 6,
+        "assistant_final": 1
+      },
+      "pending_tools": 64,
+      "gap_count": 0,
+      "new_event_count": 76,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 64,
+        "collector.message": 7,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592504,
+        "recorded_at": "2026-10-31T21:24:25.156472+00:00",
+        "sha256": "1b97ca7aa9415214fa36b4f3108c6a02ad94110b74d54d9bc7fd8d80d5022a9a",
+        "committed_at": "2026-10-31T21:24:22.052851+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a55-4928-7ae1-8003-d01862705305",
+      "committed_at": "2026-10-31T21:24:28.820467+00:00",
+      "interval_since_previous_seconds": 6.767616,
+      "source_lines": 184,
+      "source_bytes": 762831,
+      "counts": {
+        "assistant_commentary": 6,
+        "assistant_final": 1
+      },
+      "pending_tools": 64,
+      "gap_count": 0,
+      "new_event_count": 76,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 64,
+        "collector.message": 7,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592580,
+        "recorded_at": "2026-10-31T21:24:31.740400+00:00",
+        "sha256": "9f4212d1093f401174f6d5462e9904ef3202bba90add4e305b98b51655a4be9d",
+        "committed_at": "2026-10-31T21:24:28.820467+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a5a-a5a9-74a3-ac63-8d8ecfca1b04",
+      "committed_at": "2026-10-31T21:24:35.021435+00:00",
+      "interval_since_previous_seconds": 6.200968,
+      "source_lines": 231,
+      "source_bytes": 928428,
+      "counts": {
+        "assistant_commentary": 8,
+        "assistant_final": 1
+      },
+      "pending_tools": 68,
+      "gap_count": 0,
+      "new_event_count": 82,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 68,
+        "collector.message": 9,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592662,
+        "recorded_at": "2026-10-31T21:24:37.823160+00:00",
+        "sha256": "3919d4b7d3735d19b8791d373e4b71985f9ff24aec20cd91c22a612b6186cad8",
+        "committed_at": "2026-10-31T21:24:35.021435+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a5b-a767-73c0-9f0b-7f0101ce7f2b",
+      "committed_at": "2026-10-31T21:24:41.029825+00:00",
+      "interval_since_previous_seconds": 6.00839,
+      "source_lines": 195,
+      "source_bytes": 721710,
+      "counts": {
+        "assistant_commentary": 8,
+        "assistant_final": 1
+      },
+      "pending_tools": 60,
+      "gap_count": 0,
+      "new_event_count": 74,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 60,
+        "collector.message": 9,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592736,
+        "recorded_at": "2026-10-31T21:24:43.713326+00:00",
+        "sha256": "35e3aa05df6d47b058cd52a943ef84f4d430fa9da78bf710149b4d611f119557",
+        "committed_at": "2026-10-31T21:24:41.029825+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a5c-064d-7d81-86df-5158c4e788f2",
+      "committed_at": "2026-10-31T21:24:47.073804+00:00",
+      "interval_since_previous_seconds": 6.043979,
+      "source_lines": 90,
+      "source_bytes": 478295,
+      "counts": {
+        "assistant_commentary": 2,
+        "assistant_final": 1
+      },
+      "pending_tools": 26,
+      "gap_count": 0,
+      "new_event_count": 34,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 26,
+        "collector.message": 3,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592770,
+        "recorded_at": "2026-10-31T21:24:49.999781+00:00",
+        "sha256": "3f7736a369a8e49d06a0d4cfc0ad9f5a4506a2b629a93fcbd58bbb62619f3a5b",
+        "committed_at": "2026-10-31T21:24:47.073804+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a61-ff66-77f0-8833-154add3d6dd9",
+      "committed_at": "2026-10-31T21:24:53.286650+00:00",
+      "interval_since_previous_seconds": 6.212846,
+      "source_lines": 74,
+      "source_bytes": 475880,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 20,
+      "gap_count": 0,
+      "new_event_count": 29,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 20,
+        "collector.message": 4,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592799,
+        "recorded_at": "2026-10-31T21:24:56.014894+00:00",
+        "sha256": "3f41a0daa2477350aa82ceaacbe902af284c7dcce27b1380ee1f2fec304899a6",
+        "committed_at": "2026-10-31T21:24:53.286650+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a62-4d36-78c2-bfc3-96f824aff0b2",
+      "committed_at": "2026-10-31T21:24:59.005190+00:00",
+      "interval_since_previous_seconds": 5.71854,
+      "source_lines": 95,
+      "source_bytes": 495064,
+      "counts": {
+        "assistant_commentary": 2,
+        "assistant_final": 1
+      },
+      "pending_tools": 28,
+      "gap_count": 0,
+      "new_event_count": 36,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 28,
+        "collector.message": 3,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592835,
+        "recorded_at": "2026-10-31T21:25:01.892377+00:00",
+        "sha256": "807d64ce4fb3f1f8d8a8e3c11f5129fd55b65299349d8d6869705f3abf3ae727",
+        "committed_at": "2026-10-31T21:24:59.005190+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a63-fd5e-71b1-8654-29218c0bd90c",
+      "committed_at": "2026-10-31T21:25:05.063643+00:00",
+      "interval_since_previous_seconds": 6.058453,
+      "source_lines": 77,
+      "source_bytes": 501422,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 20,
+      "gap_count": 0,
+      "new_event_count": 29,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 20,
+        "collector.message": 4,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592864,
+        "recorded_at": "2026-10-31T21:25:08.092621+00:00",
+        "sha256": "f1ff2697830e5763ac02d3b4b521e9c43bd9128c28c48aaa0407d4e782caf9be",
+        "committed_at": "2026-10-31T21:25:05.063643+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a68-829a-7112-ac86-a3b59be8252d",
+      "committed_at": "2026-10-31T21:25:11.233853+00:00",
+      "interval_since_previous_seconds": 6.17021,
+      "source_lines": 83,
+      "source_bytes": 512357,
+      "counts": {
+        "assistant_commentary": 2,
+        "assistant_final": 1
+      },
+      "pending_tools": 22,
+      "gap_count": 0,
+      "new_event_count": 30,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 22,
+        "collector.message": 3,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592894,
+        "recorded_at": "2026-10-31T21:25:13.960208+00:00",
+        "sha256": "1d42a38bc1f89be2a4ccc657463a722dd84e6edddc320b2c168781c63673b31b",
+        "committed_at": "2026-10-31T21:25:11.233853+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a6a-6c41-7442-bdd4-36e83546f405",
+      "committed_at": "2026-10-31T21:25:16.704648+00:00",
+      "interval_since_previous_seconds": 5.470795,
+      "source_lines": 84,
+      "source_bytes": 502784,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 22,
+      "gap_count": 0,
+      "new_event_count": 31,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 22,
+        "collector.message": 4,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592925,
+        "recorded_at": "2026-10-31T21:25:19.538193+00:00",
+        "sha256": "a60693e398ea4a4a83dd1a7552f199d3d1020c8a30e8a0a51d89974a937faf8a",
+        "committed_at": "2026-10-31T21:25:16.704648+00:00"
+      }
+    },
+    {
+      "session_id": "01a08a6a-cf45-71a2-b1ae-9b3bc11a9361",
+      "committed_at": "2026-10-31T21:25:24.251326+00:00",
+      "interval_since_previous_seconds": 7.546678,
+      "source_lines": 82,
+      "source_bytes": 509847,
+      "counts": {
+        "assistant_commentary": 3
+      },
+      "pending_tools": 24,
+      "gap_count": 0,
+      "new_event_count": 32,
+      "new_event_kinds": {
+        "collector.agent_metadata": 1,
+        "collector.lifecycle": 2,
+        "collector.model": 1,
+        "collector.tool_pending": 24,
+        "collector.message": 3,
+        "collector.coverage": 1
+      },
+      "coverage_event": {
+        "sequence": 592957,
+        "recorded_at": "2026-10-31T21:25:26.379254+00:00",
+        "sha256": "e2456a90d261ca2f2bf21851ed1947ad15878c76c92d3e68e92a8624a37659f2",
+        "committed_at": "2026-10-31T21:25:24.251326+00:00"
+      }
+    }
+  ],
+  "new_events_per_sample": {
+    "min": 27,
+    "median": 79.0,
+    "max": 141
+  },
+  "boundary": "Only fixed committed event suffix parsed in memory; no native or object body read/output; not a full integrity audit. New-event counts include all suffix events for the sampled session. Time deltas mix CPU, storage, source reads and scheduling."
+}

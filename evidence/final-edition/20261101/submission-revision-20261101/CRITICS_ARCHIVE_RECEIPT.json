@@ -1,0 +1,79 @@
+{
+  "status": "SUBMISSION_CRITICS_ARCHIVED",
+  "event_id": "event-7155570e0a854ee5896650d85fa3c346",
+  "event_sequence": 729492,
+  "event_sha256": "d6d814864e25564566094af2b487a50999c4acca0723eaa04020bdeff21e3fac",
+  "files": [],
+  "bindings": {
+    "config": [
+      "d860ed63e915a7616438aaa2d6232d7db5f852a7c71ed5a480e2cbecb9f68bf2",
+      "1c1b905c658a2d523a9f5a1f2921b4bacdc8925e453f36f66aa092cc6e76dc1d",
+      "1ccc652e4d3d508085bc2f9e9d590e6022abc235750b5f646763084ff2b52a91",
+      "b2e111bcbb405d2d0d8910f70f5bc0364e24fd42d4e5a0a7e26a51e024fa790b",
+      "01469d08243cd4574699eec3acd9b1d4c5685759b28831afe26138cc52020f04",
+      "4d1555ad01f38c659535656d5e38d9f76f82821dc0aa1dba6aa1f56435750f6e",
+      "26c6d6781df7e9e02a4c4258c699e3fb798618e6b4815ff3431b23c31399f2c7",
+      "541e2506db54b1d8f332bdc14dc7eb4480f9640617ddc77acc7eab752ffdea5e",
+      "8a789eb127b2e247b4cf89daab3872b99d4b19606ae5f30d5412a94330aa646d"
+    ],
+    "input": [
+      "cdeb9bc549cdaf1e76cd48aaa6bd9703a973483f8d11fc925faa86e189dd0abf",
+      "9d67121f0460c322d365583cab54c4dac3d1671db18b17897fc2df3954a7ca5d",
+      "a5a7a4edeb9d529a96b980c39f5bf4db0feb3b592a346a0921e9e99180a4c744",
+      "e9a2d2876bca7e67c8c547d829908663d743e29e3f1a7996d6ff93f4eb5834d5"
+    ],
+    "instruction": [
+      "af3ab9a9ba4400f433677ad9035a22ec844a263e8d26e63b9e523788c30cdcb5",
+      "36e27864278b7ae00d11472a56680a524b61616de71b4338885d95e6ddba207d",
+      "41a825485adb72a37624ec96056efb9a8995b723e68d17f37c0b152644cef57b",
+      "d3a75eb7b14cbb1ae0d0e854509282937365433719bd66b220714c9b26591c61"
+    ],
+    "method": [
+      "b9fc6948be47c1d2c0a923b54706fc631f962c316e136470078e86b0d25eb7fa"
+    ]
+  },
+  "roles": [
+    {
+      "essay_id": "E012",
+      "event_id": "event-635df5235a304bfe9865ae8edbe803c7",
+      "job_id": "E012-critic",
+      "lineage_entry_id": "submission-revision-20261101:E012:critic:v1",
+      "lineage_event_id": "event-8d16e98509db4147ba93a64fee60c4ae",
+      "receipt": {
+        "bytes": 3628,
+        "path": "runs/submission-revision-20261101/results/E012-critic/attempt-001/receipt.json",
+        "sha256": "acd0470ade048675146830e02f3ff940b7aec9963e8ee9c460a567d6ee7c3733"
+      },
+      "scientific_role": "critic",
+      "session_id": "01a1964d-82d0-76d3-933d-bd350e6b2478"
+    },
+    {
+      "essay_id": "E050",
+      "event_id": "event-4eb86bb0e52e4912976db37d8afb4653",
+      "job_id": "E050-critic",
+      "lineage_entry_id": "submission-revision-20261101:E050:critic:v1",
+      "lineage_event_id": "event-cbd619bb244e4f86a85775d270ab049c",
+      "receipt": {
+        "bytes": 3631,
+        "path": "runs/submission-revision-20261101/results/E050-critic/attempt-001/receipt.json",
+        "sha256": "8297c13642a8cd4f19ffa5c0c5247165ba290d73271131edf3150d6b0c579f68"
+      },
+      "scientific_role": "critic",
+      "session_id": "01a1964d-82d0-7482-8946-c25f77a913ee"
+    },
+    {
+      "essay_id": "E051",
+      "event_id": "event-3e4244c8a99248abb7f43601fcaa082d",
+      "job_id": "E051-critic",
+      "lineage_entry_id": "submission-revision-20261101:E051:critic:v1",
+      "lineage_event_id": "event-5b262c428c544195a23768e13c34b314",
+      "receipt": {
+        "bytes": 3631,
+        "path": "runs/submission-revision-20261101/results/E051-critic/attempt-001/receipt.json",
+        "sha256": "b2961603477e4477444093af2f65718ad72473ddb603df27c10b4b3e253f50f9"
+      },
+      "scientific_role": "critic",
+      "session_id": "01a1964d-82cf-71d2-bf6a-9a3524519e94"
+    }
+  ]
+}

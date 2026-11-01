@@ -1,0 +1,4011 @@
+{
+  "schema": "printed-numerical-audit-v1",
+  "created_at": "2026-10-19T01:42:42.438719+00:00",
+  "scope": "Mechanical verification of printed numerical premises only; no philosophical review, vote, score, ranking, novelty search or empirical validation.",
+  "status": "ARITHMETIC_REPRODUCED_WITH_RECORDED_LIMITS",
+  "script": {
+    "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/final-selection-20261018/coordinator/numerical-audit/check_numerics.py",
+    "sha256": "a09ff661d0553d99adf7a30644b04aa8966cfc361de61d7ec5dc15900a0b63cf"
+  },
+  "inputs": [
+    {
+      "blind_id": "M02",
+      "essay_id": "F02",
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/final-selection-20261018/blind/M02.md",
+      "bytes": 29972,
+      "sha256": "e6badc41a13f407d5ce9660772ff018d0ebbf109f5c8570a0659c612cb217a2d"
+    },
+    {
+      "blind_id": "M04",
+      "essay_id": "E039",
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/final-selection-20261018/blind/M04.md",
+      "bytes": 30275,
+      "sha256": "37f240addafd761d1d361ce9c0ac1aeb3ba6997eed5b936f9386c11bd09c1a59"
+    },
+    {
+      "blind_id": "M10",
+      "essay_id": "E079",
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/final-selection-20261018/blind/M10.md",
+      "bytes": 21500,
+      "sha256": "f640e52f1fbccb6a085f1703c912f07b5084336ea5b52de5b15ec49e6e2e775a"
+    },
+    {
+      "blind_id": "M13",
+      "essay_id": "F03",
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/final-selection-20261018/blind/M13.md",
+      "bytes": 28072,
+      "sha256": "42accea7f8647e8de5dac9d6c55e834e2b62c07d6655730ec6e7948eff9319b5"
+    },
+    {
+      "blind_id": "M19",
+      "essay_id": "S02",
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/final-selection-20261018/blind/M19.md",
+      "bytes": 29774,
+      "sha256": "0ff5fb0984993915d9fd049be178d5c4bd2c50893353b5e8758996d795fd1056"
+    }
+  ],
+  "counts": {
+    "MATCH": 27,
+    "MISMATCH": 0,
+    "CONDITIONAL": 2
+  },
+  "checks": [
+    {
+      "id": "M02-01",
+      "blind_id": "M02",
+      "essay_id": "F02",
+      "title_ru": "Исходная надёжность и вероятность после синего сигнала",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M02.md",
+          "line": 40,
+          "exact_line": "0.8(1)+0.2(0.5)=0.9."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 47,
+          "exact_line": "Suppose the report is blue. Whichever sensor supplied it, the supported credence in *p* is 0.9. The researcher can adopt either policy before selection:"
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 57,
+          "exact_line": "Immediately after erasure, the credence in *p* remains 0.9. Either sensor produces a blue report with probability 0.5. Even conditional on either inspection result, this report leaves the source probabilities equal. The later probabilities are:"
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M02.md",
+          "line": 35,
+          "exact_line": "A researcher is investigating whether a sealed box contains a blue token. Call that proposition *p*. Blue and red are equally probable. A fair randomizer selects sensor A or sensor B, and the researcher sees the selected sensor's identity and its color report."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 37,
+          "exact_line": "A is sound with probability 0.8 and faulty with probability 0.2. Its condition is independent of the token and the selection mechanism. When sound, A reports the color perfectly. When faulty, it produces a fair random report independent of the token. Its overall reliability is therefore"
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 43,
+          "exact_line": "B reports the true color with probability 0.9, symmetrically for both colors. Crucially, **conditional on the token, B's report distribution is independent of A's condition**. Its reliability remains 0.9 whether A is sound or faulty. Selection is independent of the token, A's condition, and report-generating noise. These are stipulations of a finite model, not empirical claims about instruments or human memory."
+        }
+      ],
+      "exact_computation": "P(correct|A)=4/5+(1/5)(1/2); Bayes over truth × source × A condition × selected report.",
+      "results": [
+        {
+          "quantity": "A reliability",
+          "computed": {
+            "fraction": "9/10",
+            "numerator": 9,
+            "denominator": 10,
+            "decimal": "0.9"
+          },
+          "printed": ".9",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(blue)",
+          "computed": {
+            "fraction": "1/2",
+            "numerator": 1,
+            "denominator": 2,
+            "decimal": "0.5"
+          },
+          "printed": ".5",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(truth=1|source=A,blue)",
+          "computed": {
+            "fraction": "9/10",
+            "numerator": 9,
+            "denominator": 10,
+            "decimal": "0.9"
+          },
+          "printed": ".9",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(truth=1|source=B,blue)",
+          "computed": {
+            "fraction": "9/10",
+            "numerator": 9,
+            "denominator": 10,
+            "decimal": "0.9"
+          },
+          "printed": ".9",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(truth=1|blue,erased)",
+          "computed": {
+            "fraction": "9/10",
+            "numerator": 9,
+            "denominator": 10,
+            "decimal": "0.9"
+          },
+          "printed": ".9",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M02-02",
+      "blind_id": "M02",
+      "essay_id": "F02",
+      "title_ru": "Все значения таблицы после проверки A",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M02.md",
+          "line": 57,
+          "exact_line": "Immediately after erasure, the credence in *p* remains 0.9. Either sensor produces a blue report with probability 0.5. Even conditional on either inspection result, this report leaves the source probabilities equal. The later probabilities are:"
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 61,
+          "exact_line": "| Source A | 0.5 | 1 |"
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 62,
+          "exact_line": "| Source B | 0.9 | 0.9 |"
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 63,
+          "exact_line": "| Source erased | 0.7 | 0.95 |"
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M02.md",
+          "line": 35,
+          "exact_line": "A researcher is investigating whether a sealed box contains a blue token. Call that proposition *p*. Blue and red are equally probable. A fair randomizer selects sensor A or sensor B, and the researcher sees the selected sensor's identity and its color report."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 37,
+          "exact_line": "A is sound with probability 0.8 and faulty with probability 0.2. Its condition is independent of the token and the selection mechanism. When sound, A reports the color perfectly. When faulty, it produces a fair random report independent of the token. Its overall reliability is therefore"
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 43,
+          "exact_line": "B reports the true color with probability 0.9, symmetrically for both colors. Crucially, **conditional on the token, B's report distribution is independent of A's condition**. Its reliability remains 0.9 whether A is sound or faulty. Selection is independent of the token, A's condition, and report-generating noise. These are stipulations of a finite model, not empirical claims about instruments or human memory."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 45,
+          "exact_line": "A scheduled inspection will disclose whether A was sound when the report was made. It reveals only that condition, not the token's color. It does not change the sensors' past behavior."
+        }
+      ],
+      "exact_computation": "Exact conditional sums of F02_main; erased posterior is equal-weight mean of the two source posteriors.",
+      "results": [
+        {
+          "quantity": "P(source=A|A_sound=0,blue)",
+          "computed": {
+            "fraction": "1/2",
+            "numerator": 1,
+            "denominator": 2,
+            "decimal": "0.5"
+          },
+          "printed": ".5",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(truth=1|blue,A_sound=0,source=A)",
+          "computed": {
+            "fraction": "1/2",
+            "numerator": 1,
+            "denominator": 2,
+            "decimal": "0.5"
+          },
+          "printed": ".5",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(truth=1|blue,A_sound=0,source=B)",
+          "computed": {
+            "fraction": "9/10",
+            "numerator": 9,
+            "denominator": 10,
+            "decimal": "0.9"
+          },
+          "printed": ".9",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(truth=1|blue,A_sound=0,source=erased)",
+          "computed": {
+            "fraction": "7/10",
+            "numerator": 7,
+            "denominator": 10,
+            "decimal": "0.7"
+          },
+          "printed": ".7",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(source=A|A_sound=1,blue)",
+          "computed": {
+            "fraction": "1/2",
+            "numerator": 1,
+            "denominator": 2,
+            "decimal": "0.5"
+          },
+          "printed": ".5",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(truth=1|blue,A_sound=1,source=A)",
+          "computed": {
+            "fraction": "1/1",
+            "numerator": 1,
+            "denominator": 1,
+            "decimal": "1"
+          },
+          "printed": "1",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(truth=1|blue,A_sound=1,source=B)",
+          "computed": {
+            "fraction": "9/10",
+            "numerator": 9,
+            "denominator": 10,
+            "decimal": "0.9"
+          },
+          "printed": ".9",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(truth=1|blue,A_sound=1,source=erased)",
+          "computed": {
+            "fraction": "19/20",
+            "numerator": 19,
+            "denominator": 20,
+            "decimal": "0.95"
+          },
+          "printed": ".95",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M02-03",
+      "blind_id": "M02",
+      "essay_id": "F02",
+      "title_ru": "Квадратичные потери 0.09, 0.07 и 0.08",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M02.md",
+          "line": 69,
+          "exact_line": "Nevertheless, keeping the label improves expected credal accuracy. For a credence *c* in *p*, measure inaccuracy by \\((c-X)^2\\), where *X* is 1 if *p* is true and 0 otherwise. At the supported credence *c*, expected inaccuracy is \\(c(1-c)\\). Before inspection, both policies have expected inaccuracy 0.09 for *p*. Afterwards, conditional on the blue report, Keep has expected inaccuracy"
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 72,
+          "exact_line": "0.2\\left(\\frac{0.25+0.09}{2}\\right)"
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 73,
+          "exact_line": "+0.8\\left(\\frac{0+0.09}{2}\\right)=0.07,"
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 79,
+          "exact_line": "0.2(0.7)(0.3)+0.8(0.95)(0.05)=0.08."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 82,
+          "exact_line": "By symmetry, these are also the unconditional expected losses. The same background model supports both policies' credences and the comparison between their prospects. Keep is better in expectation, not in every outcome. If B incorrectly reports blue about a red token and A fails inspection, Erase's 0.7 is closer to the truth than Keep's 0.9."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M02.md",
+          "line": 35,
+          "exact_line": "A researcher is investigating whether a sealed box contains a blue token. Call that proposition *p*. Blue and red are equally probable. A fair randomizer selects sensor A or sensor B, and the researcher sees the selected sensor's identity and its color report."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 37,
+          "exact_line": "A is sound with probability 0.8 and faulty with probability 0.2. Its condition is independent of the token and the selection mechanism. When sound, A reports the color perfectly. When faulty, it produces a fair random report independent of the token. Its overall reliability is therefore"
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 43,
+          "exact_line": "B reports the true color with probability 0.9, symmetrically for both colors. Crucially, **conditional on the token, B's report distribution is independent of A's condition**. Its reliability remains 0.9 whether A is sound or faulty. Selection is independent of the token, A's condition, and report-generating noise. These are stipulations of a finite model, not empirical claims about instruments or human memory."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 45,
+          "exact_line": "A scheduled inspection will disclose whether A was sound when the report was made. It reveals only that condition, not the token's color. It does not change the sensors' past behavior."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 69,
+          "exact_line": "Nevertheless, keeping the label improves expected credal accuracy. For a credence *c* in *p*, measure inaccuracy by \\((c-X)^2\\), where *X* is 1 if *p* is true and 0 otherwise. At the supported credence *c*, expected inaccuracy is \\(c(1-c)\\). Before inspection, both policies have expected inaccuracy 0.09 for *p*. Afterwards, conditional on the blue report, Keep has expected inaccuracy"
+        }
+      ],
+      "exact_computation": "Enumerate sum P(state)*(posterior-truth)^2. Keep=(1/5)((1/4+9/100)/2)+(4/5)((0+9/100)/2)=7/100. Erase=(1/5)(7/10)(3/10)+(4/5)(19/20)(1/20)=2/25.",
+      "results": [
+        {
+          "quantity": "before",
+          "computed": {
+            "fraction": "9/100",
+            "numerator": 9,
+            "denominator": 100,
+            "decimal": "0.09"
+          },
+          "printed": ".09",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "Keep, conditional blue",
+          "computed": {
+            "fraction": "7/100",
+            "numerator": 7,
+            "denominator": 100,
+            "decimal": "0.07"
+          },
+          "printed": ".07",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "Erase, conditional blue",
+          "computed": {
+            "fraction": "2/25",
+            "numerator": 2,
+            "denominator": 25,
+            "decimal": "0.08"
+          },
+          "printed": ".08",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "Keep, unconditional",
+          "computed": {
+            "fraction": "7/100",
+            "numerator": 7,
+            "denominator": 100,
+            "decimal": "0.07"
+          },
+          "printed": ".07",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "Erase, unconditional",
+          "computed": {
+            "fraction": "2/25",
+            "numerator": 2,
+            "denominator": 25,
+            "decimal": "0.08"
+          },
+          "printed": ".08",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M02-04",
+      "blind_id": "M02",
+      "essay_id": "F02",
+      "title_ru": "Вероятность правильной двоичной классификации",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M02.md",
+          "line": 86,
+          "exact_line": "Second, the advantage is for credal accuracy, not every task standard. If the only output is the best color classification, scored simply correct or incorrect, both policies achieve expected correctness 0.9. All blue-report posteriors are at least 0.5, so the label does not improve that classification."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M02.md",
+          "line": 35,
+          "exact_line": "A researcher is investigating whether a sealed box contains a blue token. Call that proposition *p*. Blue and red are equally probable. A fair randomizer selects sensor A or sensor B, and the researcher sees the selected sensor's identity and its color report."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 37,
+          "exact_line": "A is sound with probability 0.8 and faulty with probability 0.2. Its condition is independent of the token and the selection mechanism. When sound, A reports the color perfectly. When faulty, it produces a fair random report independent of the token. Its overall reliability is therefore"
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 43,
+          "exact_line": "B reports the true color with probability 0.9, symmetrically for both colors. Crucially, **conditional on the token, B's report distribution is independent of A's condition**. Its reliability remains 0.9 whether A is sound or faulty. Selection is independent of the token, A's condition, and report-generating noise. These are stipulations of a finite model, not empirical claims about instruments or human memory."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 45,
+          "exact_line": "A scheduled inspection will disclose whether A was sound when the report was made. It reveals only that condition, not the token's color. It does not change the sensors' past behavior."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 86,
+          "exact_line": "Second, the advantage is for credal accuracy, not every task standard. If the only output is the best color classification, scored simply correct or incorrect, both policies achieve expected correctness 0.9. All blue-report posteriors are at least 0.5, so the label does not improve that classification."
+        }
+      ],
+      "exact_computation": "Sum over each posterior information state of max(posterior,1-posterior); ties at 1/2 have accuracy 1/2.",
+      "results": [
+        {
+          "quantity": "Keep classification accuracy",
+          "computed": {
+            "fraction": "9/10",
+            "numerator": 9,
+            "denominator": 10,
+            "decimal": "0.9"
+          },
+          "printed": ".9",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "Erase classification accuracy",
+          "computed": {
+            "fraction": "9/10",
+            "numerator": 9,
+            "denominator": 10,
+            "decimal": "0.9"
+          },
+          "printed": ".9",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M02-05",
+      "blind_id": "M02",
+      "essay_id": "F02",
+      "title_ru": "Альтернативная общая неисправность: потери 0.05",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M02.md",
+          "line": 88,
+          "exact_line": "Third, marginal reliability alone would not establish the table. If B, like A, were perfect when A was sound and random when A was faulty, both sensors would still be 0.9 reliable before inspection. But afterwards either source would support 1 or 0.5. The label would be redundant and both policies would have expected squared loss 0.05. The conditional independence stipulated above is therefore substantive."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M02.md",
+          "line": 35,
+          "exact_line": "A researcher is investigating whether a sealed box contains a blue token. Call that proposition *p*. Blue and red are equally probable. A fair randomizer selects sensor A or sensor B, and the researcher sees the selected sensor's identity and its color report."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 37,
+          "exact_line": "A is sound with probability 0.8 and faulty with probability 0.2. Its condition is independent of the token and the selection mechanism. When sound, A reports the color perfectly. When faulty, it produces a fair random report independent of the token. Its overall reliability is therefore"
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 88,
+          "exact_line": "Third, marginal reliability alone would not establish the table. If B, like A, were perfect when A was sound and random when A was faulty, both sensors would still be 0.9 reliable before inspection. But afterwards either source would support 1 or 0.5. The label would be redundant and both policies would have expected squared loss 0.05. The conditional independence stipulated above is therefore substantive."
+        }
+      ],
+      "exact_computation": "(4/5)*0+(1/5)*(1/4)=1/20; independent enumeration with the printed alternative B condition dependence.",
+      "results": [
+        {
+          "quantity": "Keep alternative loss",
+          "computed": {
+            "fraction": "1/20",
+            "numerator": 1,
+            "denominator": 20,
+            "decimal": "0.05"
+          },
+          "printed": ".05",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "Erase alternative loss",
+          "computed": {
+            "fraction": "1/20",
+            "numerator": 1,
+            "denominator": 20,
+            "decimal": "0.05"
+          },
+          "printed": ".05",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": "This is a separately printed alternative model, not a replacement assumption for the main 0.07/0.08 calculation."
+    },
+    {
+      "id": "M02-06",
+      "blind_id": "M02",
+      "essay_id": "F02",
+      "title_ru": "Проверка тождества потерь в данном конечном примере",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M02.md",
+          "line": 101,
+          "exact_line": "r=\\mathbb E[q\\mid S,Z]."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 107,
+          "exact_line": "\\mathbb E[(r-X)^2]-\\mathbb E[(q-X)^2]"
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 108,
+          "exact_line": "=\\mathbb E[(q-r)^2]."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 111,
+          "exact_line": "To verify it, expand \\(r-X=(r-q)+(q-X)\\). The cross term has expectation zero because \\(\\mathbb E[q-X\\mid H,Z]=0\\). The remaining difference is nonnegative. It is strictly positive when histories merged by the summary support different later probabilities with positive probability. No new information-loss theorem is claimed."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M02.md",
+          "line": 35,
+          "exact_line": "A researcher is investigating whether a sealed box contains a blue token. Call that proposition *p*. Blue and red are equally probable. A fair randomizer selects sensor A or sensor B, and the researcher sees the selected sensor's identity and its color report."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 37,
+          "exact_line": "A is sound with probability 0.8 and faulty with probability 0.2. Its condition is independent of the token and the selection mechanism. When sound, A reports the color perfectly. When faulty, it produces a fair random report independent of the token. Its overall reliability is therefore"
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 43,
+          "exact_line": "B reports the true color with probability 0.9, symmetrically for both colors. Crucially, **conditional on the token, B's report distribution is independent of A's condition**. Its reliability remains 0.9 whether A is sound or faulty. Selection is independent of the token, A's condition, and report-generating noise. These are stipulations of a finite model, not empirical claims about instruments or human memory."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 45,
+          "exact_line": "A scheduled inspection will disclose whether A was sound when the report was made. It reveals only that condition, not the token's color. It does not change the sensors' past behavior."
+        },
+        {
+          "path": "blind/M02.md",
+          "line": 95,
+          "exact_line": "q=P(p\\mid H,Z),\\qquad r=P(p\\mid S,Z)."
+        }
+      ],
+      "exact_computation": "Enumerate E[(q-r)^2] and E[(r-q)(q-X)]; compare the former with loss(Erase)-loss(Keep).",
+      "results": [
+        {
+          "quantity": "variance equals loss difference",
+          "computed": {
+            "fraction": "1/100",
+            "numerator": 1,
+            "denominator": 100,
+            "decimal": "0.01"
+          },
+          "printed": "1/100",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "cross term",
+          "computed": {
+            "fraction": "0/1",
+            "numerator": 0,
+            "denominator": 1,
+            "decimal": "0"
+          },
+          "printed": "0",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": "Only substitution in this finite model is tested; this record is not an independent proof of the general theorem."
+    },
+    {
+      "id": "M04-01",
+      "blind_id": "M04",
+      "essay_id": "E039",
+      "title_ru": "Исходные вероятности отчёта и уверенность",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M04.md",
+          "line": 15,
+          "exact_line": "An investigator uses a fair coin to select one channel and receives a positive report. She knows the model just described. The report's probability is 0.9 if H is true: a sound channel certainly reports positively, while a randomizing channel does so half the time. Its probability is 0.1 if H is false. The investigator's rational confidence in H is therefore 0.9."
+        },
+        {
+          "path": "blind/M04.md",
+          "line": 17,
+          "exact_line": "Crucially, it is 0.9 whether A or B was selected. The channels have identical initial credentials. After observing the positive report, learning which one supplied it would make no difference to her confidence in H. Suppose she already knows which one she used. She now proposes to retain the positive report and the model, including her justified confidence, but delete the channel's identity. There is no distortion of her present assessment. She is not suppressing an objection, forgetting that she reasoned badly, or inflating a probability by omitting an unfavorable result."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M04.md",
+          "line": 13,
+          "exact_line": "Consider two channels, A and B, each reporting on whether a proposition H is true. Initially H and its negation are equally probable. Each channel has an independent probability of 0.8 of being sound. A sound channel reports H's truth value perfectly. An unsound channel produces a fair random answer, independently of H. Which channels are sound is also independent of H."
+        },
+        {
+          "path": "blind/M04.md",
+          "line": 15,
+          "exact_line": "An investigator uses a fair coin to select one channel and receives a positive report. She knows the model just described. The report's probability is 0.9 if H is true: a sound channel certainly reports positively, while a randomizing channel does so half the time. Its probability is 0.1 if H is false. The investigator's rational confidence in H is therefore 0.9."
+        }
+      ],
+      "exact_computation": "P(+|H)=4/5+(1/5)(1/2)=9/10; P(+|not H)=(1/5)(1/2)=1/10; equal priors yield posterior 9/10.",
+      "results": [
+        {
+          "quantity": "P(+|H)",
+          "computed": {
+            "fraction": "9/10",
+            "numerator": 9,
+            "denominator": 10,
+            "decimal": "0.9"
+          },
+          "printed": ".9",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(+|not H)",
+          "computed": {
+            "fraction": "1/10",
+            "numerator": 1,
+            "denominator": 10,
+            "decimal": "0.1"
+          },
+          "printed": ".1",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(H|+,source=A)",
+          "computed": {
+            "fraction": "9/10",
+            "numerator": 9,
+            "denominator": 10,
+            "decimal": "0.9"
+          },
+          "printed": ".9",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(H|+,source=B)",
+          "computed": {
+            "fraction": "9/10",
+            "numerator": 9,
+            "denominator": 10,
+            "decimal": "0.9"
+          },
+          "printed": ".9",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M04-02",
+      "blind_id": "M04",
+      "essay_id": "E039",
+      "title_ru": "Полный аудит: 0.5, 1 и 0.75",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M04.md",
+          "line": 19,
+          "exact_line": "Tomorrow a routine audit will disclose which channels were sound. Imagine its finding is that A randomized while B was sound. If the investigator used A, her positive report now gives her no reason to prefer H to its negation: her posterior is 0.5. If she used B, her posterior is 1 in this idealized model. A retained identity would tell her which response is appropriate."
+        },
+        {
+          "path": "blind/M04.md",
+          "line": 21,
+          "exact_line": "Without the identity, she must average the possibilities. Conditional on the audit and the positive report, each channel remains equally likely to have been selected. Her confidence is now 0.75. That is the appropriate assessment given what survives. But it is a poorer epistemic position than the one she could cheaply have preserved. She has lost the ability to distinguish a report whose force has collapsed from one whose force has increased."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M04.md",
+          "line": 13,
+          "exact_line": "Consider two channels, A and B, each reporting on whether a proposition H is true. Initially H and its negation are equally probable. Each channel has an independent probability of 0.8 of being sound. A sound channel reports H's truth value perfectly. An unsound channel produces a fair random answer, independently of H. Which channels are sound is also independent of H."
+        },
+        {
+          "path": "blind/M04.md",
+          "line": 15,
+          "exact_line": "An investigator uses a fair coin to select one channel and receives a positive report. She knows the model just described. The report's probability is 0.9 if H is true: a sound channel certainly reports positively, while a randomizing channel does so half the time. Its probability is 0.1 if H is false. The investigator's rational confidence in H is therefore 0.9."
+        },
+        {
+          "path": "blind/M04.md",
+          "line": 19,
+          "exact_line": "Tomorrow a routine audit will disclose which channels were sound. Imagine its finding is that A randomized while B was sound. If the investigator used A, her positive report now gives her no reason to prefer H to its negation: her posterior is 0.5. If she used B, her posterior is 1 in this idealized model. A retained identity would tell her which response is appropriate."
+        }
+      ],
+      "exact_computation": "Exact conditional sums for A random/B sound; positive-report source weights remain 1/2 each.",
+      "results": [
+        {
+          "quantity": "P(H|+,A random,B sound,source=A)",
+          "computed": {
+            "fraction": "1/2",
+            "numerator": 1,
+            "denominator": 2,
+            "decimal": "0.5"
+          },
+          "printed": ".5",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(H|+,A random,B sound,source=B)",
+          "computed": {
+            "fraction": "1/1",
+            "numerator": 1,
+            "denominator": 1,
+            "decimal": "1"
+          },
+          "printed": "1",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(H|+,A random,B sound,source=erased)",
+          "computed": {
+            "fraction": "3/4",
+            "numerator": 3,
+            "denominator": 4,
+            "decimal": "0.75"
+          },
+          "printed": ".75",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M04-03",
+      "blind_id": "M04",
+      "essay_id": "E039",
+      "title_ru": "Вероятности состояний двух каналов",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M04.md",
+          "line": 63,
+          "exact_line": "Without the identity, expected error is 0.07. Both channels are sound with probability 0.64, in which case the positive report settles H. Both randomize with probability 0.04, yielding confidence 0.5. Exactly one is sound with probability 0.32, yielding confidence 0.75. The weighted error is therefore 0.64 × 0 + 0.04 × 0.25 + 0.32 × 0.1875 = 0.07. These soundness probabilities remain appropriate after the positive report because either kind of channel produces a positive report half the time before H is known."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M04.md",
+          "line": 13,
+          "exact_line": "Consider two channels, A and B, each reporting on whether a proposition H is true. Initially H and its negation are equally probable. Each channel has an independent probability of 0.8 of being sound. A sound channel reports H's truth value perfectly. An unsound channel produces a fair random answer, independently of H. Which channels are sound is also independent of H."
+        },
+        {
+          "path": "blind/M04.md",
+          "line": 15,
+          "exact_line": "An investigator uses a fair coin to select one channel and receives a positive report. She knows the model just described. The report's probability is 0.9 if H is true: a sound channel certainly reports positively, while a randomizing channel does so half the time. Its probability is 0.1 if H is false. The investigator's rational confidence in H is therefore 0.9."
+        }
+      ],
+      "exact_computation": "Both sound=(4/5)^2=16/25; both random=(1/5)^2=1/25; exactly one=2*(4/5)*(1/5)=8/25. Enumerate also conditional on positive report.",
+      "results": [
+        {
+          "quantity": "P(2 sound)",
+          "computed": {
+            "fraction": "16/25",
+            "numerator": 16,
+            "denominator": 25,
+            "decimal": "0.64"
+          },
+          "printed": ".64",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(2 sound|+)",
+          "computed": {
+            "fraction": "16/25",
+            "numerator": 16,
+            "denominator": 25,
+            "decimal": "0.64"
+          },
+          "printed": ".64",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(0 sound)",
+          "computed": {
+            "fraction": "1/25",
+            "numerator": 1,
+            "denominator": 25,
+            "decimal": "0.04"
+          },
+          "printed": ".04",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(0 sound|+)",
+          "computed": {
+            "fraction": "1/25",
+            "numerator": 1,
+            "denominator": 25,
+            "decimal": "0.04"
+          },
+          "printed": ".04",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(1 sound)",
+          "computed": {
+            "fraction": "8/25",
+            "numerator": 8,
+            "denominator": 25,
+            "decimal": "0.32"
+          },
+          "printed": ".32",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(1 sound|+)",
+          "computed": {
+            "fraction": "8/25",
+            "numerator": 8,
+            "denominator": 25,
+            "decimal": "0.32"
+          },
+          "printed": ".32",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M04-04",
+      "blind_id": "M04",
+      "essay_id": "E039",
+      "title_ru": "Квадратичные потери 0.09, 0.05 и 0.07; разность 0.02",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M04.md",
+          "line": 61,
+          "exact_line": "Use squared error to assess a confidence p, assigning error (p − 1)² when H is true and p² when it is false. Before the audit, confidence 0.9 has expected error 0.09 under either retention policy. After the full audit, keeping the identity yields expected error 0.05: with probability 0.8 the selected channel is sound and identifies the truth, while with probability 0.2 it randomized and warrants confidence 0.5, whose expected error is 0.25."
+        },
+        {
+          "path": "blind/M04.md",
+          "line": 63,
+          "exact_line": "Without the identity, expected error is 0.07. Both channels are sound with probability 0.64, in which case the positive report settles H. Both randomize with probability 0.04, yielding confidence 0.5. Exactly one is sound with probability 0.32, yielding confidence 0.75. The weighted error is therefore 0.64 × 0 + 0.04 × 0.25 + 0.32 × 0.1875 = 0.07. These soundness probabilities remain appropriate after the positive report because either kind of channel produces a positive report half the time before H is known."
+        },
+        {
+          "path": "blind/M04.md",
+          "line": 67,
+          "exact_line": "Expected[(X − r)²] − Expected[(X − q)²] = Expected[(q − r)²]."
+        },
+        {
+          "path": "blind/M04.md",
+          "line": 71,
+          "exact_line": "This standard conditional-variance identity shows that lossless posterior reproduction is exactly the zero-loss case for the expected squared-error comparison. A discrepancy on an event of positive probability entails a strict loss. In the example that loss is 0.02. This does not guarantee greater accuracy in every realized world. If the selected channel randomized and H happens to be true, the informed confidence 0.5 is less accurate on that occasion than 0.75. The advantage is in expectation under the assumed model."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M04.md",
+          "line": 13,
+          "exact_line": "Consider two channels, A and B, each reporting on whether a proposition H is true. Initially H and its negation are equally probable. Each channel has an independent probability of 0.8 of being sound. A sound channel reports H's truth value perfectly. An unsound channel produces a fair random answer, independently of H. Which channels are sound is also independent of H."
+        },
+        {
+          "path": "blind/M04.md",
+          "line": 15,
+          "exact_line": "An investigator uses a fair coin to select one channel and receives a positive report. She knows the model just described. The report's probability is 0.9 if H is true: a sound channel certainly reports positively, while a randomizing channel does so half the time. Its probability is 0.1 if H is false. The investigator's rational confidence in H is therefore 0.9."
+        },
+        {
+          "path": "blind/M04.md",
+          "line": 19,
+          "exact_line": "Tomorrow a routine audit will disclose which channels were sound. Imagine its finding is that A randomized while B was sound. If the investigator used A, her positive report now gives her no reason to prefer H to its negation: her posterior is 0.5. If she used B, her posterior is 1 in this idealized model. A retained identity would tell her which response is appropriate."
+        },
+        {
+          "path": "blind/M04.md",
+          "line": 61,
+          "exact_line": "Use squared error to assess a confidence p, assigning error (p − 1)² when H is true and p² when it is false. Before the audit, confidence 0.9 has expected error 0.09 under either retention policy. After the full audit, keeping the identity yields expected error 0.05: with probability 0.8 the selected channel is sound and identifies the truth, while with probability 0.2 it randomized and warrants confidence 0.5, whose expected error is 0.25."
+        }
+      ],
+      "exact_computation": "Keep=(4/5)*0+(1/5)*(1/4)=1/20. Erase=(16/25)*0+(1/25)*(1/4)+(8/25)*(3/16)=7/100. Exact enumeration separately verifies conditional and unconditional losses and E[(q-r)^2]=1/50.",
+      "results": [
+        {
+          "quantity": "before",
+          "computed": {
+            "fraction": "9/100",
+            "numerator": 9,
+            "denominator": 100,
+            "decimal": "0.09"
+          },
+          "printed": ".09",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "Keep conditional +",
+          "computed": {
+            "fraction": "1/20",
+            "numerator": 1,
+            "denominator": 20,
+            "decimal": "0.05"
+          },
+          "printed": ".05",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "Erase conditional +",
+          "computed": {
+            "fraction": "7/100",
+            "numerator": 7,
+            "denominator": 100,
+            "decimal": "0.07"
+          },
+          "printed": ".07",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "Keep unconditional",
+          "computed": {
+            "fraction": "1/20",
+            "numerator": 1,
+            "denominator": 20,
+            "decimal": "0.05"
+          },
+          "printed": ".05",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "Erase unconditional",
+          "computed": {
+            "fraction": "7/100",
+            "numerator": 7,
+            "denominator": 100,
+            "decimal": "0.07"
+          },
+          "printed": ".07",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "loss difference",
+          "computed": {
+            "fraction": "1/50",
+            "numerator": 1,
+            "denominator": 50,
+            "decimal": "0.02"
+          },
+          "printed": ".02",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "variance identity in this example",
+          "computed": {
+            "fraction": "1/50",
+            "numerator": 1,
+            "denominator": 50,
+            "decimal": "0.02"
+          },
+          "printed": ".02",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": "This model audits both channels, unlike F02's audit of A alone; its inputs are not interchanged with F02's."
+    },
+    {
+      "id": "M10-01",
+      "blind_id": "M10",
+      "essay_id": "E079",
+      "title_ru": "Проценты из напечатанных чисел участников",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M10.md",
+          "line": 15,
+          "exact_line": "The original report helps locate the issue. Judges received a hypothetical sexual-assault case, with or without additional sexual-history information. Exposed judges first ruled on its admissibility; all then answered a guilt question requiring reliance only on admitted evidence. The conviction counts were 27/55 without exposure, 7/35 among those ruling the information inadmissible, and 1/13 among those admitting it: the reported 49.1%, 20%, and 7.7%. The last two groups were formed by the judges' own rulings, and their difference was not statistically significant (Fisher's exact p = .42). The researchers also note that judges admitting the information may have regarded it as more probative. [Wistrich, Guthrie and Rachlinski 2005, pp.1283–84, 1300–03, 1336–37](https://repository.law.upenn.edu/Documents/Detail/can-judges-ignore-inadmissible-information-the-difficulty-of-deliberately-disregarding/153906)"
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M10.md",
+          "line": 15,
+          "exact_line": "The original report helps locate the issue. Judges received a hypothetical sexual-assault case, with or without additional sexual-history information. Exposed judges first ruled on its admissibility; all then answered a guilt question requiring reliance only on admitted evidence. The conviction counts were 27/55 without exposure, 7/35 among those ruling the information inadmissible, and 1/13 among those admitting it: the reported 49.1%, 20%, and 7.7%. The last two groups were formed by the judges' own rulings, and their difference was not statistically significant (Fisher's exact p = .42). The researchers also note that judges admitting the information may have regarded it as more probative. [Wistrich, Guthrie and Rachlinski 2005, pp.1283–84, 1300–03, 1336–37](https://repository.law.upenn.edu/Documents/Detail/can-judges-ignore-inadmissible-information-the-difficulty-of-deliberately-disregarding/153906)"
+        }
+      ],
+      "exact_computation": "27/55*100; 7/35*100; 1/13*100. Check percentages at their printed precision, not exact equality of rounded decimals.",
+      "results": [
+        {
+          "quantity": "27/55 percent",
+          "computed": {
+            "fraction": "540/11",
+            "numerator": 540,
+            "denominator": 11,
+            "decimal": "49.0909090909090909090909090909"
+          },
+          "printed": "49.1",
+          "comparison": "rounded_to_1_decimal_places",
+          "rounding_tolerance": {
+            "fraction": "1/20",
+            "numerator": 1,
+            "denominator": 20,
+            "decimal": "0.05"
+          },
+          "matches": true
+        },
+        {
+          "quantity": "7/35 percent",
+          "computed": {
+            "fraction": "20/1",
+            "numerator": 20,
+            "denominator": 1,
+            "decimal": "20"
+          },
+          "printed": "20",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "1/13 percent",
+          "computed": {
+            "fraction": "100/13",
+            "numerator": 100,
+            "denominator": 13,
+            "decimal": "7.69230769230769230769230769231"
+          },
+          "printed": "7.7",
+          "comparison": "rounded_to_1_decimal_places",
+          "rounding_tolerance": {
+            "fraction": "1/20",
+            "numerator": 1,
+            "denominator": 20,
+            "decimal": "0.05"
+          },
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": "Only arithmetic on the printed counts is checked; the external experiment and source transcription are not verified."
+    },
+    {
+      "id": "M10-02",
+      "blind_id": "M10",
+      "essay_id": "E079",
+      "title_ru": "Fisher p = 0.42 при обычном двустороннем подсчёте",
+      "status": "CONDITIONAL",
+      "location": [
+        {
+          "path": "blind/M10.md",
+          "line": 15,
+          "exact_line": "The original report helps locate the issue. Judges received a hypothetical sexual-assault case, with or without additional sexual-history information. Exposed judges first ruled on its admissibility; all then answered a guilt question requiring reliance only on admitted evidence. The conviction counts were 27/55 without exposure, 7/35 among those ruling the information inadmissible, and 1/13 among those admitting it: the reported 49.1%, 20%, and 7.7%. The last two groups were formed by the judges' own rulings, and their difference was not statistically significant (Fisher's exact p = .42). The researchers also note that judges admitting the information may have regarded it as more probative. [Wistrich, Guthrie and Rachlinski 2005, pp.1283–84, 1300–03, 1336–37](https://repository.law.upenn.edu/Documents/Detail/can-judges-ignore-inadmissible-information-the-difficulty-of-deliberately-disregarding/153906)"
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M10.md",
+          "line": 15,
+          "exact_line": "The original report helps locate the issue. Judges received a hypothetical sexual-assault case, with or without additional sexual-history information. Exposed judges first ruled on its admissibility; all then answered a guilt question requiring reliance only on admitted evidence. The conviction counts were 27/55 without exposure, 7/35 among those ruling the information inadmissible, and 1/13 among those admitting it: the reported 49.1%, 20%, and 7.7%. The last two groups were formed by the judges' own rulings, and their difference was not statistically significant (Fisher's exact p = .42). The researchers also note that judges admitting the information may have regarded it as more probative. [Wistrich, Guthrie and Rachlinski 2005, pp.1283–84, 1300–03, 1336–37](https://repository.law.upenn.edu/Documents/Detail/can-judges-ignore-inadmissible-information-the-difficulty-of-deliberately-disregarding/153906)"
+        }
+      ],
+      "exact_computation": "For [[7,28],[1,12]], P(k)=C(35,k)C(13,8-k)/C(48,8). Sum all tables with probability <= the observed k=7 table.",
+      "results": [
+        {
+          "quantity": "two-sided Fisher p",
+          "computed": {
+            "fraction": "7177171/17152227",
+            "numerator": 7177171,
+            "denominator": 17152227,
+            "decimal": "0.418439599709122319801387889747"
+          },
+          "printed": ".42",
+          "comparison": "rounded_to_2_decimal_places",
+          "rounding_tolerance": {
+            "fraction": "1/200",
+            "numerator": 1,
+            "denominator": 200,
+            "decimal": "0.005"
+          },
+          "matches": true
+        }
+      ],
+      "conditional_boundary": "The text does not specify a two-sided convention. This calculation uses the probability-ordering definition with fixed margins; it does not reconstruct the source software or verify the experiment.",
+      "limits": null
+    },
+    {
+      "id": "M10-03",
+      "blind_id": "M10",
+      "essay_id": "E079",
+      "title_ru": "Равномерная модель: 49.1%, 7.7% и 20%",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M10.md",
+          "line": 23,
+          "exact_line": "Imagine a population of judges. Each has a baseline deliberative score, x, representing how strongly the admissible case supports conviction relative to the judge's threshold. A positive final score produces conviction; a negative score produces acquittal. Let baseline scores be uniformly distributed from −0.509 to 0.491. The interval has length one, and its positive part has length 0.491. Without the extra consideration, 49.1% therefore convict."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 25,
+          "exact_line": "When counted at full strength, suppose the extra consideration subtracts 0.414 from each judge's score. A judge then convicts only if x exceeds 0.414. The relevant portion of the interval has length 0.077, producing the second rate of 7.7%."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 37,
+          "exact_line": "In the second model, every judge responds to the rule by reducing the weight assigned to the consideration, but nobody eliminates that weight. Each now subtracts 0.291 rather than 0.414. Each still treats the information as counting against conviction. A judge convicts when x exceeds 0.291. The relevant portion of the interval has length 0.200. Again, exactly 20% convict."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M10.md",
+          "line": 19,
+          "exact_line": "For the construction, I treat the three rounded rates as exact probabilities of a hypothetical population. I grant comparable baseline distributions and let the 7.7% rate represent full reliance on the information. I also stipulate that the intermediate rate reflects a response to the rule. These are deliberately generous assumptions, not findings that the experimental design independently establishes. Even with them, complete exclusion does not follow."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 23,
+          "exact_line": "Imagine a population of judges. Each has a baseline deliberative score, x, representing how strongly the admissible case supports conviction relative to the judge's threshold. A positive final score produces conviction; a negative score produces acquittal. Let baseline scores be uniformly distributed from −0.509 to 0.491. The interval has length one, and its positive part has length 0.491. Without the extra consideration, 49.1% therefore convict."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 25,
+          "exact_line": "When counted at full strength, suppose the extra consideration subtracts 0.414 from each judge's score. A judge then convicts only if x exceeds 0.414. The relevant portion of the interval has length 0.077, producing the second rate of 7.7%."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 37,
+          "exact_line": "In the second model, every judge responds to the rule by reducing the weight assigned to the consideration, but nobody eliminates that weight. Each now subtracts 0.291 rather than 0.414. Each still treats the information as counting against conviction. A judge convicts when x exceeds 0.291. The relevant portion of the interval has length 0.200. Again, exactly 20% convict."
+        }
+      ],
+      "exact_computation": "Interval width=.491-(-.509)=1; P(X>d)=max(0,min(1,.491-d))/1. Substitutions d=0,.414,.291.",
+      "results": [
+        {
+          "quantity": "width",
+          "computed": {
+            "fraction": "1/1",
+            "numerator": 1,
+            "denominator": 1,
+            "decimal": "1"
+          },
+          "printed": "1",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "no discount",
+          "computed": {
+            "fraction": "491/1000",
+            "numerator": 491,
+            "denominator": 1000,
+            "decimal": "0.491"
+          },
+          "printed": ".491",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "full discount .414",
+          "computed": {
+            "fraction": "77/1000",
+            "numerator": 77,
+            "denominator": 1000,
+            "decimal": "0.077"
+          },
+          "printed": ".077",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "partial discount .291",
+          "computed": {
+            "fraction": "1/5",
+            "numerator": 1,
+            "denominator": 5,
+            "decimal": "0.2"
+          },
+          "printed": ".200",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": "As explicitly stipulated at line 19, rounded empirical rates become exact hypothetical probabilities; no empirical equality is inferred. Interval endpoints have zero mass."
+    },
+    {
+      "id": "M10-04",
+      "blind_id": "M10",
+      "essay_id": "E079",
+      "title_ru": "Доля q и смесь с результатом 20%",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M10.md",
+          "line": 33,
+          "exact_line": "q × 0.491 + (1 − q) × 0.077."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 35,
+          "exact_line": "Set q to 0.123/0.414, or approximately 0.2971. The rate becomes exactly 0.200. Thus a population containing about 29.7% complete excluders reproduces the reported intermediate rate. By stipulation, the successful judges exclude because of the rule; their zero reliance is not merely accidental."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M10.md",
+          "line": 19,
+          "exact_line": "For the construction, I treat the three rounded rates as exact probabilities of a hypothetical population. I grant comparable baseline distributions and let the 7.7% rate represent full reliance on the information. I also stipulate that the intermediate rate reflects a response to the rule. These are deliberately generous assumptions, not findings that the experimental design independently establishes. Even with them, complete exclusion does not follow."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 23,
+          "exact_line": "Imagine a population of judges. Each has a baseline deliberative score, x, representing how strongly the admissible case supports conviction relative to the judge's threshold. A positive final score produces conviction; a negative score produces acquittal. Let baseline scores be uniformly distributed from −0.509 to 0.491. The interval has length one, and its positive part has length 0.491. Without the extra consideration, 49.1% therefore convict."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 25,
+          "exact_line": "When counted at full strength, suppose the extra consideration subtracts 0.414 from each judge's score. A judge then convicts only if x exceeds 0.414. The relevant portion of the interval has length 0.077, producing the second rate of 7.7%."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 31,
+          "exact_line": "In the first model, some judges completely exclude the consideration because they accept the rule as a reason not to rely on it. They recognize its apparent force, but remove it from the basis of their decision. The rest continue to count it at full strength. Let the proportion of complete excluders be q, independently of their baseline scores. The overall conviction rate is then:"
+        }
+      ],
+      "exact_computation": "q=(.200-.077)/(.491-.077)=.123/.414=41/138; q*.491+(1-q)*.077=1/5.",
+      "results": [
+        {
+          "quantity": "q",
+          "computed": {
+            "fraction": "41/138",
+            "numerator": 41,
+            "denominator": 138,
+            "decimal": "0.297101449275362318840579710145"
+          },
+          "printed": ".2971",
+          "comparison": "rounded_to_4_decimal_places",
+          "rounding_tolerance": {
+            "fraction": "1/20000",
+            "numerator": 1,
+            "denominator": 20000,
+            "decimal": "0.00005"
+          },
+          "matches": true
+        },
+        {
+          "quantity": "q percentage",
+          "computed": {
+            "fraction": "2050/69",
+            "numerator": 2050,
+            "denominator": 69,
+            "decimal": "29.7101449275362318840579710145"
+          },
+          "printed": "29.7",
+          "comparison": "rounded_to_1_decimal_places",
+          "rounding_tolerance": {
+            "fraction": "1/20",
+            "numerator": 1,
+            "denominator": 20,
+            "decimal": "0.05"
+          },
+          "matches": true
+        },
+        {
+          "quantity": "mixture conviction",
+          "computed": {
+            "fraction": "1/5",
+            "numerator": 1,
+            "denominator": 5,
+            "decimal": "0.2"
+          },
+          "printed": ".200",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M10-05",
+      "blind_id": "M10",
+      "essay_id": "E079",
+      "title_ru": "Интервал изменившегося решения: 12.3%",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M10.md",
+          "line": 54,
+          "exact_line": "This distinction makes the correction more exact. The construction challenges the inference to complete removal from the deliberative basis. It does not establish that no one succeeds under every action-based conception of exclusion. Consider the judges whose baseline scores lie between 0.291 and 0.414. In Model B, they acquit when the consideration is counted at full strength but convict after the rule reduces its weight. This interval contains 12.3% of the illustrative population. Their changed action is explained by their response to the rule. A defender might count this as successfully refraining from an acquittal for the prohibited reason, even though the consideration remains in deliberation."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M10.md",
+          "line": 23,
+          "exact_line": "Imagine a population of judges. Each has a baseline deliberative score, x, representing how strongly the admissible case supports conviction relative to the judge's threshold. A positive final score produces conviction; a negative score produces acquittal. Let baseline scores be uniformly distributed from −0.509 to 0.491. The interval has length one, and its positive part has length 0.491. Without the extra consideration, 49.1% therefore convict."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 25,
+          "exact_line": "When counted at full strength, suppose the extra consideration subtracts 0.414 from each judge's score. A judge then convicts only if x exceeds 0.414. The relevant portion of the interval has length 0.077, producing the second rate of 7.7%."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 37,
+          "exact_line": "In the second model, every judge responds to the rule by reducing the weight assigned to the consideration, but nobody eliminates that weight. Each now subtracts 0.291 rather than 0.414. Each still treats the information as counting against conviction. A judge convicts when x exceeds 0.291. The relevant portion of the interval has length 0.200. Again, exactly 20% convict."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 54,
+          "exact_line": "This distinction makes the correction more exact. The construction challenges the inference to complete removal from the deliberative basis. It does not establish that no one succeeds under every action-based conception of exclusion. Consider the judges whose baseline scores lie between 0.291 and 0.414. In Model B, they acquit when the consideration is counted at full strength but convict after the rule reduces its weight. This interval contains 12.3% of the illustrative population. Their changed action is explained by their response to the rule. A defender might count this as successfully refraining from an acquittal for the prohibited reason, even though the consideration remains in deliberation."
+        }
+      ],
+      "exact_computation": "P(.291<X<.414)=(.414-.291)/1=.123.",
+      "results": [
+        {
+          "quantity": "interval fraction",
+          "computed": {
+            "fraction": "123/1000",
+            "numerator": 123,
+            "denominator": 1000,
+            "decimal": "0.123"
+          },
+          "printed": ".123",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "interval percentage",
+          "computed": {
+            "fraction": "123/10",
+            "numerator": 123,
+            "denominator": 10,
+            "decimal": "12.3"
+          },
+          "printed": "12.3",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M10-06",
+      "blind_id": "M10",
+      "essay_id": "E079",
+      "title_ru": "Тождество расширений при 0 ≤ d ≤ 0.491",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M10.md",
+          "line": 70,
+          "exact_line": "Third, the distinction does not render empirical research into reason-responsiveness hopeless. But extra observations must actually separate proposed explanations. Merely varying the apparent strength of the consideration need not do so. Extend the models by letting d denote its full weight, keeping q fixed in Model A, and letting everyone in Model B count the fraction k = 1 − q of that weight. Throughout 0 ≤ d ≤ 0.491, their conviction probabilities remain identical:"
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 72,
+          "exact_line": "Model A: q(0.491) + (1 − q)(0.491 − d) = 0.491 − kd."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 74,
+          "exact_line": "Model B: P(x > kd) = 0.491 − kd."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M10.md",
+          "line": 23,
+          "exact_line": "Imagine a population of judges. Each has a baseline deliberative score, x, representing how strongly the admissible case supports conviction relative to the judge's threshold. A positive final score produces conviction; a negative score produces acquittal. Let baseline scores be uniformly distributed from −0.509 to 0.491. The interval has length one, and its positive part has length 0.491. Without the extra consideration, 49.1% therefore convict."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 31,
+          "exact_line": "In the first model, some judges completely exclude the consideration because they accept the rule as a reason not to rely on it. They recognize its apparent force, but remove it from the basis of their decision. The rest continue to count it at full strength. Let the proportion of complete excluders be q, independently of their baseline scores. The overall conviction rate is then:"
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 35,
+          "exact_line": "Set q to 0.123/0.414, or approximately 0.2971. The rate becomes exactly 0.200. Thus a population containing about 29.7% complete excluders reproduces the reported intermediate rate. By stipulation, the successful judges exclude because of the rule; their zero reliance is not merely accidental."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 70,
+          "exact_line": "Third, the distinction does not render empirical research into reason-responsiveness hopeless. But extra observations must actually separate proposed explanations. Merely varying the apparent strength of the consideration need not do so. Extend the models by letting d denote its full weight, keeping q fixed in Model A, and letting everyone in Model B count the fraction k = 1 − q of that weight. Throughout 0 ≤ d ≤ 0.491, their conviction probabilities remain identical:"
+        }
+      ],
+      "exact_computation": "Compare exact affine coefficients: q*.491+(1-q)*(.491-d) has intercept .491 and coefficient -(1-q)=-97/138, identical to .491-k*d. Domain 0<=d<=.491 keeps both thresholds inside the uniform interval.",
+      "results": [
+        {
+          "quantity": "intercept",
+          "computed": {
+            "fraction": "491/1000",
+            "numerator": 491,
+            "denominator": 1000,
+            "decimal": "0.491"
+          },
+          "printed": ".491",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "coefficient of d",
+          "computed": {
+            "fraction": "-97/138",
+            "numerator": -97,
+            "denominator": 138,
+            "decimal": "-0.702898550724637681159420289855"
+          },
+          "printed": "-97/138",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "k*.414",
+          "computed": {
+            "fraction": "291/1000",
+            "numerator": 291,
+            "denominator": 1000,
+            "decimal": "0.291"
+          },
+          "printed": ".291",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": "This verifies the printed stable-parameter extension only; changing the model's parameters is not covered."
+    },
+    {
+      "id": "M10-07",
+      "blind_id": "M10",
+      "essay_id": "E079",
+      "title_ru": "Расширение при d = 0.6",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M10.md",
+          "line": 78,
+          "exact_line": "The same specified extensions diverge beyond that range. At d = 0.6, nobody who counts the consideration fully can convict. Model A retains convictions among complete excluders and predicts q × 0.491, approximately 0.1459. Model B predicts 0.491 − 0.6k, approximately 0.0693. This is an illustration of a discriminating prediction under added assumptions, not a validated experimental design. It requires stable baseline distributions and response parameters, and a justified mapping between an experimental manipulation and the score d. Other plausible extensions might differ. Process observations and reports of reasoning could also constrain the explanation, without providing transparent access to motives. The lesson is to state and test the relevant mechanism assumptions rather than simply request more outcomes."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M10.md",
+          "line": 23,
+          "exact_line": "Imagine a population of judges. Each has a baseline deliberative score, x, representing how strongly the admissible case supports conviction relative to the judge's threshold. A positive final score produces conviction; a negative score produces acquittal. Let baseline scores be uniformly distributed from −0.509 to 0.491. The interval has length one, and its positive part has length 0.491. Without the extra consideration, 49.1% therefore convict."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 31,
+          "exact_line": "In the first model, some judges completely exclude the consideration because they accept the rule as a reason not to rely on it. They recognize its apparent force, but remove it from the basis of their decision. The rest continue to count it at full strength. Let the proportion of complete excluders be q, independently of their baseline scores. The overall conviction rate is then:"
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 35,
+          "exact_line": "Set q to 0.123/0.414, or approximately 0.2971. The rate becomes exactly 0.200. Thus a population containing about 29.7% complete excluders reproduces the reported intermediate rate. By stipulation, the successful judges exclude because of the rule; their zero reliance is not merely accidental."
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 70,
+          "exact_line": "Third, the distinction does not render empirical research into reason-responsiveness hopeless. But extra observations must actually separate proposed explanations. Merely varying the apparent strength of the consideration need not do so. Extend the models by letting d denote its full weight, keeping q fixed in Model A, and letting everyone in Model B count the fraction k = 1 − q of that weight. Throughout 0 ≤ d ≤ 0.491, their conviction probabilities remain identical:"
+        },
+        {
+          "path": "blind/M10.md",
+          "line": 78,
+          "exact_line": "The same specified extensions diverge beyond that range. At d = 0.6, nobody who counts the consideration fully can convict. Model A retains convictions among complete excluders and predicts q × 0.491, approximately 0.1459. Model B predicts 0.491 − 0.6k, approximately 0.0693. This is an illustration of a discriminating prediction under added assumptions, not a validated experimental design. It requires stable baseline distributions and response parameters, and a justified mapping between an experimental manipulation and the score d. Other plausible extensions might differ. Process observations and reports of reasoning could also constrain the explanation, without providing transparent access to motives. The lesson is to state and test the relevant mechanism assumptions rather than simply request more outcomes."
+        }
+      ],
+      "exact_computation": "d=.6>.491 gives zero convictions among full-discount agents. Model A=q*.491+(1-q)*0=20131/138000. Model B=.491-(3/5)*(97/138)=1593/23000.",
+      "results": [
+        {
+          "quantity": "Model A",
+          "computed": {
+            "fraction": "20131/138000",
+            "numerator": 20131,
+            "denominator": 138000,
+            "decimal": "0.145876811594202898550724637681"
+          },
+          "printed": ".1459",
+          "comparison": "rounded_to_4_decimal_places",
+          "rounding_tolerance": {
+            "fraction": "1/20000",
+            "numerator": 1,
+            "denominator": 20000,
+            "decimal": "0.00005"
+          },
+          "matches": true
+        },
+        {
+          "quantity": "Model B",
+          "computed": {
+            "fraction": "1593/23000",
+            "numerator": 1593,
+            "denominator": 23000,
+            "decimal": "0.0692608695652173913043478260870"
+          },
+          "printed": ".0693",
+          "comparison": "rounded_to_4_decimal_places",
+          "rounding_tolerance": {
+            "fraction": "1/20000",
+            "numerator": 1,
+            "denominator": 20000,
+            "decimal": "0.00005"
+          },
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": "The printed passage labels these as added stable-parameter assumptions, not a validated experimental design."
+    },
+    {
+      "id": "M13-01",
+      "blind_id": "M13",
+      "essay_id": "F03",
+      "title_ru": "Исходные вероятности: 0.65, 0.35 и 0.45",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M13.md",
+          "line": 62,
+          "exact_line": "The initial likelihoods of J are .65 under F and .35 under M. Observing J therefore raises confidence in F from .5 to .65. Yet the likelihood of E is .45 under either account: half of .1 plus half of .8. Considered alone, E supplies no likelihood advantage to M or F."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M13.md",
+          "line": 53,
+          "exact_line": "A finite model shows why. Suppose the researcher assigns equal prior probability to F and M. Under either account, the thinker has an equal chance of being in either of two process states: R, relatively reliable, or H, less reliable. Both are fallible."
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 57,
+          "exact_line": "| R | .8 | .2 | .1 |"
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 58,
+          "exact_line": "| H | .5 | .5 | .8 |"
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 60,
+          "exact_line": "Assume that J and E are independent once both the metaphysical account and process state are fixed. The numbers and independence assumption are invented for the illustration. They are not estimates of anyone's psychology."
+        }
+      ],
+      "exact_computation": "P(J|F)=(.8+.5)/2=.65; P(J|M)=(.2+.5)/2=.35; P(E|each)=(.1+.8)/2=.45. Bayes with equal account priors gives P(F|J)=.65.",
+      "results": [
+        {
+          "quantity": "P(J|F)",
+          "computed": {
+            "fraction": "13/20",
+            "numerator": 13,
+            "denominator": 20,
+            "decimal": "0.65"
+          },
+          "printed": ".65",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(E|F)",
+          "computed": {
+            "fraction": "9/20",
+            "numerator": 9,
+            "denominator": 20,
+            "decimal": "0.45"
+          },
+          "printed": ".45",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(J|M)",
+          "computed": {
+            "fraction": "7/20",
+            "numerator": 7,
+            "denominator": 20,
+            "decimal": "0.35"
+          },
+          "printed": ".35",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(E|M)",
+          "computed": {
+            "fraction": "9/20",
+            "numerator": 9,
+            "denominator": 20,
+            "decimal": "0.45"
+          },
+          "printed": ".45",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(F|J)",
+          "computed": {
+            "fraction": "13/20",
+            "numerator": 13,
+            "denominator": 20,
+            "decimal": "0.65"
+          },
+          "printed": ".65",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M13-02",
+      "blind_id": "M13",
+      "essay_id": "F03",
+      "title_ru": "Совместные вероятности 0.24 и 0.21",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M13.md",
+          "line": 66,
+          "exact_line": "P(J,E | F,K) = .5 × .8 × .1 + .5 × .5 × .8 = .24."
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 68,
+          "exact_line": "P(J,E | M,K) = .5 × .2 × .1 + .5 × .5 × .8 = .21."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M13.md",
+          "line": 53,
+          "exact_line": "A finite model shows why. Suppose the researcher assigns equal prior probability to F and M. Under either account, the thinker has an equal chance of being in either of two process states: R, relatively reliable, or H, less reliable. Both are fallible."
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 57,
+          "exact_line": "| R | .8 | .2 | .1 |"
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 58,
+          "exact_line": "| H | .5 | .5 | .8 |"
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 60,
+          "exact_line": "Assume that J and E are independent once both the metaphysical account and process state are fixed. The numbers and independence assumption are invented for the illustration. They are not estimates of anyone's psychology."
+        }
+      ],
+      "exact_computation": "P(J,E|F)=.5*.8*.1+.5*.5*.8=6/25; P(J,E|M)=.5*.2*.1+.5*.5*.8=21/100.",
+      "results": [
+        {
+          "quantity": "P(J,E|F)",
+          "computed": {
+            "fraction": "6/25",
+            "numerator": 6,
+            "denominator": 25,
+            "decimal": "0.24"
+          },
+          "printed": ".24",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(J,E|M)",
+          "computed": {
+            "fraction": "21/100",
+            "numerator": 21,
+            "denominator": 100,
+            "decimal": "0.21"
+          },
+          "printed": ".21",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M13-03",
+      "blind_id": "M13",
+      "essay_id": "F03",
+      "title_ru": "Переход от 0.65 к примерно 0.5333",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M13.md",
+          "line": 70,
+          "exact_line": "After J and E, confidence in F is .24/(.24 + .21), approximately .5333. The error has removed most of J's earlier advantage, despite its standalone neutrality. It shifts probability toward H, under which J discriminates less well between the metaphysical accounts."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M13.md",
+          "line": 53,
+          "exact_line": "A finite model shows why. Suppose the researcher assigns equal prior probability to F and M. Under either account, the thinker has an equal chance of being in either of two process states: R, relatively reliable, or H, less reliable. Both are fallible."
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 57,
+          "exact_line": "| R | .8 | .2 | .1 |"
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 58,
+          "exact_line": "| H | .5 | .5 | .8 |"
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 60,
+          "exact_line": "Assume that J and E are independent once both the metaphysical account and process state are fixed. The numbers and independence assumption are invented for the illustration. They are not estimates of anyone's psychology."
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 66,
+          "exact_line": "P(J,E | F,K) = .5 × .8 × .1 + .5 × .5 × .8 = .24."
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 68,
+          "exact_line": "P(J,E | M,K) = .5 × .2 × .1 + .5 × .5 × .8 = .21."
+        }
+      ],
+      "exact_computation": "P(F|J,E)=(.5*.24)/(.5*.24+.5*.21)=.24/(.24+.21)=8/15.",
+      "results": [
+        {
+          "quantity": "P(F|J,E)",
+          "computed": {
+            "fraction": "8/15",
+            "numerator": 8,
+            "denominator": 15,
+            "decimal": "0.533333333333333333333333333333"
+          },
+          "printed": ".5333",
+          "comparison": "rounded_to_4_decimal_places",
+          "rounding_tolerance": {
+            "fraction": "1/20000",
+            "numerator": 1,
+            "denominator": 20000,
+            "decimal": "0.00005"
+          },
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": "This is conditional on invented likelihoods and conditional independence, explicitly not a psychological or metaphysical probability estimate."
+    },
+    {
+      "id": "M13-04",
+      "blind_id": "M13",
+      "essay_id": "F03",
+      "title_ru": "Вероятности E при уже известном J",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M13.md",
+          "line": 72,
+          "exact_line": "Equivalently, once J is known, P(E|F,J,K) is .24/.65, while P(E|M,J,K) is .21/.35. Those quantities are not equal. Conditioning on a report that initially favored F changes the comparison in which the next observation is assessed. A shared process mixture and equal standalone error rates do not prevent undercutting."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M13.md",
+          "line": 53,
+          "exact_line": "A finite model shows why. Suppose the researcher assigns equal prior probability to F and M. Under either account, the thinker has an equal chance of being in either of two process states: R, relatively reliable, or H, less reliable. Both are fallible."
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 57,
+          "exact_line": "| R | .8 | .2 | .1 |"
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 58,
+          "exact_line": "| H | .5 | .5 | .8 |"
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 60,
+          "exact_line": "Assume that J and E are independent once both the metaphysical account and process state are fixed. The numbers and independence assumption are invented for the illustration. They are not estimates of anyone's psychology."
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 62,
+          "exact_line": "The initial likelihoods of J are .65 under F and .35 under M. Observing J therefore raises confidence in F from .5 to .65. Yet the likelihood of E is .45 under either account: half of .1 plus half of .8. Considered alone, E supplies no likelihood advantage to M or F."
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 66,
+          "exact_line": "P(J,E | F,K) = .5 × .8 × .1 + .5 × .5 × .8 = .24."
+        },
+        {
+          "path": "blind/M13.md",
+          "line": 68,
+          "exact_line": "P(J,E | M,K) = .5 × .2 × .1 + .5 × .5 × .8 = .21."
+        }
+      ],
+      "exact_computation": "P(E|F,J)=.24/.65=24/65; P(E|M,J)=.21/.35=3/5; difference=3/13, so they are unequal.",
+      "results": [
+        {
+          "quantity": "P(E|F,J)",
+          "computed": {
+            "fraction": "24/65",
+            "numerator": 24,
+            "denominator": 65,
+            "decimal": "0.369230769230769230769230769231"
+          },
+          "printed": "24/65",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "P(E|M,J)",
+          "computed": {
+            "fraction": "3/5",
+            "numerator": 3,
+            "denominator": 5,
+            "decimal": "0.6"
+          },
+          "printed": "3/5",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M19-01",
+      "blind_id": "M19",
+      "essay_id": "S02",
+      "title_ru": "Первое одобрение в трёх попытках: 37/64",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M19.md",
+          "line": 74,
+          "exact_line": "Fixed last produces an approving designated report with probability *p*. First approval produces one with probability"
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 76,
+          "exact_line": "**1 − (1 − p)ⁿ.**"
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 78,
+          "exact_line": "It rejects only if every potential panel rejects. With *p* = 1/4 and *n* = 3, approval has probability 37/64, about 0.578, rather than 0.25. If all-rejection histories instead produce no designated report, approval is certain conditional on such a report existing. Unlimited independent attempts with constant *p* greater than zero eventually produce approval with probability one."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M19.md",
+          "line": 69,
+          "exact_line": "A simple model isolates the evidential issue. Suppose potential panels independently approve the same proposal with probability *p*. Hold the question and information fixed. Allow at most *n* panels and compare:"
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 71,
+          "exact_line": "- **Fixed last:** obtain *n* reports and designate the nth, whatever it says."
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 72,
+          "exact_line": "- **First approval:** stop at the first approval; if all *n* reject, designate the last rejection."
+        }
+      ],
+      "exact_computation": "Enumerate all 2^3 sequences; any approval=1-(1-p)^3. At p=1/4, 1-(3/4)^3=37/64; fixed-last approval=p=1/4.",
+      "results": [
+        {
+          "quantity": "first approval within cap",
+          "computed": {
+            "fraction": "37/64",
+            "numerator": 37,
+            "denominator": 64,
+            "decimal": "0.578125"
+          },
+          "printed": "37/64",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "approximate",
+          "computed": {
+            "fraction": "37/64",
+            "numerator": 37,
+            "denominator": 64,
+            "decimal": "0.578125"
+          },
+          "printed": ".578",
+          "comparison": "rounded_to_3_decimal_places",
+          "rounding_tolerance": {
+            "fraction": "1/2000",
+            "numerator": 1,
+            "denominator": 2000,
+            "decimal": "0.0005"
+          },
+          "matches": true
+        },
+        {
+          "quantity": "fixed last",
+          "computed": {
+            "fraction": "1/4",
+            "numerator": 1,
+            "denominator": 4,
+            "decimal": "0.25"
+          },
+          "printed": ".25",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M19-02",
+      "blind_id": "M19",
+      "essay_id": "S02",
+      "title_ru": "Одобрение при условии существования назначенного отчёта",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M19.md",
+          "line": 78,
+          "exact_line": "It rejects only if every potential panel rejects. With *p* = 1/4 and *n* = 3, approval has probability 37/64, about 0.578, rather than 0.25. If all-rejection histories instead produce no designated report, approval is certain conditional on such a report existing. Unlimited independent attempts with constant *p* greater than zero eventually produce approval with probability one."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M19.md",
+          "line": 69,
+          "exact_line": "A simple model isolates the evidential issue. Suppose potential panels independently approve the same proposal with probability *p*. Hold the question and information fixed. Allow at most *n* panels and compare:"
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 72,
+          "exact_line": "- **First approval:** stop at the first approval; if all *n* reject, designate the last rejection."
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 78,
+          "exact_line": "It rejects only if every potential panel rejects. With *p* = 1/4 and *n* = 3, approval has probability 37/64, about 0.578, rather than 0.25. If all-rejection histories instead produce no designated report, approval is certain conditional on such a report existing. Unlimited independent attempts with constant *p* greater than zero eventually produce approval with probability one."
+        }
+      ],
+      "exact_computation": "Under the printed alternative rule 'no report if all reject', report-exists equals any-approval, so P(approval|report exists)=(37/64)/(37/64)=1.",
+      "results": [
+        {
+          "quantity": "conditional approval",
+          "computed": {
+            "fraction": "1/1",
+            "numerator": 1,
+            "denominator": 1,
+            "decimal": "1"
+          },
+          "printed": "1",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": "Only the explicitly printed alternative non-reporting rule has this conditional probability."
+    },
+    {
+      "id": "M19-03",
+      "blind_id": "M19",
+      "essay_id": "S02",
+      "title_ru": "Неограниченные независимые попытки",
+      "status": "CONDITIONAL",
+      "location": [
+        {
+          "path": "blind/M19.md",
+          "line": 78,
+          "exact_line": "It rejects only if every potential panel rejects. With *p* = 1/4 and *n* = 3, approval has probability 37/64, about 0.578, rather than 0.25. If all-rejection histories instead produce no designated report, approval is certain conditional on such a report existing. Unlimited independent attempts with constant *p* greater than zero eventually produce approval with probability one."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M19.md",
+          "line": 69,
+          "exact_line": "A simple model isolates the evidential issue. Suppose potential panels independently approve the same proposal with probability *p*. Hold the question and information fixed. Allow at most *n* panels and compare:"
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 78,
+          "exact_line": "It rejects only if every potential panel rejects. With *p* = 1/4 and *n* = 3, approval has probability 37/64, about 0.578, rather than 0.25. If all-rejection histories instead produce no designated report, approval is certain conditional on such a report existing. Unlimited independent attempts with constant *p* greater than zero eventually produce approval with probability one."
+        }
+      ],
+      "exact_computation": "For each finite n, P(no approval by n)=(1-p)^n. For constant 0<p<=1, lim_(n->infinity)(1-p)^n=0; hence eventual approval probability is 1.",
+      "results": [],
+      "conditional_boundary": "This is a limit under infinitely many independent attempts and constant p>0, not a finite enumeration or an empirical prediction.",
+      "limits": null
+    },
+    {
+      "id": "M19-04",
+      "blind_id": "M19",
+      "essay_id": "S02",
+      "title_ru": "Напечатанный случай полной корреляции",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M19.md",
+          "line": 80,
+          "exact_line": "These are elementary calculations, not empirical estimates. Here *p* concerns panel verdicts, not individual citizen support or policy quality. Real panels may influence one another, share shocks, or encounter changing evidence. If all verdicts are perfectly correlated, first approval and fixed last can have the same outcome distribution. Independence and constant *p* are modeling assumptions, not findings about assemblies."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M19.md",
+          "line": 80,
+          "exact_line": "These are elementary calculations, not empirical estimates. Here *p* concerns panel verdicts, not individual citizen support or policy quality. Real panels may influence one another, share shocks, or encounter changing evidence. If all verdicts are perfectly correlated, first approval and fixed last can have the same outcome distribution. Independence and constant *p* are modeling assumptions, not findings about assemblies."
+        }
+      ],
+      "exact_computation": "In the perfectly correlated alternative all reports agree. For p=1/4, assign P(000)=3/4, P(111)=1/4; both rules approve exactly on 111.",
+      "results": [
+        {
+          "quantity": "first approval",
+          "computed": {
+            "fraction": "1/4",
+            "numerator": 1,
+            "denominator": 4,
+            "decimal": "0.25"
+          },
+          "printed": "1/4",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "fixed last",
+          "computed": {
+            "fraction": "1/4",
+            "numerator": 1,
+            "denominator": 4,
+            "decimal": "0.25"
+          },
+          "printed": "1/4",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": "This is the printed alternative dependence structure, not a change to the independent main model."
+    },
+    {
+      "id": "M19-05",
+      "blind_id": "M19",
+      "essay_id": "S02",
+      "title_ru": "Все три строки отношений правдоподобия",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M19.md",
+          "line": 90,
+          "exact_line": "| One unselected panel approves | 1/4 | 3/4 | 3 |"
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 91,
+          "exact_line": "| Approval occurs within three first-approval attempts; the stopping index is unreported | 37/64 | 63/64 | 63/37 |"
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 92,
+          "exact_line": "| The known first-approval procedure stops with approval at attempt three | 9/64 | 3/64 | 1/3 |"
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M19.md",
+          "line": 69,
+          "exact_line": "A simple model isolates the evidential issue. Suppose potential panels independently approve the same proposal with probability *p*. Hold the question and information fixed. Allow at most *n* panels and compare:"
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 71,
+          "exact_line": "- **Fixed last:** obtain *n* reports and designate the nth, whatever it says."
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 72,
+          "exact_line": "- **First approval:** stop at the first approval; if all *n* reject, designate the last rejection."
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 86,
+          "exact_line": "It would also be wrong to say that a selected approval is necessarily worthless evidence. Compare hypotheses *p* = 1/4 and *p* = 3/4. A likelihood is the probability of the specified observation under a hypothesis. The last column divides the higher-*p* likelihood by the lower-*p* likelihood."
+        }
+      ],
+      "exact_computation": "Single approval: p. Approval within three: 1-(1-p)^3. First approval exactly third: (1-p)^2*p. Divide high-p probability by low-p probability for each specified observation.",
+      "results": [
+        {
+          "quantity": "single: low",
+          "computed": {
+            "fraction": "1/4",
+            "numerator": 1,
+            "denominator": 4,
+            "decimal": "0.25"
+          },
+          "printed": "1/4",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "single: high",
+          "computed": {
+            "fraction": "3/4",
+            "numerator": 3,
+            "denominator": 4,
+            "decimal": "0.75"
+          },
+          "printed": "3/4",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "single: likelihood ratio",
+          "computed": {
+            "fraction": "3/1",
+            "numerator": 3,
+            "denominator": 1,
+            "decimal": "3"
+          },
+          "printed": "3",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "approval within three: low",
+          "computed": {
+            "fraction": "37/64",
+            "numerator": 37,
+            "denominator": 64,
+            "decimal": "0.578125"
+          },
+          "printed": "37/64",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "approval within three: high",
+          "computed": {
+            "fraction": "63/64",
+            "numerator": 63,
+            "denominator": 64,
+            "decimal": "0.984375"
+          },
+          "printed": "63/64",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "approval within three: likelihood ratio",
+          "computed": {
+            "fraction": "63/37",
+            "numerator": 63,
+            "denominator": 37,
+            "decimal": "1.70270270270270270270270270270"
+          },
+          "printed": "63/37",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "first approval at third: low",
+          "computed": {
+            "fraction": "9/64",
+            "numerator": 9,
+            "denominator": 64,
+            "decimal": "0.140625"
+          },
+          "printed": "9/64",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "first approval at third: high",
+          "computed": {
+            "fraction": "3/64",
+            "numerator": 3,
+            "denominator": 64,
+            "decimal": "0.046875"
+          },
+          "printed": "3/64",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "first approval at third: likelihood ratio",
+          "computed": {
+            "fraction": "1/3",
+            "numerator": 1,
+            "denominator": 3,
+            "decimal": "0.333333333333333333333333333333"
+          },
+          "printed": "1/3",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": "Ratios are likelihood ratios only. The text supplies no prior for these two propensity hypotheses; no posterior is calculated."
+    },
+    {
+      "id": "M19-06",
+      "blind_id": "M19",
+      "essay_id": "S02",
+      "title_ru": "Третье одобрение после двух отказов: множитель 3",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M19.md",
+          "line": 98,
+          "exact_line": "For the reject–reject–approve history, the likelihood is (1 − *p*)²*p* under both fixed-last with three panels and first-approval with cap three. Conditional on the two rejections, the third approval contributes a higher/lower likelihood factor of 3 under either procedure. Stopping adds no automatic penalty to that update."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M19.md",
+          "line": 69,
+          "exact_line": "A simple model isolates the evidential issue. Suppose potential panels independently approve the same proposal with probability *p*. Hold the question and information fixed. Allow at most *n* panels and compare:"
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 86,
+          "exact_line": "It would also be wrong to say that a selected approval is necessarily worthless evidence. Compare hypotheses *p* = 1/4 and *p* = 3/4. A likelihood is the probability of the specified observation under a hypothesis. The last column divides the higher-*p* likelihood by the lower-*p* likelihood."
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 96,
+          "exact_line": "The information sets are crucial. Under the known binary first-approval rule, approval at attempt three already reveals reject–reject–approve. Full report texts are unnecessary to recover that binary history. The second row omits the attempt index; it is not the evidential meaning of every terminal report."
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 98,
+          "exact_line": "For the reject–reject–approve history, the likelihood is (1 − *p*)²*p* under both fixed-last with three panels and first-approval with cap three. Conditional on the two rejections, the third approval contributes a higher/lower likelihood factor of 3 under either procedure. Stopping adds no automatic penalty to that update."
+        }
+      ],
+      "exact_computation": "For RRA, both protocols have likelihood (1-p)^2*p. After conditioning on RR, third-approval probability is p; (3/4)/(1/4)=3.",
+      "results": [
+        {
+          "quantity": "RRA low, either protocol",
+          "computed": {
+            "fraction": "9/64",
+            "numerator": 9,
+            "denominator": 64,
+            "decimal": "0.140625"
+          },
+          "printed": "9/64",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "RRA high, either protocol",
+          "computed": {
+            "fraction": "3/64",
+            "numerator": 3,
+            "denominator": 64,
+            "decimal": "0.046875"
+          },
+          "printed": "3/64",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        },
+        {
+          "quantity": "conditional likelihood ratio",
+          "computed": {
+            "fraction": "3/1",
+            "numerator": 3,
+            "denominator": 1,
+            "decimal": "3"
+          },
+          "printed": "3",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M19-07",
+      "blind_id": "M19",
+      "essay_id": "S02",
+      "title_ru": "Совпадение двоичного итога двух процедур",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M19.md",
+          "line": 128,
+          "exact_line": "Indeed, first-approval stopping and collecting all three reports under an any-approval rule give the same binary result for every possible sequence. Early stopping can simply avoid reports that cannot change that specified result. It does not necessarily replace an independent check with the sponsor’s discretion."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M19.md",
+          "line": 71,
+          "exact_line": "- **Fixed last:** obtain *n* reports and designate the nth, whatever it says."
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 72,
+          "exact_line": "- **First approval:** stop at the first approval; if all *n* reject, designate the last rejection."
+        },
+        {
+          "path": "blind/M19.md",
+          "line": 128,
+          "exact_line": "Indeed, first-approval stopping and collecting all three reports under an any-approval rule give the same binary result for every possible sequence. Early stopping can simply avoid reports that cannot change that specified result. It does not necessarily replace an independent check with the sponsor’s discretion."
+        }
+      ],
+      "exact_computation": "Enumerate every sequence in {0,1}^3. First-approval-with-final-rejection and collect-all/any-approval return the same result on all eight sequences.",
+      "results": [
+        {
+          "quantity": "agreeing sequences",
+          "computed": {
+            "fraction": "8/1",
+            "numerator": 8,
+            "denominator": 1,
+            "decimal": "8"
+          },
+          "printed": "8",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": null
+    },
+    {
+      "id": "M19-08",
+      "blind_id": "M19",
+      "essay_id": "S02",
+      "title_ru": "Потери 47/128, 11/8 и 55/64",
+      "status": "MATCH",
+      "location": [
+        {
+          "path": "blind/M19.md",
+          "line": 130,
+          "exact_line": "There can even be a substantive rationale for this asymmetry. As a toy example, suppose good and bad policies are initially equally likely. Conditional on policy type, independent panels approve with probabilities 3/4 and 1/4 respectively. Suppose mistakenly rejecting a good policy has loss 10, while mistakenly approving a bad policy has loss 1. The expected loss of any approval in three is 47/128, compared with 11/8 for one panel and 55/64 for majority-of-three. Under these stipulated costs, asymmetric error allocation has a reason beyond the sponsor’s liking for approval."
+        }
+      ],
+      "explicit_printed_premises": [
+        {
+          "path": "blind/M19.md",
+          "line": 130,
+          "exact_line": "There can even be a substantive rationale for this asymmetry. As a toy example, suppose good and bad policies are initially equally likely. Conditional on policy type, independent panels approve with probabilities 3/4 and 1/4 respectively. Suppose mistakenly rejecting a good policy has loss 10, while mistakenly approving a bad policy has loss 1. The expected loss of any approval in three is 47/128, compared with 11/8 for one panel and 55/64 for majority-of-three. Under these stipulated costs, asymmetric error allocation has a reason beyond the sponsor’s liking for approval."
+        }
+      ],
+      "exact_computation": "Each loss=(1/2)*10*P(reject|good)+(1/2)*1*P(approve|bad). Any: (1/2)*10*(1/64)+(1/2)*(37/64)=47/128. One: (1/2)*10*(1/4)+(1/2)*(1/4)=11/8. Majority: (1/2)*10*(5/32)+(1/2)*(5/32)=55/64. Eight sequences enumerated separately at p=3/4 and p=1/4.",
+      "results": [
+        {
+          "quantity": "any approval",
+          "computed": {
+            "fraction": "47/128",
+            "numerator": 47,
+            "denominator": 128,
+            "decimal": "0.3671875"
+          },
+          "printed": "47/128",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true,
+          "false_reject_good": {
+            "fraction": "1/64",
+            "numerator": 1,
+            "denominator": 64,
+            "decimal": "0.015625"
+          },
+          "false_approve_bad": {
+            "fraction": "37/64",
+            "numerator": 37,
+            "denominator": 64,
+            "decimal": "0.578125"
+          }
+        },
+        {
+          "quantity": "one panel",
+          "computed": {
+            "fraction": "11/8",
+            "numerator": 11,
+            "denominator": 8,
+            "decimal": "1.375"
+          },
+          "printed": "11/8",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true,
+          "false_reject_good": {
+            "fraction": "1/4",
+            "numerator": 1,
+            "denominator": 4,
+            "decimal": "0.25"
+          },
+          "false_approve_bad": {
+            "fraction": "1/4",
+            "numerator": 1,
+            "denominator": 4,
+            "decimal": "0.25"
+          }
+        },
+        {
+          "quantity": "majority of three",
+          "computed": {
+            "fraction": "55/64",
+            "numerator": 55,
+            "denominator": 64,
+            "decimal": "0.859375"
+          },
+          "printed": "55/64",
+          "comparison": "exact",
+          "rounding_tolerance": null,
+          "matches": true,
+          "false_reject_good": {
+            "fraction": "5/32",
+            "numerator": 5,
+            "denominator": 32,
+            "decimal": "0.15625"
+          },
+          "false_approve_bad": {
+            "fraction": "5/32",
+            "numerator": 5,
+            "denominator": 32,
+            "decimal": "0.15625"
+          }
+        }
+      ],
+      "conditional_boundary": null,
+      "limits": "Good/bad priors, conditional independence, approval likelihoods and error costs are extra printed toy-model assumptions. This arithmetic does not assess real assemblies or legitimacy."
+    }
+  ],
+  "exact_enumerations": {
+    "F02_main": {
+      "description": "Only A's condition is disclosed; B reliability is 9/10 conditional on either A condition.",
+      "total_mass": {
+        "fraction": "1/1",
+        "numerator": 1,
+        "denominator": 1,
+        "decimal": "1"
+      },
+      "positive_probability_states": 14,
+      "states": [
+        {
+          "state": {
+            "truth": 0,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "A",
+            "a_sound": 1,
+            "b_sound": null,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/5",
+            "numerator": 1,
+            "denominator": 5,
+            "decimal": "0.2"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "B",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "9/200",
+            "numerator": 9,
+            "denominator": 200,
+            "decimal": "0.045"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "B",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/200",
+            "numerator": 1,
+            "denominator": 200,
+            "decimal": "0.005"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "B",
+            "a_sound": 1,
+            "b_sound": null,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "9/50",
+            "numerator": 9,
+            "denominator": 50,
+            "decimal": "0.18"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "B",
+            "a_sound": 1,
+            "b_sound": null,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/50",
+            "numerator": 1,
+            "denominator": 50,
+            "decimal": "0.02"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "A",
+            "a_sound": 1,
+            "b_sound": null,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/5",
+            "numerator": 1,
+            "denominator": 5,
+            "decimal": "0.2"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "B",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/200",
+            "numerator": 1,
+            "denominator": 200,
+            "decimal": "0.005"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "B",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "9/200",
+            "numerator": 9,
+            "denominator": 200,
+            "decimal": "0.045"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "B",
+            "a_sound": 1,
+            "b_sound": null,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/50",
+            "numerator": 1,
+            "denominator": 50,
+            "decimal": "0.02"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "B",
+            "a_sound": 1,
+            "b_sound": null,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "9/50",
+            "numerator": 9,
+            "denominator": 50,
+            "decimal": "0.18"
+          }
+        }
+      ]
+    },
+    "F02_shared_condition_alternative": {
+      "description": "Printed alternative: both sources perfect if A sound, fair random if A faulty.",
+      "total_mass": {
+        "fraction": "1/1",
+        "numerator": 1,
+        "denominator": 1,
+        "decimal": "1"
+      },
+      "positive_probability_states": 12,
+      "states": [
+        {
+          "state": {
+            "truth": 0,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "A",
+            "a_sound": 1,
+            "b_sound": null,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/5",
+            "numerator": 1,
+            "denominator": 5,
+            "decimal": "0.2"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "B",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "B",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "B",
+            "a_sound": 1,
+            "b_sound": null,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/5",
+            "numerator": 1,
+            "denominator": 5,
+            "decimal": "0.2"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "A",
+            "a_sound": 1,
+            "b_sound": null,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/5",
+            "numerator": 1,
+            "denominator": 5,
+            "decimal": "0.2"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "B",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "B",
+            "a_sound": 0,
+            "b_sound": null,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "B",
+            "a_sound": 1,
+            "b_sound": null,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/5",
+            "numerator": 1,
+            "denominator": 5,
+            "decimal": "0.2"
+          }
+        }
+      ]
+    },
+    "E039_full_audit": {
+      "description": "Both independently sound channels are audited; each is sound with probability 4/5.",
+      "total_mass": {
+        "fraction": "1/1",
+        "numerator": 1,
+        "denominator": 1,
+        "decimal": "1"
+      },
+      "positive_probability_states": 24,
+      "states": [
+        {
+          "state": {
+            "truth": 0,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": 0,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/200",
+            "numerator": 1,
+            "denominator": 200,
+            "decimal": "0.005"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": 0,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/200",
+            "numerator": 1,
+            "denominator": 200,
+            "decimal": "0.005"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": 1,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/50",
+            "numerator": 1,
+            "denominator": 50,
+            "decimal": "0.02"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": 1,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/50",
+            "numerator": 1,
+            "denominator": 50,
+            "decimal": "0.02"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "A",
+            "a_sound": 1,
+            "b_sound": 0,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/25",
+            "numerator": 1,
+            "denominator": 25,
+            "decimal": "0.04"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "A",
+            "a_sound": 1,
+            "b_sound": 1,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "4/25",
+            "numerator": 4,
+            "denominator": 25,
+            "decimal": "0.16"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "B",
+            "a_sound": 0,
+            "b_sound": 0,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/200",
+            "numerator": 1,
+            "denominator": 200,
+            "decimal": "0.005"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "B",
+            "a_sound": 0,
+            "b_sound": 0,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/200",
+            "numerator": 1,
+            "denominator": 200,
+            "decimal": "0.005"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "B",
+            "a_sound": 0,
+            "b_sound": 1,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/25",
+            "numerator": 1,
+            "denominator": 25,
+            "decimal": "0.04"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "B",
+            "a_sound": 1,
+            "b_sound": 0,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/50",
+            "numerator": 1,
+            "denominator": 50,
+            "decimal": "0.02"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "B",
+            "a_sound": 1,
+            "b_sound": 0,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/50",
+            "numerator": 1,
+            "denominator": 50,
+            "decimal": "0.02"
+          }
+        },
+        {
+          "state": {
+            "truth": 0,
+            "source": "B",
+            "a_sound": 1,
+            "b_sound": 1,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "4/25",
+            "numerator": 4,
+            "denominator": 25,
+            "decimal": "0.16"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": 0,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/200",
+            "numerator": 1,
+            "denominator": 200,
+            "decimal": "0.005"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": 0,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/200",
+            "numerator": 1,
+            "denominator": 200,
+            "decimal": "0.005"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": 1,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/50",
+            "numerator": 1,
+            "denominator": 50,
+            "decimal": "0.02"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "A",
+            "a_sound": 0,
+            "b_sound": 1,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/50",
+            "numerator": 1,
+            "denominator": 50,
+            "decimal": "0.02"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "A",
+            "a_sound": 1,
+            "b_sound": 0,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/25",
+            "numerator": 1,
+            "denominator": 25,
+            "decimal": "0.04"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "A",
+            "a_sound": 1,
+            "b_sound": 1,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "4/25",
+            "numerator": 4,
+            "denominator": 25,
+            "decimal": "0.16"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "B",
+            "a_sound": 0,
+            "b_sound": 0,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/200",
+            "numerator": 1,
+            "denominator": 200,
+            "decimal": "0.005"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "B",
+            "a_sound": 0,
+            "b_sound": 0,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/200",
+            "numerator": 1,
+            "denominator": 200,
+            "decimal": "0.005"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "B",
+            "a_sound": 0,
+            "b_sound": 1,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/25",
+            "numerator": 1,
+            "denominator": 25,
+            "decimal": "0.04"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "B",
+            "a_sound": 1,
+            "b_sound": 0,
+            "report": 0
+          },
+          "probability": {
+            "fraction": "1/50",
+            "numerator": 1,
+            "denominator": 50,
+            "decimal": "0.02"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "B",
+            "a_sound": 1,
+            "b_sound": 0,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "1/50",
+            "numerator": 1,
+            "denominator": 50,
+            "decimal": "0.02"
+          }
+        },
+        {
+          "state": {
+            "truth": 1,
+            "source": "B",
+            "a_sound": 1,
+            "b_sound": 1,
+            "report": 1
+          },
+          "probability": {
+            "fraction": "4/25",
+            "numerator": 4,
+            "denominator": 25,
+            "decimal": "0.16"
+          }
+        }
+      ]
+    },
+    "E079_Fisher_fixed_margins": {
+      "description": "Tables with fixed row sizes 35/13 and total eight convictions; k convictions in row of 35.",
+      "observed_k": 7,
+      "two_sided_included_k": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        8
+      ],
+      "total_mass": {
+        "fraction": "1/1",
+        "numerator": 1,
+        "denominator": 1,
+        "decimal": "1"
+      },
+      "tables": [
+        {
+          "k": 0,
+          "probability": {
+            "fraction": "13/3811606",
+            "numerator": 13,
+            "denominator": 3811606,
+            "decimal": "0.00000341063583172027748933126876178"
+          },
+          "included": true
+        },
+        {
+          "k": 1,
+          "probability": {
+            "fraction": "910/5717409",
+            "numerator": 910,
+            "denominator": 5717409,
+            "decimal": "0.000159163005480279616168792542216"
+          },
+          "included": true
+        },
+        {
+          "k": 2,
+          "probability": {
+            "fraction": "15470/5717409",
+            "numerator": 15470,
+            "denominator": 5717409,
+            "decimal": "0.00270577109316475347486947321768"
+          },
+          "included": true
+        },
+        {
+          "k": 3,
+          "probability": {
+            "fraction": "85085/3811606",
+            "numerator": 85085,
+            "denominator": 3811606,
+            "decimal": "0.0223226115186092161676731540458"
+          },
+          "included": true
+        },
+        {
+          "k": 4,
+          "probability": {
+            "fraction": "1701700/17152227",
+            "numerator": 1701700,
+            "denominator": 17152227,
+            "decimal": "0.0992116067493742940785473513148"
+          },
+          "included": true
+        },
+        {
+          "k": 5,
+          "probability": {
+            "fraction": "4220216/17152227",
+            "numerator": 4220216,
+            "denominator": 17152227,
+            "decimal": "0.246044784738448249314797431261"
+          },
+          "included": false
+        },
+        {
+          "k": 6,
+          "probability": {
+            "fraction": "1918280/5717409",
+            "numerator": 1918280,
+            "denominator": 5717409,
+            "decimal": "0.335515615552429430883814678992"
+          },
+          "included": false
+        },
+        {
+          "k": 7,
+          "probability": {
+            "fraction": "3973580/17152227",
+            "numerator": 3973580,
+            "denominator": 17152227,
+            "decimal": "0.231665544071915559419776802161"
+          },
+          "included": true
+        },
+        {
+          "k": 8,
+          "probability": {
+            "fraction": "1069810/17152227",
+            "numerator": 1069810,
+            "denominator": 17152227,
+            "decimal": "0.0623714926347464967668629851972"
+          },
+          "included": true
+        }
+      ]
+    },
+    "F03_account_process_reports": {
+      "description": "Equal account priors; equal process priors under either account; J and E independent given both.",
+      "total_mass": {
+        "fraction": "1/1",
+        "numerator": 1,
+        "denominator": 1,
+        "decimal": "1"
+      },
+      "positive_probability_states": 16,
+      "states": [
+        {
+          "state": {
+            "account": "F",
+            "process": "R",
+            "J": 0,
+            "E": 0
+          },
+          "probability": {
+            "fraction": "9/200",
+            "numerator": 9,
+            "denominator": 200,
+            "decimal": "0.045"
+          }
+        },
+        {
+          "state": {
+            "account": "F",
+            "process": "R",
+            "J": 0,
+            "E": 1
+          },
+          "probability": {
+            "fraction": "1/200",
+            "numerator": 1,
+            "denominator": 200,
+            "decimal": "0.005"
+          }
+        },
+        {
+          "state": {
+            "account": "F",
+            "process": "R",
+            "J": 1,
+            "E": 0
+          },
+          "probability": {
+            "fraction": "9/50",
+            "numerator": 9,
+            "denominator": 50,
+            "decimal": "0.18"
+          }
+        },
+        {
+          "state": {
+            "account": "F",
+            "process": "R",
+            "J": 1,
+            "E": 1
+          },
+          "probability": {
+            "fraction": "1/50",
+            "numerator": 1,
+            "denominator": 50,
+            "decimal": "0.02"
+          }
+        },
+        {
+          "state": {
+            "account": "F",
+            "process": "H",
+            "J": 0,
+            "E": 0
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "account": "F",
+            "process": "H",
+            "J": 0,
+            "E": 1
+          },
+          "probability": {
+            "fraction": "1/10",
+            "numerator": 1,
+            "denominator": 10,
+            "decimal": "0.1"
+          }
+        },
+        {
+          "state": {
+            "account": "F",
+            "process": "H",
+            "J": 1,
+            "E": 0
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "account": "F",
+            "process": "H",
+            "J": 1,
+            "E": 1
+          },
+          "probability": {
+            "fraction": "1/10",
+            "numerator": 1,
+            "denominator": 10,
+            "decimal": "0.1"
+          }
+        },
+        {
+          "state": {
+            "account": "M",
+            "process": "R",
+            "J": 0,
+            "E": 0
+          },
+          "probability": {
+            "fraction": "9/50",
+            "numerator": 9,
+            "denominator": 50,
+            "decimal": "0.18"
+          }
+        },
+        {
+          "state": {
+            "account": "M",
+            "process": "R",
+            "J": 0,
+            "E": 1
+          },
+          "probability": {
+            "fraction": "1/50",
+            "numerator": 1,
+            "denominator": 50,
+            "decimal": "0.02"
+          }
+        },
+        {
+          "state": {
+            "account": "M",
+            "process": "R",
+            "J": 1,
+            "E": 0
+          },
+          "probability": {
+            "fraction": "9/200",
+            "numerator": 9,
+            "denominator": 200,
+            "decimal": "0.045"
+          }
+        },
+        {
+          "state": {
+            "account": "M",
+            "process": "R",
+            "J": 1,
+            "E": 1
+          },
+          "probability": {
+            "fraction": "1/200",
+            "numerator": 1,
+            "denominator": 200,
+            "decimal": "0.005"
+          }
+        },
+        {
+          "state": {
+            "account": "M",
+            "process": "H",
+            "J": 0,
+            "E": 0
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "account": "M",
+            "process": "H",
+            "J": 0,
+            "E": 1
+          },
+          "probability": {
+            "fraction": "1/10",
+            "numerator": 1,
+            "denominator": 10,
+            "decimal": "0.1"
+          }
+        },
+        {
+          "state": {
+            "account": "M",
+            "process": "H",
+            "J": 1,
+            "E": 0
+          },
+          "probability": {
+            "fraction": "1/40",
+            "numerator": 1,
+            "denominator": 40,
+            "decimal": "0.025"
+          }
+        },
+        {
+          "state": {
+            "account": "M",
+            "process": "H",
+            "J": 1,
+            "E": 1
+          },
+          "probability": {
+            "fraction": "1/10",
+            "numerator": 1,
+            "denominator": 10,
+            "decimal": "0.1"
+          }
+        }
+      ]
+    },
+    "S02_p_1_4": {
+      "description": "Eight independent three-panel sequences with approval probability 1/4.",
+      "total_mass": {
+        "fraction": "1/1",
+        "numerator": 1,
+        "denominator": 1,
+        "decimal": "1"
+      },
+      "positive_probability_states": 8,
+      "states": [
+        {
+          "state": {
+            "sequence": [
+              0,
+              0,
+              0
+            ]
+          },
+          "probability": {
+            "fraction": "27/64",
+            "numerator": 27,
+            "denominator": 64,
+            "decimal": "0.421875"
+          }
+        },
+        {
+          "state": {
+            "sequence": [
+              0,
+              0,
+              1
+            ]
+          },
+          "probability": {
+            "fraction": "9/64",
+            "numerator": 9,
+            "denominator": 64,
+            "decimal": "0.140625"
+          }
+        },
+        {
+          "state": {
+            "sequence": [
+              0,
+              1,
+              0
+            ]
+          },
+          "probability": {
+            "fraction": "9/64",
+            "numerator": 9,
+            "denominator": 64,
+            "decimal": "0.140625"
+          }
+        },
+        {
+          "state": {
+            "sequence": [
+              0,
+              1,
+              1
+            ]
+          },
+          "probability": {
+            "fraction": "3/64",
+            "numerator": 3,
+            "denominator": 64,
+            "decimal": "0.046875"
+          }
+        },
+        {
+          "state": {
+            "sequence": [
+              1,
+              0,
+              0
+            ]
+          },
+          "probability": {
+            "fraction": "9/64",
+            "numerator": 9,
+            "denominator": 64,
+            "decimal": "0.140625"
+          }
+        },
+        {
+          "state": {
+            "sequence": [
+              1,
+              0,
+              1
+            ]
+          },
+          "probability": {
+            "fraction": "3/64",
+            "numerator": 3,
+            "denominator": 64,
+            "decimal": "0.046875"
+          }
+        },
+        {
+          "state": {
+            "sequence": [
+              1,
+              1,
+              0
+            ]
+          },
+          "probability": {
+            "fraction": "3/64",
+            "numerator": 3,
+            "denominator": 64,
+            "decimal": "0.046875"
+          }
+        },
+        {
+          "state": {
+            "sequence": [
+              1,
+              1,
+              1
+            ]
+          },
+          "probability": {
+            "fraction": "1/64",
+            "numerator": 1,
+            "denominator": 64,
+            "decimal": "0.015625"
+          }
+        }
+      ]
+    },
+    "S02_p_3_4": {
+      "description": "Eight independent three-panel sequences with approval probability 3/4.",
+      "total_mass": {
+        "fraction": "1/1",
+        "numerator": 1,
+        "denominator": 1,
+        "decimal": "1"
+      },
+      "positive_probability_states": 8,
+      "states": [
+        {
+          "state": {
+            "sequence": [
+              0,
+              0,
+              0
+            ]
+          },
+          "probability": {
+            "fraction": "1/64",
+            "numerator": 1,
+            "denominator": 64,
+            "decimal": "0.015625"
+          }
+        },
+        {
+          "state": {
+            "sequence": [
+              0,
+              0,
+              1
+            ]
+          },
+          "probability": {
+            "fraction": "3/64",
+            "numerator": 3,
+            "denominator": 64,
+            "decimal": "0.046875"
+          }
+        },
+        {
+          "state": {
+            "sequence": [
+              0,
+              1,
+              0
+            ]
+          },
+          "probability": {
+            "fraction": "3/64",
+            "numerator": 3,
+            "denominator": 64,
+            "decimal": "0.046875"
+          }
+        },
+        {
+          "state": {
+            "sequence": [
+              0,
+              1,
+              1
+            ]
+          },
+          "probability": {
+            "fraction": "9/64",
+            "numerator": 9,
+            "denominator": 64,
+            "decimal": "0.140625"
+          }
+        },
+        {
+          "state": {
+            "sequence": [
+              1,
+              0,
+              0
+            ]
+          },
+          "probability": {
+            "fraction": "3/64",
+            "numerator": 3,
+            "denominator": 64,
+            "decimal": "0.046875"
+          }
+        },
+        {
+          "state": {
+            "sequence": [
+              1,
+              0,
+              1
+            ]
+          },
+          "probability": {
+            "fraction": "9/64",
+            "numerator": 9,
+            "denominator": 64,
+            "decimal": "0.140625"
+          }
+        },
+        {
+          "state": {
+            "sequence": [
+              1,
+              1,
+              0
+            ]
+          },
+          "probability": {
+            "fraction": "9/64",
+            "numerator": 9,
+            "denominator": 64,
+            "decimal": "0.140625"
+          }
+        },
+        {
+          "state": {
+            "sequence": [
+              1,
+              1,
+              1
+            ]
+          },
+          "probability": {
+            "fraction": "27/64",
+            "numerator": 27,
+            "denominator": 64,
+            "decimal": "0.421875"
+          }
+        }
+      ]
+    }
+  },
+  "global_limits": [
+    "All calculations are conditional on the printed model premises; matching arithmetic does not make those premises empirically true.",
+    "No manuscripts, frozen files or review results were changed; real evaluator reviews were not read.",
+    "No model, web or archive calls; no ranking, selection recommendation or philosophical verdict.",
+    "Exact rational arithmetic is used throughout. Decimal comparisons distinguish printed rounding from exact equality.",
+    "The general probability identities are checked by substitution in the stated finite examples, not claimed as newly proved general theorems."
+  ]
+}

@@ -1,0 +1,232 @@
+"""Read-only, fixed-cutoff metadata audit. Never emit or retain source bodies."""
+from pathlib import Path, PurePosixPath
+import collections
+import hashlib
+import json
+import re
+import sys
+import tarfile
+
+sys.dont_write_bytecode = True
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[3]
+LOGS = ROOT / 'repository/logs'
+AUDIT = ROOT / 'runs/repository-rebuild-20261031/log-audit'
+sys.path.insert(0, str(ROOT / 'scripts'))
+from codex_rollout import rollout_file
+
+UUID = re.compile(r'^[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}$')
+SHA = re.compile(r'^[0-9a-f]{64}$')
+TOOLTYPES = {'custom_tool_call', 'custom_tool_call_output', 'function_call', 'function_call_output', 'tool_call', 'tool_result', 'public_web_call', 'public_web_output'}
+# Bodies are hashed as opaque member bytes. They are never walked or copied.
+BODY = {'text', 'content', 'arguments', 'input', 'output', 'body', 'fragment', 'prompt', 'response', 'stdout', 'stderr', 'reasoning', 'analysis'}
+
+def sha(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+def strict(raw):
+    def pairs(rows):
+        out = {}
+        for k, v in rows:
+            if k in out:
+                raise ValueError('Duplicate JSON key')
+            out[k] = v
+        return out
+    return json.loads(raw, object_pairs_hook=pairs, parse_constant=lambda _: (_ for _ in ()).throw(ValueError('Nonfinite JSON')))
+
+def descriptor(path):
+    raw = path.read_bytes()
+    return {'path': str(path.relative_to(ROOT)), 'sha256': sha(raw), 'bytes': len(raw)}
+
+def save(name, value):
+    raw = (json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + '\n').encode()
+    with (HERE / name).open('xb') as f:
+        f.write(raw)
+    return descriptor(HERE / name)
+
+def identity(v, sid):
+    line = v.get('source_line')
+    digest = v.get('source_record_sha256', v.get('raw_sha256'))
+    return (sid, line, digest) if isinstance(sid, str) and UUID.fullmatch(sid) and type(line) is int and line > 0 and isinstance(digest, str) and SHA.fullmatch(digest) else None
+
+def walk(v, found, stats, location, sid=None, provider=None):
+    if isinstance(v, list):
+        for item in v:
+            walk(item, found, stats, location, sid, provider)
+    elif isinstance(v, dict):
+        own = v.get('session_id')
+        session = v.get('session')
+        if isinstance(own, str) and UUID.fullmatch(own):
+            sid = own
+        elif isinstance(session, dict):
+            own = session.get('session_id')
+            if isinstance(own, str) and UUID.fullmatch(own):
+                sid = own
+            if session.get('provider') == 'claude':
+                provider = 'claude'
+        triple = identity(v, sid)
+        if triple:
+            role = v.get('role')
+            if isinstance(v.get('visible_tool'), dict):
+                typ = v['visible_tool'].get('type')
+                if typ not in TOOLTYPES:
+                    raise ValueError('Unexpected reviewed tool type')
+                found[triple].append(location)
+                stats['exact_codex_tool_payload_occurrences'] += 1
+                stats['tool_type:' + typ] += 1
+            elif role in ('assistant', 'user'):
+                stats['visible_message_identity_occurrences'] += 1
+            elif provider == 'claude' or location['member'].startswith('claude/'):
+                stats['claude_fragment_identity_occurrences'] += 1
+            else:
+                stats['other_identity_metadata_occurrences'] += 1
+        if isinstance(v.get('type'), str) and v['type'] in TOOLTYPES:
+            stats['tool_shape_occurrences'] += 1
+        if 'pending_tool_records' in v:
+            stats['aggregate_pending_counter_occurrences'] += 1
+        for k, value in v.items():
+            if k not in BODY and isinstance(value, (dict, list)):
+                walk(value, found, stats, location, sid, provider)
+
+def main():
+    central = LOGS / 'bundles/manifest.json'
+    latepath = LOGS / 'updates/20261031-late-receipts/MANIFEST.json'
+    indexpath = LOGS / 'updates/20261031-complete-visible/reviewed-codex-tools.json'
+    cutoffpath = AUDIT / 'recovery/SESSIONS.json'
+    publiccut = LOGS / 'updates/20261031-complete-visible/native-source-cutoffs.json'
+    overlappath = AUDIT / 'TOOL_PENDING_EXPORT_OVERLAP.json'
+    discoverypath = AUDIT / 'DISCOVERY.json'
+    inputs = [Path(__file__), ROOT/'scripts/codex_rollout.py', central, latepath, indexpath, cutoffpath, publiccut, overlappath, discoverypath, LOGS/'index.json']
+    frozen = [descriptor(p) for p in inputs]
+    cuts = {x['session_id']: x for x in strict(cutoffpath.read_bytes())}
+    public = {x['session_id']: x for x in strict(publiccut.read_bytes())}
+    if set(public) != set(cuts):
+        raise ValueError('Cutoff source set differs')
+    for sid, cut in cuts.items():
+        for field in ('source_bytes_at_cutoff', 'source_prefix_sha256', 'source_line_cutoff', 'counts', 'excluded'):
+            if public[sid][field] != cut[field]:
+                raise ValueError('Public cutoff metadata differs')
+    specs = [(LOGS / x['path'], x) for x in strict(central.read_bytes())['bundles']]
+    late = strict(latepath.read_bytes())
+    specs.append((ROOT/'repository'/late['bundle']['path'], late['bundle']))
+    if len(specs) != 37 or {x.resolve() for x, _ in specs} != {x.resolve() for x in LOGS.rglob('*.tar.gz')}:
+        raise ValueError('Bundle universe changed')
+    found = collections.defaultdict(list)
+    bundles = []
+    totals = collections.Counter()
+    for path, spec in specs:
+        bound = descriptor(path)
+        if (bound['sha256'], bound['bytes']) != (spec['sha256'], spec['bytes']):
+            raise ValueError('Bundle hash mismatch')
+        expected = {x['path']: x for x in spec['members']}
+        if len(expected) != len(spec['members']):
+            raise ValueError('Duplicate manifest member')
+        seen = set()
+        stats = collections.Counter()
+        with tarfile.open(path, 'r:gz') as tar:
+            for member in tar:
+                name = member.name
+                if not member.isfile() or PurePosixPath(name).is_absolute() or '..' in PurePosixPath(name).parts or name in seen or name not in expected:
+                    raise ValueError('Unsafe or unbound bundle member')
+                seen.add(name)
+                raw = tar.extractfile(member).read()
+                item = expected[name]
+                if (len(raw), sha(raw)) != (item['bytes'], item['sha256']):
+                    raise ValueError('Member hash mismatch')
+                location = {'bundle': bound['path'], 'member': name, 'member_sha256': item['sha256']}
+                if name.endswith('.json'):
+                    walk(strict(raw), found, stats, location)
+                    stats['json_members'] += 1
+                elif name.endswith('.jsonl'):
+                    for line in raw.splitlines():
+                        if line.strip():
+                            walk(strict(line), found, stats, location)
+                            stats['jsonl_rows'] += 1
+                    stats['jsonl_members'] += 1
+                else:
+                    stats['opaque_non_json_members'] += 1
+        if seen != set(expected):
+            raise ValueError('Missing member')
+        bundles.append({**bound, 'members_verified': len(seen), 'metadata': dict(stats)})
+        totals.update(stats)
+    loose = []
+    loose_stats = collections.Counter()
+    for path in sorted(LOGS.rglob('*.json')):
+        d = descriptor(path)
+        walk(strict(path.read_bytes()), found, loose_stats, {'bundle': None, 'member': d['path'], 'member_sha256': d['sha256']})
+        loose.append(d)
+    toolindex = strict(indexpath.read_bytes())
+    expected_tools = {(x['session_id'], x['source_line'], x['source_record_sha256']) for x in toolindex['records']}
+    if set(found) != expected_tools or len(expected_tools) != 1938:
+        raise ValueError('Tool payload universe differs from reviewed index')
+    previous = strict(overlappath.read_bytes())
+    previous_ids = {(x['session_id'], x['source_line'], x['source_record_sha256']) for x in previous['records'] if x['disposition'] == 'EXACT_EXPORTED_TOOL_INCLUDED_IN_GENERIC_PENDING'}
+    if previous_ids != expected_tools:
+        raise ValueError('Prior classification identity mismatch')
+    discovery = {x['session_id']: x for x in strict(discoverypath.read_bytes())}
+    wanted = collections.defaultdict(dict)
+    for sid, line, digest in expected_tools:
+        wanted[sid][line] = digest
+    verified = []
+    for sid, lines in sorted(wanted.items()):
+        cut = cuts[sid]
+        used = 0
+        number = 0
+        digest = hashlib.sha256()
+        matched = set()
+        with rollout_file(Path(discovery[sid]['source_path'])) as source:
+            while used < cut['source_bytes_at_cutoff']:
+                number += 1
+                linehash = hashlib.sha256()
+                while True:
+                    raw = source.readline(min(1024 * 1024, cut['source_bytes_at_cutoff'] - used))
+                    if not raw:
+                        raise ValueError('Source truncated')
+                    used += len(raw)
+                    digest.update(raw)
+                    linehash.update(raw)
+                    if raw.endswith(b'\n') or used == cut['source_bytes_at_cutoff']:
+                        break
+                if number in lines:
+                    if linehash.hexdigest() != lines[number]:
+                        raise ValueError('Native record hash mismatch')
+                    matched.add(number)
+            source.verify_unchanged()
+        if digest.hexdigest() != cut['source_prefix_sha256'] or matched != set(lines) or number != cut['source_line_cutoff']:
+            raise ValueError('Fixed source prefix mismatch')
+        verified.append({'session_id': sid, 'bytes': used, 'lines': number, 'sha256': digest.hexdigest(), 'exact_tool_records': len(matched)})
+    if frozen != [descriptor(p) for p in inputs] or loose != [descriptor(LOGS.parents[1]/x['path']) for x in loose]:
+        raise ValueError('Bound input changed during audit')
+    counts = collections.Counter()
+    excluded = collections.Counter()
+    for cut in cuts.values():
+        counts.update(cut['counts'])
+        excluded.update(cut['excluded'])
+    exact = [{'session_id': sid, 'source_line': line, 'source_record_sha256': digest, 'export_locations': locations} for (sid, line, digest), locations in sorted(found.items())]
+    outputs = [save('EXACT_TOOL_IDENTITIES.json', exact), save('BUNDLE_AND_INDEX_AUDIT.json', {'bundles': bundles, 'loose_json_files': loose, 'loose_metadata': dict(loose_stats), 'totals': dict(totals)}), save('NATIVE_PREFIX_VERIFICATION.json', verified)]
+    result = {
+        'status': 'PASS_BOUNDED_ALL_CURRENT_BUNDLE_METADATA_AUDIT',
+        'bundle_count': len(bundles), 'member_count': sum(x['members_verified'] for x in bundles), 'loose_json_count': len(loose),
+        'frozen_native_sessions': len(cuts), 'generic_tool_pending': counts['tool_pending'],
+        'exact_exported_native_tool_identities': len(found),
+        'pending_without_verified_export_identity': counts['tool_pending'] - len(found),
+        'pending_without_verified_export_identity_disposition': 'UNKNOWN_EXACT_COVERAGE_NOT_PROVEN_LOST',
+        'explicit_sensitive_tool_body_exclusions': excluded.get('excluded:sensitive_tool_body', 0),
+        'frozen_source_counts': dict(counts), 'frozen_exclusions': dict(excluded),
+        'native_prefixes_independently_rehashed': len(verified), 'native_prefix_bytes_independently_rehashed': sum(x['bytes'] for x in verified),
+        'inputs': frozen, 'outputs': outputs,
+        'boundary': [
+            'All 37 current tar bundles and 119 loose JSON files were hash-bound and structurally scanned. Body fields were not inspected, printed, or retained. Non-JSON members were hash-verified only.',
+            'Exact coverage means a reviewed Codex tool payload with SID/source_line/source-record SHA, matching the frozen native line. It does not mean retaining the complete original envelope.',
+            'Old Codex conversation/turn bundles expose aggregate pending counters, not additional per-tool payload identities. Claude tool fragments use another provider and cannot close the Codex denominator.',
+            'The other pending records have no verified direct exported identity in these structured formats. Indirect copies in text, older differently identified fragments, or unstructured files were not semantically searched; the difference is not a loss count.',
+            '1145 sensitive tool-body exclusions are a separate frozen category, not part of the 84799 pending denominator. Other hidden/internal exclusions and 430 format/size gaps remain explicit in their separate reports.',
+            'Classification of the 1938 records as generic tool_pending is bound to the previous overlap report; this independent pass verified all export and native hashes without parsing native bodies.',
+            'No fresh native cutoff, current moving-session capture, canonical audit/write, production edit, model call, or publication occurred. This is the pre-final-verification-delta repository snapshot.'
+        ]
+    }
+    report = save('REPORT.json', result)
+    print(json.dumps({'report': report, **{k: result[k] for k in ('status', 'bundle_count', 'member_count', 'loose_json_count', 'exact_exported_native_tool_identities', 'pending_without_verified_export_identity', 'explicit_sensitive_tool_body_exclusions')}}))
+
+if __name__ == '__main__':
+    main()

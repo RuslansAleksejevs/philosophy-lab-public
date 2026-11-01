@@ -1,0 +1,61 @@
+{
+  "review_id": "M08-N1",
+  "manuscript_id": "M08",
+  "profile_id": "neutral",
+  "read_complete": true,
+  "thesis": "Complete limiting-outcome evidence for persistent coordinate clamps, supplemented by equilibrium classifications and one baseline trajectory, need not identify what happens after release. Nevertheless, an explicitly restricted dynamical family can permit a reliable withdrawal procedure without identifying its unknown rate.",
+  "contribution": "The manuscript supplies a defensible separation between experimental coverage and identification, together with a constructive distinction between identifying a particular procedure’s outcome and choosing a uniformly successful alternative. Its added value lies in the exact combination of a comprehensive specified clamp menu, an explicit counterexample, and an order-sensitive withdrawal guarantee. This is a worthwhile, bounded methodological result; it establishes neither a general defect in equilibrium modeling nor an evidence-only solution to temporary control.",
+  "argument_map": [
+    "Define the admissible family by dx/dt = x − x³ + y and dy/dt = −ky, with k > 0. Define the evidence through limiting clamp outcomes, a stationary baseline, and qualitative equilibrium stability, expressly excluding rates and arbitrary uncontrolled trajectories.",
+    "Every family member produces the same evidence: clamping y removes the equation containing k; clamping x retains that equation but its endpoint erases k; joint clamps stipulate their outcomes. Equilibrium locations and the stated stability classifications also remain unchanged.",
+    "After simultaneous release from (−1/2, 1), sufficiently slow decay keeps positive input strong enough for x to cross zero. Scalar comparison and eventual upper bounds then establish convergence to (1, 0).",
+    "Sufficiently fast decay supplies total input too small for that crossing. An invariant negative interval and eventual inward motion establish convergence to (−1, 0). Identical evidence therefore cannot uniquely determine the release endpoint.",
+    "Within the specified family, releasing x while holding y = 1 for one unit makes x positive independently of k. Subsequent complete release converges to (1, 0). Reversing the order leaves opposite outcomes possible for every fixed finite waiting period.",
+    "Consequently, equivalence under a specified experimental menu does not establish interchangeability for withdrawal questions. Successful procedure selection can require less parameter identification while still requiring substantive shared dynamical assumptions."
+  ],
+  "strongest_merit": {
+    "location": "“The same release, opposite endpoints”; “What the basin explanation must say”; “An application: choosing the order of withdrawal.”",
+    "reason": "The central claims are supported by explicit inequalities and convergence arguments, rather than suggestive trajectories. The manuscript also correctly distinguishes crossing x = 0 from crossing an autonomous basin boundary: the initial state belongs to different basins in different systems. The withdrawal-order construction gives the counterexample philosophical relevance by connecting limits on model substitution to action selection. Together these features support a strong argument score, despite the narrower significance of the result."
+  },
+  "concerns": [
+    {
+      "severity": "minor",
+      "kind": "scope",
+      "location": "“An application: choosing the order of withdrawal,” opening paragraph and paragraph beginning “The successful procedure uses no additional measurements.”",
+      "excerpt": "These assumptions are not consequences of \\(E\\) alone.",
+      "reason": "The positive guarantee depends on considerably more than the evidence used in the impossibility result: it requires the shared transient dynamics and their time scale. Thus the paper establishes a conditional control result alongside an evidential limitation, but does not establish that the holding evidence itself supports choosing the successful schedule. This limits the practical reach without invalidating either theorem.",
+      "text_response": "The manuscript explicitly assumes independent justification of the functional form, states that its guarantee concerns only the specified family, and acknowledges that enlarging the admissible class can destroy the guarantee. This adequately answers an inconsistency objection; the remaining issue is how much practical work that independent justification must perform.",
+      "discriminating_check": "Consider dx/dt = a(x − x³ + y), dy/dt = −ky with a > 0. This preserves the stipulated endpoint evidence and qualitative stability, while sufficiently small a defeats the one-unit schedule for fast decay. Identify the additional warranted information that excludes such systems or supports a different duration."
+    },
+    {
+      "severity": "open",
+      "kind": "originality",
+      "location": "“The question and its scope,” concluding paragraph; “What experimental completeness amounts to,” paragraph beginning “This gives the philosophical contribution a specific form.”",
+      "excerpt": "No priority claim follows from these comparisons",
+      "reason": "The general lessons about temporal information, evidence-relative equivalence, and representational versus inferential adequacy are familiar in form. The manuscript demonstrates a precise instance and a useful constructive extension, but the supplied literature accounts do not establish whether this combination adds something unavailable in existing results. Originality should therefore remain unscored, rather than inferred from mathematical specificity.",
+      "text_response": "The manuscript acknowledges antecedents, narrows its question, disclaims priority, and distinguishes representing all outcome maps from inferring an omitted map. These are responsible qualifications, but they do not establish comparative novelty.",
+      "discriminating_check": "Compare the exact evidence menu and withdrawal-order guarantee with the closest existing results. Determine whether prior work already entails both, only the nonidentification claim, or neither; identify the substantive addition accordingly."
+    }
+  ],
+  "scores": {
+    "overall": 3,
+    "argument": 4,
+    "significance": 3,
+    "originality": null
+  },
+  "originality_limit": "The packet supports a specific, internally demonstrated contribution, but not a priority judgment. External source correctness and exhaustive novelty were not checked.",
+  "recommendation": "borderline",
+  "reason_ru": [
+    "Эссе убедительно показывает: даже полный набор результатов постоянного удержания не определяет исход после снятия поддержки.",
+    "Полезный результат — доказанный способ поэтапного снятия поддержки, но его успех требует заранее обоснованной формы уравнений.",
+    "Работа заслуживает рассмотрения, однако вклад пока ограничен этим примером, а новизна относительно литературы не установлена."
+  ],
+  "confidence": "medium",
+  "profile_basis": [],
+  "limits": [
+    "The entire supplied manuscript, including its bibliography, was read.",
+    "Assessment used only the supplied packet; linked publications were not consulted.",
+    "External source correctness and exhaustive novelty were not checked.",
+    "No fatal defect was found in the stated counterexample or conditional withdrawal guarantee."
+  ]
+}

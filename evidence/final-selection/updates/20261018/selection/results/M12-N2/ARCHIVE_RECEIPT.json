@@ -1,0 +1,60 @@
+{
+  "status": "REVIEW_ARCHIVED",
+  "job_id": "M12-N2",
+  "session_id": "01a152b7-f2cd-77d1-aeda-2eb2ce54bbcb",
+  "event_id": "event-b2bb6b9a773143adaa305b58dd34b07d",
+  "lineage_event_id": "event-9d8e67165668450e8f96d75e5c4abf41",
+  "lineage_entry_id": "final-selection-20261018:M12-N2:evaluation-v1",
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/final.txt",
+      "sha256": "c89c8548567f7283d15c866b75ae0cef4320945d614a6d21410741b31d274e6f",
+      "bytes": 8389
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/launch.json",
+      "sha256": "24d362e385cb688597deeda24a7165ada731851371362d7b6b66d71e6e715e6c",
+      "bytes": 1905
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/native-check.json",
+      "sha256": "18e7ef6196915f390a8b268fc3fed0272662849ffcdf9f38adde605ae704b711",
+      "bytes": 1258
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/native-visible.json",
+      "sha256": "5223c91b271b8be69a4b47df095cc82bed4f2a422564a3af610403c89723ab66",
+      "bytes": 45903
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/receipt.json",
+      "sha256": "60a32652baf72e4f06bf775c92c346f33c488c94acf3a3167ff4ea0e6422fee1",
+      "bytes": 3603
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/response.json",
+      "sha256": "3e43a6cabb69fc20a55a0c2c408480dfa2bcf80c4837f6f3463f0c1e0a51bca6",
+      "bytes": 8390
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/stderr.json",
+      "sha256": "76e47807e78aaa9e4d3211acdcc3bf95b4d6e8964cf5144afd143d62ba224972",
+      "bytes": 36
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/visible-events.jsonl",
+      "sha256": "6992dc0f4ecb550c890890e06f99f6d909da3a45bd869d6d2e2f92e304fd355d",
+      "bytes": 8901
+    }
+  ],
+  "capture_sha256": "a31b1ea723169f73d800c79737c246a94bc4f6ad176f5c103b779fb7dcaa0217",
+  "capture_status": "BOUNDED_VISIBLE_CAPTURE_ACCEPTED",
+  "input_event_id": "event-3a08660ab4024183b9acf41dc1fb7907",
+  "accepted_attempt": 3,
+  "physical_attempt": 3,
+  "original_ready_event_id": "event-a1680030dedf4368a548920cef5e7e30",
+  "local_launch_failure_event_id": "event-7efc0413ca594658a8c8f068b0b0d891",
+  "attempt_path": "runs/final-selection-20261018/results/M12-N2/attempt-003",
+  "replacement_ready_event_id": "event-2bdaf0713e544748b88747fa4a0d3cd4",
+  "failed_attempt_event_id": "event-b3519057c6a24486bca718c999d0a20e"
+}

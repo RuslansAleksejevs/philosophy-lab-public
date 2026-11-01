@@ -1,0 +1,145 @@
+Проверка напечатанной арифметики пяти рукописей
+
+Итог: 27 MATCH; 2 CONDITIONAL; 0 MISMATCH.
+Расхождений в проверенных числах не найдено.
+Это арифметика условных моделей, а не подтверждение их эмпирической истинности.
+
+F02 / M02: проверяется только состояние A; потери Keep = 7/100, Erase = 2/25.
+E039 / M04: проверяются оба канала; потери Keep = 1/20, Erase = 7/100. Условия моделей не смешивались.
+E079 / M10: 27/55, 7/35 и 1/13 дают напечатанные округления 49.1%, 20% и 7.7%. В модели q = 41/138, изменившийся интервал = 123/1000. При d = 0.6 получены 20131/138000 и 1593/23000.
+F03 / M13: совместные вероятности 6/25 и 21/100 дают 8/15, то есть примерно 0.5333 после исходных 0.65.
+S02 / M19: перебор восьми последовательностей подтверждает 37/64, отношения 63/37 и 1/3, потери 47/128, 11/8 и 55/64.
+
+Две явно условные записи:
+— Fisher p = 0.4184395997 округляется до 0.42 при двустороннем суммировании таблиц с вероятностью не выше наблюдаемой. Текст не уточняет двустороннюю конвенцию; внешняя статья не проверялась.
+— Вероятность 1 при неограниченных попытках является пределом при независимости и постоянном p > 0; это не конечный перебор и не прогноз реальных панелей.
+
+Все исходные строки, номера строк, хеши рукописей, точные дроби, формулы и полные конечные переборы: REPORT.json.
+Ни оценок, ни сравнения философского качества, ни выбора кандидатов здесь нет.
+
+Проверенные расчёты:
+M02-01 [MATCH] Исходная надёжность и вероятность после синего сигнала — blind/M02.md, строки 40, 47, 57.
+  A reliability: 9/10 ≈ 0.9; в тексте .9 (exact).
+  P(blue): 1/2 ≈ 0.5; в тексте .5 (exact).
+  P(truth=1|source=A,blue): 9/10 ≈ 0.9; в тексте .9 (exact).
+  P(truth=1|source=B,blue): 9/10 ≈ 0.9; в тексте .9 (exact).
+  P(truth=1|blue,erased): 9/10 ≈ 0.9; в тексте .9 (exact).
+M02-02 [MATCH] Все значения таблицы после проверки A — blind/M02.md, строки 57, 61, 62, 63.
+  P(source=A|A_sound=0,blue): 1/2 ≈ 0.5; в тексте .5 (exact).
+  P(truth=1|blue,A_sound=0,source=A): 1/2 ≈ 0.5; в тексте .5 (exact).
+  P(truth=1|blue,A_sound=0,source=B): 9/10 ≈ 0.9; в тексте .9 (exact).
+  P(truth=1|blue,A_sound=0,source=erased): 7/10 ≈ 0.7; в тексте .7 (exact).
+  P(source=A|A_sound=1,blue): 1/2 ≈ 0.5; в тексте .5 (exact).
+  P(truth=1|blue,A_sound=1,source=A): 1/1 ≈ 1; в тексте 1 (exact).
+  P(truth=1|blue,A_sound=1,source=B): 9/10 ≈ 0.9; в тексте .9 (exact).
+  P(truth=1|blue,A_sound=1,source=erased): 19/20 ≈ 0.95; в тексте .95 (exact).
+M02-03 [MATCH] Квадратичные потери 0.09, 0.07 и 0.08 — blind/M02.md, строки 69, 72, 73, 79, 82.
+  before: 9/100 ≈ 0.09; в тексте .09 (exact).
+  Keep, conditional blue: 7/100 ≈ 0.07; в тексте .07 (exact).
+  Erase, conditional blue: 2/25 ≈ 0.08; в тексте .08 (exact).
+  Keep, unconditional: 7/100 ≈ 0.07; в тексте .07 (exact).
+  Erase, unconditional: 2/25 ≈ 0.08; в тексте .08 (exact).
+M02-04 [MATCH] Вероятность правильной двоичной классификации — blind/M02.md, строки 86.
+  Keep classification accuracy: 9/10 ≈ 0.9; в тексте .9 (exact).
+  Erase classification accuracy: 9/10 ≈ 0.9; в тексте .9 (exact).
+M02-05 [MATCH] Альтернативная общая неисправность: потери 0.05 — blind/M02.md, строки 88.
+  Keep alternative loss: 1/20 ≈ 0.05; в тексте .05 (exact).
+  Erase alternative loss: 1/20 ≈ 0.05; в тексте .05 (exact).
+M02-06 [MATCH] Проверка тождества потерь в данном конечном примере — blind/M02.md, строки 101, 107, 108, 111.
+  variance equals loss difference: 1/100 ≈ 0.01; в тексте 1/100 (exact).
+  cross term: 0/1 ≈ 0; в тексте 0 (exact).
+M04-01 [MATCH] Исходные вероятности отчёта и уверенность — blind/M04.md, строки 15, 17.
+  P(+|H): 9/10 ≈ 0.9; в тексте .9 (exact).
+  P(+|not H): 1/10 ≈ 0.1; в тексте .1 (exact).
+  P(H|+,source=A): 9/10 ≈ 0.9; в тексте .9 (exact).
+  P(H|+,source=B): 9/10 ≈ 0.9; в тексте .9 (exact).
+M04-02 [MATCH] Полный аудит: 0.5, 1 и 0.75 — blind/M04.md, строки 19, 21.
+  P(H|+,A random,B sound,source=A): 1/2 ≈ 0.5; в тексте .5 (exact).
+  P(H|+,A random,B sound,source=B): 1/1 ≈ 1; в тексте 1 (exact).
+  P(H|+,A random,B sound,source=erased): 3/4 ≈ 0.75; в тексте .75 (exact).
+M04-03 [MATCH] Вероятности состояний двух каналов — blind/M04.md, строки 63.
+  P(2 sound): 16/25 ≈ 0.64; в тексте .64 (exact).
+  P(2 sound|+): 16/25 ≈ 0.64; в тексте .64 (exact).
+  P(0 sound): 1/25 ≈ 0.04; в тексте .04 (exact).
+  P(0 sound|+): 1/25 ≈ 0.04; в тексте .04 (exact).
+  P(1 sound): 8/25 ≈ 0.32; в тексте .32 (exact).
+  P(1 sound|+): 8/25 ≈ 0.32; в тексте .32 (exact).
+M04-04 [MATCH] Квадратичные потери 0.09, 0.05 и 0.07; разность 0.02 — blind/M04.md, строки 61, 63, 67, 71.
+  before: 9/100 ≈ 0.09; в тексте .09 (exact).
+  Keep conditional +: 1/20 ≈ 0.05; в тексте .05 (exact).
+  Erase conditional +: 7/100 ≈ 0.07; в тексте .07 (exact).
+  Keep unconditional: 1/20 ≈ 0.05; в тексте .05 (exact).
+  Erase unconditional: 7/100 ≈ 0.07; в тексте .07 (exact).
+  loss difference: 1/50 ≈ 0.02; в тексте .02 (exact).
+  variance identity in this example: 1/50 ≈ 0.02; в тексте .02 (exact).
+M10-01 [MATCH] Проценты из напечатанных чисел участников — blind/M10.md, строки 15.
+  27/55 percent: 540/11 ≈ 49.0909090909090909090909090909; в тексте 49.1 (rounded_to_1_decimal_places).
+  7/35 percent: 20/1 ≈ 20; в тексте 20 (exact).
+  1/13 percent: 100/13 ≈ 7.69230769230769230769230769231; в тексте 7.7 (rounded_to_1_decimal_places).
+M10-02 [CONDITIONAL] Fisher p = 0.42 при обычном двустороннем подсчёте — blind/M10.md, строки 15.
+  two-sided Fisher p: 7177171/17152227 ≈ 0.418439599709122319801387889747; в тексте .42 (rounded_to_2_decimal_places).
+  Условие: The text does not specify a two-sided convention. This calculation uses the probability-ordering definition with fixed margins; it does not reconstruct the source software or verify the experiment.
+M10-03 [MATCH] Равномерная модель: 49.1%, 7.7% и 20% — blind/M10.md, строки 23, 25, 37.
+  width: 1/1 ≈ 1; в тексте 1 (exact).
+  no discount: 491/1000 ≈ 0.491; в тексте .491 (exact).
+  full discount .414: 77/1000 ≈ 0.077; в тексте .077 (exact).
+  partial discount .291: 1/5 ≈ 0.2; в тексте .200 (exact).
+M10-04 [MATCH] Доля q и смесь с результатом 20% — blind/M10.md, строки 33, 35.
+  q: 41/138 ≈ 0.297101449275362318840579710145; в тексте .2971 (rounded_to_4_decimal_places).
+  q percentage: 2050/69 ≈ 29.7101449275362318840579710145; в тексте 29.7 (rounded_to_1_decimal_places).
+  mixture conviction: 1/5 ≈ 0.2; в тексте .200 (exact).
+M10-05 [MATCH] Интервал изменившегося решения: 12.3% — blind/M10.md, строки 54.
+  interval fraction: 123/1000 ≈ 0.123; в тексте .123 (exact).
+  interval percentage: 123/10 ≈ 12.3; в тексте 12.3 (exact).
+M10-06 [MATCH] Тождество расширений при 0 ≤ d ≤ 0.491 — blind/M10.md, строки 70, 72, 74.
+  intercept: 491/1000 ≈ 0.491; в тексте .491 (exact).
+  coefficient of d: -97/138 ≈ -0.702898550724637681159420289855; в тексте -97/138 (exact).
+  k*.414: 291/1000 ≈ 0.291; в тексте .291 (exact).
+M10-07 [MATCH] Расширение при d = 0.6 — blind/M10.md, строки 78.
+  Model A: 20131/138000 ≈ 0.145876811594202898550724637681; в тексте .1459 (rounded_to_4_decimal_places).
+  Model B: 1593/23000 ≈ 0.0692608695652173913043478260870; в тексте .0693 (rounded_to_4_decimal_places).
+M13-01 [MATCH] Исходные вероятности: 0.65, 0.35 и 0.45 — blind/M13.md, строки 62.
+  P(J|F): 13/20 ≈ 0.65; в тексте .65 (exact).
+  P(E|F): 9/20 ≈ 0.45; в тексте .45 (exact).
+  P(J|M): 7/20 ≈ 0.35; в тексте .35 (exact).
+  P(E|M): 9/20 ≈ 0.45; в тексте .45 (exact).
+  P(F|J): 13/20 ≈ 0.65; в тексте .65 (exact).
+M13-02 [MATCH] Совместные вероятности 0.24 и 0.21 — blind/M13.md, строки 66, 68.
+  P(J,E|F): 6/25 ≈ 0.24; в тексте .24 (exact).
+  P(J,E|M): 21/100 ≈ 0.21; в тексте .21 (exact).
+M13-03 [MATCH] Переход от 0.65 к примерно 0.5333 — blind/M13.md, строки 70.
+  P(F|J,E): 8/15 ≈ 0.533333333333333333333333333333; в тексте .5333 (rounded_to_4_decimal_places).
+M13-04 [MATCH] Вероятности E при уже известном J — blind/M13.md, строки 72.
+  P(E|F,J): 24/65 ≈ 0.369230769230769230769230769231; в тексте 24/65 (exact).
+  P(E|M,J): 3/5 ≈ 0.6; в тексте 3/5 (exact).
+M19-01 [MATCH] Первое одобрение в трёх попытках: 37/64 — blind/M19.md, строки 74, 76, 78.
+  first approval within cap: 37/64 ≈ 0.578125; в тексте 37/64 (exact).
+  approximate: 37/64 ≈ 0.578125; в тексте .578 (rounded_to_3_decimal_places).
+  fixed last: 1/4 ≈ 0.25; в тексте .25 (exact).
+M19-02 [MATCH] Одобрение при условии существования назначенного отчёта — blind/M19.md, строки 78.
+  conditional approval: 1/1 ≈ 1; в тексте 1 (exact).
+M19-03 [CONDITIONAL] Неограниченные независимые попытки — blind/M19.md, строки 78.
+  Условие: This is a limit under infinitely many independent attempts and constant p>0, not a finite enumeration or an empirical prediction.
+M19-04 [MATCH] Напечатанный случай полной корреляции — blind/M19.md, строки 80.
+  first approval: 1/4 ≈ 0.25; в тексте 1/4 (exact).
+  fixed last: 1/4 ≈ 0.25; в тексте 1/4 (exact).
+M19-05 [MATCH] Все три строки отношений правдоподобия — blind/M19.md, строки 90, 91, 92.
+  single: low: 1/4 ≈ 0.25; в тексте 1/4 (exact).
+  single: high: 3/4 ≈ 0.75; в тексте 3/4 (exact).
+  single: likelihood ratio: 3/1 ≈ 3; в тексте 3 (exact).
+  approval within three: low: 37/64 ≈ 0.578125; в тексте 37/64 (exact).
+  approval within three: high: 63/64 ≈ 0.984375; в тексте 63/64 (exact).
+  approval within three: likelihood ratio: 63/37 ≈ 1.70270270270270270270270270270; в тексте 63/37 (exact).
+  first approval at third: low: 9/64 ≈ 0.140625; в тексте 9/64 (exact).
+  first approval at third: high: 3/64 ≈ 0.046875; в тексте 3/64 (exact).
+  first approval at third: likelihood ratio: 1/3 ≈ 0.333333333333333333333333333333; в тексте 1/3 (exact).
+M19-06 [MATCH] Третье одобрение после двух отказов: множитель 3 — blind/M19.md, строки 98.
+  RRA low, either protocol: 9/64 ≈ 0.140625; в тексте 9/64 (exact).
+  RRA high, either protocol: 3/64 ≈ 0.046875; в тексте 3/64 (exact).
+  conditional likelihood ratio: 3/1 ≈ 3; в тексте 3 (exact).
+M19-07 [MATCH] Совпадение двоичного итога двух процедур — blind/M19.md, строки 128.
+  agreeing sequences: 8/1 ≈ 8; в тексте 8 (exact).
+M19-08 [MATCH] Потери 47/128, 11/8 и 55/64 — blind/M19.md, строки 130.
+  any approval: 47/128 ≈ 0.3671875; в тексте 47/128 (exact).
+  one panel: 11/8 ≈ 1.375; в тексте 11/8 (exact).
+  majority of three: 55/64 ≈ 0.859375; в тексте 55/64 (exact).

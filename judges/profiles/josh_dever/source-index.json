@@ -1,0 +1,50 @@
+{
+  "judge_id": "josh_dever",
+  "created_at": "2026-10-07T10:35:22.230262+00:00",
+  "baseline_reuse": "Reported substantive claims/coverage are inherited, explicitly attributed to B0; no new full-paper claim.",
+  "sources": [
+    {
+      "source_id": "B0",
+      "title": "Inherited profile with exact substantive citations and historical coverage",
+      "url": null,
+      "path": "research/judges/20260912/profiles/josh_dever-v1.md",
+      "sha256": "c013e57d1d54239adc0aadaaf820550a7dfef98159974a4f1e4f126757b8376b",
+      "coverage": "full profile read; underlying cited papers not newly read except explicitly logged",
+      "accessed_at": "2026-10-07T10:35:22.230262+00:00",
+      "copy": "baseline-profile-20260912.md"
+    },
+    {
+      "source_id": "homepage-web",
+      "title": "Author identity page",
+      "url": "https://sites.google.com/site/joshdeverphilosophy/",
+      "path": "research/judges/20261007/josh_dever/sources/homepage-web.json",
+      "sha256": "44eeca08cc39e326292f61b947a0062006daa8ba20a05d647ce425f167b260d6",
+      "accessed_at": "2026-10-07T10:31:41.417Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "Identity lines 79–83; bibliography titles only; authored draft/teaching notes lines 84–110"
+    },
+    {
+      "source_id": "T1",
+      "title": "Review of Understanding I: Language and Thought, with Herman Cappelen, 21 November 2017",
+      "url": "https://ndpr.nd.edu/reviews/understanding-i-language-and-thought/",
+      "path": "research/judges/20261007/josh_dever/sources/review-retry-web.json",
+      "sha256": "cf429ee9bd1414f6c9a3996d6a33fdb9fa73f8e843f46cedd9a6f2e0df5fe9c6",
+      "accessed_at": "2026-10-07T10:32:17.130Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "Review body lines 14–103; homepage authored notes lines 84–110"
+    },
+    {
+      "source_id": "review-web",
+      "title": "review-web",
+      "url": "https://ndpr.nd.edu/news/understanding-i-language-and-thought/:",
+      "path": "research/judges/20261007/josh_dever/sources/review-web.json",
+      "sha256": "6e4f36e5289a9380fa4260d5730ba60fc80ecdf1d2939be86107d507a357e1cb",
+      "accessed_at": "2026-10-07T10:32:08.726Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "unavailable",
+      "read_locations": "discovery/exposure only; not a basis for full-source reading"
+    }
+  ]
+}

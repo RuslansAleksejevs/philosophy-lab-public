@@ -1,0 +1,55 @@
+{
+  "status": "DERIVED_POLICY_BINDINGS_REPAIRED",
+  "timestamp_utc": "2026-10-31T07:14:10.839664+00:00",
+  "source_text_unchanged": true,
+  "policy_semantics_unchanged": true,
+  "before_copies": "runs/maintenance-20261031/collector/policy-binding-before/",
+  "cause": "2026-10-13 authorized postmidterm settings appended to USER_PREFERENCES.md; derived full-file digest pointers still referenced earlier exact archived text.",
+  "user_preferences_sha256": "41a825485adb72a37624ec96056efb9a8995b723e68d17f37c0b152644cef57b",
+  "previous_user_preferences_sha256": "dd7213dc60119cac7a16c4cee9e1d72de96cad41f9c6ab65c939f01ca684745c",
+  "changes": [
+    {
+      "path": ".lab/user_policy.json",
+      "before_sha256": "f42d2c216c7b76a0633658e1b7f4b6e1090aade78f48bbc67c9f673e912d6a8e",
+      "after_sha256": "e7ac1de19087d6cd774aa99842a6ab3d3ad9724de848a595757f5151253371c0"
+    },
+    {
+      "path": "LAB_PROFILE.json",
+      "before_sha256": "578d187b94037bcc7aa0bb850ccc101e4fef06e12b927ce6e3b7e98e7724094e",
+      "after_sha256": "d860ed63e915a7616438aaa2d6232d7db5f852a7c71ed5a480e2cbecb9f68bf2"
+    },
+    {
+      "path": ".lab/manifest.json",
+      "before_sha256": "a74087d5f3dd3d3a9faaff3ca15dfe3fbda92527cc431b9d8197b14073511dba",
+      "after_sha256": "05742d072845f02b0b2039a9b3efc19870d2e38451e3df14f36c3604b62e13ff"
+    }
+  ],
+  "allowed_changed_json_paths": {
+    ".lab/user_policy.json": [
+      "portable_view.sha256"
+    ],
+    "LAB_PROFILE.json": [
+      "user_policy.portable_view.sha256"
+    ],
+    ".lab/manifest.json": [
+      "user_policy.portable_view.sha256",
+      "user_policy.sidecar_sha256",
+      "profile_sha256"
+    ]
+  },
+  "focused_checks": {
+    "result": "PASS",
+    "checks": [
+      "exact user preference bytes preserved",
+      "only whitelisted hash pointers changed",
+      "sidecar and profile user_policy match",
+      "manifest policy projection matches sidecar",
+      "manifest sidecar SHA matches bytes",
+      "manifest profile SHA matches bytes",
+      "portable_view SHA matches USER_PREFERENCES bytes",
+      "old policy exact archive object remains available",
+      "original scaffold-file hash remains unchanged"
+    ]
+  },
+  "full_archive_validation": "Root will rerun; this repair did not acquire archive lock or alter collector code."
+}

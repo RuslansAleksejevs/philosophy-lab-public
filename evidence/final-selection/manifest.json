@@ -1,0 +1,602 @@
+{
+  "schema": "final-selection-evidence.v1",
+  "exported_on": "2026-10-17",
+  "source_cutoff": "Current selection correction accepted 2026-10-17; no step 2 work included.",
+  "scope": "Focused selection records, all 32 bound manuscript versions linked, three exact comparison copies added. Related local input files are fingerprinted, not all copied. Existing repository manuscripts and logs remain unchanged.",
+  "files": [
+    {
+      "path": "evidence/final-selection/workflow/FINAL_RECEIPT.json",
+      "source_path": "runs/final-selection-workflow-20261017/FINAL_RECEIPT.json",
+      "source_sha256": "b5afdadc8de693972d79702750f452433e5adac6b314317065868b0350e88eae",
+      "source_bytes": 7756,
+      "sha256": "b5afdadc8de693972d79702750f452433e5adac6b314317065868b0350e88eae",
+      "bytes": 7756,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/workflow/completion-event.json",
+      "source_path": "research/archive/events/000000452801.json",
+      "source_sha256": "b03d3dd7c0f65a025bd8d12b27ad8015e2df1ab7a5b546e09fad6e07a1782446",
+      "source_bytes": 2139,
+      "sha256": "b03d3dd7c0f65a025bd8d12b27ad8015e2df1ab7a5b546e09fad6e07a1782446",
+      "bytes": 2139,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/initial/FINAL_RECEIPT.json",
+      "source_path": "runs/final-selection-step1-20261017/FINAL_RECEIPT.json",
+      "source_sha256": "1683ee99667838796f9679837ace973e0afc0f8bf71f5cca44dbe7b8a0cd1dba",
+      "source_bytes": 11091,
+      "sha256": "1683ee99667838796f9679837ace973e0afc0f8bf71f5cca44dbe7b8a0cd1dba",
+      "bytes": 11091,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/initial/completion-event.json",
+      "source_path": "research/archive/events/000000452946.json",
+      "source_sha256": "a2bcf0bd482fb084fdc3840813df36815f3fc9fdce97d6e4fe3e61cfc7ebab2f",
+      "source_bytes": 2326,
+      "sha256": "a2bcf0bd482fb084fdc3840813df36815f3fc9fdce97d6e4fe3e61cfc7ebab2f",
+      "bytes": 2326,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/current/FINAL_RECEIPT.json",
+      "source_path": "runs/final-selection-step1-clarification-20261017/FINAL_RECEIPT.json",
+      "source_sha256": "cc7977d649d8bd47d5c1a4eb8a05adb3f447c01a82c9dd790c64174d125d22e7",
+      "source_bytes": 8243,
+      "sha256": "cc7977d649d8bd47d5c1a4eb8a05adb3f447c01a82c9dd790c64174d125d22e7",
+      "bytes": 8243,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/current/completion-event.json",
+      "source_path": "research/archive/events/000000452957.json",
+      "source_sha256": "c4d3a48b5dba3731ed662683e042a7279f7a8f0540cd1175a02bc81a5a46f9de",
+      "source_bytes": 2081,
+      "sha256": "c4d3a48b5dba3731ed662683e042a7279f7a8f0540cd1175a02bc81a5a46f9de",
+      "bytes": 2081,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/workflow/decision.json",
+      "source_path": "runs/final-selection-workflow-20261017/DECISION.json",
+      "source_sha256": "418a274bb3fe1a0176f120e1bd7f2154ea54fa01d0eaf67711ebcee4816416b5",
+      "source_bytes": 1868,
+      "sha256": "418a274bb3fe1a0176f120e1bd7f2154ea54fa01d0eaf67711ebcee4816416b5",
+      "bytes": 1868,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/workflow/user-request-ru.txt",
+      "source_path": "runs/final-selection-workflow-20261017/USER_REQUEST.txt",
+      "source_sha256": "f179f18cf005e857773302fa8ab402badc242ea8788f61fdb75c0eb8d866ea45",
+      "source_bytes": 2042,
+      "sha256": "f179f18cf005e857773302fa8ab402badc242ea8788f61fdb75c0eb8d866ea45",
+      "bytes": 2042,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/workflow/workflow-ru.md",
+      "source_path": "runs/final-selection-step1-20261017/navigation-before/workflows/FINAL_SELECTION_22_10_3.md",
+      "source_sha256": "493c27a56edd12d946188718e343555d833a9d8b513ed80b2e24b2b98ed656e3",
+      "source_bytes": 10686,
+      "sha256": "493c27a56edd12d946188718e343555d833a9d8b513ed80b2e24b2b98ed656e3",
+      "bytes": 10686,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/initial/decisions.json",
+      "source_path": "runs/final-selection-step1-20261017/DECISIONS.json",
+      "source_sha256": "eafc9e1e10399809d12f80b09c92ed6b520d44dec1fcd86a03ce3b60b3a3e00a",
+      "source_bytes": 85584,
+      "sha256": "eafc9e1e10399809d12f80b09c92ed6b520d44dec1fcd86a03ce3b60b3a3e00a",
+      "bytes": 85584,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/initial/candidate-versions.json",
+      "source_path": "runs/final-selection-step1-20261017/CANDIDATE_VERSIONS.json",
+      "source_sha256": "b7a2e9e49f8bfa51b17b98f38a4c6e45c56dbbb42603f6bf9aff19a31f00e6b5",
+      "source_bytes": 20271,
+      "sha256": "b7a2e9e49f8bfa51b17b98f38a4c6e45c56dbbb42603f6bf9aff19a31f00e6b5",
+      "bytes": 20271,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/initial/input-manifest.json",
+      "source_path": "runs/final-selection-step1-20261017/INPUT_MANIFEST.json",
+      "source_sha256": "d2cfe557104181a6afdbcc7ef1a8677bf9fbb4a1c3c345132ba817348b785754",
+      "source_bytes": 63545,
+      "sha256": "d2cfe557104181a6afdbcc7ef1a8677bf9fbb4a1c3c345132ba817348b785754",
+      "bytes": 63545,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/initial/user-request-01-ru.txt",
+      "source_path": "runs/final-selection-step1-20261017/USER_REQUEST_01.txt",
+      "source_sha256": "6de2bfc16c2ef280849cb7c7ed26fb0b81c020fbaf1edd5cdabb93cc5dcd18dc",
+      "source_bytes": 314,
+      "sha256": "6de2bfc16c2ef280849cb7c7ed26fb0b81c020fbaf1edd5cdabb93cc5dcd18dc",
+      "bytes": 314,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/initial/user-request-02-ru.txt",
+      "source_path": "runs/final-selection-step1-20261017/USER_REQUEST_02.txt",
+      "source_sha256": "3d51d823525b22e2e0383d654f46a5d23429845f41933b98cdba72fc8ef9c63c",
+      "source_bytes": 529,
+      "sha256": "3d51d823525b22e2e0383d654f46a5d23429845f41933b98cdba72fc8ef9c63c",
+      "bytes": 529,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/current/decisions.json",
+      "source_path": "runs/final-selection-step1-clarification-20261017/DECISIONS.json",
+      "source_sha256": "91894e8f3e6963cf649981b3f2816f70513c7b3ef9bf0fbee09e7b080c0a4fc7",
+      "source_bytes": 78242,
+      "sha256": "91894e8f3e6963cf649981b3f2816f70513c7b3ef9bf0fbee09e7b080c0a4fc7",
+      "bytes": 78242,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/current/input-manifest.json",
+      "source_path": "runs/final-selection-step1-clarification-20261017/INPUT_MANIFEST.json",
+      "source_sha256": "9ddd712265f297a3c81c517b0122875ea1389f73e3c0bbef81549cc1e47bfd0c",
+      "source_bytes": 48071,
+      "sha256": "9ddd712265f297a3c81c517b0122875ea1389f73e3c0bbef81549cc1e47bfd0c",
+      "bytes": 48071,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/current/user-request-ru.txt",
+      "source_path": "runs/final-selection-step1-clarification-20261017/USER_REQUEST.txt",
+      "source_sha256": "bf18f007bf6dc0cd4408891e94fb54dad69eb7238e2f0b2690f822ff04366957",
+      "source_bytes": 453,
+      "sha256": "bf18f007bf6dc0cd4408891e94fb54dad69eb7238e2f0b2690f822ff04366957",
+      "bytes": 453,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/current/communication-rule-ru.md",
+      "source_path": "runs/final-selection-step1-clarification-20261017/COMMUNICATION_RULE_RU.md",
+      "source_sha256": "f33962a2cdcd1d760c129882d591f282a8a311c95527bd87de8d512c6c7c1a43",
+      "source_bytes": 2851,
+      "sha256": "f33962a2cdcd1d760c129882d591f282a8a311c95527bd87de8d512c6c7c1a43",
+      "bytes": 2851,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/initial/report-ru.md",
+      "source_path": "runs/final-selection-step1-20261017/CANDIDATES_RU.md",
+      "source_sha256": "5fb3560be982733cc573c519b8cb1f863cc9af5a2847aefe875c539c307d3299",
+      "source_bytes": 43964,
+      "sha256": "747650317c28c37847c9835c198d4b0bb43d92399847bc0feb4d72efd59b8cc9",
+      "bytes": 40034,
+      "transformation": "Machine-specific project prefix removed. Manuscript links point to exact repository copies; non-exported evidence links become labeled archive-relative path references. Prose unchanged."
+    },
+    {
+      "path": "evidence/final-selection/current/report-ru.md",
+      "source_path": "runs/final-selection-step1-clarification-20261017/22_CANDIDATES_PLAIN_RU.md",
+      "source_sha256": "364936e6d214d60d42367a8110fa8ce8d91dddba3a7b6eafc907ddecff06da60",
+      "source_bytes": 38773,
+      "sha256": "88bf7d8e54fe4a1de8afcf54e4d882cecb9b4bf95b5963aa5c2d681ae0ca2ea4",
+      "bytes": 35668,
+      "transformation": "Machine-specific project prefix removed. Manuscript links point to exact repository copies; non-exported evidence links become labeled archive-relative path references. Prose unchanged."
+    },
+    {
+      "path": "evidence/final-selection/manuscripts/E036-R1-comparison.md",
+      "source_path": "runs/midterm-20261007/revision-trial-20261008/comparison-copies/E036-R1.md",
+      "source_sha256": "657500614bc4836ba88baecc27661d1b4a90c00ae51888fc766e5c9e9c231e33",
+      "source_bytes": 25638,
+      "sha256": "657500614bc4836ba88baecc27661d1b4a90c00ae51888fc766e5c9e9c231e33",
+      "bytes": 25638,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/manuscripts/E050-R1-comparison.md",
+      "source_path": "runs/midterm-20261007/revision-trial-20261008/comparison-copies/E050-R1.md",
+      "source_sha256": "af21989e46757835e64576fa666612652b04c26a6d367740de2c9a910645023e",
+      "source_bytes": 20641,
+      "sha256": "af21989e46757835e64576fa666612652b04c26a6d367740de2c9a910645023e",
+      "bytes": 20641,
+      "transformation": "unchanged bytes"
+    },
+    {
+      "path": "evidence/final-selection/manuscripts/E078-R1-comparison.md",
+      "source_path": "runs/midterm-20261007/revision-trial-20261008/comparison-copies/E078-R1.md",
+      "source_sha256": "74dc1443a74d63ba4fc3bfea95e4c6967bfed7b35c9501759008f2e1cdb68758",
+      "source_bytes": 24139,
+      "sha256": "74dc1443a74d63ba4fc3bfea95e4c6967bfed7b35c9501759008f2e1cdb68758",
+      "bytes": 24139,
+      "transformation": "unchanged bytes"
+    }
+  ],
+  "source_receipt_checks": [
+    {
+      "source_path": "runs/final-selection-workflow-20261017/FINAL_RECEIPT.json",
+      "sha256": "b5afdadc8de693972d79702750f452433e5adac6b314317065868b0350e88eae",
+      "status": "WORKFLOW_MEMORY_COMPLETE_BOUNDED",
+      "immutable_run_files_checked": 31,
+      "result": "all matched",
+      "boundary": "Run-local receipt entries checked; mutable top-level navigation is historical and excluded from this comparison."
+    },
+    {
+      "source_path": "runs/final-selection-step1-20261017/FINAL_RECEIPT.json",
+      "sha256": "1683ee99667838796f9679837ace973e0afc0f8bf71f5cca44dbe7b8a0cd1dba",
+      "status": "STEP1_COMPLETE_BOUNDED",
+      "immutable_run_files_checked": 44,
+      "result": "all matched",
+      "boundary": "Run-local receipt entries checked; mutable top-level navigation is historical and excluded from this comparison."
+    },
+    {
+      "source_path": "runs/final-selection-step1-clarification-20261017/FINAL_RECEIPT.json",
+      "sha256": "cc7977d649d8bd47d5c1a4eb8a05adb3f447c01a82c9dd790c64174d125d22e7",
+      "status": "CLARIFICATION_COMPLETE_BOUNDED",
+      "immutable_run_files_checked": 30,
+      "result": "all matched",
+      "boundary": "Run-local receipt entries checked; mutable top-level navigation is historical and excluded from this comparison."
+    }
+  ],
+  "input_checks": [
+    {
+      "source_path": "runs/final-selection-step1-20261017/INPUT_MANIFEST.json",
+      "sha256": "d2cfe557104181a6afdbcc7ef1a8677bf9fbb4a1c3c345132ba817348b785754",
+      "files_checked": 229,
+      "result": "all matched"
+    },
+    {
+      "source_path": "runs/final-selection-step1-clarification-20261017/INPUT_MANIFEST.json",
+      "sha256": "9ddd712265f297a3c81c517b0122875ea1389f73e3c0bbef81549cc1e47bfd0c",
+      "files_checked": 232,
+      "result": "all matched"
+    }
+  ],
+  "source_events": [
+    {
+      "source_path": "research/archive/events/000000452801.json",
+      "repository_path": "evidence/final-selection/workflow/completion-event.json",
+      "event_id": "event-bf6a2f8674144f108372724ab9d26b1c",
+      "event_sha256": "c76ad71eb83bdf3757aca30190cbfa89df3f705f75c8392f91b924dbea23eab2",
+      "recorded_at": "2026-10-17T21:23:02.166405+00:00",
+      "timestamp_source": "archive-clock-event-time-unknown"
+    },
+    {
+      "source_path": "research/archive/events/000000452946.json",
+      "repository_path": "evidence/final-selection/initial/completion-event.json",
+      "event_id": "event-93348e3f8eac4e4cac88be052bae6b3b",
+      "event_sha256": "993db6f51e73719a7d34456010e26a427769989716449cf9df979a45a6b13fcb",
+      "recorded_at": "2026-10-17T22:17:18.287647+00:00",
+      "timestamp_source": "archive-clock-event-time-unknown"
+    },
+    {
+      "source_path": "research/archive/events/000000452957.json",
+      "repository_path": "evidence/final-selection/current/completion-event.json",
+      "event_id": "event-9a43499aee7d425b839017b4957ea633",
+      "event_sha256": "f8c2929cb32a75b43e022a5befa0cde2abc152df336e7de3a134983a2b592b0b",
+      "recorded_at": "2026-10-17T22:46:53.807435+00:00",
+      "timestamp_source": "archive-clock-event-time-unknown"
+    }
+  ],
+  "versions": [
+    {
+      "id": "E009",
+      "variant": "original",
+      "current": true,
+      "source_path": "runs/midterm-20261007/blind/E009.md",
+      "source_sha256": "6fcfd9ef400a61abed5b52b1a810c8e233a764ca059804b1223c9fb4794f4605",
+      "bytes": 26402,
+      "repository_path": "essays/E009/original.md"
+    },
+    {
+      "id": "E036",
+      "variant": "original",
+      "current": true,
+      "source_path": "runs/midterm-20261007/blind/E036.md",
+      "source_sha256": "11b983431d03c7256f921790f60da2ad2391bb52552dfd031afc6af9abefca5a",
+      "bytes": 24861,
+      "repository_path": "essays/E036/original.md"
+    },
+    {
+      "id": "E036",
+      "variant": "R1-display",
+      "current": true,
+      "source_path": "runs/midterm-20261007/revision-trial-20261008/comparison-copies/E036-R1.md",
+      "source_sha256": "657500614bc4836ba88baecc27661d1b4a90c00ae51888fc766e5c9e9c231e33",
+      "bytes": 25638,
+      "repository_path": "evidence/final-selection/manuscripts/E036-R1-comparison.md",
+      "earlier_author_output": {
+        "repository_path": "essays/E036/revision-R1.md",
+        "sha256": "2ebe89768d6b283d031c892493b45ac522a040101cc72b981e1f28566e732e75",
+        "bytes": 25717,
+        "distinction": "Existing author R1. The bound blinded comparison copy changes source-description wording; both are preserved."
+      }
+    },
+    {
+      "id": "E047",
+      "variant": "original",
+      "current": true,
+      "source_path": "runs/midterm-20261007/blind/E047.md",
+      "source_sha256": "98da4f7f05e2b79ce05f6f337e9dee5dd47de7582022f0257bd322097947f0fc",
+      "bytes": 21986,
+      "repository_path": "essays/E047/original.md"
+    },
+    {
+      "id": "E050",
+      "variant": "original",
+      "current": false,
+      "source_path": "runs/midterm-20261007/blind/E050.md",
+      "source_sha256": "a45eb471cb62fac13b3a032a4fc77aec7ec21a34e077812eccef0e0a1c897ee0",
+      "bytes": 19496,
+      "repository_path": "essays/E050/original.md"
+    },
+    {
+      "id": "E050",
+      "variant": "R1-display",
+      "current": true,
+      "source_path": "runs/midterm-20261007/revision-trial-20261008/comparison-copies/E050-R1.md",
+      "source_sha256": "af21989e46757835e64576fa666612652b04c26a6d367740de2c9a910645023e",
+      "bytes": 20641,
+      "repository_path": "evidence/final-selection/manuscripts/E050-R1-comparison.md",
+      "earlier_author_output": {
+        "repository_path": "essays/E050/revision-R1.md",
+        "sha256": "328017f2c81f0657cc49c46aa840ab2ae92750d1487a223e7f1a4dee4877890e",
+        "bytes": 20634,
+        "distinction": "Existing author R1. The bound blinded comparison copy changes source-description wording; both are preserved."
+      }
+    },
+    {
+      "id": "E055",
+      "variant": "original",
+      "current": true,
+      "source_path": "runs/midterm-20261007/blind/E055.md",
+      "source_sha256": "7e89cbede4b8b1a236ecfa87e684ba46b51707b099fa0f072ccbacb833d3b520",
+      "bytes": 20567,
+      "repository_path": "essays/E055/original.md"
+    },
+    {
+      "id": "E074",
+      "variant": "original",
+      "current": true,
+      "source_path": "runs/midterm-20261007/blind/E074.md",
+      "source_sha256": "819580e498e7e5359dcb3908916ee75783dfd484c9e3acc23edc1722459acdbc",
+      "bytes": 24024,
+      "repository_path": "essays/E074/original.md"
+    },
+    {
+      "id": "E078",
+      "variant": "original",
+      "current": false,
+      "source_path": "runs/midterm-20261007/blind/E078.md",
+      "source_sha256": "04dc45eb5eb4d24982ee5f24c70afef04b1efcd7dfb31edbed034ce5db17d52e",
+      "bytes": 24360,
+      "repository_path": "essays/E078/original.md"
+    },
+    {
+      "id": "E078",
+      "variant": "R1-display",
+      "current": true,
+      "source_path": "runs/midterm-20261007/revision-trial-20261008/comparison-copies/E078-R1.md",
+      "source_sha256": "74dc1443a74d63ba4fc3bfea95e4c6967bfed7b35c9501759008f2e1cdb68758",
+      "bytes": 24139,
+      "repository_path": "evidence/final-selection/manuscripts/E078-R1-comparison.md",
+      "earlier_author_output": {
+        "repository_path": "essays/E078/revision-R1.md",
+        "sha256": "fc5cd31f22c66771dd0d5dc443a637029ed45c8b6abdfc3be78991265d3a54a1",
+        "bytes": 24279,
+        "distinction": "Existing author R1. The bound blinded comparison copy changes source-description wording; both are preserved."
+      }
+    },
+    {
+      "id": "E079",
+      "variant": "original",
+      "current": true,
+      "source_path": "runs/midterm-20261007/blind/E079.md",
+      "source_sha256": "3ff50cb0c41cc9267cdf2b839fb8a7b5aab278a6810dab4b41757f2cc3074cfd",
+      "bytes": 18150,
+      "repository_path": "essays/E079/original.md"
+    },
+    {
+      "id": "E100",
+      "variant": "original",
+      "current": true,
+      "source_path": "runs/midterm-20261007/blind/E100.md",
+      "source_sha256": "7b30ee405892b61615bfb48bd9def7e1d0e746e9eb59511a0a8114e005db8318",
+      "bytes": 13342,
+      "repository_path": "essays/E100/original.md"
+    },
+    {
+      "id": "E012",
+      "variant": "original",
+      "current": true,
+      "source_path": "runs/midterm-20261007/blind/E012.md",
+      "source_sha256": "7d0772e0c5393c7a0b669bb7c584ad4d24dd87caebedf5f2461a5f9f7ebbb84b",
+      "bytes": 28063,
+      "repository_path": "essays/E012/original.md"
+    },
+    {
+      "id": "E037",
+      "variant": "original",
+      "current": true,
+      "source_path": "runs/midterm-20261007/blind/E037.md",
+      "source_sha256": "66c52f19e2f49b0a127680e1b85664f519db84539dd7712cbb84d44dde8395f3",
+      "bytes": 17936,
+      "repository_path": "essays/E037/original.md"
+    },
+    {
+      "id": "E039",
+      "variant": "original",
+      "current": true,
+      "source_path": "runs/midterm-20261007/blind/E039.md",
+      "source_sha256": "37f240addafd761d1d361ce9c0ac1aeb3ba6997eed5b936f9386c11bd09c1a59",
+      "bytes": 30275,
+      "repository_path": "essays/E039/original.md"
+    },
+    {
+      "id": "E041",
+      "variant": "original",
+      "current": true,
+      "source_path": "runs/midterm-20261007/blind/E041.md",
+      "source_sha256": "3042c92a6093450cb7e6a7b17f8c1acdfa9d9aa98bade4d58e07157f3c4cd6f9",
+      "bytes": 19335,
+      "repository_path": "essays/E041/original.md"
+    },
+    {
+      "id": "E086",
+      "variant": "original",
+      "current": true,
+      "source_path": "runs/midterm-20261007/blind/E086.md",
+      "source_sha256": "f4fca601f52d3e7e5082025c92350935254f70dbbf0841026454d999376426a9",
+      "bytes": 20432,
+      "repository_path": "essays/E086/original.md"
+    },
+    {
+      "id": "E098",
+      "variant": "original",
+      "current": true,
+      "source_path": "runs/midterm-20261007/blind/E098.md",
+      "source_sha256": "2c031255a92853d4276e2599c637ce7a565ce1feb46da2c97393dc5bfe73d191",
+      "bytes": 15807,
+      "repository_path": "essays/E098/original.md"
+    },
+    {
+      "id": "F01",
+      "variant": "R1",
+      "current": true,
+      "source_path": "runs/postmidterm-20261012/04-essays/F01/releases/v1/R1.md",
+      "source_sha256": "7ebe3c5bb07a49e5236dd546be634d564c68bf3341d33c25e1602857960df599",
+      "bytes": 28685,
+      "repository_path": "essays/post-midterm/F01/R1.md"
+    },
+    {
+      "id": "F01",
+      "variant": "D0",
+      "current": false,
+      "source_path": "runs/postmidterm-20261012/04-essays/F01/releases/v1/draft.md",
+      "source_sha256": "c25a45dd02e5a96aedee143c41aa6faa4a0e599d7ac2630299f27a4c1a58e108",
+      "bytes": 27547,
+      "repository_path": "essays/post-midterm/F01/draft.md"
+    },
+    {
+      "id": "F02",
+      "variant": "R1",
+      "current": true,
+      "source_path": "runs/postmidterm-20261012/04-essays/F02/releases/v1/R1.md",
+      "source_sha256": "76d5c28417d5b87baebe2640a1636312d3a5f4ee69ab57c1486320e0a81148c9",
+      "bytes": 26179,
+      "repository_path": "essays/post-midterm/F02/R1.md"
+    },
+    {
+      "id": "F02",
+      "variant": "D0",
+      "current": false,
+      "source_path": "runs/postmidterm-20261012/04-essays/F02/releases/v1/draft.md",
+      "source_sha256": "ea4d988d1600be64c69289b309d2778229336a0342e0c3424bb876e48adbd9c4",
+      "bytes": 28809,
+      "repository_path": "essays/post-midterm/F02/draft.md"
+    },
+    {
+      "id": "F03",
+      "variant": "R1",
+      "current": true,
+      "source_path": "runs/postmidterm-20261012/04-essays/F03/releases/v1/R1.md",
+      "source_sha256": "42accea7f8647e8de5dac9d6c55e834e2b62c07d6655730ec6e7948eff9319b5",
+      "bytes": 28072,
+      "repository_path": "essays/post-midterm/F03/R1.md"
+    },
+    {
+      "id": "F03",
+      "variant": "D0",
+      "current": false,
+      "source_path": "runs/postmidterm-20261012/04-essays/F03/releases/v1/draft.md",
+      "source_sha256": "e6b2d3c86ed880b42346735e3a214c03c2f5963633c297ae895d3930dab541fe",
+      "bytes": 23322,
+      "repository_path": "essays/post-midterm/F03/draft.md"
+    },
+    {
+      "id": "F04",
+      "variant": "R1",
+      "current": true,
+      "source_path": "runs/postmidterm-20261012/04-essays/F04/releases/v1/R1.md",
+      "source_sha256": "14f8333ca0f09587596b044eea9992ea85fec7427773b0c07bc0bd74b15b4b6f",
+      "bytes": 30740,
+      "repository_path": "essays/post-midterm/F04/R1.md"
+    },
+    {
+      "id": "F04",
+      "variant": "D0",
+      "current": false,
+      "source_path": "runs/postmidterm-20261012/04-essays/F04/releases/v1/draft.md",
+      "source_sha256": "2ba900d992d57eef7375f38e7949d1dd615c29bd0909561679aee25bfd4fcd50",
+      "bytes": 26982,
+      "repository_path": "essays/post-midterm/F04/draft.md"
+    },
+    {
+      "id": "F05",
+      "variant": "R1",
+      "current": true,
+      "source_path": "runs/postmidterm-20261012/04-essays/F05/releases/v1/R1.md",
+      "source_sha256": "7757b995b75b8c311e1bdb9e67056be1af5ee6cbb0cb158b40e3e45485eafd01",
+      "bytes": 27281,
+      "repository_path": "essays/post-midterm/F05/R1.md"
+    },
+    {
+      "id": "F05",
+      "variant": "D0",
+      "current": false,
+      "source_path": "runs/postmidterm-20261012/04-essays/F05/releases/v1/draft.md",
+      "source_sha256": "83acd34e516c617a5eebe6f2c4ec78e05b93888d9235c423a6a55fea60a71893",
+      "bytes": 26912,
+      "repository_path": "essays/post-midterm/F05/draft.md"
+    },
+    {
+      "id": "F06",
+      "variant": "R1",
+      "current": true,
+      "source_path": "runs/postmidterm-20261012/04-essays/F06/releases/v1/R1.md",
+      "source_sha256": "c2e4d644eb13efb18583f3b7fb01665639018cb510146aba942cf294bfc4d63d",
+      "bytes": 34611,
+      "repository_path": "essays/post-midterm/F06/R1.md"
+    },
+    {
+      "id": "F06",
+      "variant": "D0",
+      "current": false,
+      "source_path": "runs/postmidterm-20261012/04-essays/F06/releases/v1/draft.md",
+      "source_sha256": "60fcea0d10d4e4867f7a6cbe686fd8c98d9e11f15fb03256075b47a61677f80b",
+      "bytes": 29151,
+      "repository_path": "essays/post-midterm/F06/draft.md"
+    },
+    {
+      "id": "S02",
+      "variant": "R1",
+      "current": true,
+      "source_path": "runs/postmidterm-20261012/04-essays/S02/releases/v1/R1.md",
+      "source_sha256": "0ff5fb0984993915d9fd049be178d5c4bd2c50893353b5e8758996d795fd1056",
+      "bytes": 29774,
+      "repository_path": "essays/post-midterm/S02/R1.md"
+    },
+    {
+      "id": "S02",
+      "variant": "D0",
+      "current": false,
+      "source_path": "runs/postmidterm-20261012/04-essays/S02/releases/v1/draft.md",
+      "source_sha256": "5cf43ea11a62bc351779a443d785b068681be6efb39d1205d24daff9b0ccf41a",
+      "bytes": 26634,
+      "repository_path": "essays/post-midterm/S02/draft.md"
+    }
+  ],
+  "summary": {
+    "candidate_count": 22,
+    "counts": {
+      "keep": 13,
+      "revise": 9,
+      "defer": 0
+    },
+    "bound_versions": 32,
+    "current_manuscript_files": 23,
+    "copied_files": 23,
+    "step2_started": false,
+    "manuscripts_changed": false
+  }
+}

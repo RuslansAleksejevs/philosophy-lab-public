@@ -1,0 +1,37 @@
+{
+  "status": "BOUNDED_EXPORT_PREFLIGHT_PASS",
+  "checked_at_utc": "2026-10-31T07:03:15.687281+00:00",
+  "scope": "The 882 explicit exact-byte source mappings in this package only.",
+  "source_files_checked": 882,
+  "recognized_visible_fragments_checked": 203,
+  "credential_matches": [],
+  "hidden_or_native_record_shapes": [],
+  "redactions_or_exclusions_needed": [],
+  "checks": [
+    "Every original source byte count and SHA-256 agrees with the accepted receipt or prior audit.",
+    "UTF-8 content scanned with the established collector_safety credential patterns and recursive JSON credential check.",
+    "JSON structures checked recursively for full native envelopes, hidden phases and sensitive role fields.",
+    "All capture text files verified against the accepted visible-fragment manifests and restricted to recognized visible user or assistant commentary/final text.",
+    "Metadata-only native references and ordinary project/account-directory paths retained; no native source file bodies copied.",
+    "Existing scripts preserved as historical evidence; none executed as part of the package build."
+  ],
+  "policy_sources": [
+    {
+      "path": "scripts/collector_safety.py",
+      "sha256": "c5bb38c2ac923ddd2d1f23c46af340b812b6bc33c0f685eed2a479753a193db6"
+    },
+    {
+      "path": "runs/github-selection-20261018/prepare_update_v2.py",
+      "sha256": "fe193877bcf6e2d8c8d25b8ae30e7de9165459370831f2e6c70de235b52d0710"
+    },
+    {
+      "path": "runs/final-preselection-20261017/archive_batch.py",
+      "sha256": "5e032591b2f6564e92d2fee3a740493644443010d781eeb773ec316ea6e591a6"
+    },
+    {
+      "path": "runs/final-preselection-20261017/CAPTURE_METHOD_ADDENDUM_2.json",
+      "sha256": "cbe8a2d2e5917676360c8be6809f18fd692a02d61bf845cf3e78123eb91ef12a"
+    }
+  ],
+  "boundary": "Pattern and structural checks are bounded safeguards, not a proof that all possible sensitive information is detectable. Original hidden/internal provider records were excluded by the preserved capture method; the exporter does not access them."
+}

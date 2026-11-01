@@ -1,0 +1,165 @@
+{
+  "audit_id": "V01-A",
+  "manuscript_id": "V01",
+  "role": "argument",
+  "manuscript_sha256": "c6b5565dbdf236ea43656afc2d4ef59031211d5703545900698111d8f2267e28",
+  "read_complete": true,
+  "thesis": "Someone who pursues a discretionary change to independently fair cooperation normally bears the reasonable incremental cost of preserving another participant’s significant retained choices. This obligation is conditional on pursuing the change while continuing to use the other’s contribution. It can apply while assistance remains welcome and ordinary expenses are reimbursed. Common responsibility, disproportionate sacrifice, and justified changes to the underlying arrangement can alter the allocation or justify reduced protection.",
+  "claimed_contribution": "Section 6, “What this account claims,” identifies the contribution as “an argued allocation within a limited form of cooperation.” The manuscript distinguishes costs of a unilateral optional project, jointly chosen changes, and unchosen common problems, then connects those classifications to payment, adequate safeguards, and repair before a complaint. It expressly disclaims a new general category of wrong and a demonstrated historical first. This audit assesses the proposed reasoning, not its historical novelty.",
+  "assessment": "NO_MAJOR_DEFECT_FOUND",
+  "findings": [],
+  "surviving_contribution": "No demonstrated major internal defect emerged from this audit. The argument survives as a conditional allocation principle, supported by a normative objection to unilaterally enlarging someone else’s defensible contribution. Its central distinction is substantive: an emergency can establish what Rowan owes the residents without settling what Ellis owes Rowan. Likewise, willing continuation and reimbursement can leave a significant option impaired. Sections 3–5 connect these distinctions to different payment obligations without making ownership, causal control, or revocability sufficient by themselves. The empty findings array does not mean that every premise is established beyond dispute. The strongest objections concern the independent justification of protected limits and the threshold for disproportionate protection. The manuscript recognizes these dependencies, and its stipulated cases do not demonstrate that either condition fails. Its conclusions therefore remain defaults for qualified cases, rather than a complete procedure for resolving contested cooperation.",
+  "remaining_questions": [
+    "Section 3, “Establishing what has been shifted,” requires an “independently defensible allocation of burdens” and acknowledges that, where both contributions are equally limited, the organizer’s role does not establish whose limit prevails. What evidence would establish the protected allocation when explicit terms, encouraged reliance, and the parties’ opportunities point in different directions? The manuscript supplies relevant considerations but no determinate ordering. This limits application to disputed baselines; it does not defeat cases that independently satisfy the condition.",
+    "Section 4, “Who pays in the intermediate cases?,” distinguishes an appreciable discretionary sacrifice from a “grave, lasting setback.” What makes a sacrifice sufficiently serious to defeat full preservation of a moderate option? The importance of the expenditure forgone to pay 120 units remains relevant even when basic needs and the course itself are secure. The manuscript’s word “normally” accommodates exceptions, so this is an unresolved threshold rather than a contradiction in the example.",
+    "Section 5, “Adequate means, repair, and timing,” says that “ordinary reliability standards must reflect the harm at stake and the cost of reducing risk.” How should those standards distinguish a sufficiently protected exit from an arrangement that merely makes its obstruction less likely? The hypothetical reliable service avoids this difficulty by stipulation. Real applications require a risk judgment that the manuscript expressly leaves outside its argument.",
+    "Section 1 requires assessment of later demands against their “cumulative burden,” while Section 4 conditions greater payment by Rowan on prior contributions not already being disproportionately large. How should earlier contributions affect a current common bill when financial costs, time, and lost opportunities differ? The direction of the qualification is explained, but its application remains open."
+  ],
+  "limitations": [
+    "I read the complete supplied manuscript, including the source-access note and bibliography. I used the supplied SHA-256 as an identity value and did not recompute it.",
+    "No tools, browsing, external sources, or other project materials were used. The cited authors’ positions and bibliographic details remain unverified in this audit. The manuscript’s report of its own source access is not independent verification.",
+    "The pump examples stipulate feasibility, reliability, fair prior contributions, and comparative burdens. This audit checks their internal argumentative role; it does not establish that actual equipment, services, or participants satisfy those assumptions.",
+    "The manuscript contains no formal theorem or empirical study. The arithmetic and temporal checks below were independently performed by hand. No probabilistic reliability calculation or quantitative valuation of choice was supplied or executed.",
+    "Historical originality and the completeness of the literature coverage were not assessed."
+  ],
+  "plain_summary_ru": [
+    "Серьёзной доказанной ошибки в главном выводе я не нашёл.",
+    "Вывод работает, если прежние условия справедливы, возможность выйти важна, а её защита не требует чрезмерных жертв.",
+    "Как проверять эти условия в спорных случаях, раскрыто не полностью; источники я не проверял."
+  ],
+  "argument_reconstruction": [
+    {
+      "step": "A1",
+      "kind": "definition and conceptual distinction",
+      "content": "Effective withdrawal of permission, moral freedom to secure cessation, and practical ability to recover equipment are distinct. A morally available exit is one whose exercise violates no undefeated duty; that definition does not itself establish a claim to protection.",
+      "support_or_dependency": "Section 1, “Three different kinds of control”: “Call an exit morally available when securing cessation would violate no undefeated duty” and “it does not establish an entitlement to have it.” These distinctions prevent the later payment claim from following merely by definition."
+    },
+    {
+      "step": "A2",
+      "kind": "hypothetical empirical assumptions",
+      "content": "The example assumes grave harm to residents, no timely substitute after the reserve is sold, and a short extension that costs Rowan little. These are stipulated features of the example, not findings about an actual water supply.",
+      "support_or_dependency": "Opening example and Section 1: the emergency duty rests on “grave harm to residents, the absence of timely alternatives, and Rowan’s low cost of a bounded extension.” Dependence alone is explicitly insufficient."
+    },
+    {
+      "step": "A3",
+      "kind": "normative premise",
+      "content": "Under those conditions, Rowan can owe temporary assistance to residents despite having reserved a right to revoke the original permission. Ellis’s responsibility for producing the predicament does not eliminate the residents’ claims.",
+      "support_or_dependency": "Section 1: “Ellis’s misconduct does not remove the residents’ claims, but the residents’ claims do not settle the accounts between Ellis and Rowan.” This supplies the possibility of simultaneous rescue obligations and interpersonal complaints."
+    },
+    {
+      "step": "A4",
+      "kind": "normative reasons for protecting an option",
+      "content": "An unused exit can matter because future purposes may change and because a contributor has an interest in retaining authority over the extent of the contribution. Reimbursing continued use need not protect either interest. These reasons can disappear or be outweighed.",
+      "support_or_dependency": "Section 2, “Why preserve a choice that remains unused?”: “Plans, needs, and judgments can change” and “Welcoming the current result does not necessarily authorize someone else to enlarge that undertaking.” The fixed-preference example expressly denies that every unchosen restriction warrants duplicate equipment."
+    },
+    {
+      "step": "A5",
+      "kind": "independent normative constraint on the baseline",
+      "content": "The relevant comparison must begin with a defensible allocation of contributions and limits. Express terms are evidence, but needs, opportunities, assurances, and invited reliance also matter. Neither the initial owner nor the organizer automatically has priority.",
+      "support_or_dependency": "Section 3, “Establishing what has been shifted”: “Whether that allocation is defensible depends on both parties’ contributions, opportunities, needs, and invited reliance, not solely on their words.” This is an essential condition, not a conclusion established by the opening story."
+    },
+    {
+      "step": "A6",
+      "kind": "stipulated test case",
+      "content": "The intermediate examples assume a finite pilot, a fair existing arrangement including the reserve’s opportunity costs, a significant revisable one-day option, and a dependable service that can protect it without imposing an unauthorized commitment on someone else.",
+      "support_or_dependency": "Section 4: “Keeping the reserve until then is a fair continuation of the existing arrangement, including its opportunity costs” and “The service can meet its commitment without forcing an uncommitted volunteer to remain.” These stipulations isolate allocation from feasibility and displaced dependence."
+    },
+    {
+      "step": "A7",
+      "kind": "causal and comparative inference",
+      "content": "In the unilateral sale case, Ellis’s additional project would remove an option protected by the existing arrangement. Continuing the loan without a safeguard would therefore combine an additional benefit for Ellis with an additional restriction on Rowan.",
+      "support_or_dependency": "Section 3: “Ellis is proposing a different package: an additional benefit for Ellis together with a new restriction on Rowan.” This depends on A5 and A6; a sale does not necessarily have this moral description under a different allocation."
+    },
+    {
+      "step": "A8",
+      "kind": "central normative premise",
+      "content": "Someone normally cannot obtain an optional additional benefit by requiring another person either to accept an enlargement of a defensible contribution or to pay to prevent it. The emergency duty owed to beneficiaries does not itself authorize that financing arrangement.",
+      "support_or_dependency": "Section 3: “Rowan’s temporary duty to the residents makes refusal costly, but supplies no additional reason why Rowan should subsidize Ellis’s new project.” The objection to unilateral enlargement supplies the normative bridge; the payment conclusion is not derived from causal control alone."
+    },
+    {
+      "step": "A9",
+      "kind": "qualified conclusion",
+      "content": "If Ellis proceeds with the optional change while continuing to rely on Rowan’s limited contribution, Ellis normally owes the reasonable incremental safeguard cost. Ellis can instead preserve the arrangement, postpone the change, or obtain a justified revision.",
+      "support_or_dependency": "Section 3: “Charging the avoidable transition cost to the proposal leaves Ellis free to pursue it, postpone it, or seek a new agreement.” This conclusion requires A4–A8 and remains subject to proportionality."
+    },
+    {
+      "step": "A10",
+      "kind": "distinct distributive premises and comparative examples",
+      "content": "A jointly chosen departure or unchosen common cost does not have the same unilateral allocation. Relevant symmetry supports equal shares; substantial differences in sacrifice can support unequal shares. These outcomes require fairness premises beyond the unilateral-project principle.",
+      "support_or_dependency": "Section 4: the equal split is “warranted by the stated symmetry,” while equal nominal shares can impose “sharply unequal sacrifices.” The examples demonstrate how changing responsibility and burdens changes the proposed allocation; they are not independent empirical confirmation."
+    },
+    {
+      "step": "A11",
+      "kind": "proportionality qualification",
+      "content": "Even a significant retained option need not be preserved at any cost. Serious competing interests, costly protection of an insignificant option, or changed rescue circumstances can justify a different transition or require reassessment of the duties.",
+      "support_or_dependency": "Section 4: “requiring full preservation can be disproportionate even outside a medical emergency” and “Purchasing the option may be unreasonable regardless of who could technically pay.” These qualifications prevent an absolute priority for exit."
+    },
+    {
+      "step": "A12",
+      "kind": "adequacy condition and temporal inference",
+      "content": "A safeguard must actually permit a defensible transition across the arrangement. Where a significant option deserves ongoing protection, its impairment matters before a request to exercise it. A wrongful removal can therefore require proportionate repair upon actual or reasonable discovery, while later permission remains distinct from approval of the removal.",
+      "support_or_dependency": "Section 5: “An adequate safeguard must provide a defensible transition across the whole arrangement,” “Rowan need not manufacture a wish to withdraw,” and later consent need not waive “a repair claim.” The timing conclusion depends on an already established protection duty, rather than establishing that duty itself."
+    }
+  ],
+  "strongest_objections": [
+    {
+      "objection": "A fair existing arrangement is not necessarily the only fair arrangement, and a one-day notice term does not by itself establish Ellis’s duty to fund its preservation. If both parties’ contributions are limited, treating Rowan’s option as fixed while making Ellis finance continued flexibility could simply assume the disputed allocation.",
+      "best_available_reply": "The strongest reading treats the baseline as a substantively defensible limit on continued use of Rowan’s contribution, not as any existing distribution. Section 3 expressly considers both participants’ limits and permits revision of unfair common burdens. Ellis need not promise to keep a particular pump: the proposed obligation concerns fair conditions for changing the arrangement while continuing to use Rowan’s contribution. The role-reversal example applies the same principle to Rowan.",
+      "assessment": "This identifies the main justificatory dependency, but not demonstrated circularity. The manuscript supplies an argument against unilateral enlargement and lists considerations independent of the payment verdict. Its conditional result survives. In a contested application, however, neither the notice term nor the label “discretionary” can replace an independent defense of the protected allocation.",
+      "manuscript_location": "Section 3, “Establishing what has been shifted”: “It would be circular to condemn departure from ‘responsible reliance’ if responsible reliance simply means preserving Rowan’s exit”; “If both contributions were equally limited, calling Ellis ‘the organizer’ would not establish that Rowan’s limit wins.”"
+    },
+    {
+      "objection": "Preserving an unused moderate option may cost more, in morally relevant sacrifice, than restricting it. A worthwhile course or another forgone opportunity can matter substantially without protecting basic needs. Why should the proposer nevertheless bear the whole fee?",
+      "best_available_reply": "The manuscript does not justify the fee through a claim that the option maximizes welfare. Its premise is that fair limits normally constrain the means by which someone finances an additional project. It also permits exceptions for serious non-basic interests, requires attention to alternatives, and rejects expensive protection of low-significance options.",
+      "assessment": "The objection challenges the weight of the central normative constraint but does not refute the qualified version. The account cannot infer proportionality from the amounts 20 or 120 alone. Its course example supports a defeasible default; fuller facts about the sacrifice would be necessary for an unconditional verdict.",
+      "manuscript_location": "Section 4, “Who pays in the intermediate cases?”: “keeping to fair limits normally constrains how people may finance worthwhile plans”; “If every feasible way to preserve Rowan’s moderate option would impose a grave, lasting setback on Ellis, requiring full preservation can be disproportionate.”"
+    },
+    {
+      "objection": "If Rowan welcomes continued lending and receives reimbursement, the supposed loss may be merely hypothetical. Treating an unexercised decision as a present injury could generate excessive obligations to preserve options nobody values.",
+      "best_available_reply": "The relevant cases stipulate revisable commitments for which access within a day matters. Present willingness does not ensure future willingness, and payment for use does not supply access for a different purpose. The manuscript also tests the objection directly: where preference cannot change, practical interests are secured, and control has no significance, physical restoration need not be owed.",
+      "assessment": "The objection defeats an unrestricted rule protecting every unused choice, but the manuscript rejects that rule. It does not defeat protection of the stipulated significant option. Whether a particular option really has that significance remains an evidential question rather than something consent alone proves.",
+      "manuscript_location": "Section 2, “Why preserve a choice that remains unused?”: “Reimbursement for continued lending does not necessarily provide access to the pump for another purpose”; “The claim that every unchosen restriction requires physical restoration is too strong.”"
+    },
+    {
+      "objection": "The two participants might protect their own limits by leaving residents exposed or by transferring the same involuntary rescue burden to a substitute provider. A bilateral agreement cannot establish that the whole transition is fair.",
+      "best_available_reply": "The manuscript preserves residents’ independent claims, includes invited reliance in the baseline, and explicitly rejects moving the disputed burden to Sage. Its examples stipulate a service able to perform without trapping an uncommitted volunteer. It also recognizes that an apparently cheap rescue can cease to be required when Rowan faces equally grave competing needs.",
+      "assessment": "This objection is answered within the hypothetical cases. The resulting scope restriction matters: an actual safeguard must be timely, reliable, and defensible for affected parties, rather than merely transferring ownership or making a replacement contract. The manuscript does not establish that every cooperation problem admits such a safeguard.",
+      "manuscript_location": "Section 1: “the residents’ claims do not settle the accounts between Ellis and Rowan”; Section 5, “Adequate means, repair, and timing”: “If Sage has not fairly undertaken that commitment, the arrangement merely moves the disputed burden.”"
+    }
+  ],
+  "formal_checks": [
+    {
+      "claim": "Section 1 allows effective withdrawal of original permission together with an obligation to permit or tolerate temporary continued use.",
+      "method": "Direct conceptual consistency check distinguishing the original permission from an independently grounded emergency duty.",
+      "result": "No contradiction follows. The propositions concern different normative relations. Effective revocation need not imply an undefeated liberty to secure cessation. The argument does not require choosing between renewed permission and independently justified temporary retention.",
+      "execution_boundary": "Independently checked from the manuscript’s distinctions. No cited theory of consent was independently verified."
+    },
+    {
+      "claim": "Section 4, “A jointly chosen departure,” assigns equal shares of sixty from a divisible cost of 120 under the stipulated symmetry.",
+      "method": "Manual arithmetic: full funding requires the two shares to total 120; equal shares therefore each equal 120 divided by 2.",
+      "result": "The arithmetic is correct: each share is 60. Equal treatment and full funding are normative premises of this example, not conclusions established by the arithmetic. The calculation does not validate equal sharing where sacrifices or responsibilities differ.",
+      "execution_boundary": "Independently calculated by hand; no software used."
+    },
+    {
+      "claim": "Section 5 says that an order on day zero arrives on day fourteen, while an order after an objection on day ten arrives on day twenty-four.",
+      "method": "Manual addition using the stipulated fourteen-day procurement period, followed by comparison with the one-day notice requirement.",
+      "result": "Both dates are consistent: 0 + 14 = 14 and 10 + 14 = 24. Early ordering advances availability by ten days. If notice is given on day ten, the protected deadline is day eleven; either delivery date misses it without an additional bridge. Early ordering alone therefore does not preserve the option throughout the initial period. Procurement arithmetic does not establish which restriction is morally permissible.",
+      "execution_boundary": "Independently calculated by hand from the hypothetical dates. No actual delivery reliability or acceptable-delay judgment was verified."
+    },
+    {
+      "claim": "The opening states that cheap backup and valuable choice “show that preserving choice may be worthwhile, not that Ellis must pay.”",
+      "method": "Check whether the proposed payer follows without the allocation premises by comparing the manuscript’s unilateral and common-cost cases.",
+      "result": "The payer does not follow from option value and price alone: responsibility for the change and the prior allocation can differ while protection remains valuable. The manuscript explicitly supplies additional normative premises rather than concealing this inference. Its central conclusion is consequently conditional on those premises, not a proven result derived from revocability.",
+      "execution_boundary": "Independent logical comparison of the supplied cases. No formal theorem or quantitative model is claimed."
+    }
+  ],
+  "source_dependent_questions": [
+    "Section 1, “Three different kinds of control”: do Healey (2019, p. 503) and Dougherty (2014, p. 39) support, respectively, the distinction between consent’s directed effect and overall permissibility, and effective revocation despite a promise not to revoke? These attribution checks remain open; the manuscript’s conceptual distinction was assessed separately.",
+    "Section 6, “What this account claims”: does Keller’s discussion identified as “Blackmailing a Fiduciary” support the stated mechanism of pressure through duties to beneficiaries? A source check should distinguish what Keller establishes from this manuscript’s extension to negligent creation of dependence.",
+    "Section 6: do Spafford (2023, §§2.1–2.2, §2.5 and note 25) support the descriptions of discretionary losses, adjustments across claims, rescue compensation, and impossible compensation? Does the primary text support the further possibility of recognizing lost choice and early remedy, or is that appropriately only the manuscript’s proposed application?",
+    "Section 6: do Rouméas (2023, pp. 162, 164–166 and n. 9, p. 174) support both the value of unexercised exit and the distinction between affordability and fair allocation? The manuscript’s characterization of its relationship to that account remains unverified.",
+    "Section 6: do O’Brien (2026, §§II–IV) support the stated contrast between wanton cost shifting and permissible self-protection, and the challenge to deriving compensation from frustrated preference? This affects the accuracy of the reported objection, not the internal validity of the manuscript’s proportionality qualification.",
+    "Section 6 and the “Source-access note”: does Goodin’s publisher abstract support the precise claims about reasonable detrimental reliance, compensation, and irrevocability? Any conclusion about the chapter’s full argument would require access beyond the abstract acknowledged by the manuscript.",
+    "Section 6: do Liberto (2016, pp. 160–162) support the qualified claims about effective exploitative releases under particular authority accounts and the distinction between exploiting existing constraints and introducing them? Their application to consent after Ellis’s sale must remain separate from what the promising cases themselves establish."
+  ]
+}

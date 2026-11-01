@@ -1,0 +1,21 @@
+{
+  "batch_id": "002-expanded",
+  "supersedes_unlaunched_plan": "runs/final-preselection-20261017/batches/002.plan.json",
+  "roles": [
+    {
+      "candidate": "F02",
+      "role": "review-initial"
+    },
+    {
+      "candidate": "F03",
+      "role": "review-initial"
+    }
+  ],
+  "prepared_packets": [
+    {
+      "candidate": "F02",
+      "role": "author-repair",
+      "parent_entry": "final-preselection-20261017:F02:review-initial:v1"
+    }
+  ]
+}

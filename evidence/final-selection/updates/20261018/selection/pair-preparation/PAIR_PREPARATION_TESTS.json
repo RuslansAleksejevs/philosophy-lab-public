@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-10-19T01:25:09.825998+00:00",
+  "elapsed_seconds": 0.1274429578334093,
+  "tests_run": 12,
+  "failures": 0,
+  "errors": 0,
+  "tests": [
+    "pair_synthetic_tests.Pairs.test_duplicate_pair_reversed_is_rejected_across_batches",
+    "pair_synthetic_tests.Pairs.test_existing_batch_and_initial_inputs_remain_unchanged",
+    "pair_synthetic_tests.Pairs.test_five_roles_share_configuration_and_expected_output",
+    "pair_synthetic_tests.Pairs.test_frozen_manuscript_or_profile_drift_stops_preparation",
+    "pair_synthetic_tests.Pairs.test_full_literal_bytes_and_bibliographies_are_preserved",
+    "pair_synthetic_tests.Pairs.test_global_ten_pair_fifty_job_ceiling",
+    "pair_synthetic_tests.Pairs.test_no_dispatch_or_canonical_ready_receipt_created",
+    "pair_synthetic_tests.Pairs.test_pair_schema_accepts_requested_shape_and_runner_quarantines_false",
+    "pair_synthetic_tests.Pairs.test_profile_sources_only_reach_assigned_profile_role",
+    "pair_synthetic_tests.Pairs.test_rationale_and_candidate_ids_never_enter_prompt",
+    "pair_synthetic_tests.Pairs.test_same_profile_or_missing_order_is_rejected_before_output",
+    "pair_synthetic_tests.Pairs.test_unbalanced_order_is_rejected"
+  ],
+  "output": "test_duplicate_pair_reversed_is_rejected_across_batches (pair_synthetic_tests.Pairs.test_duplicate_pair_reversed_is_rejected_across_batches) ... ok\ntest_existing_batch_and_initial_inputs_remain_unchanged (pair_synthetic_tests.Pairs.test_existing_batch_and_initial_inputs_remain_unchanged) ... ok\ntest_five_roles_share_configuration_and_expected_output (pair_synthetic_tests.Pairs.test_five_roles_share_configuration_and_expected_output) ... ok\ntest_frozen_manuscript_or_profile_drift_stops_preparation (pair_synthetic_tests.Pairs.test_frozen_manuscript_or_profile_drift_stops_preparation) ... ok\ntest_full_literal_bytes_and_bibliographies_are_preserved (pair_synthetic_tests.Pairs.test_full_literal_bytes_and_bibliographies_are_preserved) ... ok\ntest_global_ten_pair_fifty_job_ceiling (pair_synthetic_tests.Pairs.test_global_ten_pair_fifty_job_ceiling) ... ok\ntest_no_dispatch_or_canonical_ready_receipt_created (pair_synthetic_tests.Pairs.test_no_dispatch_or_canonical_ready_receipt_created) ... ok\ntest_pair_schema_accepts_requested_shape_and_runner_quarantines_false (pair_synthetic_tests.Pairs.test_pair_schema_accepts_requested_shape_and_runner_quarantines_false) ... ok\ntest_profile_sources_only_reach_assigned_profile_role (pair_synthetic_tests.Pairs.test_profile_sources_only_reach_assigned_profile_role) ... ok\ntest_rationale_and_candidate_ids_never_enter_prompt (pair_synthetic_tests.Pairs.test_rationale_and_candidate_ids_never_enter_prompt) ... ok\ntest_same_profile_or_missing_order_is_rejected_before_output (pair_synthetic_tests.Pairs.test_same_profile_or_missing_order_is_rejected_before_output) ... ok\ntest_unbalanced_order_is_rejected (pair_synthetic_tests.Pairs.test_unbalanced_order_is_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.127s\n\nOK\n",
+  "files": {
+    "prepare_pairs.py": "670bacbe4540c62f5a64b74f01704b7864fd5c6b3aa08cb05c550cc4dd4d768d",
+    "pair-schema.template.json": "3a14e9ca1f4a119c9b1225310a0bfe65c068f752c2a087f38b7f3c642f5c89b2",
+    "pair-rubric.template.txt": "42d2f3dcd865246ade32d452314dc29557680d3a32b78dd6f408c107c57a15f7",
+    "test_prepare_pairs.py": "065d80cf8caf2b367f584c024e5b62fe3d7939b76b500042a72b18d1d02e39c7"
+  },
+  "scope": "Synthetic manuscripts and profile materials only; no actual manuscript/review was read by tests, no real pair was chosen or prepared, no model call or canonical archive writer was used. Frozen existing files unchanged.",
+  "model_calls": 0,
+  "canonical_archive_writes": 0,
+  "source_freeze": "Generator/templates/tests now frozen for root review and future canonical input binding."
+}

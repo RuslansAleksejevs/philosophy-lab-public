@@ -1,0 +1,2522 @@
+{
+  "schema": "verification-source-ledger.v1",
+  "coordinator_session_id": "01a190b5-03e2-70d0-8fcf-b4a1e67148d0",
+  "access_boundary": "Десять независимых литературных проверок публичных первичных источников. Координатор использует принятые отзывы, не выдаёт их чтение за собственное повторное открытие всех источников. Поиск конечный, недоступные тексты и версии перечислены; первенство не удостоверено.",
+  "reports": [
+    {
+      "job_id": "V01-L",
+      "accepted_event_id": "event-271dd6b8e93b4ee3954b9f78ab2b3e6e",
+      "response": {
+        "bytes": 36612,
+        "path": "runs/deep-verification-20261031/results/V01-L/attempt-001/response.json",
+        "sha256": "7fbcd82ddc2814301a373937530d976ffc08502e9140c91269abc12a3de8312a"
+      },
+      "retrieval_note": "Источник проверки — отдельный принятый литературный отзыв; координатор прочитал его полностью. Доступ к каждому источнику и фактически прочитанные места указаны в sources; ограничения сохранены без повышения частичного доступа до полного.",
+      "source_access_inventory": [
+        {
+          "id": "S01",
+          "citation": "Dougherty, Tom. 2014. 'Fickle Consent.' Philosophical Studies 167: 25–40.",
+          "url": "https://link.springer.com/article/10.1007/s11098-013-0230-7",
+          "primary_source": true,
+          "access_level": "Publisher metadata, abstract, and notes opened; article body unavailable.",
+          "locations_read": "Abstract; publication information; displayed notes. Published p. 39 was not opened.",
+          "relevant_result": "Identity verified. The abstract concerns revocability, flexibility, and judgment errors; the specific promise claim remains unverified."
+        },
+        {
+          "id": "S02",
+          "citation": "Goodin, Robert E. 2024. 'Revoking Consent.' In Consent Matters, cited as pp. 151–174.",
+          "url": "https://academic.oup.com/book/55910/chapter-abstract/439317000",
+          "primary_source": true,
+          "access_level": "Direct opening failed; indexed publisher text only.",
+          "locations_read": "No chapter passage or abstract counted as opened.",
+          "relevant_result": "The attribution is unresolved at the required access standard, not contradicted."
+        },
+        {
+          "id": "S02B",
+          "citation": "Goodin, Robert E. 2024. Consent Matters. Oxford University Press.",
+          "url": "https://academic.oup.com/book/55910",
+          "primary_source": true,
+          "access_level": "Publisher book record and contents opened.",
+          "locations_read": "Publication information and contents entry for chapter 7, 'Revoking Consent.'",
+          "relevant_result": "Confirms author, book, publisher, year, and chapter identity; does not independently verify the cited chapter argument."
+        },
+        {
+          "id": "S03",
+          "citation": "Healey, Richard. 2019. 'Consent, Rights, and Reasons for Action.' Criminal Law and Philosophy 13: 499–513.",
+          "url": "https://eprints.gla.ac.uk/171795/1/171795.pdf",
+          "primary_source": true,
+          "access_level": "Published-version institutional PDF opened.",
+          "locations_read": "Abstract; pp. 502–504, especially p. 503, 'Salad' and 'Beautiful Painting'; repository record at https://eprints.gla.ac.uk/171795/.",
+          "relevant_result": "Supports the distinction between directed permission and overall permissibility."
+        },
+        {
+          "id": "S04",
+          "citation": "Keller, Simon. 2018. 'Fiduciary Duties and Moral Blackmail.' Journal of Applied Philosophy 35: 481–495.",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/japp.12234",
+          "primary_source": true,
+          "access_level": "Publisher full-text HTML opened.",
+          "locations_read": "Introduction; 'The Ethics of Special Relationships'; 'Blackmailing a Fiduciary'; conclusion and bibliographic information.",
+          "relevant_result": "Direct predecessor for manipulating obligations to beneficiaries."
+        },
+        {
+          "id": "S05",
+          "citation": "Liberto, Hallie. 2016. 'Promises, Release-Seeking, and Exploitation: What We Should Not Do to Get Off the Hook.' Southern Journal of Philosophy 54, Spindel Supplement: 143–165.",
+          "url": "https://hallieliberto.com/wp-content/uploads/2022/05/promises-release-seeking-and-exploitation-sjp-copy.pdf",
+          "primary_source": true,
+          "access_level": "Author-hosted published PDF opened.",
+          "locations_read": "Publication details; pp. 143–144, 150–153, and 160–163, especially p. 161 and the conclusion.",
+          "relevant_result": "Supports separating effective release from fair treatment, with theory-dependent qualifications."
+        },
+        {
+          "id": "S06",
+          "citation": "O’Brien, David. 2026. 'Consent, Compensation, and Tyranny.' Res Publica. DOI: 10.1007/s11158-026-09791-w.",
+          "url": "https://link.springer.com/article/10.1007/s11158-026-09791-w",
+          "primary_source": true,
+          "access_level": "Open-access publisher HTML.",
+          "locations_read": "Publication metadata; §§II–IV, especially Case Three and Cases Four–Five.",
+          "relevant_result": "Supports the manuscript’s caution against treating every imposed disadvantage as compensable."
+        },
+        {
+          "id": "S07",
+          "citation": "Rouméas, Élise. 2023. 'The Right to a Fair Exit.' Politics, Philosophy & Economics 22(2): 160–176.",
+          "url": "https://pure.rug.nl/ws/portalfiles/portal/1042614380/roumeas-2023-the-right-to-a-fair-exit.pdf",
+          "primary_source": true,
+          "access_level": "Institutional publisher-version PDF opened.",
+          "locations_read": "Publication details; p. 162; pp. 164–167; n. 9 on p. 174.",
+          "relevant_result": "Direct predecessor for distinguishing effective exit from fair cost allocation."
+        },
+        {
+          "id": "S08",
+          "citation": "Spafford, Jesse. 2023. 'The Moral Tyranny Constraint.' In Social Anarchism and the Rejection of Moral Tyranny, 68–91. Cambridge University Press.",
+          "url": "https://www.cambridge.org/core/books/social-anarchism-and-the-rejection-of-moral-tyranny/moral-tyranny-constraint/297AB36320EFAB05A0C686F5408706C6",
+          "primary_source": true,
+          "access_level": "Open-access publisher chapter HTML.",
+          "locations_read": "Publication details; §§2.1–2.2; relevant passages of §2.4; §2.5; notes 24–25.",
+          "relevant_result": "Closest cited framework for discretionary burden transfer and compensatory claims."
+        },
+        {
+          "id": "S09",
+          "citation": "Rulli, Tina, and David Wendler. 2016. 'The Duty to Take Rescue Precautions.' Journal of Applied Philosophy 33(3): 240–258.",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/japp.12115",
+          "primary_source": true,
+          "access_level": "Publisher abstract and author abstract opened; full-text attempts unsuccessful.",
+          "locations_read": "Publisher abstract and publication details; corresponding research entry at https://trulli.faculty.ucdavis.edu/research/.",
+          "relevant_result": "Identifies an uncited precautionary-duty comparison; detailed anticipation remains unverified."
+        },
+        {
+          "id": "S10",
+          "citation": "Hecht, Lisa. 2023, online 2022. 'Activating the Right to Be Rescued.' Journal of Moral Philosophy 20(5–6): 415–438. DOI: 10.1163/17455243-20213593.",
+          "url": "https://www.researchgate.net/publication/362132911_Activating_the_Right_to_Be_Rescued",
+          "primary_source": true,
+          "access_level": "Primary article text reproduced publicly on ResearchGate; publisher opening failed.",
+          "locations_read": "§2, 'Changing the Normative Situation'; §3 and the 'Manipulation' case; §4, 'The Justification Condition,' including §4.4; conclusion.",
+          "relevant_result": "Adjacent argument about restricting arbitrary changes to another person’s rescue obligations."
+        },
+        {
+          "id": "S11",
+          "citation": "Rouméas, Élise. 2020. 'Enabling Exit: Religious Association and Membership Contract.' Ethical Theory and Moral Practice 23: 947–963.",
+          "url": "https://link.springer.com/article/10.1007/s10677-020-10119-7",
+          "primary_source": true,
+          "access_level": "Publisher full-text HTML opened.",
+          "locations_read": "Discussion of exit funds and responsibility; §2, 'The Analogy with Marriage and Employment'; §3, 'The Membership Contract.'",
+          "relevant_result": "Earlier contextual treatment of exit costs, contributions, and advance termination arrangements."
+        },
+        {
+          "id": "S12",
+          "citation": "Breakey, Hugh. 2009. 'Without Consent: Principles of Justified Acquisition and Duty-Imposing Powers.' Philosophical Quarterly. DOI: 10.1111/j.1467-9213.2008.571.x.",
+          "url": "https://research-repository.griffith.edu.au/bitstreams/0c7edffa-f44b-5ab5-964d-9ca524911d4f/download",
+          "primary_source": true,
+          "access_level": "Repository author manuscript initially opened; later retrieval failed.",
+          "locations_read": "Repository cover and manuscript pp. 1–5 only.",
+          "relevant_result": "Introduces duty-imposing and duty-activating powers. The limited reading cannot establish overlap with the manuscript’s allocation rule."
+        }
+      ],
+      "citation_audit": [
+        {
+          "manuscript_reference": "Dougherty 2014, 'Fickle Consent,' p. 39",
+          "manuscript_location": "§1, 'Three different kinds of control': 'revoking consent can be effective even when it breaks a promise not to revoke.'",
+          "status": "partially_verified",
+          "evidence": "Author, title, journal, volume, pages, year, and DOI match the [publisher record](https://link.springer.com/article/10.1007/s11098-013-0230-7). Online publication in 2013 is consistent with the 2014 issue date. The specific p. 39 passage was not successfully opened.",
+          "source_ids": [
+            "S01"
+          ]
+        },
+        {
+          "manuscript_reference": "Goodin 2024, 'Revoking Consent,' in Consent Matters, 151–174",
+          "manuscript_location": "§6, 'What this account claims': 'reasonable detrimental reliance as a reason against revocation and for compensation.'",
+          "status": "partially_verified",
+          "evidence": "The [publisher book record](https://academic.oup.com/book/55910) verifies the book’s identity and chapter 7 title. The chapter’s pagination and attributed abstract were visible in search results but not independently confirmed through a successful chapter opening. The manuscript correctly limits its own claim to the abstract; the full argument remains unchecked.",
+          "source_ids": [
+            "S02",
+            "S02B"
+          ]
+        },
+        {
+          "manuscript_reference": "Healey 2019, 'Consent, Rights, and Reasons for Action,' p. 503",
+          "manuscript_location": "§1, 'Three different kinds of control': 'independent duties can survive that permission.'",
+          "status": "verified",
+          "evidence": "Bibliographic identity matches the repository record and published PDF. Page 503 distinguishes directed permission from overall permissibility using obligations to another person and a general duty concerning artwork. This supports the attribution, without independently establishing the manuscript’s rescue verdict. [Published PDF](https://eprints.gla.ac.uk/171795/1/171795.pdf).",
+          "source_ids": [
+            "S03"
+          ]
+        },
+        {
+          "manuscript_reference": "Keller 2018, 'Fiduciary Duties and Moral Blackmail'",
+          "manuscript_location": "§6, 'What this account claims': 'pressure through duties to clients and students.'",
+          "status": "verified",
+          "evidence": "The [publisher text](https://onlinelibrary.wiley.com/doi/10.1111/japp.12234), under 'Blackmailing a Fiduciary,' contains both relevant examples. Bibliographic details match; the 2016 online-publication date does not invalidate the 2018 volume citation. The manuscript accurately acknowledges the underlying mechanism as prior.",
+          "source_ids": [
+            "S04"
+          ]
+        },
+        {
+          "manuscript_reference": "Liberto 2016, 'Promises, Release-Seeking, and Exploitation,' pp. 160–162",
+          "manuscript_location": "§6, 'What this account claims': 'some exploitative releases to be effective on the authority accounts.'",
+          "status": "verified",
+          "evidence": "Identity and pagination match the [author-hosted published PDF](https://hallieliberto.com/wp-content/uploads/2022/05/promises-release-seeking-and-exploitation-sjp-copy.pdf). Pages 160–162 support the qualified attribution. Page 161 expressly distinguishes using existing constraints from introducing them. The manuscript appropriately declines to infer the pump case’s consent validity directly from these cases.",
+          "source_ids": [
+            "S05"
+          ]
+        },
+        {
+          "manuscript_reference": "O’Brien 2026, 'Consent, Compensation, and Tyranny,' §§II–IV",
+          "manuscript_location": "§6, 'What this account claims': 'contrasts wanton cost shifting with permissible self-protection.'",
+          "status": "verified",
+          "evidence": "The [publisher text](https://link.springer.com/article/10.1007/s11158-026-09791-w) confirms publication on 1 September 2026. Section III’s boulder case challenges an overly restrictive treatment of self-protection. Section IV’s relationship cases question compensation for frustrated external preferences. These support the manuscript’s attributed cautions; they do not themselves establish its particular payment rule.",
+          "source_ids": [
+            "S06"
+          ]
+        },
+        {
+          "manuscript_reference": "Rouméas 2023, 'The Right to a Fair Exit,' pp. 162, 164–166; n. 9, p. 174",
+          "manuscript_location": "§6, 'What this account claims': 'recognizes the value of an exit one does not exercise.'",
+          "status": "verified",
+          "evidence": "Identity and locations match the [published PDF](https://pure.rug.nl/ws/portalfiles/portal/1042614380/roumeas-2023-the-right-to-a-fair-exit.pdf). Page 162 discusses the value of an unexercised exit option; pp. 164–166 separate affordability and fairness. Page 166 and n. 9 request contextual distributive development. The manuscript represents these limits accurately.",
+          "source_ids": [
+            "S07"
+          ]
+        },
+        {
+          "manuscript_reference": "Spafford 2023, 'The Moral Tyranny Constraint,' §§2.1–2.2, §2.5 and n. 25",
+          "manuscript_location": "§6, 'What this account claims': 'The refusal transfers the burden; it does not create the original danger.'",
+          "status": "verified",
+          "evidence": "The [publisher chapter](https://www.cambridge.org/core/books/social-anarchism-and-the-rejection-of-moral-tyranny/moral-tyranny-constraint/297AB36320EFAB05A0C686F5408706C6) confirms identity, pp. 68–91, the neutral advantage measure, system-wide adjustments, an already drowning child, and n. 25’s inability-to-compensate qualification. Recognition of lost choice and an early remedy is the manuscript’s expressly modal extrapolation, not a quoted result.",
+          "source_ids": [
+            "S08"
+          ]
+        },
+        {
+          "manuscript_reference": "Hypothetical quantities and timing examples",
+          "manuscript_location": "§4, 'Who pays in the intermediate cases?': 'Monetary amounts fix feasible alternatives'; §5, 'Adequate means, repair, and timing': orders on days zero and ten.",
+          "status": "verified",
+          "evidence": "As internal checks, sixty plus sixty equals the stipulated fee of 120, and fourteen-day delivery gives days fourteen and twenty-four respectively. These are coherent stipulated illustrations, not externally sourced measurements. No formal theorem or empirical estimate is attributed to the literature.",
+          "source_ids": []
+        },
+        {
+          "manuscript_reference": "Source-access note",
+          "manuscript_location": "'This revision checked selected primary passages, not every cited work in full.'",
+          "status": "partially_verified",
+          "evidence": "Public primary passages could independently be checked for six cited works. The existence and contents of preserved extracts, and claims about earlier access records, were not checked. The note’s description of previous research activity therefore remains unverified rather than false.",
+          "source_ids": [
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08"
+          ]
+        }
+      ],
+      "limitations": [
+        "The complete supplied manuscript, source-access note, and bibliography were read. The supplied SHA-256 was treated as an identity label and was not recomputed.",
+        "Research used public web searches and opened primary sources only. No manuscript identity, project history, earlier review, or private source material was sought.",
+        "This was a finite English-language search conducted on 31 October 2026. It cannot establish exhaustive originality or the absence of an earlier equivalent argument.",
+        "Six of the eight cited works were checked against substantive primary passages. Dougherty and Goodin remain partially verified for the reasons recorded in L02.",
+        "Rulli and Wendler were accessible through publisher and author abstracts, not the complete paper. Hecht was read through a publicly reproduced primary text on ResearchGate after publisher access failed.",
+        "Breakey’s repository PDF initially supplied introductory material, but later requests failed. Keller’s separate 'Moral Blackmail and the Family' PDF returned 404. Neither was treated as a fully examined predecessor.",
+        "The manuscript’s claims about preserved extracts and earlier access records were not independently checked. Successful public retrieval now would not establish what was read previously.",
+        "The monetary amounts, procurement dates, and settlement cases are stipulated examples. Their normative conclusions are arguments to assess, not empirical findings independently verified by a source search."
+      ]
+    },
+    {
+      "job_id": "V02-L",
+      "accepted_event_id": "event-a6c2509d101548c5a7629cc2ddb10d55",
+      "response": {
+        "bytes": 34094,
+        "path": "runs/deep-verification-20261031/results/V02-L/attempt-001/response.json",
+        "sha256": "46f1f646664fb803376144a81a3fcb9a861970a5d584fcb4c6ef1a9ffbc0ece9"
+      },
+      "retrieval_note": "Источник проверки — отдельный принятый литературный отзыв; координатор прочитал его полностью. Доступ к каждому источнику и фактически прочитанные места указаны в sources; ограничения сохранены без повышения частичного доступа до полного.",
+      "source_access_inventory": [
+        {
+          "id": "S1",
+          "citation": "Thomas Christiano, “Reply to Critics of The Constitution of Equality,” Journal of Ethics and Social Philosophy 5(3), 2011.",
+          "url": "https://www.researchgate.net/publication/228991395_Reply_to_Critics_of_The_Constitution_of_Equality",
+          "primary_source": true,
+          "access_level": "Public reproduction of the article’s text; publisher PDF inaccessible.",
+          "locations_read": "Printed pp. 2–4, account of public equality and internal limits; pp. 12–14, persistent minorities and comparative institutional judgment.",
+          "relevant_result": "The cited claims concerning public equality, democratic authority and persistent minorities are supported. Christiano’s account of authority is stronger than the manuscript’s deliberately restricted conclusion."
+        },
+        {
+          "id": "S1R",
+          "citation": "JESP publisher record for Christiano’s 2011 reply.",
+          "url": "https://www.jesp.org/paper/36346f73-90e0-819f-97d2-cda0dceac43a",
+          "primary_source": true,
+          "access_level": "Publisher metadata accessible.",
+          "locations_read": "Title, author, volume 5, number 3, November 2011, pp. 1–15, DOI.",
+          "relevant_result": "Confirms the bibliography’s identity and DOI 10.26556/jesp.v5i3.117."
+        },
+        {
+          "id": "S2",
+          "citation": "Philip Pettit, “Depoliticizing Democracy,” Ratio Juris 17(1), 2004, pp. 52–65.",
+          "url": "https://ppettit.scholar.princeton.edu/document/1616",
+          "primary_source": true,
+          "access_level": "Author-hosted article PDF accessible.",
+          "locations_read": "Sections 2.2–2.3, especially pp. 60–63 and footnote 11.",
+          "relevant_result": "Supports contestatory control, advance arrangements reducing contestatory burdens and separation of hearing bodies from the elected forums responsible for contested measures."
+        },
+        {
+          "id": "S2R",
+          "citation": "Wiley publisher record for “Depoliticizing Democracy.”",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.0952-1917.2004.00254.x",
+          "primary_source": true,
+          "access_level": "Publisher metadata and abstract accessible.",
+          "locations_read": "Article-information block and recommended citation.",
+          "relevant_result": "Confirms author, journal, volume, issue, pages, year and DOI."
+        },
+        {
+          "id": "S3",
+          "citation": "Daryl Levinson and Benjamin I. Sachs, “Political Entrenchment and Public Law,” Yale Law Journal 125, 2015, pp. 400–482.",
+          "url": "https://yalelawjournal.org/article/political-entrenchment-and-public-law",
+          "primary_source": true,
+          "access_level": "Journal HTML and linked PDF accessible.",
+          "locations_read": "Introduction; Part III.A; Part III.B.2, “The Uncertain Categorical Boundaries of Entrenchment”; PDF bibliographic endpoints.",
+          "relevant_result": "Substantive policies can alter future political power without formal repeal barriers. The authors also question a categorical distinction between entrenchment and ordinary political change."
+        },
+        {
+          "id": "S4",
+          "citation": "Gabriel L. Levine, “Democratically Durable Regulation,” American Journal of Law and Equality 3, 2023, pp. 283–318.",
+          "url": "https://www.researchgate.net/publication/374098197_DEMOCRATICALLY_DURABLE_REGULATION",
+          "primary_source": true,
+          "access_level": "Reproduced journal text accessible; MIT and SSRN routes inaccessible.",
+          "locations_read": "Article first page; Part II.B, Principles 4–5; especially pp. 303–306, 308–310 and footnote 120.",
+          "relevant_result": "Supports the attribution and provides a particularly close antecedent: review thresholds themselves receive feedback analysis."
+        },
+        {
+          "id": "S5",
+          "citation": "Eva Krick, “Can Democracy Heal Epistemic Injustice?,” Acta Politica, published online 18 August 2026.",
+          "url": "https://link.springer.com/article/10.1057/s41269-026-00429-6",
+          "primary_source": true,
+          "access_level": "Publisher full text accessible.",
+          "locations_read": "Publication information; “Access-denying forms of epistemic injustice”; “Empowering marginalised groups of knowers”; conclusion.",
+          "relevant_result": "Supports the threefold access distinction and institutional remedies, including resources and channels for marginalized groups to communicate knowledge."
+        },
+        {
+          "id": "S6",
+          "citation": "Jeremy Waldron, “The Core of the Case Against Judicial Review,” Yale Law Journal 115, 2006, pp. 1346–1406.",
+          "url": "https://paperzz.com/doc/8408340/the-core-of-the-case-against-judicial-review",
+          "primary_source": true,
+          "access_level": "Public article transcription accessible; supplied and repository PDFs unavailable.",
+          "locations_read": "Title and contents; pp. 1359–1362; pp. 1399–1403, including Part VII.",
+          "relevant_result": "Supports the manuscript’s qualified account of institutional assumptions, procedural disagreement and the absence of automatic vindication of courts when those assumptions fail."
+        },
+        {
+          "id": "S7",
+          "citation": "United States v. Carolene Products Co., 304 U.S. 144, 1938.",
+          "url": "https://supreme.justia.com/cases/federal/us/304/144/",
+          "primary_source": true,
+          "access_level": "Full judicial opinion reproduced publicly; editorial annotations excluded from the argument comparison.",
+          "locations_read": "Opinion at pp. 152–153 and footnote four, particularly its second paragraph.",
+          "relevant_result": "An early direct antecedent concerning legislation that restricts the political processes ordinarily available to secure its repeal. The footnote raises the scrutiny question rather than resolving every such case."
+        },
+        {
+          "id": "S8",
+          "citation": "Elizabeth Anderson, “The Epistemology of Democracy,” Episteme 3(1–2), 2006, pp. 8–22.",
+          "url": "https://websites.umich.edu/~eandersn/EpistemeAnderson.pdf",
+          "primary_source": true,
+          "access_level": "Author-hosted article version accessible; its displayed pagination begins at 9.",
+          "locations_read": "Displayed pp. 13–16 on feedback; pp. 18–21 on information pathways and community forestry.",
+          "relevant_result": "Democratic learning requires tracing affected people’s knowledge through institutions and removing obstacles to its effective uptake. Exclusion can disable correction."
+        },
+        {
+          "id": "S9",
+          "citation": "Amy Gutmann and Dennis Thompson, Why Deliberative Democracy?, Princeton University Press, 2004, chapter 1.",
+          "url": "https://assets.press.princeton.edu/chapters/s7869.pdf",
+          "primary_source": true,
+          "access_level": "Publisher’s chapter PDF accessible; complete book not read.",
+          "locations_read": "“What Deliberative Democracy Means,” pp. 5–7.",
+          "relevant_result": "Directly links provisional decisions, continued argument and dissenters’ willingness to accept decisions; discusses reassessment after irreversible action."
+        },
+        {
+          "id": "S10",
+          "citation": "Shift and Mazars, UN Guiding Principles Reporting Framework with Implementation Guidance, 2015.",
+          "url": "https://www.ungpreporting.org/wp-content/uploads/2015/02/UNGuidingPrinciplesReportingFramework_withimplementationguidance_Feb2015.pdf",
+          "primary_source": true,
+          "access_level": "Original framework PDF accessible.",
+          "locations_read": "C6.2, pp. 91–92; C6.3, pp. 94–95; C6.4, p. 96; copyright on p. 114.",
+          "relevant_result": "Distinguishes channels’ existence from practical usability, addresses remedy implementation and warns that declining complaints can indicate reduced confidence rather than reduced harm."
+        },
+        {
+          "id": "S11",
+          "citation": "Catalogue record for David Collingridge, The Social Control of Technology, Frances Pinter, 1980.",
+          "url": "https://books.google.com/books/about/The_Social_Control_of_Technology.html?id=2q_uAAAAMAAJ",
+          "primary_source": false,
+          "access_level": "Metadata and limited contents only.",
+          "locations_read": "Bibliographic information and displayed contents.",
+          "relevant_result": "Relevant original argument not read; no substantive novelty finding is based on this record."
+        }
+      ],
+      "citation_audit": [
+        {
+          "manuscript_reference": "Christiano 2011, bibliography and pp. 2–4, 12–14.",
+          "manuscript_location": "“Before You Tell Us to Try Again,” paragraph beginning “These commitments are familiar”; quotation: “connects democratic authority and its limits to public equality.”",
+          "status": "partially_verified",
+          "evidence": "Identity and DOI verified against the [publisher record](https://www.jesp.org/paper/36346f73-90e0-819f-97d2-cda0dceac43a). The reproduced article supports both substantive attributions at the cited pages. Publisher-PDF comparison could not be completed; no inaccurate attribution was found.",
+          "source_ids": [
+            "S1",
+            "S1R"
+          ]
+        },
+        {
+          "manuscript_reference": "Pettit 2004, bibliography, §§2.2–2.3 and pp. 62–63.",
+          "manuscript_location": "“Before You Tell Us to Try Again,” “defends advance arrangements that reduce the burden” and “bodies hearing contestations must be distinct from the elected forums.”",
+          "status": "verified",
+          "evidence": "The [publisher record](https://onlinelibrary.wiley.com/doi/10.1111/j.0952-1917.2004.00254.x) confirms the bibliographic details. The [author-hosted PDF](https://ppettit.scholar.princeton.edu/document/1616), pp. 62–63, supports both claims. The manuscript explicitly distinguishes its institutional latitude from Pettit’s position.",
+          "source_ids": [
+            "S2",
+            "S2R"
+          ]
+        },
+        {
+          "manuscript_reference": "Levinson and Sachs 2015, bibliography, Introduction and Part III.",
+          "manuscript_location": "“Before You Tell Us to Try Again,” paragraph beginning “The political consequences”; quotation: “policies can entrench power without explicit barriers to repeal.”",
+          "status": "verified",
+          "evidence": "The [journal article](https://yalelawjournal.org/article/political-entrenchment-and-public-law) supports both functional entrenchment and the difficulty distinguishing it from ordinary political change. Journal HTML and PDF confirm title, authorship, year, volume and page range.",
+          "source_ids": [
+            "S3"
+          ]
+        },
+        {
+          "manuscript_reference": "Levine 2023, bibliography, Part II.B, Principles 4–5.",
+          "manuscript_location": "“Before You Tell Us to Try Again,” “assessing policies’ democratic consequences and including triggers for later review.”",
+          "status": "partially_verified",
+          "evidence": "The [reproduced journal text](https://www.researchgate.net/publication/374098197_DEMOCRATICALLY_DURABLE_REGULATION) confirms the identity, DOI, pagination and attribution. Publisher access failed. Footnote 120 makes the overlap closer, but does not make the manuscript’s summary false.",
+          "source_ids": [
+            "S4"
+          ]
+        },
+        {
+          "manuscript_reference": "Krick 2026, bibliography and “Access-denying forms of epistemic injustice.”",
+          "manuscript_location": "“Before You Tell Us to Try Again,” “exclusion from acquiring, producing and disseminating knowledge.”",
+          "status": "verified",
+          "evidence": "The [publisher full text](https://link.springer.com/article/10.1057/s41269-026-00429-6) confirms the author, title, DOI and online publication date. The cited section expressly distinguishes the three forms; subsequent sections discuss institutional remedies.",
+          "source_ids": [
+            "S5"
+          ]
+        },
+        {
+          "manuscript_reference": "Waldron 2006, bibliography and pp. 1359–1361, 1399–1402.",
+          "manuscript_location": "“Before You Tell Us to Try Again,” paragraph beginning “A serious objection remains”; quotations: “a fair procedure for deciding them” and “does not automatically vindicate courts.”",
+          "status": "partially_verified",
+          "evidence": "The [opened transcription](https://paperzz.com/doc/8408340/the-core-of-the-case-against-judicial-review) supports the institutional assumptions, procedural objection and conditional conclusion. The supplied PDF and repository alternatives were unavailable, so exact comparison against the printed version remains incomplete.",
+          "source_ids": [
+            "S6"
+          ]
+        },
+        {
+          "manuscript_reference": "Uncited discussion of silence and complaint records.",
+          "manuscript_location": "“Before You Tell Us to Try Again,” “A lack of complaints may indicate that residents have adjusted successfully, or that they can no longer report their difficulties.”",
+          "status": "verified",
+          "evidence": "The conditional likelihood point does not require a specialized theorem citation: equal likelihoods leave the relative odds of the specified hypotheses unchanged. A close practical antecedent appears in [Shift and Mazars, C6.4, p. 96](https://www.ungpreporting.org/wp-content/uploads/2015/02/UNGuidingPrinciplesReportingFramework_withimplementationguidance_Feb2015.pdf). The manuscript does not claim that this general observation is its discovery.",
+          "source_ids": [
+            "S10"
+          ]
+        },
+        {
+          "manuscript_reference": "Hypothetical examples, numerical illustration and formal-source claims.",
+          "manuscript_location": "“Before You Tell Us to Try Again,” “These are hypothetical probabilities, not estimates about transport” and “Consider an illustrative arrangement.”",
+          "status": "verified",
+          "evidence": "The manuscript labels its numerical example and institutional arrangement as hypothetical. It contains no externally attributed verbatim quotation, formal equation or named theorem requiring source verification. The examples’ actual effectiveness is therefore an untested application question, not a demonstrated factual or citation error.",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "The complete supplied manuscript, including its bibliography, was read. Its SHA-256 was accepted as supplied and was not recomputed.",
+        "Research used only public web search and opened public pages. No manuscript-identity search, project history, local files, agents, private sources or author contact was used.",
+        "Several original links failed. Christiano and Levine were checked through accessible reproductions of their articles; Waldron through a public transcription. These permit substantive comparison but leave an edition-level verification limitation.",
+        "Only the specified relevant portions of external works were read. Search results and snippets were discovery aids, not evidence of an unread primary text’s argument.",
+        "The search covered democratic revisability, contestation, political-process restrictions, policy feedback, experimental learning, remedial accessibility and technological corrigibility. It was finite and primarily English-language.",
+        "The Collingridge catalogue record supplied metadata, not the argument. The attempted OHCHR documents were inaccessible; conclusions concerning grievance mechanisms instead rely on the separately opened original Shift and Mazars framework.",
+        "The transport examples, probabilities and institutional arrangements are expressly hypothetical. Their practical effectiveness was not empirically established, and the manuscript does not present them as observed results."
+      ]
+    },
+    {
+      "job_id": "V03-L",
+      "accepted_event_id": "event-b66fd569835d4d0cbb9264e4d21e1fdf",
+      "response": {
+        "bytes": 40751,
+        "path": "runs/deep-verification-20261031/results/V03-L/attempt-001/response.json",
+        "sha256": "5dd0976d12630cc428e7c248c185a122f1498efeeb0035c77582c8d292b63e4f"
+      },
+      "retrieval_note": "Источник проверки — отдельный принятый литературный отзыв; координатор прочитал его полностью. Доступ к каждому источнику и фактически прочитанные места указаны в sources; ограничения сохранены без повышения частичного доступа до полного.",
+      "source_access_inventory": [
+        {
+          "id": "S01",
+          "citation": "Sinan Dogramaci. 2015. “Forget and Forgive: A Practical Approach to Forgotten Evidence.” Ergo 2(26): 645–677.",
+          "url": "https://www.sinandogramaci.net/Sinan_Dogramaci/_____files/Dogramaci,%20Forget%20and%20Forgive.pdf",
+          "primary_source": true,
+          "access_level": "Full journal-format PDF available.",
+          "locations_read": "Title and publication information; §3.3, printed pp. 670–671; immediately preceding discussion on p. 669.",
+          "relevant_result": "Distinguishes harmful forgetfulness and unreliable formation from the rationality of the surviving belief, using epistemic evaluation in a restricted sense."
+        },
+        {
+          "id": "S02",
+          "citation": "Brian Hedden. 2015. “Time-Slice Rationality.” Mind 124(494): 449–491; author manuscript.",
+          "url": "https://11243971-2fc2-4a01-b59f-e247f0f3c35e.filesusr.com/ugd/0f1e81_e6793e3d37ee403e9af45b0f45805987.pdf",
+          "primary_source": true,
+          "access_level": "Full author PDF retrieved through the author’s publication link.",
+          "locations_read": "§1, especially note 3, author-PDF p. 3; synchronic conditionalization discussion and note 33, author-PDF p. 17.",
+          "relevant_result": "Explicitly distinguishes the paper’s central concern with what to believe from basing and agent assessment."
+        },
+        {
+          "id": "S03",
+          "citation": "Brian Hedden. 2016. “Mental Processes and Synchronicity.” Mind 125(499): 873–888; author manuscript.",
+          "url": "https://11243971-2fc2-4a01-b59f-e247f0f3c35e.filesusr.com/ugd/0f1e81_66deef15afa74c87be6935ee9f277371.pdf",
+          "primary_source": true,
+          "access_level": "Full author PDF retrieved through the author’s publication link.",
+          "locations_read": "§2 and note 4, author-PDF pp. 3–5; §4 and notes 13–15, pp. 8–11.",
+          "relevant_result": "Supports the manuscript’s account of derivative fit assessment and its qualifications concerning instrumental assessment, truth, and evidence possession."
+        },
+        {
+          "id": "S04",
+          "citation": "Richard Pettigrew. 2025. “The cost of remembering.” Author essay, 3 February.",
+          "url": "https://richardpettigrew.substack.com/p/the-cost-of-remembering",
+          "primary_source": true,
+          "access_level": "Public essay text available.",
+          "locations_read": "“Evaluating forgettings,” “The value of credences,” “The value of forgetting,” “An example,” and opening of “The bigger picture.”",
+          "relevant_result": "Evaluates forgetting through expected credal value and retention costs while allowing probabilities conditional on currently possessed evidence."
+        },
+        {
+          "id": "S05",
+          "citation": "Abelard Podgorski. 2016. “A Reply to the Synchronist.” Mind 125(499): 859–871; author manuscript.",
+          "url": "https://www.abelardpodgorski.com/uploads/5/4/0/0/54000997/a_reply_to_the_synchronist.pdf",
+          "primary_source": true,
+          "access_level": "Full author PDF available.",
+          "locations_read": "Introduction; §3, author-PDF pp. 3–4; §8, pp. 12–13.",
+          "relevant_result": "Challenges exhaustive attitude-based assessment and raises the difficulty of cognitive behavior changing its own evidential standard."
+        },
+        {
+          "id": "S06",
+          "citation": "Wolfgang Schwarz. 2025. “Dynamic Rationality and Disproportionate Belief.” Author manuscript, June.",
+          "url": "https://www.umsu.de/papers/disproportionate.pdf",
+          "primary_source": true,
+          "access_level": "Full author PDF available.",
+          "locations_read": "Title/date, abstract and introduction; §8, pp. 15–18, especially p. 17.",
+          "relevant_result": "Defends departures from proportionality under deteriorating evidence and allows resource-sensitive justification for forgetting."
+        },
+        {
+          "id": "S07",
+          "citation": "Brian Weatherson. 2015. “Memory, Belief and Time.” Author HTML text.",
+          "url": "https://brian.weatherson.org/html-papers/posts/2021-02-03-memory-belief-and-time/",
+          "primary_source": true,
+          "access_level": "Full author HTML text available.",
+          "locations_read": "Displayed date and publication statement; introduction; “Evidentialism.”",
+          "relevant_result": "Defends historical evidence and distinguishes the rationality of attitudes from the wisdom of agents."
+        },
+        {
+          "id": "S08",
+          "citation": "Aevyra. 2026. The Ledger of Will: Evidence, Revaluation, and the Preservation of Revisable Agency. Displayed version 4.0, 25 September.",
+          "url": "https://aevyra.github.io/ledger-of-will/",
+          "primary_source": true,
+          "access_level": "Public manuscript HTML available; historical version provenance not independently authenticated.",
+          "locations_read": "Header and abstract; §§4.1–4.4, 6.2, and 6.4.",
+          "relevant_result": "States a factorization criterion for future targets, applies it to source-sensitive revision, and discusses equivalent statistics and explicit degradation."
+        },
+        {
+          "id": "S09",
+          "citation": "Robert Jenkinson Alvarez. 2026. “Prediction Is Not a Sufficient Memory State.” arXiv:2610.13881v1.",
+          "url": "https://arxiv.org/html/2610.13881v1",
+          "primary_source": true,
+          "access_level": "Full arXiv HTML available.",
+          "locations_read": "Title/version, abstract, introduction, and §9, especially “Future distinguishability is established” and scope qualifications.",
+          "relevant_result": "Separates present prediction from continuation requirements and explicitly acknowledges earlier future-distinguishability approaches."
+        },
+        {
+          "id": "S10",
+          "citation": "Tilman Börgers, Angel Hernando-Veciana, and Daniel Krähmer. “When Are Signals Complements or Substitutes?” Working paper, 2 April 2010.",
+          "url": "https://www.cirje.e.u-tokyo.ac.jp/research/workshops/micro/micropaper10/micro0518.pdf",
+          "primary_source": true,
+          "access_level": "Full working-paper PDF available. Later publisher and Durham repository routes were inaccessible.",
+          "locations_read": "Title/date; introduction, Examples 1–2, printed pp. 1–2; formal examples and opening of §3, printed pp. 8–9.",
+          "relevant_result": "Provides substantive examples of information whose usefulness depends on another signal, including information about source quality."
+        },
+        {
+          "id": "S11",
+          "citation": "Yiling Chen and Bo Waggoner. Informational Substitutes. Full version of FOCS 2016 paper, arXiv:1703.08636, March 2017.",
+          "url": "https://arxiv.org/pdf/1703.08636",
+          "primary_source": true,
+          "access_level": "Full PDF and arXiv abstract record opened.",
+          "locations_read": "Example 2.2.2, printed p. 9; §5.2, Proposition 5.2.1 and its quadratic-score corollary, printed pp. 38–39; §5.3.",
+          "relevant_result": "Formalizes complementary information for fixed decision problems, including unchanged individual posteriors and quadratic scoring."
+        },
+        {
+          "id": "S12",
+          "citation": "Jochen Bröcker. Reliability, Sufficiency, and the Decomposition of Proper Scores. arXiv:0806.0813v2, revised 1 December 2008; related journal DOI 10.1002/qj.456.",
+          "url": "https://arxiv.org/pdf/0806.0813",
+          "primary_source": true,
+          "access_level": "Full PDF available; arXiv version history separately checked.",
+          "locations_read": "Introduction; §§2–3, especially equations (13)–(15), footnote 5, and discussion on printed pp. 6–8.",
+          "relevant_result": "Separates reliability from resolution and relates sufficient, reliable forecasts through an expected-divergence identity."
+        },
+        {
+          "id": "S13",
+          "citation": "Tilmann Gneiting and Adrian E. Raftery. 2007. “Strictly Proper Scoring Rules, Prediction, and Estimation.” JASA 102(477): 359–378.",
+          "url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf",
+          "primary_source": true,
+          "access_level": "Full author-hosted PDF available through this alternate URL.",
+          "locations_read": "Introduction; §3.1, Example 1, p. 363; binary-score Table 1, p. 365.",
+          "relevant_result": "Confirms strict propriety, the quadratic/Brier score, its squared-distance divergence, and the distinction from zero–one scoring."
+        },
+        {
+          "id": "S14",
+          "citation": "Australian National University publication record: “Time-slice rationality.”",
+          "url": "https://researchportalplus.anu.edu.au/en/publications/time-slice-rationality/",
+          "primary_source": true,
+          "access_level": "Institutional metadata and abstract.",
+          "locations_read": "Title, abstract, publication details, DOI, and citation fields.",
+          "relevant_result": "Confirms Hedden 2015’s author, journal, volume, issue, pages, and DOI."
+        },
+        {
+          "id": "S15",
+          "citation": "Australian National University publication record: “Mental Processes and Synchronicity.”",
+          "url": "https://researchportalplus.anu.edu.au/en/publications/mental-processes-and-synchronicity/",
+          "primary_source": true,
+          "access_level": "Institutional metadata and abstract.",
+          "locations_read": "Title, abstract, publication details, DOI, and citation fields.",
+          "relevant_result": "Confirms Hedden 2016’s bibliography entry."
+        },
+        {
+          "id": "S16",
+          "citation": "Oxford University Press article record: “A Reply to the Synchronist.”",
+          "url": "https://academic.oup.com/mind/article-abstract/125/499/859/2563378",
+          "primary_source": true,
+          "access_level": "Publisher metadata and abstract; redirected to https://oup.silverchair-cdn.com/article-minimal/2563378.",
+          "locations_read": "Entire minimal record, including publication date, pagination, DOI, and abstract.",
+          "relevant_result": "Confirms Podgorski’s bibliography entry; substantive checking used S05."
+        },
+        {
+          "id": "S17",
+          "citation": "Cambridge Core publication record: “Memory, belief and time.”",
+          "url": "https://www.cambridge.org/core/journals/canadian-journal-of-philosophy/article/abs/memory-belief-and-time/26B195FBE6FBAAF29FDCCD7EE5690D5F",
+          "primary_source": true,
+          "access_level": "Publisher metadata and abstract; full publisher text not accessed.",
+          "locations_read": "Article identification and “Information” section.",
+          "relevant_result": "Confirms Canadian Journal of Philosophy 45(5–6), December 2015, pp. 692–715, and the supplied DOI."
+        },
+        {
+          "id": "S18",
+          "citation": "arXiv version record for Alvarez, arXiv:2610.13881v1.",
+          "url": "https://arxiv.org/abs/2610.13881v1",
+          "primary_source": true,
+          "access_level": "Public repository record.",
+          "locations_read": "Title, author, version identification, abstract, and submission information.",
+          "relevant_result": "Confirms the cited work’s identity and version."
+        },
+        {
+          "id": "S19",
+          "citation": "arXiv record for Bröcker, arXiv:0806.0813.",
+          "url": "https://arxiv.org/abs/0806.0813",
+          "primary_source": true,
+          "access_level": "Public repository record.",
+          "locations_read": "Title, author, submission history, version dates, and related DOI.",
+          "relevant_result": "Confirms that the inspected v2 was submitted in December 2008 despite a later generated date printed on its PDF."
+        },
+        {
+          "id": "S20",
+          "citation": "Brian Hedden’s public publication list.",
+          "url": "https://brianhedden.wixsite.com/home",
+          "primary_source": true,
+          "access_level": "Public author page; used to retrieve the cited papers.",
+          "locations_read": "Publication entries and PDF links for the two cited papers.",
+          "relevant_result": "Authenticates the author-linked routes to S02 and S03."
+        },
+        {
+          "id": "S21",
+          "citation": "David Blackwell. 1953. “Equivalent Comparisons of Experiments.” Attempted primary retrieval.",
+          "url": "https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-24/issue-2/Equivalent-Comparisons-of-Experiments/10.1214/aoms/1177729032.full",
+          "primary_source": true,
+          "access_level": "Inaccessible text: both .full and corresponding .pdf routes returned an iframe placeholder.",
+          "locations_read": "None of the article.",
+          "relevant_result": "No substantive result established from this source."
+        },
+        {
+          "id": "S22",
+          "citation": "David Blackwell. 1951. “Comparison of Experiments.” Attempted Berkeley digital-library retrieval.",
+          "url": "https://digicoll.lib.berkeley.edu/nanna/record/112749/files/math_s2_article-08.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0",
+          "primary_source": true,
+          "access_level": "PDF request returned 403.",
+          "locations_read": "None of the article.",
+          "relevant_result": "Not counted as a read predecessor."
+        },
+        {
+          "id": "S23",
+          "citation": "M. H. DeGroot. 1962. “Uncertainty, Information, and Sequential Experiments.” Attempted primary retrieval.",
+          "url": "https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-33/issue-2/Uncertainty-Information-and-Sequential-Experiments/10.1214/aoms/1177704567.full",
+          "primary_source": true,
+          "access_level": "Endpoint returned an iframe placeholder without readable article text.",
+          "locations_read": "None of the article.",
+          "relevant_result": "Not used as substantive evidence."
+        }
+      ],
+      "citation_audit": [
+        {
+          "manuscript_reference": "Aevyra 2026, The Ledger of Will",
+          "manuscript_location": "§3: “histories with the same retained representation”; §6: “narrowing promised revisions and explicit degradation”; Bibliography.",
+          "status": "verified",
+          "evidence": "The displayed title, version, and date match. Proposition 2 states the required agreement criterion; §§4.3, 6.2, and 6.4 support the revision, provenance, equivalent-statistic, and limitation-reporting attributions. Verification concerns the currently accessible page.",
+          "source_ids": [
+            "S08"
+          ]
+        },
+        {
+          "manuscript_reference": "Alvarez 2026, “Prediction Is Not a Sufficient Memory State”",
+          "manuscript_location": "§3: “present prediction and information needed for continued learning”; Bibliography.",
+          "status": "verified",
+          "evidence": "The arXiv title, author, identifier, and v1 match. Section 9 explicitly distinguishes the technical contribution from established future distinguishability. The manuscript does not attribute its normative premise to these technical results.",
+          "source_ids": [
+            "S09",
+            "S18"
+          ]
+        },
+        {
+          "manuscript_reference": "Dogramaci 2015, “Forget and Forgive”",
+          "manuscript_location": "§1: “distinguishes harmful forgetfulness and defective belief formation from the rationality of a surviving belief”; Bibliography.",
+          "status": "verified",
+          "evidence": "Section 3.3, printed pp. 670–671, supports the distinction and restricted use of epistemic evaluation. The journal-format PDF confirms the title, publication information, DOI, and cited pagination.",
+          "source_ids": [
+            "S01"
+          ]
+        },
+        {
+          "manuscript_reference": "Hedden 2015, “Time-Slice Rationality”",
+          "manuscript_location": "§5: “focuses on what one ought to believe and distinguishes that question from basing and agent assessment”; Bibliography.",
+          "status": "verified",
+          "evidence": "Section 1, note 3, author-PDF p. 3, explicitly makes these distinctions while treating propositional justification as fundamental. The institutional record confirms the bibliography entry. The manuscript accurately limits its attribution.",
+          "source_ids": [
+            "S02",
+            "S14"
+          ]
+        },
+        {
+          "manuscript_reference": "Hedden 2016, “Mental Processes and Synchronicity”",
+          "manuscript_location": "§5: “tendency to improve evidential fit,” the discussion of notes 4 and 13–15, and “no reason to attribute fit-only completeness to Hedden”; Bibliography.",
+          "status": "verified",
+          "evidence": "Section 4 supports derivative assessment by fit; note 13 covers instrumental assessment, note 14 a truth-based alternative, and note 15 both the lucky-disposition explanation and evidence as what one is positioned to know. Section 2, note 4 distinguishes later rationality from anticipated accuracy. Publication details match S15.",
+          "source_ids": [
+            "S03",
+            "S15"
+          ]
+        },
+        {
+          "manuscript_reference": "Pettigrew 2025, “The cost of remembering”",
+          "manuscript_location": "§3: “evaluates forgetting by expected epistemic value” and “His worked example changes credences immediately”; Bibliography.",
+          "status": "verified",
+          "evidence": "The title and 3 February 2025 date match. “The value of forgetting” explicitly permits conditioning an ur-prior on current evidence; its examples change probabilities upon forgetting and weigh the resulting value loss against retention costs.",
+          "source_ids": [
+            "S04"
+          ]
+        },
+        {
+          "manuscript_reference": "Podgorski 2016, “A Reply to the Synchronist”",
+          "manuscript_location": "§5: “questions exhaustive attitude-based assessment” and “cognitive behavior that changes the evidence”; Bibliography.",
+          "status": "verified",
+          "evidence": "Both attributions are supported by §§3 and 8 of the specified author manuscript. The publisher record confirms Mind 125(499): 859–871 and DOI 10.1093/mind/fzv153. The manuscript correctly identifies its section locators as version-specific.",
+          "source_ids": [
+            "S05",
+            "S16"
+          ]
+        },
+        {
+          "manuscript_reference": "Schwarz 2025, “Dynamic Rationality and Disproportionate Belief”",
+          "manuscript_location": "§5: “deteriorating evidence can make proportionality itself the wrong ideal” and the resource-limitation qualification; Bibliography.",
+          "status": "verified",
+          "evidence": "The PDF identifies the title, author, and June 2025 date. The introduction argues against unrestricted proportionality; §8, especially p. 17, distinguishes ideal non-forgetting from rational pruning under limited cognitive resources.",
+          "source_ids": [
+            "S06"
+          ]
+        },
+        {
+          "manuscript_reference": "Weatherson 2015, “Memory, belief and time”",
+          "manuscript_location": "§6: “defends historical evidence and distinguishes rationality of attitudes from wisdom of agents”; Bibliography.",
+          "status": "verified",
+          "evidence": "The introduction and “Evidentialism” support both attributions. They do not establish that every irretrievably forgotten source remains evidence; the manuscript appropriately presents that application conditionally. The author page displays 1 December 2015, and the publisher record confirms the supplied journal details and DOI.",
+          "source_ids": [
+            "S07",
+            "S17"
+          ]
+        },
+        {
+          "manuscript_reference": "Unattributed formal background: squared-loss identity and strict propriety",
+          "manuscript_location": "§3: E[(r-X)^2] - E[(q-X)^2] = E[(q-r)^2]; §4: a(1-a)+(c-a)^2 and “strictly proper.”",
+          "status": "verified",
+          "evidence": "The displayed derivations are valid under the stated conditional-probability definitions. Bröcker supplies a close general proper-score predecessor; Gneiting and Raftery confirm the quadratic-score terminology. The manuscript expressly disclaims theorem novelty.",
+          "source_ids": [
+            "S12",
+            "S13"
+          ]
+        },
+        {
+          "manuscript_reference": "Constructed sensor model and numerical claims",
+          "manuscript_location": "§2, “A label with delayed value for one question”: posterior table; expected losses 0.07 and 0.08; classification correctness 0.9.",
+          "status": "verified",
+          "evidence": "These are model stipulations and derived calculations, not empirical instrument claims requiring external support. Checking the displayed conditional mixtures gives 0.7 and 0.95, and the weighted squared losses give 0.07 and 0.08. The classification tie follows because the reported color remains an optimal classification, including the 0.5 tie.",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "The complete supplied manuscript, including its bibliography, was read. External sources were inspected at the locations listed below; this report does not claim complete readings of every external work.",
+        "All nine bibliography entries were identified, and their materially used passages were accessible in the cited author or repository versions. Publisher versions were not systematically collated against those versions.",
+        "The Aevyra page currently displays version 4.0 and 25 September 2026. I verified that displayed identification and its contents, not an independently archived publication history.",
+        "For Börgers, Hernando-Veciana, and Krähmer, the April 2010 working paper was opened and read selectively. Attempts to open the later publisher and Durham repository pages failed; substantive comparisons therefore refer to the working paper.",
+        "Blackwell’s 1951 and 1953 originals and DeGroot’s 1962 paper were sought, but attempted retrievals did not provide readable texts. They are not counted as read predecessors or used to establish substantive findings.",
+        "Several DOI endpoints and an initial PhilPapers PDF request failed. Accessible author texts and primary bibliographic records resolved the manuscript’s citation checks; the failures themselves are not evidence of citation errors.",
+        "The search covered several formulations and adjacent literatures but was finite. It cannot establish exhaustive originality or absence of further predecessors."
+      ]
+    },
+    {
+      "job_id": "V04-L",
+      "accepted_event_id": "event-b8c02caec9af4f04bead9692accb841a",
+      "response": {
+        "bytes": 38550,
+        "path": "runs/deep-verification-20261031/results/V04-L/attempt-001/response.json",
+        "sha256": "86593a6334f11ef62e9fa6e7e007454a5e08091acf3969aaa56f3c8e511cccf7"
+      },
+      "retrieval_note": "Источник проверки — отдельный принятый литературный отзыв; координатор прочитал его полностью. Доступ к каждому источнику и фактически прочитанные места указаны в sources; ограничения сохранены без повышения частичного доступа до полного.",
+      "source_access_inventory": [
+        {
+          "id": "S1",
+          "citation": "Jane Austen, Emma, volume I.",
+          "url": "https://www.gutenberg.org/files/158/158-h/158-h.htm",
+          "primary_source": true,
+          "access_level": "Open primary text; relevant passages read.",
+          "locations_read": "Chapter VI, portrait discussion; chapter XV, carriage proposal; chapter XVI, retrospective examination of the portrait and charade. Also the opening warning about Emma’s judgment.",
+          "relevant_result": "The quoted sentence and the surrounding events support the manuscript’s textual description. They establish an interpretive possibility, not how every first reader responds."
+        },
+        {
+          "id": "S2",
+          "citation": "Stanley Fish, “Literature in the Reader: Affective Stylistics,” New Literary History 2(1) (1970): 123–162; consulted reprint.",
+          "url": "https://affecthistory.com/wp-content/uploads/2022/01/el-fish-literature-in-the-reader.pdf",
+          "primary_source": true,
+          "access_level": "Open primary-text scan; selected passages read despite fragmented OCR.",
+          "locations_read": "Reprint pp. 70–73 and 85–86, especially p. 86. Bibliographic identity also checked in https://www.jstor.org/stable/i220181, item 10.",
+          "relevant_result": "Supports the attribution concerning temporary projections and mistakes remaining constituents of the reading event."
+        },
+        {
+          "id": "S3",
+          "citation": "Wolfgang Iser, “The Reading Process: A Phenomenological Approach,” New Literary History 3(2) (1972): 279–299.",
+          "url": "https://teoriaciek.wordpress.com/wp-content/uploads/2010/10/iser_the-reading-process.pdf",
+          "primary_source": true,
+          "access_level": "Alternate primary-text scan opened; supplied university-hosted scan unavailable.",
+          "locations_read": "Printed pp. 285–288 and 294–296, including the manuscript’s cited pp. 287 and 296.",
+          "relevant_result": "Supports anticipation, retrospection, reader-produced organization, and reorientation. The discussion also distinguishes first from subsequent readings."
+        },
+        {
+          "id": "S4",
+          "citation": "C. Thi Nguyen, “Autonomy and Aesthetic Engagement,” Mind 129(516) (2020): 1127–1156; online 24 September 2019.",
+          "url": "https://www.researchgate.net/profile/C-Nguyen/publication/334812720_Autonomy_and_Aesthetic_Engagement/links/5dc2126ca6fdcc2128087d00/Autonomy-and-Aesthetic-Engagement.pdf",
+          "primary_source": true,
+          "access_level": "Author-uploaded pre-proof manuscript opened; publisher abstract and metadata separately opened.",
+          "locations_read": "Manuscript abstract, opening discussion, and pp. 13–17. Publisher record: https://academic.oup.com/mind/article-abstract/129/516/1127/5573251.",
+          "relevant_result": "Verifies the process-versus-result attribution and supplies relevant discussion of beneficial guidance."
+        },
+        {
+          "id": "S5",
+          "citation": "Alon Chasid, “The Spoilers Puzzle,” Analysis 85(1) (2025): 17–27; online 12 December 2024.",
+          "url": "https://www.researchgate.net/publication/383275889_The_spoilers_puzzle",
+          "primary_source": true,
+          "access_level": "Author-uploaded penultimate manuscript available as readable extracted text; publisher record also opened.",
+          "locations_read": "Abstract and manuscript pp. 11–14, especially pp. 12–13. Metadata: https://academic.oup.com/analysis/article-abstract/85/1/17/7922590.",
+          "relevant_result": "Supports the distinction between fictional truth and stage-relative imaginative role, including the possibility of informed re-engagement and disrupted fluency."
+        },
+        {
+          "id": "S6",
+          "citation": "Neil Levy, “The Real Spoilers Puzzle,” Philosophical Exchange 1(1) (2026): 1–11; online 10 November 2025.",
+          "url": "https://researchers.mq.edu.au/en/publications/the-real-spoilers-puzzle/",
+          "primary_source": true,
+          "access_level": "Institutional publication record and author abstract opened; full article inaccessible.",
+          "locations_read": "Abstract, publication metadata, and access-to-document entry. The linked full-text PDF returned 403.",
+          "relevant_result": "Verifies bibliographic identity, both dates, and the abstract’s autonomy explanation. Does not verify the full argument or the twist/puzzle exceptions."
+        },
+        {
+          "id": "S7",
+          "citation": "Daniele Molinari, “Spoiler Alert! Unveiling the Plot in Thought Experiments and other Fictional Works,” Argumenta 6(1) (2020): 81–97.",
+          "url": "https://www.argumenta.org/wp-content/uploads/2020/11/5-Argumenta-6-1-Daniele-Molinari-Spoiler-Alert.pdf",
+          "primary_source": true,
+          "access_level": "Open journal PDF; relevant sections read.",
+          "locations_read": "Abstract; §3.2, pp. 88–91; surrounding discussion of advance orientation.",
+          "relevant_result": "Direct precedent for spoiler-precluded retrospective reinterpretation."
+        },
+        {
+          "id": "S8",
+          "citation": "Richard Greene, directly quoted in “Spoiler Alert! WSU Philosophy Professor Examines Spoilers in New Book,” Weber State University, 12 June 2019.",
+          "url": "https://www.weber.edu/wsutoday/061219_spoileralert.html",
+          "primary_source": true,
+          "access_level": "Open institutional record of attributed statements; used only for those statements.",
+          "locations_read": "Opening quotation about successive viewings and the later direct quotation under “Are spoilers really bad?”",
+          "relevant_result": "Documents the sequencing rationale and loss of a particular experience. It does not expose the complete book argument."
+        },
+        {
+          "id": "S9",
+          "citation": "Richard Greene, Spoiler Alert! (It’s a Book About the Philosophy of Spoilers), Open Court, 2019.",
+          "url": "https://books.google.com/books?id=46tqDwAAQBAJ",
+          "primary_source": true,
+          "access_level": "Bibliographic record and contents only; substantive chapters not read.",
+          "locations_read": "Publication details and contents. The front-cover preview did not provide readable chapter text.",
+          "relevant_result": "Confirms the book’s identity and relevant chapter titles; no substantive novelty judgment rests on the descriptive blurb."
+        },
+        {
+          "id": "S10",
+          "citation": "David Shaw, “The Ethics of Spoilers,” Ethical Space 8(1/2) (2011): 41–43.",
+          "url": "https://www.abramis.co.uk/ethical-space/journal/v8n1-2/v8n1-2.pdf",
+          "primary_source": true,
+          "access_level": "Open journal issue; relevant article sections read.",
+          "locations_read": "Printed pp. 41–43: reasons against spoilers, first-viewing argument, spoiler fans, and media guidance.",
+          "relevant_result": "Earlier treatment of first-viewing loss and useful nonspoiling information. Its stated rationale principally concerns lost enjoyment and ethical obligations, unlike the manuscript’s independently valuable correction."
+        },
+        {
+          "id": "S11",
+          "citation": "Neil Van Leeuwen, “Why We Hate Spoilers,” The Junkyard, 18 December 2019.",
+          "url": "https://junkyardofthemind.com/blog/2019/12/16/why-we-hate-spoilers",
+          "primary_source": true,
+          "access_level": "Open author-written discussion; relevant opening argument read.",
+          "locations_read": "Paragraphs introducing premature beliefs about fiction and their effect on surprise, including the Hamlet example.",
+          "relevant_result": "An adjacent precedent for distinguishing beliefs about fiction from imagining. Its target is emotional impact, not the manuscript’s specific expressive value of actual correction."
+        },
+        {
+          "id": "S12",
+          "citation": "Stanley Fish, Surprised by Sin: The Reader in Paradise Lost (1967), chapter 1, “Not so much a Teaching as an Intangling.”",
+          "url": "https://page-one.springer.com/pdf/preview/10.1007/978-1-349-00146-0_1",
+          "primary_source": true,
+          "access_level": "Publisher preview, pp. 1–2 only; full chapter unavailable.",
+          "locations_read": "Opening numbered thesis and discussion on pp. 1–2. Chapter record: https://link.springer.com/chapter/10.1007/978-1-349-00146-0_1.",
+          "relevant_result": "The opening explicitly treats the reader as the poem’s subject and the reading process as enactment. Its theological and moral framework differs from V04’s reasonable, nonculpable correction."
+        },
+        {
+          "id": "S13",
+          "citation": "Elisabeth Schellekens, “Aesthetic Discovery and Seeking to Understand,” Philosophical Studies, published 22 April 2026.",
+          "url": "https://link.springer.com/article/10.1007/s11098-026-02512-2",
+          "primary_source": true,
+          "access_level": "Open primary article; selected sections read.",
+          "locations_read": "Abstract; §3 discussion of knowledge and understanding; §5 account of aesthetic discovery.",
+          "relevant_result": "Adjacent account of aesthetic experience as exploratory and processual. The passages examined do not establish the spoiler-specific exclusion defended here. Since V04’s composition date is unspecified, this is a contemporary comparator without an asserted priority relation."
+        },
+        {
+          "id": "S14",
+          "citation": "Peter Kivy, Once-Told Tales: An Essay in Literary Aesthetics, Wiley-Blackwell, 2011.",
+          "url": "https://onlinelibrary.wiley.com/doi/book/10.1002/9781444397666",
+          "primary_source": true,
+          "access_level": "Publisher metadata and chapter listings only; relevant full text unavailable.",
+          "locations_read": "Book contents and chapter 1 landing page, https://onlinelibrary.wiley.com/doi/abs/10.1002/9781444397666.ch1.",
+          "relevant_result": "A relevant lead cited by Molinari. No argument is attributed to Kivy solely from Molinari’s quotation or the publisher’s summary."
+        },
+        {
+          "id": "S15",
+          "citation": "Chawton House Library, The Female Spectator 2(1) (2016), “Celebrating Emma.”",
+          "url": "https://chawtonhouse.org/wp-content/uploads/2018/12/TFS_Vol2No1-2016.pdf",
+          "primary_source": true,
+          "access_level": "Open institutional collection and exhibition record.",
+          "locations_read": "Opening page, publication-history statement.",
+          "relevant_result": "Records publication in December 1815 despite the first edition’s 1816 title-page date, supporting the manuscript’s bibliographic year."
+        },
+        {
+          "id": "S16",
+          "citation": "Neil Levy, “The Real Spoilers Puzzle,” publisher and Oxford repository access attempts.",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/29960126.2025.2527423",
+          "primary_source": true,
+          "access_level": "Full text not accessed; publisher and repository opens failed.",
+          "locations_read": "None. Also attempted the /doi/abs/, /doi/pdf/, and /doi/epdf/ routes; https://doi.org/10.1080/29960126.2025.2527423; https://ora.ox.ac.uk/objects/uuid%3A41ece56e-cf43-4aab-98cd-2ba5838f811d; and the corresponding /bookmarks/ route.",
+          "relevant_result": "Access limitation only. Indexed excerpts were not counted as reading the article."
+        }
+      ],
+      "citation_audit": [
+        {
+          "manuscript_reference": "Austen, Jane. Emma. 1815. Volume I, chapters VI, XV–XVI.",
+          "manuscript_location": "§3, “Why this particular correction can matter”: “Mr. Elton, the lover of Harriet, was professing himself her lover.”",
+          "status": "verified",
+          "evidence": "The quotation appears in chapter XV. Chapter VI supports the account of praise directed toward Emma’s painting, and chapter XVI explicitly revisits the picture and other supposed evidence. The text also contains warnings compatible with the manuscript’s qualified reader-response claim. See [the primary text](https://www.gutenberg.org/files/158/158-h/158-h.htm). S15 supports the 1815 publication year; the 1816 title-page date is not a demonstrated citation error.",
+          "source_ids": [
+            "S1",
+            "S15"
+          ]
+        },
+        {
+          "manuscript_reference": "Chasid, Alon. “The Spoilers Puzzle.” Analysis 85(1) (2025): 17–27; online 2024.",
+          "manuscript_location": "§4, “What informed imagination preserves”: “knowledge of fictional facts” and “the imaginative role governed by what a fiction presents as credible at successive stages.”",
+          "status": "verified",
+          "evidence": "The [publisher record](https://academic.oup.com/analysis/article-abstract/85/1/17/7922590) confirms identity, pagination, and online date. The opened author-uploaded penultimate text supports the substantive attribution and p. 13 locator, including possible informed re-engagement. Verification used the alternative copy, not the blocked cited archive.",
+          "source_ids": [
+            "S5"
+          ]
+        },
+        {
+          "manuscript_reference": "Fish, Stanley. “Literature in the Reader: Affective Stylistics.” New Literary History 2(1) (1970): 123–162; reprint p. 86.",
+          "manuscript_location": "§3, “Why this particular correction can matter”: “temporary projections and their failure as constituents of the reading event that final understanding does not erase.”",
+          "status": "verified",
+          "evidence": "The [JSTOR issue contents](https://www.jstor.org/stable/i220181) confirms the bibliographic entry. Reprint p. 86 supports the paraphrase. The manuscript correctly treats this as a precedent about meaning and experience rather than proof that every mistaken interpretation is valuable.",
+          "source_ids": [
+            "S2"
+          ]
+        },
+        {
+          "manuscript_reference": "Iser, Wolfgang. “The Reading Process: A Phenomenological Approach.” New Literary History 3(2) (1972): 279–299.",
+          "manuscript_location": "§3, “Why this particular correction can matter”: “anticipation and retrospection” and “the reader’s entanglement in an organization she has helped produce.”",
+          "status": "partially_verified",
+          "evidence": "The substantive attribution and printed page references 287 and 296 are verified in the [alternate primary scan](https://teoriaciek.wordpress.com/wp-content/uploads/2010/10/iser_the-reading-process.pdf). The supplied host was inaccessible, and a readable publisher record independently confirming all issue metadata was not obtained. No mismatch was demonstrated.",
+          "source_ids": [
+            "S3"
+          ]
+        },
+        {
+          "manuscript_reference": "Levy, Neil. “The Real Spoilers Puzzle.” Online 2025; Philosophical Exchange 1(1), 1–11, issue dated 2026.",
+          "manuscript_location": "§1, “Two questions about spoilers”: “much spoiler aversion concerns epistemic autonomy” and “expressly recognizes twist and puzzle stories.”",
+          "status": "partially_verified",
+          "evidence": "The [Macquarie institutional record](https://researchers.mq.edu.au/en/publications/the-real-spoilers-puzzle/) confirms identity, pages, online date, issue year, and the abstract’s autonomy explanation. Full §§1 and 3 were inaccessible. The twist/puzzle exceptions and exact distinction attributed to those sections therefore remain unverified, not refuted.",
+          "source_ids": [
+            "S6",
+            "S16"
+          ]
+        },
+        {
+          "manuscript_reference": "Nguyen, C. Thi. “Autonomy and Aesthetic Engagement.” Mind 129(516) (2020): 1127–1156; online 2019.",
+          "manuscript_location": "§3, “Why this particular correction can matter”: “values active investigation and interpretation rather than simply possession of correct aesthetic judgments.”",
+          "status": "verified",
+          "evidence": "The [publisher abstract and record](https://academic.oup.com/mind/article-abstract/129/516/1127/5573251) confirm metadata and the cited account. The author manuscript corroborates it. Pages 16–17 additionally discuss guidance that encourages further engagement, relevant to §5’s assistance distinction.",
+          "source_ids": [
+            "S4"
+          ]
+        },
+        {
+          "manuscript_reference": "Uncited hypothetical and probabilistic illustration.",
+          "manuscript_location": "§2, “A viewer implicated by the form”: “assigns surveillance a probability of 0.6” and “It does not show that 0.6 was too high when assigned.”",
+          "status": "verified",
+          "evidence": "This is an illustrative stipulation, not an attributed formal result or empirical estimate. Learning that the less-favored possibility occurred does not by itself establish that the earlier probability was unreasonable. No external theorem or numerical evidence is claimed, so there is no missing formal-source attribution to repair.",
+          "source_ids": []
+        },
+        {
+          "manuscript_reference": "Uncited practical claim concerning knowledge and replay.",
+          "manuscript_location": "§4, “What informed imagination preserves”: “replay alone normally cannot undo recently acquired knowledge.”",
+          "status": "partially_verified",
+          "evidence": "The claim is explicitly qualified, and the manuscript allows forgetting and renewed uncertainty. It is consistent with the retrieved first-reading discussions, but this audit did not independently verify its psychological frequency or mechanisms. It should retain its practical qualification rather than be read as an experimentally established law.",
+          "source_ids": [
+            "S3",
+            "S10"
+          ]
+        }
+      ],
+      "limitations": [
+        "This was a finite, predominantly English-language search across spoiler philosophy, reader-response theory, aesthetic engagement, and aesthetic discovery. It does not establish exhaustive originality or the absence of other close precedents.",
+        "Levy’s publisher abstract, full-text, PDF, EPUB-style PDF endpoint, DOI route, Oxford repository routes, and Macquarie PDF download failed to supply readable full text. The Macquarie publication record and abstract did open. Search-index extracts were not treated as a read article.",
+        "The supplied Chasid and Nguyen archive links were blocked. Author-uploaded counterparts were opened elsewhere; their labels and relevant passages were checked, but the files were not established to be identical to the cited archive files.",
+        "The supplied Iser URL was inaccessible. An alternate scan supplied the relevant primary text and printed pagination. The JSTOR article page returned no usable record, so the issue metadata received less independent verification than the substantive attribution.",
+        "Greene’s book was available only through bibliographic and descriptive pages; its preview yielded no readable chapter text. The overlap finding is confined to directly attributed quotations in the institutional record. Fish’s Surprised by Sin was checked only through its opening two-page publisher preview, and Kivy’s book only through publisher metadata and section listings.",
+        "Source consultation was targeted to relevant passages, not a complete reading of every retrieved work. No empirical study was completed on voluntary forgetting or the frequency of the manuscript’s proposed experience. The opening scenario and the 0.6 example are hypothetical, not reported experimental results."
+      ]
+    },
+    {
+      "job_id": "V05-L",
+      "accepted_event_id": "event-53514d2914a648589df877a70d3e6020",
+      "response": {
+        "bytes": 39967,
+        "path": "runs/deep-verification-20261031/results/V05-L/native-projection-v2/response.json",
+        "sha256": "caa8a176229a89f471e6ab8f06cc7d98d4e400110bc0a18e544c188121ac1957"
+      },
+      "retrieval_note": "Источник проверки — отдельный принятый литературный отзыв; координатор прочитал его полностью. Доступ к каждому источнику и фактически прочитанные места указаны в sources; ограничения сохранены без повышения частичного доступа до полного.",
+      "source_access_inventory": [
+        {
+          "id": "S01",
+          "citation": "Bergen, Jan Peter. 2016. Reversible Experiments: Putting Geological Disposal to the Test. Science and Engineering Ethics 22: 707–733.",
+          "url": "https://link.springer.com/article/10.1007/s11948-015-9697-2",
+          "primary_source": true,
+          "access_level": "Full publisher HTML accessible; selected sections inspected.",
+          "locations_read": "Metadata; introduction; stopping test; lock-in discussion; conclusion, especially its final paragraphs.",
+          "relevant_result": "Direct predecessor for feasible institutional stopping capacity and proactive preservation of alternatives."
+        },
+        {
+          "id": "S02",
+          "citation": "Van de Poel, Ibo. 2016. An Ethical Framework for Evaluating Experimental Technology. Science and Engineering Ethics 22: 667–686.",
+          "url": "https://link.springer.com/article/10.1007/s11948-015-9724-3",
+          "primary_source": true,
+          "access_level": "Full publisher HTML accessible; separate table opening failed.",
+          "locations_read": "Introduction; Conditions for Responsible Experimentation; Status of the Conditions; conclusion.",
+          "relevant_result": "Stopping, flexibility, collective approval, withdrawal, and vulnerability protection are already moral requirements subject to overriding reasons."
+        },
+        {
+          "id": "S03",
+          "citation": "Listokin, Yair. 2008. Learning Through Policy Variation. Yale Law Journal 118: 480–553.",
+          "url": "https://yalelawjournal.org/pdf/752_qxhyobos.pdf",
+          "primary_source": true,
+          "access_level": "Publisher PDF accessible; selected pages inspected.",
+          "locations_read": "Title and contents; abstract; pp. 533–537, particularly pp. 534–536.",
+          "relevant_result": "Reversibility affects the value of policy experimentation; institutional arrangements and sunsets affect reversal costs."
+        },
+        {
+          "id": "S04",
+          "citation": "Wallsten, Scott. 2026. Why Policy Experiments Never End: Constituencies Form Faster Than Evidence. Technology Policy Institute, February 16.",
+          "url": "https://techpolicyinstitute.org/publications/regulation/why-policy-experiments-never-end-constituencies-form-faster-than-evidence/",
+          "primary_source": true,
+          "access_level": "Current public HTML accessible; unspecified earlier capture unavailable.",
+          "locations_read": "Date and byline; The Appeal and the Trap; constituency and framing discussion; Scope and Limitations; final section.",
+          "relevant_result": "Direct overlap in experimental framing, implementation-generated constraints, and the importance of credible transition terms."
+        },
+        {
+          "id": "S05",
+          "citation": "Levinson, Daryl, and Benjamin I. Sachs. 2015. Political Entrenchment and Public Law. Yale Law Journal 125: 400–482.",
+          "url": "https://yalelawjournal.org/article/political-entrenchment-and-public-law",
+          "primary_source": true,
+          "access_level": "Publisher HTML and linked PDF accessible.",
+          "locations_read": "Metadata; abstract; §I.A; §III.B.2; PDF opening and terminal page.",
+          "relevant_result": "Distinguishes functional from formal entrenchment while recognizing inadvertent constraints and difficulties separating entrenchment from ordinary consequences."
+        },
+        {
+          "id": "S06",
+          "citation": "Brown, Alexander. 2017. A Theory of Legitimate Expectations. Journal of Political Philosophy 25(4): 435–460.",
+          "url": "https://ueaeprints.uea.ac.uk/id/eprint/65003/1/Accepted_manuscript.pdf",
+          "primary_source": true,
+          "access_level": "Accepted manuscript accessible; publisher metadata independently opened.",
+          "locations_read": "Manuscript pp. 1–3, 12–18, 24–26; publisher DOI record.",
+          "relevant_result": "Expectations include prediction; the responsibility-based account expressly includes procedural expectations."
+        },
+        {
+          "id": "S07",
+          "citation": "Green, Fergus. 2020. Legal Transitions without Legitimate Expectations. Journal of Political Philosophy 28(4): 397–420.",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jopp.12231",
+          "primary_source": true,
+          "access_level": "Full publisher HTML accessible; selected sections inspected.",
+          "locations_read": "Metadata; §II.A's concluding discussion; §II.B, especially wellbeing, responsibility, and transition assistance.",
+          "relevant_result": "Transition protection need not depend on legitimate expectations; responsibility for managing legal-change risk is already relevant."
+        },
+        {
+          "id": "S08",
+          "citation": "Dorf, Michael C., and Charles F. Sabel. 1998. A Constitution of Democratic Experimentalism. Columbia Law Review 98(2): 267–473.",
+          "url": "https://charlessabel.com/papers/demex.pdf",
+          "primary_source": true,
+          "access_level": "Author-hosted reprint accessible after initial failures; Cornell repository record also opened.",
+          "locations_read": "Opening; starred pp. 283–285, 339–342; final page marker *473.",
+          "relevant_result": "Experimental revision requires democratic institutions and safeguards; successful services do not settle constitutional legitimacy."
+        },
+        {
+          "id": "S09",
+          "citation": "OECD Nuclear Energy Agency. 2001. Reversibility and Retrievability in Geologic Disposal of Radioactive Waste: Reflections at the International Level.",
+          "url": "https://www.oecd-nea.org/upload/docs/application/pdf/2020-12/nea3140.pdf",
+          "primary_source": true,
+          "access_level": "Official full PDF accessible; selected sections inspected.",
+          "locations_read": "§3, pp. 13–16; §5.6, pp. 30–31; §§6.1–6.4, pp. 33–35; conclusion and Annex 1 excerpts.",
+          "relevant_result": "Substantive precedent for translating a specified reversal option into maintained institutional capacity."
+        },
+        {
+          "id": "S10",
+          "citation": "Philipsen, Stefan, Evert F. Stamhuis, and Martin de Jong. 2021. Legal enclaves as a test environment for innovative products: Toward legally resilient experimentation policies. Regulation & Governance 15(4): 1128–1143.",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/rego.12375",
+          "primary_source": true,
+          "access_level": "Full publisher text accessible; selected sections inspected.",
+          "locations_read": "Metadata; introduction; §§6.4–6.5; §7 and Table 1; conclusion excerpts.",
+          "relevant_result": "Connects public competence, permission conditions, accountability, refusal, and advance exit strategies."
+        },
+        {
+          "id": "S11",
+          "citation": "British Virgin Islands Financial Services Commission. 2020. The Regulatory Sandbox Guidelines. August 31.",
+          "url": "https://www.bvifsc.vg/sites/default/files/documents/AML_CFT/Virtual_Assets/the_regulatory_sandbox_guidelines_.pdf",
+          "primary_source": true,
+          "access_level": "Official dated guidelines accessible.",
+          "locations_read": "Cover; paragraphs 12(iv), 19–25, and 28–39.",
+          "relevant_result": "Concrete regulatory precedent linking bounded approval with prepared discontinuation and protection of existing obligations."
+        },
+        {
+          "id": "S12",
+          "citation": "World Medical Association. 2013. Declaration of Helsinki. World Medical Journal 59(5).",
+          "url": "https://www.wma.net/wp-content/uploads/2016/11/wmj201305.pdf",
+          "primary_source": true,
+          "access_level": "Official publication accessible.",
+          "locations_read": "Declaration, paragraphs 25–34, especially 26, 27, 31, and 34.",
+          "relevant_result": "Protects withdrawal and the patient–physician relationship and calls for advance post-trial provisions; these are neighboring individual protections."
+        },
+        {
+          "id": "S13",
+          "citation": "Financial Conduct Authority. Regulatory sandbox application guide. Undated retrieved copy.",
+          "url": "https://www.fca.org.uk/publication/information-sheets/fca-regulatory-sandbox-application-guide.pdf",
+          "primary_source": true,
+          "access_level": "Official PDF accessible; publication date not independently established from its text.",
+          "locations_read": "Testing Plan, questions 4.1–4.10; Annex, sandbox journey.",
+          "relevant_result": "Question 4.9 requires planning for early termination, continuity, existing customers, communication, and claims. Used as practice evidence, not independently dated priority evidence."
+        },
+        {
+          "id": "S14",
+          "citation": "Financial Conduct Authority. 2015. Regulatory sandbox. November.",
+          "url": "https://www.fca.org.uk/publication/research/regulatory-sandbox.pdf",
+          "primary_source": true,
+          "access_level": "Official dated PDF accessible.",
+          "locations_read": "Cover and contents; paragraphs 3.15–3.19, printed pp. 9–11.",
+          "relevant_result": "Supports the earlier institutional context of agreed safeguards and bounded testing. A text search found no occurrence of 'exit'; later exit requirements were not projected back into this report."
+        },
+        {
+          "id": "S15",
+          "citation": "Sankary, Lauren R., et al. Exit from Brain Device Research: A Modified Grounded Theory Study of Researcher Obligations and Participant Experiences. AJOB Neuroscience 13(4): 215–226; published online 2021.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10570922/",
+          "primary_source": true,
+          "access_level": "Original study's author manuscript accessible in PMC.",
+          "locations_read": "Publication record; post-trial expectations and closure findings; Discussion and informed-consent implications.",
+          "relevant_result": "Documents care-related concerns at research exit. It does not establish the manuscript's collective reservation or its specific mechanism of blocked refusal."
+        },
+        {
+          "id": "S16",
+          "citation": "Eule, Julian N. 1987. Temporal Limits on the Legislative Mandate: Entrenchment and Retroactivity. American Bar Foundation Research Journal 12(2–3).",
+          "url": "https://www.cambridge.org/core/journals/american-bar-foundation-research-journal/article/abs/temporal-limits-on-the-legislative-mandate-entrenchment-and-retroactivity/3620DB4AE34AF5D255FB793267E622FC",
+          "primary_source": true,
+          "access_level": "Publisher abstract, metadata, and notes only; article body inaccessible.",
+          "locations_read": "Abstract; publication information; exposed notes concerning temporal delegation.",
+          "relevant_result": "The abstract identifies an authorization-based predecessor. Detailed overlap with preparation or repair remains unverified."
+        },
+        {
+          "id": "S17",
+          "citation": "Collingridge, David. 1980. The Social Control of Technology. Frances Pinter.",
+          "url": "https://books.google.com/books/about/The_Social_Control_of_Technology.html?id=2q_uAAAAMAAJ",
+          "primary_source": false,
+          "access_level": "Bibliographic preview only; no substantive primary-text pages retrieved.",
+          "locations_read": "Book identity, publication details, and partial contents.",
+          "relevant_result": "Discovery record only. Not used to establish an argument or a novelty finding."
+        },
+        {
+          "id": "S18",
+          "citation": "OECD Nuclear Energy Agency. 2012. Reversibility of Decisions and Retrievability of Radioactive Waste: Considerations for National Geological Disposal Programmes.",
+          "url": "https://www.oecd-nea.org/jcms/pl_14800",
+          "primary_source": true,
+          "access_level": "Official catalogue accessible; linked full brochure unavailable through the tool.",
+          "locations_read": "Catalogue description, ISBN, and recommended citation.",
+          "relevant_result": "Identity and discovery route verified; substantive comparison relies on S09, not this unread brochure."
+        }
+      ],
+      "citation_audit": [
+        {
+          "manuscript_reference": "Bergen 2016",
+          "manuscript_location": "§7, Bergen paragraph: 'proactive preservation of viable alternatives'; Bibliography.",
+          "status": "verified",
+          "evidence": "Title, author, journal, pages, DOI, and 2015 online/2016 volume dates match. The stopping test and conclusion support the attributed preparation and competing-values claims. [Primary text](https://link.springer.com/article/10.1007/s11948-015-9697-2).",
+          "source_ids": [
+            "S01"
+          ]
+        },
+        {
+          "manuscript_reference": "Van de Poel 2016",
+          "manuscript_location": "§7, Van de Poel paragraph: 'defeasible moral obligations'; Bibliography.",
+          "status": "verified",
+          "evidence": "Bibliographic identity and publication dates match. The prose accompanying the conditions and Status of the Conditions supports the listed obligations and their defeasibility. [Primary text](https://link.springer.com/article/10.1007/s11948-015-9724-3).",
+          "source_ids": [
+            "S02"
+          ]
+        },
+        {
+          "manuscript_reference": "Listokin 2008",
+          "manuscript_location": "§7, Listokin paragraph: 'easier reversal with trying policies otherwise unattractive'; Bibliography.",
+          "status": "verified",
+          "evidence": "Identity matches. Pages 534–536 directly support the sunset and reversibility attribution; the surrounding discussion explains institutional reversal costs. [Publisher PDF](https://yalelawjournal.org/pdf/752_qxhyobos.pdf).",
+          "source_ids": [
+            "S03"
+          ]
+        },
+        {
+          "manuscript_reference": "Wallsten 2026",
+          "manuscript_location": "§7, Wallsten paragraph: 'implementation-created barriers to ending policies'; Bibliography.",
+          "status": "verified",
+          "evidence": "Current publisher text confirms title, author, February 16, 2026 date, diagnosis, proposed commitments, and limitations. Earlier access history and archived-version equivalence remain unverified. [Current article](https://techpolicyinstitute.org/publications/regulation/why-policy-experiments-never-end-constituencies-form-faster-than-evidence/).",
+          "source_ids": [
+            "S04"
+          ]
+        },
+        {
+          "manuscript_reference": "Levinson and Sachs 2015",
+          "manuscript_location": "§7, Levinson–Sachs paragraph: 'present political preferences as given' and 'inadvertent constraints'; Bibliography.",
+          "status": "verified",
+          "evidence": "Identity and pagination match. Section I.A states the preference benchmark; §III.B.2 addresses unintended constraints and blurred categorical boundaries. [Primary text](https://yalelawjournal.org/article/political-entrenchment-and-public-law).",
+          "source_ids": [
+            "S05"
+          ]
+        },
+        {
+          "manuscript_reference": "Brown 2017",
+          "manuscript_location": "§7, Brown paragraph: 'expectations with a predictive component'; Bibliography.",
+          "status": "verified",
+          "evidence": "Publisher metadata confirms identity. Accepted-manuscript p. 1 supports prediction; pp. 12–18 explain responsibility; p. 25 expressly includes procedural expectations. [Manuscript](https://ueaeprints.uea.ac.uk/id/eprint/65003/1/Accepted_manuscript.pdf), [publication record](https://onlinelibrary.wiley.com/doi/10.1111/jopp.12135).",
+          "source_ids": [
+            "S06"
+          ]
+        },
+        {
+          "manuscript_reference": "Green 2020",
+          "manuscript_location": "§7, Green paragraph: 'wellbeing and ex ante responsibility'; Bibliography.",
+          "status": "verified",
+          "evidence": "Identity matches. Section II.B explicitly sketches these alternative grounds; its limited scope is compatible with the manuscript's wording. The restriction to characteristic legislative transitions is also supported. [Primary text](https://onlinelibrary.wiley.com/doi/full/10.1111/jopp.12231).",
+          "source_ids": [
+            "S07"
+          ]
+        },
+        {
+          "manuscript_reference": "Dorf and Sabel 1998",
+          "manuscript_location": "§7, Dorf–Sabel paragraph: 'successful service provision does not settle the constitutional question'; Bibliography.",
+          "status": "verified",
+          "evidence": "Identity and page range match. The cited pages support revision with safeguards and the inadequacy of practical success alone. [Author-hosted text](https://charlessabel.com/papers/demex.pdf), [institutional record](https://scholarship.law.cornell.edu/facpub/120/).",
+          "source_ids": [
+            "S08"
+          ]
+        }
+      ],
+      "limitations": [
+        "The complete supplied manuscript, including its bibliography, was read. External works were inspected at the locations recorded below; availability of a full text does not mean the entire work was read.",
+        "All eight bibliography entries were located and their identities checked. No material misquotation or misattribution was demonstrated in the inspected passages. This is not certification of every claim made by those sources.",
+        "Eule's publisher abstract, metadata, and exposed notes were accessible, but the article body was not. The attempted full-text URL was https://onlinelibrary.wiley.com/doi/full/10.1111/j.1747-4469.1987.tb00542.x. Its argument cannot be reconstructed from the abstract or notes alone.",
+        "Collingridge's book was located through a bibliographic preview, but substantive book pages were not retrieved. Secondary descriptions and search snippets were not used to establish its argument.",
+        "NEA's 2011 report at https://www.oecd-nea.org/rwm/rr/documents/RR-Final-Report_GD.pdf and the 2012 brochure download at https://www.oecd-nea.org/jcms/upload/docs/application/pdf/2020-11/7085-reversibility.pdf could not be fetched. The accessible 2001 report supplied the substantive NEA comparison.",
+        "The separate Van de Poel Table 3 URL failed. The article's accessible prose discusses the numbered conditions and their moral status, supporting the manuscript's relevant attributions without relying on an unseen table.",
+        "Dorf and Sabel's direct PDF opening initially failed, but opening the independently located search result subsequently returned the author-hosted text. Wallsten's current public article opened successfully; the manuscript's statement about an earlier failed opening is not thereby disproved. Its unspecified archived capture was not available for version comparison.",
+        "The care counties, feasible preparations, and three-month transition are expressly hypothetical assumptions. They were not treated as empirical findings requiring external confirmation. The manuscript contains no equations or attributed formal theorems to verify.",
+        "The search covered multiple formulations and neighboring literatures but was finite. It cannot establish exhaustive originality, absence of an earlier derivation, or absence of relevant work outside the retrieved material."
+      ]
+    },
+    {
+      "job_id": "V06-L",
+      "accepted_event_id": "event-e4fadd62eef24e13a878a78297d7a63f",
+      "response": {
+        "bytes": 33320,
+        "path": "runs/deep-verification-20261031/results/V06-L/attempt-001/response.json",
+        "sha256": "ad557cdb21c28aa404f2b4107f91b82f00a58114709cb0448c17bf19fc39c4d1"
+      },
+      "retrieval_note": "Источник проверки — отдельный принятый литературный отзыв; координатор прочитал его полностью. Доступ к каждому источнику и фактически прочитанные места указаны в sources; ограничения сохранены без повышения частичного доступа до полного.",
+      "source_access_inventory": [
+        {
+          "id": "S1",
+          "citation": "Weinberger, Naftali. 2023 [online 2021]. Intervening and Letting Go: On the Adequacy of Equilibrium Causal Models. Erkenntnis 88:2467–2491.",
+          "url": "https://link.springer.com/article/10.1007/s10670-021-00463-0",
+          "primary_source": true,
+          "access_level": "Publisher full text and PDF accessible; relevant sections inspected.",
+          "locations_read": "Publication metadata; §§3–5; selected §6 qualifications; especially printed pp. 2480–2482.",
+          "relevant_result": "Holding volume fixed and removing its constraint support different causal models; model adequacy must consider both actions."
+        },
+        {
+          "id": "S2",
+          "citation": "Blom, Tineke, Stephan Bongers and Joris M. Mooij. 2020. Beyond Structural Causal Models: Causal Constraints Models. PMLR 115:585–594.",
+          "url": "https://proceedings.mlr.press/v115/blom20a/blom20a.pdf",
+          "primary_source": true,
+          "access_level": "Full PDF and official proceedings metadata accessible; relevant passages inspected.",
+          "locations_read": "§1.1 null intervention; §2.2 initial-state dependence; §3.4 Theorem 2 and proof, PDF p. 7.",
+          "relevant_result": "The construction represents intervention-specific equilibrium outcomes, including the empty target, using initial conditions. It is a representation result, not recovery of one outcome map from the others."
+        },
+        {
+          "id": "S3",
+          "citation": "Dash, Denver. 2005. Restructuring Dynamic Causal Systems in Equilibrium. AISTATS, PMLR R5:81–88.",
+          "url": "https://proceedings.mlr.press/r5/dash05a/dash05a.pdf",
+          "primary_source": true,
+          "access_level": "Full PDF and official proceedings record accessible; relevant passages inspected.",
+          "locations_read": "Abstract; introduction; §§5–6, especially PDF p. 7.",
+          "relevant_result": "Manipulation and equilibration need not commute; conclusions drawn from equilibrium causal models depend on the underlying dynamical structure and observation timescale."
+        },
+        {
+          "id": "S4",
+          "citation": "Ryan, Oisín, and Fabian Dablander. 2025. Equilibrium Causal Models: Connecting Dynamical Systems Modeling and Cross-Sectional Data Analysis. Multivariate Behavioral Research. DOI:10.1080/00273171.2025.2522733.",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00273171.2025.2522733",
+          "primary_source": true,
+          "access_level": "Article inaccessible through attempted web routes; search excerpts only.",
+          "locations_read": "No article section successfully opened. §1 and Appendix A remain unverified from primary full text.",
+          "relevant_result": "No substantive result is treated as established from this inaccessible article."
+        },
+        {
+          "id": "S4M",
+          "citation": "Fabian Dablander, author-maintained publications list, 2025 entry for Ryan and Dablander.",
+          "url": "https://fabiandablander.com/menu/papers.html",
+          "primary_source": true,
+          "access_level": "Author bibliographic record accessible.",
+          "locations_read": "2025 publication entry, retrieved line 38 and linked publisher URL.",
+          "relevant_result": "Confirms the paper's title, coauthorship, year, journal and connection to the cited DOI; does not verify its argument."
+        },
+        {
+          "id": "S5",
+          "citation": "Bongers, Stephan, Tineke Blom and Joris M. Mooij. 2022 version. Causal Modeling of Dynamical Systems. arXiv:1803.08784v4.",
+          "url": "https://staff.fnwi.uva.nl/j.m.mooij/articles/1803.08784v4.pdf",
+          "primary_source": true,
+          "access_level": "Author-hosted full PDF and arXiv version record accessible.",
+          "locations_read": "§4.6, Example 4.21, equations (6)–(7), and following paragraph; PDF pp. 36–37.",
+          "relevant_result": "Diagonal rate freedom can disappear from equilibrium models; actual convergence requires separate consideration."
+        },
+        {
+          "id": "S6",
+          "citation": "Sootla, Aivar, Diego Oyarzún, David Angeli and Guy-Bart Stan. 2016. Shaping pulses to control bistable systems: Analysis, computation and counterexamples. Automatica 63:254–264.",
+          "url": "https://orbi.uliege.be/bitstream/2268/191987/1/border_final.pdf",
+          "primary_source": true,
+          "access_level": "Institutional author preprint accessible; publication identity checked against the ORBi record.",
+          "locations_read": "Introduction; §2.1; Theorem 7 and Corollary 9, preprint pp. 5–6; associated appendix proof passages.",
+          "relevant_result": "Finite-pulse switching sets admit comparison bounds, including guarantees under specified parameter uncertainty."
+        },
+        {
+          "id": "S7",
+          "citation": "Sootla, Aivar, and Damien Ernst. 2018. Pulse-Based Control Using Koopman Operator Under Parametric Uncertainty. IEEE Transactions on Automatic Control 63(3):791–796.",
+          "url": "https://arxiv.org/pdf/1708.00232",
+          "primary_source": true,
+          "access_level": "Full author preprint accessible; journal identity verified through ORBi.",
+          "locations_read": "§III assumptions A1–A5 and §III.B; Propositions 4–5; §IV Problem 2, PDF p. 5; Appendix A passages.",
+          "relevant_result": "Provides parameter-interval control guarantees and an explicit robust switching problem for a genetic toggle switch."
+        },
+        {
+          "id": "S8",
+          "citation": "Zañudo, J. G. T., and R. Albert. 2015. Cell Fate Reprogramming by Control of Intracellular Network Dynamics. PLOS Computational Biology 11(4):e1004193.",
+          "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004193",
+          "primary_source": true,
+          "access_level": "Publisher full text accessible; relevant main-text sections inspected. Supplementary proofs not inspected.",
+          "locations_read": "Citation metadata; stable-motif blocking discussion, retrieved lines 221–226; transient-control validation, lines 260–265; ODE translation, lines 293–297.",
+          "relevant_result": "Explicitly distinguishes success during permanent control from success after temporary control ends, using known Boolean-network dynamics."
+        },
+        {
+          "id": "S9",
+          "citation": "Rubenstein, Paul K., Stephan Bongers, Bernhard Schölkopf and Joris M. Mooij. 2018 version. From Deterministic ODEs to Dynamic Structural Causal Models. arXiv:1608.08028v2.",
+          "url": "https://arxiv.org/pdf/1608.08028",
+          "primary_source": true,
+          "access_level": "Full author preprint and version record accessible; selected formal passages inspected.",
+          "locations_read": "Definition 2, PDF p. 5; Theorem 1; Appendix B.1–B.2, PDF pp. 12–13; concluding discussion.",
+          "relevant_result": "An abstraction for constant interventions does not automatically cover periodic interventions. Its dynamic-stability assumption requires asymptotic independence from initial conditions, unlike V06's multistable setting. This is adjacent scope-related work, not the displayed release counterexample."
+        }
+      ],
+      "citation_audit": [
+        {
+          "manuscript_reference": "Blom, Bongers and Mooij 2020, §§2.2–3.4; bibliography entry.",
+          "manuscript_location": "The question and its scope: “incorporates equilibrium outcome maps for every intervention target, including the empty target.”",
+          "status": "verified",
+          "evidence": "Theorem 2's proof constructs a constraint for every target subset; §1.1 explicitly identifies the null intervention. The [official record](https://proceedings.mlr.press/v115/blom20a.html) and [volume record](https://proceedings.mlr.press/v115/) confirm authors, title, PMLR 115, publication in 2020 and the 2019 conference. The manuscript correctly separates representation from inference.",
+          "source_ids": [
+            "S2"
+          ]
+        },
+        {
+          "manuscript_reference": "Dash 2005, §6; bibliography entry.",
+          "manuscript_location": "The question and its scope: “manipulation and equilibration supplies a related reason to attend to temporal information.”",
+          "status": "verified",
+          "evidence": "[§6, PDF p. 7](https://proceedings.mlr.press/r5/dash05a/dash05a.pdf#page=7) explicitly connects equilibration/manipulation problems to observation timescale. The [official proceedings record](https://proceedings.mlr.press/r5/dash05a.html) confirms the bibliographic identity. The manuscript does not misattribute its stronger release theorem to Dash.",
+          "source_ids": [
+            "S3"
+          ]
+        },
+        {
+          "manuscript_reference": "Ryan and Dablander 2025, §1 and Appendix A; bibliography entry.",
+          "manuscript_location": "The question and its scope: “distinguish a change at a particular time from a sustained intervention”; explicit excerpt-access qualification.",
+          "status": "partially_verified",
+          "evidence": "The [author's publication entry](https://fabiandablander.com/menu/papers.html) confirms the bibliographic identity and links to the cited DOI. The substantive definition and precise section attribution could not be checked in an opened article. Publisher search excerpts are consistent with the description but are insufficient for verification under this audit's standard.",
+          "source_ids": [
+            "S4",
+            "S4M"
+          ]
+        },
+        {
+          "manuscript_reference": "Weinberger 2023 [online 2021], §5; bibliography entry.",
+          "manuscript_location": "The question and its scope: “removing a constraint as an action against which a model’s adequacy can be assessed.”",
+          "status": "verified",
+          "evidence": "[§5](https://link.springer.com/content/pdf/10.1007/s10670-021-00463-0.pdf#page=14) directly discusses inserting and removing the piston pin and the corresponding adequacy issue. Publisher metadata confirms the title, author, online date of 11 October 2021, and 2023 volume 88, pages 2467–2491. The manuscript's attribution is appropriately narrow.",
+          "source_ids": [
+            "S1"
+          ]
+        }
+      ],
+      "limitations": [
+        "The complete supplied manuscript and bibliography were read. External sources were examined at the locations recorded below; opening a PDF is not represented as reading every page.",
+        "This was a finite public-web search across causal equilibrium models, dynamical identification, pulse control, and temporary network control. It does not establish an exhaustive priority result.",
+        "Ryan and Dablander's article was not readable through the available web routes. Search excerpts were used to locate evidence, not to establish its argument.",
+        "The sequential Boolean-control paper at the CMSB20 URL repeatedly timed out. Its search description was not used to establish substantive overlap.",
+        "This is a literature and citation audit, not an independent numerical or comprehensive formal-proof certification. The manuscript's displayed construction is self-contained and makes no claim that its equations or estimates are quoted from a predecessor."
+      ]
+    },
+    {
+      "job_id": "V07-L",
+      "accepted_event_id": "event-b301e6cb11dd4c5a932e15cee37e1ea7",
+      "response": {
+        "bytes": 36610,
+        "path": "runs/deep-verification-20261031/results/V07-L/attempt-001/response.json",
+        "sha256": "e6f44a0dc19c6f41119c055d65079fd922f26915539f3abb5f88d34642df9735"
+      },
+      "retrieval_note": "Источник проверки — отдельный принятый литературный отзыв; координатор прочитал его полностью. Доступ к каждому источнику и фактически прочитанные места указаны в sources; ограничения сохранены без повышения частичного доступа до полного.",
+      "source_access_inventory": [
+        {
+          "id": "S1",
+          "citation": "Santoni de Sio, Filippo, and Jeroen van den Hoven. 2018. ‘Meaningful Human Control over Autonomous Systems: A Philosophical Account.’ Frontiers in Robotics and AI 5:15.",
+          "url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2018.00015/full",
+          "primary_source": true,
+          "access_level": "Publisher full text opened.",
+          "locations_read": "Publication header; ‘Conditions for Guidance Control’; ‘Tracking,’ especially reliability thresholds and whose reasons count; ‘Tracing,’ including its necessary condition.",
+          "relevant_result": "Supports the manuscript's attribution and its acknowledged dependence on an existing epistemic and moral tracking framework."
+        },
+        {
+          "id": "S2",
+          "citation": "Bainbridge, Lisanne. 1983. ‘Ironies of Automation.’ Automatica 19(6):775–779.",
+          "url": "https://gwern.net/doc/sociology/technology/1983-bainbridge.pdf",
+          "primary_source": true,
+          "access_level": "Original published article opened as a public PDF scan; publisher route blocked.",
+          "locations_read": "First-page bibliographic header; §§1.1.1–1.1.3 and 2.1, especially pp. 775–776.",
+          "relevant_result": "Supports skill-loss and monitoring claims. Section 2.1 also discusses direct-wired displays and automation concealing failure, a closer architectural connection than the manuscript emphasizes."
+        },
+        {
+          "id": "S3",
+          "citation": "Cohen, Tegan, and Nicolas P. Suzor. 2024. ‘Contesting the Public Interest in AI Governance.’ Internet Policy Review 13(3). DOI:10.14763/2024.3.1794.",
+          "url": "https://policyreview.info/articles/analysis/contesting-public-interest-ai-governance",
+          "primary_source": true,
+          "access_level": "Publisher full text opened.",
+          "locations_read": "Publication metadata; introduction; §§3.2–3.3.3, particularly §3.3 opening paragraphs and discussion of internal records.",
+          "relevant_result": "Directly supports the anti-monopoly attribution; also addresses internal checks, dependence on internal information and alternative incident reporting."
+        },
+        {
+          "id": "S4",
+          "citation": "Freiesleben, Timo, Kristof Meding, and Gunnar König. 2026. ‘Explainable AI Isn’t Enough! Rethinking Algorithmic Contestability.’ arXiv:2605.16041v1, submitted 15 May.",
+          "url": "https://arxiv.org/html/2605.16041v1",
+          "primary_source": true,
+          "access_level": "Exact-version HTML and abstract/version record opened.",
+          "locations_read": "Version header; abstract; §1; §§5.2–5.3, including Definition 14 and surrounding discussion.",
+          "relevant_result": "Supports the recourse/contestability distinction and the relevance of evidence outside the original feature set."
+        },
+        {
+          "id": "S5",
+          "citation": "Parasuraman, Raja, Thomas B. Sheridan, and Christopher D. Wickens. 2000. ‘A Model for Types and Levels of Human Interaction with Automation.’ IEEE Transactions on Systems, Man, and Cybernetics—Part A 30(3):286–297. DOI:10.1109/3468.844354.",
+          "url": "https://www.researchgate.net/publication/11596569_A_model_for_types_and_levels_of_human_interaction_with_automation",
+          "primary_source": true,
+          "access_level": "Displayed original article text opened; university PDF failed.",
+          "locations_read": "§III.A, p. 288; §IV.B.1–2, pp. 291–292.",
+          "relevant_result": "Direct predecessor to the preserved-inbox safeguard; see L1."
+        },
+        {
+          "id": "S6",
+          "citation": "Cobbe, Jennifer, Michelle Seng Ah Lee, and Jatinder Singh. 2021. ‘Reviewable Automated Decision-Making: A Framework for Accountable Algorithmic Systems.’ FAccT 2021; arXiv:2102.04201v2.",
+          "url": "https://arxiv.org/pdf/2102.04201",
+          "primary_source": true,
+          "access_level": "Original paper PDF and version record opened.",
+          "locations_read": "Abstract; §§2.3, 3.1–3.2, 4.2.1–4.2.2, 4.4 and 5; PDF pp. 1, 4–5, 7–10.",
+          "relevant_result": "Prior framework for review-relative evidence and individual/process review; see L2."
+        },
+        {
+          "id": "S7",
+          "citation": "Langer, Markus, Kevin Baum, and Nadine Schlicker. 2025, online 5 November 2024. ‘Effective Human Oversight of AI-Based Systems: A Signal Detection Perspective on the Detection of Inaccurate and Unfair Outputs.’ Minds and Machines 35:1.",
+          "url": "https://link.springer.com/article/10.1007/s11023-024-09701-0",
+          "primary_source": true,
+          "access_level": "Publisher full text opened.",
+          "locations_read": "§§2–3; discussion of individual unfairness detection; later discussion of automation level and access to applicant information.",
+          "relevant_result": "Separates detecting errors from intervening and treats evidence gathering as foundational. This supports comparison with the manuscript's rejection of random override."
+        },
+        {
+          "id": "S8",
+          "citation": "Zhu, Liming, Qinghua Lu, Ming Ding, Sung Une Lee, and Chen Wang. 2026. ‘Designing Meaningful Human Oversight in AI.’ AI and Ethics 6:286, published 4 May.",
+          "url": "https://link.springer.com/article/10.1007/s43681-026-01147-7",
+          "primary_source": true,
+          "access_level": "Publisher full text opened.",
+          "locations_read": "§§5.1–5.2 and 6; publication metadata.",
+          "relevant_result": "Presents evaluative agency without reproducing the solution, independent checks, and sampling within an oversight framework. Used for its proposed framework, not as primary experimental evidence."
+        },
+        {
+          "id": "S9",
+          "citation": "The London Research Centre for Marketing & AI. 2026. ‘Human Oversight Works Only When the Reviewer Can Change the Outcome.’ ER-018, draft; page reports publication 21 October and revision 26 October.",
+          "url": "https://londonresearchcentreformarketingai.org.uk/research/024-offloading-human-oversight",
+          "primary_source": true,
+          "access_level": "Public draft opened; primary only for its own analytical proposals.",
+          "locations_read": "Date notice; ‘Review should create a second route to the answer’; ‘Testing whether oversight adds value’; scope and disclosure.",
+          "relevant_result": "Close conceptual overlap with error-specific evidential independence. Its cited experiments were not used through this review as primary evidence."
+        },
+        {
+          "id": "S10",
+          "citation": "Infineon Technologies. 2025. ‘FuSa in a Nutshell—Fail Operational Systems and Active Suspensions.’ AN1106, version 1.0, 9 October.",
+          "url": "https://www.infineon.com/assets/row/public/documents/10/42/infineon-fusa-in-a-nutshell-fail-operational-systems-annd-active-suspensio-applicationnotes-en.pdf",
+          "primary_source": true,
+          "access_level": "Manufacturer's original application note opened.",
+          "locations_read": "§2.5; §§3.1–3.3, printed pp. 12–16; safety-analysis table, p. 19.",
+          "relevant_result": "Requires checking dependencies between redundant channels and independent acquisition paths, and includes fault-injection testing. This is an engineering analogue, not a philosophical account of personal review power."
+        },
+        {
+          "id": "S11",
+          "citation": "Zerilli, John, Alistair Knott, James Maclaurin, and Colin Gavaghan. 2019. ‘Algorithmic Decision-Making and the Control Problem.’ Minds and Machines 29:555–578.",
+          "url": "https://link.springer.com/article/10.1007/s11023-019-09513-7",
+          "primary_source": true,
+          "access_level": "Publisher full text opened; selected passages inspected.",
+          "locations_read": "Abstract; discussion of complementary human/machine capabilities; ACC claims-processing example.",
+          "relevant_result": "Adjacent account of complacency, overreliance and task allocation. It was not treated as establishing the manuscript's particular information-blocking argument."
+        },
+        {
+          "id": "S12",
+          "citation": "Kahl, Peter. 2026. ‘The Capture of Answerability: AI Governance and Institutional Accountability.’ Legal governance working paper, 9 May. DOI:10.5281/zenodo.20093912.",
+          "url": "https://www.researchgate.net/publication/404675192_The_Capture_of_Answerability_AI_Governance_and_Institutional_Accountability",
+          "primary_source": true,
+          "access_level": "Author-uploaded original text opened; PhilArchive and Zenodo retrievals failed.",
+          "locations_read": "Abstract; §§3.1–3.3, especially printed pp. 8–11; selected discussion of human oversight.",
+          "relevant_result": "Analyzes circular challenge when institutions control criteria, evidence and review forums. Used for this conceptual argument, not as verification of its legal interpretations."
+        },
+        {
+          "id": "S13",
+          "citation": "Pettit, Philip. 2000. ‘Democracy, Electoral and Contestatory.’ In Designing Democratic Institutions, edited by Ian Shapiro and Stephen Macedo, pp. 105–144. NYU Press.",
+          "url": "https://ppettit.scholar.princeton.edu/publications/democracy-electoral-and-contestatory",
+          "primary_source": true,
+          "access_level": "Author bibliographic record opened; chapter text inaccessible.",
+          "locations_read": "Bibliographic record only.",
+          "relevant_result": "Verified as a predecessor cited by Cohen and Suzor; no independently verified substantive overlap is claimed."
+        }
+      ],
+      "citation_audit": [
+        {
+          "manuscript_reference": "Bainbridge 1983, ‘Ironies of Automation.’",
+          "manuscript_location": "‘What the existing accounts already establish’: ‘People may lose the skills that they will later need for exceptional cases’; reference to §§1.1–2.1, pp. 775–777.",
+          "status": "verified",
+          "evidence": "The original scan confirms author, title, year, journal, volume, issue and pages. The cited sections support skill deterioration, monitoring limitations and the problem of checking alarms or displays. The page range contains the relevant passages. Publisher and DOI-registration retrieval limitations are recorded separately.",
+          "source_ids": [
+            "S2"
+          ]
+        },
+        {
+          "manuscript_reference": "Cohen and Suzor 2024, ‘Contesting the Public Interest in AI Governance.’",
+          "manuscript_location": "‘What the existing accounts already establish’: ‘an actor should not monopolize the information used to assess its conduct’ and ‘outside reviewers often must rely on internal records’; citation to §3.3.",
+          "status": "verified",
+          "evidence": "The publisher confirms both authors, title, 2024 date, volume 13(3) and DOI. Section 3.3 supports both propositions. It also allows dependence on internal functions, so the manuscript correctly avoids attributing an absolute external-independence requirement.",
+          "source_ids": [
+            "S3"
+          ]
+        },
+        {
+          "manuscript_reference": "Freiesleben, Meding, and König 2026, ‘Explainable AI Isn’t Enough! Rethinking Algorithmic Contestability.’",
+          "manuscript_location": "‘What the existing accounts already establish’: ‘distinguish changing one's circumstances to obtain a different result from challenging the result's correctness’; citation to §§1 and 5.3.",
+          "status": "verified",
+          "evidence": "The exact v1 text and submission record confirm authors, title, identifier and 15 May 2026 date. Section 1 supports the distinction and the limited usefulness of standard explanations. Section 5.3 supports the additional-feature point. The manuscript does not claim that every explanation fails or import an unrestricted mathematical guarantee.",
+          "source_ids": [
+            "S4"
+          ]
+        },
+        {
+          "manuscript_reference": "Santoni de Sio and van den Hoven 2018, ‘Meaningful Human Control over Autonomous Systems: A Philosophical Account.’",
+          "manuscript_location": "‘What the existing accounts already establish’: ‘Their tracking condition already asks how beliefs and actions would change with relevant facts, and allows reliability thresholds suited to the purpose’; citation to ‘Tracking’ and ‘Tracing.’",
+          "status": "verified",
+          "evidence": "Publisher metadata matches the reference. The named sections support counterfactual responsiveness, purpose-relative reliability, distributed control, and the connection to human understanding and responsibility. The manuscript correctly states that the immediate operator's reasons need not be tracked in every circumstance.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        {
+          "manuscript_reference": "Uncited illustrative cases and proposed test.",
+          "manuscript_location": "‘Why the route matters’: ‘A channel that delivers only one request in a million’; ‘The strongest objection: all judgment depends on something’: ‘One bounded test would deliberately omit requests from recommendations.’",
+          "status": "verified",
+          "evidence": "These passages are explicitly illustrative or proposed, rather than reports of an experiment or deployment. No external quotation, numerical result or validation study is attributed to them. Their practical effectiveness is not established by the manuscript and was not inferred by this audit.",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "This was a finite public-web search across 21 queries, cited sources and selected adjacent literature. It does not establish exhaustive originality or the absence of closer predecessors.",
+        "The complete supplied manuscript, including its bibliography, was read. External sources were inspected at the locations recorded below; availability of a full text is not a claim that every page of that external work was read.",
+        "Bainbridge's publisher page returned 403, and the university-hosted copy was unavailable. Its original article was inspected through a public scan. A separate Crossref API request also failed, so the DOI registration record was not independently opened.",
+        "Pettit's author-hosted chapter exceeded the web tool's document-size limit. An older author URL and the publisher route also failed. Only its primary bibliographic record was opened; its substantive argument is not counted as independently verified.",
+        "Some failed retrievals were resolved through alternative copies: Parasuraman and colleagues and Kahl were read as displayed original texts on ResearchGate. Search snippets and related-publication panels were not treated as primary-text evidence.",
+        "The manuscript supplies no date permitting priority judgments against very recent 2026 publications. Publication dates reported by public pages do not establish intellectual influence.",
+        "The manuscript invokes no mathematical theorem or equation. The audit checked the scope of its formal-source attribution to Freiesleben and colleagues, not every proof or legal proposition in that preprint.",
+        "The theatre, mailbox, calculator and speech-software examples are presented as illustrations. They were not treated as documented events or empirical demonstrations that a particular deployed channel meets the proposed reliability threshold."
+      ]
+    },
+    {
+      "job_id": "V08-L",
+      "accepted_event_id": "event-95b7ce2e6e224d849bbfbbb726294557",
+      "response": {
+        "bytes": 34088,
+        "path": "runs/deep-verification-20261031/results/V08-L/attempt-001/response.json",
+        "sha256": "6318e1c0c5a95a5b653cb5d4491250eac0d1a888c9b4edee69ce41c1ee217fa6"
+      },
+      "retrieval_note": "Источник проверки — отдельный принятый литературный отзыв; координатор прочитал его полностью. Доступ к каждому источнику и фактически прочитанные места указаны в sources; ограничения сохранены без повышения частичного доступа до полного.",
+      "source_access_inventory": [
+        {
+          "id": "S01",
+          "citation": "Porat, Ariel, and Alex Stein. 1997. “Liability for Uncertainty: Making Evidential Damage Actionable.” Cardozo Law Review 18: 1891 ff.",
+          "url": "https://larc.cardozo.yu.edu/clr/vol18/iss6/3/",
+          "primary_source": true,
+          "access_level": "Primary repository abstract and bibliographic record; linked full text blocked.",
+          "locations_read": "Entire abstract, particularly its corrective-justice explanation and final two paragraphs on remedies; recommended citation.",
+          "relevant_result": "Supports liability for wrongful evidential deprivation, monetary redress, and reallocation of the persuasion burden."
+        },
+        {
+          "id": "S02",
+          "citation": "Friedman, Richard D. 1997. “Dealing with Evidentiary Deficiency.” Cardozo Law Review 18: 1961–1986.",
+          "url": "https://repository.law.umich.edu/facarticles/167/",
+          "primary_source": true,
+          "access_level": "Primary repository introductory passage and metadata; full-text downloads blocked at Michigan and Cardozo.",
+          "locations_read": "Repository introduction, including paragraphs on varied doctrinal tools and intrinsic versus extrinsic remedies; recommended citation.",
+          "relevant_result": "Supports context-dependent remedies and resistance to making a separate evidential-damage tort the universal response."
+        },
+        {
+          "id": "S03",
+          "citation": "Nance, Dale A. 2010. “Adverse Inferences about Adverse Inferences.” Boston University Law Review 90: 1089–1146.",
+          "url": "https://www.bu.edu/law/journals-archive/bulr/documents/nance.pdf",
+          "primary_source": true,
+          "access_level": "Complete public PDF available; relevant passages inspected.",
+          "locations_read": "Title page; pp. 1103–1104, 1109–1115; concluding passage on p. 1146.",
+          "relevant_result": "Directly supports separating evidence management from merits and making sanctions explicit."
+        },
+        {
+          "id": "S04",
+          "citation": "Flowerree, A. K. 2026. “Epistemic Reparations as Social Epistemic Achievement.” Philosophical Studies 183: 839–856; online 21 November 2025.",
+          "url": "https://link.springer.com/article/10.1007/s11098-025-02452-3",
+          "primary_source": true,
+          "access_level": "Open publisher full text.",
+          "locations_read": "Abstract; introduction; §§2–3, especially uptake, common knowledge, reparative response, and the hostile-audience example; publication record.",
+          "relevant_result": "Accurate telling alone need not achieve repair; successful repair depends on reception and response."
+        },
+        {
+          "id": "S05",
+          "citation": "Altanian, Melanie. 2024. “Rethinking the Right to Know and the Case for Restorative Epistemic Reparation.” Journal of Social Philosophy 55(4): 728–745; online 12 September 2022.",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/josp.12492",
+          "primary_source": true,
+          "access_level": "Open publisher full text.",
+          "locations_read": "Introduction; §4, particularly paragraphs on revising practices and recognizing victims as contributors; publication and issue metadata.",
+          "relevant_result": "Restoration concerns epistemic participation and standing, not information delivery alone."
+        },
+        {
+          "id": "S06",
+          "citation": "Nissenbaum, Helen. 2019. “Contextual Integrity Up and Down the Data Food Chain.” Theoretical Inquiries in Law 20.1: 221–256.",
+          "url": "https://nissenbaum.tech.cornell.edu/papers/Contextual%20Integrity%20Up%20and%20Down.pdf",
+          "primary_source": true,
+          "access_level": "Public PDF on the author’s institutional site.",
+          "locations_read": "Title and abstract; pp. 224–226; conclusion, pp. 255–256.",
+          "relevant_result": "Supports context-sensitive informational norms and scrutiny of transformations between data and inferred attributes."
+        },
+        {
+          "id": "S07",
+          "citation": "Ross, Lewis. 2023. “Criminal Proof: Fixed or Flexible?” The Philosophical Quarterly 73(4): 1077–1099.",
+          "url": "https://eprints.lse.ac.uk/120199/1/Criminal_proof.pdf",
+          "primary_source": true,
+          "access_level": "Published-version PDF in an institutional repository.",
+          "locations_read": "Repository cover and article title page; §IV, especially pp. 1085–1087 on belief, public inquiry, and verdicts.",
+          "relevant_result": "Supports the manuscript’s attribution of an inquiry-closing, belief-supporting function to criminal conviction."
+        },
+        {
+          "id": "S08",
+          "citation": "Ross, Lewis. 2026. “When can citizens doubt criminal conviction?” Law and Philosophy. Published 12 August 2026.",
+          "url": "https://link.springer.com/article/10.1007/s10982-026-09582-7",
+          "primary_source": true,
+          "access_level": "Open publisher full text.",
+          "locations_read": "Introduction; “Believing in Conviction”; “Conviction as Institutional Testimony”; publication record.",
+          "relevant_result": "Conviction supplies defeasible testimonial evidence; special knowledge can defeat its force."
+        },
+        {
+          "id": "S09",
+          "citation": "Gardner, John. 2011. “What is Tort Law For? Part 1. The Place of Corrective Justice.” Law and Philosophy 30: 1–50.",
+          "url": "https://johngardnerathome.info/pdfs/corrective.pdf",
+          "primary_source": true,
+          "access_level": "Public author eprint; publication details independently checked at the publisher.",
+          "locations_read": "Eprint cover; typescript p. 40 and pp. 44–50. These are eprint page numbers, not journal pagination.",
+          "relevant_result": "Supplies a general foundation for purpose-sensitive substitute duties after breach."
+        },
+        {
+          "id": "S10",
+          "citation": "Federal Rules of Civil Procedure, Rule 37, with Advisory Committee Notes, especially the 2015 amendment.",
+          "url": "https://www.law.cornell.edu/rules/frcp/rule_37",
+          "primary_source": true,
+          "access_level": "Public reproduction of rule text and official committee notes.",
+          "locations_read": "Rule 37(b)(2) and (e); 2006 discussion of substitutes; 2015 discussion of restoration, expense allocation, proportionality, prejudice, and adverse presumptions.",
+          "relevant_result": "Replacement measures and remedial expense allocation are established, with limits tied to prejudice and the relevant preservation duty."
+        },
+        {
+          "id": "S11",
+          "citation": "Lambrecht, Felix. 2026. “Epistemic Reparations and a Hybrid Theory of Reparative Justice.” Philosophical Studies 183: 857–877; online 18 December 2025.",
+          "url": "https://link.springer.com/article/10.1007/s11098-025-02441-6",
+          "primary_source": true,
+          "access_level": "Open publisher full text.",
+          "locations_read": "Abstract; §§2–3; §§5.2–5.4; §§6–7; bibliographic metadata.",
+          "relevant_result": "Distinguishes restoring an epistemic good from compensating additional harms and develops an account addressing both."
+        },
+        {
+          "id": "S12",
+          "citation": "Hull, George. 2022. “Epistemic Redress.” Synthese 200, article 201.",
+          "url": "https://link.springer.com/article/10.1007/s11229-022-03613-1",
+          "primary_source": true,
+          "access_level": "Publisher abstract, metadata, and exposed notes; article body subscription-restricted.",
+          "locations_read": "Abstract and opening notes only.",
+          "relevant_result": "Identifies non-doxastic epistemic redress as relevant adjacent territory. The full argument was not available for a novelty comparison."
+        },
+        {
+          "id": "S13",
+          "citation": "American Philosophical Association public record for Jennifer Lackey’s 2022 address, “Epistemic Reparations and the Right to Be Known.”",
+          "url": "https://blog.apaonline.org/2026/04/28/2022-central-division-presidential-address-epistemic-reparations-and-the-right-to-be-known/?amp=1",
+          "primary_source": true,
+          "access_level": "Primary event/publication record only; linked article retrieval unsuccessful.",
+          "locations_read": "Address identification and links to the APA text and JSTOR.",
+          "relevant_result": "Confirms the source lead and retrieval routes, but does not establish the address’s argument."
+        },
+        {
+          "id": "S14",
+          "citation": "Gaston v. Hazeltine, No. 3:21-cv-00896, Document 77, N.D. Indiana, 24 January 2023.",
+          "url": "https://law.justia.com/cases/federal/district-courts/indiana/inndce/3:2021cv00896/109304/77/",
+          "primary_source": true,
+          "access_level": "Public reproduction of the judicial opinion.",
+          "locations_read": "Discussion of negligent spoliation and the alternative-proof/double-recovery analysis, document pp. 20–21.",
+          "relevant_result": "Led to Thompson’s original discussion of substitution costs; also cautions against overlapping recovery. No general survey of current law was inferred."
+        },
+        {
+          "id": "S15",
+          "citation": "Thompson ex rel. Thompson v. Owensby, 704 N.E.2d 134, 140 (Indiana Court of Appeals 1998).",
+          "url": "https://caselaw.findlaw.com/court/in-court-of-appeals/1375916.html",
+          "primary_source": true,
+          "access_level": "Public reproduction of the judicial opinion.",
+          "locations_read": "Facts; majority §§II–III; notes 1, 6–7; concurrence and its scope limitations.",
+          "relevant_result": "Recognizes a viable preservation-duty claim and identifies costs of obtaining alternative proof as a possible damages basis."
+        }
+      ],
+      "citation_audit": [
+        {
+          "manuscript_reference": "Porat and Stein 1997",
+          "manuscript_location": "Section 2, “The contribution and its antecedents”: “liability for wrongfully worsened uncertainty, including compensation and changes to the burden of persuasion.”",
+          "status": "partially_verified",
+          "evidence": "Identity, year, journal, and starting page match. The [repository abstract](https://larc.cardozo.yu.edu/clr/vol18/iss6/3/) expressly supports both attributed remedies. The manuscript accurately identifies its cited evidence as an abstract. The linked full article was inaccessible, preventing a complete scope comparison.",
+          "source_ids": [
+            "S01"
+          ]
+        },
+        {
+          "manuscript_reference": "Friedman 1997",
+          "manuscript_location": "Section 2, “The contribution and its antecedents”: “remedies adapted to different circumstances.”",
+          "status": "partially_verified",
+          "evidence": "The [Michigan record](https://repository.law.umich.edu/facarticles/167/) verifies the identity and complete page range. Its introductory passage supports varied doctrinal responses and distinguishes intrinsic and extrinsic remedies. The manuscript appropriately cites that passage. The full-text downloads were blocked.",
+          "source_ids": [
+            "S02"
+          ]
+        },
+        {
+          "manuscript_reference": "Nance 2010",
+          "manuscript_location": "Sections 2 and 5: “concealing a remedy”; “facts be taken as fixed within litigation.”",
+          "status": "verified",
+          "evidence": "The [article](https://www.bu.edu/law/journals-archive/bulr/documents/nance.pdf) supports the cited distinctions: role separation at pp. 1103–1104, preclusion at p. 1110, malpractice consequences at p. 1112, and criticism of masking evidence-management remedies at pp. 1113–1114. The manuscript presents the broader downstream duty as its own extension.",
+          "source_ids": [
+            "S03"
+          ]
+        },
+        {
+          "manuscript_reference": "Flowerree 2026",
+          "manuscript_location": "Section 2, “The contribution and its antecedents”: “audience uptake and an appropriate reparative response.”",
+          "status": "verified",
+          "evidence": "The [publisher text](https://link.springer.com/article/10.1007/s11098-025-02452-3) verifies the title, volume, pages, 2026 issue year, and 2025 online publication. Sections 2–3 support the attribution. Flowerree treats uptake and response as necessary conditions of success, not a guarantee owed in every individual case.",
+          "source_ids": [
+            "S04"
+          ]
+        },
+        {
+          "manuscript_reference": "Altanian 2024",
+          "manuscript_location": "Section 2, “The contribution and its antecedents”: “recognize victims as contributors, beyond providing them with knowledge.”",
+          "status": "verified",
+          "evidence": "The [publisher article](https://onlinelibrary.wiley.com/doi/10.1111/josp.12492) confirms all supplied bibliographic details, including first online publication in 2022. Section 4 explicitly supports the attribution concerning unjust practices and victims’ epistemic contributions.",
+          "source_ids": [
+            "S05"
+          ]
+        },
+        {
+          "manuscript_reference": "Nissenbaum 2019",
+          "manuscript_location": "Section 4, “What assistance should preserve”: “context and transformations of data as significant for informational norms.”",
+          "status": "verified",
+          "evidence": "The [author-hosted PDF](https://nissenbaum.tech.cornell.edu/papers/Contextual%20Integrity%20Up%20and%20Down.pdf) confirms the reference. Pages 225–226 explain appropriate contextual flows; pp. 255–256 address transformed data, transparency, and accountability. This supports the limited attribution, without independently establishing the manuscript’s reparative debt.",
+          "source_ids": [
+            "S06"
+          ]
+        },
+        {
+          "manuscript_reference": "Ross 2023",
+          "manuscript_location": "Section 5, “Binding a question without proving its answer”: convictions should “support rational belief in guilt” and provide grounds for ending ordinary inquiry.",
+          "status": "verified",
+          "evidence": "The [published LSE copy](https://eprints.lse.ac.uk/120199/1/Criminal_proof.pdf) confirms the citation. Section IV, especially pp. 1086–1087, supports both claims. The manuscript appropriately restricts this account to criminal conviction rather than all institutional outcomes.",
+          "source_ids": [
+            "S07"
+          ]
+        },
+        {
+          "manuscript_reference": "Ross 2026",
+          "manuscript_location": "Section 5, “Binding a question without proving its answer”: “defeasible institutional testimony.”",
+          "status": "verified",
+          "evidence": "The [publisher version](https://link.springer.com/article/10.1007/s10982-026-09582-7) verifies the singular title, DOI, journal, and 12 August 2026 publication date. “Conviction as Institutional Testimony” explicitly supports the attribution and allows overriding knowledge or defeaters.",
+          "source_ids": [
+            "S08"
+          ]
+        },
+        {
+          "manuscript_reference": "Uncited numerical illustration and stipulated procedures",
+          "manuscript_location": "Section 6, “Evidence, privacy, and limits of repair”: “eighty-five percent”; Section 3: “stipulated features of a hypothetical procedure.”",
+          "status": "verified",
+          "evidence": "The mixture arithmetic is correct: 0.90 × 0.90 + 0.10 × 0.40 = 0.85. Conditioning on the remedial category gives the stipulated 0.40. The no-additional-confirmation statement is valid under its explicit assumption that the recipient knows the relevant grounds and a rule fully determining the outcome. No external theorem is attributed. The procedures and frequencies are expressly hypothetical and do not require empirical corroboration.",
+          "source_ids": []
+        },
+        {
+          "manuscript_reference": "Quotation and formal-source check",
+          "manuscript_location": "Section 4, “What assistance should preserve”: “This award compensates for the loss of relevant evidence”; opening example: “successful claims” and “unsuccessful claims.”",
+          "status": "verified",
+          "evidence": "These are proposed wording and hypothetical labels, not quotations attributed to external publications. The manuscript contains no externally attributed displayed theorem or equation requiring an additional formal-source check. No demonstrable quotation error was found in the accessible cited material.",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "The complete supplied manuscript, including its bibliography, was read. Its supplied hash was used only as an identifier and was not recomputed.",
+        "Research used public web search and public source openings only. No manuscript identity, project history, other manuscript, private material, or author contact was sought.",
+        "This was a finite English-language search as of 31 October 2026. No manuscript completion date was supplied, so publication chronology does not establish priority over the manuscript’s composition.",
+        "Porat and Stein’s repository abstract and Friedman’s repository introductory passage were accessible, but their linked full texts returned HTTP 403. Their narrow cited attributions are supported; their complete arguments and possible closer overlaps remain unchecked.",
+        "Full source availability does not mean every page was read. The source inventory identifies the passages actually inspected.",
+        "Hull’s publisher page provided an abstract and notes, not the full argument. Attempts to retrieve Lackey’s 2022 address through PhilArchive and the APA failed; JSTOR returned no usable text. Neither was treated as a fully read predecessor.",
+        "Matsunaga’s article on reparations bureaucracy and Lisle-Mainwaring on continuing reputational mitigation appeared as relevant search leads, but their opened pages were blocked. Their snippets were not used to establish findings.",
+        "The legal materials were used as historical and conceptual comparators. A comprehensive check of their current precedential treatment, or of every jurisdiction’s law, was not undertaken."
+      ]
+    },
+    {
+      "job_id": "V09-L",
+      "accepted_event_id": "event-938f1b1808084d6a970fd4983bc34c44",
+      "response": {
+        "bytes": 33320,
+        "path": "runs/deep-verification-20261031/results/V09-L/attempt-001/response.json",
+        "sha256": "d6428a55f61df1348d80d3ae6a548ee32a8983cb9501413dcf198892f7ad9e22"
+      },
+      "retrieval_note": "Источник проверки — отдельный принятый литературный отзыв; координатор прочитал его полностью. Доступ к каждому источнику и фактически прочитанные места указаны в sources; ограничения сохранены без повышения частичного доступа до полного.",
+      "source_access_inventory": [
+        {
+          "id": "S1",
+          "citation": "Sekine, Kenta. 2026. “In Defence of Second-Order Reasons.” Canadian Journal of Law & Jurisprudence 39(1): 200–223.",
+          "url": "https://www.cambridge.org/core/journals/canadian-journal-of-law-and-jurisprudence/article/in-defence-of-secondorder-reasons/D56F92244ED38017F40338C7869A9121",
+          "primary_source": true,
+          "access_level": "Publisher full text; initial DOI opening failed, direct article opening succeeded.",
+          "locations_read": "Publication information; §3’s discussion of psychological control and the judicial experiment; notes 39–43; surrounding argument.",
+          "relevant_result": "Confirms the empirical inference and its qualifications. Notes 40 and 43 identify Rocchè and Ehrenberg as direct antecedents."
+        },
+        {
+          "id": "S2",
+          "citation": "Wittlin, Maggie. 2023. “Binding Hercules: A Proposal for Bench Trials.” Vanderbilt Law Review 76: 1735–1768.",
+          "url": "https://cdn.vanderbilt.edu/vu-wordpress-0/wp-content/uploads/sites/278/2023/11/27125213/Binding-Hercules-A-Proposal-for-Bench-Trials.pdf",
+          "primary_source": true,
+          "access_level": "Publisher PDF text accessible.",
+          "locations_read": "Title and journal information; pp. 1757–60, especially pp. 1759–60 and note 143.",
+          "relevant_result": "Supports the manuscript’s account of statistical uncertainty, partial discounting, and the concern about an improper basis of decision."
+        },
+        {
+          "id": "S3",
+          "citation": "Wistrich, Andrew J., Chris Guthrie, and Jeffrey J. Rachlinski. 2005. “Can Judges Ignore Inadmissible Information? The Difficulty of Deliberately Disregarding.” University of Pennsylvania Law Review 153: 1251–1345.",
+          "url": "https://scholarship.law.cornell.edu/lsrp_papers/20/",
+          "primary_source": true,
+          "access_level": "Institutional metadata and abstract; PDF download failed.",
+          "locations_read": "Title, author list, publication statement and abstract. Also opened Penn and Vanderbilt records.",
+          "relevant_result": "Confirms bibliographic identity; detailed checks required S4."
+        },
+        {
+          "id": "S4",
+          "citation": "Wistrich, Guthrie and Rachlinski (2005), original article reproduced as a public transcription.",
+          "url": "https://www.scribd.com/doc/148009020/9-Can-Judges-Ignore",
+          "primary_source": true,
+          "access_level": "Primary-text reproduction on a third-party host; not authenticated against a publisher scan.",
+          "locations_read": "Star-pagination pp. 1283–84, 1300–03 and 1336–37; notes 193–204, particularly 201–203.",
+          "relevant_result": "The accessible transcription agrees with the manuscript’s counts, reported significance, procedure, subgroup caveat and confidence observation."
+        },
+        {
+          "id": "S5",
+          "citation": "Keeling, Sophie. 2024. “Responding to Second-Order Reasons.” Philosophy and Phenomenological Research 109: 799–818.",
+          "url": "https://oai.e-spacio.uned.es/server/api/core/bitstreams/9f1abaa9-65ba-4db0-8296-93b68e536cbc/content",
+          "primary_source": true,
+          "access_level": "Published article in an institutional repository.",
+          "locations_read": "Title and publication information; §3.1, §3.2.1, §3.2.4 and relevant portions of §3.3; especially pp. 806–12.",
+          "relevant_result": "Confirms the hybrid basing account and the example of a fixed decision whose basis changes after a reminder."
+        },
+        {
+          "id": "S6",
+          "citation": "Hoeft, Leonard, Michael Kurschilgen, and Wladislaw Mill. 2024. “Norms as Obligations.” CRC TR 224 Discussion Paper 610.",
+          "url": "https://www.crctr224.de/research/discussion-papers/archive/dp610/@@download/file/CRCTR224_2024_610.pdf",
+          "primary_source": true,
+          "access_level": "Full institutional working-paper PDF text.",
+          "locations_read": "Cover and title page; §3, printed pp. 6–8; §6, printed pp. 12–14; surrounding introduction and results.",
+          "relevant_result": "Confirms the cited design and discussion of alternative explanations."
+        },
+        {
+          "id": "S7",
+          "citation": "Hoeft, Leonard, Michael Kurschilgen, and Wladislaw Mill. 2025. “Norms as Obligations.” International Review of Law & Economics 81: 106235.",
+          "url": "https://pure.mpg.de/pubman/item/item_3639909_1/component/file_3639910/1-s2.0-S0144818824000553-main.pdf",
+          "primary_source": true,
+          "access_level": "Published article PDF in the Max Planck repository.",
+          "locations_read": "Publication header, author list, abstract and relevant design/discussion passages.",
+          "relevant_result": "Verifies the working paper’s stated publication identity and 2025 volume."
+        },
+        {
+          "id": "S8",
+          "citation": "Ehrenberg, Kenneth M. 2024. “How Exclusionary Reasons Guide.” Jurisprudence 15(1): 71–76.",
+          "url": "https://www.tandfonline.com/doi/pdf/10.1080/20403313.2023.2297581",
+          "primary_source": true,
+          "access_level": "Publisher full-text PDF extraction.",
+          "locations_read": "Entire short article, especially pp. 72–75.",
+          "relevant_result": "Direct philosophical predecessor for the manuscript’s restrictions on what counts as guidance."
+        },
+        {
+          "id": "S9",
+          "citation": "Yoo, Hong Il. 2012. “The Confounding Effects of Consumer Heterogeneity on Model-Based Inference of Attribute Non-Attendance.” UNSW working paper 2012 ECON 47.",
+          "url": "https://research.economics.unsw.edu.au/RePEc/papers/2012-47.pdf",
+          "primary_source": true,
+          "access_level": "Institutional full-text working paper.",
+          "locations_read": "§§I–II; §III’s setup and scale/coefficient-heterogeneity examples, printed pp. 1–7; equations (1)–(4).",
+          "relevant_result": "An explicit methodological precedent for questioning whether inferred zero-weight classes represent actual ignoring."
+        },
+        {
+          "id": "S10",
+          "citation": "Allen, Roy. “Exogenous Consideration and Extended Random Utility.” arXiv:2405.13945v1; repository submission dated 22 May 2024.",
+          "url": "https://arxiv.org/html/2405.13945v1",
+          "primary_source": true,
+          "access_level": "Author-deposited full text and repository record.",
+          "locations_read": "Abstract; model definitions; §§3–3.1, Propositions 1–2 and Corollary 1; portions of Appendix A.1.",
+          "relevant_result": "A formal precedent for exact observational equivalence across bounded variation, with distinct latent consideration mechanisms."
+        },
+        {
+          "id": "S11",
+          "citation": "Rocchè, Giuseppe. 2024. “Exclusionary Reasons and Mental Contamination: A Challenge for Raz’s Theory of Authority.” Revus 52. DOI: 10.4000/12nic.",
+          "url": "https://iris.unipa.it/handle/10447/665064",
+          "primary_source": true,
+          "access_level": "Institutional metadata and author abstract only; full-text attempts unsuccessful.",
+          "locations_read": "Title, bibliographic fields and abstract. No article-body pages read.",
+          "relevant_result": "Identifies a relevant direct predecessor mentioned by Sekine. Its detailed argument and overlap remain unverified."
+        }
+      ],
+      "citation_audit": [
+        {
+          "manuscript_reference": "Sekine 2026, bibliography and §3, notes 39–43.",
+          "manuscript_location": "What the Verdict Does Not Tell Us — “most judges cannot exclude the consideration, but some can”; discussion of notes 39 and 43.",
+          "status": "verified",
+          "evidence": "Publisher metadata matches the entry. §3 makes the stated inference; note 39 treats preventing deliberation as a route to avoiding action for a reason, and note 43 preserves broader guidance. The text distinguishes tested difficulty from impossibility. The manuscript’s stronger reading remains an interpretation, which it identifies as such. See [Sekine, §3 and notes 39–43](https://www.cambridge.org/core/journals/canadian-journal-of-law-and-jurisprudence/article/in-defence-of-secondorder-reasons/D56F92244ED38017F40338C7869A9121).",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        {
+          "manuscript_reference": "Wittlin 2023, bibliography, pp. 1759–60 and note 143.",
+          "manuscript_location": "What the Verdict Does Not Tell Us — “distinguishes discounting evidence from discarding it.”",
+          "status": "verified",
+          "evidence": "Identity and pagination match. Note 143 discusses the same exposed subgroups and nonsignificance; p. 1760 distinguishes partial discounting from complete disregard and explains the improper-basis concern. The manuscript credits this substantive overlap. See [Wittlin, pp. 1759–60](https://cdn.vanderbilt.edu/vu-wordpress-0/wp-content/uploads/sites/278/2023/11/27125213/Binding-Hercules-A-Proposal-for-Bench-Trials.pdf).",
+          "source_ids": [
+            "S2"
+          ]
+        },
+        {
+          "manuscript_reference": "Wistrich, Guthrie and Rachlinski 2005, bibliography.",
+          "manuscript_location": "Bibliography — “Can Judges Ignore Inadmissible Information? The Difficulty of Deliberately Disregarding.”",
+          "status": "verified",
+          "evidence": "Author list, title, year and journal match institutional and publisher records; the reproduced article supplies the cited pagination. See the [Cornell record](https://scholarship.law.cornell.edu/lsrp_papers/20/) and [publisher record](https://pennlawreview.com/2020/04/28/can-judges-ignore-inadmissible-information-the-difficulty-of-deliberately-disregarding/).",
+          "source_ids": [
+            "S3",
+            "S4"
+          ]
+        },
+        {
+          "manuscript_reference": "Wistrich, Guthrie and Rachlinski 2005, pp. 1283–84, 1300–03 and 1336–37.",
+          "manuscript_location": "What the Verdict Does Not Tell Us — “27/55”, “7/35”, “1/13”, and “Fisher’s exact p = .42.”",
+          "status": "partially_verified",
+          "evidence": "The transcription agrees on the counts, subgroup formation, instruction, and probative-value caveat. The test appears in note 203. Relevant locations are §II.D, §III.C and the criminal-case appendix. Partial status reflects access to a [third-party transcription](https://www.scribd.com/doc/148009020/9-Can-Judges-Ignore), without an accessible publisher scan.",
+          "source_ids": [
+            "S4"
+          ]
+        },
+        {
+          "manuscript_reference": "Wistrich, Guthrie and Rachlinski 2005, pp. 1301–02.",
+          "manuscript_location": "What the Verdict Does Not Tell Us — “They found a confidence difference where verdicts did not differ.”",
+          "status": "partially_verified",
+          "evidence": "Note 201 reports the earlier-version confidence finding and unchanged conviction rates. It supports the sentence, subject to the same [transcription limitation](https://www.scribd.com/doc/148009020/9-Can-Judges-Ignore).",
+          "source_ids": [
+            "S4"
+          ]
+        },
+        {
+          "manuscript_reference": "Keeling 2024, bibliography and §§3.1–3.3.",
+          "manuscript_location": "What the Verdict Does Not Tell Us — “a decision that stays fixed while its basis changes”; “combines a causal role with an appraisal.”",
+          "status": "verified",
+          "evidence": "The published PDF confirms identity and pagination. §3.2.4 contains the promised school-choice example; §3.1 specifies causal-sustaining and dispositional appraisal conditions. The manuscript’s attribution is accurate. See [Keeling, pp. 806–12](https://oai.e-spacio.uned.es/server/api/core/bitstreams/9f1abaa9-65ba-4db0-8296-93b68e536cbc/content).",
+          "source_ids": [
+            "S5"
+          ]
+        },
+        {
+          "manuscript_reference": "Hoeft, Kurschilgen and Mill 2024, §§3 and 6; 2025 publication information.",
+          "manuscript_location": "What the Verdict Does Not Tell Us — “authoritative requests affect information acquisition in a modified dictator game”; Bibliography.",
+          "status": "verified",
+          "evidence": "The working-paper cover confirms authors, date and number 610. §§3 and 6 support the design and alternative-explanation attribution. The published PDF confirms volume 81, article 106235 and year 2025. See the [working paper](https://www.crctr224.de/research/discussion-papers/archive/dp610/@@download/file/CRCTR224_2024_610.pdf) and [published article](https://pure.mpg.de/pubman/item/item_3639909_1/component/file_3639910/1-s2.0-S0144818824000553-main.pdf).",
+          "source_ids": [
+            "S6",
+            "S7"
+          ]
+        }
+      ],
+      "limitations": [
+        "The complete supplied manuscript, including its bibliography, was read. The supplied hash was retained without recomputation.",
+        "Four cited works were checked in publisher or institutional full text. For Wistrich, Guthrie and Rachlinski, institutional identity records opened, but their PDF links failed. The relevant original-paper passages were read in a public third-party transcription; they were not checked against a publisher scan. Those citation checks are therefore marked partially_verified.",
+        "Rocchè’s institutional record and abstract opened, but the repository PDF returned 403, OpenEdition presented a bot challenge, and ResearchGate supplied no full text. No conclusion about his detailed argument or the absence of a matching construction is warranted.",
+        "Search results were used to locate texts, not as substitutes for reading them. Unopened results were not counted as inspected predecessors.",
+        "The search covered several formulations and adjacent literatures but was not exhaustive. No claim of comprehensive originality, priority, or absence of further predecessors is made.",
+        "Published experimental reporting was checked; underlying participant data were not obtained, and the reported Fisher test was not independently recomputed.",
+        "Only public web research was used. No agents, local files, shell tools, project history, private sources, author contact, manuscript modification, or publication actions were used."
+      ]
+    },
+    {
+      "job_id": "V10-L",
+      "accepted_event_id": "event-96b6ee9e4f9345ce870303c7375c80c4",
+      "response": {
+        "bytes": 45005,
+        "path": "runs/deep-verification-20261031/results/V10-L/native-projection-v3/response.json",
+        "sha256": "e374e4ee02e172ae0b88dfa25d19a865971b95d9642d5baf6e4447a8273ba64a"
+      },
+      "retrieval_note": "Источник проверки — отдельный принятый литературный отзыв; координатор прочитал его полностью. Доступ к каждому источнику и фактически прочитанные места указаны в sources; ограничения сохранены без повышения частичного доступа до полного.",
+      "source_access_inventory": [
+        {
+          "id": "S1",
+          "citation": "James, William. “The Will to Believe,” in The Will to Believe and Other Essays in Popular Philosophy, first edition 1897.",
+          "url": "https://www.gutenberg.org/files/26659/26659-h/26659-h.htm",
+          "primary_source": true,
+          "access_level": "Open transcription of a 1912 impression.",
+          "locations_read": "Title and publication-history pages; essay §§IX–X, especially printed pp. 23–28.",
+          "relevant_result": "Prior confidence can enable interpersonal goods and possible religious encounter; the religious argument explicitly involves risk."
+        },
+        {
+          "id": "S2",
+          "citation": "Alston, William P. 1994. “Précis of Perceiving God.” Philosophy and Phenomenological Research 54(4):863–868.",
+          "url": "https://www.andrewmbailey.com/wpa/PrecisPerceiving.pdf",
+          "primary_source": true,
+          "access_level": "Open scan of the published précis.",
+          "locations_read": "Opening thesis, pp. 863–864; continuation, self-support, and checks, pp. 865–866; religious self-support discussion, p. 868.",
+          "relevant_result": "Distinguishes rational participation from additional self-support and recognizes doctrinal and spiritual checks. It does not make agreement the sole test."
+        },
+        {
+          "id": "S3",
+          "citation": "Nguyen, C. Thi. “Echo Chambers and Epistemic Bubbles,” penultimate author manuscript.",
+          "url": "https://objectionable.net/wp-content/uploads/2018/09/nguyen-echo-chambers-and-epistemic-bubbles.pdf",
+          "primary_source": true,
+          "access_level": "Open author PDF.",
+          "locations_read": "pp. 1–3; pp. 7–8, including the Paleo example and footnote 4; echo-chamber definition, pp. 9–10.",
+          "relevant_result": "Explicitly identifies selection-guaranteed agreement as defective corroboration and distinguishes it from other forms of testimonial dependence."
+        },
+        {
+          "id": "S4",
+          "citation": "Nguyen, C. Thi. “Echo Chambers and Epistemic Bubbles.” Episteme 17(2), 2020:141–161; online 13 September 2018.",
+          "url": "https://doi.org/10.1017/epi.2018.32",
+          "primary_source": true,
+          "access_level": "Publisher abstract and bibliographic record.",
+          "locations_read": "Publication date, abstract, volume, issue, pages, and DOI.",
+          "relevant_result": "Confirms the identity of the manuscript’s citation and supplies its omitted publication details."
+        },
+        {
+          "id": "S5",
+          "citation": "Kent, Stephen A. “The History of Credibility Attacks Against Former Cult Members.” Public manuscript.",
+          "url": "https://fecris.org/wp-content/uploads/2015/05/Kent-EN.pdf",
+          "primary_source": true,
+          "access_level": "Open PDF.",
+          "locations_read": "Title and abstract; conclusion, pp. 15–16.",
+          "relevant_result": "Rejects blanket exclusion of former-member testimony while requiring corroboration and allowing deception."
+        },
+        {
+          "id": "S6",
+          "citation": "Buchak, Lara. “Can it be Rational to Have Faith?” Chapter 12, author text.",
+          "url": "https://www.theapj.com/wp-content/uploads/2012/08/Buchak_Can_it_be_Rational_to_have_Faith.pdf",
+          "primary_source": true,
+          "access_level": "Open 36-page manuscript PDF.",
+          "locations_read": "§III; §IV, especially manuscript pp. 15–16; relevant portions of §§V–VI; §VIII on postponement costs.",
+          "relevant_result": "Supports the distinction between credence and commitment, including investigation undertaken for purposes other than deciding whether to perform the committed act."
+        },
+        {
+          "id": "S7",
+          "citation": "Chandler, Jake, and Victoria S. Harrison, eds. 2012. Probability in the Philosophy of Religion. Oxford University Press.",
+          "url": "https://academic.oup.com/book/7423",
+          "primary_source": true,
+          "access_level": "Publisher metadata and contents; separate chapter endpoint inaccessible.",
+          "locations_read": "Publication information and chapter 12 listing.",
+          "relevant_result": "Confirms editors, publisher, 2012 publication, and Buchak’s chapter title and authorship."
+        },
+        {
+          "id": "S8",
+          "citation": "Buchak, Lara. “Faith and Steadfastness in the Face of Counter-Evidence.” Repository manuscript.",
+          "url": "https://escholarship.org/content/qt9x9649v4/qt9x9649v4_noSplash_6a388f192bbe86349cf26bdd2dd41ad0.pdf",
+          "primary_source": true,
+          "access_level": "Initial direct requests failed; indexed opening subsequently returned the manuscript text.",
+          "locations_read": "§§1–2; §4, manuscript pp. 14–16; §5, pp. 17–18; §7, pp. 20–23.",
+          "relevant_result": "Supports ordinary credence updating, possible epistemic superiority of the later perspective, defeasible commitment, and the two connections between faith and belief."
+        },
+        {
+          "id": "S9",
+          "citation": "Buchak, Lara. 2017. “Faith and steadfastness in the face of counter-evidence.” International Journal for Philosophy of Religion 81:113–133.",
+          "url": "https://static1.squarespace.com/static/577c3a8415d5db726ef3e3bd/t/5a036440f9619a5d8dd58d5c/1510171713210/A12%2BFaith%2Band%2BSteadfastness.pdf",
+          "primary_source": true,
+          "access_level": "Published article hosted through the author’s website.",
+          "locations_read": "First-page publication details; pp. 123–125 and 127–128.",
+          "relevant_result": "Confirms publication identity and independently checks the manuscript’s principal interpretations."
+        },
+        {
+          "id": "S10",
+          "citation": "Dhamma.org. “Code of Discipline.”",
+          "url": "https://www.dhamma.org/en/about/code",
+          "primary_source": true,
+          "access_level": "Open current official webpage.",
+          "locations_read": "Introduction; Self Discipline & Commitments; Acceptance of the Teacher and the Technique; Other Techniques, Rites, and Forms of Worship.",
+          "relevant_result": "Specifies full-course participation, compliance with instructions, and use of the prescribed technique."
+        },
+        {
+          "id": "S11",
+          "citation": "Dhamma.org. “Questions & Answers About the Technique of Vipassana Meditation.”",
+          "url": "https://www.dhamma.org/en/about/qanda",
+          "primary_source": true,
+          "access_level": "Open current official webpage.",
+          "locations_read": "Questions about course length, sitting, capability, staying for the entire course, and physical suitability.",
+          "relevant_result": "Verifies the conditional manageability statement, provision of chairs, and invitation to discuss physical limitations."
+        },
+        {
+          "id": "S12",
+          "citation": "Hovhannisyan, Vahe. 2024. “I Left Vipassana on Day Five.” 20 May.",
+          "url": "https://vahehovhannisyan.com/i-left-vipassana-on-day-five",
+          "primary_source": true,
+          "access_level": "Open first-person webpage.",
+          "locations_read": "Displayed date; opening and injury account; third-day practice; chair paragraph; day-four session; departure discussion.",
+          "relevant_result": "Supports the reported trajectory, subject to the source omissions identified in L1. It is testimony, not independent corroboration."
+        },
+        {
+          "id": "S13",
+          "citation": "Christensen, David. 2011. “Disagreement, Question-Begging, and Epistemic Self-Criticism.” Philosophers’ Imprint 11(6):1–22.",
+          "url": "https://quod.lib.umich.edu/cgi/p/pod/dod-idx/disagreement-question-begging-and-epistemic-self-criticism.pdf?c=phimp%3Bidno%3D3521354.0011.006%3Bformat%3Dpdf",
+          "primary_source": true,
+          "access_level": "Primary article text obtained through indexed opening after direct access failures.",
+          "locations_read": "pp. 1–2; §7 and especially §7b, pp. 17–18; opening of §8.",
+          "relevant_result": "Provides a close antecedent concerning non-question-begging assessment of dissenters’ epistemic credentials."
+        },
+        {
+          "id": "S14",
+          "citation": "Harman, Elizabeth. 2015. “Transformative Experiences and Reliance on Moral Testimony.” Author manuscript dated 13 March.",
+          "url": "https://www.princeton.edu/~eharman/documents/TransformativeExperiences.pdf",
+          "primary_source": true,
+          "access_level": "Open institutional PDF.",
+          "locations_read": "Introduction; opening argument; discussion of retrospective attachment and testimonial reliability, manuscript pp. 19–23.",
+          "relevant_result": "Adjacent rather than equivalent: retrospective satisfaction can mislead prospective evaluation, but Harman’s mechanism is attachment and value judgment, not exclusion of dissenting participants."
+        },
+        {
+          "id": "S15",
+          "citation": "Buchak, Lara. 2023. “Faith and traditions.” Noûs 57(3):740–759; online 2022.",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/nous.12427",
+          "primary_source": true,
+          "access_level": "Open publisher full text.",
+          "locations_read": "Abstract and introduction; closing discussion of convictions; §5, especially the three conditions for rational faith and selective attention.",
+          "relevant_result": "Offers a more directly institutional neighboring account than the two Buchak texts cited in V10, while retaining responsiveness of credence to evidence."
+        },
+        {
+          "id": "S16",
+          "citation": "International Council for Harmonisation. 2019. E9(R1), Addendum on Estimands and Sensitivity Analysis in Clinical Trials.",
+          "url": "https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf",
+          "primary_source": true,
+          "access_level": "Open official final guideline, adopted 20 November 2019.",
+          "locations_read": "§§A.3.2–A.3.4, printed pp. 7–12; §A.4, pp. 13–14; §A.5.1, pp. 15–16.",
+          "relevant_result": "A methodological antecedent for specifying the target question before deciding how discontinuation and subsequent observations should count."
+        },
+        {
+          "id": "S17",
+          "citation": "Cohen, Stewart. 2002. “Basic Knowledge and the Problem of Easy Knowledge.” Philosophy and Phenomenological Research 65(2):309–329.",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1933-1592.2002.tb00204.x",
+          "primary_source": true,
+          "access_level": "Publisher metadata and references only; PDF route redirected to the abstract/record page.",
+          "locations_read": "Title, author, issue date, pagination, DOI, and references.",
+          "relevant_result": "Identity verified as a literature lead. The substantive argument was not verified and does not support a novelty finding here."
+        },
+        {
+          "id": "S18",
+          "citation": "Frangakis, Constantine E., and Donald B. Rubin. 2002. “Principal Stratification in Causal Inference.” Biometrics 58(1):21–29.",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.0006-341X.2002.00021.x",
+          "primary_source": true,
+          "access_level": "Publisher abstract, metadata, and references only.",
+          "locations_read": "Abstract and bibliographic information.",
+          "relevant_result": "The abstract identifies post-treatment selection and dropout as concerns; the full argument was not read, so no detailed equivalence to V10 is claimed."
+        },
+        {
+          "id": "S19",
+          "citation": "ICH. 2017. E9(R1), draft technical document dated 16 June, hosted by FDA.",
+          "url": "https://www.fda.gov/media/108698/download",
+          "primary_source": true,
+          "access_level": "Open official draft PDF.",
+          "locations_read": "Cover; §§A.1, A.3.2, A.4, and relevant missing-data passages in A.5.",
+          "relevant_result": "An earlier version encountered during research. The final 2019 document, S16, is the basis for the substantive comparison."
+        },
+        {
+          "id": "S20",
+          "citation": "Buchak, Lara. “Faith.” Author research page.",
+          "url": "https://www.larabuchak.net/faith",
+          "primary_source": true,
+          "access_level": "Open author webpage.",
+          "locations_read": "Research descriptions and links to the 2012, 2017, and traditions papers.",
+          "relevant_result": "Used to retrieve primary papers and discover the later traditions argument."
+        },
+        {
+          "id": "S21",
+          "citation": "Riebel, Linda. 1996. “Self-Sealing Doctrines, the Misuse of Power, and Recovered Memory.” Transactional Analysis Journal 26(1):40–45.",
+          "url": "https://www.researchgate.net/publication/258191349_Self-Sealing_Doctrines_the_Misuse_of_Power_and_Recovered_Memory",
+          "primary_source": true,
+          "access_level": "Author-uploaded article with publicly accessible full-text extraction.",
+          "locations_read": "p. 40, religious examples; p. 43, “Harming and Healing”; printed issue date.",
+          "relevant_result": "Earlier discussion of preserving a practice’s authority by attributing disappointing results to participants’ deficient faith or performance."
+        },
+        {
+          "id": "S22",
+          "citation": "Riebel 1996, publisher record.",
+          "url": "https://journals.sagepub.com/doi/10.1177/036215379602600108",
+          "primary_source": true,
+          "access_level": "Publisher metadata and abstract; article access restricted.",
+          "locations_read": "Title, author, first-publication date, volume, issue, and DOI.",
+          "relevant_result": "Confirms January 1996 publication, correcting the misleading 2017 date displayed by the other platform."
+        },
+        {
+          "id": "S23",
+          "citation": "Stilwell, Phil. 2026 public preprint. “When ‘Ask and You Shall Receive’ Fails: Hermeneutic Immunization, Spiritual Self-Blame, and the Epistemology of Petitionary Prayer.”",
+          "url": "https://philarchive.org/archive/STIWQM",
+          "primary_source": true,
+          "access_level": "Public primary text returned through indexed opening after an initial 403.",
+          "locations_read": "Abstract and introduction; content-preservation constraint, p. 6; faith-deficiency discussion, pp. 10–11; opening of interpretation/immunization discussion, p. 12.",
+          "relevant_result": "Close overlap in preserving the content of religious promises across outcomes and resisting retrospective attribution of failure to deficient faith."
+        },
+        {
+          "id": "S24",
+          "citation": "PhilArchive. Archival history for Stilwell, “When ‘Ask and You Shall Receive’ Fails.”",
+          "url": "https://philarchive.org/versions/STIWQM",
+          "primary_source": true,
+          "access_level": "Open public repository record.",
+          "locations_read": "Version 1 and version 2 upload entries.",
+          "relevant_result": "Records uploads on 18 May and 16 August 2026. Does not establish V10’s composition date or any relationship between authors."
+        },
+        {
+          "id": "S25",
+          "citation": "Munro, Daniel. “Cults, Conspiracies, and Fantasies of Knowledge.” Episteme 21(3), 2024:949–970; online 2023.",
+          "url": "https://www.cambridge.org/core/journals/episteme/article/cults-conspiracies-and-fantasies-of-knowledge/CB17D336003DAA3A1B29BD54E4A43418",
+          "primary_source": true,
+          "access_level": "Open publisher full text.",
+          "locations_read": "Abstract, publication information, and discussion of departures and evidence-insensitive attitudes.",
+          "relevant_result": "A neighboring explanatory account of participation and departure. The inspected passages do not formulate V10’s rule for constructing a testimonial success record."
+        }
+      ],
+      "citation_audit": [
+        {
+          "manuscript_reference": "Alston 1994, “Précis of Perceiving God.”",
+          "manuscript_location": "§1, “Access is not vindication”: “separates the rationality of continuing an established belief-forming practice from the additional support its results can provide.”",
+          "status": "verified",
+          "evidence": "The [published précis](https://www.andrewmbailey.com/wpa/PrecisPerceiving.pdf), pp. 865–866, distinguishes these claims and lists doctrinal conformity and spiritual development as checks. Page 868 develops religious self-support. Bibliographic identity matches; the manuscript appropriately limits its citation to the précis.",
+          "source_ids": [
+            "S2"
+          ]
+        },
+        {
+          "manuscript_reference": "Buchak 2012, “Can it be Rational to Have Faith?”",
+          "manuscript_location": "§6, “Does the restriction undermine faith?”: “commitment to action before further evidence” and investigation for other purposes; References, pagination note.",
+          "status": "partially_verified",
+          "evidence": "The substantive attribution is verified in the [author text](https://www.theapj.com/wp-content/uploads/2012/08/Buchak_Can_it_be_Rational_to_have_Faith.pdf), §§III–IV, VI, VIII. The [Oxford book record](https://academic.oup.com/book/7423) confirms publication identity. The ancillary claim about differing publisher/reprint final-page pagination was not completed.",
+          "source_ids": [
+            "S6",
+            "S7"
+          ]
+        },
+        {
+          "manuscript_reference": "Buchak 2017, “Faith and Steadfastness in the Face of Counter-Evidence.”",
+          "manuscript_location": "§6: “permits ordinary updating of credences,” “later perspective can be epistemically superior,” and the qualification concerning §7 and belief.",
+          "status": "verified",
+          "evidence": "The [repository manuscript](https://escholarship.org/content/qt9x9649v4/qt9x9649v4_noSplash_6a388f192bbe86349cf26bdd2dd41ad0.pdf), §§4–5 and 7, supports these statements, including breaking commitment on conclusive counter-evidence. The author-hosted published article confirms journal, year, pages, and DOI.",
+          "source_ids": [
+            "S8",
+            "S9"
+          ]
+        },
+        {
+          "manuscript_reference": "Dhamma.org, “Code of Discipline.”",
+          "manuscript_location": "§5: “requires a full ten-day course and adherence to the taught technique.”",
+          "status": "verified",
+          "evidence": "The current [official code](https://www.dhamma.org/en/about/code), Self Discipline & Commitments and Acceptance of the Teacher and the Technique, supports both requirements. Its presentation also supports the attribution of a nonsectarian self-description. Applicability of this wording to the reported 2024 course remains unverified.",
+          "source_ids": [
+            "S10"
+          ]
+        },
+        {
+          "manuscript_reference": "Dhamma.org, “Questions & Answers About the Technique of Vipassana Meditation.”",
+          "manuscript_location": "§5: “manageable for a person in reasonable physical and mental health” and references to chairs and suitability inquiries.",
+          "status": "verified",
+          "evidence": "The [official FAQ](https://www.dhamma.org/en/about/qanda), questions on capability, sitting cross-legged, and physical conditions, supports these attributions. The capability answer also requires following instructions and group participation. The manuscript correctly treats this as access to training, not guaranteed enlightenment.",
+          "source_ids": [
+            "S11"
+          ]
+        },
+        {
+          "manuscript_reference": "Hovhannisyan 2024, “I Left Vipassana on Day Five.”",
+          "manuscript_location": "§5: reported injury, equanimity, difficulty, distrust, departure, and self-defensive motivation.",
+          "status": "partially_verified",
+          "evidence": "The displayed date and these attributed reports are present in the [account](https://vahehovhannisyan.com/i-left-vipassana-on-day-five). Its underlying events remain uncorroborated. L1 identifies relevant details available in the same source but omitted from the manuscript’s assessment.",
+          "source_ids": [
+            "S12"
+          ]
+        },
+        {
+          "manuscript_reference": "James 1896/1897, “The Will to Believe.”",
+          "manuscript_location": "§1: “truths and relationships whose realization or discovery can depend on prior confidence.”",
+          "status": "verified",
+          "evidence": "The [primary text](https://www.gutenberg.org/files/26659/26659-h/26659-h.htm), §§IX–X, supports the attribution. The linked impression records 1896 copyright and a February 1897 first edition. V10 does not turn James’s conditional defense of risk into a guarantee of religious success.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        {
+          "manuscript_reference": "Kent, “The History of Credibility Attacks Against Former Cult Members.”",
+          "manuscript_location": "§4: “checking the contents of their accounts against other evidence, while acknowledging possible deception.”",
+          "status": "verified",
+          "evidence": "The [public manuscript](https://fecris.org/wp-content/uploads/2015/05/Kent-EN.pdf), conclusion, pp. 15–16, supports the methodological attribution. No date is asserted in V10, and I did not establish one. V10 does not rely on the truth of Kent’s individual historical allegations.",
+          "source_ids": [
+            "S5"
+          ]
+        },
+        {
+          "manuscript_reference": "Nguyen, “Echo Chambers and Epistemic Bubbles.”",
+          "manuscript_location": "§3: exclusion by omission versus discrediting, and the diet network selected for agreement; §8’s acknowledgment.",
+          "status": "verified",
+          "evidence": "The [author manuscript](https://objectionable.net/wp-content/uploads/2018/09/nguyen-echo-chambers-and-epistemic-bubbles.pdf), pp. 2–3 and 7–8, supports both attributions. The [publisher record](https://doi.org/10.1017/epi.2018.32) supplies the omitted year, volume, issue, and pages. This is bibliographic incompleteness, not misidentification.",
+          "source_ids": [
+            "S3",
+            "S4"
+          ]
+        },
+        {
+          "manuscript_reference": "§2 stipulated numerical illustration; no external formal-source attribution.",
+          "manuscript_location": "§2, “Two communities and one missing witness”: “one hundred equally prepared students,” with eighty or twenty affirming.",
+          "status": "verified",
+          "evidence": "Selecting precisely the affirmers yields unanimity in either stipulated case. V10 explicitly preserves the information in the original cohort proportions and in individual reports. The example is not presented as empirical religious data or as a formal result borrowed from an uncited source.",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "This was a finite, primarily English-language public-web search conducted on 31 October 2026. Search results establish neither exhaustive originality nor the absence of closer predecessors.",
+        "All substantive comparisons below use opened primary texts. Locations_read identifies the portions inspected; availability of a complete source does not mean every page was read. The supplied manuscript and its entire bibliography were read.",
+        "Cohen’s article was accessible only as publisher metadata and references. Frangakis and Rubin were accessible only through their publisher abstract and metadata. Neither was treated as a fully examined argumentative predecessor.",
+        "Several direct requests failed initially. Search-result opening subsequently provided Buchak’s repository manuscript, Christensen’s paper, and Stilwell’s preprint. These are retrieved public texts, not independently authenticated archival copies.",
+        "The current Dhamma pages were checked. Their wording at the particular 2024 Armenian course, the manuscript’s stated access on 17 October 2026, and individual entry assessments were not independently established.",
+        "Hovhannisyan’s attendance, health, accommodations, and conversations remain reported events rather than independently corroborated facts. No medical judgment about eligibility or causation was made.",
+        "Kent’s and Riebel’s arguments were inspected without independently verifying their historical case narratives. Riebel’s quotation attributed to Watzlawick was not checked against Watzlawick’s original text and is not used to establish that earlier source’s argument.",
+        "The public Stilwell record lists May and August 2026 versions. The unversioned retrieved text was compared, but textual identity across those versions was not checked. No inference about V10’s authorship, influence, or borrowing follows.",
+        "Alston’s cited précis was checked; his full book was not. Buchak’s substantive section citations were checked, but the bibliography’s ancillary statement about differing final-page pagination across publisher and reprint versions was not fully verified."
+      ]
+    }
+  ],
+  "coordinator_chronology_correction": {
+    "schema": "administrative-essay-chronology.v1",
+    "status": "EXACT_FROZEN_VERSION_PREDATES_REPORTED_ER018_PUBLICATION",
+    "candidate_id": "E055",
+    "manuscript_id": "V07",
+    "sha256": "7e89cbede4b8b1a236ecfa87e684ba46b51707b099fa0f072ccbacb833d3b520",
+    "bytes": 20567,
+    "checked_at": "2026-10-31T13:12:27.287102-07:00",
+    "conclusion_ru": "Точная нынешняя версия E055 уже была принята в основную восьмёрку 19 октября 2026 года в 07:38 UTC и включена в проверенный Git-коммит того же дня. Это раньше указанных на странице ER-018 дат публикации 21 октября и редакции 26 октября. Отсутствующая в слепом пакете дата нашей версии теперь установлена по сохранённым записям.",
+    "historical_selection": {
+      "event": {
+        "path": "research/archive/events/000000458828.json",
+        "sha256": "87c0aba55fa9baab9bb0d66e500bbbae65a3c0a30d695add67245e959bd78733",
+        "bytes": 172560
+      },
+      "event_id": "event-7358790dac874fc78e327b60a3fbe014",
+      "event_sha256": "9ab57212c5d9a28150c99d1fadaaf68ab1ef020ccd89d0b9b56d7b1072c08a89",
+      "kind": "research.selection.completed",
+      "status": "SELECTION_COMPLETE_BOUNDED",
+      "timestamp_utc": "2026-10-19T07:38:32.199445+00:00",
+      "recorded_at_utc": "2026-10-19T07:38:32.199445+00:00",
+      "timestamp_los_angeles": "2026-10-19T00:38:32.199445-07:00",
+      "selection": "main",
+      "receipt": {
+        "path": "runs/final-selection-20261018/FINAL_RECEIPT.json",
+        "sha256": "783d3e52a15e42c999dc83db36a1ff90e4f74c923675ad9729453c9ed142a7b2",
+        "bytes": 170443
+      },
+      "accepted_files": [
+        {
+          "bytes": 42974,
+          "path": "runs/final-selection-20261018/DECISIONS.json",
+          "sha256": "a42bbe11ff2e8751e4a680b2af911a0704eed618370d6b727cca1c43529193c3"
+        },
+        {
+          "bytes": 2110,
+          "path": "runs/final-selection-20261018/READING_MANIFEST.json",
+          "sha256": "fab1d87f45c33b5455ed29f3188e56fac277f224579a7734ee7eb8c9e2c6b00d"
+        },
+        {
+          "bytes": 145,
+          "path": "runs/final-selection-20261018/SELECTION_MANIFEST.json",
+          "sha256": "acabdbcf51dca9d4648c918ff47c4c0b39e589647e2f35611f4765654a043a7f"
+        },
+        {
+          "bytes": 20567,
+          "path": "runs/final-selection-20261018/reading/07.md",
+          "sha256": "7e89cbede4b8b1a236ecfa87e684ba46b51707b099fa0f072ccbacb833d3b520"
+        }
+      ],
+      "exact_canonical_object_bytes_verified": true
+    },
+    "identical_manuscript_files": [
+      {
+        "path": "runs/midterm-20261007/blind/E055.md",
+        "sha256": "7e89cbede4b8b1a236ecfa87e684ba46b51707b099fa0f072ccbacb833d3b520",
+        "bytes": 20567
+      },
+      {
+        "path": "runs/final-selection-20261018/reading/07.md",
+        "sha256": "7e89cbede4b8b1a236ecfa87e684ba46b51707b099fa0f072ccbacb833d3b520",
+        "bytes": 20567
+      },
+      {
+        "path": "runs/deep-verification-20261031/packets/V07/manuscript.md",
+        "sha256": "7e89cbede4b8b1a236ecfa87e684ba46b51707b099fa0f072ccbacb833d3b520",
+        "bytes": 20567
+      }
+    ],
+    "current_identity_manifest": {
+      "path": "runs/deep-verification-20261031/MANIFEST.json",
+      "sha256": "b148df22673ee6d66a26f663f8562b87947e6cb81c4dcaf9c280286581f79302",
+      "bytes": 12762
+    },
+    "git_corroboration": {
+      "commit": "467cdcebe3207cb7b141f7d924124bed007fd496",
+      "commit_time": "2026-10-19T00:50:14-07:00",
+      "path": "essays/selection-20261018/E055.md",
+      "blob_sha1": "bc7470b340e1b6083bd8972e46069e10ee4165cb",
+      "sha256": "7e89cbede4b8b1a236ecfa87e684ba46b51707b099fa0f072ccbacb833d3b520",
+      "bytes": 20567,
+      "remote_update_receipt": {
+        "path": "runs/github-selection-20261018/REMOTE_UPDATE_RECEIPT.json",
+        "sha256": "5aadb304d61d180a12e345f2603e667ef58079f27965943a56845d6983042b1a",
+        "bytes": 10899
+      }
+    },
+    "accepted_review_context": {
+      "archive_receipt": {
+        "path": "runs/deep-verification-20261031/results/V07-L/ARCHIVE_RECEIPT.json",
+        "sha256": "542b94f2c749aa55f3ca1b1381d24604ae1a6edcfe582bf67c04460fc281d92e",
+        "bytes": 5579
+      },
+      "acceptance_event": {
+        "path": "research/archive/events/000000581527.json",
+        "sha256": "7631e70f1273cc012b6d8c49991dc25c338949f42b4a188b827350cbd36abf69",
+        "bytes": 10242
+      },
+      "event_id": "event-b301e6cb11dd4c5a932e15cee37e1ea7",
+      "status": "DEEP_VERIFICATION_RESULT_ARCHIVED",
+      "response": {
+        "bytes": 36610,
+        "path": "runs/deep-verification-20261031/results/V07-L/native-projection-v2/response.json",
+        "sha256": "e6f44a0dc19c6f41119c055d65079fd922f26915539f3abb5f88d34642df9735"
+      },
+      "date_caveat_pointer": "$.findings[2].analysis",
+      "external_source_pointer": "$.sources[8]",
+      "original_review_unchanged": true
+    },
+    "external_date_observation": {
+      "url": "https://londonresearchcentreformarketingai.org.uk/research/024-offloading-human-oversight",
+      "title": "Human oversight works only when the reviewer can change the outcome",
+      "work_id": "ER-018",
+      "checked_date": "2026-10-31",
+      "method": "Read current public page date metadata; no new argument or novelty review.",
+      "original_publication_date_reported_by_page": "2026-10-21",
+      "revision_date_reported_by_page": "2026-10-26",
+      "evidence_cutoff_reported_by_page": "2026-05-22",
+      "evidence_cutoff_is_not_publication_date": true
+    },
+    "limitations_ru": [
+      "Это административная проверка дат и точных байтов, а не новый слепой отзыв и не пересмотр содержания E055.",
+      "Дата 22 мая на странице ER-018 обозначает отсечение рассмотренных источников, а не дату публикации самой страницы.",
+      "Даты архива, коммита и страницы не являются независимым нотариальным заверением времени. Установлено соответствие сохранённым записям; более ранняя неизвестная версия ER-018 здесь не исследовалась.",
+      "Хронология снимает неопределённость даты нашей версии относительно указанной публикации. Она сама по себе не доказывает общую новизну, отсутствие более ранних аналогов или интеллектуальное влияние."
+    ],
+    "new_scientific_roles": 0,
+    "manuscripts_changed": false,
+    "accepted_reviews_changed": false,
+    "canonical_archive_writes": 0,
+    "git_writes": 0
+  }
+}

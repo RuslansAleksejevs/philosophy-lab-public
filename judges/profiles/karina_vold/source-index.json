@@ -1,0 +1,50 @@
+{
+  "judge_id": "karina_vold",
+  "created_at": "2026-10-07T10:35:22.230262+00:00",
+  "baseline_reuse": "Reported substantive claims/coverage are inherited, explicitly attributed to B0; no new full-paper claim.",
+  "sources": [
+    {
+      "source_id": "B0",
+      "title": "Inherited profile with exact substantive citations and historical coverage",
+      "url": null,
+      "path": "research/judges/20260912/profiles/karina_vold-v1.md",
+      "sha256": "f93f8f70028db8f8e538e80b389c46b44e97e5ed5f41fc5d48fea2741f124f46",
+      "coverage": "full profile read; underlying cited papers not newly read except explicitly logged",
+      "accessed_at": "2026-10-07T10:35:22.230262+00:00",
+      "copy": "baseline-profile-20260912.md"
+    },
+    {
+      "source_id": "identity-web",
+      "title": "Author identity page",
+      "url": "https://kkvd.com/",
+      "path": "research/judges/20261007/karina_vold/sources/identity-web.json",
+      "sha256": "820d354d46630267f94d81ae1457f6b2fe6a3fa2c4b5b2ae9640af6fc7fa7687",
+      "accessed_at": "2026-10-07T10:32:34.428Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "identity and research-interest statements only; bibliography is metadata"
+    },
+    {
+      "source_id": "search3-discovery",
+      "title": "search3-discovery",
+      "url": null,
+      "path": "research/judges/20261007/karina_vold/sources/search3-discovery.json",
+      "sha256": "f04b2211a7cbc32cfb3c83432703a4a62152a59ef06007ee402a84617653bb50",
+      "accessed_at": "2026-10-07T10:35:22.230262+00:00",
+      "capture_type": "web_tool_search_discovery_not_full_reading",
+      "coverage": "metadata/search discovery",
+      "read_locations": "discovery/exposure only; not a basis for full-source reading"
+    },
+    {
+      "source_id": "T1",
+      "title": "Future of Life Institute first-person research questionnaire, undated",
+      "url": "https://futureoflife.org/person/karina-vold/",
+      "path": "research/judges/20261007/karina_vold/sources/selfreport-web.json",
+      "sha256": "f923295e95bdc1133e7eabd781b505ed82fc8656638beb356b60e0a238fab0f2",
+      "accessed_at": "2026-10-07T10:31:40.896Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "Questions and answers lines 59–67; line 62 ends mid-sentence"
+    }
+  ]
+}

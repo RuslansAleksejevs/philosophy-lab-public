@@ -1,0 +1,78 @@
+{
+  "role": "F01/author-repair",
+  "scope": "Two targeted primary-source checks for I1 and I2; no new literature or novelty campaign.",
+  "access_checks_completed_before_utc": "2026-10-18T00:21:41+00:00",
+  "logged_at_utc": "2026-10-18T00:23:15.592283+00:00",
+  "access_time_note": "Sources were accessed in this session from 00:19 UTC; the completion bound is a recorded clock reading after the last source access. Individual HTTP request timestamps were not exposed.",
+  "sources": [
+    {
+      "id": "AR1",
+      "author": "Helen Nissenbaum",
+      "title": "Accountability in a Computerized Society",
+      "url": "https://nissenbaum.tech.cornell.edu/papers/accountability.pdf",
+      "version": "Author-hosted reflowed PDF; published-version metadata inherited from assigned manuscript, not independently re-established.",
+      "locator": "Ownership without Liability, displayed pp.11–12; Distinguishing Accountability from Liability, pp.13–15; Strict Liability and Producer Responsibility, p.15, with adjacent discussion on p.16.",
+      "access_method": "web tool primary-source PDF text, accessed 2026-10-18, checks completed before 00:21:41 UTC",
+      "checked_claims": [
+        "Producer control is used in support of responsibility, and risk-shifting disclaimers are criticized.",
+        "Compensation and answerability differ; strict liability retains the causal condition while removing fault."
+      ],
+      "finding": "These attributions are supported by the selected passages. Applying the distinction to a fully satisfied fee claim requires a further normative premise; the revised essay does not infer such a premise from this source.",
+      "limits": "Targeted passages only; no full article review, historical novelty audit, or independent verification of the source’s reported empirical examples. The source does not analyze this fictional fee-refund case.",
+      "archived_excerpt_file": "SOURCE_EXCERPTS.txt",
+      "archived_excerpt_section": "AR1"
+    },
+    {
+      "id": "AR2",
+      "author": "Judith Jarvis Thomson",
+      "title": "Liability and Individualized Evidence",
+      "url": "https://www.marcellodibello.com/mathtrial/resources/ThomsonIndEvidence1986.pdf",
+      "version": "Copy of primary 1986 article",
+      "locator": "Section III, journal pp.202–206; opening of section IV, p.206. Exact quotation on journal p.204, PDF page 7 counting cover as page 1.",
+      "access_method": "web tool primary-source PDF text, accessed 2026-10-18, checks completed before 00:21:41 UTC",
+      "checked_claims": [
+        "Individualized evidence is fallible.",
+        "Statistical evidence can count as individualized when appropriately causally connected to the fact at issue."
+      ],
+      "finding": "Supported by section III. This discussion does not establish that uncertainty payments never convey evidence. The numerical example and its inference are the essay repair’s use of the assigned reviewer’s hypothetical counterexample, not a claim attributed to Thomson.",
+      "limits": "Targeted section and nearby opening of section IV only, not the full article. No disciplinary threshold or institutional guarantee scheme is derived from Thomson.",
+      "archived_excerpt_file": "SOURCE_EXCERPTS.txt",
+      "archived_excerpt_section": "AR2"
+    }
+  ],
+  "assigned_evidence_read": [
+    "input/manuscript.md (complete)",
+    "input/review-evidence/REVIEW_RU.txt",
+    "input/review-evidence/REVIEW.json",
+    "input/review-evidence/SOURCE_EXCERPTS.txt",
+    "input/review-evidence/SOURCES.json"
+  ],
+  "retained_sources_not_reopened": [
+    {
+      "work": "Gardner 2011, What is Tort Law For? Part 1",
+      "basis": "Unchanged attribution; assigned reviewer’s targeted check and exact excerpt read, no independent recheck in this repair."
+    },
+    {
+      "work": "Porat and Stein 1999 draft, Liability Under Uncertainty",
+      "basis": "Unchanged attribution; assigned reviewer’s targeted check and exact excerpt read, no independent recheck in this repair."
+    },
+    {
+      "work": "Nissenbaum 2004, Privacy as Contextual Integrity",
+      "basis": "Unchanged background attribution; not rechecked in this repair or the assigned review."
+    },
+    {
+      "work": "Stein 2008, On the Epistemic Authority of Courts",
+      "basis": "Unchanged abstract-only background comparison; neither abstract nor full text rechecked in this repair."
+    },
+    {
+      "work": "Lambrecht 2026, Epistemic Reparations and a Hybrid Theory of Reparative Justice",
+      "basis": "Unchanged background comparison; not rechecked in this repair or the assigned review."
+    }
+  ],
+  "hypothetical_examples": [
+    "The confidential service and the new unconditional full-refund variant are stipulated fictional cases.",
+    "The 100-session, 10-misconduct, 9-true-plus-9-mistaken unresolved-complaint example is adapted from assigned review issue I1. Its counts are invented; 10/100 = 0.10 and 9/18 = 0.50. No empirical frequencies are asserted."
+  ],
+  "whole_bibliography_certified": false,
+  "historical_novelty_verified": false
+}

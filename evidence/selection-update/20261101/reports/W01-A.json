@@ -1,0 +1,173 @@
+{
+  "audit_id": "W01-A",
+  "manuscript_id": "W01",
+  "role": "argument",
+  "manuscript_sha256": "b03f38b9a529885d165f0157b44a2dca2cafec23584229e9134ed99cd42836b8",
+  "read_complete": true,
+  "thesis": "Full phenomenal reconstruction is unnecessary for a restricted conditional inference from different recollective outputs to different original phenomenal types. The inference requires that identical original types cannot produce different outputs within the relevant comparison domain. Using it as evidence additionally requires independent warrant for that condition.",
+  "claimed_contribution": "The manuscript separates preservation of distinctions between whole experiences from preservation of phenomenal components. It also distinguishes the conditions supporting inference from output difference and from output equality. It claims a limited consistency result and clarification of evidential obligations, not a demonstration of actual memory reliability or a new mathematical result.",
+  "assessment": "NO_MAJOR_DEFECT_FOUND",
+  "findings": [],
+  "surviving_contribution": "No material internal defect was demonstrated. The finite model establishes that a transformation can change every original whole type, erase some distinctions, and still make unequal outputs conclusive evidence of unequal inputs, conditional on the transformation being warranted. The philosophical contribution is the distinction between preserving a relation among whole types and preserving an inspectable phenomenal part. As Why holism does not close this route states, 'a partition of possible whole states is not thereby a part of each state.' This blocks an inference from the absence of detachable components alone to the impossibility of every informative comparison. The result remains expressly conditional: it supplies neither a calibrated memory procedure nor an attribution of any established difference to cognition, perceptual content, or another particular feature. The empty findings array reflects those limits being acknowledged rather than concealed.",
+  "remaining_questions": [
+    "Unanswered evidential question: What evidence could independently support the relevant counterfactuals about equal original phenomenal types? What a comparison must preserve requires 'independent grounds concerning a domain delimited before drawing the inference' but supplies no calibration method. This leaves practical applicability open without defeating the conditional result.",
+    "Unanswered scope question: What additional relation would justify comparing a present perception directly with a recollection? The objection and its surviving force says that this procedure 'requires an additional justification.' Reliability within the recollective route alone cannot supply that justification.",
+    "Unanswered observation question: How would a subject establish that two recollective outputs actually differ phenomenally, rather than merely judge or describe them differently? What a comparison must preserve begins its inference with 'if the condition holds and the outputs differ'; warrant for that observational premise remains outside the model.",
+    "Interpretive question: Does 'A domain selected after noticing the desired contrast is inadequate' in What a comparison must preserve exclude all later domain selection, or only selection tailored to secure the desired result? Later independent validation could support a domain first considered after observing a contrast. The surrounding argument supports an independence requirement more clearly than an absolute chronological prohibition; this is not treated here as a demonstrated defect."
+  ],
+  "limitations": [
+    "The complete supplied manuscript, including its bibliography, was read. No tools, browsing, agents, external files, or other project material were used.",
+    "The three cited works were not independently consulted. Their bibliographic details and the manuscript's interpretations remain unverified; recollection of the literature was not used as evidence.",
+    "Formal checks were performed manually. They establish properties of the stated models, not empirical facts about memory or a complete metaphysical account of phenomenal types and parts.",
+    "The supplied SHA-256 was retained as the manuscript identifier and was not recomputed. This audit makes no claim about historical originality."
+  ],
+  "plain_summary_ru": [
+    "В заданной модели разные воспоминания указывают на разные исходные переживания, если память сама не создаёт различий между одинаковыми переживаниями.",
+    "Главная логическая часть верна, но надёжность реальной памяти здесь не доказана.",
+    "Существенной ошибки я не нашёл, а ссылки на другие работы без доступа к источникам проверить не смог."
+  ],
+  "argument_reconstruction": [
+    {
+      "step": "1",
+      "kind": "Definitions and motivating examples",
+      "content": "P(e) denotes the phenomenal type of an original episode as a whole; R(e) denotes the phenomenal type of its recollective output under a specified procedure. The examples of remembered pain and sunset intensity motivate distinguishing an experience from its recollection; they are not empirical results established by the essay.",
+      "support_or_dependency": "What a comparison must preserve: 'how the episode felt, considered as a whole.' Opening paragraph: 'Remembering a painful afternoon need not hurt.' The formal argument does not depend on verifying those particular examples."
+    },
+    {
+      "step": "2",
+      "kind": "Source-dependent target and scope restriction",
+      "content": "The target is the alleged necessity of full phenomenal reconstruction for informative recollective contrast. The direct result concerns two recollections obtained through an appropriately matched procedure, not an unrestricted comparison between perception and memory.",
+      "support_or_dependency": "The objection and its surviving force: 'My reply addresses the strong requirement' and 'My direct result concerns the second.' Whether the cited opponent holds the targeted requirement requires a separate source check."
+    },
+    {
+      "step": "3",
+      "kind": "Structural assumption",
+      "content": "Within the comparison domain, identical original phenomenal types produce identical recollective types. This is an assumption about dependence on phenomenal type, not a consequence of determinism about complete physical histories.",
+      "support_or_dependency": "What a comparison must preserve: 'if (P(e_1)=P(e_2)), then (R(e_1)=R(e_2)).' The same section explains that other historical or retrieval differences can affect a deterministic mechanism."
+    },
+    {
+      "step": "4",
+      "kind": "Proven conditional inference",
+      "content": "The structural assumption permits factorization as R(e)=F(P(e)). By contraposition, unequal outputs imply unequal original phenomenal types. Neither identity nor injectivity of F is required for this implication.",
+      "support_or_dependency": "What a comparison must preserve: '(R(e)=F(P(e)))' and 'All that follows directly from unequal outputs is unequal inputs.' This follows from step 3 and ordinary equality reasoning."
+    },
+    {
+      "step": "5",
+      "kind": "Normative epistemic premise",
+      "content": "A warranted application requires independent support for the condition across relevant alternatives, including alternatives with equal original types. Satisfaction on the actual pair is insufficient: when the original types differ, the conditional holds vacuously.",
+      "support_or_dependency": "What a comparison must preserve: 'Retrospectively fitting a function to that pair establishes no reliability.' This distinguishes the validity of step 4 from a subject's justification for using it."
+    },
+    {
+      "step": "6",
+      "kind": "Finite countermodel",
+      "content": "The assignments a→u, b→u, c→v, d→v satisfy the structural assumption while changing every original whole type and losing distinctions within each two-member group. An output contrast u/v nevertheless implies different original types.",
+      "support_or_dependency": "What a comparison must preserve, finite table. Its stipulated distinctness of u and v from all four inputs establishes non-reconstruction of whole types; the repeated outputs establish noninjectivity."
+    },
+    {
+      "step": "7",
+      "kind": "Conceptual compatibility argument",
+      "content": "Dependence of phenomenal parts on their wholes does not, without an additional premise, require a single original type to yield multiple recollective types or require all originals to collapse into one output. Preserving a partition of whole types does not itself preserve a phenomenal component.",
+      "support_or_dependency": "Why holism does not close this route: 'Holism concerns dependence within phenomenal wholes' and 'a partition of possible whole states is not thereby a part of each state.' This supports compatibility with the stated holism premises, not a complete theory of phenomenal composition."
+    },
+    {
+      "step": "8",
+      "kind": "Proven converse conditions and counterexample",
+      "content": "Output equality implies input equality uniformly only if the function is injective; for a particular observed output, a singleton preimage suffices. A relation allowing a→u or v and b→w reverses the reliability pattern, so there is no general privilege for evidence of difference.",
+      "support_or_dependency": "Two directions of error: 'Only the observed output needs a single possible input type' and 'There is no general evidential privilege for positive contrasts.'"
+    },
+    {
+      "step": "9",
+      "kind": "Empirical assumptions left unestablished",
+      "content": "Real recollection may depend on retrieval circumstances and other influences, represented by G(P(e),z(e)). Noise also permits different outputs from the same original type. Applying the model to memory therefore requires control of alternative influences or an appropriate probabilistic account.",
+      "support_or_dependency": "The assumption real memories must earn: '(R(e)=G(P(e),z(e)))' and 'Two draws from one distribution can differ.' The section explicitly says, 'This essay establishes no such calibration.'"
+    },
+    {
+      "step": "10",
+      "kind": "Restricted conclusion",
+      "content": "Non-reconstruction and the stated holism premises do not by themselves rule out every conditional detection of phenomenal difference. Even a warranted detection establishes only some phenomenal difference, not its location, cause, irreducibility, or cognitive character.",
+      "support_or_dependency": "Three objections to the limited result: 'it licenses only the existence of some original phenomenal difference, leaving its nature unexplained.' What the correction achieves: 'This does not rescue a particular argument for rich perceptual content or cognitive phenomenology.'"
+    }
+  ],
+  "strongest_objections": [
+    {
+      "objection": "The preservation condition merely assumes the desired reliability: for a fixed pair, its contrapositive is exactly the conclusion-generating implication.",
+      "best_available_reply": "The author explicitly distinguishes that logical equivalence from independent warrant. The condition is used to construct a counterexample to the necessity of reconstruction, not to certify an observed memory contrast. Its domain must include independently delimited equal-input alternatives.",
+      "assessment": "This defeats an unconditional practical vindication of memory, but that conclusion is expressly disclaimed. It does not defeat the consistency result. Whether independent calibration is available remains unanswered.",
+      "manuscript_location": "What a comparison must preserve: 'asserting the conditional just for that pair would add no independent warrant'; Three objections to the limited result: 'The result is conditional by design.'"
+    },
+    {
+      "objection": "A table of labels does not establish that its transformation is compatible with phenomenal holism or with changing every phenomenal contribution.",
+      "best_available_reply": "The author acknowledges that distinct whole-type labels do not establish distinct parts. The additional argument separates dependence within a whole from functional relations between whole types. None of the stated holism premises forces manufactured differences or total collapse.",
+      "assessment": "The restricted compatibility argument survives. A stronger claim that a particular metaphysical theory or actual memory mechanism realizes the table would require additional work. The manuscript does not claim that stronger result.",
+      "manuscript_location": "Why holism does not close this route: 'Disjoint type labels do not prove that their parts differ' and 'It would take a further argument' to exclude the cross-stage relation."
+    },
+    {
+      "objection": "The proposal replaces an immediate phenomenal comparison with an indirect inference and may therefore leave the original objection untouched.",
+      "best_available_reply": "The author accepts the methodological change and its cost. The countermodel challenges only a prohibition on every informative recollective contrast. An objection restricted to uncalibrated introspective substitution can agree with the entire argument.",
+      "assessment": "This materially limits what the reply can refute, but the limitation is already stated. Whether it reaches Nourbakhshi's actual position is an access-limited source question, not a demonstrated misrepresentation.",
+      "manuscript_location": "Three objections to the limited result: 'its proponent can accept everything argued here' and 'explicit dependence on assumptions about a comparison procedure.'"
+    },
+    {
+      "objection": "A condition excluding every manufactured difference is too demanding to describe ordinary, fallible evidence; matching outputs may also provide probabilistic support despite information loss.",
+      "best_available_reply": "The result concerns entailment under a specified condition. The manuscript expressly allows probabilistic evidence from matching outputs and requires a separate error model for noisy memory.",
+      "assessment": "The objection would undermine a general theory of evidential usefulness based solely on deterministic preservation. The manuscript avoids that overreach. It offers no quantitative account of how much support a real contrast provides.",
+      "manuscript_location": "Two directions of error: 'None of this makes matching outputs evidentially worthless'; The assumption real memories must earn: 'A noisy comparison needs an error model.'"
+    },
+    {
+      "objection": "Even a valid inference to some original phenomenal difference does not show that learning, recognition, or cognition changed the feature under investigation.",
+      "best_available_reply": "The author separates the existence of a phenomenal difference from identifying and explaining it. Attention, affect, and other accompanying changes remain alternatives; defining P as phenomenal does not establish that real observations track it.",
+      "assessment": "This is a decisive restriction on downstream applications, but not an internal defect in the stated conclusion. Any stronger application would need independent evidence of phenomenal status, feature attribution, and explanatory relevance.",
+      "manuscript_location": "Three objections to the limited result: 'There is no general reason' and 'Applied to real data, that description itself requires support.'"
+    }
+  ],
+  "formal_checks": [
+    {
+      "claim": "What a comparison must preserve: equal-input preservation permits R(e)=F(P(e)) and inference from unequal outputs to unequal inputs.",
+      "method": "Define F on the realized types P(D) by assigning F(p)=R(e) for an episode with P(e)=p. The stated condition makes this independent of the chosen representative. For contraposition, assume equal inputs and derive equal outputs.",
+      "result": "Both claims are valid. The factorization is established only on the specified domain; extending it to counterfactual cases requires the additional warrant the manuscript identifies.",
+      "execution_boundary": "Independently checked by manual proof; no software or empirical test."
+    },
+    {
+      "claim": "What a comparison must preserve: the four-row table allows loss and non-reconstruction while preserving the inference from output difference.",
+      "method": "Inspect the preimages F⁻¹(u)={a,b} and F⁻¹(v)={c,d}. Check that they are disjoint and that each contains two distinct types.",
+      "result": "Every unequal-output pair has unequal inputs. Equal outputs can arise from equal or unequal inputs. Because u and v are stipulated distinct from all original types, no output reproduces its original whole type. These facts alone say nothing about shared phenomenal parts.",
+      "execution_boundary": "The complete finite table was checked manually; its phenomenal interpretation was not empirically validated."
+    },
+    {
+      "claim": "Two directions of error: global injectivity licenses equality inference uniformly; a singleton preimage suffices locally; reconstruction is stronger than injectivity.",
+      "method": "Apply the definition of injectivity and examine the alternative domain {a,b,c} with F(a)=u and F(b)=F(c)=v. Compare injectivity with the manuscript's reconstruction condition F(p)=p.",
+      "result": "Correct. A u/u match forces a/a in that alternative model, while a v/v match remains ambiguous. Identity implies injectivity, whereas an injective transformation can change every type.",
+      "execution_boundary": "Independently checked by definitions and finite inspection; reconstruction is interpreted as reproduction of the whole phenomenal type, as stipulated in the manuscript."
+    },
+    {
+      "claim": "Two directions of error: allowing a to yield u or v and b to yield w reverses the asymmetry.",
+      "method": "Treat the procedure as a relation. The possible-output sets {u,v} and {w} are disjoint, although the first contains multiple outputs.",
+      "result": "Correct, with u, v, and w distinct. Any shared output identifies the same input type, but unequal outputs u and v can both originate from a. The earlier asymmetry therefore belongs to the functional class, not to positive evidence generally.",
+      "execution_boundary": "The stated relation was checked manually; no probabilities or empirical frequencies were assumed."
+    },
+    {
+      "claim": "The assumption real memories must earn: determinism of G(P,z) does not establish dependence on P alone.",
+      "method": "Hold P=p fixed and consider a deterministic rule with G(p,0)=u and G(p,1)=v, where u≠v.",
+      "result": "The same phenomenal input can yield unequal outputs when another permitted influence changes. Determinism is insufficient for the extensional condition, exactly as the manuscript claims.",
+      "execution_boundary": "An illustrative counterexample was independently checked by substitution; it is not an empirical model of memory."
+    },
+    {
+      "claim": "The assumption real memories must earn: equal output distributions do not guarantee equal individual outputs.",
+      "method": "Consider two independent draws, each yielding u or v with probability 1/2. The unequal pairs have total probability (1/2)(1/2)+(1/2)(1/2)=1/2.",
+      "result": "The claim is correct. Identical distributions alone do not license deterministic contraposition. Independence is used only to construct this counterexample; equal marginals do not themselves specify the dependence between draws.",
+      "execution_boundary": "The arithmetic was independently performed by hand. No software was run, and the probabilities are illustrative rather than estimates for human memory."
+    },
+    {
+      "claim": "The objection and its surviving force: comparing perception directly with recollection requires additional justification.",
+      "method": "Let both original episodes have type a. A present perception has type a while the recollective route produces F(a)=u, with u≠a as in the table.",
+      "result": "The compared outputs differ despite identical original types. Reliability within the recollective route therefore does not establish reliability across the two routes. The manuscript correctly confines its direct result.",
+      "execution_boundary": "Independently checked using the manuscript's stipulated types; no claim about an actual perceptual episode is made."
+    }
+  ],
+  "source_dependent_questions": [
+    "Nourbakhshi 2023, §§4 and 6–9: Does the primary text require full phenomenal reconstruction for any informative recollective contrast, or only for direct introspective substitution? The objection and its surviving force attributes 'a strong requirement of full phenomenal reflection.' This determines whether the countermodel refutes an asserted necessity or clarifies a position the source could accept. Not checked.",
+    "Nourbakhshi 2023, §§7–8: Are the relevant holism premises limited to interdependence of phenomenal parts and difficulty identifying a remainder, as reported in The objection and its surviving force, or do they include further constraints on recollective evidence? Those additional premises could affect the countermodel's relevance without changing its mathematics. Not checked.",
+    "Fulkerson and Cohen 2025, §§2–4: Does the primary text support the attribution that 'access to a psychological contrast does not establish its phenomenal status' and the reported downstream-attribution problem in Three objections to the limited result? The manuscript's own distinction is intelligible independently of that citation, but the attribution remains unverified.",
+    "Chudnoff 2015, §1: Does the primary text distinguish phenomenal presence, irreducibility, and independence in the sense used in Three objections to the limited result? The citation's accuracy and the bibliography's publication details require a separate source check."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "judge_id": "simon_goldstein",
+  "created_at": "2026-10-07T10:35:22.230262+00:00",
+  "baseline_reuse": "Reported substantive claims/coverage are inherited, explicitly attributed to B0; no new full-paper claim.",
+  "sources": [
+    {
+      "source_id": "B0",
+      "title": "Inherited profile with exact substantive citations and historical coverage",
+      "url": null,
+      "path": "research/judges/20260912/profiles/simon_goldstein-v1.md",
+      "sha256": "533626775b735e74367592d9eda6d1d388ea1d57090625eeb8f83a4b254786d3",
+      "coverage": "full profile read; underlying cited papers not newly read except explicitly logged",
+      "accessed_at": "2026-10-07T10:35:22.230262+00:00",
+      "copy": "baseline-profile-20260912.md"
+    },
+    {
+      "source_id": "identity-web",
+      "title": "Author identity page",
+      "url": "https://simondgoldstein.com/",
+      "path": "research/judges/20261007/simon_goldstein/sources/identity-web.json",
+      "sha256": "b821ee8d4995f1e79b9a4b76f9ded238b2c77ed173d8c768391ce8de802fcdce",
+      "accessed_at": "2026-10-07T10:32:34.374Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "identity and research-interest statements only; bibliography is metadata"
+    },
+    {
+      "source_id": "T1",
+      "title": "Interview with Ariane Nicolas, Philosophie Magazin, 2 October 2026",
+      "url": "https://www.philomag.de/index.php/artikel/simon-goldstein-die-ki-wird-vielleicht-die-berufsphilosophen-ersetzen-aber-niemals-die",
+      "path": "research/judges/20261007/simon_goldstein/sources/interview-web.json",
+      "sha256": "47e1a93b7128e9516809f2016f22ae2b13f235fae8801c47474595aa85e19a74",
+      "accessed_at": "2026-10-07T10:31:40.738Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "Interview lines 11–25 and 33–39; German original, English paraphrase by profile builder"
+    }
+  ]
+}

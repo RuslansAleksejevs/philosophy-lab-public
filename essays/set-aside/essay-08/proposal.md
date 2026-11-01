@@ -1,0 +1,17 @@
+# Candidate P1 — Retiring instruments without retiring correction
+
+Status: REJECTED BY AUTHOR BEFORE DRAFT. 2026-09-22.
+
+Proposed thesis: retaining an instrument's complete digital record, together with arbitrarily precise agreement with its replacement during an overlap period, need not preserve the ability to determine whether a historical trend reflects the target or a time-varying measurement disturbance. A scientific institution must therefore assess preservation of discriminating opportunities, not merely preservation of records, before retiring instruments and specimens.
+
+Proposed argument: let an old instrument record y=x+z and its replacement measure x. During overlap z=0, so every overlap reading agrees. Earlier y=1 is compatible with (x=1,z=0) or (x=0,z=1). If neither a historical specimen nor an independent historical indicator of z survives, extra contemporary overlap cannot decide between these histories. Stable bridge specimens or independently validated disturbance records could discriminate. This is a conceptual toy case, not an allegation about any actual climate or medical record.
+
+The intended increment was to infer a prospective obligation to preserve the ability to challenge a claim, distinct from retaining all currently available data. However, the construction restates nonidentifiability and the normative conclusion substantially repeats epistemic data preservation. It does not yet establish a worthwhile new inference.
+
+Closest comparisons:
+- Grody et al. (2004), Calibration of multisatellite observations for climatic studies: Microwave Sounding Unit (MSU), doi:10.1029/2004JD005079. Accessed substantive text especially paragraphs 21–32, saved in retrieval-04.json. They explicitly distinguish accurate overlap fitting from justified calibration models and require an identifiable configuration of overlaps. Their result is materially more developed than the proposed example. Difference of application would not justify novelty.
+- Sempos et al. (2012), Vitamin D status as an international issue: National surveys and the problem of standardization, doi:10.3109/00365513.2012.681935. Search-returned substantive excerpts (retrieval-02.json) explicitly condition retrospective standardization on banked sera and discuss commutability. Direct HTML and PDF opens failed; this access limitation prevents a comprehensive comparison, but available adverse evidence is already strong.
+- Tempini and Leonelli (2018), Concealment and discovery: The role of information security in biomedical data re-use, doi:10.1177/0306312718804875. Search-returned substantive excerpts in retrieval-03.json articulate epistemic security, reliability through reuse, and harms from irreversible edits. Direct open resolved a long page but initial displayed portions were not all article content. No full-paper reading claim. The proposed general preservation rationale is substantially anticipated.
+- Chang (2004), Inventing Temperature, chapter 5, doi:10.1093/0195171276.003.0005: abstract-only search access and failed direct open. Epistemic iteration provides background, not a refuted claim that preservation always succeeds.
+
+Decision: retain as negative research evidence. No PASS_RELATIVE, independent release or manuscript warranted by this proposal. Search incompleteness is not proof of absolute lack of novelty; the failure is that the author has not established an adequate increment over the works actually found.

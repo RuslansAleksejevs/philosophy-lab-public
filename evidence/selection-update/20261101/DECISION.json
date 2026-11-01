@@ -1,0 +1,99 @@
+{
+  "selected": [
+    "E050",
+    "E012",
+    "E051"
+  ],
+  "coordinator_session_id": "01a190b5-03e2-70d0-8fcf-b4a1e67148d0",
+  "status": "USER_TRIO_CONFIRMED_REVISION_PLAN_COMPLETE",
+  "selection_origin": "HUMAN",
+  "decision": "Keep E050, E012 and E051 as the chosen trio and prepare the limited revisions specified in REVISION_PLAN.json when launched.",
+  "reason": "The two new E051 reviews found no major defect; one minor omitted comparator needs acknowledgment. The four existing E050/E012 reviews support targeted clarification rather than rebuilding the main arguments.",
+  "scientific_assessments": {
+    "V06-A": "NO_MAJOR_DEFECT_FOUND",
+    "V06-L": "NO_MAJOR_DEFECT_FOUND",
+    "V08-A": "NO_MAJOR_DEFECT_FOUND",
+    "V08-L": "NO_MAJOR_DEFECT_FOUND",
+    "W01-A": "NO_MAJOR_DEFECT_FOUND",
+    "W01-L": "NO_MAJOR_DEFECT_FOUND"
+  },
+  "accepted_reviews": [
+    {
+      "job_id": "V06-A",
+      "candidate_id": "E050",
+      "session_id": "01a1936c-2b15-7e51-9917-2fdf77e3d38c",
+      "accepted_event_id": "event-5ff6ba45c77842a6b845bad16b48f413",
+      "report": {
+        "path": "repository/evidence/deep-verification/20261031/reports/V06-A.json",
+        "sha256": "d1500c0d57081f74935712fc8239921f75d1ec6111e588cfe506f5a1feb47a9e",
+        "bytes": 21505
+      }
+    },
+    {
+      "job_id": "V06-L",
+      "candidate_id": "E050",
+      "session_id": "01a19372-929d-7cc0-a789-901705372d13",
+      "accepted_event_id": "event-e4fadd62eef24e13a878a78297d7a63f",
+      "report": {
+        "path": "repository/evidence/deep-verification/20261031/reports/V06-L.json",
+        "sha256": "ad557cdb21c28aa404f2b4107f91b82f00a58114709cb0448c17bf19fc39c4d1",
+        "bytes": 33320
+      }
+    },
+    {
+      "job_id": "V08-A",
+      "candidate_id": "E012",
+      "session_id": "01a19388-4bcd-78f0-b81f-59391bc52c0a",
+      "accepted_event_id": "event-c274f7d52cb840dd8d424b3e0c8f1d7b",
+      "report": {
+        "path": "repository/evidence/deep-verification/20261031/reports/V08-A.json",
+        "sha256": "f0a5b0338da656d5f153cdffa1011b1219b099727f3f8b7910fa6e4d74fbeb81",
+        "bytes": 27501
+      }
+    },
+    {
+      "job_id": "V08-L",
+      "candidate_id": "E012",
+      "session_id": "01a19388-4bcd-7161-9c4b-647e0f4928b2",
+      "accepted_event_id": "event-95b7ce2e6e224d849bbfbbb726294557",
+      "report": {
+        "path": "repository/evidence/deep-verification/20261031/reports/V08-L.json",
+        "sha256": "6318e1c0c5a95a5b653cb5d4491250eac0d1a888c9b4edee69ce41c1ee217fa6",
+        "bytes": 34088
+      }
+    },
+    {
+      "job_id": "W01-A",
+      "candidate_id": "E051",
+      "session_id": "01a195f2-da0f-7231-bf1f-392935372a85",
+      "accepted_event_id": "event-7ea1031337c9416491d6e269ff1fc9f2",
+      "report": {
+        "path": "runs/submission-trio-20261031/results/W01-A/attempt-001/response.json",
+        "sha256": "944e313d57f8b78f6b251f281d636966ad9506c366c7196157b6bfd5e5cc8a88",
+        "bytes": 22416
+      }
+    },
+    {
+      "job_id": "W01-L",
+      "candidate_id": "E051",
+      "session_id": "01a195f2-da0f-7930-93e5-9d383beab9b3",
+      "accepted_event_id": "event-f95e4b1fee104c778823c9ef01e4a2b6",
+      "report": {
+        "path": "runs/submission-trio-20261031/results/W01-L/revalidation-v1/response.json",
+        "sha256": "7b2fc06d6d7921b848bac4447c4959578fab6a899d4d7bc6a60403ded83d3d81",
+        "bytes": 30487
+      }
+    }
+  ],
+  "limitations": [
+    "No full novelty proof.",
+    "E051 has no calibrated real-memory application.",
+    "Source access limits and differences between review roles remain explicit.",
+    "Reviewers did not assess this later coordinator decision."
+  ],
+  "manuscripts_changed": false,
+  "revisions_launched": false,
+  "submission_authorized": false,
+  "github_updated": false,
+  "scope_complete": "Two new reviews plus concrete plan; not manuscript revision or submission."
+}

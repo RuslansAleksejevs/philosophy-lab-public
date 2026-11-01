@@ -1,0 +1,90 @@
+{
+  "schema": "pair-ready-handoff-tests.v1",
+  "status": "PASS_SYNTHETIC_PREPARATION_ONLY",
+  "created_at": "2026-10-19T04:52:37.574611+00:00",
+  "tests_run": 8,
+  "failures": 0,
+  "errors": 0,
+  "tests": [
+    "test_110_logical_receipts_and_two_002_are_accepted_by_frozen_helper",
+    "test_accept_rechecks_canonical_map_before_any_write",
+    "test_changed_original_input_event_rejected",
+    "test_duplicate_vote_session_rejected",
+    "test_failed_sid_cannot_become_replacement",
+    "test_group_event_cannot_fake_stored_output",
+    "test_missing_110th_receipt_is_not_ready",
+    "test_unmapped_third_replacement_rejected"
+  ],
+  "observed_test_runner_seconds": 0.575,
+  "commands": [
+    "python3 -B -m unittest discover -s runs/final-selection-20261018/pair-ready-handoff-20261018 -p test_pair_ready_handoff.py -v",
+    "python3 -B runs/final-selection-20261018/pair-ready-handoff-20261018/bind_pair_ready.py --help"
+  ],
+  "scope": "Synthetic fixtures and fake writer only. Frozen pair helper actually exercised; full capacity resolver mocked only at already-verified resolution boundary. No actual archive writer, research/provider call, collector or network operation.",
+  "ready_request_audit": {
+    "request": {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/READY_REQUEST.json",
+      "sha256": "32753f3d9b14aac8871534389e617d7e3d143983a67dbcfa1cc40d3c6a2420a8",
+      "bytes": 4590
+    },
+    "checked_descriptors": 16,
+    "all_sha256_and_bytes_match": true,
+    "matches_replacement_test_manifest": true,
+    "request_fields": [
+      "authorization",
+      "failures",
+      "files",
+      "run_id",
+      "schema",
+      "session_id"
+    ],
+    "mutable_progress_counts_bound": false,
+    "canonical_events_checked": false,
+    "actual_108_gate_evaluated": false,
+    "finding": "Request binds immutable authorization, failures and code/test manifest. Existing ready helper evaluates the current108 ordinary accepted receipts at execution; M13 dispatch separately requires accepted M12 map."
+  },
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/pair-ready-handoff-20261018/bind_pair_ready.py",
+      "sha256": "95d24c26e9f250e74bb53ee2ead3087bdc799256561e8a86fea09ad6feb8208a",
+      "bytes": 7450
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-ready-handoff-20261018/test_pair_ready_handoff.py",
+      "sha256": "a132d5850359391c81887811d51603846bf6ef1853645ec5b6837a69b462d199",
+      "bytes": 5841
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-ready-handoff-20261018/PAIR_READY_AFTER_110_RU.txt",
+      "sha256": "6e1d8cfcb5708689c6bffe1a65f4a9da294ab79b69688caae306f7bf9e2f7d81",
+      "bytes": 7705
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-ready-handoff-20261018/pair-ready.spec.template.json",
+      "sha256": "45ef71bf3ec96096515fefc663ce6b1d9c49fe5d5df3225d0bac8c463a91e574",
+      "bytes": 703
+    }
+  ],
+  "frozen_dependencies": [
+    {
+      "path": "runs/github-selection-20261018/archive_pair_ready.py",
+      "sha256": "b50a4fd34d5b0466d520c605bd03c62a02542e6fd327e249a02d774ea042d2ea",
+      "bytes": 19832
+    },
+    {
+      "path": "runs/github-selection-20261018/test_archive_pair_ready.py",
+      "sha256": "81b8a1ff3f85b3989d698a28d42cbbd90fadee335ad9c6290b315c7d7447520e",
+      "bytes": 12415
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/resolver_v2.py",
+      "sha256": "dfa6bc030427957b98abd94dd465e151ec388d3e7736f7cb1831bf5cff52a412",
+      "bytes": 20698
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/ready_capacity_v2.py",
+      "sha256": "6ea284b389c1ecb6dd55ef07c733ff9a600bf68e8d796bf6473ab4d106cb0374",
+      "bytes": 12291
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schema": "selection-final-editorial-check.v1",
+  "status": "EDITORIAL_CLARIFICATION_NEEDED",
+  "created_at": "2026-10-19T07:28:02.995191+00:00",
+  "historical_draft_only": true,
+  "preservation_manifest": {
+    "path": "runs/final-selection-20261018/coordinator/editorial-draft-v1/MANIFEST.json",
+    "sha256": "575171cb4cca5d65808cee486ba140b2cc8c0b66893f4ab0be324547c6b265c6",
+    "bytes": 2084
+  },
+  "checked_inputs": [
+    {
+      "path": "runs/final-selection-20261018/DECISIONS.json",
+      "preserved_copy": "runs/final-selection-20261018/coordinator/editorial-draft-v1/DECISIONS.json",
+      "sha256": "a678e8416cf744eba4f351d8f87cfb5309e750ca4c3308ef05d17d7d6d5c8fe8",
+      "bytes": 42962
+    },
+    {
+      "path": "runs/final-selection-20261018/22_CANDIDATES_RU.md",
+      "preserved_copy": "runs/final-selection-20261018/coordinator/editorial-draft-v1/22_CANDIDATES_RU.md",
+      "sha256": "15b989bb453c81c38562d1e9ae4972a7ecfa3c4aee29d5bf30449c2d14d3fb9c",
+      "bytes": 29699
+    },
+    {
+      "path": "runs/final-selection-20261018/closure-input/PLAN_INPUT.json",
+      "preserved_copy": "runs/final-selection-20261018/coordinator/editorial-draft-v1/closure-input/PLAN_INPUT.json",
+      "sha256": "0a94172c23d7d7df6ec74dba58187f88943a22d9bc11227e3703b994afb673d7",
+      "bytes": 45844
+    },
+    {
+      "path": "runs/final-selection-20261018/coordinator/FINAL_COMPARISON_RU.txt",
+      "preserved_copy": "runs/final-selection-20261018/coordinator/editorial-draft-v1/coordinator/FINAL_COMPARISON_RU.txt",
+      "sha256": "3d5c0f49057761a2298056318ade30cbc677eb77c9147b17d13afa697ff3ffb0",
+      "bytes": 24514
+    }
+  ],
+  "comparison_inputs": [
+    {
+      "path": "runs/final-selection-20261018/coordinator/SOURCE_SYNTHESIS_RU.txt",
+      "sha256": "b9658eb8a5ecf656ec489e35ae2b091fe92b332967b641a8c6b9a8f7f2099102",
+      "bytes": 11940
+    },
+    {
+      "path": "runs/final-selection-20261018/coordinator/CONTRIBUTIONS_PLAIN_RU_V2.json",
+      "sha256": "32b068591c1bd5324ce2d3e2ca647132ef20b9031d21806fa3de7526b8e8e620",
+      "bytes": 12190
+    },
+    {
+      "path": "runs/final-selection-20261018/coordinator/METHOD_APPLICATION_RU.txt",
+      "sha256": "bfb7a1946a2eb71a9266e51930206abd0012e2e65f2720b045fdf48ca7ebbd66",
+      "bytes": 5835
+    },
+    {
+      "path": "runs/final-selection-20261018/coordinator/PAIR_REVIEW_NOTES_01.json",
+      "sha256": "afa2a240f3d4857831984c28d95c6e627268d5df929d92b0d3e86c90ca8f8b9c",
+      "bytes": 2237
+    },
+    {
+      "path": "runs/final-selection-20261018/coordinator/PAIR_REVIEW_NOTES_02.json",
+      "sha256": "89fb26a4096a349d0bdf928fff3b5c05ba55d2065b2f957972fc3f4dee36d5a5",
+      "bytes": 2560
+    },
+    {
+      "path": "runs/final-selection-20261018/coordinator/PAIR_REVIEW_NOTES_03.json",
+      "sha256": "2c81f63f7ab2ecf0cd0f3b62c4caa02296dd07670154bd68e01c576f93e23e5c",
+      "bytes": 2677
+    },
+    {
+      "path": "runs/final-selection-20261018/coordinator/PAIR_REVIEW_NOTES_04.json",
+      "sha256": "137675a7cacacfa5d6e7a4a62d57966913906bd26d8df4f0d1f2b738bc12b738",
+      "bytes": 2336
+    },
+    {
+      "path": "runs/final-selection-20261018/coordinator/PAIR_REVIEW_NOTES_05.json",
+      "sha256": "65cb798cf635e0e4057252a40889bcdc675d39895aa3189b7604ed6e039d0607",
+      "bytes": 2488
+    },
+    {
+      "path": "runs/final-selection-20261018/coordinator/PAIR_REVIEW_NOTES_06.json",
+      "sha256": "d4e2b0b26d52756919285832fc6fb7c1b0e54783c1f93dad89d9b0d11fd0c69a",
+      "bytes": 2327
+    },
+    {
+      "path": "runs/final-selection-20261018/coordinator/PAIR_REVIEW_NOTES_07.json",
+      "sha256": "97120de62180dccda5225791a76c2dc90d57858bd3e18faf2aabd5067f0480b9",
+      "bytes": 2543
+    },
+    {
+      "path": "runs/final-selection-20261018/coordinator/PAIR_REVIEW_NOTES_08.json",
+      "sha256": "846728d89d5a46b878af2d631051eed6dc316d92b9fd1f07d94e46c4478a79e8",
+      "bytes": 2539
+    },
+    {
+      "path": "runs/final-selection-20261018/coordinator/PAIR_REVIEW_NOTES_09.json",
+      "sha256": "c45937605f35cbe148ab6253d78c41cf332dae587ee2c056a63d86b6bfdb67e6",
+      "bytes": 2495
+    },
+    {
+      "path": "runs/final-selection-20261018/coordinator/PAIR_REVIEW_NOTES_10.json",
+      "sha256": "c1a733001adb13c68b79d9ff3dab145eb3fdca9aa23872d39d99d34856840f4c",
+      "bytes": 2011
+    }
+  ],
+  "checks": {
+    "decision_count": 22,
+    "selection_counts": {
+      "main": 8,
+      "wildcard": 2,
+      "outside": 12
+    },
+    "decision_and_plan_rows_identical": true,
+    "all_reason_paragraphs_verbatim_in_both_reports": true,
+    "three_reason_sentences_each": true,
+    "reading_candidate_set_matches_selection": true,
+    "pair_verdict_reporting": "PASS: five F02/E039 ties retained; only documented5:0 called unanimous; small advantages and unperformed comparisons not inflated.",
+    "targeted_cases": "E037 sincere error rather than lie; E047 valid consent distinct from promised review without exit; E078 proposer payment qualified by common costs/baseline/proportionality; E050 restricted model; E079 alternative frequency explanation, not a general refutation of following rules."
+  },
+  "findings": [
+    {
+      "id": "E012_CONTEXT_OMISSION",
+      "severity": "editorial_clarification",
+      "candidate_id": "E012",
+      "locations": [
+        "DECISIONS.json:reason_ru[0]",
+        "closure-input/PLAN_INPUT.json:reason_ru[0]",
+        "22_CANDIDATES_RU.md:E012",
+        "coordinator/FINAL_COMPARISON_RU.txt:E012"
+      ],
+      "finding_ru": "Первое предложение описывало потерю фотографий и последующее обвинение, но опускало отличительный шаг: само решение фонда позднее ошибочно используют как доказательство ложной жалобы. Требовалось уточнить механизм, а не менять выбор.",
+      "basis": [
+        "CONTRIBUTIONS_PLAIN_RU_V2.json:E012",
+        "PAIR_REVIEW_NOTES_03.json:coordinator_text_check"
+      ],
+      "selection_change_requested": false
+    }
+  ],
+  "result_ru": "Один недочёт краткого объяснения E012; других существенных редакторских искажений в пределах сверки не найдено. Этот отчёт фиксирует проверку прежних сохранённых drafts: root уже исправил формулировку, актуальный результат находится в FINAL_EDITORIAL_CHECK_V2.json.",
+  "boundary_ru": "Редакторская сверка только перечисленных итоговых и готовых координаторских материалов. Не новый отзыв, голос, выбор десятки или проверка новизны. Новые рукописи, review responses, внешние источники, native logs и канонический архив не читались. Модели, writer, интернет, GitHub и collector не запускались. Решения не редактировались этим помощником; изменены только два новых отчёта."
+}

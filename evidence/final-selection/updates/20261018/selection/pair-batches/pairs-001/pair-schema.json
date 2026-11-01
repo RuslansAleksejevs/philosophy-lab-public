@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["review_id", "pair_id", "profile_id", "read_complete", "thesis_a", "thesis_b", "comparison", "concerns_a", "concerns_b", "verdict", "confidence", "reason_ru", "limits"],
+  "properties": {
+    "review_id": {"type": "string"},
+    "pair_id": {"type": "string"},
+    "profile_id": {"type": "string"},
+    "read_complete": {"type": "boolean"},
+    "thesis_a": {"type": "string"},
+    "thesis_b": {"type": "string"},
+    "comparison": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["argument", "significance", "originality"],
+      "properties": {
+        "argument": {"type": "string"},
+        "significance": {"type": "string"},
+        "originality": {"type": "string"}
+      }
+    },
+    "concerns_a": {"type": "array", "maxItems": 3, "items": {"$ref": "#/$defs/concern"}},
+    "concerns_b": {"type": "array", "maxItems": 3, "items": {"$ref": "#/$defs/concern"}},
+    "verdict": {"enum": ["A", "B", "tie", "neither"]},
+    "confidence": {"enum": ["low", "medium", "high"]},
+    "reason_ru": {"type": "array", "minItems": 2, "maxItems": 3, "items": {"type": "string"}},
+    "limits": {"type": "array", "items": {"type": "string"}}
+  },
+  "$defs": {
+    "concern": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["location", "reason", "reply"],
+      "properties": {
+        "location": {"type": "string"},
+        "reason": {"type": "string"},
+        "reply": {"type": "string"}
+      }
+    }
+  }
+}

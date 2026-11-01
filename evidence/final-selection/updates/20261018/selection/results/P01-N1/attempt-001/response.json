@@ -1,0 +1,49 @@
+{
+  "review_id": "P01-N1",
+  "pair_id": "P01",
+  "profile_id": "neutral",
+  "read_complete": true,
+  "thesis_a": "A argues that preserving present justification and confidence need not preserve the capacity for informed revision. Its strongest argument combines a source-audit example, a criterion for summaries that preserve future posteriors, and an expected-error identity. These establish a prospective epistemic reason to retain otherwise idle information. A further principle makes retention obligatory when an agent recognizes the benefit, maintains the relevant epistemic aim, and faces no additional cost or disadvantage. Responsibility for preservation is distinct from the rationality of subsequent belief.",
+  "thesis_b": "B challenges the inference that deletion is harmless whenever present confidence remains unchanged and subsequent beliefs perfectly fit surviving evidence. Its sensor example satisfies both conditions while erasure worsens expected credal accuracy. The general identity explains why: correct updating cannot restore distinctions removed from the information available. Given a defended premise that expected credal accuracy contributes to inquiry's quality, evidential fit does not exhaust retention-policy assessment. B claims an explanatory limitation rather than a refutation of an entire theory of rationality.",
+  "comparison": {
+    "argument": "Both central informational arguments succeed within their stipulated models. A's post-audit expected losses of 0.05 and 0.07, and B's losses of 0.07 and 0.08, follow from their respective assumptions. Both correctly connect posterior differences to expected squared-error loss without claiming improvement in every outcome. B additionally identifies a sufficient conditional-independence condition under which present probability preservation does suffice, and explicitly stipulates perfect fit across all retained states. A supplies a broader framework for anticipated correction practices and a conditional preservation requirement. Its defense makes that requirement plausible but does not settle the disagreement with permissive satisficing. Neither text contains a demonstrated central failure.",
+    "significance": "Both offer a worthwhile, modest result: evaluating later reasoning does not adequately evaluate an earlier information-management decision, even for one unchanged question. A develops the implications for responsible closure and institutional custody. B isolates what disposition-to-fit explanations leave unexplained. A's additional obligation is substantive but conditional; B's narrower conclusion is secure but accommodated by the theories it discusses. Both depend on valuing degrees of confidence: B explicitly shows no improvement in categorical classification, a limitation also applicable to A's example. Their different extensions do not establish a decisive difference in philosophical contribution.",
+    "originality": "Neither claims a new probability theorem. A acknowledges close forgotten-source cases and established distinctions between present answers and revision states. B acknowledges antecedents covering expected-value assessments of forgetting and future-sensitive representations. Their remaining contributions are applications and argumentative distinctions, rather than demonstrated foundational discoveries. The packet supports assessing those contributions, but not establishing priority. A's prospective norm and B's controlled explanatory counterexample provide no clearly evidenced originality advantage over one another."
+  },
+  "concerns_a": [
+    {
+      "location": "§3, paragraphs beginning 'Why accept this principle instead of unrestricted satisficing?' and 'A thoroughgoing satisficer can still deny the principle.'",
+      "reason": "“It simply makes the continuing aim harder to serve.” Ranking retention above deletion does not itself establish that deletion is impermissible. Removing burdens weakens familiar defenses of satisficing without disproving permission to choose among adequate policies. Check: explain why someone who values informed accuracy but permits several adequate policies violates a norm without presupposing the proposed prohibition.",
+      "reply": "A explicitly recognizes this residual disagreement, excludes agents concerned only with a fixed threshold, and makes the stronger requirement conditional on rejecting unrestricted permission to waste. Its weaker retention reason survives."
+    },
+    {
+      "location": "§5, opening two paragraphs; §6, paragraphs beginning 'There is no context-free solution' and 'Exact equality of posterior probabilities'.",
+      "reason": "“There is no context-free solution to the choice of relevant future challenges.” The account supplies a clear ideal boundary but limited guidance for uncertain correction practices, competing retention costs, or model revision. This limits practical significance rather than refuting the example. Check: work through a case involving uncertain audits and positive storage costs, identifying what the framework determines beyond familiar expected-information assessment.",
+      "reply": "A expressly restricts posterior reproduction to specified models and observations, allows approximate preservation, and denies an automatic obligation when costs arise. It identifies contextual reasons rather than promising a universal procedure. B's idealized inspection case shares much of this practical limitation."
+    }
+  ],
+  "concerns_b": [
+    {
+      "location": "§5, paragraphs beginning 'Hedden’s reply evaluates processes derivatively' and 'The example therefore gives no reason'.",
+      "reason": "“The example therefore gives no reason to attribute fit-only completeness to Hedden.” The defeated completeness claim is an extrapolation, not an established commitment of the principal interlocutor. This limits the result's revisionary significance. Check: identify a concrete explanation that predicts harmlessness here and cannot accommodate the informational disadvantage through its acknowledged resources.",
+      "reply": "B explicitly presents a local explanatory limitation. It acknowledges instrumental assessment, truth-directed assessment, and richer accounts of evidence as available responses, and does not claim to refute time-slice rationality wholesale."
+    },
+    {
+      "location": "§6, subsection 'What if historical evidence survives forgetting?', especially the second paragraph and external-record variant.",
+      "reason": "“The main counterexample is conditional on genuine loss from epistemically available information.” Perfect probability assignment relative to an information partition does not independently establish fit under every philosophical account of possessed evidence. Check: apply a specified historical-evidence account to the original researcher and distinguish that result from the recipient variant.",
+      "reply": "B expressly accepts this dependency. Its recipient variant preserves the comparison between information quality and response quality, but appropriately relinquishes an unrestricted conclusion about the original researcher's memory."
+    }
+  ],
+  "verdict": "tie",
+  "confidence": "medium",
+  "reason_ru": [
+    "Оба текста показывают: можно правильно оценивать оставшиеся сведения и всё же зря потерять информацию для будущей проверки.",
+    "У А спорным остаётся переход к обязанности хранить сведения, у Б ограничено значение вывода для существующих теорий.",
+    "Оба дают полезный, но умеренный результат; явного преимущества нет."
+  ],
+  "limits": [
+    "Both complete manuscripts and their bibliographies were read. Only the supplied packet was used; no tools or external sources were consulted.",
+    "External source correctness and exhaustive novelty were not checked. Unverified citations are not treated as demonstrated misattributions.",
+    "Confidence is medium because the comparison turns partly on the contested force of A's additional normative principle and the philosophical reach of B's deliberately limited target."
+  ]
+}

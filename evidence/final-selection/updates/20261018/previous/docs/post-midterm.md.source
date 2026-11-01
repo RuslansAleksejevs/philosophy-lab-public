@@ -1,0 +1,49 @@
+[← Philosophy Lab](../README.md) · [Seven new essays](../essays/post-midterm/README.md) · [Final selection](selection.md) · [Timeline](timeline.md)
+
+# After the midterm
+
+**Five programs completed by October 15, 2026; consolidated October 16 and accepted October 17 at 00:02 PDT.** They added seven essays, challenged the surviving candidates, and reopened six rejected works for specific further checks.
+
+The next stage is now defined: [22 candidates → ten → three, plus two reserves](selection.md). Its first step is complete: 13 texts stay as they are for comparison, and nine have targeted work first.
+
+On [October 12](../logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.md#source-line-10814), the user chose these five programs and asked for a larger idea search. The coordinator expanded the proposed 60 attempts to 300. Each task received a file packet for a separate chat; the user chose a [direct packet for Claude Code](../logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.md#source-line-10852), so the Codex programs would not depend on Claude finishing.
+
+| Program | Completed work | What it left us with |
+| --- | --- | --- |
+| Literature | 18 searches and 9 syntheses | All nine candidates have close predecessors; the distinct contribution remains a question |
+| Argument development | 12 branches for four candidates; 40 roles | Memos, separate criticism, author replies, and four syntheses; the essays themselves were not rewritten by this lane |
+| Idea search | 300 attempts, 600 reviews, 24 deep dossiers | One tentative usable seed, I012; 23 unresolved dossiers |
+| New essays | Seven full cycles: author, two critics, revision | F01–F06 and S02; 17 other planned places closed for lack of admitted seeds |
+| Rejection check | A preselected 20 of 91 rejected candidates; 40 blind reviews | Six conditional returns, 11 reserves, three rejections of the current argument |
+
+The 300 attempts include 298 initially complete records and two failed attempts whose text was retained. Only I012 passed as a tentative usable seed. The low yield leaves a real process question: weak ideas, a demanding gate, insufficient reading, or excessive cost? These records do not isolate the cause.
+
+## Seven completed essays
+
+[Read the collection](../essays/post-midterm/README.md). Each essay keeps its original draft, both critiques, the author’s response, and R1. The six draft snapshots from the earlier edition remain accessible. The critics reviewed D0; assessing the resulting R1 versions is part of final selection.
+
+S02 grew from I012: fair participant sampling does not, by itself, justify choosing a convenient last citizens’ assembly after repeated consultation. The essay separates the authenticity of a judgment, its evidential force, and a report’s institutional status. Its novelty and sufficient significance remain open.
+
+## What the new checks changed
+
+The argument work refined E050’s conditional mathematical claims while limiting its practical promises. For E078, preserving an exit remains distinct from establishing who must pay for it. E036 still has an open choice between a clearer R1 and the original’s greater ambition. E009’s current synthesis is v3; an earlier synthesis with a context-isolation failure remains in the local history and is excluded from the current result.
+
+The E009, E050, and E078 argument branches used the earlier literature syntheses. A future revision must reconcile them with the later literature releases; that dependency has not already been completed.
+
+The rejection check conditionally returned **E012, E037, E039, E041, E086, and E098**. Together with nine midterm candidates and seven new essays, they form the 22-line selection register. [The current table](selection.md#what-each-candidate-needs) explains what each needs next.
+
+## Settings changed during the work
+
+Early work used Astra/max. On [October 13](../logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.md#source-line-11568), the five continuation packets were prepared for manual delivery with GPT-6.1 Sol, high/xhigh effort, and Standard speed. The idea-search branch received an explicit [Astra/max/Fast exception on October 14](../logs/codex/chats/01a1335b-c010-7962-90bd-89c369f9e656/conversation.md#source-line-13507), then [returned to Sol/xhigh on October 15](../logs/codex/chats/01a1335b-c010-7962-90bd-89c369f9e656/conversation.md#source-line-14596), with Standard bound in its continuation. S02 used Sol/max/Standard. These settings changed during the work; the results are not controlled model comparisons.
+
+## The separate Claude branch
+
+**October 14, 2026:** the archived first batch contained five idea cards. Two critics examined C2 and C5. Two checks of those criticisms, two repair attempts, and two fresh evaluations followed. C2 was set aside (**SET_ASIDE_SUPPORTED**); C5 achieved only a partial repair (**PARTIAL_REPAIR**). Neither became a completed essay. The larger 60-idea branch remained paused.
+
+The [five newly exported Claude conversations](../logs/README.md#claude-after-the-midterm) preserve the available visible text and timestamps. Internal reasoning and unreviewed tool bodies are excluded.
+
+## Evidence and limits
+
+The [release index](../evidence/post-midterm/releases.json) identifies 24 exact current packages and the hashes of their bound outputs. The repository copies the seven English manuscript cycles; the index does not imply that every external source reading or local Russian report is present here. The dated source records also support the [timeline](timeline.json).
+
+The local consolidation verified 6,108 linked files and summarized accepted reports. It did not add a blind review of the seven manuscripts or repeat the 600 idea reviews. The completed-task receipt records that finite result; older capture gaps and an incomplete administrative checkpoint remain in the history.

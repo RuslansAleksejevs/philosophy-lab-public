@@ -1,0 +1,388 @@
+{
+  "candidate": "E078",
+  "session_id": "01a13b60-25d2-70a3-8dce-262f3cc3e08f",
+  "compact_summary_ru": {
+    "known": "Ценность неиспользованного выхода, предварительные гарантии и совместимость новой обязанности с жалобой уже имеют сильных предшественников.",
+    "possible_distinction": "Точное основание и распределение расходов на морально доступный выход из ограниченного вклада при независимом долге перед третьими лицами; самостоятельность пока не показана.",
+    "significance": "Объяснить, какие меры и восстановление нужны до жалобы, сохраняя помощь жителям и допуская соразмерные альтернативы резерву.",
+    "strongest_objection": "Ценность выбора и контроль над резервом не устанавливают, почему конкретную цену обязан платить Ellis; ранний срок может следовать из уже принятой общей обязанности.",
+    "next_check": "На одинаковых промежуточных случаях сравнить R1, полную версию Spafford и fair exit: кто платит, когда начинает и что считается достаточным восстановлением."
+  },
+  "questions": [
+    {
+      "id": "U01",
+      "inherited_ids": [
+        "B2-U01",
+        "A-U02",
+        "B-U01"
+      ],
+      "status": "OPEN_NARROWED",
+      "question_ru": "Есть ли различающий вердикт или основание сверх ближайших подходов?",
+      "finding_ru": "Сочетание элементов и ранний срок сами не устанавливают новый принцип.",
+      "next_check_ru": "Сравнить одну полностью заданную ситуацию и защищаемую меру потерь; не исключать контроль из предшественника.",
+      "evidence_ids": [
+        "SPAFFORD_2023",
+        "KELLER_2018",
+        "ROUMEAS_2020",
+        "ROUMEAS_2023"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/A/evidence/E01_spafford.txt",
+          "sha256": "140e2413787cdc362b5d51c7c537506f552439baab076ba37e83c537d1208a32"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P01_spafford.json",
+          "sha256": "fa144f9012f6a89b7517429e8f265316838ecc321bce7e56e109838ed7e8fc82"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/midterm-20261007/literature-audit-20261010/results/L03/claude/sources/a5130519d982579bcac0607bdd39eedfdabce8535587ea6889bdda1c6560bd6e.txt",
+          "sha256": "8c94168eb642752ab5e12a1f0e93f6c9f23f2ac82b5c8fbe1555ac8e1e030e8d",
+          "locator": "lines1409–1433,1789"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/A/evidence/E02_keller.txt",
+          "sha256": "ebdfe357c867ab614bd846f8bfa53f9227881cfc099507cc3ccb1bd8bbdec034"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P02_keller.json",
+          "sha256": "17f0088044c96c2ec6eaaca41bee9b7b511f07f0b43452528b416f5e2d530994"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/midterm-20261007/literature-audit-20261010/results/L03/claude/sources/68b88efe4e378af32320850172c550ce6703492452efda179d9fb101a2b65abd.txt",
+          "sha256": "e62970c0eec95a4dc156e4377ccc402f2d3a03e0e2adccf6a6cf4035b8f52bfc",
+          "locator": "lines1138–1205"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/B/evidence/S02.json",
+          "sha256": "d35f0341984dda12d7fe24612cacc277a3a7417320697919c9c01a19fe03147d"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P08_roumeas_enabling_exit.json",
+          "sha256": "264fef117ca9b6269f0fb85f6d0cec95bfb554024defe9376ef2bed8eaa6d143"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/B/evidence/S01.json",
+          "sha256": "1981aaf1822a718322d1791b60688d6b63ec500db76fd05e9b2aad845aafc68d"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P07_roumeas_fair_exit.json",
+          "sha256": "9bc2cc18c995ef9c7ca44170a560a7a5b1b9a04b7abc8a2a74f0a1030dd7a868"
+        }
+      ]
+    },
+    {
+      "id": "U02",
+      "inherited_ids": [
+        "B2-U02",
+        "A-U01",
+        "B-U02"
+      ],
+      "status": "OPEN_CENTRAL",
+      "question_ru": "Когда умеренную цену значимого выхода несёт Ellis, а когда её делят?",
+      "finding_ru": "Нужен промежуточный конфликт внутри условий R1, учитывающий важный, но не основной интерес Ellis и приглашённую зависимость.",
+      "next_check_ru": "Сохранить значимость выхода и цену, менять выгоду Ellis и приглашение Rowan; объяснить долю плательщика.",
+      "evidence_ids": [
+        "SPAFFORD_2023",
+        "ROUMEAS_2023",
+        "OBRIEN_2026"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/A/evidence/E01_spafford.txt",
+          "sha256": "140e2413787cdc362b5d51c7c537506f552439baab076ba37e83c537d1208a32"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P01_spafford.json",
+          "sha256": "fa144f9012f6a89b7517429e8f265316838ecc321bce7e56e109838ed7e8fc82"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/midterm-20261007/literature-audit-20261010/results/L03/claude/sources/a5130519d982579bcac0607bdd39eedfdabce8535587ea6889bdda1c6560bd6e.txt",
+          "sha256": "8c94168eb642752ab5e12a1f0e93f6c9f23f2ac82b5c8fbe1555ac8e1e030e8d",
+          "locator": "lines1409–1433,1789"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/B/evidence/S01.json",
+          "sha256": "1981aaf1822a718322d1791b60688d6b63ec500db76fd05e9b2aad845aafc68d"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P07_roumeas_fair_exit.json",
+          "sha256": "9bc2cc18c995ef9c7ca44170a560a7a5b1b9a04b7abc8a2a74f0a1030dd7a868"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P09_obrien.json",
+          "sha256": "39ec6f56d4c7c182568f97f844799f04ef55633559d70fbfaca21ce870775e3d"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/midterm-20261007/literature-audit-20261010/results/L03/claude/sources/1217ad066cc91e0c698c712bc5cf1ff10808e67a53782fa12c4f1b8c43c6356d.txt",
+          "sha256": "5a6f4b9e3328bc3f8de0ea3dc58bdf65ee19ff46277655d7fa14a4009a591f03",
+          "locator": "lines724–776"
+        }
+      ]
+    },
+    {
+      "id": "U03-D",
+      "inherited_ids": [
+        "B2-U03",
+        "A-R01",
+        "B-U03-D"
+      ],
+      "status": "CLOSED_BOUNDED_INHERITED",
+      "question_ru": "Подтверждены ли указанные страницы Dougherty2014?",
+      "finding_ru": "Да, принятыми чтениями A/B; S прочитал только сохранённую выдержку p.39, свежий PDF не получил. История B2 abstract-only сохранена.",
+      "next_check_ru": "Для самостоятельного подтверждения S нужны публичный первичный PDF и чтение pp.27,33–34,38–39; текущий вывод не заявляет такого чтения.",
+      "evidence_ids": [
+        "DOUGHERTY_2014"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/A/evidence/E03_dougherty.txt",
+          "sha256": "b724b391f8e6266c9995b5c3fe0f75b6853c0848e57c3dd9b783588a276b2d1a"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/B/evidence/S03.json",
+          "sha256": "9d55b0e20b0a2547c7cd646c0f194dcd0e15e44dc8c85efd099b22c5a3e4fb4b"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P03_dougherty_boundary.json",
+          "sha256": "81df7a6bb9e3e6223fbb7649a0e42f2ab1027a1503f0fd18478fbb16cc1d2eaa"
+        }
+      ]
+    },
+    {
+      "id": "U03-G",
+      "inherited_ids": [
+        "B2-U03",
+        "B-U03-G"
+      ],
+      "status": "OPEN_ACCESS_LIMIT",
+      "question_ru": "Каковы полные условия разумной зависимости у Goodin2024?",
+      "finding_ru": "Revoking Consent остаётся abstract-only; другие работы не заменяют главу.",
+      "next_check_ru": "Получить законно и прочитать chapter 7, pp.151–174; проверить созданную зависимость, компенсацию и критерии reasonable reliance.",
+      "evidence_ids": [
+        "GOODIN_2024_CHAPTER",
+        "GOODIN_2024_COMMITMENT"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/B/evidence/S04.json",
+          "sha256": "2b66b45f564f2a0080b0bb99266b8e2d0120539043059879549a82c288226433"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/B/evidence/S05.json",
+          "sha256": "10307505e17bd8f35a56cb3bc9c29e32d6a9d3d25b5ea24a4569e3159a0c32d5"
+        }
+      ]
+    },
+    {
+      "id": "U04",
+      "inherited_ids": [
+        "B2-U04",
+        "A-U03",
+        "B-U04"
+      ],
+      "status": "OPEN_REFRAMED",
+      "question_ru": "Что обосновывает ранний срок и начало восстановления при позднем обнаружении?",
+      "finding_ru": "После принятия обязанности и соразмерного средства ранний срок может быть обычным следствием продолжающегося нарушения; знание и виновность отдельны.",
+      "next_check_ru": "Сопоставить момент продажи, известность ограничения, начало закупки и просьбу Rowan; проверить цену ускорения.",
+      "evidence_ids": [
+        "SPAFFORD_2023",
+        "ROUMEAS_2020"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/A/evidence/E01_spafford.txt",
+          "sha256": "140e2413787cdc362b5d51c7c537506f552439baab076ba37e83c537d1208a32"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P01_spafford.json",
+          "sha256": "fa144f9012f6a89b7517429e8f265316838ecc321bce7e56e109838ed7e8fc82"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/midterm-20261007/literature-audit-20261010/results/L03/claude/sources/a5130519d982579bcac0607bdd39eedfdabce8535587ea6889bdda1c6560bd6e.txt",
+          "sha256": "8c94168eb642752ab5e12a1f0e93f6c9f23f2ac82b5c8fbe1555ac8e1e030e8d",
+          "locator": "lines1409–1433,1789"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/B/evidence/S02.json",
+          "sha256": "d35f0341984dda12d7fe24612cacc277a3a7417320697919c9c01a19fe03147d"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P08_roumeas_enabling_exit.json",
+          "sha256": "264fef117ca9b6269f0fb85f6d0cec95bfb554024defe9376ef2bed8eaa6d143"
+        }
+      ]
+    },
+    {
+      "id": "U05",
+      "inherited_ids": [
+        "B2-U05",
+        "A-U05",
+        "B-U05"
+      ],
+      "status": "OPEN_SCOPE_LIMIT",
+      "question_ru": "Есть ли более прямые предшественники в остальных назначаемых ветвях?",
+      "finding_ru": "Общий domination/normative authority, полный Goodin и Keller Family не изучены содержательно здесь.",
+      "next_check_ru": "Отдельно ограничить следующую первичную проверку; не делать выводов из названий или неудачного доступа.",
+      "evidence_ids": [
+        "KELLER_FAMILY_LEAD",
+        "GOODIN_1985_BOOK"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/A/evidence/L01_keller_family_access.json",
+          "sha256": "3d3e89518224666640956a45b74b5c302e90481f6798bdceea9c977962ccf41e"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/B/evidence/S10.json",
+          "sha256": "11cf95ba939a76e0553b458fc2074fee251589029fb188e19904d1856999140d"
+        }
+      ]
+    },
+    {
+      "id": "U06",
+      "inherited_ids": [
+        "A-U04"
+      ],
+      "status": "OPEN_CONSENT_SCOPE",
+      "question_ru": "Что разрешает позднее согласие после созданного Ellis препятствия?",
+      "finding_ru": "Разрешение продолжить помощь, одобрение прежней продажи и отказ от претензии — разные предметы.",
+      "next_check_ru": "Сформулировать отдельно каждый предмет и проверить условия действительности; Liberto не даёт общего ответа для вновь созданных препятствий.",
+      "evidence_ids": [
+        "LIBERTO_2016",
+        "CHWANG_2008",
+        "DOUGHERTY_2014"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/A/evidence/E05_liberto.txt",
+          "sha256": "7881b61255704c67100895f5fdea65edc243d3149ee9e4dd06564d8ff52fbc92"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P05_liberto.json",
+          "sha256": "5204bc305dd602e19c5068c1a9c07d9a4317fcb28355d907bf7df7df656c198d"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/A/evidence/E06_chwang.txt",
+          "sha256": "f26300f5d9ce265e314f8b60c529d888c463598f2665fc247b6a60a208feda0c"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P06_chwang.json",
+          "sha256": "8136faffbad02ef0ee4f6a89b98bd90ada7c7415f4ac5c9faeb71458a5826a7a"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/midterm-20261007/literature-audit-20261010/results/L03/claude/sources/dc8f40a7710367bc129eaaae7e0ea94f26517f6c1fe04f801d3b82072aceb7cb.txt",
+          "sha256": "e9e381f76e3eec5cde0b26e6139cb34dda086536e326c7dddc16ad20141476b0",
+          "locator": "lines245–278"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/A/evidence/E03_dougherty.txt",
+          "sha256": "b724b391f8e6266c9995b5c3fe0f75b6853c0848e57c3dd9b783588a276b2d1a"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/B/evidence/S03.json",
+          "sha256": "9d55b0e20b0a2547c7cd646c0f194dcd0e15e44dc8c85efd099b22c5a3e4fb4b"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P03_dougherty_boundary.json",
+          "sha256": "81df7a6bb9e3e6223fbb7649a0e42f2ab1027a1503f0fd18478fbb16cc1d2eaa"
+        }
+      ]
+    },
+    {
+      "id": "U07",
+      "inherited_ids": [
+        "B-C08",
+        "B-S08-discussion"
+      ],
+      "status": "OPEN_BRIDGE_PREMISE",
+      "question_ru": "Почему сохраняется конкретный экстренный долг Rowan при несправедливом создании зависимости?",
+      "finding_ru": "Структура совместимости известна, но факт зависимости не заменяет основания экстренного спасения; долгосрочная роль может оцениваться иначе.",
+      "next_check_ru": "Удержать серьёзность вреда и низкую цену экстренной помощи, отдельно оценить краткое спасение и назначение постоянной роли.",
+      "evidence_ids": [
+        "SPAFFORD_2023",
+        "KELLER_2018",
+        "CHADHA_SRIDHAR_2026"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/A/evidence/E01_spafford.txt",
+          "sha256": "140e2413787cdc362b5d51c7c537506f552439baab076ba37e83c537d1208a32"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P01_spafford.json",
+          "sha256": "fa144f9012f6a89b7517429e8f265316838ecc321bce7e56e109838ed7e8fc82"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/midterm-20261007/literature-audit-20261010/results/L03/claude/sources/a5130519d982579bcac0607bdd39eedfdabce8535587ea6889bdda1c6560bd6e.txt",
+          "sha256": "8c94168eb642752ab5e12a1f0e93f6c9f23f2ac82b5c8fbe1555ac8e1e030e8d",
+          "locator": "lines1409–1433,1789"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/A/evidence/E02_keller.txt",
+          "sha256": "ebdfe357c867ab614bd846f8bfa53f9227881cfc099507cc3ccb1bd8bbdec034"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P02_keller.json",
+          "sha256": "17f0088044c96c2ec6eaaca41bee9b7b511f07f0b43452528b416f5e2d530994"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/midterm-20261007/literature-audit-20261010/results/L03/claude/sources/68b88efe4e378af32320850172c550ce6703492452efda179d9fb101a2b65abd.txt",
+          "sha256": "e62970c0eec95a4dc156e4377ccc402f2d3a03e0e2adccf6a6cf4035b8f52bfc",
+          "locator": "lines1138–1205"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/B/evidence/S08.json",
+          "sha256": "df7480b9329f458710bd857abbad06c5c17e52fe8bf9a026a5968bed859077ac"
+        }
+      ]
+    }
+  ],
+  "attribution_corrections_preserved": [
+    {
+      "source": "SPAFFORD_2023",
+      "finding_ru": "B отказался спасти уже тонущего ребёнка; не создал исходную опасность.",
+      "evidence": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P01_spafford.json",
+        "sha256": "fa144f9012f6a89b7517429e8f265316838ecc321bce7e56e109838ed7e8fc82"
+      }
+    },
+    {
+      "source": "LIBERTO_2016",
+      "finding_ru": "Нужны оговорки об authority accounts и происхождении ограничения альтернатив.",
+      "evidence": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/S/evidence/P05_liberto.json",
+        "sha256": "5204bc305dd602e19c5068c1a9c07d9a4317fcb28355d907bf7df7df656c198d"
+      }
+    }
+  ],
+  "packet_questions": [
+    {
+      "id": "P-A-TRACE",
+      "status": "UNRESOLVED_HISTORICAL_TRACE_GAP",
+      "question_ru": "Отсутствующий boundary addendum и события W011/LOCAL_CHWANG_1; несовпадение ранних диапазонов Liberto.",
+      "record": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/A/SOL_COMPLETION_ADDENDUM.json",
+        "sha256": "b1d8d55fff1253d7a58f09caecb52284484ecdc5d2ec9e4522d9d1916d8b196d",
+        "locator": "P01–P04"
+      },
+      "effect_ru": "Не расширять чтение A; прямые проверки S не восстанавливают старые события."
+    },
+    {
+      "id": "P-B-LOG",
+      "status": "RECONSTRUCTED_LOG_BOUNDARY_RETAINED",
+      "record": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E078/workers/B/SOL_COMPLETION_ADDENDUM.json",
+        "sha256": "888cdbb0cba855ecc300d63d5860df6f686f5cba85eab2adf343ed861b5faec9",
+        "locator": "A02,A04"
+      },
+      "effect_ru": "34 запроса и заметки доступны, точные неизвестные времена не восстанавливались."
+    }
+  ],
+  "exhaustive_search_claim": false,
+  "novelty_status": "NOT_ESTABLISHED",
+  "manuscript_edits": false,
+  "rank_awarded": false,
+  "new_agents_started": 0,
+  "follow_on_research_launched": false
+}

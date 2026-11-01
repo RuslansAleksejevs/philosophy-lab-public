@@ -1,0 +1,206 @@
+{
+  "selected": [
+    "E050",
+    "E012",
+    "E051"
+  ],
+  "coordinator_session_id": "01a190b5-03e2-70d0-8fcf-b4a1e67148d0",
+  "status": "REVISION_PLAN_READY_NOT_IMPLEMENTED",
+  "authorship": "AI coordinator synthesis of six accepted independent manuscript reviews; this plan itself has not been independently reviewed.",
+  "scope": "Three frozen manuscripts; two new E051 reviews and four reused E050/E012 reviews.",
+  "essays": [
+    {
+      "id": "E050",
+      "title": "What Holding Cannot Tell Us About Letting Go",
+      "manuscript": {
+        "path": "repository/essays/selection-20261018/E050.md",
+        "sha256": "af21989e46757835e64576fa666612652b04c26a6d367740de2c9a910645023e",
+        "bytes": 20641
+      },
+      "assessment": "No major defect found by either accepted reviewer. Targeted literature and scope clarification.",
+      "required_before_submission": [
+        {
+          "id": "E050-R1",
+          "location": "The question and its scope; bibliography",
+          "change": "Add Bongers, Blom and Mooij, Causal Modeling of Dynamical Systems (2022), section 4.6 example 4.21, manuscript pp.36–37. Acknowledge the known hidden-relative-speed mechanism. Distinguish the present combination of identical stipulated clamp end data including baseline, opposite stable release outcomes, and release-order result.",
+          "evidence": [
+            "V06-L/L1/S5"
+          ],
+          "reason": "The nearest equilibrium-model precursor is missing; do not imply that hidden speed itself is new."
+        },
+        {
+          "id": "E050-R2",
+          "location": "An application: choosing the order of withdrawal; conclusion; bibliography",
+          "change": "Compare Sootla et al.2016 section2.1 theorem7/corollary9 and Sootla–Ernst2018 sectionsIII.B/IV problem2. Explain that robust switching under parameter uncertainty is known; this essay connects one uniform release order to its specific non-identifiability example.",
+          "evidence": [
+            "V06-L/L2/S6–S7"
+          ],
+          "reason": "Present the particular contribution without claiming to invent parameter-robust control."
+        },
+        {
+          "id": "E050-R3",
+          "location": "After the success-for-every-k statement",
+          "change": "State that one time unit concerns the first stage; after the second release the target is approached asymptotically. There is no common finite settling time for all k>0. Optional supporting formula: y<=delta requires t>=log(1/delta)/k after the second release.",
+          "evidence": [
+            "V06-A/strongest_objections"
+          ],
+          "reason": "Clarify the existing correct guarantee; no theorem error was demonstrated."
+        }
+      ],
+      "optional": [
+        "Open with a short concrete explanation of holding versus releasing; preserve proof precision.",
+        "Use the accepted clock-rescaling example only if it improves clarity."
+      ],
+      "preserve": [
+        "The fixed preparation, known time scale, stipulated family and restricted data E.",
+        "The corrected basin-boundary explanation; do not reintroduce the old error.",
+        "Partial access limitation for Ryan–Dablander; do not imply its full text was checked."
+      ],
+      "not_required": [
+        "New empirical experiments",
+        "Exact switching threshold or optimal waiting time",
+        "A proof about arbitrary real systems"
+      ],
+      "verification_after_edit": "Check each new comparison against the cited passages, and confirm the revised timing language matches the existing proof. Recheck formal arguments only if their content changes.",
+      "detail": {
+        "path": "runs/submission-trio-20261031/planning/E050-plan.md",
+        "sha256": "ef657205cf3a0c626c2114d579c04d6b2968b607d7374c6ed1f32ac057a820e3",
+        "bytes": 11154
+      }
+    },
+    {
+      "id": "E012",
+      "title": "When a Remedy Becomes Evidence",
+      "manuscript": {
+        "path": "repository/essays/selection-20261018/E012.md",
+        "sha256": "53400ffacb73c30c9af7ee9fa67578305d1ee1c13711881650dfca3cd4c82884",
+        "bytes": 32126
+      },
+      "assessment": "No major defect found by either accepted reviewer. Two focused literature comparisons.",
+      "required_before_submission": [
+        {
+          "id": "E012-R1",
+          "location": "Section2, discussion of contribution; section3, general principle; bibliography",
+          "change": "Add Gardner as an antecedent for reasonable substitute performance after breach. Explain the narrower application to a later error by another agency and to what assistance can establish about the past. Use the reviewed author-eprint pagination, pp.40 and46–50, accurately.",
+          "evidence": [
+            "V08-L/F1"
+          ],
+          "reason": "The general principle is already defended in the literature; the present application and evidential limits need to be distinguished."
+        },
+        {
+          "id": "E012-R2",
+          "location": "Section2 beside the contribution; compare the two cases in section3; bibliography",
+          "change": "Add one paragraph comparing Thompson sectionIII/note7 and the 2015 Rule37 explanatory notes on paying for replacement evidence. Explain the closed first case, the later error of a different agency, and photos that could rebut fabricated damage without establishing contractor responsibility.",
+          "evidence": [
+            "V08-L/F2"
+          ],
+          "reason": "Replacement-evidence costs are known; state the specific additional problem. Legal examples are analogies, not a general claim about current law."
+        }
+      ],
+      "optional": [
+        "Clarify that no general evidentiary threshold is proposed.",
+        "Clarify the limits of reasonable assistance without promising that the audience will believe Mara."
+      ],
+      "preserve": [
+        "Causal control case, proportionality, no double compensation and contractor rights.",
+        "Distinction between historical evidence, actual entitlement and binding procedural rules.",
+        "Porat–Stein abstract-only and Friedman introductory-passage access limits; do not claim complete comparison."
+      ],
+      "not_required": [
+        "A new general legal test",
+        "A solution for every allocation of costs or time limits"
+      ],
+      "verification_after_edit": "Check the new comparisons and references, preserve the two-case reasoning and the limits on what the assistance establishes.",
+      "detail": {
+        "path": "runs/submission-trio-20261031/planning/E012-plan.md",
+        "sha256": "81370a32d407762fffbe3e105479f2605d9beddd7c2a18dd128864694f4ebc73",
+        "bytes": 6066
+      }
+    },
+    {
+      "id": "E051",
+      "title": "Difference without Reconstruction",
+      "manuscript": {
+        "path": "repository/essays/E051/original.md",
+        "sha256": "b03f38b9a529885d165f0157b44a2dca2cafec23584229e9134ed99cd42836b8",
+        "bytes": 22253
+      },
+      "assessment": "Both new independent reviewers: NO_MAJOR_DEFECT_FOUND. Argument review has no findings; literature review has one demonstrated minor omission.",
+      "required_before_submission": [
+        {
+          "id": "E051-R1",
+          "location": "Why holism does not close this route; treatment of recollections as evidence; bibliography",
+          "change": "Add Andonovski2022, Episodic Representation: A Mental Models Account, and a short comparison. His simplified episodic event models support inference without recreating every detail. This essay instead concerns a mapping between whole phenomenal types and the precise conditions for inferring original difference.",
+          "evidence": [
+            "W01-L/W01-L-F1/S8"
+          ],
+          "reason": "Directly relevant predecessor is omitted. No duplication or failure of the conditional result was established."
+        }
+      ],
+      "recommended_editorial_clarifications": [
+        {
+          "id": "E051-C1",
+          "change": "Replace the absolute-sounding prohibition on a domain selected after seeing the contrast with a requirement for independent justification. Later independent validation can count; selecting a domain merely to guarantee the wanted result cannot.",
+          "evidence": [
+            "W01-A/remaining_questions[3]"
+          ],
+          "status": "Interpretive question raised by reviewer; coordinator recommends a small clarification, not repair of a demonstrated defect."
+        },
+        {
+          "id": "E051-C2",
+          "change": "State once near the opening, in simple language, that the result removes a logical prohibition but does not certify real memory. Compress repeated disclaimers while preserving the distinctions about noise, observation, feature attribution and comparison routes.",
+          "evidence": [
+            "W01-A",
+            "W01-L"
+          ],
+          "status": "Coordinator presentation recommendation; the present manuscript already acknowledges these limits."
+        }
+      ],
+      "optional": [
+        "Add a short general structural-representation antecedent, O’Brien–Opie, if useful; do not burden the essay with every adjacent work found.",
+        "Use an explicitly hypothetical everyday example to make difference-without-reconstruction intuitive; do not present it as an experiment.",
+        "Mention Koksvik/Fürst only where it helps identify the surviving alternative-explanation burden."
+      ],
+      "preserve": [
+        "Whole-type relationships need not be preserved phenomenal parts.",
+        "Unequal outputs imply unequal inputs only under the justified no-manufactured-difference condition.",
+        "Matching outputs need a further condition; there is no universal privilege for positive contrast.",
+        "Same distribution is not same individual output; noisy evidence requires a separate model.",
+        "Two recollections versus perception–recollection remain different routes.",
+        "The strong reconstruction requirement is challenged; the weaker uncalibrated-memory objection survives.",
+        "Warrant for observing output phenomenal difference and attributing an original difference to cognition remains outside the result."
+      ],
+      "not_required": [
+        "A new experiment proving actual memory satisfies the model",
+        "An empirical calibration result as a condition of retaining the explicitly logical essay",
+        "A general metaphysics of experience or a new mathematical theorem"
+      ],
+      "remaining_uncertainty": [
+        "Independent real-memory calibration remains open.",
+        "Full Swoyer1991 text was inaccessible; detailed overlap is not resolved.",
+        "The finite search found no prior presentation of the complete combination; originality is not certified."
+      ],
+      "verification_after_edit": "An independent targeted reader should check the Andonovski comparison against the opened sections and confirm that the new wording preserves the conditional scope, independence requirement and formal examples. A new full audit of the unchanged original is unnecessary."
+    }
+  ],
+  "common_finish": [
+    "AI makes a separately versioned revision for each essay; preserve originals and link each revision to its critiques.",
+    "Independently check substantive changes, cited passages and any altered reasoning.",
+    "Prepare anonymous essay files and an anonymous method report; remove author metadata and identifying repository links from the submission package.",
+    "Verify rendered word counts, references, formulas, tables and working links; current whitespace preflight is not the final rendered count.",
+    "Submit only after a direct user instruction."
+  ],
+  "word_count_preflight": {
+    "E050": 2770,
+    "E012": 4465,
+    "E051": 3127,
+    "method": "Whitespace count before bibliography; provisional, not final word-processor certification."
+  },
+  "decision_basis": "User chose the trio; reviews inform repair scope, not replacement of that choice.",
+  "novelty": "No certificate of originality for any essay.",
+  "new_scientific_reviews": 2,
+  "prior_scientific_reviews_reused": 4,
+  "manuscripts_changed": false,
+  "revisions_launched": false,
+  "submission_authorized": false
+}

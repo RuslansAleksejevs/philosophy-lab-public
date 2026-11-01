@@ -1,0 +1,52 @@
+[← Philosophy Lab](../README.md) · [Current selection](selection.md) · [Date policy](../logs/DATES.md)
+
+# A dated history
+
+From the first logging request to the current selection. Dates use **America/Los_Angeles**; event labels distinguish a request, implementation, test, and recorded acceptance. Exact timestamps and source fingerprints are in the [timeline data](timeline.json).
+
+| Date | Event | What changed |
+| --- | --- | --- |
+| 2026-09-07 | **Request** | [Plan a complete conversation record](quotes.md#q01). Logging and a future readable account were part of the plan from the beginning. |
+| 2026-09-07 | **Authorization** | [Authorize the collector build](quotes.md#q25). The request authorizes implementation; it is not itself a passing runtime check. |
+| 2026-09-08 | **Process decision** | [Use the word ceiling as a ceiling](quotes.md#q10). Argument quality, rather than reaching 6,000 words, sets the length. |
+| 2026-09-08 | **Process decision** | [Separate the first ten author contexts](quotes.md#q11). The first essays must be preserved without feeding one essay into another author’s context. |
+| 2026-09-10 | **Experiment requested** | [Try deliberately plain language](quotes.md#q13). The explicit very-simple-language request applied to that 20-essay batch. |
+| 2026-09-10 | **Process decision** | [Record a model change](quotes.md#q40). A switch made for subscription usage remains part of the lineage. |
+| 2026-09-12 | **Rationale** | [Use the second subscription](quotes.md#q43). The bridge was meant to let the project use Claude Code’s subscription allowance too. |
+| 2026-09-12 | **Implementation recorded** | [Persistent bridge build accepted](bridge.md). The build was registered and checked; live transport and research acceptance were separate gates. |
+| 2026-09-13 | **Incident** | [Preserve the tool-name misunderstanding](quotes.md#q53). The Superset detour became part of the history, including its later rollback. |
+| 2026-09-14 | **Design feedback** | [Simplify the repeatedly failing bridge](quotes.md#q55). Repeated operational failures prompted a change of approach. |
+| 2026-09-20 | **Implementation started** | [Begin the small CLI runner implementation](bridge.md). A sequential main-session runner replaced the dispatcher relay in this new implementation. |
+| 2026-09-20 | **Test completed** | [Pass the bounded CLI smoke test](bridge.md). Three sessions checked file context, dependency delivery, and interruption/resume. This did not yet test long essays or real quota exhaustion. |
+| 2026-09-21 | **Implementation recorded** | [Complete the biography backfill](provenance.md). Readable per-essay histories were connected to canonical entries and source artifacts. Backfilling did not invent historical birth times. |
+| 2026-09-22 | **Process clarification** | [Put contribution checking before drafting](quotes.md#q16). The creative series had moved an independent contribution check ahead of drafting after three full-manuscript failures. |
+| 2026-09-22 | **Process decision** | [Give two critics distinct jobs](quotes.md#q33). Argument criticism and contribution criticism had separate roles. |
+| 2026-09-25 | **Authorship boundary** | [Let the AI propose the content](quotes.md#q18). Human process design and selection stayed separate from AI-origin philosophical content. |
+| 2026-09-25 | **Pause instruction** | [Save a precise resource-pause handoff](quotes.md#q46). Preserve the exact stopping point, accepted work, and pending dependencies. |
+| 2026-10-04 | **Repair instruction** | [Repair capture without rewriting history](quotes.md#q29). A capture correction must preserve original records and earlier failures. |
+| 2026-10-07 | **Blinding instruction** | [Hide the biography from reviewers](quotes.md#q34). Full manuscripts were reviewed without production histories or earlier ratings. |
+| 2026-10-07 | **Midterm instruction** | [Review every essay with every profile](quotes.md#q35). The full panel was requested for all essays, with pilot results reused. |
+| 2026-10-08 | **Selection decision** | [Keep a wildcard route](quotes.md#q38). The selection procedure left room for an unusual candidate outside its ordinary route. |
+| 2026-10-10 | **Diagnostic instruction** | [Test the evaluators in separate experiments](quotes.md#q39). Error detection, wording, comparison order, repetitions, and false positives needed separate tests. |
+| 2026-10-10 | **Process clarification** | [Make clarity a general writing rule](quotes.md#q19). Simplify expression while preserving essential premises, objections, and qualifications. |
+| 2026-10-11 | **Closure recorded** | [Record midterm closure](evaluation.md). The finite campaign closed with nine candidates, five diagnostic gaps, no final winner, and the E036 version choice open. |
+| 2026-10-12 | **Process decision** | [Choose five programs and enlarge the idea search](../logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.md#source-line-10814). The user chose literature audits, argument development, a larger idea search, new essays, and a rejection check. The prepared plan expanded the search from 60 to 300 attempts; 300 was the coordinator’s choice of scale. |
+| 2026-10-12 | **Process decision** | [Let Claude work independently of the five Codex chats](../logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.md#source-line-10852). Each Codex task received its own file packet for manual delivery. The user chose a separate packet handed directly to Claude Code, so Codex completion would not depend on waiting for Claude. |
+| 2026-10-13 | **Process decision** | [Prepare manual continuation on Sol with Standard speed](../logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.md#source-line-11568). Following agreement on high/xhigh effort and no Fast mode, the five remaining task packets were prepared for GPT-6.1 Sol. The user would deliver them; the coordinator did not dispatch the continuations. |
+| 2026-10-13 | **Process decision** | [Keep the guide in English and the Russian logs verbatim](../logs/codex/chats/01a12e9b-c540-7b71-a01c-c5c660081ccb/conversation.md#source-line-1036). The repository would present its account in English while retaining exact original prompts, including profanity. Selected Russian quotations would have English translations; the separate Russian methodology dossier was excluded. |
+| 2026-10-13 | **Repository import** | [Import the first private edition](../essays/README.md). 100 originals, English biographies, five translations, logs, and 61 exact quotations. |
+| 2026-10-14 | **Release recorded** | [Complete the fixed-20 rejection check](post-midterm.md). Forty blind reviews of 20 preselected rejected essays produced six conditional returns, eleven reserves, and three rejections of the current argument. |
+| 2026-10-14 | **Release recorded** | [Complete the argument work](post-midterm.md). Forty roles developed and tested 12 branches for four candidates; four syntheses recorded what could support a later revision. |
+| 2026-10-14 | **Closure status recorded** | [Close the Claude C2/C5 repair cycle](post-midterm.md#the-separate-claude-branch). C2 was set aside with support; C5 achieved a partial repair. The larger 60-idea branch remained paused. |
+| 2026-10-14 | **Acceptance recorded** | [Finish nine literature audits](post-midterm.md). 18 searches and nine syntheses were complete. Close predecessors were found; originality remained open. |
+| 2026-10-14 | **Process decision** | [Temporarily allow Astra/max and Fast in the idea search](../logs/codex/chats/01a1335b-c010-7962-90bd-89c369f9e656/conversation.md#source-line-13507). The user authorized repairs and completion of the remaining idea-search work at Astra/max, explicitly enabling Fast. This exception belonged to that branch, not all five programs. |
+| 2026-10-15 | **Process decision** | [Return the idea-search remainder to Sol/xhigh](../logs/codex/chats/01a1335b-c010-7962-90bd-89c369f9e656/conversation.md#source-line-14596). After reporting a quota reset, the user switched the remaining work to GPT-6.1 Sol/xhigh. The continuation was bound to Standard speed. These changes remain part of the method history, not a controlled model comparison. |
+| 2026-10-15 | **Acceptance recorded** | [Close the 300-attempt idea search](post-midterm.md). 600 reviews and 24 deep dossiers produced one tentative seed; 17 planned seeded essay places stayed empty. |
+| 2026-10-15 | **Acceptance recorded** | [Accept seven complete essay cycles](../essays/post-midterm/README.md). Six free investigations and S02 from I012; each retained D0, two critiques, a response, and R1. |
+| 2026-10-16 | **Verification** | [Verify the five-program consolidation](post-midterm.md). 24 current release packages and 6,108 linked files passed the consolidation’s byte checks. This was not a new philosophical review. |
+| 2026-10-17 | **Acceptance recorded** | [Record final consolidation acceptance](post-midterm.md). Acceptance was recorded after midnight in California; the preceding overview and verification belong to October 16. |
+| 2026-10-17 | **Workflow accepted** | [Agree the 22 → 10 → 3 route](selection.md). Prepare exact versions, make justified repairs, choose ten with two wildcards, then three entries and two reserves. The fixed reading calendar and division into chats were dropped. |
+| 2026-10-17 | **Step completed** | [Bind the 22 candidates and their versions](selection.md). The first inventory recorded 13 unchanged candidates, eight requiring work, and one deferral. It preserved 32 manuscript versions; the E086 decision was later corrected. |
+| 2026-10-17 | **Decision corrected** | [Return E086 and explain all 22 decisions plainly](selection.md). The corrected inventory keeps 13 versions for comparison and assigns nine targeted tasks. E086 returned because its previous deferral was not sufficiently distinguished from E074; no manuscript was rewritten. |
+
+The [current selection](selection.md) gives the next task for every candidate. The original hundred and the seven later essays remain separate groups in the [collection](../essays/README.md).

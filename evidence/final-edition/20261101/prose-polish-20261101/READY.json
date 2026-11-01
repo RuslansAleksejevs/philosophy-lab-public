@@ -1,0 +1,314 @@
+{
+  "status": "PROSE_POLISHED_INDEPENDENTLY_CHECKED_AND_PACKAGED",
+  "prepared_at": "2026-11-01T10:54:08.429486+00:00",
+  "essays": [
+    {
+      "essay_id": "E050",
+      "manuscript": {
+        "path": "runs/prose-polish-20261101/results/E050-author/derived/revision.md",
+        "sha256": "ce96988b25cb99d33a1a8963422c0a8d6db455a9d5265b48a11f2f83f349875f",
+        "bytes": 29178
+      },
+      "abstract": {
+        "path": "runs/prose-polish-20261101/results/E050-author/derived/abstract.json",
+        "sha256": "5b250ab61b21a6534e22000638eed6aa35ca64916020aa832489c0361ac21794",
+        "bytes": 1432
+      },
+      "review_account": "The independent checker recommended the rewritten manuscript and required no correction. It verified the convergence calculations, release-order quantifiers, distinction between a common limiting outcome and a common settling deadline, and every main-text reference to the appendix. It found no material loss of content and judged the prose substantially clearer. The proposed abstract and TL;DR were also accepted. Source checks used supplied primary passages where available and otherwise concerned preservation and consistency with the existing access notes; they were not a new full literature audit.",
+      "accepted_for_submission_package": true,
+      "review_events": [
+        "event-3c8afe910dd24a108140422506621bf8"
+      ],
+      "full_review_decision": "READY",
+      "final_editorial_disposition": "Accepted as written after separate full preservation and clarity review.",
+      "review_response": {
+        "bytes": 10976,
+        "path": "runs/prose-polish-20261101/results/E050-critic/attempt-001/response.json",
+        "sha256": "1b68d73ba13c10e3593c9866d595fc398d3e17c260911b0c2b689e5502af7b61"
+      }
+    },
+    {
+      "essay_id": "E012",
+      "manuscript": {
+        "path": "runs/prose-polish-20261101/repair/E012/revision.md",
+        "sha256": "9595173b9bfa3940ff2c1ee6ea832f0b7b6dc1cb44f374f18bc79784fa99c9d9",
+        "bytes": 30629
+      },
+      "abstract": {
+        "path": "runs/prose-polish-20261101/results/E012-author/derived/abstract.json",
+        "sha256": "51fd9c5a0330cc664aab79e4bd8372ce27e2c29a96828a93d0bbd141901d136c",
+        "bytes": 1439
+      },
+      "review_account": "The independent checker found no material loss of content and judged the revised organization and prose substantially clearer. It verified the contrasting cases, reparative scope, distinctions between evidence and procedural force, and the numerical example. The abstract and TL;DR were accepted. It requested one bounded wording correction: a sentence could misleadingly suggest that Mara herself destroyed her opportunity. The AI coordinator made the exact recommended replacement, with all other manuscript bytes unchanged. A further fresh Astra/ultra checker read both complete versions and their exact difference, confirmed that the correction removed the ambiguity, and required no further change. This last check concerned only the changed sentence and preservation of the remaining text; it did not re-audit unchanged arguments or sources. The earlier full review directly checked supplied Gardner, Thompson and Rule 37 passages; other source claims were checked for preservation and consistency with existing access notes, rather than through a new full literature audit.",
+      "accepted_for_submission_package": true,
+      "review_events": [
+        "event-e12ab7efb45a45a7b864aad1aafa161c",
+        "event-fdb377337cf04162b610a1236c0181ba"
+      ],
+      "full_review_decision": "MINOR_FIXES",
+      "final_editorial_disposition": "Accepted after exact recommended wording correction and a fresh scoped check.",
+      "review_response": {
+        "bytes": 11279,
+        "path": "runs/prose-polish-20261101/results/E012-critic/attempt-001/response.json",
+        "sha256": "97c35a0af955c8793d1b0a326c40c3cac3f56b63fdf2b26869d26545baf514f8"
+      }
+    },
+    {
+      "essay_id": "E051",
+      "manuscript": {
+        "path": "runs/prose-polish-20261101/results/E051-author/derived/revision.md",
+        "sha256": "df4786d7491c498a415f5908a24542c1f27f88b146c71ed6b580a9df77325496",
+        "bytes": 22738
+      },
+      "abstract": {
+        "path": "runs/prose-polish-20261101/results/E051-author/derived/abstract.json",
+        "sha256": "cc2b5f21bdd640b8d2b47ee5d5625d6a9581352f0bb28a7f9fda68e408c5adda",
+        "bytes": 1399
+      },
+      "review_account": "The independent checker recommended the rewritten manuscript and required no correction. It verified the finite models and the distinctions between a valid inference and independently warranted evidence, whole phenomenal types and their parts, and deterministic and noisy procedures. It found no material loss of content and judged the prose substantially clearer. The proposed abstract and TL;DR were also accepted. Direct source checking was limited to the supplied Andonovski passages; other citations were checked for preservation and consistency with the existing access notes.",
+      "accepted_for_submission_package": true,
+      "review_events": [
+        "event-b82119f0e89647e8abaee946e2059684"
+      ],
+      "full_review_decision": "READY",
+      "final_editorial_disposition": "Accepted as written after separate full preservation and clarity review.",
+      "review_response": {
+        "bytes": 8826,
+        "path": "runs/prose-polish-20261101/results/E051-critic/attempt-001/response.json",
+        "sha256": "b78e0115c1b4fda3dca838a6902c538e1663b11565fba74e727a6b3bfa7af918"
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "output/pdf/submission-20261101/E012-essay.pdf",
+      "sha256": "e5817d21b93d2273da7571d95f86aa46dd03e9a24641867762d05732163a43c9",
+      "bytes": 58094
+    },
+    {
+      "path": "output/pdf/submission-20261101/E012-methodology.pdf",
+      "sha256": "2d10b67ed5cf09bedc9d64070cb5688ec42627e7732052ec9d88d12cd1ca92c8",
+      "bytes": 46943
+    },
+    {
+      "path": "output/pdf/submission-20261101/E050-essay.pdf",
+      "sha256": "8f66a468598097d3a567a3dafabee08eeed384dc5d029a19916bfe3ad7b0fc0e",
+      "bytes": 80460
+    },
+    {
+      "path": "output/pdf/submission-20261101/E050-methodology.pdf",
+      "sha256": "0cff1b9ca1bda683a7061b4803eb5b68e72331340558684825014acb685c9153",
+      "bytes": 44949
+    },
+    {
+      "path": "output/pdf/submission-20261101/E051-essay.pdf",
+      "sha256": "5e9acddc37f16df014a1167c24d3445f1866ca5045d03f3e649da4d18249295f",
+      "bytes": 50016
+    },
+    {
+      "path": "output/pdf/submission-20261101/E051-methodology.pdf",
+      "sha256": "b2f7ee8fc514d836b7a530a1d74c87d00c096c377a3cf64a27fd2318740d5d01",
+      "bytes": 43859
+    },
+    {
+      "path": "output/latex/submission-20261101/E012/body.tex",
+      "sha256": "3781e43e7cc6ff93b19cd63eb8ced84b2c02d8b40d7221fecee3c5f4e7747ee1",
+      "bytes": 30918
+    },
+    {
+      "path": "output/latex/submission-20261101/E012/main.tex",
+      "sha256": "c49811ac99b87f13a9045b5ba03f096100d5bc078489c973305075715a8218ff",
+      "bytes": 1638
+    },
+    {
+      "path": "output/latex/submission-20261101/E012-methodology/body.tex",
+      "sha256": "b8b372ffffd1f0952180b87f26228a193e046511981e4391f75c5b05452ca5e1",
+      "bytes": 26367
+    },
+    {
+      "path": "output/latex/submission-20261101/E012-methodology/main.tex",
+      "sha256": "7ed8e37415a984f874bbdfc9a3a04c711d18dd3b84d2e9af898564ccf907adc3",
+      "bytes": 1602
+    },
+    {
+      "path": "output/latex/submission-20261101/E050/body.tex",
+      "sha256": "282975da4daa6fbb93aac76a5c88137ee17f9fd6f1f4d3251b727c52bb09df00",
+      "bytes": 29993
+    },
+    {
+      "path": "output/latex/submission-20261101/E050/main.tex",
+      "sha256": "684626d407bdfe0a09390e0b045d0674a6941d643093a5cd2a0521b0b3b00d34",
+      "bytes": 1681
+    },
+    {
+      "path": "output/latex/submission-20261101/E050-methodology/body.tex",
+      "sha256": "813624d165d5ccec365d7aea7d49d3635cbd4d64aac6e47d20f8e7d55a733aff",
+      "bytes": 24433
+    },
+    {
+      "path": "output/latex/submission-20261101/E050-methodology/main.tex",
+      "sha256": "774b21bb01e237aab83a6107201d6a005e941665580181aba93db20c5adb0c53",
+      "bytes": 1602
+    },
+    {
+      "path": "output/latex/submission-20261101/E051/body.tex",
+      "sha256": "b47e5104532aeebfb32cf8add1c5e76987a938526b76f8f6efda046226303241",
+      "bytes": 23076
+    },
+    {
+      "path": "output/latex/submission-20261101/E051/main.tex",
+      "sha256": "aacff996f50a2a0f221c2c39a116cdf4afcfbdb9655d02b9a856188e3450d4e0",
+      "bytes": 1647
+    },
+    {
+      "path": "output/latex/submission-20261101/E051-methodology/body.tex",
+      "sha256": "cac375528ec754661ad4a6dd9a53790c706c8aa940052bc74ff6988e4fb8230e",
+      "bytes": 24534
+    },
+    {
+      "path": "output/latex/submission-20261101/E051-methodology/main.tex",
+      "sha256": "7ed8e37415a984f874bbdfc9a3a04c711d18dd3b84d2e9af898564ccf907adc3",
+      "bytes": 1602
+    },
+    {
+      "path": "output/submission-20261101/E012-form.txt",
+      "sha256": "8c44b1c00affa78c8fd1690a132c24a30ceecfc619f6ca8a74819f72b848217d",
+      "bytes": 2250
+    },
+    {
+      "path": "output/submission-20261101/E012-methodology.txt",
+      "sha256": "b41107a826e2de427ac2ba9aeb6bd82b92f17f8bb79fcbebecb19d319e2a4b03",
+      "bytes": 26178
+    },
+    {
+      "path": "output/submission-20261101/E050-form.txt",
+      "sha256": "179c82da6bdd666ea8e2ab7de49f40ce1d6dce546fd4da5b6d57052f782e00c8",
+      "bytes": 2347
+    },
+    {
+      "path": "output/submission-20261101/E050-methodology.txt",
+      "sha256": "fe28d2ee20a28c3a20abd7790027aadbcd6cf66c9b13fbaca408782f03521c3c",
+      "bytes": 24252
+    },
+    {
+      "path": "output/submission-20261101/E051-form.txt",
+      "sha256": "59d686aa242d2c77b49af64391d5364d3afb91b172c933fe28d51ec7474ca41b",
+      "bytes": 2197
+    },
+    {
+      "path": "output/submission-20261101/E051-methodology.txt",
+      "sha256": "88570500ae4e41e3fe4ff5063824e9bc38fd7180796d2983f75f81b504874eb9",
+      "bytes": 24353
+    },
+    {
+      "path": "output/submission-20261101/FORM_GUIDE_RU.txt",
+      "sha256": "b61863c93d9c52603c4556344e4e56353a9e026b0569d213db87eb4765190408",
+      "bytes": 2217
+    },
+    {
+      "path": "output/submission-20261101/README.txt",
+      "sha256": "ee1b3f82c1c53c337cc16faf1e8b28a5ac149d7b3bbff1360dcab28ad6665317",
+      "bytes": 1076
+    },
+    {
+      "path": "output/submission-20261101/E012-form.json",
+      "sha256": "422d0e73e3fc56f543686110a144de90d113f6025dcb8f81d57d1e8115306399",
+      "bytes": 2466
+    },
+    {
+      "path": "output/submission-20261101/E050-form.json",
+      "sha256": "450ab576e38ceecb49ad0b20efc8ee9da1ad8884889ae3330652af359dc9e25b",
+      "bytes": 2575
+    },
+    {
+      "path": "output/submission-20261101/E051-form.json",
+      "sha256": "d0e7f71ba81b1c3f0f2653c2176e40c896deb3424155506feb21fafc724ae885",
+      "bytes": 2447
+    },
+    {
+      "path": "output/Submission-Package-E050-E012-E051.zip",
+      "sha256": "20f22f4ebf7670785d4fad5da75ca32f977fec4e1a322544e0f129402832bac2",
+      "bytes": 416682
+    }
+  ],
+  "qa_and_build": [
+    {
+      "path": "runs/prose-polish-20261101/PDF_QA.json",
+      "sha256": "09457b3495d01839d2312b3c6e0a9fe4267ccc42d1b688b42abf7353a53e06ab",
+      "bytes": 9544
+    },
+    {
+      "path": "runs/prose-polish-20261101/VISUAL_QA.json",
+      "sha256": "06d09320a5a09c0c1daea01ad75aa24e502ab7487ae0828c3f468c4b41cea3a6",
+      "bytes": 4167
+    },
+    {
+      "path": "runs/prose-polish-20261101/BUILD_MANIFEST.json",
+      "sha256": "7dd30a606f22a659ae35a64ca531867ba61bf158867e36a4e1710f260d15854c",
+      "bytes": 1117
+    },
+    {
+      "path": "runs/prose-polish-20261101/APPENDIX_LINKS.json",
+      "sha256": "5a13fe2b48310ea718316f58ecfa5700ebf8fdce492de2d4a9efad27dc45aaee",
+      "bytes": 854
+    },
+    {
+      "path": "runs/prose-polish-20261101/RENDER_MANIFEST.json",
+      "sha256": "9378a84ebf1b691570b28abb14491a71e33a7bcba1582b12160c60a2f5dba3b4",
+      "bytes": 3949
+    },
+    {
+      "path": "runs/prose-polish-20261101/RENDER_CAPTURE_REPAIR.json",
+      "sha256": "81d4f723fb540b7c1c4e89a01626729ba58b19773ff9335f577e4a34010b5249",
+      "bytes": 363
+    },
+    {
+      "path": "runs/prose-polish-20261101/LATEX_DIAGNOSTICS.json",
+      "sha256": "bffa359233defb985f4a689828d97504d9b00b8ab4c20a668f4db52de800010f",
+      "bytes": 5329
+    },
+    {
+      "path": "runs/prose-polish-20261101/repair/E012/FINAL_RECEIPT.json",
+      "sha256": "ec644c988324356efe725ebfa3c7551c4be63a8f7e1b0303e8a19ee7b7d65cc4",
+      "bytes": 2401
+    },
+    {
+      "path": "runs/prose-polish-20261101/build_package.py",
+      "sha256": "b546a6aa45c1ba4b882c9b5627fdb0e300efbfd32963d873b9f08260e6d10d5b",
+      "bytes": 8579
+    },
+    {
+      "path": "runs/prose-polish-20261101/compile_render.py",
+      "sha256": "9b536dd7874673f77b61903476e51f4476137ad08f8dfec2dcc89a56bac78fe4",
+      "bytes": 2644
+    },
+    {
+      "path": "runs/prose-polish-20261101/check_pdfs.py",
+      "sha256": "f510795ad249c267f5d7edfa117e32927e7e2e399c9134fb588f97eb11083148",
+      "bytes": 4180
+    },
+    {
+      "path": "runs/prose-polish-20261101/close_package.py",
+      "sha256": "93b0bcea5d183df4ae76abae18b49c8e3d0b959f050efcd98533557c36cfbbd2",
+      "bytes": 6043
+    }
+  ],
+  "author_receipt": {
+    "path": "runs/prose-polish-20261101/AUTHORS_ARCHIVE_RECEIPT.json",
+    "sha256": "0ce15c4821cf5e178dea31b6c37485ead8b09ba24abf1f93822cdca65ab71aa3",
+    "bytes": 3510
+  },
+  "critic_receipt": {
+    "path": "runs/prose-polish-20261101/CRITICS_ARCHIVE_RECEIPT.json",
+    "sha256": "41acf1784ee72707e54082cab9ae8ed3a87e83be0c6e728a65b0db1814c66967",
+    "bytes": 1586
+  },
+  "original_package": {
+    "path": "runs/prose-polish-20261101/prior-package/SNAPSHOT.json",
+    "sha256": "2ce3783fe15fd72ef31a80d48f3bd6592d6f8f6af50487fe01a51e360a09e8e7",
+    "bytes": 5696
+  },
+  "submitted": false,
+  "github_updated": false,
+  "limits": "Independent context checks and preserved content/source limits; no proof of novelty or empirical validity."
+}

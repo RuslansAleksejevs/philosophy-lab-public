@@ -1,0 +1,34 @@
+{
+  "status": "VERIFICATION_COMPLETE_BOUNDED",
+  "event_id": "event-25de0d6bf0ae4a41a4d067b6a70e5f1c",
+  "scientific_results_accepted": 20,
+  "question_stage_event_id": "event-4dea743425ec4754b84d4b69522ce3fb",
+  "typed_stage_event_ids": {
+    "sources": "event-366094d2ada049d58034a93f58537cb2",
+    "contribution": "event-5bb223bff77b446e89529cb70082c2cb",
+    "critique": "event-6356a90819d8413281e9b499300c6277",
+    "decision": "event-caa63211549241bb92c1aef4e87a4a04"
+  },
+  "administrative_checkpoint_event_id": "event-537b525ae010414eb4c5750fa7e5a64d",
+  "decision": {
+    "path": "runs/deep-verification-20261031/coordinator-synthesis/DECISION.json",
+    "sha256": "05052543bc6883831568f9e89d1642b1d0fb493ee20e00c168b987b4c9303756",
+    "bytes": 2195
+  },
+  "cards": {
+    "path": "runs/deep-verification-20261031/coordinator-synthesis/FIVE_CARDS.json",
+    "sha256": "969c921990af4efb659a0dacbb05bc0aaaa3567f6e6bea5419b38dcfe1ddf899",
+    "bytes": 8079
+  },
+  "primary": [
+    "V06",
+    "V02",
+    "V08"
+  ],
+  "reserves": [
+    "V01",
+    "V04"
+  ],
+  "submission_authorized": false,
+  "boundary": "Typed multi-session verification bindings preserve each original author and session. Critiques concern the frozen manuscripts, not the later coordinator synthesis. The legacy single-author checkpoint is administrative INCOMPLETE; the separate finite receipt records only the explicitly accepted verification and recommendation. No novelty certificate, manuscript authorship transfer, whole-provider coverage, or submission approval is implied."
+}

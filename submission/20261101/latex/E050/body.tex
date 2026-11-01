@@ -1,0 +1,227 @@
+\noindent An intervention may maintain a desired condition for as long as it remains in place. Withdrawal raises a further question: has the intervention left the system able to sustain that condition on its own? Someone choosing temporary support needs to know what will happen after support ends, not merely what happens while it continues.
+
+Suppose an investigator knows the eventual outcome of every experiment that holds one or more variables at constant values. Every setting has been tried, from every initial state of the remaining variables. The investigator also knows a baseline trajectory and all equilibria with their qualitative stability. Does this evidence determine what happens when a prepared system is released? If it does not, must the investigator learn more before choosing a successful withdrawal procedure?
+
+The example below separates these questions. Its philosophical concern is the scope of experimental completeness: what an exhaustive collection of holding outcomes establishes, and what further assumptions can justify action when those outcomes leave withdrawal unsettled.
+
+\section*{A system and an exact evidence menu}
+
+Consider two observed, real-valued quantities governed by
+\[
+\dot x=x-x^3+y,\qquad \dot y=-ky,\qquad k>0.
+\tag{1}
+\]
+A dot denotes change over time. The quantity \(x\) can settle into either of two self-maintaining states. The quantity \(y\), when positive, adds an upward influence on \(x\). If left free, \(y\) returns toward zero at a rate controlled by \(k\): a large value removes that influence quickly, while a small value lets it persist. Write \(\mathcal C\) for the family obtained by allowing every positive value of \(k\). The equations and their time scale are fixed; only this rate varies.
+
+These are mathematical systems, not fitted models of a treatment or apparatus. Their structural interest is that temporary support can affect which self-maintaining state is reached. \hyperref[app:a.1]{Appendix A.1} establishes that every initial state has a unique solution for all future times and that the uncontrolled equilibria are \((-1,0)\), \((0,0)\), and \((1,0)\). The outer two are asymptotically stable: nearby states approach them. The middle equilibrium is a saddle, attracting in one direction and repelling in another. These facts make the proposed contrast one between well-defined, stable eventual outcomes.
+
+A \emph{persistent coordinate clamp} holds a selected variable at a chosen constant indefinitely, replacing its equation while leaving the other equation intact. Its readout here is the limiting pair \((x,y)\), rather than a record of movement over time.
+
+The evidence \(E\) includes every such endpoint when \(x\) is held at any real value \(a\), from every initial value of the free variable \(y\). It also includes every endpoint when \(y\) is held at any real value \(b\), from every initial value of the free variable \(x\). Finally, it includes every joint clamp, which holds both variables at any specified pair. These three possibilities exhaust the nonempty selections of coordinates. Both coordinates are read out, and dependence on initial conditions is retained; a clamp need not have a unique attracting equilibrium.
+
+Two further kinds of information belong to \(E\): the uncontrolled baseline trajectory starting at \((-1,0)\), and the complete equilibrium catalogues, with qualitative stability classifications, for the uncontrolled system and every clamp. Numerical eigenvalues and relaxation rates are excluded. Apart from the baseline, arbitrary uncontrolled trajectories and their endpoints are also excluded. Including their endpoints from every initial state would already answer the release question.
+
+Every member of \(\mathcal C\) agrees on this entire evidence collection. \hyperref[app:a.1]{Appendix A.1} proves that all stipulated clamp limits exist and coincide across the family, that the baseline is constant, and that the equilibrium and stability catalogues agree, including the nonhyperbolic clamped cases. Thus the evidence cannot distinguish any two positive values of \(k\).
+
+The reason is easy to locate. Holding \(y\) fixed removes the equation containing \(k\). Holding only \(x\) leaves that equation active, but its endpoint is always \(y=0\), so the endpoint readout loses the rate. Holding both variables removes both equations, and the baseline reveals no motion. None of these observations lets the two equations interact away from baseline while retaining information about that interaction. Exhaustive coverage of the stipulated settings does not restore information removed by the procedure or its readout.
+
+\section*{What simultaneous withdrawal leaves unsettled}
+
+Prepare each system by jointly holding \(x=-1/2\) and \(y=1\), then remove both clamps at time zero. The starting pair is the same in every case; the subsequent duration of the positive influence is not.
+
+For every \(0<k\leq1/100\), the released system converges to \((1,0)\). For every \(k\geq100\), it converges to \((-1,0)\). \hyperref[app:a.3]{Appendix A.3} proves both claims. With slow decay, the positive influence lasts long enough to make \(x\) positive, after which convergence to the positive equilibrium follows. With fast decay, the total remaining influence is too small even to bring \(x\) close to zero, and the trajectory approaches the negative equilibrium. These are two sufficient rate ranges, not an exact threshold separating all possible outcomes.
+
+In particular, the members with \(k=1/100\) and \(k=100\) agree on \(E\) but have opposite stable release endpoints. The outcome is therefore \emph{not identified} by \(E\): systems satisfying all the supplied evidence give different answers. \hyperref[app:a.3]{Appendix A.3} states the resulting inference explicitly. A rule that assigns one endpoint from \(E\) alone must give both systems the same answer and fail for at least one. The same obstruction remains in any larger admissible class containing this pair. Further evidence or justified assumptions may settle the question, but the specified evidence does not.
+
+The explanation requires care about basins of attraction. For a fixed system, an equilibrium’s basin is the set of full states whose future trajectories converge to it. A later point on such a trajectory has the same eventual destination, because its future is a tail of the original trajectory. \hyperref[app:a.2]{Appendix A.2} makes this invariance explicit: an autonomous trajectory does not cross its own basin boundary.
+
+Accordingly, the slow system does not enter the positive equilibrium’s basin when \(x\) crosses zero. Its prepared state \((-1/2,1)\) already lies in that basin. The same coordinate pair lies in the negative equilibrium’s basin for the fast system, as the convergence proofs in \hyperref[app:a.3]{Appendix A.3} establish. The contrast is between the basin assignments of two different systems.
+
+The sign of \(x\) alone does not determine basin membership when \(y\neq0\). At \(y=0\), zero separates the two attracting outcomes of the scalar \(x\) dynamics. With positive \(y\), the line \(x=0\) is not invariant: the system moves through it toward positive \(x\). \hyperref[app:a.2]{Appendix A.2} proves the sufficient condition used here: every released state with \(x>0\) and \(y\geq0\) converges to \((1,0)\). Crossing zero is a useful step in establishing that outcome, not passage between basins of the same autonomous system.
+
+A basin description could explain the difference without specifying an exact decay rate. The argument does not require every adequate explanation to mention \(k\). It shows that equilibrium locations, qualitative stability, and the stipulated holding outcomes leave the relevant basin assignment undetermined.
+
+\section*{Choosing a withdrawal that works}
+
+Now suppose the objective is a lasting transition to \((1,0)\) from the same prepared state. Assume that the functional form and time scale of equation (1) are independently justified, while \(k>0\) remains unknown. This assumption matters: the following guarantee concerns \(\mathcal C\), not every system compatible with \(E\).
+
+Release \(x\) first, keep \(y=1\) for one time unit, and then release \(y\). During the first stage, the remaining equation contains no unknown rate. \hyperref[app:a.4]{Appendix A.4} proves that this common motion makes \(x\) positive before the second release. The sufficient condition in \hyperref[app:a.2]{Appendix A.2} then establishes convergence to \((1,0)\) for every \(k>0\). Thus one withdrawal order succeeds throughout the family even though simultaneous withdrawal cannot be certified throughout it.
+
+The one-unit wait concerns only the first stage. After the second release, the target is approached asymptotically. \hyperref[app:a.4]{Appendix A.4} also proves that no common finite settling time works across all positive rates, even for a fixed small tolerance around the target: when \(k\) is sufficiently small, \(y\) remains too large at any proposed deadline. What is uniform is the first-stage wait and the limiting endpoint, not the time needed to approach that endpoint after all support ends.
+
+Reversing the order has a different consequence. Release \(y\) first, keep \(x=-1/2\) for a fixed finite time \(T\), and then release \(x\). \hyperref[app:a.5]{Appendix A.5} proves that, for every such \(T\), sufficiently slow members still approach \((1,0)\), while members with \(k\geq100\) approach \((-1,0)\). No fixed finite wait in this order guarantees the desired transition across \(\mathcal C\).
+
+The successful procedure requires no extra measurements to estimate \(k\). Its justification comes from the shared motion while \(y\) is clamped and the sufficient condition for convergence after release. One time unit is a sufficient duration in the known units of equation (1), not an optimal duration or a bound for arbitrary physical systems. The endpoint evidence alone does not supply these dynamical assumptions. Enlarging the admissible class preserves the counterexample to identification if it retains the two displayed systems; it need not preserve the successful procedure’s guarantee.
+
+\section*{Antecedents and the contribution}
+
+The distinction between maintaining an intervention and removing it is established. Weinberger’s \emph{Intervening and Letting Go} considers a gas with a movable piston and the models appropriate when its volume is fixed or free. Removing a constraint is an action against which a model’s adequacy can be assessed (\hyperlink{ref:weinberger2023}{2023, §5, especially pp. 2480–2482}). The question here is narrower: what follows from exhaustive knowledge of a specified collection of maintained outcomes?
+
+Initial-state dependence is also familiar. The causal constraints models of Blom, Bongers, and Mooij can incorporate equilibrium outcome maps for intervention targets including the empty target (\hyperlink{ref:blom2020}{2020, §§1.1, 2.2, and 3.4, Theorem 2 and proof, PDF p. 7}). Such a map associates an intervention and an initial state with an eventual outcome. The ability to represent an unclamped outcome map does not make it inferable from the clamped maps. Here the missing information is one unclamped outcome from a prepared state.
+
+The nearest antecedent for the hidden-rate mechanism is Bongers, Blom, and Mooij’s demonstration that a dynamical causal model cannot generally be recovered uniquely from its equilibration (\hyperlink{ref:bongers2022}{2022, §4.6, Example 4.21, pp. 36–37}). Their linear example places an invertible diagonal matrix before the time derivative. The equilibrium equations remain unchanged, as do intervened equilibrium states when the stated invertibility condition holds for the remaining subsystem. Positive diagonal choices illustrate how relative speeds can disappear from equilibrium descriptions. The following paragraph expressly warns that the solutions of both systems need not actually converge.
+
+The present construction uses that known mechanism but supplies a particular combination of further conclusions. \hyperref[app:a.1]{Appendix A.1} establishes agreement of all stipulated limiting observations, including the baseline; \hyperref[app:a.3]{Appendix A.3} proves convergence to opposite stable endpoints after the same simultaneous release; and Appendices \hyperref[app:a.4]{A.4} and \hyperref[app:a.5]{A.5} establish the contrast between release orders. Proved agreement of limiting outcomes within this menu is stronger evidence than equality of equilibrium equations alone. These additional conclusions are not attributed to the linear example.
+
+Dash’s discussion of manipulation and equilibration likewise explains why temporal structure can matter for causal inference (\hyperlink{ref:dash2005}{2005, §§5–6, especially PDF p. 7}). The available search excerpts for \hyperlink{ref:ryan2025}{Ryan and Dablander (2025)} distinguish a change at a particular time from a sustained intervention. Their full text was unavailable for this comparison, so no section-level attribution or detailed assessment is made. These comparisons concern bounded passages and do not establish priority. None of these authors is being charged with drawing the inference challenged here.
+
+Successful temporary control under parameter uncertainty is also an established aim. Sootla, Oyarzún, Angeli, and Stan study finite pulses that switch a bistable system to an enduring unforced attractor (\hyperlink{ref:sootla2016}{2016; author preprint dated 5 October 2015, §2.1, p. 3}). Theorem 7 bounds non-switching sets using monotone lower and upper systems, subject to assumptions A1–A4 and additional basin and ordering conditions (\hyperlink{ref:sootla2016}{preprint p. 5}). Corollary 9 extends such bounds across a compact parameter set, retaining regularity, bistability, monotone bounding systems, and basin and equilibrium-order conditions (\hyperlink{ref:sootla2016}{p. 6, conditions (11)–(13) and inclusion (14)}).
+
+\hyperlink{ref:sootla2018}{Sootla and Ernst} likewise estimate control and convergence quantities from known parameter-interval bounds without knowing exact parameter values. In the cited \hyperlink{ref:sootla2018}{arXiv:\allowbreak{}1708.00232v1} preprint of their \hyperlink{ref:sootla2018}{2018 article}, Propositions 4–5 require assumptions A1–A5 and monotonicity with respect to parameters as well as states and inputs (\hyperlink{ref:sootla2018}{§III.B, pp. 3–4}). Their assumptions include regularity, an exponentially stable target equilibrium, and conditions on the Koopman eigenfunction used by the method. Problem 2 asks for a pulse that switches a genetic toggle for every parameter in the interval (\hyperlink{ref:sootla2018}{§III.C, p. 5}). The accompanying discussion explains that convergence estimates can be conservative and depend on the chosen tolerance.
+
+These results establish the broader robust-control aim under their own assumptions. They do not automatically give a guarantee over all \(k>0\), a parameter set that is neither compact nor bounded away from zero. The elementary proof in \hyperref[app:a.4]{Appendix A.4} supplies that guarantee for this family and preparation, while distinguishing a common limiting outcome from a common settling deadline. The contribution lies in connecting this family-specific choice of procedure to the failure of identification proved for the same evidence and preparation.
+
+\section*{What completeness licenses}
+
+One might object that the example merely discards timing information at equilibrium. That is part of the mechanism, but discarded timing information need not change an endpoint. Multiplying both equations by the same positive constant changes the clock while preserving paths through the state space and their limits; \hyperref[app:a.1]{Appendix A.1} verifies this by a change of time variable. Here it is a relative rate that changes the eventual attractor while remaining invisible to \(E\).
+
+Nor is the problem a shortage of clamp settings. The evidence covers every permitted target, value, and initial state, reads out both coordinates, and includes joint clamps and the equilibrium catalogues. More coverage along those dimensions cannot distinguish systems that already agree throughout them.
+
+The exclusion of arbitrary uncontrolled endpoints is essential, but it does not make preparation itself illicit. The ability to prepare a state does not imply that every procedure following preparation has been observed. Preparing and maintaining a clamp is one experiment; preparing and releasing both coordinates is another. The argument concerns what can be inferred between these procedures.
+
+A sufficiently rich dynamical or initial-state-sensitive equilibrium model can represent the missing outcome. Representation and identification remain different tasks. Equivalence relative to an experimental menu permits substitution between models only for questions whose answers that equivalence preserves. Here it does not preserve the answer to simultaneous withdrawal. Calling the catalogue complete cannot close the gap, because completeness is always relative to procedures and readouts.
+
+The release-order result makes the distinction practical. Within an independently justified family, an investigator can fail to certify a proposed withdrawal yet certify an alternative. Identifying a parameter, identifying one procedure’s outcome, and choosing a successful procedure are separate tasks.
+
+Further evidence may change what can be concluded. A nonzero decay trace under an \(x\) clamp reveals \(k\), as calculated in \hyperref[app:a.1]{Appendix A.1}. A release experiment directly observes the disputed outcome. Justified rate bounds or basin information may settle it without an exact parameter estimate. Such information goes beyond the stipulated endpoint menu; it does not merely fill gaps in its already exhaustive target-and-value coverage.
+
+The result establishes neither a general failure of equilibrium causal modeling nor a universal need for temporal measurements. It leaves the exact transition between release outcomes, the full basin geometry, and empirical applicability unresolved. Its conclusions concern a fixed preparation, a specified family with a known time scale, and a restricted body of evidence. Those bounds allow both conclusions to stand: the holding evidence leaves simultaneous withdrawal unidentified, while a justified choice of release order secures the desired asymptotic outcome.
+
+\clearpage\section*{Appendix: proofs and calculations}
+
+\phantomsection\subsection*{A.1 Dynamics, equilibria, and agreement on the evidence}\label{app:a.1}
+
+Let \(f(x)=x-x^3\). The family consists of \(\dot x=f(x)+y\), \(\dot y=-ky\), with \(k>0\). From any initial state,
+\[
+y(t)=y(0)e^{-kt},\qquad |y(t)|\leq |y(0)|.
+\]
+Choose \(R>\max\{1,|x(0)|\}\) large enough that \(R^3-R>|y(0)|\). At \(x=R\), the derivative of \(x\) is strictly negative; at \(x=-R\), it is strictly positive. Hence \(x\) remains in \([-R,R]\). The smooth vector field gives local existence and uniqueness, and boundedness permits continuation for all future times. The same argument bounds the scalar dynamics under a constant \(y\) clamp.
+
+Under an \(x=a\) clamp, the free equation is \(\dot y=-ky\), so every initial \(y\) gives endpoint \((a,0)\). Under a \(y=b\) clamp,
+\[
+\dot x=f(x)+b,
+\]
+which is independent of \(k\), including its entire trajectory from any specified initial \(x\). Every such trajectory has a limit. The cubic points inward for large absolute \(x\). Between consecutive roots its sign is constant, and uniqueness prevents a solution from crossing a root. A nonconstant solution is therefore monotone and bounded. Its limit must be a root, since otherwise its derivative would remain bounded away from zero near the limit. A solution starting at a root stays there. This also covers multiple roots and one-sided attraction. A joint clamp fixes its endpoint by stipulation.
+
+For the uncontrolled system, equilibrium requires \(y=0\) and \(f(x)=0\), giving exactly \((-1,0)\), \((0,0)\), and \((1,0)\). The Jacobian is
+\[
+J(x,y)=\begin{pmatrix}1-3x^2&1\\0&-k\end{pmatrix}.
+\]
+Its eigenvalues are \(1-3x^2\) and \(-k\). Both are negative at the outer equilibria, which are asymptotically stable. At the middle equilibrium one is positive and the other negative, so it is a saddle. In particular, the baseline from \((-1,0)\) is constant.
+
+Under an \(x\) clamp, the free equilibrium \(y=0\) is asymptotically stable for every \(k>0\). Under a \(y\) clamp, roots and qualitative stability are determined by the identical scalar field \(f(x)+b\). At a simple root \(r\), the derivative is \(1-3r^2\). At a multiple root, the same polynomial determines the same one-sided behavior for every \(k\); thus nonhyperbolic cases introduce no disagreement. A joint clamp leaves no free dynamics. All components of \(E\) consequently agree, although numerical eigenvalues and decay rates may differ.
+
+The distinction between endpoints and time traces is explicit here. Under an \(x\) clamp with \(y(0)\neq0\), a time-resolved observation at any \(t>0\) determines
+\[
+k=-\frac{1}{t}\log\!\left(\frac{y(t)}{y(0)}\right).
+\]
+The endpoint \(y=0\) alone does not. For comparison, if a whole autonomous vector field \(F\) is multiplied by a common constant \(q>0\), a solution \(u(t)\) becomes \(u(qt)\), since its derivative is \(qF(u(qt))\). The state-space path and limiting endpoint are unchanged. Varying only the relative rate in equation (1) is different from this common change of clock.
+
+\phantomsection\subsection*{A.2 A sufficient condition for convergence to the positive equilibrium}\label{app:a.2}
+
+Suppose an uncontrolled trajectory has \(x(s)>0\) and \(y(s)\geq0\). Then \(y(t)=y(s)e^{-k(t-s)}\geq0\) and \(y(t)\to0\). Let
+\[
+\dot z=z-z^3,\qquad z(s)=x(s).
+\]
+If \(0<z(s)<1\), the solution increases toward \(1\); if \(z(s)>1\), it decreases toward \(1\); and if \(z(s)=1\), it is constant. These claims follow from the signs of \(z-z^3\), boundedness, and uniqueness at the equilibria.
+
+Scalar comparison gives \(x(t)\geq z(t)\). Explicitly, \(w=x-z\) satisfies
+\[
+\dot w=\bigl[1-(x^2+xz+z^2)\bigr]w+y,\qquad w(s)=0.
+\]
+An integrating factor, together with \(y\geq0\), gives \(w\geq0\). Hence \(\liminf_{t\to\infty}x(t)\geq1\).
+
+For any \(\varepsilon>0\), put \(d_\varepsilon=-f(1+\varepsilon)>0\). The function \(f\) is decreasing on \([1+\varepsilon,\infty)\). Eventually \(y<d_\varepsilon/2\), so
+\[
+\dot x<-d_\varepsilon/2\qquad\text{whenever }x\geq1+\varepsilon.
+\]
+Boundedness and this derivative bound force eventual entry below \(1+\varepsilon\), and the negative derivative at that boundary prevents upward recrossing. Thus \(\limsup x\leq1\). Together the bounds prove \((x(t),y(t))\to(1,0)\).
+
+When \(y>0\), the derivative at \(x=0\) is positive. A trajectory that becomes positive cannot subsequently cross back through zero into negative values. This explains the sufficient crossing step used below.
+
+It does not describe crossing a basin boundary. If a trajectory of an autonomous system converges to an attractor, the trajectory starting at any later point is its time-shifted tail and has the same limit. Every such point therefore belongs to the same basin. The line \(x=0\), which is not invariant when \(y>0\), need not be that basin’s boundary.
+
+\phantomsection\subsection*{A.3 Simultaneous release: opposite endpoints and nonidentification}\label{app:a.3}
+
+Release both coordinates from \((-1/2,1)\). Then \(y(t)=e^{-kt}\). For \(0<k\leq1/100\), during the first unit of time,
+\[
+y(t)\geq e^{-0.01}>0.990.
+\]
+While \(x\in[-1/2,0]\),
+\[
+f(x)\geq-\frac{2}{3\sqrt3}>-0.385,
+\]
+so \(\dot x>0.605\). The trajectory cannot leave this interval through its lower endpoint during that period. It must cross zero in less than
+\[
+\frac{0.5}{0.605}<0.827
+\]
+time units. Choose \(s\) just after the crossing, with \(0<x(s)<1\). The positive input prevents a return through zero, and \hyperref[app:a.2]{Appendix A.2} proves convergence to \((1,0)\).
+
+For \(k\geq100\), instead,
+\[
+\int_0^\infty y(t)\,dt=\frac1k\leq0.01.
+\]
+At \(x=-1\), the derivative is \(y(t)>0\), so the trajectory cannot move below \(-1\). Before any hypothetical first crossing of zero, it therefore lies in \([-1,0]\), where \(f(x)\leq0\). Integration gives
+\[
+x(t)\leq-\frac12+\int_0^t y(u)\,du\leq-0.49.
+\]
+This contradicts a first crossing of zero. Consequently \(-1\leq x(t)\leq-0.49\) for all time.
+
+Fix \(0<\varepsilon<0.51\). The continuous function \(-f\) has a strictly positive minimum \(m\) on \([-1+\varepsilon,-0.49]\). Eventually \(y<m/2\), and thereafter \(\dot x<-m/2\) throughout that interval. The trajectory must enter \([-1,-1+\varepsilon]\), unless it is already there, and the negative derivative at the upper boundary prevents upward exit. Since \(\varepsilon\) can be arbitrarily small, \(x(t)\to-1\). Thus the endpoint is \((-1,0)\).
+
+These arguments include the pair \(k=1/100\) and \(k=100\) and prove the stated sufficient ranges. They neither locate an exact transition rate nor classify every intermediate value. By \hyperref[app:a.1]{Appendix A.1}, the pair has identical evidence \(E\). Any rule assigning a unique release endpoint from that evidence must assign the same endpoint to both members, although their true endpoints differ. Release is therefore not identified over \(\mathcal C\), or over any larger admissible class retaining this pair.
+
+\phantomsection\subsection*{A.4 Releasing x first: a common wait without a common settling deadline}\label{app:a.4}
+
+Start at \((-1/2,1)\), release \(x\), and maintain \(y=1\). The free equation is
+\[
+\dot x=x-x^3+1.
+\]
+While \(x\in[-1/2,0]\),
+\[
+\dot x\geq c:=1-\frac{2}{3\sqrt3}>0.615.
+\]
+The trajectory cannot leave through \(-1/2\). It reaches zero by time \(1/(2c)<0.814\), becomes positive immediately afterward, and cannot return through zero because the derivative there is \(1\). Hence at time one, \(x>0\) and \(y=1\), independently of \(k\). Release \(y\) then. \hyperref[app:a.2]{Appendix A.2} proves convergence to \((1,0)\) for every \(k>0\).
+
+Reset time to zero at this second release. Now \(y(t)=e^{-kt}\). For any fixed \(0<\delta<1\), being within Euclidean distance \(\delta\) of \((1,0)\) requires \(y(t)\leq\delta\), and therefore
+\[
+t\geq\frac{\log(1/\delta)}{k}.
+\]
+This necessary waiting time diverges as \(k\) approaches zero. Each member converges, but no finite deadline puts every member within that tolerance. The one-unit first stage and the limiting endpoint are uniform; subsequent settling time is not.
+
+\phantomsection\subsection*{A.5 Releasing y first: disagreement after every fixed finite wait}\label{app:a.5}
+
+Release \(y\) while holding \(x=-1/2\) for a fixed finite \(T\geq0\). At the final release the state is
+\[
+\left(-\frac12,e^{-kT}\right).
+\]
+Writing \(t\) for time since that release gives \(y(t)=e^{-k(T+t)}\). If
+\[
+0<k\leq\frac{0.01}{T+1},
+\]
+then \(y(t)\geq e^{-0.01}>0.990\) throughout the first unit of released time. Combined with \(f(x)>-0.385\) on \([-1/2,0]\), this gives the same lower speed bound \(\dot x>0.605\) as in \hyperref[app:a.3]{Appendix A.3}. The trajectory cannot exit downward and crosses zero before \(0.827\). \hyperref[app:a.2]{Appendix A.2} then gives endpoint \((1,0)\).
+
+For \(k\geq100\), the total remaining input satisfies
+\[
+\int_0^\infty y(t)\,dt=\frac{e^{-kT}}{k}\leq0.01.
+\]
+The derivative at \(-1\) is positive, and before any first zero crossing integration again gives \(x(t)\leq-0.49\). Thus \(x\) remains in \([-1,-0.49]\). For each \(0<\varepsilon<0.51\), let \(m\) be the positive minimum of \(-f\) on \([-1+\varepsilon,-0.49]\). Since \(y\to0\), eventually \(\dot x<-m/2\) there. The trajectory enters \([-1,-1+\varepsilon]\) and cannot leave upward, proving convergence to \((-1,0)\).
+
+For every fixed finite \(T\), both the indicated slow members and the fast members belong to \(\mathcal C\). Their endpoints differ. No such wait in this release order guarantees the desired transition throughout the family.
+
+\enlargethispage{2\baselineskip}\section*{Bibliography}\begingroup\fontsize{10}{13}\selectfont\setlength{\parindent}{0pt}\setlength{\parskip}{0.55em}\raggedright
+
+\hypertarget{ref:blom2020}{}\hangindent=1.4em\hangafter=1\noindent Blom, Tineke, Stephan Bongers, and Joris M. Mooij. 2020. “Beyond Structural Causal Models: Causal Constraints Models.” \emph{Proceedings of the 35th Conference on Uncertainty in Artificial Intelligence (UAI 2019)}, PMLR 115: 585–594. \href{https://proceedings.mlr.press/v115/blom20a/blom20a.pdf}{Paper}.
+
+\hypertarget{ref:bongers2022}{}\hangindent=1.4em\hangafter=1\noindent Bongers, Stephan, Tineke Blom, and Joris M. Mooij. 2022. “Causal Modeling of Dynamical Systems.” arXiv:1803.08784v4, 27 March 2022. Cited passage: §4.6, Example 4.21 and following paragraph, pp. 36–37. \href{https://staff.fnwi.uva.nl/j.m.mooij/articles/1803.08784v4.pdf}{Version cited}.
+
+\hypertarget{ref:dash2005}{}\hangindent=1.4em\hangafter=1\noindent Dash, Denver. 2005. “Restructuring Dynamic Causal Systems in Equilibrium.” \emph{Proceedings of the Tenth International Workshop on Artificial Intelligence and Statistics}, PMLR R5: 81–88. \href{https://proceedings.mlr.press/r5/dash05a/dash05a.pdf}{Paper}.
+
+\hypertarget{ref:ryan2025}{}\hangindent=1.4em\hangafter=1\noindent Ryan, Oisín, and Fabian Dablander. 2025. “Equilibrium Causal Models: Connecting Dynamical Systems Modeling and Cross-Sectional Data Analysis.” \emph{Multivariate Behavioral Research}. \href{https://doi.org/10.1080/00273171.2025.2522733}{Publisher record}. Comparison limited to available search excerpts and bibliographic records; full text unavailable.
+
+\hypertarget{ref:sootla2016}{}\hangindent=1.4em\hangafter=1\noindent Sootla, Aivar, Diego Oyarzún, David Angeli, and Guy-Bart Stan. 2016. “Shaping Pulses to Control Bistable Systems: Analysis, Computation and Counterexamples.” \emph{Automatica} 63: 254–264. \href{https://orbi.uliege.be/bitstream/2268/191987/1/border_final.pdf}{Author preprint dated 5 October 2015}. Citations above use preprint pagination: §2.1, p. 3; Theorem 7, p. 5; Corollary 9, p. 6.
+
+\hypertarget{ref:sootla2018}{}\hangindent=1.4em\hangafter=1\noindent Sootla, Aivar, and Damien Ernst. 2018. “Pulse-Based Control Using Koopman Operator Under Parametric Uncertainty.” \emph{IEEE Transactions on Automatic Control} 63(3): 791–796. Version cited: arXiv:\allowbreak{}1708.00232v1, 1 August 2017, §§III.B–III.C, pp. 3–5. \href{https://arxiv.org/pdf/1708.00232v1}{Author preprint, v1}.
+
+\hypertarget{ref:weinberger2023}{}\hangindent=1.4em\hangafter=1\noindent Weinberger, Naftali. 2023 [online 2021]. “Intervening and Letting Go: On the Adequacy of Equilibrium Causal Models.” \emph{Erkenntnis} 88: 2467–2491. \href{https://doi.org/10.1007/s10670-021-00463-0}{Article}.
+\endgroup

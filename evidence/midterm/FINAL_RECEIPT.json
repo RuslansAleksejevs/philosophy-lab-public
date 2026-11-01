@@ -1,0 +1,66 @@
+{
+  "C": {
+    "backend_attestation": false,
+    "capture_compatibility_repair_after_result": true,
+    "effort": "xhigh",
+    "model": "claude-opus-5-5",
+    "native_session_id": "b5d1a1cf-7e73-47d6-adfa-0411bfbfcb75",
+    "provider": "Claude Code subscription",
+    "sessions": 1
+  },
+  "D": {
+    "compatibility_tests_passed": 45,
+    "original_HISTORY_unchanged": 7,
+    "protected_files_unchanged": 384,
+    "selection_entries": 9,
+    "standard_tests_passed": 652
+  },
+  "checkpoint_event_id": "event-9b1deb7fe64c4291bf8960e3b29bfebe",
+  "checks_timing": "Standard checks passed after checkpoint/lineage. Only final metadata acceptance and navigation updates follow; research and code unchanged.",
+  "critic_event_id": "event-f554e700079e456a962bc80aeebfce81",
+  "decision": "Retain nine; future first queue E050 R1, E009 original, E078 R1; E036 both versions open. Queue is not quality rank. No next research launched.",
+  "decision_event_id": "event-192c6dfeaf0c425782fc9bbd89f3b00f",
+  "diagnostics": {
+    "accepted": 125,
+    "fixed_slots": 130,
+    "missing": [
+      "J002",
+      "J005",
+      "J010",
+      "J004",
+      "J015"
+    ],
+    "rerun_to_replace_missing": false
+  },
+  "event_id": "event-9d9e2f2b2731446599257592ee28a016",
+  "files": {
+    "runs/midterm-20261007/closure-20261010/ARCHIVE_WAIT_OBSERVATION.json": "c05876c8bb8a500ccbd79ebf9c9a96073ea5be6b35ba119459c648ef7552e968",
+    "runs/midterm-20261007/closure-20261010/CHECKPOINT_SUMMARY_RU.json": "4d06c9c932f50963c70df3f9723a0fab56b90ab3fc4cf81fa369b40db6cbe7a9",
+    "runs/midterm-20261007/closure-20261010/COLLECTOR_BOUNDARY.json": "800e593d325ad40eca8f3a603ff5f11526d82db99404690a4b44812a4b3a0305",
+    "runs/midterm-20261007/closure-20261010/COLLECTOR_BOUNDARY_002.json": "04a27ee475ffaa0425f64f673feb120cbc2169547b15ba6d0b96446cd91d60c6",
+    "runs/midterm-20261007/closure-20261010/D-lineage-receipt.json": "a06b420b3bb434dca262deecc97deaf4786dd51993ba66bd705fe12300524310",
+    "runs/midterm-20261007/closure-20261010/D-preservation-receipt.json": "e174679bcaeebdae2d4e5c56ee1447d448fc859eff966d80dda318dfef232f8c",
+    "runs/midterm-20261007/closure-20261010/FINAL_CHECKS.json": "ccef31c6bbafd3e56a1cf71898dc63bf887065cb021c6ef89786be0a2e4a7ff6",
+    "runs/midterm-20261007/closure-20261010/FINAL_DECISION_RU.txt": "d33afb6dfce0ca4e37b65f16848a8a91b047347c3b4f033008635befc2b14e71",
+    "runs/midterm-20261007/closure-20261010/FINAL_INTEGRITY.json": "18f64be61808f1005435a0ebc1b7af2a26fd8c0fed3fa027b98fbcd13d312dfc",
+    "runs/midterm-20261007/closure-20261010/WORKFLOW_LESSONS_RU.txt": "92c313a6d7c59664f2bba2fca840703ea3ff839fd0a5a5af7cba381eda79082e",
+    "runs/midterm-20261007/closure-20261010/checkpoint-receipt.json": "76a6cdb9e5e14289f36d45b991a0b0fe3f7d41223ed9ee1e76583389b63a48e5",
+    "runs/midterm-20261007/closure-20261010/final-checks.log": "7677a192aac303ddc1baa072810add02db51dd17b61ecba07534312cdd9c08ad"
+  },
+  "historical_accounting": {
+    "B_capture_status": "INCOMPLETE",
+    "boundary": "Historical incomplete records remain; current successor has actual five stages and bounded complete coverage.",
+    "full97_capture_status": "INCOMPLETE",
+    "full97_checkpoint": "event-7cb6fcba86d742be9cd7716ca3034069"
+  },
+  "limits": "No certification of novelty, philosophical truth, real-judge fidelity, exhaustive literature search or whole-provider capture. No publication/submission. Global collector coverage has explicit gaps; exact current stages have accepted bounded capture.",
+  "literature": {
+    "B1_reports": 6,
+    "B2_reports": 3,
+    "bounded_not_exhaustive": true,
+    "package_event_id": "event-e7d77ca7bd0b4fa4b621dcbe0eb3c88f"
+  },
+  "preservation_event_id": "event-affd4d0f825746e8ba170e0083c6298c",
+  "run_id": "midterm-closure-20261011",
+  "status": "MIDTERM_COMPLETE_BOUNDED"
+}

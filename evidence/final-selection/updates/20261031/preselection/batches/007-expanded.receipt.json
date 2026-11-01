@@ -1,0 +1,327 @@
+{
+  "status": "BATCH_ACCEPTED",
+  "event_id": "event-78166aeb4bba4cb4ab3b77648bf8b09d",
+  "roles": [
+    {
+      "status": "ROLE_ARCHIVED",
+      "candidate": "F02",
+      "role": "author-repair",
+      "session_id": "01a14c65-881e-7310-910e-679169bae50b",
+      "event_id": "event-af595b6916d640e6ab25ab90492c8ab9",
+      "lineage_event_id": "event-4c12dc27cc63443589c0cb4cb89c4420",
+      "lineage_entry_id": "final-preselection-20261017:F02:author-repair:v1",
+      "files": [
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/DISPATCH.json",
+          "sha256": "4a3acfc876c6da5b4a6a0deb1c27f00864eb7d47f3dafb457bbcc7608fcff10a",
+          "bytes": 1087
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/DISPATCH_REQUESTED.json",
+          "sha256": "b6a266469f4e340905f436fd543568a519c1748a10c3221ad855b6afe0b3a9f1",
+          "bytes": 1078
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/INPUTS.json",
+          "sha256": "80b6458bb45b4c313cb7370abefce026269a30ba5c2f569c1fdb5137646ffd43",
+          "bytes": 1294
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/PREPARED_RECEIPT.json",
+          "sha256": "52397766fad96d2b9192027b9e22a002d06270178e2f93dee6d619bec512ca3e",
+          "bytes": 2167
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/PROMPT.txt",
+          "sha256": "802afd45983350c7370d377cde7b110c7cbca5a0e385c2e3152a5231ea0d843e",
+          "bytes": 3402
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/VISIBLE_CAPTURE.json",
+          "sha256": "5df542bfd1c0000f9111087c0593c24256df617cb52f9373b427f7b2291a1440",
+          "bytes": 4088
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/capture-001/line-118-part-0.json-string.txt",
+          "sha256": "4b0aba5409899be8b42482c1b2e3aad2e0beeae68ac2ca8580122a6752fefc75",
+          "bytes": 530
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/capture-001/line-15-part-0.json-string.txt",
+          "sha256": "8eca1e49cb2bcd25e01b0115e27a6f300788b766600018360346bec743f110f2",
+          "bytes": 139
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/capture-001/line-159-part-0.json-string.txt",
+          "sha256": "97c0661cd71e6622ebb06131097d79bb360dfc641b6fd480bbd5234ff780a52d",
+          "bytes": 461
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/capture-001/line-191-part-0.json-string.txt",
+          "sha256": "359f2221d14598f42dedc48bef57aa4e949b88ecd7159795978b3b0e6896c251",
+          "bytes": 1346
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/capture-001/line-59-part-0.json-string.txt",
+          "sha256": "83f620834c778471a85b01403ee447ad6040be8b0ba0b02ed1f39a4c7b23eab0",
+          "bytes": 447
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/input/manuscript.md",
+          "sha256": "76d5c28417d5b87baebe2640a1636312d3a5f4ee69ab57c1486320e0a81148c9",
+          "bytes": 26179
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/input/review-evidence/MODEL_CHECK.json",
+          "sha256": "e6a323bde106624b98729fe3de299c70b2b3d708dabbddd96b53e6c9143bde7c",
+          "bytes": 655
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/input/review-evidence/REVIEW.json",
+          "sha256": "55691fd1cfdfde6142dd8a59531cc52e3b8a7282fe2e5748994635d484374d8d",
+          "bytes": 14339
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/input/review-evidence/REVIEW_RU.txt",
+          "sha256": "cc1363c0080825a6824cda226e85159db738942478768450c42c7dba2c5a909d",
+          "bytes": 5760
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/input/review-evidence/SOURCES.json",
+          "sha256": "050c3352753a7e2d13587aa300c57da98320e0440c59780aa8b51b996e6cfe1b",
+          "bytes": 8701
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/input/review-evidence/SOURCE_EXCERPTS.txt",
+          "sha256": "06d8a22fdda593c17484b6be2f0eccbd36d7310f861acfd5bbb98833bd31f24b",
+          "bytes": 3949
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/input/review-evidence/VALIDATION.json",
+          "sha256": "97ebf675e239b808348121e16fea587e1d22bbfd8fbc94cfad9daf2e171ec94e",
+          "bytes": 836
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/DECISION.json",
+          "sha256": "59fe744c2770975a7bab27993431d6659d22a9c3eaa98e9046942bb1cfe6e440",
+          "bytes": 5030
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/MODEL_CHECK.json",
+          "sha256": "3e7f2727727f26c3481528ad7ba53abc883f5cf46297b322254670530de64088",
+          "bytes": 1042
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/REPORT_RU.txt",
+          "sha256": "af926292b26b37560f35f257c97dafd33ceacb1a5736fb04b559dd6a48b36d71",
+          "bytes": 8439
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/SESSION.json",
+          "sha256": "728aba721a7cbe0751ba557f61ce5d02bce16a4ea78cca45e1203c75a8b010a9",
+          "bytes": 356
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/SOURCES.json",
+          "sha256": "f40da39794d141c0b404141feb20f80baa886ee77d2d86f8c1813b92654151b2",
+          "bytes": 13078
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/VALIDATION.json",
+          "sha256": "019e9218043b5ed7b513f0f24c5fa46e6217111b804e8a1232020a1fbb20eca6",
+          "bytes": 1279
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/check_model.py",
+          "sha256": "6899cdf94d6e236dc829f557a5d2ae3bbbc0370756270ce309adfa0457fc9f77",
+          "bytes": 5960
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/revision.md",
+          "sha256": "e6badc41a13f407d5ce9660772ff018d0ebbf109f5c8570a0659c612cb217a2d",
+          "bytes": 29972
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/sources/S1.txt",
+          "sha256": "bbfa3d6774512a4ca2cdb4684a40fdd6ee96418cc040dfb9ad48314bf381d831",
+          "bytes": 1175
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/sources/S2.txt",
+          "sha256": "028a6a0c9859ed450e16b45f2ce7e604b073cd82cd1be3a5fdf9b3951bdcd437",
+          "bytes": 1393
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/sources/S3.txt",
+          "sha256": "4a64443ce652f2b65b837e422f7f39421c6a0fa72429d301b80c90de6e26acaf",
+          "bytes": 1215
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/sources/S4.txt",
+          "sha256": "04c7eaa09307c41b2b020e3c358943bb2cdc7d73b2c09ee10eb096e433fd3074",
+          "bytes": 1026
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/sources/S5.txt",
+          "sha256": "3ff2e56ecb8cce28da0ac9cb071e28076f840f8c41d3316b1bde6f19538a222e",
+          "bytes": 855
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/sources/S6.txt",
+          "sha256": "1c79a1fe43f0b38971776aae4ee9b4e39b321b63aef927c0ce510b15527ab306",
+          "bytes": 825
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/sources/S7.txt",
+          "sha256": "9ef2f24d1f60ef20a7d9ad7d026b26b1738a443bea64751ad0957f0fdad168b6",
+          "bytes": 1015
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/sources/S8.txt",
+          "sha256": "6363b799cb5fb1bc76f9b9ed3107ce1c50082e167966cbd90d023b2f2327d322",
+          "bytes": 1159
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F02/author-repair/output/sources/S9.txt",
+          "sha256": "9323e8d5a73192f24f49db8620fbb6d1f706929fbf068f548d5c21ec51d5ee3c",
+          "bytes": 1250
+        }
+      ],
+      "capture_status": "BOUNDED_VISIBLE_FRAGMENTS_COMPLETE"
+    },
+    {
+      "status": "ROLE_ARCHIVED",
+      "candidate": "F01",
+      "role": "review-final",
+      "session_id": "01a14c69-1020-7642-9be5-99cc4c6d2726",
+      "event_id": "event-c72376733a404abcaed8f015f33f5063",
+      "lineage_event_id": "event-6e4c8e6755a24d0a92ecf4520f8d0aaf",
+      "lineage_entry_id": "final-preselection-20261017:F01:review-final:v1",
+      "files": [
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/DISPATCH.json",
+          "sha256": "8059eb4a043e73d036a5918a1a01a95a068383b045d60fe60a05eb3970eff92c",
+          "bytes": 1049
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/DISPATCH_REQUESTED.json",
+          "sha256": "abf83120cc243de7411d923d35705aca0564ca4e820b8b8651c7cdbe0378321f",
+          "bytes": 1039
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/INPUTS.json",
+          "sha256": "7f46d12c0bb5e3b7437e97474f2dfae26368565f76e53d64335231767bea4e09",
+          "bytes": 407
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/PREPARED_RECEIPT.json",
+          "sha256": "72af89559446bec90d9bf72572fcaedad5c214a0481770d933f12c5c66da2e03",
+          "bytes": 793
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/PROMPT.txt",
+          "sha256": "04ffdc70b82fda4d7bb93c93b084eff60ece7d18d6330f6ff8869c1ac7a67831",
+          "bytes": 2714
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/VISIBLE_CAPTURE.json",
+          "sha256": "3cdd0277408bfc1d98cd3cb2e76784cf15804fb5ae0accf0a8ae77e07f198807",
+          "bytes": 4085
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/capture-001/line-106-part-0.json-string.txt",
+          "sha256": "a565705bbc94edd73ca37d235122309768dfac9cbb745ba5a86193023c6e3240",
+          "bytes": 708
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/capture-001/line-15-part-0.json-string.txt",
+          "sha256": "5ff481126c4bb7ad726871190dcad2c2e3a865c57e4378249a0bae390249e8e3",
+          "bytes": 134
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/capture-001/line-49-part-0.json-string.txt",
+          "sha256": "8d163c6ab562d5469724065c91224708147863a76b0d3c670fb23b4be1579905",
+          "bytes": 435
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/capture-001/line-74-part-0.json-string.txt",
+          "sha256": "c6295c93335dcc4ae0b6dfa9739af68314391e57d85d64175ddd3329bb1fa64f",
+          "bytes": 346
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/capture-001/line-97-part-0.json-string.txt",
+          "sha256": "d70e2891dfb5ff19cdc2709d5f884639379d1349eaaab3e316a02f485302f50a",
+          "bytes": 411
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/input/manuscript.md",
+          "sha256": "34acc5ee5e93f4ba751071cfde3db7e6265c1fd20ef01b5d061615c031920aaf",
+          "bytes": 31496
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/output/REVIEW.json",
+          "sha256": "78d4e8f81bd63b12df7724aa9936f4a487631c77c170bff4920d13e1100563bd",
+          "bytes": 18731
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/output/REVIEW_RU.txt",
+          "sha256": "f3c088c3a52fbee58f3082a6db56ea6fa7253ba8865c92c157d72a95932cfe53",
+          "bytes": 6188
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/output/SESSION.json",
+          "sha256": "50654de20e5745582aeabab3869a3ed18e02047fc72d50747146b5ab91761ef6",
+          "bytes": 992
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/output/SOURCES.json",
+          "sha256": "f8a1ec7f8c0f917b288d58916220fec9694f5a1dd582478ce5dc5ac061214299",
+          "bytes": 10389
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/output/source_excerpts/S1.txt",
+          "sha256": "492995a3e6c38a0acd9e7e1ca61e77a89a000d67962a32f29c85ad4a40d299ed",
+          "bytes": 1066
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/output/source_excerpts/S2.txt",
+          "sha256": "d6bd2e812b8b0ebaa4d6f414823ef9ce5a298f7adc3d4eacaa9cc1a9f260976f",
+          "bytes": 1107
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/output/source_excerpts/S3.txt",
+          "sha256": "b47b4a4c8454c63934d41dfb0f4a7d8ce0bbbae8ac07c73dbc2a241bce975f56",
+          "bytes": 1220
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/output/source_excerpts/S4.txt",
+          "sha256": "0c9a99afd83d47974fbee4d30bb3624ba39bf2a9823e0d032fe01d192ab733ad",
+          "bytes": 989
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/output/source_excerpts/S5.txt",
+          "sha256": "dd284bd923dfc48bf07d5e4e99b24f6b70ab08182b536ecbe41c067f3ede9ee4",
+          "bytes": 894
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/output/source_excerpts/S6.txt",
+          "sha256": "0a2d24cbc8dfb5e1a9329c3a0833a73a67b1ef567dad92579194419909857f0c",
+          "bytes": 1025
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/F01/review-final/output/source_excerpts/S7.txt",
+          "sha256": "20401b35590ef32d8057b884976017bbafde5f32313a5c549108f94994c98ae7",
+          "bytes": 1073
+        }
+      ],
+      "capture_status": "BOUNDED_VISIBLE_FRAGMENTS_COMPLETE"
+    }
+  ],
+  "prepared_packets": [
+    {
+      "candidate": "F02",
+      "role": "review-final",
+      "parent_entry": "final-preselection-20261017:F02:author-repair:v1"
+    }
+  ]
+}

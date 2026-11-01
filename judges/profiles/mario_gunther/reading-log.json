@@ -1,0 +1,155 @@
+{
+  "schema": "judge-reading-log-v1",
+  "judge_id": "mario_gunther",
+  "access_date": "2026-10-07",
+  "retrieval_form": "Web-tool source fragments; originals retained verbatim, including errors and extraction defects. Not raw HTTP or original PDF files.",
+  "readings": [
+    {
+      "source_id": "I1",
+      "coverage": "metadata",
+      "read_locations": "Author identity and links; metaphysics catalogue URL https://www.mario-guenther.com/metaphysics.",
+      "artifacts": [
+        {
+          "path": "evidence/turn5view1.txt",
+          "sha256": "99d332f5ffefea9e9e69065724afdc8ca009f7062c93eff5eb801d5e6c05efc0",
+          "line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn7view2.txt",
+          "sha256": "894cc7935fb838a9a479db0543e02759d8ce636ffed2754f7ba9471b4c8b6238",
+          "line_ranges_present": [
+            [
+              0,
+              82
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "I2",
+      "coverage": "metadata",
+      "read_locations": "Institutional search-return text, not opened full page; sufficient for dated affiliation, not personality.",
+      "artifacts": [
+        {
+          "path": "evidence/turn39search5.txt",
+          "sha256": "e33a4d1056dad2197606db3459bce844be82a4a7d40ed577382d6bf7edccd133",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S1",
+      "coverage": "substantial_excerpt",
+      "read_locations": "PDF pp1–12, extracted lines0–363, of35pages; introduction, belief change, strengthened Ramsey test, production/joint-effects setup. Later sections unread.",
+      "artifacts": [
+        {
+          "path": "evidence/turn46view0.txt",
+          "sha256": "53324d015ef3a48254d7cda59bbf64d6e3ad656c794f714af89a157f2c81d4ca",
+          "line_ranges_present": [
+            [
+              0,
+              363
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S2",
+      "coverage": "substantial_excerpt",
+      "read_locations": "Extracted lines124–147 and320–401, especially2.2–2.4. Not the full encyclopedia entry.",
+      "artifacts": [
+        {
+          "path": "evidence/turn30view5.txt",
+          "sha256": "ef82a1ff83103c5c913ba0543ab599658a201a2bb7245759bcf6cd2c22fd37b6",
+          "line_ranges_present": [
+            [
+              124,
+              147
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn68view1.txt",
+          "sha256": "c887beae53600be05885380807660347694b7bb09799e25d13d8836dcdc72871",
+          "line_ranges_present": [
+            [
+              320,
+              320
+            ],
+            [
+              323,
+              401
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "T1",
+      "coverage": "metadata",
+      "read_locations": "Public workshop description/coorganization; collective format, not proof of individual personality.",
+      "artifacts": [
+        {
+          "path": "evidence/turn39search3.txt",
+          "sha256": "15bad54455b8571fb00422ccd3dbe55c2b44d1c8e2151102d626fa54cab9582c",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "D1",
+      "coverage": "metadata",
+      "read_locations": "Blog metadata/empty or failed extraction. No substantive interview obtained.",
+      "artifacts": [
+        {
+          "path": "evidence/turn39view2.txt",
+          "sha256": "c60d9f4bd1dfe399b592bd897bad3f6d817b889bb9792f67a333e24de295f0f1",
+          "line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn42view2.txt",
+          "sha256": "d0cb40c3be02b6910cd1ab3efdd8b104e7cdba2a4b7e615eb416d26ca1e4ae36",
+          "line_ranges_present": [
+            [
+              0,
+              16
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn9view2.txt",
+          "sha256": "921b6c05b9c2e2011dc5fefd38d34f75a0ad5db89d11ae68ba8ec2deb446b63e",
+          "line_ranges_present": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "D2",
+      "coverage": "metadata",
+      "read_locations": "Historical affiliation discovery, superseded for current identity by dated I2; exact returned URL retained in evidence.",
+      "artifacts": [
+        {
+          "path": "evidence/turn39search4.txt",
+          "sha256": "0c264ab5748e18ebf4a1b3870a54b437c0c4acaf70634cbd6b4d504f915c1525",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    }
+  ],
+  "temperament_search": "Targeted public author/institutional pages, media/interview or public discussion/review discovery. Actual accessible and failed results are indexed; metadata is not personality evidence.",
+  "gap_rule": "UNKNOWN is retained where the accessed material is inadequate. Full/excerpt refers to the contribution or main text, not all navigation, references, linked content or rendered equations."
+}

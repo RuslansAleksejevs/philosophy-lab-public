@@ -1,0 +1,286 @@
+{
+  "schema": "judge-source-index-v1",
+  "judge_id": "mario_gunther",
+  "prepared_date": "2026-10-07",
+  "source_packet": "source-packet.md",
+  "profile": "profile-v1.md",
+  "coverage_boundary": "Bounded text-extraction corpus; source-specific read limits apply. No exhaustive corpus or raw-document preservation claim. Hashes demonstrate internal consistency only.",
+  "sources": [
+    {
+      "source_id": "I1",
+      "title": "Author site and metaphysics catalogue",
+      "url": "https://www.mario-guenther.com/",
+      "coverage": "metadata",
+      "read_limits": "Author identity and links; metaphysics catalogue URL https://www.mario-guenther.com/metaphysics.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn5view1.txt",
+          "tool_reference_id": "turn5view1",
+          "sha256": "99d332f5ffefea9e9e69065724afdc8ca009f7062c93eff5eb801d5e6c05efc0",
+          "size_bytes": 225,
+          "returned_or_attempted_urls": [
+            "https://www.mario-guenther.com/"
+          ],
+          "extracted_line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn7view2.txt",
+          "tool_reference_id": "turn7view2",
+          "sha256": "894cc7935fb838a9a479db0543e02759d8ce636ffed2754f7ba9471b4c8b6238",
+          "size_bytes": 5107,
+          "returned_or_attempted_urls": [
+            "https://www.mario-guenther.com/metaphysics"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              82
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "I2",
+      "title": "Portrait de Mario Günther, 28 January 2026",
+      "url": "https://ihpst.pantheonsorbonne.fr/actualite/portrait-de-mario-gunther",
+      "coverage": "metadata",
+      "read_limits": "Institutional search-return text, not opened full page; sufficient for dated affiliation, not personality.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn39search5.txt",
+          "tool_reference_id": "turn39search5",
+          "sha256": "e33a4d1056dad2197606db3459bce844be82a4a7d40ed577382d6bf7edccd133",
+          "size_bytes": 1873,
+          "returned_or_attempted_urls": [
+            "https://ihpst.pantheonsorbonne.fr/actualite/portrait-de-mario-gunther"
+          ],
+          "extracted_line_ranges_present": []
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "S1",
+      "title": "Causation in Terms of Production (with Holger Andreas)",
+      "url": "https://www.mario-guenther.com/_files/ugd/70b9dd_6fc02f76881545feb15b25336071a8cd.pdf",
+      "coverage": "substantial_excerpt",
+      "read_limits": "PDF pp1–12, extracted lines0–363, of35pages; introduction, belief change, strengthened Ramsey test, production/joint-effects setup. Later sections unread.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn46view0.txt",
+          "tool_reference_id": "turn46view0",
+          "sha256": "53324d015ef3a48254d7cda59bbf64d6e3ad656c794f714af89a157f2c81d4ca",
+          "size_bytes": 26122,
+          "returned_or_attempted_urls": [
+            "https://www.mario-guenther.com/_files/ugd/70b9dd_6fc02f76881545feb15b25336071a8cd.pdf"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              363
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": true,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "S2",
+      "title": "Regularity and Inferential Theories of Causation (with Holger Andreas), Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/causation-regularity/",
+      "coverage": "substantial_excerpt",
+      "read_limits": "Extracted lines124–147 and320–401, especially2.2–2.4. Not the full encyclopedia entry.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn30view5.txt",
+          "tool_reference_id": "turn30view5",
+          "sha256": "ef82a1ff83103c5c913ba0543ab599658a201a2bb7245759bcf6cd2c22fd37b6",
+          "size_bytes": 6774,
+          "returned_or_attempted_urls": [
+            "https://plato.stanford.edu/entries/causation-regularity/"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              124,
+              147
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn68view1.txt",
+          "tool_reference_id": "turn68view1",
+          "sha256": "c887beae53600be05885380807660347694b7bb09799e25d13d8836dcdc72871",
+          "size_bytes": 18299,
+          "returned_or_attempted_urls": [
+            "https://plato.stanford.edu/entries/causation-regularity/"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              320,
+              320
+            ],
+            [
+              323,
+              401
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": true,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "T1",
+      "title": "Responsibility and AI workshop, University of Vienna",
+      "url": "https://fonti.univie.ac.at/workshops/responsibility-ai/",
+      "coverage": "metadata",
+      "read_limits": "Public workshop description/coorganization; collective format, not proof of individual personality.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn39search3.txt",
+          "tool_reference_id": "turn39search3",
+          "sha256": "15bad54455b8571fb00422ccd3dbe55c2b44d1c8e2151102d626fa54cab9582c",
+          "size_bytes": 2501,
+          "returned_or_attempted_urls": [
+            "https://fonti.univie.ac.at/workshops/responsibility-ai/"
+          ],
+          "extracted_line_ranges_present": []
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": false
+    },
+    {
+      "source_id": "D1",
+      "title": "Blog discovery",
+      "url": "https://www.mario-guenther.com/blog-1",
+      "coverage": "metadata",
+      "read_limits": "Blog metadata/empty or failed extraction. No substantive interview obtained.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn39view2.txt",
+          "tool_reference_id": "turn39view2",
+          "sha256": "c60d9f4bd1dfe399b592bd897bad3f6d817b889bb9792f67a333e24de295f0f1",
+          "size_bytes": 215,
+          "returned_or_attempted_urls": [
+            "https://www.mario-guenther.com/blog-1"
+          ],
+          "extracted_line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn42view2.txt",
+          "tool_reference_id": "turn42view2",
+          "sha256": "d0cb40c3be02b6910cd1ab3efdd8b104e7cdba2a4b7e615eb416d26ca1e4ae36",
+          "size_bytes": 846,
+          "returned_or_attempted_urls": [
+            "https://www.mario-guenther.com/blog-1"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              16
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn9view2.txt",
+          "tool_reference_id": "turn9view2",
+          "sha256": "921b6c05b9c2e2011dc5fefd38d34f75a0ad5db89d11ae68ba8ec2deb446b63e",
+          "size_bytes": 229,
+          "returned_or_attempted_urls": [
+            "https://www.mario-guenther.com/blog"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": false
+    },
+    {
+      "source_id": "D2",
+      "title": "Older LMU contact result",
+      "url": "https://www.philosophie.lmu.de/en/directory-of-persons/contact-page/mario-guenther-81cd14c5.html",
+      "coverage": "metadata",
+      "read_limits": "Historical affiliation discovery, superseded for current identity by dated I2; exact returned URL retained in evidence.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn39search4.txt",
+          "tool_reference_id": "turn39search4",
+          "sha256": "0c264ab5748e18ebf4a1b3870a54b437c0c4acaf70634cbd6b4d504f915c1525",
+          "size_bytes": 2852,
+          "returned_or_attempted_urls": [
+            "https://www.philosophie.lmu.de/en/directory-of-persons/contact-page/mario-guenther-81cd14c5.html"
+          ],
+          "extracted_line_ranges_present": []
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": false
+    }
+  ],
+  "other_evidence_files": [
+    {
+      "path": "evidence/catalogs-tool.txt",
+      "sha256": "894cc7935fb838a9a479db0543e02759d8ce636ffed2754f7ba9471b4c8b6238",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    },
+    {
+      "path": "evidence/read1-tool.txt",
+      "sha256": "5c95a72bca82ce9668c061d4990f121643a39112b3a4086087d42a14980caea3",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    },
+    {
+      "path": "evidence/search1-tool.txt",
+      "sha256": "3b7a5aee90d7393fb8779cf13f5b4534b49db1d580ae60d169dbaa825d86d8f8",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    },
+    {
+      "path": "evidence/search2-tool.txt",
+      "sha256": "99d332f5ffefea9e9e69065724afdc8ca009f7062c93eff5eb801d5e6c05efc0",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    },
+    {
+      "path": "evidence/sources1-tool.txt",
+      "sha256": "921b6c05b9c2e2011dc5fefd38d34f75a0ad5db89d11ae68ba8ec2deb446b63e",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "schema": "judge-source-index-v1",
+  "judge_id": "raphael_milliere",
+  "prepared_date": "2026-10-07",
+  "source_packet": "source-packet.md",
+  "profile": "profile-v1.md",
+  "coverage_boundary": "Bounded text-extraction corpus; source-specific read limits apply. No exhaustive corpus or raw-document preservation claim. Hashes demonstrate internal consistency only.",
+  "sources": [
+    {
+      "source_id": "I1",
+      "title": "Author homepage",
+      "url": "https://raphaelmilliere.com/",
+      "coverage": "metadata",
+      "read_limits": "Identity and research description; not a personality source.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn4search3.txt",
+          "tool_reference_id": "turn4search3",
+          "sha256": "f20be7368a55ffbad7102eacd9aa52ed40b66d83b1bc1eebe10e79487f4c457e",
+          "size_bytes": 1776,
+          "returned_or_attempted_urls": [
+            "https://raphaelmilliere.com/"
+          ],
+          "extracted_line_ranges_present": []
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "I2",
+      "title": "Oxford faculty page",
+      "url": "https://philosophy.site.ox.ac.uk/people/raphael-milliere",
+      "coverage": "metadata",
+      "read_limits": "Institutional identity and current affiliation.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn4search6.txt",
+          "tool_reference_id": "turn4search6",
+          "sha256": "f4decd4731a9aa5d89db760dc0eaea378cbd193df2131660e2c16c6735ebb784",
+          "size_bytes": 2325,
+          "returned_or_attempted_urls": [
+            "https://philosophy.site.ox.ac.uk/people/raphael-milliere"
+          ],
+          "extracted_line_ranges_present": []
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "S1",
+      "title": "Philosophy of Cognitive Science in the Age of Deep Learning",
+      "url": "https://raphaelmilliere.com/pdfs/millierePhilosophyCognitiveScience2024.pdf",
+      "coverage": "substantial_excerpt",
+      "read_limits": "PDF pp2–4, extracted lines68–111 and122–154; not the full nine-page article.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn30view0.txt",
+          "tool_reference_id": "turn30view0",
+          "sha256": "54d85156c99d50f43d3917ddcb590f807d07d01a650decabeb8004b065f96452",
+          "size_bytes": 7160,
+          "returned_or_attempted_urls": [
+            "https://raphaelmilliere.com/pdfs/millierePhilosophyCognitiveScience2024.pdf",
+            "https://wires.onlinelibrary.wiley.com/doi/10.1002/wcs.1684",
+            "https://onlinelibrary.wiley.com/terms-and-conditions"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              68,
+              111
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn38view2.txt",
+          "tool_reference_id": "turn38view2",
+          "sha256": "1d9279e6147b866d8232f4f80bb7bfe6b8601c3abb4a03cdbb695e170c2b0d46",
+          "size_bytes": 6054,
+          "returned_or_attempted_urls": [
+            "https://raphaelmilliere.com/pdfs/millierePhilosophyCognitiveScience2024.pdf",
+            "https://wires.onlinelibrary.wiley.com/doi/10.1002/wcs.1684",
+            "https://onlinelibrary.wiley.com/terms-and-conditions"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              122,
+              154
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": true,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "S2",
+      "title": "A Philosophical Introduction to Language Models, Part I: Continuity With Classic Debates (with Cameron Buckner), v1, 8 January 2024",
+      "url": "https://arxiv.org/html/2401.03910v1",
+      "coverage": "substantial_excerpt",
+      "read_limits": "Extracted lines0–52,91–105,120–177; introduction, architectural framing, compositionality and redescription discussion; later sections not read.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn30view1.txt",
+          "tool_reference_id": "turn30view1",
+          "sha256": "342b8c23af41b065feff48091577ec8f41aa5a5680b1f0de001d5c01ea0eb5b9",
+          "size_bytes": 5353,
+          "returned_or_attempted_urls": [
+            "https://arxiv.org/html/2401.03910v1"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              52
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn38view1.txt",
+          "tool_reference_id": "turn38view1",
+          "sha256": "52481b9edf1a39118ca98eca23eeb390f4ea161cf822b3e6925a7c1f1bb0b188",
+          "size_bytes": 5993,
+          "returned_or_attempted_urls": [
+            "https://arxiv.org/html/2401.03910v1"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              91,
+              105
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn68view0.txt",
+          "tool_reference_id": "turn68view0",
+          "sha256": "95608f03cc421fe1d675d9599939c3a4b9904091c8d03c26f2930e13720f459d",
+          "size_bytes": 18326,
+          "returned_or_attempted_urls": [
+            "https://arxiv.org/html/2401.03910v1"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              120,
+              177
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": true,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "S3",
+      "title": "Mindscape 230: Raphaël Millière on How Artificial Intelligence Thinks, 20 March 2023",
+      "url": "https://preposterousuniverse.com/podcast/2023/03/20/230-raphael-milliere-on-how-artificial-intelligence-thinks/",
+      "coverage": "substantial_excerpt",
+      "read_limits": "Transcript lines69–188, approximately10:00–51:24. Only speaker-labelled Millière remarks support his views; interviewer remarks are not attributed to him.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn70view0.txt",
+          "tool_reference_id": "turn70view0",
+          "sha256": "a756ef9edbad0cddebda07ba701d78464fc37b8ce7ce93c5aa6b9dadc1e83d96",
+          "size_bytes": 38124,
+          "returned_or_attempted_urls": [
+            "https://www.preposterousuniverse.com/podcast/2023/03/20/230-raphael-milliere-on-how-artificial-intelligence-thinks/",
+            "https://preposterousuniverse.com/podcast/2023/03/20/230-raphael-milliere-on-how-artificial-intelligence-thinks/;"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              69,
+              188
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": true,
+      "use_in_evaluator_context": true
+    },
+    {
+      "source_id": "D1",
+      "title": "Media catalogue",
+      "url": "https://raphaelmilliere.com/media/",
+      "coverage": "metadata",
+      "read_limits": "Discovery only; listed media are not claimed read.",
+      "access_date": "2026-10-07",
+      "exact_access_time_utc": null,
+      "access_time_limit": "Per-call wall-clock times are not bound in this local index; visible native session is separately available to the coordinator.",
+      "retrieval": "Exact web-tool source fragment, not raw HTTP or original PDF bytes",
+      "evidence": [
+        {
+          "path": "evidence/turn66view0.txt",
+          "tool_reference_id": "turn66view0",
+          "sha256": "7b5c340eb9dc36bd806963b9d38496f30645b6d76923dcd1ceb4a6a0783a2bba",
+          "size_bytes": 10564,
+          "returned_or_attempted_urls": [
+            "https://raphaelmilliere.com/media/"
+          ],
+          "extracted_line_ranges_present": [
+            [
+              0,
+              196
+            ]
+          ]
+        }
+      ],
+      "substantive_primary": false,
+      "use_in_evaluator_context": false
+    }
+  ],
+  "other_evidence_files": [
+    {
+      "path": "evidence/search1-tool.txt",
+      "sha256": "619f8989f6bc9d72046f345557c46d7672880ba8408731a9822bbe4332706f32",
+      "role": "Discovery or earlier overlapping raw tool return; not additional substantive reading and not intended as evaluator input."
+    }
+  ]
+}

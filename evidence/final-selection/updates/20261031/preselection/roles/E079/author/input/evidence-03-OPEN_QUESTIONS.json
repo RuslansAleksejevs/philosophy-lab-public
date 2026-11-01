@@ -1,0 +1,260 @@
+{
+  "candidate": "E079",
+  "role": "S",
+  "compact_summary_ru": {
+    "known": "Различия исход/основание и discount/discard, частичная корректировка и сравнение моделей с одинаковыми исходами уже разработаны. Арифметика E079 верна при его допущениях.",
+    "possible_distinction": "Явная пара популяционных моделей применена к трём частотам Sekine: одинаковые исходы допускают около 29.7% полного удаления благодаря правилу или 0%. Приоритет этого применения не установлен.",
+    "significance": "Проясняет предел конкретного вывода о полном удалении даже без ошибки выборки. Не устанавливает фактическую долю, отсутствие способности или бесполезность эксперимента.",
+    "strongest_objection": "Общей защите может хватать намеренного отказа действовать по запрещённой причине. Модель B может содержать такой успех; полный остаточный учёт и сохранённая мысль тоже не одно и то же.",
+    "next_check": "Сопоставить критерий успеха с § 3 и примечаниями 39/43 Sekine, затем проверить оригинал Wistrich и заранее обосновать процессные наблюдения, дающие разные прогнозы моделей."
+  },
+  "historical_B2": "No accepted prior B2 supplied in exact packet; predeclared baseline gap preserved.",
+  "questions": [
+    {
+      "id": "Q01",
+      "priority": "decisive",
+      "question_ru": "Какой успех нужен буквальному эмпирическому тезису §3 и общему тезису о second-order guidance?",
+      "source_ids": [
+        "SEKINE2026",
+        "MOLINA2026",
+        "KEELING2024",
+        "EHRENBERG2024"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/S/evidence/DIRECT_SEKINE2026.txt",
+          "sha256": "1459f933113b72fa1cc7bede68c12bdc9b1a13e6719e83ec22d0051c9c7f36a1",
+          "bytes": 1360
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/S/evidence/DIRECT_MOLINA2026.txt",
+          "sha256": "f94c6cd2df8c8e5793bc4845708e0607cd7dd7e3e2a344091c09e6ecd1f0a640",
+          "bytes": 1315
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/A/evidence/S03.txt",
+          "sha256": "4944432d47a648811093e463f1a945567d00a6d92608dd7ae727120d8a861d45",
+          "bytes": 1592
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/A/evidence/S05.txt",
+          "sha256": "50971c9624497e3517c1440bf202deb7341be0bd7639eff9094d06ab12ab91a6",
+          "bytes": 1641
+        }
+      ],
+      "status": "Open; narrow deliberative wording confirmed, necessity for broader defence unproved.",
+      "next_check_ru": "Раздельно задать remembered content, deliberative reliance, motivating basis и rule-guided omission. Классифицировать в B convicting/acquitting/switching cases; смена действия сама по себе не доказывает gating."
+    },
+    {
+      "id": "Q02",
+      "priority": "high",
+      "question_ru": "Что действительно измерял original rape-shield опыт, включая распределение групп и процесс решения?",
+      "source_ids": [
+        "WISTRICH2005"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/A/evidence/S09.txt",
+          "sha256": "b7139ba9b64bc26526d710729862db4f99f1eddf67c99366ea01f802dc36078c",
+          "bytes": 1527
+        }
+      ],
+      "status": "Original pp.1298–1303 and data not independently read.",
+      "next_check_ru": "Получить законную inspectable копию и прочитать инструкции, сроки, выбор admissibility, таблицы, denominators, процессные вопросы. Не считать репозиторную ссылку чтением."
+    },
+    {
+      "id": "Q03",
+      "priority": "high",
+      "question_ru": "Какие наблюдения различают полное удаление и положительный остаточный вес при совпавшем вердикте?",
+      "source_ids": [
+        "GUTKINHECK2026",
+        "PAYNE2008",
+        "FLEMING1999"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/S/evidence/DIRECT_GUTKINHECK2026.txt",
+          "sha256": "3a7cee7346e0a89dd687fd1a1e9baa52439090a3e8006343f790cf776e4ef7d7",
+          "bytes": 1458
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/B/evidence/S04.txt",
+          "sha256": "f0a3f04f095b14e71def7ca6d1451295d5d2f893ba1c78777434035fea63cc70",
+          "bytes": 1439
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/B/evidence/S05.txt",
+          "sha256": "5942a7b90cba3c8adc6faa242a53af8ca98e7f18ae44b90983763350e134cdef",
+          "bytes": 1639
+        }
+      ],
+      "status": "No validated judicial operationalization supplied.",
+      "next_check_ru": "До эксперимента задать разные joint predictions для verdict, role/private assessment и process indicators; проверить идентифицируемость и независимые измерительные допущения, включая стабильность baseline и селекцию."
+    },
+    {
+      "id": "Q04",
+      "priority": "high",
+      "question_ru": "Какое независимое свидетельство влияет на относительную правдоподобность двух механизмов?",
+      "source_ids": [
+        "SEKINE2026",
+        "WITTLIN2023",
+        "ROCCHE2024"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/S/evidence/DIRECT_SEKINE2026.txt",
+          "sha256": "1459f933113b72fa1cc7bede68c12bdc9b1a13e6719e83ec22d0051c9c7f36a1",
+          "bytes": 1360
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/S/evidence/DIRECT_WITTLIN2023.txt",
+          "sha256": "6fa34f1be7f253ac735f3c23cb0962c252c51c95e11b9b922c784417d462806b",
+          "bytes": 1289
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/S/evidence/DIRECT_ROCCHE2024.txt",
+          "sha256": "a71945c7bbc50428d02c16a26eddf9048251929a650987063023e73427414286",
+          "bytes": 1547
+        }
+      ],
+      "status": "Compatibility established, relative probability not assessed.",
+      "next_check_ru": "Проверить mechanism evidence и обоснование априорных ограничений; нельзя отождествлять отсутствие point identification с отсутствием probabilistic support."
+    },
+    {
+      "id": "Q05",
+      "priority": "medium",
+      "question_ru": "Когда сравнение при d=.6 остаётся различающим?",
+      "source_ids": [
+        "GUTKINHECK2026"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/S/evidence/DIRECT_GUTKINHECK2026.txt",
+          "sha256": "3a7cee7346e0a89dd687fd1a1e9baa52439090a3e8006343f790cf776e4ef7d7",
+          "bytes": 1458
+        }
+      ],
+      "status": "Illustration conditional on chosen extensions.",
+      "next_check_ru": "Независимо ограничить форму baseline, q,k и связь experimental manipulation с d; проверить alternative extensions. Точность формулы не валидирует эксперимент."
+    },
+    {
+      "id": "Q06",
+      "priority": "medium",
+      "question_ru": "Каковы точные исправленные proof и version-specific страницы соседних источников?",
+      "source_ids": [
+        "MULLINS2020",
+        "MULLINS2023",
+        "LAUKENMANN2023",
+        "HOEFT2025",
+        "HOEFTWP2024",
+        "EHRENBERG2024",
+        "MONTI2024",
+        "RAZ2006"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/B/evidence/S12.txt",
+          "sha256": "61c682df7eb9ab99deb9534bf1d7ab3f82a8f90911031b7d926021b049f2cdbe",
+          "bytes": 1119
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/S/evidence/DIRECT_MULLINS2023.txt",
+          "sha256": "ee234f4895e4337094dd49b7e8bfdfb189124ad615772587b3aecc1a0b1e82eb",
+          "bytes": 1244
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/B/evidence/S11.txt",
+          "sha256": "dddd4ab23a9d42a25565ec4ae96f7deef8c6ed518623257def18c9e1dbd9f751",
+          "bytes": 1317
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/A/evidence/S07.txt",
+          "sha256": "a9203084588df2afd61f2c112570a27c0183f382c86a3ea119c48a37e86dd311",
+          "bytes": 1531
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/A/evidence/S08.txt",
+          "sha256": "44ca59a9cccc432188e79cda0905b0f82e7832186da9e7d9c5f3c77a93918b12",
+          "bytes": 1533
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/A/evidence/S05.txt",
+          "sha256": "50971c9624497e3517c1440bf202deb7341be0bd7639eff9094d06ab12ab91a6",
+          "bytes": 1641
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/A/evidence/S11.txt",
+          "sha256": "325ce776bf11b41637c945a78c8eb38488d85d609d2c74b341a05c3f96a6d8d3",
+          "bytes": 1019
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/A/evidence/S10.txt",
+          "sha256": "5eaf4be755c18edc369af483ce9d6413b9846933b72751ab98b134a15acb95c7",
+          "bytes": 1155
+        }
+      ],
+      "status": "Incomplete proof/full-version reading remains.",
+      "next_check_ru": "Прочитать исправленный Mullins2020 с erratum, primary Laukenmann2023 proof и опубликованные спорные места; не переносить чтение working paper на final version или индексированный текст на whole article."
+    },
+    {
+      "id": "Q07",
+      "priority": "bounded",
+      "question_ru": "Есть ли точный более ранний аналог применения пары моделей к позитивному выводу о судьях?",
+      "source_ids": [
+        "ROCCHE2024",
+        "MULLINS2023",
+        "GUTKINHECK2026"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/S/evidence/DIRECT_ROCCHE2024.txt",
+          "sha256": "a71945c7bbc50428d02c16a26eddf9048251929a650987063023e73427414286",
+          "bytes": 1547
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/S/evidence/DIRECT_MULLINS2023.txt",
+          "sha256": "ee234f4895e4337094dd49b7e8bfdfb189124ad615772587b3aecc1a0b1e82eb",
+          "bytes": 1244
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/S/evidence/DIRECT_GUTKINHECK2026.txt",
+          "sha256": "3a7cee7346e0a89dd687fd1a1e9baa52439090a3e8006343f790cf776e4ef7d7",
+          "bytes": 1458
+        }
+      ],
+      "status": "Priority unresolved; no novelty inference from non-matches.",
+      "next_check_ru": "При необходимости провести отдельную адресную citation проверку; нынешний синтез даёт ближайшие аналоги, не доказательство приоритета."
+    },
+    {
+      "id": "Q08",
+      "priority": "medium",
+      "question_ru": "Что добавляют полные Gur/Wang/Whiting к различию mental content, weighing и guidance?",
+      "source_ids": [
+        "GUR2025",
+        "WANG2024",
+        "WHITING2017"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/B/evidence/S15.txt",
+          "sha256": "b1b73ecb2c9b8b91429ba8ab944ac4ae139acc7479237765db3cecc60d90cb48",
+          "bytes": 1301
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/B/evidence/S16.txt",
+          "sha256": "a627ffafa3186fc0c3b0df47263b4fa23dfe4202c7a0b895d9b14c222efb6af0",
+          "bytes": 1238
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E079/workers/A/evidence/S06.txt",
+          "sha256": "af5d4de04c8c5219b0fa700c7d5b8795549d7d710864604d144b467eedf6f37f",
+          "bytes": 1568
+        }
+      ],
+      "status": "Bounded inherited snippets/abstracts only.",
+      "next_check_ru": "Читать lawful author/publisher версии и exact passages; до этого сохранять их указателями, не приписывать полным текстам отсутствие результата E079."
+    }
+  ],
+  "unresolved_disagreement": "No substantive A/B contradiction on the main construction. Target relevance remains unresolved. Access outcomes differ; A Keeling success, B and S failures are retained as separate observations.",
+  "search_context_limit": "Two fresh same-model searches are separate contexts, not proven independent biases."
+}

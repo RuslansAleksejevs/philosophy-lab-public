@@ -1,0 +1,34 @@
+{
+  "method": "Independent recomputation using Python fractions.Fraction and enumeration of all eight binary histories for three-panel thresholds.",
+  "assumptions": "The manuscript’s stipulated independent Bernoulli panels; equal prior policy-type probabilities and losses 10 and 1 only for section 6.",
+  "likelihood_checks": [
+    {
+      "observation": "unselected_approval",
+      "p_one_quarter": "1/4",
+      "p_three_quarters": "3/4",
+      "higher_lower_likelihood_ratio": "3",
+      "matches_manuscript": true
+    },
+    {
+      "observation": "approval_within_three",
+      "p_one_quarter": "37/64",
+      "p_three_quarters": "63/64",
+      "higher_lower_likelihood_ratio": "63/37",
+      "matches_manuscript": true
+    },
+    {
+      "observation": "reject_reject_approve",
+      "p_one_quarter": "9/64",
+      "p_three_quarters": "3/64",
+      "higher_lower_likelihood_ratio": "1/3",
+      "matches_manuscript": true
+    }
+  ],
+  "expected_losses": {
+    "any_approval_in_three": "47/128",
+    "majority_of_three": "55/64",
+    "one_panel": "11/8"
+  },
+  "all_match": true,
+  "empirical_validation": false
+}

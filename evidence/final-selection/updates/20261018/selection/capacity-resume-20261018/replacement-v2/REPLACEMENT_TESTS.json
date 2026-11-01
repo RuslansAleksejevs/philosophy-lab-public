@@ -1,0 +1,126 @@
+{
+  "status": "PASS_SYNTHETIC_PREPARATION_ONLY",
+  "scope": "Exactly M12-N2 and M13-N2. Other108 accepted first; sequential M12 review+map before M13. Real readiness/launch remain root operations.",
+  "started_at": "2026-10-19T03:53:16.036280+00:00",
+  "elapsed_seconds": 23.225,
+  "command": "python3 -B -m unittest -v test_capacity_v2 test_consumers_v2",
+  "tests_run": 40,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "test_ids": [
+    "test_capacity_v2.CapacityTests.test_closure_rejects_per_job_map_in_place_of_both",
+    "test_capacity_v2.CapacityTests.test_final110_coverage_two_failures_zero_duplicate_votes",
+    "test_capacity_v2.CapacityTests.test_final_rejects_any_third_failure",
+    "test_capacity_v2.CapacityTests.test_first_archive_partial_commit_replay_then_second",
+    "test_capacity_v2.CapacityTests.test_first_cannot_reuse_other_failed_session",
+    "test_capacity_v2.CapacityTests.test_first_quarantine_does_not_enable_second_or_group",
+    "test_capacity_v2.CapacityTests.test_group_exact_replay_and_missing_first_map_parent_rejected",
+    "test_capacity_v2.CapacityTests.test_missing_second_plan_cannot_start_first",
+    "test_capacity_v2.CapacityTests.test_other108_gate_closed_if_one_is_not_accepted",
+    "test_capacity_v2.CapacityTests.test_prepare_request_reads_only_explicit_receipt_metadata",
+    "test_capacity_v2.CapacityTests.test_ready_rejects_missing_fresh_user_capture_before_writes",
+    "test_capacity_v2.CapacityTests.test_ready_rejects_resume_not_descended_from_second_stop",
+    "test_capacity_v2.CapacityTests.test_ready_replays_after_first_committed_ready_event",
+    "test_capacity_v2.CapacityTests.test_ready_writer_two_immutable_plans_and_exact_replay",
+    "test_capacity_v2.CapacityTests.test_real_archive_ready_two_reviews_maps_only_in_temp",
+    "test_capacity_v2.CapacityTests.test_second_cannot_reuse_first_successful_session",
+    "test_capacity_v2.CapacityTests.test_second_cannot_start_without_first_accepted_map",
+    "test_capacity_v2.CapacityTests.test_second_failure_bytes_and_fake_stored_inspection_rejected",
+    "test_capacity_v2.CapacityTests.test_two_replacements_fresh_exact_inputs_and_no_rerun",
+    "test_capacity_v2.CapacityTests.test_v4_closure_explicit_injection_replay_and_finite_scope",
+    "test_consumers_v2.ConsumerTests.test_both002_missing_leave108_ordinary_reviews",
+    "test_consumers_v2.ConsumerTests.test_changed_safe_metadata_hash_rejected",
+    "test_consumers_v2.ConsumerTests.test_complete110_summary_retains_failure_without_counting_it",
+    "test_consumers_v2.ConsumerTests.test_each_replacement_must_keep_the_group_original_input",
+    "test_consumers_v2.ConsumerTests.test_export_cannot_accept_quarantined_or_wrong_attempt",
+    "test_consumers_v2.ConsumerTests.test_export_contains002_provenance_and_all_safe_recovery_metadata",
+    "test_consumers_v2.ConsumerTests.test_export_never_parses_response_prose",
+    "test_consumers_v2.ConsumerTests.test_group_export_cannot_omit_second_failure_metadata",
+    "test_consumers_v2.ConsumerTests.test_group_map_must_have_exactly_the_two_named_exceptions",
+    "test_consumers_v2.ConsumerTests.test_m13_replacement_missing_does_not_let_m12_count_twice",
+    "test_consumers_v2.ConsumerTests.test_missing002_does_not_fall_back_to001",
+    "test_consumers_v2.ConsumerTests.test_null_originality_rule_unchanged",
+    "test_consumers_v2.ConsumerTests.test_one_accepted_replacement_cannot_be_reused_for_both_jobs",
+    "test_consumers_v2.ConsumerTests.test_ordinary001_verification_is_still_strict",
+    "test_consumers_v2.ConsumerTests.test_pair_export_still_uses_ordinary001_and_actual_pair_input",
+    "test_consumers_v2.ConsumerTests.test_raw_recovery_metadata_rejected",
+    "test_consumers_v2.ConsumerTests.test_recovery_receipt_must_keep_original_input_and_new_dependencies",
+    "test_consumers_v2.ConsumerTests.test_safe_recovery_metadata_is_required_even_without_optional_evidence",
+    "test_consumers_v2.ConsumerTests.test_same_failed_and_accepted_session_rejected",
+    "test_consumers_v2.ConsumerTests.test_stale_accepted_map_cannot_certify002"
+  ],
+  "model_calls": 0,
+  "actual_research_archive_writes": 0,
+  "actual_manuscript_or_review_content_reads": 0,
+  "frozen_v1_unchanged": true,
+  "independent_read_only_audit": "One existing auxiliary reviewed new core/readiness/resolution/closure and reported no blockers; separate GitHub technical read found export contract compatible.",
+  "boundaries": [
+    "Popen and native provider calls mocked; synthetic110 placeholders only.",
+    "Actual Archive and essay_lineage APIs exercised only in disposable temporary archive.",
+    "V4 closure explicitly injected, preserves INCOMPLETE and pending whole-goal steps.",
+    "Exact local metadata receipt fields inspected for current resume/failure references; no actual Archive snapshot or review bodies read."
+  ],
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/CONSUMERS_README_RU.md",
+      "sha256": "ce120e7566f58d4963e47567744f86a863ee7c62c1900d2deeac9cdfa47dde04",
+      "bytes": 3324
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/INTERFACE_RU.md",
+      "sha256": "b411af0b09275120b9c650faecec74d6da6562b66ac333423668ecc8d2463357",
+      "bytes": 13848
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/archive_capacity_v2.py",
+      "sha256": "fa824ae064371a47b1c94655b692cf71fb0c7022e316d77b3fc0cdfef1dbdc08",
+      "bytes": 20288
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/closure_capacity_v2.py",
+      "sha256": "b69dba3f8d14f086e420ce1dfabdaa6c16ee9c17ee45182bef60907fbbd5179b",
+      "bytes": 21392
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/export_capacity_v2.py",
+      "sha256": "1d41410f710a9e6e37a94fab92dcfad33bd28054f984455d447b6d967ada5ddb",
+      "bytes": 15517
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/ready_capacity_v2.py",
+      "sha256": "6ea284b389c1ecb6dd55ef07c733ff9a600bf68e8d796bf6473ab4d106cb0374",
+      "bytes": 12291
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/resolver_v2.py",
+      "sha256": "dfa6bc030427957b98abd94dd465e151ec388d3e7736f7cb1831bf5cff52a412",
+      "bytes": 20698
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/runner_capacity_v2.py",
+      "sha256": "81a0e99211c47ed6bfe075061c69ddb3acc6888d0e815fde54ac6133c95d95e7",
+      "bytes": 15259
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/summary_capacity_v2.py",
+      "sha256": "1569d2a45de027387c620fbbe7f41da5987a4cd97db074fd9739419c5f3c5074",
+      "bytes": 16255
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/test_capacity_v2.py",
+      "sha256": "f173cf593b14741294d4b40afc00c5c93ee5456f564f2dff510631a39da4ff80",
+      "bytes": 25986
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/test_consumers_v2.py",
+      "sha256": "b29b1a16310439bc077a1dbfdf1b2518dcb941626e545159e6242ade18a84ff0",
+      "bytes": 22850
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/validate_capacity_v4.py",
+      "sha256": "5628e992e7778047a7769d16f5a30cfb7eea4f7c15a1aabbeb9e9900338a3896",
+      "bytes": 13951
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "deep-verification-20261031.v1",
+  "stages": [
+    "question",
+    "sources",
+    "contribution",
+    "critique",
+    "decision"
+  ],
+  "scope": {
+    "manuscripts": 10,
+    "argument_roles": 10,
+    "literature_roles": 10,
+    "technical_transport_smoke": 1,
+    "manuscript_changes": 0
+  },
+  "independence": "Fresh session per role; one exact anonymous manuscript plus its neutral prompt. No earlier ratings, judge profiles, histories, other manuscripts or global memory. L retrieves public primary sources. A works on the full manuscript without tools.",
+  "configuration": {
+    "model": "gpt-6-astra",
+    "effort": "ultra",
+    "service_tier": "default",
+    "auth": "existing ChatGPT subscription",
+    "maximum_parallel_workers": 3
+  },
+  "checks": [
+    "argument validity and defended premises",
+    "counterexamples and scope",
+    "all bibliography identities and materially used claims as accessible",
+    "closest primary literature and residual contribution",
+    "exact manuscript and evidence locations",
+    "explicit access limits and unresolved objections"
+  ],
+  "selection_policy": "No numerical rating. Existing accepted 60/40 selection evidence is preserved, not rerun or replaced by these verification roles. A coordinator may recommend 3+2 only after results have been canonically archived, explaining actual surviving arguments and decisive defects. The recommendation is not submission approval.",
+  "archive_policy": "Freeze inputs and exact current user authorization before launch. Preserve every attempt and safe visible output. Local completion is not canonical acceptance. Archive before any dependent synthesis. No hidden reasoning or full native envelopes are exported.",
+  "stopping": "No automatic retries, quota reset wait, or fallback to another model/tier. Preserve any failure. A technical transport repair remains separate from a scientific re-review."
+}

@@ -1,0 +1,40 @@
+{
+  "status": "COORDINATOR_REUSE_OF_ACCEPTED_SOURCE_EVIDENCE_NOT_PRIOR_REVIEW_VOTE",
+  "candidate_id": "E037",
+  "version": {
+    "variant": "preselection-20261017-v1",
+    "path": "runs/final-preselection-20261017/roles/E037/author/output/revision.md",
+    "sha256": "975a439f0a29e8c62c59c1d52cf303b6bb8639197cc186922dbecc963ca3b355",
+    "bytes": 23218,
+    "current": true,
+    "actual_title": "Sincere, Forgiven, and Still Unacceptable"
+  },
+  "prior_acceptance_event_id": "event-ee0b351eb3784959845a3ff854f21627",
+  "prior_receipt": {
+    "path": "runs/final-preselection-20261017/roles/E037/review-final/ARCHIVE_RECEIPT.json",
+    "sha256": "9dce0326f024d779415f23fecd56879ae29b7f8618ae50e6e960cca902a77494"
+  },
+  "verified_files": [
+    {
+      "path": "runs/final-preselection-20261017/roles/E037/review-final/input/manuscript.md",
+      "sha256": "975a439f0a29e8c62c59c1d52cf303b6bb8639197cc186922dbecc963ca3b355",
+      "bytes": 23218
+    },
+    {
+      "path": "runs/final-preselection-20261017/roles/E037/review-final/output/SOURCES.json",
+      "sha256": "f9dc1ecca60b546c3ed6451dceaa0629ccfb827c5e86dacec5a491e39723142c",
+      "bytes": 5780
+    },
+    {
+      "path": "runs/final-preselection-20261017/roles/E037/review-final/output/SOURCE_EXCERPTS.txt",
+      "sha256": "3b4026153f2d7f633572d9b17d1f79c8507f513cba6e4b74d04edb35885b059a",
+      "bytes": 3133
+    }
+  ],
+  "finding_ru": "Сохранённые первичные выдержки подтверждают: Халлих действительно сводит этот вид отказа по содержанию к оценке искренности. У Фабр уже различены искренность, понимание и принятие; последнее не тождественно прощению. Поэтому у E037 есть конкретная мишень, но само широкое различение не новое. Вопрос, меняется ли именно извинение при переносе ложного утверждения через границу признания, остаётся вопросом аргумента, а не устранённой ошибкой цитирования.",
+  "limits": [
+    "The accepted source excerpts and source log were reused; prior REVIEW.json and REVIEW_RU.txt were not read or counted.",
+    "No new browsing, full-text source verification or general novelty search is claimed.",
+    "Current five-review selection panel remains the only individual evaluation block for E037."
+  ]
+}

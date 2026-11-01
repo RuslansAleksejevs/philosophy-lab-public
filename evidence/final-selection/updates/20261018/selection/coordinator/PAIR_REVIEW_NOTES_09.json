@@ -1,0 +1,44 @@
+{
+  "status": "COORDINATOR_FULL_READING_OF_ACCEPTED_PAIR_REVIEWS_NO_FINAL_SELECTION",
+  "pair_id": "P09",
+  "candidates": [
+    "E074",
+    "F05"
+  ],
+  "reviews_read": [
+    "P09-N1",
+    "P09-N2",
+    "P09-N3",
+    "P09-J1",
+    "P09-J2"
+  ],
+  "evidence_event_ids": [
+    "event-61fd57a898d143c2a684771b8af91a43",
+    "event-6ad4e02087bc405ea9f03d1fb756088c",
+    "event-9221f92ca7164f1f871b88eb3216c450",
+    "event-f525d1799d8c47ffbe076821a69bca0e",
+    "event-947a0459dbb14e39b7d4adfa9f39a68b"
+  ],
+  "batch_event_id": "event-b64c611b13b0480b86d5e75409ff6b47",
+  "recorded_verdicts": {
+    "neutral": {
+      "E074": 1,
+      "tie": 2
+    },
+    "profile": {
+      "E074": 1,
+      "tie": 1
+    }
+  },
+  "profile_ids": [
+    "john_hawthorne",
+    "josh_dever"
+  ],
+  "common_findings": "N2,J1 modestly prefer E074; N1,N3,J2 tie, all medium confidence. E074 more concretely differentiates entrant, completer and current-practitioner claims and possible versus established disqualification. F05 more explicitly separates inference direction, feature, temporal target and coverage. Both conditional arguments survive; actual institutional misuse or human transition calibration is not demonstrated. Neither has established priority.",
+  "remaining_issues": {
+    "E074": "Mixed competence standards may have partial independent support while tracking assent. Need support for relevance, applicability to the person and proportionate discount, not merely any non-circular reason. The public course case concerns manageability/health/effort, not documented religious-assent filtering; historical course wording and the single account remain unverified.",
+    "F05": "No supported human transition model settles the historical case. Actual competing reports must concern the same earlier target rather than different current routines, memory or extended awareness. The toy negative-inventory countermodel is not a documented correction of an actual emptiness argument."
+  },
+  "coordinator_text_check": "The existing primary-source check and revised source synthesis preserve the course-case limits. Do not claim observed misconduct, refutation of religion, equal testimonial weights or a need for complete neutrality. F05's probability/alternative-warrant qualifications remain intact.",
+  "decision": "Two preferences and three ties support a slight E074 advantage, with most reviews tying. Neither winner nor loser is automatically selected; the real application gap must remain explicit."
+}

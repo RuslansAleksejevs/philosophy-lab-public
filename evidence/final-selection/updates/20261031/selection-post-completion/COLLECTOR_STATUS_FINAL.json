@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-19T07:53:52.671647+00:00",
+  "command_exit": 1,
+  "stderr": "",
+  "report": {
+    "loaded": true,
+    "service_healthy": false,
+    "coverage_healthy": null,
+    "healthy": false,
+    "collector": {
+      "checked_at": "2026-10-19T03:39:46.324820+00:00",
+      "interval_seconds": 10,
+      "status": "STALE",
+      "age_seconds": 15246.34,
+      "fresh": false,
+      "coverage_summary": {
+        "coverage_healthy": null,
+        "unresolved_gap_count": null,
+        "sessions_with_gaps": null,
+        "tool_schema_gap_count": null,
+        "text_or_unknown_gap_count": null,
+        "pending_tool_records": null,
+        "boundary": "Coverage unavailable: this report has no session inventory."
+      },
+      "coverage_healthy": null,
+      "attention": [
+        "Coverage unavailable: this report has no session inventory."
+      ]
+    }
+  }
+}

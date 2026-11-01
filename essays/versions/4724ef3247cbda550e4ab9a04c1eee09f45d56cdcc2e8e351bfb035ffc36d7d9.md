@@ -1,0 +1,85 @@
+# Sincere, Forgiven, and Still Unacceptable
+
+When someone refuses an apology, what are they refusing? They might doubt that the speaker means it. They might think that the speaker has no right to contact them. They might simply be unwilling to forgive. But they might also believe the apology gets the wrong itself wrong. A sincere acknowledgment can misdescribe who did what, even when the apologizer really is guilty and the recipient has already forgiven her.
+
+That last possibility creates a problem for a particular argument about apologies. Oliver Hallich argues that apologizing necessarily includes requesting forgiveness. His argument partly proceeds by eliminating rival interpretations of accepting and rejecting apologies. I shall challenge one step in that elimination: treating rejection of an apology's content as equivalent to doubting its sincerity. A case in which forgiveness remains fixed while an account of responsibility changes makes the difference visible. The result is limited. It does not prove that apologies never conventionally request forgiveness. It shows why the fact that they can be accepted and rejected does not, through this elimination argument, establish that they always do.
+
+## What the argument needs
+
+In section 2 of “Apologies—A Critical View,” Hallich defends interpreting acceptance as granting forgiveness. He considers acknowledgment of uptake, belief in sincerity, and recognition of standing as alternatives. Someone can recognize a sincere apology from an entitled speaker yet hesitate to accept it. When considering rejection on grounds of cognitive content, he assimilates the relevant judgment to a judgment of sincerity. His claim about the request is linguistic, not a claim that every apologizer privately hopes for forgiveness. These are the specific moves at issue here. [Hallich 2025, §2](https://link.springer.com/article/10.1007/s10892-025-09519-7).
+
+An adequate objection must therefore do more than describe an unusually selfless apologizer. It must explain an intelligible practice of accepting or rejecting an apology in which the response does not settle whether to forgive. It must also explain what acceptance adds to merely hearing the words and believing them sincerely meant.
+
+The needed distinction is familiar. Sincerity concerns whether a speaker means what she says: whether the regret, admission and commitment are hers rather than a performance she does not endorse. Accuracy concerns whether what she endorses correctly identifies the wrong. Neither guarantees the other. Someone can sincerely accept too much blame, too little blame, or the wrong description of blame she really deserves.
+
+The question is whether this familiar distinction can survive all the way to the recipient's response to the apology. Or does it concern only propositions within an apology, leaving acceptance of the apology itself to mean forgiveness? The following case brings that issue into focus.
+
+## An apology with the wrong distribution of responsibility
+
+Ada organizes a small conference. She is responsible for checking the invitation list and negligently leaves Bea off it. Cal, her assistant, sees the omission before the invitations go out. He knows Bea should be included, has an independent responsibility and an easy opportunity to correct the mistake, and deliberately does nothing. Bea consequently misses the conference.
+
+Ada's negligence is not diminished by Cal's conduct. Her responsibility to check the list was hers, and Cal's failure does not excuse it. Nor does Ada bear Cal's distinct responsibility simply because she made the first mistake. Two people have culpably contributed to one exclusion.
+
+Bea learns exactly what happened. She forgives Ada for her entire culpable contribution. Her decision does not rest on assuming that Ada will apologize, and she does not continue nursing resentment against Ada. Bea does not forgive Cal. Ada knows Bea has forgiven her but does not yet know that Cal saw the omission. She wrongly thinks the entire failure was hers.
+
+Ada then offers an apology. She admits her negligence, expresses real regret and commits herself to checking future invitations. In explaining what she is taking responsibility for, she says that she alone was at fault and that Cal had no opportunity to intervene. She is neither protecting Cal nor trying to manipulate Bea. She sincerely believes this account.
+
+Bea replies: “I believe you mean this. I have forgiven you. But I cannot accept this apology while it clears Cal. He saw the omission and chose to leave it. Please correct the account.”
+
+Ada examines the evidence and acknowledges the second failure. She withdraws the claim of exclusive responsibility while leaving her admission of her own negligence intact. Bea now accepts the corrected apology. Her forgiveness of Ada has not changed. She has not forgiven Cal, and Ada has not purported to apologize on Cal's behalf.
+
+The relevant change is not the discovery that an innocent person needs reassurance. Ada really did wrong. Nor is it a transition from counterfeit remorse to genuine remorse. Her regret was genuine throughout. The evidence establishes Cal's involvement; Bea's confidence alone is not being treated as a guarantee of truth. Once Ada sees that evidence, the acknowledgment becomes adequate in the respect Bea had contested.
+
+This is not an argument that forgiving always leaves a right to demand an apology intact. Suppose, if necessary, that Bea has waived that right along with other reparative claims against Ada. Ada may still offer an acknowledgment voluntarily. Waiving a claim to receive something does not require approving whatever is subsequently offered. Bea can decline an inaccurate apology without reinstating the waived claim or demanding renewed self-abasement. Her invitation to correct the account need not carry a threat to withdraw forgiveness.
+
+## Is only an embedded assertion being rejected?
+
+The strongest objection is that the case conflates two responses. Bea accepts Ada's apology, in the forgiveness sense, while rejecting an assertion about Cal. The misleading assertion happens to occur during the apology but is not part of what makes it an apology. Just as one could accept a birthday invitation while correcting the host's mistaken claim about the weather, one could accept Ada's apology while correcting her account of Cal.
+
+Bea certainly could separate the components explicitly. She could say: “I accept your apology for your negligence, but your account of Cal is false.” The possibility of that response matters. It prevents us from saying that any factual mistake automatically makes an apology as a whole unacceptable.
+
+It does not, however, make Bea's actual response unintelligible. Not every accompanying assertion is incidental in the way a remark about the weather is incidental to an invitation. Ada is explaining what she admits responsibility for in the episode to which her apology answers. Her claim that the fault is entirely hers specifies the scope of that admission and the explanation she is presenting to the person excluded. It is part of the offered acknowledgment, not an unrelated conversational addition.
+
+There is a practical difference between merely extracting a true sentence from that acknowledgment and accepting the acknowledgment offered. By accepting the corrected apology, Bea indicates that, in the contested respect, Ada has now properly answered her about the exclusion. She need not thereafter represent Ada as still denying Cal's involvement. Before the correction, such an indication would be misleading. Bea therefore has a reason to withhold acceptance of the offered acknowledgment while remaining free to recognize the value of its truthful and remorseful parts.
+
+This reason does not depend on the extravagant idea that acceptance certifies every word the speaker has uttered. The disputed content must be relevant to what the apology purports to acknowledge. Nor does it make factual perfection a requirement. A harmless mistake about the hour the invitations were sent need not matter. Clearing another responsible person in the account of why someone was excluded is different: it changes the moral description of the episode.
+
+The invitation comparison actually helps. One may accept an invitation despite an irrelevant mistake about the weather, but decline the invitation as offered when the proposed occasion has been misdescribed. Which facts are integral depends on the act's content and context. Calling every contested proposition “embedded” does not establish that rejecting it leaves acceptance of the act unaffected.
+
+Of course, “I accept your apology” is flexible. It may register forgiveness, acknowledge adequate acknowledgment, or combine several responses. This flexibility is compatible with the example. The argument being tested needs to eliminate the alternative that acceptance can concern satisfactory acknowledgment. It cannot accomplish that by assigning every counterexample to the category of mere component rejection without an independent reason for the assignment. Bea's words, the content's relevance, and the change produced by correction supply a positive reason for recognizing the alternative.
+
+## What the case shows—and what it leaves open
+
+We can now distinguish four questions: Is Ada culpable? Is she entitled to address Bea? Does she sincerely own the apology's commitments? Does her acknowledgment adequately describe the episode in the disputed respect? In the case, the first three answers remain yes. The fourth changes. Acceptance changes with it, while forgiveness remains in place.
+
+This also explains how someone can hesitate after becoming convinced of sincerity. If Bea knows Ada means what she says but has not yet checked whether Cal could have intervened, she can withhold judgment about the acknowledgment. Her hesitation need not concern forgiveness. Knowing a report is honestly offered does not finish assessing its content; the same is true when the report is integral to an apology.
+
+The point is not that content adequacy supplies a complete definition of acceptance. Bea might judge the acknowledgment adequate and still refuse renewed contact. Several conditions can govern a complex response. Showing that none of sincerity, standing or accuracy individually guarantees acceptance does not show that those conditions together have no explanatory role. In particular, it does not establish that whatever remains unexplained must be forgiveness.
+
+A defender of a directive account can concede all this and maintain that an apology conventionally asks for forgiveness as well as offering an acknowledgment. Perhaps Ada asks for a reaffirmation of forgiveness already granted. Perhaps Bea accepts that component while declining another. Nothing in the case decisively excludes either analysis. Speech can request confirmation of a settled matter, and acts can have several functions.
+
+That concession fixes the proper conclusion. The case is not a refutation of every theory that assigns apologies a forgiveness-directed force. It defeats the proposed shortcut to such a theory: first identify acceptance exclusively with forgiveness by eliminating rivals, then infer the force of apology from its availability for acceptance. A live rival remains. An additional conventional request for forgiveness would require additional support; it is not established by explaining away content assessment as a sincerity judgment.
+
+There is also no general vindication of apologies here. Even a request to assess an acknowledgment can impose an unwelcome burden. Bea may have good reason not to review evidence, reopen the episode or instruct Ada in how to apologize. The example grants her willingness to participate to isolate a conceptual issue. It creates no obligation for other victims to do likewise. Likewise, a request that really does seek forgiveness may exert precisely the pressure critics worry about.
+
+## The limited contribution
+
+The materials for this correction are already available. Nick Smith's own guidelines distinguish corroborating the factual record, accepting blame, standing, identifying harms and endorsing moral principles. They expressly address multiple perpetrators and allow identifying others' involvement without excusing oneself. The distribution of responsibility in the example is therefore no discovery of a neglected dimension of apology. [Smith 2017, criteria 1–7](https://c4ejournal.net/2017/11/16/nick-smith-guidelines-for-evaluating-apologies-and-remorse-in-criminal-contexts-summary-version-for-practitioners-2017-c4ej-9/).
+
+Cécile Fabre expressly distinguishes accepting apologies from forgiving. Cristina Roadevin argues, against an earlier version of Hallich's skepticism, that communicating disavowal and respect has a role beyond seeking forgiveness. “Risk, Calamity and Apology” discusses mistaken blameworthiness and the possibility of correction rather than acceptance. These works rule out presenting either the broad distinction or the possibility of sincere error as new. [Fabre, §4.3](https://www.cecilefabre.com/uploads/1/3/6/4/13640562/the_duty_to_accept_apologies.pdf); [Roadevin 2017, conclusion](https://pmc.ncbi.nlm.nih.gov/articles/PMC6086274/); [“Risk, Calamity and Apology,” §3.1](https://link.springer.com/article/10.1007/s10677-019-09993-7).
+
+The narrower contribution is to bring those distinctions to bear on one inferential failure. Keeping culpability, standing, sincerity and forgiveness fixed removes explanations that otherwise obscure what changes when an acknowledgment is corrected. The recipient can find the offered apology unacceptable because of how it locates responsibility, without finding its regret counterfeit or treating forgiveness as unsettled. That is enough to keep content assessment in the account of acceptance.
+
+Before we infer from a rejected apology that a victim has withheld forgiveness, we must ask what she refused to accept. Sometimes the unfinished business is not whether to forgive the person. It is whether that person's acknowledgment tells the truth about the wrong.
+
+## Bibliography
+
+Fabre, Cécile. “The Duty to Accept Apologies.” Author-hosted manuscript, especially §4.3. [Text](https://www.cecilefabre.com/uploads/1/3/6/4/13640562/the_duty_to_accept_apologies.pdf).
+
+Hallich, Oliver. 2025. “Apologies—A Critical View.” *The Journal of Ethics* 29: 699–718. [Article](https://doi.org/10.1007/s10892-025-09519-7).
+
+“Risk, Calamity and Apology.” 2019. *Ethical Theory and Moral Practice*, especially §3.1. [Article](https://doi.org/10.1007/s10677-019-09993-7).
+
+Roadevin, Cristina. 2017. “An Account of Earned Forgiveness through Apology.” *Philosophia* 45: 1785–1802. [Article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6086274/).
+
+Smith, Nick. 2017. “Guidelines for Evaluating Apologies and Remorse in Criminal Contexts: Summary Version for Practitioners.” *C4eJ* 9. [Article](https://c4ejournal.net/2017/11/16/nick-smith-guidelines-for-evaluating-apologies-and-remorse-in-criminal-contexts-summary-version-for-practitioners-2017-c4ej-9/).

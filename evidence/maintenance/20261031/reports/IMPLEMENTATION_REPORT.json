@@ -1,0 +1,92 @@
+{
+  "status": "IMPLEMENTED_AND_TESTED_NOT_LIVE_RECONCILED",
+  "changes": [
+    "Exact safe .jsonl and .jsonl.zst reading; missing .jsonl permits only same-name .zst sibling; symlink protections retained.",
+    "Offsets, source lines and hashes remain over original decompressed JSONL bytes; logical basename remains .jsonl.",
+    "Full compressed frame validation before consuming records; bounded anonymous temporary file; decompressed limit 1 GiB for collector and existing max_bytes for bounded capture.",
+    "Physical storage signature includes ctime, mtime, inode, device, length and encoding; unchanged verified sources skip decompression on subsequent polling.",
+    "Cursor prefix verified across compression, replacement and resume; compressed source mutation/replacement rejected before cursor commit.",
+    "Unreadable sessions count as unhealthy and retain known gaps/pending tool counts from last committed cursors.",
+    "Reader is included in collector version provenance and future round configuration bindings."
+  ],
+  "tests": {
+    "full_suite": {
+      "passed": 682,
+      "seconds": 34.708,
+      "note": "Before final optional source-list binding and required-helper-list additions; targeted tests below passed afterward."
+    },
+    "new_compression_and_coverage": 26,
+    "original_capture": 25,
+    "original_collector": 23,
+    "round_after_final_delta": 21,
+    "validator_after_final_delta": 2,
+    "doctor": "PASS",
+    "real_sources_read_only": [
+      {
+        "kind": "sibling_zstd",
+        "session_id": "01a07d7c-05c5-7091-a7cc-692e19ff8fca",
+        "logical_bytes": 10785687,
+        "cursor_bytes": 10785687,
+        "native_identity_matches": true,
+        "committed_prefix_matches": true
+      },
+      {
+        "kind": "direct_zstd",
+        "session_id": "01a115dd-0234-7af2-ba03-0ddebc834334",
+        "logical_bytes": 1687593,
+        "cursor_bytes": 1687593,
+        "native_identity_matches": true,
+        "committed_prefix_matches": true
+      },
+      {
+        "kind": "plain",
+        "session_id": "01a14c01-8806-75a3-a885-c1eff33105cb",
+        "logical_bytes": 47214502,
+        "cursor_bytes": 47214502,
+        "native_identity_matches": true,
+        "committed_prefix_matches": true
+      }
+    ]
+  },
+  "source_files": [
+    {
+      "path": "scripts/codex_rollout.py",
+      "sha256": "541e2506db54b1d8f332bdc14dc7eb4480f9640617ddc77acc7eab752ffdea5e"
+    },
+    {
+      "path": "scripts/capture_codex.py",
+      "sha256": "cb6ba19a8953b269d76bf7fc956d521b29738c50953c11e58f1843b2a4bbe2fb"
+    },
+    {
+      "path": "scripts/collector.py",
+      "sha256": "3f91e9359cd91a65389092847aa96a4aa9f710d63de45ce014be0a7b05bdf3d0"
+    },
+    {
+      "path": "scripts/collector_review_tools.py",
+      "sha256": "477a4ae7ef651c1d331a815557d4fb7409f8417770bfea2f9a7fe2045c3ad07c"
+    },
+    {
+      "path": "scripts/philosophy_round.py",
+      "sha256": "6085f1e101e4e309443cb20463506a0bc536753044dde3737e51fc6037c0f07a"
+    },
+    {
+      "path": "scripts/validate_lab.py",
+      "sha256": "8a789eb127b2e247b4cf89daab3872b99d4b19606ae5f30d5412a94330aa646d"
+    },
+    {
+      "path": "tests/test_codex_rollout.py",
+      "sha256": "2d641c3716016d325db1c21c2c34f587a93dcfc6baa2d3de79de946e8df38d5b"
+    }
+  ],
+  "integration": [
+    "Root owns live collector service; implementation agent did not start/reconcile it.",
+    "Run finite reconcile while collector service is stopped, inspect per-session errors and historical gaps, then start the service.",
+    "Code signature changed: first pass reprojects current safe text/metadata while reusing exact existing raw events. Subsequent unchanged polls use source_storage and avoid full decompression.",
+    "Python 3.14 stdlib compression.zstd is available here. Older Python may use local zstd CLI; absent decoders fail explicitly."
+  ],
+  "boundaries": [
+    "No research, provider calls, hidden-source publication or automatic tool-body approval.",
+    "Historical unsupported-schema gaps and unreviewed tools remain explicit; repair does not certify complete provider capture.",
+    "Full current archive integrity check and all-session live reconciliation are owned by root."
+  ]
+}

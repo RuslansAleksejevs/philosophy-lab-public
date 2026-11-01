@@ -1,0 +1,778 @@
+{
+  "selected": [
+    "E050",
+    "E012",
+    "E051"
+  ],
+  "coordinator_session_id": "01a190b5-03e2-70d0-8fcf-b4a1e67148d0",
+  "authorship": "AI coordinator index; original source descriptions and criticism retain the authorship of the identified independent reviewers.",
+  "review_target": "Frozen manuscripts, not the later coordinator plan.",
+  "reviews": [
+    {
+      "job_id": "V06-A",
+      "candidate_id": "E050",
+      "session_id": "01a1936c-2b15-7e51-9917-2fdf77e3d38c",
+      "accepted_event_id": "event-5ff6ba45c77842a6b845bad16b48f413",
+      "report": {
+        "path": "repository/evidence/deep-verification/20261031/reports/V06-A.json",
+        "sha256": "d1500c0d57081f74935712fc8239921f75d1ec6111e588cfe506f5a1feb47a9e",
+        "bytes": 21505
+      }
+    },
+    {
+      "job_id": "V06-L",
+      "candidate_id": "E050",
+      "session_id": "01a19372-929d-7cc0-a789-901705372d13",
+      "accepted_event_id": "event-e4fadd62eef24e13a878a78297d7a63f",
+      "report": {
+        "path": "repository/evidence/deep-verification/20261031/reports/V06-L.json",
+        "sha256": "ad557cdb21c28aa404f2b4107f91b82f00a58114709cb0448c17bf19fc39c4d1",
+        "bytes": 33320
+      }
+    },
+    {
+      "job_id": "V08-A",
+      "candidate_id": "E012",
+      "session_id": "01a19388-4bcd-78f0-b81f-59391bc52c0a",
+      "accepted_event_id": "event-c274f7d52cb840dd8d424b3e0c8f1d7b",
+      "report": {
+        "path": "repository/evidence/deep-verification/20261031/reports/V08-A.json",
+        "sha256": "f0a5b0338da656d5f153cdffa1011b1219b099727f3f8b7910fa6e4d74fbeb81",
+        "bytes": 27501
+      }
+    },
+    {
+      "job_id": "V08-L",
+      "candidate_id": "E012",
+      "session_id": "01a19388-4bcd-7161-9c4b-647e0f4928b2",
+      "accepted_event_id": "event-95b7ce2e6e224d849bbfbbb726294557",
+      "report": {
+        "path": "repository/evidence/deep-verification/20261031/reports/V08-L.json",
+        "sha256": "6318e1c0c5a95a5b653cb5d4491250eac0d1a888c9b4edee69ce41c1ee217fa6",
+        "bytes": 34088
+      }
+    },
+    {
+      "job_id": "W01-A",
+      "candidate_id": "E051",
+      "session_id": "01a195f2-da0f-7231-bf1f-392935372a85",
+      "accepted_event_id": "event-7ea1031337c9416491d6e269ff1fc9f2",
+      "report": {
+        "path": "runs/submission-trio-20261031/results/W01-A/attempt-001/response.json",
+        "sha256": "944e313d57f8b78f6b251f281d636966ad9506c366c7196157b6bfd5e5cc8a88",
+        "bytes": 22416
+      }
+    },
+    {
+      "job_id": "W01-L",
+      "candidate_id": "E051",
+      "session_id": "01a195f2-da0f-7930-93e5-9d383beab9b3",
+      "accepted_event_id": "event-f95e4b1fee104c778823c9ef01e4a2b6",
+      "report": {
+        "path": "runs/submission-trio-20261031/results/W01-L/revalidation-v1/response.json",
+        "sha256": "7b2fc06d6d7921b848bac4447c4959578fab6a899d4d7bc6a60403ded83d3d81",
+        "bytes": 30487
+      }
+    }
+  ],
+  "literature": [
+    {
+      "candidate_id": "E050",
+      "job_id": "V06-L",
+      "reviewer_session_id": "01a19372-929d-7cc0-a789-901705372d13",
+      "accepted_event_id": "event-e4fadd62eef24e13a878a78297d7a63f",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Weinberger, Naftali. 2023 [online 2021]. Intervening and Letting Go: On the Adequacy of Equilibrium Causal Models. Erkenntnis 88:2467–2491.",
+          "url": "https://link.springer.com/article/10.1007/s10670-021-00463-0",
+          "primary_source": true,
+          "access_level": "Publisher full text and PDF accessible; relevant sections inspected.",
+          "locations_read": "Publication metadata; §§3–5; selected §6 qualifications; especially printed pp. 2480–2482.",
+          "relevant_result": "Holding volume fixed and removing its constraint support different causal models; model adequacy must consider both actions."
+        },
+        {
+          "id": "S2",
+          "citation": "Blom, Tineke, Stephan Bongers and Joris M. Mooij. 2020. Beyond Structural Causal Models: Causal Constraints Models. PMLR 115:585–594.",
+          "url": "https://proceedings.mlr.press/v115/blom20a/blom20a.pdf",
+          "primary_source": true,
+          "access_level": "Full PDF and official proceedings metadata accessible; relevant passages inspected.",
+          "locations_read": "§1.1 null intervention; §2.2 initial-state dependence; §3.4 Theorem 2 and proof, PDF p. 7.",
+          "relevant_result": "The construction represents intervention-specific equilibrium outcomes, including the empty target, using initial conditions. It is a representation result, not recovery of one outcome map from the others."
+        },
+        {
+          "id": "S3",
+          "citation": "Dash, Denver. 2005. Restructuring Dynamic Causal Systems in Equilibrium. AISTATS, PMLR R5:81–88.",
+          "url": "https://proceedings.mlr.press/r5/dash05a/dash05a.pdf",
+          "primary_source": true,
+          "access_level": "Full PDF and official proceedings record accessible; relevant passages inspected.",
+          "locations_read": "Abstract; introduction; §§5–6, especially PDF p. 7.",
+          "relevant_result": "Manipulation and equilibration need not commute; conclusions drawn from equilibrium causal models depend on the underlying dynamical structure and observation timescale."
+        },
+        {
+          "id": "S4",
+          "citation": "Ryan, Oisín, and Fabian Dablander. 2025. Equilibrium Causal Models: Connecting Dynamical Systems Modeling and Cross-Sectional Data Analysis. Multivariate Behavioral Research. DOI:10.1080/00273171.2025.2522733.",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00273171.2025.2522733",
+          "primary_source": true,
+          "access_level": "Article inaccessible through attempted web routes; search excerpts only.",
+          "locations_read": "No article section successfully opened. §1 and Appendix A remain unverified from primary full text.",
+          "relevant_result": "No substantive result is treated as established from this inaccessible article."
+        },
+        {
+          "id": "S4M",
+          "citation": "Fabian Dablander, author-maintained publications list, 2025 entry for Ryan and Dablander.",
+          "url": "https://fabiandablander.com/menu/papers.html",
+          "primary_source": true,
+          "access_level": "Author bibliographic record accessible.",
+          "locations_read": "2025 publication entry, retrieved line 38 and linked publisher URL.",
+          "relevant_result": "Confirms the paper's title, coauthorship, year, journal and connection to the cited DOI; does not verify its argument."
+        },
+        {
+          "id": "S5",
+          "citation": "Bongers, Stephan, Tineke Blom and Joris M. Mooij. 2022 version. Causal Modeling of Dynamical Systems. arXiv:1803.08784v4.",
+          "url": "https://staff.fnwi.uva.nl/j.m.mooij/articles/1803.08784v4.pdf",
+          "primary_source": true,
+          "access_level": "Author-hosted full PDF and arXiv version record accessible.",
+          "locations_read": "§4.6, Example 4.21, equations (6)–(7), and following paragraph; PDF pp. 36–37.",
+          "relevant_result": "Diagonal rate freedom can disappear from equilibrium models; actual convergence requires separate consideration."
+        },
+        {
+          "id": "S6",
+          "citation": "Sootla, Aivar, Diego Oyarzún, David Angeli and Guy-Bart Stan. 2016. Shaping pulses to control bistable systems: Analysis, computation and counterexamples. Automatica 63:254–264.",
+          "url": "https://orbi.uliege.be/bitstream/2268/191987/1/border_final.pdf",
+          "primary_source": true,
+          "access_level": "Institutional author preprint accessible; publication identity checked against the ORBi record.",
+          "locations_read": "Introduction; §2.1; Theorem 7 and Corollary 9, preprint pp. 5–6; associated appendix proof passages.",
+          "relevant_result": "Finite-pulse switching sets admit comparison bounds, including guarantees under specified parameter uncertainty."
+        },
+        {
+          "id": "S7",
+          "citation": "Sootla, Aivar, and Damien Ernst. 2018. Pulse-Based Control Using Koopman Operator Under Parametric Uncertainty. IEEE Transactions on Automatic Control 63(3):791–796.",
+          "url": "https://arxiv.org/pdf/1708.00232",
+          "primary_source": true,
+          "access_level": "Full author preprint accessible; journal identity verified through ORBi.",
+          "locations_read": "§III assumptions A1–A5 and §III.B; Propositions 4–5; §IV Problem 2, PDF p. 5; Appendix A passages.",
+          "relevant_result": "Provides parameter-interval control guarantees and an explicit robust switching problem for a genetic toggle switch."
+        },
+        {
+          "id": "S8",
+          "citation": "Zañudo, J. G. T., and R. Albert. 2015. Cell Fate Reprogramming by Control of Intracellular Network Dynamics. PLOS Computational Biology 11(4):e1004193.",
+          "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004193",
+          "primary_source": true,
+          "access_level": "Publisher full text accessible; relevant main-text sections inspected. Supplementary proofs not inspected.",
+          "locations_read": "Citation metadata; stable-motif blocking discussion, retrieved lines 221–226; transient-control validation, lines 260–265; ODE translation, lines 293–297.",
+          "relevant_result": "Explicitly distinguishes success during permanent control from success after temporary control ends, using known Boolean-network dynamics."
+        },
+        {
+          "id": "S9",
+          "citation": "Rubenstein, Paul K., Stephan Bongers, Bernhard Schölkopf and Joris M. Mooij. 2018 version. From Deterministic ODEs to Dynamic Structural Causal Models. arXiv:1608.08028v2.",
+          "url": "https://arxiv.org/pdf/1608.08028",
+          "primary_source": true,
+          "access_level": "Full author preprint and version record accessible; selected formal passages inspected.",
+          "locations_read": "Definition 2, PDF p. 5; Theorem 1; Appendix B.1–B.2, PDF pp. 12–13; concluding discussion.",
+          "relevant_result": "An abstraction for constant interventions does not automatically cover periodic interventions. Its dynamic-stability assumption requires asymptotic independence from initial conditions, unlike V06's multistable setting. This is adjacent scope-related work, not the displayed release counterexample."
+        }
+      ],
+      "closest_predecessors": [
+        {
+          "source_id": "S5",
+          "overlap": "Substantive overlap in relative-rate changes concealed by intervened equilibrium equations.",
+          "difference": "The linear construction does not establish V06's multistable endpoint split or equality of all initial-state-sensitive clamp outcome maps.",
+          "remaining_contribution": "V06 turns hidden dynamics into a proved difference between stable release endpoints while matching its stronger evidence specification.",
+          "evidence_location": "[§4.6, Example 4.21 and convergence qualification, PDF pp. 36–37](https://staff.fnwi.uva.nl/j.m.mooij/articles/1803.08784v4.pdf#page=36)."
+        },
+        {
+          "source_id": "S6",
+          "overlap": "Substantive overlap in finite-duration control that produces a lasting switch despite parameter uncertainty.",
+          "difference": "Corollary 9 uses a compact parameter set and bounding-system assumptions; it does not analyze V06's clamp-equivalent family or opposing withdrawal orders.",
+          "remaining_contribution": "The connection between nonidentification and the particular uniform withdrawal guarantee remains.",
+          "evidence_location": "[§2.1, Theorem 7 and Corollary 9, preprint pp. 3, 5–6](https://orbi.uliege.be/bitstream/2268/191987/1/border_final.pdf#page=6)."
+        },
+        {
+          "source_id": "S7",
+          "overlap": "A successful pulse can be selected for every parameter value in a specified interval without identifying the exact parameter.",
+          "difference": "The analysis uses monotonicity and model-derived functions; it does not infer release outcomes from exhaustive constant-clamp endpoints.",
+          "remaining_contribution": "V06's all-k withdrawal-order theorem and its pairing with indistinguishable evidence are not established here.",
+          "evidence_location": "[§III.B and §IV, Problem 2, PDF pp. 3–5](https://arxiv.org/pdf/1708.00232#page=5)."
+        },
+        {
+          "source_id": "S1",
+          "overlap": "Direct conceptual overlap: removing a constraint is an action whose consequences a holding model may not represent.",
+          "difference": "The piston argument compares model adequacy and causal relationships under different constraints; it does not construct two smooth systems agreeing on V06's exhaustive evidence.",
+          "remaining_contribution": "V06 supplies a precise evidence-relative nonidentification result and a separate withdrawal-order guarantee.",
+          "evidence_location": "[§5, especially printed pp. 2480–2482](https://link.springer.com/content/pdf/10.1007/s10670-021-00463-0.pdf#page=14)."
+        },
+        {
+          "source_id": "S2",
+          "overlap": "Direct formal background for initial-condition-sensitive equilibrium outcome maps.",
+          "difference": "Theorem 2 constructs a representation using all intervention targets, including the empty target; it does not identify the omitted map from nonempty-target maps.",
+          "remaining_contribution": "V06 demonstrates this inferential gap in a concrete family. It is compatible with, rather than a counterexample to, the representation theorem.",
+          "evidence_location": "[§3.4, Theorem 2 and proof, PDF p. 7](https://proceedings.mlr.press/v115/blom20a/blom20a.pdf#page=7)."
+        },
+        {
+          "source_id": "S8",
+          "overlap": "Substantive application overlap: an intervention effective while maintained may fail after withdrawal, and temporary control can secure an enduring attractor.",
+          "difference": "The inspected analysis uses specified network dynamics and intervention tests, not two smooth systems indistinguishable under every persistent coordinate clamp.",
+          "remaining_contribution": "V06's evidence-identification claim and exact order-dependent guarantees remain separate.",
+          "evidence_location": "[Stable-motif blocking discussion and transient-intervention validation](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004193), particularly retrieved lines 221–226 and 260–265."
+        }
+      ],
+      "citation_audit": [
+        {
+          "manuscript_reference": "Blom, Bongers and Mooij 2020, §§2.2–3.4; bibliography entry.",
+          "manuscript_location": "The question and its scope: “incorporates equilibrium outcome maps for every intervention target, including the empty target.”",
+          "status": "verified",
+          "evidence": "Theorem 2's proof constructs a constraint for every target subset; §1.1 explicitly identifies the null intervention. The [official record](https://proceedings.mlr.press/v115/blom20a.html) and [volume record](https://proceedings.mlr.press/v115/) confirm authors, title, PMLR 115, publication in 2020 and the 2019 conference. The manuscript correctly separates representation from inference.",
+          "source_ids": [
+            "S2"
+          ]
+        },
+        {
+          "manuscript_reference": "Dash 2005, §6; bibliography entry.",
+          "manuscript_location": "The question and its scope: “manipulation and equilibration supplies a related reason to attend to temporal information.”",
+          "status": "verified",
+          "evidence": "[§6, PDF p. 7](https://proceedings.mlr.press/r5/dash05a/dash05a.pdf#page=7) explicitly connects equilibration/manipulation problems to observation timescale. The [official proceedings record](https://proceedings.mlr.press/r5/dash05a.html) confirms the bibliographic identity. The manuscript does not misattribute its stronger release theorem to Dash.",
+          "source_ids": [
+            "S3"
+          ]
+        },
+        {
+          "manuscript_reference": "Ryan and Dablander 2025, §1 and Appendix A; bibliography entry.",
+          "manuscript_location": "The question and its scope: “distinguish a change at a particular time from a sustained intervention”; explicit excerpt-access qualification.",
+          "status": "partially_verified",
+          "evidence": "The [author's publication entry](https://fabiandablander.com/menu/papers.html) confirms the bibliographic identity and links to the cited DOI. The substantive definition and precise section attribution could not be checked in an opened article. Publisher search excerpts are consistent with the description but are insufficient for verification under this audit's standard.",
+          "source_ids": [
+            "S4",
+            "S4M"
+          ]
+        },
+        {
+          "manuscript_reference": "Weinberger 2023 [online 2021], §5; bibliography entry.",
+          "manuscript_location": "The question and its scope: “removing a constraint as an action against which a model’s adequacy can be assessed.”",
+          "status": "verified",
+          "evidence": "[§5](https://link.springer.com/content/pdf/10.1007/s10670-021-00463-0.pdf#page=14) directly discusses inserting and removing the piston pin and the corresponding adequacy issue. Publisher metadata confirms the title, author, online date of 11 October 2021, and 2023 volume 88, pages 2467–2491. The manuscript's attribution is appropriately narrow.",
+          "source_ids": [
+            "S1"
+          ]
+        }
+      ],
+      "limitations": [
+        "The complete supplied manuscript and bibliography were read. External sources were examined at the locations recorded below; opening a PDF is not represented as reading every page.",
+        "This was a finite public-web search across causal equilibrium models, dynamical identification, pulse control, and temporary network control. It does not establish an exhaustive priority result.",
+        "Ryan and Dablander's article was not readable through the available web routes. Search excerpts were used to locate evidence, not to establish its argument.",
+        "The sequential Boolean-control paper at the CMSB20 URL repeatedly timed out. Its search description was not used to establish substantive overlap.",
+        "This is a literature and citation audit, not an independent numerical or comprehensive formal-proof certification. The manuscript's displayed construction is self-contained and makes no claim that its equations or estimates are quoted from a predecessor."
+      ],
+      "novelty_status": "DISTINCT_REMAINDER_WITH_LIMITED_SEARCH",
+      "source_text_policy": "These arrays are copied unchanged from the accepted review; they are not new coordinator research."
+    },
+    {
+      "candidate_id": "E012",
+      "job_id": "V08-L",
+      "reviewer_session_id": "01a19388-4bcd-7161-9c4b-647e0f4928b2",
+      "accepted_event_id": "event-95b7ce2e6e224d849bbfbbb726294557",
+      "sources": [
+        {
+          "id": "S01",
+          "citation": "Porat, Ariel, and Alex Stein. 1997. “Liability for Uncertainty: Making Evidential Damage Actionable.” Cardozo Law Review 18: 1891 ff.",
+          "url": "https://larc.cardozo.yu.edu/clr/vol18/iss6/3/",
+          "primary_source": true,
+          "access_level": "Primary repository abstract and bibliographic record; linked full text blocked.",
+          "locations_read": "Entire abstract, particularly its corrective-justice explanation and final two paragraphs on remedies; recommended citation.",
+          "relevant_result": "Supports liability for wrongful evidential deprivation, monetary redress, and reallocation of the persuasion burden."
+        },
+        {
+          "id": "S02",
+          "citation": "Friedman, Richard D. 1997. “Dealing with Evidentiary Deficiency.” Cardozo Law Review 18: 1961–1986.",
+          "url": "https://repository.law.umich.edu/facarticles/167/",
+          "primary_source": true,
+          "access_level": "Primary repository introductory passage and metadata; full-text downloads blocked at Michigan and Cardozo.",
+          "locations_read": "Repository introduction, including paragraphs on varied doctrinal tools and intrinsic versus extrinsic remedies; recommended citation.",
+          "relevant_result": "Supports context-dependent remedies and resistance to making a separate evidential-damage tort the universal response."
+        },
+        {
+          "id": "S03",
+          "citation": "Nance, Dale A. 2010. “Adverse Inferences about Adverse Inferences.” Boston University Law Review 90: 1089–1146.",
+          "url": "https://www.bu.edu/law/journals-archive/bulr/documents/nance.pdf",
+          "primary_source": true,
+          "access_level": "Complete public PDF available; relevant passages inspected.",
+          "locations_read": "Title page; pp. 1103–1104, 1109–1115; concluding passage on p. 1146.",
+          "relevant_result": "Directly supports separating evidence management from merits and making sanctions explicit."
+        },
+        {
+          "id": "S04",
+          "citation": "Flowerree, A. K. 2026. “Epistemic Reparations as Social Epistemic Achievement.” Philosophical Studies 183: 839–856; online 21 November 2025.",
+          "url": "https://link.springer.com/article/10.1007/s11098-025-02452-3",
+          "primary_source": true,
+          "access_level": "Open publisher full text.",
+          "locations_read": "Abstract; introduction; §§2–3, especially uptake, common knowledge, reparative response, and the hostile-audience example; publication record.",
+          "relevant_result": "Accurate telling alone need not achieve repair; successful repair depends on reception and response."
+        },
+        {
+          "id": "S05",
+          "citation": "Altanian, Melanie. 2024. “Rethinking the Right to Know and the Case for Restorative Epistemic Reparation.” Journal of Social Philosophy 55(4): 728–745; online 12 September 2022.",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/josp.12492",
+          "primary_source": true,
+          "access_level": "Open publisher full text.",
+          "locations_read": "Introduction; §4, particularly paragraphs on revising practices and recognizing victims as contributors; publication and issue metadata.",
+          "relevant_result": "Restoration concerns epistemic participation and standing, not information delivery alone."
+        },
+        {
+          "id": "S06",
+          "citation": "Nissenbaum, Helen. 2019. “Contextual Integrity Up and Down the Data Food Chain.” Theoretical Inquiries in Law 20.1: 221–256.",
+          "url": "https://nissenbaum.tech.cornell.edu/papers/Contextual%20Integrity%20Up%20and%20Down.pdf",
+          "primary_source": true,
+          "access_level": "Public PDF on the author’s institutional site.",
+          "locations_read": "Title and abstract; pp. 224–226; conclusion, pp. 255–256.",
+          "relevant_result": "Supports context-sensitive informational norms and scrutiny of transformations between data and inferred attributes."
+        },
+        {
+          "id": "S07",
+          "citation": "Ross, Lewis. 2023. “Criminal Proof: Fixed or Flexible?” The Philosophical Quarterly 73(4): 1077–1099.",
+          "url": "https://eprints.lse.ac.uk/120199/1/Criminal_proof.pdf",
+          "primary_source": true,
+          "access_level": "Published-version PDF in an institutional repository.",
+          "locations_read": "Repository cover and article title page; §IV, especially pp. 1085–1087 on belief, public inquiry, and verdicts.",
+          "relevant_result": "Supports the manuscript’s attribution of an inquiry-closing, belief-supporting function to criminal conviction."
+        },
+        {
+          "id": "S08",
+          "citation": "Ross, Lewis. 2026. “When can citizens doubt criminal conviction?” Law and Philosophy. Published 12 August 2026.",
+          "url": "https://link.springer.com/article/10.1007/s10982-026-09582-7",
+          "primary_source": true,
+          "access_level": "Open publisher full text.",
+          "locations_read": "Introduction; “Believing in Conviction”; “Conviction as Institutional Testimony”; publication record.",
+          "relevant_result": "Conviction supplies defeasible testimonial evidence; special knowledge can defeat its force."
+        },
+        {
+          "id": "S09",
+          "citation": "Gardner, John. 2011. “What is Tort Law For? Part 1. The Place of Corrective Justice.” Law and Philosophy 30: 1–50.",
+          "url": "https://johngardnerathome.info/pdfs/corrective.pdf",
+          "primary_source": true,
+          "access_level": "Public author eprint; publication details independently checked at the publisher.",
+          "locations_read": "Eprint cover; typescript p. 40 and pp. 44–50. These are eprint page numbers, not journal pagination.",
+          "relevant_result": "Supplies a general foundation for purpose-sensitive substitute duties after breach."
+        },
+        {
+          "id": "S10",
+          "citation": "Federal Rules of Civil Procedure, Rule 37, with Advisory Committee Notes, especially the 2015 amendment.",
+          "url": "https://www.law.cornell.edu/rules/frcp/rule_37",
+          "primary_source": true,
+          "access_level": "Public reproduction of rule text and official committee notes.",
+          "locations_read": "Rule 37(b)(2) and (e); 2006 discussion of substitutes; 2015 discussion of restoration, expense allocation, proportionality, prejudice, and adverse presumptions.",
+          "relevant_result": "Replacement measures and remedial expense allocation are established, with limits tied to prejudice and the relevant preservation duty."
+        },
+        {
+          "id": "S11",
+          "citation": "Lambrecht, Felix. 2026. “Epistemic Reparations and a Hybrid Theory of Reparative Justice.” Philosophical Studies 183: 857–877; online 18 December 2025.",
+          "url": "https://link.springer.com/article/10.1007/s11098-025-02441-6",
+          "primary_source": true,
+          "access_level": "Open publisher full text.",
+          "locations_read": "Abstract; §§2–3; §§5.2–5.4; §§6–7; bibliographic metadata.",
+          "relevant_result": "Distinguishes restoring an epistemic good from compensating additional harms and develops an account addressing both."
+        },
+        {
+          "id": "S12",
+          "citation": "Hull, George. 2022. “Epistemic Redress.” Synthese 200, article 201.",
+          "url": "https://link.springer.com/article/10.1007/s11229-022-03613-1",
+          "primary_source": true,
+          "access_level": "Publisher abstract, metadata, and exposed notes; article body subscription-restricted.",
+          "locations_read": "Abstract and opening notes only.",
+          "relevant_result": "Identifies non-doxastic epistemic redress as relevant adjacent territory. The full argument was not available for a novelty comparison."
+        },
+        {
+          "id": "S13",
+          "citation": "American Philosophical Association public record for Jennifer Lackey’s 2022 address, “Epistemic Reparations and the Right to Be Known.”",
+          "url": "https://blog.apaonline.org/2026/04/28/2022-central-division-presidential-address-epistemic-reparations-and-the-right-to-be-known/?amp=1",
+          "primary_source": true,
+          "access_level": "Primary event/publication record only; linked article retrieval unsuccessful.",
+          "locations_read": "Address identification and links to the APA text and JSTOR.",
+          "relevant_result": "Confirms the source lead and retrieval routes, but does not establish the address’s argument."
+        },
+        {
+          "id": "S14",
+          "citation": "Gaston v. Hazeltine, No. 3:21-cv-00896, Document 77, N.D. Indiana, 24 January 2023.",
+          "url": "https://law.justia.com/cases/federal/district-courts/indiana/inndce/3:2021cv00896/109304/77/",
+          "primary_source": true,
+          "access_level": "Public reproduction of the judicial opinion.",
+          "locations_read": "Discussion of negligent spoliation and the alternative-proof/double-recovery analysis, document pp. 20–21.",
+          "relevant_result": "Led to Thompson’s original discussion of substitution costs; also cautions against overlapping recovery. No general survey of current law was inferred."
+        },
+        {
+          "id": "S15",
+          "citation": "Thompson ex rel. Thompson v. Owensby, 704 N.E.2d 134, 140 (Indiana Court of Appeals 1998).",
+          "url": "https://caselaw.findlaw.com/court/in-court-of-appeals/1375916.html",
+          "primary_source": true,
+          "access_level": "Public reproduction of the judicial opinion.",
+          "locations_read": "Facts; majority §§II–III; notes 1, 6–7; concurrence and its scope limitations.",
+          "relevant_result": "Recognizes a viable preservation-duty claim and identifies costs of obtaining alternative proof as a possible damages basis."
+        }
+      ],
+      "closest_predecessors": [
+        {
+          "source_id": "S03",
+          "overlap": "Nance already separates evidence management, merits determination, and explicit sanctions; he considers effects in later malpractice litigation.",
+          "difference": "His inspected discussion addresses adjudicative roles and sanctions, rather than support against a later administrative misdescription.",
+          "remaining_contribution": "The continuing assistance duty and the two-variant causal comparison remain beyond this discussion.",
+          "evidence_location": "Manuscript §§2 and 5, “procedural force” and “disguising evidence management as fact-finding”; Nance pp. 1103–1104, 1110–1114."
+        },
+        {
+          "source_id": "S09",
+          "overlap": "Gardner supplies the general rationale for substitute performance serving an original duty’s purpose.",
+          "difference": "The inspected argument does not develop this manuscript’s institutional-record problem.",
+          "remaining_contribution": "Its specific epistemic application remains.",
+          "evidence_location": "Manuscript §3, “the original reason for repair can remain”; Gardner eprint pp. 40, 46–50."
+        },
+        {
+          "source_id": "S15",
+          "overlap": "The opinion directly recognizes alternative-proof expenses as a possible response to lost evidence.",
+          "difference": "It concerns proving underlying litigation, not challenging a distorted account after an accurately recorded remedy.",
+          "remaining_contribution": "The later forum, different corrective route, and obligation to preserve a non-finding remain additional features.",
+          "evidence_location": "Manuscript §3, “the replacement concerns the decision record rather than the underlying damage”; Thompson §III and note 7."
+        },
+        {
+          "source_id": "S10",
+          "overlap": "Rule 37’s notes connect proportionate substitution and expense allocation to evidential prejudice.",
+          "difference": "They regulate litigation and electronic-information loss, not the broader moral duty proposed here.",
+          "remaining_contribution": "Extending the reasoning to later administrative contestation requires the manuscript’s continuing-undertaking premise.",
+          "evidence_location": "Manuscript §3, “Closing a payment proceeding does not end the promised access”; Rule 37(e) and 2015 Committee Note."
+        },
+        {
+          "source_id": "S04",
+          "overlap": "Flowerree explains why an offered communication can fail as repair because of audience reception.",
+          "difference": "Her account concerns successful knowledge-producing repair; the manuscript’s duty supports a fair opportunity without guaranteeing belief.",
+          "remaining_contribution": "A bounded assistance duty grounded in the custodian’s particular impairment remains distinct.",
+          "evidence_location": "Manuscript §6, “support a fair opportunity”; Flowerree §3, especially uptake, response, and the hostile-audience example."
+        },
+        {
+          "source_id": "S05",
+          "overlap": "Altanian makes victims’ standing as epistemic contributors part of repair.",
+          "difference": "Her argument concerns genocide, denialism, and unjust epistemic practices, rather than a limited preservation undertaking.",
+          "remaining_contribution": "The manuscript specifies an individual duty and an expense-sensitive causal boundary.",
+          "evidence_location": "Manuscript §4, “Helping her speak in her own right”; Altanian §4, paragraphs on epistemic contribution and relational equality."
+        },
+        {
+          "source_id": "S11",
+          "overlap": "Lambrecht explains why restoring one epistemic good need not exhaust reparation.",
+          "difference": "His remainder cases include harms after restoration or where restoration is impossible. Mara’s relevant defensive capacity is still impaired; her payment addressed another loss.",
+          "remaining_contribution": "The manuscript isolates a continuing capacity-based obligation rather than a general theory of epistemic remainders.",
+          "evidence_location": "Manuscript §3, “Payment for the first loss does not necessarily restore the second”; Lambrecht §§3 and 6–7."
+        }
+      ],
+      "citation_audit": [
+        {
+          "manuscript_reference": "Porat and Stein 1997",
+          "manuscript_location": "Section 2, “The contribution and its antecedents”: “liability for wrongfully worsened uncertainty, including compensation and changes to the burden of persuasion.”",
+          "status": "partially_verified",
+          "evidence": "Identity, year, journal, and starting page match. The [repository abstract](https://larc.cardozo.yu.edu/clr/vol18/iss6/3/) expressly supports both attributed remedies. The manuscript accurately identifies its cited evidence as an abstract. The linked full article was inaccessible, preventing a complete scope comparison.",
+          "source_ids": [
+            "S01"
+          ]
+        },
+        {
+          "manuscript_reference": "Friedman 1997",
+          "manuscript_location": "Section 2, “The contribution and its antecedents”: “remedies adapted to different circumstances.”",
+          "status": "partially_verified",
+          "evidence": "The [Michigan record](https://repository.law.umich.edu/facarticles/167/) verifies the identity and complete page range. Its introductory passage supports varied doctrinal responses and distinguishes intrinsic and extrinsic remedies. The manuscript appropriately cites that passage. The full-text downloads were blocked.",
+          "source_ids": [
+            "S02"
+          ]
+        },
+        {
+          "manuscript_reference": "Nance 2010",
+          "manuscript_location": "Sections 2 and 5: “concealing a remedy”; “facts be taken as fixed within litigation.”",
+          "status": "verified",
+          "evidence": "The [article](https://www.bu.edu/law/journals-archive/bulr/documents/nance.pdf) supports the cited distinctions: role separation at pp. 1103–1104, preclusion at p. 1110, malpractice consequences at p. 1112, and criticism of masking evidence-management remedies at pp. 1113–1114. The manuscript presents the broader downstream duty as its own extension.",
+          "source_ids": [
+            "S03"
+          ]
+        },
+        {
+          "manuscript_reference": "Flowerree 2026",
+          "manuscript_location": "Section 2, “The contribution and its antecedents”: “audience uptake and an appropriate reparative response.”",
+          "status": "verified",
+          "evidence": "The [publisher text](https://link.springer.com/article/10.1007/s11098-025-02452-3) verifies the title, volume, pages, 2026 issue year, and 2025 online publication. Sections 2–3 support the attribution. Flowerree treats uptake and response as necessary conditions of success, not a guarantee owed in every individual case.",
+          "source_ids": [
+            "S04"
+          ]
+        },
+        {
+          "manuscript_reference": "Altanian 2024",
+          "manuscript_location": "Section 2, “The contribution and its antecedents”: “recognize victims as contributors, beyond providing them with knowledge.”",
+          "status": "verified",
+          "evidence": "The [publisher article](https://onlinelibrary.wiley.com/doi/10.1111/josp.12492) confirms all supplied bibliographic details, including first online publication in 2022. Section 4 explicitly supports the attribution concerning unjust practices and victims’ epistemic contributions.",
+          "source_ids": [
+            "S05"
+          ]
+        },
+        {
+          "manuscript_reference": "Nissenbaum 2019",
+          "manuscript_location": "Section 4, “What assistance should preserve”: “context and transformations of data as significant for informational norms.”",
+          "status": "verified",
+          "evidence": "The [author-hosted PDF](https://nissenbaum.tech.cornell.edu/papers/Contextual%20Integrity%20Up%20and%20Down.pdf) confirms the reference. Pages 225–226 explain appropriate contextual flows; pp. 255–256 address transformed data, transparency, and accountability. This supports the limited attribution, without independently establishing the manuscript’s reparative debt.",
+          "source_ids": [
+            "S06"
+          ]
+        },
+        {
+          "manuscript_reference": "Ross 2023",
+          "manuscript_location": "Section 5, “Binding a question without proving its answer”: convictions should “support rational belief in guilt” and provide grounds for ending ordinary inquiry.",
+          "status": "verified",
+          "evidence": "The [published LSE copy](https://eprints.lse.ac.uk/120199/1/Criminal_proof.pdf) confirms the citation. Section IV, especially pp. 1086–1087, supports both claims. The manuscript appropriately restricts this account to criminal conviction rather than all institutional outcomes.",
+          "source_ids": [
+            "S07"
+          ]
+        },
+        {
+          "manuscript_reference": "Ross 2026",
+          "manuscript_location": "Section 5, “Binding a question without proving its answer”: “defeasible institutional testimony.”",
+          "status": "verified",
+          "evidence": "The [publisher version](https://link.springer.com/article/10.1007/s10982-026-09582-7) verifies the singular title, DOI, journal, and 12 August 2026 publication date. “Conviction as Institutional Testimony” explicitly supports the attribution and allows overriding knowledge or defeaters.",
+          "source_ids": [
+            "S08"
+          ]
+        },
+        {
+          "manuscript_reference": "Uncited numerical illustration and stipulated procedures",
+          "manuscript_location": "Section 6, “Evidence, privacy, and limits of repair”: “eighty-five percent”; Section 3: “stipulated features of a hypothetical procedure.”",
+          "status": "verified",
+          "evidence": "The mixture arithmetic is correct: 0.90 × 0.90 + 0.10 × 0.40 = 0.85. Conditioning on the remedial category gives the stipulated 0.40. The no-additional-confirmation statement is valid under its explicit assumption that the recipient knows the relevant grounds and a rule fully determining the outcome. No external theorem is attributed. The procedures and frequencies are expressly hypothetical and do not require empirical corroboration.",
+          "source_ids": []
+        },
+        {
+          "manuscript_reference": "Quotation and formal-source check",
+          "manuscript_location": "Section 4, “What assistance should preserve”: “This award compensates for the loss of relevant evidence”; opening example: “successful claims” and “unsuccessful claims.”",
+          "status": "verified",
+          "evidence": "These are proposed wording and hypothetical labels, not quotations attributed to external publications. The manuscript contains no externally attributed displayed theorem or equation requiring an additional formal-source check. No demonstrable quotation error was found in the accessible cited material.",
+          "source_ids": []
+        }
+      ],
+      "limitations": [
+        "The complete supplied manuscript, including its bibliography, was read. Its supplied hash was used only as an identifier and was not recomputed.",
+        "Research used public web search and public source openings only. No manuscript identity, project history, other manuscript, private material, or author contact was sought.",
+        "This was a finite English-language search as of 31 October 2026. No manuscript completion date was supplied, so publication chronology does not establish priority over the manuscript’s composition.",
+        "Porat and Stein’s repository abstract and Friedman’s repository introductory passage were accessible, but their linked full texts returned HTTP 403. Their narrow cited attributions are supported; their complete arguments and possible closer overlaps remain unchecked.",
+        "Full source availability does not mean every page was read. The source inventory identifies the passages actually inspected.",
+        "Hull’s publisher page provided an abstract and notes, not the full argument. Attempts to retrieve Lackey’s 2022 address through PhilArchive and the APA failed; JSTOR returned no usable text. Neither was treated as a fully read predecessor.",
+        "Matsunaga’s article on reparations bureaucracy and Lisle-Mainwaring on continuing reputational mitigation appeared as relevant search leads, but their opened pages were blocked. Their snippets were not used to establish findings.",
+        "The legal materials were used as historical and conceptual comparators. A comprehensive check of their current precedential treatment, or of every jurisdiction’s law, was not undertaken."
+      ],
+      "novelty_status": "DISTINCT_REMAINDER_WITH_LIMITED_SEARCH",
+      "source_text_policy": "These arrays are copied unchanged from the accepted review; they are not new coordinator research."
+    },
+    {
+      "candidate_id": "E051",
+      "job_id": "W01-L",
+      "reviewer_session_id": "01a195f2-da0f-7930-93e5-9d383beab9b3",
+      "accepted_event_id": "event-f95e4b1fee104c778823c9ef01e4a2b6",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Nourbakhshi, Hamid. 2023. “The Role of Imagination and Recollection in the Method of Phenomenal Contrast.” Theoria 89(5): 710–733.",
+          "url": "https://www.researchgate.net/publication/373946133_The_role_of_imagination_and_recollection_in_the_method_of_phenomenal_contrast",
+          "primary_source": true,
+          "access_level": "Uploaded article text accessible; publisher metadata also opened.",
+          "locations_read": "§2; relevant passages in §§4 and 6; §§7–9, manuscript pp. 19–21.",
+          "relevant_result": "Direct target; supports the manuscript’s distinction between strong and weaker readings."
+        },
+        {
+          "id": "S2",
+          "citation": "Chudnoff, Elijah. 2015. “Phenomenal Contrast Arguments for Cognitive Phenomenology.” Philosophy and Phenomenological Research 91(1): 82–104.",
+          "url": "https://philarchive.org/archive/CHUPCA-4",
+          "primary_source": true,
+          "access_level": "Author manuscript accessible through alternate archive; publisher metadata accessible.",
+          "locations_read": "Introduction and §1, especially manuscript pp. 8–12; definitions on pp. 9–11.",
+          "relevant_result": "The three distinctions attributed by W01 are explicitly present."
+        },
+        {
+          "id": "S3",
+          "citation": "Fulkerson, Matthew, and Jonathan Cohen. 2025. “A New Obstacle for Phenomenal Contrast.” The Philosophical Quarterly. DOI: 10.1093/pq/pqaf009.",
+          "url": "https://escholarship.org/content/qt9zc6d603/qt9zc6d603.pdf",
+          "primary_source": true,
+          "access_level": "Institutional manuscript accessible, including publication cover sheet.",
+          "locations_read": "§§1–3; §4 discussion of access and phenomenality; manuscript p. 8 n. 15 and continuation on p. 9.",
+          "relevant_result": "Supports the cited distinction between accessible psychological contrast and phenomenal contrast, and the downstream-source caution."
+        },
+        {
+          "id": "S4",
+          "citation": "Koksvik, Ole. 2015. “Phenomenal Contrast: A Critique.” American Philosophical Quarterly 52(4): 321–334.",
+          "url": "https://koksvik.net/files/koksvik_phenomenal_contrast.pdf",
+          "primary_source": true,
+          "access_level": "Published PDF on author’s website.",
+          "locations_read": "§4, pp. 325–326; §5.2, p. 327; §6.2, p. 329; n. 8, p. 333.",
+          "relevant_result": "Earlier memory-based objection concerning unnoticed or forgotten alternative contributors."
+        },
+        {
+          "id": "S5",
+          "citation": "Fürst, Martina. 2017. “On the Limits of the Method of Phenomenal Contrast.” Journal of the American Philosophical Association 3(2): 168–188.",
+          "url": "https://martinafuerst.weebly.com/uploads/1/2/1/2/121241504/on_the_limits_of_the_method_of_phenomenal_contrast__penulatimate_version.pdf",
+          "primary_source": true,
+          "access_level": "Author’s penultimate manuscript accessible.",
+          "locations_read": "Introduction; §§1–2.2, especially manuscript pp. 7–12; §3 opening; concluding methodological discussion.",
+          "relevant_result": "Earlier treatment of expectations and attentional focus affecting phenomenal-contrast judgments."
+        },
+        {
+          "id": "S6",
+          "citation": "O’Brien, Gerard, and Jon Opie. “Notes Toward a Structuralist Theory of Mental Representation.” Institutional draft dated September 2000; chapter published in 2004.",
+          "url": "https://www.adelaide.edu.au/directory/jonathan.opie?dsn=directory.file%3Bfield%3Ddata%3Bid%3D8834%3Bm%3Dview",
+          "primary_source": true,
+          "access_level": "Institutional draft accessible; comparison uses that version.",
+          "locations_read": "§3, draft pp. 6–9; structural-resemblance discussion, pp. 10–12.",
+          "relevant_result": "General structural representation without shared first-order properties predates W01."
+        },
+        {
+          "id": "S7",
+          "citation": "Carnap, Rudolf. 1928/1967. The Logical Structure of the World. Translated by Rolf A. George.",
+          "url": "https://www.phil.cmu.edu/projects/carnap/editorial/latex_pdf/1928-1e%20part1.pdf",
+          "primary_source": true,
+          "access_level": "Institutionally hosted translation in two accessible PDFs.",
+          "locations_read": "§§67–69 and 71, pp. 107–116; §75; §§78 and 108–110 in [part 2](https://www.phil.cmu.edu/projects/carnap/editorial/latex_pdf/1928-1e%20part2.pdf), pp. 127–128 and 178–180.",
+          "relevant_result": "Historical connection between unanalyzed experiential wholes, relational classification, and remembered comparison."
+        },
+        {
+          "id": "S8",
+          "citation": "Andonovski, Nikola. 2022. “Episodic Representation: A Mental Models Account.” Frontiers in Psychology 13: 899371.",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.899371/full",
+          "primary_source": true,
+          "access_level": "Full publisher text.",
+          "locations_read": "“Mental models as structural representations”; “Episodic representation”; “What the thesis is not”; “Modeling and surrogative reasoning.”",
+          "relevant_result": "Closest uncited memory-specific comparator located."
+        },
+        {
+          "id": "S9",
+          "citation": "Swoyer, Chris. 1991. “Structural Representation and Surrogative Reasoning.” Synthese 87(3): 449–508.",
+          "url": "https://link.springer.com/article/10.1007/BF00499820",
+          "primary_source": true,
+          "access_level": "Publisher abstract, metadata, and references only; full article unavailable.",
+          "locations_read": "Abstract and publication record; no body sections.",
+          "relevant_result": "The abstract identifies representation-based reasoning as its topic. Exact formal overlap remains unverified."
+        },
+        {
+          "id": "S10",
+          "citation": "Loftus, Elizabeth F., and John C. Palmer. 1974. “Reconstruction of Automobile Destruction: An Example of the Interaction Between Language and Memory.” Journal of Verbal Learning and Verbal Behavior 13: 585–589.",
+          "url": "https://gwern.net/doc/psychology/cognitive-bias/1974-loftus.pdf",
+          "primary_source": true,
+          "access_level": "Complete original article reproduced in an accessible PDF.",
+          "locations_read": "Experiments I–II and Discussion, pp. 586–588.",
+          "relevant_result": "Question wording affected subsequent reports; the experiment does not measure the manuscript’s phenomenal-type relation."
+        }
+      ],
+      "closest_predecessors": [
+        {
+          "source_id": "S1",
+          "overlap": "Already considers relevant similarity despite systematic phenomenal differences and distinguishes comparison routes.",
+          "difference": "Its response develops a subtraction proposal; W01 instead stipulates a relation between whole types.",
+          "remaining_contribution": "The lossy whole-type countermodel and its explicitly limited evidential consequences.",
+          "evidence_location": "W01, “The objection and its surviving force”: “that response is already considered”; [Nourbakhshi, §§2 and 7–9](https://www.researchgate.net/publication/373946133_The_role_of_imagination_and_recollection_in_the_method_of_phenomenal_contrast)."
+        },
+        {
+          "source_id": "S8",
+          "overlap": "Simplified episodic models support inference without reproducing every represented detail.",
+          "difference": "The account concerns event-model content and explicitly distinguishes it from memory-experience content; it supplies no whole-phenomenal-type equality condition.",
+          "remaining_contribution": "W01’s specific conditional and holism-compatible application.",
+          "evidence_location": "W01, “Why holism does not close this route”: “whole phenomenal types”; [Andonovski, “Mental models as structural representations,” “What the thesis is not,” first qualification, and “Modeling and surrogative reasoning”](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.899371/full)."
+        },
+        {
+          "source_id": "S6",
+          "overlap": "Relational preservation can support representation without shared first-order properties; useful correspondence need not be complete isomorphism.",
+          "difference": "This is a general theory of mental representation, not the specified recollective contrast inference.",
+          "remaining_contribution": "Application to the full-reflection objection, with separate error directions and independent-warrant requirements.",
+          "evidence_location": "W01, “Why holism does not close this route”: “structural preservation”; [O’Brien and Opie, §3, draft pp. 7–9](https://www.adelaide.edu.au/directory/jonathan.opie?dsn=directory.file%3Bfield%3Ddata%3Bid%3D8834%3Bm%3Dview)."
+        },
+        {
+          "source_id": "S7",
+          "overlap": "Experiential wholes can enter informative relations without first being decomposed into independently given components.",
+          "difference": "Carnap constructs qualities through quasi-analysis and recollected similarity; these passages do not establish W01’s lossy transformation or directional reliability claims.",
+          "remaining_contribution": "A different, narrowly inferential application; historical resemblance does not demonstrate duplication.",
+          "evidence_location": "W01, “Why holism does not close this route”: “a partition ... is not thereby a part”; [Carnap, §§67–71](https://www.phil.cmu.edu/projects/carnap/editorial/latex_pdf/1928-1e%20part1.pdf) and [§78](https://www.phil.cmu.edu/projects/carnap/editorial/latex_pdf/1928-1e%20part2.pdf)."
+        },
+        {
+          "source_id": "S4",
+          "overlap": "Remembered contrasts can leave unnoticed or forgotten contributors uncontrolled.",
+          "difference": "Koksvik challenges establishing minimal pairs and identifying contributors, rather than proving that every transformed recollection is uninformative.",
+          "remaining_contribution": "W01 can establish conditional original inequality while leaving this objection intact.",
+          "evidence_location": "W01, “Three objections to the limited result”: “locating it and explaining it remain further steps”; [Koksvik, §5.2, p. 327, and §6.2, p. 329](https://koksvik.net/files/koksvik_phenomenal_contrast.pdf)."
+        },
+        {
+          "source_id": "S5",
+          "overlap": "Prior expectations and focus can influence whether a subject reports or recognizes the proposed phenomenology.",
+          "difference": "Fürst analyzes performances of contrast tasks and their dialectical effectiveness, not a deterministic mapping between original and recollective types.",
+          "remaining_contribution": "The conditional model survives; excluding such influences remains an independent burden.",
+          "evidence_location": "W01, “The assumption real memories must earn”: “associated beliefs, expectations, and attention”; [Fürst, §§2.1–2.2, manuscript pp. 8–12](https://martinafuerst.weebly.com/uploads/1/2/1/2/121241504/on_the_limits_of_the_method_of_phenomenal_contrast__penulatimate_version.pdf)."
+        }
+      ],
+      "citation_audit": [
+        {
+          "manuscript_reference": "Nourbakhshi 2023: bibliographic identity and attributed argument.",
+          "manuscript_location": "Bibliography; “The objection and its surviving force”: “a strong requirement of full phenomenal reflection”; “Three objections to the limited result”: “weaker rival-explanation conclusion.”",
+          "status": "verified",
+          "evidence": "The [publisher record](https://onlinelibrary.wiley.com/doi/10.1111/theo.12489) matches. §7 requires phenomenal identity; §8 discusses systematic differences, subtraction, holism, and introspective limitations; §9 offers distortion as a possible explanation. Both readings attributed by W01 are supported.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        {
+          "manuscript_reference": "Chudnoff 2015: bibliographic identity and distinction among theses.",
+          "manuscript_location": "Bibliography; “Three objections to the limited result”: “phenomenal presence, irreducibility, and independence.”",
+          "status": "verified",
+          "evidence": "The [publisher record](https://onlinelibrary.wiley.com/doi/10.1111/phpr.12177) confirms author, title, year, volume, issue, pages, and DOI. The [accessible manuscript](https://philarchive.org/archive/CHUPCA-4), §1, pp. 9–12, defines the three theses and explains their differing strength. W01’s limited use is supported.",
+          "source_ids": [
+            "S2"
+          ]
+        },
+        {
+          "manuscript_reference": "Fulkerson and Cohen 2025: bibliographic identity and methodological objection.",
+          "manuscript_location": "Bibliography; “Three objections to the limited result”: “access to a psychological contrast does not establish its phenomenal status”; “downstream changes also complicate identifying the target difference.”",
+          "status": "verified",
+          "evidence": "The [institutional PDF](https://escholarship.org/content/qt9zc6d603/qt9zc6d603.pdf) cover confirms identity, journal, date, and DOI. §§2–4 support the access/phenomenality distinction. Manuscript p. 8 n. 15 specifically discusses downstream changes and their possible misidentification. The bibliography’s abbreviated publication details do not misidentify the work.",
+          "source_ids": [
+            "S3"
+          ]
+        },
+        {
+          "manuscript_reference": "Uncited formal claims concerning functionality, injectivity, and noise.",
+          "manuscript_location": "“What a comparison must preserve”: P(e1)=P(e2) implies R(e1)=R(e2); “Two directions of error”: “Only the observed output needs a single possible input type”; “The assumption real memories must earn”: “Two draws from one distribution can differ.”",
+          "status": "verified",
+          "evidence": "These claims follow from the stated definitions and examples; no external theorem is attributed. The four-to-two table verifies information loss without manufactured differences. The singleton-preimage qualification correctly limits what a particular match establishes. Equal output distributions do not force equal individual draws. The explicit disclaimer of mathematical novelty is appropriate.",
+          "source_ids": []
+        },
+        {
+          "manuscript_reference": "Uncited empirical background and illustrative memory cases.",
+          "manuscript_location": "Opening: “Remembering a painful afternoon need not hurt”; “What a comparison must preserve”: “retrieved under a leading cue”; “Two directions of error”: “A vivid reconstruction could incorporate information acquired later”; “The assumption real memories must earn”: R(e)=G(P(e),z(e)).",
+          "status": "partially_verified",
+          "evidence": "[Loftus and Palmer](https://gwern.net/doc/psychology/cognitive-bias/1974-loftus.pdf), Experiments I–II and Discussion, support the limited claim that later wording can affect reports. They distinguish response bias from memory alteration and do not establish phenomenal-type equality or vividness effects. No opened experiment directly checked the pain, sunset, tree, or complete z-factor examples. These are presented principally as possibilities, so the incomplete empirical check establishes no false claim.",
+          "source_ids": [
+            "S10"
+          ]
+        },
+        {
+          "manuscript_reference": "Quotation and attribution handling across the manuscript.",
+          "manuscript_location": "“The objection and its surviving force” and “Three objections to the limited result,” where the three named works are paraphrased.",
+          "status": "verified",
+          "evidence": "The manuscript contains no substantial verbatim quotation presented as originating in these works. Its material named attributions were checked at the locations above. The displayed preservation condition and finite models are the manuscript’s own formulations, not quotations from the bibliography.",
+          "source_ids": [
+            "S1",
+            "S2",
+            "S3"
+          ]
+        }
+      ],
+      "limitations": [
+        "This was a finite public-web audit, principally of English-language philosophical literature. It cannot establish exhaustive originality or exclude relevant material in inaccessible books, unindexed publications, or other languages.",
+        "The supplied manuscript, including its complete bibliography, was read. No other project manuscripts, author-identification material, previous reviews, private records, or global memory were sought. No agents, shell/file/MCP tools, manuscript modifications, submissions, or publication actions were used.",
+        "Several publisher and repository routes failed. Relevant passages in all three cited works were ultimately checked through accessible primary texts, with bibliographic identity checked separately. Author manuscripts were not collated word for word against every final published version.",
+        "Swoyer 1991 was accessible only as publisher metadata, abstract, and references. Its detailed definitions and proofs were not read and are not treated as established overlap.",
+        "The empirical check was limited. It did not establish the manuscript’s extensional condition for any real memory procedure, nor independently test every listed influence on recollection. The pain, sunset, and tree cases remain illustrations rather than verified experimental results.",
+        "PDF page references below identify manuscript or translated-book pagination where specified; they should not be silently substituted for final journal pagination."
+      ],
+      "novelty_status": "DISTINCT_REMAINDER_WITH_LIMITED_SEARCH",
+      "source_text_policy": "These arrays are copied unchanged from the accepted review; they are not new coordinator research."
+    }
+  ],
+  "access_boundary": "Primary passages opened by the literature reviewers support only their stated comparisons; the coordinator did not independently repeat their searches. No whole-literature novelty certification.",
+  "rules_sources": {
+    "path": "runs/submission-trio-20261031/RULES_CHECK.json",
+    "sha256": "14ddfe5e903a04ae83042c6785830e0d6a5235fa2f96efa77bca6b027595fcc7",
+    "bytes": 808
+  }
+}

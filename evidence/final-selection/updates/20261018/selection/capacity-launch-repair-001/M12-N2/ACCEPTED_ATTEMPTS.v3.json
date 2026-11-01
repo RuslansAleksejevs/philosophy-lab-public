@@ -1,0 +1,111 @@
+{
+  "schema": "selection-accepted-attempts.v3",
+  "logical_job_id": "M12-N2",
+  "input_event_id": "event-3a08660ab4024183b9acf41dc1fb7907",
+  "ready_event_id": "event-2bdaf0713e544748b88747fa4a0d3cd4",
+  "failed_attempt": {
+    "path": "runs/final-selection-20261018/results/M12-N2/attempt-001",
+    "event_id": "event-b3519057c6a24486bca718c999d0a20e",
+    "session_id": "01a151e7-0c2c-75d3-a38e-17d3fb853a78",
+    "files": [
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-001/launch.json",
+        "sha256": "078119341580653da8dd5becaba6376956f055f2a4894ed2fa2534e84fdc647d",
+        "bytes": 1587
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-001/failure.json",
+        "sha256": "96242a665b965e1083ad95125f9b0b10af3988d77cc686870e61a80fa50406dd",
+        "bytes": 2072
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-001/stderr.json",
+        "sha256": "0e09f022f8923c4dcb14257c19251a6817691c667e1cc47be186fd27c113c312",
+        "bytes": 38
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-001/visible-events.jsonl",
+        "sha256": "6992bd0fe67928f70ebbfe4f674f20ea8b347ca1eabcb55e8fbfc7bc9c20200b",
+        "bytes": 198
+      }
+    ]
+  },
+  "accepted_attempt": {
+    "number": 3,
+    "path": "runs/final-selection-20261018/results/M12-N2/attempt-003",
+    "session_id": "01a152b7-f2cd-77d1-aeda-2eb2ce54bbcb",
+    "event_id": "event-b2bb6b9a773143adaa305b58dd34b07d",
+    "files": [
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/final.txt",
+        "sha256": "c89c8548567f7283d15c866b75ae0cef4320945d614a6d21410741b31d274e6f",
+        "bytes": 8389
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/launch.json",
+        "sha256": "24d362e385cb688597deeda24a7165ada731851371362d7b6b66d71e6e715e6c",
+        "bytes": 1905
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/native-check.json",
+        "sha256": "18e7ef6196915f390a8b268fc3fed0272662849ffcdf9f38adde605ae704b711",
+        "bytes": 1258
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/native-visible.json",
+        "sha256": "5223c91b271b8be69a4b47df095cc82bed4f2a422564a3af610403c89723ab66",
+        "bytes": 45903
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/receipt.json",
+        "sha256": "60a32652baf72e4f06bf775c92c346f33c488c94acf3a3167ff4ea0e6422fee1",
+        "bytes": 3603
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/response.json",
+        "sha256": "3e43a6cabb69fc20a55a0c2c408480dfa2bcf80c4837f6f3463f0c1e0a51bca6",
+        "bytes": 8390
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/stderr.json",
+        "sha256": "76e47807e78aaa9e4d3211acdcc3bf95b4d6e8964cf5144afd143d62ba224972",
+        "bytes": 36
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-003/visible-events.jsonl",
+        "sha256": "6992dc0f4ecb550c890890e06f99f6d909da3a45bd869d6d2e2f92e304fd355d",
+        "bytes": 8901
+      }
+    ]
+  },
+  "local_launch_failure": {
+    "event_id": "event-7efc0413ca594658a8c8f068b0b0d891",
+    "files": [
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/failure.json",
+        "sha256": "26e5bfbf74faddab1a4b9b71ebf642865fba09d0b1227f0d881472735295e566",
+        "bytes": 2152
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/launch.json",
+        "sha256": "b5789b5624653fb4054a87b2929fe8736ee9b4f703e4032c599c27ea84e98bdd",
+        "bytes": 1757
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/stderr.json",
+        "sha256": "869f0405b651712fc588a08c068ceb8bbebbdd58eed349b112e6abc104ea6eeb",
+        "bytes": 255
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/visible-events.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    ],
+    "inspection": {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/local-launch-evidence/FAILURE_INSPECTION.json",
+      "sha256": "5a10b34c4de10941abb1131295e42f52d52c9802116cfc743052a8c149ab0e8f",
+      "bytes": 6265
+    }
+  }
+}

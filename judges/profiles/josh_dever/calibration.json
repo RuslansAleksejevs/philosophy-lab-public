@@ -1,0 +1,37 @@
+{
+  "judge_id": "josh_dever",
+  "status": "BOUNDED_SAME_AGENT_TEST",
+  "reason": "Predictions saved before first review body access. Old /news URL failed; /reviews URL succeeded.",
+  "historical": {
+    "status": "NOT_TESTED",
+    "source": "research/judges/20260912/profiles/josh_dever-v1.md"
+  },
+  "limits": [
+    "No independent calibration",
+    "Possible pretraining exposure",
+    "No contest-vote validation"
+  ],
+  "predictions_file": "predictions-before-reading.json",
+  "predictions_sha256": "0d5808fe0cdf1c2ef8f9cec36064f16806e1b690693e2fb4bdeb30ed1adf1e26",
+  "target": "https://ndpr.nd.edu/reviews/understanding-i-language-and-thought/",
+  "results": [
+    {
+      "id": "P1",
+      "outcome": "PARTIAL",
+      "evidence": "Lines 80–96 distinguish granting essential indexicality from providing an adequate special-content account; predicted distinction broadly fits but is not the opening central criticism."
+    },
+    {
+      "id": "P2",
+      "outcome": "MATCH",
+      "evidence": "Lines 57–79 isolate scope and necessity assumptions and examine repair; lines 80–81 demand an explicit account."
+    },
+    {
+      "id": "P3",
+      "outcome": "MATCH",
+      "evidence": "Lines 81 and 102 credit explicit construction and ambition while rejecting the thesis."
+    }
+  ],
+  "misses": "No outright miss among these three broad predictions; P1 only partial. Breadth makes this a weak discriminating test.",
+  "unpredicted": "Specific normal-conditions repair and torture parallel counterexample were not predicted.",
+  "individual_attribution": "Coauthored with Herman Cappelen; cannot isolate Dever."
+}

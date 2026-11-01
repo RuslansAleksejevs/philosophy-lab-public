@@ -1,0 +1,667 @@
+{
+  "schema": "repository-git-history-audit.v1",
+  "status": "PASS",
+  "checked_at": "2026-10-31T19:07:40.410556+00:00",
+  "base_commit": "6f3748923631d43945a9ea03909e56b867a5ef0c",
+  "local_preparation_branch": "local-preparation-20261013",
+  "local_preparation_commit": "5f5356fe4f0e6a448a3fb781a397fb7e726968ab",
+  "relationship": "Separate local preparation root; no merge-base with main",
+  "finding": "All 131 preparation file blobs are already reachable from the existing main history. No missing content was inferred from the unmerged branch label, and neither branch was rewritten.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "git_blob_sha1": "de573ab616c344dd51c5e3d5cd1c1bb3a480691d",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": ".gitignore",
+      "git_blob_sha1": "6b52708b617a2dff2c8a8cdfd970225398af39fa",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "PUBLICATION.md",
+      "git_blob_sha1": "564f5fba88d5d7272a4ca7b6c7ecc481c6820d0d",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha1": "803d82e9623b4ff05e2544de08bad32ccfcc87e6",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "ROADMAP.md",
+      "git_blob_sha1": "0cc6c0aa2e3bd5bc23e84739c5d9c75bc5943587",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "docs/bridge.md",
+      "git_blob_sha1": "df4294d7deaa5ba559b4c96b7e76fa6bd629a438",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "docs/coverage.json",
+      "git_blob_sha1": "07802ffde9e238c6efce23fd1dc565f1cefaa27c",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "docs/decisions.md",
+      "git_blob_sha1": "71e8684bc964c95c7ad6100abc55e01461ef20d1",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "docs/evaluation.md",
+      "git_blob_sha1": "2e6673fc38898438e8e8d84abfb9a2a2c9e93fd8",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "docs/generation.md",
+      "git_blob_sha1": "e596f082066d961ddd1a85abddd9feb732f96bda",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "docs/judges.md",
+      "git_blob_sha1": "e496793cba0bc66724366d1e95daa9efc696e51c",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "docs/provenance.md",
+      "git_blob_sha1": "54f73356e8f25d8c3d00995e16d2b057402e5ffb",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "essays/README.md",
+      "git_blob_sha1": "5d21a3363a11f46bf73aeea805093ed4355205b4",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/README.md",
+      "git_blob_sha1": "ce90a20135fb9a356bdcb4630aadba5bb155bd27",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/manifest.json",
+      "git_blob_sha1": "8009c4dc21f6c409e42b228dea7ced2ce17e4798",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/midterm/FINAL_DECISION_RU.txt",
+      "git_blob_sha1": "d4042bc6ff4229dd69a4d8f66a25b3bddc558abb",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/midterm/FINAL_RECEIPT.json",
+      "git_blob_sha1": "e7b56efc8312223d93f35d12f2267e2a314d63f6",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/README.md",
+      "git_blob_sha1": "598cfee5a8b2f491136a7df53efca8c60419e469",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/RECEIPT.json",
+      "git_blob_sha1": "67dfc196eeedc6299e8990dc7904968211e8d0bf",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/REPORT_RU.txt",
+      "git_blob_sha1": "1d4096d5db6b47c84f5f8ad5f92f45f4649d08bf",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/bridge-history.txt",
+      "git_blob_sha1": "6e42550baf1a0e23a6a313d8448a657c6191a138",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/bridge-sources.json",
+      "git_blob_sha1": "d5e56e0840a8e4a300e080c29726f1ed1938c656",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/collector-status-observed.json",
+      "git_blob_sha1": "315ba518b4207bad806538a7c38808721e8a19c8",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/current-request-locations.json",
+      "git_blob_sha1": "cc39ac1ed0114f49ef0d47aea0e775ea8e8a0717",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/dispatch-prefixes.json",
+      "git_blob_sha1": "604ebe77b77a29d0d76719847a4d18d7619e69db",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/generation-history.txt",
+      "git_blob_sha1": "46d4d578d61a6348a64cced9418e46ee2a3185ac",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/generation-sources.json",
+      "git_blob_sha1": "9c9c1d207249cbeddfc6817283ef9b46d96919c7",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/governance-archive.txt",
+      "git_blob_sha1": "b7fc03bbd142fc2b3878fbd91ce51304fadcbdfc",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/initial-main-sessions.json",
+      "git_blob_sha1": "998845e102737fb558e38c4c6fa01721a1f8af6f",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/judges-midterm.txt",
+      "git_blob_sha1": "6f8e0f0e0d039744c44ddd54d0d1865efb2ce56a",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/judges-sources.json",
+      "git_blob_sha1": "d1e3d5f7656cb5b2d0e83f23c62431793e4a6b5e",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/request-capture-receipt.json",
+      "git_blob_sha1": "d6f1352c83f3f956c72e46e859e2d534f5fb2520",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/retrospective-check.txt",
+      "git_blob_sha1": "4fd2b7a49d5c603ba60771b46525bcf02878b38b",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/scan_saved_logs.py",
+      "git_blob_sha1": "8837d5416733d3f61701c7a01a2121ca339570db",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/visible-log-files.json",
+      "git_blob_sha1": "a8d4de371af0a42d0294cb9c740b1303e97ee766",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/visible-log-scan.json",
+      "git_blob_sha1": "b327b572d5afc9107221144557fba50d51a1d9ec",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "evidence/retrospective/visible-message-index.jsonl",
+      "git_blob_sha1": "a993af46a12a6363fbeec83f78fd3fd2ba117cf0",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/README.md",
+      "git_blob_sha1": "58e9712fe00a8c032fbb4bde61a32c50a6246c53",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/bernhard_salow/calibration.json",
+      "git_blob_sha1": "61576c9ae7f8bddf7527a1b6e54ea4fa285a3429",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/bernhard_salow/profile-v1.md",
+      "git_blob_sha1": "e4cd2343c78f5e09d19f52a45c01ee1286b8cec0",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/bernhard_salow/reading-log.json",
+      "git_blob_sha1": "df7da5f4fba25e59259971850c83881ec26f9d23",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/bernhard_salow/source-index.json",
+      "git_blob_sha1": "76e5674dbe81f906ef70296a686da2d39e43b8ef",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/branden_fitelson/calibration.json",
+      "git_blob_sha1": "559945c569a29b1a3ad28711ca0f28368f5fb985",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/branden_fitelson/profile-v1.md",
+      "git_blob_sha1": "44a65b2f7a0f414f564602a9cf114effff5c70b4",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/branden_fitelson/reading-log.json",
+      "git_blob_sha1": "ede065511340bdb8bfb5baacead46add83904a02",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/branden_fitelson/source-index.json",
+      "git_blob_sha1": "f25a10541b9eb183f4a465941df7d725ee88ec18",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/christian_tarsney/calibration.json",
+      "git_blob_sha1": "9a3530b7a0be9e7e431b0b83bf25952b87167866",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/christian_tarsney/profile-v1.md",
+      "git_blob_sha1": "dec7035dddfb5d7e199157d5781a855eb9e978b0",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/christian_tarsney/reading-log.json",
+      "git_blob_sha1": "aa4f419d10f1e85a56e3a8b28cce662ccc908abb",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/christian_tarsney/source-index.json",
+      "git_blob_sha1": "72a9fe90150faf9b6d53e155a876a911097600d5",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/cian_dorr/calibration.json",
+      "git_blob_sha1": "388e8e849a633477b2d03df6d49939fe6814bd3c",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/cian_dorr/profile-v1.md",
+      "git_blob_sha1": "c41eaab243b99c104bd7624fb7e0d4f7464dfc34",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/cian_dorr/reading-log.json",
+      "git_blob_sha1": "7bc6bc0ece2b0b7d5fa95b01083953f47ae04d69",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/cian_dorr/source-index.json",
+      "git_blob_sha1": "80ed2c83c633879558c132a9a71f29b1bb8ec0d1",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/daniel_greco/calibration.json",
+      "git_blob_sha1": "6a0b17aefeca124c0ae956f0dd06a183665e6bea",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/daniel_greco/profile-v1.md",
+      "git_blob_sha1": "38a97e26bd1019bf1470823e22b77d74df591223",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/daniel_greco/reading-log.json",
+      "git_blob_sha1": "478d0199d395cf04fa363d4d3c0f835005876397",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/daniel_greco/source-index.json",
+      "git_blob_sha1": "1414b6a312482d36599d7ab42bbf37c568ad8e28",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/david_chalmers/calibration.json",
+      "git_blob_sha1": "ae6074795211b2fa19de53a5dfb06cd3e94e51ca",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/david_chalmers/profile-v1.md",
+      "git_blob_sha1": "f1d539973027127eafa117049a69651c1d0bac86",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/david_chalmers/reading-log.json",
+      "git_blob_sha1": "53b563960d255184ea6fa6216cec3f37c5cfa1fa",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/david_chalmers/source-index.json",
+      "git_blob_sha1": "90100358a05048b129c23d86c66f6b9b82120cca",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/henry_shevlin/calibration.json",
+      "git_blob_sha1": "4c501cbcf39d762b0259a0c4251769785e818c78",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/henry_shevlin/profile-v1.md",
+      "git_blob_sha1": "102ba079de49a15e8b5be5e5613ce5fa2099e5e3",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/henry_shevlin/reading-log.json",
+      "git_blob_sha1": "b2aba6c299883e5ceebb9a7e002a6f6f3b195b88",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/henry_shevlin/source-index.json",
+      "git_blob_sha1": "b49b0a96ee7808d1b3dc74bc937cf9d2985127ea",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/herman_cappelen/calibration.json",
+      "git_blob_sha1": "5413fc60f20bc7a534bd706c9dc8318f0c42fa4c",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/herman_cappelen/profile-v1.md",
+      "git_blob_sha1": "bd95e61474be2722346356fef9f9f27dcc5cd56c",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/herman_cappelen/reading-log.json",
+      "git_blob_sha1": "f7978d10bbbfb7615aca0620acf5274b2392a744",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/herman_cappelen/source-index.json",
+      "git_blob_sha1": "21b17dc43ae0a86f449265214c4feb8c36086c28",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/hilary_greaves/calibration.json",
+      "git_blob_sha1": "45749f09ad8b6033c175f6fc1c2ecb109e6c7300",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/hilary_greaves/profile-v1.md",
+      "git_blob_sha1": "cebe1b71271d3ba69bad73444595060d1b940744",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/hilary_greaves/reading-log.json",
+      "git_blob_sha1": "a93df6507b9a67739945348b2c36f36628f6ff96",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/hilary_greaves/source-index.json",
+      "git_blob_sha1": "849fdc6cc29e880c18038278f45b69dda251f0ee",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/jake_nebel/calibration.json",
+      "git_blob_sha1": "7726f6952aca99b80fd970fb69fce3962b38a5e6",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/jake_nebel/profile-v1.md",
+      "git_blob_sha1": "24d75e6664b8438ae0c07b5299e034418a6f7988",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/jake_nebel/reading-log.json",
+      "git_blob_sha1": "1a59bb9453ba9dbd1d7fa09818a2e838754e0046",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/jake_nebel/source-index.json",
+      "git_blob_sha1": "3b101a53e48726d469bb7aedb4df06f6d2c1d53c",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/jens_jaeger/calibration.json",
+      "git_blob_sha1": "19ac80b0d1ec4b0527f1b783c4b887eededd2705",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/jens_jaeger/profile-v1.md",
+      "git_blob_sha1": "e765d012ef0935af989cd33af382af8f59d86689",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/jens_jaeger/reading-log.json",
+      "git_blob_sha1": "1146bfd9e71bda866d985d04efb32d2c824c46ca",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/jens_jaeger/source-index.json",
+      "git_blob_sha1": "4a6dff555b5cda177c4f0c234c23ac62bb1c96b5",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/john_hawthorne/calibration.json",
+      "git_blob_sha1": "263474db70082fa8c9a3ac7c703d77f673fc831d",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/john_hawthorne/profile-v1.md",
+      "git_blob_sha1": "eb2aa8be5a2b6af27a6aed8c2fe596a03c5790fd",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/john_hawthorne/reading-log.json",
+      "git_blob_sha1": "d75aa8ec7353352056866cef6554f02fc50b759e",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/john_hawthorne/source-index.json",
+      "git_blob_sha1": "765a90b0ad1243484e67583e014620c32dec864a",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/jonathan_weisberg/calibration.json",
+      "git_blob_sha1": "45a2bb48eaf0fbb706c639520ecc691b93e0d9ee",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/jonathan_weisberg/profile-v1.md",
+      "git_blob_sha1": "f7bb471204dc8ec639ab92f8d783922ae4dc1760",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/jonathan_weisberg/reading-log.json",
+      "git_blob_sha1": "eeab8136c0130c4dd9706e24e3666c55d99cbc6e",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/jonathan_weisberg/source-index.json",
+      "git_blob_sha1": "431442c06365bd623840d19d90e87fa547c7e276",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/josh_dever/calibration.json",
+      "git_blob_sha1": "24bfb0397eef0b7cb5bd6ebc630fa7725f43602f",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/josh_dever/profile-v1.md",
+      "git_blob_sha1": "2ae0de7f0520ec4d237f9cdb34f2618e9a3e4046",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/josh_dever/reading-log.json",
+      "git_blob_sha1": "94e0ea726cb8413931bc4ae50bc302093094180b",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/josh_dever/source-index.json",
+      "git_blob_sha1": "39d068f3355f8b3d4aec6fb8617daac71bff3bed",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/kacper_kowalczyk/calibration.json",
+      "git_blob_sha1": "047f5e21bc594c397ae655f46f21137e75d2a889",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/kacper_kowalczyk/profile-v1.md",
+      "git_blob_sha1": "e7435d4d5c1506dcf6c512f02ed542ec45a74405",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/kacper_kowalczyk/reading-log.json",
+      "git_blob_sha1": "bba0abe9cd02cb1e9be70eb6c81ee82f55fc589d",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/kacper_kowalczyk/source-index.json",
+      "git_blob_sha1": "d4586806b167ca090e7fc7f6fdfb72552b3a7c9e",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/karina_vold/calibration.json",
+      "git_blob_sha1": "5bc0f5c81c03d2fa126ef8ecb00020db95da0a2a",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/karina_vold/profile-v1.md",
+      "git_blob_sha1": "408a4558cf2e3b223a58aec4ef2c2c57010b6a59",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/karina_vold/reading-log.json",
+      "git_blob_sha1": "8e71574922b4acd72e84b64f32446587566ab4fc",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/karina_vold/source-index.json",
+      "git_blob_sha1": "b695310f96cfb05a0fe23f023b1ad6d56e9f4d79",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/kenny_easwaran/calibration.json",
+      "git_blob_sha1": "5e5526f7bf7d5fcac3f64e9f6800c961ace433bd",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/kenny_easwaran/profile-v1.md",
+      "git_blob_sha1": "c83a60a5cad0e8e4d1a876ee2ab0ba5b30c7c31a",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/kenny_easwaran/reading-log.json",
+      "git_blob_sha1": "3e47dea9a357af7a78a9ab5e7a3882d1fa4c262c",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/kenny_easwaran/source-index.json",
+      "git_blob_sha1": "b2af335268730358a21787852b4f543d39c088f9",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/mario_gunther/calibration.json",
+      "git_blob_sha1": "4bbdffd34d6c953fe189c0eb8a5a3f7dd5e64304",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/mario_gunther/profile-v1.md",
+      "git_blob_sha1": "91c5e88cb55f4cb0046489b574214e1989097d0c",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/mario_gunther/reading-log.json",
+      "git_blob_sha1": "04538b1e14bda46f0752f32f6f70324a583f90b6",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/mario_gunther/source-index.json",
+      "git_blob_sha1": "98a8f3d37585c5d5c4725325ef4e5e6df8f364c2",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/matthew_mandelkern/calibration.json",
+      "git_blob_sha1": "68902850148dc69366ce1ee272d1432747ede908",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/matthew_mandelkern/profile-v1.md",
+      "git_blob_sha1": "891bf8c213199619243db1428a4d3f3bf0c166fa",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/matthew_mandelkern/reading-log.json",
+      "git_blob_sha1": "6c0886aee3425449e79f20d5632abe0ab978719a",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/matthew_mandelkern/source-index.json",
+      "git_blob_sha1": "57a0977284e9e99b79e3656309282bb53fac6826",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/pamela_robinson/calibration.json",
+      "git_blob_sha1": "d728735ab60fefece223472552dbe212b8a5704e",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/pamela_robinson/profile-v1.md",
+      "git_blob_sha1": "1deac5cf07036cdf139b62589b6e829bbb6a4ba6",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/pamela_robinson/reading-log.json",
+      "git_blob_sha1": "fe59606104ff049a5fb78cf1fff6abbad16b4238",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/pamela_robinson/source-index.json",
+      "git_blob_sha1": "ae5223be00d4ae64252483fa5ee66f7e42392e04",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/rachel_sterken/calibration.json",
+      "git_blob_sha1": "92e60a16dff9f9458eeb799b99f1879afff4dee9",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/rachel_sterken/profile-v1.md",
+      "git_blob_sha1": "a6e2122a90853b63b0751fd45af8e4304de308da",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/rachel_sterken/reading-log.json",
+      "git_blob_sha1": "5dade354102900e7f501b9aa9bad30f48db1840e",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/rachel_sterken/source-index.json",
+      "git_blob_sha1": "513f204b409bb9acb165e695f56c2d50429b2fd8",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/raphael_milliere/calibration.json",
+      "git_blob_sha1": "296eb7535fd545f3947af1e241edefc147aac66b",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/raphael_milliere/profile-v1.md",
+      "git_blob_sha1": "92224d9de730a1e2fa44785ef3cf640cd30e6850",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/raphael_milliere/reading-log.json",
+      "git_blob_sha1": "91cab7c94385fc526d3b6d76105d73282716e022",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/raphael_milliere/source-index.json",
+      "git_blob_sha1": "3de21d6f19e8ace9b309b0ec8109f58ad7551b25",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/simon_goldstein/calibration.json",
+      "git_blob_sha1": "dbd591484a462962de895a18ec73402079d90b60",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/simon_goldstein/profile-v1.md",
+      "git_blob_sha1": "6e21497ec20dc4db74434fa6c946890c28185661",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/simon_goldstein/reading-log.json",
+      "git_blob_sha1": "e8b2cd662fba943d33c693889096244fa439f9e5",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "judges/profiles/simon_goldstein/source-index.json",
+      "git_blob_sha1": "73ef0d5876bd57ed8a4587e94f9d0ea04d1d7ba8",
+      "reachable_from_base_history": true
+    },
+    {
+      "path": "logs/README.md",
+      "git_blob_sha1": "005f93612d576da9be7e79de11e59ae98840d455",
+      "reachable_from_base_history": true
+    }
+  ]
+}

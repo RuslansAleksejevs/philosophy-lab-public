@@ -1,0 +1,1988 @@
+{
+  "entity": "hundred-20260925/expedition-03",
+  "entries": [
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e27a-8f77-7932-99b8-5e1761d716fa"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/campaign.json",
+          "role": "input",
+          "sha256": "649f4d66c1d9a8f6142ab346a6d2631abfcac64e8cbe70d5fd656bcce0a2cff8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/rules.txt",
+          "role": "input",
+          "sha256": "5e4d8819b15a4e770dda9790b4cfb8edcc745059c6934245f184ad35d8c3e3bb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/faq.txt",
+          "role": "input",
+          "sha256": "a6727c4e2ab076117aa6f72f0871de6f83a02715620f762367483759b2b1cc7c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RECHECK_20260927_RU.md",
+          "role": "input",
+          "sha256": "74d7e995a87e686da2a25036d562ec0ca60b0bf48a65fd0c16649acc6ae58182"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/TASK.md",
+          "role": "input",
+          "sha256": "7eab2160059a651ea84e1ef3ef4a73e64b8d45fa2b9a8b6d65f1bc56927217a5"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/task.json",
+          "role": "input",
+          "sha256": "0143b9d223095721db8fa44aec9c5295ef0feb79e7ae9cbc1f64ce80b3e4badb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/init-template.json",
+          "role": "input",
+          "sha256": "e4b20f89ea69616f55bf0ccc6db01925e16e0603b1445fafd651d62105fd6b8c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/DISPATCH_BINDING_RU.md",
+          "role": "input",
+          "sha256": "284edc511b02e784fb28757d3e7ce5e571b791ff5dbfcd6228faf079572bb66f"
+        },
+        {
+          "path": "methods/hundred-six-v1.json",
+          "role": "input",
+          "sha256": "fd7ba19e9848473d547e666996f8d8271d7bc6d17ace7e6c8649f22947f172cb"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        }
+      ],
+      "configuration": {
+        "observed": "UNKNOWN",
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/expedition-03",
+      "event_id": "event-3bac8b56a514436794301cd27408b2c6",
+      "evidence": [
+        "event-eecdc817d0314bc08f8fb52f5e9c324a",
+        "event-a932083da6f545f88679510fe3498acc"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred-origin:68ea3dbd20086ffda9e4b76ea54a0165",
+      "kind": "origin",
+      "occurred_at": "UNKNOWN",
+      "parents": [],
+      "recorded_at": "2026-09-27T10:52:59.815944+00:00",
+      "summary": "Exact authorized neutral workflow inputs",
+      "workflow": {
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-expedition-03"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e27a-8f77-7932-99b8-5e1761d716fa"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/TASK.md",
+          "role": "input",
+          "sha256": "7eab2160059a651ea84e1ef3ef4a73e64b8d45fa2b9a8b6d65f1bc56927217a5"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/DISPATCH_BINDING_RU.md",
+          "role": "input",
+          "sha256": "284edc511b02e784fb28757d3e7ce5e571b791ff5dbfcd6228faf079572bb66f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "methods/hundred-six-v1.json",
+          "role": "input",
+          "sha256": "fd7ba19e9848473d547e666996f8d8271d7bc6d17ace7e6c8649f22947f172cb"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/question-selection.json",
+          "role": "output",
+          "sha256": "7f2e957b6265e473a7457e26ce88bb09b846eda7a2e3c0a1ac10ac41ef1e7e68"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-9d9ad27b7f3a4843992d7ad12c99558d",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/expedition-03",
+      "event_id": "event-47180a16e30341bf91e8edeea70f0c80",
+      "evidence": [
+        "event-edf43f6878e04ac5a8fa1b181bdc26e0",
+        "event-34195ffed63b48fc8aee464fb1e30e27",
+        "event-9d9ad27b7f3a4843992d7ad12c99558d"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:08e41321e0d22aa06f775c9c69fe705c37a90239",
+      "kind": "idea",
+      "occurred_at": "2026-09-27T10:56:25.000Z",
+      "parents": [
+        "hundred-origin:68ea3dbd20086ffda9e4b76ea54a0165"
+      ],
+      "recorded_at": "2026-09-27T10:56:59.066373+00:00",
+      "summary": "Select an original philosophical question after preserving alternatives and reasons for selection",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "idea",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-expedition-03",
+        "stage": "question-001"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e27a-8f77-7932-99b8-5e1761d716fa"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-edf43f6878e04ac5a8fa1b181bdc26e0",
+          "path": "research/campaigns/hundred-20260925/expedition-03/question-selection.json",
+          "role": "input",
+          "sha256": "7f2e957b6265e473a7457e26ce88bb09b846eda7a2e3c0a1ac10ac41ef1e7e68"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/TASK.md",
+          "role": "input",
+          "sha256": "7eab2160059a651ea84e1ef3ef4a73e64b8d45fa2b9a8b6d65f1bc56927217a5"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/DISPATCH_BINDING_RU.md",
+          "role": "input",
+          "sha256": "284edc511b02e784fb28757d3e7ce5e571b791ff5dbfcd6228faf079572bb66f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RECHECK_20260927_RU.md",
+          "role": "input",
+          "sha256": "74d7e995a87e686da2a25036d562ec0ca60b0bf48a65fd0c16649acc6ae58182"
+        },
+        {
+          "path": "methods/hundred-six-v1.json",
+          "role": "input",
+          "sha256": "fd7ba19e9848473d547e666996f8d8271d7bc6d17ace7e6c8649f22947f172cb"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources.note.md",
+          "role": "output",
+          "sha256": "4742c1ec8bba83bd7d136fbc1ca224174e9128b93f80193ffa9e0c6c2b0e1e1b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/novelty-gate.json",
+          "role": "output",
+          "sha256": "ff35ae430f684a40c1c0b8039c572671f505a3477cbce30418f472fe6d721716"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/search-log.json",
+          "role": "output",
+          "sha256": "005c2c8234e80859230f1b571dcdae4d6e0db88c41657b3f8267bfa6aedf9c04"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/retrieval-failures.json",
+          "role": "output",
+          "sha256": "45e149e080143c8823761ed566bc099d8e7d73e8381bebc292feb95d3bd0b422"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/source_manifest.json",
+          "role": "output",
+          "sha256": "576d10eb6f59775a0abb83f22a3b7b35efd348ba045ce623636e0a7a6754e21a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/hooke-observation-xxxix-selected.txt",
+          "role": "output",
+          "sha256": "ef3f0d646225ef252a96a6c6ca6ea19885687c95bf4afa4ff8706490e713ae33"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/wilkins-royal-society-2014-response.html",
+          "role": "output",
+          "sha256": "87e97024fdd808720959a25d337494e592d80463b8e1b2bd76e364d2fff15646"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/archive-attempts.json",
+          "role": "output",
+          "sha256": "ecbdefe999516125bba2911e354095cd7fcd886557c2796105e4dbd85efedd78"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/cavendish-oep-edition.pdf",
+          "role": "output",
+          "sha256": "d9bac571ea06e8eb2647f5a9f8c0c21a85e6c5a4854402a8cd34cbeed6706851"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/cavendish-oep-pages-96-110.txt",
+          "role": "output",
+          "sha256": "661b55163f67e1122503454a7a96925f50cdb991c9d7893d57f521d6ff830929"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-rhetoric-microscopic-image-2022.pdf",
+          "role": "output",
+          "sha256": "1c1a67cefcddb5e6a6622b9ea3db9016aa2bc98fa6b11768d1a624842254dd35"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-2-4.txt",
+          "role": "output",
+          "sha256": "2969ad506fbddd474c5d0a176d3d3f14dfaa7263e165c4612b22e8b04984e5cc"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-12-16.txt",
+          "role": "output",
+          "sha256": "966251fdc0d9d9233a0c878d9e2cefdf668e037bc1596bab65c5d781f6f42743"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-20-26.txt",
+          "role": "output",
+          "sha256": "40b773a418cc9a53326b258c52930ce015dbe783baf491ea86a9b3c3a0209a1a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-inner-discourse-2025.pdf",
+          "role": "output",
+          "sha256": "ad7366393b5de8d89cfc2a4d7a137679dc17d0b8b6a5f6984be4b7afc5bd1aa2"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-pages-18-19.txt",
+          "role": "output",
+          "sha256": "04ca4c954c7d7d82a98fbd4a0cefcdd6868fb3bf2923ca41a626ef5e247d198d"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-pages-16-17.txt",
+          "role": "output",
+          "sha256": "4ede28ee1caa9d517e7232bc76d3a5660c796681797bdd71831ef71f87266825"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-94de5f130d074411bf7199fb615ccfcc",
+              "source": "native-turn-context-observation",
+              "source_line": 553,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/expedition-03",
+      "event_id": "event-e885918ffdb24c089ffdcc5ab5837792",
+      "evidence": [
+        "event-f17d00f7a1d94cac835ec2be782fcd1b",
+        "event-a569e53ff8504f14a7646e9bc3710038",
+        "event-94de5f130d074411bf7199fb615ccfcc"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:8b28eb73de64ff209ad8ba5582f137826f8dba67",
+      "kind": "origin",
+      "occurred_at": "2026-09-27T11:26:56.889Z",
+      "parents": [
+        "hundred:08e41321e0d22aa06f775c9c69fe705c37a90239"
+      ],
+      "recorded_at": "2026-09-27T11:27:57.091738+00:00",
+      "summary": "Retrieve and closely read the primary text relevant to the selected Cavendish question; identify its context, closest existing interpretations, strongest rival, access limits, and a qualified novelty assessment",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "sources",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-expedition-03",
+        "stage": "sources-001"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e27a-8f77-7932-99b8-5e1761d716fa"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-edf43f6878e04ac5a8fa1b181bdc26e0",
+          "path": "research/campaigns/hundred-20260925/expedition-03/question-selection.json",
+          "role": "input",
+          "sha256": "7f2e957b6265e473a7457e26ce88bb09b846eda7a2e3c0a1ac10ac41ef1e7e68"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources.note.md",
+          "role": "input",
+          "sha256": "4742c1ec8bba83bd7d136fbc1ca224174e9128b93f80193ffa9e0c6c2b0e1e1b"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/novelty-gate.json",
+          "role": "input",
+          "sha256": "ff35ae430f684a40c1c0b8039c572671f505a3477cbce30418f472fe6d721716"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/TASK.md",
+          "role": "input",
+          "sha256": "7eab2160059a651ea84e1ef3ef4a73e64b8d45fa2b9a8b6d65f1bc56927217a5"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/DISPATCH_BINDING_RU.md",
+          "role": "input",
+          "sha256": "284edc511b02e784fb28757d3e7ce5e571b791ff5dbfcd6228faf079572bb66f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RECHECK_20260927_RU.md",
+          "role": "input",
+          "sha256": "74d7e995a87e686da2a25036d562ec0ca60b0bf48a65fd0c16649acc6ae58182"
+        },
+        {
+          "path": "methods/hundred-six-v1.json",
+          "role": "input",
+          "sha256": "fd7ba19e9848473d547e666996f8d8271d7bc6d17ace7e6c8649f22947f172cb"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/question-revision.json",
+          "role": "output",
+          "sha256": "57a84da5b93447bdfad5be3b8bd2231da86543646f4104089f58b092c7624087"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-849043d89f5148b9a50a377bc4efc05e",
+              "source": "native-turn-context-observation",
+              "source_line": 553,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/expedition-03",
+      "event_id": "event-a984ca835a6b425aab3d18a7558fbcd7",
+      "evidence": [
+        "event-4835f7a648d040fa85ea7788965938f1",
+        "event-f7c75ee265c24a18a3e11836b5486208",
+        "event-849043d89f5148b9a50a377bc4efc05e"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:56f57ed908226e3939f1e278067e5455996443d3",
+      "kind": "idea",
+      "occurred_at": "2026-09-27T11:30:39.137Z",
+      "parents": [
+        "hundred:08e41321e0d22aa06f775c9c69fe705c37a90239",
+        "hundred:8b28eb73de64ff209ad8ba5582f137826f8dba67"
+      ],
+      "recorded_at": "2026-09-27T11:31:12.694434+00:00",
+      "summary": "Revise the question after primary reading and novelty review: distinguish Hooke’s local facet function from integrated fly vision, and test the exact scope of Cavendish’s behavioral objection",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "idea",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-expedition-03",
+        "stage": "question-002"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e27a-8f77-7932-99b8-5e1761d716fa"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-edf43f6878e04ac5a8fa1b181bdc26e0",
+          "path": "research/campaigns/hundred-20260925/expedition-03/question-selection.json",
+          "role": "input",
+          "sha256": "7f2e957b6265e473a7457e26ce88bb09b846eda7a2e3c0a1ac10ac41ef1e7e68"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources.note.md",
+          "role": "input",
+          "sha256": "4742c1ec8bba83bd7d136fbc1ca224174e9128b93f80193ffa9e0c6c2b0e1e1b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/question-revision.json",
+          "role": "input",
+          "sha256": "57a84da5b93447bdfad5be3b8bd2231da86543646f4104089f58b092c7624087"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/archive-incident-question-002.json",
+          "role": "input",
+          "sha256": "172ca8c938c924edb5f9392b707ce4437bf60cad9d77f052ebd1c278f78cee7d"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/archive-incident-question-recovery-001.json",
+          "role": "input",
+          "sha256": "7ed1ceca5a27ee2c649f83dd7a4b5b3bd84c071e5c69d0302379b58113977937"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/TASK.md",
+          "role": "input",
+          "sha256": "7eab2160059a651ea84e1ef3ef4a73e64b8d45fa2b9a8b6d65f1bc56927217a5"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/DISPATCH_BINDING_RU.md",
+          "role": "input",
+          "sha256": "284edc511b02e784fb28757d3e7ce5e571b791ff5dbfcd6228faf079572bb66f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RECHECK_20260927_RU.md",
+          "role": "input",
+          "sha256": "74d7e995a87e686da2a25036d562ec0ca60b0bf48a65fd0c16649acc6ae58182"
+        },
+        {
+          "path": "methods/hundred-six-v1.json",
+          "role": "input",
+          "sha256": "fd7ba19e9848473d547e666996f8d8271d7bc6d17ace7e6c8649f22947f172cb"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/question-recovery-002.json",
+          "role": "output",
+          "sha256": "9204ccc0a7390236357be352fe5fd4ef9ba8540bf61b973c0064edb23d1645bc"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-4c915a6c7aa040fe90d0319c5af47eef",
+              "source": "native-turn-context-observation",
+              "source_line": 553,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/expedition-03",
+      "event_id": "event-63258bb7cd3d49afb6ddbd3efdc533fd",
+      "evidence": [
+        "event-2ca55166804f4c23874e84e3238c4c18",
+        "event-787de0ba4c9a459b8961af59da8e412f",
+        "event-4c915a6c7aa040fe90d0319c5af47eef"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:74b08b366347a78a7d9cddca08bc4e593c835b31",
+      "kind": "idea",
+      "occurred_at": "2026-09-27T11:41:41.674Z",
+      "parents": [
+        "hundred:08e41321e0d22aa06f775c9c69fe705c37a90239",
+        "hundred:8b28eb73de64ff209ad8ba5582f137826f8dba67"
+      ],
+      "recorded_at": "2026-09-27T11:42:15.616484+00:00",
+      "summary": "Record the revised question as a linked derived idea from the successful initial question and source stage; document the separate partial canonical replay incident without depending on that incomplete stage",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "idea",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-expedition-03",
+        "stage": "question-recovery-002"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e27a-8f77-7932-99b8-5e1761d716fa"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-2ca55166804f4c23874e84e3238c4c18",
+          "path": "research/campaigns/hundred-20260925/expedition-03/question-recovery-002.json",
+          "role": "input",
+          "sha256": "9204ccc0a7390236357be352fe5fd4ef9ba8540bf61b973c0064edb23d1645bc"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources.note.md",
+          "role": "input",
+          "sha256": "4742c1ec8bba83bd7d136fbc1ca224174e9128b93f80193ffa9e0c6c2b0e1e1b"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/novelty-gate.json",
+          "role": "input",
+          "sha256": "ff35ae430f684a40c1c0b8039c572671f505a3477cbce30418f472fe6d721716"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/source_manifest.json",
+          "role": "input",
+          "sha256": "576d10eb6f59775a0abb83f22a3b7b35efd348ba045ce623636e0a7a6754e21a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/cavendish-oep-edition.pdf",
+          "role": "input",
+          "sha256": "d9bac571ea06e8eb2647f5a9f8c0c21a85e6c5a4854402a8cd34cbeed6706851"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/cavendish-oep-pages-96-110.txt",
+          "role": "input",
+          "sha256": "661b55163f67e1122503454a7a96925f50cdb991c9d7893d57f521d6ff830929"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/hooke-observation-xxxix-selected.txt",
+          "role": "input",
+          "sha256": "ef3f0d646225ef252a96a6c6ca6ea19885687c95bf4afa4ff8706490e713ae33"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-rhetoric-microscopic-image-2022.pdf",
+          "role": "input",
+          "sha256": "1c1a67cefcddb5e6a6622b9ea3db9016aa2bc98fa6b11768d1a624842254dd35"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-20-26.txt",
+          "role": "input",
+          "sha256": "40b773a418cc9a53326b258c52930ce015dbe783baf491ea86a9b3c3a0209a1a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-inner-discourse-2025.pdf",
+          "role": "input",
+          "sha256": "ad7366393b5de8d89cfc2a4d7a137679dc17d0b8b6a5f6984be4b7afc5bd1aa2"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-pages-18-19.txt",
+          "role": "input",
+          "sha256": "04ca4c954c7d7d82a98fbd4a0cefcdd6868fb3bf2923ca41a626ef5e247d198d"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/archive-incident-question-002.json",
+          "role": "input",
+          "sha256": "172ca8c938c924edb5f9392b707ce4437bf60cad9d77f052ebd1c278f78cee7d"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/archive-incident-question-recovery-001.json",
+          "role": "input",
+          "sha256": "7ed1ceca5a27ee2c649f83dd7a4b5b3bd84c071e5c69d0302379b58113977937"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/TASK.md",
+          "role": "input",
+          "sha256": "7eab2160059a651ea84e1ef3ef4a73e64b8d45fa2b9a8b6d65f1bc56927217a5"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/DISPATCH_BINDING_RU.md",
+          "role": "input",
+          "sha256": "284edc511b02e784fb28757d3e7ce5e571b791ff5dbfcd6228faf079572bb66f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RECHECK_20260927_RU.md",
+          "role": "input",
+          "sha256": "74d7e995a87e686da2a25036d562ec0ca60b0bf48a65fd0c16649acc6ae58182"
+        },
+        {
+          "path": "methods/hundred-six-v1.json",
+          "role": "input",
+          "sha256": "fd7ba19e9848473d547e666996f8d8271d7bc6d17ace7e6c8649f22947f172cb"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/draft-001.md",
+          "role": "output",
+          "sha256": "d38db05ce0e52a855af19a0ce568c1d6db90663a1cfbc0998b9d7aeb0dc36896"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/argument-map.md",
+          "role": "output",
+          "sha256": "35c9d1b3256ed04f2765c2302cbe645e2232f714ecebbef40cb5a3e776607fb8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/self-assessment.md",
+          "role": "output",
+          "sha256": "570d9e840d232055a7f4c47614a8ea00cb294568238a4d105107df99a91f2e06"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources.note.md",
+          "role": "output",
+          "sha256": "4742c1ec8bba83bd7d136fbc1ca224174e9128b93f80193ffa9e0c6c2b0e1e1b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/novelty-gate.json",
+          "role": "output",
+          "sha256": "ff35ae430f684a40c1c0b8039c572671f505a3477cbce30418f472fe6d721716"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/question-revision.json",
+          "role": "output",
+          "sha256": "57a84da5b93447bdfad5be3b8bd2231da86543646f4104089f58b092c7624087"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/question-recovery-002.json",
+          "role": "output",
+          "sha256": "9204ccc0a7390236357be352fe5fd4ef9ba8540bf61b973c0064edb23d1645bc"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/archive-incident-question-002.json",
+          "role": "output",
+          "sha256": "172ca8c938c924edb5f9392b707ce4437bf60cad9d77f052ebd1c278f78cee7d"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/archive-incident-question-recovery-001.json",
+          "role": "output",
+          "sha256": "7ed1ceca5a27ee2c649f83dd7a4b5b3bd84c071e5c69d0302379b58113977937"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/draft-001-precopy.md",
+          "role": "output",
+          "sha256": "468f0d645ec1b09ceb1685ae989801b17573a93c0db5611443421043f39a904f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/draft-edit-log.json",
+          "role": "output",
+          "sha256": "c033bd5ca9aa892a064db8ba34b2d4f7f11d29fd6fb840b724f7a15b52808a89"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/draft-001-text-accounting.json",
+          "role": "output",
+          "sha256": "a572f5f969112b50304ccea4bef23654cd860b5c092fb376f3beff794b0b887a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/source_manifest.json",
+          "role": "output",
+          "sha256": "576d10eb6f59775a0abb83f22a3b7b35efd348ba045ce623636e0a7a6754e21a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/cavendish-oep-edition.pdf",
+          "role": "output",
+          "sha256": "d9bac571ea06e8eb2647f5a9f8c0c21a85e6c5a4854402a8cd34cbeed6706851"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/cavendish-oep-pages-96-110.txt",
+          "role": "output",
+          "sha256": "661b55163f67e1122503454a7a96925f50cdb991c9d7893d57f521d6ff830929"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/hooke-observation-xxxix-selected.txt",
+          "role": "output",
+          "sha256": "ef3f0d646225ef252a96a6c6ca6ea19885687c95bf4afa4ff8706490e713ae33"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-rhetoric-microscopic-image-2022.pdf",
+          "role": "output",
+          "sha256": "1c1a67cefcddb5e6a6622b9ea3db9016aa2bc98fa6b11768d1a624842254dd35"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-2-4.txt",
+          "role": "output",
+          "sha256": "2969ad506fbddd474c5d0a176d3d3f14dfaa7263e165c4612b22e8b04984e5cc"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-12-16.txt",
+          "role": "output",
+          "sha256": "966251fdc0d9d9233a0c878d9e2cefdf668e037bc1596bab65c5d781f6f42743"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-20-26.txt",
+          "role": "output",
+          "sha256": "40b773a418cc9a53326b258c52930ce015dbe783baf491ea86a9b3c3a0209a1a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-inner-discourse-2025.pdf",
+          "role": "output",
+          "sha256": "ad7366393b5de8d89cfc2a4d7a137679dc17d0b8b6a5f6984be4b7afc5bd1aa2"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-pages-18-19.txt",
+          "role": "output",
+          "sha256": "04ca4c954c7d7d82a98fbd4a0cefcdd6868fb3bf2923ca41a626ef5e247d198d"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-pages-16-17.txt",
+          "role": "output",
+          "sha256": "4ede28ee1caa9d517e7232bc76d3a5660c796681797bdd71831ef71f87266825"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/search-log.json",
+          "role": "output",
+          "sha256": "005c2c8234e80859230f1b571dcdae4d6e0db88c41657b3f8267bfa6aedf9c04"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/wilkins-royal-society-2014-response.html",
+          "role": "output",
+          "sha256": "87e97024fdd808720959a25d337494e592d80463b8e1b2bd76e364d2fff15646"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/retrieval-failures.json",
+          "role": "output",
+          "sha256": "45e149e080143c8823761ed566bc099d8e7d73e8381bebc292feb95d3bd0b422"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-20615a8e631d4a6aac26c54d529fb107",
+              "source": "native-turn-context-observation",
+              "source_line": 553,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/expedition-03",
+      "event_id": "event-5d1f86889a834e02a2d98710104d8922",
+      "evidence": [
+        "event-51f02f50b0b14172a2ebe4799a5e7938",
+        "event-c4f246084d394a0683868f98f64ae537",
+        "event-20615a8e631d4a6aac26c54d529fb107"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:6c3c1601fecf2636ad31c727e5968ef889167611",
+      "kind": "draft",
+      "occurred_at": "2026-09-27T11:51:04.925Z",
+      "parents": [
+        "hundred:8b28eb73de64ff209ad8ba5582f137826f8dba67",
+        "hundred:74b08b366347a78a7d9cddca08bc4e593c835b31"
+      ],
+      "recorded_at": "2026-09-27T11:52:11.852076+00:00",
+      "summary": "Develop the bounded original argument about the meaning and evidential warrant of Hooke’s facet-level “perfect eyes” and Cavendish’s whole-animal behavioral challenge; archive draft-001, argument map, source/novelty packet, and self-assessment",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "draft",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-expedition-03",
+        "stage": "contribution-001"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e27a-8f77-7932-99b8-5e1761d716fa"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-edf43f6878e04ac5a8fa1b181bdc26e0",
+          "path": "research/campaigns/hundred-20260925/expedition-03/question-selection.json",
+          "role": "input",
+          "sha256": "7f2e957b6265e473a7457e26ce88bb09b846eda7a2e3c0a1ac10ac41ef1e7e68"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources.note.md",
+          "role": "input",
+          "sha256": "4742c1ec8bba83bd7d136fbc1ca224174e9128b93f80193ffa9e0c6c2b0e1e1b"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/novelty-gate.json",
+          "role": "input",
+          "sha256": "ff35ae430f684a40c1c0b8039c572671f505a3477cbce30418f472fe6d721716"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/source_manifest.json",
+          "role": "input",
+          "sha256": "576d10eb6f59775a0abb83f22a3b7b35efd348ba045ce623636e0a7a6754e21a"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/search-log.json",
+          "role": "input",
+          "sha256": "005c2c8234e80859230f1b571dcdae4d6e0db88c41657b3f8267bfa6aedf9c04"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/retrieval-failures.json",
+          "role": "input",
+          "sha256": "45e149e080143c8823761ed566bc099d8e7d73e8381bebc292feb95d3bd0b422"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/archive-attempts.json",
+          "role": "input",
+          "sha256": "ecbdefe999516125bba2911e354095cd7fcd886557c2796105e4dbd85efedd78"
+        },
+        {
+          "from_event_id": "event-2ca55166804f4c23874e84e3238c4c18",
+          "path": "research/campaigns/hundred-20260925/expedition-03/question-recovery-002.json",
+          "role": "input",
+          "sha256": "9204ccc0a7390236357be352fe5fd4ef9ba8540bf61b973c0064edb23d1645bc"
+        },
+        {
+          "from_event_id": "event-51f02f50b0b14172a2ebe4799a5e7938",
+          "path": "research/campaigns/hundred-20260925/expedition-03/draft-001.md",
+          "role": "input",
+          "sha256": "d38db05ce0e52a855af19a0ce568c1d6db90663a1cfbc0998b9d7aeb0dc36896"
+        },
+        {
+          "from_event_id": "event-51f02f50b0b14172a2ebe4799a5e7938",
+          "path": "research/campaigns/hundred-20260925/expedition-03/argument-map.md",
+          "role": "input",
+          "sha256": "35c9d1b3256ed04f2765c2302cbe645e2232f714ecebbef40cb5a3e776607fb8"
+        },
+        {
+          "from_event_id": "event-51f02f50b0b14172a2ebe4799a5e7938",
+          "path": "research/campaigns/hundred-20260925/expedition-03/self-assessment.md",
+          "role": "input",
+          "sha256": "570d9e840d232055a7f4c47614a8ea00cb294568238a4d105107df99a91f2e06"
+        },
+        {
+          "from_event_id": "event-51f02f50b0b14172a2ebe4799a5e7938",
+          "path": "research/campaigns/hundred-20260925/expedition-03/draft-001-text-accounting.json",
+          "role": "input",
+          "sha256": "a572f5f969112b50304ccea4bef23654cd860b5c092fb376f3beff794b0b887a"
+        },
+        {
+          "from_event_id": "event-51f02f50b0b14172a2ebe4799a5e7938",
+          "path": "research/campaigns/hundred-20260925/expedition-03/draft-001-precopy.md",
+          "role": "input",
+          "sha256": "468f0d645ec1b09ceb1685ae989801b17573a93c0db5611443421043f39a904f"
+        },
+        {
+          "from_event_id": "event-51f02f50b0b14172a2ebe4799a5e7938",
+          "path": "research/campaigns/hundred-20260925/expedition-03/draft-edit-log.json",
+          "role": "input",
+          "sha256": "c033bd5ca9aa892a064db8ba34b2d4f7f11d29fd6fb840b724f7a15b52808a89"
+        },
+        {
+          "from_event_id": "event-51f02f50b0b14172a2ebe4799a5e7938",
+          "path": "research/campaigns/hundred-20260925/expedition-03/archive-incident-question-002.json",
+          "role": "input",
+          "sha256": "172ca8c938c924edb5f9392b707ce4437bf60cad9d77f052ebd1c278f78cee7d"
+        },
+        {
+          "from_event_id": "event-51f02f50b0b14172a2ebe4799a5e7938",
+          "path": "research/campaigns/hundred-20260925/expedition-03/archive-incident-question-recovery-001.json",
+          "role": "input",
+          "sha256": "7ed1ceca5a27ee2c649f83dd7a4b5b3bd84c071e5c69d0302379b58113977937"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/search-log-supplemental.json",
+          "role": "input",
+          "sha256": "60aa92715ea6f8495802e865d6e09daa2af6bd186114741e6ba0fb2c432c8005"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/init.json",
+          "role": "input",
+          "sha256": "34c59ab3b5cef610146c8be6f02b2eff01b780f071e405492783a9dd5d7e6b18"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/HISTORY_RU.md",
+          "role": "output",
+          "sha256": "5a3f477840b19c3e6ff6cc4786446271004d31c09d887044c95f74618860ceca"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/search-log-supplemental.json",
+          "role": "output",
+          "sha256": "60aa92715ea6f8495802e865d6e09daa2af6bd186114741e6ba0fb2c432c8005"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-5524086796b448b0b0e984c993ff0d7f",
+              "source": "native-turn-context-observation",
+              "source_line": 1374,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/expedition-03",
+      "event_id": "event-607f5a7e3b3a485a85f2e0521ae507d9",
+      "evidence": [
+        "event-03dfeced02fa4989b5e4c22627d3a55a",
+        "event-0c3089f6e5c24b898fb96d6142ec6b64",
+        "event-5524086796b448b0b0e984c993ff0d7f"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:5239d7662e6733fb3d82ee94b36e8e6c566bd837",
+      "kind": "correction",
+      "occurred_at": "2026-09-27T12:07:11.007Z",
+      "parents": [
+        "hundred:08e41321e0d22aa06f775c9c69fe705c37a90239",
+        "hundred:8b28eb73de64ff209ad8ba5582f137826f8dba67",
+        "hundred:74b08b366347a78a7d9cddca08bc4e593c835b31",
+        "hundred:6c3c1601fecf2636ad31c727e5968ef889167611"
+      ],
+      "recorded_at": "2026-09-27T12:08:25.948671+00:00",
+      "summary": "Append the author-stage provenance history and post-draft bibliographic query record; preserve the sealed contribution unchanged and make no claim of criticism or finality",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "other",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-expedition-03",
+        "stage": "history-001"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0d281-ce48-72a3-8f42-b3a849471fd1"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-51f02f50b0b14172a2ebe4799a5e7938",
+          "path": "research/campaigns/hundred-20260925/expedition-03/draft-001.md",
+          "role": "input",
+          "sha256": "d38db05ce0e52a855af19a0ce568c1d6db90663a1cfbc0998b9d7aeb0dc36896"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/source_manifest.json",
+          "role": "input",
+          "sha256": "576d10eb6f59775a0abb83f22a3b7b35efd348ba045ce623636e0a7a6754e21a"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/cavendish-oep-pages-96-110.txt",
+          "role": "input",
+          "sha256": "661b55163f67e1122503454a7a96925f50cdb991c9d7893d57f521d6ff830929"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/hooke-observation-xxxix-selected.txt",
+          "role": "input",
+          "sha256": "ef3f0d646225ef252a96a6c6ca6ea19885687c95bf4afa4ff8706490e713ae33"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-2-4.txt",
+          "role": "input",
+          "sha256": "2969ad506fbddd474c5d0a176d3d3f14dfaa7263e165c4612b22e8b04984e5cc"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-12-16.txt",
+          "role": "input",
+          "sha256": "966251fdc0d9d9233a0c878d9e2cefdf668e037bc1596bab65c5d781f6f42743"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-20-26.txt",
+          "role": "input",
+          "sha256": "40b773a418cc9a53326b258c52930ce015dbe783baf491ea86a9b3c3a0209a1a"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-pages-16-17.txt",
+          "role": "input",
+          "sha256": "4ede28ee1caa9d517e7232bc76d3a5660c796681797bdd71831ef71f87266825"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-pages-18-19.txt",
+          "role": "input",
+          "sha256": "04ca4c954c7d7d82a98fbd4a0cefcdd6868fb3bf2923ca41a626ef5e247d198d"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_CRITIC_PROTOCOL.md",
+          "role": "input",
+          "sha256": "0780949ce67a3c26c700a02a8fef33396a0c0e17861e93410a3019e0054d968c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/TRANSFER_NOTE_RU.md",
+          "role": "input",
+          "sha256": "4749110612d7490e5fcf57b53e20ec74846fd79d36e3d188fae06bd7e8badc8c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/TASK.md",
+          "role": "input",
+          "sha256": "876f50b45442653a334aa729b9caec81ac35f890f02f5c5cceec8656d3c023af"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/input-packet.json",
+          "role": "input",
+          "sha256": "fbfcda274600175b66625e69ece1394dfab833a09cc488380a53c47c6982d112"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/dispatch.txt",
+          "role": "input",
+          "sha256": "3489cd56902446fe62c110c7e6a481a7e02aefc99288b2862bd028d0a17c9862"
+        }
+      ],
+      "configuration": {
+        "observed": "UNKNOWN",
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/expedition-03",
+      "event_id": "event-1bc86d8ae72a46929fccee84c2999514",
+      "evidence": [
+        "event-1db4fe233fe241da986f36beac4d2afa",
+        "event-02879fed532e493fbe73971c45805ad5"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred-origin:17cf8c2547d39e096dfb3848ed8abffc",
+      "kind": "origin",
+      "occurred_at": "UNKNOWN",
+      "parents": [
+        "hundred:6c3c1601fecf2636ad31c727e5968ef889167611"
+      ],
+      "recorded_at": "2026-09-27T12:35:19.640529+00:00",
+      "summary": "Exact authorized neutral workflow inputs",
+      "workflow": {
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-expedition-03-completion-20260927"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e2d8-3d90-7f63-9a9d-efd8a8441c5b"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-51f02f50b0b14172a2ebe4799a5e7938",
+          "path": "research/campaigns/hundred-20260925/expedition-03/draft-001.md",
+          "role": "input",
+          "sha256": "d38db05ce0e52a855af19a0ce568c1d6db90663a1cfbc0998b9d7aeb0dc36896"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/source_manifest.json",
+          "role": "input",
+          "sha256": "576d10eb6f59775a0abb83f22a3b7b35efd348ba045ce623636e0a7a6754e21a"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/cavendish-oep-pages-96-110.txt",
+          "role": "input",
+          "sha256": "661b55163f67e1122503454a7a96925f50cdb991c9d7893d57f521d6ff830929"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/hooke-observation-xxxix-selected.txt",
+          "role": "input",
+          "sha256": "ef3f0d646225ef252a96a6c6ca6ea19885687c95bf4afa4ff8706490e713ae33"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-2-4.txt",
+          "role": "input",
+          "sha256": "2969ad506fbddd474c5d0a176d3d3f14dfaa7263e165c4612b22e8b04984e5cc"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-12-16.txt",
+          "role": "input",
+          "sha256": "966251fdc0d9d9233a0c878d9e2cefdf668e037bc1596bab65c5d781f6f42743"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-20-26.txt",
+          "role": "input",
+          "sha256": "40b773a418cc9a53326b258c52930ce015dbe783baf491ea86a9b3c3a0209a1a"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-pages-16-17.txt",
+          "role": "input",
+          "sha256": "4ede28ee1caa9d517e7232bc76d3a5660c796681797bdd71831ef71f87266825"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-pages-18-19.txt",
+          "role": "input",
+          "sha256": "04ca4c954c7d7d82a98fbd4a0cefcdd6868fb3bf2923ca41a626ef5e247d198d"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_CRITIC_PROTOCOL.md",
+          "role": "input",
+          "sha256": "0780949ce67a3c26c700a02a8fef33396a0c0e17861e93410a3019e0054d968c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/TASK.md",
+          "role": "input",
+          "sha256": "876f50b45442653a334aa729b9caec81ac35f890f02f5c5cceec8656d3c023af"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/input-packet.json",
+          "role": "input",
+          "sha256": "fbfcda274600175b66625e69ece1394dfab833a09cc488380a53c47c6982d112"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/dispatch.txt",
+          "role": "input",
+          "sha256": "3489cd56902446fe62c110c7e6a481a7e02aefc99288b2862bd028d0a17c9862"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check.md",
+          "role": "output",
+          "sha256": "f473fa805ba613a8501640945402e9fb049a3a5f6e3f9dd0a87185637e077c9a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-coverage.json",
+          "role": "output",
+          "sha256": "7f61e937921c42163336e3ee7e071153f65075ffd753fb7759a0b4d99d27aeaa"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-web-retrieval.json",
+          "role": "output",
+          "sha256": "dd74604106acdee5366c14fc75ebbfa9de13b242f8106f1aed2e959ba5ec127c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-hooke-wikisource-response.txt",
+          "role": "output",
+          "sha256": "689c0aeb5ae8bf08a86821afb045a06e30f981298b7e3b5bd60efd532942f8c4"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-hooke-pinned-url-failure.txt",
+          "role": "output",
+          "sha256": "ff04652d98663fdc660bae1eeb5859f3f432c6112e5cb7da74e0b4215b8121c4"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-hooke-permalink-failure.txt",
+          "role": "output",
+          "sha256": "8c2c72bc697444a6dbf9e7bd0e4677fc05fbb854a074f05331ae45fcde0123d0"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-manifest.json",
+          "role": "output",
+          "sha256": "d59e92c80fcb55a7b459f6aa2160d9a47b341265311ba9b97b0634884d73c4f2"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-3ae5d23931a94b53a4bf38f60115a289",
+              "source": "native-turn-context-observation",
+              "source_line": 127,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/expedition-03",
+      "event_id": "event-3a5d0917fd8c493dac0da1d1ffb691b5",
+      "evidence": [
+        "event-4ea68c9be8d54c75bf63aed592a7397f",
+        "event-d17036a3d2d24ff3b25b21746b673245",
+        "event-3ae5d23931a94b53a4bf38f60115a289"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:3ac5a8d05c50e49a4fe451a1614d18927d5cbcdf",
+      "kind": "origin",
+      "occurred_at": "2026-09-27T12:51:27.744Z",
+      "parents": [
+        "hundred:6c3c1601fecf2636ad31c727e5968ef889167611",
+        "hundred:8b28eb73de64ff209ad8ba5582f137826f8dba67"
+      ],
+      "recorded_at": "2026-09-27T12:52:03.913151+00:00",
+      "summary": "Fresh complete-manuscript and bounded source verification before the independent expedition-03 critique.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "sources",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-expedition-03-completion-20260927",
+        "stage": "critic-source-check-001"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e2d8-3d90-7f63-9a9d-efd8a8441c5b"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-51f02f50b0b14172a2ebe4799a5e7938",
+          "path": "research/campaigns/hundred-20260925/expedition-03/draft-001.md",
+          "role": "input",
+          "sha256": "d38db05ce0e52a855af19a0ce568c1d6db90663a1cfbc0998b9d7aeb0dc36896"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/source_manifest.json",
+          "role": "input",
+          "sha256": "576d10eb6f59775a0abb83f22a3b7b35efd348ba045ce623636e0a7a6754e21a"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/cavendish-oep-pages-96-110.txt",
+          "role": "input",
+          "sha256": "661b55163f67e1122503454a7a96925f50cdb991c9d7893d57f521d6ff830929"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/hooke-observation-xxxix-selected.txt",
+          "role": "input",
+          "sha256": "ef3f0d646225ef252a96a6c6ca6ea19885687c95bf4afa4ff8706490e713ae33"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-2-4.txt",
+          "role": "input",
+          "sha256": "2969ad506fbddd474c5d0a176d3d3f14dfaa7263e165c4612b22e8b04984e5cc"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-12-16.txt",
+          "role": "input",
+          "sha256": "966251fdc0d9d9233a0c878d9e2cefdf668e037bc1596bab65c5d781f6f42743"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-20-26.txt",
+          "role": "input",
+          "sha256": "40b773a418cc9a53326b258c52930ce015dbe783baf491ea86a9b3c3a0209a1a"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-pages-16-17.txt",
+          "role": "input",
+          "sha256": "4ede28ee1caa9d517e7232bc76d3a5660c796681797bdd71831ef71f87266825"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-pages-18-19.txt",
+          "role": "input",
+          "sha256": "04ca4c954c7d7d82a98fbd4a0cefcdd6868fb3bf2923ca41a626ef5e247d198d"
+        },
+        {
+          "from_event_id": "event-4ea68c9be8d54c75bf63aed592a7397f",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check.md",
+          "role": "input",
+          "sha256": "f473fa805ba613a8501640945402e9fb049a3a5f6e3f9dd0a87185637e077c9a"
+        },
+        {
+          "from_event_id": "event-4ea68c9be8d54c75bf63aed592a7397f",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-coverage.json",
+          "role": "input",
+          "sha256": "7f61e937921c42163336e3ee7e071153f65075ffd753fb7759a0b4d99d27aeaa"
+        },
+        {
+          "from_event_id": "event-4ea68c9be8d54c75bf63aed592a7397f",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-manifest.json",
+          "role": "input",
+          "sha256": "d59e92c80fcb55a7b459f6aa2160d9a47b341265311ba9b97b0634884d73c4f2"
+        },
+        {
+          "from_event_id": "event-4ea68c9be8d54c75bf63aed592a7397f",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-web-retrieval.json",
+          "role": "input",
+          "sha256": "dd74604106acdee5366c14fc75ebbfa9de13b242f8106f1aed2e959ba5ec127c"
+        },
+        {
+          "from_event_id": "event-4ea68c9be8d54c75bf63aed592a7397f",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-hooke-wikisource-response.txt",
+          "role": "input",
+          "sha256": "689c0aeb5ae8bf08a86821afb045a06e30f981298b7e3b5bd60efd532942f8c4"
+        },
+        {
+          "from_event_id": "event-4ea68c9be8d54c75bf63aed592a7397f",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-hooke-pinned-url-failure.txt",
+          "role": "input",
+          "sha256": "ff04652d98663fdc660bae1eeb5859f3f432c6112e5cb7da74e0b4215b8121c4"
+        },
+        {
+          "from_event_id": "event-4ea68c9be8d54c75bf63aed592a7397f",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-hooke-permalink-failure.txt",
+          "role": "input",
+          "sha256": "8c2c72bc697444a6dbf9e7bd0e4677fc05fbb854a074f05331ae45fcde0123d0"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_CRITIC_PROTOCOL.md",
+          "role": "input",
+          "sha256": "0780949ce67a3c26c700a02a8fef33396a0c0e17861e93410a3019e0054d968c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/TASK.md",
+          "role": "input",
+          "sha256": "876f50b45442653a334aa729b9caec81ac35f890f02f5c5cceec8656d3c023af"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/input-packet.json",
+          "role": "input",
+          "sha256": "fbfcda274600175b66625e69ece1394dfab833a09cc488380a53c47c6982d112"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/dispatch.txt",
+          "role": "input",
+          "sha256": "3489cd56902446fe62c110c7e6a481a7e02aefc99288b2862bd028d0a17c9862"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/critique.md",
+          "role": "output",
+          "sha256": "1ee1024d53fbeb337aab38c436ae9d59a65d5ba50837908c56c85375d1e4a81f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/report.json",
+          "role": "output",
+          "sha256": "a428d8116f8f73e1254bbc21faf7b48ee0ddf902125cb8e0c15f3023fd363e26"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source_manifest.json",
+          "role": "output",
+          "sha256": "db656bce59997baf29f6ee957ff5d2e7abc9f908e6b722c4abddb0ec03050777"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/coverage.json",
+          "role": "output",
+          "sha256": "746f746f0329f30a95b2f78e55cad36156e44b8421c2d647294cacc69bafe98b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/HISTORY.md",
+          "role": "output",
+          "sha256": "ca1655f3983ce9e2ebbcaeab7eaa2ec9b79117a706cf7b010d7009439c725196"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "collector-f712a1309ab3d6ff6d494ed2b45aa715",
+              "source": "native-turn-context-observation",
+              "source_line": 127,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/expedition-03",
+      "event_id": "event-c1da76ccadc3451db0d25fb2c514b53a",
+      "evidence": [
+        "event-3ea10e4cfc764ceabe267a429e69acd9",
+        "event-554265a15df345fca85c61fed20a9457",
+        "collector-f712a1309ab3d6ff6d494ed2b45aa715"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:b1854524b71dfee8bcf33008e970039966845a0e",
+      "kind": "critique",
+      "occurred_at": "2026-09-27T13:01:06.082Z",
+      "parents": [
+        "hundred:6c3c1601fecf2636ad31c727e5968ef889167611",
+        "hundred:8b28eb73de64ff209ad8ba5582f137826f8dba67",
+        "hundred:3ac5a8d05c50e49a4fe451a1614d18927d5cbcdf"
+      ],
+      "recorded_at": "2026-09-27T13:03:32.836566+00:00",
+      "summary": "Independent argument and source criticism of the exact expedition-03 manuscript, following an archived source check and binding the 2026-09-27 model-setting change record.",
+      "workflow": {
+        "independent_context_declared": true,
+        "phase": "critique",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-expedition-03-completion-20260927",
+        "stage": "critic-001"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e32a-0654-7992-bbca-52e283530852"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-51f02f50b0b14172a2ebe4799a5e7938",
+          "path": "research/campaigns/hundred-20260925/expedition-03/draft-001.md",
+          "role": "input",
+          "sha256": "d38db05ce0e52a855af19a0ce568c1d6db90663a1cfbc0998b9d7aeb0dc36896"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/source_manifest.json",
+          "role": "input",
+          "sha256": "576d10eb6f59775a0abb83f22a3b7b35efd348ba045ce623636e0a7a6754e21a"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/cavendish-oep-pages-96-110.txt",
+          "role": "input",
+          "sha256": "661b55163f67e1122503454a7a96925f50cdb991c9d7893d57f521d6ff830929"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/hooke-observation-xxxix-selected.txt",
+          "role": "input",
+          "sha256": "ef3f0d646225ef252a96a6c6ca6ea19885687c95bf4afa4ff8706490e713ae33"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-2-4.txt",
+          "role": "input",
+          "sha256": "2969ad506fbddd474c5d0a176d3d3f14dfaa7263e165c4612b22e8b04984e5cc"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-12-16.txt",
+          "role": "input",
+          "sha256": "966251fdc0d9d9233a0c878d9e2cefdf668e037bc1596bab65c5d781f6f42743"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/clucas-pages-20-26.txt",
+          "role": "input",
+          "sha256": "40b773a418cc9a53326b258c52930ce015dbe783baf491ea86a9b3c3a0209a1a"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-pages-16-17.txt",
+          "role": "input",
+          "sha256": "4ede28ee1caa9d517e7232bc76d3a5660c796681797bdd71831ef71f87266825"
+        },
+        {
+          "from_event_id": "event-f17d00f7a1d94cac835ec2be782fcd1b",
+          "path": "research/campaigns/hundred-20260925/expedition-03/sources/purcell-pages-18-19.txt",
+          "role": "input",
+          "sha256": "04ca4c954c7d7d82a98fbd4a0cefcdd6868fb3bf2923ca41a626ef5e247d198d"
+        },
+        {
+          "from_event_id": "event-4ea68c9be8d54c75bf63aed592a7397f",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check.md",
+          "role": "input",
+          "sha256": "f473fa805ba613a8501640945402e9fb049a3a5f6e3f9dd0a87185637e077c9a"
+        },
+        {
+          "from_event_id": "event-4ea68c9be8d54c75bf63aed592a7397f",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-manifest.json",
+          "role": "input",
+          "sha256": "d59e92c80fcb55a7b459f6aa2160d9a47b341265311ba9b97b0634884d73c4f2"
+        },
+        {
+          "from_event_id": "event-4ea68c9be8d54c75bf63aed592a7397f",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-coverage.json",
+          "role": "input",
+          "sha256": "7f61e937921c42163336e3ee7e071153f65075ffd753fb7759a0b4d99d27aeaa"
+        },
+        {
+          "from_event_id": "event-4ea68c9be8d54c75bf63aed592a7397f",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-web-retrieval.json",
+          "role": "input",
+          "sha256": "dd74604106acdee5366c14fc75ebbfa9de13b242f8106f1aed2e959ba5ec127c"
+        },
+        {
+          "from_event_id": "event-4ea68c9be8d54c75bf63aed592a7397f",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-hooke-wikisource-response.txt",
+          "role": "input",
+          "sha256": "689c0aeb5ae8bf08a86821afb045a06e30f981298b7e3b5bd60efd532942f8c4"
+        },
+        {
+          "from_event_id": "event-4ea68c9be8d54c75bf63aed592a7397f",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-hooke-pinned-url-failure.txt",
+          "role": "input",
+          "sha256": "ff04652d98663fdc660bae1eeb5859f3f432c6112e5cb7da74e0b4215b8121c4"
+        },
+        {
+          "from_event_id": "event-4ea68c9be8d54c75bf63aed592a7397f",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source-check-hooke-permalink-failure.txt",
+          "role": "input",
+          "sha256": "8c2c72bc697444a6dbf9e7bd0e4677fc05fbb854a074f05331ae45fcde0123d0"
+        },
+        {
+          "from_event_id": "event-3ea10e4cfc764ceabe267a429e69acd9",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/source_manifest.json",
+          "role": "input",
+          "sha256": "db656bce59997baf29f6ee957ff5d2e7abc9f908e6b722c4abddb0ec03050777"
+        },
+        {
+          "from_event_id": "event-3ea10e4cfc764ceabe267a429e69acd9",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/coverage.json",
+          "role": "input",
+          "sha256": "746f746f0329f30a95b2f78e55cad36156e44b8421c2d647294cacc69bafe98b"
+        },
+        {
+          "from_event_id": "event-3ea10e4cfc764ceabe267a429e69acd9",
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/critic-01/critique.md",
+          "role": "input",
+          "sha256": "1ee1024d53fbeb337aab38c436ae9d59a65d5ba50837908c56c85375d1e4a81f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "docs/HUNDRED_ARTIFACTS_V2.md",
+          "role": "input",
+          "sha256": "433559f9776a9b851b1b9f78f0d47c3d4b271a0ae5f2bb3e6b2d7855f4274f7f"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/TRANSFER_NOTE_RU.md",
+          "role": "input",
+          "sha256": "4749110612d7490e5fcf57b53e20ec74846fd79d36e3d188fae06bd7e8badc8c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/revision-001/TASK.md",
+          "role": "input",
+          "sha256": "d928f137eec5d404c44e87de338ab402d11aa53e57fb8cf1a4fb959952cc617b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/revision-001/input-packet.json",
+          "role": "input",
+          "sha256": "1b3ed47fa578f833fdf4ffc9f7932b562d2b87739ddf2def96a028397160a081"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/revision-001/dispatch.txt",
+          "role": "input",
+          "sha256": "4d54303fadf7e72fa78c7823482c50c31d1649c2fd9d1f5844356f0030b4e8de"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/revision-001/response-decision-001.md",
+          "role": "output",
+          "sha256": "b219d3f444b00ca8b98517785d1c96d3d8874882b69f9b0efa8099304dc5a75f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/revision-001/HISTORY-final.md",
+          "role": "output",
+          "sha256": "5a52dd82ca5dbe517cd1d69d04cd7288f74d3ff56b39478a9cc787d8e9478583"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/revision-001/word-count-001.json",
+          "role": "output",
+          "sha256": "bfad8dee9af5d11a65ecd07369da86bfd2a03ad223921c85579b1b1430019372"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/revision-001/provenance-001.json",
+          "role": "output",
+          "sha256": "2b97032acd73c0a7252e38db98fe23ffe32b628d11a6f3bc8deb083c33c1c11c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/revision-001/checkpoint-summary-001.json",
+          "role": "output",
+          "sha256": "eae6862f5de29a1a88eab919f83d8fe672e62e2d396c7a60b04bd326fb511337"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/expedition-03/completion-20260927/revision-001/final-001.md",
+          "role": "output",
+          "sha256": "6bed04854bfc804c49e1e071637148c127d5483f3a130eaf6123a21f411e7c0b"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-4462b930b7124022a87667843274c5eb",
+              "source": "native-turn-context-observation",
+              "source_line": 820,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/expedition-03",
+      "event_id": "event-94e37eaf2a784530a73eccfb730d07d5",
+      "evidence": [
+        "event-3b65cded672e44358ab16f2f33e7e38f",
+        "event-9c73dc607b724aea9ff09fd710b671eb",
+        "event-4462b930b7124022a87667843274c5eb"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:6a64ed079d93f1306b2682685dade11601eed6af",
+      "kind": "revision",
+      "occurred_at": "2026-09-27T14:38:45.661Z",
+      "parents": [
+        "hundred:6c3c1601fecf2636ad31c727e5968ef889167611",
+        "hundred:8b28eb73de64ff209ad8ba5582f137826f8dba67",
+        "hundred:3ac5a8d05c50e49a4fe451a1614d18927d5cbcdf",
+        "hundred:b1854524b71dfee8bcf33008e970039966845a0e"
+      ],
+      "recorded_at": "2026-09-27T14:39:24.740073+00:00",
+      "summary": "Complete revision of the sealed expedition-03 draft after independent criticism and source checking; record explicit response, bounded coverage and final checkpoint.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "revision",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-expedition-03-completion-20260927",
+        "stage": "revision-001"
+      }
+    }
+  ],
+  "protocol": "essay-lineage.v1",
+  "export": {
+    "language": "en",
+    "kind": "English translation of canonical structured biography; source identifiers, hashes, parents, and fields preserved",
+    "source_path": "research/biographies/hundred-20260925/expedition-03/biography.json",
+    "source_sha256": "0169a891c4178904f57acc5700139c5dce9027c887f778c22cbc1f5c372230ad"
+  }
+}

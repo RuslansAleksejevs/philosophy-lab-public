@@ -1,0 +1,218 @@
+{
+  "schema": "selection-local-launch-failure-request.v1",
+  "status": "READY_FOR_ROOT_REVIEW_NOT_ARCHIVED",
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/launch.json",
+      "sha256": "b5789b5624653fb4054a87b2929fe8736ee9b4f703e4032c599c27ea84e98bdd",
+      "bytes": 1757
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/failure.json",
+      "sha256": "26e5bfbf74faddab1a4b9b71ebf642865fba09d0b1227f0d881472735295e566",
+      "bytes": 2152
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/stderr.json",
+      "sha256": "869f0405b651712fc588a08c068ceb8bbebbdd58eed349b112e6abc104ea6eeb",
+      "bytes": 255
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/visible-events.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "runs/github-selection-20261018/local-launch-failure-002/preserved-attempt-002/launch.json",
+      "sha256": "b5789b5624653fb4054a87b2929fe8736ee9b4f703e4032c599c27ea84e98bdd",
+      "bytes": 1757
+    },
+    {
+      "path": "runs/github-selection-20261018/local-launch-failure-002/preserved-attempt-002/failure.json",
+      "sha256": "26e5bfbf74faddab1a4b9b71ebf642865fba09d0b1227f0d881472735295e566",
+      "bytes": 2152
+    },
+    {
+      "path": "runs/github-selection-20261018/local-launch-failure-002/preserved-attempt-002/stderr.json",
+      "sha256": "869f0405b651712fc588a08c068ceb8bbebbdd58eed349b112e6abc104ea6eeb",
+      "bytes": 255
+    },
+    {
+      "path": "runs/github-selection-20261018/local-launch-failure-002/preserved-attempt-002/visible-events.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "runs/github-selection-20261018/local-launch-failure-002/FAILURE_INSPECTION.json",
+      "sha256": "5a10b34c4de10941abb1131295e42f52d52c9802116cfc743052a8c149ab0e8f",
+      "bytes": 6265
+    },
+    {
+      "path": "runs/github-selection-20261018/local-launch-failure-002/STOP_DISPOSITION.json",
+      "sha256": "b967afb819cc360414a4f50797e49b218a6513cf6207d866ca2a6432370f3477",
+      "bytes": 2593
+    },
+    {
+      "path": "runs/github-selection-20261018/local-launch-failure-002/STOP_ORIGINAL.json",
+      "sha256": "71ea6844970a93fd10834a38faa9bab19c430de27ac56f84f3ee398f25fdaa6f",
+      "bytes": 154
+    },
+    {
+      "path": "runs/github-selection-20261018/local-launch-failure-002/DISPATCH_SNAPSHOT.jsonl",
+      "sha256": "1732ddbe6f75f839c36a1c9aa135aa3bb7d22e4ea52d16f5623dde9912c3f922",
+      "bytes": 248
+    }
+  ],
+  "preconditions": {
+    "active_stop_matches": {
+      "path": "runs/github-selection-20261018/local-launch-failure-002/STOP_ORIGINAL.json",
+      "sha256": "71ea6844970a93fd10834a38faa9bab19c430de27ac56f84f3ee398f25fdaa6f",
+      "bytes": 154
+    },
+    "original_attempt_files_match": [
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/launch.json",
+        "sha256": "b5789b5624653fb4054a87b2929fe8736ee9b4f703e4032c599c27ea84e98bdd",
+        "bytes": 1757
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/failure.json",
+        "sha256": "26e5bfbf74faddab1a4b9b71ebf642865fba09d0b1227f0d881472735295e566",
+        "bytes": 2152
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/stderr.json",
+        "sha256": "869f0405b651712fc588a08c068ceb8bbebbdd58eed349b112e6abc104ea6eeb",
+        "bytes": 255
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/visible-events.jsonl",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    ],
+    "replacement_ready_receipt": {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/M12-N2/READY_RECEIPT.json",
+      "sha256": "df41ac58cccc2d196a033e8f9c0f05d9521330ee9d9cf8ae8f777554ef845e5e",
+      "bytes": 5182
+    },
+    "original_failure_receipt": {
+      "path": "runs/final-selection-20261018/capacity-recovery-001/ARCHIVE_RECEIPT.json",
+      "sha256": "6e796b5ac8a7cb0c0fb9a2208fc52917c7d59560955262dd8bccc2f3771a70bf",
+      "bytes": 2225
+    },
+    "no_model_or_archive_called_during_preparation": true
+  },
+  "delivery_key": "final-selection-20261018:M12-N2:local-launch-failure:attempt-002:v1",
+  "event": {
+    "kind": "research.selection.local_launch_failure",
+    "timestamp": "2026-10-19T05:36:07.481568+00:00",
+    "actor": {
+      "id": "01a1496a-7b42-7a11-b00a-11d33df80222",
+      "role": "AI"
+    },
+    "session_id": "01a1496a-7b42-7a11-b00a-11d33df80222",
+    "run_id": "final-selection-20261018",
+    "operation_id": "final-selection-20261018:local-launch-failure-M12-N2",
+    "attempt_id": "M12-N2-local-init-002",
+    "bindings": {
+      "config": [
+        "578d187b94037bcc7aa0bb850ccc101e4fef06e12b927ce6e3b7e98e7724094e",
+        "1c1b905c658a2d523a9f5a1f2921b4bacdc8925e453f36f66aa092cc6e76dc1d",
+        "1ccc652e4d3d508085bc2f9e9d590e6022abc235750b5f646763084ff2b52a91",
+        "a4fae709bd66d0596b31f1e724ba232699c3a14711b64edd9f1b2754ce27bd85",
+        "c5d93b3a678c9148f382174a3109ca0bb729424c9dbdf62534d65beec49b5c80",
+        "4d1555ad01f38c659535656d5e38d9f76f82821dc0aa1dba6aa1f56435750f6e",
+        "4db69ef31dd249c15a6f638115a4e0f13e9bd22756b3eb0c5ad111d423c61513",
+        "6b26b8aa5d9f9f5f6f462c697955865ef42f57818c9df0bb66ab5e4fb7057fdf"
+      ],
+      "input": [
+        "78cc2cb638b752bd64f788ae57b67e45145067684857103d78a848959f632433",
+        "5687a495b177c1dab32daabe906541512fd175557fce99f4535c40f46d8baa3b",
+        "d43f98791049633a6f3d4f9ab688b5fca5512630289b0eaf59bdae0ade9a7089",
+        "628558a362393d00dc4d0c31c27d359b2e0e2f5ba75526d1f7fdac6c68616c38"
+      ],
+      "instruction": [
+        "8eab94a79e5e7bb7dd420e5cba37cf710d57dc052ff7ea000796777f8abc537d",
+        "36e27864278b7ae00d11472a56680a524b61616de71b4338885d95e6ddba207d",
+        "41a825485adb72a37624ec96056efb9a8995b723e68d17f37c0b152644cef57b",
+        "d3a75eb7b14cbb1ae0d0e854509282937365433719bd66b220714c9b26591c61"
+      ],
+      "method": [
+        "e03e6302846b0303e2482485f61769c907da65b8747ec81a92bfd997394abb4f"
+      ]
+    },
+    "parents": [
+      "event-3a08660ab4024183b9acf41dc1fb7907",
+      "event-a1680030dedf4368a548920cef5e7e30",
+      "event-b3519057c6a24486bca718c999d0a20e"
+    ],
+    "outputs": [
+      "b5789b5624653fb4054a87b2929fe8736ee9b4f703e4032c599c27ea84e98bdd",
+      "26e5bfbf74faddab1a4b9b71ebf642865fba09d0b1227f0d881472735295e566",
+      "869f0405b651712fc588a08c068ceb8bbebbdd58eed349b112e6abc104ea6eeb",
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "5a10b34c4de10941abb1131295e42f52d52c9802116cfc743052a8c149ab0e8f",
+      "b967afb819cc360414a4f50797e49b218a6513cf6207d866ca2a6432370f3477",
+      "71ea6844970a93fd10834a38faa9bab19c430de27ac56f84f3ee398f25fdaa6f",
+      "1732ddbe6f75f839c36a1c9aa135aa3bb7d22e4ea52d16f5623dde9912c3f922"
+    ],
+    "model": {
+      "status": "unknown",
+      "reason": "Requested Astra/ultra/default is known, but no model session configuration was observed after local initialization failed."
+    },
+    "cost": {
+      "status": "unknown",
+      "reason": "No backend usage or request telemetry is available for this local launch."
+    },
+    "payload": {
+      "status": "LOCAL_LAUNCH_FAILURE_PRESERVED",
+      "logical_job_id": "M12-N2",
+      "physical_attempt": 2,
+      "session_id": null,
+      "original_input_event_id": "event-3a08660ab4024183b9acf41dc1fb7907",
+      "replacement_ready_event_id": "event-a1680030dedf4368a548920cef5e7e30",
+      "preserved_capacity_failure_event_id": "event-b3519057c6a24486bca718c999d0a20e",
+      "failure_kind": "local_app_server_initialization_permission_error",
+      "files": [
+        {
+          "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/launch.json",
+          "sha256": "b5789b5624653fb4054a87b2929fe8736ee9b4f703e4032c599c27ea84e98bdd",
+          "bytes": 1757
+        },
+        {
+          "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/failure.json",
+          "sha256": "26e5bfbf74faddab1a4b9b71ebf642865fba09d0b1227f0d881472735295e566",
+          "bytes": 2152
+        },
+        {
+          "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/stderr.json",
+          "sha256": "869f0405b651712fc588a08c068ceb8bbebbdd58eed349b112e6abc104ea6eeb",
+          "bytes": 255
+        },
+        {
+          "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/visible-events.jsonl",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      ],
+      "inspection": {
+        "path": "runs/github-selection-20261018/local-launch-failure-002/FAILURE_INSPECTION.json",
+        "sha256": "5a10b34c4de10941abb1131295e42f52d52c9802116cfc743052a8c149ab0e8f",
+        "bytes": 6265
+      },
+      "stop_disposition": {
+        "path": "runs/github-selection-20261018/local-launch-failure-002/STOP_DISPOSITION.json",
+        "sha256": "b967afb819cc360414a4f50797e49b218a6513cf6207d866ca2a6432370f3477",
+        "bytes": 2593
+      },
+      "assistant_visible_records": 0,
+      "final_records": 0,
+      "review_accepted": false,
+      "model_call_count": "UNKNOWN",
+      "backend_not_contacted_claimed": false,
+      "automatic_retry": false,
+      "active_stop_retained": true
+    }
+  }
+}

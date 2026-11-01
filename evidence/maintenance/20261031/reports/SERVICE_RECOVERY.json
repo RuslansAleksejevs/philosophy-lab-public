@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "service_healthy": true,
+  "service_loaded": true,
+  "launchd_pid": 14326,
+  "snapshot_pid": 14326,
+  "service_started_at": "2026-10-31T08:00:16.169783+00:00",
+  "checked_at": "2026-10-31T08:47:46.024423+00:00",
+  "snapshot_status": "RUNNING",
+  "fresh": true,
+  "age_seconds": 2386.35,
+  "discovered_sessions": 3671,
+  "chat_sessions": 3355,
+  "internal_excluded_sessions": 316,
+  "changed_sessions": 5,
+  "elapsed_seconds": 4373.586163,
+  "archive_event_count": 580737,
+  "coverage_summary": {
+    "coverage_healthy": false,
+    "unresolved_gap_count": 1288,
+    "sessions_with_gaps": 218,
+    "tool_schema_gap_count": 231,
+    "text_or_unknown_gap_count": 1057,
+    "pending_tool_records": 85560,
+    "sessions_with_errors": 0,
+    "error_sessions_without_cursor": 0,
+    "counts_include_last_committed_cursors": false
+  },
+  "errors": [],
+  "boundary": "Operational service recovery only. Historical source-schema, attachment and unreviewed-tool gaps remain explicit; no complete provider-capture claim.",
+  "display": {
+    "schema_complete": true,
+    "session_count": 3384,
+    "gap_count": 1,
+    "sessions_with_gaps": 1,
+    "body_of_unsupported_originals_rendered": false,
+    "missing_current_session_views": [],
+    "original_failure_is_explicit_gap": true
+  },
+  "runtime_snapshot_sha256": "029fc0dc04b3c5dbd07240c06fd5a70e7859a53a571ad7f031696641b3c6bd24"
+}

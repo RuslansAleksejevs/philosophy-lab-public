@@ -1,0 +1,60 @@
+{
+  "review_id": "M21-N1",
+  "manuscript_id": "M21",
+  "profile_id": "neutral",
+  "read_complete": true,
+  "thesis": "Retaining meaningful review of delegated recommendations requires usable access to relevant reasons when the recommendation process overlooks them. An override alone is insufficient. The required access depends on the reviewer's task, the failures under consideration, and whether review concerns individual decisions or an ongoing practice.",
+  "contribution": "The manuscript offers a credible, modest refinement of informed human control: informational independence should be assessed relative to the error being reviewed, rather than by counting separate systems or organizations. It also distinguishes evidence sufficient for auditing a practice from evidence sufficient for timely individual appeal. These distinctions support a useful diagnostic for misleading claims of retained human review. Their conceptual value is clearer than their originality or broader theoretical significance.",
+  "argument_map": [
+    "Premise: Retaining review involves a practical ability to reconsider recommendations for relevant reasons. Merely being able to produce a different outcome, including by random refusal, does not establish this ability.",
+    "Premise: Exercising that ability requires a sufficiently reliable and timely opportunity to encounter the considerations falling within the review task. Authority, technical competence, and explanations cannot compensate for structurally inaccessible evidence.",
+    "Central case: If a scheduler's judgment that a request is irrelevant also prevents the reviewer from encountering it, that judgment blocks the evidence needed to question itself. The paired theatres isolate this dependence while holding observed performance and override authority constant.",
+    "Inference: An arrangement cannot support review of that exclusion adequately if access requires the disputed classification to have already been corrected. The conclusion concerns the specified review function, not the disappearance of every form of agency.",
+    "Refinement: An unfiltered inbox within one product can support this review, while a second company's tool receiving only filtered summaries cannot. Independence concerns the relevant failure, rather than ownership or complete freedom from shared dependencies.",
+    "Scope and objections: Sampling original requests may support practice-level review without providing individual redress. Fallible checks and tool self-criticism remain admissible; informed authorization and better average outcomes can justify delegation without establishing continuing review."
+  ],
+  "strongest_merit": {
+    "location": "“Why the route matters,” paragraphs 4–8; “The strongest objection: all judgment depends on something,” paragraphs 2–6.",
+    "reason": "The argument makes its requirement discriminating without demanding impossible independence. It accommodates internal checking, explains why filtered evidence can defeat external checking, and separates classification failures from shared intake failures. Its proposed omission test connects the conceptual claim to observable capacities while expressly limiting what success establishes. Together with the audit–appeal distinction, this supports the strong argument score: substantial objections are answered without abandoning the central condition."
+  },
+  "concerns": [
+    {
+      "severity": "open",
+      "kind": "scope",
+      "location": "“Why the route matters,” paragraphs 2–4; “The strongest objection: all judgment depends on something,” paragraphs 5–6.",
+      "excerpt": "The required reliability depends on the stakes, time available, and kind of mistake.",
+      "reason": "The conditional requirement is persuasive, but its application depends on selecting an appropriate class of failures and standard of adequacy. A channel can be reliable across care requests generally while systematically missing a rare subtype. Describing the task broadly or narrowly can therefore change the verdict. The manuscript supplies relevant factors but does not explain when a persistent blind spot defeats retained review rather than constituting an acceptable limitation. This restricts the criterion's evaluative reach without defeating the theatre example.",
+      "text_response": "The manuscript explicitly assumes a defensible review task, rejects both mere possibility and guaranteed success, recognizes degrees of control, and acknowledges that no finite arrangement withstands every correlated failure. These concessions appropriately bound the claim but leave the selection problem open.",
+      "discriminating_check": "Hold the review obligation and stakes fixed. Compare equally accurate channels where one misses requests randomly and the other always misses a rare, equally serious care need. Explain whether their review capacities differ and which justified feature determines that verdict."
+    },
+    {
+      "severity": "minor",
+      "kind": "significance",
+      "location": "“What the existing accounts already establish,” paragraphs 1, 4–5.",
+      "excerpt": "The test is whether the route to the reviewer remains adequate under the error being reviewed.",
+      "reason": "The manuscript identifies a useful specification, but does not establish how much additional philosophical work it performs beyond the tracking and alternative-information requirements it attributes to predecessors. Its examples demonstrate the specification's intelligibility and usefulness; they do not alone demonstrate a substantial theoretical advance. This supports a worthwhile but modest significance score.",
+      "text_response": "The manuscript candidly acknowledges that failure-sensitive tracking is already present in existing work and calls its proposals limited refinements. Its best answer is the distinction between organizational separation and dependence on a particular error, supplemented by the distinction between individual review and auditing.",
+      "discriminating_check": "Apply the predecessor conditions, as reconstructed in the manuscript, to the same-product inbox and filtered external-review cases. Identify whether the proposed refinement resolves an ambiguity, adds a substantive constraint, or mainly makes an existing implication easier to apply."
+    }
+  ],
+  "scores": {
+    "overall": 3,
+    "argument": 4,
+    "significance": 3,
+    "originality": null
+  },
+  "originality_limit": "The packet supports identifying a candidate refinement, not establishing its novelty. The manuscript's explicit acknowledgments provide evidence of overlap, while the comparative examples provide evidence of useful specification. Neither establishes historical priority. External source correctness and exhaustive novelty were not checked.",
+  "recommendation": "borderline",
+  "reason_ru": [
+    "Эссе убедительно показывает: право отклонить решение мало помогает, если программа скрывает причины для пересмотра.",
+    "Полезный результат — различение проверки отдельных решений и проверки работы системы в целом, а также независимости от конкретной ошибки.",
+    "Рекомендация пограничная: аргумент сильный, но вклад умеренный, а его отличие от уже известных подходов показано не полностью."
+  ],
+  "confidence": "medium",
+  "profile_basis": [],
+  "limits": [
+    "The entire supplied manuscript, including its bibliography, was read.",
+    "Assessment used only the supplied packet; linked sources were not consulted.",
+    "Source accuracy remains unverified, not demonstrated incorrect; originality remains unresolved."
+  ]
+}

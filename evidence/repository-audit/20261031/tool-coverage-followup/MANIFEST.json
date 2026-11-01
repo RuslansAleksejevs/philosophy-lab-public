@@ -1,0 +1,51 @@
+{
+  "status": "BOUNDED_READ_ONLY_FOLLOWUP_COMPLETE",
+  "files": [
+    {
+      "path": "CONTENT_ONLY_MATCH_GROUPS.json",
+      "sha256": "20a46306590ff2848490814a656d0a957adfb20ae19d6a6b7f068cf69a24d880",
+      "bytes": 2955573
+    },
+    {
+      "path": "EXACT_CALL_PAYLOAD_MATCHES.json",
+      "sha256": "4d3de72a470a6b3daf62b977585550fb368cae18039a23a8f7a58e76494048fd",
+      "bytes": 1721876
+    },
+    {
+      "path": "INTERPRETATION.json",
+      "sha256": "5c5414a90bd56804bdc90ad97b1d536ad0de93eb0e635cc6e360849a03d398b6",
+      "bytes": 1049
+    },
+    {
+      "path": "NATIVE_PREFIXES.json",
+      "sha256": "c7a1649c9245bd02f4f07391cf03a4a45dd76f32ca3301d43ab2a31abbd81204",
+      "bytes": 20227
+    },
+    {
+      "path": "README.md",
+      "sha256": "b3d0f6905ca2201c8e2fdd4275e141d945fdc47a6b0a75325fe435d8075ad894",
+      "bytes": 2351
+    },
+    {
+      "path": "REPORT.json",
+      "sha256": "26ccf1c7709e8ba5f0a9543636ad2041ffd10ba93d803bdab7bcdf33d54b8eba",
+      "bytes": 4671
+    },
+    {
+      "path": "audit.py",
+      "sha256": "2095c5bad3df0c2ffb7355f6910001fda2ac0a5e4fea888565f9e17f50c3c6ca",
+      "bytes": 15146
+    },
+    {
+      "path": "test_audit.py",
+      "sha256": "23573f6df75895ee4451e8bf0ade1377e56e433a6fff15ddfd71855b35a7feff",
+      "bytes": 2561
+    }
+  ],
+  "tests_passed": 7,
+  "previous_tool_coverage8_files_and_manifest_unchanged": true,
+  "canonical_writes": 0,
+  "new_native_cutoffs": 0,
+  "body_exports": 0,
+  "provider_or_service_calls": 0
+}

@@ -1,0 +1,34 @@
+[← Current selection](../../docs/selection.md) · [Evidence index](../README.md)
+
+# Final selection evidence · October 17, 2026
+
+This bundle records the agreed route from 22 candidates to three essays and two reserves, the first candidate inventory, and its correction. The [English account](../../docs/selection.md) explains the decisions. The original working reports are in Russian.
+
+| Record | What it establishes |
+| --- | --- |
+| [Accepted workflow](workflow/decision.json) · [plan](workflow/workflow-ru.md) · [user request](workflow/user-request-ru.txt) | Six steps, eight main places plus two wildcard places at ten, then three essays and two reserves. No fixed calendar or division into chats. The plan is a snapshot from before step 1. |
+| [Initial decisions](initial/decisions.json) · [report](initial/report-ru.md) · [receipt](initial/FINAL_RECEIPT.json) | Historical result: 13 keep, eight revise, one defer. Preserved so the correction can be traced. |
+| [Current decisions](current/decisions.json) · [readable report](current/report-ru.md) · [receipt](current/FINAL_RECEIPT.json) | Current result: 13 keep, nine targeted tasks, none deferred. E086 moves to a stronger-example task because its earlier distinction from E074 was insufficiently justified. |
+| [Manifest](manifest.json) | Source and export hashes; all 32 bound versions; exact repository locations; receipt and input checks; the three completion events and their recording times. |
+
+The corrected report changes the explanation and one coordinator decision. It does not change a manuscript or start step 2. Its completed-task status is `CLARIFICATION_COMPLETE_BOUNDED`.
+
+## Which R1?
+
+E036, E050, and E078 each have two historical R1 files. The earlier repository export keeps the author's output under `essays/E*/revision-R1.md`. The selection register instead binds the blinded comparison copy, which changes how supplied source descriptions are worded. This bundle adds those exact comparison copies without replacing the author outputs:
+
+| Essay | Bound comparison copy | Preserved author output |
+| --- | --- | --- |
+| E036 | [Comparison R1](manuscripts/E036-R1-comparison.md) | [Author R1](../../essays/E036/revision-R1.md) |
+| E050 | [Comparison R1](manuscripts/E050-R1-comparison.md) | [Author R1](../../essays/E050/revision-R1.md) |
+| E078 | [Comparison R1](manuscripts/E078-R1-comparison.md) | [Author R1](../../essays/E078/revision-R1.md) |
+
+E036’s original and comparison R1 both remain open. E050 and E078 bind comparison R1. F01–F06 and S02 bind their existing `releases/v1/R1.md` copies under `essays/post-midterm/`. The remaining E-series candidates bind their originals.
+
+## Preservation and verification
+
+The export checked all 105 immutable run-local files listed across the three completion receipts, the 229 initial inputs, the 232 correction inputs, and all 32 manuscript-version fingerprints. All matched. The three canonical completion events also match their receipt IDs and hashes; their timestamps are archive recording times, not inferred research times.
+
+JSON records, completion events, requests, workflow, and manuscripts retain their source bytes. In the two Russian reports, machine-specific absolute paths are replaced by working manuscript links or labeled archive-relative references. Their prose is unchanged; the manifest records both hashes and this transformation. These path references identify supporting local evidence and do not claim that every referenced report or source reading is copied here. Existing logs remain in [the log archive](../../logs/README.md).
+
+The manifest lists the 23 copied or path-adjusted source files. This README and the manifest are new export documentation. Mutable top-level laboratory navigation is represented by its historical fingerprints, not checked against its later live state. No research roles were rerun for this export.

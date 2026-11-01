@@ -1,0 +1,341 @@
+{
+  "audit_id": "V09-L",
+  "manuscript_id": "V09",
+  "role": "literature",
+  "manuscript_sha256": "f640e52f1fbccb6a085f1703c912f07b5084336ea5b52de5b15ec49e6e2e775a",
+  "read_complete": true,
+  "thesis": "The three conviction probabilities do not, by themselves, identify whether any judge completely removed the forbidden consideration from deliberation because of the rule. The strongest defensible argument grants comparable baselines and genuine rule-guided discounting, then constructs two populations with identical observable rates but different incidences of complete exclusion. It expressly leaves open successful guidance under a broader, action-based account.",
+  "claimed_contribution": "A targeted non-identification argument concerning Sekine’s interpretation of one judicial experiment: an explicit mixture model and a universal partial-discounting model reproduce the same rates, and specified extensions remain equivalent across a range of evidence strengths. The manuscript acknowledges that observational-equivalence methods, discounting versus discarding, and decisions versus their motivating bases are inherited.",
+  "assessment": "NO_MAJOR_DEFECT_FOUND",
+  "findings": [
+    {
+      "id": "L1",
+      "severity": "minor",
+      "manuscript_location": "What the Verdict Does Not Tell Us — paragraph beginning “In §3”: “Footnote 43 explicitly leaves room for guidance by exclusionary reasons beyond excluding the target reasons”; subsequent discussion of broader guidance.",
+      "claim": "The discussion has a direct philosophical predecessor that is acknowledged only indirectly through Sekine’s footnote.",
+      "analysis": "Ehrenberg distinguishes guidance from accidental conformity and explains how exclusionary reasons can guide action contrary to their valence. He also distinguishes deliberative assessment from membership in the reasons motivating action. These arguments directly inform the manuscript’s scope restriction. Sekine’s note 43 explicitly credits him. A direct citation would clarify this intellectual relationship. This is a bibliographic omission, not a false attribution or a refutation. Ehrenberg’s account does not itself establish that residual-weight Model B satisfies successful exclusion. See [Ehrenberg, pp. 72–75](https://www.tandfonline.com/doi/pdf/10.1080/20403313.2023.2297581).",
+      "status": "demonstrated",
+      "effect_on_conclusion": "The numerical result survives. The distinction between successful guidance and a verdict’s direction should be presented as inherited; the manuscript’s application to its particular models remains separate.",
+      "repair_conditions": "Cite Ehrenberg directly and distinguish his account of motivational exclusion from the manuscript’s deliberately unresolved interpretation of rule-caused partial discounting.",
+      "source_ids": [
+        "S1",
+        "S8"
+      ]
+    },
+    {
+      "id": "L2",
+      "severity": "minor",
+      "manuscript_location": "What the Verdict Does Not Tell Us — “The general method of comparing models with the same observable implications is inherited”; equations “q × 0.491 + (1 − q) × 0.077” and “P(x > kd) = 0.491 − kd.”",
+      "claim": "There are close methodological parallels beyond the cited literature, although neither inspected parallel establishes this manuscript’s specific result.",
+      "analysis": "Yoo shows how latent classes interpreted as ignoring attributes can instead approximate unmodelled heterogeneity, including simulations without actual non-attendance; see [§§II–III](https://research.economics.unsw.edu.au/RePEc/papers/2012-47.pdf). Allen proves observational equivalence between full and limited consideration models over bounded utility variation; see [§3, Proposition 1](https://arxiv.org/html/2405.13945v1). These are substantive parallels concerning identification of an unobserved decision process. Their objects differ: consumer attributes or available alternatives, rather than rule-guided removal of an acquired reason. Yoo’s simulations also differ from exact population equivalence. The manuscript already disclaims novelty for the general method, so this is a modest positioning gap.",
+      "status": "demonstrated",
+      "effect_on_conclusion": "The contribution remains an application and explicit construction, not a new general method for distinguishing ignored considerations from weakly weighted ones. No inspected source displaces the specific judicial application.",
+      "repair_conditions": "Briefly locate the construction beside relevant identification literature and explain the differences in objects, assumptions, and evidential targets. Do not describe the manuscript as a direct corollary without supplying a formal mapping.",
+      "source_ids": [
+        "S9",
+        "S10"
+      ]
+    }
+  ],
+  "surviving_contribution": "Under the heading “What the Verdict Does Not Tell Us,” the equations and paired-model table establish a specific inferential limit: 49.1%, 7.7%, and 20% are compatible both with approximately 29.7% complete excluders and with none. The variation argument adds that the specified models agree throughout 0 ≤ d ≤ 0.491 but diverge at d = 0.6. These calculations are internally consistent on inspection. After accounting for the predecessors, the distinct remainder is their application to this experiment and to the precise philosophical achievement being measured. The result concerns compatibility and identification, not the actual prevalence of exclusion, equal model plausibility, or the impossibility of broader guidance. I did not locate this complete application in the primary texts inspected; that is a limited-search conclusion.",
+  "remaining_questions": [
+    "Under “What the Verdict Does Not Tell Us,” “A defender might count this as successfully refraining from an acquittal for the prohibited reason” remains an open interpretive question. What account of guided nonperformance licenses that classification? The manuscript correctly makes its narrow result independent of the answer.",
+    "Under “What the Verdict Does Not Tell Us,” “Its description also invites a stronger interpretation” identifies an interpretive choice rather than an explicit definition supplied by Sekine. How much argumentative importance should attach to correcting that stronger reading once the broader defence is conceded?",
+    "Under “What the Verdict Does Not Tell Us,” the extension fixes q and k while varying d. Whether any practical manipulation preserves these parameters and the baseline distribution is unanswered. The manuscript explicitly presents this as an illustration, so this is not a demonstrated defect.",
+    "Rocchè’s full argument could not be inspected. Its relationship to the manuscript’s narrow empirical correction remains unresolved, despite its direct place in Sekine’s discussion."
+  ],
+  "limitations": [
+    "The complete supplied manuscript, including its bibliography, was read. The supplied hash was retained without recomputation.",
+    "Four cited works were checked in publisher or institutional full text. For Wistrich, Guthrie and Rachlinski, institutional identity records opened, but their PDF links failed. The relevant original-paper passages were read in a public third-party transcription; they were not checked against a publisher scan. Those citation checks are therefore marked partially_verified.",
+    "Rocchè’s institutional record and abstract opened, but the repository PDF returned 403, OpenEdition presented a bot challenge, and ResearchGate supplied no full text. No conclusion about his detailed argument or the absence of a matching construction is warranted.",
+    "Search results were used to locate texts, not as substitutes for reading them. Unopened results were not counted as inspected predecessors.",
+    "The search covered several formulations and adjacent literatures but was not exhaustive. No claim of comprehensive originality, priority, or absence of further predecessors is made.",
+    "Published experimental reporting was checked; underlying participant data were not obtained, and the reported Fisher test was not independently recomputed.",
+    "Only public web research was used. No agents, local files, shell tools, project history, private sources, author contact, manuscript modification, or publication actions were used."
+  ],
+  "plain_summary_ru": [
+    "Серьёзных ошибок в ссылках и основном выводе я не нашёл, но часть проверки опиралась на неофициальную копию статьи.",
+    "Главный вклад текста — показать на двух моделях, что одинаковые доли приговоров не доказывают полного исключения запрещённого довода.",
+    "Общий подход уже встречался в других работах, а полную новизну этого примера ограниченный поиск подтвердить не может."
+  ],
+  "novelty_status": "DISTINCT_REMAINDER_WITH_LIMITED_SEARCH",
+  "search_log": [
+    {
+      "query": "Direct opening of all five bibliography links and the Hoeft publication DOI.",
+      "purpose": "Establish source identity and initial access.",
+      "result_summary": "Wittlin’s publisher PDF and Hoeft’s working paper opened. The Penn repository returned a document shell. Sekine’s and Keeling’s DOI routes failed initially; Hoeft’s publication DOI failed through Elsevier. Successful full-text alternatives are recorded in S1, S5 and S7."
+    },
+    {
+      "query": "\"Sekine\" \"In Defence of Second-Order Reasons\"; \"Sophie Keeling\" \"Responding to Second-Order Reasons\" pdf; \"Can Judges Ignore Inadmissible Information\" pdf Wistrich Guthrie Rachlinski; \"Norms as Obligations\" 81 106235",
+      "purpose": "Locate primary full texts and confirm bibliography identities.",
+      "result_summary": "Opened Cambridge’s article, UNED’s Keeling PDF, SSRN’s Wistrich record attempt, and Mannheim’s Hoeft record attempt. Cambridge and UNED supplied text; SSRN returned 403 and Mannheim a bot challenge. The Mannheim URL was https://madoc.bib.uni-mannheim.de/68498/."
+    },
+    {
+      "query": "\"Can Judges Ignore Inadmissible Information\" \"pdf\" site:edu; \"exclusionary reasons\" \"discounting\" judges; \"inadmissible evidence\" \"discarding\" \"discounting\"",
+      "purpose": "Search the precise distinction and locate the original experiment.",
+      "result_summary": "Results mixed legal-philosophical discussion with irrelevant uses of discounting. Wittlin’s actual pp. 1759–60 were subsequently opened and read. Search hits alone were not treated as established overlap."
+    },
+    {
+      "query": "Wistrich Guthrie Rachlinski 2005 1251 1345 pdf inadmissible; \"Norms as obligations\" \"sciencedirect.com/science/article/pii/S0144818824000553\"",
+      "purpose": "Resolve experimental-paper and publication access.",
+      "result_summary": "Opened Cornell and Vanderbilt institutional records. Their download links returned 403: https://scholarship.law.cornell.edu/cgi/viewcontent.cgi?article=1019&context=lsrp_papers and https://scholarship.law.vanderbilt.edu/cgi/viewcontent.cgi?article=1731&context=faculty-publications. Adding the repositories’ conventional httpsredir/referer parameters also failed."
+    },
+    {
+      "query": "\"Giuseppe Rocché\" \"Exclusionary Reasons and Mental Contamination\"; \"Ehrenberg\" \"exclusionary reasons\" 72 74; \"observational equivalence\" \"inadmissible evidence\"; \"discarding\" \"discounting\" \"judges\" evidence",
+      "purpose": "Follow Sekine’s cited predecessors and independently search the manuscript’s identification claim.",
+      "result_summary": "Located Rocchè and Ehrenberg. Opened Rocchè’s institutional record and Ehrenberg’s publisher PDF. The latter was read through pp. 71–76. The equivalence search did not establish an exact predecessor."
+    },
+    {
+      "query": "\"Can Judges Ignore\" filetype:pdf 1302; \"Norms as obligations\" 106235 site:mpg.de; \"inadmissible\" \"all-or-none\" judges evidence; \"inference\" \"latent\" \"attribute non-attendance\" choice identification",
+      "purpose": "Search alternative terminology for complete exclusion and mixture inference.",
+      "result_summary": "Found and opened Hoeft’s published article at Max Planck and Yoo’s institutional working paper. Yoo supplied a close methodological comparison. Other attribute-attendance search hits were not counted as read."
+    },
+    {
+      "query": "\"Rocchè\" \"mental contamination\" pdf; \"Wistrich\" \"1302\" \"55\" \"35\"",
+      "purpose": "Recover the direct philosophical predecessor and verify reported counts.",
+      "result_summary": "No additional accessible institutional full text was secured. https://journals.openedition.org/revus/pdf/10412 failed. The later original-paper transcription supplied the count passages."
+    },
+    {
+      "query": "\"Can Judges Ignore Inadmissible Information\" pdf -site:researchgate.net -site:scribd.com -site:papers.ssrn.com; \"wistrich\" \"inadmissible\" \"pdf\" \"2005\" site:law.vanderbilt.edu; \"Exclusionary reasons and mental contamination\" site:philarchive.org; \"Exclusionary reasons and mental contamination\" site:journals.openedition.org/revus/10412",
+      "purpose": "Prefer publisher and institutional copies over third-party reproductions.",
+      "result_summary": "Opened the Penn Law Review article record. Its PDF link, https://scholarship.law.upenn.edu/cgi/viewcontent.cgi?article=1337&context=penn_law_review, redirected unsuccessfully. OpenEdition’s ?lang=en variant also returned a bot challenge."
+    },
+    {
+      "query": "\"Can Judges Ignore Inadmissible Information\" \"file\" pdf; \"Exclusionary reasons and mental contamination\" \"pdf\" -site:researchgate.net -site:iris.unipa.it -site:philarchive.org -site:cambridge.org; \"observational equivalence\" \"exclusionary reasons\"; \"judges\" \"partial discounting\" evidence",
+      "purpose": "Search exact philosophical-methodological combinations and remaining access routes.",
+      "result_summary": "No exact matching construction was established. https://www.jstor.org/stable/4150614 and its /stable/pdf/4150614.pdf route returned no readable article. The SSRN delivery URL also returned 403."
+    },
+    {
+      "query": "\"choice probabilities\" \"zero\" \"attention\" \"identification\" random attention; \"excluding\" \"reasons\" \"observationally equivalent\"; \"Wistrich\" \"confidence\" \"1301\"",
+      "purpose": "Expand to latent attention, observational equivalence, and the confidence claim.",
+      "result_summary": "Located Allen’s consideration-set result. Opened the vLex original-paper preview and Scribd transcription for Wistrich. The transcription contained the relevant experiment, appendix and footnotes; vLex’s preview did not reach those passages."
+    },
+    {
+      "query": "\"Exogenous consideration and extended random utility\" pdf; \"observational equivalence\" \"discarding\" evidence; \"exclusionary reasons\" \"conviction\" \"model\"",
+      "purpose": "Inspect the strongest newly located formal parallel and check for the specific application.",
+      "result_summary": "Opened Allen’s arXiv record and full HTML. Read model definitions and §§3–3.1, including Propositions 1–2. The publisher DOI route failed. No inspected source supplied the manuscript’s paired judicial construction."
+    },
+    {
+      "query": "Within-source searches and targeted opens: “49.1”, notes 39–43, “3.2.4”, “143.”, “Fisher”, “confidence”, “1336”, “probative”, “admitted”, “1283”, and “3 Experimental”/“6 Discussion”.",
+      "purpose": "Check precise attributions, experimental details, and source locations.",
+      "result_summary": "Read the relevant passages listed in S1–S7. PDF screenshot requests did not provide usable additional evidence; Hoeft screenshot requests timed out. Conclusions rely on opened text, with the transcription limitation stated separately."
+    },
+    {
+      "query": "Additional direct access attempts for Rocchè, Wistrich and Hoeft.",
+      "purpose": "Document unavailable evidence without treating it as false.",
+      "result_summary": "Rocchè’s PDF at https://iris.unipa.it/retrieve/efef7f74-e3b4-4c13-bcba-312dc133952e/Rocch%C3%A8%20-%20Exclusionary%20Reasons%20and%20Mental%20Contamination.pdf returned 403; https://journals.openedition.org/revus/10412 presented a challenge; the ResearchGate article record explicitly lacked full text. https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=696781 and its delivery route failed. https://www.sciencedirect.com/science/article/pii/S0144818824000553 returned 403; S7 resolved that publication check."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Sekine, Kenta. 2026. “In Defence of Second-Order Reasons.” Canadian Journal of Law & Jurisprudence 39(1): 200–223.",
+      "url": "https://www.cambridge.org/core/journals/canadian-journal-of-law-and-jurisprudence/article/in-defence-of-secondorder-reasons/D56F92244ED38017F40338C7869A9121",
+      "primary_source": true,
+      "access_level": "Publisher full text; initial DOI opening failed, direct article opening succeeded.",
+      "locations_read": "Publication information; §3’s discussion of psychological control and the judicial experiment; notes 39–43; surrounding argument.",
+      "relevant_result": "Confirms the empirical inference and its qualifications. Notes 40 and 43 identify Rocchè and Ehrenberg as direct antecedents."
+    },
+    {
+      "id": "S2",
+      "citation": "Wittlin, Maggie. 2023. “Binding Hercules: A Proposal for Bench Trials.” Vanderbilt Law Review 76: 1735–1768.",
+      "url": "https://cdn.vanderbilt.edu/vu-wordpress-0/wp-content/uploads/sites/278/2023/11/27125213/Binding-Hercules-A-Proposal-for-Bench-Trials.pdf",
+      "primary_source": true,
+      "access_level": "Publisher PDF text accessible.",
+      "locations_read": "Title and journal information; pp. 1757–60, especially pp. 1759–60 and note 143.",
+      "relevant_result": "Supports the manuscript’s account of statistical uncertainty, partial discounting, and the concern about an improper basis of decision."
+    },
+    {
+      "id": "S3",
+      "citation": "Wistrich, Andrew J., Chris Guthrie, and Jeffrey J. Rachlinski. 2005. “Can Judges Ignore Inadmissible Information? The Difficulty of Deliberately Disregarding.” University of Pennsylvania Law Review 153: 1251–1345.",
+      "url": "https://scholarship.law.cornell.edu/lsrp_papers/20/",
+      "primary_source": true,
+      "access_level": "Institutional metadata and abstract; PDF download failed.",
+      "locations_read": "Title, author list, publication statement and abstract. Also opened Penn and Vanderbilt records.",
+      "relevant_result": "Confirms bibliographic identity; detailed checks required S4."
+    },
+    {
+      "id": "S4",
+      "citation": "Wistrich, Guthrie and Rachlinski (2005), original article reproduced as a public transcription.",
+      "url": "https://www.scribd.com/doc/148009020/9-Can-Judges-Ignore",
+      "primary_source": true,
+      "access_level": "Primary-text reproduction on a third-party host; not authenticated against a publisher scan.",
+      "locations_read": "Star-pagination pp. 1283–84, 1300–03 and 1336–37; notes 193–204, particularly 201–203.",
+      "relevant_result": "The accessible transcription agrees with the manuscript’s counts, reported significance, procedure, subgroup caveat and confidence observation."
+    },
+    {
+      "id": "S5",
+      "citation": "Keeling, Sophie. 2024. “Responding to Second-Order Reasons.” Philosophy and Phenomenological Research 109: 799–818.",
+      "url": "https://oai.e-spacio.uned.es/server/api/core/bitstreams/9f1abaa9-65ba-4db0-8296-93b68e536cbc/content",
+      "primary_source": true,
+      "access_level": "Published article in an institutional repository.",
+      "locations_read": "Title and publication information; §3.1, §3.2.1, §3.2.4 and relevant portions of §3.3; especially pp. 806–12.",
+      "relevant_result": "Confirms the hybrid basing account and the example of a fixed decision whose basis changes after a reminder."
+    },
+    {
+      "id": "S6",
+      "citation": "Hoeft, Leonard, Michael Kurschilgen, and Wladislaw Mill. 2024. “Norms as Obligations.” CRC TR 224 Discussion Paper 610.",
+      "url": "https://www.crctr224.de/research/discussion-papers/archive/dp610/@@download/file/CRCTR224_2024_610.pdf",
+      "primary_source": true,
+      "access_level": "Full institutional working-paper PDF text.",
+      "locations_read": "Cover and title page; §3, printed pp. 6–8; §6, printed pp. 12–14; surrounding introduction and results.",
+      "relevant_result": "Confirms the cited design and discussion of alternative explanations."
+    },
+    {
+      "id": "S7",
+      "citation": "Hoeft, Leonard, Michael Kurschilgen, and Wladislaw Mill. 2025. “Norms as Obligations.” International Review of Law & Economics 81: 106235.",
+      "url": "https://pure.mpg.de/pubman/item/item_3639909_1/component/file_3639910/1-s2.0-S0144818824000553-main.pdf",
+      "primary_source": true,
+      "access_level": "Published article PDF in the Max Planck repository.",
+      "locations_read": "Publication header, author list, abstract and relevant design/discussion passages.",
+      "relevant_result": "Verifies the working paper’s stated publication identity and 2025 volume."
+    },
+    {
+      "id": "S8",
+      "citation": "Ehrenberg, Kenneth M. 2024. “How Exclusionary Reasons Guide.” Jurisprudence 15(1): 71–76.",
+      "url": "https://www.tandfonline.com/doi/pdf/10.1080/20403313.2023.2297581",
+      "primary_source": true,
+      "access_level": "Publisher full-text PDF extraction.",
+      "locations_read": "Entire short article, especially pp. 72–75.",
+      "relevant_result": "Direct philosophical predecessor for the manuscript’s restrictions on what counts as guidance."
+    },
+    {
+      "id": "S9",
+      "citation": "Yoo, Hong Il. 2012. “The Confounding Effects of Consumer Heterogeneity on Model-Based Inference of Attribute Non-Attendance.” UNSW working paper 2012 ECON 47.",
+      "url": "https://research.economics.unsw.edu.au/RePEc/papers/2012-47.pdf",
+      "primary_source": true,
+      "access_level": "Institutional full-text working paper.",
+      "locations_read": "§§I–II; §III’s setup and scale/coefficient-heterogeneity examples, printed pp. 1–7; equations (1)–(4).",
+      "relevant_result": "An explicit methodological precedent for questioning whether inferred zero-weight classes represent actual ignoring."
+    },
+    {
+      "id": "S10",
+      "citation": "Allen, Roy. “Exogenous Consideration and Extended Random Utility.” arXiv:2405.13945v1; repository submission dated 22 May 2024.",
+      "url": "https://arxiv.org/html/2405.13945v1",
+      "primary_source": true,
+      "access_level": "Author-deposited full text and repository record.",
+      "locations_read": "Abstract; model definitions; §§3–3.1, Propositions 1–2 and Corollary 1; portions of Appendix A.1.",
+      "relevant_result": "A formal precedent for exact observational equivalence across bounded variation, with distinct latent consideration mechanisms."
+    },
+    {
+      "id": "S11",
+      "citation": "Rocchè, Giuseppe. 2024. “Exclusionary Reasons and Mental Contamination: A Challenge for Raz’s Theory of Authority.” Revus 52. DOI: 10.4000/12nic.",
+      "url": "https://iris.unipa.it/handle/10447/665064",
+      "primary_source": true,
+      "access_level": "Institutional metadata and author abstract only; full-text attempts unsuccessful.",
+      "locations_read": "Title, bibliographic fields and abstract. No article-body pages read.",
+      "relevant_result": "Identifies a relevant direct predecessor mentioned by Sekine. Its detailed argument and overlap remain unverified."
+    }
+  ],
+  "closest_predecessors": [
+    {
+      "source_id": "S2",
+      "overlap": "Discusses the same rates, their statistical weakness, and discounting rather than discarding evidence.",
+      "difference": "The inspected discussion does not construct exact population-equivalent models with different numbers of complete excluders.",
+      "remaining_contribution": "The explicit non-identification construction and its application to Sekine’s stronger empirical inference.",
+      "evidence_location": "Wittlin pp. 1759–60, note 143; manuscript heading “What the Verdict Does Not Tell Us,” “The further question is whether even perfectly established rates would identify any complete excluder.”"
+    },
+    {
+      "source_id": "S5",
+      "overlap": "A decision can remain fixed while its basis changes; second-order basing has causal and appraisal requirements.",
+      "difference": "Keeling develops an account of basing, rather than an identification analysis of conviction probabilities.",
+      "remaining_contribution": "Application of the inherited distinction to what verdict observations establish.",
+      "evidence_location": "Keeling §3.1 and §3.2.4, pp. 806–07 and 811–12; manuscript “The following examples apply that inherited distinction.”"
+    },
+    {
+      "source_id": "S8",
+      "overlap": "Guidance can coexist with acting against an exclusionary reason’s valence; deliberation and motivating reasons must be distinguished.",
+      "difference": "Ehrenberg does not supply the manuscript’s probability models or a defence of universal partial discounting as successful exclusion.",
+      "remaining_contribution": "Showing precisely why those models challenge complete removal without settling every account of guidance.",
+      "evidence_location": "Ehrenberg pp. 72–75; manuscript “The paired models then cease to contrast success with failure under that conception.”"
+    },
+    {
+      "source_id": "S9",
+      "overlap": "Model-based estimates of ignored attributes can reflect nonzero sensitivities and heterogeneity.",
+      "difference": "The mechanism is econometric approximation and misspecification, not the manuscript’s exact uniform-threshold equivalence or rule-guided achievement.",
+      "remaining_contribution": "An exact, elementary construction tied to a particular philosophical inference.",
+      "evidence_location": "Yoo §II, equations (1)–(3), and §III’s examples; manuscript “Knowing those probabilities exactly would not choose between the models.”"
+    },
+    {
+      "source_id": "S10",
+      "overlap": "Different latent consideration structures can have identical choice probabilities over a whole bounded range.",
+      "difference": "Allen studies exclusion of alternatives from consideration sets under nonparametric random utility. The manuscript studies the weight of a reason while retaining the verdict alternatives and specifying stable response parameters.",
+      "remaining_contribution": "The application to reason exclusion, including its distinction from broader guided nonperformance.",
+      "evidence_location": "Allen §3, Proposition 1, and §3.1; manuscript “Throughout 0 ≤ d ≤ 0.491, their conviction probabilities remain identical.”"
+    },
+    {
+      "source_id": "S6",
+      "overlap": "Investigates information acquisition as well as compliance and considers competing explanations.",
+      "difference": "Avoiding acquisition is distinct from removing an already acquired consideration from a decision’s basis.",
+      "remaining_contribution": "The manuscript’s post-exposure identification problem.",
+      "evidence_location": "Hoeft et al. §§3 and 6; manuscript “declining to acquire information and excluding a consideration already acquired are different routes.”"
+    }
+  ],
+  "citation_audit": [
+    {
+      "manuscript_reference": "Sekine 2026, bibliography and §3, notes 39–43.",
+      "manuscript_location": "What the Verdict Does Not Tell Us — “most judges cannot exclude the consideration, but some can”; discussion of notes 39 and 43.",
+      "status": "verified",
+      "evidence": "Publisher metadata matches the entry. §3 makes the stated inference; note 39 treats preventing deliberation as a route to avoiding action for a reason, and note 43 preserves broader guidance. The text distinguishes tested difficulty from impossibility. The manuscript’s stronger reading remains an interpretation, which it identifies as such. See [Sekine, §3 and notes 39–43](https://www.cambridge.org/core/journals/canadian-journal-of-law-and-jurisprudence/article/in-defence-of-secondorder-reasons/D56F92244ED38017F40338C7869A9121).",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "manuscript_reference": "Wittlin 2023, bibliography, pp. 1759–60 and note 143.",
+      "manuscript_location": "What the Verdict Does Not Tell Us — “distinguishes discounting evidence from discarding it.”",
+      "status": "verified",
+      "evidence": "Identity and pagination match. Note 143 discusses the same exposed subgroups and nonsignificance; p. 1760 distinguishes partial discounting from complete disregard and explains the improper-basis concern. The manuscript credits this substantive overlap. See [Wittlin, pp. 1759–60](https://cdn.vanderbilt.edu/vu-wordpress-0/wp-content/uploads/sites/278/2023/11/27125213/Binding-Hercules-A-Proposal-for-Bench-Trials.pdf).",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "manuscript_reference": "Wistrich, Guthrie and Rachlinski 2005, bibliography.",
+      "manuscript_location": "Bibliography — “Can Judges Ignore Inadmissible Information? The Difficulty of Deliberately Disregarding.”",
+      "status": "verified",
+      "evidence": "Author list, title, year and journal match institutional and publisher records; the reproduced article supplies the cited pagination. See the [Cornell record](https://scholarship.law.cornell.edu/lsrp_papers/20/) and [publisher record](https://pennlawreview.com/2020/04/28/can-judges-ignore-inadmissible-information-the-difficulty-of-deliberately-disregarding/).",
+      "source_ids": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "manuscript_reference": "Wistrich, Guthrie and Rachlinski 2005, pp. 1283–84, 1300–03 and 1336–37.",
+      "manuscript_location": "What the Verdict Does Not Tell Us — “27/55”, “7/35”, “1/13”, and “Fisher’s exact p = .42.”",
+      "status": "partially_verified",
+      "evidence": "The transcription agrees on the counts, subgroup formation, instruction, and probative-value caveat. The test appears in note 203. Relevant locations are §II.D, §III.C and the criminal-case appendix. Partial status reflects access to a [third-party transcription](https://www.scribd.com/doc/148009020/9-Can-Judges-Ignore), without an accessible publisher scan.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "manuscript_reference": "Wistrich, Guthrie and Rachlinski 2005, pp. 1301–02.",
+      "manuscript_location": "What the Verdict Does Not Tell Us — “They found a confidence difference where verdicts did not differ.”",
+      "status": "partially_verified",
+      "evidence": "Note 201 reports the earlier-version confidence finding and unchanged conviction rates. It supports the sentence, subject to the same [transcription limitation](https://www.scribd.com/doc/148009020/9-Can-Judges-Ignore).",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "manuscript_reference": "Keeling 2024, bibliography and §§3.1–3.3.",
+      "manuscript_location": "What the Verdict Does Not Tell Us — “a decision that stays fixed while its basis changes”; “combines a causal role with an appraisal.”",
+      "status": "verified",
+      "evidence": "The published PDF confirms identity and pagination. §3.2.4 contains the promised school-choice example; §3.1 specifies causal-sustaining and dispositional appraisal conditions. The manuscript’s attribution is accurate. See [Keeling, pp. 806–12](https://oai.e-spacio.uned.es/server/api/core/bitstreams/9f1abaa9-65ba-4db0-8296-93b68e536cbc/content).",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "manuscript_reference": "Hoeft, Kurschilgen and Mill 2024, §§3 and 6; 2025 publication information.",
+      "manuscript_location": "What the Verdict Does Not Tell Us — “authoritative requests affect information acquisition in a modified dictator game”; Bibliography.",
+      "status": "verified",
+      "evidence": "The working-paper cover confirms authors, date and number 610. §§3 and 6 support the design and alternative-explanation attribution. The published PDF confirms volume 81, article 106235 and year 2025. See the [working paper](https://www.crctr224.de/research/discussion-papers/archive/dp610/@@download/file/CRCTR224_2024_610.pdf) and [published article](https://pure.mpg.de/pubman/item/item_3639909_1/component/file_3639910/1-s2.0-S0144818824000553-main.pdf).",
+      "source_ids": [
+        "S6",
+        "S7"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1030 @@
+{
+  "started_at": "2026-10-31T17:44:07.923061+00:00",
+  "repository_snapshot_started_at": "2026-10-17T22:53:22.689946+00:00",
+  "boundary": "Read-only inventory of retained visible data and exact exported byte/text identities; no whole-provider completeness claim, no new native extraction, no upload.",
+  "repository": {
+    "indexed_sessions": 3187,
+    "indexed_messages": 13880,
+    "scanned_files_or_members": {
+      "files_or_members": 15392
+    },
+    "content_scan_skipped": [
+      {
+        "location": "logs/bundles/claude-legacy-02.tar.gz!claude/legacy/6ac99c24-af36-4edc-9b7c-21194a839260-claude-pilot1-20260912-author/fragments.json",
+        "bytes": 44339960,
+        "reason": "content_scan_size_bound"
+      },
+      {
+        "location": "logs/bundles/claude-legacy-04.tar.gz!claude/legacy/d704f5b0-3f51-4b61-a087-f618de5b4c5e-claude-pilot1-20260913-critic-v2/fragments.json",
+        "bytes": 33822041,
+        "reason": "content_scan_size_bound"
+      }
+    ],
+    "claude_collections": 63,
+    "claude_legacy": 5,
+    "claude_cli_session_ids": 65
+  },
+  "current_views": {
+    "valid_sessions": 3384,
+    "messages": 13924,
+    "not_in_repository_index": 197,
+    "missing_indexed_messages": 184,
+    "body_not_found_in_any_scanned_log_or_evidence": 180,
+    "body_found_elsewhere": 4,
+    "old_export_messages_absent_current_views": 140,
+    "conflicts": 0,
+    "credential_shaped_new_texts": 0,
+    "by_kind": {
+      "primary_chat": 2857,
+      "subagent": 498,
+      "None": 29
+    },
+    "by_project": {
+      "Math Career OS": 5,
+      "Math Research Lab Template": 9,
+      "Philosophy Lab": 3341,
+      "None": 29
+    },
+    "missing_by_source_date": {
+      "2026-10-14": 10,
+      "2026-10-17": 4,
+      "2026-10-19": 170
+    },
+    "invalid_view_files": [],
+    "old_index_sessions_without_current_view": []
+  },
+  "collector": {
+    "status": "RUNNING",
+    "pid": 14326,
+    "checked_at": "2026-10-31T17:42:56.906960+00:00",
+    "last_archive_verified_at": "2026-10-31T17:20:09.573842+00:00",
+    "archive_event_count": 581029,
+    "discovered_sessions": 3672,
+    "chat_sessions": 3355,
+    "internal_excluded_sessions": 317,
+    "coverage_summary": {
+      "counts_include_last_committed_cursors": false,
+      "coverage_healthy": false,
+      "error_sessions_without_cursor": 0,
+      "pending_tool_records": 85815,
+      "sessions_with_errors": 0,
+      "sessions_with_gaps": 218,
+      "text_or_unknown_gap_count": 1082,
+      "tool_schema_gap_count": 268,
+      "unresolved_gap_count": 1350
+    }
+  },
+  "collector_status_sha256": "9d1842e035876cf30b3802d87a42fe0196b7bfd260a79f9493ede1533b11c448",
+  "canonical_inventory": {
+    "indexed_snapshot": {
+      "status": "VERIFIED_EVENT_INDEX",
+      "cutoff": 580358,
+      "indexed_head_sequence": 580737,
+      "indexed_head_sha256": "7ce053c719c884837d762eb435e1f5b55188db4b38d43d7e43a5ca619898414f",
+      "event_count": 580737,
+      "database_sha256": "9d5c1937adaaa0cb500c3c1f52127e7327fe6f9ab0a4bc147f446ad1e965f777",
+      "dependencies": {
+        "scripts/collector_views.py": "7244cf0cd8e3fec51cf46a60c43b0defd32d99ad31b04e5ff77294bd445e3a84",
+        "scripts/capture_codex.py": "cb6ba19a8953b269d76bf7fc956d521b29738c50953c11e58f1843b2a4bbe2fb",
+        "scripts/research_archive.py": "a4fae709bd66d0596b31f1e724ba232699c3a14711b64edd9f1b2754ce27bd85"
+      },
+      "helper_sha256": "d256d5beed36e138fd05fb37f65526fdd3b705a43985fe9f12c8ee127595a3ff",
+      "elapsed_seconds": 113.343,
+      "boundary": "Sequential event canonical bytes, schema, digest and hash chain verified; this is not a new whole-object archive audit."
+    },
+    "event_kinds": {
+      "activity.observed": 1,
+      "archive.lab_bound": 1,
+      "artifact.release": 3,
+      "artifact.snapshot": 57,
+      "artifact.version": 1,
+      "bridge.artifact_versions.verified": 1,
+      "bridge.batch.capabilities_verified": 1,
+      "bridge.batch.collected": 23,
+      "bridge.batch.compatibility_repair": 1,
+      "bridge.batch.configuration_verified": 1,
+      "bridge.batch.control": 9,
+      "bridge.batch.installation_verified": 3,
+      "bridge.batch.native_reviewed": 6,
+      "bridge.batch.partial_verified": 2,
+      "bridge.batch.prepared": 10,
+      "bridge.batch.repair_verified": 4,
+      "bridge.batch.repaired": 10,
+      "bridge.batch.source_capture_build": 1,
+      "bridge.batch.staged": 1,
+      "bridge.build.completed": 1,
+      "bridge.build.snapshot": 1,
+      "bridge.cli.build": 1,
+      "bridge.cli.campaign_launched": 1,
+      "bridge.cli.campaign_outcome": 10,
+      "bridge.cli.checkpoint_correction": 1,
+      "bridge.cli.collection": 13,
+      "bridge.cli.live_verification": 1,
+      "bridge.cli.manual_resume_authorized": 9,
+      "bridge.cli.repair_accepted": 1,
+      "bridge.cli.repair_and_research_authorized": 1,
+      "bridge.cli.research_draft_prepared": 1,
+      "bridge.cli.source_check": 1,
+      "bridge.configuration_and_launch_verified": 1,
+      "bridge.configuration_correction": 1,
+      "bridge.critic_input_binding": 1,
+      "bridge.intake.verified": 3,
+      "bridge.job.activated": 3,
+      "bridge.job.claimed": 5,
+      "bridge.job.prepared": 6,
+      "bridge.logging.audit": 1,
+      "bridge.pilot.preparation": 1,
+      "bridge.pilot.resumed": 1,
+      "bridge.pilot.validation": 1,
+      "bridge.project.state": 17,
+      "bridge.publication.rechecked": 1,
+      "bridge.return.collected": 8,
+      "bridge.revision.acceptance": 1,
+      "bridge.revision.released": 1,
+      "bridge.runtime.built": 1,
+      "bridge.smoke.assessed": 1,
+      "bridge.stage.verified": 4,
+      "bridge.stale_chat.rejected": 1,
+      "bridge.workflow.paused": 1,
+      "campaign.archive_verified": 1,
+      "campaign.authorized": 3,
+      "campaign.capture_boundary": 1,
+      "campaign.collector_recovery": 1,
+      "campaign.completed": 4,
+      "campaign.continuation_authorized": 1,
+      "campaign.continuation_inputs": 1,
+      "campaign.dispatch_prepared": 43,
+      "campaign.dispatch_supplement": 1,
+      "campaign.editorial_review": 1,
+      "campaign.navigation_updated": 1,
+      "campaign.official_rules_rechecked": 1,
+      "campaign.packet_preserved": 150,
+      "campaign.paused": 1,
+      "campaign.phase_instructions_preserved": 1,
+      "campaign.process_correction": 1,
+      "campaign.process_note": 1,
+      "campaign.protocol_bound": 1,
+      "campaign.reporting_support_bound": 2,
+      "campaign.resumed": 1,
+      "campaign.source_materials_preserved": 2,
+      "campaign.support_bound": 1,
+      "candidate.created": 786,
+      "candidate.decision": 1,
+      "capture.adapter_revision": 3,
+      "capture.coverage": 3038,
+      "capture.raw_record": 16525,
+      "capture.run_binding": 3491,
+      "capture.session_identified": 3799,
+      "capture.text_audit": 3,
+      "capture.tool_link": 971,
+      "capture.user_prompt_reconciliation": 1,
+      "checkpoint": 162,
+      "claude.critic_pilot_launch_authorized": 1,
+      "claude.critic_pilot_launch_observed": 1,
+      "claude.independent_r01_intake": 1,
+      "collector.agent_metadata": 11696,
+      "collector.capture_compatibility": 1,
+      "collector.coverage": 13427,
+      "collector.lifecycle": 32417,
+      "collector.message": 61430,
+      "collector.model": 17543,
+      "collector.monitor_observation": 1,
+      "collector.recovery_resumed": 1,
+      "collector.recovery_verified": 1,
+      "collector.session_excluded": 416,
+      "collector.tool_pending": 407843,
+      "collector.tool_review_decision": 4,
+      "collector.tool_review_manifest": 1,
+      "collector.tool_reviewed": 40,
+      "collector.version": 15,
+      "competition.rules_checked": 1,
+      "correction": 10,
+      "decision": 1,
+      "essay.closeout.saved": 1,
+      "essay.lineage.backfill_completed": 2,
+      "essay.lineage.entry": 2522,
+      "essay.lineage.packet_binding": 1,
+      "handoff.prepared": 1,
+      "hundred.authorization_clarification": 1,
+      "hundred.checkpoint_binding": 21,
+      "hundred.expansion": 4,
+      "hundred.expansion_receipt": 4,
+      "hundred.idea_projection": 122,
+      "hundred.legacy_candidate_import": 1,
+      "hundred.plan": 66,
+      "hundred.prepared": 226,
+      "hundred.projection_receipt": 122,
+      "hundred.receipt": 221,
+      "hundred.scope_incident": 1,
+      "hundred.scope_incident_correction": 2,
+      "hundred.stage": 222,
+      "implementation.snapshot": 1,
+      "lab.epoch": 63,
+      "lab.preference_change_recorded": 1,
+      "lab.preference_change_requested": 1,
+      "lab.workflow_preference_recorded": 1,
+      "literature.b.accounting.archived": 1,
+      "literature.b2.final.archived": 3,
+      "literature.b2.inputs.archived": 3,
+      "literature.b2.native_capture.repaired": 1,
+      "literature.b2.package.archived": 1,
+      "literature.b2.sources.archived": 3,
+      "literature.closure_linked": 1,
+      "literature.codex.inputs.bound": 1,
+      "literature.codex.search.archived": 3,
+      "literature.coordinator_model_amended": 1,
+      "literature.inputs_prepared": 1,
+      "literature.lane_completed": 1,
+      "literature.packaging_authorized": 1,
+      "literature.pre_resume_preservation_archived": 1,
+      "literature.provider_attempt_failed": 1,
+      "literature.provider_stop_preserved": 1,
+      "literature.release_ready": 9,
+      "literature.resume_authorized": 1,
+      "literature.sol_launch_inputs": 2,
+      "literature.synthesis_prepared": 9,
+      "literature.user_resumed_after_provider_stop": 2,
+      "literature.web_wrapper.accepted": 1,
+      "literature.worker_archived": 27,
+      "method.switch": 1,
+      "methodology.plan": 1,
+      "methodology.reuse_index": 1,
+      "midterm.A0.inputs_bound": 6,
+      "midterm.A0.output_archived": 6,
+      "midterm.A0.result": 1,
+      "midterm.A0.synthesis_inputs": 1,
+      "midterm.B.claude_inputs_bound": 3,
+      "midterm.blocks.authorized": 1,
+      "midterm.calibration.inputs": 1,
+      "midterm.calibration.outputs": 1,
+      "midterm.calibration.results": 1,
+      "midterm.chat_handoff": 1,
+      "midterm.claude.release_review": 1,
+      "midterm.claude.selective.authorized_inputs": 1,
+      "midterm.claude.selective.completed_intake": 1,
+      "midterm.claude.selective.launched": 1,
+      "midterm.claude.selective.repair": 1,
+      "midterm.closure.D_preservation": 1,
+      "midterm.closure.accounting": 1,
+      "midterm.closure.capture_compatibility_amendment": 1,
+      "midterm.closure.capture_incident_resolved": 1,
+      "midterm.closure.completed": 1,
+      "midterm.closure.critic_inputs": 2,
+      "midterm.closure.critic_intake": 1,
+      "midterm.closure.critic_session_bound": 1,
+      "midterm.closure.dependencies": 1,
+      "midterm.closure.effort_export_amendment": 1,
+      "midterm.closure_plan": 1,
+      "midterm.diagnostics.a5_accepted": 1,
+      "midterm.diagnostics.analysis_corrections": 1,
+      "midterm.diagnostics.archive_batch_completed": 1,
+      "midterm.diagnostics.canary_accepted": 1,
+      "midterm.diagnostics.claude_inputs_bound": 28,
+      "midterm.diagnostics.codex_inputs_bound": 1,
+      "midterm.diagnostics.output_archived": 130,
+      "midterm.diagnostics.schema_inline_v4_inputs_bound": 1,
+      "midterm.diagnostics.schema_inline_v5_inputs_bound": 1,
+      "midterm.full97.inputs": 1,
+      "midterm.full97.queue.launched": 1,
+      "midterm.full97.runner.correction": 2,
+      "midterm.full97.runner.preflight": 1,
+      "midterm.full97.transport.accepted": 1,
+      "midterm.inputs.bound": 1,
+      "midterm.launch.execution_repair": 1,
+      "midterm.launch.mechanical_repair": 1,
+      "midterm.launch.navigation": 1,
+      "midterm.launch.parallel_recovery_bound": 1,
+      "midterm.launch.reviewed_incidents_resolved": 2,
+      "midterm.literature.claude_inputs_bound": 3,
+      "midterm.literature.claude_output_archived": 3,
+      "midterm.panel.jobs.bound": 1,
+      "midterm.pilot.draft.bound": 1,
+      "midterm.pilot.results": 1,
+      "midterm.planning.updated": 1,
+      "midterm.primary-reviews.intake": 1,
+      "midterm.profiles.bound": 2,
+      "midterm.remaining_rounds.authorized": 1,
+      "midterm.reviews.bound": 1,
+      "midterm.revision_trial.archive_adapter_amendment": 1,
+      "midterm.revision_trial.claude_comparisons": 1,
+      "midterm.revision_trial.comparison_inputs": 1,
+      "midterm.revision_trial.comparisons": 1,
+      "midterm.revision_trial.inputs": 1,
+      "midterm.revision_trial.navigation_and_lineage_adapter": 1,
+      "midterm.revision_trial.results": 1,
+      "midterm.revision_trial.revisions": 1,
+      "midterm.revision_trial.synthesis_inputs": 1,
+      "midterm.selection.handoff": 1,
+      "midterm.selection.results": 1,
+      "midterm.stage0.navigation": 1,
+      "midterm.stage0.prepared": 1,
+      "midterm.synthesis.critique": 1,
+      "midterm.synthesis.draft": 1,
+      "midterm.synthesis.navigation": 1,
+      "midterm.synthesis.plan": 1,
+      "midterm.synthesis.results": 1,
+      "midterm.user_process_decision": 1,
+      "midterm.workflow_decisions": 1,
+      "operation.completed": 120,
+      "operation.interrupted": 44,
+      "operation.started": 217,
+      "planning.change_started": 5,
+      "planning.midterm_backlog_saved": 1,
+      "planning.preliminary_confirmed": 1,
+      "planning.proposed": 1,
+      "postmidterm.argument.block.closed": 1,
+      "postmidterm.argument.block.closed_partial_pending_context": 1,
+      "postmidterm.argument.checkpoint.graph_binding": 2,
+      "postmidterm.argument.checkpoint_summary.corrected": 1,
+      "postmidterm.argument.context_replacement_authorized": 1,
+      "postmidterm.argument.continuation": 2,
+      "postmidterm.argument.inputs.archived": 1,
+      "postmidterm.argument.job_inputs_archived": 47,
+      "postmidterm.argument.literature_consumed": 1,
+      "postmidterm.argument.next_packet.archived": 36,
+      "postmidterm.argument.pause_closure": 2,
+      "postmidterm.argument.pause_snapshot": 2,
+      "postmidterm.argument.release.archived": 5,
+      "postmidterm.argument.saved_outputs_accepted": 1,
+      "postmidterm.argument.scope_correction": 1,
+      "postmidterm.argument.synthesis_replacement.authorized": 1,
+      "postmidterm.argument.transport_verified": 15,
+      "postmidterm.argument.worker.archived": 42,
+      "postmidterm.consolidation.artifacts_archived": 1,
+      "postmidterm.consolidation.completed": 1,
+      "postmidterm.continuation_proposal": 1,
+      "postmidterm.manual_continuation_packets": 1,
+      "postmidterm.pause_audit": 1,
+      "postmidterm03.block.partial_release.accepted": 1,
+      "postmidterm03.block.release.accepted": 3,
+      "postmidterm03.block100.sealed": 3,
+      "postmidterm03.checkpoint.inputs.accepted": 1,
+      "postmidterm03.continuation_and_outer_boundary.accepted": 1,
+      "postmidterm03.development.accepted": 24,
+      "postmidterm03.development.files": 24,
+      "postmidterm03.development.selection_and_transport.accepted": 3,
+      "postmidterm03.execution.stopped": 1,
+      "postmidterm03.generator.accepted": 60,
+      "postmidterm03.generator.files": 60,
+      "postmidterm03.generator.interrupted": 2,
+      "postmidterm03.generator.runtime_binding": 54,
+      "postmidterm03.initial_review.accepted": 60,
+      "postmidterm03.initial_review.files": 60,
+      "postmidterm03.inputs.accepted": 1,
+      "postmidterm03.intake_inventory_adapter.accepted": 1,
+      "postmidterm03.manual_continuation.accepted": 1,
+      "postmidterm03.manual_continuation.transport_accepted": 1,
+      "postmidterm03.manual_service_continuation.accepted": 1,
+      "postmidterm03.mechanical_closure.batch.accepted": 1,
+      "postmidterm03.program.closure.accepted": 1,
+      "postmidterm03.program.results.accepted": 1,
+      "postmidterm03.recovery.accepted": 1,
+      "postmidterm03.recovery.executor_accepted": 1,
+      "postmidterm03.remaining.astra_transport.accepted": 1,
+      "postmidterm03.remaining.solxhigh_transport.accepted": 1,
+      "postmidterm03.review_dispatch_metadata.correction.accepted": 1,
+      "postmidterm03.review_transport.accepted": 3,
+      "postmidterm03.same_session_recovery.closed": 1,
+      "postmidterm03.service_error.stop_preserved": 1,
+      "postmidterm03.startup_recovery.accepted": 1,
+      "postmidterm03.transport.accepted": 1,
+      "postmidterm04.approval_boundary.corrected": 1,
+      "postmidterm04.closure.method_bound": 1,
+      "postmidterm04.continuation.observed": 1,
+      "postmidterm04.finite_scope.accepted": 1,
+      "postmidterm04.finite_scope.evidence": 1,
+      "postmidterm04.free_scope.accepted": 1,
+      "postmidterm04.free_scope.evidence": 1,
+      "postmidterm04.inputs.accepted": 2,
+      "postmidterm04.mechanical_batch.bound": 1,
+      "postmidterm04.mechanical_finish.bound": 1,
+      "postmidterm04.partial_scope.accepted": 1,
+      "postmidterm04.release.accepted": 7,
+      "postmidterm04.resume.accepted": 1,
+      "postmidterm04.role.accepted": 28,
+      "postmidterm04.role.attempt": 29,
+      "postmidterm04.role.capture": 113,
+      "postmidterm04.role.continuation.approval_rejected": 1,
+      "postmidterm04.role.continuation.authorized": 2,
+      "postmidterm04.role.evidence": 28,
+      "postmidterm04.role.inputs_ready": 28,
+      "postmidterm04.role.observed_versions": 1,
+      "postmidterm04.role.transport_failed": 1,
+      "postmidterm04.seed.inputs.accepted": 1,
+      "postmidterm04.settings.amended": 1,
+      "postmidterm04.successor.linked": 1,
+      "postmidterm04.transport.verified": 2,
+      "process.note": 4,
+      "project.preference_and_review.recorded": 1,
+      "research.c2c5_criticism_checks_accepted": 1,
+      "research.c2c5_finite_cycle_completed": 1,
+      "research.c2c5_intake_and_check_gate": 1,
+      "research.c2c5_repair_accepted_for_fresh_evaluation": 2,
+      "research.preselection.batch.accepted": 15,
+      "research.preselection.completed": 1,
+      "research.preselection.decisions": 1,
+      "research.preselection.packet.prepared": 12,
+      "research.preselection.prepared": 1,
+      "research.preselection.ready": 1,
+      "research.preselection.role.completed": 27,
+      "research.preselection.scheduling.amended": 1,
+      "research.selection.accepted_attempts.mapped": 2,
+      "research.selection.capacity_replacements.accepted": 1,
+      "research.selection.capture_method.accepted": 1,
+      "research.selection.closure.checkpoint_api_returned": 1,
+      "research.selection.closure.inputs": 1,
+      "research.selection.completed": 1,
+      "research.selection.coordinator_evidence.accepted": 1,
+      "research.selection.inputs.accepted": 1,
+      "research.selection.language_check": 1,
+      "research.selection.local_launch_failure": 1,
+      "research.selection.local_launch_repair.accepted": 1,
+      "research.selection.ready": 2,
+      "research.selection.replacement.ready": 2,
+      "research.selection.resume.accepted": 1,
+      "research.selection.review.completed": 160,
+      "research.selection.review_batch.accepted": 37,
+      "research.selection.stage": 5,
+      "research.selection.stopped": 1,
+      "research.selection.transport_disposition.accepted": 1,
+      "research.selection.transport_failure": 2,
+      "research.selection.visible_fragment.captured": 164,
+      "revision.notes.snapshot": 1,
+      "revision.report.recorded": 1,
+      "round.archive_path_correction": 1,
+      "round.capture_amendment": 1,
+      "round.input_supplement": 19,
+      "round.inputs_preserved": 3,
+      "round.judge_profile": 52,
+      "round.judge_review": 127,
+      "round.method_amendment": 1,
+      "round.novelty_precheck": 10,
+      "round.pause": 17,
+      "round.rescue_case": 20,
+      "round.result_preservation": 1,
+      "round.resume": 13,
+      "round.review_batch_preserved": 1,
+      "round.source_snapshot": 183,
+      "round.stage": 507,
+      "round.tool_review_receipt": 1,
+      "round.transport_amendment": 4,
+      "round.transport_correction": 12,
+      "selection.e036_base.completed": 1,
+      "selection.e036_base.selected": 1,
+      "selection.inventory.clarification_completed": 1,
+      "selection.inventory.completed": 1,
+      "selection.inventory.decision": 1,
+      "selection.inventory.explanation_corrected": 1,
+      "selection.inventory.inputs_accepted": 1,
+      "selection.next_steps.completed": 1,
+      "selection.next_steps.recorded": 1,
+      "source.notes.snapshot": 2,
+      "source.snapshot": 72,
+      "source.supplement.recorded": 1,
+      "technical.followup_snapshot": 4,
+      "validation.observed": 2,
+      "workflow.acceptance_recorded": 1
+    },
+    "indexed_session_count": 3745,
+    "current_event_files": 581029,
+    "object_files": 75437,
+    "method": "Reused previously verified complete index through580737; counted current immutable files. No new full archive audit or object scan."
+  },
+  "late_run_candidate_files": 1180,
+  "late_run_exact_bytes_absent": 747,
+  "provider_inventory": [
+    {
+      "provider": "CLAUDE",
+      "session_id": "06d0cf82-8760-489a-a4ee-9659b59c3905",
+      "job_id": "claude-pilot1-20260913-revision-v2",
+      "workspace": "/Users/ruslansaleksejevs/Documents/Claude Code/Philosophy Lab",
+      "status": "KNOWN_FORMAT_METADATA_ONLY",
+      "counts": {
+        "raw_fragments": 148,
+        "user_role_message_fragments": 1,
+        "assistant_message_fragments": 15,
+        "tool_call_fragments": 66,
+        "tool_result_fragments": 66
+      },
+      "contribution_origins": {
+        "UNKNOWN": 1,
+        "AI_PROVIDER_RESPONSE": 81,
+        "TOOL_OUTPUT": 66
+      },
+      "whole_trace": "NOT_ESTABLISHED",
+      "count_unit": "safe fragments; never new human contributions"
+    },
+    {
+      "provider": "CLAUDE",
+      "session_id": "33c127aa-34f2-4ef1-9cb5-364d93254ca4",
+      "job_id": "smoke-20260912-01",
+      "workspace": "/Users/ruslansaleksejevs/Documents/Claude Code/Philosophy Lab/jobs/smoke-20260912-01",
+      "status": "KNOWN_FORMAT_METADATA_ONLY",
+      "counts": {
+        "raw_fragments": 28,
+        "user_role_message_fragments": 1,
+        "assistant_message_fragments": 3,
+        "tool_call_fragments": 12,
+        "tool_result_fragments": 12
+      },
+      "contribution_origins": {
+        "UNKNOWN": 1,
+        "AI_PROVIDER_RESPONSE": 15,
+        "TOOL_OUTPUT": 12
+      },
+      "whole_trace": "NOT_ESTABLISHED",
+      "count_unit": "safe fragments; never new human contributions"
+    },
+    {
+      "provider": "CLAUDE",
+      "session_id": "6ac99c24-af36-4edc-9b7c-21194a839260",
+      "job_id": "claude-pilot1-20260912-author",
+      "workspace": "/Users/ruslansaleksejevs/Documents/Claude Code/Philosophy Lab/jobs/claude-pilot1-20260912-author",
+      "status": "KNOWN_FORMAT_METADATA_ONLY",
+      "counts": {
+        "raw_fragments": 256,
+        "user_role_message_fragments": 4,
+        "assistant_message_fragments": 26,
+        "tool_call_fragments": 113,
+        "tool_result_fragments": 113
+      },
+      "contribution_origins": {
+        "UNKNOWN": 4,
+        "AI_PROVIDER_RESPONSE": 139,
+        "TOOL_OUTPUT": 113
+      },
+      "whole_trace": "NOT_ESTABLISHED",
+      "count_unit": "safe fragments; never new human contributions"
+    },
+    {
+      "provider": "CLAUDE",
+      "session_id": "6c42a777-20b2-4777-8420-b7270f24d62f",
+      "job_id": "PCR-C5-repair",
+      "workspace": "/Users/ruslansaleksejevs/Documents/Claude Code/Philosophy Lab/independent-ideas-20261012/repair-C2C5-20261014/PCR-C5",
+      "status": "KNOWN_FORMAT_METADATA_ONLY",
+      "counts": {
+        "raw_fragments": 23,
+        "user_role_message_fragments": 1,
+        "assistant_message_fragments": 9,
+        "tool_call_fragments": 13
+      },
+      "contribution_origins": {
+        "AI_PREPARED_INPUT": 1,
+        "AI_PROVIDER_RESPONSE": 22
+      },
+      "whole_trace": "NOT_ESTABLISHED",
+      "count_unit": "safe fragments; never new human contributions"
+    },
+    {
+      "provider": "CLAUDE",
+      "session_id": "aa0ed66b-fc3d-4974-8b05-bbc9ee0c916f",
+      "job_id": "PCR-C2-repair",
+      "workspace": "/Users/ruslansaleksejevs/Documents/Claude Code/Philosophy Lab/independent-ideas-20261012/repair-C2C5-20261014/PCR-C2",
+      "status": "KNOWN_FORMAT_METADATA_ONLY",
+      "counts": {
+        "raw_fragments": 15,
+        "user_role_message_fragments": 1,
+        "assistant_message_fragments": 7,
+        "tool_call_fragments": 7
+      },
+      "contribution_origins": {
+        "AI_PREPARED_INPUT": 1,
+        "AI_PROVIDER_RESPONSE": 14
+      },
+      "whole_trace": "NOT_ESTABLISHED",
+      "count_unit": "safe fragments; never new human contributions"
+    },
+    {
+      "provider": "CLAUDE",
+      "session_id": "bf0d2605-59b1-436e-8f6a-496e9e56a43d",
+      "job_id": "bridge-v2-smoke-20260913",
+      "workspace": "/Users/ruslansaleksejevs/Documents/Claude Code/Philosophy Lab",
+      "status": "KNOWN_FORMAT_METADATA_ONLY",
+      "counts": {
+        "raw_fragments": 29,
+        "user_role_message_fragments": 1,
+        "assistant_message_fragments": 4,
+        "tool_call_fragments": 12,
+        "tool_result_fragments": 12
+      },
+      "contribution_origins": {
+        "UNKNOWN": 1,
+        "AI_PROVIDER_RESPONSE": 16,
+        "TOOL_OUTPUT": 12
+      },
+      "whole_trace": "NOT_ESTABLISHED",
+      "count_unit": "safe fragments; never new human contributions"
+    },
+    {
+      "provider": "CLAUDE",
+      "session_id": "d704f5b0-3f51-4b61-a087-f618de5b4c5e",
+      "job_id": "claude-pilot1-20260913-critic-v2",
+      "workspace": "/Users/ruslansaleksejevs/Documents/Claude Code/Philosophy Lab",
+      "status": "KNOWN_FORMAT_METADATA_ONLY",
+      "counts": {
+        "raw_fragments": 115,
+        "user_role_message_fragments": 1,
+        "assistant_message_fragments": 14,
+        "tool_call_fragments": 50,
+        "tool_result_fragments": 50
+      },
+      "contribution_origins": {
+        "UNKNOWN": 1,
+        "AI_PROVIDER_RESPONSE": 64,
+        "TOOL_OUTPUT": 50
+      },
+      "whole_trace": "NOT_ESTABLISHED",
+      "count_unit": "safe fragments; never new human contributions"
+    },
+    {
+      "provider": "UNKNOWN",
+      "session_id": "6c42a777-20b2-4777-8420-b7270f24d62f",
+      "job_id": "UNKNOWN",
+      "workspace": "UNKNOWN",
+      "status": "UNSUPPORTED_FORMAT_METADATA_ONLY",
+      "counts": {
+        "raw_fragments": 23
+      },
+      "contribution_origins": {
+        "UNKNOWN": 23
+      },
+      "whole_trace": "NOT_ESTABLISHED",
+      "count_unit": "safe fragments; never new human contributions"
+    },
+    {
+      "provider": "UNKNOWN",
+      "session_id": "aa0ed66b-fc3d-4974-8b05-bbc9ee0c916f",
+      "job_id": "UNKNOWN",
+      "workspace": "UNKNOWN",
+      "status": "UNSUPPORTED_FORMAT_METADATA_ONLY",
+      "counts": {
+        "raw_fragments": 15
+      },
+      "contribution_origins": {
+        "UNKNOWN": 15
+      },
+      "whole_trace": "NOT_ESTABLISHED",
+      "count_unit": "safe fragments; never new human contributions"
+    },
+    {
+      "provider": "UNKNOWN",
+      "session_id": "b5d1a1cf-7e73-47d6-adfa-0411bfbfcb75",
+      "job_id": "midterm-closure-20261011-critic-xhigh",
+      "workspace": "/Users/Shared/math-research-cli/midterm-closure-20261011-critic-xhigh/work/critic",
+      "status": "UNSUPPORTED_FORMAT_METADATA_ONLY",
+      "counts": {
+        "raw_fragments": 2
+      },
+      "contribution_origins": {
+        "UNKNOWN": 2
+      },
+      "whole_trace": "NOT_ESTABLISHED",
+      "count_unit": "safe fragments; never new human contributions"
+    }
+  ],
+  "claude_collection_file_candidates": [
+    {
+      "path": "runs/cli-smoke-live-20260920/collection/collection.json",
+      "bytes": 11930,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/claude10-cli-resume-20260920-2342/campaign-collection-001/collection.json",
+      "bytes": 94323,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/claude10-cli-resume-20260920-1826/campaign-collection-001/collection.json",
+      "bytes": 68414,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/claude10-cli-autorepair-resume-20260921/campaign-collection-001/collection.json",
+      "bytes": 160365,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/cli-source-check-20260920/collection/collection.json",
+      "bytes": 8593,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/claude-selective-20261008/E050/collection-001/collection.json",
+      "bytes": 24850,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/claude-selective-20261008/E100/collection-001/collection.json",
+      "bytes": 10940,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/claude-selective-20261008/E009/collection-001/collection.json",
+      "bytes": 29651,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/claude-selective-20261008/E036/collection-001/collection.json",
+      "bytes": 20583,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/claude-selective-20261008/E096/collection-001/collection.json",
+      "bytes": 23938,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/claude-selective-20261008/E055/collection-001/collection.json",
+      "bytes": 21558,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/claude-selective-20261008/E079/collection-001/collection.json",
+      "bytes": 20831,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/claude-selective-20261008/E078/collection-001/collection.json",
+      "bytes": 31941,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/claude-selective-20261008/E022/collection-001/collection.json",
+      "bytes": 26372,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/revision-trial-20261008/claude-v2/pair-1/collection-001/collection.json",
+      "bytes": 7925,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/revision-trial-20261008/claude-v2/pair-3/collection-001/collection.json",
+      "bytes": 7079,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/revision-trial-20261008/claude-v2/pair-2/collection-001/collection.json",
+      "bytes": 7925,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/claude-runs/E010/collection-001/collection.json",
+      "bytes": 6563,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/claude-runs/E036/collection-001/collection.json",
+      "bytes": 6704,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/claude-runs/E015/collection-001/collection.json",
+      "bytes": 6704,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/a0-b-launch-20261010/A0/style-repair-r1/collection-001/collection.json",
+      "bytes": 11472,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/a0-b-launch-20261010/A0/style-author/collection-001/collection.json",
+      "bytes": 13832,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/a0-b-launch-20261010/A0/error-validator/collection-001/collection.json",
+      "bytes": 14802,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J045/collection-001/collection.json",
+      "bytes": 7297,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J026/collection-001/collection.json",
+      "bytes": 7008,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J044/collection-001/collection.json",
+      "bytes": 7008,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J061/collection-001/collection.json",
+      "bytes": 7008,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J050/collection-001/collection.json",
+      "bytes": 7861,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J068/collection-001/collection.json",
+      "bytes": 6726,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J032/collection-001/collection.json",
+      "bytes": 7156,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J035/collection-001/collection.json",
+      "bytes": 7149,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J069/collection-001/collection.json",
+      "bytes": 6867,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J056/collection-001/collection.json",
+      "bytes": 6867,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J058/collection-001/collection.json",
+      "bytes": 7438,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J041/collection-001/collection.json",
+      "bytes": 6867,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J083/collection-001/collection.json",
+      "bytes": 6867,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J077/collection-001/collection.json",
+      "bytes": 6726,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J023/collection-001/collection.json",
+      "bytes": 6726,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J012/collection-001/collection.json",
+      "bytes": 6867,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J078/collection-001/collection.json",
+      "bytes": 6867,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J022/collection-001/collection.json",
+      "bytes": 6726,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J007/collection-001/collection.json",
+      "bytes": 6867,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J038/collection-001/collection.json",
+      "bytes": 6585,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J009/collection-001/collection.json",
+      "bytes": 6867,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J031/collection-001/collection.json",
+      "bytes": 6867,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J054/collection-001/collection.json",
+      "bytes": 6867,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J053/collection-001/collection.json",
+      "bytes": 6726,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J037/collection-001/collection.json",
+      "bytes": 7008,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J008/collection-001/collection.json",
+      "bytes": 7149,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J001/collection-001/collection.json",
+      "bytes": 7008,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J055/collection-001/collection.json",
+      "bytes": 7149,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/literature/L01/collection-001/collection.json",
+      "bytes": 55146,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/literature/L02/collection-001/collection.json",
+      "bytes": 53511,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/diagnostics-launch-20261011/literature/L03/collection-001/collection.json",
+      "bytes": 49169,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/midterm-20261007/closure-20261010/claude-critic-xhigh/collection-001/collection.json",
+      "bytes": 9245,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/claude10-cli-xhigh-finish-20260921/campaign-collection-001/collection.json",
+      "bytes": 237231,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/claude10-cli-xhigh-resume2-20260922/campaign-collection-001/collection.json",
+      "bytes": 357885,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/claude10-cli-opus55-updated-20260923/campaign-collection-001/collection.json",
+      "bytes": 375413,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/claude10-cli-xhigh-resume-20260922/campaign-collection-001/collection.json",
+      "bytes": 282993,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/claude10-cli-opus55-20260923/campaign-collection-001/collection.json",
+      "bytes": 359168,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/claude10-cli-autorepair-20260921/campaign-collection-001/collection.json",
+      "bytes": 95763,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/cli-repair-launch-20260920/campaign-collection-001/collection.json",
+      "bytes": 32689,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/cli-repair-launch-20260920/smoke-collection/collection.json",
+      "bytes": 14963,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/claude-pilot1-20260912/sources-002-import/collection.json",
+      "bytes": 533,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/claude-pilot1-20260912/question-import/collection.json",
+      "bytes": 533,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/claude-pilot1-20260912/contribution-import/collection.json",
+      "bytes": 553,
+      "repository_exact_bytes": null
+    },
+    {
+      "path": "runs/claude-pilot1-20260912/sources-import/collection.json",
+      "bytes": 533,
+      "repository_exact_bytes": null
+    }
+  ],
+  "report_files": [
+    "SESSIONS.json",
+    "MISSING_MESSAGES.json",
+    "OLD_MESSAGES_ABSENT_CURRENT_VIEWS.json",
+    "CONFLICTS.json",
+    "UNSAFE_NEW_TEXTS.json",
+    "LATE_RUN_FILES.json"
+  ]
+}

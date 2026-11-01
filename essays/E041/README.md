@@ -1,0 +1,73 @@
+[Home](../../README.md) · [Five reading cards](../../docs/final-shortlist.md) · [All essays](../README.md)
+
+# What Foreknowledge Can Take Away
+
+**Historical AI recommendation.** This essay remains in the earlier recommendation or reserve record; the [later human trio](../../docs/current-selection.md) is E050, E012 and E051.
+
+
+**E041 · Reserve · Assessment as of October 31, 2026**
+
+A spoiler can prevent a reader from first forming a reasonable interpretation and then revising it. That path through a work may be lost even if knowing the ending makes the overall experience more enjoyable.
+
+[Read the selected manuscript](../selection-20261018/E041.md) · [Read the original](original.md)
+
+## How the argument reached this point
+
+**September: a different kind of loss.** The essay came from the second, twenty-essay pilot. Its question concerns the experience of interpretation rather than a general rule against spoilers. The imported early inventory remains below. [Generation history](../../docs/generation.md).
+
+**October: return to the pool and make the example do work.** The rejection check reopened E041. The October 17 revision distinguished a reasonable but mistaken interpretation from bad reasoning and used the portrait episode in Austen's *Emma* to make the change of understanding concrete. A separate check confirmed the relevant scenes and sources, while noting that an early clue limits how long the mistaken reading can remain reasonable. [Preparation decision](../../evidence/final-selection/updates/20261018/preselection/DECISIONS.json).
+
+**October 19–31: a reading place, then a reserve.** The comparison with E100 favoured E041's more specific account of a loss in experiencing art. Later checks found that earlier work already discussed reinterpretation. The possible contribution is therefore narrower: which conditions make one's own correction valuable, and why informed imagination may not replace it. [Selection reasons](../../docs/selection.md).
+
+## What to look for while reading
+
+Ask whether actually revising your interpretation has a value that imagining the revision cannot supply. The essay allows the informed encounter to be better overall.
+
+## Follow the evidence
+
+These paragraphs are a later editorial account, not a new review or manuscript revision. The [exact selection record](../../evidence/final-selection/updates/20261018/selection/DECISIONS.json) identifies the chosen version. The [October 31 contribution matrix](../../evidence/deep-verification/20261031/coordinator/CONTRIBUTION_MATRIX.json) records the latest reasons and limits. The original structured biography below retains its import-time scope.
+
+<details>
+<summary>Earlier biography, model observations, versions and source fingerprints</summary>
+
+
+[Essay catalogue](../README.md) · [Original manuscript](original.md)
+
+## How this essay was made
+
+One of twenty essays produced in a fresh author–critic–revision sequence at Astra / low. Broad fields were assigned before the outputs to reduce thematic convergence. The lower-cost setting was a production choice, not a controlled comparison with the earlier batch.
+
+Campaign: `pilot20-20260909` · Lineage: `essay-12`. The midterm ID is a blinded corpus label, not a rank.
+
+Recorded model observations: `gpt-6-astra`, `gpt-6-astra / low`. These identify recorded configurations, not independent backend attestation.
+
+## Recorded chronology
+
+Dates below retain their original precision. A later recording date is not the date the essay was written. [Local-date index](../dates.json) · [Date policy](../../logs/DATES.md).
+
+The entries below are translated from the canonical biography. Earlier inventories, later corrections, and post-midterm notes keep their original order.
+
+- **legacy inventory · 2026-09-21 (recorded later)** — Historical materials: exact bytes, existing receipts, and links. A recorded history does not replace independent confirmation.
+- **legacy inventory · 2026-09-21 (recorded later)** — Historical materials: exact bytes, existing receipts, and links. A recorded history does not replace independent confirmation.
+
+[Complete structured biography](biography.json) preserves the entry IDs, parent links, requested and observed configurations, evidence references, limitations, and artifact hashes. Source paths inside that file refer to the canonical local archive; they are provenance identifiers, not links to files claimed to be present here.
+
+## Source conversations
+
+- [01a0886d-f72c-7dc1-9343-38ecbdea41ca](../../logs/codex/agents/01a0886d-f72c-7dc1-9343-38ecbdea41ca/README.md)
+- [01a08897-18d6-7bc2-b5d8-a2c9a964b096](../../logs/codex/agents/01a08897-18d6-7bc2-b5d8-a2c9a964b096/README.md)
+
+## Earlier and related manuscript versions
+
+These are exact archived versions, not additional completed candidates. A file named “revision” may be a response to criticism rather than a replacement essay.
+
+- [draft.md](../versions/57a28ea5095d1173ac5eaba12dcccc6d508e7b8b67c211ae2ecf0ed24d3a5675.md) · `57a28ea5095d`
+
+## Source fingerprints
+
+- Original manuscript: `3042c92a6093450cb7e6a7b17f8c1acdfa9d9aa98bade4d58e07157f3c4cd6f9`
+- Canonical biography at import: `857fc6c12af01e2d45c394b1c19232756155b769bb72c4517aa4a14149a0265e`
+- Older narrative histories remain unchanged in the local archive; their fingerprints are in the import manifest.
+
+
+</details>

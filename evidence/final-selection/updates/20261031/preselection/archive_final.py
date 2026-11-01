@@ -1,0 +1,177 @@
+"""Close this finite task only after all fifteen decisions and role receipts exist."""
+from pathlib import Path
+from datetime import datetime, timezone
+import sys, json, hashlib, re, os, time
+
+D = Path(__file__).resolve().parent
+R = D.parents[1]
+sys.path.insert(0, str(R / 'scripts'))
+from research_archive import Archive
+from capture_codex import resolve_session
+from essay_lineage import base_entry, index, append as append_lineage
+from philosophy_round import checkpoint
+
+RUN = D.name
+AUTH = json.loads((D / 'AUTHORIZATION.json').read_text())
+SID = AUTH['session_id']
+
+def sha(b):
+    return hashlib.sha256(b).hexdigest()
+
+def save(name, value):
+    with (D / name).open('x') as f:
+        json.dump(value, f, ensure_ascii=False, indent=2)
+        f.write('\n')
+        f.flush()
+        os.fsync(f.fileno())
+
+assert not (D / 'FINAL_RECEIPT.json').exists()
+register = json.loads((D / 'DECISIONS.json').read_text())
+roles = json.loads((D / 'ROLE_SUMMARY.json').read_text())['roles']
+method = json.loads((D / 'METHOD.json').read_text())
+targets = method['eight_in_order'] + method['seven_current_reviews']
+assert len(targets) == 15 and len(register['candidates']) == 22
+assert register['counts']['revise'] == 0 and not register['final_selection_started']
+assert all((D / 'decisions' / (c + '.json')).exists() for c in targets)
+protected = json.loads((D / 'PROTECTED_VERSIONS.json').read_text())['files']
+for f in protected:
+    assert sha((R / f['path']).read_bytes()) == f['sha256'], f['path']
+for role in roles:
+    receipt = json.loads((R / role['receipt']).read_text())
+    assert receipt['status'] == 'ROLE_ARCHIVED'
+    for f in receipt['files']:
+        assert sha((R / f['path']).read_bytes()) == f['sha256'], f['path']
+for c in register['candidates']:
+    v = next(v for v in c['versions'] if v['current'])
+    assert sha((R / v['path']).read_bytes()) == v['sha256']
+nav = json.loads((D / 'NAVIGATION_VERIFICATION.json').read_text())['files']
+for row in nav:
+    assert sha((R / row['path']).read_bytes()) == row['after_sha256']
+    assert (R / row['path']).read_bytes().endswith((D / 'navigation-completion-before' / row['path']).read_bytes())
+
+# Preserve only recognized visible coordinator messages, never raw envelopes,
+# hidden reasoning, opaque agent delivery or unreviewed tool records.
+source = resolve_session(SID, R)
+raws = source.read_bytes().splitlines(keepends=True)
+frags = D / 'root-visible-completion'
+frags.mkdir()
+messages = []
+for n, raw in enumerate(raws, 1):
+    if n <= AUTH['request']['source_line']:
+        continue
+    try:
+        event = json.loads(raw)
+    except ValueError:
+        continue
+    p = event.get('payload', {})
+    if event.get('type') != 'response_item' or p.get('type') != 'message':
+        continue
+    if p.get('role') != 'assistant' or p.get('phase') not in ('commentary', 'final', 'final_answer'):
+        continue
+    texts = [x['text'] for x in p.get('content', []) if x.get('type') == 'output_text']
+    tokens = [m.group(1) for m in re.finditer(rb'"text"\s*:\s*("(?:\\.|[^"\\])*")', raw)]
+    parts = []
+    for j, text in enumerate(texts):
+        token = next(t for t in tokens if json.loads(t) == text)
+        path = frags / f'line-{n}-part-{j}.json-string.txt'
+        with path.open('xb') as f:
+            f.write(token)
+        parts.append({'path': str(path.relative_to(R)), 'sha256': sha(token)})
+    if parts:
+        messages.append({'source_line': n, 'source_line_sha256': sha(raw), 'timestamp': event.get('timestamp'), 'phase': p['phase'], 'parts': parts})
+save('ROOT_VISIBLE_COMPLETION.json', {'session_id': SID, 'messages': messages, 'boundary': 'Exact recognized coordinator commentary/final strings since the launch through this capture. Future messages, full envelopes, hidden/injected content, tool records and opaque agent delivery excluded. Exact current user launch is in CAPTURE_START.json.'})
+
+start = json.loads((D / 'START_RECEIPT.json').read_text())
+mapping = json.loads((D / 'LINEAGE_INPUTS.json').read_text())
+coverage = json.loads((D / 'CAPTURE_START.json').read_text())
+boundary = ('All fifteen finite assignments and the 22-version register are complete. '
+            'Fresh role reports and sources have bounded explicit capture. Old collector gaps remain; '
+            'no whole-provider capture or novelty certification. The technical coordinator has no new '
+            'five-stage manuscript round; its administrative INCOMPLETE scalar is not an unfinished '
+            'content task. No selection of ten, publication or submission was performed.')
+print('Final decisions, accepted roles and originals verified; acquiring canonical archive.', flush=True)
+with Archive(R / 'research/archive').writer() as w:
+    if (D / 'COLLECTOR_TEMPORARY_STOP_RESULT.json').exists():
+        save('COLLECTOR_RESTORE_GATE.json', {
+            'status': 'CANONICAL_WRITER_HELD_AWAITING_SERVICE_RESTORE',
+            'created_at': datetime.now(timezone.utc).isoformat(),
+            'reason': 'Restore the same existing service before final acceptance; its writer will wait for this transaction.'})
+        print('ARCHIVE_LOCKED_RESTORE_COLLECTOR: start the existing service and record COLLECTOR_RESTART_OBSERVATION.json.', flush=True)
+        deadline = time.monotonic() + 300
+        restore_path = D / 'COLLECTOR_RESTART_OBSERVATION.json'
+        while not restore_path.exists():
+            if time.monotonic() >= deadline:
+                raise RuntimeError('Collector restoration receipt missing; final completion not accepted.')
+            time.sleep(0.25)
+        restored = json.loads(restore_path.read_text())
+        assert restored['start_exit_code'] == 0 and restored['service_loaded'] is True
+        assert restored['observed_pid'] > 0
+        assert restored['installed_plist_sha256'] == json.loads((D / 'COLLECTOR_TEMPORARY_STOP_INTENT.json').read_text())['installed_plist_sha256']
+        boundary += ' The existing collector was temporarily stopped for archive lock contention and restarted before this acceptance; catch-up and repair of older gaps are not claimed.'
+    files = []
+    paths = sorted(p for p in D.rglob('*') if p.is_file() and '__pycache__' not in p.parts)
+    paths += [R / x['path'] for x in nav]
+    for p in paths:
+        b = p.read_bytes()
+        files.append({'path': str(p.relative_to(R)), 'sha256': w.put(b), 'bytes': len(b)})
+    event = w.append({'kind': 'research.preselection.decisions', 'actor': {'id': SID, 'role': 'AI'},
+        'session_id': SID, 'run_id': RUN, 'operation_id': RUN, 'attempt_id': 'closure-v1',
+        'parents': [start['ready_event']] + [r['event_id'] for r in roles], 'bindings': start['bindings'],
+        'outputs': list(dict.fromkeys(f['sha256'] for f in files)),
+        'payload': {'status': 'FINITE_DECISIONS_ACCEPTED', 'counts': register['counts'], 'targets': targets,
+                    'files': files, 'boundary': boundary}}, RUN + ':decisions:v1')
+    events = {e['id']: e for e in w.events()}
+    known = index(events.values())
+    entries = []
+    for cid in targets:
+        c = next(c for c in register['candidates'] if c['id'] == cid)
+        v = next(v for v in c['versions'] if v['current'])
+        d = json.loads((D / 'decisions' / (cid + '.json')).read_text())
+        le = base_entry(RUN + ':' + cid + ':selection-v1', mapping[cid]['entity'], 'selection',
+                        ' '.join(d['why']))
+        le['parents'] = [mapping[cid]['assigned_entry']] + [x['lineage_entry_id'] for x in roles if x['candidate'] == cid]
+        le['artifacts'] = [{'path': v['path'], 'sha256': w.put((R / v['path']).read_bytes()), 'role': 'selected-version'},
+                           {'path': str((D / 'decisions' / (cid + '.json')).relative_to(R)),
+                            'sha256': w.put((D / 'decisions' / (cid + '.json')).read_bytes()), 'role': 'selection-rationale'}]
+        le['evidence'] = [event['id']] + [x['event_id'] for x in roles if x['candidate'] == cid]
+        le['occurred_at'] = datetime.now(timezone.utc).isoformat()
+        le['actor'] = 'AI coordinator ' + SID
+        le['configuration'] = {'requested': 'Existing coordinator; no additional evaluator', 'observed': json.loads((D / 'CONFIGURATION.json').read_text())}
+        le['workflow'] = RUN
+        le['decision'] = {'action': d['decision'], 'reason': d['why'], 'remaining_issue': d['problem'],
+                          'scope': 'Version choice for future comparison; no rank or finalist selection',
+                          'originals_retained': True, 'disagreement': d.get('disagreement')}
+        le['gaps'] = d.get('limitations', []) + [d['review_scope'], boundary]
+        lev = append_lineage(w, le, SID, known, events)
+        entries.append({'candidate': cid, 'entry_id': le['id'], 'event_id': lev['id'], 'entity': le['entity']})
+    save('SELECTION_LINEAGE_RECEIPT.json', {'entries': entries, 'unchanged_seven': 'No new essay lineage or review claimed; baseline version choices retained.'})
+    save('DECISION_RECEIPT.json', {'event_id': event['id'], 'files': files, 'counts': register['counts']})
+    print('Final register and fifteen selection lineages archived; refreshing canonical checkpoint.', flush=True)
+    cp = checkpoint(R, w, RUN, str((D / 'CHECKPOINT_SUMMARY.json').relative_to(R)), [coverage['coverage_event_id']], incomplete=True)
+    derived = []
+    derived_paths = ['knowledge/resume.md', 'knowledge/checkpoint_index.json']
+    for x in entries:
+        derived_paths += ['research/biographies/' + x['entity'] + '/BIOGRAPHY.md', 'research/biographies/' + x['entity'] + '/biography.json']
+    for rel in dict.fromkeys(derived_paths):
+        b = (R / rel).read_bytes()
+        derived.append({'path': rel, 'sha256': w.put(b), 'bytes': len(b)})
+    for x in entries:
+        assert x['entry_id'] in (R / 'research/biographies' / x['entity'] / 'biography.json').read_text()
+    end = w.append({'kind': 'research.preselection.completed', 'actor': {'id': SID, 'role': 'AI'},
+        'session_id': SID, 'run_id': RUN, 'operation_id': RUN, 'attempt_id': 'closure-v1',
+        'parents': [event['id'], cp['id']] + [x['event_id'] for x in entries],
+        'outputs': [x['sha256'] for x in derived] + [w.put((D / f).read_bytes()) for f in ['DECISION_RECEIPT.json', 'SELECTION_LINEAGE_RECEIPT.json']],
+        'payload': {'status': 'PRESELECTION_COMPLETE_BOUNDED', 'remaining_requested_work': 0,
+                    'targeted_tasks': 8, 'new_essay_initial_reviews': 7, 'archived_roles': len(roles),
+                    'counts': register['counts'], 'selected_versions': 22, 'protected_originals': len(protected),
+                    'ten_selected': False, 'boundary': boundary}}, RUN + ':complete:v1')
+    for f in files + derived:
+        assert sha(w.get(f['sha256'])) == f['sha256']
+    for f in protected:
+        assert sha((R / f['path']).read_bytes()) == f['sha256']
+    save('FINAL_RECEIPT.json', {'status': 'PRESELECTION_COMPLETE_BOUNDED', 'event_id': end['id'],
+        'decision_event_id': event['id'], 'checkpoint_event_id': cp['id'], 'counts': register['counts'],
+        'remaining_requested_work': 0, 'archived_roles': len(roles), 'ten_selected': False,
+        'protected_originals_unchanged': len(protected), 'files': files, 'derived_navigation': derived,
+        'boundary': boundary})
+print(json.dumps({'status': 'PRESELECTION_COMPLETE_BOUNDED', 'event_id': end['id'], 'counts': register['counts']}), flush=True)

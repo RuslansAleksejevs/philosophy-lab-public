@@ -1,0 +1,369 @@
+{
+  "audit_id": "V02-L",
+  "manuscript_id": "V02",
+  "role": "literature",
+  "manuscript_sha256": "6fcfd9ef400a61abed5b52b1a810c8e233a764ca059804b1223c9fb4794f4605",
+  "read_complete": true,
+  "thesis": "When future correction helps justify a policy that might impair political standing, the corrective route must be assessed under the hypothesis that this impairment occurs. This assessment must cover discovering the injury, establishing it, obtaining a decision and implementing a remedy. Protection must precede exposure when permission to proceed depends on that protection. The argument does not independently establish that every unprotected risk is impermissible.",
+  "claimed_contribution": "Under the heading “Before You Tell Us to Try Again,” the manuscript identifies its contribution as “an ordering condition on a familiar democratic justification.” Its strongest defensible claim is a specific test for the justificatory weight of corrective assurances: evaluate the entire route under the threatened impairment, and preserve its indispensable capacities beforehand when the policy’s justification requires them. It expressly disclaims discovering contestation, policy feedback, review triggers or a general law of remedial design.",
+  "assessment": "NO_MAJOR_DEFECT_FOUND",
+  "findings": [
+    {
+      "id": "L1",
+      "severity": "minor",
+      "manuscript_location": "“Before You Tell Us to Try Again,” paragraphs beginning “My proposed specification connects these concerns” and “The political argument therefore adds”; identifying quotations: “assessing an assurance of correction” and “an assessment of democratic justification.”",
+      "claim": "The literature positioning omits direct antecedents of the connection between accepting political decisions and preserving opportunities to correct them.",
+      "analysis": "This is a demonstrated omission, not a demonstration that the manuscript’s complete argument already exists. Gutmann and Thompson explicitly connect dissenters’ acceptance of decisions with future opportunities to modify them and continue arguing, including after irreversible choices: [Why Deliberative Democracy?, chapter 1, pp. 6–7](https://assets.press.princeton.edu/chapters/s7869.pdf). Carolene Products raises heightened scrutiny where legislation restricts political processes ordinarily available for repeal: [304 U.S. 144, 152–153 n.4, second paragraph](https://supreme.justia.com/cases/federal/us/304/144/). These are substantive antecedents of the justificatory relationship, rather than merely discussions containing similar terminology. Neither passage establishes the manuscript’s complete conditional requirement concerning evidence production and implementation.",
+      "status": "demonstrated",
+      "effect_on_conclusion": "The central requirement does not fail. Its contribution should be situated as a specification within an existing tradition connecting political acceptance, correction and the conditions of correction. Any broader suggestion that applying remedial dependence to democratic justification is itself new would need narrowing.",
+      "repair_conditions": "Compare these antecedents directly and identify the additional work performed by the hypothesized-injury assessment and conditional timing requirement. No replacement argument or wholesale expansion of the bibliography is necessary.",
+      "source_ids": [
+        "S7",
+        "S9"
+      ]
+    }
+  ],
+  "surviving_contribution": "A distinct remainder survives the passages examined: the explicit connection between a policy-induced impairment, the reliability of every indispensable stage of its promised remedy, and the timing of protection when that remedy is needed to justify proceeding. The manuscript also separates failure of an assurance from the permissibility and binding force of the underlying decision. The contribution is best understood as a focused specification and synthesis. The opened sources establish substantial antecedents for its components, but I did not locate a passage presenting this entire combination with the same conditional scope. That is a limited-search result, not proof of originality.",
+  "remaining_questions": [
+    "Plausible novelty objection: how much does the specified test add to Levine’s requirement that review thresholds themselves undergo political-feedback analysis? His footnote 120 is closer than a contrast with a mere review calendar suggests. The manuscript should compare that passage directly; the overlap does not by itself establish duplication.",
+    "Unanswered question: is the assessment of the complete corrective route intended as an independently new requirement, or as an explicit application of existing accounts of effective contestation and democratic learning? The manuscript permits the latter reading, but could identify it more precisely.",
+    "Access-limited question: whether Collingridge’s treatment of corrigibility and entrenchment contains a closer formulation of the evidence-before-control problem remains unresolved because the original book’s relevant text was not obtained.",
+    "Uncompleted extension: the wider arguments in Ely’s Democracy and Distrust and Pettit’s books were not independently read. Conclusions about their complete scope would exceed this audit."
+  ],
+  "limitations": [
+    "The complete supplied manuscript, including its bibliography, was read. Its SHA-256 was accepted as supplied and was not recomputed.",
+    "Research used only public web search and opened public pages. No manuscript-identity search, project history, local files, agents, private sources or author contact was used.",
+    "Several original links failed. Christiano and Levine were checked through accessible reproductions of their articles; Waldron through a public transcription. These permit substantive comparison but leave an edition-level verification limitation.",
+    "Only the specified relevant portions of external works were read. Search results and snippets were discovery aids, not evidence of an unread primary text’s argument.",
+    "The search covered democratic revisability, contestation, political-process restrictions, policy feedback, experimental learning, remedial accessibility and technological corrigibility. It was finite and primarily English-language.",
+    "The Collingridge catalogue record supplied metadata, not the argument. The attempted OHCHR documents were inaccessible; conclusions concerning grievance mechanisms instead rely on the separately opened original Shift and Mazars framework.",
+    "The transport examples, probabilities and institutional arrangements are expressly hypothetical. Their practical effectiveness was not empirically established, and the manuscript does not present them as observed results."
+  ],
+  "plain_summary_ru": [
+    "Главная мысль статьи — проверять, останется ли исправление доступным именно тогда, когда предполагаемый вред уже наступил.",
+    "Проверенные тексты в целом подтверждают ссылки, но некоторые оригиналы были доступны только через публичные копии.",
+    "У аргумента есть близкие предшественники, поэтому его новизна скорее в точном условии и порядке защиты, чем в общей идее."
+  ],
+  "novelty_status": "DISTINCT_REMAINDER_WITH_LIMITED_SEARCH",
+  "search_log": [
+    {
+      "query": "democracy policy undermines ability contest correction political entrenchment remedies future review; democratic experimentalism participation monitoring affected citizens capacity review remedies",
+      "purpose": "Begin from the precise mechanism and search independently across entrenchment and experimentalist terminology.",
+      "result_summary": "Produced broad leads rather than an established duplicate. The relevant opened and assessed sources are identified below; unrelated search results were not used as evidence."
+    },
+    {
+      "query": "\"Reply to Critics of The Constitution of Equality\" Christiano; \"Can Democracy Heal Epistemic Injustice\"",
+      "purpose": "Locate and authenticate two bibliography entries.",
+      "result_summary": "Opened the JESP record and Springer article. JESP’s PDF failed; a public reproduction of Christiano’s article was subsequently opened. See S1, S1R and S5."
+    },
+    {
+      "query": "\"Democratically Durable Regulation\" pdf; \"Democratically Durable Regulation\" \"pdf\" Levine -site:papers.ssrn.com",
+      "purpose": "Find accessible primary text and examine the cited principles.",
+      "result_summary": "MIT and SSRN access failed. The reproduced journal article at S4 opened successfully; Principles 4–5 and footnote 120 were examined."
+    },
+    {
+      "query": "\"Reply to Critics\" \"Christiano\" pdf -site:researchgate.net -site:jesp.org; \"Christiano\" \"Reply to Critics\" \"persistent\"",
+      "purpose": "Locate an alternative copy and check the persistent-minority attribution.",
+      "result_summary": "Alternative JESP PDF URLs also failed. The full-text reproduction at S1 supplied the relevant passages. Search snippets were not treated as verification."
+    },
+    {
+      "query": "\"Core of the Case Against Judicial Review\" Waldron yale; \"The Core of the Case Against Judicial Review\" filetype:pdf -site:scispace.com -site:researchgate.net -site:humanities.mcmaster.ca -site:openyls.law.yale.edu",
+      "purpose": "Check Waldron’s bibliographic identity, assumptions and discussion of non-core cases.",
+      "result_summary": "The supplied McMaster PDF exceeded the tool’s content limit. Yale repository and CORE copies failed to open. The public transcription at S6 opened and supplied the cited arguments."
+    },
+    {
+      "query": "\"democracy\" \"revisability\" Gutmann Thompson conditions; \"Why Deliberative Democracy\" \"provisional\" pdf Gutmann Thompson; Gutmann Thompson Why Deliberative Democracy chapter 1 pdf press princeton",
+      "purpose": "Search for earlier arguments linking political acceptance to future correction.",
+      "result_summary": "Opened Princeton University Press’s chapter PDF at S9 and read the relevant discussion on pp. 5–7. This supplies a direct antecedent, rather than keyword resemblance."
+    },
+    {
+      "query": "\"democracy\" \"self-correcting\" \"silence\" Dewey Anderson; Anderson 2006 epistemology democracy feedback dissent pdf",
+      "purpose": "Search democratic learning and the evidential consequences of exclusion.",
+      "result_summary": "Opened Anderson’s author-hosted PDF at S8. Examined feedback, information transmission and the community-forestry example, especially pp. 18–21."
+    },
+    {
+      "query": "\"Carolene Products\" \"political processes\" \"repeal\" 1938 footnote four; \"Democracy and Distrust\" \"channels of political change\" pdf Ely; \"Democracy and Distrust\" Ely filetype:pdf \"105\"; \"Democracy and Distrust\" \"Ely\" \"1980\" site:archive.org",
+      "purpose": "Test overlap with political-process protection and representation-reinforcing arguments.",
+      "result_summary": "Opened the judicial opinion at S7 and read footnote four. Ely’s original book was not obtained and is not counted as read."
+    },
+    {
+      "query": "\"grievance mechanisms\" \"barriers\" \"resources\" \"Principle 31\" ohchr; site:ohchr.org \"Principle 31\" \"monitoring implementation\"",
+      "purpose": "Test whether accessibility through implementation was already specified in adjacent remedial practice.",
+      "result_summary": "OHCHR PDF attempts failed. Opened the framework’s own remediation page and subsequently its original 2015 implementation-guidance PDF, S10."
+    },
+    {
+      "query": "site.ungpreporting.org \"Reporting Framework\" \"2015\" \"Mazars\"; site.ungpreporting.org \"reduction in the number of complaints\" pdf",
+      "purpose": "Verify chronology and locate the original discussion of misleading complaint counts.",
+      "result_summary": "The opened 2015 PDF contains the relevant discussion on p. 96 and the copyright statement on p. 114. Its current webpage was not used alone to establish historical priority."
+    },
+    {
+      "query": "\"Collingridge\" \"control\" \"information\" \"1980\" pdf",
+      "purpose": "Search an adjacent formulation involving delayed knowledge and declining capacity to change course.",
+      "result_summary": "Opened the Google Books record at S11. Relevant original pages were unavailable; secondary descriptions did not establish the book’s argument."
+    },
+    {
+      "query": "\"Depoliticizing Democracy\" \"10.1111\" \"2004\"",
+      "purpose": "Check Pettit’s exact bibliographic identity and DOI.",
+      "result_summary": "Opened Wiley’s publisher record, S2R, and checked it against the author-hosted PDF, S2."
+    },
+    {
+      "query": "Direct opens and source-location checks; no additional search query",
+      "purpose": "Audit all six supplied references and their material uses.",
+      "result_summary": "Opened URLs and locations are recorded in S1–S6 and the accompanying metadata records. Additional successful open: https://yalelawjournal.org/pdf/c.400.Levinson-Sachs.482_1wy4v8zj.pdf, confirming pp. 400–482. Searches within the opened texts located the passages listed in citation_audit."
+    },
+    {
+      "query": "Failed access attempts; no additional search query",
+      "purpose": "Record unavailable evidence without treating it as false.",
+      "result_summary": "403 responses: https://www.jesp.org/pdf/36346f73-90e0-819f-97d2-cda0dceac43a; https://jesp.org/PDF/Christianoreplyfinal.pdf; https://www.jesp.org/PDF/Christianoreplyfinal.pdf; https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4343035; https://direct.mit.edu/ajle/article/doi/10.1162/ajle_a_00059/117629/DEMOCRATICALLY-DURABLE-REGULATION; https://direct.mit.edu/ajle/article-pdf/doi/10.1162/ajle_a_00059/2159246/ajle_a_00059.pdf; https://openyls.law.yale.edu/bitstream/handle/20.500.13051/9638/54_115YaleLJ1346_April2006_.pdf?isAllowed=y&sequence=2; https://openyls.law.yale.edu/handle/20.500.13051/9638; https://core.ac.uk/download/pdf/157778863.pdf. The supplied McMaster URL failed because its content was too large. The DOI route for Levine and guessed Yale article/essay routes for Waldron also failed. Public reproductions were used where stated."
+    },
+    {
+      "query": "Adjacent-source access checks; no additional search query",
+      "purpose": "Record the distinction between inaccessible originals and successfully opened alternatives.",
+      "result_summary": "Both https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf and its /sites/default/files/ variant returned 403, as did https://www.ohchr.org/Documents/publications/hr.puB.12.2_en.pdf. Successfully opened https://www.ungpreporting.org/reporting-framework/management-of-salient-human-rights-issues/remediation/, https://www.ungpreporting.org/wp-content/uploads/UNGPReportingFramework_2017.pdf and the complete 2015 guidance at S10. The substantive comparison uses S10."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Thomas Christiano, “Reply to Critics of The Constitution of Equality,” Journal of Ethics and Social Philosophy 5(3), 2011.",
+      "url": "https://www.researchgate.net/publication/228991395_Reply_to_Critics_of_The_Constitution_of_Equality",
+      "primary_source": true,
+      "access_level": "Public reproduction of the article’s text; publisher PDF inaccessible.",
+      "locations_read": "Printed pp. 2–4, account of public equality and internal limits; pp. 12–14, persistent minorities and comparative institutional judgment.",
+      "relevant_result": "The cited claims concerning public equality, democratic authority and persistent minorities are supported. Christiano’s account of authority is stronger than the manuscript’s deliberately restricted conclusion."
+    },
+    {
+      "id": "S1R",
+      "citation": "JESP publisher record for Christiano’s 2011 reply.",
+      "url": "https://www.jesp.org/paper/36346f73-90e0-819f-97d2-cda0dceac43a",
+      "primary_source": true,
+      "access_level": "Publisher metadata accessible.",
+      "locations_read": "Title, author, volume 5, number 3, November 2011, pp. 1–15, DOI.",
+      "relevant_result": "Confirms the bibliography’s identity and DOI 10.26556/jesp.v5i3.117."
+    },
+    {
+      "id": "S2",
+      "citation": "Philip Pettit, “Depoliticizing Democracy,” Ratio Juris 17(1), 2004, pp. 52–65.",
+      "url": "https://ppettit.scholar.princeton.edu/document/1616",
+      "primary_source": true,
+      "access_level": "Author-hosted article PDF accessible.",
+      "locations_read": "Sections 2.2–2.3, especially pp. 60–63 and footnote 11.",
+      "relevant_result": "Supports contestatory control, advance arrangements reducing contestatory burdens and separation of hearing bodies from the elected forums responsible for contested measures."
+    },
+    {
+      "id": "S2R",
+      "citation": "Wiley publisher record for “Depoliticizing Democracy.”",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.0952-1917.2004.00254.x",
+      "primary_source": true,
+      "access_level": "Publisher metadata and abstract accessible.",
+      "locations_read": "Article-information block and recommended citation.",
+      "relevant_result": "Confirms author, journal, volume, issue, pages, year and DOI."
+    },
+    {
+      "id": "S3",
+      "citation": "Daryl Levinson and Benjamin I. Sachs, “Political Entrenchment and Public Law,” Yale Law Journal 125, 2015, pp. 400–482.",
+      "url": "https://yalelawjournal.org/article/political-entrenchment-and-public-law",
+      "primary_source": true,
+      "access_level": "Journal HTML and linked PDF accessible.",
+      "locations_read": "Introduction; Part III.A; Part III.B.2, “The Uncertain Categorical Boundaries of Entrenchment”; PDF bibliographic endpoints.",
+      "relevant_result": "Substantive policies can alter future political power without formal repeal barriers. The authors also question a categorical distinction between entrenchment and ordinary political change."
+    },
+    {
+      "id": "S4",
+      "citation": "Gabriel L. Levine, “Democratically Durable Regulation,” American Journal of Law and Equality 3, 2023, pp. 283–318.",
+      "url": "https://www.researchgate.net/publication/374098197_DEMOCRATICALLY_DURABLE_REGULATION",
+      "primary_source": true,
+      "access_level": "Reproduced journal text accessible; MIT and SSRN routes inaccessible.",
+      "locations_read": "Article first page; Part II.B, Principles 4–5; especially pp. 303–306, 308–310 and footnote 120.",
+      "relevant_result": "Supports the attribution and provides a particularly close antecedent: review thresholds themselves receive feedback analysis."
+    },
+    {
+      "id": "S5",
+      "citation": "Eva Krick, “Can Democracy Heal Epistemic Injustice?,” Acta Politica, published online 18 August 2026.",
+      "url": "https://link.springer.com/article/10.1057/s41269-026-00429-6",
+      "primary_source": true,
+      "access_level": "Publisher full text accessible.",
+      "locations_read": "Publication information; “Access-denying forms of epistemic injustice”; “Empowering marginalised groups of knowers”; conclusion.",
+      "relevant_result": "Supports the threefold access distinction and institutional remedies, including resources and channels for marginalized groups to communicate knowledge."
+    },
+    {
+      "id": "S6",
+      "citation": "Jeremy Waldron, “The Core of the Case Against Judicial Review,” Yale Law Journal 115, 2006, pp. 1346–1406.",
+      "url": "https://paperzz.com/doc/8408340/the-core-of-the-case-against-judicial-review",
+      "primary_source": true,
+      "access_level": "Public article transcription accessible; supplied and repository PDFs unavailable.",
+      "locations_read": "Title and contents; pp. 1359–1362; pp. 1399–1403, including Part VII.",
+      "relevant_result": "Supports the manuscript’s qualified account of institutional assumptions, procedural disagreement and the absence of automatic vindication of courts when those assumptions fail."
+    },
+    {
+      "id": "S7",
+      "citation": "United States v. Carolene Products Co., 304 U.S. 144, 1938.",
+      "url": "https://supreme.justia.com/cases/federal/us/304/144/",
+      "primary_source": true,
+      "access_level": "Full judicial opinion reproduced publicly; editorial annotations excluded from the argument comparison.",
+      "locations_read": "Opinion at pp. 152–153 and footnote four, particularly its second paragraph.",
+      "relevant_result": "An early direct antecedent concerning legislation that restricts the political processes ordinarily available to secure its repeal. The footnote raises the scrutiny question rather than resolving every such case."
+    },
+    {
+      "id": "S8",
+      "citation": "Elizabeth Anderson, “The Epistemology of Democracy,” Episteme 3(1–2), 2006, pp. 8–22.",
+      "url": "https://websites.umich.edu/~eandersn/EpistemeAnderson.pdf",
+      "primary_source": true,
+      "access_level": "Author-hosted article version accessible; its displayed pagination begins at 9.",
+      "locations_read": "Displayed pp. 13–16 on feedback; pp. 18–21 on information pathways and community forestry.",
+      "relevant_result": "Democratic learning requires tracing affected people’s knowledge through institutions and removing obstacles to its effective uptake. Exclusion can disable correction."
+    },
+    {
+      "id": "S9",
+      "citation": "Amy Gutmann and Dennis Thompson, Why Deliberative Democracy?, Princeton University Press, 2004, chapter 1.",
+      "url": "https://assets.press.princeton.edu/chapters/s7869.pdf",
+      "primary_source": true,
+      "access_level": "Publisher’s chapter PDF accessible; complete book not read.",
+      "locations_read": "“What Deliberative Democracy Means,” pp. 5–7.",
+      "relevant_result": "Directly links provisional decisions, continued argument and dissenters’ willingness to accept decisions; discusses reassessment after irreversible action."
+    },
+    {
+      "id": "S10",
+      "citation": "Shift and Mazars, UN Guiding Principles Reporting Framework with Implementation Guidance, 2015.",
+      "url": "https://www.ungpreporting.org/wp-content/uploads/2015/02/UNGuidingPrinciplesReportingFramework_withimplementationguidance_Feb2015.pdf",
+      "primary_source": true,
+      "access_level": "Original framework PDF accessible.",
+      "locations_read": "C6.2, pp. 91–92; C6.3, pp. 94–95; C6.4, p. 96; copyright on p. 114.",
+      "relevant_result": "Distinguishes channels’ existence from practical usability, addresses remedy implementation and warns that declining complaints can indicate reduced confidence rather than reduced harm."
+    },
+    {
+      "id": "S11",
+      "citation": "Catalogue record for David Collingridge, The Social Control of Technology, Frances Pinter, 1980.",
+      "url": "https://books.google.com/books/about/The_Social_Control_of_Technology.html?id=2q_uAAAAMAAJ",
+      "primary_source": false,
+      "access_level": "Metadata and limited contents only.",
+      "locations_read": "Bibliographic information and displayed contents.",
+      "relevant_result": "Relevant original argument not read; no substantive novelty finding is based on this record."
+    }
+  ],
+  "closest_predecessors": [
+    {
+      "source_id": "S4",
+      "overlap": "Democratic assessment of policy feedback, advance review triggers and feedback analysis of those triggers substantially overlap with assessing corrective institutions under policy-created conditions.",
+      "difference": "The examined passages do not expressly formulate the manuscript’s complete injury-conditioned route or make protection’s timing depend on a corrective assurance’s justificatory necessity.",
+      "remaining_contribution": "An explicit conditional specification may remain; its independence from Levine’s framework is unresolved.",
+      "evidence_location": "Part II.B, Principles 4–5, especially p. 310 n.120 in the [article reproduction](https://www.researchgate.net/publication/374098197_DEMOCRATICALLY_DURABLE_REGULATION)."
+    },
+    {
+      "source_id": "S7",
+      "overlap": "Political correction cannot simply be presumed when legislation restricts the processes that would enable it.",
+      "difference": "The opinion concerns constitutional scrutiny and political repeal, without the manuscript’s entire evidential and implementation sequence.",
+      "remaining_contribution": "A non-court-specific test for a particular corrective assurance and its required preparation.",
+      "evidence_location": "[Carolene Products](https://supreme.justia.com/cases/federal/us/304/144/), pp. 152–153 n.4, second paragraph."
+    },
+    {
+      "source_id": "S9",
+      "overlap": "Future opportunities to revise decisions and keep arguing help explain acceptance despite disagreement.",
+      "difference": "The examined chapter does not test those opportunities under an injury caused by the disputed policy.",
+      "remaining_contribution": "Specifying when that familiar reason loses weight and when its practical conditions must be protected.",
+      "evidence_location": "[Chapter 1](https://assets.press.princeton.edu/chapters/s7869.pdf), pp. 6–7."
+    },
+    {
+      "source_id": "S8",
+      "overlap": "Correction depends on affected people’s knowledge reaching decision makers; institutional exclusion obstructs that process. This overlaps with the manuscript’s review and missing-evidence examples.",
+      "difference": "Anderson develops an epistemic account and institutional diagnosis, rather than the precise conditional obligation attached to an offered assurance.",
+      "remaining_contribution": "The requirement to assess policy-induced obstruction in advance when the assurance is necessary for justification.",
+      "evidence_location": "[Author-hosted article](https://websites.umich.edu/~eandersn/EpistemeAnderson.pdf), displayed pp. 18–21."
+    },
+    {
+      "source_id": "S2",
+      "overlap": "Effective individual contestation and arrangements established beforehand to reduce contestatory burdens.",
+      "difference": "Pettit argues for specific institutional separation; the manuscript expressly leaves that question open and tests functional dependencies.",
+      "remaining_contribution": "A focused test of corrective reliability under a specified injury, without endorsing Pettit’s complete institutional prescription.",
+      "evidence_location": "[Sections 2.2–2.3](https://ppettit.scholar.princeton.edu/document/1616), pp. 60–63."
+    },
+    {
+      "source_id": "S3",
+      "overlap": "Policies can weaken future opponents and impede change while formal procedures remain available.",
+      "difference": "The analysis addresses entrenchment’s mechanisms and normative boundaries, rather than the weight of an assurance offered to affected citizens.",
+      "remaining_contribution": "Evaluating that assurance without treating all political feedback as impermissible.",
+      "evidence_location": "[Introduction and Part III.B.2](https://yalelawjournal.org/article/political-entrenchment-and-public-law)."
+    },
+    {
+      "source_id": "S10",
+      "overlap": "Practical complaint access, implementation and the ambiguity of low complaint counts are established remedial-design concerns.",
+      "difference": "This is corporate human-rights reporting guidance, not an account of democratic authority under disagreement.",
+      "remaining_contribution": "The political justificatory application remains; the manuscript appropriately disclaims a new general law of remedies.",
+      "evidence_location": "[Implementation guidance](https://www.ungpreporting.org/wp-content/uploads/2015/02/UNGuidingPrinciplesReportingFramework_withimplementationguidance_Feb2015.pdf), C6.2–C6.4, pp. 91–96."
+    }
+  ],
+  "citation_audit": [
+    {
+      "manuscript_reference": "Christiano 2011, bibliography and pp. 2–4, 12–14.",
+      "manuscript_location": "“Before You Tell Us to Try Again,” paragraph beginning “These commitments are familiar”; quotation: “connects democratic authority and its limits to public equality.”",
+      "status": "partially_verified",
+      "evidence": "Identity and DOI verified against the [publisher record](https://www.jesp.org/paper/36346f73-90e0-819f-97d2-cda0dceac43a). The reproduced article supports both substantive attributions at the cited pages. Publisher-PDF comparison could not be completed; no inaccurate attribution was found.",
+      "source_ids": [
+        "S1",
+        "S1R"
+      ]
+    },
+    {
+      "manuscript_reference": "Pettit 2004, bibliography, §§2.2–2.3 and pp. 62–63.",
+      "manuscript_location": "“Before You Tell Us to Try Again,” “defends advance arrangements that reduce the burden” and “bodies hearing contestations must be distinct from the elected forums.”",
+      "status": "verified",
+      "evidence": "The [publisher record](https://onlinelibrary.wiley.com/doi/10.1111/j.0952-1917.2004.00254.x) confirms the bibliographic details. The [author-hosted PDF](https://ppettit.scholar.princeton.edu/document/1616), pp. 62–63, supports both claims. The manuscript explicitly distinguishes its institutional latitude from Pettit’s position.",
+      "source_ids": [
+        "S2",
+        "S2R"
+      ]
+    },
+    {
+      "manuscript_reference": "Levinson and Sachs 2015, bibliography, Introduction and Part III.",
+      "manuscript_location": "“Before You Tell Us to Try Again,” paragraph beginning “The political consequences”; quotation: “policies can entrench power without explicit barriers to repeal.”",
+      "status": "verified",
+      "evidence": "The [journal article](https://yalelawjournal.org/article/political-entrenchment-and-public-law) supports both functional entrenchment and the difficulty distinguishing it from ordinary political change. Journal HTML and PDF confirm title, authorship, year, volume and page range.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "manuscript_reference": "Levine 2023, bibliography, Part II.B, Principles 4–5.",
+      "manuscript_location": "“Before You Tell Us to Try Again,” “assessing policies’ democratic consequences and including triggers for later review.”",
+      "status": "partially_verified",
+      "evidence": "The [reproduced journal text](https://www.researchgate.net/publication/374098197_DEMOCRATICALLY_DURABLE_REGULATION) confirms the identity, DOI, pagination and attribution. Publisher access failed. Footnote 120 makes the overlap closer, but does not make the manuscript’s summary false.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "manuscript_reference": "Krick 2026, bibliography and “Access-denying forms of epistemic injustice.”",
+      "manuscript_location": "“Before You Tell Us to Try Again,” “exclusion from acquiring, producing and disseminating knowledge.”",
+      "status": "verified",
+      "evidence": "The [publisher full text](https://link.springer.com/article/10.1057/s41269-026-00429-6) confirms the author, title, DOI and online publication date. The cited section expressly distinguishes the three forms; subsequent sections discuss institutional remedies.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "manuscript_reference": "Waldron 2006, bibliography and pp. 1359–1361, 1399–1402.",
+      "manuscript_location": "“Before You Tell Us to Try Again,” paragraph beginning “A serious objection remains”; quotations: “a fair procedure for deciding them” and “does not automatically vindicate courts.”",
+      "status": "partially_verified",
+      "evidence": "The [opened transcription](https://paperzz.com/doc/8408340/the-core-of-the-case-against-judicial-review) supports the institutional assumptions, procedural objection and conditional conclusion. The supplied PDF and repository alternatives were unavailable, so exact comparison against the printed version remains incomplete.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "manuscript_reference": "Uncited discussion of silence and complaint records.",
+      "manuscript_location": "“Before You Tell Us to Try Again,” “A lack of complaints may indicate that residents have adjusted successfully, or that they can no longer report their difficulties.”",
+      "status": "verified",
+      "evidence": "The conditional likelihood point does not require a specialized theorem citation: equal likelihoods leave the relative odds of the specified hypotheses unchanged. A close practical antecedent appears in [Shift and Mazars, C6.4, p. 96](https://www.ungpreporting.org/wp-content/uploads/2015/02/UNGuidingPrinciplesReportingFramework_withimplementationguidance_Feb2015.pdf). The manuscript does not claim that this general observation is its discovery.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "manuscript_reference": "Hypothetical examples, numerical illustration and formal-source claims.",
+      "manuscript_location": "“Before You Tell Us to Try Again,” “These are hypothetical probabilities, not estimates about transport” and “Consider an illustrative arrangement.”",
+      "status": "verified",
+      "evidence": "The manuscript labels its numerical example and institutional arrangement as hypothetical. It contains no externally attributed verbatim quotation, formal equation or named theorem requiring source verification. The examples’ actual effectiveness is therefore an untested application question, not a demonstrated factual or citation error.",
+      "source_ids": []
+    }
+  ]
+}

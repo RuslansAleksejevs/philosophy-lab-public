@@ -1,0 +1,38 @@
+{
+  "schema": "service-recovery-performance-preparation-review.v1",
+  "status": "PASS_PREPARATION_ONLY",
+  "reviewer": "plan_audit",
+  "files": [
+    {"path": "runs/repository-rebuild-20261031/history-audit/service-recovery-performance/prepare_successor_baseline.py", "sha256": "be22ba76783e6dd18b41bacc73b980e37d19210d44e6fc15a43142cd25b9b90b", "bytes": 10739},
+    {"path": "runs/repository-rebuild-20261031/history-audit/service-recovery-performance/test_prepare_successor_baseline.py", "sha256": "5945ad848685dbff631c1e9e98012a0e5ef0ce7cb465ff9d2446e23968e1c480", "bytes": 5286},
+    {"path": "runs/repository-rebuild-20261031/history-audit/service-recovery-performance/CONTRACT.json", "sha256": "bfb1069846c94bc1755b90cf5fe5a305f5767a388c6a4c43d88524310ace0443", "bytes": 1846}
+  ],
+  "validation": {
+    "command": "python3 -B runs/repository-rebuild-20261031/history-audit/service-recovery-performance/test_prepare_successor_baseline.py",
+    "synthetic_tests_passed": 10,
+    "test_elapsed_seconds": 0.001,
+    "actual_installed_nine_source_hashes_match_contract": true,
+    "independently_recomputed_signature": "f369e9f62c02def03101e90372e44dd2ae5bfc00e9b7d55324f0a0e426d9755d",
+    "actual_baseline_existed_at_review": false
+  },
+  "reviewed_guards": [
+    "Default main path stops before process probes, canonical event reads and baseline writes; --save is an explicit separate operation.",
+    "Source contract, frozen probe V2, original baseline checker, prior baseline and stop receipt have exact pinned hashes; no source compatibility alias is introduced.",
+    "Prior attempt requires successful stop evidence, exact PID40522 exit evidence and no unexplained canonical temporary files; process absence requires ps returncode1 with empty output, launchd exact not-found response.",
+    "Historical twenty accepted results are rechecked by exact direct sequence/event SHA/file SHA using descriptors from the pinned old baseline, then matched to unchanged local receipts. Historical closure stays separate from the newer collector frontier.",
+    "Old receipt_sessions requires twenty distinct job/session/event IDs plus the exact root SID. check_accepted enforces canonical scientific/independence flags and exact receipt/native_check/files attribution. check_closure enforces the exact twenty parents.",
+    "Current frontier must exactly match the reviewed stopped attempt, not merely be at least the old closure. Frontier, runtime snapshots, installed source files, closure, accepted receipts and bound prior evidence are rechecked before exclusive local output.",
+    "Baseline directory creation is exclusive. The helper starts no service, model or archive writer; old attempts and temporary evidence are retained. Future probe keeps all fourteen checks and explicit historical gap limits."
+  ],
+  "blocking_findings": [],
+  "actions": {
+    "actual_helper_main_calls": 0,
+    "actual_baseline_saves": 0,
+    "service_actions": 0,
+    "canonical_writes": 0,
+    "real_archive_audits": 0,
+    "native_source_body_reads": 0,
+    "model_calls": 0
+  },
+  "boundary": "Code and synthetic preparation review only; not an observed recovery PASS. Actual --save, start and fresh completed-poll acceptance remain root operations. Historical README planning paragraphs are not current runtime evidence."
+}

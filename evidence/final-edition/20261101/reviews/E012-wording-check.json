@@ -1,0 +1,68 @@
+{
+  "job_id": "E012-repair-critic",
+  "essay_id": "E012",
+  "scientific_role": "critic",
+  "manuscript_sha256": "9595173b9bfa3940ff2c1ee6ea832f0b7b6dc1cb44f374f18bc79784fa99c9d9",
+  "read_original_complete": true,
+  "read_revision_complete": true,
+  "decision": "READY",
+  "findings": [],
+  "change_checks": [
+    {
+      "location": "Opening, second paragraph, first sentence",
+      "what_changed": "“pays Mara for destroying her opportunity” became “compensates Mara for the destruction of her opportunity”.",
+      "assessment": "Successful correction; no further repair required.",
+      "reason": "The revision removes the possible reading that Mara is paid to destroy her own opportunity. The preceding paragraph explicitly identifies the fund as deleting the archive, so responsibility for the destruction is clear in context. Compensation retains the intended remedial meaning without introducing a grammatical fault, unsupported assertion or further semantic change."
+    }
+  ],
+  "preservation_checks": [
+    {
+      "aspect": "Exhaustiveness of the supplied diff",
+      "assessment": "Confirmed.",
+      "reason": "Comparison of both complete texts shows only the specified sentence change. The remaining text, headings, equation, citations and references are unchanged."
+    },
+    {
+      "aspect": "Philosophical arguments",
+      "assessment": "Preserved; not freshly re-audited.",
+      "reason": "The correction preserves compensation for a lost evidential opportunity and the distinction between that entitlement and a finding about contractor responsibility. The remaining arguments are unchanged."
+    },
+    {
+      "aspect": "Mathematics",
+      "assessment": "Preserved; not freshly re-audited.",
+      "reason": "The numerical example, equation and accompanying interpretation in section 6 are unchanged."
+    },
+    {
+      "aspect": "Source claims",
+      "assessment": "Preserved; not freshly re-audited.",
+      "reason": "All source attributions, qualifications, citations and reference entries remain unchanged."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "all_cited_sources",
+      "status": "Preservation checked only.",
+      "locations_checked": "Source discussions in sections 4–5 and all reference entries.",
+      "note": "No source passages or abstracts are supplied in this narrow packet. Claims about sources were compared for preservation, not independently verified."
+    }
+  ],
+  "language_assessment": {
+    "clearer_than_original": true,
+    "strengths": [
+      "Makes Mara the recipient of compensation for a loss, removing the misleading payment-for-action construction.",
+      "Clearly attributes the destruction to the fund when read with the preceding paragraph.",
+      "Preserves the intended meaning and is grammatically sound."
+    ],
+    "remaining_issues": [],
+    "content_loss_found": false
+  },
+  "recommend_revision_over_original": true,
+  "limitations": [
+    "This verdict concerns only the changed sentence in context and preservation of the remaining text.",
+    "Unchanged mathematics, source claims and philosophical arguments were not freshly re-audited.",
+    "Neither an essay abstract nor source passages are included in this packet."
+  ],
+  "plain_summary_ru": [
+    "Правка удачна: теперь ясно, что Мара получает компенсацию за утраченную возможность, а не плату за её уничтожение. Из предыдущего абзаца понятно, что уничтожение вызвано действиями фонда.",
+    "Других изменений нет. Дополнительная правка не нужна; остальной текст проверен только на сохранность."
+  ]
+}

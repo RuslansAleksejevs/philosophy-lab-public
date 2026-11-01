@@ -1,0 +1,138 @@
+{
+  "schema": "judge-reading-log-v1",
+  "judge_id": "raphael_milliere",
+  "access_date": "2026-10-07",
+  "retrieval_form": "Web-tool source fragments; originals retained verbatim, including errors and extraction defects. Not raw HTTP or original PDF files.",
+  "readings": [
+    {
+      "source_id": "I1",
+      "coverage": "metadata",
+      "read_locations": "Identity and research description; not a personality source.",
+      "artifacts": [
+        {
+          "path": "evidence/turn4search3.txt",
+          "sha256": "f20be7368a55ffbad7102eacd9aa52ed40b66d83b1bc1eebe10e79487f4c457e",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "I2",
+      "coverage": "metadata",
+      "read_locations": "Institutional identity and current affiliation.",
+      "artifacts": [
+        {
+          "path": "evidence/turn4search6.txt",
+          "sha256": "f4decd4731a9aa5d89db760dc0eaea378cbd193df2131660e2c16c6735ebb784",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S1",
+      "coverage": "substantial_excerpt",
+      "read_locations": "PDF pp2–4, extracted lines68–111 and122–154; not the full nine-page article.",
+      "artifacts": [
+        {
+          "path": "evidence/turn30view0.txt",
+          "sha256": "54d85156c99d50f43d3917ddcb590f807d07d01a650decabeb8004b065f96452",
+          "line_ranges_present": [
+            [
+              68,
+              111
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn38view2.txt",
+          "sha256": "1d9279e6147b866d8232f4f80bb7bfe6b8601c3abb4a03cdbb695e170c2b0d46",
+          "line_ranges_present": [
+            [
+              122,
+              154
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S2",
+      "coverage": "substantial_excerpt",
+      "read_locations": "Extracted lines0–52,91–105,120–177; introduction, architectural framing, compositionality and redescription discussion; later sections not read.",
+      "artifacts": [
+        {
+          "path": "evidence/turn30view1.txt",
+          "sha256": "342b8c23af41b065feff48091577ec8f41aa5a5680b1f0de001d5c01ea0eb5b9",
+          "line_ranges_present": [
+            [
+              0,
+              52
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn38view1.txt",
+          "sha256": "52481b9edf1a39118ca98eca23eeb390f4ea161cf822b3e6925a7c1f1bb0b188",
+          "line_ranges_present": [
+            [
+              91,
+              105
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn68view0.txt",
+          "sha256": "95608f03cc421fe1d675d9599939c3a4b9904091c8d03c26f2930e13720f459d",
+          "line_ranges_present": [
+            [
+              120,
+              177
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S3",
+      "coverage": "substantial_excerpt",
+      "read_locations": "Transcript lines69–188, approximately10:00–51:24. Only speaker-labelled Millière remarks support his views; interviewer remarks are not attributed to him.",
+      "artifacts": [
+        {
+          "path": "evidence/turn70view0.txt",
+          "sha256": "a756ef9edbad0cddebda07ba701d78464fc37b8ce7ce93c5aa6b9dadc1e83d96",
+          "line_ranges_present": [
+            [
+              69,
+              188
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "D1",
+      "coverage": "metadata",
+      "read_locations": "Discovery only; listed media are not claimed read.",
+      "artifacts": [
+        {
+          "path": "evidence/turn66view0.txt",
+          "sha256": "7b5c340eb9dc36bd806963b9d38496f30645b6d76923dcd1ceb4a6a0783a2bba",
+          "line_ranges_present": [
+            [
+              0,
+              196
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    }
+  ],
+  "temperament_search": "Targeted public author/institutional pages, media/interview or public discussion/review discovery. Actual accessible and failed results are indexed; metadata is not personality evidence.",
+  "gap_rule": "UNKNOWN is retained where the accessed material is inadequate. Full/excerpt refers to the contribution or main text, not all navigation, references, linked content or rendered equations."
+}

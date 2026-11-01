@@ -1,0 +1,82 @@
+{
+  "status": "SYNTHETIC_CLOSURE_WRITER_TESTS_PASSED",
+  "recorded_at": "2026-10-19T02:07:41.052362+00:00",
+  "command": "python3 -B -m unittest -v test_closure_writer.py",
+  "cwd": "runs/final-selection-20261018/finalization-preparation",
+  "test_count": 12,
+  "passed": 12,
+  "failures": 0,
+  "errors": 0,
+  "observed_unittest_seconds": 34.076,
+  "observed_exit_code": 0,
+  "tests": [
+    "ClosureTests.test_existing_checkpoint_idempotent_single_writer",
+    "ClosureTests.test_checkpoint_missing_requires_explicit_permission_before_writes",
+    "ClosureTests.test_create_language_event_and_allowed_standard_checkpoint",
+    "ClosureTests.test_resume_after_committed_stage_prefix",
+    "ClosureTests.test_atomic_publication_before_and_after_link_failure",
+    "ClosureTests.test_resume_repeats_checkpoint_after_terminal_but_before_api_return",
+    "ClosureTests.test_changed_request_cannot_replace_accepted_closure",
+    "ClosureTests.test_conflicting_local_output_is_preserved",
+    "ClosureTests.test_fake_gate_or_missing_export_fails_before_event",
+    "ClosureTests.test_incompatible_checkpoint_is_not_rewritten",
+    "ClosureTests.test_real_archive_api_in_temporary_synthetic_directory",
+    "ClosureTests.test_real_core_checkpoint_api_only_with_explicit_derived_flag"
+  ],
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/finalization-preparation/closure_writer.py",
+      "sha256": "2947873ce3a895c4e0976a8bc503bfe873444e74991906570f1ae49bae012382",
+      "bytes": 19708
+    },
+    {
+      "path": "runs/final-selection-20261018/finalization-preparation/test_closure_writer.py",
+      "sha256": "685424faa201e82d0828627dffe56373fb018f44595b65c037f8f43fc64e6e1e",
+      "bytes": 18441
+    },
+    {
+      "path": "runs/final-selection-20261018/finalization-preparation/CLOSURE_WRITER_RU.md",
+      "sha256": "285f7a1f6bcef937ebc04bf0cdede26d9858c9152ecb3f3cae988d22726102b6",
+      "bytes": 11102
+    },
+    {
+      "path": "runs/final-selection-20261018/finalization-preparation/validate_final.py",
+      "sha256": "8eb0d46adead862861fc7e77ae5304486358e5d0246e36c791024837966c4f62",
+      "bytes": 24352
+    },
+    {
+      "path": "runs/final-selection-20261018/finalization-preparation/finalize_scaffold.py",
+      "sha256": "dbfe464a840dca7da6cc218b255cfc572df5d788ef4c9b4a79dec9e9715c9b00",
+      "bytes": 11566
+    },
+    {
+      "path": "runs/final-selection-20261018/finalization-preparation/test_validate_final.py",
+      "sha256": "e5b5f1460cc9ebcf121c8dcc6c7072f248f56d5876a46eec45fc0ffd0257e72d",
+      "bytes": 28180
+    }
+  ],
+  "v2_helpers_unchanged": true,
+  "independent_read_only_audit": {
+    "agent": "closure_code_audit",
+    "findings_fixed": [
+      "Atomic publish of local artifacts without overwrite",
+      "Durable successful checkpoint API return marker, with retry after terminal-before-derived failure"
+    ],
+    "targeted_recheck": "Both corrections confirmed; no blockers in those findings; reviewer did not rerun tests."
+  },
+  "api_test_boundary": {
+    "archive": "Real Archive API only in disposable synthetic directory",
+    "lineage": "Real essay_lineage API with synthetic records",
+    "checkpoint": "Real event API; derived-view functions replaced by counters in synthetic test"
+  },
+  "scope": {
+    "production_archive_reads": 0,
+    "production_archive_writer_calls": 0,
+    "real_essay_reads": 0,
+    "real_review_reads": 0,
+    "model_calls": 0,
+    "collector_actions": 0,
+    "synthetic_archive_api_writes": true
+  },
+  "boundary": "Actual unittest output: Ran 12 tests in 34.076s; OK. Technical readiness only; no real finite-selection acceptance or overall goal completion."
+}

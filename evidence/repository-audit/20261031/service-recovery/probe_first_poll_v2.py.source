@@ -1,0 +1,127 @@
+#!/usr/bin/env python3
+"""Read-only completed-poll proof. Prints JSON; never launches/stops or writes."""
+from pathlib import Path
+import argparse, collections, datetime as dt, hashlib, json, os, plistlib, re, subprocess, sys
+sys.dont_write_bytecode=True
+HEX=re.compile(r'[a-f0-9]{64}\Z')
+SID=re.compile(r'[A-Za-z0-9][A-Za-z0-9_.:-]{0,199}\Z')
+class Invalid(ValueError):pass
+def need(ok,msg):
+ if not ok:raise Invalid(msg)
+def sha(raw):return hashlib.sha256(raw).hexdigest()
+def read(p,limit=64*1024*1024):
+ p=Path(p);need(p.is_file() and not any(x.is_symlink() for x in (p,*p.parents)),'Missing/nonregular/symlink evidence')
+ with p.open('rb') as f:
+  before=os.fstat(f.fileno());raw=f.read(limit+1);after=os.fstat(f.fileno())
+ need(len(raw)<=limit and (before.st_ino,before.st_size,before.st_mtime_ns)==(after.st_ino,after.st_size,after.st_mtime_ns),'Evidence changed or exceeded bound')
+ return raw
+def strict(raw):
+ def pairs(rows):
+  out={}
+  for k,v in rows:need(k not in out,'Duplicate JSON key');out[k]=v
+  return out
+ return json.loads(raw,object_pairs_hook=pairs,parse_constant=lambda _:(_ for _ in ()).throw(Invalid('Nonfinite JSON')))
+def when(value):
+ t=dt.datetime.fromisoformat(value.replace('Z','+00:00'));need(t.tzinfo is not None,'Timezone required');return t
+def label(value):
+ return value if isinstance(value,str) and re.fullmatch(r'[A-Za-z][A-Za-z0-9_:-]{0,119}',value) else 'label-sha256:'+sha(str(value).encode())
+def launch_snapshot(text):
+ # launchctl also emits nested resource-group state fields. Bind scalar
+ # fields to the outermost indentation shared by known service fields.
+ fields=re.findall(r'^([ \t]*)(pid|state|program|working directory) = ([^\n]+)$',text,re.M)
+ depth=min((len(indent.expandtabs(8)) for indent,_,_ in fields),default=None)
+ def field(name):
+  matches=[value for indent,key,value in fields if key==name and len(indent.expandtabs(8))==depth]
+  return matches[0].strip() if len(matches)==1 else None
+ block=re.search(r'^\s*arguments = \{\n(.*?)^\s*\}',text,re.M|re.S)
+ return {'pid':int(field('pid')) if (field('pid') or '').isdigit() else None,'state':field('state'),
+         'program':field('program'),'arguments':[x.strip() for x in block.group(1).splitlines() if x.strip()] if block else [],
+         'working_directory':field('working directory')}
+def assess(status,cache,views,pid,started,expected_signature,frontier_hash,required_sids=()):
+ checks={};checks['current_pid']=status.get('pid')==pid
+ checks['completed_running_poll']=status.get('status')=='RUNNING'
+ checks['fresh_launch_boundary']=when(status['last_attempt_at'])>=started and when(status['checked_at'])>=started
+ checks['compatibility_inactive']=status.get('capture_compatibility')=={'active':False,'reason':'exact_transition_not_compatible'}
+ rows=status.get('sessions',[]);need(isinstance(rows,list) and len(rows)<=20000,'Invalid session report')
+ ids=[x.get('session_id') for x in rows];need(all(isinstance(x,str) and SID.fullmatch(x) for x in ids) and len(ids)==len(set(ids)),'Invalid/duplicate session identity')
+ errors=[{'session_id':x['session_id'],'error_type':label(x.get('error_type'))} for x in rows if x.get('status')=='ERROR']
+ checks['no_source_errors']=not errors
+ ordinary=[x for x in rows if x.get('status')!='EXCLUDED'];excluded=[x['session_id'] for x in rows if x.get('status')=='EXCLUDED']
+ checks['inventory_count']=type(status.get('discovered_sessions')) is int and status['discovered_sessions']==len(rows)
+ cursor_bad=[];gaps=collections.Counter();pending=0
+ for x in ordinary:
+  c=cache.get(x['session_id'],{});valid=(x.get('status')=='CAUGHT_UP' and c.get('signature')==expected_signature
+   and type(c.get('lines')) is int and c.get('lines')==x.get('source_line') and type(c.get('offset')) is int and c['offset']>=0
+   and isinstance(c.get('prefix_sha256'),str) and HEX.fullmatch(c['prefix_sha256']) and isinstance(c.get('source_storage'),dict)
+   and c.get('counts')==x.get('counts') and c.get('pending_tools')==x.get('pending_tool_records') and c.get('gaps')==x.get('gaps'))
+  if not valid:cursor_bad.append(x['session_id'])
+  source=x.get('last_committed_cursor',{}) if x.get('status')=='ERROR' else x
+  for gap in source.get('gaps',[]):gaps[(label(gap.get('reason')),label(gap.get('surface','unspecified')))]+=1
+  pending+=source.get('pending_tools',0) if x.get('status')=='ERROR' else source.get('pending_tool_records',0)
+ checks['all_reported_cursors_current']=not cursor_bad
+ checks['required_sessions_caught_up']=set(required_sids)<={x['session_id'] for x in ordinary if x['session_id'] not in cursor_bad}
+ indexed=views.get('sessions',[]);view_ids=[x.get('session_id') for x in indexed]
+ checks['view_schema_and_inventory']=(views.get('view_schema_version')==2 and len(view_ids)==len(set(view_ids)) and
+   all(x.get('view_schema_version')==2 for x in indexed) and {x['session_id'] for x in ordinary}<=set(view_ids))
+ checks['view_snapshot_head']=views.get('archive_head')==frontier_hash
+ return {'checks':checks,'source_errors':errors,'cursor_mismatch_sessions':cursor_bad,'reported_sessions':len(rows),'ordinary_sessions':len(ordinary),
+   'internal_excluded_sessions':len(excluded),'gap_counts':[{'reason':a,'surface':b,'count':n} for (a,b),n in sorted(gaps.items())],
+   'gap_total':sum(gaps.values()),'pending_tool_records':pending,'coverage_healthy':all(checks.values()) and not gaps and views.get('view_gap_count')==0,
+   'view_sessions':len(indexed),'view_gap_count':views.get('view_gap_count'),'next_poll_delay_seconds':status.get('next_poll_delay_seconds')}
+def probe(root,pid,started,baseline,contract,contract_sha,required):
+ root=Path(root).absolute();raw=read(contract,1024*1024);need(sha(raw)==contract_sha,'Contract hash changed');pins=strict(raw)
+ for name,h in pins['files'].items():need(sha(read(root/name))==h,'Pinned production file changed: '+name)
+ service='gui/'+str(os.getuid())+'/org.philosophylab.collector'
+ result=subprocess.run(['/bin/launchctl','print',service],capture_output=True,text=True)
+ need(result.returncode==0,'Service is not loaded');launch=launch_snapshot(result.stdout);need(launch['pid']==pid and launch['state']=='running','Expected live service PID missing')
+ staged=read(root/'collector/org.philosophylab.collector.plist',1024*1024);installed=read(Path.home()/'Library/LaunchAgents/org.philosophylab.collector.plist',1024*1024)
+ need(staged==installed,'LaunchAgent drift');plist=plistlib.loads(staged)
+ expected=[plist['ProgramArguments'][0],'-B',str(root/'scripts/collector.py'),'--root',str(root),'watch']
+ need(plist['ProgramArguments']==expected and plist.get('WorkingDirectory')==str(root) and plist.get('ProcessType')=='Background','Unexpected reviewed service configuration')
+ need(launch['arguments']==expected and launch['working_directory']==str(root),'Actual service arguments/cwd differ')
+ alive=subprocess.run(['/bin/ps','-p',str(pid),'-o','pid='],capture_output=True,text=True);need(alive.returncode==0 and alive.stdout.strip()==str(pid),'Service process disappeared')
+ status_path=root/'collector/runtime/status.json';status_raw=read(status_path);status=strict(status_raw)
+ if status.get('status')=='STOPPED' or status.get('pid')!=pid or 'last_attempt_at' not in status:
+  return {'status':'WAITING_FOR_COMPLETED_NEW_POLL','expected_pid':pid,'observed_status':label(status.get('status')),'observed_pid':status.get('pid')}
+ cache_raw=read(root/'collector/runtime/cursor-cache.json');cache=strict(cache_raw);views_raw=read(root/'research/views/chats.json');views=strict(views_raw)
+ count=status.get('archive_event_count');need(type(count) is int and count>baseline,'No post-baseline collector frontier')
+ sys.path.insert(0,str(root/'scripts'));from research_archive import _check_event,canonical
+ end=read(root/'research/archive/events'/f'{count:012d}.json');event=strict(end);_check_event(event);need(canonical(event)==end and event['sequence']==count,'Bad snapshot frontier')
+ version=None
+ for seq in range(baseline+1,min(count,baseline+5000)+1):
+  raw_event=read(root/'research/archive/events'/f'{seq:012d}.json');e=strict(raw_event)
+  if e.get('kind')=='collector.version' and e.get('payload',{}).get('signature')==pins['expected_signature']:
+   _check_event(e);need(canonical(e)==raw_event and e['payload']['files']==pins['files'],'Collector version file binding differs')
+   for name,h in pins['files'].items():need(read(root/'research/archive/objects'/h)==read(root/name),'Version object differs from current file')
+   version={'event_id':e['id'],'sequence':e['sequence'],'sha256':e['sha256']};break
+ need(version is not None,'Current code version not found in bounded startup tail')
+ proof=assess(status,cache,views,pid,started,pins['expected_signature'],event['sha256'],required)
+ missing=[]
+ for row in status['sessions']:
+  if row.get('status')=='EXCLUDED':continue
+  for name in ('conversation.json','prompts.json','turns.json','conversation.md','prompts.md'):
+   p=root/'research/views/chats'/row['session_id']/name
+   if not p.is_file() or any(x.is_symlink() for x in (p,*p.parents)):missing.append({'session_id':row['session_id'],'file':name})
+ proof['checks']['required_view_files_present']=not missing;proof['missing_view_files']=missing
+ proof['checks']['snapshot_stable_during_probe']=read(status_path)==status_raw and read(root/'collector/runtime/cursor-cache.json')==cache_raw and read(root/'research/views/chats.json')==views_raw
+ proof['checks']['published_after_start']=dt.datetime.fromtimestamp(status_path.stat().st_mtime,dt.timezone.utc)>=started
+ proof['checks']['no_later_canonical_writer']=not (root/'research/archive/events'/f'{count+1:012d}.json').exists()
+ for name,h in pins['files'].items():need(sha(read(root/name))==h,'Production code changed during probe')
+ proof['coverage_healthy']=proof['coverage_healthy'] and all(proof['checks'].values())
+ proof.update(status='PASS_SERVICE_RECOVERY_BOUNDED' if all(proof['checks'].values()) else 'NOT_ACCEPTED',pid=pid,
+   observed_at=dt.datetime.now(dt.timezone.utc).isoformat(),started_after=started.isoformat(),completed_poll_observed=True,
+   signature=pins['expected_signature'],collector_version=version,archive_snapshot={'sequence':count,'sha256':event['sha256']},
+   last_attempt_at=status.get('last_attempt_at'),checked_at_before_render=status.get('checked_at'),elapsed_seconds=status.get('elapsed_seconds'),
+   evidence_hashes={'status':sha(status_raw),'cursor_cache':sha(cache_raw),'chat_index':sha(views_raw),'contract':contract_sha,'launch_agent':sha(staged)},
+   service_actions=0,canonical_writes=0,source_bodies_read=0,
+   boundary='One completed observed poll under pinned production code. Runtime cursors are derived reports, not a second canonical audit. Historical gaps/pending tools remain; no second-poll or whole-provider claim.')
+ return proof
+def main():
+ p=argparse.ArgumentParser(description=__doc__);p.add_argument('--root',type=Path,required=True);p.add_argument('--pid',type=int,required=True);p.add_argument('--started-after',required=True);p.add_argument('--baseline-frontier',type=int,required=True);p.add_argument('--contract',type=Path,default=Path(__file__).with_name('CONTRACT.json'));p.add_argument('--contract-sha256',required=True);p.add_argument('--required-session',action='append',default=[]);a=p.parse_args()
+ try:
+  need(a.pid>0 and a.baseline_frontier>=0 and HEX.fullmatch(a.contract_sha256),'Invalid required bound arguments');need(all(SID.fullmatch(s) for s in a.required_session),'Invalid required SID')
+  result=probe(a.root,a.pid,when(a.started_after),a.baseline_frontier,a.contract,a.contract_sha256,a.required_session)
+ except (Invalid,OSError,ValueError,KeyError,TypeError) as e:
+  result={'status':'NOT_ACCEPTED','error_type':type(e).__name__,'error':str(e) if isinstance(e,Invalid) else 'Bounded evidence could not be parsed/read','service_actions':0,'canonical_writes':0}
+ print(json.dumps(result,ensure_ascii=False,indent=2));return 0 if result['status']=='PASS_SERVICE_RECOVERY_BOUNDED' else 2
+if __name__=='__main__':raise SystemExit(main())

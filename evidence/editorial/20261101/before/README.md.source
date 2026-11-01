@@ -1,0 +1,75 @@
+![Philosophy Lab — AI-written philosophy, with a history you can follow](docs/assets/cover.svg)
+
+# Philosophy Lab
+
+**What can AI contribute to philosophy—and how do we tell when an argument deserves to survive?**
+
+This laboratory began on **September 7, 2026**, with the AI Philosophy Competition. We tried different ways of finding questions, writing essays, challenging arguments, and choosing which work to develop. Each change of method has a history; each surviving essay has earlier versions and objections behind it.
+
+**100 original essays + 7 later essays · 23 judge profiles · 3 recommended essays + 2 reserves**
+
+| Read the philosophy | Understand the experiment | Inspect the record |
+| --- | --- | --- |
+| [Five starting points](docs/final-shortlist.md) | [How the lab works](docs/method.md) | [Conversations and evidence](logs/README.md) |
+| [All essays and versions](essays/README.md) | [Decisions that changed the lab](docs/timeline.md) | [Authorship and provenance](docs/provenance.md) |
+
+## Start with a question
+
+- **Can holding a system steady tell us what happens when we let go?** [What Holding Cannot Tell Us About Letting Go · E050](essays/E050/README.md)
+- **What if a harmful decision also destroys the means to challenge it?** [Before You Tell Us to Try Again · E009](essays/E009/README.md)
+- **Can paying compensation leave an obligation unfinished?** [When a Remedy Becomes Evidence · E012](essays/E012/README.md)
+
+The reserves ask [who pays to keep refusal possible](essays/E078/README.md) and [what a spoiler can take away](essays/E041/README.md). The [five reading cards](docs/final-shortlist.md) explain each argument, why it survived, and what remains unresolved.
+
+## The experiment behind the essays
+
+We built agents intended to imitate the intellectual approaches of the competition's judges, ran tournaments of ideas before writing full essays, gave argument and originality critics different jobs, and compared branches with different amounts of revision. Later, we tested the reviewers themselves and revisited rejected candidates.
+
+Some results changed the process. Fresh author contexts still converged on similar subjects. The midterm's 2,400 primary reviews did not recommend setting a single essay aside. A critic caught a shortening edit that removed an essential qualification. These episodes are the starting points of [what we learned](docs/lessons.md).
+
+> “И да, логирование это только база, только начало.”
+>
+> “And yes, logging is just the foundation, just the beginning.”
+>
+> — Ruslan, September 7 · [Original prompt and full excerpt](docs/quotes.md#q02)
+
+## From the first conversation to the current selection
+
+| Period, 2026 | Turning point |
+| --- | --- |
+| **Sep 7** | Plan the lab, idea tournaments, judge imitations, and a record that readers can explore. |
+| **Sep 8–10** | Reach 50 essays; test separate contexts, broader fields, and plain language. |
+| **Sep 12–24** | Use judge profiles and Claude; separate argument criticism from contribution criticism. |
+| **Sep 25–27** | Reach 100 essays through six methods, including debate and revision branches. |
+| **Oct 7–11** | Review all 100, challenge the coordinator's choices, and test the evaluators. |
+| **Oct 12–17** | Search 300 more ideas, revisit rejections, add seven essays, and prepare 22 candidates. |
+| **Oct 18–19** | Select ten using three neutral and two judge-profile reviewers per text. |
+| **Oct 31** | Twenty argument/source checks support a recommendation of three essays and two reserves. |
+
+[Follow the decisions and their sources](docs/timeline.md) · [Explore the original ideas](docs/ideas.md) · [Recorded activity by week](docs/activity.md)
+
+<details>
+<summary>Activity from the beginning</summary>
+
+| Week | Retained messages in the morning snapshot | Active dates |
+| --- | ---: | ---: |
+| Sep 7–13 | 2,067 | 7 |
+| Sep 14–20 | 189 | 4 |
+| Sep 21–27 | 2,516 | 7 |
+| Sep 28–Oct 4 | 46 | 2 |
+| Oct 5–11 | 5,868 | 5 |
+| Oct 12–18 | 4,100 | 7 |
+| Oct 19–25 | 63 | 1 |
+| Oct 26–31, through the morning snapshot | 90 | 2 |
+
+Counts include AI workers and describe a dated conversation snapshot, not human work hours. [Method and cutoff](docs/activity.md).
+
+</details>
+
+## Current edition
+
+**Research status: October 31.** The coordinator recommends E050, E009 and E012; E078 and E041 are reserves. This follows the completed 22 → 10 selection and twenty checks of the ten frozen texts. Revisions and the anonymous submission package remain ahead. [Next steps](ROADMAP.md).
+
+Codex built this repository and wrote its guide. The essays credit **Codex, Claude, and mixed-model contributions** in their histories. Ruslan directed the process; human prompts and external quotations remain separately attributed. The guide is in English, with [short Russian reading cards](reading/20261031/FIVE_CARDS_RU.md); conversations keep their original language.
+
+The archive contains **15,302 visible messages in 3,407 indexed sessions**, including eight labelled inherited copies. It is a dated export with [explicit gaps and exclusions](logs/README.md). The work does not establish exhaustive novelty, validated copies of real judges, or a controlled ranking of models. This private research archive is separate from an anonymous submission package and any future [public edition](PUBLICATION.md).

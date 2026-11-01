@@ -1,0 +1,32 @@
+{
+  "judge_id": "rachel_sterken",
+  "status": "TESTED_BOUNDED_SAME_AGENT",
+  "new_holdout": true,
+  "reason": "Prediction bytes saved before first opening this review body. Only CV title had been seen. Review now incorporated as training evidence.",
+  "historical_calibration": "See inherited profile. Historical claims not rerun or independently verified here.",
+  "limits": [
+    "Same-agent qualitative interpretation, not independent validation",
+    "Predictions broad and domain-informed",
+    "Possible pretraining exposure",
+    "No actual judge-score evidence"
+  ],
+  "prediction_file": "predictions-before-reading.json",
+  "prediction_sha256": "11589f524ce6c177026069fe76be643a892bfbeab0a61b5d6941c28a35cd810d",
+  "results": [
+    {
+      "id": "S1",
+      "outcome": "MATCH",
+      "evidence": "N-nickel-review L34–61 contrasting birds, elephants, mammals and negation."
+    },
+    {
+      "id": "S2",
+      "outcome": "PARTIAL_MATCH",
+      "evidence": "L54–61 separates appearances from truth and seeks independent negation evidence; L96–100 concerns psychology. The central distinction is more strongly semantics/metaphysics than the predicted psychology/semantics split."
+    },
+    {
+      "id": "S3",
+      "outcome": "MATCH",
+      "evidence": "L99–101 gives over-intellectualization and integration concerns while praising a novel sophisticated contribution."
+    }
+  ]
+}

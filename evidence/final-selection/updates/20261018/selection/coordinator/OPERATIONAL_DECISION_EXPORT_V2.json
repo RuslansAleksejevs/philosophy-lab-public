@@ -1,0 +1,30 @@
+{
+  "status": "ROOT_SELECTED_READ_ONLY_EXPORT_ASSEMBLER_V2",
+  "decision": "Use assemble_closure_exports_v2.py after all160 accepted reviews and final root artifacts exist. This only proposes the explicit safe export-file union; it does not choose candidates or create acceptance.",
+  "reason": "Root code review found that v1 rejected real essay.lineage.entry events in canonical run essay-lineage. V2 permits only that event kind with exact current workflow, matching the frozen acceptance validator. Other event kinds retain current-run scope.",
+  "review": "Root read the exact v1-to-v2 diff and the9-test report with four actual metadata samples. Earlier v1 and its synthetic report preserved; actual complete assembly has not yet run.",
+  "files": [
+    {
+      "path": "runs/github-selection-20261018/assemble_closure_exports_v2.py",
+      "sha256": "109424a2513941fbd640a669f2bf2f3ec588248e0bf23ca66bf9a117795031b2",
+      "bytes": 11526
+    },
+    {
+      "path": "runs/github-selection-20261018/test_assemble_closure_exports_v2.py",
+      "sha256": "e8306461eecfb79b158a991e1d090fdfae4ebb28fe4f292893b971693d46f9ea",
+      "bytes": 10947
+    },
+    {
+      "path": "runs/github-selection-20261018/CLOSURE_EXPORT_ASSEMBLY_V2_CHECK.json",
+      "sha256": "10ead93ff31d9c52db320aa6a6507831be2fc33b19312f97f8f754b3caaf6c56",
+      "bytes": 3532
+    },
+    {
+      "path": "runs/github-selection-20261018/CLOSURE_EXPORT_V2_ACTUAL_METADATA.json",
+      "sha256": "5eaea32a4e3643ad05db9f816cec605cec4702020765b0ceae762d8f60ef1dea",
+      "bytes": 6314
+    }
+  ],
+  "method_change": false,
+  "model_calls": 0
+}

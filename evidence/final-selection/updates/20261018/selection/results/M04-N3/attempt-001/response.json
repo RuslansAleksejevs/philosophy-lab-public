@@ -1,0 +1,68 @@
+{
+  "review_id": "M04-N3",
+  "manuscript_id": "M04",
+  "profile_id": "neutral",
+  "read_complete": true,
+  "thesis": "Preserving a justified present confidence can destroy information needed for foreseeable correction. Avoiding that loss supplies a defeasible epistemic reason for retention. Retention becomes obligatory under an additional principle prohibiting recognized, costless impairment of an agent’s continuing epistemic aim.",
+  "contribution": "The defensible contribution is a modest account of responsibility for deliberate information loss after inquiry closes. It connects familiar informational results to a distinction between rational subsequent belief and responsible earlier preservation. Its useful result is that present evidential adequacy cannot, by itself, establish that a summary preserves the capacity for anticipated revision.",
+  "argument_map": [
+    "The channel identity leaves the initial posterior unchanged at 0.9, but changes the response warranted by a later source audit. Under the specified mixed audit result, retaining it warrants 0.5 or 1; deleting it warrants 0.75.",
+    "The general criterion is sound: a deterministic summary reproduces future posteriors exactly when it merges no records supporting different posteriors under the same compatible future observation. Present sufficiency does not imply this further property.",
+    "The squared-error identity correctly connects posterior discrepancies with expected accuracy loss. The example’s expected errors, 0.05 with retention and 0.07 without it, support a prospective advantage, including from the investigator’s original informational position.",
+    "Treating avoidable expected accuracy loss as an epistemic consideration yields a reason for retention without making the later, appropriately updated belief irrational. This is a substantive but plausible evaluative premise.",
+    "Obligation requires the additional principle against gratuitous loss, together with recognized alternatives, a continuing aim, and no additional disadvantage. The conclusion separates permission to believe, permission to stop investigating, and permission to discard information."
+  ],
+  "strongest_merit": {
+    "location": "§3, paragraphs beginning 'There is a general connection...' through 'The loss supplies an epistemic reason...'; §4, opening three paragraphs",
+    "reason": "The mathematics performs identifiable philosophical work: it explains how an earlier preservation choice can impair future assessment while every actual confidence remains rational given surviving information. The manuscript also distinguishes expected improvement from improvement in every world and reasons from requirements. These distinctions make the preservation problem intelligible without relying on a controversial historical theory of present justification."
+  },
+  "concerns": [
+    {
+      "severity": "open",
+      "kind": "premise",
+      "location": "§3, paragraphs beginning 'Why accept this principle instead of unrestricted satisficing?' and 'A thoroughgoing satisficer can still deny the principle.'",
+      "excerpt": "It simply makes the continuing aim harder to serve.",
+      "reason": "Removing competing costs makes retention attractive, but does not independently establish that every knowingly inferior preservation policy is impermissible. An agent could value additional accuracy without treating every available improvement as mandatory. The stronger conclusion therefore depends substantially on the proposed instrumental norm, rather than gaining its authority from the informational result.",
+      "text_response": "The manuscript expressly acknowledges unrestricted satisficing, excludes agents concerned only with a fixed threshold, and makes the requirement conditional on rejecting permission for gratuitous loss. This prevents a hidden inference but leaves the normative disagreement open.",
+      "discriminating_check": "Consider an agent who continues to value accuracy, recognizes both costless policies, and regards both as adequate. Explain what makes deletion impermissible beyond its failing to secure an available improvement."
+    },
+    {
+      "severity": "open",
+      "kind": "scope",
+      "location": "§6, paragraphs beginning 'There is no context-free solution...' and 'Exact equality of posterior probabilities...'",
+      "excerpt": "It does not decide which standard every practice should adopt.",
+      "reason": "The exact criterion identifies loss within a specified model and correction family, but ordinary preservation choices involve competing lossy summaries, uncertain future challenges, and positive burdens. Expected squared error and protection against rare important failures can favor different summaries. The account consequently provides a diagnostic consideration more readily than a determinate preservation policy.",
+      "text_response": "The manuscript explicitly allows tolerable discrepancies, distinguishes three standards, and denies that its theorem selects among them. Its scheduled-audit example nevertheless establishes a clear case without requiring a universal decision procedure.",
+      "discriminating_check": "Compare two feasible summaries that preserve different correction capacities under an explicit audit distribution. Determine whether the continuing task selects a standard and whether the account yields a recommendation beyond recording the trade-off."
+    },
+    {
+      "severity": "minor",
+      "kind": "significance",
+      "location": "§6, final paragraph; §1, paragraph beginning 'A close philosophical antecedent...'; §4, paragraph beginning 'Nor does the preservation norm...'",
+      "excerpt": "Its contribution is a discriminating application.",
+      "reason": "That description fits the demonstrated achievement. The manuscript does not establish that an existing serious account licenses deletion solely because current confidence survives. Its prospective framing is useful, but the packet supports a synthesis and clarification more clearly than a substantial revision of existing epistemology.",
+      "text_response": "The author acknowledges the forgotten-source antecedent, established signal comparisons, and the familiar value of information. The claimed addition is the prospective evaluative target and its separation from later belief rationality.",
+      "discriminating_check": "Identify a plausible existing preservation principle that this account changes, or demonstrate a further normative consequence not already supplied by combining informational value with ordinary instrumental reasons."
+    }
+  ],
+  "scores": {
+    "overall": 3,
+    "argument": 3,
+    "significance": 3,
+    "originality": null
+  },
+  "originality_limit": "The manuscript carefully identifies antecedents and specifies its proposed difference from them. Those comparisons establish a limited originality claim, not independent evidence of priority. The supplied packet does not support a confident originality score.",
+  "recommendation": "borderline",
+  "reason_ru": [
+    "Статья убедительно показывает: можно сохранить обоснованный вывод, но потерять сведения, нужные для будущей проверки.",
+    "Полезный результат — различение разумного убеждения и ответственного хранения информации.",
+    "Рекомендация пограничная: обязанность сохранять сведения зависит от спорного принципа, а вклад сверх известных идей остаётся умеренным."
+  ],
+  "confidence": "medium",
+  "profile_basis": [],
+  "limits": [
+    "The entire supplied manuscript, including its bibliography, was read.",
+    "External source correctness and exhaustive novelty were not checked.",
+    "Only the supplied packet was used; linked sources were not consulted."
+  ]
+}

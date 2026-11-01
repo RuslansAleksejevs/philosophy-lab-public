@@ -1,0 +1,26 @@
+{
+  "status": "EXPECTED_REVIEWED_CANDIDATE_PINS_NOT_INSTALLATION_EVIDENCE",
+  "expected_signature": "f369e9f62c02def03101e90372e44dd2ae5bfc00e9b7d55324f0a0e426d9755d",
+  "files": {
+    "collector/config.json": "3f37a565a8c68d05e911904a2829d73b954e59a1a537d1a18543d3800d405368",
+    "scripts/collector.py": "1da9039df67d277f19f0c29d0f178d88382937666d124a194ea08f011b4fb668",
+    "scripts/collector_source.py": "5ff57125ad09caf2d4d121cc15075ed5668bcf875016093808fa4a0a36bf1ffd",
+    "scripts/collector_safety.py": "c5bb38c2ac923ddd2d1f23c46af340b812b6bc33c0f685eed2a479753a193db6",
+    "scripts/capture_codex.py": "26c6d6781df7e9e02a4c4258c699e3fb798618e6b4815ff3431b23c31399f2c7",
+    "scripts/codex_rollout.py": "541e2506db54b1d8f332bdc14dc7eb4480f9640617ddc77acc7eab752ffdea5e",
+    "scripts/research_archive.py": "b2e111bcbb405d2d0d8910f70f5bc0364e24fd42d4e5a0a7e26a51e024fa790b",
+    "scripts/collector_views.py": "7244cf0cd8e3fec51cf46a60c43b0defd32d99ad31b04e5ff77294bd445e3a84",
+    "collector/capture-compatibility.json": "bae8766fa89f91c55d03270ca915f544542a8b1456a0f129b6cafe338953e1da"
+  },
+  "expected_compatibility": {
+    "active": false,
+    "reason": "exact_transition_not_compatible"
+  },
+  "candidate_checks": {
+    "path": "runs/repository-rebuild-20261031/performance-review/candidate/CHECKS.json",
+    "sha256": "e718cd709bb9383ff4af93e20eed4edd7ab096945a35c06082b3ffabc87e40cf"
+  },
+  "prior_signature": "d901a27aba1a8383927ca37354adf89c23a7e7a48bb0a32cffa91757ef15566d",
+  "probe_sha256": "c345be22562b29a171c016544e719233f7574333789fdc5a134dbc43bb967eab",
+  "boundary": "Expected exact source pins, not proof of installation or start. No compatibility; full ordinary native replay expected. Historical records and prior attempt remain preserved. Probe validates actual installed bytes and canonical version before PASS."
+}

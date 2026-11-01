@@ -1,0 +1,73 @@
+[Home](../README.md) · [Current three](current-selection.md) · [Browse by question](../essays/topics.md) · [Method](method.md)
+
+# How the selection actually branched
+
+Essays could return, enter late, or remain in the archive without a place in the next comparison. This tree records those decisions. Arrows show a selection route; they do not claim that one essay was written from another or that the counts form a quality ranking.
+
+```mermaid
+flowchart TD
+    A["100 original essays"] --> B["9 midterm candidates"]
+    A --> C["91 outside the midterm selection"]
+    C --> D["20 chosen for a rejection check"]
+    C --> N["71 outside that check"]
+    D --> E["6 conditional returns"]
+    D --> R["11 reserves + 3 current arguments rejected"]
+    L["6 free investigations + 1 idea-search essay"] --> F["22 exact comparison versions"]
+    B --> F
+    E --> F
+    F --> G["10 reading places: 8 main + 2 wildcards"]
+    F --> O["12 remain outside the reading ten"]
+    G --> H["20 argument and source checks"]
+    H --> I["AI recommendation: E050, E009, E012"]
+    H --> J["AI reserves: E078, E041"]
+    C -. "Later human return; not through the 22" .-> K["E051 + 2 new checks"]
+    I -. "E050 and E012 retained" .-> P["Human choice: E050, E012, E051"]
+    K --> P
+    P --> Q["Targeted revisions + clarity rewrites + separate checks"]
+    Q --> S["E050, E012, E051: submission reported by Ruslan"]
+    classDef chosen fill:#e4f0e8,stroke:#245845,color:#18382d
+    classDef retained fill:#f6f2ea,stroke:#8b8170,color:#3c372f
+    class P,S chosen
+    class N,R,O,J retained
+```
+
+The E051 branch starts from the **91 outside the midterm selection**; the diagram does not assign it to a particular rejection-check subgroup. The 300-attempt idea search produced **one tentative seed and one completed essay**, S02. F01–F06 came from the separate free-investigation route.
+
+## Who entered the twenty-two
+
+| Route | Exact members |
+| --- | --- |
+| Nine midterm candidates | [E009](../essays/E009/README.md), [E036](../essays/E036/README.md), [E047](../essays/E047/README.md), [E050](../essays/E050/README.md), [E055](../essays/E055/README.md), [E074](../essays/E074/README.md), [E078](../essays/E078/README.md), [E079](../essays/E079/README.md), [E100](../essays/E100/README.md) |
+| Six conditional returns | [E012](../essays/E012/README.md), [E037](../essays/E037/README.md), [E039](../essays/E039/README.md), [E041](../essays/E041/README.md), [E086](../essays/E086/README.md), [E098](../essays/E098/README.md) |
+| Seven later essays | [F01](../essays/post-midterm/F01/README.md), [F02](../essays/post-midterm/F02/README.md), [F03](../essays/post-midterm/F03/README.md), [F04](../essays/post-midterm/F04/README.md), [F05](../essays/post-midterm/F05/README.md), [F06](../essays/post-midterm/F06/README.md), [S02](../essays/post-midterm/S02/README.md) |
+
+These routes are disjoint: **9 + 6 + 7 = 22**. The [preparation decisions](../evidence/final-selection/updates/20261018/preselection/DECISIONS.json) bind the versions and explain the repairs and checks before comparison. Earlier originals and disagreements remain available through each biography.
+
+## From twenty-two to ten
+
+| October 19 decision | Exact members |
+| --- | --- |
+| Eight main reading places | [E009](../essays/E009/README.md), [E012](../essays/E012/README.md), [E041](../essays/E041/README.md), [E050](../essays/E050/README.md), [E055](../essays/E055/README.md), [E079](../essays/E079/README.md), [F02](../essays/post-midterm/F02/README.md), [F06](../essays/post-midterm/F06/README.md) |
+| Two wildcard reading places | [E074](../essays/E074/README.md), [E078](../essays/E078/README.md) |
+| Twelve outside this reading selection | [E036](../essays/E036/README.md), [E037](../essays/E037/README.md), [E039](../essays/E039/README.md), [E047](../essays/E047/README.md), [E086](../essays/E086/README.md), [E098](../essays/E098/README.md), [E100](../essays/E100/README.md), [F01](../essays/post-midterm/F01/README.md), [F03](../essays/post-midterm/F03/README.md), [F04](../essays/post-midterm/F04/README.md), [F05](../essays/post-midterm/F05/README.md), [S02](../essays/post-midterm/S02/README.md) |
+
+All twenty-two received three neutral and two judge-profile reviews. Ten disputed pairs received the same 3:2 mix. The resulting **110 individual + 50 pair reviews** supported the coordinator's explained decisions; identical aggregate scores did not produce a ranking. [All twenty-two reasons](selection.md).
+
+## The later recommendation and human choice
+
+| Decision | Members | Basis |
+| --- | --- | --- |
+| AI recommendation | [E050](../essays/E050/README.md), [E009](../essays/E009/README.md), [E012](../essays/E012/README.md) | Twenty argument/source checks of the ten frozen texts |
+| AI reserves | [E078](../essays/E078/README.md), [E041](../essays/E041/README.md) | Same checks; retained as alternatives |
+| Human choice | [E050](../essays/E050/README.md), [E012](../essays/E012/README.md), [E051](../essays/E051/README.md) | Ruslan kept E050 and E012 and brought back E051 |
+
+The [five historical cards](final-shortlist.md) retain the coordinator's recommendation and reservations. The [current three](current-selection.md) explain the human choice and its six accepted reviews: four reused, two new. The later revision and submission branch is recorded in the [final edition](../evidence/final-edition/20261101/README.md); submission status is Ruslan’s report. Selection itself does not certify novelty.
+
+## Trace the evidence
+
+- [Midterm and its limits](evaluation.md); [rejection check and later programs](post-midterm.md).
+- [Exact 22 → 10 decisions](../evidence/final-selection/updates/20261018/selection/DECISIONS.json); [later 3+2 decision](../evidence/deep-verification/20261031/coordinator/DECISION.json).
+- [Human choice and E051 acceptance](../evidence/selection-update/20261101/README.md).
+- [Dated machine-readable register](reading-state.json), used to assemble this tree and the thematic catalogue.
+
+For an actual manuscript revision rather than a selection route, follow [E012 from objection to decision](worked-example.md).

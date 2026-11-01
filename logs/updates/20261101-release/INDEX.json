@@ -1,0 +1,531 @@
+{
+  "schema": "visible-log-supplement.v1",
+  "started_at": "2026-11-01T11:19:50.970074+00:00",
+  "finished_at": "2026-11-01T11:20:13.849252+00:00",
+  "baseline": {
+    "path": "logs/index.json",
+    "sha256": "77b70f4226271a65f138bb09be9fd9b830496506ab011110f8b25bb5ef69c3c7",
+    "messages": 15302,
+    "sessions": 3407
+  },
+  "added_messages": 355,
+  "total_visible_messages": 15657,
+  "sessions_with_new_messages": 21,
+  "new_session_ids": [
+    "01a1958a-af92-7fa3-98bc-4a34bcf2afd2",
+    "01a195f2-da0f-7231-bf1f-392935372a85",
+    "01a195f2-da0f-7930-93e5-9d383beab9b3",
+    "01a19642-c319-7923-968a-7a16008dcfcd",
+    "01a19642-c319-7c30-9fe8-b83251ce36d6",
+    "01a19642-c319-7d80-ada6-e7aac6c12fd0",
+    "01a1964d-82cf-71d2-bf6a-9a3524519e94",
+    "01a1964d-82d0-7482-8946-c25f77a913ee",
+    "01a1964d-82d0-76d3-933d-bd350e6b2478",
+    "01a19663-2148-7d23-ac8a-40922efab4ca",
+    "01a196a5-8acb-7062-94e6-e28f962063a7",
+    "01a196a5-8acb-72f3-8a21-d53954d25196",
+    "01a196a5-8acb-7381-b654-f114f771b9d8",
+    "01a196b0-4a47-7201-96ba-d00f902b2583",
+    "01a196b0-4a47-76e0-a12a-1da7f0b7c9e2",
+    "01a196b0-4bdb-7d81-a49f-6063d063e796",
+    "01a196ba-66db-7590-8cdd-498908df4be7"
+  ],
+  "total_sessions_in_union": 3424,
+  "scanned_native_sources": 3395,
+  "internal_runtime_sessions_excluded": 341,
+  "missing_sources": [],
+  "gap_counts": {
+    "unknown_record_metadata": 160,
+    "unknown_payload_fields": 1446,
+    "oversized_or_incomplete_record": 20,
+    "unknown_event_message_type": 2,
+    "unknown_response_item_type": 44,
+    "user_prompt_content_or_origin_unsupported": 1
+  },
+  "excluded_counts": {
+    "excluded:message_role:developer": 10602,
+    "excluded:non_user_text_context": 3602,
+    "nonvisible_envelope:world_state": 4610,
+    "noncanonical_or_hidden_event:item_completed": 152044,
+    "nonvisible_envelope:token_usage_record": 53066,
+    "noncanonical_or_hidden_event:token_count": 54774,
+    "excluded:reasoning": 57862,
+    "noncanonical_or_hidden_event:thread_settings_applied": 1187,
+    "nonvisible_envelope:inter_agent_communication_metadata": 5671,
+    "excluded:agent_message": 5672,
+    "nonvisible_envelope:compacted": 305,
+    "excluded:sensitive_tool_body": 1246
+  },
+  "older_messages_retained_without_reprojection": 77,
+  "bundle": {
+    "path": "visible-messages.tar.gz",
+    "sha256": "27dd08b011f2f839152901890558609c33e6c9f486abce6f4834aec2f7228af9",
+    "bytes": 1104193
+  },
+  "cutoffs": {
+    "path": "native-source-cutoffs.json.gz",
+    "sha256": "7f866a66eb021a8a09c15555fcf3e1d3b813e5f4cfd3b1eacdb688cb8a9a1a16"
+  },
+  "sessions": [
+    {
+      "session_id": "01a190b5-03e2-70d0-8fcf-b4a1e67148d0",
+      "title": "(*) завершаем",
+      "member": "sessions/01a190b5-03e2-70d0-8fcf-b4a1e67148d0.json",
+      "sha256": "bca4b0c4b546ae3894d1cef0186e33a915097c157090b34db385d09152a958ad",
+      "bytes": 373040,
+      "added_messages": 152,
+      "previous_messages": 160,
+      "counts": {
+        "assistant": 139,
+        "user": 13
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T00:26:08.408Z",
+        "last_message_at": "2026-11-01T11:19:28.861Z",
+        "first_message_local": "2026-10-31T17:26:08.408000-07:00",
+        "last_message_local": "2026-11-01T03:19:28.861000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 152,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a190b5-35bf-7260-9f93-b9138b863e44",
+      "title": "",
+      "member": "sessions/01a190b5-35bf-7260-9f93-b9138b863e44.json",
+      "sha256": "af351142d56d22c7d7bdbe1d68c282e7a4c6b393800325876c133e42bb1b7246",
+      "bytes": 125018,
+      "added_messages": 48,
+      "previous_messages": 57,
+      "counts": {
+        "assistant": 48
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T00:25:33.655Z",
+        "last_message_at": "2026-11-01T09:26:24.460Z",
+        "first_message_local": "2026-10-31T17:25:33.655000-07:00",
+        "last_message_local": "2026-11-01T01:26:24.460000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 48,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a190b5-4bfe-79a0-9ef4-727380035860",
+      "title": "",
+      "member": "sessions/01a190b5-4bfe-79a0-9ef4-727380035860.json",
+      "sha256": "ab0a63148d8a17410a44f99774ec07da38cd5c3c37608dab8c5d1af27c32cbc9",
+      "bytes": 114144,
+      "added_messages": 47,
+      "previous_messages": 70,
+      "counts": {
+        "assistant": 47
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T00:25:24.241Z",
+        "last_message_at": "2026-11-01T09:23:14.966Z",
+        "first_message_local": "2026-10-31T17:25:24.241000-07:00",
+        "last_message_local": "2026-11-01T01:23:14.966000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 47,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a190b5-9fc6-7163-b54b-a97776cf9fb8",
+      "title": "",
+      "member": "sessions/01a190b5-9fc6-7163-b54b-a97776cf9fb8.json",
+      "sha256": "7ba2221c34fca3ca59ee4575138b347b1f21f8446a77753963a269f88521f985",
+      "bytes": 61122,
+      "added_messages": 26,
+      "previous_messages": 54,
+      "counts": {
+        "assistant": 26
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T00:42:45.875Z",
+        "last_message_at": "2026-11-01T09:25:28.732Z",
+        "first_message_local": "2026-10-31T17:42:45.875000-07:00",
+        "last_message_local": "2026-11-01T01:25:28.732000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 26,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a1958a-af92-7fa3-98bc-4a34bcf2afd2",
+      "title": "(*) гитхаб",
+      "member": "sessions/01a1958a-af92-7fa3-98bc-4a34bcf2afd2.json",
+      "sha256": "ae2446b9be19f1d908d17e063eb49665ca128884fa5b0d391ed0723ae36b8d43",
+      "bytes": 101750,
+      "added_messages": 43,
+      "previous_messages": 0,
+      "counts": {
+        "user": 8,
+        "assistant": 35
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T05:17:57.307Z",
+        "last_message_at": "2026-11-01T11:17:50.109Z",
+        "first_message_local": "2026-10-31T22:17:57.307000-07:00",
+        "last_message_local": "2026-11-01T03:17:50.109000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 43,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a195f2-da0f-7231-bf1f-392935372a85",
+      "title": null,
+      "member": "sessions/01a195f2-da0f-7231-bf1f-392935372a85.json",
+      "sha256": "d6284d9cd689a11dc08f47eee0861c27b81dc23dcd4abe2ba060178b56a7a5a0",
+      "bytes": 109906,
+      "added_messages": 4,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 3
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T07:11:24.150Z",
+        "last_message_at": "2026-11-01T07:16:41.190Z",
+        "first_message_local": "2026-11-01T00:11:24.150000-07:00",
+        "last_message_local": "2026-11-01T00:16:41.190000-07:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 4,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a195f2-da0f-7930-93e5-9d383beab9b3",
+      "title": null,
+      "member": "sessions/01a195f2-da0f-7930-93e5-9d383beab9b3.json",
+      "sha256": "cbfdb847856906585f1c44fc476fbefd730936fd93424f474588925f8eba86bd",
+      "bytes": 135835,
+      "added_messages": 7,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 6
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T07:11:24.167Z",
+        "last_message_at": "2026-11-01T07:20:01.057Z",
+        "first_message_local": "2026-11-01T00:11:24.167000-07:00",
+        "last_message_local": "2026-11-01T00:20:01.057000-07:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 7,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a19642-c319-7923-968a-7a16008dcfcd",
+      "title": null,
+      "member": "sessions/01a19642-c319-7923-968a-7a16008dcfcd.json",
+      "sha256": "808bcc7ea7a0b33b39e25c605468a5cf63154f9e45e5593541a24c3003a515ce",
+      "bytes": 234564,
+      "added_messages": 2,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T08:38:41.288Z",
+        "last_message_at": "2026-11-01T08:44:14.044Z",
+        "first_message_local": "2026-11-01T01:38:41.288000-07:00",
+        "last_message_local": "2026-11-01T01:44:14.044000-07:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 2,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a19642-c319-7c30-9fe8-b83251ce36d6",
+      "title": null,
+      "member": "sessions/01a19642-c319-7c30-9fe8-b83251ce36d6.json",
+      "sha256": "62ba267ee60a7e4df135782a9a430bd2f904bc936b3689e03c26c1ef52d99af9",
+      "bytes": 256476,
+      "added_messages": 2,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T08:38:41.257Z",
+        "last_message_at": "2026-11-01T08:44:17.440Z",
+        "first_message_local": "2026-11-01T01:38:41.257000-07:00",
+        "last_message_local": "2026-11-01T01:44:17.440000-07:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 2,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a19642-c319-7d80-ada6-e7aac6c12fd0",
+      "title": null,
+      "member": "sessions/01a19642-c319-7d80-ada6-e7aac6c12fd0.json",
+      "sha256": "2b3bce8f8cd5331bdbfc2fa8fe382f00994c01d86a7d13509c699ec82793b28a",
+      "bytes": 187266,
+      "added_messages": 2,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T08:38:41.218Z",
+        "last_message_at": "2026-11-01T08:44:28.113Z",
+        "first_message_local": "2026-11-01T01:38:41.218000-07:00",
+        "last_message_local": "2026-11-01T01:44:28.113000-07:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 2,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a1964d-82cf-71d2-bf6a-9a3524519e94",
+      "title": null,
+      "member": "sessions/01a1964d-82cf-71d2-bf6a-9a3524519e94.json",
+      "sha256": "25b6a1f7a739fd03d4254cd76cf2324a04f99321be423af4d016ef19645cb968",
+      "bytes": 270546,
+      "added_messages": 2,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T08:50:25.915Z",
+        "last_message_at": "2026-11-01T08:54:22.136Z",
+        "first_message_local": "2026-11-01T01:50:25.915000-07:00",
+        "last_message_local": "2026-11-01T01:54:22.136000-07:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 2,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a1964d-82d0-7482-8946-c25f77a913ee",
+      "title": null,
+      "member": "sessions/01a1964d-82d0-7482-8946-c25f77a913ee.json",
+      "sha256": "de2129f6e38f5229d306d6d81722fa48f6b2789849cd0bd8c0438f6648b1382b",
+      "bytes": 305310,
+      "added_messages": 2,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T08:50:25.720Z",
+        "last_message_at": "2026-11-01T08:53:45.266Z",
+        "first_message_local": "2026-11-01T01:50:25.720000-07:00",
+        "last_message_local": "2026-11-01T01:53:45.266000-07:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 2,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a1964d-82d0-76d3-933d-bd350e6b2478",
+      "title": null,
+      "member": "sessions/01a1964d-82d0-76d3-933d-bd350e6b2478.json",
+      "sha256": "c9079dd9f93f37b2ac1b54ad19230af7a76ed292bdb6862989ef8f662086afd4",
+      "bytes": 373086,
+      "added_messages": 2,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T08:50:25.931Z",
+        "last_message_at": "2026-11-01T08:54:14.494Z",
+        "first_message_local": "2026-11-01T01:50:25.931000-07:00",
+        "last_message_local": "2026-11-01T01:54:14.494000-07:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 2,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a19663-2148-7d23-ac8a-40922efab4ca",
+      "title": null,
+      "member": "sessions/01a19663-2148-7d23-ac8a-40922efab4ca.json",
+      "sha256": "ce19ea3d2e4e852ca0107d5e9f6810e09fdf7c6564c66a2e43c1f08820b56088",
+      "bytes": 118296,
+      "added_messages": 2,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T09:14:02.677Z",
+        "last_message_at": "2026-11-01T09:14:21.286Z",
+        "first_message_local": "2026-11-01T01:14:02.677000-08:00",
+        "last_message_local": "2026-11-01T01:14:21.286000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 2,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a196a5-8acb-7062-94e6-e28f962063a7",
+      "title": null,
+      "member": "sessions/01a196a5-8acb-7062-94e6-e28f962063a7.json",
+      "sha256": "66f0cc0a162b3049653b3360d999691d27c2345f8c928a84e30a820f23d2f16b",
+      "bytes": 201584,
+      "added_messages": 2,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T10:26:35.634Z",
+        "last_message_at": "2026-11-01T10:34:05.728Z",
+        "first_message_local": "2026-11-01T02:26:35.634000-08:00",
+        "last_message_local": "2026-11-01T02:34:05.728000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 2,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a196a5-8acb-72f3-8a21-d53954d25196",
+      "title": null,
+      "member": "sessions/01a196a5-8acb-72f3-8a21-d53954d25196.json",
+      "sha256": "2c99e127769dd7ab69af807f5e7747ad0831888e295384d3c18485184e31f98a",
+      "bytes": 269274,
+      "added_messages": 2,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T10:26:34.874Z",
+        "last_message_at": "2026-11-01T10:32:23.401Z",
+        "first_message_local": "2026-11-01T02:26:34.874000-08:00",
+        "last_message_local": "2026-11-01T02:32:23.401000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 2,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a196a5-8acb-7381-b654-f114f771b9d8",
+      "title": null,
+      "member": "sessions/01a196a5-8acb-7381-b654-f114f771b9d8.json",
+      "sha256": "8ae4a2cdbe2e683679ecc4c980e59b36c14585c6353b000e2b26fbaef1a5e09d",
+      "bytes": 262044,
+      "added_messages": 2,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T10:26:34.793Z",
+        "last_message_at": "2026-11-01T10:35:28.054Z",
+        "first_message_local": "2026-11-01T02:26:34.793000-08:00",
+        "last_message_local": "2026-11-01T02:35:28.054000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 2,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a196b0-4a47-7201-96ba-d00f902b2583",
+      "title": null,
+      "member": "sessions/01a196b0-4a47-7201-96ba-d00f902b2583.json",
+      "sha256": "c1357acb54c72be6c421f1dcc2f94b1595465513876f0cbd7884b466ced195da",
+      "bytes": 262050,
+      "added_messages": 2,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T10:38:19.909Z",
+        "last_message_at": "2026-11-01T10:39:56.764Z",
+        "first_message_local": "2026-11-01T02:38:19.909000-08:00",
+        "last_message_local": "2026-11-01T02:39:56.764000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 2,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a196b0-4a47-76e0-a12a-1da7f0b7c9e2",
+      "title": null,
+      "member": "sessions/01a196b0-4a47-76e0-a12a-1da7f0b7c9e2.json",
+      "sha256": "7a49167f4f15f175a71710f74bad1fb259a9326004eb1578e7931babcdd0ebc7",
+      "bytes": 366472,
+      "added_messages": 2,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T10:38:20.276Z",
+        "last_message_at": "2026-11-01T10:40:49.733Z",
+        "first_message_local": "2026-11-01T02:38:20.276000-08:00",
+        "last_message_local": "2026-11-01T02:40:49.733000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 2,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a196b0-4bdb-7d81-a49f-6063d063e796",
+      "title": null,
+      "member": "sessions/01a196b0-4bdb-7d81-a49f-6063d063e796.json",
+      "sha256": "3a86dbbd06beec8ee0617b6ad5f0d76d11e9da7c314d4695b704f9b7d5ea7cf4",
+      "bytes": 336406,
+      "added_messages": 2,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T10:38:20.089Z",
+        "last_message_at": "2026-11-01T10:42:23.043Z",
+        "first_message_local": "2026-11-01T02:38:20.089000-08:00",
+        "last_message_local": "2026-11-01T02:42:23.043000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 2,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a196ba-66db-7590-8cdd-498908df4be7",
+      "title": null,
+      "member": "sessions/01a196ba-66db-7590-8cdd-498908df4be7.json",
+      "sha256": "9dd25088ee72ac6600ce13fd56a4a798f17e554da080bc2a6bb792b31e39b2f4",
+      "bytes": 151978,
+      "added_messages": 2,
+      "previous_messages": 0,
+      "counts": {
+        "user": 1,
+        "assistant": 1
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T10:49:22.279Z",
+        "last_message_at": "2026-11-01T10:49:59.154Z",
+        "first_message_local": "2026-11-01T02:49:22.279000-08:00",
+        "last_message_local": "2026-11-01T02:49:59.154000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 2,
+        "undated_messages": 0
+      }
+    }
+  ],
+  "limits": "A bounded supplement to the existing export. Tool bodies, internal runtime, hidden reasoning and attachments are not included. Existing gaps and eight labelled inherited copies remain. This is not a whole-provider archive audit. Logging continues locally."
+}

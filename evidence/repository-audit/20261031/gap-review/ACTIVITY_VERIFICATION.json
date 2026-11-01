@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "activity_sha256": "9082b1c8f1bc24b10e0f909ceb27acf1e32b1b5e1f64cb917f82f0925ef4291b",
+  "source_counts_sha256": "6c0405f0a5da199d0256577856e7677a9c80d491900a03ecc804eecbaddcfe1a",
+  "count_script_sha256": "f7a53e397efbbaa8630d461eadcc067ff7ce1ba6a9c19a4573daddfd4b4f48ef",
+  "index_sha256": "020ee8a044027f5a2e5e1e111684c5a0f1725ea63d9c686fdb99afdeaae1e5e9",
+  "message_records": 14939,
+  "active_dates": 35,
+  "timestamp_fields": {
+    "source_timestamp": 14871,
+    "timestamp": 68
+  },
+  "excluded_records": 0,
+  "checks": [
+    "Weekly totals match all 3384 indexed conversation totals.",
+    "14871 source_timestamp plus 68 retained timestamp fields; no capture/Git/filesystem dates used.",
+    "All page links and example source-line anchors resolve locally.",
+    "Frozen index hash unchanged since counting."
+  ],
+  "readme_timeline_review": {
+    "blocking_findings": [],
+    "minor_date_note": "README Sep12–20 judge/Claude span could start Sep11: named-profile request source line202 in chat01a093c0-3f75-7f52-b67a-c0707e5c1cc7 is 2026-09-12T04:14:50.197Z = Sep11 21:14 PDT. This is authorization, not necessarily research dispatch.",
+    "authorship": "Current wording correctly credits Codex, Claude and mixed-model essays plus human/source quotations.",
+    "latest_launch_status": "Current deep-verification launch claim belongs to ongoing parent integration and is not established by the frozen historical snapshot."
+  }
+}

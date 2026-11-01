@@ -1,0 +1,52 @@
+{
+  "schema": "competition-public-page-recheck.v1",
+  "checked_at_utc": "2026-10-31T23:14:02Z",
+  "sources": [
+    "https://www.zacharygoodsell.com/ai-philosophy-competition",
+    "https://www.zacharygoodsell.com/ai-philosophy-competition-rules",
+    "https://www.zacharygoodsell.com/ai-philosophy-competition-faq"
+  ],
+  "named_judges": [
+    "Branden Fitelson",
+    "John Hawthorne",
+    "Jake Nebel",
+    "Daniel Greco",
+    "Matthew Mandelkern",
+    "Rachel Sterken",
+    "Herman Cappelen",
+    "Kenny Easwaran",
+    "Cian Dorr",
+    "David Chalmers",
+    "Christian Tarsney",
+    "Hilary Greaves",
+    "Simon Goldstein",
+    "Jens Jaeger",
+    "Josh Dever",
+    "Karina Vold",
+    "Raphaël Millière",
+    "Bernhard Salow",
+    "Jonathan Weisberg",
+    "Mario Günther",
+    "Henry Shevlin",
+    "Kacper Kowalczyk",
+    "Pamela Robinson"
+  ],
+  "named_judge_count": 23,
+  "judge_list_exactly_matches_earlier_check": true,
+  "earlier_check": {
+    "path": "runs/deep-verification-20261031/RULES_WEB_CHECK.json",
+    "sha256": "a686a6a85888d7ff84f5a770afa18c4d196c23e676f14df3eaa752643b267d84"
+  },
+  "current_requirements": {
+    "maximum_essays": 3,
+    "words_per_essay_excluding_bibliography": 6000,
+    "anonymized_essay_and_methodology_report": true,
+    "methodology_report_word_limit": null,
+    "submission_deadline": "2026-10-31 23:59 AoE",
+    "deadline_utc": "2026-11-01T11:59:00Z",
+    "deadline_los_angeles": "2026-11-01T03:59:00-08:00",
+    "alternative_form_if_openreview_account_unavailable": true
+  },
+  "finding": "No material change to the inspected requirements; the named judge list exactly matches the earlier October31 check. No deadline extension was stated.",
+  "boundary": "Public pages only. No account or submission form was accessed; no submission was made. This factual note does not replace the frozen earlier source evidence."
+}

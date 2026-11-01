@@ -1,0 +1,83 @@
+{
+  "session_id": "01a14c60-b11d-7071-bb7e-e5e2857d8a7d",
+  "status": "BOUNDED_VISIBLE_FRAGMENTS_COMPLETE",
+  "observed_configuration": [
+    {
+      "source_line": 8,
+      "timestamp": "2026-10-18T00:19:28.626Z",
+      "fields": {
+        "model": "gpt-6-astra",
+        "effort": "max"
+      }
+    }
+  ],
+  "records": [
+    {
+      "source_line": 13,
+      "source_line_sha256": "9839670b2bb69af79bda0c1cf3b31d9c3804d99c09540b2f187702f8283270a4",
+      "timestamp": "2026-10-18T00:19:30.457Z",
+      "role": "assistant",
+      "phase": "commentary",
+      "parts": [
+        {
+          "path": "runs/final-preselection-20261017/roles/F06/review-initial/capture-001/line-13-part-0.json-string.txt",
+          "sha256": "317faad9145509df7036bc04f3368fdef4f4716476a8e27430816ebedd07e3ab"
+        }
+      ]
+    },
+    {
+      "source_line": 48,
+      "source_line_sha256": "777c9538054de74387a396564a8d61b9a4a2ff6102fe3ec2dac426ebb66306ce",
+      "timestamp": "2026-10-18T00:20:12.950Z",
+      "role": "assistant",
+      "phase": "commentary",
+      "parts": [
+        {
+          "path": "runs/final-preselection-20261017/roles/F06/review-initial/capture-001/line-48-part-0.json-string.txt",
+          "sha256": "3a5147aa9bf1dda85993c4a922d326f3187a33fa5e196e529aca2eb04fc319f8"
+        }
+      ]
+    },
+    {
+      "source_line": 80,
+      "source_line_sha256": "656d17298c82c783cb068437d51d25ee652d386f760a76a7da4f36f14b13e90f",
+      "timestamp": "2026-10-18T00:21:29.365Z",
+      "role": "assistant",
+      "phase": "commentary",
+      "parts": [
+        {
+          "path": "runs/final-preselection-20261017/roles/F06/review-initial/capture-001/line-80-part-0.json-string.txt",
+          "sha256": "c7be6860c058ce9d8a7906ad7cfd65625ce4018121ee8a4938fbaac06c05c9ac"
+        }
+      ]
+    },
+    {
+      "source_line": 105,
+      "source_line_sha256": "15da3f2bb0b6800134dcb45bef902509ebd11061a60c0c96922ebc46c5c97bc7",
+      "timestamp": "2026-10-18T00:24:29.576Z",
+      "role": "assistant",
+      "phase": "final_answer",
+      "parts": [
+        {
+          "path": "runs/final-preselection-20261017/roles/F06/review-initial/capture-001/line-105-part-0.json-string.txt",
+          "sha256": "0f3f79e35b0f830c1371b7bb9b45c45b44d18396d1353cd4aacb0adeb1c51025"
+        }
+      ]
+    }
+  ],
+  "parent_dispatch": {
+    "parent_session": "01a1496a-7b42-7a11-b00a-11d33df80222",
+    "source_line": 2134,
+    "source_line_sha256": "575048cd7633044d8950122e08437f97b594257d3eb248f697d36f47a270250c",
+    "timestamp": "2026-10-18T00:19:27.637Z",
+    "call_id": "call_9e889a1333664ec9b6801d25bdb50163",
+    "task_name": "f06_review",
+    "fork_turns": "none",
+    "model_override": null,
+    "reasoning_effort_override": null,
+    "message_body_capture": "EXCLUDED_OPAQUE_NATIVE_AGENT_FIELD",
+    "plaintext_task_record": "Coordinator-preserved visible tool-call text in DISPATCH.json plus frozen PROMPT.txt; not asserted to be native plaintext byte capture."
+  },
+  "task_exposed_as_child_user_record": false,
+  "boundary": "Exact recognized child commentary/final text string bytes and selected parent dispatch metadata only. Native inter-agent task bodies are opaque/encrypted and excluded. Plain task text is retained separately from the coordinator visible call record and frozen packet, not claimed as native plaintext capture or proof of exact backend delivery. Unsupported full envelopes, injected instructions, reasoning, unreviewed tool bodies and future records excluded. Actual manuscript/source artifacts captured separately. No full provider trace or intellectual-independence proof."
+}

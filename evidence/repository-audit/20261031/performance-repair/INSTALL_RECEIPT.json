@@ -1,0 +1,29 @@
+{
+  "status": "REVIEWED_PERFORMANCE_CODE_INSTALLED",
+  "created_at": "2026-10-31T21:36:43.281083+00:00",
+  "stopped_pid": 40522,
+  "stop_receipt_sha256": "5bd5ebd1de8e5e3971ff66358ffd9dc683e4f43eecc1ec7d7468e34b34a49ed5",
+  "root_process_check": {
+    "command": "/bin/ps -p 40522 -o pid=,command=",
+    "exit_code": 1,
+    "output_empty": true,
+    "permission": "read-only escalation succeeded after sandbox ps denial; no file edits occurred before successful check"
+  },
+  "files": [
+    {
+      "path": "scripts/research_archive.py",
+      "before_sha256": "a4fae709bd66d0596b31f1e724ba232699c3a14711b64edd9f1b2754ce27bd85",
+      "after_sha256": "b2e111bcbb405d2d0d8910f70f5bc0364e24fd42d4e5a0a7e26a51e024fa790b"
+    },
+    {
+      "path": "scripts/collector.py",
+      "before_sha256": "c0ff12e7b10f7c7fe8f13da3c3d27cc1009b0e7a707073e2495856fea2fc755b",
+      "after_sha256": "1da9039df67d277f19f0c29d0f178d88382937666d124a194ea08f011b4fb668"
+    }
+  ],
+  "installed_at": "2026-10-31T21:36:44.459157+00:00",
+  "service_started": false,
+  "canonical_writes": 0,
+  "compatibility_changed": false,
+  "expected_signature": "f369e9f62c02def03101e90372e44dd2ae5bfc00e9b7d55324f0a0e426d9755d"
+}

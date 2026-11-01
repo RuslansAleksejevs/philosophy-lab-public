@@ -1,0 +1,25 @@
+{
+  "status": "INDEPENDENT_REVIEW_PASS",
+  "reviewer": "plan_audit",
+  "tests_passed": 11,
+  "previous_probe": {
+    "path": "runs/repository-rebuild-20261031/history-audit/service-recovery-plan/probe_first_poll.py",
+    "sha256": "1df2a43d0787811d4e11f66ea5a621fafc59d66c6a58f2eecb1908acec7ec282",
+    "bytes": 11658
+  },
+  "successor_probe": {
+    "path": "runs/repository-rebuild-20261031/history-audit/service-recovery-plan/probe_first_poll_v2.py",
+    "sha256": "c345be22562b29a171c016544e719233f7574333789fdc5a134dbc43bb967eab",
+    "bytes": 12000
+  },
+  "successor_tests": {
+    "path": "runs/repository-rebuild-20261031/history-audit/service-recovery-plan/test_probe_first_poll_v2.py",
+    "sha256": "15e13c65b0715431363d63d948799a3516657ec04d05e2d1ceb00936ffb9d258",
+    "bytes": 4770
+  },
+  "observed_issue": "launchctl repeats nested resource-group state fields; old parser returned ambiguous None despite outer running.",
+  "change": "Select scalar fields only at the outermost indentation shared by known service fields; duplicate outer values remain ambiguous. No other proof condition changed.",
+  "service_actions": 0,
+  "production_changes": 0,
+  "canonical_writes": 0
+}

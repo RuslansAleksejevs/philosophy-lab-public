@@ -1,0 +1,102 @@
+{
+  "schema": "final-selection-method-check.v1",
+  "status": "PASS_WITH_RECORDED_LIMITS",
+  "created_at": "2026-10-19T01:06:15.381049+00:00",
+  "run_id": "final-selection-20261018",
+  "reviewer": {
+    "task_name": "/root/selection_method_check",
+    "session_id": null,
+    "model": null,
+    "observation_limit": "The reviewer session ID and runtime model were not independently observed. The reviewed campaign configuration requests gpt-6-astra / ultra; this is not a claim about this audit session."
+  },
+  "scope": "Bounded technical review of prepared method, allocation, queue, schema, preparation script and supplied input files. No philosophical assessment, research dispatch, runner review or source re-verification.",
+  "checks": [
+    {
+      "check": "baseline_register",
+      "result": "PASS",
+      "detail": "BASELINE_DECISIONS.json equals the accepted final-preselection register; it contains 22 unique candidates, each with exactly one current version."
+    },
+    {
+      "check": "exact_current_versions",
+      "result": "PASS",
+      "count": 22,
+      "detail": "Each allocation selects the exact current baseline version. Source SHA-256 and byte size match the register; each blinded manuscript is byte-identical to its source."
+    },
+    {
+      "check": "protected_versions",
+      "result": "PASS",
+      "count": 42,
+      "detail": "All protected historical/current files match the recorded SHA-256 and byte size."
+    },
+    {
+      "check": "queue_coverage",
+      "result": "PASS",
+      "count": 110,
+      "detail": "110 unique job IDs and matching packet files; each of the 22 manuscripts has exactly N1, N2, N3, J1 and J2. No omitted or extra packet/job found."
+    },
+    {
+      "check": "packet_reconstruction",
+      "result": "PASS",
+      "count": 110,
+      "detail": "Every packet was reconstructed exactly from RUBRIC.txt, review identity, common schema, the assigned profile materials and complete assigned manuscript. Packet hashes, schema hashes and declared source lists match."
+    },
+    {
+      "check": "allocation_determinism",
+      "result": "PASS",
+      "detail": "Reproducing the fixed-seed candidate/profile shuffle yields the saved allocation. Each manuscript receives two distinct named profiles. All 23 profiles are covered: 21 twice and two once."
+    },
+    {
+      "check": "profile_inputs",
+      "result": "PASS",
+      "unique_input_files": 54,
+      "detail": "All assigned profile inputs are included intact and have matching hashes. No manuscript-specific previous scores or decisions were found in the reviewed profile materials."
+    },
+    {
+      "check": "metadata_isolation",
+      "result": "PASS",
+      "detail": "Packets do not include BASELINE_DECISIONS, essay histories, prior essay assessments, source manuscript paths, original candidate IDs, author/model labels or global navigation files. Manuscript boundaries contain titles, manuscript text and bibliographies; no administrative preface or trailing report was found."
+    },
+    {
+      "check": "manuscript_completeness",
+      "result": "PASS",
+      "detail": "All complete source bytes and bibliographies are present. Manuscript sizes range from 13,342 to 34,611 bytes; packet sizes range from 18,152 to 50,043 bytes. The short Russian E100 source is reproduced intact, not truncated."
+    },
+    {
+      "check": "common_configuration",
+      "result": "PASS",
+      "detail": "All queued jobs use the declared model gpt-6-astra, effort ultra and service tier default."
+    },
+    {
+      "check": "common_criteria_and_weights",
+      "result": "PASS",
+      "detail": "Neutral and named-profile roles receive the same contribution, argument, significance and provisional-originality criteria. 60% of the mean of three neutral reviews plus 40% of the mean of two profile reviews gives each completed review one-fifth weight. Reasons and checked objections control final decisions rather than automatic score ranking."
+    },
+    {
+      "check": "method_ceiling",
+      "result": "PASS",
+      "value": 160,
+      "detail": "METHOD.json: 110 individual reviews plus at most 10 pairs with five reviews each equals 160."
+    },
+    {
+      "check": "prepared_state_ceiling",
+      "result": "PASS",
+      "value": 160,
+      "detail": "STATE_000_PREPARED.json declares 110 individual jobs and maximum_total 160, consistent with METHOD.json."
+    },
+    {
+      "check": "schema_manual_review",
+      "result": "PASS_WITH_LIMIT",
+      "detail": "Schema JSON parses and its requested fields, score ranges and review structure match the rubric. A third-party JSON Schema validator was unavailable in the inspected Python environment; no formal validator-library certification is claimed."
+    }
+  ],
+  "limits": [
+    "Actual fresh-session isolation, native prompt delivery, tool exclusion, runtime model/effort and archive acceptance were outside this audit and require runner/transport verification.",
+    "The schema alone permits read_complete=false, arbitrary review/manuscript/profile identifiers and empty strings. Result acceptance must verify the expected IDs, honest full reading and substantive completion separately.",
+    "Source-access notes are preserved within the frozen manuscripts. Some describe assigned captures, supplied parsed text or inherited source descriptions. The coordinator expressly accepted preserving these honest access limits; they do not disclose author/model identity or previous scores.",
+    "Profile materials retain provenance and historical calibration limitations about constructing the profiles. These are not prior assessments of the candidate manuscripts and do not establish fidelity to actual judges.",
+    "Public source accuracy, complete novelty and philosophical merit were not assessed. No claim of complete contamination detection beyond the checked files and observed metadata patterns is made.",
+    "Pair jobs are intentionally not prepared before individual results. Their distinct-pair limit, 3:2 composition, frozen allocation and balanced A/B order still need verification when created.",
+    "No blocking method defect was identified within this bounded review. No research role or test session was launched, and no input file was changed."
+  ],
+  "write_scope": "Only METHOD_CHECK.json was created for this audit record; all verification described above had already been completed before the follow-up save request."
+}

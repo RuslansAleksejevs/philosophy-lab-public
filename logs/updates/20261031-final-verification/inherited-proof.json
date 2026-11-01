@@ -1,0 +1,83 @@
+{
+  "schema": "bound-inherited-visible-identities.v1",
+  "original_report": {
+    "path": "runs/repository-rebuild-20261031/history-audit/gap-shapes-final/VISIBLE_OVERLAP.json",
+    "sha256": "45ff3ecdcad46fb1d46777a926f0eeeeb52ac335fc614557a08f2029f1f036bc",
+    "bytes": 97622
+  },
+  "records": [
+    {
+      "session_id": "01a151e5-cc0e-7322-8581-aef12335e8e2",
+      "source_line": 6,
+      "role": "assistant",
+      "text_sha256": "a9ed4e60688bcfc642a74a113a8711c664cd4cd1e497e16225b4da04d07f3090",
+      "source_line_sha256": "df221016abf310dc1cd1fe06eb5e7a7e33cd663855441fc8ad038182e1829fb9",
+      "inherited_user_message": true,
+      "only_removed_field": "metadata.inherited_user_message"
+    },
+    {
+      "session_id": "01a151e5-cc0e-7322-8581-aef12335e8e2",
+      "source_line": 10,
+      "role": "assistant",
+      "text_sha256": "5059419aa5efbdeffeb53caac15e422ddea3e10e88938c9859859f9433799382",
+      "source_line_sha256": "729138cd40d05cabdf2b9738eb3bfc4e3fa362d6e869ebaa3cbf4249b2a0e70b",
+      "inherited_user_message": true,
+      "only_removed_field": "metadata.inherited_user_message"
+    },
+    {
+      "session_id": "01a190b5-35bf-7260-9f93-b9138b863e44",
+      "source_line": 15,
+      "role": "user",
+      "text_sha256": "75f33875455e283edd8dfc5a40990020ebd5ea0b4717f6a04ce84f7724fa2f27",
+      "source_line_sha256": "b6d8d1a3bade488b2eef45772e5ee77435fdab536947d4c7007130ad9a5c9c99",
+      "inherited_user_message": true,
+      "only_removed_field": "metadata.inherited_user_message"
+    },
+    {
+      "session_id": "01a190b5-35bf-7260-9f93-b9138b863e44",
+      "source_line": 16,
+      "role": "assistant",
+      "text_sha256": "661d90471859ab7c17adf73254996363e53b778adcc160ee4bcfe75130c6983e",
+      "source_line_sha256": "48023b9b80174a2350b1d093a18d49e9ca28aa2f9ae3a6b0dae5414f293418d0",
+      "inherited_user_message": true,
+      "only_removed_field": "metadata.inherited_user_message"
+    },
+    {
+      "session_id": "01a190b5-4bfe-79a0-9ef4-727380035860",
+      "source_line": 15,
+      "role": "user",
+      "text_sha256": "75f33875455e283edd8dfc5a40990020ebd5ea0b4717f6a04ce84f7724fa2f27",
+      "source_line_sha256": "227b73161b89bef3a37bd1b55d93d8a68f9b06df656ad197680186b92bdfbd32",
+      "inherited_user_message": true,
+      "only_removed_field": "metadata.inherited_user_message"
+    },
+    {
+      "session_id": "01a190b5-4bfe-79a0-9ef4-727380035860",
+      "source_line": 16,
+      "role": "assistant",
+      "text_sha256": "661d90471859ab7c17adf73254996363e53b778adcc160ee4bcfe75130c6983e",
+      "source_line_sha256": "ba8711bb2ae8ed66d750d4a8d05bc333f4e0a0895275352a8c6caf81a673d4ef",
+      "inherited_user_message": true,
+      "only_removed_field": "metadata.inherited_user_message"
+    },
+    {
+      "session_id": "01a190b5-9fc6-7163-b54b-a97776cf9fb8",
+      "source_line": 15,
+      "role": "user",
+      "text_sha256": "75f33875455e283edd8dfc5a40990020ebd5ea0b4717f6a04ce84f7724fa2f27",
+      "source_line_sha256": "eb2038b2ef1cc13a8b2a705dfe0b07aef180a2d465d36920f715b410e9bf8866",
+      "inherited_user_message": true,
+      "only_removed_field": "metadata.inherited_user_message"
+    },
+    {
+      "session_id": "01a190b5-9fc6-7163-b54b-a97776cf9fb8",
+      "source_line": 16,
+      "role": "assistant",
+      "text_sha256": "661d90471859ab7c17adf73254996363e53b778adcc160ee4bcfe75130c6983e",
+      "source_line_sha256": "c88873c5b517520766fc9fc32edab7112e91064a6c7c828410b4ecbf615ed153",
+      "inherited_user_message": true,
+      "only_removed_field": "metadata.inherited_user_message"
+    }
+  ],
+  "boundary": "Eight inherited source identities only; each text already appeared in the preserved baseline. These are not new human contributions."
+}

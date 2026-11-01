@@ -1,0 +1,60 @@
+{
+  "review_id": "M08-N3",
+  "manuscript_id": "M08",
+  "profile_id": "neutral",
+  "read_complete": true,
+  "thesis": "Even exhaustive limiting outcomes from persistent coordinate clamps, supplemented by equilibrium locations and qualitative stability, need not identify what happens after simultaneous release. Within an independently justified dynamical family, a suitable withdrawal order can nevertheless guarantee success without identifying the unknown decay rate.",
+  "contribution": "The manuscript establishes a precise counterexample to transferring evidential completeness across intervention procedures and readouts. Its useful addition is the connection between nonidentification and intervention design: uncertainty about one withdrawal procedure need not prevent certifying another. This is a credible, modest philosophical contribution supported by a sound mathematical construction. It clarifies what evidence licenses, but does not establish a general defect in equilibrium modeling or demonstrate that its particular results substantially advance the cited literature.",
+  "argument_map": [
+    "Define the evidence narrowly but extensively: every nonempty persistent coordinate clamp is observed through its limiting outcome, with all free initial states covered; baseline and qualitative equilibrium information are also supplied.",
+    "Every positive k produces this same evidence. Clamping y removes the equation containing k; clamping x preserves that equation but its endpoint conceals k; joint clamps and the equilibrium baseline reveal nothing further.",
+    "Simultaneous release from (-1/2,1) distinguishes family members. Slowly decaying input pushes x above zero and ultimately to 1; sufficiently fast decay supplies too little integrated input, leaving x negative and ultimately at -1.",
+    "Therefore no unique release endpoint follows from the stipulated evidence over any admissible class containing both systems. This is an identification failure, not a claim that additional assumptions or observations cannot support prediction.",
+    "Under the additional restriction to equation (1), releasing x while maintaining y=1 for one unit guarantees positive x and subsequent convergence to (1,0). Reversing the order leaves opposite outcomes possible for every fixed finite waiting period."
+  ],
+  "strongest_merit": {
+    "location": "“The same release, opposite endpoints”; “What the basin explanation must say”; “An application: choosing the order of withdrawal.”",
+    "reason": "The proofs establish both the negative identification result and the conditional positive control result. Bounds on crossing time and total input explain the endpoint difference, while comparison arguments establish convergence. The basin discussion correctly prevents a misleading interpretation: an autonomous trajectory does not cross between its own attraction basins. Together these points connect the mathematics to a genuine epistemic distinction between predicting a specified intervention and choosing a reliable intervention. This supports the argument score of 4."
+  },
+  "concerns": [
+    {
+      "severity": "minor",
+      "kind": "scope",
+      "location": "“An application: choosing the order of withdrawal,” opening paragraph and paragraph beginning “The successful procedure uses no additional measurements”.",
+      "excerpt": "Assume the functional form (1) is independently justified",
+      "reason": "The successful alternative depends on substantially more than the evidence whose insufficiency motivates the essay. In particular, its fixed duration requires the shared x dynamics, and its final guarantee requires the positive-state convergence property. This is a legitimate conditional theorem, but its practical epistemic value depends on circumstances in which those assumptions are warranted while the relative decay rate remains unknown. No such concrete evidential situation is developed.",
+      "text_response": "The manuscript explicitly acknowledges that these assumptions do not follow from E, confines the guarantee to the specified family, and warns that enlarging the class can destroy it. It also identifies the one-unit duration as sufficient only in the equation’s units. Thus this concern limits application rather than exposing an invalid inference.",
+      "discriminating_check": "Multiply only the x equation by a small positive constant. This preserves the stipulated endpoint evidence and qualitative stability but can defeat the one-unit procedure. Identify what independent warrant excludes this extension in an intended application."
+    },
+    {
+      "severity": "open",
+      "kind": "originality",
+      "location": "“The question and its scope,” final paragraph; “What experimental completeness amounts to,” paragraph beginning “This gives the philosophical contribution a specific form”.",
+      "excerpt": "No priority claim follows from these comparisons",
+      "reason": "The general principle that experimental equivalence supports only the questions it preserves is familiar at the level of identification logic. The manuscript earns additional value through its unusually extensive clamp menu and withdrawal-order theorem, but does not establish how these specific results differ from existing equilibrium, intervention, or control analyses. Its literature discussion establishes thematic proximity rather than a demonstrated advance. This supports modest significance without warranting a negative originality verdict.",
+      "text_response": "The manuscript distinguishes representation from inference, acknowledges prior treatment of holding and releasing, and disclaims both priority and accusations that cited authors commit its target inference. Its self-contained proofs therefore remain valuable even though historical novelty is unresolved.",
+      "discriminating_check": "Compare the precise evidence menu and withdrawal-order guarantee against the relevant full texts. Determine whether either theorem supplies a previously unavailable conclusion, strengthens an existing result, or chiefly illustrates an already established distinction."
+    }
+  ],
+  "scores": {
+    "overall": 3,
+    "argument": 4,
+    "significance": 3,
+    "originality": null
+  },
+  "originality_limit": "The packet supports a distinctive combination of results, but distinctiveness is not sufficient evidence of historical novelty. Originality remains unscored because the supplied literature summaries do not establish the relevant comparison.",
+  "recommendation": "borderline",
+  "reason_ru": [
+    "Доказательства убедительны: результаты длительной фиксации переменных не определяют исход после снятия ограничений.",
+    "Полезный результат — правильный порядок снятия ограничений может обеспечить нужный исход даже при неизвестной скорости затухания.",
+    "Работа на границе отбора: вклад содержательный, но гарантия зависит от узкого семейства моделей, а отличие от прежних результатов пока не установлено."
+  ],
+  "confidence": "medium",
+  "profile_basis": [],
+  "limits": [
+    "The entire supplied manuscript, including its bibliography, was read.",
+    "External source correctness and exhaustive novelty were not checked.",
+    "The assessment uses only the supplied packet; linked sources were not consulted.",
+    "The mathematical example establishes structural possibilities, not effectiveness in a demonstrated empirical application."
+  ]
+}

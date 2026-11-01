@@ -1,0 +1,229 @@
+{
+  "status": "COMPLETE_PAIR_BATCH_ACCEPTED",
+  "summary_generated": true,
+  "batch_id": "pairs-001",
+  "expected_reviews": 50,
+  "accepted_reviews": 50,
+  "missing_reviews": 0,
+  "input_event_id": "event-066656741bdd4befb29ce979209a2b90",
+  "sources": {
+    "queue": {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/queue.json",
+      "sha256": "1aa058a84b83af995781164d6f083c671e436f971e1354ac0ee55f577aeb28df",
+      "bytes": 109954
+    },
+    "input_receipt": {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/START_RECEIPT.json",
+      "sha256": "1c0a0e6cb62209d7e0ded689c8fe0580a57644dc5f62c673d452b78e131961ed",
+      "bytes": 104357
+    },
+    "allocation": {
+      "path": "runs/final-selection-20261018/ALLOCATION.json",
+      "sha256": "61c6c035a2dd81f4971ae99ef9b6d212614ca3036f2abb8a9eaddd7c9c871a3d",
+      "bytes": 12315
+    }
+  },
+  "jobs": [
+    {
+      "job_id": "P01-N1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P01-N2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P01-N3",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P01-J1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P01-J2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P02-N1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P02-N2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P02-N3",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P02-J1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P02-J2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P03-N1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P03-N2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P03-N3",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P03-J1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P03-J2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P04-N1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P04-N2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P04-N3",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P04-J1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P04-J2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P05-N1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P05-N2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P05-N3",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P05-J1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P05-J2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P06-N1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P06-N2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P06-N3",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P06-J1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P06-J2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P07-N1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P07-N2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P07-N3",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P07-J1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P07-J2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P08-N1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P08-N2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P08-N3",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P08-J1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P08-J2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P09-N1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P09-N2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P09-N3",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P09-J1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P09-J2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P10-N1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P10-N2",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P10-N3",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P10-J1",
+      "status": "ACCEPTED_VERIFIED"
+    },
+    {
+      "job_id": "P10-J2",
+      "status": "ACCEPTED_VERIFIED"
+    }
+  ],
+  "boundary": "Local accepted receipts and exact bound bytes verified; canonical events referenced, not re-audited. Every response retained. Counts describe recorded verdicts only; no ranking, pair choice or selection."
+}

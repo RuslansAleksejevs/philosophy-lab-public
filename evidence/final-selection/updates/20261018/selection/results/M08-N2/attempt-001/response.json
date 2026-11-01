@@ -1,0 +1,59 @@
+{
+  "review_id": "M08-N2",
+  "manuscript_id": "M08",
+  "profile_id": "neutral",
+  "read_complete": true,
+  "thesis": "Complete limiting-outcome evidence for every nonempty persistent coordinate clamp, supplemented by the stated baseline and qualitative equilibrium information, need not identify simultaneous release outcomes. Nevertheless, within an independently justified dynamical family, an alternative withdrawal order can guarantee success without identifying the unknown decay rate.",
+  "contribution": "The manuscript supplies a sound, explicit counterexample to a particular inference from holding to release, together with a constructive distinction between identifying an intervention’s outcome and choosing a uniformly successful intervention. Its remaining philosophical contribution is a precise, worthwhile boundary on experimental completeness and model substitution. It does not establish a general inadequacy of equilibrium causal models or a general method for designing withdrawal procedures.",
+  "argument_map": [
+    "The evidence E records limiting outcomes of every nonempty coordinate clamp, a stationary uncontrolled baseline, and equilibrium locations with qualitative stability. It deliberately excludes arbitrary uncontrolled outcome maps and numerical relaxation rates.",
+    "All systems in C agree on E: clamping y removes the equation containing k; clamping x leaves only a decay whose endpoint is independent of k; joint clamps and the baseline reveal nothing further. The equilibrium stability classifications also remain unchanged.",
+    "After simultaneous release from (-1/2,1), sufficiently slow decay keeps the upward input strong enough for x to become positive and converge to 1. Sufficiently fast decay supplies too little total input, keeping x negative and forcing convergence to -1. The comparison and trapping arguments substantiate both endpoints.",
+    "Because two admissible systems share E but disagree on the target outcome, no rule using E alone can identify that outcome throughout C. This establishes nonidentification without requiring the exact parameter threshold or a complete basin classification.",
+    "With the functional form independently known, releasing x while holding y=1 for one unit makes x positive for every k>0; subsequent release then converges to (1,0). Reversing the order leaves opposing outcomes possible for every fixed finite waiting time. This policy guarantee uses structural knowledge beyond E."
+  ],
+  "strongest_merit": {
+    "location": "“An application: choosing the order of withdrawal,” paragraphs beginning “During the first stage,” “Any released state,” and “For every fixed finite T.”",
+    "reason": "The withdrawal-order result gives the counterexample a concrete decision consequence. Its quantifiers are substantive: one procedure succeeds for every positive k, whereas every fixed finite delay in the reverse order permits both outcomes. The manuscript also correctly distinguishes crossing x=0 from crossing an autonomous system’s basin boundary, avoiding a misleading explanation of the mechanism."
+  },
+  "concerns": [
+    {
+      "severity": "minor",
+      "kind": "scope",
+      "location": "“An application: choosing the order of withdrawal,” opening paragraph and paragraph beginning “The successful procedure uses no additional measurements.”",
+      "excerpt": "Assume the functional form (1) is independently justified",
+      "reason": "The constructive result requires considerably more knowledge than the endpoint evidence supplies: the response speed of x, the sign-preserving support dynamics, and the positive-state convergence property. Consequently, it does not show that the original evidence certifies an alternative policy. This is an acknowledged scope limitation rather than an invalid inference, but it bounds the claimed advance concerning action under uncertainty.",
+      "text_response": "The manuscript explicitly restricts the guarantee to C, states that its assumptions do not follow from E, and warns that enlarging the admissible class can destroy the guarantee. It also identifies one unit as a sufficient duration in the equation’s own units.",
+      "discriminating_check": "Consider dx/dt = a(x-x^3+y) with an additional unknown a>0. This preserves E, but sufficiently small a and sufficiently large k defeat the one-unit procedure. Separating which guarantees survive this extension would clarify exactly what structural knowledge supports successful withdrawal."
+    },
+    {
+      "severity": "open",
+      "kind": "originality",
+      "location": "“The question and its scope,” final paragraph; “What experimental completeness amounts to,” paragraph beginning “This gives the philosophical contribution a specific form.”",
+      "excerpt": "No priority claim follows from these comparisons",
+      "reason": "The manuscript acknowledges prior discussions of holding versus release, initial-state dependence, and temporal information. The demonstrated added value is its unusually comprehensive stipulated evidence and quantified comparison of withdrawal orders. The packet does not establish whether these sharpen existing formal results or instantiate distinctions already demonstrated elsewhere. This limits a claim to significant philosophical novelty, without undermining the proof.",
+      "text_response": "The author expressly disclaims priority, distinguishes representation from identification, and presents the self-contained mathematical construction as the basis of the contribution. These qualifications are appropriate, but leave its relationship to the closest existing results unresolved.",
+      "discriminating_check": "Compare the closest cited formal results using the same evidence menu, exclusion of the empty-target outcome map, and policy quantifiers. Determine whether they already entail this separation and order-sensitive guarantee, or whether the manuscript establishes a previously missing proposition."
+    }
+  ],
+  "scores": {
+    "overall": 3,
+    "argument": 4,
+    "significance": 3,
+    "originality": null
+  },
+  "originality_limit": "The supplied packet supports a specific mathematical contribution, but not a reliable comparative originality score. The literature descriptions identify relevant predecessors without establishing the precise overlap. Neither the example’s apparent distinctiveness nor its careful qualifications constitute evidence of priority.",
+  "recommendation": "borderline",
+  "reason_ru": [
+    "Доказательство убедительно: результаты постоянного удержания не всегда определяют, что произойдёт после снятия ограничений.",
+    "Полезный результат — удачный порядок снятия ограничений гарантирует успех даже при неизвестной скорости затухания.",
+    "Рекомендация пограничная: гарантия требует заранее известной формы уравнений, а новизна относительно прежних работ не установлена."
+  ],
+  "confidence": "medium",
+  "profile_basis": [],
+  "limits": [
+    "The entire supplied manuscript, including its bibliography, was read.",
+    "External source correctness and exhaustive novelty were not checked; only the supplied packet was used.",
+    "No source misattribution is established. The unresolved literature comparison limits the originality and significance assessment."
+  ]
+}

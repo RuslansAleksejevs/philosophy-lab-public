@@ -1,0 +1,113 @@
+{
+  "role": "F02/review-initial",
+  "scope": "Точечная проверка использованных атрибуций и близких предшественников. Полного поиска новизны и проверки всех доказательств процитированных работ не было.",
+  "access_window_utc": {
+    "first_observed_utc": "2026-10-18T00:08:43Z",
+    "last_observed_utc": "2026-10-18T00:11:23Z",
+    "precision": "Время ограничено чтениями часов во время проверки; это не отдельная точная метка каждого HTTP-запроса."
+  },
+  "excerpt_file": "SOURCE_EXCERPTS.txt",
+  "entries": [
+    {
+      "id": "S1",
+      "author": "Richard Pettigrew",
+      "title": "The cost of remembering",
+      "url": "https://richardpettigrew.substack.com/p/the-cost-of-remembering",
+      "locator": "The value of forgetting, абзацы 1–4; An example; The bigger picture, первый абзац",
+      "status": "VERIFIED_SELECTED_PASSAGES",
+      "finding": "Автор уже оценивает забывание по ожидаемой ценности будущих степеней уверенности и допускает условные вероятности по нынешним сведениям; учитывает издержки хранения.",
+      "limitation": "Авторское эссе; проверка ограничена указанными разделами, не всей программой автора."
+    },
+    {
+      "id": "S2",
+      "author": "Brian Hedden",
+      "title": "Mental Processes and Synchronicity",
+      "url": "https://11243971-2fc2-4a01-b59f-e247f0f3c35e.filesusr.com/ugd/0f1e81_66deef15afa74c87be6935ee9f277371.pdf",
+      "locator": "§4, с. 8–11 авторского PDF, примечания 13–15; PDF-страницы 8–11 при нумерации с единицы",
+      "status": "VERIFIED_SELECTED_PASSAGES",
+      "finding": "Подтверждены оценка по склонности соответствовать свидетельствам, объяснение случайно удачного удаления убеждения и оговорки об инструментальной рациональности, истине и доступном знании.",
+      "limitation": "Первое прямое открытие не удалось; PDF затем прочитан по ссылке с сайта автора. Это авторская версия, не проверка издательского набора."
+    },
+    {
+      "id": "S3",
+      "author": "Aevyra",
+      "title": "The Ledger of Will: Evidence, Revaluation, and the Preservation of Revisable Agency",
+      "url": "https://aevyra.github.io/ledger-of-will/",
+      "locator": "Версия 4.0, дата страницы 25 September 2026; §§4.1–4.3, 5.2, 6.2, 6.4",
+      "status": "VERIFIED_SELECTED_PASSAGES",
+      "finding": "Подтверждены критерий сохранения различимых будущих ответов, значение происхождения сведений, возможность заменить имя достаточным признаком и явное описание ограничений.",
+      "limitation": "Публичная проектная рукопись; доступность и верность атрибуции не доказывают научный приоритет или достоверность всех иных утверждений этой работы."
+    },
+    {
+      "id": "S4",
+      "author": "Robert Jenkinson Alvarez",
+      "title": "Prediction Is Not a Sufficient Memory State",
+      "url": "https://arxiv.org/html/2610.13881v1",
+      "locator": "§9, Relationship to existing theory and architectural claims, включая заключительный абзац",
+      "status": "VERIFIED_SELECTED_PASSAGES",
+      "finding": "Автор различает текущий прогноз и сведения для дальнейшего обучения и прямо признаёт более ранние работы о различимости будущих состояний.",
+      "limitation": "Проверена атрибуция в §9; технические теоремы статьи независимо не проверялись."
+    },
+    {
+      "id": "S5",
+      "author": "Sinan Dogramaci",
+      "title": "Forget and Forgive: A Practical Approach to Forgotten Evidence",
+      "url": "https://www.sinandogramaci.net/Sinan_Dogramaci/_____files/Dogramaci,%20Forget%20and%20Forgive.pdf",
+      "locator": "§3.3, печатные с. 670–671; PDF-страницы 26–27 при нумерации с единицы",
+      "status": "VERIFIED_SELECTED_PASSAGES",
+      "finding": "Текст действительно отделяет вред забывания и ненадёжного формирования убеждения от узко понимаемой оценки рациональности сохранившегося убеждения.",
+      "limitation": "Проверена конкретная оговорка, а не весь аргумент статьи."
+    },
+    {
+      "id": "S6",
+      "author": "Brian Hedden",
+      "title": "Time-Slice Rationality",
+      "url": "https://11243971-2fc2-4a01-b59f-e247f0f3c35e.filesusr.com/ugd/0f1e81_e6793e3d37ee403e9af45b0f45805987.pdf",
+      "locator": "§1, примечание 3, с. 3 авторского PDF",
+      "status": "VERIFIED_SELECTED_PASSAGES",
+      "finding": "Основная тема обозначена как то, во что следует верить; правильные основания убеждения и оценка агента выделены отдельно.",
+      "limitation": "Прочитаны начало и указанное примечание, не вся статья."
+    },
+    {
+      "id": "S7",
+      "author": "Wolfgang Schwarz",
+      "title": "Dynamic Rationality and Disproportionate Belief",
+      "url": "https://www.umsu.de/papers/disproportionate.pdf",
+      "locator": "Введение; §8, с. 15–17 авторского PDF",
+      "status": "VERIFIED_SELECTED_PASSAGES",
+      "finding": "Подтверждены возражение против всеобщей пропорциональности текущим свидетельствам и допущение рационального забывания при ограниченных ресурсах.",
+      "limitation": "Проверены заявленные позиции, а не все мысленные эксперименты и доказательства."
+    },
+    {
+      "id": "S8",
+      "author": "Abelard Podgorski",
+      "title": "A Reply to the Synchronist",
+      "url": "https://philpapers.org/archive/PODART.pdf",
+      "locator": "В рукописи указаны §§3, 8",
+      "status": "ACCESS_FAILED_UNVERIFIED",
+      "finding": null,
+      "limitation": "Инструмент вернул Internal Error. Прямое подтверждение атрибуции из этого источника не получено; описание его возражения у Hedden не заменяет самостоятельную проверку."
+    },
+    {
+      "id": "S9",
+      "author": "Brian Weatherson",
+      "title": "Memory, belief and time",
+      "url": "https://philpapers.org/archive/WEAMBA.pdf",
+      "locator": "В рукописи указаны введение и §1",
+      "status": "ACCESS_FAILED_UNVERIFIED",
+      "finding": null,
+      "limitation": "Инструмент вернул Internal Error. Атрибуция исторических свидетельств и различения оценок в этой работе остаётся непроверенной."
+    }
+  ],
+  "discovery_only": [
+    {
+      "url": "https://brianhedden.wixsite.com/home",
+      "purpose": "Подтверждение авторского происхождения двух PDF и доступ к ним; раздел Papers, публикации 2015 и 2016."
+    },
+    {
+      "url": "https://academic.oup.com/mind/article/125/499/873/2563423?login=true",
+      "purpose": "Уточнение библиографических данных и поиск доступной авторской копии; основной отзыв опирается на прочитанный авторский PDF."
+    }
+  ]
+}
+

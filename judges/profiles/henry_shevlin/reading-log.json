@@ -1,0 +1,121 @@
+{
+  "schema": "judge-reading-log-v1",
+  "judge_id": "henry_shevlin",
+  "access_date": "2026-10-07",
+  "retrieval_form": "Web-tool source fragments; originals retained verbatim, including errors and extraction defects. Not raw HTTP or original PDF files.",
+  "readings": [
+    {
+      "source_id": "I1",
+      "coverage": "metadata",
+      "read_locations": "Substantial authored about-page text returned through search; professional identity and intellectual self-description only. Homepage https://henryshevlin.com/.",
+      "artifacts": [
+        {
+          "path": "evidence/turn5search2.txt",
+          "sha256": "b7b8105a52d1de9f15595809bc8cad3f12e53c75b03541360dc651adb67f670d",
+          "line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn5search3.txt",
+          "sha256": "b31641f38e3ab30270368b2a66aaa40177f06a67003e73ec235b25244d806ed9",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S1",
+      "coverage": "substantial_excerpt",
+      "read_locations": "Main lines330–395 plus discontinuous find excerpts around388–400,427–438,467–486,515–529. Substantial introduction and selected framework discussion; not full article.",
+      "artifacts": [
+        {
+          "path": "evidence/turn61view1.txt",
+          "sha256": "77d1c318608a4d97d7ebc69187922aa92d1be768fabc8f046bdf9779f1ed9686",
+          "line_ranges_present": [
+            [
+              0,
+              395
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn65view3.txt",
+          "sha256": "735df6299fe3b05a5c84b4472d203c6f4911ad7663d99b0edd581e9d3ae2b547",
+          "line_ranges_present": [
+            [
+              231,
+              341
+            ],
+            [
+              388,
+              400
+            ],
+            [
+              427,
+              438
+            ],
+            [
+              467,
+              486
+            ],
+            [
+              515,
+              529
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S2",
+      "coverage": "full_main_text",
+      "read_locations": "Authored article body lines18–126 read; surrounding wrapper and comments not used as author evidence.",
+      "artifacts": [
+        {
+          "path": "evidence/turn64view0.txt",
+          "sha256": "c6ef65aa84677bac7fb48c567260c370295c7cf29e3a518f192c77fd328c1067",
+          "line_ranges_present": [
+            [
+              0,
+              166
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "D1",
+      "coverage": "metadata",
+      "read_locations": "Discovery of publications; listed works not deemed read.",
+      "artifacts": [
+        {
+          "path": "evidence/turn38view0.txt",
+          "sha256": "52acb4ae6898661c90509ec0d49edb4eef163e943db2c9886212d33bca546a25",
+          "line_ranges_present": [
+            [
+              0,
+              44
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "F1",
+      "coverage": "unavailable",
+      "read_locations": "Failed click on research catalogue link19; resolved target URL was not exposed by this return. No article reading claimed.",
+      "artifacts": [
+        {
+          "path": "evidence/turn39view4.txt",
+          "sha256": "e523d25fdac03eae5c779b15568b5c48a4d25c04debc3bc8d552c5cd3f8ab8bc",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    }
+  ],
+  "temperament_search": "Targeted public author/institutional pages, media/interview or public discussion/review discovery. Actual accessible and failed results are indexed; metadata is not personality evidence.",
+  "gap_rule": "UNKNOWN is retained where the accessed material is inadequate. Full/excerpt refers to the contribution or main text, not all navigation, references, linked content or rendered equations."
+}

@@ -1,0 +1,122 @@
+{
+  "role_id": "E041/review-final",
+  "recorded_at_utc": "2026-10-18T01:51:59.233056+00:00",
+  "scope_ru": "Точечная проверка шести источников и близких предшественников, названных в рукописи. Это не общий поиск литературы и не установление приоритета. Сохранены точные короткие выдержки из реально просмотренных первичных материалов.",
+  "sources": [
+    {
+      "id": "S1",
+      "author": "Jane Austen",
+      "title": "Emma",
+      "url": "https://www.gutenberg.org/files/158/158-h/158-h.htm",
+      "kind": "primary_literary_text",
+      "locations": "Volume I, chapters VI, XIII, XV–XVI; web text lines 331–401, 1029–1039, 1158–1171, 1187–1198",
+      "access_window_utc": [
+        "2026-10-18T01:48:50Z",
+        "2026-10-18T01:48:51Z"
+      ],
+      "access_method": "Direct web text and targeted find; relevant surrounding passages were also read earlier in this review session.",
+      "excerpt": "Mr. Elton, the lover of Harriet, was professing himself her lover.",
+      "excerpt_location": "Volume I, chapter XV",
+      "finding_ru": "Цитата верна. В VI главе похвалы Элтона обращены и к художнице; в XVI Эмма возвращается к портрету и прежним признакам. XIII глава содержит прямую подсказку Джона Найтли, поэтому текст подтверждает возможность пересмотра, но не обязательную обоснованность поздней ошибки читателя.",
+      "limitations_ru": "Проверен текст выбранных сцен, а не история реальных читательских реакций и не весь роман. Из сцен не выводится частота описанного опыта.",
+      "excerpt_file": "source_excerpts/S1.txt"
+    },
+    {
+      "id": "S2",
+      "author": "Neil Levy",
+      "title": "The Real Spoilers Puzzle",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/29960126.2025.2527423",
+      "additional_url": "https://www.tandfonline.com/doi/abs/10.1080/29960126.2025.2527423",
+      "kind": "primary_research_article_publisher_text",
+      "locations": "Sections 1 and 3; section 1 passage on twist/puzzle fictions and the following paragraph on the first encounter",
+      "access_window_utc": [
+        "2026-10-18T01:49:21Z",
+        "2026-10-18T01:49:23Z"
+      ],
+      "additional_access_window_utc": [
+        "2026-10-18T01:48:50Z",
+        "2026-10-18T01:48:51Z"
+      ],
+      "access_method": "Indexed publisher full text returned by targeted web search. Initial direct opens returned 403/internal errors.",
+      "excerpt": "The experience of revelation depends on us not knowing the twist beforehand.",
+      "excerpt_location": "Section 1",
+      "finding_ru": "Леви действительно различает навязанное раскрытие сюжета и предзнание, связывает неприязнь с самостоятельностью в получении знания и признаёт особые случаи сюжетного поворота и загадки. Он уже обсуждает ценность первого опыта и возможность желать оба опыта; рукопись не может считать само это различие новым.",
+      "limitations_ru": "Проверены возвращённые поиском фрагменты первичного текста; полный PDF локально не получен. Его обзор психологических исследований независимо не проверялся: рассматриваемый довод рукописи не требует их истинности.",
+      "excerpt_file": "source_excerpts/S2.txt"
+    },
+    {
+      "id": "S3",
+      "author": "Stanley Fish",
+      "title": "Literature in the Reader: Affective Stylistics",
+      "url": "https://affecthistory.com/wp-content/uploads/2022/01/el-fish-literature-in-the-reader.pdf",
+      "kind": "primary_research_essay_reprint_scan",
+      "locations": "Reprint p. 86, PDF page index 8, web extraction lines 2506–2609",
+      "access_window_utc": [
+        "2026-10-18T01:48:50Z",
+        "2026-10-18T01:48:51Z"
+      ],
+      "access_method": "Direct PDF text extraction and targeted find.",
+      "excerpt": "the resulting mistakes are part of the experience provided by that author's language",
+      "excerpt_location": "Reprint p. 86",
+      "finding_ru": "Указанная страница поддерживает пересказ: прежние ожидания и ошибки входят в событие чтения и не исчезают после окончательного понимания. Рукопись верно не превращает это автоматически в доказательство эстетической ценности всякой ошибки.",
+      "limitations_ru": "Проверен нужный фрагмент переиздания, а не вся теория Фиша. В цитате устранены технические разрывы слов и строк PDF; слова сохранены.",
+      "excerpt_file": "source_excerpts/S3.txt"
+    },
+    {
+      "id": "S4",
+      "author": "Wolfgang Iser",
+      "title": "The Reading Process: A Phenomenological Approach",
+      "url": "https://ctlsites.uga.edu/eberle/wp-content/uploads/sites/78/2017/08/iser_readingProcess.pdf",
+      "kind": "primary_research_article_scan",
+      "locations": "Journal pp. 287 and 296; archived excerpt from p. 296, section V",
+      "access_window_utc": [
+        "2026-10-18T01:49:21Z",
+        "2026-10-18T01:49:23Z"
+      ],
+      "access_method": "Indexed scan text returned by targeted web search; p. 287 was inspected in an earlier targeted search in this session. Direct open failed.",
+      "excerpt": "This is what causes the reader to be entangled in the text \"gestalt\" that he himself has produced.",
+      "excerpt_location": "Journal p. 296, section V",
+      "finding_ru": "Пересказ подтверждается: чтение связывает ожидание и возвращение к уже прочитанному; читатель вовлекается в построенное при его участии целое. Эти идеи предшествуют рукописи.",
+      "limitations_ru": "Проверены индексированные фрагменты указанных страниц; полный файл локально не получен. Разрывы строк в короткой цитате удалены.",
+      "excerpt_file": "source_excerpts/S4.txt"
+    },
+    {
+      "id": "S5",
+      "author": "C. Thi Nguyen",
+      "title": "Autonomy and Aesthetic Engagement",
+      "url": "https://www.researchgate.net/publication/334812720_Autonomy_and_Aesthetic_Engagement",
+      "cited_manuscript_url": "https://philpapers.org/archive/NGUAAA.pdf",
+      "kind": "author_uploaded_primary_research_abstract_and_manuscript",
+      "locations": "Abstract; author-uploaded record, web text line 20",
+      "access_window_utc": [
+        "2026-10-18T01:48:50Z",
+        "2026-10-18T01:48:51Z"
+      ],
+      "access_method": "Direct author-uploaded ResearchGate text; corroborating indexed abstract from the cited PhilPapers manuscript. Direct opening of that PDF failed.",
+      "excerpt": "The point is the engaged process of interpreting, investigating, and exploring the aesthetic object.",
+      "excerpt_location": "Abstract",
+      "finding_ru": "Приписанная общая идея точна: ценится деятельность толкования и исследования, а не одно обладание верным суждением. Это действительно предшественник, а не независимое подтверждение всей предлагаемой частной теории.",
+      "limitations_ru": "Для этой атрибуции проверена аннотация. Полная теория Нгуена не оценивалась; точное соответствие всех версий статьи не устанавливалось.",
+      "excerpt_file": "source_excerpts/S5.txt"
+    },
+    {
+      "id": "S6",
+      "author": "Alon Chasid",
+      "title": "The Spoilers Puzzle",
+      "url": "https://www.researchgate.net/publication/383275889_The_spoilers_puzzle",
+      "cited_manuscript_url": "https://philarchive.org/archive/CHATSP-14",
+      "kind": "author_uploaded_primary_manuscript",
+      "locations": "Penultimate manuscript, abstract and pp. 12–13; web text lines 528–581",
+      "access_window_utc": [
+        "2026-10-18T01:48:50Z",
+        "2026-10-18T01:48:51Z"
+      ],
+      "access_method": "Direct ResearchGate extraction of the penultimate manuscript uploaded by Chasid; cited PhilArchive/PhilPapers direct PDF opens failed.",
+      "excerpt": "spoilers do not completely thwart imagining.",
+      "excerpt_location": "Penultimate manuscript p. 13",
+      "finding_ru": "Часид действительно допускает воображение и удовольствие при предзнании, различая известные факты и то, что на текущем этапе представляется достоверным. Рукопись аккуратно отделяет это от фактического пересмотра собственного предположения.",
+      "limitations_ru": "Проверены указанные места авторской предпоследней версии; опубликованная версия построчно не сопоставлялась.",
+      "excerpt_file": "source_excerpts/S6.txt"
+    }
+  ]
+}

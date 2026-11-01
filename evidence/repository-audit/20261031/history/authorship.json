@@ -1,0 +1,110 @@
+{
+  "verdict": "The literal claim every word in the repository and every essay was written by Codex is false.",
+  "claude_original_corpus_members": [
+    {
+      "id": "E014",
+      "title": "Borrowing Without Replenishing: The Ecology of Moral Deference",
+      "campaign": "claude10-20260913",
+      "source": "research/campaigns/claude10-20260913/saved-20260923/essay-05/ESSAY.md",
+      "sha256": "d155c554ca40c0a7590f1c84d1b894c9a392628a5fca8194d62b8640a78af7d5"
+    },
+    {
+      "id": "E016",
+      "title": "Making Goodness Cheap: Cost, Character, and the Ethics of Relief",
+      "campaign": "claude10-20260913",
+      "source": "research/campaigns/claude10-20260913/saved-20260923/essay-02/ESSAY.md",
+      "sha256": "ecedfe6ee2c5d87720788851593d49106d4ecdd2e9336abba6360700c7d04606"
+    },
+    {
+      "id": "E021",
+      "title": "Asking Makes You Answerable: The Question as a Normative Power",
+      "campaign": "claude10-20260913",
+      "source": "research/campaigns/claude10-20260913/saved-20260923/essay-09/ESSAY.md",
+      "sha256": "041241e89d8ee3803a6c185352b10010c79067819805971046da621fb803a10b"
+    },
+    {
+      "id": "E031",
+      "title": "What the Will Cannot Undo",
+      "campaign": "claude10-20260913",
+      "source": "research/campaigns/claude10-20260913/saved-20260923/essay-04/ESSAY.md",
+      "sha256": "cca8d65e513b2b020354d79cf4fb71cf3824096380c894314b37fbc5112fde3d"
+    },
+    {
+      "id": "E042",
+      "title": "Off the Map: Unawareness, Obligation, and the Duties That Survive It",
+      "campaign": "claude10-20260913",
+      "source": "research/campaigns/claude10-20260913/saved-20260923/essay-10/ESSAY.md",
+      "sha256": "74ce9a49372ac07a8648c53206bb9ff39763d010b70bf2a7ee104512cf72b947"
+    },
+    {
+      "id": "E043",
+      "title": "Baseline Capture",
+      "campaign": "claude10-20260913",
+      "source": "research/campaigns/claude10-20260913/saved-20260923/essay-06/ESSAY.md",
+      "sha256": "cbdd2a9792408cebfe970f2a5249f6ce256cce5d55d6323ad6482ad0085c6865"
+    },
+    {
+      "id": "E059",
+      "title": "What Asking Does: Requests, Answerability, and the Deliberative Agenda",
+      "campaign": "claude10-20260913",
+      "source": "research/campaigns/claude10-20260913/saved-20260923/essay-07/ESSAY.md",
+      "sha256": "207f74baf034accd8974838b3af6b9803a7d47a53cdcd04fa5b67e6cd4ad6e5f"
+    },
+    {
+      "id": "E063",
+      "title": "Ignorance by Design: Deliberative Jurisdiction and the Modal Structure of Fair Judgment",
+      "campaign": "claude10-20260913",
+      "source": "research/campaigns/claude10-20260913/saved-20260923/essay-01/ESSAY.md",
+      "sha256": "92c2a07f0bd368519a193325595e011ad1b49e61436898c30cbbd124e9adc876"
+    },
+    {
+      "id": "E085",
+      "title": "Inquiry Before the Question",
+      "campaign": "claude10-20260913",
+      "source": "research/campaigns/claude10-20260913/saved-20260923/essay-08/ESSAY.md",
+      "sha256": "ec7870e4819e401d9a31e25ed8ad1cb6eaf59a4b0c0d7a21b3a3860d2b2738eb"
+    },
+    {
+      "id": "E093",
+      "title": "Unfinished Wrongs: Apology and the Settlement of the Past",
+      "campaign": "claude10-20260913",
+      "source": "research/campaigns/claude10-20260913/saved-20260923/essay-03/ESSAY.md",
+      "sha256": "daa4a7f9f0a1da0ee1a52fd3be2514f457e4dbbb4f09434d8f60557cbe1df244"
+    }
+  ],
+  "mixed_lineage": {
+    "id": "E076",
+    "lineage": "Claude philosophical original → Codex length edit and independent meaning-preservation review",
+    "source": {
+      "path": "research/campaigns/hundred-20260925/pilot-close/HISTORY.md",
+      "sha256": "3ae5bc5ad0eef95ecc853cb4be95af9b62e77ed7cb23c03afbfc664b564af957"
+    },
+    "old_claude_final_sha256": "b2fce57aa6836a3db4d4f435cd2b6dc6e89d40cbfa63dc00f79eb54d3a771ad0"
+  },
+  "other_exceptions": [
+    {
+      "type": "Human words",
+      "source": {
+        "path": "repository/docs/quotes.json",
+        "sha256": "e053d02107e19555775f6e405773be834aafc41df73546a952377312ad2cae4f"
+      },
+      "count": 65,
+      "description": "Verbatim human prompt excerpts; original Russian is human-authored, English translations editorial. Conversation logs retain further human prompts."
+    },
+    {
+      "type": "Claude reviews and research",
+      "source": {
+        "path": "repository/docs/post-midterm.md",
+        "sha256": "9564d75e0b83b3b1a54b69c8af918d9521a9e668ee96daabd8f2fde065118637"
+      },
+      "description": "Claude contributed separate critiques, literature audits, and C2/C5 idea work; C2/C5 did not become complete essays."
+    },
+    {
+      "type": "Quoted and inherited material",
+      "description": "Manuscripts and reports retain quotations, bibliographic titles, source excerpts and preserved source artifacts; not every literal word originates with an AI writer."
+    }
+  ],
+  "readme_suggestion": "I set the direction and wrote the prompts. Codex built and maintained the repo and did most of the writing; Claude contributed essays and reviews too. The logs keep my original words.",
+  "shorter_alternative": "Built with Codex, with AI-written essays by Codex and Claude—and my original prompts kept in the logs.",
+  "limits": "This checks recorded manuscript provenance and explicit exceptions, not an exhaustive forensic attribution of every character of code or every inherited template."
+}

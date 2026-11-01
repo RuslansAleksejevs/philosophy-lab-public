@@ -1,0 +1,69 @@
+{
+  "role": "E037/review-final",
+  "access_recorded_at_utc": "2026-10-18T01:23:22Z",
+  "access_time_note": "Time recorded immediately after the targeted browser reading; it is the completion time of this access session, not a publisher/server fetch timestamp.",
+  "method": "web tool: publisher HTML for four articles and author-hosted PDF for Fabre. Exact short excerpts retained in SOURCE_EXCERPTS.txt. No full-page snapshot was saved.",
+  "scope": "Targeted verification of the five attributions made by this manuscript; not a comprehensive novelty search or independent verification of every claim in those articles.",
+  "sources": [
+    {
+      "id": "hallich2025",
+      "author": "Oliver Hallich",
+      "title": "Apologies– A Critical View",
+      "url": "https://link.springer.com/article/10.1007/s10892-025-09519-7",
+      "accessed_at_utc": "2026-10-18T01:23:22Z",
+      "locator": "§§1–2, particularly publisher HTML lines 57–59, 71–123; note 13, lines 228–229",
+      "status": "VERIFIED_WITHIN_SCOPE",
+      "finding_ru": "Сведение оценки содержания к искренности в §2 действительно есть. Также подтверждены довод от принятия и отказа, различение речевого действия и личного намерения, ограничение межличностными извинениями.",
+      "limitation_ru": "Проверена точность конкретного пересказа; правильность общей теории Халлиха этим не установлена.",
+      "excerpt_file": "SOURCE_EXCERPTS.txt#hallich2025"
+    },
+    {
+      "id": "fabre",
+      "author": "Cécile Fabre",
+      "title": "The Duty to Accept Apologies",
+      "url": "https://www.cecilefabre.com/uploads/1/3/6/4/13640562/the_duty_to_accept_apologies.pdf",
+      "accessed_at_utc": "2026-10-18T01:23:22Z",
+      "locator": "§2, PDF pages 3–4 (printed 3–4); §3, PDF pages 6–8; §4.3, PDF pages 13–14",
+      "status": "VERIFIED_WITHIN_SCOPE",
+      "finding_ru": "Фабр различает искренность, понимание и намерение измениться; некоторые искренние высказывания считает ещё не извинениями. Принятие включает оценку понимания и отличается от прощения.",
+      "limitation_ru": "Использована именно указанная авторская рукопись. Её буквальное совпадение с журнальной версией не проверялось.",
+      "excerpt_file": "SOURCE_EXCERPTS.txt#fabre"
+    },
+    {
+      "id": "smith2017",
+      "author": "Nick Smith",
+      "title": "Guidelines for Evaluating Apologies and Remorse in Criminal Contexts: Summary Version for Practitioners",
+      "url": "https://c4ejournal.net/2017/11/16/nick-smith-guidelines-for-evaluating-apologies-and-remorse-in-criminal-contexts-summary-version-for-practitioners-2017-c4ej-9/",
+      "accessed_at_utc": "2026-10-18T01:23:22Z",
+      "locator": "Criteria 1–7, especially 1–2; publisher HTML lines 31–81",
+      "status": "VERIFIED_WITHIN_SCOPE",
+      "finding_ru": "Критерии отдельно рассматривают факты, вину, право извиняться, вред и нарушенные принципы; случаи нескольких виновников прямо обсуждаются.",
+      "limitation_ru": "Проверена указанная краткая статья, не книги Смита и не перенос всех её требований из уголовного контекста в обычный разговор.",
+      "excerpt_file": "SOURCE_EXCERPTS.txt#smith2017"
+    },
+    {
+      "id": "ahteensuu2019",
+      "author": "Marko Ahteensuu",
+      "title": "Risk, Calamity and Apology",
+      "url": "https://link.springer.com/article/10.1007/s10677-019-09993-7",
+      "accessed_at_utc": "2026-10-18T01:23:22Z",
+      "locator": "§3.1, publisher HTML lines 91–101",
+      "status": "VERIFIED_WITHIN_SCOPE",
+      "finding_ru": "Автор обсуждает ошибочное признание виновности и возможность объяснить отсутствие проступка вместо принятия извинения.",
+      "limitation_ru": "Это случай возможной невиновности; он сам по себе не решает пример с верным признанием собственной вины и ложным оправданием другого.",
+      "excerpt_file": "SOURCE_EXCERPTS.txt#ahteensuu2019"
+    },
+    {
+      "id": "roadevin2017",
+      "author": "Cristina Roadevin",
+      "title": "An Account of Earned Forgiveness through Apology",
+      "url": "https://link.springer.com/article/10.1007/s11406-017-9868-2",
+      "accessed_at_utc": "2026-10-18T01:23:22Z",
+      "locator": "§7, publisher HTML lines 207–219; supporting discussion at 200–206",
+      "status": "VERIFIED_WITHIN_SCOPE",
+      "finding_ru": "Отказ от собственного проступка и выраженное уважение к пострадавшему действительно служат основаниями извинения помимо желания изменить его чувства.",
+      "limitation_ru": "Статья не доказывает разграничение двух версий письма, предложенное в проверяемой рукописи.",
+      "excerpt_file": "SOURCE_EXCERPTS.txt#roadevin2017"
+    }
+  ]
+}

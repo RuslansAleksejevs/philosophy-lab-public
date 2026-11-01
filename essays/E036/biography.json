@@ -1,0 +1,2139 @@
+{
+  "entity": "hundred-20260925/free-02",
+  "entries": [
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0db47-fd41-7fb3-acee-623f17c3d7c4"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/campaign.json",
+          "role": "input",
+          "sha256": "649f4d66c1d9a8f6142ab346a6d2631abfcac64e8cbe70d5fd656bcce0a2cff8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/TASK.md",
+          "role": "input",
+          "sha256": "5e52a06c5f3d45aa9ab504035e2c8b97f7b53182c012e727b4df6fdc279b2271"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/rules.txt",
+          "role": "input",
+          "sha256": "5e4d8819b15a4e770dda9790b4cfb8edcc745059c6934245f184ad35d8c3e3bb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/faq.txt",
+          "role": "input",
+          "sha256": "a6727c4e2ab076117aa6f72f0871de6f83a02715620f762367483759b2b1cc7c"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-158.json",
+          "role": "input",
+          "sha256": "d5d221de67c6560bad85e4f40c0920367b9ed38ecd0bf1d8f70440d0320f71a5"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-170.json",
+          "role": "input",
+          "sha256": "1dacca2a95eba5bcb356f428ac709ed0a307859cb037647b08541dcb813c282d"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-182.json",
+          "role": "input",
+          "sha256": "9d5c938841045ce60eec1202ee54ca8edddba7ca09d3edabec95111ff22186a9"
+        }
+      ],
+      "configuration": {
+        "observed": "UNKNOWN",
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-06ed63cbb86f450b822146790723ab68",
+      "evidence": [
+        "event-23988b4b6d6641dca61f228efcba1353",
+        "event-ee7403a0a43d43f5902740f712bdc329",
+        "collector-894898a2fbffead72bc3ccbfba740f74",
+        "event-7f76fd37aaec4453a459593e1962a106",
+        "event-5c27e33cd19a488085a3ffa67bbfd382",
+        "event-fb83d991a5ba43d399368a26d96f72c7",
+        "collector-66d8a49dae262e010573517d0f99eb45",
+        "event-7f8be21a249342d9860f102521c46bbc"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred-origin:ac5268ca82565deac81d9e9b4ab3d830",
+      "kind": "origin",
+      "occurred_at": "UNKNOWN",
+      "parents": [],
+      "recorded_at": "2026-09-26T01:16:51.602231+00:00",
+      "summary": "Exact authorized neutral workflow inputs",
+      "workflow": {
+        "protocol": "hundred-artifacts.v1",
+        "run_id": "hundred-20260925-free-02"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0db47-fd41-7fb3-acee-623f17c3d7c4"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/campaign.json",
+          "role": "input",
+          "sha256": "649f4d66c1d9a8f6142ab346a6d2631abfcac64e8cbe70d5fd656bcce0a2cff8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/TASK.md",
+          "role": "input",
+          "sha256": "5e52a06c5f3d45aa9ab504035e2c8b97f7b53182c012e727b4df6fdc279b2271"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/rules.txt",
+          "role": "input",
+          "sha256": "5e4d8819b15a4e770dda9790b4cfb8edcc745059c6934245f184ad35d8c3e3bb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/faq.txt",
+          "role": "input",
+          "sha256": "a6727c4e2ab076117aa6f72f0871de6f83a02715620f762367483759b2b1cc7c"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-158.json",
+          "role": "input",
+          "sha256": "d5d221de67c6560bad85e4f40c0920367b9ed38ecd0bf1d8f70440d0320f71a5"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-170.json",
+          "role": "input",
+          "sha256": "1dacca2a95eba5bcb356f428ac709ed0a307859cb037647b08541dcb813c282d"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-182.json",
+          "role": "input",
+          "sha256": "9d5c938841045ce60eec1202ee54ca8edddba7ca09d3edabec95111ff22186a9"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/question.md",
+          "role": "output",
+          "sha256": "a669aa4d227213f4c98f074b768f89758a55da1a4730281ead129c9d065860a8"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "collector-bc54d0fa8ccd31d9891a39219963fbe3",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "ultra"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-100e0ec2f4bb44d5ae03a1bb4be82466",
+      "evidence": [
+        "event-5814807106fa472882b0f5203749387b",
+        "event-8939be932749462387832695209ea9d2",
+        "collector-bc54d0fa8ccd31d9891a39219963fbe3"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:fc521d774e36d63134f7298b3b42b1784f3b1bcc",
+      "kind": "idea",
+      "occurred_at": "2026-09-26T01:17:48.990Z",
+      "parents": [
+        "hundred-origin:ac5268ca82565deac81d9e9b4ab3d830"
+      ],
+      "recorded_at": "2026-09-26T01:20:53.822318+00:00",
+      "summary": "AI-selected alternatives and initial question about disclosure, waiver and equal standing to withhold private evidence.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "idea",
+        "protocol": "hundred-artifacts.v1",
+        "run_id": "hundred-20260925-free-02",
+        "stage": "idea-01"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0db47-fd41-7fb3-acee-623f17c3d7c4"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-5814807106fa472882b0f5203749387b",
+          "path": "research/campaigns/hundred-20260925/free-02/question.md",
+          "role": "input",
+          "sha256": "a669aa4d227213f4c98f074b768f89758a55da1a4730281ead129c9d065860a8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources.md",
+          "role": "output",
+          "sha256": "40a77de4f03bfabab53581c36a576ad8d15c3eeeb335633c7a15615fd11e143a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/selection.md",
+          "role": "output",
+          "sha256": "c4768e381c7a70a659ca40fc0aa16e4fcf58e8270766cf408d8cf409bb170a81"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/novelty-gate.json",
+          "role": "output",
+          "sha256": "f4e487f828543777f3fb2482a29f0532095dd67d13efad074a0b408074371ad0"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/source-manifest.json",
+          "role": "output",
+          "sha256": "0d4c6ae8f6d8286bee0d060fd0ef448df159c293418f1e8daed0dcc299b85af0"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/daughety-reinganum-2008.pdf",
+          "role": "output",
+          "sha256": "91d9f0a78735c2ff70ed0310e0bc082d76fd19a392279aa4ee0737395d993657"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/daughety-reinganum-2008.read-excerpts.txt",
+          "role": "output",
+          "sha256": "c2af9c51774604e7d56fee4f1bb59c281ff58a330de9cd941c6c9c4c7b241443"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/daughety-reinganum-2008.txt",
+          "role": "output",
+          "sha256": "6d1ea60b22d250c1d38432713a2668e219c1128e2fae23c1f3b3b0c7dd20abb2"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/moore-martin-2020.pdf",
+          "role": "output",
+          "sha256": "e00145a99c7aa31a54c2073783511ce7e0dd9b1c4eb7f7b2d881df8c11bb6073"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/moore-martin-2020.read-excerpts.txt",
+          "role": "output",
+          "sha256": "c33f7329d313651749138415151a9d20f79554dd721a9f779772774843075b5c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/moore-martin-2020.txt",
+          "role": "output",
+          "sha256": "92a463738a5abc0ef49076b6deaee7ebbe96762a94240096609aaeb4caca9ca4"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/nissenbaum-2004.pdf",
+          "role": "output",
+          "sha256": "91efc39523f9f77fa225a06ff6e68c5b9371becbaedd0fdece9f1d4fdf0649aa"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/nissenbaum-2004.read-excerpts.txt",
+          "role": "output",
+          "sha256": "7072e855957328921fc79d409762336d2156943bab6457f08213195c54a4b94f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/nissenbaum-2004.txt",
+          "role": "output",
+          "sha256": "17d0211370b7f105c189cbe0d91a65bd715ac2f508bf98babf3a6858206ea00a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/open01.json",
+          "role": "output",
+          "sha256": "ea4495ad30e822649a1a3c9103039b53aeb6f7351b085ac20d819779db7bb048"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/open02.json",
+          "role": "output",
+          "sha256": "91d85b1bb7c442c9f3cf3509997fe8c81164db619bdc36d5969bab0f0e772a42"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/pasquale-2021.html",
+          "role": "output",
+          "sha256": "bc558e4d0873996c5430dcf59aa87cb2cbc445a4653fc80d3b4efb7d67266d75"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/pasquale-2021.read-excerpts.txt",
+          "role": "output",
+          "sha256": "cc4276aa8ad8de47219638bf470848fe089bdd3ef76673a997971f294641d392"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/pasquale-2021.txt",
+          "role": "output",
+          "sha256": "82da5327fd6cda38c1fe128eec42da6a5a43ae88870fdd5b9e56c800864750eb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/peppet-colorado.html",
+          "role": "output",
+          "sha256": "d92165477b469ff9ad78b8ca2df346d118ee9024372d03c23bc18d454672d568"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/peppet-page.html",
+          "role": "output",
+          "sha256": "f745afecae2f9843d22f19e9bb824be344fe13e4c4a62e6ae6baa59b3bad1199"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-01.json",
+          "role": "output",
+          "sha256": "79860402e6f31feab8033c3cf3b51efa938be35fb7e200fa0c53e1edaf83962a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-02.json",
+          "role": "output",
+          "sha256": "0d164594a113db2c4c850eae85ab22d35d67b07dd30b6ebeb267567c6804b065"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-03.json",
+          "role": "output",
+          "sha256": "32c0a923c113494839028a82ea69f04cc2bcd86e4fd304059d5e3541a5addba7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-04.json",
+          "role": "output",
+          "sha256": "d71580c3c52c04adaa0fb3093a9553b6d8a177723ba79915a89027469d515470"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search01.json",
+          "role": "output",
+          "sha256": "d98622d1163f55107c81435edd3e7a89db6815594e8db2ae32501e47783978ec"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search02.json",
+          "role": "output",
+          "sha256": "3fa097f4ef7c31c87a26c2e367ceb572f43fd1ef1977d37f0e1a488f85f8e548"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search03.json",
+          "role": "output",
+          "sha256": "7e97a220302787549ad40a220e89b7ba0a0516634fa53d745a45f53c0a3d6360"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search04.json",
+          "role": "output",
+          "sha256": "a9afa0ff07a307a33f0988b21ae005aec56da9cb5926584cd96092f22e9d6954"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search05.json",
+          "role": "output",
+          "sha256": "0464a4d2ad14fef5b75177b8ad98f0c90626a8142696edffdb0f73b2a3417970"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search06.json",
+          "role": "output",
+          "sha256": "dbabab051334034a05a8ba63e969ff284af4911aaf79769812b57ff1c5056388"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search07.json",
+          "role": "output",
+          "sha256": "d3f6a60ccb20582e122e7d14ccdf9a803107a0b41d9fb39c832377138f82fe6f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search08.json",
+          "role": "output",
+          "sha256": "6606e7dcedc3378ac61d41bfdc2c61823a397ee266a447dada4aed6ea6db8dbb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-00.json",
+          "role": "output",
+          "sha256": "5e430293e01c8b536d9cf4a720ca2a5e32815e41a8e9607f51ba95e2dbbd4aef"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-3c68d9039b0c41c4bf09dfb7e491525f",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "ultra"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-6435c28469fb493ba92e1ca3351ed491",
+      "evidence": [
+        "event-3213a4fa87a64c45a9197fef8390869e",
+        "event-50729fde2c8b4ad6badd899ce7f5cdfc",
+        "event-3c68d9039b0c41c4bf09dfb7e491525f"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:7db9d7e721618158ccf201b36b6f70368723109c",
+      "kind": "origin",
+      "occurred_at": "2026-09-26T01:28:25.562Z",
+      "parents": [
+        "hundred:fc521d774e36d63134f7298b3b42b1784f3b1bcc"
+      ],
+      "recorded_at": "2026-09-26T01:28:50.654444+00:00",
+      "summary": "Retrieve and read primary literature; assess and narrow the contribution before manuscript drafting.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "sources",
+        "protocol": "hundred-artifacts.v1",
+        "run_id": "hundred-20260925-free-02",
+        "stage": "sources-01"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0db47-fd41-7fb3-acee-623f17c3d7c4"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-5814807106fa472882b0f5203749387b",
+          "path": "research/campaigns/hundred-20260925/free-02/question.md",
+          "role": "input",
+          "sha256": "a669aa4d227213f4c98f074b768f89758a55da1a4730281ead129c9d065860a8"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources.md",
+          "role": "input",
+          "sha256": "40a77de4f03bfabab53581c36a576ad8d15c3eeeb335633c7a15615fd11e143a"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/source-manifest.json",
+          "role": "input",
+          "sha256": "0d4c6ae8f6d8286bee0d060fd0ef448df159c293418f1e8daed0dcc299b85af0"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/selection.md",
+          "role": "input",
+          "sha256": "c4768e381c7a70a659ca40fc0aa16e4fcf58e8270766cf408d8cf409bb170a81"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/novelty-gate.json",
+          "role": "input",
+          "sha256": "f4e487f828543777f3fb2482a29f0532095dd67d13efad074a0b408074371ad0"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/daughety-reinganum-2008.pdf",
+          "role": "input",
+          "sha256": "91d9f0a78735c2ff70ed0310e0bc082d76fd19a392279aa4ee0737395d993657"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/daughety-reinganum-2008.read-excerpts.txt",
+          "role": "input",
+          "sha256": "c2af9c51774604e7d56fee4f1bb59c281ff58a330de9cd941c6c9c4c7b241443"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/daughety-reinganum-2008.txt",
+          "role": "input",
+          "sha256": "6d1ea60b22d250c1d38432713a2668e219c1128e2fae23c1f3b3b0c7dd20abb2"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/moore-martin-2020.pdf",
+          "role": "input",
+          "sha256": "e00145a99c7aa31a54c2073783511ce7e0dd9b1c4eb7f7b2d881df8c11bb6073"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/moore-martin-2020.read-excerpts.txt",
+          "role": "input",
+          "sha256": "c33f7329d313651749138415151a9d20f79554dd721a9f779772774843075b5c"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/moore-martin-2020.txt",
+          "role": "input",
+          "sha256": "92a463738a5abc0ef49076b6deaee7ebbe96762a94240096609aaeb4caca9ca4"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/nissenbaum-2004.pdf",
+          "role": "input",
+          "sha256": "91efc39523f9f77fa225a06ff6e68c5b9371becbaedd0fdece9f1d4fdf0649aa"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/nissenbaum-2004.read-excerpts.txt",
+          "role": "input",
+          "sha256": "7072e855957328921fc79d409762336d2156943bab6457f08213195c54a4b94f"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/nissenbaum-2004.txt",
+          "role": "input",
+          "sha256": "17d0211370b7f105c189cbe0d91a65bd715ac2f508bf98babf3a6858206ea00a"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/open01.json",
+          "role": "input",
+          "sha256": "ea4495ad30e822649a1a3c9103039b53aeb6f7351b085ac20d819779db7bb048"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/open02.json",
+          "role": "input",
+          "sha256": "91d85b1bb7c442c9f3cf3509997fe8c81164db619bdc36d5969bab0f0e772a42"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/pasquale-2021.html",
+          "role": "input",
+          "sha256": "bc558e4d0873996c5430dcf59aa87cb2cbc445a4653fc80d3b4efb7d67266d75"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/pasquale-2021.read-excerpts.txt",
+          "role": "input",
+          "sha256": "cc4276aa8ad8de47219638bf470848fe089bdd3ef76673a997971f294641d392"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/pasquale-2021.txt",
+          "role": "input",
+          "sha256": "82da5327fd6cda38c1fe128eec42da6a5a43ae88870fdd5b9e56c800864750eb"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/peppet-colorado.html",
+          "role": "input",
+          "sha256": "d92165477b469ff9ad78b8ca2df346d118ee9024372d03c23bc18d454672d568"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/peppet-page.html",
+          "role": "input",
+          "sha256": "f745afecae2f9843d22f19e9bb824be344fe13e4c4a62e6ae6baa59b3bad1199"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-01.json",
+          "role": "input",
+          "sha256": "79860402e6f31feab8033c3cf3b51efa938be35fb7e200fa0c53e1edaf83962a"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-02.json",
+          "role": "input",
+          "sha256": "0d164594a113db2c4c850eae85ab22d35d67b07dd30b6ebeb267567c6804b065"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-03.json",
+          "role": "input",
+          "sha256": "32c0a923c113494839028a82ea69f04cc2bcd86e4fd304059d5e3541a5addba7"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-04.json",
+          "role": "input",
+          "sha256": "d71580c3c52c04adaa0fb3093a9553b6d8a177723ba79915a89027469d515470"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search01.json",
+          "role": "input",
+          "sha256": "d98622d1163f55107c81435edd3e7a89db6815594e8db2ae32501e47783978ec"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search02.json",
+          "role": "input",
+          "sha256": "3fa097f4ef7c31c87a26c2e367ceb572f43fd1ef1977d37f0e1a488f85f8e548"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search03.json",
+          "role": "input",
+          "sha256": "7e97a220302787549ad40a220e89b7ba0a0516634fa53d745a45f53c0a3d6360"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search04.json",
+          "role": "input",
+          "sha256": "a9afa0ff07a307a33f0988b21ae005aec56da9cb5926584cd96092f22e9d6954"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search05.json",
+          "role": "input",
+          "sha256": "0464a4d2ad14fef5b75177b8ad98f0c90626a8142696edffdb0f73b2a3417970"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search06.json",
+          "role": "input",
+          "sha256": "dbabab051334034a05a8ba63e969ff284af4911aaf79769812b57ff1c5056388"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search07.json",
+          "role": "input",
+          "sha256": "d3f6a60ccb20582e122e7d14ccdf9a803107a0b41d9fb39c832377138f82fe6f"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search08.json",
+          "role": "input",
+          "sha256": "6606e7dcedc3378ac61d41bfdc2c61823a397ee266a447dada4aed6ea6db8dbb"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-00.json",
+          "role": "input",
+          "sha256": "5e430293e01c8b536d9cf4a720ca2a5e32815e41a8e9607f51ba95e2dbbd4aef"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/draft-001.md",
+          "role": "output",
+          "sha256": "c1d191e47d1ee519525ff424f6d83d4099a19ae528ad0e2d0826a31863085349"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/draft-001.word-count.json",
+          "role": "output",
+          "sha256": "0589fd8ff94184246da567f7848215c77591c8779a7dd093b8037f19634a65aa"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "collector-e9c8e2a1b88ddbce008773b89b33cf0d",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "ultra"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-900c6d0929894b1484a56eb23a0fdd1a",
+      "evidence": [
+        "event-fcd43c9e57574f6f96d4885c44666b48",
+        "event-7c4345b221ab4465a33b84ceb7025aaa",
+        "collector-e9c8e2a1b88ddbce008773b89b33cf0d"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:c4b043a6dcf88ff61a07311dea12104a44af47cf",
+      "kind": "draft",
+      "occurred_at": "2026-09-26T01:33:34.367Z",
+      "parents": [
+        "hundred:fc521d774e36d63134f7298b3b42b1784f3b1bcc",
+        "hundred:7db9d7e721618158ccf201b36b6f70368723109c"
+      ],
+      "recorded_at": "2026-09-26T01:36:01.943525+00:00",
+      "summary": "Write complete English argument on optional disclosure and protected allocation chances after archived bounded source and novelty gate.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "draft",
+        "protocol": "hundred-artifacts.v1",
+        "run_id": "hundred-20260925-free-02",
+        "stage": "draft-01"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0db47-fd41-7fb3-acee-623f17c3d7c4"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-fcd43c9e57574f6f96d4885c44666b48",
+          "path": "research/campaigns/hundred-20260925/free-02/draft-001.md",
+          "role": "input",
+          "sha256": "c1d191e47d1ee519525ff424f6d83d4099a19ae528ad0e2d0826a31863085349"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources.md",
+          "role": "input",
+          "sha256": "40a77de4f03bfabab53581c36a576ad8d15c3eeeb335633c7a15615fd11e143a"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/novelty-gate.json",
+          "role": "input",
+          "sha256": "f4e487f828543777f3fb2482a29f0532095dd67d13efad074a0b408074371ad0"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/source-manifest.json",
+          "role": "input",
+          "sha256": "0d4c6ae8f6d8286bee0d060fd0ef448df159c293418f1e8daed0dcc299b85af0"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/selection.md",
+          "role": "input",
+          "sha256": "c4768e381c7a70a659ca40fc0aa16e4fcf58e8270766cf408d8cf409bb170a81"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/daughety-reinganum-2008.pdf",
+          "role": "input",
+          "sha256": "91d9f0a78735c2ff70ed0310e0bc082d76fd19a392279aa4ee0737395d993657"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/daughety-reinganum-2008.read-excerpts.txt",
+          "role": "input",
+          "sha256": "c2af9c51774604e7d56fee4f1bb59c281ff58a330de9cd941c6c9c4c7b241443"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/daughety-reinganum-2008.txt",
+          "role": "input",
+          "sha256": "6d1ea60b22d250c1d38432713a2668e219c1128e2fae23c1f3b3b0c7dd20abb2"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/moore-martin-2020.pdf",
+          "role": "input",
+          "sha256": "e00145a99c7aa31a54c2073783511ce7e0dd9b1c4eb7f7b2d881df8c11bb6073"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/moore-martin-2020.read-excerpts.txt",
+          "role": "input",
+          "sha256": "c33f7329d313651749138415151a9d20f79554dd721a9f779772774843075b5c"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/moore-martin-2020.txt",
+          "role": "input",
+          "sha256": "92a463738a5abc0ef49076b6deaee7ebbe96762a94240096609aaeb4caca9ca4"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/nissenbaum-2004.pdf",
+          "role": "input",
+          "sha256": "91efc39523f9f77fa225a06ff6e68c5b9371becbaedd0fdece9f1d4fdf0649aa"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/nissenbaum-2004.read-excerpts.txt",
+          "role": "input",
+          "sha256": "7072e855957328921fc79d409762336d2156943bab6457f08213195c54a4b94f"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/nissenbaum-2004.txt",
+          "role": "input",
+          "sha256": "17d0211370b7f105c189cbe0d91a65bd715ac2f508bf98babf3a6858206ea00a"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/open01.json",
+          "role": "input",
+          "sha256": "ea4495ad30e822649a1a3c9103039b53aeb6f7351b085ac20d819779db7bb048"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/open02.json",
+          "role": "input",
+          "sha256": "91d85b1bb7c442c9f3cf3509997fe8c81164db619bdc36d5969bab0f0e772a42"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/pasquale-2021.html",
+          "role": "input",
+          "sha256": "bc558e4d0873996c5430dcf59aa87cb2cbc445a4653fc80d3b4efb7d67266d75"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/pasquale-2021.read-excerpts.txt",
+          "role": "input",
+          "sha256": "cc4276aa8ad8de47219638bf470848fe089bdd3ef76673a997971f294641d392"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/pasquale-2021.txt",
+          "role": "input",
+          "sha256": "82da5327fd6cda38c1fe128eec42da6a5a43ae88870fdd5b9e56c800864750eb"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/peppet-colorado.html",
+          "role": "input",
+          "sha256": "d92165477b469ff9ad78b8ca2df346d118ee9024372d03c23bc18d454672d568"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/peppet-page.html",
+          "role": "input",
+          "sha256": "f745afecae2f9843d22f19e9bb824be344fe13e4c4a62e6ae6baa59b3bad1199"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-01.json",
+          "role": "input",
+          "sha256": "79860402e6f31feab8033c3cf3b51efa938be35fb7e200fa0c53e1edaf83962a"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-02.json",
+          "role": "input",
+          "sha256": "0d164594a113db2c4c850eae85ab22d35d67b07dd30b6ebeb267567c6804b065"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-03.json",
+          "role": "input",
+          "sha256": "32c0a923c113494839028a82ea69f04cc2bcd86e4fd304059d5e3541a5addba7"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-04.json",
+          "role": "input",
+          "sha256": "d71580c3c52c04adaa0fb3093a9553b6d8a177723ba79915a89027469d515470"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search01.json",
+          "role": "input",
+          "sha256": "d98622d1163f55107c81435edd3e7a89db6815594e8db2ae32501e47783978ec"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search02.json",
+          "role": "input",
+          "sha256": "3fa097f4ef7c31c87a26c2e367ceb572f43fd1ef1977d37f0e1a488f85f8e548"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search03.json",
+          "role": "input",
+          "sha256": "7e97a220302787549ad40a220e89b7ba0a0516634fa53d745a45f53c0a3d6360"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search04.json",
+          "role": "input",
+          "sha256": "a9afa0ff07a307a33f0988b21ae005aec56da9cb5926584cd96092f22e9d6954"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search05.json",
+          "role": "input",
+          "sha256": "0464a4d2ad14fef5b75177b8ad98f0c90626a8142696edffdb0f73b2a3417970"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search06.json",
+          "role": "input",
+          "sha256": "dbabab051334034a05a8ba63e969ff284af4911aaf79769812b57ff1c5056388"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search07.json",
+          "role": "input",
+          "sha256": "d3f6a60ccb20582e122e7d14ccdf9a803107a0b41d9fb39c832377138f82fe6f"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search08.json",
+          "role": "input",
+          "sha256": "6606e7dcedc3378ac61d41bfdc2c61823a397ee266a447dada4aed6ea6db8dbb"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-00.json",
+          "role": "input",
+          "sha256": "5e430293e01c8b536d9cf4a720ca2a5e32815e41a8e9607f51ba95e2dbbd4aef"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/self-review.md",
+          "role": "output",
+          "sha256": "30be1fb19728128d28ae4c9a9d8f44bfddfe511d7146e5c516e75f33e9e6af57"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-cdf719e97dea4468ac477a0b43ca7860",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "ultra"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-fd433b49e2ec448daee490657090b899",
+      "evidence": [
+        "event-fabdc6a2a1454b5284cff81c2c7c1b40",
+        "event-15edace10dfe4a76aa238dc6308043b8",
+        "event-cdf719e97dea4468ac477a0b43ca7860"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:4567b0fe7e5afad14571b79f42811a0d32e7177e",
+      "kind": "critique",
+      "occurred_at": "2026-09-26T01:38:51.854Z",
+      "parents": [
+        "hundred:c4b043a6dcf88ff61a07311dea12104a44af47cf",
+        "hundred:7db9d7e721618158ccf201b36b6f70368723109c"
+      ],
+      "recorded_at": "2026-09-26T01:39:54.184008+00:00",
+      "summary": "Same-author self-examination only: test baseline justification, scarcity inference, scope and nearest-work accuracy; no independent critique.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "other",
+        "protocol": "hundred-artifacts.v1",
+        "run_id": "hundred-20260925-free-02",
+        "stage": "self-review-01"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0db47-fd41-7fb3-acee-623f17c3d7c4"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-fabdc6a2a1454b5284cff81c2c7c1b40",
+          "path": "research/campaigns/hundred-20260925/free-02/self-review.md",
+          "role": "input",
+          "sha256": "30be1fb19728128d28ae4c9a9d8f44bfddfe511d7146e5c516e75f33e9e6af57"
+        },
+        {
+          "from_event_id": "event-fcd43c9e57574f6f96d4885c44666b48",
+          "path": "research/campaigns/hundred-20260925/free-02/draft-001.md",
+          "role": "input",
+          "sha256": "c1d191e47d1ee519525ff424f6d83d4099a19ae528ad0e2d0826a31863085349"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources.md",
+          "role": "input",
+          "sha256": "40a77de4f03bfabab53581c36a576ad8d15c3eeeb335633c7a15615fd11e143a"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/novelty-gate.json",
+          "role": "input",
+          "sha256": "f4e487f828543777f3fb2482a29f0532095dd67d13efad074a0b408074371ad0"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/source-manifest.json",
+          "role": "input",
+          "sha256": "0d4c6ae8f6d8286bee0d060fd0ef448df159c293418f1e8daed0dcc299b85af0"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/selection.md",
+          "role": "input",
+          "sha256": "c4768e381c7a70a659ca40fc0aa16e4fcf58e8270766cf408d8cf409bb170a81"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/daughety-reinganum-2008.pdf",
+          "role": "input",
+          "sha256": "91d9f0a78735c2ff70ed0310e0bc082d76fd19a392279aa4ee0737395d993657"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/daughety-reinganum-2008.read-excerpts.txt",
+          "role": "input",
+          "sha256": "c2af9c51774604e7d56fee4f1bb59c281ff58a330de9cd941c6c9c4c7b241443"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/daughety-reinganum-2008.txt",
+          "role": "input",
+          "sha256": "6d1ea60b22d250c1d38432713a2668e219c1128e2fae23c1f3b3b0c7dd20abb2"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/moore-martin-2020.pdf",
+          "role": "input",
+          "sha256": "e00145a99c7aa31a54c2073783511ce7e0dd9b1c4eb7f7b2d881df8c11bb6073"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/moore-martin-2020.read-excerpts.txt",
+          "role": "input",
+          "sha256": "c33f7329d313651749138415151a9d20f79554dd721a9f779772774843075b5c"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/moore-martin-2020.txt",
+          "role": "input",
+          "sha256": "92a463738a5abc0ef49076b6deaee7ebbe96762a94240096609aaeb4caca9ca4"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/nissenbaum-2004.pdf",
+          "role": "input",
+          "sha256": "91efc39523f9f77fa225a06ff6e68c5b9371becbaedd0fdece9f1d4fdf0649aa"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/nissenbaum-2004.read-excerpts.txt",
+          "role": "input",
+          "sha256": "7072e855957328921fc79d409762336d2156943bab6457f08213195c54a4b94f"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/nissenbaum-2004.txt",
+          "role": "input",
+          "sha256": "17d0211370b7f105c189cbe0d91a65bd715ac2f508bf98babf3a6858206ea00a"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/open01.json",
+          "role": "input",
+          "sha256": "ea4495ad30e822649a1a3c9103039b53aeb6f7351b085ac20d819779db7bb048"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/open02.json",
+          "role": "input",
+          "sha256": "91d85b1bb7c442c9f3cf3509997fe8c81164db619bdc36d5969bab0f0e772a42"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/pasquale-2021.html",
+          "role": "input",
+          "sha256": "bc558e4d0873996c5430dcf59aa87cb2cbc445a4653fc80d3b4efb7d67266d75"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/pasquale-2021.read-excerpts.txt",
+          "role": "input",
+          "sha256": "cc4276aa8ad8de47219638bf470848fe089bdd3ef76673a997971f294641d392"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/pasquale-2021.txt",
+          "role": "input",
+          "sha256": "82da5327fd6cda38c1fe128eec42da6a5a43ae88870fdd5b9e56c800864750eb"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/peppet-colorado.html",
+          "role": "input",
+          "sha256": "d92165477b469ff9ad78b8ca2df346d118ee9024372d03c23bc18d454672d568"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/peppet-page.html",
+          "role": "input",
+          "sha256": "f745afecae2f9843d22f19e9bb824be344fe13e4c4a62e6ae6baa59b3bad1199"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-01.json",
+          "role": "input",
+          "sha256": "79860402e6f31feab8033c3cf3b51efa938be35fb7e200fa0c53e1edaf83962a"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-02.json",
+          "role": "input",
+          "sha256": "0d164594a113db2c4c850eae85ab22d35d67b07dd30b6ebeb267567c6804b065"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-03.json",
+          "role": "input",
+          "sha256": "32c0a923c113494839028a82ea69f04cc2bcd86e4fd304059d5e3541a5addba7"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-04.json",
+          "role": "input",
+          "sha256": "d71580c3c52c04adaa0fb3093a9553b6d8a177723ba79915a89027469d515470"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search01.json",
+          "role": "input",
+          "sha256": "d98622d1163f55107c81435edd3e7a89db6815594e8db2ae32501e47783978ec"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search02.json",
+          "role": "input",
+          "sha256": "3fa097f4ef7c31c87a26c2e367ceb572f43fd1ef1977d37f0e1a488f85f8e548"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search03.json",
+          "role": "input",
+          "sha256": "7e97a220302787549ad40a220e89b7ba0a0516634fa53d745a45f53c0a3d6360"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search04.json",
+          "role": "input",
+          "sha256": "a9afa0ff07a307a33f0988b21ae005aec56da9cb5926584cd96092f22e9d6954"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search05.json",
+          "role": "input",
+          "sha256": "0464a4d2ad14fef5b75177b8ad98f0c90626a8142696edffdb0f73b2a3417970"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search06.json",
+          "role": "input",
+          "sha256": "dbabab051334034a05a8ba63e969ff284af4911aaf79769812b57ff1c5056388"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search07.json",
+          "role": "input",
+          "sha256": "d3f6a60ccb20582e122e7d14ccdf9a803107a0b41d9fb39c832377138f82fe6f"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/search08.json",
+          "role": "input",
+          "sha256": "6606e7dcedc3378ac61d41bfdc2c61823a397ee266a447dada4aed6ea6db8dbb"
+        },
+        {
+          "from_event_id": "event-3213a4fa87a64c45a9197fef8390869e",
+          "path": "research/campaigns/hundred-20260925/free-02/sources/retrieval-00.json",
+          "role": "input",
+          "sha256": "5e430293e01c8b536d9cf4a720ca2a5e32815e41a8e9607f51ba95e2dbbd4aef"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/final-decision.md",
+          "role": "output",
+          "sha256": "f0b7c948151aaf99ea34df3ee1daecbc617e78a62c42953e82f42976ae4eadcc"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/revision-001.md",
+          "role": "output",
+          "sha256": "11b983431d03c7256f921790f60da2ad2391bb52552dfd031afc6af9abefca5a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/word-count.json",
+          "role": "output",
+          "sha256": "bad30f02059214c2ae1c4332b5abda72fec26e139f684935a22cfe28a70af48e"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/HISTORY.md",
+          "role": "output",
+          "sha256": "dc9316f65a750c7bceb5cbb77aed38da27d479e2de62b227ee51377809e099bf"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/model-observation.json",
+          "role": "output",
+          "sha256": "7e9c169c7955f178bcd65be3cbab94d18862621ebd26e20a49dd3dd5fd437d0b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/checkpoint-summary.json",
+          "role": "output",
+          "sha256": "f442201039fa08081551a7028354a77fd57c71f6a86713c8204fd731797f3735"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/revise-final.py",
+          "role": "output",
+          "sha256": "ba3ef5868160f0d4d25df9269d5180ab1366f7272cf0e4774a9253ba2c8891d9"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/record-review-prepare-final.py",
+          "role": "output",
+          "sha256": "50a13c4b6fa57dcab17a6e3d624454e7341a0e0fafe9ccafe1db57b35565f4be"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/free-02/final.md",
+          "role": "output",
+          "sha256": "11b983431d03c7256f921790f60da2ad2391bb52552dfd031afc6af9abefca5a"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-4fa1a742c2cb43359a0245559ad00c7d",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "ultra"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-066e8b6580464953a45dd57ed3f9bacc",
+      "evidence": [
+        "event-f8ade01041ed474e85946a41a82243f9",
+        "event-474ccec31964417e8f9a033602fe510b",
+        "event-4fa1a742c2cb43359a0245559ad00c7d"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:b11d5a21d7664e7453cdcf54e586cf7ebbd2a2f4",
+      "kind": "final",
+      "occurred_at": "2026-09-26T01:43:07.426Z",
+      "parents": [
+        "hundred:4567b0fe7e5afad14571b79f42811a0d32e7177e",
+        "hundred:c4b043a6dcf88ff61a07311dea12104a44af47cf",
+        "hundred:7db9d7e721618158ccf201b36b6f70368723109c"
+      ],
+      "recorded_at": "2026-09-26T01:43:33.986447+00:00",
+      "summary": "Same-author final revision after archived self-review; clarify protected baseline, partial floors, corrective disclosure and limits; no independent critic under bound exemption.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "final",
+        "protocol": "hundred-artifacts.v1",
+        "run_id": "hundred-20260925-free-02",
+        "stage": "final-01"
+      }
+    },
+    {
+      "actor": "UNKNOWN",
+      "artifacts": [
+        {
+          "path": "runs/midterm-20261007/blind/E036.md",
+          "role": "sealed_parent_manuscript",
+          "sha256": "11b983431d03c7256f921790f60da2ad2391bb52552dfd031afc6af9abefca5a"
+        }
+      ],
+      "configuration": {
+        "observed": "UNKNOWN",
+        "requested": "UNKNOWN"
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-ba28f7df3f6d4425a60cbd5ad75e6e71",
+      "evidence": [
+        "event-e67fca8de3b64b77994615290aa51af6"
+      ],
+      "gaps": [
+        "Blinded artifact bridge is not a replacement for private production ancestry."
+      ],
+      "id": "midterm-20261007:E036:sealed-blind-snapshot",
+      "kind": "legacy_inventory",
+      "occurred_at": "UNKNOWN",
+      "parents": [
+        "hundred:b11d5a21d7664e7453cdcf54e586cf7ebbd2a2f4"
+      ],
+      "recorded_at": "2026-10-09T07:11:31.895611+00:00",
+      "summary": "Exact existing blinded manuscript snapshot bridge; not a new essay or invented production origin. Linked to the exact existing original lineage entry; older production history and IDs remain unchanged.",
+      "workflow": "midterm-revision-trial"
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a11f6b-c71d-7c01-a33f-e1bb411305e1"
+      },
+      "artifacts": [
+        {
+          "path": "runs/midterm-20261007/revision-trial-20261008/manuscripts/E036-R1-midterm-20261008.md",
+          "role": "revised_manuscript",
+          "sha256": "2ebe89768d6b283d031c892493b45ac522a040101cc72b981e1f28566e732e75"
+        }
+      ],
+      "configuration": {
+        "observed": [
+          {
+            "effort": "high",
+            "line": 8,
+            "model": "gpt-6-astra"
+          }
+        ],
+        "requested": {
+          "effort": "high",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-738dce9eacf0493c979027c75cce3a22",
+      "evidence": [
+        "event-3b2112d0a5834be4a32a9ba526cfa3fc"
+      ],
+      "gaps": [
+        "Model label is observed configuration, not backend attestation; no new external primary-source verification."
+      ],
+      "id": "midterm-20261007:E036:R1-20261008",
+      "kind": "revision",
+      "occurred_at": "2026-10-09T06:52:11.280179+00:00",
+      "parents": [
+        "midterm-20261007:E036:sealed-blind-snapshot"
+      ],
+      "recorded_at": "2026-10-09T07:11:31.967297+00:00",
+      "summary": "One fresh AI revision from exact sealed parent and precommitted AI-origin repair questions. Human role: process authorization and selection only.",
+      "workflow": "midterm-revision-trial"
+    },
+    {
+      "actor": {
+        "coordinator_session": "01a11f5e-8d08-7a01-9af4-d2774df3820c",
+        "role": "AI",
+        "root_editor_session": "01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0"
+      },
+      "artifacts": [
+        {
+          "path": "runs/midterm-20261007/revision-trial-20261008/comparison-copies/E036-R1.md",
+          "role": "comparison_display_manuscript",
+          "sha256": "657500614bc4836ba88baecc27661d1b4a90c00ae51888fc766e5c9e9c231e33"
+        }
+      ],
+      "configuration": {
+        "observed": "UNKNOWN",
+        "requested": "UNKNOWN"
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-3f3ac5578755475e995fea62632f0ff9",
+      "evidence": [
+        "event-d47df319f3114cdbb21f9cd7ad8685df"
+      ],
+      "gaps": [
+        "No new author model call; residual stylistic cues may still reveal chronology."
+      ],
+      "id": "midterm-20261007:E036:R1-display-v1-20261008",
+      "kind": "revision",
+      "occurred_at": "UNKNOWN",
+      "parents": [
+        "midterm-20261007:E036:R1-20261008"
+      ],
+      "recorded_at": "2026-10-09T07:11:32.036806+00:00",
+      "summary": "AI editorial display transformation only: remove explicit version/packet provenance labels; preserve arguments, bibliography and source uncertainty. Raw R1 remains unchanged.",
+      "workflow": "midterm-revision-trial-editorial-display"
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a11f76-7e5e-77f0-b814-567b8e1586d7"
+      },
+      "artifacts": [
+        {
+          "path": "runs/midterm-20261007/revision-trial-20261008/results/E036-compare-1.json",
+          "role": "blind_comparison",
+          "sha256": "d43b1b793d583fdc0c7cb7b8bb84e9d74e1e75292b802673cbb75650d3d723c8"
+        }
+      ],
+      "assessment": {
+        "judge": {
+          "observed": [
+            {
+              "effort": "high",
+              "line": 8,
+              "model": "gpt-6-astra"
+            }
+          ],
+          "requested": {
+            "effort": "high",
+            "model": "gpt-6-astra"
+          }
+        },
+        "order": [
+          "midterm-20261007:E036:sealed-blind-snapshot",
+          "midterm-20261007:E036:R1-display-v1-20261008"
+        ],
+        "prompt_sha256": "f6fb48fbc26121476416e293fff55d46705ccf30d80372d7ce69aa19ccf177b3",
+        "rationale": "B has the stronger overall argument, by a modest margin, because it better specifies what is owed and which probability changes violate that entitlement. A’s §3 expressly relies on the further premise that applicants deserve the specified opportunity without intimate access. Its proportionality and participation arguments support an evidential restriction, but leave the extent of the associated chance protection underdetermined. B’s §2 supplies a distinct distributive basis for the full share: equal claims among eligible applicants to an opportunity for development. Those premises remain contestable, but their role and supporting reasons are clearer.\n\nThe second decisive advantage is B’s §3 distinction between an uncorrected prospect, the prospect owed after correction, and an additional competitive bonus. A already addresses corrective evidence in §5, so B receives no credit for discovering that objection. Its advantage is working through the mixed-evidence case and explaining precisely why a permissible correction can reduce others’ chances.\n\nThis preference carries a significance cost. A reaches more broadly and presents the central displacement problem with greater economy. B’s lottery rule independently excludes above-threshold merit, making its privacy-specific conclusion less ambitious. Nevertheless, B retains a useful distinction between correction and bonus while giving a more determinate account of the protected baseline. That improvement outweighs its narrower reach. Both arguments are conditionally valid; neither the shared arithmetic nor caution about scope decides the comparison by itself.",
+        "round": "midterm-revision-trial-20261008",
+        "rubric_sha256": "f30f88a1452d38c9418b3bbd54c258b6d8a2e6232c92a8e654baae72ba24ebce",
+        "verdict": "B",
+        "versions": [
+          {
+            "entry_id": "midterm-20261007:E036:sealed-blind-snapshot",
+            "sha256": "11b983431d03c7256f921790f60da2ad2391bb52552dfd031afc6af9abefca5a"
+          },
+          {
+            "entry_id": "midterm-20261007:E036:R1-display-v1-20261008",
+            "sha256": "657500614bc4836ba88baecc27661d1b4a90c00ae51888fc766e5c9e9c231e33"
+          }
+        ]
+      },
+      "configuration": {
+        "observed": [
+          {
+            "effort": "high",
+            "line": 8,
+            "model": "gpt-6-astra"
+          }
+        ],
+        "requested": {
+          "effort": "high",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-07ab63e7550d4f76a4b080fb3953f6b3",
+      "evidence": [
+        "event-bb2047d718c5469f97efd43c7165d8ec"
+      ],
+      "gaps": [
+        "Two orders are a small process test, not robust bias measurement."
+      ],
+      "id": "midterm-20261007:E036:comparison:codex:1",
+      "kind": "evaluation",
+      "occurred_at": "2026-10-09T07:01:59.695776+00:00",
+      "parents": [
+        "midterm-20261007:E036:sealed-blind-snapshot",
+        "midterm-20261007:E036:R1-display-v1-20261008"
+      ],
+      "recorded_at": "2026-10-09T07:11:32.108213+00:00",
+      "summary": "Fresh blind pair comparison; exact order disclosed in private lineage only.",
+      "workflow": "midterm-revision-trial"
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a11f76-8f24-7693-b083-7bf5e6259e49"
+      },
+      "artifacts": [
+        {
+          "path": "runs/midterm-20261007/revision-trial-20261008/results/E036-compare-2.json",
+          "role": "blind_comparison",
+          "sha256": "bc3bae8dbd98ca553ae383be90b0b1dfd236539f4b640656dd83f17c7ff3c3e0"
+        }
+      ],
+      "assessment": {
+        "judge": {
+          "observed": [
+            {
+              "effort": "high",
+              "line": 8,
+              "model": "gpt-6-astra"
+            }
+          ],
+          "requested": {
+            "effort": "high",
+            "model": "gpt-6-astra"
+          }
+        },
+        "order": [
+          "midterm-20261007:E036:R1-display-v1-20261008",
+          "midterm-20261007:E036:sealed-blind-snapshot"
+        ],
+        "prompt_sha256": "968fbe9630e89ce45261f07d435f387ae25e506b2a4eaae757d2641fcdc6315f",
+        "rationale": "A is stronger because it better connects a defensible allocation premise to a determinate entitlement and then explains which corrections legitimately change that entitlement. The decisive comparison is A §2’s explicit derivation from equal claims and exhausted capacity against B §3’s additional premise that the “specified opportunity” deserves preservation. B acknowledges the missing inference; it does not fully supply it. A §3 also develops the difficult correction issue beyond B §5’s caregiving example, including cases where fair reassessment warrants competitive superiority and cases where no clean separation is available.\n\nThis preference is not a reward for restriction alone. A loses significance by concentrating on a setting where comparative bonuses are already excluded, while B raises a broader and potentially more consequential challenge to evidential competition. Both share sound conditional arithmetic and the access/use/third-party distinction. Nevertheless, A’s correction analysis supplies enough substantive value to outweigh its narrower reach. Its advantage is a better-supported application and clearer handling of conflicting claims, rather than greater caution, length, or mathematical sophistication.",
+        "round": "midterm-revision-trial-20261008",
+        "rubric_sha256": "f30f88a1452d38c9418b3bbd54c258b6d8a2e6232c92a8e654baae72ba24ebce",
+        "verdict": "A",
+        "versions": [
+          {
+            "entry_id": "midterm-20261007:E036:R1-display-v1-20261008",
+            "sha256": "657500614bc4836ba88baecc27661d1b4a90c00ae51888fc766e5c9e9c231e33"
+          },
+          {
+            "entry_id": "midterm-20261007:E036:sealed-blind-snapshot",
+            "sha256": "11b983431d03c7256f921790f60da2ad2391bb52552dfd031afc6af9abefca5a"
+          }
+        ]
+      },
+      "configuration": {
+        "observed": [
+          {
+            "effort": "high",
+            "line": 8,
+            "model": "gpt-6-astra"
+          }
+        ],
+        "requested": {
+          "effort": "high",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-2c8d71b151e54feb9c84edda25c80354",
+      "evidence": [
+        "event-bb2047d718c5469f97efd43c7165d8ec"
+      ],
+      "gaps": [
+        "Two orders are a small process test, not robust bias measurement."
+      ],
+      "id": "midterm-20261007:E036:comparison:codex:2",
+      "kind": "evaluation",
+      "occurred_at": "2026-10-09T07:01:56.700756+00:00",
+      "parents": [
+        "midterm-20261007:E036:sealed-blind-snapshot",
+        "midterm-20261007:E036:R1-display-v1-20261008"
+      ],
+      "recorded_at": "2026-10-09T07:11:32.212830+00:00",
+      "summary": "Fresh blind pair comparison; exact order disclosed in private lineage only.",
+      "workflow": "midterm-revision-trial"
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "6942a6e1-800e-4f3f-9708-68a22bfe7e16"
+      },
+      "artifacts": [
+        {
+          "path": "runs/midterm-20261007/revision-trial-20261008/claude-v2/pair-2/comparison.json",
+          "role": "blind_comparison",
+          "sha256": "504da5ea8c06c31121500126ad65e141232cb7bdcb27a217e0d6e88260e11015"
+        }
+      ],
+      "assessment": {
+        "judge": {
+          "observed": [
+            {
+              "effort": "high",
+              "line": 12,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:00:36.767Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 13,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:00:38.275Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 14,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:00:38.283Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 15,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:00:38.285Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 23,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:00:40.159Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 25,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:00:40.560Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 28,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:00:42.483Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 30,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:00:42.864Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 35,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:01:53.893Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 36,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:01:54.965Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 41,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:01:57.727Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 42,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:02:33.437Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 48,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:02:35.028Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 49,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:02:39.181Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 51,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:02:41.085Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 54,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:02:48.587Z",
+              "version": "2.1.293"
+            },
+            {
+              "effort": "high",
+              "line": 55,
+              "model": "claude-opus-5-5",
+              "timestamp": "2026-10-09T07:02:48.591Z",
+              "version": "2.1.293"
+            }
+          ],
+          "requested": {
+            "effort": "high",
+            "model": "claude-opus-5-5"
+          }
+        },
+        "order": [
+          "midterm-20261007:E036:R1-display-v1-20261008",
+          "midterm-20261007:E036:sealed-blind-snapshot"
+        ],
+        "prompt_sha256": "4e0c7b6aca509aa6b940ed82fbf08f22d7abe07fdc48c271a078592ab8a60ec2",
+        "rationale": "Both manuscripts share the access/assessment/allocation distinction, the single-disclosure case without unravelling, the conservation identity and the stability observation, so those cannot decide between them. The decisive difference is where each locates the protected prospect, and how much the privacy feature of the case then matters. A gains accuracy by grounding the one-third share in an independent equal-claims lottery under which no above-threshold evidence counts 'whatever its evidential source' (A line 63; also lines 11, 53). That makes A's central conclusion nearly independent of privacy and silence. A non-intimate extra work sample would be barred just the same, so the result amounts largely to procedural fidelity plus the point that one party cannot waive another's claims. B takes on the harder and more significant claim: authorised evidence may lower Ben's chance while volunteered intimate evidence may not (B line 43). It identifies the premise this requires and defends it through proportionality and justification to refusers (lines 51–57, 63), with a principled counterfactual baseline (line 61). B's bridge premise and its correction exception remain the weakest points (lines 53, 57, 103). A is clearly better on correction (A lines 59–81) and more transparent about sources (line 135). But B's text gives available replies to its objection, whereas A's reply to its own strongest objection is to concede it. Weighing validity, significance and clarity together, B's conditional thesis keeps more defensible philosophical content. The preference is moderate, not overwhelming.",
+        "round": "midterm-revision-trial-20261008",
+        "rubric_sha256": "f30f88a1452d38c9418b3bbd54c258b6d8a2e6232c92a8e654baae72ba24ebce",
+        "verdict": "B",
+        "versions": [
+          {
+            "entry_id": "midterm-20261007:E036:R1-display-v1-20261008",
+            "sha256": "657500614bc4836ba88baecc27661d1b4a90c00ae51888fc766e5c9e9c231e33"
+          },
+          {
+            "entry_id": "midterm-20261007:E036:sealed-blind-snapshot",
+            "sha256": "11b983431d03c7256f921790f60da2ad2391bb52552dfd031afc6af9abefca5a"
+          }
+        ]
+      },
+      "configuration": {
+        "observed": [
+          {
+            "effort": "high",
+            "line": 12,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:00:36.767Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 13,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:00:38.275Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 14,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:00:38.283Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 15,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:00:38.285Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 23,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:00:40.159Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 25,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:00:40.560Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 28,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:00:42.483Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 30,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:00:42.864Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 35,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:01:53.893Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 36,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:01:54.965Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 41,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:01:57.727Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 42,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:02:33.437Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 48,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:02:35.028Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 49,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:02:39.181Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 51,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:02:41.085Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 54,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:02:48.587Z",
+            "version": "2.1.293"
+          },
+          {
+            "effort": "high",
+            "line": 55,
+            "model": "claude-opus-5-5",
+            "timestamp": "2026-10-09T07:02:48.591Z",
+            "version": "2.1.293"
+          }
+        ],
+        "requested": {
+          "effort": "high",
+          "model": "claude-opus-5-5"
+        }
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-ef2d4c461fe14f86adaa4dea26a41d9d",
+      "evidence": [
+        "event-c12b0e47d8f74d54a8f9748db50c2732"
+      ],
+      "gaps": [
+        "No reversed-order Claude replication; not a causal comparison between providers."
+      ],
+      "id": "midterm-20261007:E036:comparison:claude:1",
+      "kind": "evaluation",
+      "occurred_at": "UNKNOWN",
+      "parents": [
+        "midterm-20261007:E036:sealed-blind-snapshot",
+        "midterm-20261007:E036:R1-display-v1-20261008"
+      ],
+      "recorded_at": "2026-10-09T07:11:32.295628+00:00",
+      "summary": "Additional independent fresh Claude blind comparison; one precommitted order only.",
+      "workflow": "midterm-revision-trial"
+    },
+    {
+      "actor": {
+        "id": "01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0",
+        "provider": "Codex",
+        "role": "AI"
+      },
+      "artifacts": [
+        {
+          "path": "runs/midterm-20261007/closure-20261010/FINAL_DECISION_RU.txt",
+          "role": "final_decision",
+          "sha256": "d33afb6dfce0ca4e37b65f16848a8a91b047347c3b4f033008635befc2b14e71"
+        },
+        {
+          "path": "runs/midterm-20261007/closure-20261010/claude-critic-xhigh/artifacts/critique.md",
+          "role": "separate_C_critique",
+          "sha256": "f99cf9c8581b3c2cfb8c4c51ef2937c1d5f1d38137487b97401eeb46bd80d1f2"
+        },
+        {
+          "path": "runs/midterm-20261007/diagnostics-launch-20261011/A5/REPORT-v1.txt",
+          "role": "A5",
+          "sha256": "d86ada0100031fb756e909e5f6b2c606e05817020e5b54e62b477742265fc9de"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "effort": "high",
+          "model": "gpt-6-astra",
+          "source": "native root turn context line8826; observational"
+        },
+        "requested": "Current root chat setting; latest explicit xhigh instruction concerns Claude C only."
+      },
+      "decision": {
+        "disposition": "RETAIN",
+        "new_manuscript": false,
+        "ranking": "NOT_ESTABLISHED",
+        "working_choice": "original and R1 display; the working version remains undecided"
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-6b32c91a18e448198abcb0579eccf816",
+      "evidence": [
+        "event-192c6dfeaf0c425782fc9bbd89f3b00f",
+        "event-f554e700079e456a962bc80aeebfce81",
+        "event-a4046bda6dda414fb8cc6a1d8dbffca2"
+      ],
+      "gaps": [
+        "Bounded diagnostics and literature; novelty and actual-judge fidelity not certified.",
+        "No new manuscript created; E036 dissent and all prior records preserved."
+      ],
+      "id": "midterm-closure-20261011:E036:selection-v1",
+      "kind": "selection",
+      "occurred_at": "2026-10-12T02:33:55.564242+00:00",
+      "parents": [
+        "midterm-20261007:E036:sealed-blind-snapshot",
+        "midterm-20261007:E036:R1-display-v1-20261008"
+      ],
+      "recorded_at": "2026-10-12T02:34:18.316681+00:00",
+      "summary": "E036: original and R1 display; the working version remains undecided. The queue is not a ranking; historical versions are preserved.",
+      "workflow": "A5 and three B2 accepted, proposal, separate Claude Opus5.5/xhigh critique, root final decision. Selection event only."
+    },
+    {
+      "actor": {
+        "id": "01a13364-d1e5-7e03-b4e3-14167df1f7bb",
+        "provider": "Codex",
+        "role": "AI"
+      },
+      "artifacts": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/workers/A/CLAIM_SOURCE_MAP.json",
+          "role": "literature_CLAIM_SOURCE_MAP.json",
+          "sha256": "5f7a293d0db925a85aaea3f9cc8bad824170614fc12db8e9f14869a453c4738d"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/workers/A/OPEN_QUESTIONS.json",
+          "role": "literature_OPEN_QUESTIONS.json",
+          "sha256": "bd9c552a1a9ef29ccd3781405603a47580e448b5b591cdb9ab3c88f054fc921d"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/workers/A/REPORT_RU.txt",
+          "role": "literature_REPORT_RU.txt",
+          "sha256": "5f5214d56ac1d369ce9764d7b45cfcc94ec3bb517bc1c33e7343fa3c2e8a0cd7"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/workers/A/SOURCES.json",
+          "role": "literature_SOURCES.json",
+          "sha256": "c67272b5867598a802abb059d66ab4191ea5de30535ed7e212f4cd397a9e5053"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/workers/A/TASK.txt",
+          "role": "literature_TASK.txt",
+          "sha256": "7b267a898a49ba92b1858bfc96f087e9e45bec6e8c229e3c2ccc6f1e88d17f6f"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/workers/A/output-manifest.json",
+          "role": "literature_output-manifest.json",
+          "sha256": "b9e0580139b9c5b1c8c1734d716e151cf2640133535132ceddc15b2454ef111d"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/inputs/E036-original.md",
+          "role": "assessed_original",
+          "sha256": "11b983431d03c7256f921790f60da2ad2391bb52552dfd031afc6af9abefca5a"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/inputs/E036-R1.md",
+          "role": "assessed_R1-display",
+          "sha256": "657500614bc4836ba88baecc27661d1b4a90c00ae51888fc766e5c9e9c231e33"
+        }
+      ],
+      "configuration": {
+        "observed": [
+          {
+            "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+            "source": "native-turn-context-observation",
+            "source_line": 232,
+            "status": "known",
+            "value": {
+              "model": "gpt-6-astra",
+              "reasoning_effort": "max"
+            }
+          }
+        ],
+        "requested": {
+          "effort": "max",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-66c8dcd0dfec4c769c6536b0870e5242",
+      "evidence": [
+        "event-70915b0de2724975aa9bbafe1392d872",
+        "event-7d7aacae4e834a15be815912f6e1b9de"
+      ],
+      "gaps": [
+        "Bounded primary-source audit, not novelty or truth certification.",
+        "Separate same-model contexts do not prove independence of biases.",
+        "Exact final visible message and separately archived files, not entire native/provider trace."
+      ],
+      "id": "postmidterm01:E036:A:literature-v1",
+      "kind": "critique",
+      "occurred_at": "2026-10-13T04:14:38.284Z",
+      "parents": [
+        "midterm-closure-20261011:E036:selection-v1",
+        "midterm-20261007:E036:sealed-blind-snapshot",
+        "midterm-20261007:E036:R1-display-v1-20261008"
+      ],
+      "recorded_at": "2026-10-13T04:31:31.355771+00:00",
+      "summary": "External literature route A of E036; no manuscript revision or ranking.",
+      "workflow": {
+        "input_baseline": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/input-manifest.json",
+        "lane": "01-literature",
+        "manuscript_edit": false,
+        "role": "A",
+        "run_id": "postmidterm01-literature-20261012"
+      }
+    },
+    {
+      "actor": {
+        "id": "01a13364-f985-7cb3-86f7-a6cd7f79d9c2",
+        "provider": "Codex",
+        "role": "AI"
+      },
+      "artifacts": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/workers/B/CLAIM_SOURCE_MAP.json",
+          "role": "literature_CLAIM_SOURCE_MAP.json",
+          "sha256": "2c8238e3268cd5fb7916184dd0a2795fd3e203c72cc480472e336c89c4478df8"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/workers/B/OPEN_QUESTIONS.json",
+          "role": "literature_OPEN_QUESTIONS.json",
+          "sha256": "8e19cd115a4909dcc8b96a6ebbc913cf3999053fd6b1f6ec740fbd3bdfbf490d"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/workers/B/REPORT_RU.txt",
+          "role": "literature_REPORT_RU.txt",
+          "sha256": "4f6e18369c55fff304393de0d51438f8d49859d62460d794bbb74aacd2997a00"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/workers/B/SOURCES.json",
+          "role": "literature_SOURCES.json",
+          "sha256": "64dc7186b90598305725a093753bce925318d543ebbef8bfc2942a1efbcec940"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/workers/B/TASK.txt",
+          "role": "literature_TASK.txt",
+          "sha256": "dcf03762b6184c05a4b1df03d03eac47142df70883f397b8e849154752a7459c"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/workers/B/output-manifest.json",
+          "role": "literature_output-manifest.json",
+          "sha256": "9af64fe3ac362b7fd06f8583a610fba9360a822163c0d3dbfd088e92e42b9e14"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/inputs/E036-original.md",
+          "role": "assessed_original",
+          "sha256": "11b983431d03c7256f921790f60da2ad2391bb52552dfd031afc6af9abefca5a"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/inputs/E036-R1.md",
+          "role": "assessed_R1-display",
+          "sha256": "657500614bc4836ba88baecc27661d1b4a90c00ae51888fc766e5c9e9c231e33"
+        }
+      ],
+      "configuration": {
+        "observed": [
+          {
+            "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+            "source": "native-turn-context-observation",
+            "source_line": 310,
+            "status": "known",
+            "value": {
+              "model": "gpt-6-astra",
+              "reasoning_effort": "max"
+            }
+          }
+        ],
+        "requested": {
+          "effort": "max",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "hundred-20260925/free-02",
+      "event_id": "event-f2a36ef765ec40f388f7a445be8f4f89",
+      "evidence": [
+        "event-0108fff357684880be8fe2b0b39b3d17",
+        "event-271a932882064f6eb0135bab79418236"
+      ],
+      "gaps": [
+        "Bounded primary-source audit, not novelty or truth certification.",
+        "Separate same-model contexts do not prove independence of biases.",
+        "Exact final visible message and separately archived files, not entire native/provider trace."
+      ],
+      "id": "postmidterm01:E036:B:literature-v1",
+      "kind": "critique",
+      "occurred_at": "2026-10-13T04:19:04.468Z",
+      "parents": [
+        "midterm-closure-20261011:E036:selection-v1",
+        "midterm-20261007:E036:sealed-blind-snapshot",
+        "midterm-20261007:E036:R1-display-v1-20261008"
+      ],
+      "recorded_at": "2026-10-13T04:32:04.663130+00:00",
+      "summary": "External literature route B of E036; no manuscript revision or ranking.",
+      "workflow": {
+        "input_baseline": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E036/input-manifest.json",
+        "lane": "01-literature",
+        "manuscript_edit": false,
+        "role": "B",
+        "run_id": "postmidterm01-literature-20261012"
+      }
+    }
+  ],
+  "protocol": "essay-lineage.v1",
+  "export": {
+    "language": "en",
+    "kind": "English translation of canonical structured biography; source identifiers, hashes, parents, and fields preserved",
+    "source_path": "research/biographies/hundred-20260925/free-02/biography.json",
+    "source_sha256": "3ab62eab359f27e54579e30864f215788d234d807e3b4c85f7bc94657460e44b"
+  }
+}

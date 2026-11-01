@@ -1,0 +1,100 @@
+[Home](../README.md) · [Read](final-shortlist.md) · [Method](method.md) · [History](timeline.md) · [Archive](../logs/README.md)
+
+# A working history
+
+**Latest turn, November 1:** the chosen three have final revisions, separate checks, PDFs and method reports. Ruslan reports all three submitted and authorizes a separate public copy of the prepared private repository. [Final edition and evidence](../evidence/final-edition/20261101/README.md).
+
+[Follow the full selection tree](selection-tree.md) · [Browse every essay by question](../essays/topics.md)
+
+
+The lab changed when an experiment exposed a weakness or a new idea opened another route. Dates below use **America/Los_Angeles**. Proposals, implementations and observed results are distinguished; the original event dates are separate from the later GitHub import dates.
+
+## September 7 · Design the experiment before generating at scale
+
+The first conversations proposed an archive accompanying the essays, tournaments of ideas, a visual ancestry tree, and agents intended to imitate the real competition judges. The common ambition was to make generation, criticism and selection part of one inspectable process. [Original proposal](../logs/codex/chats/01a07d7c-05c5-7091-a7cc-692e19ff8fca/conversation.md#source-line-642).
+
+## September 8–10 · Independent authors, converging themes
+
+The first ten completed cycles supplied a working process, but their topics converged. Later batches widened the assigned fields and made plain language an explicit experiment. The collection reached fifty essays. [What changed](generation.md).
+
+## September 12–24 · Judges become working agents
+
+Source-grounded judge profiles were used to criticize drafts, turning the September 7 imitation proposal into an actual workflow. The library later grew from 16 to 23 profiles for internal judging and selection. These agents received instructions and sources; separate model weights were not trained. Their fidelity to the real judges was later tested in limited ways and remains unresolved. [The judge experiment](judges.md).
+
+In parallel, the Claude series tried five essays without separate critics and five with them. The creative series gave argument and contribution critics different jobs, then moved the contribution check ahead of drafting after early failures. [The two-critic idea](quotes.md#q33) · [The change in workflow](generation.md#check-the-contribution-before-writing-the-essay).
+
+## September 25–27 · Six routes to the hundredth essay
+
+Idea tournaments, debate, source expeditions, executable counterexamples, free inquiry and revision branches expanded the search. A shared draft could now split into zero, one and three revision cycles for later comparison. The collection reached 100 late on September 27. [The methods and observed outcomes](generation.md#six-ways-to-begin).
+
+## October 7–11 · Review the essays, then review the reviewing
+
+Every essay faced the full profile panel, with its production history hidden. Yet none of 2,400 primary reviews recommended rejection. Objections and direct comparisons mattered more than the compressed scores. Diagnostics then checked planted errors, wording, order and false positives; a separate critic challenged the coordinator. [Inside the midterm](evaluation.md).
+
+## October 12–17 · Search wider and reopen the discarded pile
+
+Five follow-up programs audited literature, developed arguments, searched 300 ideas, produced seven essay cycles and rechecked 20 rejected essays. Six conditional returns joined nine midterm candidates and seven new essays to form the pool of 22. Targeted revisions and checks fixed the versions for comparison. [Programs and outcomes](post-midterm.md).
+
+## October 18–31 · Ten for reading, then three plus two
+
+The 60/40 selection combined three neutral and two judge-profile reviews per text; all 110 individual and 50 pair reviews were accepted. It selected ten. On October 31, separate argument and literature checks of those ten supported the coordinator's recommendation of E050, E009 and E012, with E078 and E041 in reserve. [Selection](selection.md) · [Current recommendation](final-shortlist.md).
+
+## October 31–November 1 · Human choice, final rewrites and submission
+
+Ruslan retained E050 and E012 and returned E051 from outside the comparison pool. Two new E051 checks joined four reused checks before targeted revisions of all three. A later round rewrote the prose for clarity, using fresh authors and separate critics. E012 kept its full minor-fix verdict alongside the accepted exact wording repair. The calculations in E050 moved into an appendix within the same PDF.
+
+The final layout added links from citations to bibliography entries and refined the abstracts and method reports. On November 1, Ruslan confirmed all three submissions and requested this public edition. These are distinct events: revision acceptance, file preparation, a human report of submission, and repository publication. [Final files](current-selection.md) · [Accepted research records](../evidence/final-edition/20261101/README.md) · [Submission report](../evidence/final-edition/20261101/SUBMISSION_CONFIRMATION.json).
+
+[Explore eight defining ideas](ideas.md) · [Read the practical lessons](lessons.md) · [See activity by week](activity.md)
+
+<details>
+<summary>Full dated chronology, engineering milestones and source records</summary>
+
+The work starts in the surviving conversations on **September 7, 2026**, well before the first GitHub edition. These dates describe requests, observed work, and recorded acceptances in **America/Los_Angeles**. The [morning source index](../evidence/repository-audit/20261031/history/milestones.json) binds the first 39 milestones to saved messages and acceptance records; the later verification has its own linked receipt. Git commits retain their actual repository-import dates.
+
+| Date | Milestone | What changed |
+| --- | --- | --- |
+| 2026-09-07 | **[The project begins in conversation](../logs/codex/chats/01a07d7c-05c5-7091-a7cc-692e19ff8fca/conversation.md#source-line-9)** | The earliest preserved message asks about the philosophy competition and its AI rules. Later that afternoon, the human explicitly declares the start of the project and asks for a complete record. This predates both the dedicated lab and its GitHub edition. |
+| 2026-09-07 | **[A dedicated laboratory is created](provenance.md)** | The first canonical lab-bound event is recorded at 18:56 PDT. The build connects a portable archive, exact source records, independent criticism, and recovery checks. The evening conversation confirms the separate Philosophy Lab exists. |
+| 2026-09-08 | **[The first ten essay cycles finish](../essays/README.md)** | Ten fresh author contexts produce ten essays, each retaining its draft, separate criticism, revision and final. Completion is recorded on September 8; it is not a ranking or a novelty certificate. |
+| 2026-09-09 | **[Twenty more essays test a lighter configuration](../essays/README.md)** | The second batch finishes with twenty more complete manuscripts and separate author/critic contexts. Astra low and AI-assigned broad areas change the process, so this is not a controlled comparison with the first ten. |
+| 2026-09-10 | **[Plain language becomes an explicit experiment](methodology-index.md)** | A third batch adds twenty essays with deliberately simpler prose and language criticism. Subscription limits lead to a recorded Astra-to-Sol continuation. Fifty completed essays now exist across the three initial batches. |
+| 2026-09-12 | **[Use the second subscription](quotes.md#q43)** | The bridge was meant to let the project use Claude Code’s subscription allowance too. |
+| 2026-09-12 | **[Persistent bridge build accepted](bridge.md)** | The build was registered and checked; live transport and research acceptance were separate gates. |
+| 2026-09-13 | **[Preserve the tool-name misunderstanding](quotes.md#q53)** | The Superset detour became part of the history, including its later rollback. |
+| 2026-09-20 | **[The simple CLI runner passes a bounded live test](bridge.md)** | Three separate tasks test file context, dependency delivery, and interruption/resume. This opens a simpler route for the remaining Claude work; the test does not establish long-essay or quota-exhaustion reliability. |
+| 2026-09-21 | **[Essay biographies become explicit records](provenance.md)** | The lineage backfill connects 86 existing essay folders to readable histories and source artifacts. Missing original birth times remain unknown instead of being replaced by the date of this backfill. |
+| 2026-09-22 | **[A contribution check moves ahead of drafting](methodology-index.md)** | The creative series closes with ten selected manuscripts and seven preserved unsuccessful attempts. After early full-draft failures, checking the proposed contribution before drafting becomes part of the method; argument criticism and contribution criticism have different jobs. |
+| 2026-09-23 | **[The ten-essay Claude series is saved](bridge.md)** | The closeout binds all ten Claude-series essays and 168 associated files, preserving interruptions, versions and known input problems. These essays are a real exception to any claim of exclusively Codex authorship. |
+| 2026-09-24 | **[Five imaginative essays and eight judge-reviewed essays close](../essays/README.md)** | The five-essay Russian branch finishes after its earlier interruption. The named-profile series closes at eight complete essays; the twelve unstarted places are cancelled rather than presented as completed work. |
+| 2026-09-25 | **[The route to one hundred combines six methods](../essays/E076/README.md)** | Starting from 83 completed essays, the program adds sixteen new manuscripts through free investigations, an idea tournament, debates, source expeditions, counterexamples, and branching revision. It also closes one older Claude pilot through a Codex edit and independent meaning check. |
+| 2026-09-27 | **[The corpus reaches one hundred](../essays/README.md)** | The accepted snapshot counts 83 earlier essays, sixteen new manuscripts and the completed mixed Claude→Codex pilot. The count reaches 100 late on September 27 in California; the final follow-up report is issued after midnight on September 28. |
+| 2026-10-07 | **[Hide the biography from reviewers](quotes.md#q34)** | Full manuscripts were reviewed without production histories or earlier ratings. |
+| 2026-10-07 | **[Review every essay with every profile](quotes.md#q35)** | The full panel was requested for all essays, with pilot results reused. |
+| 2026-10-08 | **[Keep a wildcard route](quotes.md#q38)** | The selection procedure left room for an unusual candidate outside its ordinary route. |
+| 2026-10-10 | **[Test the evaluators in separate experiments](quotes.md#q39)** | Error detection, wording, comparison order, repetitions, and false positives needed separate tests. |
+| 2026-10-10 | **[Make clarity a general writing rule](quotes.md#q19)** | Simplify expression while preserving essential premises, objections, and qualifications. |
+| 2026-10-11 | **[Record midterm closure](evaluation.md)** | The finite campaign closed with nine candidates, five diagnostic gaps, no final winner, and the E036 version choice open. |
+| 2026-10-12 | **[Choose five programs and enlarge the idea search](../logs/codex/chats/01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0/conversation.md#source-line-10814)** | The user chose literature audits, argument development, a larger idea search, new essays, and a rejection check. The prepared plan expanded the search from 60 to 300 attempts; 300 was the coordinator’s choice of scale. |
+| 2026-10-13 | **[Import the first private edition](../essays/README.md)** | 100 originals, English biographies, five translations, logs, and 61 exact quotations. |
+| 2026-10-14 | **[Complete the fixed-20 rejection check](post-midterm.md)** | Forty blind reviews of 20 preselected rejected essays produced six conditional returns, eleven reserves, and three rejections of the current argument. |
+| 2026-10-14 | **[Complete the argument work](post-midterm.md)** | Forty roles developed and tested 12 branches for four candidates; four syntheses recorded what could support a later revision. |
+| 2026-10-14 | **[Close the Claude C2/C5 repair cycle](post-midterm.md#the-separate-claude-branch)** | C2 was set aside with support; C5 achieved a partial repair. The larger 60-idea branch remained paused. |
+| 2026-10-14 | **[Finish nine literature audits](post-midterm.md)** | 18 searches and nine syntheses were complete. Close predecessors were found; originality remained open. |
+| 2026-10-15 | **[Close the 300-attempt idea search](post-midterm.md)** | 600 reviews and 24 deep dossiers produced one tentative seed; 17 planned seeded essay places stayed empty. |
+| 2026-10-15 | **[Accept seven complete essay cycles](../essays/post-midterm/README.md)** | Six free investigations and S02 from I012; each retained D0, two critiques, a response, and R1. |
+| 2026-10-16 | **[Verify the five-program consolidation](post-midterm.md)** | 24 current release packages and 6,108 linked files passed the consolidation’s byte checks. This was not a new philosophical review. |
+| 2026-10-17 | **[Record final consolidation acceptance](post-midterm.md)** | Acceptance was recorded after midnight in California; the preceding overview and verification belong to October 16. |
+| 2026-10-17 | **[Agree the 22 → 10 → 3 route](selection.md)** | Prepare exact versions, make justified repairs, choose ten with two wildcards, then three entries and two reserves. The fixed reading calendar and division into chats were dropped. |
+| 2026-10-17 | **[Return E086 and explain all 22 decisions plainly](selection.md)** | The corrected inventory keeps 13 versions for comparison and assigns nine targeted tasks. E086 returned because its previous deferral was not sufficiently distinguished from E074; no manuscript was rewritten. |
+| 2026-10-17 | **[E036 receives a working version](selection.md)** | The comparison chooses R1 as the working E036 text, retaining the original and the earlier disagreement. This is a choice between existing versions, not a new blind review. |
+| 2026-10-17 | **[The twenty-two candidates are ready for comparison](selection.md)** | The bounded preparation finishes eight targeted tasks and separate checks of seven newer essays. It preserves 32 protected originals, records all 22 current versions, and stops before choosing ten. |
+| 2026-10-18 | **[Give both kinds of reviewer a substantial role](quotes.md#q64)** | The user chose a 60/40 balance between neutral and named-profile reviewers. The later accepted design uses three neutral reviews and two profile reviews per text. |
+| 2026-10-18 | **[Launch the reading selection and record it](quotes.md#q65)** | The user authorized the selection for reading, independent execution, project-memory updates, and an update to the existing private GitHub repository after completion. |
+| 2026-10-19 | **[Accept the reading selection](selection.md)** | The accepted package fixes 10 essays for reading, preserves the decisions for all 22 candidates, and records the remaining limitations. No final three or submission is implied. Two initial capacity failures produced no visible reviews and remain preserved. After a pause, the user resumed the same Astra configuration. A separate local initialization failure in M12-N2 attempt-002 produced no observed session or review; backend activity remains unknown. After the recorded repair, accepted M12-N2 attempt-003 and M13-N2 attempt-002 filled the original slots without adding votes. All three failed physical attempts remain preserved. |
+| 2026-10-31 | **[Compressed logs and missing evidence are recovered](../evidence/maintenance/20261031/README.md)** | Technical maintenance restores compressed-source reading, adds the missing preparation outputs and later completion records to the private repository, and preserves the accepted ten-essay selection. Historical capture gaps remain explicit. At that stage, the final three and submission were still ahead. |
+| 2026-10-31 | **[Twenty independent checks support a three-plus-two recommendation](../evidence/deep-verification/20261031/FINAL_RECEIPT.json)** | Separate argument and literature checks cover all ten frozen manuscripts. After reading all twenty reports, the coordinator recommends E050, E009 and E012, with E078 and E041 in reserve. Close predecessors and source-access limits remain explicit; the texts are not rewritten or submitted. |
+
+This older table ends at the October 31 recommendation, explained by the [five historical cards](final-shortlist.md). The November 1 section above records the later revisions, package and reported submissions. Historical capture gaps and dissent stay part of the record.
+
+</details>

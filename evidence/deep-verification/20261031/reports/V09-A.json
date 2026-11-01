@@ -1,0 +1,185 @@
+{
+  "audit_id": "V09-A",
+  "manuscript_id": "V09",
+  "role": "argument",
+  "manuscript_sha256": "f640e52f1fbccb6a085f1703c912f07b5084336ea5b52de5b15ec49e6e2e775a",
+  "read_complete": true,
+  "thesis": "The three conviction rates cannot, by themselves, establish that any judge completely removed the forbidden consideration from deliberation because of the rule. Two specified populations reproduce those rates while differing on whether anyone achieves complete removal. This conclusion does not undermine every form of successful guidance by second-order reasons, establish the judges' actual capacities, or show that the rates provide no probabilistic evidence.",
+  "claimed_contribution": "The manuscript gives a numerical demonstration that the ambiguity between complete exclusion and partial discounting survives perfect knowledge of the three outcome probabilities. It also shows why individual verdict stability is insufficient and why some additional outcome measurements would preserve the ambiguity. It expressly treats the underlying distinctions and general method as inherited; historical originality is outside this audit.",
+  "assessment": "NO_MAJOR_DEFECT_FOUND",
+  "findings": [],
+  "surviving_contribution": "The strongest surviving contribution is the conditional demonstration of non-identification: within the admitted class of deliberative models, the same three probabilities permit both some complete excluders and none. The manuscript's conclusion, under 'What the Verdict Does Not Tell Us', accurately states that 'an intermediate conviction rate need not contain any complete excluder'. The calculations support that statement, and the text separates it from broader action-based success and from psychological capacity. I found no demonstrated material defect in this restricted argument, so the findings array is empty. Whether it corrects an inference actually made by Sekine remains a source-dependent question.",
+  "remaining_questions": [
+    "Under 'What the Verdict Does Not Tell Us', the author writes that whether action-changing cases qualify as successful nonperformance 'needs an account of that achievement'. What conditions distinguish successful refraining for a rule from partial compliance that merely changes the outcome? This is an unresolved philosophical question, not a missing premise of the narrower mathematical result.",
+    "Under 'What the Verdict Does Not Tell Us', 'Independent psychological evidence might make the mixture model more credible'. What evidence would constrain the distribution of residual reliance and distinguish reliance as a reason from other causal effects? Without it, the construction cannot determine the actual prevalence of complete exclusion.",
+    "Under 'What the Verdict Does Not Tell Us', the proposed discriminating extension 'requires stable baseline distributions and response parameters'. Can an experimental manipulation vary the consideration's strength while preserving those quantities and its admissibility status? The manuscript supplies a conditional prediction, not an established way to meet these requirements."
+  ],
+  "limitations": [
+    "I read the complete supplied manuscript, including all bibliography entries. I did not retrieve the cited publications. Their contents, bibliographic accuracy, and the manuscript's interpretations remain unverified.",
+    "All calculations reported as checked below were independently worked through by hand. No tools, browsing, code, or statistical software were used. The reported Fisher's exact p-value was not recalculated.",
+    "The assessment concerns the manuscript's internal argument. It does not establish the psychological realism or relative probability of either model, the actual judges' capacities, or historical novelty.",
+    "The supplied SHA-256 was copied as an identity value and was not independently recomputed."
+  ],
+  "plain_summary_ru": [
+    "Одинаковые доли обвинительных решений не показывают, исключил ли хоть кто-то из судей запрещённый довод из рассуждения.",
+    "В этом узком выводе я не нашёл существенной ошибки, но он не опровергает способность следовать правилу другими способами.",
+    "Расчёты я проверил вручную, а точность пересказа источников осталась непроверенной."
+  ],
+  "argument_reconstruction": [
+    {
+      "step": "1",
+      "kind": "definition",
+      "content": "Complete exclusion means that the consideration has no role as a reason in weighing the case because of the rule. It does not mean forgetting the information or eliminating every causal consequence of hearing it.",
+      "support_or_dependency": "Under 'What the Verdict Does Not Tell Us': 'because of the rule, the agent gives the target consideration no role as a reason in weighing the case'. This defines the specific achievement whose presence the models test."
+    },
+    {
+      "step": "2",
+      "kind": "normative criterion for success",
+      "content": "Successful responsiveness to a restriction requires a connection between the restriction and the agent's way of deciding. Merely reaching a compliant outcome, or being accidentally unaffected, is insufficient. The manuscript does not assume that every broader form of successful guidance requires complete exclusion.",
+      "support_or_dependency": "Under 'What the Verdict Does Not Tell Us': 'Successful responsiveness requires a connection between the restriction and the agent's way of deciding.' This criterion explains why Model A stipulates rule-caused removal rather than merely zero weight."
+    },
+    {
+      "step": "3",
+      "kind": "source-dependent empirical premise",
+      "content": "The reported counts are 27/55 without exposure, 7/35 among judges rejecting admissibility, and 1/13 among judges accepting it. The latter groups were reportedly formed by judges' own rulings. Consequently, their difference does not itself establish a within-person or rule-caused change.",
+      "support_or_dependency": "Under 'What the Verdict Does Not Tell Us': 'The last two groups were formed by the judges' own rulings'. The design description and counts require independent source verification; the conditional construction below can nevertheless be checked as stated."
+    },
+    {
+      "step": "4",
+      "kind": "stipulated model assumptions",
+      "content": "The rounded rates are treated as exact hypothetical population probabilities. Comparable baseline distributions, full reliance in the 7.7% condition, and rule-caused response in the 20% condition are granted. Baseline scores are uniform on [-0.509, 0.491], and full reliance subtracts 0.414.",
+      "support_or_dependency": "Under 'What the Verdict Does Not Tell Us': 'These are deliberately generous assumptions, not findings that the experimental design independently establishes.' The score subtraction is expressly stipulated to represent active reliance as a reason."
+    },
+    {
+      "step": "5",
+      "kind": "proven result within Model A",
+      "content": "If a proportion q completely excludes because of the rule, independently of baseline score, and everyone else relies fully, the conviction probability is 0.077 + 0.414q. Setting q = 0.123/0.414 gives 0.200 with approximately 29.7% complete excluders.",
+      "support_or_dependency": "Under 'What the Verdict Does Not Tell Us': 'q × 0.491 + (1 − q) × 0.077.' Independence and the stipulated reason for zero reliance are essential parts of this particular model."
+    },
+    {
+      "step": "6",
+      "kind": "proven result within Model B",
+      "content": "If everyone responds to the rule by reducing the subtraction to 0.291, the conviction probability is also 0.200. Every judge retains a positive deliberative contribution from the forbidden consideration, so nobody completely excludes under the stipulated definition.",
+      "support_or_dependency": "Under 'What the Verdict Does Not Tell Us': 'Each now subtracts 0.291 rather than 0.414.' The probability is calculated; the interpretation of the subtraction as reliance is a stated model assumption."
+    },
+    {
+      "step": "7",
+      "kind": "identification inference",
+      "content": "Because Models A and B agree on the three observed probabilities but disagree on whether complete excluders exist, those probabilities cannot uniquely determine the answer. Greater precision in estimating exactly those quantities cannot remove this ambiguity.",
+      "support_or_dependency": "Under 'What the Verdict Does Not Tell Us': 'Knowing those probabilities exactly would not choose between the models.' This follows from steps 4–6, provided both models remain admissible possibilities."
+    },
+    {
+      "step": "8",
+      "kind": "illustrative counterexamples",
+      "content": "A judge can retain the consideration while giving the same verdict with and without exposure. A judge who excludes because of the rule can also give an unchanged verdict when the remaining case is decisive. Thus verdict stability does not establish either continued reliance or successful exclusion.",
+      "support_or_dependency": "Under 'What the Verdict Does Not Tell Us': 'a judge with a baseline score of 0.4 convicts both before and after subtracting 0.291', followed by the example with baseline −0.1. These are counterexamples to inference from stability, not observations about actual judges."
+    },
+    {
+      "step": "9",
+      "kind": "conceptual distinction and conditional interpretation",
+      "content": "Retaining a consideration against conviction does not imply convicting for that consideration. In Model B, the rule changes acquittal to conviction for 12.3% of the population. Those cases might satisfy a broader account of refraining from acting for a forbidden reason, although the model alone does not settle that account.",
+      "support_or_dependency": "Under 'What the Verdict Does Not Tell Us': 'the rule itself explains why it lost'. This prevents the complete-removal result from becoming a general argument against successful rule-guided action."
+    },
+    {
+      "step": "10",
+      "kind": "conditional extension and proven result",
+      "content": "With fixed q and k = 1 − q, the specified models agree throughout 0 ≤ d ≤ 0.491, predicting 0.491 − kd. They diverge at d = 0.6. This establishes that some additional measurements preserve the ambiguity and that others distinguish these particular extensions under added assumptions.",
+      "support_or_dependency": "Under 'What the Verdict Does Not Tell Us': 'Model A: q(0.491) + (1 − q)(0.491 − d) = 0.491 − kd' and 'Model B: P(x > kd) = 0.491 − kd'. The empirical interpretation depends on stable parameters and a justified manipulation of d."
+    },
+    {
+      "step": "11",
+      "kind": "scope restriction",
+      "content": "The construction establishes compatibility, not equal plausibility, actual failure, incapacity, or impossibility. Its criticism of Sekine therefore applies only if the empirical inference requires complete removal to be established from these rates without sufficient additional assumptions.",
+      "support_or_dependency": "Under 'What the Verdict Does Not Tell Us': 'the two models establish compatibility, not equal plausibility' and 'capacity defended on other grounds does not depend on this route'. These restrictions are necessary to the defensible conclusion."
+    }
+  ],
+  "strongest_objections": [
+    {
+      "objection": "The construction may target an achievement stronger than the one Sekine claims. If his claim concerns rule-guided nonperformance rather than complete removal, Model B may illustrate success rather than provide a counterexample.",
+      "best_available_reply": "The author explicitly acknowledges this possibility and restricts the objection to complete removal. The action-changing cases in Model B are discussed rather than classified automatically as failures.",
+      "assessment": "This is an unresolved question about the criticism's target, not a demonstrated defect in the paired-model result. Until the source is checked, the manuscript establishes a conditional correction, not that Sekine actually makes the stronger inference.",
+      "manuscript_location": "'What the Verdict Does Not Tell Us': 'complete removal should not be treated as a necessary condition of the success his general defence requires'."
+    },
+    {
+      "objection": "The numerical models stipulate the very deliberative facts that verdicts cannot reveal. A score subtraction need not represent reliance as a reason, and an additive model may misrepresent actual judicial reasoning.",
+      "best_available_reply": "The construction is an existence argument about possible mechanisms, not a measurement model fitted to judges. It explicitly specifies active reliance, distinguishes it from incidental causal influence, and does not require real deliberation to be literally numerical.",
+      "assessment": "The objection limits empirical interpretation but does not establish circularity. Stipulating two coherent latent mechanisms is appropriate for showing that outcomes alone cannot discriminate between them. Further evidence would be needed to treat either mechanism as an actual explanation.",
+      "manuscript_location": "'What the Verdict Does Not Tell Us': 'The model stipulates deliberative reliance because that is what the philosophical inference is meant to concern.'"
+    },
+    {
+      "objection": "Showing two compatible explanations does not defeat an ordinary probabilistic inference. One model could be much better supported independently, so the rates could still provide evidence for complete exclusion.",
+      "best_available_reply": "The manuscript expressly concedes both unequal plausibility and possible probabilistic support from the rates when combined with independent psychological evidence.",
+      "assessment": "The reply preserves the narrow conclusion. The construction cannot establish evidential neutrality, equal model probabilities, or the overall unreasonableness of believing that some judges completely exclude.",
+      "manuscript_location": "'What the Verdict Does Not Tell Us': 'My argument does not show that the experiment has no evidential value.'"
+    },
+    {
+      "objection": "Self-selection into admissibility groups undermines the interpretation of 20% as an effect of the exclusionary rule. The 12.3% switching group is not observed in the reported experiment.",
+      "best_available_reply": "The author identifies the selection problem before granting comparable baselines and rule causation for the construction. The switching group is explicitly part of the illustrative population.",
+      "assessment": "The conditional argument survives because it grants the causal interpretation and still shows ambiguity about complete removal. It would become invalid if its hypothetical switching fraction were presented as an empirical estimate, but the manuscript does not do that.",
+      "manuscript_location": "'What the Verdict Does Not Tell Us': 'It is a problem about attributing a change to the rule; the problem I now isolate remains after granting that attribution.'"
+    },
+    {
+      "objection": "The discriminating prediction at d = 0.6 depends on keeping baselines and response parameters fixed. Real increases in apparent evidential strength could change those quantities, preserving ambiguity.",
+      "best_available_reply": "The author states those dependencies and labels the example an illustration rather than a validated experimental design.",
+      "assessment": "The extension establishes a conditional mathematical contrast only. Whether a practical study could exploit it remains unresolved; this does not defeat the original non-identification result.",
+      "manuscript_location": "'What the Verdict Does Not Tell Us': 'This is an illustration of a discriminating prediction under added assumptions, not a validated experimental design.'"
+    }
+  ],
+  "formal_checks": [
+    {
+      "claim": "'What the Verdict Does Not Tell Us': uniform baseline scores from −0.509 to 0.491 yield 49.1% conviction, and subtracting 0.414 yields 7.7%.",
+      "method": "Calculate the interval length and the lengths above the decision thresholds.",
+      "result": "The interval has length 1. P(x > 0) = 0.491 and P(x > 0.414) = 0.491 − 0.414 = 0.077. Both claims are correct. Unspecified treatment of exact ties is immaterial because the continuous distribution assigns them probability zero.",
+      "execution_boundary": "Independently checked by hand; no simulation or software. This verifies the stipulated distribution, not its empirical suitability."
+    },
+    {
+      "claim": "'What the Verdict Does Not Tell Us': 'Set q to 0.123/0.414, or approximately 0.2971.'",
+      "method": "Solve 0.491q + 0.077(1 − q) = 0.200.",
+      "result": "The equation reduces to 0.414q = 0.123, so q = 41/138, approximately 0.297101. This is a valid population proportion and reproduces 0.200 exactly.",
+      "execution_boundary": "Independently checked by hand. The mixture equation uses the stated independence of exclusion type and baseline score."
+    },
+    {
+      "claim": "'What the Verdict Does Not Tell Us': the exclusion proportion is specified 'independently of their baseline scores'.",
+      "method": "Check what the intermediate rate would determine without independence. Let E denote complete exclusion in the binary-response model.",
+      "result": "Without independence, the rate is 0.077 + P(E and 0 < x ≤ 0.414). A rate of 0.200 fixes that joint probability at 0.123, not the overall proportion P(E). Independence makes the joint probability equal to 0.414q. Thus the manuscript's 29.7% depends on an explicit assumption; binary response alone would not determine that percentage.",
+      "execution_boundary": "Independently derived by hand. This checks the role of an acknowledged assumption and does not reveal an omitted premise."
+    },
+    {
+      "claim": "'What the Verdict Does Not Tell Us': 'Each now subtracts 0.291 rather than 0.414.'",
+      "method": "Calculate the probability above the new threshold and compare the two reliance weights.",
+      "result": "P(x > 0.291) = 0.491 − 0.291 = 0.200. Also, 0 < 0.291 < 0.414, so every judge retains positive weight while responding to the rule. The probability claim is correct; treating the weight as active reliance is stipulated rather than mathematically proved.",
+      "execution_boundary": "Independently checked by hand; no psychological measurement is supplied or inferred."
+    },
+    {
+      "claim": "'What the Verdict Does Not Tell Us': stable verdict examples at x = 0.4 and x = −0.1, and a switching interval between 0.291 and 0.414.",
+      "method": "Subtract the stipulated weights and calculate the interval length.",
+      "result": "For x = 0.4, the rule-response score is 0.109, so conviction persists relative to no exposure. For x = −0.1, it is −0.391, so acquittal persists. The interval that switches from acquittal under full reliance to conviction under reduced reliance has probability 0.414 − 0.291 = 0.123. All claims check out.",
+      "execution_boundary": "Independently checked by hand. These are individual counterfactuals inside the model, not reconstructed trajectories of experimental subjects."
+    },
+    {
+      "claim": "'What the Verdict Does Not Tell Us': both extensions predict '0.491 − kd' throughout 0 ≤ d ≤ 0.491 and diverge at d = 0.6.",
+      "method": "Set k = 1 − q = 97/138, simplify the mixture, and respect the lower bound of zero on conviction probabilities.",
+      "result": "Within the stated range, q × 0.491 + k(0.491 − d) = 0.491 − kd, matching Model B because kd remains within the uniform interval. At d = 0.6, Model A gives 0.491 × 41/138 = 20131/138000, approximately 0.145877. Model B gives 0.491 − 0.6 × 97/138 = 9558/138000, approximately 0.069261. The reported approximations are correct.",
+      "execution_boundary": "Independently checked by hand. Parameter stability and the interpretation of d remain assumptions."
+    },
+    {
+      "claim": "'What the Verdict Does Not Tell Us': the construction uses rounded rates, while the supplied counts are '27/55', '7/35', and '1/13'.",
+      "method": "Check whether the same construction works with the exact fractions supplied in the manuscript.",
+      "result": "Let p0 = 27/55, pr = 1/5, and pf = 1/13. A uniform interval [p0 − 1, p0] with full subtraction p0 − pf = 296/715 and partial subtraction p0 − pr = 16/55 reproduces all three fractions. The independent mixture proportion becomes (pr − pf)/(p0 − pf) = 11/37. The ambiguity therefore does not depend on rounding.",
+      "execution_boundary": "Independently derived by hand from the supplied counts. This does not verify the counts or turn sample proportions into known population probabilities."
+    },
+    {
+      "claim": "'What the Verdict Does Not Tell Us': 'Fisher's exact p = .42'.",
+      "method": "No independent Fisher's exact calculation was performed.",
+      "result": "The p-value remains an unverified statistical report. The paired-model proof neither derives nor depends on it.",
+      "execution_boundary": "Not independently executed; requires a separate calculation and source check."
+    }
+  ],
+  "source_dependent_questions": [
+    "Sekine 2026, §3 and notes 39–43: Does the original text infer complete removal from these conviction rates, or offer weaker evidence of some successful control over acting for reasons? Verify the manuscript's statements that note 39 supplies only a sufficient route and note 43 allows guidance beyond excluding target reasons. This determines whether the conditional criticism reaches an actual claim.",
+    "Wistrich, Guthrie and Rachlinski 2005, pp. 1283–84, 1300–03, and 1336–37: Verify the counts, exposure assignment, sequence and wording of instructions, formation of the admissibility subgroups, reported Fisher test, and discussion of perceived probative value. Also verify the earlier confidence finding at pp. 1301–02. These matters affect the experimental interpretation, although not the arithmetic of the hypothetical models.",
+    "Wittlin 2023, pp. 1759–60 and note 143: Verify the attributed distinction between discounting and discarding, the statistical discussion, and the concern about an improper decisional basis. The manuscript relies on these as acknowledged starting points.",
+    "Keeling 2024, §3.2.4 and §§3.1–3.3: Verify the unchanged-decision example and the description of second-order basing as combining a causal role with an appraisal of appropriateness. These attributions support the philosophical framing, while the manuscript's numerical counterexamples can be assessed independently.",
+    "Hoeft, Kurschilgen and Mill, 2024 working paper, §§3 and 6, and the 2025 publication listed in the Bibliography: Verify the information-acquisition design, treatment of alternative explanations, and version relationship. This bears on the discussion of process-sensitive research, not on the central non-identification proof."
+  ]
+}

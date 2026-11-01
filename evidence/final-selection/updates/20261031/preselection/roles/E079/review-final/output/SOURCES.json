@@ -1,0 +1,125 @@
+{
+  "scope": "Targeted verification of the supplied manuscript’s five cited works. No comparison with other essays and no broad novelty campaign.",
+  "sources": [
+    {
+      "id": "S1",
+      "authors": "Kenta Sekine",
+      "year": 2026,
+      "title": "In Defence of Second-Order Reasons",
+      "url": "https://www.cambridge.org/core/journals/canadian-journal-of-law-and-jurisprudence/article/in-defence-of-secondorder-reasons/D56F92244ED38017F40338C7869A9121",
+      "doi": "10.1017/cjlj.2026.10062",
+      "type": "primary philosophical article, publisher HTML",
+      "sections_checked": [
+        "§3, discussion of the judicial experiment",
+        "footnotes 39 and 43"
+      ],
+      "accessed_during_utc": {
+        "from": "2026-10-18T00:51:17Z",
+        "to": "2026-10-18T00:53:15Z"
+      },
+      "result": "The inference to some judges excluding considerations in deliberation is present. Footnote 39 gives a sufficient route; footnote 43 allows other forms of guidance. The manuscript represents these qualifications accurately.",
+      "excerpt_file": "sources/sekine_excerpt.txt",
+      "limitations": "Targeted passages, not an audit of the whole theory. DOI resolver failed; publisher HTML succeeded."
+    },
+    {
+      "id": "S2",
+      "authors": "Maggie Wittlin",
+      "year": 2023,
+      "title": "Binding Hercules: A Proposal for Bench Trials",
+      "url": "https://cdn.vanderbilt.edu/vu-wordpress-0/wp-content/uploads/sites/278/2023/11/27125213/Binding-Hercules-A-Proposal-for-Bench-Trials.pdf",
+      "type": "primary philosophical/legal argument, publisher PDF",
+      "sections_checked": [
+        "pp.1759–1760",
+        "footnote 143"
+      ],
+      "accessed_during_utc": {
+        "from": "2026-10-18T00:51:17Z",
+        "to": "2026-10-18T00:53:15Z"
+      },
+      "result": "The text explicitly distinguishes discounting from discarding, discusses the insignificant exposed-group difference, and links residual reliance to improper decision bases. The manuscript gives this predecessor appropriate credit.",
+      "excerpt_file": "sources/wittlin_excerpt.txt",
+      "limitations": "No broad novelty search. This is primary evidence for Wittlin’s own argument, not independent primary verification of the 2005 experiment."
+    },
+    {
+      "id": "S3",
+      "authors": "Sophie Keeling",
+      "year": 2024,
+      "title": "Responding to second-order reasons",
+      "url": "https://oai.e-spacio.uned.es/server/api/core/bitstreams/9f1abaa9-65ba-4db0-8296-93b68e536cbc/content",
+      "doi": "10.1111/phpr.13069",
+      "type": "primary philosophical article, published PDF in author institution repository",
+      "sections_checked": [
+        "§3.2.4, p.811",
+        "§§3.1–3.3, especially §3.2.1",
+        "introductory statement of causal and appraisal requirements"
+      ],
+      "accessed_during_utc": {
+        "from": "2026-10-18T00:51:17Z",
+        "to": "2026-10-18T00:53:15Z"
+      },
+      "result": "A reminder of a promise changes the basis while the decision can remain fixed. The causal/appraisal description also matches.",
+      "excerpt_file": "sources/keeling_excerpt.txt",
+      "limitations": "Publisher DOI/full-text requests failed; UNED repository copy succeeded. No attempt to adjudicate the entire basing theory."
+    },
+    {
+      "id": "S4",
+      "authors": "Leonard Hoeft; Michael Kurschilgen; Wladislaw Mill",
+      "year": 2024,
+      "title": "Norms as Obligations",
+      "url": "https://www.crctr224.de/research/discussion-papers/archive/dp610/@@download/file/CRCTR224_2024_610.pdf",
+      "type": "primary experimental working paper, research consortium PDF",
+      "sections_checked": [
+        "§3, printed pp.6–7",
+        "§6, printed pp.12–14"
+      ],
+      "accessed_during_utc": {
+        "from": "2026-10-18T00:51:17Z",
+        "to": "2026-10-18T00:53:15Z"
+      },
+      "result": "A modified dictator game lets participants reveal unknown recipient payoffs; authoritative requests affect this search. Section 6 discusses alternative explanations.",
+      "excerpt_file": "sources/hoeft_excerpt.txt",
+      "limitations": "Working-paper version is the substantive source used, as in the manuscript; data and statistical analysis were not replicated.",
+      "publication_metadata": {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0144818824000553",
+        "journal": "International Review of Law and Economics",
+        "volume": 81,
+        "date": "March 2025",
+        "article": "106235",
+        "doi": "10.1016/j.irle.2024.106235",
+        "verified_from": "publisher search result; DOI open failed"
+      }
+    },
+    {
+      "id": "S5",
+      "authors": "Andrew J. Wistrich; Chris Guthrie; Jeffrey J. Rachlinski",
+      "year": 2005,
+      "title": "Can Judges Ignore Inadmissible Information? The Difficulty of Deliberately Disregarding",
+      "url": "https://www.scribd.com/doc/148009020/9-Can-Judges-Ignore",
+      "canonical_url": "https://repository.law.upenn.edu/Documents/Detail/can-judges-ignore-inadmissible-information-the-difficulty-of-deliberately-disregarding/153906",
+      "type": "original primary research article reproduced in publicly accessible third-party text",
+      "sections_checked": [
+        "pp.1301–1303, including notes 201–203",
+        "appendix p.1337"
+      ],
+      "accessed_during_utc": {
+        "from": "2026-10-18T00:51:17Z",
+        "to": "2026-10-18T00:53:15Z"
+      },
+      "result": "The reproduction matches all three counts, the self-formed admissibility subgroups, Fisher p=.42, the possible probative-value difference, the admitted-evidence instruction, and the earlier confidence result.",
+      "excerpt_file": "sources/wistrich_excerpt.txt",
+      "limitations": "Official full text was inaccessible. The readable copy is a third-party transcription with star pagination, not an authenticated publisher PDF. Counts are also corroborated by Wittlin n.143, except that 27/55 is explicit only in this reproduction.",
+      "failed_primary_fulltext_access": [
+        "Penn repository: 403",
+        "Cornell download: 403",
+        "Penn legacy download: inaccessible redirect",
+        "Vanderbilt download/old repository: tool fetch failure"
+      ],
+      "official_metadata_checked": [
+        "https://scholarship.law.cornell.edu/lsrp_papers/20/",
+        "https://scholarship.law.vanderbilt.edu/faculty-publications/821/"
+      ]
+    }
+  ],
+  "new_empirical_analysis": false,
+  "archive_type": "Short exact excerpts plus URLs, access interval, sections and limitations; no full-paper snapshot claimed."
+}

@@ -1,0 +1,534 @@
+# Nothing to Maximise: Indeterminacy and Self-Ratification in Optimal Deliberation
+
+## 1. A doctor at three in the morning
+
+A woman comes into the emergency department with a headache. It is bad, but she is talking, walking,
+and worried mostly about the wait. The doctor examines her, forms a view, and is about to move on.
+She could stay another two minutes and think. Not gather more evidence — order no scan, ask no
+further question — just think: turn the case over, see whether anything nags.
+
+Should she?
+
+There is a standard answer. Go on thinking while the expected value of further thought exceeds what
+it costs; stop when it does not. Stuart Russell calls this metalevel rationality, and reports that
+I. J. Good got there first, defining Type II rationality as "the maximization of expected utility
+taking into account deliberation costs" (Russell, p. 8). Falk Lieder and Thomas Griffiths build a
+research programme on a formula of the same shape (eq. 3, p. 5). David Thorstad gives the surrounding
+view its most explicit philosophical statement, of which more in §5.
+
+I argue that this answer cannot account for what the doctor is doing.
+
+**T1.** Where a principal possible upshot of thinking on is coming to frame a consideration not now
+framed, and the agent's reframings are not stable enough to have been sampled, the rule yields no
+verdict — not because she cannot compute the optimum, but because there is none to compute.
+
+**T2.** Where her reframings *are* stable enough to have been sampled, the rule yields a verdict. But
+the number it runs on is a statistic of her dispositions, drawn from a record those dispositions have
+filtered. It ratifies her profile instead of assessing it: a worse disposition lowers the measured
+value of thinking on, and the rule obediently tells her to stop.
+
+**T3.** Either way, what is assessable is the profile, not the stopping. A dispositional epistemology
+of inquiry is not a rival to the decision-theoretic account of deliberation. It is what that account
+turns into when applied to its own application.
+
+I am not claiming the rule is generally false; it is true and useful wherever the outcome space is
+supplied from outside, and §7 says so. And a live debate asks whether norms of inquiry are
+*epistemic* or all-things-considered — Friedman defends their unity, Thorstad denies it. My argument
+is orthogonal and joins neither side.
+
+## 2. What the rule needs
+
+Good's theorem says a rational agent will make any available, free and relevant observation before
+choosing an act (Ahmed and Salow, p. 2). It looks like a platitude. Arif Ahmed and Bernhard Salow
+show the proof needs three things that are not: conditionalising, Independence, and — the premise
+that matters here — that observation be *partitional*, that learning consist in finding out which
+element of some antecedently specifiable set of exclusive, exhaustive possibilities is true. The
+problem, they conclude, "is not that Good's premises fail to entail his conclusion, but that they
+understand 'observation' too narrowly" (p. 9).
+
+Why is partitionality load-bearing? Because the ex ante value of observing is a **sum**, indexed by
+the cells of the partition: ∑_{p∈P} Cr(p)EU(M,Cr_p) (p. 3). Thorstad's statement has the same shape,
+with evidence drawn "from a partition {E_i} of Ω" ("Attention and evidence", p. 3 n. 6). And Ahmed
+and Salow keep partitions in their replacement principle for a reason unrelated to learning: "a
+conditional act is ill-defined unless specifiable relative to a partition" (p. 13).
+
+So the requirement is not really about partitions. It is about having something to sum over. Call it
+the **Determinacy Requirement**: for the rule to deliver a verdict there must be, relative to the
+agent's present state, a set of possible upshots of going on and a value at each — an index set, and
+a value at each index. Partitionality is one sufficient condition, not a necessary one; Ahmed and
+Salow note weaker ones, adding that since these "still rule out intuitive examples like the clock,
+it's no more obvious that observation obeys them than that it is partitional" (n. 13, p. 9).
+
+The Requirement can fail in at least two ways, and only the second is my subject. Under
+**inexactness**, Ahmed and Salow's agent faces an unmarked clock: she knows the digit is one of
+sixty, every hypothesis is framed, but she cannot say in advance which cell she will land in, because
+the strongest claims she can reliably make overlap — "no partition P is such that you are certain ex
+ante that making the observation teaches you exactly which p ∈ P is true" (p. 9). The index set fails
+to be a partition and the sum has no terms. Under **unframed content** — the doctor's case — the
+trouble is not that the upshots overlap. It is that they are individuated by contents she lacks.
+
+## 3. The regress, and why this is not it
+
+There is a famous objection here and mine is not it: that optimising about optimising regresses. Ryle
+put it memorably — if every intelligent performance inherits its intelligence from a prior act of
+planning, that act needs its own, "and this process could in its turn be silly or shrewd. The regress
+is infinite" (as quoted in Mongin, p. 96). Russell agrees: adding a level "simply results in a
+conceptual regress" (p. 11). Philippe Mongin has treated it most carefully. Not every regress is
+vicious; the test is convergence, stationarity at some level (p. 97). He then models a case where it
+fails, since "no programme automatically takes account of its own cost" (p. 99), concluding that
+either the level-one rule is constant or the regress converges for no state at all (p. 100) — while
+conceding that his paper offers "an argument", not "an impossibility theorem" (p. 105).
+
+This objection is longstanding. My distinction is this. Under **non-convergence**, each level has a determinate
+recommendation but the sequence never settles. Under **indeterminacy**, the first level that matters
+has no determinate recommendation at all. A non-convergent sequence at least has terms; my claim is
+that the first term is missing.
+
+Mongin anticipates a defence:
+"beyond a certain reflective level *n*, they can no longer define their choice objects (here, the
+algorithms) nor, a fortiori, the associated costs" (p. 102). That is a definability failure in his
+own words. Two things separate it from mine, and the second shows in his reply rather than his
+statement. Location: his failure is beyond level *n*, mine is at the first. Source: his first answer
+is that the claim presupposes "actual stages to be gone through by the individual," and that anyway
+"the time a single stage takes might be very small. The model of converging series or sequences could
+be invoked here again" (p. 102). That is a Zeno reply: it answers a claim about how many stages a
+finite mind can traverse, not a claim about whether a choice object can be specified at all, and
+reaching for it shows he hears the point as being about capacity. Mine is not; it would survive an
+agent with unlimited time. His second answer, that costs making "no sense from the agent's point of
+view" may make sense "from the optimizing theorist's point of view" (p. 102), is the
+objective-criterion move, and §5 meets it.
+
+Mongin distinguishes *calculation costs* from *information costs*, which
+"summarize the resources expended in formulating the problem itself" (p. 98). His model uses only the
+first — but that sentence continues, "this is just to make it more transparent because it would be
+possible also to include information costs," and his conclusions say information costs "too should in
+principle be included" (pp. 104–105). The literature has not set this aside. What it proposes, though,
+is to *cost* problem formulation, which presupposes that formulation can be specified and priced: a
+claim about how expensive framing is, not about whether there is a determinate expectation over what
+framing would produce.
+
+Thorstad blocks the regress differently, denying the infinite hierarchy and holding that "each
+decision problem that agents face is a perfectly well-posed decision problem" ("Two Paradoxes",
+pp. 21–22). I concede the finite hierarchy entirely. I deny the well-posedness.
+
+## 4. The framing gap
+
+Return to the doctor. What might happen if she thinks for another two minutes?
+
+Some of it she can list now. She might recall that the headache came on suddenly; she might weigh the
+neck stiffness she noticed and dismissed. For these the machinery works, and better than one might
+guess: Thorstad's "Attention and evidence" models an agent who already holds the evidence and must
+decide how to attend to it, computing expected values for attention policies and working them through
+numerically (§§9–11, pp. 15–18). Weighing what you noticed and dismissed is attending, and attending
+is priced.
+
+The crucial upshot is different. She might come to see the case as one she
+has not been seeing it as. Some feature might reorganise itself, and a hypothesis she has not
+entertained — not rejected, not assigned a low probability, simply not framed — might present itself.
+That is what thinking something over characteristically does when it does anything worth two minutes.
+
+Apply the Requirement. For the first kind of upshot she has an index and a value; for the second,
+neither. The index: a probability is a probability *of* something, and to assign one to *I will come
+to take a subarachnoid haemorrhage seriously* she must already have that hypothesis — in which case
+this is a case of the first kind. She can form the lumped proposition *something will occur to me
+that has not occurred to me*; §6 is about what happens when she does. The value: the rule needs to
+know what the decision would be worth given the outcome, which requires knowing what the outcome
+would make her do. The lumped proposition is silent about that by construction. You cannot read off
+from *something will occur to me* whether the something would send the patient for a scan, send her
+home, or change nothing.
+
+This is what the best-developed formal treatment of unconceived alternatives says in its own terms.
+Sylvia Wenmackers and Jan-Willem Romeijn's open-minded Bayesianism handles not-yet-formulated
+hypotheses with a catch-all, from which new hypotheses are later "shaved off". The catch-all "has no
+content other than 'none of the explicitly formulated hypotheses'" (p. 8), and following Shimony they
+hold that "it is not sensible to assign *any* definite value to the prior of the catch-all" (p. 10).
+So the marginal likelihood "cannot be evaluated numerically" (p. 15) and what survives is
+comparative: on their silent variant, opinions within the current context are "comparative only"
+(p. 18).
+
+They offer a repair. The prior of a newly shaved-off hypothesis "can be
+treated much like a 'postponed prior', and given a value based on *a*rational considerations that are
+not captured by constraints within the (extended) Bayesian framework" (p. 18). Does that not concede
+that the number exists and is merely outside the framework?
+
+No, and the reason is timing. Their model runs on a clock: *t* = 0, the explicit hypotheses and the
+catch-all; *t* = 1, the evidence; *t* = 2, the new hypothesis, which exists only once shaved off. The
+priors of the new hypothesis and the remaining catch-all are, in their words, "both of which are
+assigned **retroactively**" (p. 16). And: "At *t* = 1, no belief can be expressed for *H_N*, but at
+*t* = 2 the beliefs regarding *H_N* at *t* = 1 can be expressed" (p. 17). The licence to reach
+outside the framework is a licence to backfill once the content exists. The doctor deciding whether
+to stay is at *t* = 1, where by the framework's own statement no belief about the unframed hypothesis
+can be expressed at all. The repair is real, and arrives too late to be the one she needs.
+
+So: the rule delivers a verdict only if there is an index set of possible upshots and a value at
+each. In open-ended deliberation a principal possible upshot is coming to frame a consideration not
+now framed. For upshots so individuated she has no value, because a value requires knowing what the
+upshot would make her do, and its content is what she lacks. The catch-all does not repair this in
+time. So, subject to §6, the rule delivers no verdict — not because she cannot compute the value, but
+because there is none.
+
+Two clarifications: It does not show that decisions under severe
+uncertainty generally lack expected values: ordinary uncertainty is about which of several framed
+possibilities obtains, and that is fine. And it does not show that we cannot think well. We plainly
+can. The question is what thinking well consists in.
+
+## 5. This is not the criterion/procedure distinction
+
+The standing objection is that I have confused a decision procedure with a criterion of correctness.
+Unusability is not falsity: there is a fact about which stopping point was best, even though the
+doctor cannot compute it.
+
+First, the rule was hired for this job. Type II rationality and resource-rational analysis were
+introduced out of realism about limits; a rule that retreats to an ideal no bounded agent can use
+abandons the work it was brought in to do.
+
+Second, and decisively: my complaint is not inaccessibility but absence. The objection presupposes
+the criterion is well defined and merely out of reach. Expected value is not free-floating; it is a
+sum indexed to a set of outcomes and weighted by a credence function. Relative to the doctor's
+credence function there is no such sum, because the outcomes that matter are not in her space.
+
+Third, the escape is to make the criterion objective — the value relative to the chances, or to an
+ideal observer. From an omniscient perspective this is not an *expected* value but the actual one,
+and the rule collapses into *stop exactly when further thought would not in fact have helped*. That
+makes the careless doctor who stops early and gets lucky rational, and the careful one who thinks
+hard and gets nothing irrational. It relocates assessment from how well she reasoned to how things
+turned out, which is the one thing a theory of rationality should not do. (A further difficulty,
+offered as a difficulty and not a proof: trains of thought are path-dependent on accidents of
+attention, and it is not obvious there is a fact about where two more minutes would have led.)
+
+I owe a correction to the most careful version of the view I oppose. Thorstad is not a one-tier
+maximiser. His account is that acts of inquiry are "right just in case they are best, best just in
+case they promote the most value, **and rational just in case they are right and taken in response to
+the reasons which make them right, which are determined by the agent's total evidence**" (*Précis*,
+p. 3). The view is named for that structure — the reason-responsive consequentialist view — and has
+three parts: a consequentialist theory of rightness, a reason-responsiveness theory of rationality,
+and "an information-sensitive reading of deontic modals" (p. 2). He already separates the criterion
+from anything the agent must compute, so my third reply is not aimed at him.
+
+Does the second tier escape the framing gap? I think not, and here the disagreement becomes sharp.
+The tier is parasitic. An act is rational just in case it is right **and** taken in response to the
+reasons which make it right; responsiveness is a relation to *the reasons that make the act right*.
+Where there is no fact about which act of inquiry is best, nothing makes one of them right, and
+responsiveness has no object. The tier adds a condition on how the right act is reached; it supplies
+no independent standard. Where the first tier is silent, the second is silent too.
+
+The reply is to make rightness objective — returning us to my third paragraph, now with a further
+cost, since objective rightness sits badly with the view's own third element, whose point is to index
+the deontic verdict to information. And the phrase doing the work is *total evidence*. Total evidence
+is total with respect to what the agent can frame. The doctor's trouble is not a shortage of evidence
+about framed possibilities; adding evidence adds no framings. So the appeal meant to make the second
+tier determinate is the one that cannot help here. I hold this less firmly than T1, for a stated
+reason: I have not read *Inquiry under Bounds*, and the book may address the case.
+
+## 6. The calibrated case
+
+An effective repair to §4 limits the unrestricted claim.
+Individuate the upshots not by content but by **effect type**: C₁, two more minutes changes my
+management; C₂, it does not. Both cells are framed now. And the value need not be read off the lumped
+proposition; it can be estimated the way the probability was. A doctor with ten years of such pauses
+can know roughly how often a pause of this kind under this kind of unease changes her management, and
+roughly what the change has been worth. She needs none of the contents. The index set exists, the
+values exist, the Requirement is met.
+
+I accept this. It restricts T1: the rule delivers a determinate verdict where the agent's reframings
+are stable enough to have been sampled — where her past is a fair sample of her future. That is a
+substantive empirical condition. The physician who has seen thousands of headaches plausibly meets
+it; a researcher facing a novel problem, a clinician working outside her specialty, a person deciding
+something once in a life, plausibly does not.
+
+But look at what the repair produces. Her two numbers are not facts about the case. Cr(C₁) is the
+rate at which her salience dispositions turn up something under this kind of unease; the conditional
+value is the average worth of what they turn up when they do. Both are summary statistics of a
+dispositional profile. In the one variety of open-ended deliberation where the expectation is
+determinate, the expectation is a projection of a profile — which tells for T3 rather than against it.
+
+And there is worse for the rule. The sample is filtered by the very dispositions the estimate would
+have to grade, by two filters. The **trigger** filter: the reference class is "pauses of this kind
+under this kind of unease", and the unease is produced by her salience. A doctor whose salience is
+coarse does not get a noisier estimate of the same quantity; she gets an estimate of a different
+quantity, over a class her dispositions have drawn. The **feedback** filter: a forgone pause enters
+the record only if the missed thing later announced itself. The miss that never announces itself
+never enters the sample, and nothing in the estimate represents it.
+
+Now the consequence. Take two doctors keeping faithful records. B's salience is fine-grained; "sudden
+onset" catches, her unease fires on cases that deserve it, her pauses often change management, her
+Cr(C₁) is high, and the rule tells her to stay. A's salience is coarse. She feels unease rarely, and
+when she pauses little comes of it, so her Cr(C₁) is low and the rule tells her to stop early. Each
+applies the rule correctly to her own evidence. The rule endorses A's practice, and endorses it
+**because** A is the worse doctor. A better disposition raises the measured value of thinking on; a
+worse one lowers it; the rule follows the measurement. So where the rule is determinate for
+open-ended thought it is self-ratifying: it cannot grade the profile, being computed from a record
+the profile has already filtered.
+
+Someone will object that this proves too much, since the standard of §8 also needs frequency facts.
+The two differ, and not over whether frequencies exist but over what they range over. My standard
+quantifies over the problems the agent actually faces, including the ones she never noticed she was
+facing; her track record quantifies over the pauses she took and the feedback that reached her. Both
+are statistical. Only the first can be the standard, because only the first contains what the second
+is blind to. And the reason the first is unavailable to her from the inside is exactly the reason the
+second is available: she cannot sample what she never noticed.
+
+This explains something otherwise odd. The remedies we reach for here — checklists, second opinions,
+red-teaming, a colleague who asks *what else could this be?* — cluster precisely where individual
+calibration is unavailable or untrustworthy, and each is a device for sampling outside a censored
+record. A second opinion is another agent whose sample is censored differently.
+
+## 7. The rival: bounded optimality
+
+The most serious opposition is not a defence of the rule as stated. It is the move that abandons
+act-level assessment. Since metareasoning is expensive, Russell says, the right response is "to step
+outside the agent, as it were; to refrain from micromanaging the individual decisions made by the
+agent" (p. 11). Bounded optimality evaluates whole programs: the optimum is the argmax of
+V(Agent(l,M),E,U) over the programs the machine can run (p. 11). Lieder and Griffiths define the
+resource-rational mind as the argmax over biologically feasible minds of expected utility across a
+life history (eq. 2, p. 5). Nobody metareasons; the standard is applied from outside.
+
+What is right about it is the boundary it draws, and the evidence is not anecdotal. Optimal stopping
+thresholds for perceptual decisions follow from drift-diffusion models by maximising reward rate —
+the derivation is Bogacz et al.'s, reported by Lieder and Griffiths (p. 7). And they report that
+people's planning operations achieved "about 86% of the best possible trade-off between decision
+quality and time cost" and agreed with the bounded-optimal strategy "about 55% of the time" (p. 8) —
+multi-step planning, much nearer to open-ended thought than a perceptual threshold. In every case the
+outcome space is supplied from outside: Thorstad's attention model stipulates Ω = {w₁,w₂,w₃} and a
+fixed act set (pp. 15–16); the planning paradigms stipulate the tree. So the thesis has a sharp
+shape. **The rule works where the outcome space is supplied; my two arms bite where it is not —
+indeterminately where the agent's reframings have not been sampled, self-ratifyingly where they
+have.** Show me an open-ended deliberation in which the expectation is determinate and not drawn from
+the agent's own filtered record, and I am wrong.
+
+Two objections remain.
+
+Lieder and Griffiths anticipate my argument and offer a repair. Just after the equation I quoted they
+note that it "assumes that all possible outcomes and their probabilities and consequences are known.
+But the real world is very complex and highly uncertain," and they relax the criterion to optimality
+with respect to "the information *i* that has been obtained about the environment" (p. 5). But the
+relaxation concerns the **environment**, not how outcomes are individuated. Their eq. 4 is still an
+argmax over a heuristic set, with an expectation over environments given *i* and an expectation over
+results given an environment; both need index sets. The move buys ignorance about which environment
+obtains, not a distribution over upshots individuated by contents nobody has framed.
+
+Russell states and answers the objection I am about to press. The worry is that bounded optimality
+"simply shifts the intractable computational burden of metalevel rationality from the agent's
+metalevel to the designer's object level." His reply grants this is "not without merit", then draws a
+distinction: "the agent designer is presumably creating an agent for an entire class of environments,
+whereas the putative metalevel agent is working in a specific environment." It may be very hard to
+sort a trillion elements and easy to design an asymptotically optimal sorting algorithm; "the
+difficulties of the two tasks are unrelated" (p. 13).
+
+Granted; the distinction in §3 still applies. Russell's reply is about **tractability**, and sorting is its ideal illustration because
+"sorted" is a fixed specification that does not change under reflection. My point is that in
+open-ended deliberation the specification is what may change. The reply's own wording carries the
+problem up a level: the designer creates an agent "for an entire class of environments," and the
+class has to be specified. Designing well for problems whose relevant considerations nobody has
+framed — the designer included — is the original difficulty in a different hat.
+
+Is this meant as a normative standard at all? Lieder and Griffiths are ambivalent, and both halves
+should be reported: bounded optimality "provides a realistic normative standard for cognitive
+strategies and representations" (p. 4), yet resource rationality is "not a fully fleshed out theory
+of cognition, designed as a new standard of normativity ... but a methodological device" (pp. 5–6).
+On the second reading it is no competitor to my thesis; on the first it is. I take the first, so the
+disagreement is joined rather than dissolved.
+
+So: can an engineering standard for a system be a normative standard for a thinker? Here the verdicts
+come apart. Take two dispositional profiles indistinguishable in performance across the environment
+class the designer used — the presentations this department's history contains — but differing on a
+presentation not in that class. Bounded optimality must rank them equally, since by construction V is
+the same over E. My standard does not, being indexed to the problems the agent actually faces, and
+the unprecedented case is one she faces when it arrives. When it arrives and is missed, we criticise
+the doctor; we do not say the criticism is misplaced because she was optimal for the distribution she
+was designed against. I claim we are not making a mistake. Enlarging the class is no repair: to put a
+case in the class you must frame it.
+
+Underneath this is a distinction worth drawing. **Remediability** is the property of being improvable
+from outside; bounded optimality delivers it, as does any account describing checklists as design
+improvements. **First-personal usability** is the property of supplying a move the agent can make
+from the inside, within the practice the standard governs. *What else could this be?* is such a move:
+not the computation of an expectation, not a verdict read off, but the exercise of the very
+disposition being assessed. *Am I bounded-optimal?* affords no such move, and Russell records, by way
+of Dennett and approvingly, that bounded-optimal systems "may have no way to recognize their own
+bounded optimality" (p. 12).
+
+This is not knock-down. An externalist will deny that a standard must supply any first-personal move,
+noting that we grade beliefs by truth-conduciveness without asking whether the believer can see it.
+That is coherent and I have not refuted it. My claim is narrower: the criticism we actually level —
+*you should have thought harder* — belongs to a practice whose moves she can make, and a standard
+supplying none of them is not what that criticism answers to. Someone who hears that criticism as an
+audit report addressed to third parties will disagree, and the disagreement is stable.
+
+## 8. What replaces it
+
+If the standard is not a property of the stopping, what is it a property of?
+
+Look at what varies between a good and a bad thinker in the doctor's position. Not the length of the
+pause; two doctors can pause equally long. What varies is what occurs to them during it. One has seen
+enough sudden-onset headaches that the word "sudden" catches; the other hears it and it slides past.
+One has a feel for when a case is not sitting right; the other feels settled early. These are
+dispositions of salience and satisfaction, and they are the real variables.
+
+So, in three parts. An agent's deliberative profile comprises the dispositions governing what occurs
+to her, what strikes her as worth pursuing, and when she feels settled. One profile is better than
+another to the extent that it in fact surfaces the considerations bearing on the problems she
+actually faces. The standard is comparative, statistical over many occasions rather than
+counterfactual about one, and it need not have a maximum. The statistical clause matters: §5's point
+that trains of thought are path-dependent cuts against a counterfactual reading of "in fact
+surfaces", not against the frequency reading I intend.
+
+Three considerations recommend this.
+
+It dissolves the regress instead of stopping it by fiat. A disposition is not chosen by an act, so
+there is no second act whose rationality we must assess, and no third; the hierarchy never starts.
+Thorstad's level separation must argue that agents face only the first few levels. Here the question
+does not arise, because the evaluand was never an act.
+
+It keeps act and disposition apart. Thorstad objects to accounts making an action's status derivative
+on the deliberation that produced it, because the way of indirection "collapses normative structure
+by forcing us to make the same assessment of all three objects" ("Two Paradoxes", p. 12). This
+account is not vulnerable: an excellently disposed doctor can stop too soon when the cue that
+normally catches happens not to; a poorly disposed one can stop at the right moment by luck.
+
+It is thick rather than thin — the test Thorstad sets in asking for "a story which thickens" a
+standard, "for example by showing how they figure in our ordinary evaluative practices, or play
+important theoretical roles associated with rationality" (Thorstad 2022, pp. 26–27; I generalise a
+demand he makes inside his case for epistemic nihilism about inquiry). It matches the criticism we
+make: what we say about the doctor who missed the bleed is not that she mis-estimated a marginal
+expected value but that the possibility did not cross her mind. It explains the shape of the
+remedies, which are dispositional or institutional rather than computational, and which §6 showed to
+be devices for sampling outside a censored record. And it explains the training: we make good
+thinkers by exposure and correction, not by formula.
+
+Thorstad's own account of how the metacognitive problem gets solved is evidence for this, though he
+does not intend it so. He invokes noetic feelings to show that bounded agents *can* confront the
+problem without representing it "in any complex way": we solve it "largely by attending to a class of
+*noetic feelings* produced by our experience of deliberation, rather than by forming and analyzing
+metacognitive beliefs" (p. 22). Take him at his word. If that is how it is solved, what makes it well
+or badly solved is a property of the feelings — of what produces unease and what produces
+settledness — not of a computed expectation.
+
+Where does this leave his three adequacy conditions for solving the regress (p. 21)? I do not claim
+to satisfy them in his sense. The second asks for reassurance that the problems agents face have
+rational solutions, and on my account the first-order problem is not guaranteed well-posed either. I
+am changing the sense of "faces a decision problem": the doctor faces this patient whether or not
+that constitutes a well-posed decision problem, and answerability does not require well-posedness.
+
+That is T3. The decision-theoretic account was right that thinking involves a trade-off, and right
+that the trade-off is the heart of the matter. It was wrong about where the trade-off lives. Applied
+to its own application it becomes an account whose object of assessment is a profile rather than an
+act — and §6 shows why in the sharpest way available: where the account does deliver a number for
+open-ended thought, the number is a statistic of the profile.
+
+## 9. What is left standing
+
+Not new: that expected-value metareasoning regresses, and that the regress is not obviously
+convergent — Ryle, Simon, Mongin and Russell got there first, and Mongin's model is explicit where I
+am informal. Not new: that the classical value-of-evidence results rest on contestable premises. Not
+new: the substantive/procedural distinction, which is Simon's. And not new, importantly, the general
+move from a failing maximising standard to a dispositional one. Thorstad records that the
+difficulties facing satisficing consequentialism "have led many authors to think that satisficing
+consequentialism should be construed in some other way, for example as a point about virtuous
+dispositions rather than a revision to standards of correctness," citing Swanton and perhaps Slote
+("Two Paradoxes", p. 14 n. 23); Mongin points to Slote's *Beyond Optimizing*, noting that Slote "does
+not investigate the infinite regression problem" (p. 106 n. 2); and the footnote of Thorstad's that
+flags a generalisation from rationality to virtue as future work in fact names three occupants of the
+ground — Baehr, Morton, Whitcomb et al. ("Zetetic Turn", p. 12 n. 9). I have read none of them. What
+I can claim is a different route: mine runs through the indeterminacy and then the self-ratification
+of an expectation, not through the demandingness of maximising. The route may be new; the destination
+is not.
+
+What I claim as mine, and hold provisionally: the diagnosis of indeterminacy as distinct from both
+non-convergence and intractability, stated as the absence of an index set rather than as a failure of
+partitionality; the observation that the catch-all repair arrives only retroactively and so cannot
+price a decision taken before the content exists; the censoring argument of §6, which I did not find
+in what I read and do not certify as novel; and the resulting claim that the expectational standard
+is either indeterminate or self-ratifying in the cases that matter.
+
+Unresolved: whether an engineering standard for a system can be a
+normative standard for a thinker. I have given an argument, not a proof, and the externalist reply is
+coherent and unrefuted.
+
+What would change my mind. A way of assigning content-specific values to unconceived upshots before
+they are conceived would defeat the first arm outright. A demonstration that every real deliberation
+is relevantly like a drift-diffusion problem — that the outcome space is always there, only implicit
+— would move the boundary far enough to make the thesis uninteresting. And a way of decensoring a
+thinker's own record, a method of sampling her misses that does not presuppose the salience that
+missed them, would defeat §6 and take T2 with it. That third is the objection I would press if I were
+reading this rather than writing it.
+
+The doctor should stay for the two minutes, if she is the sort of doctor for whom staying is what two
+minutes of that kind of unease amount to. That is not a calculation she has performed. It is the kind
+of doctor she has become.
+
+---
+
+## A note on sources
+
+I could not obtain I. J. Good's papers; everything attributed to Good's theorem comes from Ahmed and
+Salow's and Thorstad's reconstructions, which agree, and nothing is attributed to Good's own wording.
+Russell separately attributes Type II rationality to a 1971 paper of Good's, which is not the
+total-evidence paper and which I have not seen; §1 reports Russell's report. The total-evidence paper
+is dated 1967 by Ahmed and Salow (p. 2) and 1966 by Thorstad ("Attention and evidence", p. 1); both
+give *BJPS* 17, 319–321 and the same DOI, and I record the discrepancy rather than choosing.
+
+I have not read Thorstad's *Inquiry under Bounds*; what I attribute to the view comes from the
+*Précis* and two journal articles, which matters most in §5. I have not read Baehr, Morton, Whitcomb
+et al., Swanton or Slote, whose relevance I learned from footnotes in Thorstad and Mongin. Page
+references to items marked "manuscript" or "author draft" are to author-posted versions whose
+pagination differs from the published text. A record of which pages of each source I actually read,
+as against requested, accompanies this essay separately.
+
+---
+
+## Bibliography
+
+Ahmed, Arif, and Bernhard Salow. "Don't Look Now." *The British Journal for the Philosophy of
+Science* 70, no. 2. Author draft consulted at https://users.ox.ac.uk/~shug2406/DontLookNow.pdf (page
+references to that draft). DOI 10.1093/bjps/axx047.
+
+Friedman, Jane. "The Epistemic and the Zetetic." *The Philosophical Review* 129, no. 4 (2020):
+501–36. Author manuscript at https://jfriedmanphilo.github.io/E&Z.pdf
+
+Good, I. J. "On the Principle of Total Evidence." *The British Journal for the Philosophy of Science*
+17, no. 4: 319–21. DOI 10.1093/bjps/17.4.319. **Not consulted.** Dated 1967 by Ahmed and Salow; 1966
+by Thorstad.
+
+Good, I. J. [1971], as cited by Russell (p. 8) for Type II rationality. **Not consulted**; no
+independent bibliographic details verified.
+
+Lieder, Falk, and Thomas L. Griffiths. "Resource-Rational Analysis: Understanding Human Cognition as
+the Optimal Use of Limited Computational Resources." *Behavioral and Brain Sciences* 43, e1 (2020):
+1–60. DOI 10.1017/S0140525X1900061X. Consulted at
+https://cocosci.princeton.edu/papers/lieder_resource.pdf
+
+Mongin, Philippe. "Does Optimization Imply Rationality?" *Synthese* 124 (2000): 73–111. Consulted at
+https://people.hec.edu/mongin/wp-content/uploads/sites/36/2018/08/A34.MonginSynthese00.pdf (journal
+pagination).
+
+Russell, Stuart J. "Rationality and Intelligence." Author copy at
+https://people.eecs.berkeley.edu/~russell/papers/aij-cnt.pdf. The copy carries no date; Lieder and
+Griffiths cite the work as Russell 1997, and I follow that attribution without having verified it
+against the journal.
+
+Ryle, Gilbert. *The Concept of Mind*. 1949, pp. 31–2. **Not consulted**; quoted here as quoted in
+Mongin 2000, p. 96.
+
+Thorstad, David. "Attention and Evidence." Forthcoming in *Philosophy and Phenomenological Research*.
+Author PDF at https://www.dthorstad.com/_files/ugd/74503b_a128c8743d9f453c8ed67472543ce8dd.pdf
+
+Thorstad, David. "Précis of *Inquiry under Bounds*." Forthcoming in *Philosophical Studies*. Author
+PDF at https://www.dthorstad.com/_files/ugd/74503b_03cb08b41cda47edaec2e121533b27b2.pdf
+
+Thorstad, David. "There Are No Epistemic Norms of Inquiry." *Synthese* 200, art. 410 (2022). Author
+manuscript at https://www.dthorstad.com/_files/ugd/74503b_1f092eaa7c7942beb5b0d1b6836cff90.pdf
+(manuscript pagination).
+
+Thorstad, David. "The Zetetic Turn and the Procedural Turn." *The Journal of Philosophy* 122, no. 9
+(2025): 483–507. Author PDF at
+https://www.dthorstad.com/_files/ugd/74503b_8004eb5d07744a6e8db1fcce8ee27e46.pdf (manuscript
+pagination).
+
+Thorstad, David. "Two Paradoxes of Bounded Rationality." *Philosophers' Imprint* 22, no. 15 (2022).
+Author PDF at https://www.dthorstad.com/_files/ugd/74503b_a6f7823c49084b478bc51759ea871988.pdf
+
+Wenmackers, Sylvia, and Jan-Willem Romeijn. "New Theory about Old Evidence: A Framework for
+Open-Minded Bayesianism." *Synthese* 193, no. 4 (2016): 1225–50. Author manuscript at
+https://romeijn.web.rug.nl/paper/2015_wenmackers_romeijn_-_old_evidence_new_theory.pdf (manuscript
+pagination).

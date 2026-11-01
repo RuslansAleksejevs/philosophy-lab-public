@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "command": "python3 -B scripts/run_evals.py --smoke --no-report",
+  "exit_code": 0,
+  "tests_passed": 699,
+  "log_path": "runs/maintenance-20261031/final-code-tests.log",
+  "log_sha256": "6e261848839a44a0f865d26c9d5b958d8c2bbf378d34a4f8f99983069655697b",
+  "additional_changes_since_required_check": "Renderer display gaps and one exact, independently reviewed capture-compatibility transition. Full archive validation passed before these append-only operations; collector writers continue validating the archive under lock.",
+  "current_source_sha256": {
+    "scripts/collector.py": "c0ff12e7b10f7c7fe8f13da3c3d27cc1009b0e7a707073e2495856fea2fc755b",
+    "scripts/collector_views.py": "7244cf0cd8e3fec51cf46a60c43b0defd32d99ad31b04e5ff77294bd445e3a84",
+    "scripts/philosophy_round.py": "01469d08243cd4574699eec3acd9b1d4c5685759b28831afe26138cc52020f04",
+    "scripts/codex_rollout.py": "541e2506db54b1d8f332bdc14dc7eb4480f9640617ddc77acc7eab752ffdea5e",
+    "collector/capture-compatibility.json": "bae8766fa89f91c55d03270ca915f544542a8b1456a0f129b6cafe338953e1da"
+  }
+}

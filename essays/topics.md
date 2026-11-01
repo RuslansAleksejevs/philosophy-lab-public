@@ -1,0 +1,478 @@
+[Home](../README.md) · [Current three](../docs/current-selection.md) · [Selection tree](../docs/selection-tree.md) · [Original collection](README.md)
+
+# Find an essay by its question
+
+**107 essays · 10 themes.** Start with a question, then open the working text or its history. The groupings are editorial routes through overlapping subjects, not a ranking or a new assessment. IDs remain stable across versions.
+
+The working links below use the exact October 19 comparison versions for the twenty-two candidates and the preserved original for the other eighty-five works. The final texts of **E050, E012 and E051** are now linked beside those preserved comparison versions. [Final PDFs and method reports](../docs/current-selection.md). [Version register and source fingerprints](../docs/reading-state.json).
+
+[Knowledge, evidence and inquiry (15)](#knowledge) · [Science, models and explanation (12)](#science) · [Institutions, justice and public decisions (22)](#institutions) · [Responsibility, repair and forgiveness (13)](#repair) · [Agency, consent and commitment (16)](#agency) · [Language, promises and communication (10)](#language) · [Identity, time and metaphysics (7)](#identity) · [Mind, memory and introspection (3)](#mind) · [Art, attention and interpretation (6)](#art) · [Faith and religious practice (3)](#faith)
+
+<a id="knowledge"></a>
+
+## Knowledge, evidence and inquiry
+
+**E014 · Who sustains moral knowledge when everyone relies on someone else's judgment?**
+
+*Borrowing Without Replenishing: The Ecology of Moral Deference* · [Working text](E014/original.md) · [History](E014/README.md)
+
+**E023 · What can a polished archive hide about the events it records?**
+
+*What an Archive Cannot Tell Us* · [Working text](E023/original.md) · [History](E023/README.md)
+
+**E024 · When does answering a proxy question leave the real inquiry unfinished?**
+
+*A True Answer Is Not Always the End* · [Working text](E024/original.md) · [History](E024/README.md)
+
+**E029 · When can silence justify renewing trust in an authority?**
+
+*Trust That Cannot Renew Itself* · [Working text](E029/original.md) · [History](E029/README.md)
+
+**E033 · When does a second proof fail to provide an independent safeguard?**
+
+*When a Second Proof Is Not a Second Safeguard* · [Working text](E033/original.md) · [History](E033/README.md)
+
+**E039 · Why preserve evidence that makes no difference to present confidence?**
+
+*Settled, but Still Revisable* · [Working text](selection-20261018/E039.md) · [History](E039/README.md)
+
+**E044 · What goes wrong when each researcher stops because the other could check?**
+
+*The Last Person Still Looking* · [Working text](E044/original.md) · [History](E044/README.md)
+
+**E048 · Can students question the way their teacher selected the evidence?**
+
+*Teaching Students to Question the Lesson* · [Working text](E048/original.md) · [History](E048/README.md)
+
+**E066 · When can a student use a teacher's own method to challenge the teacher?**
+
+*Learning Enough to Disagree* · [Working text](E066/original.md) · [History](E066/README.md)
+
+**E075 · Must we destroy an irreplaceable memory to justify trusting it?**
+
+*The Archive That Cannot Be Fully Justified* · [Working text](E075/original.md) · [History](E075/README.md) · [English reading translation](E075/translation.en.md)
+
+**E082 · Which errors can a second look leave untouched?**
+
+*What a Second Look Leaves Unchecked* · [Working text](E082/original.md) · [History](E082/README.md)
+
+**E085 · What guides an inquiry before its question has been formed?**
+
+*Inquiry Before the Question* · [Working text](E085/original.md) · [History](E085/README.md)
+
+**E096 · When does imagining an alternative give a reason to distrust an impression?**
+
+*When Imagining Otherwise Should Change Your Mind* · [Working text](E096/original.md) · [History](E096/README.md)
+
+**E097 · What has a checked formal proof established about the intended mathematical claim?**
+
+*What a Checked Proof Has Not Yet Told Us* · [Working text](E097/original.md) · [History](E097/README.md)
+
+**F02 · Can confidence fit all surviving evidence even though deleting a record harmed inquiry?**
+
+*Perfectly Proportioned, Poorly Informed* · [Working text](selection-20261018/F02.md) · [History](post-midterm/F02/README.md)
+
+<a id="science"></a>
+
+## Science, models and explanation
+
+**E015 · What can causal understanding retain when some outcomes remain unresolved?**
+
+*Understanding What Remains Unresolved* · [Working text](E015/original.md) · [History](E015/README.md)
+
+**E032 · What can a working blade tell us about a microscopic image of its edge?**
+
+*A Working Blade and a Microscopic Image: A Bounded Reading of Functional Evidence* · [Working text](E032/original.md) · [History](E032/README.md)
+
+**E050 · Can holding a system steady tell us what happens when we let go?** **Human selection.**
+
+*What Holding Cannot Tell Us About Letting Go* · [Working text](selection-20261018/E050.md) · [Final text](final-20261101/E050.md) · [History](E050/README.md)
+
+**E061 · Which outcome should count when a forecast changes what people do?**
+
+*Accuracy Needs a Target: Public Forecasts and Epistemic Claims* · [Working text](E061/original.md) · [History](E061/README.md)
+
+**E065 · What distinguishes an eye's coverage, discrimination and actual use?**
+
+*What Counts as an Eye? Coverage, Discrimination, and Use in Hooke and Cavendish* · [Working text](E065/original.md) · [History](E065/README.md)
+
+**E068 · What remains unexplained when chance produces a fully understood outcome?**
+
+*What a Complete Explanation Must Leave Open* · [Working text](E068/original.md) · [History](E068/README.md)
+
+**E070 · Does a simpler model show that an animal lacks the capacity it need not use?**
+
+*What a Simpler Animal Model Does Not Deny* · [Working text](E070/original.md) · [History](E070/README.md)
+
+**E079 · Does an unchanged verdict show that a judge excluded a forbidden reason?**
+
+*What the Verdict Does Not Tell Us* · [Working text](selection-20261018/E079.md) · [History](E079/README.md)
+
+**E083 · Does corrected agreement between instruments test the explanation of their behavior?**
+
+*What a Corrected Number Leaves Out* · [Working text](E083/original.md) · [History](E083/README.md)
+
+**E090 · When can an event's later significance explain an earlier decision?**
+
+*What an Ending Can Explain* · [Working text](E090/original.md) · [History](E090/README.md)
+
+**E092 · How can an accurate measurement conceal a mistake in the model it is used to test?**
+
+*A Good Measurement Can Be a Bad Test* · [Working text](E092/original.md) · [History](E092/README.md)
+
+**E099 · What can a mathematical explanation leave open about the cases it covers?**
+
+*What a Mathematical Explanation Leaves Open* · [Working text](E099/original.md) · [History](E099/README.md)
+
+<a id="institutions"></a>
+
+## Institutions, justice and public decisions
+
+**E004 · What must an institution preserve when its decisions remain open to challenge?**
+
+*When the Record Ends: How Rebuttable Decisions Become Final* · [Working text](E004/original.md) · [History](E004/README.md)
+
+**E008 · Why can a correct institutional decision still require a fair hearing?**
+
+*Why Innocence Does Not Close the Question* · [Working text](E008/original.md) · [History](E008/README.md)
+
+**E009 · What if a harmful decision destroys the means to challenge it?**
+
+*Before You Tell Us to Try Again* · [Working text](selection-20261018/E009.md) · [History](E009/README.md)
+
+**E011 · Do fewer recorded complaints show that public deliberation improved?**
+
+*A Lower Complaint Count Is Not Yet Better Deliberation* · [Working text](E011/original.md) · [History](E011/README.md)
+
+**E017 · Can a pending objection retain its standing after its evidence is lost?**
+
+*The Objection That Outlived Its Evidence* · [Working text](E017/original.md) · [History](E017/README.md)
+
+**E019 · What if a restriction prevents someone from meeting the conditions for its removal?**
+
+*When Restrictions Sustain Their Own Reasons* · [Working text](E019/original.md) · [History](E019/README.md)
+
+**E035 · Does allocating a scarce benefit rank the recipients' lives as wholes?**
+
+*What a Selection Establishes: Allocation Choice and Whole-Life Comparison* · [Working text](E035/original.md) · [History](E035/README.md)
+
+**E036 · Can rewarding disclosure penalize those promised privacy?**
+
+*No Penalty for Silence* · [Working text](selection-20261018/E036.md) · [History](E036/README.md)
+
+**E040 · When does a mistaken announcement change who actually holds authority?**
+
+*Institutional Error and Changes of Authority* · [Working text](E040/original.md) · [History](E040/README.md)
+
+**E052 · Who bears the loss when a board destroys the evidence needed for an appeal?**
+
+*What Survives a Lost Appeal?* · [Working text](E052/original.md) · [History](E052/README.md)
+
+**E055 · Can a person oversee a tool that filters out the objections they need to hear?**
+
+*Who Gets to Tell the Tool It Is Wrong?* · [Working text](selection-20261018/E055.md) · [History](E055/README.md)
+
+**E056 · Who must address an objection that falls between every reviewer's assignment?**
+
+*Who May Say the Review Is Finished?* · [Working text](E056/original.md) · [History](E056/README.md)
+
+**E063 · Why might a fair decision require keeping relevant information from the judge?**
+
+*Ignorance by Design: Deliberative Jurisdiction and the Modal Structure of Fair Judgment* · [Working text](E063/original.md) · [History](E063/README.md)
+
+**E073 · Who must address a procedure in which refusing disclosure reveals the secret?**
+
+*The Signal in Saying No: Confidentiality, Opt-Outs, and Design-First Responsibility* · [Working text](E073/original.md) · [History](E073/README.md)
+
+**E077 · How can privacy protect people without isolating them from others with the same complaint?**
+
+*Privacy Should Not Leave Us Alone* · [Working text](E077/original.md) · [History](E077/README.md)
+
+**E081 · When must an institution stop presenting an old claim as its current judgment?**
+
+*When an Institution Must Stop Speaking for a Claim* · [Working text](E081/original.md) · [History](E081/README.md)
+
+**E087 · What can a second vote fail to repair after dissatisfied members leave?**
+
+*What a Second Vote Cannot Repair* · [Working text](E087/original.md) · [History](E087/README.md)
+
+**E091 · What if permission to investigate requires the evidence the investigation would produce?**
+
+*Permission to Find the Objection* · [Working text](E091/original.md) · [History](E091/README.md)
+
+**E094 · How can a museum repair lost evidence without inventing ownership?**
+
+*Repairing Uncertainty Without Inventing Title* · [Working text](E094/original.md) · [History](E094/README.md)
+
+**F01 · How should a confidential service handle complaints it cannot settle from records?**
+
+*Answerability Without Surveillance* · [Working text](selection-20261018/F01.md) · [History](post-midterm/F01/README.md)
+
+**F06 · What must a trial policy preserve so that the public can genuinely reject it?**
+
+*Keeping Refusal Possible* · [Working text](selection-20261018/F06.md) · [History](post-midterm/F06/README.md)
+
+**S02 · Who may decide that the first approving citizens' assembly ends a consultation?**
+
+*Who Chooses the Last Citizens’ Assembly?* · [Working text](selection-20261018/S02.md) · [History](post-midterm/S02/README.md)
+
+<a id="repair"></a>
+
+## Responsibility, repair and forgiveness
+
+**E003 · Does refusing to undo a past crime make you as responsible as its author?**
+
+*Signing Beneath Someone Else's Crime* · [Working text](E003/original.md) · [History](E003/README.md) · [English reading translation](E003/translation.en.md)
+
+**E005 · Does a successful new conservation goal settle the loss of the old environment?**
+
+*A New Goal Does Not Settle an Old Loss* · [Working text](E005/original.md) · [History](E005/README.md)
+
+**E012 · Can compensation leave a duty to help someone defend against a later accusation?** **Human selection.**
+
+*When a Remedy Becomes Evidence* · [Working text](selection-20261018/E012.md) · [Final text](final-20261101/E012.md) · [History](E012/README.md)
+
+**E013 · What is wrong with blame that makes answering it impossible?**
+
+*When Blame Makes Answering Impossible* · [Working text](E013/original.md) · [History](E013/README.md)
+
+**E016 · Does making a good act less costly make it less admirable?**
+
+*Making Goodness Cheap: Cost, Character, and the Ethics of Relief* · [Working text](E016/original.md) · [History](E016/README.md)
+
+**E030 · Can discovering a new motive reveal something you never forgave?**
+
+*What Did You Forgive?* · [Working text](E030/original.md) · [History](E030/README.md)
+
+**E037 · Can a sincere apology misdescribe a wrong that has already been forgiven?**
+
+*Sincere, Forgiven, and Still Unacceptable* · [Working text](selection-20261018/E037.md) · [History](E037/README.md)
+
+**E038 · What must a correction undo when later reports repeat the original error?**
+
+*What a Correction Must Undo* · [Working text](E038/original.md) · [History](E038/README.md)
+
+**E045 · Can accepting an apology for yourself leave everyone else's claims open?**
+
+*One Apology Is Not Everyone’s Settlement* · [Working text](E045/original.md) · [History](E045/README.md)
+
+**E049 · When does promised restoration turn an existing duty into a bargaining chip?**
+
+*When Repair Becomes a Bargaining Chip* · [Working text](E049/original.md) · [History](E049/README.md)
+
+**E067 · Can you leave a friendship without denying your reasons for gratitude?**
+
+*Leaving Without Taking Back the Thanks* · [Working text](E067/original.md) · [History](E067/README.md)
+
+**E072 · Does adapting well to a loss justify the route that caused it?**
+
+*Recovery Without Vindication: Changing Desires and the Comparison That Matters* · [Working text](E072/original.md) · [History](E072/README.md)
+
+**E093 · What does an apology need to settle about a past wrong?**
+
+*Unfinished Wrongs: Apology and the Settlement of the Past* · [Working text](E093/original.md) · [History](E093/README.md)
+
+<a id="agency"></a>
+
+## Agency, consent and commitment
+
+**E001 · Can deliberately ceasing to care erase a reason to act?**
+
+*Keeping the Debt: The Limits of Historical Reasons* · [Working text](E001/original.md) · [History](E001/README.md)
+
+**E002 · Does welcoming a change in your preferences settle how someone changed you?**
+
+*Keeping the Change, Keeping the Claim* · [Working text](E002/original.md) · [History](E002/README.md)
+
+**E025 · When should thinking again change a decision without new information?**
+
+*When Thinking Again Is Not Enough* · [Working text](E025/original.md) · [History](E025/README.md)
+
+**E031 · What can retrospective consent change about an earlier wrong?**
+
+*What the Will Cannot Undo* · [Working text](E031/original.md) · [History](E031/README.md)
+
+**E042 · What obligations survive when a person cannot even represent the relevant possibility?**
+
+*Off the Map: Unawareness, Obligation, and the Duties That Survive It* · [Working text](E042/original.md) · [History](E042/README.md)
+
+**E043 · Can consent justify a situation shaped by the person who benefits from it?**
+
+*Baseline Capture* · [Working text](E043/original.md) · [History](E043/README.md)
+
+**E046 · How much uncertainty must a rational plan resolve?**
+
+*How Much Must a Rational Plan Settle?* · [Working text](E046/original.md) · [History](E046/README.md)
+
+**E047 · Does later approval validate a procedure designed to produce that approval?**
+
+*Who Gets to Declare the Transformation Complete?* · [Working text](selection-20261018/E047.md) · [History](E047/README.md)
+
+**E053 · Who must prepare for a carer's legitimate departure?**
+
+*Leaving Care Without Leaving People* · [Working text](E053/original.md) · [History](E053/README.md)
+
+**E057 · Can advance permission override a later competent refusal?**
+
+*Permission Is Not a Lock: Why Advance Authorization Cannot Override Competent Refusal* · [Working text](E057/original.md) · [History](E057/README.md)
+
+**E058 · What makes a bodily ability dependable enough to plan a life around?**
+
+*A Body One Can Plan With* · [Working text](E058/original.md) · [History](E058/README.md)
+
+**E076 · Can the value of further deliberation determine when deliberation should stop?**
+
+*Nothing to Maximise: Indeterminacy and Self-Ratification in Optimal Deliberation* · [Working text](E076/original.md) · [History](E076/README.md)
+
+**E078 · Who should bear the cost of keeping consent revocable?**
+
+*Revocable Consent and the Cost of Preserving Choice* · [Working text](selection-20261018/E078.md) · [History](E078/README.md)
+
+**E080 · How can a firm commitment preserve a usable route to changing your mind?**
+
+*Keeping a Way to Change Your Mind* · [Working text](E080/original.md) · [History](E080/README.md)
+
+**E088 · When has someone done enough to notify a partner that a joint activity is over?**
+
+*Leaving Together: When the Duty to Notify Is Complete* · [Working text](E088/original.md) · [History](E088/README.md)
+
+**E098 · When does being able to stop amount to control over an activity?**
+
+*Being Able to Stop* · [Working text](selection-20261018/E098.md) · [History](E098/README.md)
+
+<a id="language"></a>
+
+## Language, promises and communication
+
+**E007 · When does a true answer actually resolve a group's question?**
+
+*When an Answer Becomes the Group's Result* · [Working text](E007/original.md) · [History](E007/README.md)
+
+**E010 · Can a promise bind before its recipient accepts it?**
+
+*The Promisee’s Option: Why Some Promises Bind Before Uptake* · [Working text](E010/original.md) · [History](E010/README.md)
+
+**E018 · How can an accepted promise bind without anyone relying on it?**
+
+*A Right Without Reliance: How an Accepted Promise Can Bind* · [Working text](E018/original.md) · [History](E018/README.md)
+
+**E020 · What does a speaker owe an audience whose interpretation they use?**
+
+*What a Speaker Owes to an Interpretation They Use* · [Working text](E020/original.md) · [History](E020/README.md)
+
+**E021 · What responsibilities arise when you ask someone a question?**
+
+*Asking Makes You Answerable: The Question as a Normative Power* · [Working text](E021/original.md) · [History](E021/README.md)
+
+**E027 · Does proving what you meant settle what others may fairly expect?**
+
+*Being Right About What You Meant* · [Working text](E027/original.md) · [History](E027/README.md)
+
+**E059 · Why can a request be easy to refuse but wrong to ignore?**
+
+*What Asking Does: Requests, Answerability, and the Deliberative Agenda* · [Working text](E059/original.md) · [History](E059/README.md)
+
+**E060 · What must a truthful intermediary preserve to make later corrections usable?**
+
+*What a Truthful Relay Can Owe Its Audience* · [Working text](E060/original.md) · [History](E060/README.md)
+
+**E071 · What does an envoy still control when the mission itself is compulsory?**
+
+*What the Envoy Still Controls: Delegated Speech in the Zi Gao Episode* · [Working text](E071/original.md) · [History](E071/README.md)
+
+**F04 · Does denying a promise cancel it, or merely change how its claim can be pursued?**
+
+*After Agreement Ends: What Denial Can Change* · [Working text](selection-20261018/F04.md) · [History](post-midterm/F04/README.md)
+
+<a id="identity"></a>
+
+## Identity, time and metaphysics
+
+**E006 · What does a temporarily merged person owe the people who will separate from them?**
+
+*The Duty of the Only Person* · [Working text](E006/original.md) · [History](E006/README.md) · [English reading translation](E006/translation.en.md)
+
+**E022 · Can a finite classification chart misrepresent an acyclic dependence structure?**
+
+*When Every Finite Classification Chart Contains a Circle* · [Working text](E022/original.md) · [History](E022/README.md)
+
+**E026 · Does an artwork's branching provenance determine its personal chronology?**
+
+*What an Artwork’s Provenance Does Not Determine about Its Personal Time* · [Working text](E026/original.md) · [History](E026/README.md)
+
+**E028 · Can a later duplicate determine whether someone survived an earlier transition?**
+
+*Can Tomorrow Cancel Yesterday's Survival?* · [Working text](E028/original.md) · [History](E028/README.md)
+
+**E062 · Can an endless life compensate for opportunities that never return?**
+
+*What Eternity Cannot Make Up For* · [Working text](E062/original.md) · [History](E062/README.md)
+
+**E069 · Can reassembling discarded parts change whether a repaired table already survived?**
+
+*When Old Parts Become a Second Table* · [Working text](E069/original.md) · [History](E069/README.md)
+
+**F03 · What can correcting a linguistic error establish about a judgment of essence?**
+
+*Errors, Repairs, and Evidence about Essence* · [Working text](selection-20261018/F03.md) · [History](post-midterm/F03/README.md)
+
+<a id="mind"></a>
+
+## Mind, memory and introspection
+
+**E051 · Can memory reveal a difference without reproducing the earlier experience?** **Human selection.**
+
+*Difference without Reconstruction* · [Working text](E051/original.md) · [Final text](final-20261101/E051.md) · [History](E051/README.md)
+
+**E089 · What can introspection tell us about an experience it may have changed?**
+
+*What Introspection Preserves* · [Working text](E089/original.md) · [History](E089/README.md)
+
+**F05 · What can an altered experience reveal about the experience before inspection?**
+
+*Knowing the Experience You Changed* · [Working text](selection-20261018/F05.md) · [History](post-midterm/F05/README.md)
+
+<a id="art"></a>
+
+## Art, attention and interpretation
+
+**E034 · What happens when interpreting an unfinished story creates a determinate world?**
+
+*The Man Who Was Not in the Letter* · [Working text](E034/original.md) · [History](E034/README.md) · [English reading translation](E034/translation.en.md)
+
+**E041 · What can a spoiler take away even when it improves enjoyment?**
+
+*What Foreknowledge Can Take Away* · [Working text](selection-20261018/E041.md) · [History](E041/README.md)
+
+**E054 · What can a good explanation prevent an audience from checking for itself?**
+
+*What a Good Explanation Can Prevent Us from Checking* · [Working text](E054/original.md) · [History](E054/README.md)
+
+**E084 · When does familiarity support listening, and when does memory replace it?**
+
+*Listening Again Without Listening Less* · [Working text](E084/original.md) · [History](E084/README.md)
+
+**E095 · Can an unsuccessful second viewing count against a critic's advice?**
+
+*What a Second Look Can Refute* · [Working text](E095/original.md) · [History](E095/README.md)
+
+**E100 · Can preserving an artwork destroy the ending that makes it work?**
+
+*The Museum of the Last Second* · [Working text](selection-20261018/E100.md) · [History](E100/README.md) · [English reading translation](E100/translation.en.md)
+
+<a id="faith"></a>
+
+## Faith and religious practice
+
+**E064 · When does trying a religious practice amount to making a promise?**
+
+*When Trying a Ritual Becomes a Promise* · [Working text](E064/original.md) · [History](E064/README.md)
+
+**E074 · Can participation support a faith when only believers count as competent witnesses?**
+
+*When Only Believers Count: Faith and the Evidence of Participation* · [Working text](selection-20261018/E074.md) · [History](E074/README.md)
+
+**E086 · When belief helps a project succeed, what checking must participation preserve?**
+
+*The Inquiry Inside an Invitation to Faith* · [Working text](selection-20261018/E086.md) · [History](E086/README.md)
+

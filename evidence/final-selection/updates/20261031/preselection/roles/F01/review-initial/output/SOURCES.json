@@ -1,0 +1,81 @@
+{
+  "role": "F01/review-initial",
+  "logged_at_utc": "2026-10-18T00:12:00.714420+00:00",
+  "scope": "Targeted checks of four cited primary works; no broad literature or novelty search.",
+  "sources": [
+    {
+      "id": "S1",
+      "author": "John Gardner",
+      "title": "What is Tort Law For? Part 1. The Place of Corrective Justice",
+      "url": "https://johngardnerathome.info/pdfs/corrective.pdf",
+      "version": "author eprint of 2011 article",
+      "location": "§5, typescript pp.37–38, n.53; PDF pages 38–39 counting cover as page 1",
+      "checked_claim": "Подготовительные действия могут быть разумными, но по отдельности необязательными; оговорка касается необходимых и достаточных средств.",
+      "finding": "Подтверждено. Источник не выводит конкретную обязанность создать процедуру жалоб; рукопись это прямо признаёт.",
+      "scope": "Прочитаны указанные страницы и ближайший контекст; весь труд и издательская версия не проверялись.",
+      "access_logged_at_utc": "2026-10-18T00:12:00.714420+00:00",
+      "access_method": "web tool, primary-source PDF text",
+      "archived_excerpt": "SOURCE_EXCERPTS.txt#S1",
+      "access_time_note": "Timestamp records completed access checks in this session, not the original website publication time."
+    },
+    {
+      "id": "S2",
+      "author": "Ariel Porat and Alex Stein",
+      "title": "Liability Under Uncertainty: Evidential Deficiency and the Law of Torts",
+      "url": "https://escholarship.org/content/qt2db3b43m/qt2db3b43m.pdf",
+      "version": "1999 repository draft",
+      "location": "IV(a), p.37 and n.92; pp.38–40; V(d), pp.58–59; VI(b), pp.77–78",
+      "checked_claim": "Авторы обсуждают специальные обязанности сохранять и создавать доказательства, рассматривают безвиновную ответственность, предпочитают небрежность и трактуют не связанный с небрежностью пробел как взаимный риск.",
+      "finding": "Проверенные места подтверждают пересказ. Рукопись не приписывает авторам простую теорию только умышленного уничтожения доказательств и допускает, что их подход может вместить её результат.",
+      "scope": "Выборочная проверка названных мест, не полная экспертиза теории или истории её применения.",
+      "access_logged_at_utc": "2026-10-18T00:12:00.714420+00:00",
+      "access_method": "web tool, primary-source PDF text",
+      "archived_excerpt": "SOURCE_EXCERPTS.txt#S2",
+      "access_time_note": "Timestamp records completed access checks in this session, not the original website publication time."
+    },
+    {
+      "id": "S3",
+      "author": "Helen Nissenbaum",
+      "title": "Accountability in a Computerized Society",
+      "url": "https://nissenbaum.tech.cornell.edu/papers/accountability.pdf",
+      "version": "author-hosted reflowed PDF",
+      "location": "Distinguishing Accountability from Liability; Strict Liability and Producer Responsibility; displayed pp.13–16, PDF pages 13–16",
+      "checked_claim": "Денежная ответственность не исчерпывает ответ за поступок; строгая ответственность убирает условие вины, сохраняя причинную связь.",
+      "finding": "Проверенные различия переданы верно. Из этого общего различения ещё не следует обязанность разбирать содержание каждой мелкой денежной жалобы после её полного удовлетворения.",
+      "scope": "Проверены различение ответственности и компенсации и условие причинной связи. Отдельная атрибуция о контроле производителя и отказах от ответственности не проверялась заново.",
+      "access_logged_at_utc": "2026-10-18T00:12:00.714420+00:00",
+      "access_method": "web tool, primary-source PDF text",
+      "archived_excerpt": "SOURCE_EXCERPTS.txt#S3",
+      "access_time_note": "Timestamp records completed access checks in this session, not the original website publication time."
+    },
+    {
+      "id": "S4",
+      "author": "Judith Jarvis Thomson",
+      "title": "Liability and Individualized Evidence",
+      "url": "https://www.marcellodibello.com/mathtrial/resources/ThomsonIndEvidence1986.pdf",
+      "version": "copy of 1986 primary article",
+      "location": "§III, journal pp.202–205; nearby opening of §IV, p.206",
+      "checked_claim": "Индивидуализированное свидетельство не тождественно окончательному доказательству и может включать статистические данные с надлежащей причинной связью.",
+      "finding": "Пересказ обсуждения в целом верен. Источник не устанавливает, что выплата по программе защиты от неопределённости никогда не несёт сведений о возможном нарушении.",
+      "scope": "Проверены §III и начало §IV; не весь текст. Контрпример к выводу рукописи построен рецензентом, а не взят у Thomson.",
+      "access_logged_at_utc": "2026-10-18T00:12:00.714420+00:00",
+      "access_method": "web tool, primary-source PDF text",
+      "archived_excerpt": "SOURCE_EXCERPTS.txt#S4",
+      "access_time_note": "Timestamp records completed access checks in this session, not the original website publication time."
+    }
+  ],
+  "not_rechecked": [
+    {
+      "work": "Nissenbaum 2004, Privacy as Contextual Integrity",
+      "reason": "Рукопись прямо задаёт запрет записи как условие вымышленного случая, не выводя его из источника. Его цитата служит фоном; полной проверки не заявляю."
+    },
+    {
+      "work": "Stein 2008, On the Epistemic Authority of Courts",
+      "reason": "Используется только для ограничения притязания на новизну и с явной оговоркой о доступе к аннотации. Не является посылкой собственного вывода; метаданные и аннотация заново не проверялись."
+    },
+    {
+      "work": "Lambrecht 2026, Epistemic Reparations and a Hybrid Theory of Reparative Justice",
+      "reason": "Сравнение соседнего подхода не несёт основной вывод; заново не проверено. Это ограничение проверки, не подтверждение атрибуции."
+    }
+  ]
+}

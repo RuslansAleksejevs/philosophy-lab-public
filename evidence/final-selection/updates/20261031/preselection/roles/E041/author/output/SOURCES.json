@@ -1,0 +1,138 @@
+{
+  "role": "E041/author",
+  "recorded_at_utc": "2026-10-18T01:42:58.864286+00:00",
+  "sources": [
+    {
+      "id": "AUSTEN",
+      "author": "Jane Austen",
+      "title": "Emma",
+      "url": "https://www.gutenberg.org/files/158/158-h/158-h.htm",
+      "locator": "Volume I, chapters VI, XV–XVI; web extraction lines 330–380, 1162, 1169–1208",
+      "read_extent": "Selected passages of the primary novel, not whole novel",
+      "access_method": "web.open and web.find: readable primary text",
+      "observed_at_utc_interval": [
+        "2026-10-18T01:36:28Z",
+        "2026-10-18T01:39:01Z"
+      ],
+      "excerpt_file": "sources/AUSTEN-excerpt.txt",
+      "excerpt_locator": "Volume I, chapter XV; web extraction line 1162",
+      "supports": "Elton’s proposal overturns Emma’s account; chapters VI and XVI allow comparison of the earlier portrait scene and later reconsideration.",
+      "limitations": "The manuscript’s account of possible reader participation is an interpretation, not documented audience data. The novel gives advance clues; it does not deceive every attentive reader.",
+      "excerpt_sha256": "190347233e538ff6064b54bbb2179b890cfd5da40af3f78cfd8d6582ab15ff45"
+    },
+    {
+      "id": "FISH",
+      "author": "Stanley Fish",
+      "title": "Literature in the Reader: Affective Stylistics",
+      "url": "https://affecthistory.com/wp-content/uploads/2022/01/el-fish-literature-in-the-reader.pdf",
+      "publication_url": "https://www.jstor.org/stable/468593",
+      "locator": "Reprint pp.86–88; PDF page index 8–9. Relevant extraction lines 2506–2613 and 2812–2886.",
+      "read_extent": "Bounded primary passages, including the distinction between description and evaluation; not full article",
+      "access_method": "web.open and web.find: fragmented OCR of scan. Page marker 86 independently visible in extracted text.",
+      "observed_at_utc_interval": [
+        "2026-10-18T01:36:28Z",
+        "2026-10-18T01:42:58.864286+00:00"
+      ],
+      "excerpt_file": "sources/FISH-excerpt.txt",
+      "excerpt_locator": "Reprint p.86; PDF page index 8; exact OCR fragments, extraction lines 2604–2609",
+      "supports": "Temporary failed interpretations remain part of the reading event rather than disappearing when final understanding arrives.",
+      "limitations": "OCR splits words and contains artifacts. The excerpt is retained exactly as returned; the manuscript paraphrases it. Fish’s descriptive proposal does not establish the revision’s evaluative premise. No clean full-text retrieval or screenshot inspection is claimed.",
+      "excerpt_sha256": "ece36c842413a66c10bd54d0981f17b16d5460c2550620c5604e1b65e806fefd"
+    },
+    {
+      "id": "ISER",
+      "author": "Wolfgang Iser",
+      "title": "The Reading Process: A Phenomenological Approach",
+      "url": "https://ctlsites.uga.edu/eberle/wp-content/uploads/sites/78/2017/08/iser_readingProcess.pdf",
+      "locator": "New Literary History 3(2), 1972, pp.279–299; passages pp.287 and 296",
+      "read_extent": "Indexed primary-page extracts at pp.287 and 296; not complete PDF",
+      "access_method": "web.search_query primary PDF extracts; direct web.open failed",
+      "observed_at_utc_interval": [
+        "2026-10-18T01:37:24Z",
+        "2026-10-18T01:39:01Z"
+      ],
+      "excerpt_file": "sources/ISER-excerpt.txt",
+      "excerpt_locator": "p.296, section V; line break preserved from primary PDF search extract",
+      "supports": "Anticipation and retrospection, and reader participation in the organization of a text, are close predecessors of the present idea.",
+      "limitations": "p.287 extract has truncated line endings. Only readable claims are used. This is not full-literature coverage or a priority determination.",
+      "excerpt_sha256": "3dcd622658750deb73fe9550c90dbfe90ed5f11da149ff9c4633a5aba538ac58"
+    },
+    {
+      "id": "LEVY",
+      "author": "Neil Levy",
+      "title": "The Real Spoilers Puzzle",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/29960126.2025.2527423",
+      "publication_url": "https://doi.org/10.1080/29960126.2025.2527423",
+      "locator": "Sections 1 and 3 of publisher text; issue 2026, volume 1(1), pp.1–11; online 2025",
+      "read_extent": "Publisher-page indexed text of sections 1–3 and visible notes; not full publisher PDF",
+      "access_method": "web.search_query returned substantial publisher primary text; direct open returned 403/internal errors",
+      "observed_at_utc_interval": [
+        "2026-10-18T01:36:28Z",
+        "2026-10-18T01:39:01Z"
+      ],
+      "excerpt_file": "sources/LEVY-excerpt.txt",
+      "excerpt_locator": "Section 3, paragraph beginning “The thought experiment suggests”",
+      "supports": "Autonomy account; section 1 also concedes twist and puzzle cases. The revision addresses a separate ground of regret, not a wholesale refutation.",
+      "limitations": "Empirical studies discussed by Levy were not separately audited and are not asserted as independent findings in the essay. Full PDF was not retrieved.",
+      "excerpt_sha256": "98ca6bf7f142c447a440d1e12f31f14a086231f3f8b56e7bfef7557aadda27f0"
+    },
+    {
+      "id": "CHASID",
+      "author": "Alon Chasid",
+      "title": "The Spoilers Puzzle",
+      "url": "https://philarchive.org/archive/CHATSP-14",
+      "publication_url": "https://doi.org/10.1093/analys/anae073",
+      "locator": "Penultimate manuscript, abstract and p.13",
+      "read_extent": "Primary author-manuscript indexed extracts; not full final publication",
+      "access_method": "web.search_query; direct web.open failed",
+      "observed_at_utc_interval": [
+        "2026-10-18T01:36:28Z",
+        "2026-10-18T01:39:01Z"
+      ],
+      "excerpt_file": "sources/CHASID-excerpt.txt",
+      "excerpt_locator": "Penultimate manuscript p.13, final visible paragraph",
+      "supports": "Distinction between known fictional truths and what current narration presents as true; imagining remains possible despite possible disruption.",
+      "limitations": "Attribution is explicitly to the penultimate manuscript. Final published wording and pp.10–15 as a whole were not checked.",
+      "excerpt_sha256": "3f9d3e12c6ad9a6bd8b128a9d019d3a8e5bb5989d4da8945bac09c216556254e"
+    },
+    {
+      "id": "NGUYEN",
+      "author": "C. Thi Nguyen",
+      "title": "Autonomy and Aesthetic Engagement",
+      "url": "https://philpapers.org/archive/NGUAAA.pdf",
+      "publication_url": "https://doi.org/10.1093/mind/fzz054",
+      "locator": "Author manuscript abstract; supplementary indexed extracts at pp.6, 10, 12",
+      "read_extent": "Selected primary author-manuscript extracts; not complete paper",
+      "access_method": "web.search_query; direct web.open failed",
+      "observed_at_utc_interval": [
+        "2026-10-18T01:36:28Z",
+        "2026-10-18T01:39:01Z"
+      ],
+      "excerpt_file": "sources/NGUYEN-excerpt.txt",
+      "excerpt_locator": "Author manuscript abstract, p.1",
+      "supports": "General precedent for valuing interpretive activity rather than only correct judgments.",
+      "limitations": "The new attribution is limited to the verified general thesis. The original specific attribution about helpful guidance was not independently recovered and is no longer asserted as Nguyen’s claim; the essay retains its own argument about assistance.",
+      "excerpt_sha256": "4171300f1f403f345c133e0d74ac72821b84b0d24b3e0734898f7e8f023255dc"
+    }
+  ],
+  "local_source_artifacts_read": [],
+  "local_packet_inputs_read": [
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/final-preselection-20261017/roles/E041/author/input/TASK_RU.txt",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/final-preselection-20261017/roles/E041/author/input/manuscript.md",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/final-preselection-20261017/roles/E041/author/input/evidence-02-CASE_RU.txt",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/final-preselection-20261017/roles/E041/author/input/evidence-03-CASE_METADATA.json"
+  ],
+  "scope": "Primary passages supporting revision. Not a full literature audit or novelty certificate.",
+  "access_failures": {
+    "local_download_attempts": "sources/retrieval-attempts.json; all six failed at DNS resolution and retained no PDF/HTML snapshots",
+    "web_open_failed": [
+      "Oxford ORA Levy item",
+      "Taylor & Francis Levy PDF and later HTML open",
+      "PhilPapers and PhilArchive Chasid/Nguyen direct PDFs",
+      "University of Georgia Iser PDF",
+      "Oxford Academic article URL attempts"
+    ],
+    "web_screenshot_attempt": "Fish PDF pages 0 and 8 returned reference strings only in this tool surface; no image inspection is claimed"
+  },
+  "source_assertion_boundary": "Accessed source excerpts above are exact tool-returned text. Comments and interpretations are the author’s own and are not quotations. Approximate access intervals are bounded by observed UTC clock calls and local recording time."
+}

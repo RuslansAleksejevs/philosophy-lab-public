@@ -1,0 +1,65 @@
+{
+  "schema": "pair-summary-tests.v1",
+  "status": "PASS_SYNTHETIC_PREPARATION_ONLY",
+  "created_at": "2026-10-19T06:11:22.593935+00:00",
+  "tests_run": 9,
+  "tests": [
+    "test_full50_maps_reversed_A_B_and_preserves_every_dissent",
+    "test_missing_or_nonaccepted_review_emits_no_partial_summary",
+    "test_changed_bound_response_or_capture_blocks_summary",
+    "test_identity_incomplete_reading_and_ref_schema_are_checked",
+    "test_duplicate_session_cannot_add_vote",
+    "test_extra_physical_attempt_and_unbound_file_rejected",
+    "test_frozen_A_B_queue_cannot_change",
+    "test_invalid_pair_mapping_rejected_even_when_fixture_rebound",
+    "test_outputs_new_only_and_partial_has_coverage_only"
+  ],
+  "failures": 0,
+  "errors": 0,
+  "elapsed_seconds_observed": 2.682,
+  "scope": "Synthetic50 reviews from10 generated fixture pairs, temporary local files only. Checks reversed A/B mapping, all original responses and dissent, separate3N2J counts, strict refusal of partial/nonaccepted/changed evidence, schema references, missing reading/identity, duplicate SID, extra attempt, immutable outputs. No actual models/archive/network/collector calls or actual review/manuscript reads.",
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/pair-preparation/summarize_pairs.py",
+      "sha256": "75a824df49433047784459dc5d2906c368382214f2b432222e30850526c0f5cb",
+      "bytes": 15240
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-preparation/test_summarize_pairs.py",
+      "sha256": "c0f6494ebb2b89b9b75e9084243b857b92a194c73abeec87d2abffc55a64a383",
+      "bytes": 10652
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-preparation/PAIR_SUMMARY_USAGE_RU.txt",
+      "sha256": "aec248202a0fb33822906540e84a1a91e8027901f3b80e812993145c73f666d2",
+      "bytes": 5677
+    }
+  ],
+  "existing_read_only_dependencies": [
+    {
+      "path": "runs/final-selection-20261018/runner.py",
+      "sha256": "a63c715d89235c10fb00e89befa0e8a73eef9792584ab4a52bcc51b762e900df",
+      "bytes": 40033
+    },
+    {
+      "path": "runs/final-selection-20261018/summary-preparation/summarize_reviews.py",
+      "sha256": "b029ece0a56738a56235fd82db73e80f8703b2527e8b863fdd955472a3b06c6b",
+      "bytes": 18571
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-preparation/test_prepare_pairs.py",
+      "sha256": "065d80cf8caf2b367f584c024e5b62fe3d7939b76b500042a72b18d1d02e39c7",
+      "bytes": 10818
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-preparation/prepare_pairs.py",
+      "sha256": "670bacbe4540c62f5a64b74f01704b7864fd5c6b3aa08cb05c550cc4dd4d768d",
+      "bytes": 16064
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-preparation/pair-schema.template.json",
+      "sha256": "3a14e9ca1f4a119c9b1225310a0bfe65c068f752c2a087f38b7f3c642f5c89b2",
+      "bytes": 1538
+    }
+  ]
+}

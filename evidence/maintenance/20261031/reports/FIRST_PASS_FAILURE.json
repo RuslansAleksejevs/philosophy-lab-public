@@ -1,0 +1,13 @@
+{
+  "status": "SOURCE_CURSORS_PRESERVED_VIEW_REFRESH_FAILED",
+  "recorded_at": "2026-10-31T07:56:44.506201+00:00",
+  "command": "python3 -B scripts/collector.py collect-once",
+  "exit_code": 1,
+  "error": "ArchiveError: invalid Codex original envelope: event-3ef002a8d70345f0afd3104502077084",
+  "source_cursors_with_repaired_reader_signature": 3355,
+  "last_committed_cursor_at": "2026-10-31T07:29:12.225273+00:00",
+  "failed_raw_event_path": "research/archive/events/000000447357.json",
+  "diagnosis": "Old accepted raw record has a metadata shape unsupported by the current visible-envelope classifier. The display renderer raised instead of recording a display gap. Durable source cursors and original objects remain preserved.",
+  "renderer_repair_sha256": "7244cf0cd8e3fec51cf46a60c43b0defd32d99ad31b04e5ff77294bd445e3a84",
+  "boundary": "The failed process did not publish its final per-session operational report. Durable cursor counts do not replace the required successful follow-up service check."
+}

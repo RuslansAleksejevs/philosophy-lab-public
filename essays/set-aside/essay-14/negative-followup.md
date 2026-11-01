@@ -1,0 +1,8 @@
+# Additional precise test before negative closure
+
+After the first five directions failed, Candidate F tested Malfatti's section 3.2 claim that the child's failure to understand why faulty wiring caused a fire has a purely semantic diagnosis. The candidate would construct a learner who can identify faulty wiring, understand the report, and yet lack the causal mechanism. The intended inference was that semantic uptake and explanatory understanding have separable requirements.
+
+The targeted search immediately found a direct antecedent: Insa Lawler, Understanding why, knowing why, and cognitive achievements, Synthese 196 (2019), 4583–4603, DOI 10.1007/s11229-017-1672-9. Primary author manuscript §5.2, pp.16–20, read via ResearchGate text (sources/read15.txt). Lawler directly answers semantic objections from Sliwa and Grimm, explicitly requiring minimal grasp of the terms while allowing ignorance of the particular explanatory mechanism. She also distinguishes general causal knowledge from particular counterfactual knowledge and addresses overdetermination. The minimal-pair proposal has no identified new argumentative step beyond Lawler. SET_ASIDE remains appropriate.
+
+Actual extra queries: \"Malfatti\" \"semantic\" \"child\"; \"faulty wiring\" \"semantic\" understanding; \"Pritchard\" \"faulty wiring\" understanding pdf; \"Understanding why, knowing why, and cognitive achievements\" author; \"Understanding why, knowing why\" Lawler pdf. Exact returned evidence: sources/search12.txt, read13.txt (failed CORE open), read14.txt (search/open), read15.txt (targeted primary text). Coverage: excerpt, never full paper.
+

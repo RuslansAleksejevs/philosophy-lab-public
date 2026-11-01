@@ -1,0 +1,253 @@
+{
+  "status": "READ_ONLY_TIMING_DECOMPOSITION",
+  "sample_count": 30,
+  "prepublish_batch_prepare_seconds": {
+    "min": 2.118878,
+    "median": 2.9774775,
+    "max": 6.053909,
+    "mean": 3.5059139999999998
+  },
+  "interpretation": "Cursor committed_at is set before append_many. Coverage recorded_at is set while validating the final event before _publish loop. Difference includes preparation, whole-state delivery map rebuild, event hashing/checking and scheduling, but excludes canonical event publication/fsync for this batch. It is not Python line profiling.",
+  "sample": [
+    {
+      "session_id": "01a088ba-b70b-7cb2-aa42-f6385b603d81",
+      "source_lines": 78,
+      "source_bytes": 448257,
+      "new_event_count": 31,
+      "interval_since_previous_seconds": 5.760082,
+      "prepublish_batch_prepare_seconds": 2.868357
+    },
+    {
+      "session_id": "01a088bf-43e0-7513-8cb0-f6c4a4550364",
+      "source_lines": 80,
+      "source_bytes": 468078,
+      "new_event_count": 31,
+      "interval_since_previous_seconds": 6.268325,
+      "prepublish_batch_prepare_seconds": 2.434518
+    },
+    {
+      "session_id": "01a088c0-5384-7383-94d6-59118f9fee21",
+      "source_lines": 72,
+      "source_bytes": 505169,
+      "new_event_count": 27,
+      "interval_since_previous_seconds": 6.130583,
+      "prepublish_batch_prepare_seconds": 2.609093
+    },
+    {
+      "session_id": "01a08a33-c94c-7a83-97e1-1aab40c6ef15",
+      "source_lines": 363,
+      "source_bytes": 1372935,
+      "new_event_count": 128,
+      "interval_since_previous_seconds": 10.971684,
+      "prepublish_batch_prepare_seconds": 4.401897
+    },
+    {
+      "session_id": "01a08a33-df80-7813-ac36-54b9ec4bd6c8",
+      "source_lines": 351,
+      "source_bytes": 1178024,
+      "new_event_count": 131,
+      "interval_since_previous_seconds": 9.832273,
+      "prepublish_batch_prepare_seconds": 4.204105
+    },
+    {
+      "session_id": "01a08a33-f248-7d83-9b40-ee264a7ee644",
+      "source_lines": 350,
+      "source_bytes": 1256253,
+      "new_event_count": 131,
+      "interval_since_previous_seconds": 10.353982,
+      "prepublish_batch_prepare_seconds": 5.235599
+    },
+    {
+      "session_id": "01a08a3a-95a8-7210-bce4-0e3bf609d689",
+      "source_lines": 296,
+      "source_bytes": 1067058,
+      "new_event_count": 112,
+      "interval_since_previous_seconds": 9.434776,
+      "prepublish_batch_prepare_seconds": 4.613956
+    },
+    {
+      "session_id": "01a08a3b-53c4-7413-b002-45cbab7bda2b",
+      "source_lines": 348,
+      "source_bytes": 1190316,
+      "new_event_count": 134,
+      "interval_since_previous_seconds": 9.64945,
+      "prepublish_batch_prepare_seconds": 4.29284
+    },
+    {
+      "session_id": "01a08a3b-ab00-7582-8414-b316f853ce55",
+      "source_lines": 373,
+      "source_bytes": 1250307,
+      "new_event_count": 141,
+      "interval_since_previous_seconds": 9.688464,
+      "prepublish_batch_prepare_seconds": 4.316018
+    },
+    {
+      "session_id": "01a08a40-e05e-7c51-b5a2-f4f98b7c5206",
+      "source_lines": 351,
+      "source_bytes": 1254572,
+      "new_event_count": 136,
+      "interval_since_previous_seconds": 8.811555,
+      "prepublish_batch_prepare_seconds": 6.053909
+    },
+    {
+      "session_id": "01a08a42-dab3-7222-ac84-f0ac08d91a3d",
+      "source_lines": 255,
+      "source_bytes": 935840,
+      "new_event_count": 100,
+      "interval_since_previous_seconds": 10.330607,
+      "prepublish_batch_prepare_seconds": 2.825472
+    },
+    {
+      "session_id": "01a08a43-6048-7883-9006-2f77248974cf",
+      "source_lines": 337,
+      "source_bytes": 1070262,
+      "new_event_count": 132,
+      "interval_since_previous_seconds": 8.522205,
+      "prepublish_batch_prepare_seconds": 4.487723
+    },
+    {
+      "session_id": "01a08a48-218c-7053-acc8-8fd99a5648c1",
+      "source_lines": 278,
+      "source_bytes": 1058452,
+      "new_event_count": 107,
+      "interval_since_previous_seconds": 8.816037,
+      "prepublish_batch_prepare_seconds": 3.868437
+    },
+    {
+      "session_id": "01a08a48-57a2-7543-b772-d692434b0bbe",
+      "source_lines": 318,
+      "source_bytes": 1089180,
+      "new_event_count": 119,
+      "interval_since_previous_seconds": 8.668555,
+      "prepublish_batch_prepare_seconds": 4.212663
+    },
+    {
+      "session_id": "01a08a49-6487-78e3-850e-be6f9482112d",
+      "source_lines": 338,
+      "source_bytes": 1157982,
+      "new_event_count": 131,
+      "interval_since_previous_seconds": 7.721637,
+      "prepublish_batch_prepare_seconds": 4.121651
+    },
+    {
+      "session_id": "01a08a4d-72b6-7142-ad4e-e8f08c69b07c",
+      "source_lines": 382,
+      "source_bytes": 1400336,
+      "new_event_count": 140,
+      "interval_since_previous_seconds": 8.919544,
+      "prepublish_batch_prepare_seconds": 4.591123
+    },
+    {
+      "session_id": "01a08a4e-b8a6-78f1-a821-ff0bac4f5ac9",
+      "source_lines": 324,
+      "source_bytes": 1165216,
+      "new_event_count": 122,
+      "interval_since_previous_seconds": 7.561401,
+      "prepublish_batch_prepare_seconds": 4.58203
+    },
+    {
+      "session_id": "01a08a4f-2a1c-7fe1-a4a9-8706bd7d3f68",
+      "source_lines": 174,
+      "source_bytes": 743069,
+      "new_event_count": 68,
+      "interval_since_previous_seconds": 9.199727,
+      "prepublish_batch_prepare_seconds": 2.572157
+    },
+    {
+      "session_id": "01a08a54-7265-7d73-862d-5e6725c9552d",
+      "source_lines": 177,
+      "source_bytes": 767804,
+      "new_event_count": 68,
+      "interval_since_previous_seconds": 7.723894,
+      "prepublish_batch_prepare_seconds": 2.118878
+    },
+    {
+      "session_id": "01a08a54-bfc1-75a1-8139-51759fa40b90",
+      "source_lines": 205,
+      "source_bytes": 802613,
+      "new_event_count": 76,
+      "interval_since_previous_seconds": 7.694198,
+      "prepublish_batch_prepare_seconds": 3.103621
+    },
+    {
+      "session_id": "01a08a55-4928-7ae1-8003-d01862705305",
+      "source_lines": 184,
+      "source_bytes": 762831,
+      "new_event_count": 76,
+      "interval_since_previous_seconds": 6.767616,
+      "prepublish_batch_prepare_seconds": 2.919933
+    },
+    {
+      "session_id": "01a08a5a-a5a9-74a3-ac63-8d8ecfca1b04",
+      "source_lines": 231,
+      "source_bytes": 928428,
+      "new_event_count": 82,
+      "interval_since_previous_seconds": 6.200968,
+      "prepublish_batch_prepare_seconds": 2.801725
+    },
+    {
+      "session_id": "01a08a5b-a767-73c0-9f0b-7f0101ce7f2b",
+      "source_lines": 195,
+      "source_bytes": 721710,
+      "new_event_count": 74,
+      "interval_since_previous_seconds": 6.00839,
+      "prepublish_batch_prepare_seconds": 2.683501
+    },
+    {
+      "session_id": "01a08a5c-064d-7d81-86df-5158c4e788f2",
+      "source_lines": 90,
+      "source_bytes": 478295,
+      "new_event_count": 34,
+      "interval_since_previous_seconds": 6.043979,
+      "prepublish_batch_prepare_seconds": 2.925977
+    },
+    {
+      "session_id": "01a08a61-ff66-77f0-8833-154add3d6dd9",
+      "source_lines": 74,
+      "source_bytes": 475880,
+      "new_event_count": 29,
+      "interval_since_previous_seconds": 6.212846,
+      "prepublish_batch_prepare_seconds": 2.728244
+    },
+    {
+      "session_id": "01a08a62-4d36-78c2-bfc3-96f824aff0b2",
+      "source_lines": 95,
+      "source_bytes": 495064,
+      "new_event_count": 36,
+      "interval_since_previous_seconds": 5.71854,
+      "prepublish_batch_prepare_seconds": 2.887187
+    },
+    {
+      "session_id": "01a08a63-fd5e-71b1-8654-29218c0bd90c",
+      "source_lines": 77,
+      "source_bytes": 501422,
+      "new_event_count": 29,
+      "interval_since_previous_seconds": 6.058453,
+      "prepublish_batch_prepare_seconds": 3.028978
+    },
+    {
+      "session_id": "01a08a68-829a-7112-ac86-a3b59be8252d",
+      "source_lines": 83,
+      "source_bytes": 512357,
+      "new_event_count": 30,
+      "interval_since_previous_seconds": 6.17021,
+      "prepublish_batch_prepare_seconds": 2.726355
+    },
+    {
+      "session_id": "01a08a6a-6c41-7442-bdd4-36e83546f405",
+      "source_lines": 84,
+      "source_bytes": 502784,
+      "new_event_count": 31,
+      "interval_since_previous_seconds": 5.470795,
+      "prepublish_batch_prepare_seconds": 2.833545
+    },
+    {
+      "session_id": "01a08a6a-cf45-71a2-b1ae-9b3bc11a9361",
+      "source_lines": 82,
+      "source_bytes": 509847,
+      "new_event_count": 32,
+      "interval_since_previous_seconds": 7.546678,
+      "prepublish_batch_prepare_seconds": 2.127928
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "role": "F02/review-initial",
+  "status": "PASS",
+  "validated_at_utc": "2026-10-18T00:13:56.933416+00:00",
+  "input_sha256": "76d5c28417d5b87baebe2640a1636312d3a5f4ee69ab57c1486320e0a81148c9",
+  "word_count_estimate_excluding_bibliography": 3582,
+  "word_count_method": "Unicode word-like regex; math and URLs counted conservatively; not official submission count",
+  "required_files_present": true,
+  "model_check": "PASS",
+  "verification_note": "The first execution of the newly written enumeration script had a bracket syntax error; it was fixed and the complete exact enumeration then passed. No manuscript error was inferred from that tooling failure.",
+  "files": [
+    "MODEL_CHECK.json",
+    "REVIEW.json",
+    "REVIEW_RU.txt",
+    "SESSION.json",
+    "SOURCES.json",
+    "SOURCE_EXCERPTS.txt",
+    "check_model.py"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-10-18T00:46:59.269794+00:00",
+  "basis": "Exact rational arithmetic; a hypothetical model, not raw experimental reanalysis",
+  "q": {
+    "exact": "41/138",
+    "decimal": 0.2971014492753623
+  },
+  "k": "97/138",
+  "probabilities": {
+    "baseline": "491/1000",
+    "full_weight": "77/1000",
+    "model_A_rule_response": "1/5",
+    "model_B_rule_response": "1/5"
+  },
+  "model_B_action_switch_interval": {
+    "lower": "291/1000",
+    "upper": "207/500",
+    "mass": "123/1000",
+    "interpretation": "Rule-caused verdict switch by construction; not a proof that any particular theory counts it as complete second-order success."
+  },
+  "extension_proof": "For 0 <= d <= a=.491, T(d)=a-d and T(k*d)=a-k*d because 0<k<1. Thus q*T(0)+k*T(d)=q*a+k*(a-d)=a-k*d=T(k*d).",
+  "supplementary_grid_points": 492,
+  "extension_at_d_0_6": {
+    "A_exact": "20131/138000",
+    "A_decimal": 0.1458768115942029,
+    "B_exact": "1593/23000",
+    "B_decimal": 0.06926086956521739
+  },
+  "assumptions": [
+    "Uniform baseline x on [-.509,.491], conviction iff final score > 0; boundary points have measure zero.",
+    "Target score deduction represents active deliberative reliance, not merely causal influence.",
+    "Model A complete excluder status independent of x; q fixed; exclusion occurs because of rule.",
+    "Model B every judge reduces target weight because of rule from .414 to .291, retaining positive weight.",
+    "Extension fixes q,k,baselines and manipulation-to-weight mapping.",
+    "Reported rounded rates idealized as exact population probabilities; actual counts are distinct."
+  ],
+  "conclusion": "Formal claims preserved. Neither model estimates actual mechanisms or capacities; they differ in complete-removal achievement, not automatically in broader guidance."
+}

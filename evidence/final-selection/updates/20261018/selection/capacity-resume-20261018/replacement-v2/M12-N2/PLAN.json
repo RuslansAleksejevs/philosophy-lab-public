@@ -1,0 +1,85 @@
+{
+  "schema": "selection-empty-capacity-replacement.v2",
+  "logical_job_id": "M12-N2",
+  "replacement_order": [
+    "M12-N2",
+    "M13-N2"
+  ],
+  "maximum_replacement_attempts": 1,
+  "automatic_retry": false,
+  "content_changes": false,
+  "input_event_id": "event-3a08660ab4024183b9acf41dc1fb7907",
+  "job": {
+    "id": "M12-N2",
+    "phase": "individual",
+    "manuscript_id": "M12",
+    "role": "N2",
+    "profile_id": "neutral",
+    "model": "gpt-6-astra",
+    "effort": "ultra",
+    "service_tier": "default",
+    "prompt_file": "runs/final-selection-20261018/packets/M12-N2.txt",
+    "prompt_sha256": "43e9dfcac06808b870da817384f675ca277f13b2ad7c1b3405f403cc139b5371",
+    "schema_file": "runs/final-selection-20261018/review-schema.json",
+    "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+    "input_sources": [
+      {
+        "path": "runs/final-preselection-20261017/roles/F01/author-repair/output/revision.md",
+        "sha256": "34acc5ee5e93f4ba751071cfde3db7e6265c1fd20ef01b5d061615c031920aaf"
+      }
+    ]
+  },
+  "authorization": {
+    "event_id": "event-1693b19527294cafa5cf61f9c1c801ee",
+    "artifact": {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/AUTHORIZATION.json",
+      "sha256": "c480f1cbf5435596488eef0f118f439f2b0825f14d971c1a21a630b719ff9b8f",
+      "bytes": 1046
+    },
+    "user_capture_event_ids": [
+      "event-f63839cb8c6342b2afef5403f55f9ed8"
+    ]
+  },
+  "preserved_state": {
+    "event_id": "event-9afcd19556934b8bbad8c4e2dc1564d9",
+    "kind": "research.selection.transport_disposition.accepted",
+    "status": "CAPACITY_DISPOSITION_ACCEPTED_BOUNDED"
+  },
+  "failure_inspection": {
+    "path": "runs/final-selection-20261018/capacity-recovery-001/FAILURE_INSPECTION.json",
+    "sha256": "ca8bff0f8a6bdb02faa7b5321a9f4ec4f475a16b105ac14110577de8f4be2330",
+    "bytes": 2951
+  },
+  "failed_attempt": {
+    "path": "runs/final-selection-20261018/results/M12-N2/attempt-001",
+    "event_id": "event-b3519057c6a24486bca718c999d0a20e",
+    "session_id": "01a151e7-0c2c-75d3-a38e-17d3fb853a78",
+    "files": [
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-001/launch.json",
+        "sha256": "078119341580653da8dd5becaba6376956f055f2a4894ed2fa2534e84fdc647d",
+        "bytes": 1587
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-001/failure.json",
+        "sha256": "96242a665b965e1083ad95125f9b0b10af3988d77cc686870e61a80fa50406dd",
+        "bytes": 2072
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-001/stderr.json",
+        "sha256": "0e09f022f8923c4dcb14257c19251a6817691c667e1cc47be186fd27c113c312",
+        "bytes": 38
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M12-N2/attempt-001/visible-events.jsonl",
+        "sha256": "6992bd0fe67928f70ebbfe4f674f20ea8b347ca1eabcb55e8fbfc7bc9c20200b",
+        "bytes": 198
+      }
+    ]
+  },
+  "replacement_attempt": {
+    "number": 2,
+    "path": "runs/final-selection-20261018/results/M12-N2/attempt-002"
+  },
+  "predecessor_map_receipt": null
+}

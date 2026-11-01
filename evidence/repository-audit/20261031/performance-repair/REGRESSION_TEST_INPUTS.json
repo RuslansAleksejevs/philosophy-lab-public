@@ -1,0 +1,60 @@
+{
+  "purpose": "Exact prior synthetic tests, relocated so source-path loaders target candidate and remain reproducible after installation",
+  "files": [
+    {
+      "path": "tests/test_archive_batch.py",
+      "sha256": "58cb5ed07f2474955289bb54439e07547c7b23c8b77ace658498bc504d558917",
+      "bytes": 22223
+    },
+    {
+      "path": "tests/test_research_archive.py",
+      "sha256": "10691f4fcd1f7f56df1a908dba7c0e0cbff2449d288fbdae082b1084f4bb3779",
+      "bytes": 16516
+    },
+    {
+      "path": "tests/test_collector.py",
+      "sha256": "04606496e3573a186df5dee201b5bbba5353dd2ee4dd1d1472cccc0b5b44a676",
+      "bytes": 28125
+    },
+    {
+      "path": "tests/test_collector_compatibility.py",
+      "sha256": "f23350f7eee0ac8ababbcb423e3ae39d0def81225cf1093642fcfa66537cc4da",
+      "bytes": 10570
+    },
+    {
+      "path": "tests/test_collector_provider_index.py",
+      "sha256": "ea313ff3bc7abd2eacde1eebe40359d296d9dd46f40d0fc02df22835850ebbd3",
+      "bytes": 1527
+    },
+    {
+      "path": "tests/test_collector_exclusions.py",
+      "sha256": "40852cc8411b4aa77954d3201151dd845f237f85b1501e47b9470db94d66c00e",
+      "bytes": 2355
+    },
+    {
+      "path": "tests/test_collector_operational.py",
+      "sha256": "7677abafd518782231f8a05f0bd190ef0610f2e621a711145e85970cd248e1f2",
+      "bytes": 3227
+    },
+    {
+      "path": "tests/test_collector_views.py",
+      "sha256": "d0c9ed696e6450abe303c0f12e5870c9dd4b98d85b944476a39ae669994b50d4",
+      "bytes": 27832
+    },
+    {
+      "path": "tests/test_capture_collector_integration.py",
+      "sha256": "3689c59acbdf5000f0c10b6c6d3da47bc2618b29d5eab97158b64c60159527f1",
+      "bytes": 12436
+    },
+    {
+      "path": "tests/test_codex_rollout.py",
+      "sha256": "2d641c3716016d325db1c21c2c34f587a93dcfc6baa2d3de79de946e8df38d5b",
+      "bytes": 15845
+    },
+    {
+      "path": "tests/test_capture_codex.py",
+      "sha256": "ac340da5448ad475c367e02191bb811a20eec48f2c3929e68ee1685538b2e67b",
+      "bytes": 29161
+    }
+  ]
+}

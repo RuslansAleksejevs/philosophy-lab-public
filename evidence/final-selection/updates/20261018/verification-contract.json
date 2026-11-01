@@ -1,0 +1,38 @@
+{
+  "schema": "selection-verification-contract.v1",
+  "historical_baseline": {
+    "path": "evidence/final-selection/updates/20261018/historical-baseline.json",
+    "sha256": "bf8318f2682808ab526c8dfad1626c97ff3ee00496eec3acd5328d78b817fb1d",
+    "bytes": 93421,
+    "transformation": "exact bytes or disclosed derived export"
+  },
+  "final_receipt": {
+    "path": "evidence/final-selection/updates/20261018/selection/FINAL_RECEIPT.json",
+    "sha256": "783d3e52a15e42c999dc83db36a1ff90e4f74c923675ad9729453c9ed142a7b2",
+    "bytes": 170443,
+    "source_path": "runs/final-selection-20261018/FINAL_RECEIPT.json"
+  },
+  "accepted_status": "SELECTION_COMPLETE_BOUNDED",
+  "accepted_event_id": "event-7358790dac874fc78e327b60a3fbe014",
+  "decisions": {
+    "path": "evidence/final-selection/updates/20261018/selection/DECISIONS.json",
+    "sha256": "a42bbe11ff2e8751e4a680b2af911a0704eed618370d6b727cca1c43529193c3",
+    "bytes": 42974,
+    "source_path": "runs/final-selection-20261018/DECISIONS.json"
+  },
+  "selection_manifest": {
+    "path": "evidence/final-selection/updates/20261018/selection/SELECTION_MANIFEST.json",
+    "sha256": "acabdbcf51dca9d4648c918ff47c4c0b39e589647e2f35611f4765654a043a7f",
+    "bytes": 145,
+    "source_path": "runs/final-selection-20261018/SELECTION_MANIFEST.json"
+  },
+  "selected_ids_pointer": "/selected_ids",
+  "accepted_shortfall_explanation": null,
+  "method": {
+    "path": "evidence/final-selection/updates/20261018/selection/METHOD.json",
+    "sha256": "e03e6302846b0303e2482485f61769c907da65b8747ec81a92bfd997394abb4f",
+    "bytes": 4732,
+    "source_path": "runs/final-selection-20261018/METHOD.json"
+  },
+  "fragment_logs": "logs/selection-20261018/fragments/manifest.json"
+}

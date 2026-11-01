@@ -1,0 +1,13 @@
+# How to read dates
+
+Reader-facing dates use **America/Los_Angeles**. Original timestamps remain unchanged, including their UTC offset and fractional seconds. A late-night event can have different calendar dates in California and UTC.
+
+- **Message time** (`source_timestamp`, or the retained `timestamp`): when the source record says a message occurred. Quote dates come from that message.
+- **Capture time** (`recorded_at`, `last_capture_at`): when the archive saved a record. A later import does not move the original conversation to that date.
+- **Release time** (`created_at` in an accepted `READY`): when a completed package became available. It is not the exact start or finish of every role inside it.
+- **Biography event time** (`occurred_at`): use the recorded precision. `UNKNOWN` remains unknown; a later inventory date is not an essay’s birthday.
+- **Verification and export time**: when a check or repository snapshot was made. These do not establish when a feature was implemented.
+
+Historical date-only labels retain their stated precision and timezone. Directory names and filesystem modification times are not treated as reliable event timestamps. The [timeline](../docs/timeline.md) distinguishes requests, tests, releases, and checks; its [data](../docs/timeline.json) identifies the supporting record.
+
+The [session index](index.json) includes first and last retained message times, local dates, and counts of dated/undated messages. The readable chats display local time beside the unchanged source timestamp. Exact time is evidence from the saved record, not independent clock attestation.

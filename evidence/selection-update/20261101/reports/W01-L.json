@@ -1,0 +1,299 @@
+{
+  "audit_id": "W01-L",
+  "manuscript_id": "W01",
+  "role": "literature",
+  "manuscript_sha256": "b03f38b9a529885d165f0157b44a2dca2cafec23584229e9134ed99cd42836b8",
+  "read_complete": true,
+  "thesis": "The precise claim is conditional: over an independently justified comparison domain, P(e1)=P(e2) implies R(e1)=R(e2), so unequal recollective outputs entail unequal original phenomenal types. This condition permits extensive transformation and information loss. Matching outputs require an additional condition, globally injectivity or locally a singleton preimage. Phenomenal holism alone does not exclude this structure. The manuscript expressly does not establish that human memory satisfies the condition, that a detected difference concerns the investigated feature, or that the result directly covers perception–recollection comparisons.",
+  "claimed_contribution": "A targeted countermodel to the necessity of full phenomenal reconstruction, using whole phenomenal types without subtracting an invariant component. The proposed contribution combines this application with distinctions between manufactured and erased differences, global and observation-specific conditions, and formal entailment and independently warranted evidence. The author explicitly disclaims mathematical novelty and acknowledges the relevant-similarity response already discussed by Nourbakhshi.",
+  "assessment": "NO_MAJOR_DEFECT_FOUND",
+  "findings": [
+    {
+      "id": "W01-L-F1",
+      "severity": "minor",
+      "manuscript_location": "“Why holism does not close this route”: “structural preservation and preservation of parts”; “Three objections to the limited result”: “Treating recollections as evidence, rather than as reenactments”; Bibliography.",
+      "claim": "The literature positioning omits a directly relevant structural account of episodic representation.",
+      "analysis": "Andonovski 2022 is a useful uncited comparator: it connects simplified episodic models with inference about represented events. Its explicit separation of model content from memory-experience content also helps explain the difference from W01. See the comparison under closest_predecessors and [Andonovski’s primary text](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.899371/full). The omission is demonstrable; it does not establish duplication of W01’s countermodel.",
+      "status": "demonstrated",
+      "effect_on_conclusion": "No stated conditional conclusion fails. The contribution should remain positioned as a particular argument about phenomenal comparison, rather than a general discovery that imperfect episodic representations can support inference.",
+      "repair_conditions": "Acknowledge this comparator and explain the difference between structural models of events and the proposed mapping between whole phenomenal types.",
+      "source_ids": [
+        "S8"
+      ]
+    }
+  ],
+  "surviving_contribution": "The defensible remainder is the specific application of a familiar mathematical distinction to the full-reflection requirement: a nonidentity, noninjective mapping can exclude manufactured differences without preserving an independently inspectable phenomenal component. The manuscript also makes explicit why an actual-pair conditional supplies no independent warrant, why equality requires additional information, and why noise prevents straightforward deterministic contraposition. The opened literature establishes relevant antecedents and adjacent arguments, but did not establish a prior presentation of this complete combination. That is a limited search result, not proof of originality.",
+  "remaining_questions": [
+    "In “What a comparison must preserve,” the requirement is “independent grounds concerning a domain delimited before drawing the inference.” What available evidence could justify such a domain for whole phenomenal types? This remains an acknowledged application question, not a contradiction in the consistency result.",
+    "In “Three objections to the limited result,” the author says the weaker objection can accept “everything argued here.” How much argumentative disagreement remains once the target is restricted to the strong necessity claim? The source supports that restriction, but the result should not be presented as defeating the surviving evidential objection.",
+    "In “Why holism does not close this route,” the claim concerns “structural preservation.” Does Swoyer’s detailed treatment of structural representation contain a closer formal antecedent than the accessible sources establish? His full argument was unavailable, so this comparison remains unresolved."
+  ],
+  "limitations": [
+    "This was a finite public-web audit, principally of English-language philosophical literature. It cannot establish exhaustive originality or exclude relevant material in inaccessible books, unindexed publications, or other languages.",
+    "The supplied manuscript, including its complete bibliography, was read. No other project manuscripts, author-identification material, previous reviews, private records, or global memory were sought. No agents, shell/file/MCP tools, manuscript modifications, submissions, or publication actions were used.",
+    "Several publisher and repository routes failed. Relevant passages in all three cited works were ultimately checked through accessible primary texts, with bibliographic identity checked separately. Author manuscripts were not collated word for word against every final published version.",
+    "Swoyer 1991 was accessible only as publisher metadata, abstract, and references. Its detailed definitions and proofs were not read and are not treated as established overlap.",
+    "The empirical check was limited. It did not establish the manuscript’s extensional condition for any real memory procedure, nor independently test every listed influence on recollection. The pain, sunset, and tree cases remain illustrations rather than verified experimental results.",
+    "PDF page references below identify manuscript or translated-book pagination where specified; they should not be silently substituted for final journal pagination."
+  ],
+  "plain_summary_ru": [
+    "Серьёзных ошибок в проверенных ссылках не найдено.",
+    "Есть близкая работа о структурных моделях памяти, которую стоит учесть, но она не повторяет весь довод статьи.",
+    "Узкий условный вывод сохраняется, однако его полная новизна и применимость к реальной памяти не установлены."
+  ],
+  "novelty_status": "DISTINCT_REMAINDER_WITH_LIMITED_SEARCH",
+  "search_log": [
+    {
+      "query": "Direct opening of the three supplied manuscript links and three DOI links.",
+      "purpose": "Establish the target argument and verify the bibliography before independent expansion.",
+      "result_summary": "Opened https://philpapers.org/archive/NOUTRO-3.pdf, https://philpapers.org/archive/CHUPCA-2.pdf, and https://escholarship.org/content/qt9zc6d603/qt9zc6d603.pdf. The first two initially returned text but subsequent passage retrieval failed with HTTP 403. All three supplied DOI-resolver opens failed. Alternative primary-text and publisher routes are recorded below and in S1–S3."
+    },
+    {
+      "query": "\"phenomenal contrast\" recollection \"similarity\"; \"phenomenal contrast\" memory transformation reliability; \"phenomenal\" memory \"structure\" \"resemblance\" recollection; \"recollection\" \"non-injective\" phenomenology",
+      "purpose": "Search the exact inferential proposal through similarity, reliability, structural representation, and mathematical terminology.",
+      "result_summary": "Located the target paper, memory-related contrast criticism, and structural-representation leads. These results did not establish an exact antecedent. Secondary summaries and unopened search results were used only for discovery."
+    },
+    {
+      "query": "\"memory\" \"phenomenal\" \"difference\" \"reconstruction\" philosophy contrast; \"phenomenal contrast\" \"recollection\" Nourbakhshi reply; Koksvik Phenomenal Contrast A Critique pdf; \"Phenomenal Contrast Arguments for Cognitive Phenomenology\" 82 104",
+      "purpose": "Look for replies, alternative formulations, earlier memory objections, and publication identity.",
+      "result_summary": "Opened Nourbakhshi’s uploaded text at https://www.researchgate.net/publication/373946133_The_role_of_imagination_and_recollection_in_the_method_of_phenomenal_contrast and publisher records at https://onlinelibrary.wiley.com/doi/10.1111/theo.12489 and https://onlinelibrary.wiley.com/doi/10.1111/phpr.12177. These supplied the target passages and metadata."
+    },
+    {
+      "query": "\"Koksvik\" \"Phenomenal Contrast: A Critique\" -cv; \"Fürst\" \"On the limits of the method from phenomenal contrast\" pdf; \"O’Brien\" \"Opie\" \"Notes toward a structuralist theory of mental representation\" pdf; \"Chudnoff\" \"Phenomenal Presence\" \"Independence\"",
+      "purpose": "Follow cited predecessors and investigate structural preservation independently of first-order resemblance.",
+      "result_summary": "Located S4–S6. Opened the institutional O’Brien–Opie manuscript. Compared the arguments themselves after obtaining the other primary texts, rather than inferring overlap from their titles."
+    },
+    {
+      "query": "\"On the Limits of the Method of Phenomenal Contrast\" pdf Fürst; \"Phenomenal Contrast: A Critique\" \"koksvik.net/files\"; \"Phenomenal Contrast Arguments\" \"Irreducibility\" \"Phenomenality\"; Carnap Aufbau \"recollection of similarity\" \"unanalyzable\"",
+      "purpose": "Retrieve earlier contrast criticism and test the historical connection between whole experiences, recollection, and relational classification.",
+      "result_summary": "Opened Fürst’s author manuscript and Carnap’s institutional text. Read Carnap’s relevant constructional passages, not merely the secondary search description. S5 and S7 record locations and scope."
+    },
+    {
+      "query": "\"Chudnoff\" \"Phenomenal Contrast Arguments\" pdf -site:philpapers.org -site:philarchive.org; \"Swoyer\" \"Structural representation and surrogative reasoning\" pdf; \"A new obstacle for phenomenal contrast\" pqaf009 2025 pages",
+      "purpose": "Resolve text access, investigate surrogative reasoning, and check the 2025 citation.",
+      "result_summary": "The Fulkerson–Cohen institutional PDF supplied bibliographic identity and relevant text. Its landing page, https://escholarship.org/uc/item/9zc6d603, returned a JavaScript challenge. An attempted Oxford page, https://academic.oup.com/pq/article/75/3/975/7990563, was inaccessible and supplied no evidence."
+    },
+    {
+      "query": "\"Phenomenal Contrast: A Critique\" filetype:pdf -cv -intuition; \"Structural Representation and Surrogative Reasoning\" filetype:pdf Swoyer 1991; site:academic.oup.com/pq \"pqaf009\"",
+      "purpose": "Locate accessible originals and avoid relying on quoted accounts of predecessors.",
+      "result_summary": "The Koksvik CiteSeer PDF route timed out, and https://philpapers.org/archive/KOKACO/ returned 403. Opened https://koksvik.net/index.php and followed its paper link to the published PDF recorded as S4. No biography or CV was used."
+    },
+    {
+      "query": "\"Chudnoff\" \"Contrast Arguments\" \"pdf\" Miami; \"Swoyer\" \"Structural Representation\" \"pdf\" -site:philpapers.org -site:scribd.com; \"Chudnoff\" \"Phenomenal Presence\" irreducibility independence",
+      "purpose": "Continue the citation check and broaden the search to episodic structural models.",
+      "result_summary": "Located and opened Andonovski 2022, S8. Opened https://link.springer.com/article/10.1007/BF00499820, but Swoyer’s full text remained subscription-only. The accessible abstract was insufficient for a detailed priority finding."
+    },
+    {
+      "query": "Chudnoff \"Presence\" \"Irreducibility\" \"Independence\"; \"Argumentos de contraste fenoménico\" \"Independencia\"",
+      "purpose": "Find an accessible route to Chudnoff’s precise distinctions.",
+      "result_summary": "Opened the translation page at https://revistas.udea.edu.co/index.php/estudios_de_filosofia/article/view/330237, but subsequent passage requests timed out. Translation search excerpts were not used as the final basis of verification. https://www.researchgate.net/publication/275156647_Phenomenal_Contrast_Arguments_for_Cognitive_Phenomenology supplied only an abstract."
+    },
+    {
+      "query": "Loftus Palmer 1974 Reconstruction automobile destruction pdf uci; \"Chudnoff\" \"Presencia Fenoménica\" \"Independencia\" scielo",
+      "purpose": "Check the empirical background concerning later questioning and continue resolving the remaining citation.",
+      "result_summary": "Located and opened the original Loftus–Palmer article, S10. Its experiments provide a limited check on later-information effects, not a test of equality between original phenomenal types."
+    },
+    {
+      "query": "site:scielo.org.co \"Argumentos de contraste fenoménico\" Chudnoff; \"Chudnoff\" \"CHUPCA\" pdf",
+      "purpose": "Complete the outstanding primary-text attribution check.",
+      "result_summary": "Located the alternate archive identifier CHUPCA-4. https://philarchive.org/rec/CHUPCA-4 returned 403, but https://philarchive.org/archive/CHUPCA-4 opened successfully and supplied §1, including all three distinctions. The attribution was therefore verified from English primary text."
+    },
+    {
+      "query": "Additional direct retrieval attempts for Chudnoff.",
+      "purpose": "Document failed routes separately from evidence actually read.",
+      "result_summary": "Unsuccessful routes were https://philarchive.org/archive/CHUPCA-2, https://philarchive.org/archive/CHUPCA-2.pdf, https://philpapers.org/archive/CHUPCA-2, and https://philpapers.org/archive/CHUPCA-2.pdf?download=1. A screenshot request also failed. https://onlinelibrary.wiley.com/doi/full/10.1111/phpr.12177 failed initially; following the publisher’s full-text link later redirected to https://onlinelibrary.wiley.com/doi/abs/10.1111/phpr.12177. These failures were resolved for the material attribution by S2."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Nourbakhshi, Hamid. 2023. “The Role of Imagination and Recollection in the Method of Phenomenal Contrast.” Theoria 89(5): 710–733.",
+      "url": "https://www.researchgate.net/publication/373946133_The_role_of_imagination_and_recollection_in_the_method_of_phenomenal_contrast",
+      "primary_source": true,
+      "access_level": "Uploaded article text accessible; publisher metadata also opened.",
+      "locations_read": "§2; relevant passages in §§4 and 6; §§7–9, manuscript pp. 19–21.",
+      "relevant_result": "Direct target; supports the manuscript’s distinction between strong and weaker readings."
+    },
+    {
+      "id": "S2",
+      "citation": "Chudnoff, Elijah. 2015. “Phenomenal Contrast Arguments for Cognitive Phenomenology.” Philosophy and Phenomenological Research 91(1): 82–104.",
+      "url": "https://philarchive.org/archive/CHUPCA-4",
+      "primary_source": true,
+      "access_level": "Author manuscript accessible through alternate archive; publisher metadata accessible.",
+      "locations_read": "Introduction and §1, especially manuscript pp. 8–12; definitions on pp. 9–11.",
+      "relevant_result": "The three distinctions attributed by W01 are explicitly present."
+    },
+    {
+      "id": "S3",
+      "citation": "Fulkerson, Matthew, and Jonathan Cohen. 2025. “A New Obstacle for Phenomenal Contrast.” The Philosophical Quarterly. DOI: 10.1093/pq/pqaf009.",
+      "url": "https://escholarship.org/content/qt9zc6d603/qt9zc6d603.pdf",
+      "primary_source": true,
+      "access_level": "Institutional manuscript accessible, including publication cover sheet.",
+      "locations_read": "§§1–3; §4 discussion of access and phenomenality; manuscript p. 8 n. 15 and continuation on p. 9.",
+      "relevant_result": "Supports the cited distinction between accessible psychological contrast and phenomenal contrast, and the downstream-source caution."
+    },
+    {
+      "id": "S4",
+      "citation": "Koksvik, Ole. 2015. “Phenomenal Contrast: A Critique.” American Philosophical Quarterly 52(4): 321–334.",
+      "url": "https://koksvik.net/files/koksvik_phenomenal_contrast.pdf",
+      "primary_source": true,
+      "access_level": "Published PDF on author’s website.",
+      "locations_read": "§4, pp. 325–326; §5.2, p. 327; §6.2, p. 329; n. 8, p. 333.",
+      "relevant_result": "Earlier memory-based objection concerning unnoticed or forgotten alternative contributors."
+    },
+    {
+      "id": "S5",
+      "citation": "Fürst, Martina. 2017. “On the Limits of the Method of Phenomenal Contrast.” Journal of the American Philosophical Association 3(2): 168–188.",
+      "url": "https://martinafuerst.weebly.com/uploads/1/2/1/2/121241504/on_the_limits_of_the_method_of_phenomenal_contrast__penulatimate_version.pdf",
+      "primary_source": true,
+      "access_level": "Author’s penultimate manuscript accessible.",
+      "locations_read": "Introduction; §§1–2.2, especially manuscript pp. 7–12; §3 opening; concluding methodological discussion.",
+      "relevant_result": "Earlier treatment of expectations and attentional focus affecting phenomenal-contrast judgments."
+    },
+    {
+      "id": "S6",
+      "citation": "O’Brien, Gerard, and Jon Opie. “Notes Toward a Structuralist Theory of Mental Representation.” Institutional draft dated September 2000; chapter published in 2004.",
+      "url": "https://www.adelaide.edu.au/directory/jonathan.opie?dsn=directory.file%3Bfield%3Ddata%3Bid%3D8834%3Bm%3Dview",
+      "primary_source": true,
+      "access_level": "Institutional draft accessible; comparison uses that version.",
+      "locations_read": "§3, draft pp. 6–9; structural-resemblance discussion, pp. 10–12.",
+      "relevant_result": "General structural representation without shared first-order properties predates W01."
+    },
+    {
+      "id": "S7",
+      "citation": "Carnap, Rudolf. 1928/1967. The Logical Structure of the World. Translated by Rolf A. George.",
+      "url": "https://www.phil.cmu.edu/projects/carnap/editorial/latex_pdf/1928-1e%20part1.pdf",
+      "primary_source": true,
+      "access_level": "Institutionally hosted translation in two accessible PDFs.",
+      "locations_read": "§§67–69 and 71, pp. 107–116; §75; §§78 and 108–110 in [part 2](https://www.phil.cmu.edu/projects/carnap/editorial/latex_pdf/1928-1e%20part2.pdf), pp. 127–128 and 178–180.",
+      "relevant_result": "Historical connection between unanalyzed experiential wholes, relational classification, and remembered comparison."
+    },
+    {
+      "id": "S8",
+      "citation": "Andonovski, Nikola. 2022. “Episodic Representation: A Mental Models Account.” Frontiers in Psychology 13: 899371.",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.899371/full",
+      "primary_source": true,
+      "access_level": "Full publisher text.",
+      "locations_read": "“Mental models as structural representations”; “Episodic representation”; “What the thesis is not”; “Modeling and surrogative reasoning.”",
+      "relevant_result": "Closest uncited memory-specific comparator located."
+    },
+    {
+      "id": "S9",
+      "citation": "Swoyer, Chris. 1991. “Structural Representation and Surrogative Reasoning.” Synthese 87(3): 449–508.",
+      "url": "https://link.springer.com/article/10.1007/BF00499820",
+      "primary_source": true,
+      "access_level": "Publisher abstract, metadata, and references only; full article unavailable.",
+      "locations_read": "Abstract and publication record; no body sections.",
+      "relevant_result": "The abstract identifies representation-based reasoning as its topic. Exact formal overlap remains unverified."
+    },
+    {
+      "id": "S10",
+      "citation": "Loftus, Elizabeth F., and John C. Palmer. 1974. “Reconstruction of Automobile Destruction: An Example of the Interaction Between Language and Memory.” Journal of Verbal Learning and Verbal Behavior 13: 585–589.",
+      "url": "https://gwern.net/doc/psychology/cognitive-bias/1974-loftus.pdf",
+      "primary_source": true,
+      "access_level": "Complete original article reproduced in an accessible PDF.",
+      "locations_read": "Experiments I–II and Discussion, pp. 586–588.",
+      "relevant_result": "Question wording affected subsequent reports; the experiment does not measure the manuscript’s phenomenal-type relation."
+    }
+  ],
+  "closest_predecessors": [
+    {
+      "source_id": "S1",
+      "overlap": "Already considers relevant similarity despite systematic phenomenal differences and distinguishes comparison routes.",
+      "difference": "Its response develops a subtraction proposal; W01 instead stipulates a relation between whole types.",
+      "remaining_contribution": "The lossy whole-type countermodel and its explicitly limited evidential consequences.",
+      "evidence_location": "W01, “The objection and its surviving force”: “that response is already considered”; [Nourbakhshi, §§2 and 7–9](https://www.researchgate.net/publication/373946133_The_role_of_imagination_and_recollection_in_the_method_of_phenomenal_contrast)."
+    },
+    {
+      "source_id": "S8",
+      "overlap": "Simplified episodic models support inference without reproducing every represented detail.",
+      "difference": "The account concerns event-model content and explicitly distinguishes it from memory-experience content; it supplies no whole-phenomenal-type equality condition.",
+      "remaining_contribution": "W01’s specific conditional and holism-compatible application.",
+      "evidence_location": "W01, “Why holism does not close this route”: “whole phenomenal types”; [Andonovski, “Mental models as structural representations,” “What the thesis is not,” first qualification, and “Modeling and surrogative reasoning”](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.899371/full)."
+    },
+    {
+      "source_id": "S6",
+      "overlap": "Relational preservation can support representation without shared first-order properties; useful correspondence need not be complete isomorphism.",
+      "difference": "This is a general theory of mental representation, not the specified recollective contrast inference.",
+      "remaining_contribution": "Application to the full-reflection objection, with separate error directions and independent-warrant requirements.",
+      "evidence_location": "W01, “Why holism does not close this route”: “structural preservation”; [O’Brien and Opie, §3, draft pp. 7–9](https://www.adelaide.edu.au/directory/jonathan.opie?dsn=directory.file%3Bfield%3Ddata%3Bid%3D8834%3Bm%3Dview)."
+    },
+    {
+      "source_id": "S7",
+      "overlap": "Experiential wholes can enter informative relations without first being decomposed into independently given components.",
+      "difference": "Carnap constructs qualities through quasi-analysis and recollected similarity; these passages do not establish W01’s lossy transformation or directional reliability claims.",
+      "remaining_contribution": "A different, narrowly inferential application; historical resemblance does not demonstrate duplication.",
+      "evidence_location": "W01, “Why holism does not close this route”: “a partition ... is not thereby a part”; [Carnap, §§67–71](https://www.phil.cmu.edu/projects/carnap/editorial/latex_pdf/1928-1e%20part1.pdf) and [§78](https://www.phil.cmu.edu/projects/carnap/editorial/latex_pdf/1928-1e%20part2.pdf)."
+    },
+    {
+      "source_id": "S4",
+      "overlap": "Remembered contrasts can leave unnoticed or forgotten contributors uncontrolled.",
+      "difference": "Koksvik challenges establishing minimal pairs and identifying contributors, rather than proving that every transformed recollection is uninformative.",
+      "remaining_contribution": "W01 can establish conditional original inequality while leaving this objection intact.",
+      "evidence_location": "W01, “Three objections to the limited result”: “locating it and explaining it remain further steps”; [Koksvik, §5.2, p. 327, and §6.2, p. 329](https://koksvik.net/files/koksvik_phenomenal_contrast.pdf)."
+    },
+    {
+      "source_id": "S5",
+      "overlap": "Prior expectations and focus can influence whether a subject reports or recognizes the proposed phenomenology.",
+      "difference": "Fürst analyzes performances of contrast tasks and their dialectical effectiveness, not a deterministic mapping between original and recollective types.",
+      "remaining_contribution": "The conditional model survives; excluding such influences remains an independent burden.",
+      "evidence_location": "W01, “The assumption real memories must earn”: “associated beliefs, expectations, and attention”; [Fürst, §§2.1–2.2, manuscript pp. 8–12](https://martinafuerst.weebly.com/uploads/1/2/1/2/121241504/on_the_limits_of_the_method_of_phenomenal_contrast__penulatimate_version.pdf)."
+    }
+  ],
+  "citation_audit": [
+    {
+      "manuscript_reference": "Nourbakhshi 2023: bibliographic identity and attributed argument.",
+      "manuscript_location": "Bibliography; “The objection and its surviving force”: “a strong requirement of full phenomenal reflection”; “Three objections to the limited result”: “weaker rival-explanation conclusion.”",
+      "status": "verified",
+      "evidence": "The [publisher record](https://onlinelibrary.wiley.com/doi/10.1111/theo.12489) matches. §7 requires phenomenal identity; §8 discusses systematic differences, subtraction, holism, and introspective limitations; §9 offers distortion as a possible explanation. Both readings attributed by W01 are supported.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "manuscript_reference": "Chudnoff 2015: bibliographic identity and distinction among theses.",
+      "manuscript_location": "Bibliography; “Three objections to the limited result”: “phenomenal presence, irreducibility, and independence.”",
+      "status": "verified",
+      "evidence": "The [publisher record](https://onlinelibrary.wiley.com/doi/10.1111/phpr.12177) confirms author, title, year, volume, issue, pages, and DOI. The [accessible manuscript](https://philarchive.org/archive/CHUPCA-4), §1, pp. 9–12, defines the three theses and explains their differing strength. W01’s limited use is supported.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "manuscript_reference": "Fulkerson and Cohen 2025: bibliographic identity and methodological objection.",
+      "manuscript_location": "Bibliography; “Three objections to the limited result”: “access to a psychological contrast does not establish its phenomenal status”; “downstream changes also complicate identifying the target difference.”",
+      "status": "verified",
+      "evidence": "The [institutional PDF](https://escholarship.org/content/qt9zc6d603/qt9zc6d603.pdf) cover confirms identity, journal, date, and DOI. §§2–4 support the access/phenomenality distinction. Manuscript p. 8 n. 15 specifically discusses downstream changes and their possible misidentification. The bibliography’s abbreviated publication details do not misidentify the work.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "manuscript_reference": "Uncited formal claims concerning functionality, injectivity, and noise.",
+      "manuscript_location": "“What a comparison must preserve”: P(e1)=P(e2) implies R(e1)=R(e2); “Two directions of error”: “Only the observed output needs a single possible input type”; “The assumption real memories must earn”: “Two draws from one distribution can differ.”",
+      "status": "verified",
+      "evidence": "These claims follow from the stated definitions and examples; no external theorem is attributed. The four-to-two table verifies information loss without manufactured differences. The singleton-preimage qualification correctly limits what a particular match establishes. Equal output distributions do not force equal individual draws. The explicit disclaimer of mathematical novelty is appropriate.",
+      "source_ids": []
+    },
+    {
+      "manuscript_reference": "Uncited empirical background and illustrative memory cases.",
+      "manuscript_location": "Opening: “Remembering a painful afternoon need not hurt”; “What a comparison must preserve”: “retrieved under a leading cue”; “Two directions of error”: “A vivid reconstruction could incorporate information acquired later”; “The assumption real memories must earn”: R(e)=G(P(e),z(e)).",
+      "status": "partially_verified",
+      "evidence": "[Loftus and Palmer](https://gwern.net/doc/psychology/cognitive-bias/1974-loftus.pdf), Experiments I–II and Discussion, support the limited claim that later wording can affect reports. They distinguish response bias from memory alteration and do not establish phenomenal-type equality or vividness effects. No opened experiment directly checked the pain, sunset, tree, or complete z-factor examples. These are presented principally as possibilities, so the incomplete empirical check establishes no false claim.",
+      "source_ids": [
+        "S10"
+      ]
+    },
+    {
+      "manuscript_reference": "Quotation and attribution handling across the manuscript.",
+      "manuscript_location": "“The objection and its surviving force” and “Three objections to the limited result,” where the three named works are paraphrased.",
+      "status": "verified",
+      "evidence": "The manuscript contains no substantial verbatim quotation presented as originating in these works. Its material named attributions were checked at the locations above. The displayed preservation condition and finite models are the manuscript’s own formulations, not quotations from the bibliography.",
+      "source_ids": [
+        "S1",
+        "S2",
+        "S3"
+      ]
+    }
+  ]
+}

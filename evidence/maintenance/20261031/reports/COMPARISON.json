@@ -1,0 +1,102 @@
+{
+  "checked_client_date": "2026-10-31",
+  "timezone": "America/Los_Angeles",
+  "scope": "Read-only public official rules and committee comparison; no essay evaluation or dispatch. New files only in this rules audit folder.",
+  "web_capture_path": "runs/maintenance-20261031/rules/OFFICIAL_WEB_CHECK.json",
+  "web_capture_sha256": "e943f4833040c032926cf48d4be04574fb5d678fe3a6bcb0ea0826bbbfe02992",
+  "comparison_method": "Compare all numbered extracted text lines after removing tool citation wrappers, joining whitespace and removing extraction-induced spaces before punctuation. Exact source HTML was not fetched.",
+  "comparisons": [
+    {
+      "page": "competition_main",
+      "baseline_path": "runs/midterm-20261007/planning/official-web-check.json",
+      "baseline_sha256": "b14f6f414973bfb9fcbdc7af4efd98c43983794521130f23703a5cc8cb4416db",
+      "normalized_nonempty_lines_baseline": 32,
+      "normalized_nonempty_lines_current": 32,
+      "normalized_content_equal": true
+    },
+    {
+      "page": "detailed_rules",
+      "baseline_path": "runs/final-preselection-20261017/RULES_WEB_RESULT.txt",
+      "baseline_sha256": "460c1ff77a388a49e01fa3815a1c25a281c8b7e80871218c7a2bce47f538147c",
+      "normalized_nonempty_lines_baseline": 37,
+      "normalized_nonempty_lines_current": 37,
+      "normalized_content_equal": true
+    },
+    {
+      "page": "faq",
+      "baseline_path": "runs/postmidterm-20261012/04-essays/rules/faq-web.txt",
+      "baseline_sha256": "0189ada466d22f098d184b9baa99c081ca727e5bea4245cea07d4eb42f54be43",
+      "normalized_nonempty_lines_baseline": 154,
+      "normalized_nonempty_lines_current": 154,
+      "normalized_content_equal": true
+    }
+  ],
+  "judges": {
+    "current_count": 23,
+    "current_names": [
+      "Branden Fitelson",
+      "John Hawthorne",
+      "Jake Nebel",
+      "Daniel Greco",
+      "Matthew Mandelkern",
+      "Rachel Sterken",
+      "Herman Cappelen",
+      "Kenny Easwaran",
+      "Cian Dorr",
+      "David Chalmers",
+      "Christian Tarsney",
+      "Hilary Greaves",
+      "Simon Goldstein",
+      "Jens Jaeger",
+      "Josh Dever",
+      "Karina Vold",
+      "Raphaël Millière",
+      "Bernhard Salow",
+      "Jonathan Weisberg",
+      "Mario Günther",
+      "Henry Shevlin",
+      "Kacper Kowalczyk",
+      "Pamela Robinson"
+    ],
+    "added_since_20261007": [],
+    "removed_since_20261007": [],
+    "added_since_20260912_already_recorded_20261007": [
+      "Bernhard Salow",
+      "Henry Shevlin",
+      "Jonathan Weisberg",
+      "Kacper Kowalczyk",
+      "Mario Günther",
+      "Pamela Robinson",
+      "Raphaël Millière"
+    ],
+    "committee_announced_complete": false
+  },
+  "deadline": {
+    "official": "2026-10-31 23:59 Anywhere on Earth",
+    "utc": "2026-11-01T11:59:00+00:00",
+    "America_Los_Angeles": "2026-11-01T03:59:00-08:00"
+  },
+  "entry_routes": {
+    "preferred": "https://openreview.net/group?id=AIPC/2026/Competition",
+    "alternative_when_OpenReview_account_creation_unavailable": "https://forms.gle/tXZuN2PtZcWxG5Qg7",
+    "duplicate_submission_prohibited": true,
+    "email_entries_not_accepted": true,
+    "forms_not_completed_or_submitted": true,
+    "OpenReview_fields_not_verified": "web extraction returned Loading shell",
+    "Google_Forms_fields_not_verified": "web tool failed opening redirected Google form"
+  },
+  "requirements_confirmed": {
+    "max_essays_per_named_author": 3,
+    "max_words_per_essay_excluding_bibliography": 6000,
+    "anonymized_essay_and_methodology_report": true,
+    "methodology_word_limit": null,
+    "human_personal_reading_required_by_rules": false,
+    "human_custodian_real_name_and_email_required_for_autonomous_agents": true,
+    "AI_origin_of_all_substantive_philosophical_contributions_required": true,
+    "logs_submission": "strongly encouraged, not required; retain for eligibility checks",
+    "publication_licence": "CC BY 4.0",
+    "privacy": "redact private material before submission; editor knows identity",
+    "methodology_blind_essay_judging": true
+  },
+  "conclusion_ru": "Содержательных изменений по сравнению с сохранёнными официальными страницами не найдено. Новых судей с 7 октября нет. Требования о человеке-ответственном, CC BY 4.0, альтернативной форме и составе отчёта уже присутствовали в сохранённом FAQ."
+}

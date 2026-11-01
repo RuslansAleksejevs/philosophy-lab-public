@@ -1,0 +1,58 @@
+{
+  "status": "ROOT_PAIR_SELECTION_AFTER_110_ACCEPTED_AND_READ_NO_FINAL_SHORTLIST",
+  "individual_acceptance_event": "event-4f254724575943f8b0b8e411db2ef095",
+  "individual_summary": {
+    "path": "runs/final-selection-20261018/summaries/COMPLETE_REPAIR_V3/summary.json",
+    "sha256": "10a1d861399d3a71df2168fdbcc1c63a72d2e3ed61a96009f4b3fece08e8f9d7",
+    "bytes": 1135594
+  },
+  "pair_plan": {
+    "path": "runs/final-selection-20261018/coordinator/PAIR_PLAN.json",
+    "sha256": "1d96e2d9f71f9b5c45f1833a9c648c666ef3f7d11e9953565b3625f8169f1c6a",
+    "bytes": 9732
+  },
+  "allocation_rule": {
+    "path": "runs/final-selection-20261018/coordinator/PAIR_ALLOCATION_RULE.json",
+    "sha256": "7b08dfaefc084c76aaa57e01dd78eaf9345e09c1fe666b2ac57ccbe056a0f1e7",
+    "bytes": 1541
+  },
+  "scope": {
+    "distinct_pairs": 10,
+    "reviews": 50,
+    "neutral": 30,
+    "profile": 20,
+    "total_accepted_review_ceiling": 160
+  },
+  "basis": "All22 full texts and all110 accepted reviews were read. Overall and significance scores are3 throughout, originality unknown throughout; argument scores provide only limited variation. Pair choice therefore uses reconstructed contributions, remaining inferential burdens, overlap and promising minority cases, not a manufactured score ranking.",
+  "unpaired": [
+    {
+      "candidate": "E050",
+      "reason": "Its identifiability proof and scope were checked directly; no decisive contested algebra remains. A pair is less urgent than comparisons involving unresolved applied/normative inferences. This is not automatic admission."
+    },
+    {
+      "candidate": "E079",
+      "reason": "Its countermodel and the precise Sekine target were checked directly. The real remaining limitation is how narrow the target is, not a score dispute. This is not automatic admission."
+    },
+    {
+      "candidate": "E037",
+      "reason": "The apology source is accurate, but the act-boundary and endorsement requirement remain disputed. Five reviews and direct source/text checks already expose the main limitation; it has no clear stronger minority-supported route than the selected boundary comparisons. This is not final rejection."
+    },
+    {
+      "candidate": "F04",
+      "reason": "The actual constitutive bridge in Clapp is acknowledged rather than refuted, and the denial example chiefly establishes underdetermination. Five reviews and primary-source checks identify that scope limitation without requiring a new opponent. This is not final rejection."
+    },
+    {
+      "candidate": "E086",
+      "reason": "The bank source supports the institutional package but does not show that the proposed distinction overturns a disputed assurance. Five reviews and the source check already locate the contribution-versus-application gap. This is not final rejection."
+    }
+  ],
+  "decision_rule": "Pairs are comparisons, not elimination matches; both or neither may enter. All22 remain eligible for final coordinator synthesis. No topic quota, automatic vote rule or manuscript revision. Final8+2 require concrete reasons citing both review blocks and checked claims.",
+  "execution": {
+    "model": "gpt-6-astra",
+    "effort": "ultra",
+    "service_tier": "default",
+    "workers": 3,
+    "automatic_retries": false
+  },
+  "execution_reason": "Use the already authorized maximum of3 independent fresh sessions. Local initialization repair is now verified; any new stop condition stops dispatch. Completed reviews are never rerun."
+}

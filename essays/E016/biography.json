@@ -1,0 +1,202 @@
+{
+  "entity": "claude10-20260913/essay-02",
+  "entries": [
+    {
+      "actor": "UNKNOWN",
+      "artifacts": [
+        {
+          "path": "research/campaigns/claude10-20260913/essay-02/HISTORY.md",
+          "role": "legacy_evidence",
+          "sha256": "e57b5ce1add3a8d9c8d99f84e205b0bbca855d9df5c3d9830e8e6cda503f934e"
+        },
+        {
+          "path": "research/campaigns/claude10-20260913/OPERATIONS.md",
+          "role": "shared_context",
+          "sha256": "33b0863c687f2acee73b2c62a40997be7a70f45ce844825e7ab5457ecc2fb5b4"
+        }
+      ],
+      "configuration": {
+        "observed": "UNKNOWN",
+        "requested": "UNKNOWN"
+      },
+      "entity": "claude10-20260913/essay-02",
+      "event_id": "event-a2ba2bbfb1ce455cbaf2a8d4818d5ac3",
+      "evidence": [
+        "event-8ed0c9ca4ff34f3689d40eb16a2971d1",
+        "event-58635c14159a4679bf4d426b8b152f16"
+      ],
+      "gaps": [
+        "Historical causal links/model settings not reconstructed automatically; inspect linked original evidence.",
+        "No recorded tournament does not prove no historical selection occurred."
+      ],
+      "id": "legacy:claude10-20260913/essay-02:ce72a68e0cebc62e3913",
+      "kind": "legacy_inventory",
+      "occurred_at": "UNKNOWN",
+      "parents": [],
+      "recorded_at": "2026-09-21T21:32:37.273956+00:00",
+      "summary": "Historical materials: exact bytes, existing receipts, and links. A recorded history does not replace independent confirmation.",
+      "workflow": "UNKNOWN"
+    },
+    {
+      "actor": "UNKNOWN",
+      "artifacts": [
+        {
+          "path": "research/campaigns/claude10-20260913/essay-02/HISTORY.md",
+          "role": "legacy_evidence",
+          "sha256": "e57b5ce1add3a8d9c8d99f84e205b0bbca855d9df5c3d9830e8e6cda503f934e"
+        },
+        {
+          "path": "research/campaigns/claude10-20260913/OPERATIONS.md",
+          "role": "shared_context",
+          "sha256": "33b0863c687f2acee73b2c62a40997be7a70f45ce844825e7ab5457ecc2fb5b4"
+        }
+      ],
+      "configuration": {
+        "observed": "UNKNOWN",
+        "requested": "UNKNOWN"
+      },
+      "entity": "claude10-20260913/essay-02",
+      "event_id": "event-5715e151ca4345ddba1bc95b3dd4ddcc",
+      "evidence": [
+        "event-8ed0c9ca4ff34f3689d40eb16a2971d1",
+        "event-58635c14159a4679bf4d426b8b152f16"
+      ],
+      "gaps": [
+        "Historical causal links/model settings not reconstructed automatically; inspect linked original evidence.",
+        "No recorded tournament does not prove no historical selection occurred."
+      ],
+      "id": "legacy:claude10-20260913/essay-02:ca22894b00427a0bf35f",
+      "kind": "legacy_inventory",
+      "occurred_at": "UNKNOWN",
+      "parents": [
+        "legacy:claude10-20260913/essay-02:ce72a68e0cebc62e3913"
+      ],
+      "recorded_at": "2026-09-21T21:38:27.744907+00:00",
+      "summary": "Historical materials: exact bytes, existing receipts, and links. A recorded history does not replace independent confirmation.",
+      "workflow": "UNKNOWN"
+    },
+    {
+      "actor": "Codex — archival/editorial summary, not manuscript author",
+      "artifacts": [
+        {
+          "path": "research/campaigns/claude10-20260913/essay-02/author/final-001.md",
+          "role": "preserved_evidence",
+          "sha256": "ecedfe6ee2c5d87720788851593d49106d4ecdd2e9336abba6360700c7d04606"
+        },
+        {
+          "path": "research/campaigns/claude10-20260913/essay-02/author/process.md",
+          "role": "preserved_evidence",
+          "sha256": "d0a863f057e360f885d8f640531f737529cac48613eb3dc8d7ce20c601a464ab"
+        },
+        {
+          "path": "research/campaigns/claude10-20260913/essay-02/author/provenance.json",
+          "role": "preserved_evidence",
+          "sha256": "5f3dbb1983f006f2005ecba7f0bb880f7f5e146b682883c0c5449c3e9db339e0"
+        },
+        {
+          "path": "research/campaigns/claude10-20260913/essay-02/author/sources.md",
+          "role": "preserved_evidence",
+          "sha256": "f91f977e982d50bc2ebe2af2ed354dde9e427b58137cc8899fba649327329955"
+        },
+        {
+          "path": "research/campaigns/claude10-20260913/essay-02/HISTORY.md",
+          "role": "preserved_evidence",
+          "sha256": "e57b5ce1add3a8d9c8d99f84e205b0bbca855d9df5c3d9830e8e6cda503f934e"
+        },
+        {
+          "path": "research/campaigns/claude10-20260913/saved-20260923/essay-02/BIOGRAPHY.md",
+          "role": "preserved_evidence",
+          "sha256": "042b46dd749ddd078c1a4fd0144af5b37913eb24565630766672f30c00a64ddc"
+        },
+        {
+          "path": "research/campaigns/claude10-20260913/saved-20260923/essay-02/ESSAY.md",
+          "role": "preserved_evidence",
+          "sha256": "ecedfe6ee2c5d87720788851593d49106d4ecdd2e9336abba6360700c7d04606"
+        },
+        {
+          "path": "research/campaigns/claude10-20260913/saved-20260923/essay-02/PROVENANCE.json",
+          "role": "preserved_evidence",
+          "sha256": "87f37d2ecb079008ab55da0879fa21f449c4d68e32b9294c392fdb7327e882c0"
+        }
+      ],
+      "configuration": {
+        "observed": [
+          {
+            "evidence": "research/campaigns/claude10-20260913/essay-02/author/provenance.json",
+            "first_observed_at": "2026-09-13T20:29:05.273Z",
+            "last_observed_at": "2026-09-13T20:45:00.341Z",
+            "role": "author",
+            "settings": [
+              "claude-opus-5 / xhigh"
+            ]
+          }
+        ],
+        "requested": "No new manuscript generation"
+      },
+      "entity": "claude10-20260913/essay-02",
+      "event_id": "event-d5ab221ae9fc4848a7f5d371f2802594",
+      "evidence": [
+        "event-5183e3f061a64d1c8f4425798990e7f6",
+        "event-8993d2c6b419405498f34607442057b7"
+      ],
+      "gaps": [
+        "Bounded editorial review, no complete source or novelty audit."
+      ],
+      "id": "closeout-20260923:claude10-20260913/essay-02",
+      "kind": "legacy_inventory",
+      "occurred_at": "UNKNOWN",
+      "parents": [
+        "legacy:claude10-20260913/essay-02:ca22894b00427a0bf35f"
+      ],
+      "recorded_at": "2026-09-23T07:26:15.406197+00:00",
+      "summary": "The series result was preserved: an exact final copy and a readable biography; the manuscript was unchanged.",
+      "workflow": "Retrospective bounded review and exact-byte preservation"
+    },
+    {
+      "actor": "UNKNOWN",
+      "artifacts": [
+        {
+          "path": "research/campaigns/claude10-20260913/essay-02/HISTORY.md",
+          "role": "legacy_evidence",
+          "sha256": "e57b5ce1add3a8d9c8d99f84e205b0bbca855d9df5c3d9830e8e6cda503f934e"
+        },
+        {
+          "path": "research/campaigns/claude10-20260913/OPERATIONS.md",
+          "role": "shared_context",
+          "sha256": "33b0863c687f2acee73b2c62a40997be7a70f45ce844825e7ab5457ecc2fb5b4"
+        }
+      ],
+      "configuration": {
+        "observed": "UNKNOWN",
+        "requested": "UNKNOWN"
+      },
+      "entity": "claude10-20260913/essay-02",
+      "event_id": "event-3696c94d70ba44d1b52b67a51b5406ab",
+      "evidence": [
+        "event-8ed0c9ca4ff34f3689d40eb16a2971d1",
+        "event-58635c14159a4679bf4d426b8b152f16",
+        "event-6984e444fbc642faa6fb72b4cb5cfcab"
+      ],
+      "gaps": [
+        "Historical causal links/model settings not reconstructed automatically; inspect linked original evidence.",
+        "No recorded tournament does not prove no historical selection occurred."
+      ],
+      "id": "legacy:claude10-20260913/essay-02:1a1a03ae973c83cfe66e",
+      "kind": "legacy_inventory",
+      "occurred_at": "UNKNOWN",
+      "parents": [
+        "closeout-20260923:claude10-20260913/essay-02"
+      ],
+      "recorded_at": "2026-09-23T07:26:28.676017+00:00",
+      "summary": "Historical materials: exact bytes, existing receipts, and links. A recorded history does not replace independent confirmation.",
+      "workflow": "UNKNOWN"
+    }
+  ],
+  "protocol": "essay-lineage.v1",
+  "export": {
+    "language": "en",
+    "kind": "English translation of canonical structured biography; source identifiers, hashes, parents, and fields preserved",
+    "source_path": "research/biographies/claude10-20260913/essay-02/biography.json",
+    "source_sha256": "a739be0cac80803942a891983d95b765a4e91094314d3c02f2838cb28be83f8d"
+  }
+}

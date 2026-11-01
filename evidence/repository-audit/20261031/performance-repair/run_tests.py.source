@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+"""Load candidate modules explicitly; all fixtures use temporary synthetic labs."""
+import argparse
+import importlib
+from pathlib import Path
+import sys
+import unittest
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[3]
+SOURCES = ('research_archive', 'codex_rollout', 'capture_codex',
+           'collector_source', 'collector_safety', 'collector_views', 'collector')
+
+
+def load_candidate():
+    sys.dont_write_bytecode = True
+    sys.path[:0] = [str(HERE / 'scripts'), str(ROOT / 'scripts'),
+                   str(HERE / 'tests'), str(HERE)]
+    for name in SOURCES:
+        module = importlib.import_module(name)
+        if Path(module.__file__).resolve() != HERE / 'scripts' / (name + '.py'):
+            raise RuntimeError('Candidate source not loaded: ' + name)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--focused', action='store_true')
+    args = parser.parse_args()
+    if not __debug__:
+        raise RuntimeError('Optimized Python is not supported for these checks')
+    load_candidate()
+    modules = ['test_performance_indexes']
+    if not args.focused:
+        modules += ['test_archive_batch', 'test_research_archive', 'test_collector',
+                    'test_collector_compatibility', 'test_collector_provider_index',
+                    'test_collector_exclusions', 'test_collector_operational',
+                    'test_collector_views', 'test_capture_collector_integration',
+                    'test_codex_rollout']
+    for name in modules:
+        module = importlib.import_module(name)
+        expected = HERE / (name + '.py') if name == 'test_performance_indexes' else HERE / 'tests' / (name + '.py')
+        if Path(module.__file__).resolve() != expected:
+            raise RuntimeError('Wrong test source: ' + name)
+    if not args.focused:
+        direct = sys.modules['test_research_archive']
+        if (direct.SCRIPT.resolve() != HERE / 'scripts/research_archive.py'
+                or Path(direct.module.__file__).resolve() != HERE / 'scripts/research_archive.py'):
+            raise RuntimeError('Direct archive loader bypassed the candidate')
+    suite = unittest.defaultTestLoader.loadTestsFromNames(modules)
+    result = unittest.TextTestRunner(verbosity=2).run(suite)
+    return 0 if result.wasSuccessful() else 1
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

@@ -1,0 +1,128 @@
+{
+  "status": "PASS_BOUNDED_READ_ONLY_PREFLIGHT",
+  "source_session_id": "01a190b5-03e2-70d0-8fcf-b4a1e67148d0",
+  "source_line_cutoff": 3085,
+  "source_prefix_sha256": "1e6c9969cccdbd51e6ee9f32b6825f8cd990343a9a88928476342f95dc6824a8",
+  "counts": {
+    "agent_metadata": 1,
+    "lifecycle": 5,
+    "gap": 52,
+    "excluded": 2350,
+    "model": 5,
+    "text": 62,
+    "tool_pending": 610
+  },
+  "excluded_or_gap_reasons": {
+    "unknown_response_item_type": 1,
+    "excluded:message_role:developer": 7,
+    "excluded:non_user_text_context": 3,
+    "nonvisible_envelope:world_state": 7,
+    "noncanonical_or_hidden_event:thread_settings_applied": 5,
+    "noncanonical_or_hidden_event:item_completed": 1031,
+    "nonvisible_envelope:token_usage_record": 370,
+    "noncanonical_or_hidden_event:token_count": 371,
+    "unknown_payload_fields": 51,
+    "excluded:reasoning": 401,
+    "nonvisible_envelope:inter_agent_communication_metadata": 76,
+    "excluded:agent_message": 76,
+    "excluded:sensitive_tool_body": 1,
+    "nonvisible_envelope:compacted": 2
+  },
+  "selected_checks": [
+    {
+      "source_line": 8,
+      "source_line_sha256": "e13754cc190779bd9ccae2b7ef562d449e3ac928f7f141807e9a2d3156ba999a",
+      "kind": "excluded",
+      "role": null,
+      "reason": "excluded:non_user_text_context",
+      "source_timestamp": "2026-10-31T06:45:45.693Z",
+      "text_sha256": null,
+      "retain_original": null
+    },
+    {
+      "source_line": 13,
+      "source_line_sha256": "b06309a56d5b49dd9b96aa169fc98f1f177fee19cfd5d29ad413aabffca89299",
+      "kind": "excluded",
+      "role": null,
+      "reason": "excluded:non_user_text_context",
+      "source_timestamp": "2026-10-31T06:45:45.698Z",
+      "text_sha256": null,
+      "retain_original": null
+    },
+    {
+      "source_line": 15,
+      "source_line_sha256": "158c39e39f992bf64260806db31a90c87c7eb7dc95a543cff9c8be13a379a545",
+      "kind": "text",
+      "role": "user",
+      "reason": null,
+      "source_timestamp": "2026-10-31T06:45:45.700Z",
+      "text_sha256": "75f33875455e283edd8dfc5a40990020ebd5ea0b4717f6a04ce84f7724fa2f27",
+      "retain_original": true
+    },
+    {
+      "source_line": 18,
+      "source_line_sha256": "7a58ab5d9bca81c9a5bab4c5f3cfa6d6b76ff48335f8704accef07283997fdf2",
+      "kind": "text",
+      "role": "assistant",
+      "reason": null,
+      "source_timestamp": "2026-10-31T06:45:49.417Z",
+      "text_sha256": "661d90471859ab7c17adf73254996363e53b778adcc160ee4bcfe75130c6983e",
+      "retain_original": true
+    },
+    {
+      "source_line": 63,
+      "source_line_sha256": "e7a8d713fb84a22d75c61c22f0e72c219ccecaa408caabea49a5f7ea7ed624dd",
+      "kind": "text",
+      "role": "assistant",
+      "reason": null,
+      "source_timestamp": "2026-10-31T06:46:27.725Z",
+      "text_sha256": "a9fb4242bc895ba23191d3e5fc0101b69120fd7feefc80068ddd105606606060",
+      "retain_original": true
+    },
+    {
+      "source_line": 121,
+      "source_line_sha256": "d4f91e29cffdb77aac3024c75367977b0b8d4c1f2e9badfb25546b9f31be1343",
+      "kind": "text",
+      "role": "assistant",
+      "reason": null,
+      "source_timestamp": "2026-10-31T06:47:12.566Z",
+      "text_sha256": "0a1b00c8cd62d05ae42c223bb9e2adfd010381d6ac2e3ca7c59de2cb6a5717c3",
+      "retain_original": true
+    },
+    {
+      "source_line": 195,
+      "source_line_sha256": "d350ad1b6c66f9e05402e3c1d453e02baef894ee1e0c970824605d74792bd7b7",
+      "kind": "text",
+      "role": "assistant",
+      "reason": null,
+      "source_timestamp": "2026-10-31T06:48:42.887Z",
+      "text_sha256": "c6c7183f7624437802688c77e2a856b5dcf8efb806cb8839eeee51d063568ce5",
+      "retain_original": true
+    },
+    {
+      "source_line": 235,
+      "source_line_sha256": "c2eb769883e8bc905b755dcd7b611fd17aa635fb636b3ab0cc339565cf9619dd",
+      "kind": "excluded",
+      "role": null,
+      "reason": "excluded:non_user_text_context",
+      "source_timestamp": "2026-10-31T07:00:05.708Z",
+      "text_sha256": null,
+      "retain_original": null
+    },
+    {
+      "source_line": 3056,
+      "source_line_sha256": "7d6d985b52f6d586b4b8b46f8bcc4fccd1f6f4d9f1b5b21f291b898715a8996a",
+      "kind": "text",
+      "role": "user",
+      "reason": null,
+      "source_timestamp": "2026-10-31T17:40:54.051Z",
+      "text_sha256": "7c5638491ff94bd0c65db7971fbeefbe13589cbc285b074782d204f12c03e12d",
+      "retain_original": true
+    }
+  ],
+  "code": {
+    "scripts/capture_codex.py": "26c6d6781df7e9e02a4c4258c699e3fb798618e6b4815ff3431b23c31399f2c7",
+    "tests/test_capture_codex_current_schema.py": "023dcde7c308ac179986d94c708580b57bffda0cfe42b023ed6bb24982d6269e"
+  },
+  "boundary": "Read-only fixed-prefix parse; no canonical capture, provider call or service restart. Native source bytes and hidden bodies not written to report. This is schema compatibility, not whole-provider coverage."
+}

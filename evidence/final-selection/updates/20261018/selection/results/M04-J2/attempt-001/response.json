@@ -1,0 +1,62 @@
+{
+  "review_id": "M04-J2",
+  "manuscript_id": "M04",
+  "profile_id": "josh_dever",
+  "read_complete": true,
+  "thesis": "Preserving present confidence does not necessarily preserve the ability to revise appropriately. Foreseeable loss of that ability supplies a defeasible epistemic reason against deletion. Retention becomes obligatory under an additional principle prohibiting recognized, costless impairment of an agent's continuing aim of informed accuracy.",
+  "contribution": "The remaining contribution is a useful connection between conditional informational sufficiency and prospective responsibility for preserving inquiry results. It separates justified belief, permissible closure, and permissible deletion, then applies this distinction to shared records. The manuscript expressly acknowledges that neither the informational phenomenon nor its mathematical treatment is new. Its philosophical payoff is credible but modest: a clearer object of evaluation and a restricted preservation norm.",
+  "argument_map": [
+    "In the stipulated channel model, either source's positive report warrants confidence 0.9. Deleting its identity therefore preserves the current posterior exactly.",
+    "A subsequent audit makes that identity relevant: when only B is sound, the retained identity warrants either 0.5 or 1, whereas its absence warrants 0.75. All three assessments can be rational relative to the information available.",
+    "For a deterministic summary, exact posterior reproduction after a specified observation requires that merged records never support different posteriors under that observation. The conditional-expectation identity correctly connects failure of this condition to strictly greater expected squared error.",
+    "The normative bridge treats avoidable expected impairment of truth-directed assessment as an epistemic reason against deletion. This supports a defeasible reason; the probability calculations alone establish no obligation.",
+    "The stronger conclusion adds an instrumental principle: recognized alternatives that equally respect other considerations must not gratuitously impair a continuing epistemic aim. Restrictions concerning costs, control, anticipated challenges, and continuing aims protect the proposal against unlimited retention demands."
+  ],
+  "strongest_merit": {
+    "location": "§3, paragraphs beginning 'There is a general connection' through 'The loss supplies'; §4, paragraph beginning 'The contrast is especially clear'.",
+    "reason": "The formal example has a clear philosophical purpose. It establishes a prospective loss without requiring any later belief to be irrational, and the accuracy calculations are internally correct. The recipient case then shows why evaluating a preservation decision cannot simply be replaced by evaluating the resulting belief. This separation survives disagreement about historical theories of justification."
+  },
+  "concerns": [
+    {
+      "severity": "open",
+      "kind": "premise",
+      "location": "§3, paragraph beginning 'Why accept this principle instead of unrestricted satisficing?'",
+      "excerpt": "None of those explanations supports the stipulated deletion.",
+      "reason": "Removing familiar burdens undermines one justification for satisficing, but does not establish that every continuing aim imposes a strict requirement against costless deterioration. An agent could value additional accuracy while regarding all sufficiently accurate policies as permissible. This leaves the stronger obligation dependent on a substantive instrumental norm, rather than demonstrating a contradiction in the opposing position.",
+      "text_response": "The manuscript explicitly acknowledges thoroughgoing satisficing, makes the stronger requirement conditional on rejecting it, and excludes agents whose sole aim is reaching a threshold. These qualifications preserve the weaker result and prevent this concern from being fatal.",
+      "discriminating_check": "Consider an agent who continues to aim at accuracy and prefers greater accuracy, but permits any adequate policy. Explain why this combination is impermissible without defining the continuing aim as already requiring the preferred policy. Otherwise retain the explicitly conditional conclusion."
+    },
+    {
+      "severity": "minor",
+      "kind": "significance",
+      "location": "§6, final paragraph beginning 'Finally, a reader may ask'; §7, opening committee example.",
+      "excerpt": "Its contribution is a discriminating application.",
+      "reason": "The application identifies a real distinction, but its added explanatory reach remains limited. The manuscript establishes that confidence-only assessment can miss future informational value; it does not demonstrate a representative philosophical position making that mistake. The committee case also stipulates a correction duty that already strongly supports retaining the necessary map.",
+      "text_response": "The manuscript acknowledges the familiar value of information, distinguishes its prospective target from Frise's justification question, and offers concrete alternatives such as custody and response tables. These are useful contributions even without overturning an established doctrine.",
+      "discriminating_check": "Compare the deletion choice with an ordinary value-of-information principle combined with the analyst's existing task obligations. Identify a judgment or explanation supplied by this account that those resources leave unresolved. A representative confidence-only retention rule would also sharpen the target."
+    }
+  ],
+  "scores": {
+    "overall": 3,
+    "argument": 3,
+    "significance": 3,
+    "originality": null
+  },
+  "originality_limit": "The manuscript provides explicit antecedents and a proposed change of evaluative target. That supports a differentiated contribution claim, but does not establish that the prospective norm or its application is absent from existing work. Familiarity and the manuscript's own positioning are insufficient evidence for a numerical originality judgment.",
+  "recommendation": "borderline",
+  "reason_ru": [
+    "Текст убедительно показывает, что ненужная сегодня запись может понадобиться для будущего пересмотра вывода.",
+    "Полезный результат — различение разумности убеждения и ответственности за удаление информации.",
+    "Работа на границе отбора: вклад скромный, а строгая обязанность хранить сведения зависит от спорного дополнительного принципа."
+  ],
+  "confidence": "medium",
+  "profile_basis": [
+    "Supplied B0 methodological lens: distinguish questions about justified belief from questions about managing inquiry, and match objections to the precise claim.",
+    "Supplied T1 methodological lens: isolate the additional normative premise while crediting the constructive result independently of the stronger conclusion."
+  ],
+  "limits": [
+    "The entire supplied manuscript, including its bibliography, was read.",
+    "External source correctness and exhaustive novelty were not checked.",
+    "The review uses only the supplied packet; the profile supplies bounded methodological guidance, not evidence of philosophical truth or the actual person's judgment."
+  ]
+}

@@ -1,0 +1,1010 @@
+{
+  "status": "ACTUAL_UPLOAD_LOCAL_AUDIT_PASS",
+  "checked_at": "2026-10-19T07:52:38.288039+00:00",
+  "repository_full_name": "RuslansAleksejevs/philosophy-lab",
+  "scope": "Bounded read-only audit of saved connector requests/responses and their exact manifest bindings. No fresh network verification.",
+  "manifest": {
+    "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/MANIFEST.json",
+    "sha256": "0e5deb48975c306c463b5cd9400163a9aa3ba9c0269a2f90a5eab22ba5d02c3e",
+    "bytes": 19218
+  },
+  "source_files": [
+    {
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/BASELINE.json",
+      "sha256": "357269ad503368e6801214c343d340210ef7c8c3e02e09ed4add352361544f50",
+      "bytes": 651136
+    },
+    {
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/upload/index.json",
+      "sha256": "0a9dc1d84c52a1f8b28218c5ceff4abbda81025547bc28d1eff1fa8d0eb9fe71",
+      "bytes": 295815
+    },
+    {
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/VERIFICATION.json",
+      "sha256": "afcc9f6d128b905224062c8f9fd141c3a02e83f2bafb8578856b543d4edb3615",
+      "bytes": 326
+    }
+  ],
+  "counts": {
+    "blob_requests_and_actual_responses": 8,
+    "tree_requests_and_actual_responses": 41,
+    "distinct_changed_paths": 810,
+    "unexpected_or_missing_actual_files": 0
+  },
+  "checks": {
+    "all_request_sha256_and_byte_counts_match": true,
+    "all_actual_response_descriptors_match_manifest": true,
+    "all_responses_isError_false": true,
+    "all_expected_and_actual_git_shas_match": true,
+    "eight_blob_git_shas_recomputed_from_exact_base64_bytes": true,
+    "base_tree_and_all_41_successor_trees_independently_recomputed": true,
+    "tree_bases_contiguous_from_manifest_base": true,
+    "tree_request_limits_observed": true,
+    "all_810_final_path_modes_and_shas_match_upload_index": true,
+    "commit_request_matches_manifest_and_create_record": true,
+    "saved_remote_commit_readback_matches_commit_tree_message_and_sole_parent": true,
+    "saved_pre_ref_main_still_base": true,
+    "ref_update_is_expected_base_guarded_nonforce_main_success": true
+  },
+  "chain": {
+    "base_commit": "a839f80621d1aa6c5db793b7e7b443f7153825f6",
+    "base_tree": "3b6d6e0ad3816c0293413088c2606655366333ce",
+    "target_tree": "3ac297322e8f3b27195130249922ec7a306116ad",
+    "new_commit": "467cdcebe3207cb7b141f7d924124bed007fd496"
+  },
+  "upload_records": [
+    {
+      "kind": "blob",
+      "ordinal": 1,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/blob-0001.json",
+        "sha256": "c99e9922f96e64d21da6820b2eac2f978ace3faf0d5127648469d01ed645ce12",
+        "bytes": 332773
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/blob-0001.json",
+        "sha256": "0935549b4492ed21a4964c9aacbbc450403e1074d1dd8dfb2d6059915c28333a",
+        "bytes": 595
+      },
+      "expected_sha": "c3255f04f7206278779042bb6931889c81a3b16f",
+      "actual_sha": "c3255f04f7206278779042bb6931889c81a3b16f",
+      "independently_computed_sha": "c3255f04f7206278779042bb6931889c81a3b16f",
+      "decoded_bytes": 249510,
+      "repository_path": "essays/manifest.json"
+    },
+    {
+      "kind": "blob",
+      "ordinal": 2,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/blob-0002.json",
+        "sha256": "34fbe993e7c9363d4c6d66282484fc0bccc70009d25d24e25bd3932c9cee6f85",
+        "bytes": 488909
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/blob-0002.json",
+        "sha256": "82777066a3c3e109ca1297626acb193417a87c359ee3e69b54f3ed8fed01cef6",
+        "bytes": 595
+      },
+      "expected_sha": "85df79b21dc6f0fe521a29efad013d983dccc631",
+      "actual_sha": "85df79b21dc6f0fe521a29efad013d983dccc631",
+      "independently_computed_sha": "85df79b21dc6f0fe521a29efad013d983dccc631",
+      "decoded_bytes": 366610,
+      "repository_path": "evidence/final-selection/updates/20261018/manifest.json"
+    },
+    {
+      "kind": "blob",
+      "ordinal": 3,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/blob-0003.json",
+        "sha256": "6efb2bdf134258d21149c5365a895f59a1a3dd12b6ee5bd8c163f90a212ecdd2",
+        "bytes": 256329
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/blob-0003.json",
+        "sha256": "f3c506efb9e23a1a6d1757e844f86a9da34aaea050b7f99a1768b0215ca7f4c7",
+        "bytes": 595
+      },
+      "expected_sha": "1e039cfa6b0ebba833b2bc89f0091167047a1275",
+      "actual_sha": "1e039cfa6b0ebba833b2bc89f0091167047a1275",
+      "independently_computed_sha": "1e039cfa6b0ebba833b2bc89f0091167047a1275",
+      "decoded_bytes": 192176,
+      "repository_path": "evidence/final-selection/updates/20261018/preselection/FINAL_RECEIPT.json"
+    },
+    {
+      "kind": "blob",
+      "ordinal": 4,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/blob-0004.json",
+        "sha256": "c1bbb455adf13d685d7157388ac5980fe71a98ec1cc03aa718e500f6f997747d",
+        "bytes": 321049
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/blob-0004.json",
+        "sha256": "4a2ca8d8f38caadc6349c8ccef6fc1d54a6ac68161e8464e30b79231af46d034",
+        "bytes": 595
+      },
+      "expected_sha": "e13d5d51f77d1b6510ee5be1e56e9c99e03d86b6",
+      "actual_sha": "e13d5d51f77d1b6510ee5be1e56e9c99e03d86b6",
+      "independently_computed_sha": "e13d5d51f77d1b6510ee5be1e56e9c99e03d86b6",
+      "decoded_bytes": 240716,
+      "repository_path": "evidence/final-selection/updates/20261018/previous/essays/manifest.json.source"
+    },
+    {
+      "kind": "blob",
+      "ordinal": 5,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/blob-0005.json",
+        "sha256": "05b608279676f7d5c8e18cd122bdbd9f945a4098ea7d5a6cd08a495f7064b664",
+        "bytes": 339957
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/blob-0005.json",
+        "sha256": "18c4bc32a5fa39ec6b2cbddc84121ec8c591d56d1aeee43cb91fa80ce61c7410",
+        "bytes": 595
+      },
+      "expected_sha": "65fd789528de19c58e3fe6607de3d81e7b705800",
+      "actual_sha": "65fd789528de19c58e3fe6607de3d81e7b705800",
+      "independently_computed_sha": "65fd789528de19c58e3fe6607de3d81e7b705800",
+      "decoded_bytes": 254898,
+      "repository_path": "evidence/final-selection/updates/20261018/selection/closure/VALIDATION.json"
+    },
+    {
+      "kind": "blob",
+      "ordinal": 6,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/blob-0006.json",
+        "sha256": "b6a4e6d5a27ac97aea593f259be713f5e46bb9a6a66dccf83aa64e0b7eeef08c",
+        "bytes": 244509
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/blob-0006.json",
+        "sha256": "2acd9e6777a1c943305b950e38ba371d3afb7dda28f272b78ba7059b89baade7",
+        "bytes": 595
+      },
+      "expected_sha": "8644f5da0a1d48a56c2f2faef97ef15b784e159e",
+      "actual_sha": "8644f5da0a1d48a56c2f2faef97ef15b784e159e",
+      "independently_computed_sha": "8644f5da0a1d48a56c2f2faef97ef15b784e159e",
+      "decoded_bytes": 183310,
+      "repository_path": "evidence/final-selection/updates/20261018/selection/closure-input/REQUEST.json"
+    },
+    {
+      "kind": "blob",
+      "ordinal": 7,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/blob-0007.json",
+        "sha256": "a010b0be29438eae62d9d035f0f219f0eb79c77f73f32600f5db28e31536fe79",
+        "bytes": 1514221
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/blob-0007.json",
+        "sha256": "1d0d00e83b119f4a2026f0ce8fc0a038b9e20d5987a39b9a26bf920a0168cd6f",
+        "bytes": 596
+      },
+      "expected_sha": "43185f9fa62e02e5d1c62576d1d98ca742e454b9",
+      "actual_sha": "43185f9fa62e02e5d1c62576d1d98ca742e454b9",
+      "independently_computed_sha": "43185f9fa62e02e5d1c62576d1d98ca742e454b9",
+      "decoded_bytes": 1135594,
+      "repository_path": "evidence/final-selection/updates/20261018/selection/summaries/COMPLETE_REPAIR_V3/summary.json"
+    },
+    {
+      "kind": "blob",
+      "ordinal": 8,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/blob-0008.json",
+        "sha256": "31e7d074e3ba0b17387bef718d7bcf829175843a33c432c717126d2ddbe0c9e1",
+        "bytes": 742061
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/blob-0008.json",
+        "sha256": "b42d1adafb340ed68ef020bbe826c02acf0fa1db6ba52bb19893f67d03c61cd3",
+        "bytes": 595
+      },
+      "expected_sha": "268747aa0f9e5e0db33644be69604aee26972aa3",
+      "actual_sha": "268747aa0f9e5e0db33644be69604aee26972aa3",
+      "independently_computed_sha": "268747aa0f9e5e0db33644be69604aee26972aa3",
+      "decoded_bytes": 556474,
+      "repository_path": "evidence/final-selection/updates/20261018/selection/summaries/PAIRS_COMPLETE/summary.json"
+    },
+    {
+      "kind": "tree",
+      "ordinal": 1,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0001.json",
+        "sha256": "407d1ac9d8965dd912601a953af5e8bd67442698eb9c72b771e5b417e2739512",
+        "bytes": 168884
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0001.json",
+        "sha256": "9947815fa86fe89168b30506485e08b328a5a5d6d2991dee51e3305c92b62615",
+        "bytes": 595
+      },
+      "expected_sha": "b95957cee007324c6434696471f66e51d5ee6aa2",
+      "actual_sha": "b95957cee007324c6434696471f66e51d5ee6aa2",
+      "independently_computed_sha": "b95957cee007324c6434696471f66e51d5ee6aa2",
+      "base_tree": "3b6d6e0ad3816c0293413088c2606655366333ce",
+      "entries": 9
+    },
+    {
+      "kind": "tree",
+      "ordinal": 2,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0002.json",
+        "sha256": "170653bbf101ab3f1726074fbbdbc77c60035ca14da05aa7788a47237e47abd7",
+        "bytes": 174006
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0002.json",
+        "sha256": "badf2b21a4d55cd4c26338e893094b140c6b4b84858ef6e05fd70addae028f80",
+        "bytes": 595
+      },
+      "expected_sha": "037d5b94b5fdab78b931dca7de90b8c790729565",
+      "actual_sha": "037d5b94b5fdab78b931dca7de90b8c790729565",
+      "independently_computed_sha": "037d5b94b5fdab78b931dca7de90b8c790729565",
+      "base_tree": "b95957cee007324c6434696471f66e51d5ee6aa2",
+      "entries": 7
+    },
+    {
+      "kind": "tree",
+      "ordinal": 3,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0003.json",
+        "sha256": "c64bf32cbdae669d3ca251951ba88a58b2da9286448c50c7171b1d7d3c3e8244",
+        "bytes": 178160
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0003.json",
+        "sha256": "b005d3fc4fb45b578562bac852765afd732375d4fa3035e68df2878484bf3cbd",
+        "bytes": 595
+      },
+      "expected_sha": "044786037b4828fc84e069eb0c99043ec486cf0d",
+      "actual_sha": "044786037b4828fc84e069eb0c99043ec486cf0d",
+      "independently_computed_sha": "044786037b4828fc84e069eb0c99043ec486cf0d",
+      "base_tree": "037d5b94b5fdab78b931dca7de90b8c790729565",
+      "entries": 7
+    },
+    {
+      "kind": "tree",
+      "ordinal": 4,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0004.json",
+        "sha256": "5f9e4a6590ec271d487a5fa61927c4e34bb32e73cfb45982c16fa74fa7816795",
+        "bytes": 176926
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0004.json",
+        "sha256": "03a8377661ba1d2106c00a66bae375634fb4eed41c832aed09d4f07eee9f6a8c",
+        "bytes": 595
+      },
+      "expected_sha": "b1ef09179b1052279d32f8e0f4c29579cba9fb8c",
+      "actual_sha": "b1ef09179b1052279d32f8e0f4c29579cba9fb8c",
+      "independently_computed_sha": "b1ef09179b1052279d32f8e0f4c29579cba9fb8c",
+      "base_tree": "044786037b4828fc84e069eb0c99043ec486cf0d",
+      "entries": 7
+    },
+    {
+      "kind": "tree",
+      "ordinal": 5,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0005.json",
+        "sha256": "7834a5f33656a555d6a7e0f09fb8d661bb72ead8c8417cb48b32bcacf3502647",
+        "bytes": 165787
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0005.json",
+        "sha256": "d1f8a32b20abcccdc02c6e0a521363d29908a5b8a488b6b268da721c8d46596a",
+        "bytes": 595
+      },
+      "expected_sha": "4b40368deb1a16c6e1aa9e8f3c5f2fae1334fa80",
+      "actual_sha": "4b40368deb1a16c6e1aa9e8f3c5f2fae1334fa80",
+      "independently_computed_sha": "4b40368deb1a16c6e1aa9e8f3c5f2fae1334fa80",
+      "base_tree": "b1ef09179b1052279d32f8e0f4c29579cba9fb8c",
+      "entries": 8
+    },
+    {
+      "kind": "tree",
+      "ordinal": 6,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0006.json",
+        "sha256": "d3b5ea1437bfec8cb6c11e4d9c094e06f66721d4e2f436ecdabf503a707fc54f",
+        "bytes": 101326
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0006.json",
+        "sha256": "97649cd31d6188f903a24a059c1087a4005809e3ddb89e7dc55a695db4c7cdad",
+        "bytes": 595
+      },
+      "expected_sha": "cf11d68c47197a3a326d71ce28b1987d5b074282",
+      "actual_sha": "cf11d68c47197a3a326d71ce28b1987d5b074282",
+      "independently_computed_sha": "cf11d68c47197a3a326d71ce28b1987d5b074282",
+      "base_tree": "4b40368deb1a16c6e1aa9e8f3c5f2fae1334fa80",
+      "entries": 3
+    },
+    {
+      "kind": "tree",
+      "ordinal": 7,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0007.json",
+        "sha256": "b3f91c727471276de827ece9c4a3abf0ce8a3816b1e11b3632c7b3cf93fc6916",
+        "bytes": 148607
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0007.json",
+        "sha256": "5a59ab0c4cb2731dd7bff82c520ec33c97859ccaabd24c301dbf70c377dbb62d",
+        "bytes": 595
+      },
+      "expected_sha": "2b001908a778b5d28782f6ab5c75237da8e235a0",
+      "actual_sha": "2b001908a778b5d28782f6ab5c75237da8e235a0",
+      "independently_computed_sha": "2b001908a778b5d28782f6ab5c75237da8e235a0",
+      "base_tree": "cf11d68c47197a3a326d71ce28b1987d5b074282",
+      "entries": 6
+    },
+    {
+      "kind": "tree",
+      "ordinal": 8,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0008.json",
+        "sha256": "f39320a2ec5752e716dc9403b61a4ff698f1520c2f2d3bd7d6261334d21ee279",
+        "bytes": 184335
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0008.json",
+        "sha256": "7cdf042a10d3ab7f31653fa2b3c0192143cda4b57d5e119288ab6c0a8c9abe8c",
+        "bytes": 595
+      },
+      "expected_sha": "b3537bc79a7a3cbe5ce6907645b97fe8ece3fb11",
+      "actual_sha": "b3537bc79a7a3cbe5ce6907645b97fe8ece3fb11",
+      "independently_computed_sha": "b3537bc79a7a3cbe5ce6907645b97fe8ece3fb11",
+      "base_tree": "2b001908a778b5d28782f6ab5c75237da8e235a0",
+      "entries": 10
+    },
+    {
+      "kind": "tree",
+      "ordinal": 9,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0009.json",
+        "sha256": "bf1723a19ca2f488eb451fdd90874e7cafd639ed68f48d8869ea1685c24bbdfc",
+        "bytes": 186235
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0009.json",
+        "sha256": "30fe0a20f12e30cdf4bbaf84d251315c1e6f74003dde1c856fb88c95520dbcbd",
+        "bytes": 595
+      },
+      "expected_sha": "72e3adf165135e243ee9b45e915b7738c2f68d04",
+      "actual_sha": "72e3adf165135e243ee9b45e915b7738c2f68d04",
+      "independently_computed_sha": "72e3adf165135e243ee9b45e915b7738c2f68d04",
+      "base_tree": "b3537bc79a7a3cbe5ce6907645b97fe8ece3fb11",
+      "entries": 14
+    },
+    {
+      "kind": "tree",
+      "ordinal": 10,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0010.json",
+        "sha256": "3dc9184a3dd7f92acb56757a8021103c9a552102ba736be53a4bfaa6cbfb51f9",
+        "bytes": 196376
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0010.json",
+        "sha256": "223ed83be0c9a2ecc31276d9f5e2e0362bc51fd0ea941db8385afe47212b261a",
+        "bytes": 596
+      },
+      "expected_sha": "c73faab023d968aeb58d0d2e1ddf5fee17696679",
+      "actual_sha": "c73faab023d968aeb58d0d2e1ddf5fee17696679",
+      "independently_computed_sha": "c73faab023d968aeb58d0d2e1ddf5fee17696679",
+      "base_tree": "72e3adf165135e243ee9b45e915b7738c2f68d04",
+      "entries": 6
+    },
+    {
+      "kind": "tree",
+      "ordinal": 11,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0011.json",
+        "sha256": "603ee863de9f5800c4541f8093e72346c557ddbc149ffb19f3a10734b5f3bbee",
+        "bytes": 88886
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0011.json",
+        "sha256": "579b1d983e5fbc93a0c1bcf6c42fd2aae09d1a8e75f2596afbddd8d1b58078bd",
+        "bytes": 595
+      },
+      "expected_sha": "d32cb236dcf4716348610c3dd78a36f9d7eb50db",
+      "actual_sha": "d32cb236dcf4716348610c3dd78a36f9d7eb50db",
+      "independently_computed_sha": "d32cb236dcf4716348610c3dd78a36f9d7eb50db",
+      "base_tree": "c73faab023d968aeb58d0d2e1ddf5fee17696679",
+      "entries": 5
+    },
+    {
+      "kind": "tree",
+      "ordinal": 12,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0012.json",
+        "sha256": "ddbd201892db4d684f29764109944581bd88701a447fe629cc01a6c23ef712e7",
+        "bytes": 179378
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0012.json",
+        "sha256": "01d806d93cd0d448ef6ae2ffabb376ef4f637b2686acf7f3a7a4c4a4f2716c3f",
+        "bytes": 596
+      },
+      "expected_sha": "7f545f7f16122ed39de049399b3b4549435fa808",
+      "actual_sha": "7f545f7f16122ed39de049399b3b4549435fa808",
+      "independently_computed_sha": "7f545f7f16122ed39de049399b3b4549435fa808",
+      "base_tree": "d32cb236dcf4716348610c3dd78a36f9d7eb50db",
+      "entries": 1
+    },
+    {
+      "kind": "tree",
+      "ordinal": 13,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0013.json",
+        "sha256": "4d6b777df932616b5291ff6e57b85ba341aa7e1cbfb29558afe05578600568d3",
+        "bytes": 196130
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0013.json",
+        "sha256": "9c2693d6367f36ad46cdbb39c8d73dbeec5e86e5fc535e1f46ba2faabea38415",
+        "bytes": 596
+      },
+      "expected_sha": "b07830af4c1ee49ec163dc8076744ef3941638b7",
+      "actual_sha": "b07830af4c1ee49ec163dc8076744ef3941638b7",
+      "independently_computed_sha": "b07830af4c1ee49ec163dc8076744ef3941638b7",
+      "base_tree": "7f545f7f16122ed39de049399b3b4549435fa808",
+      "entries": 26
+    },
+    {
+      "kind": "tree",
+      "ordinal": 14,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0014.json",
+        "sha256": "79c200607458ee4276124bf3e6285197d7f410f1ead46bcccae8ed1dc22018ad",
+        "bytes": 187034
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0014.json",
+        "sha256": "f7d3d4f8477fae7d0008b01ee14be965f6c60fc3c2bdf7a2949cb7175c18d8c4",
+        "bytes": 596
+      },
+      "expected_sha": "ce50b0a0374182546192eb6a5fdcbfd2469ce690",
+      "actual_sha": "ce50b0a0374182546192eb6a5fdcbfd2469ce690",
+      "independently_computed_sha": "ce50b0a0374182546192eb6a5fdcbfd2469ce690",
+      "base_tree": "b07830af4c1ee49ec163dc8076744ef3941638b7",
+      "entries": 22
+    },
+    {
+      "kind": "tree",
+      "ordinal": 15,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0015.json",
+        "sha256": "ebabfd7cf9f6d18f9e455f2d6c9e7666a0742032984f5c79ddcfcb551b8bf3f3",
+        "bytes": 196306
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0015.json",
+        "sha256": "5424eb8d3ad38deb2fa1d3910b1f605ae16790a266189978887d89a76a968e60",
+        "bytes": 596
+      },
+      "expected_sha": "63e8988a9c4314bd4e347400d6e9a115cdb72e02",
+      "actual_sha": "63e8988a9c4314bd4e347400d6e9a115cdb72e02",
+      "independently_computed_sha": "63e8988a9c4314bd4e347400d6e9a115cdb72e02",
+      "base_tree": "ce50b0a0374182546192eb6a5fdcbfd2469ce690",
+      "entries": 21
+    },
+    {
+      "kind": "tree",
+      "ordinal": 16,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0016.json",
+        "sha256": "efc9a0a8f83bfd64a00675ddfac3f47ade9842369f92f5154cea7ed82a69fd25",
+        "bytes": 184959
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0016.json",
+        "sha256": "6d9e376b556e2714481a2f509df428e1b77fc04cb22b022eba95107f4ac4dce4",
+        "bytes": 596
+      },
+      "expected_sha": "15fa2a0c5a65f74514115d6533bc4a66aaca63e0",
+      "actual_sha": "15fa2a0c5a65f74514115d6533bc4a66aaca63e0",
+      "independently_computed_sha": "15fa2a0c5a65f74514115d6533bc4a66aaca63e0",
+      "base_tree": "63e8988a9c4314bd4e347400d6e9a115cdb72e02",
+      "entries": 13
+    },
+    {
+      "kind": "tree",
+      "ordinal": 17,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0017.json",
+        "sha256": "15bc0f1ee03d704ac7b6b5a98eb0b08773ec1f0e72bc549c0c78c4df85aab4cf",
+        "bytes": 195785
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0017.json",
+        "sha256": "fe129640e6e5d1ad10554e68c8a201f04db62b305ca17acfaa2b0d1483396641",
+        "bytes": 596
+      },
+      "expected_sha": "7b854b3c5bdb5398b6225563d3459e94935e1c0e",
+      "actual_sha": "7b854b3c5bdb5398b6225563d3459e94935e1c0e",
+      "independently_computed_sha": "7b854b3c5bdb5398b6225563d3459e94935e1c0e",
+      "base_tree": "15fa2a0c5a65f74514115d6533bc4a66aaca63e0",
+      "entries": 31
+    },
+    {
+      "kind": "tree",
+      "ordinal": 18,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0018.json",
+        "sha256": "a337da75abb8000a9b21530a0df77a665c982feb9c8956686a745775923d9f83",
+        "bytes": 116313
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0018.json",
+        "sha256": "923c2b0565cf4d3527128555cd04202c6ce13ccd7c4a71b155a334489e5030e5",
+        "bytes": 596
+      },
+      "expected_sha": "6ccdcda81314383b26eab8b443524c9f64423ea0",
+      "actual_sha": "6ccdcda81314383b26eab8b443524c9f64423ea0",
+      "independently_computed_sha": "6ccdcda81314383b26eab8b443524c9f64423ea0",
+      "base_tree": "7b854b3c5bdb5398b6225563d3459e94935e1c0e",
+      "entries": 35
+    },
+    {
+      "kind": "tree",
+      "ordinal": 19,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0019.json",
+        "sha256": "aed99a5838f826958b43763479b33f9549c20a08193a44dbdcddbe2b6a7dcbd2",
+        "bytes": 174745
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0019.json",
+        "sha256": "29e4bb45733dedf84d5e060485cd8d0e474773459516f22f4d5deb7de79f9bae",
+        "bytes": 596
+      },
+      "expected_sha": "4744e9dc902c7209738cb84361a0da5ef5b1889f",
+      "actual_sha": "4744e9dc902c7209738cb84361a0da5ef5b1889f",
+      "independently_computed_sha": "4744e9dc902c7209738cb84361a0da5ef5b1889f",
+      "base_tree": "6ccdcda81314383b26eab8b443524c9f64423ea0",
+      "entries": 2
+    },
+    {
+      "kind": "tree",
+      "ordinal": 20,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0020.json",
+        "sha256": "e67a52737e34c251f99f660915b5ea5826a3a39df5c0b66b980d56d35b309601",
+        "bytes": 189630
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0020.json",
+        "sha256": "1bce0381e165e8b9755e66ebb628886e7968a36e666afeae564745070c759e9a",
+        "bytes": 596
+      },
+      "expected_sha": "f669f243d974ee18ed034752b37e641f680f62e2",
+      "actual_sha": "f669f243d974ee18ed034752b37e641f680f62e2",
+      "independently_computed_sha": "f669f243d974ee18ed034752b37e641f680f62e2",
+      "base_tree": "4744e9dc902c7209738cb84361a0da5ef5b1889f",
+      "entries": 23
+    },
+    {
+      "kind": "tree",
+      "ordinal": 21,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0021.json",
+        "sha256": "b9a92f2761b77ef93618f6345799c94c4fbed8e2bfbafe2b5b82f899980ff766",
+        "bytes": 163202
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0021.json",
+        "sha256": "af235fcb541231565737abf85811bc0196a08922054c3efa98f0c20236b0780a",
+        "bytes": 596
+      },
+      "expected_sha": "7ef40a3c3533074ed82a4f9f7a1d2837823a57b3",
+      "actual_sha": "7ef40a3c3533074ed82a4f9f7a1d2837823a57b3",
+      "independently_computed_sha": "7ef40a3c3533074ed82a4f9f7a1d2837823a57b3",
+      "base_tree": "f669f243d974ee18ed034752b37e641f680f62e2",
+      "entries": 5
+    },
+    {
+      "kind": "tree",
+      "ordinal": 22,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0022.json",
+        "sha256": "8104ea085e502d8a90e2af32a61b1a985c07446ff9655d865452d5de3d23f0d7",
+        "bytes": 195719
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0022.json",
+        "sha256": "1e100054c8eabd9097e9172d447bda20b1e9a71eb4d3e93ab9d18eda3f74cdb0",
+        "bytes": 596
+      },
+      "expected_sha": "3746513c91b952b8e1a53773db6436c968a88226",
+      "actual_sha": "3746513c91b952b8e1a53773db6436c968a88226",
+      "independently_computed_sha": "3746513c91b952b8e1a53773db6436c968a88226",
+      "base_tree": "7ef40a3c3533074ed82a4f9f7a1d2837823a57b3",
+      "entries": 9
+    },
+    {
+      "kind": "tree",
+      "ordinal": 23,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0023.json",
+        "sha256": "6525c5ec77b1b7a67431158e8f6510d899f156cd51995b52294978c32ff76e5d",
+        "bytes": 170281
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0023.json",
+        "sha256": "08903f90d94096762ed1c5c7bce08ab665b3dfe975963ca9c6eca918ebc6eefb",
+        "bytes": 596
+      },
+      "expected_sha": "db94e6ee8e389a32f97d25e245f68ee6cb3aab51",
+      "actual_sha": "db94e6ee8e389a32f97d25e245f68ee6cb3aab51",
+      "independently_computed_sha": "db94e6ee8e389a32f97d25e245f68ee6cb3aab51",
+      "base_tree": "3746513c91b952b8e1a53773db6436c968a88226",
+      "entries": 4
+    },
+    {
+      "kind": "tree",
+      "ordinal": 24,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0024.json",
+        "sha256": "36f006c8daf8696759a96f73a59f362e659b65fd103f466b7642f441ee112f2b",
+        "bytes": 191668
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0024.json",
+        "sha256": "b5a3489b75305388e9fc3bd5658a927a7209005020647bd61f782eb35114ddeb",
+        "bytes": 596
+      },
+      "expected_sha": "389c6aaa23ab27fc35a885934b5de2e5e618d1b5",
+      "actual_sha": "389c6aaa23ab27fc35a885934b5de2e5e618d1b5",
+      "independently_computed_sha": "389c6aaa23ab27fc35a885934b5de2e5e618d1b5",
+      "base_tree": "db94e6ee8e389a32f97d25e245f68ee6cb3aab51",
+      "entries": 7
+    },
+    {
+      "kind": "tree",
+      "ordinal": 25,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0025.json",
+        "sha256": "f8dfd81b5fc7236ef9574be633474dc75646de9982dbb951e1bf4a4e0eaa69ea",
+        "bytes": 194585
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0025.json",
+        "sha256": "c465775cfc5ca283c22acd68304cccbaac74c29e7bb2a1b168d2a2c3783d1d30",
+        "bytes": 596
+      },
+      "expected_sha": "7a78fe1a6f7866bd196869695e9094fb55c66e7e",
+      "actual_sha": "7a78fe1a6f7866bd196869695e9094fb55c66e7e",
+      "independently_computed_sha": "7a78fe1a6f7866bd196869695e9094fb55c66e7e",
+      "base_tree": "389c6aaa23ab27fc35a885934b5de2e5e618d1b5",
+      "entries": 32
+    },
+    {
+      "kind": "tree",
+      "ordinal": 26,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0026.json",
+        "sha256": "d9006d58aaccbcda296c42d84744d69fc5d4bbbd42f485432c5ba931c77ef644",
+        "bytes": 189965
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0026.json",
+        "sha256": "2e39b87c120a63f78d7a8b4de3ae5b6d2ef48da642e3f90b8d8f1d48f91a9ffe",
+        "bytes": 596
+      },
+      "expected_sha": "36c1106ed56939bfae76d5e4a140a0051c225ae3",
+      "actual_sha": "36c1106ed56939bfae76d5e4a140a0051c225ae3",
+      "independently_computed_sha": "36c1106ed56939bfae76d5e4a140a0051c225ae3",
+      "base_tree": "7a78fe1a6f7866bd196869695e9094fb55c66e7e",
+      "entries": 39
+    },
+    {
+      "kind": "tree",
+      "ordinal": 27,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0027.json",
+        "sha256": "7d1e550d2aa952422340e1d0833a9d95abcd2225c77298215c1c127ec0cf2044",
+        "bytes": 196381
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0027.json",
+        "sha256": "d0653921cd65c9364e5f9869b72def278b8d23391cad87c2b1ca3687214acd5d",
+        "bytes": 596
+      },
+      "expected_sha": "d3a40dbdaf84bb03e3ee15d01643593325fb41ba",
+      "actual_sha": "d3a40dbdaf84bb03e3ee15d01643593325fb41ba",
+      "independently_computed_sha": "d3a40dbdaf84bb03e3ee15d01643593325fb41ba",
+      "base_tree": "36c1106ed56939bfae76d5e4a140a0051c225ae3",
+      "entries": 40
+    },
+    {
+      "kind": "tree",
+      "ordinal": 28,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0028.json",
+        "sha256": "e49b500c0afdfd24bc5ecbb8fc1c3bd17b3c1b9540025c001739f53963195660",
+        "bytes": 194681
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0028.json",
+        "sha256": "ecb144769f3ba5df01860ab0ddc5b44c447e461e2689f2aa16780dc8cab3eec3",
+        "bytes": 596
+      },
+      "expected_sha": "32ee5d96ddd464a8e140b7b76818faa7190059bc",
+      "actual_sha": "32ee5d96ddd464a8e140b7b76818faa7190059bc",
+      "independently_computed_sha": "32ee5d96ddd464a8e140b7b76818faa7190059bc",
+      "base_tree": "d3a40dbdaf84bb03e3ee15d01643593325fb41ba",
+      "entries": 41
+    },
+    {
+      "kind": "tree",
+      "ordinal": 29,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0029.json",
+        "sha256": "d6f4872b4d4d983f6b40a80921f0d0d9445de028d6c8ac8f27ced5e31e219522",
+        "bytes": 188243
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0029.json",
+        "sha256": "36549d6b03c7756be6221708f2e3a5edf5d4bb747d9fb175cdf98a8c96029520",
+        "bytes": 596
+      },
+      "expected_sha": "2ce45b3ee61214800a028486c39cc2d5be124bc7",
+      "actual_sha": "2ce45b3ee61214800a028486c39cc2d5be124bc7",
+      "independently_computed_sha": "2ce45b3ee61214800a028486c39cc2d5be124bc7",
+      "base_tree": "32ee5d96ddd464a8e140b7b76818faa7190059bc",
+      "entries": 40
+    },
+    {
+      "kind": "tree",
+      "ordinal": 30,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0030.json",
+        "sha256": "0e06751ea2a7f52f8efa82fff1510fc56b48388df895beab539cf153063afa86",
+        "bytes": 194621
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0030.json",
+        "sha256": "7d2cc70f56dce250390738e51203a0fb80cff1544163e3beb396d736c204e15b",
+        "bytes": 596
+      },
+      "expected_sha": "123319d0d36d56034155855572c06972d75e2c72",
+      "actual_sha": "123319d0d36d56034155855572c06972d75e2c72",
+      "independently_computed_sha": "123319d0d36d56034155855572c06972d75e2c72",
+      "base_tree": "2ce45b3ee61214800a028486c39cc2d5be124bc7",
+      "entries": 40
+    },
+    {
+      "kind": "tree",
+      "ordinal": 31,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0031.json",
+        "sha256": "698993d402a7de4b69ff6032e4bee3750099290c3a239218705e5ea1b0c5da70",
+        "bytes": 192715
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0031.json",
+        "sha256": "91efe724cd52c3c59818f7d577ee985c7d488fa8d7fa362d050e5550be3f3a3c",
+        "bytes": 596
+      },
+      "expected_sha": "dbcbb3e362f545c9a9bd6f35a4906bf201a883be",
+      "actual_sha": "dbcbb3e362f545c9a9bd6f35a4906bf201a883be",
+      "independently_computed_sha": "dbcbb3e362f545c9a9bd6f35a4906bf201a883be",
+      "base_tree": "123319d0d36d56034155855572c06972d75e2c72",
+      "entries": 40
+    },
+    {
+      "kind": "tree",
+      "ordinal": 32,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0032.json",
+        "sha256": "3aab79736a2c8a7b44e5cdb9fe23de6d2b22a18710a22ae500b4291eade0e152",
+        "bytes": 188973
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0032.json",
+        "sha256": "d68c044b0648069dc333906497795e6c9f42e7053509a274b8df51aa3d6e57b4",
+        "bytes": 596
+      },
+      "expected_sha": "62ac2d70b6eccbc0bbd294daa09f728b999e22fc",
+      "actual_sha": "62ac2d70b6eccbc0bbd294daa09f728b999e22fc",
+      "independently_computed_sha": "62ac2d70b6eccbc0bbd294daa09f728b999e22fc",
+      "base_tree": "dbcbb3e362f545c9a9bd6f35a4906bf201a883be",
+      "entries": 39
+    },
+    {
+      "kind": "tree",
+      "ordinal": 33,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0033.json",
+        "sha256": "59170658b5d430ed456fe409d0ea71e0e4fbd53a4677025d6af9abce09d18b16",
+        "bytes": 196445
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0033.json",
+        "sha256": "e343fb05416a5e5745c9f067d34da5ef9f19b4740981ee985593b6f4f60de695",
+        "bytes": 596
+      },
+      "expected_sha": "4a92ce43c42699c6442ff129e8a5f893097f0deb",
+      "actual_sha": "4a92ce43c42699c6442ff129e8a5f893097f0deb",
+      "independently_computed_sha": "4a92ce43c42699c6442ff129e8a5f893097f0deb",
+      "base_tree": "62ac2d70b6eccbc0bbd294daa09f728b999e22fc",
+      "entries": 40
+    },
+    {
+      "kind": "tree",
+      "ordinal": 34,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0034.json",
+        "sha256": "3f93e95426dcf0ecb552dd64b29a5e97e201122395b8783164d70be388b1784c",
+        "bytes": 194011
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0034.json",
+        "sha256": "2390fc77a5bdf3b964382a2ad6b8525192e0d8de2a1a27d9c34a07445ecbe146",
+        "bytes": 596
+      },
+      "expected_sha": "bd46607998eac1d7e8f00eab42db5f9c3934c014",
+      "actual_sha": "bd46607998eac1d7e8f00eab42db5f9c3934c014",
+      "independently_computed_sha": "bd46607998eac1d7e8f00eab42db5f9c3934c014",
+      "base_tree": "4a92ce43c42699c6442ff129e8a5f893097f0deb",
+      "entries": 40
+    },
+    {
+      "kind": "tree",
+      "ordinal": 35,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0035.json",
+        "sha256": "79cc69c4d15a686cddd7524f9d2011b511abce8e6ac5664de78eaa26349b63a6",
+        "bytes": 196573
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0035.json",
+        "sha256": "1b543fa33174c6a835289a0adf8015cab5f41adedee9b9c29668d4dd0236ffc1",
+        "bytes": 596
+      },
+      "expected_sha": "0e400ff87302a9b2d04fe4bd8ddf37a6deba26a4",
+      "actual_sha": "0e400ff87302a9b2d04fe4bd8ddf37a6deba26a4",
+      "independently_computed_sha": "0e400ff87302a9b2d04fe4bd8ddf37a6deba26a4",
+      "base_tree": "bd46607998eac1d7e8f00eab42db5f9c3934c014",
+      "entries": 40
+    },
+    {
+      "kind": "tree",
+      "ordinal": 36,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0036.json",
+        "sha256": "6c60ee9ce527c10fa33e96a737a4741c90c1102c34c92b4fc5a9ec9256068b3d",
+        "bytes": 192523
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0036.json",
+        "sha256": "28edc546593e98758b19a385b25703449b1947cadee0a94eddd8b1c31cafa9bd",
+        "bytes": 596
+      },
+      "expected_sha": "095f4a2ed522864f4f40e013ae6b6550fd6c551b",
+      "actual_sha": "095f4a2ed522864f4f40e013ae6b6550fd6c551b",
+      "independently_computed_sha": "095f4a2ed522864f4f40e013ae6b6550fd6c551b",
+      "base_tree": "0e400ff87302a9b2d04fe4bd8ddf37a6deba26a4",
+      "entries": 39
+    },
+    {
+      "kind": "tree",
+      "ordinal": 37,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0037.json",
+        "sha256": "0b4a92181e70de6566d943c4afbbf699fc4a80c63e0fe9cac5188b889a67520b",
+        "bytes": 143105
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0037.json",
+        "sha256": "bcc52a0bb3911457e31988a5ba5ef7ed9fe4f7b1d4c4c10ae0e7ec7087e66cdc",
+        "bytes": 596
+      },
+      "expected_sha": "4e6b366ffe512ebd7ef9d0d85902f3c8d8d3ac7b",
+      "actual_sha": "4e6b366ffe512ebd7ef9d0d85902f3c8d8d3ac7b",
+      "independently_computed_sha": "4e6b366ffe512ebd7ef9d0d85902f3c8d8d3ac7b",
+      "base_tree": "095f4a2ed522864f4f40e013ae6b6550fd6c551b",
+      "entries": 21
+    },
+    {
+      "kind": "tree",
+      "ordinal": 38,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0038.json",
+        "sha256": "171a5e5e41b532682815f07403247dfbb41b5571a8a9ae5c59f7d66a31292c87",
+        "bytes": 193338
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0038.json",
+        "sha256": "5db22e4236b02a5aede28b8b480c6b2995d352deb5b6327e8126151951ef8634",
+        "bytes": 596
+      },
+      "expected_sha": "cba1d63c0901d7a755afbd3a05183eeb3bba5497",
+      "actual_sha": "cba1d63c0901d7a755afbd3a05183eeb3bba5497",
+      "independently_computed_sha": "cba1d63c0901d7a755afbd3a05183eeb3bba5497",
+      "base_tree": "4e6b366ffe512ebd7ef9d0d85902f3c8d8d3ac7b",
+      "entries": 6
+    },
+    {
+      "kind": "tree",
+      "ordinal": 39,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0039.json",
+        "sha256": "4fd362dade512e829b4c0e17217b7b35811ad90fcbd981a84e3c6f216021ce7e",
+        "bytes": 180028
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0039.json",
+        "sha256": "03b559ff7ba1464d6d3c5149742a6e16ef38c1d01ddf05cecc7ce05062d45563",
+        "bytes": 596
+      },
+      "expected_sha": "208e6051daa28c0fb1a768600bb160587d353c68",
+      "actual_sha": "208e6051daa28c0fb1a768600bb160587d353c68",
+      "independently_computed_sha": "208e6051daa28c0fb1a768600bb160587d353c68",
+      "base_tree": "cba1d63c0901d7a755afbd3a05183eeb3bba5497",
+      "entries": 20
+    },
+    {
+      "kind": "tree",
+      "ordinal": 40,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0040.json",
+        "sha256": "af12d35e792163eeaf39257c248c5a141be5d1f4605d1d3add17f0f63642ed39",
+        "bytes": 195600
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0040.json",
+        "sha256": "467d5a924f02b289942fc1b308229f72754e999fa64d948abd825eb571385e3a",
+        "bytes": 596
+      },
+      "expected_sha": "11ee329b942c9e6a87b736e6b8c0e418b8e5685a",
+      "actual_sha": "11ee329b942c9e6a87b736e6b8c0e418b8e5685a",
+      "independently_computed_sha": "11ee329b942c9e6a87b736e6b8c0e418b8e5685a",
+      "base_tree": "208e6051daa28c0fb1a768600bb160587d353c68",
+      "entries": 9
+    },
+    {
+      "kind": "tree",
+      "ordinal": 41,
+      "request": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/tree-0041.json",
+        "sha256": "f75c466c88c6a06da718613c45af6978198dc18c3df0a3f8ea368434a678b4f1",
+        "bytes": 17739
+      },
+      "response": {
+        "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/tree-0041.json",
+        "sha256": "d83218345d32793c2403a66983bda91d9b7e2422391ef3667c8e88e4cb684d5c",
+        "bytes": 595
+      },
+      "expected_sha": "3ac297322e8f3b27195130249922ec7a306116ad",
+      "actual_sha": "3ac297322e8f3b27195130249922ec7a306116ad",
+      "independently_computed_sha": "3ac297322e8f3b27195130249922ec7a306116ad",
+      "base_tree": "11ee329b942c9e6a87b736e6b8c0e418b8e5685a",
+      "entries": 3
+    }
+  ],
+  "commit_request": {
+    "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-inline-v1/commit-request.json",
+    "sha256": "a87af9c9ebc8f7426827b731b8a7ef6baa1216d97ca1798f44a53a3b1a928637",
+    "bytes": 235
+  },
+  "commit_create": {
+    "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/COMMIT_CREATE.json",
+    "sha256": "e502e01ad654b8deb4419f6f7ea1a18af6fb8db62ff7b3dc018fbfee504a0768",
+    "bytes": 516
+  },
+  "commit_readback_before_ref": {
+    "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/COMMIT_READBACK_BEFORE_REF.json",
+    "sha256": "03cf54b4a734265e45155bc4e3e93a2a6c8314af0db25e6356d36079451a400d",
+    "bytes": 1785
+  },
+  "ref_update": {
+    "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/github-selection-20261018/connector-actual/REF_UPDATE.json",
+    "sha256": "2f74a87e48a228a595e53b2b085de4d2a81f9e138c867b0ff1b1a66fca2e9ea9",
+    "bytes": 455
+  },
+  "findings": [],
+  "boundary": "Only this audit report was written. No Archive calls, GitHub calls/mutations, Git object writes, repository edits, model calls or essay judgments. Final main readback and private visibility were reported as verified by root; this audit does not independently recertify them or claim overall goal completion."
+}

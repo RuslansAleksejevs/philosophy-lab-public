@@ -1,0 +1,278 @@
+{
+  "status": "STEP1_COMPLETE_BOUNDED",
+  "event_id": "event-93348e3f8eac4e4cac88be052bae6b3b",
+  "event_sha256": "993db6f51e73719a7d34456010e26a427769989716449cf9df979a45a6b13fcb",
+  "decision_event_id": "event-d913353efd3246be85c5e5ee29c30224",
+  "checkpoint_event_id": "event-b3d01ea0a20c4fd0943d1cbc4e3ee09b",
+  "input_event_id": "event-249322dae3914318b609b54bacb3f234",
+  "candidate_count": 22,
+  "counts": {
+    "keep": 13,
+    "revise": 8,
+    "defer": 1
+  },
+  "remaining_inventory_work": 0,
+  "manuscripts_changed": false,
+  "step2_started": false,
+  "ranked": false,
+  "capture_coverage_event_ids": [
+    "event-021eab3647e6404e856ac989be3465a1",
+    "event-8b9845992032459b91a5dbbc051ed39c"
+  ],
+  "files": [
+    {
+      "path": "runs/final-selection-step1-20261017/AUTHORIZATION.json",
+      "sha256": "ba029beb77ceb4aba93504f5d52d1da5703df0bf60838ab33e8ef2fcd1d0da7a",
+      "bytes": 832
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/CANDIDATES_RU.md",
+      "sha256": "5fb3560be982733cc573c519b8cb1f863cc9af5a2847aefe875c539c307d3299",
+      "bytes": 43964
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/CANDIDATE_VERSIONS.json",
+      "sha256": "b7a2e9e49f8bfa51b17b98f38a4c6e45c56dbbb42603f6bf9aff19a31f00e6b5",
+      "bytes": 20271
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/CHECKPOINT_SUMMARY.json",
+      "sha256": "f46cc0e1e5e08ce6340023c9115c5f104d0967864a1293ab235d1e7a3351cc81",
+      "bytes": 3881
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/COLLECTOR_OBSERVATION.json",
+      "sha256": "a835222902327839953b3324700bc3687179143e6c6e002554cf222f56fdf27e",
+      "bytes": 458
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/DECISIONS.json",
+      "sha256": "eafc9e1e10399809d12f80b09c92ed6b520d44dec1fcd86a03ce3b60b3a3e00a",
+      "bytes": 85584
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/HISTORY_RU.txt",
+      "sha256": "ccd11585d2ebfffb33ac8da9d53e68f69f0af669546d1c6acab8f87a983366b0",
+      "bytes": 1758
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/INPUT_MANIFEST.json",
+      "sha256": "d2cfe557104181a6afdbcc7ef1a8677bf9fbb4a1c3c345132ba817348b785754",
+      "bytes": 63545
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/INPUT_RECEIPT.json",
+      "sha256": "bb742cf3170f51e51da51da9b41e1a85b910c85112b78abb3d327b9932692a2b",
+      "bytes": 3936
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/LOCAL_ATTEMPTS.json",
+      "sha256": "becd654a206b8ac33ac80836ea2461dac526ba29e366fae7a4cbfcc4f41b5ca5",
+      "bytes": 943
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/LOCAL_NAVIGATION_CORRECTION.json",
+      "sha256": "bdc35fa6d4bcdf406fc5b4b3e845df30a2882c63c5095ce0f0fe134942139392",
+      "bytes": 731
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/METHOD.json",
+      "sha256": "ac3aaa21e63866788e60e400c7929638e8031223a253e530b9fa23e36cc0ebf2",
+      "bytes": 1181
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/NAVIGATION_VERIFICATION.json",
+      "sha256": "477636367d4c85eee6331221bca98ff3b1b13eb2b861ffec0c1390ecb95de8cc",
+      "bytes": 1387
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/NAVIGATION_VERIFICATION.v1.json",
+      "sha256": "e530c81c55b3f3a3e1d93f511f30ea7031dade9a0b5db3a4f29907b4a8e7dda9",
+      "bytes": 1176
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/USER_REQUEST_01.txt",
+      "sha256": "6de2bfc16c2ef280849cb7c7ed26fb0b81c020fbaf1edd5cdabb93cc5dcd18dc",
+      "bytes": 314
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/USER_REQUEST_02.txt",
+      "sha256": "3d51d823525b22e2e0383d654f46a5d23429845f41933b98cdba72fc8ef9c63c",
+      "bytes": 529
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/VERIFICATION.json",
+      "sha256": "86efce5cd07a26b0e117a0a9b61e4e13d509ca5061bc3a89a7db678d01068ce5",
+      "bytes": 1026
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/VISIBLE_SELECTION.json",
+      "sha256": "f6e379bb74d5c2ab04bbd6b39b0d4b0ccde37a3651c6953eaf9c1e9c2ab76d3a",
+      "bytes": 4752
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/archive_result.py",
+      "sha256": "64df75f55ebad6d5ff8920052fe39c908265b634e78811c86f033869c8034d0a",
+      "bytes": 6093
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/bind_inputs.py",
+      "sha256": "0ef2cf5687f24d51611dde77cd7d3cc3d7f889d43d52f0b4187a0884781e03f6",
+      "bytes": 2786
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/build_report.py",
+      "sha256": "a0e11947c5a9f61b1e5a9c0ea494e8af117b007ad68a637d559f51e14f5ca795",
+      "bytes": 54636
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/navigation-after/AGENTS.md",
+      "sha256": "7c64829a556746fd37ec854a00cc18de83f01c269139368cb83d0633d1e692f9",
+      "bytes": 41489
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/navigation-after/BACKLOG.md",
+      "sha256": "4ff247cf7d0da1279d458d8eb81cdf9ae9149fd787e495c800d162ec16c4174d",
+      "bytes": 58038
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/navigation-after/START_HERE.md",
+      "sha256": "5b464c5187e0d9bc1e5365b2c49cc10f80127cd0c769608454b01c3c70ab1f9f",
+      "bytes": 68488
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/navigation-after/workflows/FINAL_SELECTION_22_10_3.md",
+      "sha256": "99793b08a32f18c2fe6939cd5cb496ac26e68559078e475098fbc1ae613e08ea",
+      "bytes": 11679
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/navigation-before/AGENTS.md",
+      "sha256": "f0e22dcca6da74bb5bc7118e717377d46393a5f52d6ad663c3be825259c1fc9f",
+      "bytes": 40130
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/navigation-before/BACKLOG.md",
+      "sha256": "244b5b136cd982e64527b9dc77341da5473313d4d0f843715534b96154f3d584",
+      "bytes": 56329
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/navigation-before/START_HERE.md",
+      "sha256": "7a1c4aef667198622c1d9cc193ceb74b28533a47a58321050de73363413aca90",
+      "bytes": 66776
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/navigation-before/knowledge/checkpoint_index.json",
+      "sha256": "4d325e66ea63f3571961739b7cc061d8c9a88f816cd43ec3f78ff3b7dbb633a1",
+      "bytes": 407637
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/navigation-before/knowledge/resume.md",
+      "sha256": "cf4bd098702dbdd14411003ff8f3f05a08a003476acac81c6372f9bef737141a",
+      "bytes": 1870
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/navigation-before/workflows/FINAL_SELECTION_22_10_3.md",
+      "sha256": "493c27a56edd12d946188718e343555d833a9d8b513ed80b2e24b2b98ed656e3",
+      "bytes": 10686
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/prepare_acceptance.py",
+      "sha256": "5f445ff1a41f16b410e7279e63103164a31c4479f1ef754d68c5d8829696ff58",
+      "bytes": 16293
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/visible-fragments/line-304-part-0.json-string.txt",
+      "sha256": "82187229a5e6eab380915395cddcfe5046a723c4ea143c153c753b783f4a4dae",
+      "bytes": 355
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/visible-fragments/line-304-part-0.txt",
+      "sha256": "c1a64119ae948af50b46ad692da913eb769f6ff31405cfa3ea9b46c5cce099d2",
+      "bytes": 352
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/visible-fragments/line-339-part-0.json-string.txt",
+      "sha256": "b00d21f31b8625caa6b17a8e7cf21c78af88cf097f87a455e2e11dde4a8a9c0c",
+      "bytes": 362
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/visible-fragments/line-339-part-0.txt",
+      "sha256": "c1ea850516577a88afc960e749afcfd934c7db988b1889ac10c54bb08f009ab4",
+      "bytes": 359
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/visible-fragments/line-403-part-0.json-string.txt",
+      "sha256": "4fb283ecc6d2ec817e0a3419140ed9ad031752653388275c946c38c0bed8ee61",
+      "bytes": 395
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/visible-fragments/line-403-part-0.txt",
+      "sha256": "8ed3a20ba7132dbc75e884b51583c203fd71e0e0ff1eb0189f7c005099783496",
+      "bytes": 392
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/visible-fragments/line-454-part-0.json-string.txt",
+      "sha256": "c39b0cf549eb2b6f412ea58495719363f87f26c468239e5aeea9efb2693cce83",
+      "bytes": 358
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/visible-fragments/line-454-part-0.txt",
+      "sha256": "4a3a8d14ca0156f6742b42e2f1384d4b1050e3e60d4893f0d191962613f8880a",
+      "bytes": 355
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/visible-fragments/line-511-part-0.json-string.txt",
+      "sha256": "f6707de9a05723f39e88ea8e4b7658d975a8d169de1d08aecf2e005370d215b2",
+      "bytes": 353
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/visible-fragments/line-511-part-0.txt",
+      "sha256": "2940cf25078c67d1711c04fcb34ce25d3a21aaa2897e393e803426e2c5ec73b1",
+      "bytes": 350
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/visible-fragments/line-571-part-0.json-string.txt",
+      "sha256": "3d696739437214b8fc3b5ebffa4d86ae0b999b25093ce9d015933223f8cb8553",
+      "bytes": 408
+    },
+    {
+      "path": "runs/final-selection-step1-20261017/visible-fragments/line-571-part-0.txt",
+      "sha256": "90fa93f5f1c9710cfa2ad719467420ecce29bbfacdee2c722f3c5fa2bbefaaa9",
+      "bytes": 405
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "7c64829a556746fd37ec854a00cc18de83f01c269139368cb83d0633d1e692f9",
+      "bytes": 41489
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "5b464c5187e0d9bc1e5365b2c49cc10f80127cd0c769608454b01c3c70ab1f9f",
+      "bytes": 68488
+    },
+    {
+      "path": "BACKLOG.md",
+      "sha256": "4ff247cf7d0da1279d458d8eb81cdf9ae9149fd787e495c800d162ec16c4174d",
+      "bytes": 58038
+    },
+    {
+      "path": "workflows/FINAL_SELECTION_22_10_3.md",
+      "sha256": "493c27a56edd12d946188718e343555d833a9d8b513ed80b2e24b2b98ed656e3",
+      "bytes": 10686
+    }
+  ],
+  "derived_navigation": [
+    {
+      "path": "knowledge/resume.md",
+      "sha256": "e2a29231786dc9600de2c3aaf526bbf553a06d12717ddba028a44490be678482",
+      "bytes": 1916
+    },
+    {
+      "path": "knowledge/checkpoint_index.json",
+      "sha256": "1fbae64ecad2b0f80cab0d27098ad91c0f0c0df371f655c32007a1f0eaf170a0",
+      "bytes": 411686
+    }
+  ],
+  "verification": "22 unique IDs; 23 current manuscript files; 32 bound variants; exactly two rationale sentences each; all 229 bound inputs unchanged; stored objects and additive navigation verified.",
+  "boundary": "Finite coordinator inventory complete. Research checkpoint scalar INCOMPLETE is administrative: no new five-stage research or independent critic was requested. No manuscript, historical review or accepted input changed. Selected human capture is bounded complete; selected visible assistant strings preserved. Existing collector gaps unchanged."
+}

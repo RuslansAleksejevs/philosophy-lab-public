@@ -1,0 +1,60 @@
+{
+  "status": "STOP_RETAINED_PENDING_ACCEPTED_LOCAL_LAUNCH_REPAIR",
+  "logical_job_id": "M12-N2",
+  "failed_physical_attempt": 2,
+  "stop_marker": {
+    "path": "runs/final-selection-20261018/STOP.json",
+    "sha256": "71ea6844970a93fd10834a38faa9bab19c430de27ac56f84f3ee398f25fdaa6f",
+    "bytes": 154
+  },
+  "preserved_stop": {
+    "path": "runs/github-selection-20261018/local-launch-failure-002/STOP_ORIGINAL.json",
+    "sha256": "71ea6844970a93fd10834a38faa9bab19c430de27ac56f84f3ee398f25fdaa6f",
+    "bytes": 154
+  },
+  "failed_attempt_files": [
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/launch.json",
+      "sha256": "b5789b5624653fb4054a87b2929fe8736ee9b4f703e4032c599c27ea84e98bdd",
+      "bytes": 1757
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/failure.json",
+      "sha256": "26e5bfbf74faddab1a4b9b71ebf642865fba09d0b1227f0d881472735295e566",
+      "bytes": 2152
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/stderr.json",
+      "sha256": "869f0405b651712fc588a08c068ceb8bbebbdd58eed349b112e6abc104ea6eeb",
+      "bytes": 255
+    },
+    {
+      "path": "runs/final-selection-20261018/results/M12-N2/attempt-002/visible-events.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ],
+  "active_stop_edited": false,
+  "dispatch_permitted_by_this_record": false,
+  "automatic_retry": false,
+  "planned_repair_scope": {
+    "target_attempts": {
+      "M12-N2": 3,
+      "M13-N2": 2
+    },
+    "reviewer_model_unchanged": true,
+    "reviewer_effort_unchanged": true,
+    "reviewer_service_tier_unchanged": true,
+    "original_110_logical_jobs_unchanged": true,
+    "packets_manuscripts_rubric_and_allocation_unchanged": true
+  },
+  "clear_stop_only_after": [
+    "Actual local-launch failure event accepted and exact four original files preserved.",
+    "Separate bounded repair code, checks and explicit target attempts accepted by research.selection.local_launch_repair.accepted with status LOCAL_LAUNCH_REPAIR_ACCEPTED_BOUNDED.",
+    "Replacement readiness and dependency checks pass for the accepted repair; no unresolved process remains.",
+    "Active STOP.json still equals this exact preserved stop byte for byte; root records the transition before removing only the active marker."
+  ],
+  "preservation": "Never overwrite attempt-001/002, old readiness or bound v2. No repair or accepted attempt is claimed by this draft.",
+  "completed_model_reviews_added": 0,
+  "backend_model_calls": "UNKNOWN"
+}

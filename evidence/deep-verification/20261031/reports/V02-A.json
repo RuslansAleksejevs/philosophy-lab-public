@@ -1,0 +1,175 @@
+{
+  "audit_id": "V02-A",
+  "manuscript_id": "V02",
+  "role": "argument",
+  "manuscript_sha256": "6fcfd9ef400a61abed5b52b1a810c8e233a764ca059804b1223c9fb4794f4605",
+  "read_complete": true,
+  "thesis": "An authority that invokes future correction to justify risking political impairment must assess the entire corrective process under the conditions that impairment would produce. If adequate justification depends on correction, sufficient means of obtaining it must be secured before the impairment disables them. This does not establish that every unprotected risk is impermissible.",
+  "claimed_contribution": "The manuscript specifies the circumstances under which corrective assurances should be evaluated and derives a conditional requirement concerning the timing of protection. Under the heading “Before You Tell Us to Try Again,” it describes its contribution as “assessing an assurance of correction when the alleged injury would change the conditions under which correction works.” It explicitly presents this as an application to democratic justification, “not a new general law of remedial design.”",
+  "assessment": "NO_MAJOR_DEFECT_FOUND",
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "minor",
+      "manuscript_location": "“Before You Tell Us to Try Again,” paragraph beginning “This also resolves a possible ambiguity about officials' words”: “Their substantive obligations concerning residents' access are the same; removing a promise does not improve the policy.”",
+      "claim": "Councils proposing otherwise identical policies have the same substantive obligations concerning access whether or not they advertise an ineffective corrective assurance.",
+      "analysis": "The comparison establishes that withdrawing an assurance does not remove obligations grounded independently in the policy's risks. It does not establish that every obligation concerning access remains identical. If the assurance constitutes a binding undertaking, it may create an additional duty to provide protection even when the policy would otherwise be permissible without it. Holding risks and benefits fixed does not by itself exclude such a duty. The strongest reading of the passage is that it concerns independently owed obligations, as its final sentence suggests. On that reading the point survives, but the quoted sentence is broader than necessary. This is a plausible objection based on the possibility of assurance-generated duties, not a demonstration that advertising this particular petition constitutes a binding promise.",
+      "status": "plausible",
+      "effect_on_conclusion": "Only the claim of identical substantive obligations needs qualification. The central conclusion—that an unusable remedy cannot supply its advertised corrective justification—survives.",
+      "repair_conditions": "Establish that the comparison excludes duties created by the assurance itself, or explain why the particular assurance cannot generate additional substantive obligations.",
+      "source_ids": []
+    }
+  ],
+  "surviving_contribution": "The strongest surviving result is a conditional test for crediting future correction: assess discovery, evidence, decision and implementation under the alleged impairment, and discount an assurance wherever that impairment obstructs an indispensable function. Under “Before You Tell Us to Try Again,” the statement “Evidence of what happens to complaints that arrive cannot alone establish what happens to people whose problem prevents their complaints from arriving” identifies the central evidential mistake. The ordering requirement follows when justification actually depends on preserving correction: necessary capacities cannot knowingly be left to disappear before they are needed. No demonstrated material defect was found in this limited inference. It establishes neither an unconditional duty to safeguard every risk nor a complete account of democratic authority.",
+  "remaining_questions": [
+    "Under “Before You Tell Us to Try Again,” the claimant must provide “evidence that available alternatives may fail,” and an objection must be “sufficiently supported to require an answer.” What evidential threshold applies, and how are investigative burdens allocated when affected residents already face difficulty gathering evidence? This is an unresolved application question, not a contradiction in the conditional test.",
+    "Under “Before You Tell Us to Try Again,” the argument refers both to “actual prospects of correction” and to “reasonable expectations of compliance.” Does compliance with the requirement depend on objectively adequate protection, reasonably supported expectations, or distinct standards for policy permissibility and officials' justified reliance? An unforeseeable dependence could separate these standards.",
+    "Under “Before You Tell Us to Try Again,” “Lost time, humiliation or exclusion may remain uncompensated,” while the conclusion requires “sufficient means” of correction. How should delay, incomplete repair and lost opportunities affect the amount of justificatory weight a functioning route receives? The manuscript acknowledges these limits but does not determine their practical thresholds."
+  ],
+  "limitations": [
+    "The complete supplied manuscript, including all six bibliography entries, was read. No other project material, author information or prior assessment was consulted.",
+    "No tools or browsing were used. The linked primary sources were not retrieved, so their contents, bibliographic details and cited locations remain unverified. These are access limitations, not findings of inaccurate citation.",
+    "The transport cases and institutional arrangements are explicitly hypothetical. They establish possible dependencies but supply no empirical evidence about their prevalence or about the effectiveness of any actual safeguard.",
+    "The formal checks below were performed directly through symbolic reasoning. There was no numerical simulation, empirical estimation or software execution.",
+    "The supplied SHA-256 was retained as an identity value and was not recomputed. Historical originality was not assessed."
+  ],
+  "plain_summary_ru": [
+    "Главный довод выдерживает проверку: нельзя оправдывать решение обещанием исправить вред, если сам вред делает исправление недоступным.",
+    "Это не означает, что любой риск запрещён; отдельный спорный тезис касается обязанностей, которые создают обещания властей.",
+    "Я прочитал весь текст и библиографию, но указанные источники не проверял."
+  ],
+  "argument_reconstruction": [
+    {
+      "step": "1",
+      "kind": "Normative premise",
+      "content": "Equal participation can give dissenters a reason to accept collective decisions, but its justificatory importance continues beyond the initial vote.",
+      "support_or_dependency": "“Before You Tell Us to Try Again”: “Participation in one decision is not a payment that extinguishes one's claims to participate later.” This is a substantive commitment about continuing civic standing, not a consequence of majority voting alone."
+    },
+    {
+      "step": "2",
+      "kind": "Definition and scope restriction",
+      "content": "The relevant political impairment is a serious obstruction to fair practical civic activity, rather than any reduction in resources, influence or political success.",
+      "support_or_dependency": "“Before You Tell Us to Try Again”: “a fair practical opportunity to act as a citizen,” including information, communication, association and effective procedures. The estate-tax and monopoly examples distinguish ordinary civic capacities from advantages that need not be preserved."
+    },
+    {
+      "step": "3",
+      "kind": "Normative premise about justification",
+      "content": "A credible prospect of correcting mistakes can provide some reason to accept a fallible decision, without cancelling all harm or independently establishing permissibility.",
+      "support_or_dependency": "“Before You Tell Us to Try Again”: “future correction can be a genuine reason for accepting a fallible decision.” The qualification that some injuries remain uncompensated limits the reason's force."
+    },
+    {
+      "step": "4",
+      "kind": "Evaluative premise",
+      "content": "The corrective reason receives weight from the process's prospects of functioning when the relevant mistake occurs, rather than merely from its ordinary availability or institutional label.",
+      "support_or_dependency": "“Before You Tell Us to Try Again”: support depends on “the actual prospects of correction when the mistake occurs.” This connects the reason offered to the contingency it purports to address."
+    },
+    {
+      "step": "5",
+      "kind": "Empirical possibility illustrated by hypothetical examples",
+      "content": "A policy can impair capacities required to discover an injury, establish it publicly, obtain a remedial decision or secure implementation.",
+      "support_or_dependency": "“Before You Tell Us to Try Again”: “a policy can itself lower those prospects by impairing the capacities needed to challenge it.” The bus, advocate, committee and funding examples demonstrate conceivable mechanisms; they do not establish how often those mechanisms occur."
+    },
+    {
+      "step": "6",
+      "kind": "Conditional evidential deduction",
+      "content": "Successful treatment of submitted complaints does not by itself establish access to correction for people whose impairment prevents submission. More generally, success at one stage does not establish success through the full process.",
+      "support_or_dependency": "“Before You Tell Us to Try Again”: “Evidence of what happens to complaints that arrive cannot alone establish what happens to people whose problem prevents their complaints from arriving.” This follows from distinguishing conditional response rates from overall access and completion."
+    },
+    {
+      "step": "7",
+      "kind": "Derived conclusion about corrective assurances",
+      "content": "The full corrective route must be assessed under the specified impairment. Any impairment-induced failure reduces the corresponding corrective reason; an unusable route supplies no protection against the injury that makes it unusable.",
+      "support_or_dependency": "“Before You Tell Us to Try Again”: “If the hypothesized injury would disable an indispensable step, the assurance loses the corresponding justificatory weight.” This depends on steps 3–6 and on the step being genuinely indispensable after alternatives are considered."
+    },
+    {
+      "step": "8",
+      "kind": "Conditional ordering inference",
+      "content": "If sufficient justification depends on future correction, the means necessary for correction must be secured before the policy endangers them. Waiting for evidence is inadequate when waiting foreseeably disables its production or effective use.",
+      "support_or_dependency": "“Before You Tell Us to Try Again”: “Where the policy's justification needs that prospect, officials must secure it before the policy endangers it.” This requires the stated dependence of justification on correction; uncertainty or disagreement alone does not establish the ordering duty."
+    },
+    {
+      "step": "9",
+      "kind": "Additional normative premise and limitation",
+      "content": "Whether an unprotected risk is acceptable requires a further assessment of likelihood, severity, distribution, competing claims and feasible alternatives. Proportional care supports inexpensive protection against serious avoidable threats, but this principle is additional to the corrective test.",
+      "support_or_dependency": "“Before You Tell Us to Try Again”: “The further premise is ordinary proportional care for an important interest.” The two-town and fixed-budget examples prevent an inference from defective correction directly to mandatory protection."
+    },
+    {
+      "step": "10",
+      "kind": "Conclusion boundary",
+      "content": "Failure of a corrective assurance defeats that reason and can expose insufficient justification for a policy. It does not alone invalidate the decision's binding force, authorize resistance or discredit the government as a whole.",
+      "support_or_dependency": "“Before You Tell Us to Try Again”: “Those conclusions require further arguments.” The manuscript consistently limits its central result to the evaluation of a particular justificatory reason."
+    }
+  ],
+  "strongest_objections": [
+    {
+      "objection": "The instrumental point about remedies does not itself establish a democratic right to continuing civic capacities or settle how that right constrains a majority.",
+      "best_available_reply": "The manuscript supplies continuing equal participation as a separate normative premise and explicitly limits its result to evaluating one reason for accepting authority. It does not purport to derive an entire democratic theory from remedial effectiveness.",
+      "assessment": "The objection limits the argument's independence from substantive democratic commitments. It does not defeat the conditional inference once those commitments and the relevance of future correction are accepted.",
+      "manuscript_location": "“Before You Tell Us to Try Again”: “Yet equality concerns a continuing relationship”; “an assessment of democratic justification, not a new general law of remedial design.”"
+    },
+    {
+      "objection": "Evaluating protection in the world where critics are right could privilege remote scenarios and impose disproportionate safeguards.",
+      "best_available_reply": "The author distinguishes the chance of impairment from the reliability of correction conditional on impairment. A very unlikely injury can lack corrective protection while remaining an acceptable risk. Unsupported mechanisms can be rejected, and competing costs remain relevant.",
+      "assessment": "This objection is answered for the stated thesis. It would defeat an unconditional precautionary principle, but the manuscript expressly rejects that principle. The threshold for taking an alleged mechanism seriously remains an application question.",
+      "manuscript_location": "“Before You Tell Us to Try Again”: “Both petitions fail the same test of corrective adequacy. It does not follow that both towns owe the same precautions”; “Officials can reject unsupported mechanisms of impairment.”"
+    },
+    {
+      "objection": "Every safeguard ultimately depends on political resources and compliance, so requiring the whole process to survive impairment could demand an impossible guarantee or an endless sequence of safeguards.",
+      "best_available_reply": "The requirement concerns credible performance under a specified injury, not immunity to every failure or future change. Funding and enforcement dependencies must be assessed, but unrelated risks and ordinary fallibility can remain.",
+      "assessment": "No regress follows unless credibility is equated with certainty. The manuscript explicitly rejects that equation. Demonstrating credibility in a real case could nevertheless require substantial evidence that the illustrative panel does not supply.",
+      "manuscript_location": "“Before You Tell Us to Try Again”: “Neither the panel nor the funding arrangement must be infallible or immune to all future political change”; “A legal duty to implement, with no credible prospect of compliance, is insufficient evidence of protection.”"
+    },
+    {
+      "objection": "Protection might be created after injury by an independent institution, making a requirement to establish the entire remedy before implementation unnecessarily strong.",
+      "best_available_reply": "The strongest reading requires sufficient means to remain available before they are endangered, rather than every remedial institution to be fully operating in advance. A credible later response can qualify if its creation and operation do not require the capacities the injury removes.",
+      "assessment": "The narrower timing claim survives. The illustrative arrangement established before closure should not be treated as proving that every acceptable arrangement must have that exact chronology.",
+      "manuscript_location": "“Before You Tell Us to Try Again”: “officials must secure it before the policy endangers it”; “sufficient means of doing so must survive that injury from the start.”"
+    },
+    {
+      "objection": "Disagreement about civic standing and adequate remedies may make the proposed constraint another contested substantive view imposed on an equal vote.",
+      "best_available_reply": "The requirement asks legitimate institutions to assess a corrective claim under the contingency it addresses. It neither appoints an external decision-maker nor gives complainants automatic victory. Disagreement about the injury remains distinct from evidence about whether the offered response could work if it occurred.",
+      "assessment": "The reply blocks an inference to judicial supremacy or a dissenter's veto. It does not eliminate disagreement about standards or institutional enforcement, but the central conditional test does not require eliminating that disagreement.",
+      "manuscript_location": "“Before You Tell Us to Try Again”: “The present requirement specifies a question for legitimate institutions rather than installing an authority outside them”; “Nor must the remedy guarantee favorable judgments.”"
+    }
+  ],
+  "formal_checks": [
+    {
+      "claim": "“Before You Tell Us to Try Again”: the assessment must run “from discovering and establishing the injury through obtaining and implementing a remedy.”",
+      "method": "Represent the specified injury by H and successful stages by D, E, R and I. For positive-probability conditioning events, the chain rule gives P(D∩E∩R∩I | H) = P(D | H) × P(E | D,H) × P(R | D,E,H) × P(I | D,E,R,H). No independence assumption is required.",
+      "result": "High reliability at one stage does not establish reliable completion. If an indispensable stage is impossible under H, completion through that route is impossible by set inclusion. Alternative routes must be considered before declaring a stage indispensable. This supports the manuscript's route-specific conclusion.",
+      "execution_boundary": "Independently checked symbolically without tools. These are audit equations, not equations supplied by the manuscript. No institutional probabilities were estimated."
+    },
+    {
+      "claim": "“Before You Tell Us to Try Again”: granting “every warranted petition about transport” does not establish that impaired residents can assemble a petition.",
+      "method": "Construct a logical counterexample: officials grant every warranted petition received, while the specified impairment prevents affected residents from submitting one.",
+      "result": "Perfect response to received petitions is compatible with no corrective access for the affected group. The manuscript's criticism of relying on the submission-selected record is valid. It correctly says that such a record cannot establish access alone, rather than claiming that past performance is always irrelevant.",
+      "execution_boundary": "The counterexample was checked directly as a possible arrangement. It is not an empirical claim about any town."
+    },
+    {
+      "claim": "“Before You Tell Us to Try Again”: the substantial-risk and “one in ten thousand” cases can fail the same corrective test without requiring identical precautions.",
+      "method": "Separate q = P(H), the probability of impairment, from r = P(C | H), the probability of correction through the petition given impairment. The example stipulates r = 0 in both towns while allowing q to differ.",
+      "result": "Changing q does not repair the stipulated conditional failure of the petition. It does change the frequency of impairment left uncorrected through that route. No conclusion about identical precautionary duties follows without additional normative premises concerning risk and costs.",
+      "execution_boundary": "Independently checked algebraically. No numerical estimates were calculated; the manuscript's probabilities were treated as hypothetical stipulations."
+    },
+    {
+      "claim": "“Before You Tell Us to Try Again”: “If silence is just as likely under either hypothesis, it provides no basis for favoring the first.”",
+      "method": "Let S be silence, H impairment and A successful adjustment. With positive prior probabilities and likelihoods, posterior odds satisfy P(H | S)/P(A | S) = [P(H)/P(A)] × [P(S | H)/P(S | A)].",
+      "result": "Equal likelihoods give a likelihood ratio of one, leaving the relative odds unchanged. Silence then supplies no additional support for adjustment over impairment. It does not follow that the hypotheses were equally plausible beforehand, and the manuscript does not require that inference.",
+      "execution_boundary": "Independently checked symbolically. Whether the likelihoods are equal in any real setting remains an empirical question."
+    },
+    {
+      "claim": "“Before You Tell Us to Try Again”: “Where acceptable implementation depends on that assurance, the route must be protected before the risk takes effect.”",
+      "method": "Check the dependence explicitly: sufficient justification requires a credible corrective prospect; that prospect requires certain capacities; the policy threatens to disable those capacities before correction can occur.",
+      "result": "On these premises, proceeding without preserving sufficient means removes a condition on which the justification depends. The inference is conditional and valid. It does not establish that every threatened capacity must be preserved, that the original institution must survive unchanged, or that protection is owed when the policy is independently justified without it.",
+      "execution_boundary": "Direct logical check without tools. The normative premises concerning adequate justification and responsible reliance were assessed as premises, not treated as mathematically proven."
+    }
+  ],
+  "source_dependent_questions": [
+    "“Before You Tell Us to Try Again” attributes authority grounded in public equality and concern about persistent minorities to Christiano. Does Christiano 2011, pp. 2–4 and 12–14, support those precise attributions? The linked work and its bibliography details were not verified.",
+    "“Before You Tell Us to Try Again” attributes advance arrangements reducing contestation burdens to Pettit and later states that contestatory bodies “must be distinct from the elected forums responsible for the contested measures.” Does Pettit 2004, §§2.2–2.3, especially pp. 62–63, support both the initial characterization and this categorical institutional formulation?",
+    "“Before You Tell Us to Try Again” states that policies “can entrench power without explicit barriers to repeal” and that ordinary political change cannot simply be separated from objectionable entrenchment. Do the Introduction and Part III of Levinson and Sachs 2015 support both claims as attributed?",
+    "“Before You Tell Us to Try Again” says Levine recommends assessing democratic consequences and “including triggers for later review.” Does Levine 2023, Part II.B, Principles 4–5, support that description and the stated location?",
+    "“Before You Tell Us to Try Again” attributes analysis of exclusion from acquiring, producing and disseminating knowledge to Krick. Does the cited section of Krick 2026 support that account, and are the title, DOI and publication date given under “Bibliography” accurate?",
+    "“Before You Tell Us to Try Again” describes Waldron's argument as conditional on reasonably functioning institutions and says failure of those conditions does not automatically vindicate courts. Do Waldron 2006, pp. 1359–1361 and 1399–1402, support those precise qualifications?"
+  ]
+}

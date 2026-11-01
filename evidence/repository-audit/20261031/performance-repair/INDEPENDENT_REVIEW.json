@@ -1,0 +1,117 @@
+{
+  "schema": "collector-performance-candidate-independent-review.v1",
+  "status": "PASS_NOT_INSTALLED",
+  "reviewer": "archive_audit",
+  "files": [
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/scripts/research_archive.py",
+      "sha256": "b2e111bcbb405d2d0d8910f70f5bc0364e24fd42d4e5a0a7e26a51e024fa790b",
+      "bytes": 42957
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/scripts/collector.py",
+      "sha256": "1da9039df67d277f19f0c29d0f178d88382937666d124a194ea08f011b4fb668",
+      "bytes": 43383
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/test_performance_indexes.py",
+      "sha256": "ab3cdc58cbac8cbd4646e259bc92f2207cd19f219c17ec3a58169c9047443d84",
+      "bytes": 10976
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/run_tests.py",
+      "sha256": "de0373e13511ffd5c84f7292f7a7309d5787174c8bb3a1b8b618edf2c1bcf2a8",
+      "bytes": 2381
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/BASELINE.json",
+      "sha256": "93ca7aae6e24c0cfb72339e90eea255c34f71c464f978dfc2e1a1f2f8ae57476",
+      "bytes": 1235
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/REGRESSION_TEST_INPUTS.json",
+      "sha256": "058b20ba6549ee8772b2af0537ac147d05ad1f396e1fd39e098932d2e6b444d3",
+      "bytes": 2001
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/FORMAT_FIXTURE_INPUTS.json",
+      "sha256": "f067be82836a12e837c64b0d54a5f2768510a9951be3640cd4f04509ae16f6a4",
+      "bytes": 1240
+    }
+  ],
+  "scope": "Only writer-local delivery/omission indexes and collector-owned event ID membership index. No runtime cache batching, compatibility aliases, privacy/projection changes, source configuration or service installation.",
+  "validation": {
+    "command": "python3 -B runs/repository-rebuild-20261031/performance-review/candidate/run_tests.py",
+    "tests": 150,
+    "targeted_tests": 10,
+    "existing_tests": 140,
+    "result": "PASS",
+    "elapsed_seconds": 4.162,
+    "elapsed_boundary": "Synthetic test runtime only, not a production speed measurement.",
+    "candidate_module_routing_verified": true,
+    "direct_research_archive_test_loader_verified": true,
+    "exact_existing_test_copies": 11,
+    "exact_baseline_signature_files": 7,
+    "production_baseline_hashes_unchanged": true,
+    "real_archive_audits": 0,
+    "real_canonical_writes": 0,
+    "native_source_body_reads": 0,
+    "service_actions": 0,
+    "provider_calls": 0,
+    "repository_files_modified": 0
+  },
+  "code_review": {
+    "archive_changes": [
+      "Audit builds delivery_key -> event map while performing the existing duplicate-key check; trusted indexes enter state only after the unchanged audit succeeds.",
+      "Append batches reuse writer-local delivery and omission indexes, updating deliveries with each validated event. No trust is carried across lock lifetimes."
+    ],
+    "collector_changes": [
+      "event_ids is built at initialization and rebuilt after archive synchronization.",
+      "event_ids is extended after ordinary committed capture, existing exact compatibility adoption and internal-session exclusion. These updates do not change the existing capture rules."
+    ],
+    "unchanged_guards": [
+      "Complete object/event/schema/chain/import validation.",
+      "All-request validation before publication; causal parents and existing-key conflict checks.",
+      "Canonical publication functions and fsync behavior.",
+      "Poisoning after validation/publication failure; defensive returned-event copies; owner/thread/closed-writer checks.",
+      "Standalone per-source cursor-cache writes and derived cache recovery.",
+      "Existing narrow compatibility predicate and manifest validation, with no added aliases.",
+      "Source prefix/mutation checks, credential filtering and internal-session boundaries."
+    ],
+    "ast_changed_definitions": {
+      "research_archive.py": [
+        "Archive._audit",
+        "Archive._append_prepared"
+      ],
+      "collector.py": [
+        "Collector.__init__",
+        "Collector.record_capture_compatibility",
+        "Collector.sync_archive",
+        "Collector.collect_session",
+        "Collector.exclude_internal_session"
+      ]
+    }
+  },
+  "meaningful_cases": [
+    "NoIteration guard forbids whole verified-record and omission rescans across repeated append batches under one audit.",
+    "Exact same-batch/cross-batch replay and conflicting delivery rejection with poisoned-writer protection.",
+    "Omitted delivery reservation remains enforced after a separate successful batch.",
+    "Partial publication cannot use in-memory unpublished delivery; reopen/re-audit recovers exact prior bytes.",
+    "Multiple standalone captures forbid full collector.events rescans and still write the durable derived cursor cache.",
+    "Forced archive synchronization discards stale membership IDs.",
+    "Compatibility adoption and internal exclusions update membership without new source-body reads or duplicate events.",
+    "New candidate signature reparses the synthetic frozen source with compatibility inactive while preserving old events/raw bytes.",
+    "Existing archive concurrency, corruption, prefix/mutation, view and capture regressions pass against candidate sources."
+  ],
+  "finding_resolved": {
+    "issue": "Initial regression runner preloaded candidate modules, but test_research_archive.py directly loaded the production file through a source-relative path.",
+    "resolution": "Eleven existing test files are exact copies under candidate/tests. Runner checks every loaded module path and separately verifies the direct archive loader SCRIPT/module.__file__ both target candidate."
+  },
+  "blocking_findings": [],
+  "remaining_boundaries": [
+    "No production speedup or ETA is established. Startup audits, canonical fsyncs, whole cursor-cache writes and derived views still cost time.",
+    "Indexes occupy O(number of events) memory for the live writer/collector lifetime; this change removes repeated rebuilding, not archive size.",
+    "Changing the two signature files requires the root-authorized full replay. Old compatibility manifests fail their current-file checks; no new alias was introduced.",
+    "Installation, stopping/restarting the service, actual canonical replay and successor recovery/status receipt preparation remain root actions after review."
+  ]
+}

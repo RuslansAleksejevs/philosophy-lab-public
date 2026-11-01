@@ -1,0 +1,41 @@
+{
+  "status": "SYNTHETIC_TESTS_PASSED_FROZEN",
+  "created_at": "2026-10-19T01:35:34.357200+00:00",
+  "tests_run": 14,
+  "passed": 14,
+  "failed": 0,
+  "command": "python3 -B runs/final-selection-20261018/summary-preparation/test_summarize_reviews.py",
+  "scope": "Only generated synthetic queues, 110-review fixtures, receipts and responses. No real review/manuscript contents examined; no archive/model/session calls.",
+  "checks": [
+    "Exact3:2 and60/40 arithmetic",
+    "Null originality remains unknown without zero substitution or reweighting",
+    "Missing and quarantined reviews block all aggregate output",
+    "110 accepted reviews produce22 rows in frozen order with exact response objects",
+    "Duplicate jobs/roles/output paths rejected",
+    "Identity mismatch detected even after synthetic manifests are rebound",
+    "Output hash and native configuration mismatch detected",
+    "Incomplete output contains coverage only; snapshot is not overwritten"
+  ],
+  "limits": [
+    "Canonical event references come from local accepted receipts; the canonical archive is not reread or re-audited.",
+    "No candidate ranking or selection. No actual110-review summary produced during preparation."
+  ],
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/summary-preparation/summarize_reviews.py",
+      "sha256": "b029ece0a56738a56235fd82db73e80f8703b2527e8b863fdd955472a3b06c6b",
+      "bytes": 18571
+    },
+    {
+      "path": "runs/final-selection-20261018/summary-preparation/test_summarize_reviews.py",
+      "sha256": "5dc0d3e3f4fdaadfcc7cfc4fe088e1d12a7ae66371d7044b8fc6e43b8862e909",
+      "bytes": 13123
+    },
+    {
+      "path": "runs/final-selection-20261018/summary-preparation/USAGE_RU.txt",
+      "sha256": "cefbf165ba8b980bcef8e74cfe469266e2d2abf57b4c209b5cbc4f34744cd359",
+      "bytes": 2988
+    }
+  ],
+  "test_output": "test_all_110_verified_emit_22_in_frozen_order_with_exact_reviews (__main__.Evidence.test_all_110_verified_emit_22_in_frozen_order_with_exact_reviews) ... ok\ntest_complete_set_preserves_null_originality_in_response_and_means (__main__.Evidence.test_complete_set_preserves_null_originality_in_response_and_means) ... ok\ntest_duplicate_job_is_rejected_even_if_input_hash_is_rebound (__main__.Evidence.test_duplicate_job_is_rejected_even_if_input_hash_is_rebound) ... ok\ntest_duplicate_output_manifest_entry_is_rejected (__main__.Evidence.test_duplicate_output_manifest_entry_is_rejected) ... ok\ntest_hash_change_blocks_review (__main__.Evidence.test_hash_change_blocks_review) ... ok\ntest_incomplete_output_contains_only_coverage_and_is_immutable (__main__.Evidence.test_incomplete_output_contains_only_coverage_and_is_immutable) ... ok\ntest_native_configuration_mismatch_is_rejected (__main__.Evidence.test_native_configuration_mismatch_is_rejected) ... ok\ntest_one_missing_archive_receipt_blocks_all_means (__main__.Evidence.test_one_missing_archive_receipt_blocks_all_means) ... ok\ntest_quarantined_is_missing_even_if_a_response_file_exists (__main__.Evidence.test_quarantined_is_missing_even_if_a_response_file_exists) ... ok\ntest_wrong_response_identity_fails_even_with_rebound_hashes (__main__.Evidence.test_wrong_response_identity_fails_even_with_rebound_hashes) ... ok\ntest_wrong_three_two_allocation_is_rejected (__main__.Evidence.test_wrong_three_two_allocation_is_rejected) ... ok\ntest_duplicate_or_missing_role_cannot_aggregate (__main__.Math.test_duplicate_or_missing_role_cannot_aggregate) ... ok\ntest_exact_three_two_weight_is_not_fifty_fifty (__main__.Math.test_exact_three_two_weight_is_not_fifty_fifty) ... ok\ntest_null_originality_does_not_become_zero_or_reweighted (__main__.Math.test_null_originality_does_not_become_zero_or_reweighted) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 6.951s\n\nOK\n"
+}

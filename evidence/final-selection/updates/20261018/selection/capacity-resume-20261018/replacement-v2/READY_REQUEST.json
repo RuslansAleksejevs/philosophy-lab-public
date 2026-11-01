@@ -1,0 +1,111 @@
+{
+  "schema": "capacity-replacements-ready-request.v2",
+  "run_id": "final-selection-20261018",
+  "session_id": "01a1496a-7b42-7a11-b00a-11d33df80222",
+  "authorization": {
+    "event_id": "event-1693b19527294cafa5cf61f9c1c801ee",
+    "artifact": {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/AUTHORIZATION.json",
+      "sha256": "c480f1cbf5435596488eef0f118f439f2b0825f14d971c1a21a630b719ff9b8f",
+      "bytes": 1046
+    },
+    "user_capture_event_ids": [
+      "event-f63839cb8c6342b2afef5403f55f9ed8"
+    ]
+  },
+  "failures": {
+    "M12-N2": {
+      "failure_event_id": "event-b3519057c6a24486bca718c999d0a20e",
+      "preserved_state": {
+        "event_id": "event-9afcd19556934b8bbad8c4e2dc1564d9",
+        "kind": "research.selection.transport_disposition.accepted",
+        "status": "CAPACITY_DISPOSITION_ACCEPTED_BOUNDED"
+      },
+      "inspection": {
+        "path": "runs/final-selection-20261018/capacity-recovery-001/FAILURE_INSPECTION.json",
+        "sha256": "ca8bff0f8a6bdb02faa7b5321a9f4ec4f475a16b105ac14110577de8f4be2330",
+        "bytes": 2951
+      }
+    },
+    "M13-N2": {
+      "failure_event_id": "event-1118f540c1644baf8ca3fea78bdacf12",
+      "preserved_state": {
+        "event_id": "event-fad5b6b2ca6c4b428771c20caaa2bf36",
+        "kind": "research.selection.stopped",
+        "status": "SELECTION_INCOMPLETE_CAPACITY_STOP"
+      },
+      "inspection": {
+        "path": "runs/final-selection-20261018/capacity-recovery-002/FAILURE_INSPECTION.json",
+        "sha256": "054a9875628b02c96788449deb40173f24452880442ab24f7deaf16017e40be0",
+        "bytes": 2424
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/CONSUMERS_README_RU.md",
+      "sha256": "ce120e7566f58d4963e47567744f86a863ee7c62c1900d2deeac9cdfa47dde04",
+      "bytes": 3324
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/INTERFACE_RU.md",
+      "sha256": "b411af0b09275120b9c650faecec74d6da6562b66ac333423668ecc8d2463357",
+      "bytes": 13848
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/archive_capacity_v2.py",
+      "sha256": "fa824ae064371a47b1c94655b692cf71fb0c7022e316d77b3fc0cdfef1dbdc08",
+      "bytes": 20288
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/closure_capacity_v2.py",
+      "sha256": "b69dba3f8d14f086e420ce1dfabdaa6c16ee9c17ee45182bef60907fbbd5179b",
+      "bytes": 21392
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/export_capacity_v2.py",
+      "sha256": "1d41410f710a9e6e37a94fab92dcfad33bd28054f984455d447b6d967ada5ddb",
+      "bytes": 15517
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/ready_capacity_v2.py",
+      "sha256": "6ea284b389c1ecb6dd55ef07c733ff9a600bf68e8d796bf6473ab4d106cb0374",
+      "bytes": 12291
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/resolver_v2.py",
+      "sha256": "dfa6bc030427957b98abd94dd465e151ec388d3e7736f7cb1831bf5cff52a412",
+      "bytes": 20698
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/runner_capacity_v2.py",
+      "sha256": "81a0e99211c47ed6bfe075061c69ddb3acc6888d0e815fde54ac6133c95d95e7",
+      "bytes": 15259
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/summary_capacity_v2.py",
+      "sha256": "1569d2a45de027387c620fbbe7f41da5987a4cd97db074fd9739419c5f3c5074",
+      "bytes": 16255
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/test_capacity_v2.py",
+      "sha256": "f173cf593b14741294d4b40afc00c5c93ee5456f564f2dff510631a39da4ff80",
+      "bytes": 25986
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/test_consumers_v2.py",
+      "sha256": "b29b1a16310439bc077a1dbfdf1b2518dcb941626e545159e6242ade18a84ff0",
+      "bytes": 22850
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/validate_capacity_v4.py",
+      "sha256": "5628e992e7778047a7769d16f5a30cfb7eea4f7c15a1aabbeb9e9900338a3896",
+      "bytes": 13951
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/REPLACEMENT_TESTS.json",
+      "sha256": "1f89aea04a72ff7bf987512c02e44e23e8d930dda08b1af290b2f136d50cffab",
+      "bytes": 7590
+    }
+  ]
+}

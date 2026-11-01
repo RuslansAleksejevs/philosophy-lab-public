@@ -1,0 +1,141 @@
+{
+  "role": "F02/review-final",
+  "session_id": "01a14c71-4654-7f90-a3e7-07606454a7b7",
+  "manuscript_sha256": "e6badc41a13f407d5ce9660772ff018d0ebbf109f5c8570a0659c612cb217a2d",
+  "verdict": "KEEP",
+  "verdict_scope": "Сохранить нынешнюю версию как корректную ограниченную философскую заметку; это не рейтинг, не подтверждение мирового первенства и не решение о подаче.",
+  "main_claim": "При бесплатном сохранении и известном будущем раскрытии данных неизменность нынешней вероятности и безупречное соответствие оставшимся данным ещё не делают удаление безвредным: оно может ухудшить ожидаемую точность ответа на тот же вопрос.",
+  "strongest_contribution": "Пример одновременно сохраняет нынешний ответ и исключает любые ошибки дальнейшего рассуждения; тем самым показывает отдельную ценность данных, нужных для продолжения исследования.",
+  "argument_reconstruction": [
+    "Оба датчика до проверки имеют надёжность 0,9, поэтому сохранённый цвет даёт ту же нынешнюю вероятность, что цвет вместе с именем датчика.",
+    "Исправность A по-разному влияет на содержание сообщения A и B; после проверки полные истории дают разные вероятности.",
+    "После удаления имени правильный ответ — смесь этих вероятностей; обе политики всё время правильно учитывают именно сохранившуюся информацию.",
+    "Разница ожидаемых квадратичных ошибок равна ожидаемому квадрату разницы полных и сокращённых вероятностей; в модели это 0,01.",
+    "Дополнительная нормативная посылка признаёт бесплатное улучшение ожидаемой точности основанием предпочесть метод хранения.",
+    "Следовательно, две проверки не исчерпывают оценку метода; вывод не требует заставлять позднее убеждение противоречить его данным."
+  ],
+  "issues": [
+    {
+      "id": "I1",
+      "severity": "MEDIUM",
+      "kind": "SIGNIFICANCE_AND_ORIGINALITY_UNCERTAINTY",
+      "requires_revision": false,
+      "location": [
+        "§1, proposed deletion test",
+        "§3, final four paragraphs on antecedents",
+        "§5, discussion of Hedden"
+      ],
+      "reason": "Опровергается введённый автором тест, без установленного конкретного сторонника. Ценность ожидаемой точности и необходимость сохранять различия для будущих ответов уже представлены в проверенных предшественниках; поэтому вклад ограничен ясным частным примером, а не новой общей теорией. Текст сам признаёт этот предел.",
+      "possible_test": "При дальнейшем обсуждении значимости указать реальный или подробно защищённый спорный выбор хранения, где две проверки кажутся достаточными и пример меняет объяснение. Отдельно проверить точное первенство сочетания условий, только если это потребуется; нынешний отзыв его не устанавливает.",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ]
+    }
+  ],
+  "fatal_problems_found": [],
+  "mandatory_revisions": [],
+  "tested_objections": [
+    {
+      "objection": "После проверки вероятности источников могут перестать быть равны.",
+      "result": "В данном симметричном распределении они ровно 1/2; проверено независимым перебором."
+    },
+    {
+      "objection": "Удаление сохраняет достаточный полный байесовский ответ.",
+      "result": "Это иной вариант: такая память избегает потери. Erase явно удаляет и полезные различия условных ответов; §6 признаёт альтернативу."
+    },
+    {
+      "objection": "Преимущество обязано работать и для простого угадывания цвета.",
+      "result": "Не работает, и рукопись это явно оговаривает; обе политики дают ожидаемые 90%."
+    },
+    {
+      "objection": "Потерянное историческое свидетельство может всё ещё считаться данными.",
+      "result": "Это ограничивает применение к памяти, но не условный информационный вывод; §6 прямо обсуждает границу и вариант с внешним архивом."
+    },
+    {
+      "objection": "Числовая разница сама доказывает фундаментальную обязанность сохранять.",
+      "result": "Рукопись этого не выводит: вводит и защищает отдельную местную оценочную посылку, оставляя классификацию обязанности открытой."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "status": "VERIFIED_WITH_STATED_SCOPE",
+      "checked_location": "The value of forgetting; An example; browser text lines 39–66",
+      "details_in": "SOURCES.json"
+    },
+    {
+      "source_id": "S02",
+      "status": "VERIFIED_WITH_STATED_SCOPE",
+      "checked_location": "§2 n.4 (PDF page 5); §4 nn.13–15 (PDF pages 9–11); browser text lines 183–192, 354–439",
+      "details_in": "SOURCES.json"
+    },
+    {
+      "source_id": "S03",
+      "status": "VERIFIED_WITH_STATED_SCOPE",
+      "checked_location": "§§4.1–4.3, 6.2; browser text lines 178–206, 272–276",
+      "details_in": "SOURCES.json"
+    },
+    {
+      "source_id": "S04",
+      "status": "VERIFIED_WITH_STATED_SCOPE",
+      "checked_location": "Abstract; §1; §9, Future distinguishability is established; browser text lines 109–123, 313–328",
+      "details_in": "SOURCES.json"
+    },
+    {
+      "source_id": "S05",
+      "status": "VERIFIED_WITH_STATED_SCOPE",
+      "checked_location": "§3.3, printed pages 670–671; PDF pages 26–27; browser text lines 919–952",
+      "details_in": "SOURCES.json"
+    },
+    {
+      "source_id": "S06",
+      "status": "VERIFIED_WITH_STATED_SCOPE",
+      "checked_location": "Introduction and Evidentialism; browser text lines 12, 28–51",
+      "details_in": "SOURCES.json"
+    },
+    {
+      "source_id": "S07",
+      "status": "VERIFIED_WITH_STATED_SCOPE",
+      "checked_location": "Introduction, PDF page 1; §8, PDF pages 15–17; browser text lines 3–22, 559–565, 625–643",
+      "details_in": "SOURCES.json"
+    },
+    {
+      "source_id": "S08",
+      "status": "VERIFIED_WITH_STATED_SCOPE",
+      "checked_location": "§3, PDF pages 3–5; §8, PDF pages 12–13; browser text lines 52–121, 269–297",
+      "details_in": "SOURCES.json"
+    },
+    {
+      "source_id": "S09",
+      "status": "VERIFIED_WITH_STATED_SCOPE",
+      "checked_location": "§1 n.3, PDF page 3; browser text lines 73–86",
+      "details_in": "SOURCES.json"
+    }
+  ],
+  "mathematical_checks": {
+    "method": "Exact finite enumeration plus independent inspection of conditional-expectation proof and Bayes independence argument.",
+    "result_file": "MODEL_CHECK.json",
+    "script": "verify_model.py",
+    "all_passed": true,
+    "analytic_findings": "Tower-property identity applies because S is a function of H. Orthogonality removes the cross term. With Z conditionally independent of H given binary X, common likelihoods make equal initial probabilities sufficient on positive-probability states."
+  },
+  "remaining_uncertainties": [
+    "Первенство точного сочетания условий и достаточная философская значимость небольшого вклада не установлены широким поиском.",
+    "Оценка степени уверенности по точности остаётся защищённой, но оспоримой посылкой; при одном лишь выборе цвета строгого преимущества нет.",
+    "Что считается доступными данными после забывания, зависит от теории; это условие примера, а не решённый спор.",
+    "Модель гипотетическая; она не доказывает реальную величину пользы архивов или отсутствие затрат у людей.",
+    "Источники проверены по относящимся к доводу разделам. Полные внешние теории, технические доказательства Alvarez и отдельный §6.4 Aevyra не проверялись."
+  ],
+  "verdict_reasons": [
+    "Основной пример корректно отделяет качество сохранившихся данных от безошибочности рассуждения по ним.",
+    "Рукопись явно ограничивает вывод и не приписывает оппонентам более сильную позицию, чем подтверждают источники.",
+    "Открытый вопрос касается величины вклада, а не обнаруженной ошибки, требующей новой редакции."
+  ],
+  "read_complete_manuscript": true,
+  "approximate_body_word_count_whitespace": 4033,
+  "manuscript_changed": false,
+  "created_at_utc": "2026-10-18T00:44:58.314653+00:00"
+}

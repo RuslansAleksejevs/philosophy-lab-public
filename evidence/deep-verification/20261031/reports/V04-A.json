@@ -1,0 +1,155 @@
+{
+  "audit_id": "V04-A",
+  "manuscript_id": "V04",
+  "role": "argument",
+  "manuscript_sha256": "5f67b5676c4c9088072ba9d0780695a97cfd85d6d6c3876e5c22578967ae29b7",
+  "read_complete": true,
+  "thesis": "Some works make a reader's actual revision of a reasonably favored but false interpretation an aesthetically worthwhile way of appreciating their construction. Reliable foreknowledge, while it remains settled, can prevent that activity without violating the reader's autonomy or reducing overall pleasure. Where preserving this opportunity has little cost and both forms of engagement are realistically available, it supplies a defeasible reason to delay decisive explanations.",
+  "claimed_contribution": "The manuscript isolates a particular object of possible aesthetic regret: losing the opportunity to recognize a work's handling of interpretation through revising an interpretation one actually used. It distinguishes this from surprise, imaginative uncertainty, autonomy violations, and net hedonic loss. It also distinguishes realizing this opportunity from replacing or foreclosing it, without treating self-generated knowledge as automatically preferable to assistance. Historical originality is expressly limited and is not assessed here.",
+  "assessment": "NO_MAJOR_DEFECT_FOUND",
+  "findings": [],
+  "surviving_contribution": "The surviving argument identifies a coherent, narrowly specified opportunity that settled foreknowledge can remove. Its substantive support comes from the proposed relation between a work's formal organization and the appreciator's own interpretive revision, not from irreversibility alone. In section 3, 'Why this particular correction can matter,' the claim that 'the reader recognizes the narrative's handling of perspective in an interpretation she actually used and relinquished' explains why the activity might have aesthetic value. That evaluative premise remains contestable, but the manuscript supplies reasons for it rather than merely assuming that every distinct activity is valuable. No demonstrated defect is entered in the findings array because the principal counterexamples defeat stronger claims that the manuscript explicitly rejects. The argument does not establish an additional quantity of aesthetic value lost in every informed encounter, the superiority of uninformed reading, or the frequency of the proposed experience.",
+  "remaining_questions": [
+    "Section 3, 'Why this particular correction can matter,' says reasonable confidence depends on evidence 'then noticed and available.' How should those two standards interact when a reader overlooks accessible counterevidence? This affects which actual readings satisfy the thesis's reasonableness condition.",
+    "Section 5, 'Realization, replacement, and foreclosure,' says a companion's prompt can 'help her realize the correction,' whereas a requested explanation can replace it. When disclosure occurs after the reader has already favored the mistaken account, what determines whether an explicit explanation completes the valuable revision or interrupts it? The examples establish that provenance alone does not decide this, but do not fully specify the boundary.",
+    "Section 6, 'The modest priority of an uncompleted route,' requires that an appreciator 'can realistically take both' routes. How can that availability be assessed before engagement, given section 3's acknowledgment that a reader 'need not manufacture error'? The practical recommendation concerns an uncertain opportunity, not a guaranteed experience."
+  ],
+  "limitations": [
+    "I read the complete supplied manuscript and bibliography. I used no tools, external sources, other project materials, or agents. The supplied SHA-256 was accepted as an identity value and was not recomputed.",
+    "The quotations, literary context, source interpretations, and bibliographic details were not independently verified. In particular, the Emma example is assessed as the manuscript presents it; its textual accuracy remains for the separate source check.",
+    "The audit assesses internal reasoning and the support offered for its evaluative premise. It does not establish empirical prevalence, measure aesthetic value, or assess historical novelty. The tool-free formal checks below do not verify psychological generalizations."
+  ],
+  "plain_summary_ru": [
+    "Знание развязки может лишить читателя опыта пересмотра своей версии, даже если удовольствия от книги станет больше.",
+    "Серьёзной логической ошибки я не нашёл, но художественная ценность именно такого опыта остаётся спорной.",
+    "Цитаты и ссылки не проверялись по первоисточникам, поэтому пример из «Эммы» и пересказ других авторов требуют отдельной проверки."
+  ],
+  "argument_reconstruction": [
+    {
+      "step": "R1",
+      "kind": "Definition",
+      "content": "The target activity requires an actual preference for an interpretation, subsequent recognition that it is false, and appreciation of how the work's presentation elicited and revised that interpretation. Neither certainty nor initially irrational reasoning is required.",
+      "support_or_dependency": "Section 2, 'A viewer implicated by the form': 'a judgment about the fiction' and 'only a provisional preference among explanations'; section 3: 'a successful expressive relation between interpretation, its revision, and the work's treatment of that activity.'"
+    },
+    {
+      "step": "R2",
+      "kind": "Constructed example",
+      "content": "The invented film supplies a possible structure for this activity: short shots support a threatening interpretation, and later extensions reveal hesitant movements toward a family encounter. Repetition makes the earlier use of edited evidence available for reconsideration.",
+      "support_or_dependency": "Section 2: 'the precise intervals that editing previously withheld.' The example illustrates a possible mechanism; it does not independently demonstrate how actual viewers would respond or that the stipulated initial confidence is warranted."
+    },
+    {
+      "step": "R3",
+      "kind": "Interpretive example requiring source verification",
+      "content": "The Emma discussion proposes an actual literary instance: a reader can provisionally accept Emma's interpretation of Elton's praise and later recognize how the narrative allowed that interpretation to organize the scene.",
+      "support_or_dependency": "Section 3: 'Mr. Elton, the lover of Harriet, was professing himself her lover.' The inference depends on the quoted passage, the portrait episode, and the retrospective discussion having the claimed narrative roles. The manuscript expressly limits this to 'an interpretive possibility.'"
+    },
+    {
+      "step": "R4",
+      "kind": "Normative premise with an explanatory defense",
+      "content": "When a work successfully makes interpretation part of its expressive subject, recognizing one's own participation in that interpretation can be aesthetically worthwhile. The proposed reason is the integration of the work's subject with the reader's activity, not error or personal history considered in isolation.",
+      "support_or_dependency": "Section 3: 'recognizing one's own participation in that manner can be a worthwhile mode of appreciating the work.' The repeated shots and the movement through Emma's perspective provide the defense. This is the substantive evaluative premise, not a deductively proven result."
+    },
+    {
+      "step": "R5",
+      "kind": "Conceptual exclusion under specified conditions",
+      "content": "A viewer who retains a settled understanding of the correct explanation throughout the relevant initial engagement cannot, in that same operative judgment, favor its incompatible rival and subsequently discover that rival to be false. She may nevertheless experience menace, imagine uncertainty, or revise other judgments.",
+      "support_or_dependency": "Section 2: 'reliably knows the explanation and continues to regard it as settled'; section 4, 'What informed imagination preserves': 'If her interpretation nevertheless becomes genuinely unsettled, then she can realize the correction too.'"
+    },
+    {
+      "step": "R6",
+      "kind": "Evaluative inference",
+      "content": "If the activity specified in R1 is worthwhile for the reason in R4, and settled foreknowledge excludes it as in R5, then foreknowledge removes a valuable opportunity. This conclusion concerns access to an activity; it does not establish that the remaining encounter or the artwork has less value overall.",
+      "support_or_dependency": "Section 3: 'actual correction can be one worthwhile realization'; section 5: 'a possible relation between this viewer's estimate and the unfolding presentation, not an intrinsic property scraped off the film.'"
+    },
+    {
+      "step": "R7",
+      "kind": "Conceptual separation supported by thought experiments",
+      "content": "The opportunity can be relinquished through a voluntary, reasonable choice, and an informed encounter can be more pleasurable. Consequently, losing the opportunity need not imply an autonomy violation, net hedonic loss, or a decision that should be reversed. The relevant regret is regret about something forgone, not necessarily regret about the choice overall.",
+      "support_or_dependency": "Section 1, 'Two questions about spoilers': 'no complaint against anyone and no reason to reverse her decision.' The coexistence of greater pleasure and lost opportunity is proposed as a coherent possibility, not demonstrated by empirical evidence."
+    },
+    {
+      "step": "R8",
+      "kind": "Classification of mechanisms",
+      "content": "The source of information does not determine whether the target activity occurs. An inference from the work can realize a revision, an immediate correct inference can bypass it, a lucky association can foreclose it, and external assistance can help realize it.",
+      "support_or_dependency": "Section 5: 'The activity's actual structure matters more than whether its ingredients arrived from outside.' These distinctions prevent the conclusion from becoming a general preference for unaided interpretation."
+    },
+    {
+      "step": "R9",
+      "kind": "Empirical and practical assumptions",
+      "content": "Recently acquired settled knowledge normally cannot be removed at will, although forgetting can restore uncertainty. Uninformed engagement can often precede informed reconsideration, but time, attention, and the effects of a first encounter can limit the availability or value of that sequence.",
+      "support_or_dependency": "Section 4: 'replay alone normally cannot undo recently acquired knowledge'; section 6: 'Starting without help can also influence later appreciation adversely.' These are qualified practical generalizations, not proven psychological laws."
+    },
+    {
+      "step": "R10",
+      "kind": "Defeasible practical inference",
+      "content": "For an appreciator who values both routes, can realistically pursue them, and sacrifices little by delaying resolution, preserving the otherwise difficult-to-recover opportunity provides an aesthetic reason for sequencing. This reason can be outweighed and does not authorize overriding a preference for advance explanation.",
+      "support_or_dependency": "Section 6: 'has reason to value both routes, can realistically take both, and loses little by delaying decisive information'; 'Preserving an option is not a mandate to impose it.' This inference depends on R4, R6, R9, and the modest normative principle that preserving access to a worthwhile activity can count in favor of a sequence."
+    }
+  ],
+  "strongest_objections": [
+    {
+      "objection": "A distinct activity is not necessarily a distinct aesthetic good. Actual revision might contribute only personal satisfaction or self-knowledge, while all appreciation of the work's construction is equally available to an informed reader.",
+      "best_available_reply": "The manuscript connects the value to specific formal operations: the reader recognizes how particular cuts or descriptions organized an interpretation she actually used. Its claim is that this participation can itself be an apt way of appreciating the work, not that authenticity automatically adds value.",
+      "assessment": "This is a plausible objection to the central evaluative premise, rather than a demonstrated invalid inference. The defense supplies a work-specific reason, but a reader who rejects the aesthetic relevance of enacted participation will accept only the descriptive difference. Establishing mere surprise, personal significance, or irreversibility would not settle the disagreement.",
+      "manuscript_location": "Section 3, 'Why this particular correction can matter': 'mere nonidentity would not suffice' and 'the value of this mode of responsive participation.'"
+    },
+    {
+      "objection": "Even if actual revision is worthwhile, informed imagination might realize all the same aesthetic value. Losing one realization would then provide no distinctive aesthetic deficit or compelling reason for regret.",
+      "best_available_reply": "The conclusion concerns losing access to a worthwhile activity, not an uncompensated deficit in total value. Other activities may realize overlapping goods or outweigh the loss. The manuscript also declines to decide cases in which the encounters are identical in every experiential respect.",
+      "assessment": "The objection blocks a stronger claim that foreknowledge necessarily subtracts a unique aesthetic benefit. It does not refute the stated opportunity claim. The claim remains substantive only insofar as the actual participatory route has value under the evaluative premise; it cannot be established by counting nonidentical experiences.",
+      "manuscript_location": "Section 3: 'not that it adds a fixed amount of value to an otherwise identical experience'; section 4, 'What informed imagination preserves': 'The argument does not establish what would happen if the two encounters were identical in every experiential respect.'"
+    },
+    {
+      "objection": "Knowing an explanation does not always prevent an actual mistaken response. A viewer may compartmentalize knowledge, momentarily forget it, or become uncertain despite remembering the disclosure.",
+      "best_available_reply": "The exclusion is conditioned on the relevant explanation remaining settled in the viewer's operative interpretation. The manuscript expressly permits correction when that interpretation becomes unsettled and distinguishes the target judgment from imaginative roles and felt aspects.",
+      "assessment": "This is a counterexample to an exceptionless claim about spoilers, which the manuscript does not make. The narrow exclusion survives. Its application to an actual viewer nevertheless requires identifying the relevant attitude rather than inferring its absence from possession of information alone.",
+      "manuscript_location": "Section 2: 'Three attitudes must be distinguished'; section 4: 'a condition that knowledge can sustain, not an exceptionless psychological law about what every spoiler does.'"
+    },
+    {
+      "objection": "The invented film stipulates reasonable suspicion, while the Emma discussion acknowledges clues against Emma's reading. The manuscript therefore does not conclusively demonstrate that a real reader can satisfy both the reasonableness condition and the proposed aesthetic integration.",
+      "best_available_reply": "The thesis requires only some suitable readers and works. A provisional preference can be reasonable despite available clues for an alternative, and the manuscript does not equate a false outcome with irrational confidence. Its literary claim is explicitly conditional.",
+      "assessment": "This is an unresolved question about actual instantiation, not a refutation of the possible mechanism. The invented case establishes coherence more directly than occurrence. The strength of Emma as a real example depends on textual verification and a defensible account of the evidence available to the specified reader.",
+      "manuscript_location": "Section 2: 'Suppose a viewer reasonably assigns surveillance a probability of 0.6'; section 3: 'The case shows how an actual revision could fit the work's form.'"
+    },
+    {
+      "objection": "Uninformed engagement followed by informed reconsideration need not preserve everything valuable about an informed first encounter. Initial confusion or misinterpretation may permanently change later appreciation, defeating an argument from sequence dominance.",
+      "best_available_reply": "The manuscript explicitly rejects dominance and includes the costs of an uninformed start. Its recommendation supplies a defeasible reason only when both routes are valued, feasible, and relatively inexpensive to preserve.",
+      "assessment": "This objection succeeds against a universal priority rule but is already accommodated by the stated conclusion. The practical recommendation remains conditional; applying it requires assessing the effects of initial engagement as well as the immediate cost of delaying information.",
+      "manuscript_location": "Section 6, 'The modest priority of an uncompleted route': 'It is false that uninformed-then-informed experience always contains everything obtainable through informed experience alone.'"
+    }
+  ],
+  "formal_checks": [
+    {
+      "claim": "Section 2: an initially reasonable probability of 0.6 for surveillance need not become retrospectively irrational when surveillance turns out to be false.",
+      "method": "Direct probability check: assigning probability 0.6 to surveillance leaves probability 1 - 0.6 = 0.4 for its negation. Distinguish updating after new evidence from evaluating the original estimate using the original evidence.",
+      "result": "The claim is correct as a consistency point. A false outcome does not entail that the earlier assignment was irrational. However, nothing in the number itself establishes that 0.6 was warranted by the depicted evidence.",
+      "execution_boundary": "The elementary subtraction and logical check were performed directly without tools. No likelihoods, posterior probabilities, calibration data, or audience responses were calculated or verified."
+    },
+    {
+      "claim": "Sections 2 and 4: settled foreknowledge can exclude the specified actual correction while preserving imagination and aspectual change.",
+      "method": "Check the temporal conditions. During the relevant engagement, continuously retaining the correct explanation as one's operative settled estimate excludes first favoring an incompatible false explanation in that same judgment and then revising it.",
+      "result": "The conditional exclusion holds under that characterization. Mere possession of true information does not suffice. Nor does the result exclude revising another estimate, discovering another susceptibility, or becoming genuinely uncertain.",
+      "execution_boundary": "This was a direct conceptual check. It establishes a conditional relation among the specified attitudes, not an empirical law about how human viewers integrate knowledge."
+    },
+    {
+      "claim": "Section 1: the target opportunity can be lost without an autonomy violation or a net loss of pleasure.",
+      "method": "Check the consistency of the voluntary-disclosure case: the reader freely requests the explanation, enjoys the informed encounter more, and thereby makes a separately worthwhile activity unavailable.",
+      "result": "These descriptions are mutually consistent if the evaluative premise about the activity is accepted. Thus neither an autonomy violation nor lower overall pleasure is required by the opportunity-loss claim. The thought experiment does not independently establish that the activity is worthwhile.",
+      "execution_boundary": "This was a tool-free consistency check, not an empirical demonstration that such cases occur or a proof of every possible non-entailment among the three judgments."
+    },
+    {
+      "claim": "Section 6: sequencing can have 'option-preserving priority' without establishing that uninformed engagement first always produces the better outcome.",
+      "method": "Distinguish preserving access to an activity from dominance over complete sequences. Consider a case in which an uninformed first encounter damages later appreciation or consumes scarce time.",
+      "result": "Universal dominance fails, as the manuscript acknowledges. A defeasible preservation reason remains available when the opportunity is worthwhile and the relevant costs are small; an all-things-considered recommendation requires further comparison.",
+      "execution_boundary": "This was a qualitative decision-structure check. No utilities, probabilities of successful engagement, or numerical optimization were supplied or independently computed."
+    }
+  ],
+  "source_dependent_questions": [
+    "Austen, Emma, volume I, chapters VI and XV–XVI: Does the primary text support the manuscript's account of Elton's praise, the exact quotation 'Mr. Elton, the lover of Harriet, was professing himself her lover,' and Emma's subsequent reconsideration of the portrait? Check the surrounding clues and narrative perspective. This bears on the real literary example, not directly on the coherence of the invented film.",
+    "Levy, 'The Real Spoilers Puzzle,' sections 1 and 3: Does the article make the stated distinction concerning epistemic autonomy and expressly recognize enjoyable opportunities removed in twist and puzzle stories? This determines whether section 1 accurately identifies what remains to be argued. The supplied publication details also remain unverified.",
+    "Chasid, 'The Spoilers Puzzle,' penultimate manuscript, abstract and page 13: Does the cited version support the distinction between knowledge of fictional facts and the imaginative role, including both informed re-engagement and possible disruption of fluency? Check the version consulted before comparing it with the published article.",
+    "Fish, 'Literature in the Reader: Affective Stylistics,' cited reprint page 86: Does the passage support the characterization of temporary projections and their failure as constituents of the reading event? Establish the passage's location in the original article and check that a descriptive claim about experience is not being used as independent proof of aesthetic value.",
+    "Iser, 'The Reading Process: A Phenomenological Approach,' pages 287 and 296: Do these passages support the stated claims about anticipation, retrospection, and the reader's participation in producing an organization? The manuscript uses these as precedents rather than as proof of its evaluative premise; that limited attribution needs checking.",
+    "Nguyen, 'Autonomy and Aesthetic Engagement,' author manuscript abstract: Does the source support the characterization of active investigation and interpretation as valuable beyond possession of correct judgments, and what qualifications appear in the full argument? This bears on the claimed theoretical connection, while leaving the manuscript responsible for defending its particular correction-based activity."
+  ]
+}

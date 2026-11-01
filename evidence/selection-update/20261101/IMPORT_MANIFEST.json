@@ -1,0 +1,80 @@
+{
+  "schema": "accepted-result-import.v1",
+  "acceptance_event": "event-ace68e06923c4b58966d41a930943376",
+  "files": [
+    {
+      "source": "runs/submission-trio-20261031/FINAL_RECEIPT.json",
+      "path": "evidence/selection-update/20261101/FINAL_RECEIPT.json",
+      "sha256": "028add9f946da8f363f8bf4baac61ae0ad2b24b57954b9cc4b45f77632687bf6"
+    },
+    {
+      "source": "runs/submission-trio-20261031/coordinator/DECISION.json",
+      "path": "evidence/selection-update/20261101/DECISION.json",
+      "sha256": "78e304ff355ecfd5e484238d3a2265d63e5675fc6aada5cc632cf6e35c2e7adb"
+    },
+    {
+      "source": "runs/submission-trio-20261031/coordinator/REVISION_PLAN.json",
+      "path": "evidence/selection-update/20261101/REVISION_PLAN.json",
+      "sha256": "f7e23cc533e4b7e693f2ceb59ad9b0f8249483230aa7a80976bd051de0d2551c"
+    },
+    {
+      "source": "runs/submission-trio-20261031/coordinator/SOURCE_LEDGER.json",
+      "path": "evidence/selection-update/20261101/SOURCE_LEDGER.json",
+      "sha256": "9b55f784cf3908ad073a9ffacfc51dec879fbf38d6f572cac6ab5a5250414cba"
+    },
+    {
+      "source": "runs/submission-trio-20261031/USER_REQUEST.txt",
+      "path": "evidence/selection-update/20261101/USER_CHOICE.txt",
+      "sha256": "18e3c8491cd3cdbc0298990009118a2a04466b807521b94f417c9841bec8f590"
+    },
+    {
+      "source": "runs/submission-trio-20261031/results/W01-A/attempt-001/response.json",
+      "path": "evidence/selection-update/20261101/reports/W01-A.json",
+      "sha256": "944e313d57f8b78f6b251f281d636966ad9506c366c7196157b6bfd5e5cc8a88"
+    },
+    {
+      "source": "runs/submission-trio-20261031/results/W01-L/revalidation-v1/response.json",
+      "path": "evidence/selection-update/20261101/reports/W01-L.json",
+      "sha256": "7b2fc06d6d7921b848bac4447c4959578fab6a899d4d7bc6a60403ded83d3d81"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "V06-A",
+      "essay": "E050",
+      "path": "evidence/deep-verification/20261031/reports/V06-A.json",
+      "sha256": "d1500c0d57081f74935712fc8239921f75d1ec6111e588cfe506f5a1feb47a9e"
+    },
+    {
+      "id": "V06-L",
+      "essay": "E050",
+      "path": "evidence/deep-verification/20261031/reports/V06-L.json",
+      "sha256": "ad557cdb21c28aa404f2b4107f91b82f00a58114709cb0448c17bf19fc39c4d1"
+    },
+    {
+      "id": "V08-A",
+      "essay": "E012",
+      "path": "evidence/deep-verification/20261031/reports/V08-A.json",
+      "sha256": "f0a5b0338da656d5f153cdffa1011b1219b099727f3f8b7910fa6e4d74fbeb81"
+    },
+    {
+      "id": "V08-L",
+      "essay": "E012",
+      "path": "evidence/deep-verification/20261031/reports/V08-L.json",
+      "sha256": "6318e1c0c5a95a5b653cb5d4491250eac0d1a888c9b4edee69ce41c1ee217fa6"
+    },
+    {
+      "id": "W01-A",
+      "essay": "E051",
+      "path": "evidence/selection-update/20261101/reports/W01-A.json",
+      "sha256": "944e313d57f8b78f6b251f281d636966ad9506c366c7196157b6bfd5e5cc8a88"
+    },
+    {
+      "id": "W01-L",
+      "essay": "E051",
+      "path": "evidence/selection-update/20261101/reports/W01-L.json",
+      "sha256": "7b2fc06d6d7921b848bac4447c4959578fab6a899d4d7bc6a60403ded83d3d81"
+    }
+  ],
+  "scope": "Accepted trio choice and review results only; not a new log export or a final manuscript package."
+}

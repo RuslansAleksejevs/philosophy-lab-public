@@ -1,0 +1,1755 @@
+{
+  "entity": "hundred-20260925/counterexample-02",
+  "entries": [
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e1d3-0a74-7241-a959-c16e023c72cc"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/campaign.json",
+          "role": "input",
+          "sha256": "649f4d66c1d9a8f6142ab346a6d2631abfcac64e8cbe70d5fd656bcce0a2cff8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/rules.txt",
+          "role": "input",
+          "sha256": "5e4d8819b15a4e770dda9790b4cfb8edcc745059c6934245f184ad35d8c3e3bb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/faq.txt",
+          "role": "input",
+          "sha256": "a6727c4e2ab076117aa6f72f0871de6f83a02715620f762367483759b2b1cc7c"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-158.json",
+          "role": "input",
+          "sha256": "d5d221de67c6560bad85e4f40c0920367b9ed38ecd0bf1d8f70440d0320f71a5"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-170.json",
+          "role": "input",
+          "sha256": "1dacca2a95eba5bcb356f428ac709ed0a307859cb037647b08541dcb813c282d"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-182.json",
+          "role": "input",
+          "sha256": "9d5c938841045ce60eec1202ee54ca8edddba7ca09d3edabec95111ff22186a9"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/TASK.md",
+          "role": "input",
+          "sha256": "9b41c7037f3ae14f8411c62a637ada9d2b29d6946e4743775bfdcd14356d9810"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/init-template.json",
+          "role": "input",
+          "sha256": "0449801d12664ee8cedf49208cf3fef7bbad832981bdaa27147d1170cede860a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/task.json",
+          "role": "input",
+          "sha256": "b149c970ca4b1a3301bc2a653f8e08f159849ceb10fff882a3d50b3ce6821c1f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/DISPATCH.txt",
+          "role": "input",
+          "sha256": "5d2a7a55c0e53ec1de8206800a6885e8670d3674ddeff2603cec040abb2eefdc"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        },
+        {
+          "path": "docs/HUNDRED_ARTIFACTS.md",
+          "role": "input",
+          "sha256": "ff65b3dfb32fafe63b23aac9c600dcdf77dad8b8d6e60cd85bfaafd7024b0112"
+        },
+        {
+          "path": "docs/HUNDRED_ARTIFACTS_V2.md",
+          "role": "input",
+          "sha256": "433559f9776a9b851b1b9f78f0d47c3d4b271a0ae5f2bb3e6b2d7855f4274f7f"
+        },
+        {
+          "path": "docs/CAPTURE.md",
+          "role": "input",
+          "sha256": "4ce39c7e6dba672e93d0d37f6cedaa71efbfa4d57c5eda8c2aee55e1f436e470"
+        },
+        {
+          "path": "methods/hundred-six-v1.json",
+          "role": "input",
+          "sha256": "fd7ba19e9848473d547e666996f8d8271d7bc6d17ace7e6c8649f22947f172cb"
+        }
+      ],
+      "configuration": {
+        "observed": "UNKNOWN",
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/counterexample-02",
+      "event_id": "event-b8eec61970f54a3da3bd87ed0b789ee4",
+      "evidence": [
+        "event-6760b0b374394f1c9c8dd61ffe880054",
+        "event-3a456bc77966430e8b93a49b66524b85",
+        "collector-894898a2fbffead72bc3ccbfba740f74",
+        "event-7f76fd37aaec4453a459593e1962a106",
+        "event-5c27e33cd19a488085a3ffa67bbfd382",
+        "event-fb83d991a5ba43d399368a26d96f72c7",
+        "collector-66d8a49dae262e010573517d0f99eb45",
+        "event-7f8be21a249342d9860f102521c46bbc"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred-origin:ee3d6696eb91ca2f40491ef84ce3d547",
+      "kind": "origin",
+      "occurred_at": "UNKNOWN",
+      "parents": [],
+      "recorded_at": "2026-09-27T07:51:35.900103+00:00",
+      "summary": "Exact authorized neutral workflow inputs",
+      "workflow": {
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-counterexample-02"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e1d3-0a74-7241-a959-c16e023c72cc"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/TASK.md",
+          "role": "input",
+          "sha256": "9b41c7037f3ae14f8411c62a637ada9d2b29d6946e4743775bfdcd14356d9810"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/DISPATCH.txt",
+          "role": "input",
+          "sha256": "5d2a7a55c0e53ec1de8206800a6885e8670d3674ddeff2603cec040abb2eefdc"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        },
+        {
+          "path": "docs/HUNDRED_ARTIFACTS.md",
+          "role": "input",
+          "sha256": "ff65b3dfb32fafe63b23aac9c600dcdf77dad8b8d6e60cd85bfaafd7024b0112"
+        },
+        {
+          "path": "docs/HUNDRED_ARTIFACTS_V2.md",
+          "role": "input",
+          "sha256": "433559f9776a9b851b1b9f78f0d47c3d4b271a0ae5f2bb3e6b2d7855f4274f7f"
+        },
+        {
+          "path": "docs/CAPTURE.md",
+          "role": "input",
+          "sha256": "4ce39c7e6dba672e93d0d37f6cedaa71efbfa4d57c5eda8c2aee55e1f436e470"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/idea-001.md",
+          "role": "output",
+          "sha256": "ee9c1f558dc160ba55adc581df8fc056c427bdd1bae6f24ef92714b080b78926"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-4aed136fd9564cf59e3897df4660fc52",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/counterexample-02",
+      "event_id": "event-f112478d6e4a49c289d7cbc128851f6a",
+      "evidence": [
+        "event-dd42adf2daad4975bfe35603b7dbd6fb",
+        "event-91b6be5b295247be9e85c18a62d8e677",
+        "event-4aed136fd9564cf59e3897df4660fc52"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:d7c8c11b4d7eb87d6337656eaf967076123b157f",
+      "kind": "idea",
+      "occurred_at": "2026-09-27T07:57:54.530Z",
+      "parents": [
+        "hundred-origin:ee3d6696eb91ca2f40491ef84ce3d547"
+      ],
+      "recorded_at": "2026-09-27T08:00:09.768611+00:00",
+      "summary": "Record candidate questions, rejected alternatives, and the selected question before primary-source research.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "idea",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-counterexample-02",
+        "stage": "idea-001"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e1d3-0a74-7241-a959-c16e023c72cc"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-dd42adf2daad4975bfe35603b7dbd6fb",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/idea-001.md",
+          "role": "input",
+          "sha256": "ee9c1f558dc160ba55adc581df8fc056c427bdd1bae6f24ef92714b080b78926"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/TASK.md",
+          "role": "input",
+          "sha256": "9b41c7037f3ae14f8411c62a637ada9d2b29d6946e4743775bfdcd14356d9810"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/DISPATCH.txt",
+          "role": "input",
+          "sha256": "5d2a7a55c0e53ec1de8206800a6885e8670d3674ddeff2603cec040abb2eefdc"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/sources-001.md",
+          "role": "output",
+          "sha256": "31dd911f93b5d4ca40323054339f298f58372caadef7074c204d4210fc3092ea"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/novelty-gate.json",
+          "role": "output",
+          "sha256": "15c2aefcaff7c6607953627aa5dda4ab9965f9370ab638a13d8e78ce5e0388a6"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/novelty-gate-001.md",
+          "role": "output",
+          "sha256": "8ddadc25c1c17c42720ee14da32342d32f8c8ce84beef0f8816d4c3aa3bcf8a4"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source_manifest.json",
+          "role": "output",
+          "sha256": "6cbd6efc558fb4278e6b8fe163749cc3edb002a848a54e59b905637a988a85ff"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/sources-search-log.md",
+          "role": "output",
+          "sha256": "7f504d30adb06049902607b22c19ab3a123d44924aa14b3b69b59fda50d55c47"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/goldman-1967.md",
+          "role": "output",
+          "sha256": "c2bc94c85307a4144b2126903b55d17cfe9184677f07c9119bb32a5190c1766d"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/stalkfleet-2011.md",
+          "role": "output",
+          "sha256": "adc5832e8548fa3b0def4d50bbd888bb13ceea2acce0efe15bf7153a76e7a8fe"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/kopec-2011.md",
+          "role": "output",
+          "sha256": "08561b9bcaa16d7d8de824d7d81307f772ec9d6da9b7771455a44ff7a302d4e1"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/king-mertens-2023.md",
+          "role": "output",
+          "sha256": "faf2ecbb6a657eeb665c0edb7cf750b80a602c8e89397024516c89fc7615a7f5"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/perdomo-2020.md",
+          "role": "output",
+          "sha256": "fbf27a9851e5488eb6242b1ec3963cbeede4196faec7566230d07464af36147a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/kim-perdomo-2023.md",
+          "role": "output",
+          "sha256": "4729dff07b17927116ceeb54eccfdbaac3e1f3da7400c7b76e9d23dc0d7e0a10"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/khosrowi-2023.md",
+          "role": "output",
+          "sha256": "a4c33ec2344e3355b902040f4d2afc2294bf4b8824c49572bd31be4adccba2e4"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/mertens-et-al-2021.md",
+          "role": "output",
+          "sha256": "e8fbeff837308f609430a287ee51869912f8e2a7055b74f153b4e4cd1e2040ac"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/merton-1948.md",
+          "role": "output",
+          "sha256": "b7a212b50d5f92e9cb778ba89a9344491ef52537ae6497f98c4d0d39fb72f7bb"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-d7441c9f583a446aaa2a41d9de314b85",
+              "source": "native-turn-context-observation",
+              "source_line": 589,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/counterexample-02",
+      "event_id": "event-b3b996429e67412995ea7e1936a4ee2b",
+      "evidence": [
+        "event-a4d7560642c44a8983862497dcfbf040",
+        "event-7293228e4dff45238583ba06602d5dbc",
+        "event-d7441c9f583a446aaa2a41d9de314b85"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:af7b4becfc3bf8583fe4254c013cd8235d87d9c4",
+      "kind": "origin",
+      "occurred_at": "2026-09-27T08:26:18.997Z",
+      "parents": [
+        "hundred:d7c8c11b4d7eb87d6337656eaf967076123b157f"
+      ],
+      "recorded_at": "2026-09-27T08:29:38.109843+00:00",
+      "summary": "Primary-source investigation, closest-argument and novelty assessment for the selected forecast-and-agency question.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "sources",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-counterexample-02",
+        "stage": "sources-001"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e1d3-0a74-7241-a959-c16e023c72cc"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-dd42adf2daad4975bfe35603b7dbd6fb",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/idea-001.md",
+          "role": "input",
+          "sha256": "ee9c1f558dc160ba55adc581df8fc056c427bdd1bae6f24ef92714b080b78926"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/sources-001.md",
+          "role": "input",
+          "sha256": "31dd911f93b5d4ca40323054339f298f58372caadef7074c204d4210fc3092ea"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/novelty-gate.json",
+          "role": "input",
+          "sha256": "15c2aefcaff7c6607953627aa5dda4ab9965f9370ab638a13d8e78ce5e0388a6"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source_manifest.json",
+          "role": "input",
+          "sha256": "6cbd6efc558fb4278e6b8fe163749cc3edb002a848a54e59b905637a988a85ff"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/sources-search-log.md",
+          "role": "input",
+          "sha256": "7f504d30adb06049902607b22c19ab3a123d44924aa14b3b69b59fda50d55c47"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/TASK.md",
+          "role": "input",
+          "sha256": "9b41c7037f3ae14f8411c62a637ada9d2b29d6946e4743775bfdcd14356d9810"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/DISPATCH.txt",
+          "role": "input",
+          "sha256": "5d2a7a55c0e53ec1de8206800a6885e8670d3674ddeff2603cec040abb2eefdc"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        },
+        {
+          "path": "methods/hundred-six-v1.json",
+          "role": "input",
+          "sha256": "fd7ba19e9848473d547e666996f8d8271d7bc6d17ace7e6c8649f22947f172cb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/goldman-1967.md",
+          "role": "input",
+          "sha256": "c2bc94c85307a4144b2126903b55d17cfe9184677f07c9119bb32a5190c1766d"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/stalkfleet-2011.md",
+          "role": "input",
+          "sha256": "adc5832e8548fa3b0def4d50bbd888bb13ceea2acce0efe15bf7153a76e7a8fe"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/kopec-2011.md",
+          "role": "input",
+          "sha256": "08561b9bcaa16d7d8de824d7d81307f772ec9d6da9b7771455a44ff7a302d4e1"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/king-mertens-2023.md",
+          "role": "input",
+          "sha256": "faf2ecbb6a657eeb665c0edb7cf750b80a602c8e89397024516c89fc7615a7f5"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/perdomo-2020.md",
+          "role": "input",
+          "sha256": "fbf27a9851e5488eb6242b1ec3963cbeede4196faec7566230d07464af36147a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/kim-perdomo-2023.md",
+          "role": "input",
+          "sha256": "4729dff07b17927116ceeb54eccfdbaac3e1f3da7400c7b76e9d23dc0d7e0a10"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/khosrowi-2023.md",
+          "role": "input",
+          "sha256": "a4c33ec2344e3355b902040f4d2afc2294bf4b8824c49572bd31be4adccba2e4"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/mertens-et-al-2021.md",
+          "role": "input",
+          "sha256": "e8fbeff837308f609430a287ee51869912f8e2a7055b74f153b4e4cd1e2040ac"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/merton-1948.md",
+          "role": "input",
+          "sha256": "b7a212b50d5f92e9cb778ba89a9344491ef52537ae6497f98c4d0d39fb72f7bb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/novelty-gate-001.md",
+          "role": "input",
+          "sha256": "8ddadc25c1c17c42720ee14da32342d32f8c8ce84beef0f8816d4c3aa3bcf8a4"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/idea-002.md",
+          "role": "output",
+          "sha256": "8ef5bda0626e057d9760a7e3b5c699976b253afec071a053263419b32c9a9d02"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-0003b23956814bf98b4ce1fd2a2a31cf",
+              "source": "native-turn-context-observation",
+              "source_line": 589,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/counterexample-02",
+      "event_id": "event-be95dc4f3f1347388333c62d398b17fe",
+      "evidence": [
+        "event-a5cafb36f8a44982bd4438d9af20f095",
+        "event-265a7cf608c243668c9024f9ea48c273",
+        "event-0003b23956814bf98b4ce1fd2a2a31cf"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:f20274dc183c5b302d5c3ae684a728377a42febe",
+      "kind": "idea",
+      "occurred_at": "2026-09-27T08:32:40.535Z",
+      "parents": [
+        "hundred:d7c8c11b4d7eb87d6337656eaf967076123b157f",
+        "hundred:af7b4becfc3bf8583fe4254c013cd8235d87d9c4"
+      ],
+      "recorded_at": "2026-09-27T08:35:40.909467+00:00",
+      "summary": "Freeze the revised proposition-indexed claim and exact one-shot binary model scope before executable search.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "idea",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-counterexample-02",
+        "stage": "idea-002"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e1d3-0a74-7241-a959-c16e023c72cc"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-a5cafb36f8a44982bd4438d9af20f095",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/idea-002.md",
+          "role": "input",
+          "sha256": "8ef5bda0626e057d9760a7e3b5c699976b253afec071a053263419b32c9a9d02"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/sources-001.md",
+          "role": "input",
+          "sha256": "31dd911f93b5d4ca40323054339f298f58372caadef7074c204d4210fc3092ea"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/TASK.md",
+          "role": "input",
+          "sha256": "9b41c7037f3ae14f8411c62a637ada9d2b29d6946e4743775bfdcd14356d9810"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/DISPATCH.txt",
+          "role": "input",
+          "sha256": "5d2a7a55c0e53ec1de8206800a6885e8670d3674ddeff2603cec040abb2eefdc"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        },
+        {
+          "path": "methods/hundred-six-v1.json",
+          "role": "input",
+          "sha256": "fd7ba19e9848473d547e666996f8d8271d7bc6d17ace7e6c8649f22947f172cb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model-search-001.md",
+          "role": "output",
+          "sha256": "1339d207c0514ffe9b98855262354c4207298a83fd25c616da33c8c454d5fe21"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model_search.py",
+          "role": "output",
+          "sha256": "51df6fb2ec6665b0a4eaa357ccbdeb569eb24da7b5292ec0bf7fe038b491b692"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model_search_output.json",
+          "role": "output",
+          "sha256": "dde814419eabf8b1e44609ebc8367edba975ab4916e70a24634a780d804ace63"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model-search-assumptions.md",
+          "role": "output",
+          "sha256": "cde56e2f0f437bee713cbc587095b1f79c609e6b7fe8b492f5e696c2046bb976"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-c6e853fb217d4a1da672da50e7e9a08a",
+              "source": "native-turn-context-observation",
+              "source_line": 589,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/counterexample-02",
+      "event_id": "event-4f7bc8d5f8a54bc19b80c57fbd356eab",
+      "evidence": [
+        "event-83e710403090403abbeb170727729740",
+        "event-1ff7efb7b3e94f3991e3f190417dd29e",
+        "event-c6e853fb217d4a1da672da50e7e9a08a"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:b06d440496d0c365b312aef4d72e1e32cbee85a5",
+      "kind": "origin",
+      "occurred_at": "2026-09-27T08:39:03.590Z",
+      "parents": [
+        "hundred:f20274dc183c5b302d5c3ae684a728377a42febe",
+        "hundred:af7b4becfc3bf8583fe4254c013cd8235d87d9c4"
+      ],
+      "recorded_at": "2026-09-27T08:40:41.993891+00:00",
+      "summary": "Exhaustively enumerate the frozen binary response-model class before drafting; preserve code, bounds, outputs, edge cases, and limitations.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "other",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-counterexample-02",
+        "stage": "model-search-001"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e1d3-0a74-7241-a959-c16e023c72cc"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-a5cafb36f8a44982bd4438d9af20f095",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/idea-002.md",
+          "role": "input",
+          "sha256": "8ef5bda0626e057d9760a7e3b5c699976b253afec071a053263419b32c9a9d02"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/sources-001.md",
+          "role": "input",
+          "sha256": "31dd911f93b5d4ca40323054339f298f58372caadef7074c204d4210fc3092ea"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source_manifest.json",
+          "role": "input",
+          "sha256": "6cbd6efc558fb4278e6b8fe163749cc3edb002a848a54e59b905637a988a85ff"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/novelty-gate.json",
+          "role": "input",
+          "sha256": "15c2aefcaff7c6607953627aa5dda4ab9965f9370ab638a13d8e78ce5e0388a6"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/sources-search-log.md",
+          "role": "input",
+          "sha256": "7f504d30adb06049902607b22c19ab3a123d44924aa14b3b69b59fda50d55c47"
+        },
+        {
+          "from_event_id": "event-83e710403090403abbeb170727729740",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model-search-001.md",
+          "role": "input",
+          "sha256": "1339d207c0514ffe9b98855262354c4207298a83fd25c616da33c8c454d5fe21"
+        },
+        {
+          "from_event_id": "event-83e710403090403abbeb170727729740",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model_search.py",
+          "role": "input",
+          "sha256": "51df6fb2ec6665b0a4eaa357ccbdeb569eb24da7b5292ec0bf7fe038b491b692"
+        },
+        {
+          "from_event_id": "event-83e710403090403abbeb170727729740",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model_search_output.json",
+          "role": "input",
+          "sha256": "dde814419eabf8b1e44609ebc8367edba975ab4916e70a24634a780d804ace63"
+        },
+        {
+          "from_event_id": "event-83e710403090403abbeb170727729740",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model-search-assumptions.md",
+          "role": "input",
+          "sha256": "cde56e2f0f437bee713cbc587095b1f79c609e6b7fe8b492f5e696c2046bb976"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/goldman-1967.md",
+          "role": "input",
+          "sha256": "c2bc94c85307a4144b2126903b55d17cfe9184677f07c9119bb32a5190c1766d"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/stalkfleet-2011.md",
+          "role": "input",
+          "sha256": "adc5832e8548fa3b0def4d50bbd888bb13ceea2acce0efe15bf7153a76e7a8fe"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/kopec-2011.md",
+          "role": "input",
+          "sha256": "08561b9bcaa16d7d8de824d7d81307f772ec9d6da9b7771455a44ff7a302d4e1"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/king-mertens-2023.md",
+          "role": "input",
+          "sha256": "faf2ecbb6a657eeb665c0edb7cf750b80a602c8e89397024516c89fc7615a7f5"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/perdomo-2020.md",
+          "role": "input",
+          "sha256": "fbf27a9851e5488eb6242b1ec3963cbeede4196faec7566230d07464af36147a"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/kim-perdomo-2023.md",
+          "role": "input",
+          "sha256": "4729dff07b17927116ceeb54eccfdbaac3e1f3da7400c7b76e9d23dc0d7e0a10"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/khosrowi-2023.md",
+          "role": "input",
+          "sha256": "a4c33ec2344e3355b902040f4d2afc2294bf4b8824c49572bd31be4adccba2e4"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/mertens-et-al-2021.md",
+          "role": "input",
+          "sha256": "e8fbeff837308f609430a287ee51869912f8e2a7055b74f153b4e4cd1e2040ac"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source-notes/merton-1948.md",
+          "role": "input",
+          "sha256": "b7a212b50d5f92e9cb778ba89a9344491ef52537ae6497f98c4d0d39fb72f7bb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/TASK.md",
+          "role": "input",
+          "sha256": "9b41c7037f3ae14f8411c62a637ada9d2b29d6946e4743775bfdcd14356d9810"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/DISPATCH.txt",
+          "role": "input",
+          "sha256": "5d2a7a55c0e53ec1de8206800a6885e8670d3674ddeff2603cec040abb2eefdc"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        },
+        {
+          "path": "methods/hundred-six-v1.json",
+          "role": "input",
+          "sha256": "fd7ba19e9848473d547e666996f8d8271d7bc6d17ace7e6c8649f22947f172cb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/DRAFT-001.md",
+          "role": "output",
+          "sha256": "6d488f1f3bd188a38a24878740da50a5f487cef31eecb9c9b5507df551534eb8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/argument-map.md",
+          "role": "output",
+          "sha256": "ed20269cb4ed9111114b52a1c655562a847fcd887112b5366a2868c6d755a33d"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/self-assessment.md",
+          "role": "output",
+          "sha256": "4edc7aa3524af05ff41f1a0d3e0c00b70042db5da262ba47607a6d3d5ab3036b"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-7eb49207b2504d1d9ea2924a233b468c",
+              "source": "native-turn-context-observation",
+              "source_line": 1171,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/counterexample-02",
+      "event_id": "event-9d1e47ae40164b7bb55100a1d299002c",
+      "evidence": [
+        "event-26ba8b004a954079bcf3300017985183",
+        "event-1fd8f80bb8af45c2b461a3acdd4b92e5",
+        "event-7eb49207b2504d1d9ea2924a233b468c"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:47cdeae265b828ade62c40140d523870c8ce95c1",
+      "kind": "draft",
+      "occurred_at": "2026-09-27T08:48:00.383Z",
+      "parents": [
+        "hundred:f20274dc183c5b302d5c3ae684a728377a42febe",
+        "hundred:af7b4becfc3bf8583fe4254c013cd8235d87d9c4",
+        "hundred:b06d440496d0c365b312aef4d72e1e32cbee85a5"
+      ],
+      "recorded_at": "2026-09-27T08:49:34.588596+00:00",
+      "summary": "Write one complete English manuscript defending or repairing the frozen target-indexing claim, engaging its strongest rivals, and stating model evidence and limits.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "draft",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-counterexample-02",
+        "stage": "DRAFT-001"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e212-6586-7321-b372-6a0b61885f08"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-26ba8b004a954079bcf3300017985183",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/DRAFT-001.md",
+          "role": "input",
+          "sha256": "6d488f1f3bd188a38a24878740da50a5f487cef31eecb9c9b5507df551534eb8"
+        },
+        {
+          "from_event_id": "event-83e710403090403abbeb170727729740",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model_search.py",
+          "role": "input",
+          "sha256": "51df6fb2ec6665b0a4eaa357ccbdeb569eb24da7b5292ec0bf7fe038b491b692"
+        },
+        {
+          "from_event_id": "event-83e710403090403abbeb170727729740",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model_search_output.json",
+          "role": "input",
+          "sha256": "dde814419eabf8b1e44609ebc8367edba975ab4916e70a24634a780d804ace63"
+        },
+        {
+          "from_event_id": "event-83e710403090403abbeb170727729740",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model-search-assumptions.md",
+          "role": "input",
+          "sha256": "cde56e2f0f437bee713cbc587095b1f79c609e6b7fe8b492f5e696c2046bb976"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source_manifest.json",
+          "role": "input",
+          "sha256": "6cbd6efc558fb4278e6b8fe163749cc3edb002a848a54e59b905637a988a85ff"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_CRITIC_PROTOCOL.md",
+          "role": "input",
+          "sha256": "0780949ce67a3c26c700a02a8fef33396a0c0e17861e93410a3019e0054d968c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/TASK.md",
+          "role": "input",
+          "sha256": "d3da612c0f79ac6d9ea06ba05dcff63961e4168b63aa9490d6a4729e2ff0c89e"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/input-packet.json",
+          "role": "input",
+          "sha256": "6a54e9ddcdab7d7da18af63ae5f7fbf97e05e72825afffbb092e61e6d19b3945"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/dispatch.txt",
+          "role": "input",
+          "sha256": "0550cf36eb6ae410d93c53e83f56d917c000bf86b0739c2a860a34cd2f875abb"
+        },
+        {
+          "path": "docs/HUNDRED_ARTIFACTS.md",
+          "role": "input",
+          "sha256": "ff65b3dfb32fafe63b23aac9c600dcdf77dad8b8d6e60cd85bfaafd7024b0112"
+        },
+        {
+          "path": "docs/HUNDRED_ARTIFACTS_V2.md",
+          "role": "input",
+          "sha256": "433559f9776a9b851b1b9f78f0d47c3d4b271a0ae5f2bb3e6b2d7855f4274f7f"
+        },
+        {
+          "path": "docs/CAPTURE.md",
+          "role": "input",
+          "sha256": "4ce39c7e6dba672e93d0d37f6cedaa71efbfa4d57c5eda8c2aee55e1f436e470"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-report.md",
+          "role": "output",
+          "sha256": "c4e655c700e679e6cfc2c7c961bd1f7ddb1586c731decd239ba0c74aa40c1552"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source_manifest.json",
+          "role": "output",
+          "sha256": "93a5f7e03647192d9eb248aee951bdd6d34654158a03c83a34ee748c8880cbb5"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/reading-coverage.json",
+          "role": "output",
+          "sha256": "4a80fbeaa055ea8173acc0a50fbd27da15b240e1903ecba72e7e1339d902e9d3"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/search-log.md",
+          "role": "output",
+          "sha256": "dd21da892dd25ce8e79ffd4809a0cd0366a85432a597eb4892dfbddd06908e6f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/model-check/model_search.py",
+          "role": "output",
+          "sha256": "51df6fb2ec6665b0a4eaa357ccbdeb569eb24da7b5292ec0bf7fe038b491b692"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/model-check/rerun-output.json",
+          "role": "output",
+          "sha256": "dde814419eabf8b1e44609ebc8367edba975ab4916e70a24634a780d804ace63"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/model-check/check-report.json",
+          "role": "output",
+          "sha256": "1b1556b145cd5e35eb2d4868dcd722cdfe97c3495083617f6f706c4b4169fd05"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/goldman-1967.md",
+          "role": "output",
+          "sha256": "229e38907790d27840692c2e8e9e6ea8268e93c7a6034d01e2542aa0e3b0fadc"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/khosrowi-2023.md",
+          "role": "output",
+          "sha256": "d5f63a18e10f633766aaa0ae7b0bb01b19afe693e930a8f29b09937afe56d262"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/kim-perdomo-2023.md",
+          "role": "output",
+          "sha256": "76f418e5442211dbebc06372ec016d0855c1d7959a624c40fc83824e2e17e217"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/king-mertens-2023.md",
+          "role": "output",
+          "sha256": "91854985085a0adea99764230bb892fc2b4362013193aa40ff109fcc2e02c43f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/kopec-2011.md",
+          "role": "output",
+          "sha256": "5621462c36ad4c70de9f30695175aaf55c2223129ce1ac4e6ab6b954cf038e30"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/mertens-et-al-2022.md",
+          "role": "output",
+          "sha256": "8d05ec8f01d76c30d1922fcbcb57bf4f48d7de4eef86098b2f8ce9134277ab98"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/perdomo-et-al-2020.md",
+          "role": "output",
+          "sha256": "d1094ee697823da1a233118c10dc920a6b421d2e1600fe125283c75526be648f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/stalkfleet-2011.md",
+          "role": "output",
+          "sha256": "5dad6af33f3a8e123d845093dd85f2226a3ad18e71407964742045bc35e6ac02"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-marker-attempt-001.error.txt",
+          "role": "output",
+          "sha256": "313c4c026d067911c0f71e6143790307dedc589153a7801ce9ff5266c9f1a0f8"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-f85b98d64c70433dbab52affe73dea04",
+              "source": "native-turn-context-observation",
+              "source_line": 490,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/counterexample-02",
+      "event_id": "event-be2fd7b1275346e8a8b0b9b671325f03",
+      "evidence": [
+        "event-5c4bce14bcea46d1ab7271cf23b47845",
+        "event-498e642024c040618e56a1edafaae7f6",
+        "event-f85b98d64c70433dbab52affe73dea04"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:bd8051633e56c6764c4f36f9e3e58e2816af16bb",
+      "kind": "origin",
+      "occurred_at": "2026-09-27T09:18:38.811Z",
+      "parents": [
+        "hundred:47cdeae265b828ade62c40140d523870c8ce95c1",
+        "hundred:b06d440496d0c365b312aef4d72e1e32cbee85a5",
+        "hundred:af7b4becfc3bf8583fe4254c013cd8235d87d9c4"
+      ],
+      "recorded_at": "2026-09-27T09:19:41.242181+00:00",
+      "summary": "Fresh independent rerun/verification of the finite model, source checks and full manuscript before critique.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "sources",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-counterexample-02",
+        "stage": "critic-source-check-001"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e212-6586-7321-b372-6a0b61885f08"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-26ba8b004a954079bcf3300017985183",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/DRAFT-001.md",
+          "role": "input",
+          "sha256": "6d488f1f3bd188a38a24878740da50a5f487cef31eecb9c9b5507df551534eb8"
+        },
+        {
+          "from_event_id": "event-83e710403090403abbeb170727729740",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model_search.py",
+          "role": "input",
+          "sha256": "51df6fb2ec6665b0a4eaa357ccbdeb569eb24da7b5292ec0bf7fe038b491b692"
+        },
+        {
+          "from_event_id": "event-83e710403090403abbeb170727729740",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model_search_output.json",
+          "role": "input",
+          "sha256": "dde814419eabf8b1e44609ebc8367edba975ab4916e70a24634a780d804ace63"
+        },
+        {
+          "from_event_id": "event-83e710403090403abbeb170727729740",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model-search-assumptions.md",
+          "role": "input",
+          "sha256": "cde56e2f0f437bee713cbc587095b1f79c609e6b7fe8b492f5e696c2046bb976"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source_manifest.json",
+          "role": "input",
+          "sha256": "6cbd6efc558fb4278e6b8fe163749cc3edb002a848a54e59b905637a988a85ff"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-report.md",
+          "role": "input",
+          "sha256": "c4e655c700e679e6cfc2c7c961bd1f7ddb1586c731decd239ba0c74aa40c1552"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source_manifest.json",
+          "role": "input",
+          "sha256": "93a5f7e03647192d9eb248aee951bdd6d34654158a03c83a34ee748c8880cbb5"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/reading-coverage.json",
+          "role": "input",
+          "sha256": "4a80fbeaa055ea8173acc0a50fbd27da15b240e1903ecba72e7e1339d902e9d3"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/search-log.md",
+          "role": "input",
+          "sha256": "dd21da892dd25ce8e79ffd4809a0cd0366a85432a597eb4892dfbddd06908e6f"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/model-check/model_search.py",
+          "role": "input",
+          "sha256": "51df6fb2ec6665b0a4eaa357ccbdeb569eb24da7b5292ec0bf7fe038b491b692"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/model-check/rerun-output.json",
+          "role": "input",
+          "sha256": "dde814419eabf8b1e44609ebc8367edba975ab4916e70a24634a780d804ace63"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/model-check/check-report.json",
+          "role": "input",
+          "sha256": "1b1556b145cd5e35eb2d4868dcd722cdfe97c3495083617f6f706c4b4169fd05"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/goldman-1967.md",
+          "role": "input",
+          "sha256": "229e38907790d27840692c2e8e9e6ea8268e93c7a6034d01e2542aa0e3b0fadc"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/khosrowi-2023.md",
+          "role": "input",
+          "sha256": "d5f63a18e10f633766aaa0ae7b0bb01b19afe693e930a8f29b09937afe56d262"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/kim-perdomo-2023.md",
+          "role": "input",
+          "sha256": "76f418e5442211dbebc06372ec016d0855c1d7959a624c40fc83824e2e17e217"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/king-mertens-2023.md",
+          "role": "input",
+          "sha256": "91854985085a0adea99764230bb892fc2b4362013193aa40ff109fcc2e02c43f"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/kopec-2011.md",
+          "role": "input",
+          "sha256": "5621462c36ad4c70de9f30695175aaf55c2223129ce1ac4e6ab6b954cf038e30"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/mertens-et-al-2022.md",
+          "role": "input",
+          "sha256": "8d05ec8f01d76c30d1922fcbcb57bf4f48d7de4eef86098b2f8ce9134277ab98"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/perdomo-et-al-2020.md",
+          "role": "input",
+          "sha256": "d1094ee697823da1a233118c10dc920a6b421d2e1600fe125283c75526be648f"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/stalkfleet-2011.md",
+          "role": "input",
+          "sha256": "5dad6af33f3a8e123d845093dd85f2226a3ad18e71407964742045bc35e6ac02"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-marker-attempt-001.error.txt",
+          "role": "input",
+          "sha256": "313c4c026d067911c0f71e6143790307dedc589153a7801ce9ff5266c9f1a0f8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/TASK.md",
+          "role": "input",
+          "sha256": "d3da612c0f79ac6d9ea06ba05dcff63961e4168b63aa9490d6a4729e2ff0c89e"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/input-packet.json",
+          "role": "input",
+          "sha256": "6a54e9ddcdab7d7da18af63ae5f7fbf97e05e72825afffbb092e61e6d19b3945"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/dispatch.txt",
+          "role": "input",
+          "sha256": "0550cf36eb6ae410d93c53e83f56d917c000bf86b0739c2a860a34cd2f875abb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_CRITIC_PROTOCOL.md",
+          "role": "input",
+          "sha256": "0780949ce67a3c26c700a02a8fef33396a0c0e17861e93410a3019e0054d968c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "docs/HUNDRED_ARTIFACTS.md",
+          "role": "input",
+          "sha256": "ff65b3dfb32fafe63b23aac9c600dcdf77dad8b8d6e60cd85bfaafd7024b0112"
+        },
+        {
+          "path": "docs/HUNDRED_ARTIFACTS_V2.md",
+          "role": "input",
+          "sha256": "433559f9776a9b851b1b9f78f0d47c3d4b271a0ae5f2bb3e6b2d7855f4274f7f"
+        },
+        {
+          "path": "docs/CAPTURE.md",
+          "role": "input",
+          "sha256": "4ce39c7e6dba672e93d0d37f6cedaa71efbfa4d57c5eda8c2aee55e1f436e470"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check.prepare.json",
+          "role": "input",
+          "sha256": "64f58ca7ce73a965d3620852449605011ad561e2d05ab14924e230f04727d379"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check.prepare.receipt.json",
+          "role": "input",
+          "sha256": "3e09504d492d6e1bfc4e6fedde38af87294edb07877e1467bf4c59c3d8080a54"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check.record.json",
+          "role": "input",
+          "sha256": "25ea1f9b7c3076951672030b3cdb525169b670568827d191b78ce1eebddc0cd8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check.record.receipt.json",
+          "role": "input",
+          "sha256": "5146d9a213e6ab778cff352bc058694fb69f643a994ec38af093aedd0d463a3f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-record-marker-gate-failure.txt",
+          "role": "input",
+          "sha256": "5ef9670d3a3fe67d64578e5dfb8b8758eed5cb9e41afe9386c374fdb0ada976f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/critique.md",
+          "role": "output",
+          "sha256": "0412b929626d049876ad819a2a0633011366c03f6eb6229d8259eb66f94ef125"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/HISTORY_RU.md",
+          "role": "output",
+          "sha256": "5bb6e7e21a441a22ca3001f7836ffaf6ccd8cd72dcdbf2957556ccbd7c5adc9e"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/critique-assessment.json",
+          "role": "output",
+          "sha256": "6ebb9a6fb95a9d900e55309ece59111063c2b4f72aadb21c966c044b88a1e9e5"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-38ea5cf773c840e28e256e42e6648fee",
+              "source": "native-turn-context-observation",
+              "source_line": 490,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/counterexample-02",
+      "event_id": "event-b3966a3843294aa4a512ab9c56cca856",
+      "evidence": [
+        "event-b5c105f4d5da45379f4596ca078e7802",
+        "event-45c3ca1d480e4d9f805335b2036ebb0b",
+        "event-38ea5cf773c840e28e256e42e6648fee"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:fd0c107310b361af01a7e7c36bee8ff26c052a60",
+      "kind": "critique",
+      "occurred_at": "2026-09-27T09:37:02.080Z",
+      "parents": [
+        "hundred:47cdeae265b828ade62c40140d523870c8ce95c1",
+        "hundred:b06d440496d0c365b312aef4d72e1e32cbee85a5",
+        "hundred:af7b4becfc3bf8583fe4254c013cd8235d87d9c4",
+        "hundred:bd8051633e56c6764c4f36f9e3e58e2816af16bb"
+      ],
+      "recorded_at": "2026-09-27T09:40:25.271810+00:00",
+      "summary": "Fresh independent critique after exact-input source and model checks; assess argument, model-to-conclusion fit, assumptions, source comparison and novelty; no revision or final manuscript.",
+      "workflow": {
+        "independent_context_declared": true,
+        "phase": "critique",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-counterexample-02",
+        "stage": "critic-001"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0e1d3-0a74-7241-a959-c16e023c72cc"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-26ba8b004a954079bcf3300017985183",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/DRAFT-001.md",
+          "role": "input",
+          "sha256": "6d488f1f3bd188a38a24878740da50a5f487cef31eecb9c9b5507df551534eb8"
+        },
+        {
+          "from_event_id": "event-b5c105f4d5da45379f4596ca078e7802",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/critique.md",
+          "role": "input",
+          "sha256": "0412b929626d049876ad819a2a0633011366c03f6eb6229d8259eb66f94ef125"
+        },
+        {
+          "from_event_id": "event-83e710403090403abbeb170727729740",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model_search.py",
+          "role": "input",
+          "sha256": "51df6fb2ec6665b0a4eaa357ccbdeb569eb24da7b5292ec0bf7fe038b491b692"
+        },
+        {
+          "from_event_id": "event-83e710403090403abbeb170727729740",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model_search_output.json",
+          "role": "input",
+          "sha256": "dde814419eabf8b1e44609ebc8367edba975ab4916e70a24634a780d804ace63"
+        },
+        {
+          "from_event_id": "event-83e710403090403abbeb170727729740",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/model-search-assumptions.md",
+          "role": "input",
+          "sha256": "cde56e2f0f437bee713cbc587095b1f79c609e6b7fe8b492f5e696c2046bb976"
+        },
+        {
+          "from_event_id": "event-a4d7560642c44a8983862497dcfbf040",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/source_manifest.json",
+          "role": "input",
+          "sha256": "6cbd6efc558fb4278e6b8fe163749cc3edb002a848a54e59b905637a988a85ff"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-report.md",
+          "role": "input",
+          "sha256": "c4e655c700e679e6cfc2c7c961bd1f7ddb1586c731decd239ba0c74aa40c1552"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source_manifest.json",
+          "role": "input",
+          "sha256": "93a5f7e03647192d9eb248aee951bdd6d34654158a03c83a34ee748c8880cbb5"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/reading-coverage.json",
+          "role": "input",
+          "sha256": "4a80fbeaa055ea8173acc0a50fbd27da15b240e1903ecba72e7e1339d902e9d3"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/model-check/check-report.json",
+          "role": "input",
+          "sha256": "1b1556b145cd5e35eb2d4868dcd722cdfe97c3495083617f6f706c4b4169fd05"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/stalkfleet-2011.md",
+          "role": "input",
+          "sha256": "5dad6af33f3a8e123d845093dd85f2226a3ad18e71407964742045bc35e6ac02"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/king-mertens-2023.md",
+          "role": "input",
+          "sha256": "91854985085a0adea99764230bb892fc2b4362013193aa40ff109fcc2e02c43f"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/khosrowi-2023.md",
+          "role": "input",
+          "sha256": "d5f63a18e10f633766aaa0ae7b0bb01b19afe693e930a8f29b09937afe56d262"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/kopec-2011.md",
+          "role": "input",
+          "sha256": "5621462c36ad4c70de9f30695175aaf55c2223129ce1ac4e6ab6b954cf038e30"
+        },
+        {
+          "from_event_id": "event-5c4bce14bcea46d1ab7271cf23b47845",
+          "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/source-check-sources/mertens-et-al-2022.md",
+          "role": "input",
+          "sha256": "8d05ec8f01d76c30d1922fcbcb57bf4f48d7de4eef86098b2f8ce9134277ab98"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/TASK.md",
+          "role": "input",
+          "sha256": "9b41c7037f3ae14f8411c62a637ada9d2b29d6946e4743775bfdcd14356d9810"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/DISPATCH.txt",
+          "role": "input",
+          "sha256": "5d2a7a55c0e53ec1de8206800a6885e8670d3674ddeff2603cec040abb2eefdc"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/FRESH_DISPATCH_V2.md",
+          "role": "input",
+          "sha256": "76ae8bdf92b303be150eca15200555f4981c4f63f098fa1b3fc03138ccca00e8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+          "role": "input",
+          "sha256": "374265023c2caa73a63e27cae994cf9f3dbabae87f51e8767e5cb7c4d232d432"
+        },
+        {
+          "path": "methods/hundred-six-v1.json",
+          "role": "input",
+          "sha256": "fd7ba19e9848473d547e666996f8d8271d7bc6d17ace7e6c8649f22947f172cb"
+        },
+        {
+          "path": "docs/HUNDRED_ARTIFACTS.md",
+          "role": "input",
+          "sha256": "ff65b3dfb32fafe63b23aac9c600dcdf77dad8b8d6e60cd85bfaafd7024b0112"
+        },
+        {
+          "path": "docs/HUNDRED_ARTIFACTS_V2.md",
+          "role": "input",
+          "sha256": "433559f9776a9b851b1b9f78f0d47c3d4b271a0ae5f2bb3e6b2d7855f4274f7f"
+        },
+        {
+          "path": "docs/CAPTURE.md",
+          "role": "input",
+          "sha256": "4ce39c7e6dba672e93d0d37f6cedaa71efbfa4d57c5eda8c2aee55e1f436e470"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/revision-001/DRAFT-002.md",
+          "role": "output",
+          "sha256": "1f9b5ff03904eb25d4b121a2358f70dcaa7d97f802f35fc98fdeec0dd0331fe2"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/revision-001/REVISION_RESPONSE.md",
+          "role": "output",
+          "sha256": "26b96ae1f6dadf59c563f0d5cbcb265d139d6b863a4e6e392443a34f22aeecff"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/revision-001/HISTORY_RU.md",
+          "role": "output",
+          "sha256": "c8df5f00c2bf94a8f839941af307d8fe6df3437f12f2f9a072cc30f638d62a86"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/revision-001/word-count.json",
+          "role": "output",
+          "sha256": "20e74ad1698d8440f855b495889b7b1d867065b0b386bbc66968970b35cf9ee7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/counterexample-02/revision-001/provenance.json",
+          "role": "output",
+          "sha256": "091c5d8e7457e8dcba8f4c074c3409fa33e396f8a2721e74dd72e4918762285f"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "collector-536fe282f49e8d59f334b879d5a178a6",
+              "source": "native-turn-context-observation",
+              "source_line": 1471,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-luna",
+                "reasoning_effort": "xhigh"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "xhigh",
+          "model": "gpt-6-luna"
+        }
+      },
+      "entity": "hundred-20260925/counterexample-02",
+      "event_id": "event-66693117c2274b9ab74f85d29182cf04",
+      "evidence": [
+        "event-d5355fd595b844e8a105a42f33da3cc2",
+        "event-86927073528940c0abd5439e9cf42108",
+        "collector-536fe282f49e8d59f334b879d5a178a6"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:43a19f96d890c4be3075fddd1aaf918b6cf14e55",
+      "kind": "revision",
+      "occurred_at": "2026-09-27T11:02:23.447Z",
+      "parents": [
+        "hundred:47cdeae265b828ade62c40140d523870c8ce95c1",
+        "hundred:fd0c107310b361af01a7e7c36bee8ff26c052a60",
+        "hundred:b06d440496d0c365b312aef4d72e1e32cbee85a5",
+        "hundred:af7b4becfc3bf8583fe4254c013cd8235d87d9c4",
+        "hundred:bd8051633e56c6764c4f36f9e3e58e2816af16bb"
+      ],
+      "recorded_at": "2026-09-27T11:05:47.316503+00:00",
+      "summary": "Revise DRAFT-001 in response to archived critic-001, correcting the Stalkfleet interpretation, narrowing the epistemic and novelty claims, and preserving only verified model/source limits; no new source work.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "revision",
+        "protocol": "hundred-artifacts.v2",
+        "run_id": "hundred-20260925-counterexample-02",
+        "stage": "revision-001"
+      }
+    }
+  ],
+  "protocol": "essay-lineage.v1",
+  "export": {
+    "language": "en",
+    "kind": "English translation of canonical structured biography; source identifiers, hashes, parents, and fields preserved",
+    "source_path": "research/biographies/hundred-20260925/counterexample-02/biography.json",
+    "source_sha256": "ed9e0eb79678fa595e5e325e18eaba462ca26949b14610a86ca1cb62b465d7e2"
+  }
+}

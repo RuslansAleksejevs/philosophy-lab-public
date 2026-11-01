@@ -1,0 +1,48 @@
+{
+  "status": "ROOT_REVIEWED_OPERATIONAL_ADJUSTMENT_PENDING_CANONICAL_ACCEPTANCE",
+  "decision": "Use additive closure_capacity_v3.py for eventual finite closure; preserve v2 and its READY_REQUEST.",
+  "basis": "Root read the exact diff and test report: only docstring and completed_at projected from actual completion-event timestamp. Three synthetic closure/timestamp/replay tests passed. No substantive selection criterion, reviewer setting, input, model or failure treatment changes.",
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/closure_capacity_v3.py",
+      "sha256": "a131ad08b0a8ae3035f36688e201db7378a550e97ca285bdf28f281bac819503",
+      "bytes": 21464
+    },
+    {
+      "path": "runs/github-selection-20261018/CLOSURE_V3_ADJUSTMENT_RU.md",
+      "sha256": "aa4722f47c0eb685ef5b00fe3ac0ecc6ac5a457bd63e612603b08199fee7e622",
+      "bytes": 4512
+    },
+    {
+      "path": "runs/github-selection-20261018/CLOSURE_V3_CHECK.json",
+      "sha256": "76bc897dc1156735193967cd6fca0a0f95e1ac485c0baaf7994bfe655383a5fa",
+      "bytes": 2082
+    },
+    {
+      "path": "runs/github-selection-20261018/test_closure_timestamp_v3.py",
+      "sha256": "942e439249ed25465ce9fb993fc51461cdb8719a7849571382831d00d46bc953",
+      "bytes": 4457
+    },
+    {
+      "path": "runs/github-selection-20261018/closure_capacity_v3.diff",
+      "sha256": "0572df7c0dfdacc12b0f36f46197b1046d0d2fbc50f9a98cf29d3fa70f9a443a",
+      "bytes": 1047
+    }
+  ],
+  "canonical_acceptance": "Bind this record and exact v3 artifacts in the later pair-ready helper inputs and closure inputs before execution; no actual closure has run.",
+  "final_plan_path": "runs/final-selection-20261018/FINAL_PLAN.json",
+  "editorial_completion_pointer": {
+    "input": "$receipt",
+    "pointer": "/completed_at"
+  },
+  "postclosure_order": [
+    "finite closure",
+    "strict export and exact subset check against FINAL_RECEIPT.files",
+    "render/prepare/finalize/verify",
+    "verified private GitHub update",
+    "root AGENTS.md/START_HERE update with preserved originals and separate evidence",
+    "collector restoration",
+    "goal complete"
+  ],
+  "memory_order_reason": "Original START binds AGENTS.md and START_HERE; exporter resolver reruns their hashes. Preserve until strict export/GitHub verification finishes. Later memory mutation is recorded separately; original receipts remain immutable."
+}

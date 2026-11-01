@@ -1,0 +1,155 @@
+{
+  "audit_id": "V07-A",
+  "manuscript_id": "V07",
+  "role": "argument",
+  "manuscript_sha256": "7e89cbede4b8b1a236ecfa87e684ba46b51707b099fa0f072ccbacb833d3b520",
+  "read_complete": true,
+  "thesis": "When a person is supposed to retain review of delegated recommendations against specified considerations, that person needs a usable opportunity to learn about those considerations when the recommendation process mishandles them. Authority to reject a recommendation does not supply this epistemic capacity. The strongest defensible reading makes this a necessary condition for a bounded review task, with reliability and timing appropriate to that task. It is neither a sufficient account of human control nor a requirement that every automated action receive human review.",
+  "claimed_contribution": "The manuscript proposes an error-relative test of retained review: ask whether the evidence route remains usable under the particular failure the reviewer is supposed to detect. It distinguishes this from organizational separation, unaided human competence, and general system accuracy. It also distinguishes reviewing individual decisions from reviewing a practice over time. These are presented as refinements of existing accounts; their relationship to those sources remains unverified here.",
+  "assessment": "NO_MAJOR_DEFECT_FOUND",
+  "findings": [
+    {
+      "id": "A1",
+      "severity": "question",
+      "manuscript_location": "“Why the route matters”: “The required reliability depends on the stakes, time available, and kind of mistake.” “The strongest objection: all judgment depends on something”: “No finite arrangement can preserve review against every correlated failure.”",
+      "claim": "The manuscript leaves open how to select the failures that a review arrangement must withstand and how to determine adequate reliability within that scope.",
+      "analysis": "The limiting case is established: if a relevant classification error blocks every usable means of discovering the overlooked consideration, the reviewer lacks the corresponding capacity. Intermediate cases require further judgment. A route might withstand misclassification but share an unreliable intake process, or it might reveal omissions only intermittently. The manuscript correctly distinguishes these failures and acknowledges varying reliability requirements, but gives no decision procedure for deciding which failures belong within the promised review task or how much residual risk is acceptable. This is an unanswered application question, not a demonstrated defect in the bounded necessity argument.",
+      "status": "unresolved",
+      "effect_on_conclusion": "The test can expose complete dependence on the disputed classification. It cannot, by itself, certify a partially reliable arrangement as adequate or establish the appropriate scope of its review obligations.",
+      "repair_conditions": "For a concrete adequacy judgment, establish a justified review scope, the relevant failure classes, the required response time, and a defensible reliability standard. Then provide evidence that the proposed route meets those requirements under the specified failures. The general necessity claim does not require a universal numerical threshold.",
+      "source_ids": []
+    }
+  ],
+  "surviving_contribution": "The surviving argument identifies a specific mismatch between formal authority and practical review capacity. Under “A power that lacks its occasion,” the statement “A random refusal would not repair this” correctly distinguishes producing a different outcome from responding to the overlooked need. Under “Why the route matters,” “independence from the error being checked” supplies the relevant architectural distinction: a separate provider can inherit the same missing evidence, while an internal unfiltered record can preserve access despite a classification error. The distinction between individual appeals and review of an ongoing practice also survives. No material defect is demonstrated in these bounded claims; they do not establish that retaining review is always desirable or that an accessible channel alone makes review adequate.",
+  "remaining_questions": [
+    "How should a defensible review scope be determined when staff dispute the considerations that scheduling should recognize? Under “Why the route matters,” the manuscript explicitly says it “does not supply a complete account of what makes its limits defensible.” Consequently, it cannot establish that a particular institution's stated review task is morally sufficient.",
+    "What would demonstrate that a monthly sample detects the relevant omissions soon enough? Under “Why the route matters,” “A well-chosen sample may give her good reason to change the scheduling practice” is a conditional possibility claim. An application would need a sampling frame, a target pattern, and evidence connecting sample size and frequency to timely detection.",
+    "What level of understanding and practical response is sufficient for each review task? Under “The division of work that needs defending,” the reviewer must “understand enough to pause, question, or redirect what happens.” This avoids requiring complete technical expertise, but leaves the relevant competence standard to be established in particular applications."
+  ],
+  "limitations": [
+    "The complete supplied manuscript, including all four bibliography entries, was read. The supplied identity hash was accepted without recomputation.",
+    "No tools, browsing, agents, or external sources were used. Bibliographic accuracy, quotations attributed to other authors, and interpretations of the cited works could not be independently checked.",
+    "The theatre arrangements and other examples were assessed as stipulated cases. Their real-world feasibility, reliability, costs, and effects on workers were not empirically established.",
+    "The manuscript contains no explicit equations, numerical results, or formal proofs. The logical checks below are direct reconstructions of its prose argument; no empirical or numerical calculation was executed.",
+    "This audit assesses the manuscript's argument, not historical originality. The objections considered do not constitute an exhaustive search for counterexamples."
+  ],
+  "plain_summary_ru": [
+    "Главный довод обоснован: право отклонить решение не даёт полноценной проверки, если программа скрывает сведения о своей ошибке.",
+    "Серьёзной ошибки в этом узком доводе не обнаружено, но нужную надёжность проверки ещё предстоит обосновать для конкретных случаев.",
+    "Источники не проверялись, поэтому точность ссылок и пересказа чужих работ здесь не подтверждена."
+  ],
+  "argument_reconstruction": [
+    {
+      "step": "1",
+      "kind": "Scope assumption and normative premise",
+      "content": "A particular person is assigned a defensible task of reviewing recommendations against a specified class of considerations within a relevant time period. Whether that task should be retained is a separate question.",
+      "support_or_dependency": "“Why the route matters”: “Suppose a person retains responsibility for reviewing recommendations in light of a certain kind of consideration,” and “The argument here assumes a defensible review task.” The argument depends on this role specification; it does not derive the role's legitimacy."
+    },
+    {
+      "step": "2",
+      "kind": "Conceptual premise",
+      "content": "Review involves the capacity to reconsider for a relevant reason. The bare ability to produce a different outcome, including by random refusal, is a distinct capacity.",
+      "support_or_dependency": "“A power that lacks its occasion”: “Control through review involves being able to change course for a reason.” This supplies the bridge from an information problem to a limitation on review capacity."
+    },
+    {
+      "step": "3",
+      "kind": "Necessary enabling condition",
+      "content": "Reason-responsive review requires a practical opportunity to learn about the considerations it is meant to address. It does not require that every relevant fact actually be learned in every instance.",
+      "support_or_dependency": "“Why the route matters”: “Such review requires some practical capacity to learn about those conflicts,” qualified later by “Mere possibility is too weak; guaranteed success is too strong.” This depends on step 2."
+    },
+    {
+      "step": "4",
+      "kind": "Stipulated example and empirical assumptions",
+      "content": "In the closed theatre arrangement, the program is the only information route, it excludes a relevant care request, and the manager otherwise retains time, competence, and rejection authority. The case assumes she cannot recover the particular consideration from other available evidence.",
+      "support_or_dependency": "Opening example under “Who Gets to Tell the Tool It Is Wrong?”: “The manager never sees it.” “A power that lacks its occasion”: “the program is the only route.” These are stipulations, not empirical findings about actual scheduling systems."
+    },
+    {
+      "step": "5",
+      "kind": "Conditional inference",
+      "content": "When the program's mistaken judgment of irrelevance also controls whether the relevant evidence reaches the manager, that mistake defeats the available means of detecting it.",
+      "support_or_dependency": "“Why the route matters”: “she can see the request only if the program has already decided not to dismiss it.” Steps 3 and 4 support this inference, provided there is no usable indirect signal or other route."
+    },
+    {
+      "step": "6",
+      "kind": "Bounded conclusion",
+      "content": "The manager lacks the corresponding part of review capacity despite retaining rejection authority. This does not imply that she has no agency, that every resulting decision is unfree, or that the schedule is necessarily worse.",
+      "support_or_dependency": "“A power that lacks its occasion”: “It shows a more precise loss.” The conclusion follows from steps 2–5 and concerns the specified class of overlooked considerations."
+    },
+    {
+      "step": "7",
+      "kind": "Generalization through contrasting constructions",
+      "content": "A useful alternative route must remain adequate under the relevant failure. Separate ownership is neither necessary nor sufficient: a second provider can inherit filtered evidence, while an internal inbox can preserve omitted messages.",
+      "support_or_dependency": "“Why the route matters”: “The relevant independence is independence from the error being checked, not a count of companies, interfaces, or devices.” The examples establish possibilities, not the reliability of any actual design."
+    },
+    {
+      "step": "8",
+      "kind": "Practical qualifications",
+      "content": "Access must include usable delivery, sufficient understanding, timely response, and an opportunity to act. Overload, lateness, and retaliation can defeat an otherwise available route.",
+      "support_or_dependency": "“Why the route matters”: “A route supports review only when ordinary people can use it, understand enough of what arrives, and respond within the relevant time.” These conditions prevent interpreting a nominal channel as sufficient."
+    },
+    {
+      "step": "9",
+      "kind": "Task-relative distinction and conditional example",
+      "content": "An audit of original requests can support intervention in an ongoing practice without supplying an appeal against each imminent decision. Its adequacy must therefore be judged against a different target and timetable.",
+      "support_or_dependency": "“Why the route matters”: “It is control over an ongoing practice, however, not an opportunity to correct every schedule before publication.” The possibility is coherent, but no sampling performance is proven."
+    },
+    {
+      "step": "10",
+      "kind": "Limits on the conclusion",
+      "content": "Retained review does not require unaided task performance, protection against every shared failure, or compulsory human supervision. A person may exercise agency by surrendering subsequent review.",
+      "support_or_dependency": "“Why the route matters”: “Detecting a reason to reconsider and producing the replacement are different tasks.” “Could giving up review be an exercise of agency?”: “Exercising a power can result in giving some of it up.” These qualifications block broader conclusions about self-sufficiency, overall autonomy, and universal human vetoes."
+    }
+  ],
+  "strongest_objections": [
+    {
+      "objection": "Every evidence route has possible failures. If a review arrangement must remain reliable precisely when its information processes fail, the requirement may become impossible or generate an endless demand for additional checks.",
+      "best_available_reply": "The manuscript requires robustness against a specified failure of the process being reviewed, not against every possible failure of all evidential processes. An inbox can preserve access when classification fails while remaining vulnerable to a separate intake failure. The latter vulnerability limits the supported claim without making the former check useless.",
+      "assessment": "The reply defeats the regress objection to the bounded requirement. It leaves the selection of relevant failure classes unresolved, as recorded in A1. The argument would fail if read as requiring protection against all correlated failures, but the manuscript explicitly rejects that reading.",
+      "manuscript_location": "“The strongest objection: all judgment depends on something”: “the demand is tied to a specified review task and a specified failure,” and “Success in the first test supplies evidence about classification errors, not proof against intake failures.”"
+    },
+    {
+      "objection": "A reviewer may discover an error from background knowledge, inconsistencies in the recommendation, or the tool's own checking process. A direct complaint or separate external channel is therefore not necessary for review.",
+      "best_available_reply": "The defensible requirement concerns usable access to grounds for reconsideration, rather than a particular channel or organizational arrangement. An indirect inference or internal check can satisfy it if it remains effective under the error being examined. The theatre argument stipulates that no such alternative is available.",
+      "assessment": "This would refute a universal requirement for a separate external channel. It does not refute the manuscript's broader requirement, which explicitly permits other instruments, other people, and internal self-checks. Applications must establish that alternatives are unavailable before inferring loss of review from one blocked message route.",
+      "manuscript_location": "“The strongest objection: all judgment depends on something”: “A tool does not cease to support review merely because it belongs to the system under review.” “Why the route matters”: “two functions within one product might provide the needed route.”"
+    },
+    {
+      "objection": "Rarely missing important requests may be compatible with meaningful review. Demonstrating an inaccessible error does not by itself show that a person's review capacity is inadequate overall.",
+      "best_available_reply": "The manuscript distinguishes occasional failures from an arrangement in which the targeted error defeats the route needed to challenge it. Its conclusion concerns incomplete control over the specified class of errors, while expressly allowing that the manager retains other judgment and authority.",
+      "assessment": "This objection limits the conclusion to the stated failure class. The manuscript generally respects that limit and does not infer total absence of agency. However, deciding whether the limitation defeats a broader institutional promise requires the scope and reliability judgments left open in A1.",
+      "manuscript_location": "“A power that lacks its occasion”: “Anyone can overlook a message,” followed by “the very mistake that creates a need for review removes the evidence that could prompt it.” “The strongest objection: all judgment depends on something”: “Control comes in degrees.”"
+    },
+    {
+      "objection": "A usable review route may produce worse or less just decisions, and a person may rationally choose to surrender review. Consequently, showing that a route is absent does not establish that the institution ought to add one.",
+      "best_available_reply": "The argument is conditional on retaining a particular review task. It distinguishes the existence of that capacity from its costs, distributional effects, and desirability. Deliberate delegation can be justified while leaving subsequent individual decisions outside active human review.",
+      "assessment": "The reply succeeds against this objection to the bounded thesis. The manuscript does not establish an unconditional duty to retain review or a complete policy recommendation for the theatre. Such conclusions would require additional normative and empirical premises.",
+      "manuscript_location": "“Could giving up review be an exercise of agency?”: “Nor does stronger review always produce better decisions,” and “It sets a condition for the task being real, not a universal demand that every task must be retained.”"
+    }
+  ],
+  "formal_checks": [
+    {
+      "claim": "A sole relevance gate cannot expose its own exclusion error through the evidence it excludes.",
+      "method": "Directly reconstruct the dependency. Let G mean that the program admits the request and V mean that the manager can access it. In the stipulated arrangement, access requires admission: V implies G. When the relevant error is exclusion, G is false, so V is false. The further conclusion about review requires the separate assumption that no other usable evidence reveals the overlooked need.",
+      "result": "The conditional inference is valid. It establishes loss of access through this arrangement, not the falsity of the schedule, the absence of all managerial agency, or the impossibility of learning through an unstipulated alternative.",
+      "execution_boundary": "Checked directly by elementary implication; no tool or numerical calculation was used. The notation is an audit reconstruction, not an equation supplied by the author. Manuscript location: “Why the route matters,” “she can see the request only if the program has already decided not to dismiss it.”"
+    },
+    {
+      "claim": "Random rejection does not restore responsiveness to an inaccessible need.",
+      "method": "Consider two stipulated situations with identical evidence available to the manager: one contains an excluded relevant request and the other does not. A decision rule based only on that evidence cannot distinguish the situations. A randomized rule using the same evidence likewise supplies no differentiation based on the hidden request.",
+      "result": "The argument correctly distinguishes accidental correction from responsiveness to the particular overlooked reason. Random intervention can change outcomes or serve other purposes, but it does not by itself reveal the need. If it initiates an investigation that obtains new evidence, that investigation adds a route beyond the stipulated case.",
+      "execution_boundary": "A direct conceptual check, conditional on identical available evidence; no probability calculation was executed. Manuscript location: “A power that lacks its occasion,” “She could reject one schedule in ten, but this would not make her rejection responsive to the worker's need.”"
+    },
+    {
+      "claim": "Review of a practice through sampling does not establish an effective appeal for every individual decision.",
+      "method": "Check the difference in target and timing. A monthly sample can exclude a particular request, and its findings can arrive after that worker's schedule takes effect. Evidence adequate for changing future practice therefore need not provide timely grounds for changing that decision.",
+      "result": "The distinction follows. The further claim that a particular sample adequately detects systematic omissions remains conditional; the manuscript supplies no sampling design or detection calculation to verify.",
+      "execution_boundary": "The scope and timing inference was checked directly. No sampling calculation or simulation was executed. Manuscript location: “Why the route matters,” “Nor should it be presented to a worker as an effective appeal against tomorrow's shift.”"
+    }
+  ],
+  "source_dependent_questions": [
+    "In “What the existing accounts already establish,” the manuscript says Santoni de Sio and van den Hoven's tracking condition “already asks how beliefs and actions would change with relevant facts, and allows reliability thresholds suited to the purpose.” Do the cited 2018 “Tracking” and “Tracing” sections support this characterization, including its distinction between system-level control and this particular reviewer's task? The source was not accessed.",
+    "In “What the existing accounts already establish,” Bainbridge is cited for skill loss, limits on monitoring competence, and the need to check added displays or alarms. Do “Ironies of Automation,” §§1.1–2.1, pp. 775–777, support all three attributed points in the stated form? The source was not accessed.",
+    "In “What the existing accounts already establish,” Freiesleben, Meding, and König are cited for distinguishing recourse from challenges to correctness and for the relevance of evidence outside the original features. Do arXiv:2605.16041v1, §§1 and 5.3, support these claims, and does the bibliography accurately identify that version? The source and its metadata were not accessed.",
+    "In “What the existing accounts already establish,” Cohen and Suzor are credited with requiring alternative information and opposing informational monopoly while recognizing reliance on internal records. Does “Contesting the Public Interest in AI Governance,” §3.3, support these attributions, and what qualifications govern their application to an individual reviewer's role? The source was not accessed. This affects the manuscript's positioning relative to that account, rather than the conditional theatre argument itself."
+  ]
+}

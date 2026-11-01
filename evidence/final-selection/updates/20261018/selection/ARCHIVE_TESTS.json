@@ -1,0 +1,45 @@
+{
+  "status": "SYNTHETIC_TESTS_PASSED",
+  "created_at": "2026-10-19T01:19:18.448340+00:00",
+  "command": "python3 -B runs/final-selection-20261018/test_archive_reviews.py",
+  "tests_run": 16,
+  "passed": 16,
+  "failed": 0,
+  "errors": 0,
+  "actual_model_calls": 0,
+  "actual_canonical_archive_calls": 0,
+  "live_session_reads": 0,
+  "coverage": [
+    "Exact native JSON-string token extraction preserves escapes and structural location",
+    "Duplicate keys, unknown content, hidden phase/channel and plaintext mismatch fail closed",
+    "Known annotations, logprobs and passthrough values excluded",
+    "Exact-ID helper synthetic source freeze and immutable replay",
+    "Wrong source-line hash fails before output",
+    "Individual versions and explicit pair order",
+    "Read-only check opens no archive writer",
+    "Full acceptance and deterministic replay through in-memory fake archive",
+    "Changed output hashes and unknown native content rejected before writer"
+  ],
+  "limits": [
+    "All sessions, source records and archive events in tests were synthetic. Canonical archive integration and real native delivery are not claimed.",
+    "Pair metadata/order checked synthetically; the future pair rubric/schema must be separately frozen.",
+    "Standard capture compatibility is delegated to existing capture_codex; fallback capture and mixed receipt checks remain explicit."
+  ],
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/archive_reviews.py",
+      "sha256": "943a2fb597238f8d0240a234c76ced3d8127ce898f662113ce54fc8785c735b6",
+      "bytes": 33363
+    },
+    {
+      "path": "runs/final-selection-20261018/CAPTURE_METHOD.md",
+      "sha256": "fa21d39f9122b8922e009fda1c1d47ac04cb4aa3150129029ba48292cedb22dd",
+      "bytes": 8267
+    },
+    {
+      "path": "runs/final-selection-20261018/test_archive_reviews.py",
+      "sha256": "fb67eba696252294d38d217851b745cfd50c54a6926f449c05623614d1b82cb4",
+      "bytes": 16529
+    }
+  ]
+}

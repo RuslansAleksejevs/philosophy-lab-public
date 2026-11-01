@@ -1,0 +1,343 @@
+{
+  "audit_id": "V06-L",
+  "manuscript_id": "V06",
+  "role": "literature",
+  "manuscript_sha256": "af21989e46757835e64576fa666612652b04c26a6d367740de2c9a910645023e",
+  "read_complete": true,
+  "thesis": "For the family dx/dt = x−x³+y, dy/dt = −ky, k>0, every nonempty persistent coordinate-clamp endpoint map, the specified baseline trajectory, and the qualitative equilibrium catalogues agree. Nevertheless, simultaneous release from (−1/2,1) has opposite stable endpoints for k=0.01 and k=100. Given the additional assumption that this functional family is correct, releasing x first and retaining y=1 for one time unit guarantees the positive endpoint for every k>0; the reverse order retains endpoint disagreement for every fixed finite waiting time.",
+  "claimed_contribution": "The strongest defensible contribution is the combination of an explicit nonidentification construction with a contrasting control guarantee inside the same family. The manuscript distinguishes representing an outcome from identifying it, and identifying one procedure's outcome from finding another procedure that succeeds uniformly. It expressly disclaims priority and does not claim that its control guarantee follows from endpoint evidence alone.",
+  "assessment": "NO_MAJOR_DEFECT_FOUND",
+  "findings": [
+    {
+      "id": "L1",
+      "severity": "minor",
+      "manuscript_location": "Systems and evidence: “Numerical eigenvalues and relaxation rates are not included in this qualitative evidence”; The question and its scope; Bibliography.",
+      "claim": "The literature discussion omits a close predecessor for the mechanism by which equilibrium interventions conceal relative rates.",
+      "analysis": "Bongers, Blom and Mooij compare X = BX − X′ + ΓE with X = BX − ΛX′ + ΓE, where Λ is invertible and diagonal. Their equilibrium models and qualifying intervened equilibria coincide. This closely anticipates the hidden-rate mechanism, although convergence is separately qualified. See [§4.6, Example 4.21 and the following paragraph](https://staff.fnwi.uva.nl/j.m.mooij/articles/1803.08784v4.pdf#page=36). The demonstrated omission concerns literature positioning; it does not establish prior publication of V06's opposite release endpoints.",
+      "status": "demonstrated",
+      "effect_on_conclusion": "The contribution cannot reasonably be framed as discovering that intervention equilibria can conceal dynamical rates. The stronger claim about identical initial-state-sensitive clamp outcomes and different released attractors remains distinct in the inspected literature.",
+      "repair_conditions": "Discuss this predecessor and distinguish equality of equilibrium equations from V06's proved convergence and equality of the entire stipulated endpoint evidence.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "id": "L2",
+      "severity": "minor",
+      "manuscript_location": "An application: choosing the order of withdrawal: “The successful procedure uses no additional measurements to estimate k” and “Identification of an unknown parameter, identification of one procedure’s outcome, and successful choice among procedures are different tasks.”",
+      "claim": "The control application needs comparison with existing results on temporary switching under parameter uncertainty.",
+      "analysis": "Sootla and colleagues already formulate lasting switching by finite pulses and bound switching sets under uncertain parameters; see [§2.1 and Corollary 9](https://orbi.uliege.be/bitstream/2268/191987/1/border_final.pdf#page=6). Sootla and Ernst explicitly seek a pulse succeeding throughout a parameter interval in [§IV, Problem 2](https://arxiv.org/pdf/1708.00232#page=5). Thus successful temporary control without exact parameter identification is established. Neither inspected result supplies V06's exhaustive-evidence equivalence and reverse-order impossibility.",
+      "status": "demonstrated",
+      "effect_on_conclusion": "Any broad novelty interpretation of control despite parameter uncertainty must narrow. The specific withdrawal-order contrast, including the guarantee over all k>0, is not displaced by these comparisons.",
+      "repair_conditions": "Locate the application within robust pulse-control research and specify that the proposed contribution is its connection to the displayed nonidentification example and withdrawal order.",
+      "source_ids": [
+        "S6",
+        "S7"
+      ]
+    },
+    {
+      "id": "L3",
+      "severity": "question",
+      "manuscript_location": "The question and its scope: “the available account of Ryan and Dablander rests on publisher excerpts, not full-text access”; Bibliography, Ryan and Dablander 2025.",
+      "claim": "The Ryan–Dablander attribution remains only partly independently verified.",
+      "analysis": "The authors' publication record confirms the paper's existence, authorship, title, year and journal. Publisher full-text, abstract and PDF requests failed; repository attempts also yielded no readable article. Search excerpts resemble the manuscript's pulse/press description, but I did not treat them as primary-text verification. The manuscript accurately discloses this limitation.",
+      "status": "access_limited",
+      "effect_on_conclusion": "No inaccurate attribution has been demonstrated. The specific §1/Appendix A attribution remains unverified from an opened primary text; the self-contained mathematical conclusions do not depend on it.",
+      "repair_conditions": "Inspect an accessible article copy before removing the qualification, and confirm the relevant section locations and the scope of its intervention definitions.",
+      "source_ids": [
+        "S4",
+        "S4M"
+      ]
+    }
+  ],
+  "surviving_contribution": "The inspected predecessors leave a specific remainder: a smooth two-variable family with identical endpoint maps for every nonempty constant coordinate clamp and every free initial state, identical stated baseline and qualitative stability evidence, but opposite stable endpoints after the same simultaneous release. The same construction then separates that unidentified procedure from a uniformly successful staged withdrawal, while proving that every fixed finite delay in the reverse order preserves disagreement. This is more specific than loss of dynamical information at equilibrium, the holding/releasing distinction, or robust temporary control considered separately. I did not locate this exact combination in the primary passages inspected. That establishes a distinct remainder within this search, not exhaustive originality.",
+  "remaining_questions": [
+    "Does an earlier source establish the same initial-state-sensitive equivalence across all nonempty coordinate clamps together with different released attractors? No such result was located in the opened texts.",
+    "In An application: choosing the order of withdrawal, the guarantee holds “for every k>0.” Whether this particular hybrid clamp procedure follows directly from an existing robust-control theorem, rather than requiring a small extension of its assumptions, was not established."
+  ],
+  "limitations": [
+    "The complete supplied manuscript and bibliography were read. External sources were examined at the locations recorded below; opening a PDF is not represented as reading every page.",
+    "This was a finite public-web search across causal equilibrium models, dynamical identification, pulse control, and temporary network control. It does not establish an exhaustive priority result.",
+    "Ryan and Dablander's article was not readable through the available web routes. Search excerpts were used to locate evidence, not to establish its argument.",
+    "The sequential Boolean-control paper at the CMSB20 URL repeatedly timed out. Its search description was not used to establish substantive overlap.",
+    "This is a literature and citation audit, not an independent numerical or comprehensive formal-proof certification. The manuscript's displayed construction is self-contained and makes no claim that its equations or estimates are quoted from a predecessor."
+  ],
+  "plain_summary_ru": [
+    "Главный результат статьи не опровергнут: одинаковые итоги постоянного удержания могут скрывать разные исходы после снятия поддержки.",
+    "Но в обзоре пропущены близкие работы о скрытых скоростях изменений и временном управлении при неизвестных параметрах.",
+    "Точное сочетание результатов статьи в проверенных источниках не найдено, а полный текст одной цитируемой работы остался недоступен."
+  ],
+  "novelty_status": "DISTINCT_REMAINDER_WITH_LIMITED_SEARCH",
+  "search_log": [
+    {
+      "query": "Four separate searches: \"equilibrium\" \"interventions\" \"transient\" \"identifiability\" dynamical systems; \"steady state\" \"interventions\" \"indistinguishable\" dynamics; \"bistable\" \"control\" \"release\" \"uncertain\" pulse; \"Equilibrium Causal Models\" \"Ryan\" \"Dablander\"",
+      "purpose": "Search independently for equilibrium-identification limitations, temporary control, and the cited Ryan–Dablander paper.",
+      "result_summary": "Located S5 and the Ryan–Dablander publisher and author-page routes. S5 was subsequently opened. Other search hits were not treated as read sources."
+    },
+    {
+      "query": "Four separate searches: bistable systems pulse control uncertain parameters Sootla switching; temporary node control sequential release attractor stable motifs control; rate dependent tipping exponentially decaying forcing bistable cubic system; \"Equilibrium Causal Models\" Ryan Dablander pdf",
+      "purpose": "Search adjacent control and tipping terminology rather than relying on the manuscript's vocabulary.",
+      "result_summary": "Located S6, S7, S8 and a sequential Boolean-control paper. S6–S8 were opened; the sequential paper failed to load. Rate-tipping search results did not supply an inspected primary predecessor."
+    },
+    {
+      "query": "Four separate searches: \"Ryan\" \"Dablander\" \"2522733\" pdf; \"Equilibrium Causal Models\" \"pulse\" \"press\"; \"Equilibrium Causal Models\" site:oisinryan.org; \"Causal Modeling of Dynamical Systems\" Bongers Blom Mooij 2022",
+      "purpose": "Find accessible cited-source text and establish the version identity of the closest hidden-rate predecessor.",
+      "result_summary": "Publisher excerpts suggested relevant Ryan–Dablander sections but did not overcome the access failure. The arXiv record subsequently confirmed that the inspected S5 version is v4, dated 27 March 2022."
+    },
+    {
+      "query": "Four separate searches: \"Equilibrium Causal Models\" filetype:pdf -site:researchgate.net; \"Equilibrium Causal Models\" \"Ryan\" university 2025; \"Shaping pulses to control bistable systems\" pdf; \"intervention equivalence\" \"dynamical\" \"equilibrium\"",
+      "purpose": "Find institutional copies and alternative formulations of the identification issue.",
+      "result_summary": "Located the accessible ORBi copy of S6 and bibliographic routes for Ryan–Dablander. General interventional-equivalence hits did not establish duplication of V06's result."
+    },
+    {
+      "query": "Three separate searches: \"Equilibrium Causal Models\" \"uu.nl\"; \"Equilibrium Causal Models\" \"uva.nl\"; \"Equilibrium Causal Models\" \"pdf\" \"Ryan\" -site:researchgate.net -site:cs.ucla.edu -site:pure.uvt.nl -site:tandfonline.com",
+      "purpose": "Seek a primary institutional copy of the inaccessible cited paper.",
+      "result_summary": "Located a Utrecht repository handle through a search result. Opening that handle failed. Secondary catalogue descriptions were not used as evidence of the paper's argument."
+    },
+    {
+      "query": "Four separate searches: \"Equilibrium Causal Models\" \"467535\"; \"Equilibrium Causal Models\" site:research-portal.uu.nl; \"bistable\" \"exponentially decaying\" pulse switching; \"steady state\" \"interventions\" \"relative\" \"rates\" causal models",
+      "purpose": "Follow the repository lead and search the exponential-input mechanism independently.",
+      "result_summary": "No readable Ryan–Dablander copy was obtained. Exponential-pulse searches returned application-specific leads, but no inspected source establishing V06's full evidence-equivalence claim."
+    },
+    {
+      "query": "Four separate searches: \"equilibrium\" \"causal\" \"time-varying interventions\" Rubenstein; \"steady-state\" \"equivalent\" \"basins\" \"control\"; \"interventions\" \"equilibrium\" \"nonidentifiability\" dynamics; \"clamping\" \"release\" \"bistable\" control",
+      "purpose": "Check time-varying causal abstractions and alternative terminology for the missing-outcome problem.",
+      "result_summary": "Located S9, subsequently opened and examined. Other results were mostly irrelevant or insufficiently close and were not used to support novelty findings."
+    },
+    {
+      "query": "OPEN https://proceedings.mlr.press/v115/blom20a/blom20a.pdf; https://proceedings.mlr.press/v115/blom20a.html; https://proceedings.mlr.press/v115/; https://proceedings.mlr.press/v115/index.html",
+      "purpose": "Verify Blom–Bongers–Mooij's identity, conference/publication dates and formal construction.",
+      "result_summary": "PDF, article record and volume root opened. Examined §§1.1, 2.2 and 3.4, especially Theorem 2 and its proof on PDF page 7. The index.html variant failed, but the volume root confirmed the 2019 conference and 2020 publication."
+    },
+    {
+      "query": "OPEN https://proceedings.mlr.press/r5/dash05a/dash05a.pdf; https://proceedings.mlr.press/r5/dash05a.html",
+      "purpose": "Verify Dash's bibliographic identity and the cited temporal-information claim.",
+      "result_summary": "Both opened. Examined the abstract, introduction and §§5–6, especially PDF page 7. The record identifies the 2005 proceedings article and its later PMLR reissue."
+    },
+    {
+      "query": "OPEN https://link.springer.com/article/10.1007/s10670-021-00463-0; https://link.springer.com/content/pdf/10.1007/s10670-021-00463-0.pdf",
+      "purpose": "Verify Weinberger's publication details and the holding/releasing argument.",
+      "result_summary": "Publisher HTML and PDF opened. Examined metadata, §§3–5 and relevant §6 qualifications, especially printed pages 2480–2482. The pin-removal argument was read directly."
+    },
+    {
+      "query": "OPEN https://doi.org/10.1080/00273171.2025.2522733; https://www.tandfonline.com/doi/full/10.1080/00273171.2025.2522733; https://www.tandfonline.com/doi/abs/10.1080/00273171.2025.2522733; https://www.tandfonline.com/doi/pdf/10.1080/00273171.2025.2522733?needAccess=true",
+      "purpose": "Read the cited Ryan–Dablander article, including §1 and Appendix A.",
+      "result_summary": "DOI/PDF routes were inaccessible; full-text and abstract routes returned 403 errors. Search excerpts were available, but no article text was successfully opened through these routes."
+    },
+    {
+      "query": "OPEN https://fabiandablander.com/menu/papers.html; https://github.com/fdabl/Equilibrium-Causal-Models; https://osf.io/preprints/psyarxiv/q4d9g; https://psyarxiv.com/q4d9g/download; https://dspace.library.uu.nl/handle/1874/467535; https://oisinryan.org/publications.html",
+      "purpose": "Verify Ryan–Dablander metadata and seek an author or institutional copy.",
+      "result_summary": "The author's publication list and public repository README opened. The 2025 publication-list entry links to the same DOI; the repository identifies the associated project but supplied no article copy in the inspected listing. OSF returned 503; the download, Utrecht and other author-page routes failed."
+    },
+    {
+      "query": "OPEN https://pubmed.ncbi.nlm.nih.gov/40904318/; https://pubmed.ncbi.nlm.nih.gov/40904318/?format=pubmed; https://repository.ubn.ru.nl/handle/2066/321945",
+      "purpose": "Attempt additional bibliographic or repository access.",
+      "result_summary": "The base PubMed page returned no usable record body, its formatted variant failed, and the additional repository URL probe failed. None supplied evidence used in the findings."
+    },
+    {
+      "query": "OPEN https://staff.fnwi.uva.nl/j.m.mooij/articles/1803.08784v4.pdf; https://arxiv.org/abs/1803.08784",
+      "purpose": "Compare the closest rate-nonidentification construction and verify the inspected version.",
+      "result_summary": "Both opened. Examined §4.6, Example 4.21, equations (6)–(7), and the following convergence qualification on PDF pages 36–37. Used as S5."
+    },
+    {
+      "query": "OPEN https://gstan.bg-research.cc.ic.ac.uk/Automatica_2016.pdf; https://orbi.uliege.be/bitstream/2268/191987/1/border_final.pdf; https://orbi.uliege.be/handle/2268/191987; https://arxiv.org/pdf/1409.6150",
+      "purpose": "Inspect temporary switching and robustness results in the original authors' work.",
+      "result_summary": "The publisher-format author copy initially opened but later requests timed out. The ORBi preprint and publication record opened successfully; examined §2.1, Theorem 7, Corollary 9 and the associated proof passages. The earlier arXiv paper was opened at its introductory material only and was not used to establish an additional result."
+    },
+    {
+      "query": "OPEN https://arxiv.org/pdf/1708.00232; https://orbi.uliege.be/handle/2268/213386",
+      "purpose": "Check explicit switching guarantees under parameter uncertainty.",
+      "result_summary": "Both opened. Examined assumptions A1–A5, §III.B, Propositions 4–5, §IV Problem 2 and Appendix A passages. The institutional record confirms the 2018 journal publication."
+    },
+    {
+      "query": "OPEN https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004193; https://satoss.uni.lu/members/jun/papers/CMSB20.pdf",
+      "purpose": "Check temporary node-control and sequential-control predecessors.",
+      "result_summary": "The PLOS paper opened; examined bibliographic metadata and the stable-motif blocking, transient-intervention and ODE-validation discussions. The CMSB20 PDF repeatedly timed out and was not counted as read."
+    },
+    {
+      "query": "OPEN https://arxiv.org/pdf/1608.08028; https://arxiv.org/abs/1608.08028",
+      "purpose": "Check causal abstractions whose scope depends on the allowed intervention trajectories.",
+      "result_summary": "Both opened. Examined Definition 2, Theorem 1, Appendix B.1–B.2 and the discussion of initial-condition dependence. The inspected version is v2, dated 9 July 2018."
+    },
+    {
+      "query": "PDF screenshot requests: S5 page index 35; S6 ORBi copy page index 5; S2 page index 6",
+      "purpose": "Attempt visual checks of the main formal-source locations.",
+      "result_summary": "The transport returned page references without inspectable images. Formal-source comparisons therefore rely on the successfully retrieved text, not on claimed visual inspection."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Weinberger, Naftali. 2023 [online 2021]. Intervening and Letting Go: On the Adequacy of Equilibrium Causal Models. Erkenntnis 88:2467–2491.",
+      "url": "https://link.springer.com/article/10.1007/s10670-021-00463-0",
+      "primary_source": true,
+      "access_level": "Publisher full text and PDF accessible; relevant sections inspected.",
+      "locations_read": "Publication metadata; §§3–5; selected §6 qualifications; especially printed pp. 2480–2482.",
+      "relevant_result": "Holding volume fixed and removing its constraint support different causal models; model adequacy must consider both actions."
+    },
+    {
+      "id": "S2",
+      "citation": "Blom, Tineke, Stephan Bongers and Joris M. Mooij. 2020. Beyond Structural Causal Models: Causal Constraints Models. PMLR 115:585–594.",
+      "url": "https://proceedings.mlr.press/v115/blom20a/blom20a.pdf",
+      "primary_source": true,
+      "access_level": "Full PDF and official proceedings metadata accessible; relevant passages inspected.",
+      "locations_read": "§1.1 null intervention; §2.2 initial-state dependence; §3.4 Theorem 2 and proof, PDF p. 7.",
+      "relevant_result": "The construction represents intervention-specific equilibrium outcomes, including the empty target, using initial conditions. It is a representation result, not recovery of one outcome map from the others."
+    },
+    {
+      "id": "S3",
+      "citation": "Dash, Denver. 2005. Restructuring Dynamic Causal Systems in Equilibrium. AISTATS, PMLR R5:81–88.",
+      "url": "https://proceedings.mlr.press/r5/dash05a/dash05a.pdf",
+      "primary_source": true,
+      "access_level": "Full PDF and official proceedings record accessible; relevant passages inspected.",
+      "locations_read": "Abstract; introduction; §§5–6, especially PDF p. 7.",
+      "relevant_result": "Manipulation and equilibration need not commute; conclusions drawn from equilibrium causal models depend on the underlying dynamical structure and observation timescale."
+    },
+    {
+      "id": "S4",
+      "citation": "Ryan, Oisín, and Fabian Dablander. 2025. Equilibrium Causal Models: Connecting Dynamical Systems Modeling and Cross-Sectional Data Analysis. Multivariate Behavioral Research. DOI:10.1080/00273171.2025.2522733.",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00273171.2025.2522733",
+      "primary_source": true,
+      "access_level": "Article inaccessible through attempted web routes; search excerpts only.",
+      "locations_read": "No article section successfully opened. §1 and Appendix A remain unverified from primary full text.",
+      "relevant_result": "No substantive result is treated as established from this inaccessible article."
+    },
+    {
+      "id": "S4M",
+      "citation": "Fabian Dablander, author-maintained publications list, 2025 entry for Ryan and Dablander.",
+      "url": "https://fabiandablander.com/menu/papers.html",
+      "primary_source": true,
+      "access_level": "Author bibliographic record accessible.",
+      "locations_read": "2025 publication entry, retrieved line 38 and linked publisher URL.",
+      "relevant_result": "Confirms the paper's title, coauthorship, year, journal and connection to the cited DOI; does not verify its argument."
+    },
+    {
+      "id": "S5",
+      "citation": "Bongers, Stephan, Tineke Blom and Joris M. Mooij. 2022 version. Causal Modeling of Dynamical Systems. arXiv:1803.08784v4.",
+      "url": "https://staff.fnwi.uva.nl/j.m.mooij/articles/1803.08784v4.pdf",
+      "primary_source": true,
+      "access_level": "Author-hosted full PDF and arXiv version record accessible.",
+      "locations_read": "§4.6, Example 4.21, equations (6)–(7), and following paragraph; PDF pp. 36–37.",
+      "relevant_result": "Diagonal rate freedom can disappear from equilibrium models; actual convergence requires separate consideration."
+    },
+    {
+      "id": "S6",
+      "citation": "Sootla, Aivar, Diego Oyarzún, David Angeli and Guy-Bart Stan. 2016. Shaping pulses to control bistable systems: Analysis, computation and counterexamples. Automatica 63:254–264.",
+      "url": "https://orbi.uliege.be/bitstream/2268/191987/1/border_final.pdf",
+      "primary_source": true,
+      "access_level": "Institutional author preprint accessible; publication identity checked against the ORBi record.",
+      "locations_read": "Introduction; §2.1; Theorem 7 and Corollary 9, preprint pp. 5–6; associated appendix proof passages.",
+      "relevant_result": "Finite-pulse switching sets admit comparison bounds, including guarantees under specified parameter uncertainty."
+    },
+    {
+      "id": "S7",
+      "citation": "Sootla, Aivar, and Damien Ernst. 2018. Pulse-Based Control Using Koopman Operator Under Parametric Uncertainty. IEEE Transactions on Automatic Control 63(3):791–796.",
+      "url": "https://arxiv.org/pdf/1708.00232",
+      "primary_source": true,
+      "access_level": "Full author preprint accessible; journal identity verified through ORBi.",
+      "locations_read": "§III assumptions A1–A5 and §III.B; Propositions 4–5; §IV Problem 2, PDF p. 5; Appendix A passages.",
+      "relevant_result": "Provides parameter-interval control guarantees and an explicit robust switching problem for a genetic toggle switch."
+    },
+    {
+      "id": "S8",
+      "citation": "Zañudo, J. G. T., and R. Albert. 2015. Cell Fate Reprogramming by Control of Intracellular Network Dynamics. PLOS Computational Biology 11(4):e1004193.",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004193",
+      "primary_source": true,
+      "access_level": "Publisher full text accessible; relevant main-text sections inspected. Supplementary proofs not inspected.",
+      "locations_read": "Citation metadata; stable-motif blocking discussion, retrieved lines 221–226; transient-control validation, lines 260–265; ODE translation, lines 293–297.",
+      "relevant_result": "Explicitly distinguishes success during permanent control from success after temporary control ends, using known Boolean-network dynamics."
+    },
+    {
+      "id": "S9",
+      "citation": "Rubenstein, Paul K., Stephan Bongers, Bernhard Schölkopf and Joris M. Mooij. 2018 version. From Deterministic ODEs to Dynamic Structural Causal Models. arXiv:1608.08028v2.",
+      "url": "https://arxiv.org/pdf/1608.08028",
+      "primary_source": true,
+      "access_level": "Full author preprint and version record accessible; selected formal passages inspected.",
+      "locations_read": "Definition 2, PDF p. 5; Theorem 1; Appendix B.1–B.2, PDF pp. 12–13; concluding discussion.",
+      "relevant_result": "An abstraction for constant interventions does not automatically cover periodic interventions. Its dynamic-stability assumption requires asymptotic independence from initial conditions, unlike V06's multistable setting. This is adjacent scope-related work, not the displayed release counterexample."
+    }
+  ],
+  "closest_predecessors": [
+    {
+      "source_id": "S5",
+      "overlap": "Substantive overlap in relative-rate changes concealed by intervened equilibrium equations.",
+      "difference": "The linear construction does not establish V06's multistable endpoint split or equality of all initial-state-sensitive clamp outcome maps.",
+      "remaining_contribution": "V06 turns hidden dynamics into a proved difference between stable release endpoints while matching its stronger evidence specification.",
+      "evidence_location": "[§4.6, Example 4.21 and convergence qualification, PDF pp. 36–37](https://staff.fnwi.uva.nl/j.m.mooij/articles/1803.08784v4.pdf#page=36)."
+    },
+    {
+      "source_id": "S6",
+      "overlap": "Substantive overlap in finite-duration control that produces a lasting switch despite parameter uncertainty.",
+      "difference": "Corollary 9 uses a compact parameter set and bounding-system assumptions; it does not analyze V06's clamp-equivalent family or opposing withdrawal orders.",
+      "remaining_contribution": "The connection between nonidentification and the particular uniform withdrawal guarantee remains.",
+      "evidence_location": "[§2.1, Theorem 7 and Corollary 9, preprint pp. 3, 5–6](https://orbi.uliege.be/bitstream/2268/191987/1/border_final.pdf#page=6)."
+    },
+    {
+      "source_id": "S7",
+      "overlap": "A successful pulse can be selected for every parameter value in a specified interval without identifying the exact parameter.",
+      "difference": "The analysis uses monotonicity and model-derived functions; it does not infer release outcomes from exhaustive constant-clamp endpoints.",
+      "remaining_contribution": "V06's all-k withdrawal-order theorem and its pairing with indistinguishable evidence are not established here.",
+      "evidence_location": "[§III.B and §IV, Problem 2, PDF pp. 3–5](https://arxiv.org/pdf/1708.00232#page=5)."
+    },
+    {
+      "source_id": "S1",
+      "overlap": "Direct conceptual overlap: removing a constraint is an action whose consequences a holding model may not represent.",
+      "difference": "The piston argument compares model adequacy and causal relationships under different constraints; it does not construct two smooth systems agreeing on V06's exhaustive evidence.",
+      "remaining_contribution": "V06 supplies a precise evidence-relative nonidentification result and a separate withdrawal-order guarantee.",
+      "evidence_location": "[§5, especially printed pp. 2480–2482](https://link.springer.com/content/pdf/10.1007/s10670-021-00463-0.pdf#page=14)."
+    },
+    {
+      "source_id": "S2",
+      "overlap": "Direct formal background for initial-condition-sensitive equilibrium outcome maps.",
+      "difference": "Theorem 2 constructs a representation using all intervention targets, including the empty target; it does not identify the omitted map from nonempty-target maps.",
+      "remaining_contribution": "V06 demonstrates this inferential gap in a concrete family. It is compatible with, rather than a counterexample to, the representation theorem.",
+      "evidence_location": "[§3.4, Theorem 2 and proof, PDF p. 7](https://proceedings.mlr.press/v115/blom20a/blom20a.pdf#page=7)."
+    },
+    {
+      "source_id": "S8",
+      "overlap": "Substantive application overlap: an intervention effective while maintained may fail after withdrawal, and temporary control can secure an enduring attractor.",
+      "difference": "The inspected analysis uses specified network dynamics and intervention tests, not two smooth systems indistinguishable under every persistent coordinate clamp.",
+      "remaining_contribution": "V06's evidence-identification claim and exact order-dependent guarantees remain separate.",
+      "evidence_location": "[Stable-motif blocking discussion and transient-intervention validation](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004193), particularly retrieved lines 221–226 and 260–265."
+    }
+  ],
+  "citation_audit": [
+    {
+      "manuscript_reference": "Blom, Bongers and Mooij 2020, §§2.2–3.4; bibliography entry.",
+      "manuscript_location": "The question and its scope: “incorporates equilibrium outcome maps for every intervention target, including the empty target.”",
+      "status": "verified",
+      "evidence": "Theorem 2's proof constructs a constraint for every target subset; §1.1 explicitly identifies the null intervention. The [official record](https://proceedings.mlr.press/v115/blom20a.html) and [volume record](https://proceedings.mlr.press/v115/) confirm authors, title, PMLR 115, publication in 2020 and the 2019 conference. The manuscript correctly separates representation from inference.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "manuscript_reference": "Dash 2005, §6; bibliography entry.",
+      "manuscript_location": "The question and its scope: “manipulation and equilibration supplies a related reason to attend to temporal information.”",
+      "status": "verified",
+      "evidence": "[§6, PDF p. 7](https://proceedings.mlr.press/r5/dash05a/dash05a.pdf#page=7) explicitly connects equilibration/manipulation problems to observation timescale. The [official proceedings record](https://proceedings.mlr.press/r5/dash05a.html) confirms the bibliographic identity. The manuscript does not misattribute its stronger release theorem to Dash.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "manuscript_reference": "Ryan and Dablander 2025, §1 and Appendix A; bibliography entry.",
+      "manuscript_location": "The question and its scope: “distinguish a change at a particular time from a sustained intervention”; explicit excerpt-access qualification.",
+      "status": "partially_verified",
+      "evidence": "The [author's publication entry](https://fabiandablander.com/menu/papers.html) confirms the bibliographic identity and links to the cited DOI. The substantive definition and precise section attribution could not be checked in an opened article. Publisher search excerpts are consistent with the description but are insufficient for verification under this audit's standard.",
+      "source_ids": [
+        "S4",
+        "S4M"
+      ]
+    },
+    {
+      "manuscript_reference": "Weinberger 2023 [online 2021], §5; bibliography entry.",
+      "manuscript_location": "The question and its scope: “removing a constraint as an action against which a model’s adequacy can be assessed.”",
+      "status": "verified",
+      "evidence": "[§5](https://link.springer.com/content/pdf/10.1007/s10670-021-00463-0.pdf#page=14) directly discusses inserting and removing the piston pin and the corresponding adequacy issue. Publisher metadata confirms the title, author, online date of 11 October 2021, and 2023 volume 88, pages 2467–2491. The manuscript's attribution is appropriately narrow.",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,935 @@
+{
+  "entity": "pilots/claude-pilot1-20260912",
+  "entries": [
+    {
+      "actor": "UNKNOWN",
+      "artifacts": [
+        {
+          "path": "research/pilots/claude-pilot1-20260912/HISTORY.md",
+          "role": "legacy_evidence",
+          "sha256": "64e2be43cf8c3768cedd646e1709bd19411fa34b402f11c36b48a1eedefb3f84"
+        },
+        {
+          "path": "research/pilots/claude-pilot1-20260912/author-prompt.md",
+          "role": "legacy_evidence",
+          "sha256": "1fdcc5c69063f99a35a997dd116592689f4865efc29b0a5479b021eae3c1845d"
+        }
+      ],
+      "configuration": {
+        "observed": "UNKNOWN",
+        "requested": "UNKNOWN"
+      },
+      "entity": "pilots/claude-pilot1-20260912",
+      "event_id": "event-3686eb7651a648a5aead52f2cdeffb96",
+      "evidence": [
+        "event-09aeb53001e2495ea0997f99d6034b3f",
+        "event-9f094aa5c50040f19f4a94d244cdee51"
+      ],
+      "gaps": [
+        "Historical causal links/model settings not reconstructed automatically; inspect linked original evidence.",
+        "No recorded tournament does not prove no historical selection occurred."
+      ],
+      "id": "legacy:pilots/claude-pilot1-20260912:fd07c4f84ce875b6f49b",
+      "kind": "legacy_inventory",
+      "occurred_at": "UNKNOWN",
+      "parents": [],
+      "recorded_at": "2026-09-21T21:32:39.726403+00:00",
+      "summary": "Historical materials: exact bytes, existing receipts, and links. A recorded history does not replace independent confirmation.",
+      "workflow": "UNKNOWN"
+    },
+    {
+      "actor": "UNKNOWN",
+      "artifacts": [
+        {
+          "path": "research/pilots/claude-pilot1-20260912/HISTORY.md",
+          "role": "legacy_evidence",
+          "sha256": "64e2be43cf8c3768cedd646e1709bd19411fa34b402f11c36b48a1eedefb3f84"
+        },
+        {
+          "path": "research/pilots/claude-pilot1-20260912/author-prompt.md",
+          "role": "legacy_evidence",
+          "sha256": "1fdcc5c69063f99a35a997dd116592689f4865efc29b0a5479b021eae3c1845d"
+        }
+      ],
+      "configuration": {
+        "observed": "UNKNOWN",
+        "requested": "UNKNOWN"
+      },
+      "entity": "pilots/claude-pilot1-20260912",
+      "event_id": "event-e616110ea9d6469eb18dc616ebc34fe3",
+      "evidence": [
+        "event-09aeb53001e2495ea0997f99d6034b3f",
+        "event-9f094aa5c50040f19f4a94d244cdee51"
+      ],
+      "gaps": [
+        "Historical causal links/model settings not reconstructed automatically; inspect linked original evidence.",
+        "No recorded tournament does not prove no historical selection occurred."
+      ],
+      "id": "legacy:pilots/claude-pilot1-20260912:08b1fe688fab4ab38234",
+      "kind": "legacy_inventory",
+      "occurred_at": "UNKNOWN",
+      "parents": [
+        "legacy:pilots/claude-pilot1-20260912:fd07c4f84ce875b6f49b"
+      ],
+      "recorded_at": "2026-09-21T21:38:30.184802+00:00",
+      "summary": "Historical materials: exact bytes, existing receipts, and links. A recorded history does not replace independent confirmation.",
+      "workflow": "UNKNOWN"
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0d281-ce48-72a3-8f42-b3a849471fd1"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/campaign.json",
+          "role": "input",
+          "sha256": "649f4d66c1d9a8f6142ab346a6d2631abfcac64e8cbe70d5fd656bcce0a2cff8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/rules.txt",
+          "role": "input",
+          "sha256": "5e4d8819b15a4e770dda9790b4cfb8edcc745059c6934245f184ad35d8c3e3bb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/faq.txt",
+          "role": "input",
+          "sha256": "a6727c4e2ab076117aa6f72f0871de6f83a02715620f762367483759b2b1cc7c"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-158.json",
+          "role": "input",
+          "sha256": "d5d221de67c6560bad85e4f40c0920367b9ed38ecd0bf1d8f70440d0320f71a5"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-170.json",
+          "role": "input",
+          "sha256": "1dacca2a95eba5bcb356f428ac709ed0a307859cb037647b08541dcb813c282d"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-182.json",
+          "role": "input",
+          "sha256": "9d5c938841045ce60eec1202ee54ca8edddba7ca09d3edabec95111ff22186a9"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/TASK.md",
+          "role": "input",
+          "sha256": "dc33b966e40d969378608a01cd7b135428b1b7909827b25d4ccae0fb42db07d1"
+        },
+        {
+          "path": "runs/hundred-20260925-pilot-audit/report.json",
+          "role": "input",
+          "sha256": "4c259319e29715f93422b52f5d54a012f26fcd5c00a5a91867177de705745742"
+        },
+        {
+          "path": "runs/hundred-20260925-pilot-audit/revision-005-to-final-001.diff",
+          "role": "input",
+          "sha256": "5c2ebbba01ca7a72804b1f21478248597945cf80c75b58f729d856b38c8600fe"
+        },
+        {
+          "path": "research/bridge/returns/claude-pilot1-20260913-revision-v2/0159d79c0d28f4a677773f1d2312c2de577d34c0f7afe0893f9be9d45728ac86/artifacts/final-001.md",
+          "role": "input",
+          "sha256": "b2fce57aa6836a3db4d4f435cd2b6dc6e89d40cbfa63dc00f79eb54d3a771ad0"
+        },
+        {
+          "path": "research/bridge/returns/claude-pilot1-20260913-revision-v2/0159d79c0d28f4a677773f1d2312c2de577d34c0f7afe0893f9be9d45728ac86/artifacts/source-manifest-002.json",
+          "role": "input",
+          "sha256": "37dc690ee44721277917a65763f05ccadc145d1bb39db081ea0463441c76df41"
+        },
+        {
+          "path": "research/bridge/returns/claude-pilot1-20260913-revision-v2/0159d79c0d28f4a677773f1d2312c2de577d34c0f7afe0893f9be9d45728ac86/artifacts/sources-002.md",
+          "role": "input",
+          "sha256": "bdde96eda6b9499b4a0ab9e41bdf5a7cf4dc9cfb47513c6f3656c5cd5433f373"
+        },
+        {
+          "path": "research/bridge/returns/claude-pilot1-20260913-revision-v2/0159d79c0d28f4a677773f1d2312c2de577d34c0f7afe0893f9be9d45728ac86/artifacts/report.md",
+          "role": "input",
+          "sha256": "8065d70f1bc240d4d5b9c2f8cdb93e78f040d7bf8a1349476338758e00e76c49"
+        },
+        {
+          "path": "research/bridge/returns/claude-pilot1-20260913-revision-v2/0159d79c0d28f4a677773f1d2312c2de577d34c0f7afe0893f9be9d45728ac86/artifacts/history-002.md",
+          "role": "input",
+          "sha256": "2d6efe08d8d1130127d87460a597aef14fdea33d40b167f59d4773679ab2255f"
+        },
+        {
+          "path": "runs/claude-pilot1-20260912/revision-v2-import/acceptance-receipt.json",
+          "role": "input",
+          "sha256": "5ed36766046150fc826110dfae376c6bcb7ddd21b4e6d4203d164ba79fc0671b"
+        },
+        {
+          "path": "research/biographies/pilots/claude-pilot1-20260912/biography.json",
+          "role": "input",
+          "sha256": "208b38ebc6f106f1a184f53a0b21a49dc9141191a23f36854881a1742cd57c82"
+        },
+        {
+          "path": "scripts/manuscript_count.py",
+          "role": "input",
+          "sha256": "3cfbafbb57c355d73ca4f51d0c6bbe46bbe80e4a0921712b46d65e2c743ce961"
+        },
+        {
+          "path": "scripts/claude_runner_support.py",
+          "role": "input",
+          "sha256": "1d83484d0151d46d66ffd8881eaf4e65a5f5d3d87550a619f0b3ed42cea5e92c"
+        }
+      ],
+      "configuration": {
+        "observed": "UNKNOWN",
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "pilots/claude-pilot1-20260912",
+      "event_id": "event-d5193a943364497c9793c578a0a92dc9",
+      "evidence": [
+        "event-33800559da444f5eb726d8326774727c",
+        "event-08c2275dec214e4db62dabb0ad6b5c30",
+        "collector-894898a2fbffead72bc3ccbfba740f74",
+        "event-7f76fd37aaec4453a459593e1962a106",
+        "event-5c27e33cd19a488085a3ffa67bbfd382",
+        "event-fb83d991a5ba43d399368a26d96f72c7",
+        "collector-66d8a49dae262e010573517d0f99eb45",
+        "event-7f8be21a249342d9860f102521c46bbc",
+        "event-09aeb53001e2495ea0997f99d6034b3f",
+        "event-9f094aa5c50040f19f4a94d244cdee51",
+        "event-58cdebe37f6a42ab9c4179b36056d3eb",
+        "event-92bb9371c3fa4069a0d1e353a2df9313"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred-origin:406bc81b5b9d711f5b10993af13f61f7",
+      "kind": "origin",
+      "occurred_at": "UNKNOWN",
+      "parents": [
+        "legacy:pilots/claude-pilot1-20260912:fd07c4f84ce875b6f49b",
+        "legacy:pilots/claude-pilot1-20260912:08b1fe688fab4ab38234"
+      ],
+      "recorded_at": "2026-09-26T01:26:28.563545+00:00",
+      "summary": "Exact authorized neutral workflow inputs",
+      "workflow": {
+        "protocol": "hundred-artifacts.v1",
+        "run_id": "hundred-20260925-pilot-close"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0d281-ce48-72a3-8f42-b3a849471fd1"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/hundred-20260925/AGENTS.md",
+          "role": "input",
+          "sha256": "59a762668f7eda439323cdf70823810e7853bd3768f58722c686ac2801b14969"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "cd41718254c0ba005c4d592ab64c7df776e9eaacc09a144b639cffb6af9a291b"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/OPERATIONS.md",
+          "role": "input",
+          "sha256": "5bf714438e10dab12655745af9ff11091cd262217790e487be725990b4a190d7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/campaign.json",
+          "role": "input",
+          "sha256": "649f4d66c1d9a8f6142ab346a6d2631abfcac64e8cbe70d5fd656bcce0a2cff8"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/rules.txt",
+          "role": "input",
+          "sha256": "5e4d8819b15a4e770dda9790b4cfb8edcc745059c6934245f184ad35d8c3e3bb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/faq.txt",
+          "role": "input",
+          "sha256": "a6727c4e2ab076117aa6f72f0871de6f83a02715620f762367483759b2b1cc7c"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-158.json",
+          "role": "input",
+          "sha256": "d5d221de67c6560bad85e4f40c0920367b9ed38ecd0bf1d8f70440d0320f71a5"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-170.json",
+          "role": "input",
+          "sha256": "1dacca2a95eba5bcb356f428ac709ed0a307859cb037647b08541dcb813c282d"
+        },
+        {
+          "path": "runs/hundred-20260925/authorization-line-182.json",
+          "role": "input",
+          "sha256": "9d5c938841045ce60eec1202ee54ca8edddba7ca09d3edabec95111ff22186a9"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/TASK.md",
+          "role": "input",
+          "sha256": "dc33b966e40d969378608a01cd7b135428b1b7909827b25d4ccae0fb42db07d1"
+        },
+        {
+          "path": "runs/hundred-20260925-pilot-audit/report.json",
+          "role": "input",
+          "sha256": "4c259319e29715f93422b52f5d54a012f26fcd5c00a5a91867177de705745742"
+        },
+        {
+          "path": "runs/hundred-20260925-pilot-audit/revision-005-to-final-001.diff",
+          "role": "input",
+          "sha256": "5c2ebbba01ca7a72804b1f21478248597945cf80c75b58f729d856b38c8600fe"
+        },
+        {
+          "path": "research/bridge/returns/claude-pilot1-20260913-revision-v2/0159d79c0d28f4a677773f1d2312c2de577d34c0f7afe0893f9be9d45728ac86/artifacts/final-001.md",
+          "role": "input",
+          "sha256": "b2fce57aa6836a3db4d4f435cd2b6dc6e89d40cbfa63dc00f79eb54d3a771ad0"
+        },
+        {
+          "path": "research/bridge/returns/claude-pilot1-20260913-revision-v2/0159d79c0d28f4a677773f1d2312c2de577d34c0f7afe0893f9be9d45728ac86/artifacts/source-manifest-002.json",
+          "role": "input",
+          "sha256": "37dc690ee44721277917a65763f05ccadc145d1bb39db081ea0463441c76df41"
+        },
+        {
+          "path": "research/bridge/returns/claude-pilot1-20260913-revision-v2/0159d79c0d28f4a677773f1d2312c2de577d34c0f7afe0893f9be9d45728ac86/artifacts/sources-002.md",
+          "role": "input",
+          "sha256": "bdde96eda6b9499b4a0ab9e41bdf5a7cf4dc9cfb47513c6f3656c5cd5433f373"
+        },
+        {
+          "path": "research/bridge/returns/claude-pilot1-20260913-revision-v2/0159d79c0d28f4a677773f1d2312c2de577d34c0f7afe0893f9be9d45728ac86/artifacts/report.md",
+          "role": "input",
+          "sha256": "8065d70f1bc240d4d5b9c2f8cdb93e78f040d7bf8a1349476338758e00e76c49"
+        },
+        {
+          "path": "research/bridge/returns/claude-pilot1-20260913-revision-v2/0159d79c0d28f4a677773f1d2312c2de577d34c0f7afe0893f9be9d45728ac86/artifacts/history-002.md",
+          "role": "input",
+          "sha256": "2d6efe08d8d1130127d87460a597aef14fdea33d40b167f59d4773679ab2255f"
+        },
+        {
+          "path": "runs/claude-pilot1-20260912/revision-v2-import/acceptance-receipt.json",
+          "role": "input",
+          "sha256": "5ed36766046150fc826110dfae376c6bcb7ddd21b4e6d4203d164ba79fc0671b"
+        },
+        {
+          "path": "research/biographies/pilots/claude-pilot1-20260912/biography.json",
+          "role": "input",
+          "sha256": "208b38ebc6f106f1a184f53a0b21a49dc9141191a23f36854881a1742cd57c82"
+        },
+        {
+          "path": "scripts/manuscript_count.py",
+          "role": "input",
+          "sha256": "3cfbafbb57c355d73ca4f51d0c6bbe46bbe80e4a0921712b46d65e2c743ce961"
+        },
+        {
+          "path": "scripts/claude_runner_support.py",
+          "role": "input",
+          "sha256": "1d83484d0151d46d66ffd8881eaf4e65a5f5d3d87550a619f0b3ed42cea5e92c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/origin-inventory.json",
+          "role": "output",
+          "sha256": "b3686d4a51202684a75f6f6e5061315544b9659d4fe167fbb4ccfab3894d7495"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/inherited/final-001.md",
+          "role": "output",
+          "sha256": "b2fce57aa6836a3db4d4f435cd2b6dc6e89d40cbfa63dc00f79eb54d3a771ad0"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/inherited/source-manifest-002.json",
+          "role": "output",
+          "sha256": "37dc690ee44721277917a65763f05ccadc145d1bb39db081ea0463441c76df41"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/inherited/sources-002.md",
+          "role": "output",
+          "sha256": "bdde96eda6b9499b4a0ab9e41bdf5a7cf4dc9cfb47513c6f3656c5cd5433f373"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/inherited/report.md",
+          "role": "output",
+          "sha256": "8065d70f1bc240d4d5b9c2f8cdb93e78f040d7bf8a1349476338758e00e76c49"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/inherited/history-002.md",
+          "role": "output",
+          "sha256": "2d6efe08d8d1130127d87460a597aef14fdea33d40b167f59d4773679ab2255f"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-8461800d57514a8d9d3c281d4768ad5d",
+              "source": "native-turn-context-observation",
+              "source_line": 634,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "ultra"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "pilots/claude-pilot1-20260912",
+      "event_id": "event-3a66f82c5adb4b24bf78d893ef85911b",
+      "evidence": [
+        "event-9178bd5ccb7140d8a4806110645e0d3d",
+        "event-d07162dc3edf4c80ac07338412946074",
+        "event-8461800d57514a8d9d3c281d4768ad5d"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:a4c89c363225163e4f3713609f3795076fb4d068",
+      "kind": "origin",
+      "occurred_at": "2026-09-26T01:27:40.666Z",
+      "parents": [
+        "hundred-origin:406bc81b5b9d711f5b10993af13f61f7"
+      ],
+      "recorded_at": "2026-09-26T01:28:07.967090+00:00",
+      "summary": "Exact inventory and imported candidate projection of the historical Claude-selected final; current Codex actor is the importer, not its original author.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "other",
+        "protocol": "hundred-artifacts.v1",
+        "run_id": "hundred-20260925-pilot-close",
+        "stage": "legacy-origin-001"
+      }
+    },
+    {
+      "actor": {
+        "attribution_source": "event-58cdebe37f6a42ab9c4179b36056d3eb",
+        "historical_actor": {
+          "id": "06d0cf82-8760-489a-a4ee-9659b59c3905",
+          "role": "AI"
+        },
+        "provider": "Claude",
+        "session_id": "06d0cf82-8760-489a-a4ee-9659b59c3905"
+      },
+      "artifacts": [
+        {
+          "path": "research/bridge/returns/claude-pilot1-20260913-revision-v2/0159d79c0d28f4a677773f1d2312c2de577d34c0f7afe0893f9be9d45728ac86/artifacts/final-001.md",
+          "role": "historical_selected_final_requires_length_correction",
+          "sha256": "b2fce57aa6836a3db4d4f435cd2b6dc6e89d40cbfa63dc00f79eb54d3a771ad0"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "reason": "not supplied by capture source",
+          "status": "unknown"
+        },
+        "requested": "UNKNOWN"
+      },
+      "entity": "pilots/claude-pilot1-20260912",
+      "event_id": "event-b608a2ce59e34886b1435aa8e522b1fc",
+      "evidence": [
+        "event-58cdebe37f6a42ab9c4179b36056d3eb",
+        "event-92bb9371c3fa4069a0d1e353a2df9313",
+        "event-8671941f1fd44852922e687c7ddf53da"
+      ],
+      "gaps": [
+        "Old legacy inventories bound histories but not the final artifact; this appended reconstruction adds exact source-event/hash evidence.",
+        "Original writing start is unknown. Model observation is copied exactly, not inferred from present Codex configuration.",
+        "Historical selection was not length acceptance."
+      ],
+      "id": "reconstructed:pilots/claude-pilot1-20260912:claude-selected-final-001",
+      "kind": "final",
+      "occurred_at": "UNKNOWN",
+      "parents": [
+        "legacy:pilots/claude-pilot1-20260912:08b1fe688fab4ab38234"
+      ],
+      "recorded_at": "2026-09-26T01:32:42.626636+00:00",
+      "summary": "Reconstructed exact historical Claude-selected final from its original canonical stage; no new manuscript creation or acceptance.",
+      "workflow": {
+        "original_run_id": "claude-pilot1-20260912",
+        "original_stage_event": "event-58cdebe37f6a42ab9c4179b36056d3eb",
+        "recorded_now_by": "01a0d281-ce48-72a3-8f42-b3a849471fd1",
+        "type": "historical_provenance_reconstruction"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0d281-ce48-72a3-8f42-b3a849471fd1"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-9178bd5ccb7140d8a4806110645e0d3d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/inherited/final-001.md",
+          "role": "input",
+          "sha256": "b2fce57aa6836a3db4d4f435cd2b6dc6e89d40cbfa63dc00f79eb54d3a771ad0"
+        },
+        {
+          "from_event_id": "event-9178bd5ccb7140d8a4806110645e0d3d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/inherited/source-manifest-002.json",
+          "role": "input",
+          "sha256": "37dc690ee44721277917a65763f05ccadc145d1bb39db081ea0463441c76df41"
+        },
+        {
+          "from_event_id": "event-9178bd5ccb7140d8a4806110645e0d3d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/inherited/sources-002.md",
+          "role": "input",
+          "sha256": "bdde96eda6b9499b4a0ab9e41bdf5a7cf4dc9cfb47513c6f3656c5cd5433f373"
+        },
+        {
+          "from_event_id": "event-9178bd5ccb7140d8a4806110645e0d3d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/inherited/report.md",
+          "role": "input",
+          "sha256": "8065d70f1bc240d4d5b9c2f8cdb93e78f040d7bf8a1349476338758e00e76c49"
+        },
+        {
+          "from_event_id": "event-9178bd5ccb7140d8a4806110645e0d3d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/inherited/history-002.md",
+          "role": "input",
+          "sha256": "2d6efe08d8d1130127d87460a597aef14fdea33d40b167f59d4773679ab2255f"
+        },
+        {
+          "from_event_id": "event-9178bd5ccb7140d8a4806110645e0d3d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/origin-inventory.json",
+          "role": "input",
+          "sha256": "b3686d4a51202684a75f6f6e5061315544b9659d4fe167fbb4ccfab3894d7495"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/TASK.md",
+          "role": "input",
+          "sha256": "dc33b966e40d969378608a01cd7b135428b1b7909827b25d4ccae0fb42db07d1"
+        },
+        {
+          "path": "runs/hundred-20260925-pilot-audit/report.json",
+          "role": "input",
+          "sha256": "4c259319e29715f93422b52f5d54a012f26fcd5c00a5a91867177de705745742"
+        },
+        {
+          "path": "scripts/manuscript_count.py",
+          "role": "input",
+          "sha256": "3cfbafbb57c355d73ca4f51d0c6bbe46bbe80e4a0921712b46d65e2c743ce961"
+        },
+        {
+          "path": "scripts/claude_runner_support.py",
+          "role": "input",
+          "sha256": "1d83484d0151d46d66ffd8881eaf4e65a5f5d3d87550a619f0b3ed42cea5e92c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/length-edit-report-001.md",
+          "role": "output",
+          "sha256": "beae1b125486f22b6a5e9fe5a1b57b6c5e1042436903e55271385599826bcce4"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/cuts-001.json",
+          "role": "output",
+          "sha256": "b8ab90faa1bf02821dd28343a3b23343e94e776f1a42e4f403c11b51e4648651"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/old-to-draft-001.diff",
+          "role": "output",
+          "sha256": "cd0cf594c04a6f2ac34d38652fd2bf5c45c75da1d5e9acfd24b04ae7586a9360"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/word-count-draft-001.json",
+          "role": "output",
+          "sha256": "e025579e5eaa20ddf43452b70e5c353e3cb177c34fc2193cac0da42cf090d71f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/historical-final.lineage.json",
+          "role": "output",
+          "sha256": "058081cc3049943a6e068e9677306a6ac6579130dafdd0075cb9c53da2c76900"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/historical-final.lineage.receipt.json",
+          "role": "output",
+          "sha256": "ad63d0104c892c4da1d738a41a36a2f22c3625df41a474bc3d3e6929707d9c4d"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/candidate-import.json",
+          "role": "output",
+          "sha256": "7069c194bb5a7ba69817d3ec15065d993b6e5d775a80591f11b784f78f74780e"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/candidate-import.receipt.json",
+          "role": "output",
+          "sha256": "07594b900d99ddac52d19d3239baa4ceb613f8da680780e910ad93807e8a1880"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/draft-001.md",
+          "role": "output",
+          "sha256": "1adf9d7adfbef8db4a69b2cd69c11ecd22ff20bb401a54888e72faf65a4d8302"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "collector-d350fd4f8e5054001cf3945780ed17cc",
+              "source": "native-turn-context-observation",
+              "source_line": 634,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "ultra"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "pilots/claude-pilot1-20260912",
+      "event_id": "event-887683cffe28422fa380951fcc4a846b",
+      "evidence": [
+        "event-fc73e1d017fe4c0d8eb1020c3aa4110d",
+        "event-7226026c43c6446280f48eff3573ccec",
+        "collector-d350fd4f8e5054001cf3945780ed17cc"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:6e9b32702e1c51ca9201feaae219e1eac6ba396c",
+      "kind": "revision",
+      "occurred_at": "2026-09-26T01:33:41.077Z",
+      "parents": [
+        "hundred:a4c89c363225163e4f3713609f3795076fb4d068"
+      ],
+      "recorded_at": "2026-09-26T01:36:25.632800+00:00",
+      "summary": "Pre-review Codex length-correction draft of the imported historical Claude final; preserve the argument and expose every cut for a fresh reviewer.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "draft",
+        "protocol": "hundred-artifacts.v1",
+        "run_id": "hundred-20260925-pilot-close",
+        "stage": "length-draft-001"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0db62-98c6-76f1-a496-e3b2fd43c6d9"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-9178bd5ccb7140d8a4806110645e0d3d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/inherited/final-001.md",
+          "role": "input",
+          "sha256": "b2fce57aa6836a3db4d4f435cd2b6dc6e89d40cbfa63dc00f79eb54d3a771ad0"
+        },
+        {
+          "from_event_id": "event-fc73e1d017fe4c0d8eb1020c3aa4110d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/draft-001.md",
+          "role": "input",
+          "sha256": "1adf9d7adfbef8db4a69b2cd69c11ecd22ff20bb401a54888e72faf65a4d8302"
+        },
+        {
+          "from_event_id": "event-fc73e1d017fe4c0d8eb1020c3aa4110d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/old-to-draft-001.diff",
+          "role": "input",
+          "sha256": "cd0cf594c04a6f2ac34d38652fd2bf5c45c75da1d5e9acfd24b04ae7586a9360"
+        },
+        {
+          "from_event_id": "event-fc73e1d017fe4c0d8eb1020c3aa4110d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/word-count-draft-001.json",
+          "role": "input",
+          "sha256": "e025579e5eaa20ddf43452b70e5c353e3cb177c34fc2193cac0da42cf090d71f"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/CRITIC_TASK.md",
+          "role": "input",
+          "sha256": "79f854512604a3cdb1c48af8ad5da57bd095c88c99c27094db0a0ac261c3efed"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "074178e2e176930ed2b30e168a62d51989297f09b93823005459d82690bd8d51"
+        },
+        {
+          "path": "scripts/manuscript_count.py",
+          "role": "input",
+          "sha256": "3cfbafbb57c355d73ca4f51d0c6bbe46bbe80e4a0921712b46d65e2c743ce961"
+        },
+        {
+          "path": "scripts/claude_runner_support.py",
+          "role": "input",
+          "sha256": "1d83484d0151d46d66ffd8881eaf4e65a5f5d3d87550a619f0b3ed42cea5e92c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/critique-001.md",
+          "role": "output",
+          "sha256": "dc6ec1d8f4b153cb4ec296d4e1c69e63d4f828b5ba15cc3881224108062a2f27"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/critic-checks-001.json",
+          "role": "output",
+          "sha256": "c2f9fa514d02b1d2e6b7ce471e9c8aa962377311ab839ff74760d181d628d940"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/critic-mechanical-001.json",
+          "role": "output",
+          "sha256": "69533d32826009a22e856451a132e1c802964250865d39b7b8b253b9f557d277"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/critic-history-001-ru.md",
+          "role": "output",
+          "sha256": "10d6448139150f8dd6dc520535516ae572fac8255245a34093b75d80b1996901"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-0621036944124c338cda64bb76a8ce1a",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "ultra"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "pilots/claude-pilot1-20260912",
+      "event_id": "event-2ee9e32453fc49878898dc2fe1ecc36e",
+      "evidence": [
+        "event-13c2e9f339954bff9b8ca1d782913450",
+        "event-9a6d55f3823345e483aff13b5cdd58b8",
+        "event-0621036944124c338cda64bb76a8ce1a"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:bdf9fe461d4be933a448223b5cb8aeaf4b608383",
+      "kind": "critique",
+      "occurred_at": "2026-09-26T01:50:39.597Z",
+      "parents": [
+        "hundred:a4c89c363225163e4f3713609f3795076fb4d068",
+        "hundred:6e9b32702e1c51ca9201feaae219e1eac6ba396c"
+      ],
+      "recorded_at": "2026-09-26T01:51:08.272603+00:00",
+      "summary": "Fresh independent comparison of the historical Claude final and Codex shortening, limited to meaning preservation, exact edits and length.",
+      "workflow": {
+        "independent_context_declared": true,
+        "phase": "critique",
+        "protocol": "hundred-artifacts.v1",
+        "run_id": "hundred-20260925-pilot-close",
+        "stage": "meaning-critic-001"
+      }
+    },
+    {
+      "actor": {
+        "role": "AI",
+        "session_id": "01a0d281-ce48-72a3-8f42-b3a849471fd1"
+      },
+      "artifacts": [
+        {
+          "from_event_id": "event-9178bd5ccb7140d8a4806110645e0d3d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/inherited/final-001.md",
+          "role": "input",
+          "sha256": "b2fce57aa6836a3db4d4f435cd2b6dc6e89d40cbfa63dc00f79eb54d3a771ad0"
+        },
+        {
+          "from_event_id": "event-fc73e1d017fe4c0d8eb1020c3aa4110d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/draft-001.md",
+          "role": "input",
+          "sha256": "1adf9d7adfbef8db4a69b2cd69c11ecd22ff20bb401a54888e72faf65a4d8302"
+        },
+        {
+          "from_event_id": "event-fc73e1d017fe4c0d8eb1020c3aa4110d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/cuts-001.json",
+          "role": "input",
+          "sha256": "b8ab90faa1bf02821dd28343a3b23343e94e776f1a42e4f403c11b51e4648651"
+        },
+        {
+          "from_event_id": "event-fc73e1d017fe4c0d8eb1020c3aa4110d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/old-to-draft-001.diff",
+          "role": "input",
+          "sha256": "cd0cf594c04a6f2ac34d38652fd2bf5c45c75da1d5e9acfd24b04ae7586a9360"
+        },
+        {
+          "from_event_id": "event-fc73e1d017fe4c0d8eb1020c3aa4110d",
+          "path": "research/campaigns/hundred-20260925/pilot-close/length-edit-report-001.md",
+          "role": "input",
+          "sha256": "beae1b125486f22b6a5e9fe5a1b57b6c5e1042436903e55271385599826bcce4"
+        },
+        {
+          "from_event_id": "event-13c2e9f339954bff9b8ca1d782913450",
+          "path": "research/campaigns/hundred-20260925/pilot-close/critique-001.md",
+          "role": "input",
+          "sha256": "dc6ec1d8f4b153cb4ec296d4e1c69e63d4f828b5ba15cc3881224108062a2f27"
+        },
+        {
+          "from_event_id": "event-13c2e9f339954bff9b8ca1d782913450",
+          "path": "research/campaigns/hundred-20260925/pilot-close/critic-checks-001.json",
+          "role": "input",
+          "sha256": "c2f9fa514d02b1d2e6b7ce471e9c8aa962377311ab839ff74760d181d628d940"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/TASK.md",
+          "role": "input",
+          "sha256": "dc33b966e40d969378608a01cd7b135428b1b7909827b25d4ccae0fb42db07d1"
+        },
+        {
+          "path": "scripts/manuscript_count.py",
+          "role": "input",
+          "sha256": "3cfbafbb57c355d73ca4f51d0c6bbe46bbe80e4a0921712b46d65e2c743ce961"
+        },
+        {
+          "path": "scripts/claude_runner_support.py",
+          "role": "input",
+          "sha256": "1d83484d0151d46d66ffd8881eaf4e65a5f5d3d87550a619f0b3ed42cea5e92c"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/final-response.md",
+          "role": "output",
+          "sha256": "6c1fd780ca76aec635179d2d8a0ff1dfb8fcf04e10c4fe3f697a659bf9d38791"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/revision-002.md",
+          "role": "output",
+          "sha256": "6750bde5e11219c3ab36b3a298d2b88d2d0fb6f23abca4a9e304043049abb7f7"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/HISTORY.md",
+          "role": "output",
+          "sha256": "3ae5bc5ad0eef95ecc853cb4be95af9b62e77ed7cb23c03afbfc664b564af957"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/word-count-final.json",
+          "role": "output",
+          "sha256": "a268e2dbb5ed438b9bccf6124dfcbc45be709c0c7897df6a7ac565d7e1729981"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/draft-to-final.diff",
+          "role": "output",
+          "sha256": "ead56428e6b1aa242c973745f4f36081a3d2fda5e68a466d7340be553fb45b8a"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/old-to-final.diff",
+          "role": "output",
+          "sha256": "0d9d2d85c39f04b14ae8b93e8b828c2860108370c434a81f704e0f9d6cce23fb"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/final-restoration-checks.json",
+          "role": "output",
+          "sha256": "da0b438c90b21733ee70e4fe50a80377645bdfded5ccdae57276a46bf1f67f44"
+        },
+        {
+          "path": "research/campaigns/hundred-20260925/pilot-close/final.md",
+          "role": "output",
+          "sha256": "6750bde5e11219c3ab36b3a298d2b88d2d0fb6f23abca4a9e304043049abb7f7"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "collector-c7f63174f8b3e7c3f8c1f6e96067dd49",
+              "source": "native-turn-context-observation",
+              "source_line": 634,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "ultra"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "ultra",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "pilots/claude-pilot1-20260912",
+      "event_id": "event-b89e6a0c54524ca682fd9c5d6cb24936",
+      "evidence": [
+        "event-d291b389772c493790903b1699c7b590",
+        "event-7db6e985846e4e398afc0b9d9f69e807",
+        "collector-c7f63174f8b3e7c3f8c1f6e96067dd49"
+      ],
+      "gaps": [
+        "Exact selected files and one native visible hash attestation only.",
+        "A saved-input declaration does not prove no additional context was read.",
+        "Distinct observed sessions do not prove intellectual independence.",
+        "Native model configuration is not backend attestation; writing start is unknown.",
+        "Hidden reasoning, unreviewed tools and unselected transcript records are excluded."
+      ],
+      "id": "hundred:7d172c31f21c4e13b161272dbabbd22f5f6a44df",
+      "kind": "final",
+      "occurred_at": "2026-09-26T01:56:10.402Z",
+      "parents": [
+        "hundred:a4c89c363225163e4f3713609f3795076fb4d068",
+        "hundred:6e9b32702e1c51ca9201feaae219e1eac6ba396c",
+        "hundred:bdf9fe461d4be933a448223b5cb8aeaf4b608383"
+      ],
+      "recorded_at": "2026-09-26T01:57:00.131377+00:00",
+      "summary": "Restore the exact historical scope qualification requested by the fresh critic, preserve the other twelve local cuts, recount and seal the mixed Claude/Codex pilot final.",
+      "workflow": {
+        "independent_context_declared": false,
+        "phase": "final",
+        "protocol": "hundred-artifacts.v1",
+        "run_id": "hundred-20260925-pilot-close",
+        "stage": "selected-final-001"
+      }
+    }
+  ],
+  "protocol": "essay-lineage.v1",
+  "export": {
+    "language": "en",
+    "kind": "English translation of canonical structured biography; source identifiers, hashes, parents, and fields preserved",
+    "source_path": "research/biographies/pilots/claude-pilot1-20260912/biography.json",
+    "source_sha256": "4529f11f1d2253fd7bb4736881146431c6fc1127822dc095667362c375d7aee2"
+  }
+}

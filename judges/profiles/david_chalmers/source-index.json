@@ -1,0 +1,61 @@
+{
+  "judge_id": "david_chalmers",
+  "created_at": "2026-10-07T10:35:22.230262+00:00",
+  "baseline_reuse": "Reported substantive claims/coverage are inherited, explicitly attributed to B0; no new full-paper claim.",
+  "sources": [
+    {
+      "source_id": "B0",
+      "title": "Inherited profile with exact substantive citations and historical coverage",
+      "url": null,
+      "path": "research/judges/20260912/profiles/david_chalmers-v1.md",
+      "sha256": "f3cf95faa3eb95ee05a2f9ff5c495468d0637285b778d60f198829ba948b7268",
+      "coverage": "full profile read; underlying cited papers not newly read except explicitly logged",
+      "accessed_at": "2026-10-07T10:35:22.230262+00:00",
+      "copy": "baseline-profile-20260912.md"
+    },
+    {
+      "source_id": "T1",
+      "title": "Mind and Consciousness: Five Questions (2009)",
+      "url": "https://consc.net/papers/five.pdf",
+      "path": "research/judges/20261007/david_chalmers/sources/fivequestions-web.json",
+      "sha256": "deed10cbd42edc8737c5133ab9028da5cf9ef32ecb21d081d3bd921f43265c00",
+      "accessed_at": "2026-10-07T10:31:40.744Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "PDF pp. 1–6, especially p. 2 lines 30–40 and pp. 5–6 lines 148–164; later text exposed but not fully close-read"
+    },
+    {
+      "source_id": "identity-web",
+      "title": "Author identity page",
+      "url": "https://consc.net/",
+      "path": "research/judges/20261007/david_chalmers/sources/identity-web.json",
+      "sha256": "8bc79ba6b968494b9852777716fdee48adbbfa910dc173db4a21f540c0b9ef68",
+      "accessed_at": "2026-10-07T10:32:35.427Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "identity and research-interest statements only; bibliography is metadata"
+    },
+    {
+      "source_id": "interview-web",
+      "title": "interview-web",
+      "url": "https://portrait.gov.au/stories/david-chalmers",
+      "path": "research/judges/20261007/david_chalmers/sources/interview-web.json",
+      "sha256": "0048abe4d558796a0edb8c796ebdaea0583ed1a52caefc26b9ccc53752b606a3",
+      "accessed_at": "2026-10-07T10:31:27.264Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "unavailable",
+      "read_locations": "discovery/exposure only; not a basis for full-source reading"
+    },
+    {
+      "source_id": "search1-discovery",
+      "title": "search1-discovery",
+      "url": null,
+      "path": "research/judges/20261007/david_chalmers/sources/search1-discovery.json",
+      "sha256": "fa49409a44214cc7cfb55e0f6ca0073c25137c1b700bb962ca8cc2d2718c3f9d",
+      "accessed_at": "2026-10-07T10:35:22.230262+00:00",
+      "capture_type": "web_tool_search_discovery_not_full_reading",
+      "coverage": "metadata/search discovery",
+      "read_locations": "discovery/exposure only; not a basis for full-source reading"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "status": "REVISIONS_SELECTED_AFTER_CANONICAL_REVIEW_ACCEPTANCE",
+  "essays": [
+    {
+      "essay_id": "E050",
+      "manuscript": {
+        "path": "runs/prose-polish-20261101/results/E050-author/derived/revision.md",
+        "sha256": "ce96988b25cb99d33a1a8963422c0a8d6db455a9d5265b48a11f2f83f349875f",
+        "bytes": 29178
+      },
+      "abstract": {
+        "path": "runs/prose-polish-20261101/results/E050-author/derived/abstract.json",
+        "sha256": "5b250ab61b21a6534e22000638eed6aa35ca64916020aa832489c0361ac21794",
+        "bytes": 1432
+      },
+      "review_account": "The independent checker recommended the rewritten manuscript and required no correction. It verified the convergence calculations, release-order quantifiers, distinction between a common limiting outcome and a common settling deadline, and every main-text reference to the appendix. It found no material loss of content and judged the prose substantially clearer. The proposed abstract and TL;DR were also accepted. Source checks used supplied primary passages where available and otherwise concerned preservation and consistency with the existing access notes; they were not a new full literature audit.",
+      "accepted_for_submission_package": true,
+      "review_events": [
+        "event-3c8afe910dd24a108140422506621bf8"
+      ],
+      "full_review_decision": "READY",
+      "final_editorial_disposition": "Accepted as written after separate full preservation and clarity review.",
+      "review_response": {
+        "bytes": 10976,
+        "path": "runs/prose-polish-20261101/results/E050-critic/attempt-001/response.json",
+        "sha256": "1b68d73ba13c10e3593c9866d595fc398d3e17c260911b0c2b689e5502af7b61"
+      }
+    },
+    {
+      "essay_id": "E012",
+      "manuscript": {
+        "path": "runs/prose-polish-20261101/repair/E012/revision.md",
+        "sha256": "9595173b9bfa3940ff2c1ee6ea832f0b7b6dc1cb44f374f18bc79784fa99c9d9",
+        "bytes": 30629
+      },
+      "abstract": {
+        "path": "runs/prose-polish-20261101/results/E012-author/derived/abstract.json",
+        "sha256": "51fd9c5a0330cc664aab79e4bd8372ce27e2c29a96828a93d0bbd141901d136c",
+        "bytes": 1439
+      },
+      "review_account": "The independent checker found no material loss of content and judged the revised organization and prose substantially clearer. It verified the contrasting cases, reparative scope, distinctions between evidence and procedural force, and the numerical example. The abstract and TL;DR were accepted. It requested one bounded wording correction: a sentence could misleadingly suggest that Mara herself destroyed her opportunity. The AI coordinator made the exact recommended replacement, with all other manuscript bytes unchanged. A further fresh Astra/ultra checker read both complete versions and their exact difference, confirmed that the correction removed the ambiguity, and required no further change. This last check concerned only the changed sentence and preservation of the remaining text; it did not re-audit unchanged arguments or sources. The earlier full review directly checked supplied Gardner, Thompson and Rule 37 passages; other source claims were checked for preservation and consistency with existing access notes, rather than through a new full literature audit.",
+      "accepted_for_submission_package": true,
+      "review_events": [
+        "event-e12ab7efb45a45a7b864aad1aafa161c",
+        "event-fdb377337cf04162b610a1236c0181ba"
+      ],
+      "full_review_decision": "MINOR_FIXES",
+      "final_editorial_disposition": "Accepted after exact recommended wording correction and a fresh scoped check.",
+      "review_response": {
+        "bytes": 11279,
+        "path": "runs/prose-polish-20261101/results/E012-critic/attempt-001/response.json",
+        "sha256": "97c35a0af955c8793d1b0a326c40c3cac3f56b63fdf2b26869d26545baf514f8"
+      }
+    },
+    {
+      "essay_id": "E051",
+      "manuscript": {
+        "path": "runs/prose-polish-20261101/results/E051-author/derived/revision.md",
+        "sha256": "df4786d7491c498a415f5908a24542c1f27f88b146c71ed6b580a9df77325496",
+        "bytes": 22738
+      },
+      "abstract": {
+        "path": "runs/prose-polish-20261101/results/E051-author/derived/abstract.json",
+        "sha256": "cc2b5f21bdd640b8d2b47ee5d5625d6a9581352f0bb28a7f9fda68e408c5adda",
+        "bytes": 1399
+      },
+      "review_account": "The independent checker recommended the rewritten manuscript and required no correction. It verified the finite models and the distinctions between a valid inference and independently warranted evidence, whole phenomenal types and their parts, and deterministic and noisy procedures. It found no material loss of content and judged the prose substantially clearer. The proposed abstract and TL;DR were also accepted. Direct source checking was limited to the supplied Andonovski passages; other citations were checked for preservation and consistency with the existing access notes.",
+      "accepted_for_submission_package": true,
+      "review_events": [
+        "event-b82119f0e89647e8abaee946e2059684"
+      ],
+      "full_review_decision": "READY",
+      "final_editorial_disposition": "Accepted as written after separate full preservation and clarity review.",
+      "review_response": {
+        "bytes": 8826,
+        "path": "runs/prose-polish-20261101/results/E051-critic/attempt-001/response.json",
+        "sha256": "b78e0115c1b4fda3dca838a6902c538e1663b11565fba74e727a6b3bfa7af918"
+      }
+    }
+  ],
+  "additional_parent_events": [
+    "event-fdb377337cf04162b610a1236c0181ba"
+  ],
+  "submitted": false
+}

@@ -1,0 +1,68 @@
+{
+  "review_id": "M04-N2",
+  "manuscript_id": "M04",
+  "profile_id": "neutral",
+  "read_complete": true,
+  "thesis": "Preserving presently justified confidence need not preserve the information needed for foreseeable revision. Avoiding this loss supplies a defeasible epistemic reason for retention. A stronger obligation arises when retention serves a continuing accuracy aim, its advantage is recognized, and it introduces no additional disadvantage, provided the proposed principle against gratuitous loss is accepted.",
+  "contribution": "The remaining contribution is a credible, modest account of responsibility for deliberately compressing completed inquiries. It connects revision-sensitive information preservation with a prospective evaluation of the preservation decision, separating that decision from the rationality of later beliefs. Its useful result is the distinction among permission to believe, stop investigating, and discard information. The manuscript neither discovers the underlying informational phenomenon nor establishes a general retention policy.",
+  "argument_map": [
+    "The symmetric channel example establishes that source identity can leave current confidence unchanged while determining the appropriate response to a later audit. The stated posteriors, including 0.75 after deletion, follow from the stipulated model.",
+    "Present sufficiency therefore does not entail sufficiency for revision. For a fixed model and future observation, exact reproduction requires that a summary never merge compatible records yielding different subsequent posteriors.",
+    "The conditional squared-error identity links this informational distinction to expected accuracy. The numerical errors of 0.05 with retention and 0.07 without retention are correct. The comparison also works conditional on the original record.",
+    "An avoidable expected accuracy loss supplies a truth-directed reason to retain information, without making the later, appropriately updated belief irrational. This evaluative move concerns management of inquiry rather than surviving justification.",
+    "A requirement needs the additional anti-gratuitous-loss principle. The manuscript defends it by removing competing burdens, acknowledges the remaining satisficing objection, and restricts its application to recognized alternatives and continuing aims."
+  ],
+  "strongest_merit": {
+    "location": "§3, paragraphs beginning “There is a general connection” and “A reason, however”; §4, paragraph beginning “The contrast is especially clear”",
+    "reason": "The manuscript carefully separates an informational result, an epistemic reason, and an obligation. Its mathematical comparison establishes a real prospective disadvantage, while the recipient case shows why that disadvantage cannot be diagnosed simply by calling the eventual belief irrational. This gives the formal example a clear philosophical role and avoids deriving an obligation directly from probability theory."
+  },
+  "concerns": [
+    {
+      "severity": "open",
+      "kind": "premise",
+      "location": "§3, paragraphs beginning “Why accept this principle” and “A thoroughgoing satisficer”",
+      "excerpt": "it is not a deduction of its falsity from probability theory",
+      "reason": "The stronger obligation remains dependent on a disputed normative premise. Removing costs establishes that retention better serves the aim, but does not conclusively establish that accepting an adequate, inferior policy is impermissible. A continuing concern for accuracy need not obviously commit its holder to taking every recognized free improvement.",
+      "text_response": "The manuscript explicitly grants that a thoroughgoing satisficer can reject the principle and excludes agents whose only aim is meeting a threshold. Its argument is that gratuitous deterioration protects no competing pursuit.",
+      "discriminating_check": "Consider an agent who continues to value informed accuracy, recognizes the free gain, yet regards both policies as permissible. Explain what makes this position inconsistent or normatively defective beyond its rejection of the proposed principle."
+    },
+    {
+      "severity": "minor",
+      "kind": "scope",
+      "location": "§5, opening two paragraphs; §6, paragraphs beginning “There is no context-free solution” and “Exact equality”",
+      "excerpt": "There is no context-free solution to the choice of relevant future challenges.",
+      "reason": "The criterion becomes actionable after the model and relevant corrections have been specified. In ordinary record management, selecting those corrections and preserving resources for model criticism may be the difficult part. The account consequently offers a diagnostic baseline more readily than guidance for contested preservation choices.",
+      "text_response": "The manuscript acknowledges model revision, positive costs, approximate preservation, and competing standards. It correctly argues that these limitations do not defeat the scheduled-audit example or require a universal decision procedure.",
+      "discriminating_check": "Apply the account to two feasible summaries under a limited storage budget, with both source-reliability corrections and a foreseeable model challenge. Show which preservation choice it supports and identify the additional judgments required."
+    },
+    {
+      "severity": "open",
+      "kind": "significance",
+      "location": "§1, paragraph beginning “A close philosophical antecedent”; §6, final paragraph",
+      "excerpt": "Its contribution is a discriminating application.",
+      "reason": "The prospective evaluative target is useful, but the demonstrated advance over familiar information-value reasoning is limited. The manuscript identifies a tempting current-confidence test without identifying a developed account of responsible preservation that actually relies on it. Thus the application clarifies a problem more decisively than it changes an established philosophical position.",
+      "text_response": "The manuscript expressly acknowledges Frise's closely related example, established signal comparisons, and the familiar value of information. It locates its addition in controllable deletion, prospective responsibility, and the separation of three permissions.",
+      "discriminating_check": "Identify a substantive account or practice that licenses deletion because present confidence survives, then demonstrate a consequential correction supplied by this framework. Alternatively, establish what explanatory work the prospective distinction adds beyond ordinary information-value reasoning."
+    }
+  ],
+  "scores": {
+    "overall": 3,
+    "argument": 4,
+    "significance": 3,
+    "originality": null
+  },
+  "originality_limit": "The manuscript supplies explicit comparisons with antecedents and a clearly stated intended difference in evaluative target. These support assessing its proposed contribution, but the supplied packet cannot establish that this application or normative distinction is historically original.",
+  "recommendation": "borderline",
+  "reason_ru": [
+    "Текст убедительно показывает: сведения, ненужные для сегодняшнего вывода, могут понадобиться для его пересмотра завтра.",
+    "Полезный результат — различие между разумностью убеждения и ответственностью за сохранение нужной информации.",
+    "Рекомендация пограничная: аргумент крепкий, но вклад скромный, а строгая обязанность сохранять сведения обоснована лишь при узких условиях."
+  ],
+  "confidence": "high",
+  "profile_basis": [],
+  "limits": [
+    "The complete manuscript, including all eight bibliography entries, was read.",
+    "External source correctness and exhaustive novelty were not checked.",
+    "The review uses only the supplied packet; cited works were not independently consulted."
+  ]
+}

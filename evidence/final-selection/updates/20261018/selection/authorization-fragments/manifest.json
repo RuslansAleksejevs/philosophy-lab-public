@@ -1,0 +1,65 @@
+{
+  "format": "selection-visible-fragments.v1",
+  "session_id": "01a1496a-7b42-7a11-b00a-11d33df80222",
+  "status": "EXACT_VISIBLE_JSON_STRING_FRAGMENTS",
+  "cwd_binding_verified": true,
+  "records": [
+    {
+      "source_line": 4828,
+      "source_line_sha256": "c0fea6e8c86c1ef7fbf2738be5d2ace7835d9bc87f1335d9cd02212fab720535",
+      "role": "user",
+      "phase": null,
+      "parts": [
+        {
+          "path": "runs/final-selection-20261018/authorization-fragments/line-4828-part-0.json-string.txt",
+          "sha256": "d139b940464e934ab6dc302e3cd6b1acf793596e5a8c2925d30477d0a15d1376",
+          "bytes": 324
+        }
+      ],
+      "decoded_text_sha256": "4c58a6401cdfa77d040b9d67df051c483b208aafa992bcd22f8943dd76e221bd",
+      "expected_text_match": "EXACT",
+      "capture_status": "EXACT_VISIBLE_JSON_STRING_FRAGMENTS"
+    },
+    {
+      "source_line": 4872,
+      "source_line_sha256": "19eaeddaf3ce5715a449144230528a0baab70af804a47443f8beb3bfc9d5605e",
+      "role": "assistant",
+      "phase": "final_answer",
+      "parts": [
+        {
+          "path": "runs/final-selection-20261018/authorization-fragments/line-4872-part-0.json-string.txt",
+          "sha256": "673ff8771c4aeb59c74156292b84b1995d639590df489b729ee24cbd07b92f74",
+          "bytes": 1784
+        }
+      ],
+      "decoded_text_sha256": "930df5368d66a11426f74ca78c595846a56021c16ffd064789b89c0a56df5030",
+      "expected_text_match": "EXACT",
+      "capture_status": "EXACT_VISIBLE_JSON_STRING_FRAGMENTS"
+    },
+    {
+      "source_line": 4882,
+      "source_line_sha256": "7ee2a0ee4e6f8db4f92237491dc6fa9748a227b213bab57e8274baabce8a3772",
+      "role": "user",
+      "phase": null,
+      "parts": [
+        {
+          "path": "runs/final-selection-20261018/authorization-fragments/line-4882-part-0.json-string.txt",
+          "sha256": "3038328232120c9faa3c71b89f1765707458e17a1553e26de88ddc72d3828926",
+          "bytes": 530
+        }
+      ],
+      "decoded_text_sha256": "9931562aa3e9a1f8afd33552acd4fb4214bbcd4ab585805c168dfc6ca3f42e11",
+      "expected_text_match": "EXACT",
+      "capture_status": "EXACT_VISIBLE_JSON_STRING_FRAGMENTS"
+    }
+  ],
+  "full_provider_capture": false,
+  "boundary": "Exact visible content.text JSON-string tokens from the native source, with source-line hashes. Unsupported message envelopes, injected context, hidden reasoning and runtime fields are excluded. This is bounded visible-fragment capture, not standard-adapter BOUNDED_COMPLETE or a full provider trace.",
+  "unselected_partial_tail_bytes": 0,
+  "excluded_fields": [
+    "internal_chat_message_metadata_passthrough",
+    "annotations",
+    "logprobs",
+    "all other native envelope fields"
+  ]
+}

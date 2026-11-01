@@ -1,0 +1,979 @@
+{
+  "status": "PAIR_PACKETS_PREPARED_NOT_ARCHIVED",
+  "prepared_at": "2026-10-19T06:07:58.789541+00:00",
+  "batch_id": "pairs-001",
+  "initial_input_event": "event-3a08660ab4024183b9acf41dc1fb7907",
+  "plan_sha256": "1d96e2d9f71f9b5c45f1833a9c648c666ef3f7d11e9953565b3625f8169f1c6a",
+  "pairs": [
+    {
+      "pair_id": "P01",
+      "candidate_ids": [
+        "F02",
+        "E039"
+      ],
+      "profiles": [
+        "hilary_greaves",
+        "jake_nebel"
+      ],
+      "order_by_role": {
+        "N1": [
+          "E039",
+          "F02"
+        ],
+        "N2": [
+          "F02",
+          "E039"
+        ],
+        "N3": [
+          "E039",
+          "F02"
+        ],
+        "J1": [
+          "F02",
+          "E039"
+        ],
+        "J2": [
+          "E039",
+          "F02"
+        ]
+      }
+    },
+    {
+      "pair_id": "P02",
+      "candidate_ids": [
+        "E009",
+        "E055"
+      ],
+      "profiles": [
+        "daniel_greco",
+        "bernhard_salow"
+      ],
+      "order_by_role": {
+        "N1": [
+          "E055",
+          "E009"
+        ],
+        "N2": [
+          "E009",
+          "E055"
+        ],
+        "N3": [
+          "E055",
+          "E009"
+        ],
+        "J1": [
+          "E009",
+          "E055"
+        ],
+        "J2": [
+          "E055",
+          "E009"
+        ]
+      }
+    },
+    {
+      "pair_id": "P03",
+      "candidate_ids": [
+        "E012",
+        "F01"
+      ],
+      "profiles": [
+        "pamela_robinson",
+        "cian_dorr"
+      ],
+      "order_by_role": {
+        "N1": [
+          "F01",
+          "E012"
+        ],
+        "N2": [
+          "E012",
+          "F01"
+        ],
+        "N3": [
+          "F01",
+          "E012"
+        ],
+        "J1": [
+          "E012",
+          "F01"
+        ],
+        "J2": [
+          "F01",
+          "E012"
+        ]
+      }
+    },
+    {
+      "pair_id": "P04",
+      "candidate_ids": [
+        "E047",
+        "F06"
+      ],
+      "profiles": [
+        "matthew_mandelkern",
+        "david_chalmers"
+      ],
+      "order_by_role": {
+        "N1": [
+          "E047",
+          "F06"
+        ],
+        "N2": [
+          "F06",
+          "E047"
+        ],
+        "N3": [
+          "E047",
+          "F06"
+        ],
+        "J1": [
+          "F06",
+          "E047"
+        ],
+        "J2": [
+          "E047",
+          "F06"
+        ]
+      }
+    },
+    {
+      "pair_id": "P05",
+      "candidate_ids": [
+        "E041",
+        "E100"
+      ],
+      "profiles": [
+        "simon_goldstein",
+        "mario_gunther"
+      ],
+      "order_by_role": {
+        "N1": [
+          "E100",
+          "E041"
+        ],
+        "N2": [
+          "E041",
+          "E100"
+        ],
+        "N3": [
+          "E100",
+          "E041"
+        ],
+        "J1": [
+          "E041",
+          "E100"
+        ],
+        "J2": [
+          "E100",
+          "E041"
+        ]
+      }
+    },
+    {
+      "pair_id": "P06",
+      "candidate_ids": [
+        "E098",
+        "E055"
+      ],
+      "profiles": [
+        "herman_cappelen",
+        "karina_vold"
+      ],
+      "order_by_role": {
+        "N1": [
+          "E055",
+          "E098"
+        ],
+        "N2": [
+          "E098",
+          "E055"
+        ],
+        "N3": [
+          "E055",
+          "E098"
+        ],
+        "J1": [
+          "E098",
+          "E055"
+        ],
+        "J2": [
+          "E055",
+          "E098"
+        ]
+      }
+    },
+    {
+      "pair_id": "P07",
+      "candidate_ids": [
+        "S02",
+        "F06"
+      ],
+      "profiles": [
+        "jens_jaeger",
+        "branden_fitelson"
+      ],
+      "order_by_role": {
+        "N1": [
+          "F06",
+          "S02"
+        ],
+        "N2": [
+          "S02",
+          "F06"
+        ],
+        "N3": [
+          "F06",
+          "S02"
+        ],
+        "J1": [
+          "S02",
+          "F06"
+        ],
+        "J2": [
+          "F06",
+          "S02"
+        ]
+      }
+    },
+    {
+      "pair_id": "P08",
+      "candidate_ids": [
+        "F03",
+        "F05"
+      ],
+      "profiles": [
+        "raphael_milliere",
+        "jonathan_weisberg"
+      ],
+      "order_by_role": {
+        "N1": [
+          "F03",
+          "F05"
+        ],
+        "N2": [
+          "F05",
+          "F03"
+        ],
+        "N3": [
+          "F03",
+          "F05"
+        ],
+        "J1": [
+          "F05",
+          "F03"
+        ],
+        "J2": [
+          "F03",
+          "F05"
+        ]
+      }
+    },
+    {
+      "pair_id": "P09",
+      "candidate_ids": [
+        "E074",
+        "F05"
+      ],
+      "profiles": [
+        "john_hawthorne",
+        "josh_dever"
+      ],
+      "order_by_role": {
+        "N1": [
+          "E074",
+          "F05"
+        ],
+        "N2": [
+          "F05",
+          "E074"
+        ],
+        "N3": [
+          "E074",
+          "F05"
+        ],
+        "J1": [
+          "F05",
+          "E074"
+        ],
+        "J2": [
+          "E074",
+          "F05"
+        ]
+      }
+    },
+    {
+      "pair_id": "P10",
+      "candidate_ids": [
+        "E036",
+        "E078"
+      ],
+      "profiles": [
+        "kacper_kowalczyk",
+        "henry_shevlin"
+      ],
+      "order_by_role": {
+        "N1": [
+          "E036",
+          "E078"
+        ],
+        "N2": [
+          "E078",
+          "E036"
+        ],
+        "N3": [
+          "E036",
+          "E078"
+        ],
+        "J1": [
+          "E078",
+          "E036"
+        ],
+        "J2": [
+          "E036",
+          "E078"
+        ]
+      }
+    }
+  ],
+  "jobs": 50,
+  "cumulative_pairs": 10,
+  "cumulative_jobs": 50,
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/PAIR_PLAN.json",
+      "sha256": "1d96e2d9f71f9b5c45f1833a9c648c666ef3f7d11e9953565b3625f8169f1c6a",
+      "bytes": 9732
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/pair-schema.json",
+      "sha256": "3a14e9ca1f4a119c9b1225310a0bfe65c068f752c2a087f38b7f3c642f5c89b2",
+      "bytes": 1538
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/PAIR_RUBRIC.txt",
+      "sha256": "0b68b5811d22413b5bb2253b804e5edb9eeab1817a0ebf2b77a5ff6d5d8d8e47",
+      "bytes": 4319
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P01-N1.txt",
+      "sha256": "fca83c031b2f8f7819d8f3174274df6c6099156b9d9622bd32ee06f81a4821c1",
+      "bytes": 66278
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P01-N2.txt",
+      "sha256": "022398ba623947ef13337b7eb4960081b585f790e09c5eeb8c7c4936fd93c790",
+      "bytes": 66278
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P01-N3.txt",
+      "sha256": "7b7c5b36f5000d8b627cf6fcd2acf3dfbca19de0d78fd5e1169421104b4a8a74",
+      "bytes": 66278
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P01-J1.txt",
+      "sha256": "cfdf2fb880a66057623e71d95ab4142be25843cab5312a6aceea80acbb01b1c5",
+      "bytes": 76968
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P01-J2.txt",
+      "sha256": "680e5d09c9458b71affdb8cd93fdb15cbce99251b67c1c036859df1d62979599",
+      "bytes": 73706
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P02-N1.txt",
+      "sha256": "682f65187fcfae5bc525597ed6f1911b34b72edfd2ec30127b53aca25fd3b3d2",
+      "bytes": 53000
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P02-N2.txt",
+      "sha256": "065b8df2d9358abbd20b11cb4bf4d6e078bfe0fc8004e10c50edb1ca0e178856",
+      "bytes": 53000
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P02-N3.txt",
+      "sha256": "3964bdb7ee5b38e746598ae020f054151b7dbcab639193d66af23d3907c075f1",
+      "bytes": 53000
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P02-J1.txt",
+      "sha256": "48d7e3172036961bc0648e69c8a374efb44a6ccb232bcd0f36e9fc8d7dd1fee1",
+      "bytes": 61163
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P02-J2.txt",
+      "sha256": "93c0f4145c45ba8da042d3fdc54446c5cf5e8d1feaed56f779cd45a9c7a7f588",
+      "bytes": 60095
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P03-N1.txt",
+      "sha256": "c17251856929d865e6c9ee1f90be87a66add83e9fffe6e3ed551dfbb14046862",
+      "bytes": 69653
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P03-N2.txt",
+      "sha256": "0095584db9accfafc0bb1a2583acbc8d7b75c5b993c7dd6f99ff630ecbffb47f",
+      "bytes": 69653
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P03-N3.txt",
+      "sha256": "8a4905dfd8ccaa44be47e6c46f588554f216091e071a857b17f0f693a003dfd3",
+      "bytes": 69653
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P03-J1.txt",
+      "sha256": "6d9c5190dea696209aa68ec305e6fc3ef4ea53a991fa0bb6caf052156add7283",
+      "bytes": 76671
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P03-J2.txt",
+      "sha256": "4443a8204911eb83ec45cadf5f26d4bb636e1e49ea77b51c5187483a3897f3ef",
+      "bytes": 79991
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P04-N1.txt",
+      "sha256": "3e943f6b24d7a249c6625c0fb9b8a2cac13c14e9b5302dfd44de8a371fdbfac3",
+      "bytes": 62628
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P04-N2.txt",
+      "sha256": "929dedf1292b68deabb8461a771f31e69026d9324693b4990eae5b3e455b1671",
+      "bytes": 62628
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P04-N3.txt",
+      "sha256": "8d26400058fe819069ea9cc4165959b4c32974aaa39b79ecf8faf35b94ee5f63",
+      "bytes": 62628
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P04-J1.txt",
+      "sha256": "36ef8c3c330fd1a5969680103a0f5aa0af36295029c32d426da46c7d2b4010a5",
+      "bytes": 69352
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P04-J2.txt",
+      "sha256": "d7c99d7d9d7c9317e7995ce44d2654b09cf53140e663e59812dbde56a254e7ac",
+      "bytes": 73865
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P05-N1.txt",
+      "sha256": "ddcaf5df9f99fa19081155150ba905f6843527e96ea63e663c9ba8c38b8bf3ef",
+      "bytes": 44151
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P05-N2.txt",
+      "sha256": "fb5b3fa979fb75bfd3bdfd392f724e27ec636f57fdc9a2dd5264d9cbcd94e1ed",
+      "bytes": 44151
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P05-N3.txt",
+      "sha256": "a8e83f4105dc2141dd4371d675cb1d6cc6429c23544ff62e840f31c571bb3143",
+      "bytes": 44151
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P05-J1.txt",
+      "sha256": "8dc35c20ecc33901c15c5de97cf28e4caac8c8cdc2c2bdf06b231bc6f8e7e723",
+      "bytes": 54707
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P05-J2.txt",
+      "sha256": "12e3b09b8c9b802d68c72eb9b5d6d36ebf022b1c53b58615ed1d494309fddfe2",
+      "bytes": 51172
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P06-N1.txt",
+      "sha256": "eafeadf0614cee5c1cfaac1bc33929f925a5ca9d7a2181dad9d28e537fec7e06",
+      "bytes": 49780
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P06-N2.txt",
+      "sha256": "12fdf31827330c0a54c9ef86e0e55140521861950d8be01e542b52c24667955c",
+      "bytes": 49780
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P06-N3.txt",
+      "sha256": "03b0ac15a4ed193c4c4f79ee03ad848d660c0db43b7430ab8343d39b1dbdd551",
+      "bytes": 49780
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P06-J1.txt",
+      "sha256": "73b1c5a06028d7ca20f6126f9cfe24caef7d73983ae89ad179bd502c59fca759",
+      "bytes": 56927
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P06-J2.txt",
+      "sha256": "04beb9cb7b55c0b7fb492e94419f270bba6075797c0b9b8ae2494671e9fc4b5c",
+      "bytes": 61146
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P07-N1.txt",
+      "sha256": "b3b1574157ed741bfc973c41b8f67534b725a3f2e677b36a7959468764ece7e7",
+      "bytes": 70416
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P07-N2.txt",
+      "sha256": "22bbe30575054866ebc713ae8415a5337184835dea98cec1206b59a0c926faed",
+      "bytes": 70416
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P07-N3.txt",
+      "sha256": "a6210cac61ce8f8b099788791ca5f228906e6026df78484905c4825cdb53f39c",
+      "bytes": 70416
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P07-J1.txt",
+      "sha256": "b2c51731454a3253fd01dec277800bcf55046762e61cca04aa10c19b3cb359cc",
+      "bytes": 81402
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P07-J2.txt",
+      "sha256": "69516d0ccb000453d22fd6920a213fd8a68b91796f33ecd4d0cf2e37c33d592b",
+      "bytes": 78573
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P08-N1.txt",
+      "sha256": "95004adbb89765e830501dcbeac121c23912503cb8a469286e6340208f4ea33c",
+      "bytes": 61384
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P08-N2.txt",
+      "sha256": "13a1a17665bd9da8da2f3f82120e109589a6845e6a26e8ed89116c40f4634a64",
+      "bytes": 61384
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P08-N3.txt",
+      "sha256": "ee6274737281c4ef0ae8f6115ee413b8fd8ffa3f34ebf7efc182cfe1ec499d24",
+      "bytes": 61384
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P08-J1.txt",
+      "sha256": "c055bd12a4759577a7d2c995080f18a7f0d5f0ba5fd4ed923a3eb97dc6d55093",
+      "bytes": 68971
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P08-J2.txt",
+      "sha256": "f33e2aa17d8c789a06780fdeeafd16fd636daee7ba3f10bbc9623d5898779141",
+      "bytes": 68933
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P09-N1.txt",
+      "sha256": "9c13bc0b123719efcf6c63f424b2f53cf273a64b7bb7c987f2a6d0e309b7683c",
+      "bytes": 67857
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P09-N2.txt",
+      "sha256": "559843cfac55a76e6d67ede02336ea7a0190ee69a5d6bf7f0723235ba3c99c2a",
+      "bytes": 67857
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P09-N3.txt",
+      "sha256": "4fbb3fda26afe6dbda68dbbfc84f4d7d56d6d120dabe847b19ec667cb6e503fb",
+      "bytes": 67857
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P09-J1.txt",
+      "sha256": "3af79d52d03d2403b3ee99e8891b5a02639502d44f8246e4fb10fa7b78ca2aa8",
+      "bytes": 75319
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P09-J2.txt",
+      "sha256": "34d06abcd750f48dbbd57569aa7a912ba16433846058755346a43d71ab7209dc",
+      "bytes": 78735
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P10-N1.txt",
+      "sha256": "b5f60e345f81cc6a80bfc235eb978ef070233ed8b3e83d7cc3e9997fd43298a0",
+      "bytes": 59061
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P10-N2.txt",
+      "sha256": "b5d74d1e2b284718fd4e5f5ad21f56234b4a184880e5c5084ad23603ad1c443a",
+      "bytes": 59061
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P10-N3.txt",
+      "sha256": "5545db979c58e091122d53feb2611829ff875f55ea131a2e2cfe7964f34da329",
+      "bytes": 59061
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P10-J1.txt",
+      "sha256": "7fe5add973a4de2f9adc223a6e8cb02d0b3d13345c2175a7f69322540730fe45",
+      "bytes": 65559
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/packets/P10-J2.txt",
+      "sha256": "e4d42c1d32cb7a297ccab9903e3cd7979c799213aab29426764e799520a135f8",
+      "bytes": 65810
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-batches/pairs-001/queue.json",
+      "sha256": "1aa058a84b83af995781164d6f083c671e436f971e1354ac0ee55f577aeb28df",
+      "bytes": 109954
+    }
+  ],
+  "source_files": [
+    {
+      "path": "runs/final-selection-20261018/START_RECEIPT.json",
+      "sha256": "a2012f782a01df8288627aa8940623c8e3ee523ae31e2f3c9472476fb7a3ec58",
+      "bytes": 33585
+    },
+    {
+      "path": "runs/final-selection-20261018/ALLOCATION.json",
+      "sha256": "61c6c035a2dd81f4971ae99ef9b6d212614ca3036f2abb8a9eaddd7c9c871a3d",
+      "bytes": 12315
+    },
+    {
+      "path": "runs/final-selection-20261018/queue.json",
+      "sha256": "229654040fec555f4898be370617b41fd92f473e2989cb06c696674b50f4f67d",
+      "bytes": 105916
+    },
+    {
+      "path": "runs/final-selection-20261018/RUBRIC.txt",
+      "sha256": "b44d1de8a8763b2db3083edce2c9139a1fb35a72205b5163284b47b9c404c6c2",
+      "bytes": 2424
+    },
+    {
+      "path": "runs/final-selection-20261018/coordinator/PAIR_PLAN.json",
+      "sha256": "1d96e2d9f71f9b5c45f1833a9c648c666ef3f7d11e9953565b3625f8169f1c6a",
+      "bytes": 9732
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-preparation/prepare_pairs.py",
+      "sha256": "670bacbe4540c62f5a64b74f01704b7864fd5c6b3aa08cb05c550cc4dd4d768d",
+      "bytes": 16064
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-preparation/pair-schema.template.json",
+      "sha256": "3a14e9ca1f4a119c9b1225310a0bfe65c068f752c2a087f38b7f3c642f5c89b2",
+      "bytes": 1538
+    },
+    {
+      "path": "runs/final-selection-20261018/pair-preparation/pair-rubric.template.txt",
+      "sha256": "42d2f3dcd865246ade32d452314dc29557680d3a32b78dd6f408c107c57a15f7",
+      "bytes": 1893
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M02.md",
+      "sha256": "e6badc41a13f407d5ce9660772ff018d0ebbf109f5c8570a0659c612cb217a2d",
+      "bytes": 29972
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M04.md",
+      "sha256": "37f240addafd761d1d361ce9c0ac1aeb3ba6997eed5b936f9386c11bd09c1a59",
+      "bytes": 30275
+    },
+    {
+      "path": "research/judges/20261007/hilary_greaves/profile-v1.md",
+      "sha256": "3afda23249efc660ddd89183cf9702db07fd28652d842967f61150e10807c9dd",
+      "bytes": 5635
+    },
+    {
+      "path": "research/judges/20261007/hilary_greaves/evidence-packet.md",
+      "sha256": "58b58c58145a7550576d01cab56917f9ecf6bd304d994323042de819ac76a3c9",
+      "bytes": 1225
+    },
+    {
+      "path": "research/judges/20261007/hilary_greaves/baseline-profile-20260912.md",
+      "sha256": "d9ddb25b9764e57421e19c2dddee0f08991e96dff5ee4e586c89e9a15132841b",
+      "bytes": 3470
+    },
+    {
+      "path": "research/judges/20261007/jake_nebel/profile-v1.md",
+      "sha256": "f8706167ee8a06bbd813e58f1247d4caf22ac425eed22c24f6a2bdac0f708305",
+      "bytes": 6648
+    },
+    {
+      "path": "research/judges/20261007/jake_nebel/source-evidence.md",
+      "sha256": "50dcac6cc64ad6e1ede9ff3cefac4168b8d3beac542276e41efef96de7977b18",
+      "bytes": 488
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M09.md",
+      "sha256": "6fcfd9ef400a61abed5b52b1a810c8e233a764ca059804b1223c9fb4794f4605",
+      "bytes": 26402
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M21.md",
+      "sha256": "7e89cbede4b8b1a236ecfa87e684ba46b51707b099fa0f072ccbacb833d3b520",
+      "bytes": 20567
+    },
+    {
+      "path": "research/judges/20261007/daniel_greco/profile-v1.md",
+      "sha256": "ef9b2b279441005cb6729bc80b8eb4706e9960a1c7b2ad4393926f40c4bd8359",
+      "bytes": 7395
+    },
+    {
+      "path": "research/judges/20261007/daniel_greco/source-evidence.md",
+      "sha256": "99224efb4eb9703899edbf51703eee3d72eca4cb0bb300fe81c675746058fa82",
+      "bytes": 474
+    },
+    {
+      "path": "research/judges/20261007/bernhard_salow/profile-v1.md",
+      "sha256": "3207c3fc98a33e29b6bd75b4c5f1f0d2a44aaea1051a1e86c55213585d16f494",
+      "bytes": 4831
+    },
+    {
+      "path": "research/judges/20261007/bernhard_salow/source-packet.md",
+      "sha256": "db98256e80eee90a9c3164d1ea5550f6409cf4d358c27b349f33c05ccdf20665",
+      "bytes": 1970
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M06.md",
+      "sha256": "53400ffacb73c30c9af7ee9fa67578305d1ee1c13711881650dfca3cd4c82884",
+      "bytes": 32126
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M12.md",
+      "sha256": "34acc5ee5e93f4ba751071cfde3db7e6265c1fd20ef01b5d061615c031920aaf",
+      "bytes": 31496
+    },
+    {
+      "path": "research/judges/20261007/pamela_robinson/profile-v1.md",
+      "sha256": "6a37eae298091d8baaed377a726c2b251a1a066875d2a072844a0047508cd26f",
+      "bytes": 4845
+    },
+    {
+      "path": "research/judges/20261007/pamela_robinson/source-packet.md",
+      "sha256": "a1a01aa15f2cb0e638aa10cb9a9ed176cb7824941470851dbb85bd6d2fc24924",
+      "bytes": 1878
+    },
+    {
+      "path": "research/judges/20261007/cian_dorr/profile-v1.md",
+      "sha256": "554656d4bdd735cb479c9beeb246ea26eb56794d4aa6ed34967e19b333657ed1",
+      "bytes": 5403
+    },
+    {
+      "path": "research/judges/20261007/cian_dorr/evidence-packet.md",
+      "sha256": "74347a79e4fdccfdacae325be5ccc3e23ab83c74cc2f6fa9b221d3d9c89caef0",
+      "bytes": 1054
+    },
+    {
+      "path": "research/judges/20261007/cian_dorr/baseline-profile-20260912.md",
+      "sha256": "ab23dcf10e8304922e0ce27207b94e8c6faf0fa4ad9079a12c972c21984f6160",
+      "bytes": 3526
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M22.md",
+      "sha256": "98da4f7f05e2b79ce05f6f337e9dee5dd47de7582022f0257bd322097947f0fc",
+      "bytes": 21986
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M14.md",
+      "sha256": "c2e4d644eb13efb18583f3b7fb01665639018cb510146aba942cf294bfc4d63d",
+      "bytes": 34611
+    },
+    {
+      "path": "research/judges/20261007/matthew_mandelkern/profile-v1.md",
+      "sha256": "0065cb6e88f065d84281d0ee3c3318b40ba744953eb8341079892f321050057d",
+      "bytes": 6015
+    },
+    {
+      "path": "research/judges/20261007/matthew_mandelkern/source-evidence.md",
+      "sha256": "66e6975e0bce9eac6f839267fc9fdc60dfd567c9e46683591d2af53383dc70f8",
+      "bytes": 409
+    },
+    {
+      "path": "research/judges/20261007/david_chalmers/profile-v1.md",
+      "sha256": "d6500c80c0fa05926c0bb3fa50ed6b4b42196716552bc880a3d337dcaa2dbf6d",
+      "bytes": 5894
+    },
+    {
+      "path": "research/judges/20261007/david_chalmers/evidence-packet.md",
+      "sha256": "655619654461b940131f5646ef85a524f4a5d22267494c896a839e89ef09fc4d",
+      "bytes": 1160
+    },
+    {
+      "path": "research/judges/20261007/david_chalmers/baseline-profile-20260912.md",
+      "sha256": "f3cf95faa3eb95ee05a2f9ff5c495468d0637285b778d60f198829ba948b7268",
+      "bytes": 3823
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M07.md",
+      "sha256": "5f67b5676c4c9088072ba9d0780695a97cfd85d6d6c3876e5c22578967ae29b7",
+      "bytes": 24778
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M18.md",
+      "sha256": "7b30ee405892b61615bfb48bd9def7e1d0e746e9eb59511a0a8114e005db8318",
+      "bytes": 13342
+    },
+    {
+      "path": "research/judges/20261007/simon_goldstein/profile-v1.md",
+      "sha256": "c44a46e93ddd6b040adde003b3dc81e17e79500b65a15ea8bd3bd4a4e1173d44",
+      "bytes": 5572
+    },
+    {
+      "path": "research/judges/20261007/simon_goldstein/evidence-packet.md",
+      "sha256": "f50a10daf13de74a04d93973fb8d52ec75638016ef4f366f22065cb30bfe8b1b",
+      "bytes": 1245
+    },
+    {
+      "path": "research/judges/20261007/simon_goldstein/baseline-profile-20260912.md",
+      "sha256": "533626775b735e74367592d9eda6d1d388ea1d57090625eeb8f83a4b254786d3",
+      "bytes": 3378
+    },
+    {
+      "path": "research/judges/20261007/mario_gunther/profile-v1.md",
+      "sha256": "4e57f7d4091710646a1d70e36e58ee1fbb9bf94a6ab71d15ad3a04b88a34bcb4",
+      "bytes": 5036
+    },
+    {
+      "path": "research/judges/20261007/mario_gunther/source-packet.md",
+      "sha256": "ea04c98ee7a432a87864cc944359c6190a8e0f42ee3e60e0c9a7e496685f3a18",
+      "bytes": 1692
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M05.md",
+      "sha256": "6e1bf3e0102194ccb84f7fcd3ba6b3d88e95b41683360878b23e1cf0fff8a078",
+      "bytes": 23182
+    },
+    {
+      "path": "research/judges/20261007/herman_cappelen/profile-v1.md",
+      "sha256": "4b26c22d7bcd445901e0c8a869d6b5e2a5e247b39dcc381903527a8043f2192e",
+      "bytes": 6332
+    },
+    {
+      "path": "research/judges/20261007/herman_cappelen/source-evidence.md",
+      "sha256": "e62abc7119102a19cbd827f3dfffbec72eff4ff3482504b4230f6bf93e806cf5",
+      "bytes": 518
+    },
+    {
+      "path": "research/judges/20261007/karina_vold/profile-v1.md",
+      "sha256": "4f5831f44b0f52cdeba8b7a16bf73ebc630306180de3b7394f5622b7515ea9ae",
+      "bytes": 5965
+    },
+    {
+      "path": "research/judges/20261007/karina_vold/evidence-packet.md",
+      "sha256": "6ad32ba99f8c7cdc083b9270ec498eaa2a03a1475fe93542ec94b798994e03aa",
+      "bytes": 1240
+    },
+    {
+      "path": "research/judges/20261007/karina_vold/baseline-profile-20260912.md",
+      "sha256": "f93f8f70028db8f8e538e80b389c46b44e97e5ed5f41fc5d48fea2741f124f46",
+      "bytes": 3804
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M19.md",
+      "sha256": "0ff5fb0984993915d9fd049be178d5c4bd2c50893353b5e8758996d795fd1056",
+      "bytes": 29774
+    },
+    {
+      "path": "research/judges/20261007/jens_jaeger/profile-v1.md",
+      "sha256": "982399e2de95b16bd89f626298a01a0e203a230e7f220bf1101c83677f3ae35a",
+      "bytes": 5853
+    },
+    {
+      "path": "research/judges/20261007/jens_jaeger/evidence-packet.md",
+      "sha256": "1da413da2d817639b637eac9490dab94a217a5abc92c1ca364525af85d964050",
+      "bytes": 1153
+    },
+    {
+      "path": "research/judges/20261007/jens_jaeger/baseline-profile-20260912.md",
+      "sha256": "6bf2ad955bd409214d9292b81acff3e4547994140848a8529ff8256014626115",
+      "bytes": 3623
+    },
+    {
+      "path": "research/judges/20261007/branden_fitelson/profile-v1.md",
+      "sha256": "ae7cdcd1114ef249fcd707edc9b23b79d7f0c7b45beaf2d9c3643a41ee9502a0",
+      "bytes": 7405
+    },
+    {
+      "path": "research/judges/20261007/branden_fitelson/source-evidence.md",
+      "sha256": "8d571154e2878100bf6d18dc974894b7599faa78008db619554664d9ba88b0d4",
+      "bytes": 454
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M13.md",
+      "sha256": "42accea7f8647e8de5dac9d6c55e834e2b62c07d6655730ec6e7948eff9319b5",
+      "bytes": 28072
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M03.md",
+      "sha256": "7757b995b75b8c311e1bdb9e67056be1af5ee6cbb0cb158b40e3e45485eafd01",
+      "bytes": 27281
+    },
+    {
+      "path": "research/judges/20261007/raphael_milliere/profile-v1.md",
+      "sha256": "5128d55911724a3232d610b8e8a83dbc1a6905d6a5e6eb07cb3ce1837059e7a3",
+      "bytes": 4867
+    },
+    {
+      "path": "research/judges/20261007/raphael_milliere/source-packet.md",
+      "sha256": "3c57279f0117ac7a38cc903c6958d58fa4a62fd0d65f1a49e144f9c366a70951",
+      "bytes": 2424
+    },
+    {
+      "path": "research/judges/20261007/jonathan_weisberg/profile-v1.md",
+      "sha256": "0a5d7b90b3ccf1855e4696e58a804b4b8824b0acd3d536b5367a48aab6840faa",
+      "bytes": 4980
+    },
+    {
+      "path": "research/judges/20261007/jonathan_weisberg/source-packet.md",
+      "sha256": "6780612d482ddd4ab06e5ba99cbe3b03df751cbb21126370b7b3021776bd9b8a",
+      "bytes": 2272
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M01.md",
+      "sha256": "9c603c5c4fe9f87491e10904f712cab244557550177ee0bb17faba5474f7590b",
+      "bytes": 34545
+    },
+    {
+      "path": "research/judges/20261007/john_hawthorne/profile-v1.md",
+      "sha256": "60ebab4ac288db2b3b2e9a7cf2a0e900dc97a06f4f18f69b4352d0a53102e126",
+      "bytes": 6713
+    },
+    {
+      "path": "research/judges/20261007/john_hawthorne/source-evidence.md",
+      "sha256": "d631d7afa774945cbf992b5c21ad99196cbb6845a452d3d62a5b58fb5b897093",
+      "bytes": 453
+    },
+    {
+      "path": "research/judges/20261007/josh_dever/profile-v1.md",
+      "sha256": "72df390fcc1072a82ed301bf586259b9f90588932f5b94c9abf82a446b22a08e",
+      "bytes": 5684
+    },
+    {
+      "path": "research/judges/20261007/josh_dever/evidence-packet.md",
+      "sha256": "5f0e6ef346cea122b143c24615bf549b564bdc99cc286ea0f8c8b0c5d93d4d95",
+      "bytes": 1316
+    },
+    {
+      "path": "research/judges/20261007/josh_dever/baseline-profile-20260912.md",
+      "sha256": "c013e57d1d54239adc0aadaaf820550a7dfef98159974a4f1e4f126757b8376b",
+      "bytes": 3522
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M11.md",
+      "sha256": "657500614bc4836ba88baecc27661d1b4a90c00ae51888fc766e5c9e9c231e33",
+      "bytes": 25638
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M15.md",
+      "sha256": "c6b5565dbdf236ea43656afc2d4ef59031211d5703545900698111d8f2267e28",
+      "bytes": 27392
+    },
+    {
+      "path": "research/judges/20261007/kacper_kowalczyk/profile-v1.md",
+      "sha256": "eda23828f1ed817f830f5528f24aee11909439e82617b56604381271560e8122",
+      "bytes": 4509
+    },
+    {
+      "path": "research/judges/20261007/kacper_kowalczyk/source-packet.md",
+      "sha256": "5a204e26d1af160fe87e6d9128daa2d8c12804e68213966d2a8987a8675e6f72",
+      "bytes": 1693
+    },
+    {
+      "path": "research/judges/20261007/henry_shevlin/profile-v1.md",
+      "sha256": "327d24846635318fa11ac3d0d61fb55989a7f20292846be8555fe1c53b02490f",
+      "bytes": 4743
+    },
+    {
+      "path": "research/judges/20261007/henry_shevlin/source-packet.md",
+      "sha256": "e8e8cedf3f5705796162a5f93849c94a05eb759ca945957248cb3ae52677cf35",
+      "bytes": 1713
+    }
+  ],
+  "model_calls": 0,
+  "archive_writes": 0,
+  "boundary": "Root selected pairs/profiles/order. Rationale retained only in plan. Full frozen manuscript bytes included literally; no old reviews/scores/history supplied. No ready receipt is created."
+}

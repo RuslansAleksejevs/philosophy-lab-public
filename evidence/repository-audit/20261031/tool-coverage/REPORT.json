@@ -1,0 +1,116 @@
+{
+  "boundary": [
+    "All 37 current tar bundles and 119 loose JSON files were hash-bound and structurally scanned. Body fields were not inspected, printed, or retained. Non-JSON members were hash-verified only.",
+    "Exact coverage means a reviewed Codex tool payload with SID/source_line/source-record SHA, matching the frozen native line. It does not mean retaining the complete original envelope.",
+    "Old Codex conversation/turn bundles expose aggregate pending counters, not additional per-tool payload identities. Claude tool fragments use another provider and cannot close the Codex denominator.",
+    "The other pending records have no verified direct exported identity in these structured formats. Indirect copies in text, older differently identified fragments, or unstructured files were not semantically searched; the difference is not a loss count.",
+    "1145 sensitive tool-body exclusions are a separate frozen category, not part of the 84799 pending denominator. Other hidden/internal exclusions and 430 format/size gaps remain explicit in their separate reports.",
+    "Classification of the 1938 records as generic tool_pending is bound to the previous overlap report; this independent pass verified all export and native hashes without parsing native bodies.",
+    "No fresh native cutoff, current moving-session capture, canonical audit/write, production edit, model call, or publication occurred. This is the pre-final-verification-delta repository snapshot."
+  ],
+  "bundle_count": 37,
+  "exact_exported_native_tool_identities": 1938,
+  "explicit_sensitive_tool_body_exclusions": 1145,
+  "frozen_exclusions": {
+    "excluded:agent_message": 4372,
+    "excluded:message_role:developer": 10431,
+    "excluded:non_user_text_context": 3509,
+    "excluded:reasoning": 52807,
+    "excluded:sensitive_tool_body": 1145,
+    "noncanonical_or_hidden_event:item_completed": 119094,
+    "noncanonical_or_hidden_event:thread_settings_applied": 1082,
+    "noncanonical_or_hidden_event:token_count": 49109,
+    "nonvisible_envelope:compacted": 263,
+    "nonvisible_envelope:inter_agent_communication_metadata": 4371,
+    "nonvisible_envelope:token_usage_record": 47418,
+    "nonvisible_envelope:world_state": 4521
+  },
+  "frozen_native_sessions": 3355,
+  "frozen_source_counts": {
+    "agent_metadata": 3389,
+    "excluded": 298122,
+    "gap": 417,
+    "lifecycle": 8390,
+    "model": 4475,
+    "old_messages_matched": 13754,
+    "text": 14803,
+    "tool_pending": 84799
+  },
+  "generic_tool_pending": 84799,
+  "inputs": [
+    {
+      "bytes": 13494,
+      "path": "runs/repository-rebuild-20261031/history-audit/tool-coverage/audit.py",
+      "sha256": "abc1098fcc30dca1bb9343ffb9294bca1814ee95c577df7fb40d7e3976c5d3b6"
+    },
+    {
+      "bytes": 7213,
+      "path": "scripts/codex_rollout.py",
+      "sha256": "541e2506db54b1d8f332bdc14dc7eb4480f9640617ddc77acc7eab752ffdea5e"
+    },
+    {
+      "bytes": 2679325,
+      "path": "repository/logs/bundles/manifest.json",
+      "sha256": "53049591132ff4f75b2afbcc5c2533dae4fe6e79f337fa7423d6859f89a111e7"
+    },
+    {
+      "bytes": 617383,
+      "path": "repository/logs/updates/20261031-late-receipts/MANIFEST.json",
+      "sha256": "dea4d87456cd6a2625f703ec21ed803ea21626eaaa0938906eac9dd1da80a49b"
+    },
+    {
+      "bytes": 611624,
+      "path": "repository/logs/updates/20261031-complete-visible/reviewed-codex-tools.json",
+      "sha256": "09f48fe4d4a791c74466e88c650f6a62a3726236ccce55886d9d41547f676ac2"
+    },
+    {
+      "bytes": 4850526,
+      "path": "runs/repository-rebuild-20261031/log-audit/recovery/SESSIONS.json",
+      "sha256": "bcd421240b8a97827ea8a9b1889568181b37830b07f132193d99163959fa0ec8"
+    },
+    {
+      "bytes": 4850526,
+      "path": "repository/logs/updates/20261031-complete-visible/native-source-cutoffs.json",
+      "sha256": "bcd421240b8a97827ea8a9b1889568181b37830b07f132193d99163959fa0ec8"
+    },
+    {
+      "bytes": 615006,
+      "path": "runs/repository-rebuild-20261031/log-audit/TOOL_PENDING_EXPORT_OVERLAP.json",
+      "sha256": "71bb97e31055c3e23cb53c11ddceccdfc59ad3dedde160aee94f0e5fdf2a772a"
+    },
+    {
+      "bytes": 2274741,
+      "path": "runs/repository-rebuild-20261031/log-audit/DISCOVERY.json",
+      "sha256": "2643105704073b7fa0f61587d26ebea3f80f7c28e2151953fc8013959638b9af"
+    },
+    {
+      "bytes": 12534777,
+      "path": "repository/logs/index.json",
+      "sha256": "020ee8a044027f5a2e5e1e111684c5a0f1725ea63d9c686fdb99afdeaae1e5e9"
+    }
+  ],
+  "loose_json_count": 119,
+  "member_count": 13118,
+  "native_prefix_bytes_independently_rehashed": 312705990,
+  "native_prefixes_independently_rehashed": 81,
+  "outputs": [
+    {
+      "bytes": 946601,
+      "path": "runs/repository-rebuild-20261031/history-audit/tool-coverage/EXACT_TOOL_IDENTITIES.json",
+      "sha256": "461cce7557e4999b153fc0e6736b79e8668e6a06205467718bcc63b0fbd4ac73"
+    },
+    {
+      "bytes": 40105,
+      "path": "runs/repository-rebuild-20261031/history-audit/tool-coverage/BUNDLE_AND_INDEX_AUDIT.json",
+      "sha256": "755f5d745b5182f2ff3483b8279fad00cf090bc3fb55f819c33654efec1d7d06"
+    },
+    {
+      "bytes": 17621,
+      "path": "runs/repository-rebuild-20261031/history-audit/tool-coverage/NATIVE_PREFIX_VERIFICATION.json",
+      "sha256": "5c0c7cf4aab9fa1acbf4bd07328da035bba6dba69620a7e3ef6cabe18fe969a0"
+    }
+  ],
+  "pending_without_verified_export_identity": 82861,
+  "pending_without_verified_export_identity_disposition": "UNKNOWN_EXACT_COVERAGE_NOT_PROVEN_LOST",
+  "status": "PASS_BOUNDED_ALL_CURRENT_BUNDLE_METADATA_AUDIT"
+}

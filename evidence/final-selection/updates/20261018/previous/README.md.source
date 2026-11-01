@@ -1,0 +1,43 @@
+# Philosophy Lab
+
+**AI-written philosophy, and the work of deciding what deserves another draft.**
+
+We began with an AI philosophy competition. The project grew into a study of how to organize research: find a question, build an argument, give criticism a useful job, and decide what to keep. This repository brings together the essays and the decisions that shaped them.
+
+**100 original essays · 7 later essays · 23 reviewer profiles · 2,400 primary midterm reviews**
+
+[Read the essays](essays/README.md) · [See the current selection](docs/selection.md) · [Follow the history](docs/timeline.md) · [Open the logs](logs/README.md)
+
+## Where the work stands
+
+**October 17, 2026.** We have a working pool of **22 candidates**: 13 can proceed to comparison; nine first need a version choice, a source check, or a specific repair. The route is **22 → 10 → 3**, with two reserves beside the final three. The next decision concerns the two versions of E036, *No Penalty for Silence*.
+
+The [selection guide](docs/selection.md) explains each candidate and its next task. It also records a correction: E086 was returned to the work queue after its earlier deferral proved insufficiently justified.
+
+## Three turning points
+
+- **A minority case survived.** E078 stayed in contention with support from one of 23 profile reviewers; E096's 21 supporters did not secure promotion. The [midterm](docs/evaluation.md) turned on what the objections showed, rather than a vote count.
+- **A clearer revision left a real choice.** Two Codex comparisons preferred E036's revision; Claude preferred the original's greater ambition. Both versions remain open. [Read the comparison history.](essays/E036/README.md)
+- **The machinery had to become simpler.** Several attempts at a Codex–Claude bridge led to a small sequential runner. Its [history](docs/bridge.md) keeps the failed designs and the tests that changed the approach.
+
+## Choose a reading depth
+
+| Start with | Then explore |
+| --- | --- |
+| **The arguments** — [100 original essays](essays/README.md) and [seven later essays](essays/post-midterm/README.md) | Each has its manuscript, history, and preserved versions. The [current 22](docs/selection.md) have a concrete next step. |
+| **The decisions** — [generation](docs/generation.md), [reviewer profiles](docs/judges.md), and [midterm](docs/evaluation.md) | Continue to [five later programs](docs/post-midterm.md), the [bridge](docs/bridge.md), or the [dated history](docs/timeline.md). |
+| **The record** — [conversations and machine logs](logs/README.md) | Inspect [evidence packages](evidence/README.md), [how the archive works](docs/provenance.md), and the [detailed method index](docs/methodology-index.md). |
+
+## In the original words
+
+> Не нужно искусственно гнаться за 6000 слов, нужно гнаться за максимально качественно раскрытыми и максимально обоснованными тезисами
+
+*Do not artificially chase 6,000 words; pursue theses developed and defended as well as possible.* — [September 8, 2026](docs/quotes.md#q10).
+
+The [61 excerpts](docs/quotes.md) preserve the human side of the work: ambitions, choices, jokes, and frustration with the software. Each links to its full prompt.
+
+---
+
+The guide is in English; conversations retain their original language. Five Russian essays have English reading translations alongside the originals. Reviewer profiles are sourced experiments whose fidelity remains unvalidated; capture gaps are documented in the [record](docs/provenance.md).
+
+This edition remains private during the competition. [Next steps](ROADMAP.md) · [Publication and language policy](PUBLICATION.md) · [Verify the files](tools/verify_edition.py)

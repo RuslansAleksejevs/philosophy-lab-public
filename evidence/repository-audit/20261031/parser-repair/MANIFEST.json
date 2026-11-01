@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "source_path": "scripts/capture_codex.py",
+      "path": "evidence/repository-audit/20261031/parser-repair/capture_codex.py.source",
+      "sha256": "26c6d6781df7e9e02a4c4258c699e3fb798618e6b4815ff3431b23c31399f2c7",
+      "bytes": 48221
+    },
+    {
+      "source_path": "tests/test_capture_codex_current_schema.py",
+      "path": "evidence/repository-audit/20261031/parser-repair/test_capture_codex_current_schema.py.source",
+      "sha256": "023dcde7c308ac179986d94c708580b57bffda0cfe42b023ed6bb24982d6269e",
+      "bytes": 9293
+    },
+    {
+      "source_path": "runs/repository-rebuild-20261031/parser-repair/REPAIR_REPORT.json",
+      "path": "evidence/repository-audit/20261031/parser-repair/REPAIR_REPORT.json",
+      "sha256": "a209affc5a631292037f137c606bdb55fbce8d17e1e816c60d823cba8098f4cb",
+      "bytes": 2045
+    },
+    {
+      "source_path": "runs/repository-rebuild-20261031/parser-repair/REAL_SOURCE_PREFLIGHT.json",
+      "path": "evidence/repository-audit/20261031/parser-repair/REAL_SOURCE_PREFLIGHT.json",
+      "sha256": "e12d2dec073f9ea7925bc5a72e3d925d9ead9a081ae5696972dd6c4dd97a866b",
+      "bytes": 4829
+    }
+  ],
+  "boundary": "Exact repair source and bounded local checks; service recovery is recorded separately."
+}

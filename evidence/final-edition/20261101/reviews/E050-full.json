@@ -1,0 +1,155 @@
+{
+  "job_id": "E050-critic",
+  "essay_id": "E050",
+  "scientific_role": "critic",
+  "manuscript_sha256": "ce96988b25cb99d33a1a8963422c0a8d6db455a9d5265b48a11f2f83f349875f",
+  "read_original_complete": true,
+  "read_revision_complete": true,
+  "decision": "READY",
+  "findings": [],
+  "change_checks": [
+    {
+      "location": "Introduction and overall section order",
+      "what_changed": "The practical and philosophical questions now precede the literature discussion; detailed calculations move to an appendix.",
+      "assessment": "Substantial readability improvement.",
+      "reason": "Readers encounter the system, evidence restriction, counterexample and alternative procedure before the technical comparisons with earlier work. The main text retains explanations of why each result matters."
+    },
+    {
+      "location": "A system and an exact evidence menu; Appendix A.1",
+      "what_changed": "The evidence catalogue becomes prose, while existence, equilibrium and agreement proofs move to A.1.",
+      "assessment": "Correct and complete.",
+      "reason": "Every nonempty clamp target, real setting and free initial state remains included. The baseline and qualitative stability catalogues remain included; numerical rates and other uncontrolled endpoints remain excluded. Boundedness, scalar convergence and agreement in nonhyperbolic cases are established."
+    },
+    {
+      "location": "What simultaneous withdrawal leaves unsettled; Appendix A.3",
+      "what_changed": "The main text summarizes the mechanism; A.3 supplies the two convergence proofs and nonidentification inference.",
+      "assessment": "Calculations and quantifiers verified.",
+      "reason": "The bounds f(x)>-0.385 and y>0.990 give a crossing time below 0.5/0.605<0.827. For k≥100, total input is at most 0.01, yielding -1≤x≤-0.49; the subsequent trapping argument proves convergence to -1. The stated rate ranges are sufficient, not an asserted exact threshold."
+    },
+    {
+      "location": "Basin discussion; Appendix A.2",
+      "what_changed": "Positive-state convergence becomes a reusable lemma, and basin invariance receives an explicit appendix explanation.",
+      "assessment": "Correct; no circular dependence.",
+      "reason": "The equation for x-z is correct and establishes comparison. The upper bound then proves convergence to 1 for x>0 and y≥0. The time-shift argument preserves the distinction between crossing x=0 and crossing a basin boundary."
+    },
+    {
+      "location": "Choosing a withdrawal that works; Appendix A.4",
+      "what_changed": "The successful release procedure and absence of a uniform settling deadline are summarized in the main text.",
+      "assessment": "Both claims match their proofs.",
+      "reason": "The bound c=1-2/(3√3)>0.615 gives a zero-reaching time below 0.814, so x is positive at time one for every k>0. After release, the necessary condition t≥log(1/δ)/k excludes a common finite deadline for any fixed 0<δ<1."
+    },
+    {
+      "location": "Reverse-order discussion; Appendix A.5",
+      "what_changed": "The reverse-order proof is collected in a separate appendix section.",
+      "assessment": "The original quantifier structure is preserved.",
+      "reason": "For each fixed finite T≥0, rates 0<k≤0.01/(T+1) retain sufficient positive input, while k≥100 gives remaining input e^(-kT)/k≤0.01. Thus both endpoints remain possible for every such fixed wait."
+    },
+    {
+      "location": "What completeness licenses; Appendix A.1",
+      "what_changed": "Explicit calculations now support rate recovery from a nonzero trace and invariance under common time scaling.",
+      "assessment": "Correct clarification.",
+      "reason": "The formula k=-log(y(t)/y(0))/t requires the stated nonzero initial value. Replacing a whole vector field F by qF produces u(qt), preserving paths and limiting endpoints."
+    },
+    {
+      "location": "Proposed abstract",
+      "what_changed": "A standalone summary presents the evidence restriction, counterexample, release-order guarantee and limits.",
+      "assessment": "Accurate and readable.",
+      "reason": "It preserves the independently justified equations and time scale, sufficient rate ranges, asymptotic guarantee, reverse-order quantifier and lack of a common settling time. It does not claim general empirical applicability or novelty for robust switching."
+    },
+    {
+      "location": "Proposed TLDR",
+      "what_changed": "The central distinction is compressed into one sentence.",
+      "assessment": "Accurate; optional wording improvement only.",
+      "reason": "It correctly separates unidentified simultaneous withdrawal from successful procedure choice within a justified family. The phrase 'maintained-clamp endpoints' is compact but more technical than necessary."
+    }
+  ],
+  "preservation_checks": [
+    {
+      "aspect": "Arguments, hypotheses and limits",
+      "assessment": "Preserved.",
+      "reason": "The preparation, family k>0, evidence menu, opposite endpoints and two release orders remain unchanged. The guarantee still requires independently justified dynamics and time units."
+    },
+    {
+      "aspect": "Distinctions and objections",
+      "assessment": "Preserved.",
+      "reason": "The revision retains representation versus identification, relative speed versus common time scaling, preparation versus release observation, parameter identification versus procedure choice, and limiting success versus a common deadline."
+    },
+    {
+      "aspect": "Main-text support and appendix references",
+      "assessment": "All references match; no material opacity introduced.",
+      "reason": "A.1 establishes the evidence agreement, A.2 the convergence lemma and basin explanation, A.3 the counterexample, A.4 the successful procedure and deadline limitation, and A.5 the reverse-order result. The main text explains these dependencies without assuming their conclusions as premises."
+    },
+    {
+      "aspect": "Bibliography and attribution",
+      "assessment": "Preserved within the supplied evidence.",
+      "reason": "All seven bibliography entries remain. Version identifiers, preprint pagination, journal metadata and the Ryan–Dablander access limitation are retained. No substantive source attribution is inflated."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "bongers-2022-v4",
+      "status": "Supported by supplied primary passage.",
+      "locations_checked": "§4.6, Example 4.21 and following paragraph, pp. 36–37; manuscript discussion and bibliography.",
+      "note": "The diagonal derivative matrix, equilibrium agreement, subsystem invertibility condition and lack of guaranteed convergence are accurately reported."
+    },
+    {
+      "source_id": "sootla-2016-preprint",
+      "status": "Supported by supplied primary passages.",
+      "locations_checked": "§2.1, p. 3; Theorem 7, p. 5; Corollary 9, p. 6, conditions (11)–(13) and inclusion (14).",
+      "note": "The revision retains A1–A4, monotone bounding systems, basin and equilibrium-order conditions, and compactness for Corollary 9. It does not treat these results as automatically proving the present guarantee."
+    },
+    {
+      "source_id": "sootla-2018-preprint",
+      "status": "Supported by supplied primary passages.",
+      "locations_checked": "Assumptions A1–A5, p. 3; §III.B, Propositions 4–5, pp. 3–4; §III.C, Problem 2, p. 5.",
+      "note": "Known parameter bounds, additional parameter monotonicity, target stability, eigenfunction conditions and conservative tolerance-dependent estimates are accurately summarized. The cited version and section numbering remain explicit."
+    },
+    {
+      "source_id": "weinberger-2023",
+      "status": "Consistent with supplied access notes; no primary passage reproduced.",
+      "locations_checked": "Manuscript attribution to §5, pp. 2480–2482; bibliography; access notes.",
+      "note": "The bounded piston and constraint-removal comparison is preserved. Its wording could not be independently checked against primary text in this packet."
+    },
+    {
+      "source_id": "blom-2020",
+      "status": "Consistent with supplied access notes; no primary passage reproduced.",
+      "locations_checked": "Manuscript citations to §§1.1, 2.2 and 3.4, Theorem 2 and proof, PDF p. 7; bibliography.",
+      "note": "The initial-state and empty-target discussion remains within the reported source scope. Representability is not misattributed as inferability."
+    },
+    {
+      "source_id": "dash-2005",
+      "status": "Consistent with supplied access notes; no primary passage reproduced.",
+      "locations_checked": "Manuscript attribution to §§5–6, especially PDF p. 7; bibliography.",
+      "note": "The attribution remains a limited statement about temporal structure, manipulation and equilibration."
+    },
+    {
+      "source_id": "ryan-dablander-2025",
+      "status": "Access limitation accurately preserved.",
+      "locations_checked": "Antecedents discussion; bibliography; source access notes.",
+      "note": "The comparison remains explicitly restricted to search excerpts and bibliographic records. No full-text reading or verified section-level attribution is claimed."
+    }
+  ],
+  "language_assessment": {
+    "clearer_than_original": true,
+    "strengths": [
+      "The main argument is substantially easier to follow without losing its mathematical support.",
+      "Dots, stability, clamps, identification and basins receive useful plain-language explanations.",
+      "Transitions distinguish the evidence-based limitation from the additional assumptions supporting action."
+    ],
+    "remaining_issues": [
+      "Optional: simplify 'maintained-clamp endpoints' in the TLDR for readers unfamiliar with clamp terminology."
+    ],
+    "content_loss_found": false
+  },
+  "recommend_revision_over_original": true,
+  "limitations": [
+    "Assessment uses only the supplied manuscripts, diff, summaries, primary passages and access notes; no tools or outside sources were used.",
+    "Sources lacking reproduced primary passages were checked for preservation and consistency with the supplied access notes, not independently reverified in full.",
+    "READY is an editorial and content-preservation judgment, not certification of originality, empirical applicability or the cited literature as a whole."
+  ],
+  "plain_summary_ru": [
+    "Обязательных исправлений не найдено. Рекомендую новую версию.",
+    "Доказательства, расчёты и ссылки на приложение согласованы; существенные условия и ограничения сохранены.",
+    "Основной текст стал заметно понятнее. Аннотация и TLDR точно передают результат; в TLDR можно по желанию упростить терминологию."
+  ]
+}

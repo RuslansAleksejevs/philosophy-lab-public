@@ -1,0 +1,44 @@
+{
+  "status": "COORDINATOR_FULL_READING_OF_ACCEPTED_PAIR_REVIEWS_NO_FINAL_SELECTION",
+  "pair_id": "P04",
+  "candidates": [
+    "E047",
+    "F06"
+  ],
+  "reviews_read": [
+    "P04-N1",
+    "P04-N2",
+    "P04-N3",
+    "P04-J1",
+    "P04-J2"
+  ],
+  "evidence_event_ids": [
+    "event-4daac0a7340e4bd88c3b29cba1592f79",
+    "event-7c2744ad8bec46f98d4d66319b090605",
+    "event-d2f8653dbc6b44b58a244aea27b13626",
+    "event-c38ef25301844f438da91c001bf174f5",
+    "event-e9a5b6e99eae41dd8e0d5c905f79cf9a"
+  ],
+  "batch_event_id": "event-42cd55fc5edb4aa7b964d421c39e26c6",
+  "recorded_verdicts": {
+    "neutral": {
+      "F06": 2,
+      "tie": 1
+    },
+    "profile": {
+      "F06": 1,
+      "tie": 1
+    }
+  },
+  "profile_ids": [
+    "matthew_mandelkern",
+    "david_chalmers"
+  ],
+  "common_findings": "N1,N3,J2 give F06 a modest advantage; N2,J1 tie. All medium confidence. E047 more tightly separates valid actual consent from operative control over the recognition of refusal; F06 develops preparation, mandate-sensitive discretion and repair. No central conditional inference is shown false. Priority remains unestablished.",
+  "remaining_issues": {
+    "E047": "Explicit referral promises make the central case clear; less explicit claims of submission and mixed readiness delays need independent interpretation. Later informed ratification can remove a personal remedy while the historical procedure still retained discretion. Do not infer invalid actual consent.",
+    "F06": "A genuinely protected practical reservation must be established independently; ambiguity or temporary status alone is insufficient. Proportionate preparation under competing costs, the extra weight of a breach-specific repair reason beyond continuing compliance, and explicit retrospective ratification remain open."
+  },
+  "coordinator_text_check": "F06 section8 distinguishes preserving services from restoring reserved authority, and allows independently justified later authorization to end the reservation. Mere continuation cannot establish earlier compliance. A separate account of retrospective ratification is not supplied; do not describe all past moral questions as settled.",
+  "decision": "Three preferences and two ties support a modest F06 advantage, not automatic selection or rejection of E047. Neutral and profile ties remain visible."
+}

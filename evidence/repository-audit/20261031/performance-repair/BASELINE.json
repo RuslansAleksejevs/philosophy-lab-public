@@ -1,0 +1,41 @@
+{
+  "schema": "collector-performance-candidate-baseline.v1",
+  "production_changed": false,
+  "files": [
+    {
+      "path": "scripts/collector.py",
+      "sha256": "c0ff12e7b10f7c7fe8f13da3c3d27cc1009b0e7a707073e2495856fea2fc755b",
+      "bytes": 43143
+    },
+    {
+      "path": "scripts/collector_source.py",
+      "sha256": "5ff57125ad09caf2d4d121cc15075ed5668bcf875016093808fa4a0a36bf1ffd",
+      "bytes": 26248
+    },
+    {
+      "path": "scripts/collector_safety.py",
+      "sha256": "c5bb38c2ac923ddd2d1f23c46af340b812b6bc33c0f685eed2a479753a193db6",
+      "bytes": 2275
+    },
+    {
+      "path": "scripts/capture_codex.py",
+      "sha256": "26c6d6781df7e9e02a4c4258c699e3fb798618e6b4815ff3431b23c31399f2c7",
+      "bytes": 48221
+    },
+    {
+      "path": "scripts/codex_rollout.py",
+      "sha256": "541e2506db54b1d8f332bdc14dc7eb4480f9640617ddc77acc7eab752ffdea5e",
+      "bytes": 7213
+    },
+    {
+      "path": "scripts/research_archive.py",
+      "sha256": "a4fae709bd66d0596b31f1e724ba232699c3a14711b64edd9f1b2754ce27bd85",
+      "bytes": 42895
+    },
+    {
+      "path": "scripts/collector_views.py",
+      "sha256": "7244cf0cd8e3fec51cf46a60c43b0defd32d99ad31b04e5ff77294bd445e3a84",
+      "bytes": 25608
+    }
+  ]
+}

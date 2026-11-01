@@ -1,0 +1,202 @@
+#!/usr/bin/env python3
+"""Read-only preflight; --save writes exclusive local evidence, never a service/archive."""
+from pathlib import Path
+import argparse
+import collections
+import datetime as dt
+import hashlib
+import importlib.util
+import json
+import os
+import re
+import subprocess
+import sys
+
+sys.dont_write_bytecode = True
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[3]
+HISTORY = HERE.parent
+PRIOR = HISTORY / 'service-recovery-plan/service-recovery-execution'
+PROBE = HISTORY / 'service-recovery-plan/probe_first_poll_v2.py'
+PROBE_SHA = 'c345be22562b29a171c016544e719233f7574333789fdc5a134dbc43bb967eab'
+OLD_HELPER = HISTORY / 'service-recovery-execution/prepare_baseline.py'
+OLD_HELPER_SHA = '748a0fb2d75b62f672b8d41b8a8f56918f00b80eb4390d6f8949b5a8f3133d1d'
+BASELINE_SHA = 'a78c8d0736f0987e0d943cb78afc763fa613cacca2a1b8c046dab64bb7105665'
+CONTRACT_SHA = 'bfb1069846c94bc1755b90cf5fe5a305f5767a388c6a4c43d88524310ace0443'
+STOP_SHA = '5bd5ebd1de8e5e3971ff66358ffd9dc683e4f43eecc1ec7d7468e34b34a49ed5'
+CLOSED_PIDS = (40522, 39883, 40256)
+
+
+def need(value, message):
+    if not value:
+        raise ValueError(message)
+
+
+def sha(raw):
+    return hashlib.sha256(raw).hexdigest()
+
+
+def load_pinned(path, digest, name):
+    raw = path.read_bytes()
+    need(sha(raw) == digest and not any(p.is_symlink() for p in (path, *path.parents)), 'Reviewed helper changed')
+    spec = importlib.util.spec_from_file_location(name, path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def absent(result):
+    return result.returncode == 1 and not result.stdout.strip() and not result.stderr.strip()
+
+
+def require_stopped():
+    proofs = []
+    for pid in CLOSED_PIDS:
+        result = subprocess.run(['/bin/ps', '-p', str(pid), '-o', 'pid='], capture_output=True, text=True)
+        need(absent(result), 'Closed process absence not proven')
+        proofs.append({'pid': pid, 'returncode': result.returncode})
+    service = 'gui/' + str(os.getuid()) + '/org.philosophylab.collector'
+    result = subprocess.run(['/bin/launchctl', 'print', service], capture_output=True, text=True)
+    need(result.returncode == 113 and not result.stdout.strip()
+         and 'Could not find service "org.philosophylab.collector"' in result.stderr,
+         'Launchd service absence not proven')
+    return {'closed_processes': proofs, 'launchd_returncode': result.returncode,
+            'launchd_stderr_sha256': sha(result.stderr.encode())}
+
+
+def check_prior(baseline, stop):
+    need(stop.get('status') == 'PRIOR_COLLECTOR_ATTEMPT_STOPPED' and stop.get('pid') == 40522
+         and type(stop.get('command_exit_code')) is int and stop['command_exit_code'] == 0
+         and stop.get('successful_stop_commands') == 1, 'Wrong prior attempt stop')
+    proof = stop.get('process_exit_proof', {})
+    need(proof.get('returncode') == 1 and proof.get('stdout') == '' and proof.get('stderr') == '',
+         'Prior process exit proof missing')
+    need(stop['archive_frontier']['sequence'] >= baseline['archive_sequence'], 'Archive frontier regressed')
+    need(not stop.get('archive_temp_metadata'), 'Prior canonical temporary files require explicit review')
+
+
+def check_frontier(stop, sequence, event, raw):
+    expected = stop['archive_frontier']
+    need(sequence == expected['sequence'] and event['id'] == expected['event_id']
+         and event['sha256'] == expected['sha256'] and sha(raw) == expected['file_sha256'],
+         'Canonical frontier changed after reviewed stop')
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--save', action='store_true')
+    args = parser.parse_args()
+    probe = load_pinned(PROBE, PROBE_SHA, 'recovery_successor_probe')
+    old = load_pinned(OLD_HELPER, OLD_HELPER_SHA, 'recovery_original_baseline_checks')
+    contract_raw = probe.read(HERE / 'CONTRACT.json')
+    need(sha(contract_raw) == CONTRACT_SHA, 'Expected contract changed')
+    contract = probe.strict(contract_raw)
+    for name, digest in contract['files'].items():
+        need(sha(probe.read(ROOT / name)) == digest, 'Reviewed candidate is not installed exactly')
+    baseline_raw = probe.read(PRIOR / 'BASELINE.json')
+    need(sha(baseline_raw) == BASELINE_SHA, 'Historical baseline changed')
+    baseline = probe.strict(baseline_raw)
+    stop_raw = probe.read(HERE / 'prior-attempt/STOP_RECEIPT.json')
+    need(sha(stop_raw) == STOP_SHA, 'Prior stop receipt changed')
+    stop = probe.strict(stop_raw)
+    check_prior(baseline, stop)
+    prior_evidence = {}
+    for descriptor in stop['previous_evidence']:
+        raw = probe.read(ROOT / descriptor['path'])
+        need(sha(raw) == descriptor['sha256'] and len(raw) == descriptor['bytes'], 'Prior attempt evidence changed')
+        prior_evidence[descriptor['path']] = raw
+    if not args.save:
+        print(json.dumps({'status': 'PREPARED_INSTALLED_PINS_MATCH_NO_BASELINE_SAVED',
+                          'expected_signature': contract['expected_signature'],
+                          'service_actions': 0, 'canonical_writes': 0}))
+        return
+    process_proof = require_stopped()
+    run = ROOT / 'runs/deep-verification-20261031'
+    closure_raw = probe.read(run / 'FINAL_RECEIPT.json')
+    need(sha(closure_raw) == baseline['closure_receipt_sha256'], 'Scientific closure changed')
+    closure = probe.strict(closure_raw)
+    rows, receipt_raws = {}, {}
+    for entry in baseline['accepted_jobs']:
+        jid = entry['job_id']
+        raw = probe.read(run / 'results' / jid / 'ARCHIVE_RECEIPT.json')
+        need(sha(raw) == entry['receipt_sha256'], 'Accepted receipt changed')
+        rows[jid], receipt_raws[jid] = probe.strict(raw), raw
+    sessions, ids = old.receipt_sessions(rows)
+    need(sessions == baseline['required_sessions'], 'Required twenty-one sessions changed')
+    sys.path.insert(0, str(ROOT / 'scripts'))
+    from research_archive import _check_event, canonical
+    event_dir = ROOT / 'research/archive/events'
+
+    def event_at(sequence):
+        raw = probe.read(event_dir / f'{sequence:012d}.json')
+        event = probe.strict(raw)
+        _check_event(event)
+        need(canonical(event) == raw and event['sequence'] == sequence, 'Noncanonical event bytes')
+        return event, raw
+
+    closure_event, _ = event_at(baseline['archive_sequence'])
+    need(closure_event['sha256'] == baseline['archive_sha256'], 'Historical closure event changed')
+    old.check_closure(closure, closure_event, ids)
+    for entry in baseline['accepted_jobs']:
+        descriptor = entry['canonical_event']
+        event, raw = event_at(descriptor['sequence'])
+        need(event['sha256'] == descriptor['event_sha256'] and sha(raw) == descriptor['file_sha256'],
+             'Historical accepted event changed')
+        old.check_accepted(rows[entry['job_id']], event)
+    sequence = max(int(e.name[:-5]) for e in os.scandir(event_dir) if re.fullmatch(r'\d{12}\.json', e.name))
+    event, frontier_raw = event_at(sequence)
+    check_frontier(stop, sequence, event, frontier_raw)
+    for directory in (event_dir, ROOT / 'research/archive/objects'):
+        need(not any(e.name.startswith('.tmp-') for e in os.scandir(directory)),
+             'Canonical temporary file requires review; never auto-delete')
+    paths = ('collector/runtime/status.json', 'collector/runtime/cursor-cache.json',
+             'collector/org.philosophylab.collector.plist')
+    snapshots = {name: probe.read(ROOT / name) for name in paths}
+    need(probe.strict(snapshots[paths[0]]).get('status') == 'STOPPED', 'Collector stop metadata changed')
+    cache = probe.strict(snapshots[paths[1]])
+    require_stopped()
+    need(not (event_dir / f'{sequence+1:012d}.json').exists()
+         and probe.read(event_dir / f'{sequence:012d}.json') == frontier_raw, 'Frontier moved during baseline')
+    for name, raw in snapshots.items():
+        need(probe.read(ROOT / name) == raw, 'Runtime snapshot changed')
+    for name, digest in contract['files'].items():
+        need(sha(probe.read(ROOT / name)) == digest, 'Installed source changed during baseline')
+    need(probe.read(run / 'FINAL_RECEIPT.json') == closure_raw
+         and probe.read(HERE / 'CONTRACT.json') == contract_raw
+         and probe.read(HERE / 'prior-attempt/STOP_RECEIPT.json') == stop_raw
+         and probe.read(PRIOR / 'BASELINE.json') == baseline_raw, 'Bound inputs changed')
+    for name, raw in prior_evidence.items():
+        need(probe.read(ROOT / name) == raw, 'Historical attempt changed')
+    for jid, raw in receipt_raws.items():
+        need(probe.read(run / 'results' / jid / 'ARCHIVE_RECEIPT.json') == raw, 'Accepted receipt changed')
+    result = {
+        'schema': 'collector-recovery-baseline.v2',
+        'archive_sequence': sequence, 'archive_event_id': event['id'], 'archive_sha256': event['sha256'],
+        'started_after': dt.datetime.now(dt.timezone.utc).isoformat(),
+        'required_sessions': sessions, 'contract_sha256': CONTRACT_SHA, 'code_files': contract['files'],
+        'baseline_helper_sha256': sha(Path(__file__).read_bytes()), 'probe_sha256': PROBE_SHA,
+        'closed_writer_pids': list(CLOSED_PIDS), 'process_exit_proof': process_proof,
+        'closure_receipt_sha256': sha(closure_raw),
+        'scientific_closure': {'sequence': baseline['archive_sequence'], 'event_id': closure_event['id'],
+                               'event_sha256': closure_event['sha256']},
+        'accepted_jobs': baseline['accepted_jobs'],
+        'prior_baseline_sha256': BASELINE_SHA, 'prior_stop_sha256': STOP_SHA,
+        'prior_attempt_evidence': stop['previous_evidence'],
+        'snapshot_hashes': {name: sha(raw) for name, raw in snapshots.items()},
+        'cursor_counts_by_signature': dict(collections.Counter(c.get('signature', 'MISSING') for c in cache.values())),
+        'canonical_temporary_files': 0,
+        'runtime_temporaries_preserved': stop['runtime_temp_metadata'],
+        'boundary': 'Second separately recorded recovery attempt. Direct exact historical closure/twenty acceptance metadata checks; current collector frontier may differ from closure. No full audit, native body read, service action, canonical write or compatibility rule.'}
+    out = HERE / 'execution'
+    out.mkdir(exist_ok=False)
+    with (out / 'BASELINE.json').open('x') as stream:
+        json.dump(result, stream, indent=2)
+        stream.write('\n')
+    print(json.dumps({'status': 'SUCCESSOR_BASELINE_SAVED_SERVICE_NOT_STARTED',
+                      'archive_sequence': sequence, 'required_sessions': len(sessions),
+                      'baseline_sha256': sha((out / 'BASELINE.json').read_bytes()),
+                      'service_actions': 0, 'canonical_writes': 0}))
+
+
+if __name__ == '__main__':
+    main()

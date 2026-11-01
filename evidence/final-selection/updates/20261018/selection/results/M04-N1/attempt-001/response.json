@@ -1,0 +1,59 @@
+{
+  "review_id": "M04-N1",
+  "manuscript_id": "M04",
+  "profile_id": "neutral",
+  "read_complete": true,
+  "thesis": "Preserving a settled conclusion’s present justification can destroy information needed for informed future revision. Foreseeable loss of that capacity supplies a defeasible epistemic reason for retention; a retention requirement additionally depends on a continuing epistemic aim and a principle against recognized, costless informational deterioration.",
+  "contribution": "The manuscript offers a credible, modest framework for evaluating deliberate compression prospectively. Its useful result connects revision-relative informational sufficiency with the responsibility of whoever controls preservation, while allowing later beliefs based on the diminished record to remain rational. The distinction between permission to believe, stop investigating, and discard information gives the formal example philosophical relevance. The informational phenomenon and mathematical machinery are acknowledged antecedents; the contribution primarily consists in their organized normative application.",
+  "argument_map": [
+    "In §1, source identity leaves the initial posterior unchanged at 0.9 but changes the posterior warranted after a source audit. Retention permits assessment at 0.5 or 1; deletion requires 0.75 in the mixed-soundness case. These calculations follow from the stipulated independence and symmetry assumptions.",
+    "Section 2 distinguishes present sufficiency from sufficiency conditional on specified future observations. Its merging criterion correctly characterizes posterior reproduction: records grouped together cannot support different posteriors under the same compatible later observation.",
+    "Section 3 connects that criterion to expected accuracy. The squared-error identity is valid, including conditional on the original record, and the example’s expected errors of 0.05 and 0.07 are consistent. The advantage concerns expectation under the stipulated model, not improvement in every realized world.",
+    "Given an epistemically warranted background model and an accuracy-directed aim, avoidable expected deterioration plausibly supplies an epistemic reason to retain the relevant distinction. This evaluates the preservation decision without condemning subsequent updating on the surviving evidence.",
+    "An obligation requires the additional anti-loss principle. The manuscript supports it by removing ordinary burdens that justify satisficing, but expressly allows disagreement with the principle. Sections 5–7 restrict the result to anticipated correction practices, controllable retention, and relevant costs, while explaining its application to shared summaries."
+  ],
+  "strongest_merit": {
+    "location": "§3, paragraphs beginning “There is a general connection” and “This standard conditional-variance identity”; §4, paragraph beginning “The contrast is especially clear”.",
+    "reason": "The formal result supports a precise philosophical distinction: correct updating after deletion does not settle whether deletion was responsibly chosen. The recipient case makes that distinction especially clear because the recipient can be entirely blameless while the earlier preservation choice remains assessable. This supplies a useful evaluative target without relying on a disputed historical account of present justification."
+  },
+  "concerns": [
+    {
+      "severity": "open",
+      "kind": "inference",
+      "location": "§3, paragraph beginning “Why accept this principle instead of unrestricted satisficing?”",
+      "excerpt": "It simply makes the continuing aim harder to serve.",
+      "reason": "Removing costs establishes the attractiveness of retention more directly than its obligatoriness. An agent could maintain a comparative concern for informed accuracy while denying that every recognized, costless improvement is required. Such an agent need not have only the fixed-threshold aim excluded later. The stronger conclusion therefore remains dependent on a substantive instrumental norm, whose rationale is plausible but not decisive.",
+      "text_response": "The manuscript explicitly separates reasons from requirements, excludes burdens and abandoned aims, and acknowledges that a thoroughgoing satisficer can reject its principle. It also argues that deletion frustrates an ongoing concern without freeing resources for another purpose. These replies prevent an illicit deduction of obligation from probability theory, but leave the principle contestable.",
+      "discriminating_check": "Consider an agent with an ongoing accuracy aim who recognizes an arbitrarily small, costless improvement but regards both policies as permissible. Explain what makes this position incoherent or epistemically impermissible beyond its disagreement with the proposed principle."
+    },
+    {
+      "severity": "minor",
+      "kind": "scope",
+      "location": "§5, paragraph beginning “If such a challenge is foreseeable”; §6, paragraph beginning “There is no context-free solution”.",
+      "excerpt": "the agent should assess preservation against the relevant model alternatives as well",
+      "reason": "The clean example supplies a trusted model and a specified audit. Outside it, identifying relevant model alternatives and future challenges can constitute much of the preservation problem. The framework precisely diagnoses loss once these inputs are fixed, but offers less guidance for selecting them. This limits its practical reach and significance without refuting its explicitly restricted result.",
+      "text_response": "Section 5 recognizes that a response table may discard information needed to challenge the model. Section 6 rejects merely imaginable challenges, identifies correction practices as grounds for anticipation, and permits tolerances and competing preservation standards. The author correctly denies that a universal decision procedure is necessary.",
+      "discriminating_check": "Work through two equally costly summaries under two plausible source-dependence models within one correction practice. Determine whether the framework supports a stable preservation judgment or requires substantive additional assumptions about which challenges deserve consideration."
+    }
+  ],
+  "scores": {
+    "overall": 3,
+    "argument": 3,
+    "significance": 3,
+    "originality": null
+  },
+  "originality_limit": "The manuscript identifies close antecedents and carefully distinguishes its prospective evaluative target from their reported concerns. This supports a specific contribution claim, but does not establish historical novelty. Its useful synthesis is demonstrated internally; whether the same preservation norm or integration already exists cannot be determined from the supplied bibliography and descriptions alone.",
+  "recommendation": "borderline",
+  "reason_ru": [
+    "Эссе убедительно показывает: текущую уверенность можно сохранить, потеряв полезные данные для будущего пересмотра.",
+    "Полезный результат — различение разумности последующего убеждения и ответственности за прежнее удаление сведений.",
+    "Рекомендация пограничная: вклад содержательный, но ограниченный, а обязанность хранить данные обоснована слабее, чем польза их сохранения."
+  ],
+  "confidence": "medium",
+  "profile_basis": [],
+  "limits": [
+    "The complete supplied manuscript, including its bibliography, was read.",
+    "External source correctness and exhaustive novelty were not checked; cited works were not independently consulted.",
+    "The mathematical assessment concerns the manuscript’s stipulated finite probability model."
+  ]
+}

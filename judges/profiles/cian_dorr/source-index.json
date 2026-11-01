@@ -1,0 +1,50 @@
+{
+  "judge_id": "cian_dorr",
+  "created_at": "2026-10-07T10:35:22.230262+00:00",
+  "baseline_reuse": "Reported substantive claims/coverage are inherited, explicitly attributed to B0; no new full-paper claim.",
+  "sources": [
+    {
+      "source_id": "B0",
+      "title": "Inherited profile with exact substantive citations and historical coverage",
+      "url": null,
+      "path": "research/judges/20260912/profiles/cian_dorr-v1.md",
+      "sha256": "ab23dcf10e8304922e0ce27207b94e8c6faf0fa4ad9079a12c972c21984f6160",
+      "coverage": "full profile read; underlying cited papers not newly read except explicitly logged",
+      "accessed_at": "2026-10-07T10:35:22.230262+00:00",
+      "copy": "baseline-profile-20260912.md"
+    },
+    {
+      "source_id": "identity-web",
+      "title": "Author identity page",
+      "url": "https://pages.nyu.edu/dorr/",
+      "path": "research/judges/20261007/cian_dorr/sources/identity-web.json",
+      "sha256": "f704eac226d25cbc6a77723bad4ed00e12a63e2612997be12630d1d27ca861df",
+      "accessed_at": "2026-10-07T10:32:34.610Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "identity and research-interest statements only; bibliography is metadata"
+    },
+    {
+      "source_id": "T1",
+      "title": "Reading Writing the Book of the World",
+      "url": "https://pages.nyu.edu/dorr/papers/Sider.pdf",
+      "path": "research/judges/20261007/cian_dorr/sources/review-web.json",
+      "sha256": "6c97787533086675e60fe7404bd2b04302764f25a6ebadb2d79ace9b2dce423a",
+      "accessed_at": "2026-10-07T10:31:40.759Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "PDF pp. 1–2, lines 0–38; remainder exposed in extraction but not newly close-read"
+    },
+    {
+      "source_id": "search2-discovery",
+      "title": "search2-discovery",
+      "url": null,
+      "path": "research/judges/20261007/cian_dorr/sources/search2-discovery.json",
+      "sha256": "c70710327deee03fe873fb3a2ee91b50eb95935f6ba64aad6b4a5b93f4969e36",
+      "accessed_at": "2026-10-07T10:35:22.230262+00:00",
+      "capture_type": "web_tool_search_discovery_not_full_reading",
+      "coverage": "metadata/search discovery",
+      "read_locations": "discovery/exposure only; not a basis for full-source reading"
+    }
+  ]
+}

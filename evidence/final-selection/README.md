@@ -1,0 +1,22 @@
+[← Current selection](../../docs/selection.md) · [Evidence index](../README.md)
+
+# Selection evidence
+
+**2026-10-31 evidence completion:** the [full preparation supplement](updates/20261031/README.md) adds all 869 accepted preparation files, its receipt, and 12 later administrative records. This changes the exported evidence, not the selected essays or their judgments.
+
+**Current accepted reading selection: 10 essays, recorded 2026-10-19.** The [new manifest](updates/20261018/manifest.json) identifies exact files, hashes, and accepted source records.
+
+| Record | Scope |
+| --- | --- |
+| [Accepted workflow](workflow/decision.json) | The sequential 22 → 10 → 3 route, two reserves, and no fixed calendar or prescribed chat division. |
+| [Initial inventory](initial/decisions.json) | Historical 13/8/1 decision, retained unchanged. |
+| [Corrected inventory](current/decisions.json) | Historical 13/9 correction. This folder name belongs to the older export; it is not the latest selection. |
+| [E036 decision](updates/20261018/e036/DECISIONS.json) | Comparison R1 chosen as the working version; original and disagreements preserved. |
+| [Preparation](updates/20261018/preselection/DECISIONS.json) | All 22 carried into comparison after the bounded tasks; explicit limitations retained. |
+| [New accepted decisions](../../evidence/final-selection/updates/20261018/selection/DECISIONS.json) | Choices for the current reading package. |
+| [Current exact versions](updates/20261018/manifest.json) | All 22 comparison versions and the accepted reading subset. |
+| [New visible fragments](../../logs/selection-20261018/fragments/manifest.json) | Explicitly selected human instructions and any separately accepted AI final responses. |
+
+Earlier author R1 files, blinded comparison copies, and later revisions are distinct artifacts. None replaces an original. The [English guide](../../docs/selection.md) explains the current choices; Russian source reports preserve the working record.
+
+Completion is bounded to the accepted package. Earlier capture gaps remain in the record; this is not a claim that the complete history of either provider was captured. Exact visible fragments preserve selected text and its source hashes without exporting full native envelopes or hidden reasoning.

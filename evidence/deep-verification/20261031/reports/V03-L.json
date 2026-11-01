@@ -1,0 +1,533 @@
+{
+  "audit_id": "V03-L",
+  "manuscript_id": "V03",
+  "role": "literature",
+  "manuscript_sha256": "e6badc41a13f407d5ce9660772ff018d0ebbf109f5c8570a0659c612cb217a2d",
+  "read_complete": true,
+  "thesis": "Preserving the present supported probability of a fixed proposition does not necessarily preserve accuracy after further evidence arrives. A source distinction can affect the interpretation of that evidence while leaving the present probability unchanged. Consequently, perfect fit to surviving evidence does not exhaust the assessment of a retention policy, provided foreseeable, costless improvements in expected credal accuracy count in favor of inquiry methods. This is a conditional claim about policy assessment, not a demand to disregard surviving evidence or a refutation of time-slice rationality.",
+  "claimed_contribution": "A controlled sensor example combines an unchanged present credence, a fixed proposition, a known future inspection, and faultless evidence-relative probabilities under both retention policies. Sections 3–5 use established mathematics to distinguish information preservation from correct updating and to isolate a limitation of an explanation based exclusively on evidential fit. The manuscript expressly disclaims a new information-loss theorem, a new sufficiency theorem, and established priority for its combination of conditions.",
+  "assessment": "NO_MAJOR_DEFECT_FOUND",
+  "findings": [
+    {
+      "id": "L1",
+      "severity": "minor",
+      "manuscript_location": "§3, “Why the information loss survives faultless updating”: “The normative and representational antecedents are close”; E[(r-X)^2] - E[(q-X)^2] = E[(q-r)^2]. Also §2, “A label with delayed value for one question”: “Immediately after erasure, the credence in p remains 0.9.”",
+      "claim": "The literature discussion omits older, directly relevant treatments of complementary signals and forecast refinement.",
+      "analysis": "Börgers, Hernando-Veciana, and Krähmer give examples involving an otherwise useless decoding key and information about a forecaster’s qualifications. Chen and Waggoner provide a formal binary example in which either signal alone leaves the target probability unchanged, while their combination resolves it. Bröcker’s proper-score decomposition directly covers the expected-loss difference between appropriately related reliable forecasts. These are substantive predecessors to the mechanism, not merely similarly titled works. See [complementary-signal examples](https://www.cirje.e.u-tokyo.ac.jp/research/workshops/micro/micropaper10/micro0518.pdf), introduction, Examples 1–2; [Informational Substitutes](https://arxiv.org/pdf/1703.08636), Example 2.2.2 and §5.2; and [forecast refinement](https://arxiv.org/pdf/0806.0813), equations (13)–(15). The omission is a coverage gap. It does not contradict the manuscript’s explicit acknowledgement that the underlying distinction and mathematics are established.",
+      "status": "demonstrated",
+      "effect_on_conclusion": "The informational mechanism and loss identity cannot constitute the novel contribution. The conditional philosophical conclusion survives; the contribution remains the particular example and its explanatory use in distinguishing inquiry quality from evidential fit.",
+      "repair_conditions": "Include direct discussion of complementary signals and forecast refinement, specifying how the sensor construction and philosophical application differ. Preserve the existing disclaimers about theorem novelty and unestablished priority.",
+      "source_ids": [
+        "S10",
+        "S11",
+        "S12"
+      ]
+    }
+  ],
+  "surviving_contribution": "What remains is a specific philosophical application of established information comparisons. The sensor construction makes deletion immediately invisible for p, keeps both policies correct about all propositions relative to their respective information, and produces a later squared-loss difference of 0.01 without changing the question. It also separates that difference from classification performance and from misleading communication. Together with the explicit normative premise, this supplies a counterexample to the proposed deletion test. The opened predecessors establish the main ingredients, but I did not locate this exact sensor construction and philosophical treatment in them. That is a limited search result, not proof of priority.",
+  "remaining_questions": [
+    "§3 explicitly says that “priority for its combination of conditions is not established.” Whether the exact combination or sensor example has appeared elsewhere remains unresolved.",
+    "§1 introduces a “proposed answer,” and §5 declines to attribute fit-only completeness to Hedden. No independently defended historical proponent of the exact deletion test was established. Its status should remain a reconstructed temptation rather than an attributed doctrine.",
+    "§4’s premise that foreseeable accuracy improvement “counts in favor of a retention method” is a substantive normative commitment. The technical predecessors establish informational comparisons; they do not settle whether the resulting reason is fundamentally epistemic or instrumental. The manuscript correctly leaves that question open."
+  ],
+  "limitations": [
+    "The complete supplied manuscript, including its bibliography, was read. External sources were inspected at the locations listed below; this report does not claim complete readings of every external work.",
+    "All nine bibliography entries were identified, and their materially used passages were accessible in the cited author or repository versions. Publisher versions were not systematically collated against those versions.",
+    "The Aevyra page currently displays version 4.0 and 25 September 2026. I verified that displayed identification and its contents, not an independently archived publication history.",
+    "For Börgers, Hernando-Veciana, and Krähmer, the April 2010 working paper was opened and read selectively. Attempts to open the later publisher and Durham repository pages failed; substantive comparisons therefore refer to the working paper.",
+    "Blackwell’s 1951 and 1953 originals and DeGroot’s 1962 paper were sought, but attempted retrievals did not provide readable texts. They are not counted as read predecessors or used to establish substantive findings.",
+    "Several DOI endpoints and an initial PhilPapers PDF request failed. Accessible author texts and primary bibliographic records resolved the manuscript’s citation checks; the failures themselves are not evidence of citation errors.",
+    "The search covered several formulations and adjacent literatures but was finite. It cannot establish exhaustive originality or absence of further predecessors."
+  ],
+  "plain_summary_ru": [
+    "Существенных ошибок в проверенных ссылках и пересказах я не нашёл.",
+    "Основной механизм уже описан в работах о совместной пользе сигналов и точности прогнозов, но эти близкие источники не указаны.",
+    "Вклад текста остаётся в конкретном примере и его философском применении, а первенство этой комбинации условий не установлено."
+  ],
+  "novelty_status": "DISTINCT_REMAINDER_WITH_LIMITED_SEARCH",
+  "search_log": [
+    {
+      "query": "Bayesian forgetting current posterior sufficient future evidence conditional independence memory value information",
+      "purpose": "Search independently from the precise claim, before restricting attention to the bibliography.",
+      "result_summary": "Produced Bayesian updating and memory leads. No substantive attribution was based on snippets or secondary summaries."
+    },
+    {
+      "query": "\"The cost of remembering\" Pettigrew",
+      "purpose": "Locate and verify the cited normative predecessor.",
+      "result_summary": "Opened the author essay; inspected “Evaluating forgettings,” “The value of credences,” “The value of forgetting,” and “An example” (S04)."
+    },
+    {
+      "query": "\"Prediction Is Not a Sufficient Memory State\"",
+      "purpose": "Verify identity and compare the claimed prediction/continuation distinction.",
+      "result_summary": "Opened the arXiv HTML and version-specific abstract record; inspected the introduction and §9 (S09, S18)."
+    },
+    {
+      "query": "\"The Ledger of Will\" evidence revaluation",
+      "purpose": "Verify the cited representation criterion and provenance discussion.",
+      "result_summary": "Opened the specified manuscript page; inspected its version information, §§4.1–4.4, 6.2, and 6.4 (S08)."
+    },
+    {
+      "query": "Brian Hedden \"Mental Processes and Synchronicity\" pdf",
+      "purpose": "Recover the primary text after an initial direct-link failure.",
+      "result_summary": "Located an institutional record and the author’s publication links. Following the author link successfully retrieved the PDF (S03, S15, S20)."
+    },
+    {
+      "query": "Brian Hedden \"Time-Slice Rationality\" pdf",
+      "purpose": "Verify the original paper’s stated scope.",
+      "result_summary": "The PhilPapers PDF returned 403. The author-page link subsequently supplied the cited PDF; §1, note 3 was inspected (S02, S14, S20)."
+    },
+    {
+      "query": "\"value of information\" \"complements\" \"signals\" Blackwell",
+      "purpose": "Search adjacent terminology for information that becomes useful only in combination.",
+      "result_summary": "Located complementary-signals research. Opened the 2010 Börgers–Hernando-Veciana–Krähmer working paper and Chen–Waggoner’s full paper (S10, S11)."
+    },
+    {
+      "query": "\"information\" \"conditionally independent\" \"proper scoring\" DeGroot sufficiency",
+      "purpose": "Find formal predecessors connecting information, scoring rules, and independence.",
+      "result_summary": "Used as a broad discovery query; substantive formal comparisons were established through subsequent opened texts, particularly S11–S13."
+    },
+    {
+      "query": "\"sufficient statistic\" \"side information\" Bayesian posterior",
+      "purpose": "Check statistical terminology for a summary that fails after additional evidence.",
+      "result_summary": "Produced source-coding and sufficiency leads, but no additional source from this query was treated as read or used as evidence."
+    },
+    {
+      "query": "\"Hedden\" \"Mental Processes\" \"15\"",
+      "purpose": "Locate the specifically cited footnote.",
+      "result_summary": "The definitive check used the recovered author PDF, §4, note 15 (S03)."
+    },
+    {
+      "query": "\"Hedden\" \"Synchronicity\" \"pdf\" -site:philpeople.org -site:wikipedia.org",
+      "purpose": "Seek a primary full-text route rather than relying on summaries.",
+      "result_summary": "The author publication page provided the successful route. Notes 4 and 13–15 were then read directly (S03, S20)."
+    },
+    {
+      "query": "\"DeGroot\" \"Uncertainty, Information, and Sequential Experiments\" pdf",
+      "purpose": "Check the older expected-information literature.",
+      "result_summary": "Located bibliographic leads. The attempted primary endpoint did not expose readable text, so no substantive result was attributed to it (S23)."
+    },
+    {
+      "query": "\"Blackwell\" \"Equivalent Comparisons of Experiments\" pdf",
+      "purpose": "Seek the original experiment-comparison result.",
+      "result_summary": "Located the Project Euclid endpoint. Its HTML and PDF routes returned only an iframe placeholder (S21)."
+    },
+    {
+      "query": "\"Strictly Proper Scoring Rules, Prediction, and Estimation\" pdf",
+      "purpose": "Verify the scoring-rule terminology and quadratic-loss background.",
+      "result_summary": "The first author-hosted URL timed out. A later alternate author-hosted URL supplied the full paper; §3.1 and Table 1 were inspected (S13)."
+    },
+    {
+      "query": "\"Uncertainty, Information, and Sequential Experiments\" DeGroot 1962",
+      "purpose": "Follow up the unavailable classical source.",
+      "result_summary": "Located publication details and a primary endpoint, but no readable original text was retrieved (S23)."
+    },
+    {
+      "query": "\"Memory, belief and time\" \"1125250\"",
+      "purpose": "Cross-check the Weatherson bibliography entry.",
+      "result_summary": "The eventual publisher record confirmed the DOI, volume, issue, year, and pages; the substantive check used the author text (S07, S17)."
+    },
+    {
+      "query": "\"Forget and Forgive\" \"645\" \"677\"",
+      "purpose": "Check the Dogramaci entry’s identity and pagination.",
+      "result_summary": "The opened journal-format author PDF independently supplied the title, DOI, volume/issue information, and cited printed pages (S01)."
+    },
+    {
+      "query": "\"Memory, belief and time\" Weatherson Cambridge",
+      "purpose": "Find a primary publisher record.",
+      "result_summary": "Opened Cambridge’s article page and inspected its bibliographic information (S17)."
+    },
+    {
+      "query": "\"Reliability, sufficiency, and the decomposition of proper scores\"",
+      "purpose": "Test a closer formal connection with calibration and refinement.",
+      "result_summary": "Opened Bröcker’s arXiv paper and record; inspected §§2–3, equations (13)–(15), and the associated discussion (S12, S19)."
+    },
+    {
+      "query": "\"Gneiting2007jasa.pdf\"",
+      "purpose": "Recover an accessible primary copy after timeouts.",
+      "result_summary": "The alternate URL without /people/ successfully opened the author-hosted paper (S13)."
+    },
+    {
+      "query": "\"A Reply to the Synchronist\" \"859\"",
+      "purpose": "Cross-check Podgorski’s publication details.",
+      "result_summary": "Located bibliographic leads; a subsequent publisher search and open verified the entry (S16)."
+    },
+    {
+      "query": "site:academic.oup.com/mind \"A Reply to the Synchronist\"",
+      "purpose": "Verify Podgorski through a primary publication record.",
+      "result_summary": "Opened the article record, which redirected to the publisher’s minimal page and confirmed the DOI and pagination (S16)."
+    },
+    {
+      "query": "\"When are signals complements or substitutes\" Borgers pdf 2013",
+      "purpose": "Seek the published version of the independent predecessor.",
+      "result_summary": "Publisher and Durham repository attempts failed. The already opened April 2010 working paper remains the evidence used (S10)."
+    },
+    {
+      "query": "\"Comparison of Experiments\" Blackwell 1951 pdf berkeley",
+      "purpose": "Try an institutional route to the classical original.",
+      "result_summary": "Located Berkeley’s digitized original, but opening its PDF returned 403 (S22)."
+    },
+    {
+      "query": "Direct opens of the nine manuscript-linked primary texts and bibliographic DOI endpoints",
+      "purpose": "Audit every bibliography entry and materially used attribution.",
+      "result_summary": "All nine cited texts became accessible in author or repository versions (S01–S09). Initial Hedden PDF failures were resolved through author links. Direct DOI attempts for Dogramaci, both Hedden papers, Podgorski, and Weatherson failed; primary records or journal-format texts supplied the necessary identity checks. https://philpapers.org/archive/HEDTR.pdf also returned 403."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "citation": "Sinan Dogramaci. 2015. “Forget and Forgive: A Practical Approach to Forgotten Evidence.” Ergo 2(26): 645–677.",
+      "url": "https://www.sinandogramaci.net/Sinan_Dogramaci/_____files/Dogramaci,%20Forget%20and%20Forgive.pdf",
+      "primary_source": true,
+      "access_level": "Full journal-format PDF available.",
+      "locations_read": "Title and publication information; §3.3, printed pp. 670–671; immediately preceding discussion on p. 669.",
+      "relevant_result": "Distinguishes harmful forgetfulness and unreliable formation from the rationality of the surviving belief, using epistemic evaluation in a restricted sense."
+    },
+    {
+      "id": "S02",
+      "citation": "Brian Hedden. 2015. “Time-Slice Rationality.” Mind 124(494): 449–491; author manuscript.",
+      "url": "https://11243971-2fc2-4a01-b59f-e247f0f3c35e.filesusr.com/ugd/0f1e81_e6793e3d37ee403e9af45b0f45805987.pdf",
+      "primary_source": true,
+      "access_level": "Full author PDF retrieved through the author’s publication link.",
+      "locations_read": "§1, especially note 3, author-PDF p. 3; synchronic conditionalization discussion and note 33, author-PDF p. 17.",
+      "relevant_result": "Explicitly distinguishes the paper’s central concern with what to believe from basing and agent assessment."
+    },
+    {
+      "id": "S03",
+      "citation": "Brian Hedden. 2016. “Mental Processes and Synchronicity.” Mind 125(499): 873–888; author manuscript.",
+      "url": "https://11243971-2fc2-4a01-b59f-e247f0f3c35e.filesusr.com/ugd/0f1e81_66deef15afa74c87be6935ee9f277371.pdf",
+      "primary_source": true,
+      "access_level": "Full author PDF retrieved through the author’s publication link.",
+      "locations_read": "§2 and note 4, author-PDF pp. 3–5; §4 and notes 13–15, pp. 8–11.",
+      "relevant_result": "Supports the manuscript’s account of derivative fit assessment and its qualifications concerning instrumental assessment, truth, and evidence possession."
+    },
+    {
+      "id": "S04",
+      "citation": "Richard Pettigrew. 2025. “The cost of remembering.” Author essay, 3 February.",
+      "url": "https://richardpettigrew.substack.com/p/the-cost-of-remembering",
+      "primary_source": true,
+      "access_level": "Public essay text available.",
+      "locations_read": "“Evaluating forgettings,” “The value of credences,” “The value of forgetting,” “An example,” and opening of “The bigger picture.”",
+      "relevant_result": "Evaluates forgetting through expected credal value and retention costs while allowing probabilities conditional on currently possessed evidence."
+    },
+    {
+      "id": "S05",
+      "citation": "Abelard Podgorski. 2016. “A Reply to the Synchronist.” Mind 125(499): 859–871; author manuscript.",
+      "url": "https://www.abelardpodgorski.com/uploads/5/4/0/0/54000997/a_reply_to_the_synchronist.pdf",
+      "primary_source": true,
+      "access_level": "Full author PDF available.",
+      "locations_read": "Introduction; §3, author-PDF pp. 3–4; §8, pp. 12–13.",
+      "relevant_result": "Challenges exhaustive attitude-based assessment and raises the difficulty of cognitive behavior changing its own evidential standard."
+    },
+    {
+      "id": "S06",
+      "citation": "Wolfgang Schwarz. 2025. “Dynamic Rationality and Disproportionate Belief.” Author manuscript, June.",
+      "url": "https://www.umsu.de/papers/disproportionate.pdf",
+      "primary_source": true,
+      "access_level": "Full author PDF available.",
+      "locations_read": "Title/date, abstract and introduction; §8, pp. 15–18, especially p. 17.",
+      "relevant_result": "Defends departures from proportionality under deteriorating evidence and allows resource-sensitive justification for forgetting."
+    },
+    {
+      "id": "S07",
+      "citation": "Brian Weatherson. 2015. “Memory, Belief and Time.” Author HTML text.",
+      "url": "https://brian.weatherson.org/html-papers/posts/2021-02-03-memory-belief-and-time/",
+      "primary_source": true,
+      "access_level": "Full author HTML text available.",
+      "locations_read": "Displayed date and publication statement; introduction; “Evidentialism.”",
+      "relevant_result": "Defends historical evidence and distinguishes the rationality of attitudes from the wisdom of agents."
+    },
+    {
+      "id": "S08",
+      "citation": "Aevyra. 2026. The Ledger of Will: Evidence, Revaluation, and the Preservation of Revisable Agency. Displayed version 4.0, 25 September.",
+      "url": "https://aevyra.github.io/ledger-of-will/",
+      "primary_source": true,
+      "access_level": "Public manuscript HTML available; historical version provenance not independently authenticated.",
+      "locations_read": "Header and abstract; §§4.1–4.4, 6.2, and 6.4.",
+      "relevant_result": "States a factorization criterion for future targets, applies it to source-sensitive revision, and discusses equivalent statistics and explicit degradation."
+    },
+    {
+      "id": "S09",
+      "citation": "Robert Jenkinson Alvarez. 2026. “Prediction Is Not a Sufficient Memory State.” arXiv:2610.13881v1.",
+      "url": "https://arxiv.org/html/2610.13881v1",
+      "primary_source": true,
+      "access_level": "Full arXiv HTML available.",
+      "locations_read": "Title/version, abstract, introduction, and §9, especially “Future distinguishability is established” and scope qualifications.",
+      "relevant_result": "Separates present prediction from continuation requirements and explicitly acknowledges earlier future-distinguishability approaches."
+    },
+    {
+      "id": "S10",
+      "citation": "Tilman Börgers, Angel Hernando-Veciana, and Daniel Krähmer. “When Are Signals Complements or Substitutes?” Working paper, 2 April 2010.",
+      "url": "https://www.cirje.e.u-tokyo.ac.jp/research/workshops/micro/micropaper10/micro0518.pdf",
+      "primary_source": true,
+      "access_level": "Full working-paper PDF available. Later publisher and Durham repository routes were inaccessible.",
+      "locations_read": "Title/date; introduction, Examples 1–2, printed pp. 1–2; formal examples and opening of §3, printed pp. 8–9.",
+      "relevant_result": "Provides substantive examples of information whose usefulness depends on another signal, including information about source quality."
+    },
+    {
+      "id": "S11",
+      "citation": "Yiling Chen and Bo Waggoner. Informational Substitutes. Full version of FOCS 2016 paper, arXiv:1703.08636, March 2017.",
+      "url": "https://arxiv.org/pdf/1703.08636",
+      "primary_source": true,
+      "access_level": "Full PDF and arXiv abstract record opened.",
+      "locations_read": "Example 2.2.2, printed p. 9; §5.2, Proposition 5.2.1 and its quadratic-score corollary, printed pp. 38–39; §5.3.",
+      "relevant_result": "Formalizes complementary information for fixed decision problems, including unchanged individual posteriors and quadratic scoring."
+    },
+    {
+      "id": "S12",
+      "citation": "Jochen Bröcker. Reliability, Sufficiency, and the Decomposition of Proper Scores. arXiv:0806.0813v2, revised 1 December 2008; related journal DOI 10.1002/qj.456.",
+      "url": "https://arxiv.org/pdf/0806.0813",
+      "primary_source": true,
+      "access_level": "Full PDF available; arXiv version history separately checked.",
+      "locations_read": "Introduction; §§2–3, especially equations (13)–(15), footnote 5, and discussion on printed pp. 6–8.",
+      "relevant_result": "Separates reliability from resolution and relates sufficient, reliable forecasts through an expected-divergence identity."
+    },
+    {
+      "id": "S13",
+      "citation": "Tilmann Gneiting and Adrian E. Raftery. 2007. “Strictly Proper Scoring Rules, Prediction, and Estimation.” JASA 102(477): 359–378.",
+      "url": "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf",
+      "primary_source": true,
+      "access_level": "Full author-hosted PDF available through this alternate URL.",
+      "locations_read": "Introduction; §3.1, Example 1, p. 363; binary-score Table 1, p. 365.",
+      "relevant_result": "Confirms strict propriety, the quadratic/Brier score, its squared-distance divergence, and the distinction from zero–one scoring."
+    },
+    {
+      "id": "S14",
+      "citation": "Australian National University publication record: “Time-slice rationality.”",
+      "url": "https://researchportalplus.anu.edu.au/en/publications/time-slice-rationality/",
+      "primary_source": true,
+      "access_level": "Institutional metadata and abstract.",
+      "locations_read": "Title, abstract, publication details, DOI, and citation fields.",
+      "relevant_result": "Confirms Hedden 2015’s author, journal, volume, issue, pages, and DOI."
+    },
+    {
+      "id": "S15",
+      "citation": "Australian National University publication record: “Mental Processes and Synchronicity.”",
+      "url": "https://researchportalplus.anu.edu.au/en/publications/mental-processes-and-synchronicity/",
+      "primary_source": true,
+      "access_level": "Institutional metadata and abstract.",
+      "locations_read": "Title, abstract, publication details, DOI, and citation fields.",
+      "relevant_result": "Confirms Hedden 2016’s bibliography entry."
+    },
+    {
+      "id": "S16",
+      "citation": "Oxford University Press article record: “A Reply to the Synchronist.”",
+      "url": "https://academic.oup.com/mind/article-abstract/125/499/859/2563378",
+      "primary_source": true,
+      "access_level": "Publisher metadata and abstract; redirected to https://oup.silverchair-cdn.com/article-minimal/2563378.",
+      "locations_read": "Entire minimal record, including publication date, pagination, DOI, and abstract.",
+      "relevant_result": "Confirms Podgorski’s bibliography entry; substantive checking used S05."
+    },
+    {
+      "id": "S17",
+      "citation": "Cambridge Core publication record: “Memory, belief and time.”",
+      "url": "https://www.cambridge.org/core/journals/canadian-journal-of-philosophy/article/abs/memory-belief-and-time/26B195FBE6FBAAF29FDCCD7EE5690D5F",
+      "primary_source": true,
+      "access_level": "Publisher metadata and abstract; full publisher text not accessed.",
+      "locations_read": "Article identification and “Information” section.",
+      "relevant_result": "Confirms Canadian Journal of Philosophy 45(5–6), December 2015, pp. 692–715, and the supplied DOI."
+    },
+    {
+      "id": "S18",
+      "citation": "arXiv version record for Alvarez, arXiv:2610.13881v1.",
+      "url": "https://arxiv.org/abs/2610.13881v1",
+      "primary_source": true,
+      "access_level": "Public repository record.",
+      "locations_read": "Title, author, version identification, abstract, and submission information.",
+      "relevant_result": "Confirms the cited work’s identity and version."
+    },
+    {
+      "id": "S19",
+      "citation": "arXiv record for Bröcker, arXiv:0806.0813.",
+      "url": "https://arxiv.org/abs/0806.0813",
+      "primary_source": true,
+      "access_level": "Public repository record.",
+      "locations_read": "Title, author, submission history, version dates, and related DOI.",
+      "relevant_result": "Confirms that the inspected v2 was submitted in December 2008 despite a later generated date printed on its PDF."
+    },
+    {
+      "id": "S20",
+      "citation": "Brian Hedden’s public publication list.",
+      "url": "https://brianhedden.wixsite.com/home",
+      "primary_source": true,
+      "access_level": "Public author page; used to retrieve the cited papers.",
+      "locations_read": "Publication entries and PDF links for the two cited papers.",
+      "relevant_result": "Authenticates the author-linked routes to S02 and S03."
+    },
+    {
+      "id": "S21",
+      "citation": "David Blackwell. 1953. “Equivalent Comparisons of Experiments.” Attempted primary retrieval.",
+      "url": "https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-24/issue-2/Equivalent-Comparisons-of-Experiments/10.1214/aoms/1177729032.full",
+      "primary_source": true,
+      "access_level": "Inaccessible text: both .full and corresponding .pdf routes returned an iframe placeholder.",
+      "locations_read": "None of the article.",
+      "relevant_result": "No substantive result established from this source."
+    },
+    {
+      "id": "S22",
+      "citation": "David Blackwell. 1951. “Comparison of Experiments.” Attempted Berkeley digital-library retrieval.",
+      "url": "https://digicoll.lib.berkeley.edu/nanna/record/112749/files/math_s2_article-08.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0",
+      "primary_source": true,
+      "access_level": "PDF request returned 403.",
+      "locations_read": "None of the article.",
+      "relevant_result": "Not counted as a read predecessor."
+    },
+    {
+      "id": "S23",
+      "citation": "M. H. DeGroot. 1962. “Uncertainty, Information, and Sequential Experiments.” Attempted primary retrieval.",
+      "url": "https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-33/issue-2/Uncertainty-Information-and-Sequential-Experiments/10.1214/aoms/1177704567.full",
+      "primary_source": true,
+      "access_level": "Endpoint returned an iframe placeholder without readable article text.",
+      "locations_read": "None of the article.",
+      "relevant_result": "Not used as substantive evidence."
+    }
+  ],
+  "closest_predecessors": [
+    {
+      "source_id": "S10",
+      "overlap": "An otherwise uninformative signal can help interpret another signal; the forecaster-qualification example directly concerns source quality.",
+      "difference": "The working paper studies economic signal comparisons across decision problems, rather than the manuscript’s retention policies with equal present credence.",
+      "remaining_contribution": "The sensor construction isolates delayed value while holding present credence and subsequent evidential fit fixed.",
+      "evidence_location": "Introduction, Examples 1–2, printed pp. 1–2 of the opened working paper; compare manuscript §2, “A label with delayed value for one question.”"
+    },
+    {
+      "source_id": "S11",
+      "overlap": "Example 2.2.2 uses independent fair bits A1 and A2 with E=A1 XOR A2: either bit alone leaves the probability of E unchanged, but both resolve E. Section 5.2 also treats quadratic scoring. This already supplies the essential informational pattern for one fixed target with correct Bayesian responses.",
+      "difference": "The example starts from an uninformative marginal and concerns signal value and acquisition, without the manuscript’s philosophical retention argument.",
+      "remaining_contribution": "The 0.9 sensor example, classification tie, and distinction between policy merit and evidence-relative correctness remain specific applications.",
+      "evidence_location": "Example 2.2.2, printed p. 9; Proposition 5.2.1 and following corollary, printed pp. 38–39; compare manuscript §§2–4."
+    },
+    {
+      "source_id": "S12",
+      "overlap": "Equations (13)–(15) distinguish reliability from resolution. Applied to the manuscript’s q and r, both forecasts are reliable and E[q|r]=r; the Brier divergence gives the same expected squared-loss gap. This mapping is my application of the source’s result.",
+      "difference": "Forecast reliability alone is weaker than fitting every proposition to retained evidence. Bröcker does not impose the manuscript’s equal initial marginal and scheduled inspection.",
+      "remaining_contribution": "A philosophical use of an established refinement comparison, with a stronger specification of faultless response.",
+      "evidence_location": "§§2–3, equations (13)–(15) and footnote 5; compare manuscript §3’s displayed loss identity and §5’s “fit-only completeness.”"
+    },
+    {
+      "source_id": "S04",
+      "overlap": "Forgetting is already assessed through expected epistemic value, including retention costs and credences conditional on present evidence.",
+      "difference": "The worked examples immediately alter credences when evidence is forgotten; they do not isolate an unchanged marginal whose loss appears only after a disclosure.",
+      "remaining_contribution": "The manuscript supplies a controlled continuation case within Pettigrew’s acknowledged framework.",
+      "evidence_location": "“The value of forgetting,” especially Iona’s example, and “An example”; compare manuscript §3, “this is an application, not an objection to it.”"
+    },
+    {
+      "source_id": "S08",
+      "overlap": "The factorization criterion and provenance example already distinguish adequacy for a present conclusion from adequacy for later source-sensitive revision.",
+      "difference": "The source characterizes recoverability of promised targets; it does not establish the manuscript’s epistemic premise about retention policies.",
+      "remaining_contribution": "Connecting failure to recover full-history targets with the correctness of the reduced-information posterior and its accuracy cost.",
+      "evidence_location": "§4.1, Proposition 2; §4.3; §6.2; compare manuscript §3’s distinction between reproducing the full-history answer and answering from retained evidence."
+    },
+    {
+      "source_id": "S05",
+      "overlap": "Challenges treating permitted attitudes at individual times as exhaustive and identifies evidence changes caused by cognitive behavior as a problem.",
+      "difference": "Podgorski defends diachronic rational norms; this manuscript grants evidential proportionality and leaves the fundamental classification of action norms unresolved.",
+      "remaining_contribution": "A quantitative example separating inquiry quality from fit without requiring Podgorski’s broader conclusion.",
+      "evidence_location": "Author manuscript §3, pp. 3–4, and §8, pp. 12–13; compare manuscript §5, “The result is thus explanatory.”"
+    }
+  ],
+  "citation_audit": [
+    {
+      "manuscript_reference": "Aevyra 2026, The Ledger of Will",
+      "manuscript_location": "§3: “histories with the same retained representation”; §6: “narrowing promised revisions and explicit degradation”; Bibliography.",
+      "status": "verified",
+      "evidence": "The displayed title, version, and date match. Proposition 2 states the required agreement criterion; §§4.3, 6.2, and 6.4 support the revision, provenance, equivalent-statistic, and limitation-reporting attributions. Verification concerns the currently accessible page.",
+      "source_ids": [
+        "S08"
+      ]
+    },
+    {
+      "manuscript_reference": "Alvarez 2026, “Prediction Is Not a Sufficient Memory State”",
+      "manuscript_location": "§3: “present prediction and information needed for continued learning”; Bibliography.",
+      "status": "verified",
+      "evidence": "The arXiv title, author, identifier, and v1 match. Section 9 explicitly distinguishes the technical contribution from established future distinguishability. The manuscript does not attribute its normative premise to these technical results.",
+      "source_ids": [
+        "S09",
+        "S18"
+      ]
+    },
+    {
+      "manuscript_reference": "Dogramaci 2015, “Forget and Forgive”",
+      "manuscript_location": "§1: “distinguishes harmful forgetfulness and defective belief formation from the rationality of a surviving belief”; Bibliography.",
+      "status": "verified",
+      "evidence": "Section 3.3, printed pp. 670–671, supports the distinction and restricted use of epistemic evaluation. The journal-format PDF confirms the title, publication information, DOI, and cited pagination.",
+      "source_ids": [
+        "S01"
+      ]
+    },
+    {
+      "manuscript_reference": "Hedden 2015, “Time-Slice Rationality”",
+      "manuscript_location": "§5: “focuses on what one ought to believe and distinguishes that question from basing and agent assessment”; Bibliography.",
+      "status": "verified",
+      "evidence": "Section 1, note 3, author-PDF p. 3, explicitly makes these distinctions while treating propositional justification as fundamental. The institutional record confirms the bibliography entry. The manuscript accurately limits its attribution.",
+      "source_ids": [
+        "S02",
+        "S14"
+      ]
+    },
+    {
+      "manuscript_reference": "Hedden 2016, “Mental Processes and Synchronicity”",
+      "manuscript_location": "§5: “tendency to improve evidential fit,” the discussion of notes 4 and 13–15, and “no reason to attribute fit-only completeness to Hedden”; Bibliography.",
+      "status": "verified",
+      "evidence": "Section 4 supports derivative assessment by fit; note 13 covers instrumental assessment, note 14 a truth-based alternative, and note 15 both the lucky-disposition explanation and evidence as what one is positioned to know. Section 2, note 4 distinguishes later rationality from anticipated accuracy. Publication details match S15.",
+      "source_ids": [
+        "S03",
+        "S15"
+      ]
+    },
+    {
+      "manuscript_reference": "Pettigrew 2025, “The cost of remembering”",
+      "manuscript_location": "§3: “evaluates forgetting by expected epistemic value” and “His worked example changes credences immediately”; Bibliography.",
+      "status": "verified",
+      "evidence": "The title and 3 February 2025 date match. “The value of forgetting” explicitly permits conditioning an ur-prior on current evidence; its examples change probabilities upon forgetting and weigh the resulting value loss against retention costs.",
+      "source_ids": [
+        "S04"
+      ]
+    },
+    {
+      "manuscript_reference": "Podgorski 2016, “A Reply to the Synchronist”",
+      "manuscript_location": "§5: “questions exhaustive attitude-based assessment” and “cognitive behavior that changes the evidence”; Bibliography.",
+      "status": "verified",
+      "evidence": "Both attributions are supported by §§3 and 8 of the specified author manuscript. The publisher record confirms Mind 125(499): 859–871 and DOI 10.1093/mind/fzv153. The manuscript correctly identifies its section locators as version-specific.",
+      "source_ids": [
+        "S05",
+        "S16"
+      ]
+    },
+    {
+      "manuscript_reference": "Schwarz 2025, “Dynamic Rationality and Disproportionate Belief”",
+      "manuscript_location": "§5: “deteriorating evidence can make proportionality itself the wrong ideal” and the resource-limitation qualification; Bibliography.",
+      "status": "verified",
+      "evidence": "The PDF identifies the title, author, and June 2025 date. The introduction argues against unrestricted proportionality; §8, especially p. 17, distinguishes ideal non-forgetting from rational pruning under limited cognitive resources.",
+      "source_ids": [
+        "S06"
+      ]
+    },
+    {
+      "manuscript_reference": "Weatherson 2015, “Memory, belief and time”",
+      "manuscript_location": "§6: “defends historical evidence and distinguishes rationality of attitudes from wisdom of agents”; Bibliography.",
+      "status": "verified",
+      "evidence": "The introduction and “Evidentialism” support both attributions. They do not establish that every irretrievably forgotten source remains evidence; the manuscript appropriately presents that application conditionally. The author page displays 1 December 2015, and the publisher record confirms the supplied journal details and DOI.",
+      "source_ids": [
+        "S07",
+        "S17"
+      ]
+    },
+    {
+      "manuscript_reference": "Unattributed formal background: squared-loss identity and strict propriety",
+      "manuscript_location": "§3: E[(r-X)^2] - E[(q-X)^2] = E[(q-r)^2]; §4: a(1-a)+(c-a)^2 and “strictly proper.”",
+      "status": "verified",
+      "evidence": "The displayed derivations are valid under the stated conditional-probability definitions. Bröcker supplies a close general proper-score predecessor; Gneiting and Raftery confirm the quadratic-score terminology. The manuscript expressly disclaims theorem novelty.",
+      "source_ids": [
+        "S12",
+        "S13"
+      ]
+    },
+    {
+      "manuscript_reference": "Constructed sensor model and numerical claims",
+      "manuscript_location": "§2, “A label with delayed value for one question”: posterior table; expected losses 0.07 and 0.08; classification correctness 0.9.",
+      "status": "verified",
+      "evidence": "These are model stipulations and derived calculations, not empirical instrument claims requiring external support. Checking the displayed conditional mixtures gives 0.7 and 0.95, and the weighted squared losses give 0.07 and 0.08. The classification tie follows because the reported color remains an optimal classification, including the 0.5 tie.",
+      "source_ids": []
+    }
+  ]
+}

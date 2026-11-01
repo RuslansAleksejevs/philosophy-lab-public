@@ -1,0 +1,155 @@
+{
+  "status": "RUNNING",
+  "observed_at": "2026-10-18T00:33:42.148062+00:00",
+  "roles": [
+    {
+      "candidate": "E012",
+      "role": "author",
+      "status": "PACKET_PREPARED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "E037",
+      "role": "author",
+      "status": "PACKET_PREPARED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "E041",
+      "role": "author",
+      "status": "PACKET_PREPARED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "E074",
+      "role": "author",
+      "status": "PACKET_PREPARED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "E078",
+      "role": "author",
+      "status": "ROLE_ARCHIVED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "E078",
+      "role": "review-final",
+      "status": "WORKER_COMPLETED_WAITING_ARCHIVE",
+      "prepared_receipt": true
+    },
+    {
+      "candidate": "E079",
+      "role": "author",
+      "status": "PACKET_PREPARED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "E086",
+      "role": "author",
+      "status": "PACKET_PREPARED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "E098",
+      "role": "author",
+      "status": "PACKET_PREPARED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "F01",
+      "role": "author-repair",
+      "status": "ROLE_ARCHIVED",
+      "prepared_receipt": true
+    },
+    {
+      "candidate": "F01",
+      "role": "review-final",
+      "status": "DISPATCHED",
+      "prepared_receipt": true
+    },
+    {
+      "candidate": "F01",
+      "role": "review-initial",
+      "status": "ROLE_ARCHIVED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "F02",
+      "role": "author-repair",
+      "status": "WORKER_COMPLETED_WAITING_ARCHIVE",
+      "prepared_receipt": true
+    },
+    {
+      "candidate": "F02",
+      "role": "review-final",
+      "status": "PACKET_PREPARED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "F02",
+      "role": "review-initial",
+      "status": "ROLE_ARCHIVED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "F03",
+      "role": "review-initial",
+      "status": "ROLE_ARCHIVED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "F04",
+      "role": "review-initial",
+      "status": "ROLE_ARCHIVED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "F05",
+      "role": "review-initial",
+      "status": "ROLE_ARCHIVED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "F06",
+      "role": "review-initial",
+      "status": "ROLE_ARCHIVED",
+      "prepared_receipt": false
+    },
+    {
+      "candidate": "S02",
+      "role": "review-initial",
+      "status": "ROLE_ARCHIVED",
+      "prepared_receipt": false
+    }
+  ],
+  "coordinator_decisions": [
+    {
+      "candidate": "F03",
+      "decision": "keep",
+      "path": "decisions/F03.json"
+    },
+    {
+      "candidate": "F04",
+      "decision": "keep",
+      "path": "decisions/F04.json"
+    },
+    {
+      "candidate": "F05",
+      "decision": "keep",
+      "path": "decisions/F05.json"
+    },
+    {
+      "candidate": "F06",
+      "decision": "keep",
+      "path": "decisions/F06.json"
+    },
+    {
+      "candidate": "S02",
+      "decision": "keep",
+      "path": "decisions/S02.json"
+    }
+  ],
+  "boundary": "DISPATCH.json is only created after observed worker completion. Current live agent state must be checked with collaboration tools. Canonical receipt is required before dependent work.",
+  "stop_before": "comparative selection of ten"
+}

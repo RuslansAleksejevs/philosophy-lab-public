@@ -1,0 +1,77 @@
+{
+  "status": "SYNTHETIC_FINALIZATION_TESTS_PASSED",
+  "revision": "selection-only-receipt-and-explicit-export-manifest",
+  "recorded_at": "2026-10-19T01:52:12.791725+00:00",
+  "command": "python3 -B -m unittest -v test_validate_final.py",
+  "cwd": "runs/final-selection-20261018/finalization-preparation",
+  "test_count": 27,
+  "passed": 27,
+  "failures": 0,
+  "errors": 0,
+  "observed_unittest_seconds": 4.933,
+  "observed_exit_code": 0,
+  "tests": [
+    "AcceptanceTests.test_complete_no_pairs",
+    "AcceptanceTests.test_complete_pair_and_immutable_initial_queue",
+    "AcceptanceTests.test_candidate_substitution",
+    "AcceptanceTests.test_version_metadata_substitution",
+    "AcceptanceTests.test_reading_byte_mutation",
+    "AcceptanceTests.test_reading_order_and_labels",
+    "AcceptanceTests.test_protected_mutation",
+    "AcceptanceTests.test_unaccepted_review_not_zero",
+    "AcceptanceTests.test_local_receipt_cannot_invent_event",
+    "AcceptanceTests.test_observed_config",
+    "AcceptanceTests.test_capture_token_corruption",
+    "AcceptanceTests.test_standard_capture_reused_raw_needs_run_binding",
+    "AcceptanceTests.test_pair_requires_prior_110_events",
+    "AcceptanceTests.test_pair_limit_ten_and_duplicate_pair",
+    "AcceptanceTests.test_duplicate_pair_across_immutable_batches",
+    "AcceptanceTests.test_fresh_session_reuse",
+    "AcceptanceTests.test_external_run_and_path_escape",
+    "AcceptanceTests.test_extra_attempt_is_preserved_blocker",
+    "AcceptanceTests.test_ratio_and_short_reasons",
+    "AcceptanceTests.test_plain_check_cannot_be_stale",
+    "AcceptanceTests.test_both_review_blocks_required",
+    "AcceptanceTests.test_scaffold_preserves_gap_and_requires_actual_stages",
+    "AcceptanceTests.test_export_manifest_missing_local_file",
+    "AcceptanceTests.test_export_manifest_wrong_hash_or_length",
+    "AcceptanceTests.test_export_manifest_missing_or_fake_stored_object",
+    "AcceptanceTests.test_export_manifest_does_not_scan_run",
+    "AcceptanceTests.test_full_finite_acceptance_and_preserved_core_gap"
+  ],
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/finalization-preparation/validate_final.py",
+      "sha256": "8eb0d46adead862861fc7e77ae5304486358e5d0246e36c791024837966c4f62",
+      "bytes": 24352
+    },
+    {
+      "path": "runs/final-selection-20261018/finalization-preparation/finalize_scaffold.py",
+      "sha256": "dbfe464a840dca7da6cc218b255cfc572df5d788ef4c9b4a79dec9e9715c9b00",
+      "bytes": 11566
+    },
+    {
+      "path": "runs/final-selection-20261018/finalization-preparation/test_validate_final.py",
+      "sha256": "e5b5f1460cc9ebcf121c8dcc6c7072f248f56d5876a46eec45fc0ffd0257e72d",
+      "bytes": 28180
+    },
+    {
+      "path": "runs/final-selection-20261018/finalization-preparation/INTERFACE_AND_CHECKLIST_RU.md",
+      "sha256": "05309f1615e142b50e7c68180d79c12ed47ea553e9557a6b76eb83276ff1d42f",
+      "bytes": 16120
+    }
+  ],
+  "preserved_previous_manifest": {
+    "path": "runs/final-selection-20261018/finalization-preparation/previous/v1-before-selection-scope/PRESERVATION.json",
+    "sha256": "3e2a513b3986f8044a6d1dfd8937fec645937cb2a6ac89e19e5a80562de169ac"
+  },
+  "scope": {
+    "real_essay_reads": 0,
+    "real_review_reads": 0,
+    "model_calls": 0,
+    "archive_writer_calls": 0,
+    "collector_actions": 0,
+    "synthetic_only": true
+  },
+  "boundary": "Actual unittest output: Ran 27 tests in 4.933s; OK. Finite selection receipt only; no overall goal-completion claim. Explicit manifest verifies local bytes, stored bytes and actual final event outputs. This is technical test evidence, not acceptance of a real final plan."
+}

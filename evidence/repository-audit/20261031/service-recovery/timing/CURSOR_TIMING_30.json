@@ -1,0 +1,552 @@
+{
+  "status": "READ_ONLY_BOUNDED_CURRENT_CURSOR_TIMING",
+  "observed_at": "2026-10-31T21:25:33.051296+00:00",
+  "cache_snapshot_sha256": "f38c4208061f01709a899d0242e1c92e5730ae27a2cf496e4f92272b7a66d207",
+  "cache_bytes": 4763747,
+  "current_cursors": 107,
+  "total_cached_sources": 3356,
+  "sample": [
+    {
+      "session_id": "01a088ba-b70b-7cb2-aa42-f6385b603d81",
+      "committed_at": "2026-10-31T21:21:35.753954+00:00",
+      "interval_since_previous_seconds": 5.760082,
+      "source_lines": 78,
+      "source_bytes": 448257,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 22,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a088bf-43e0-7513-8cb0-f6c4a4550364",
+      "committed_at": "2026-10-31T21:21:42.022279+00:00",
+      "interval_since_previous_seconds": 6.268325,
+      "source_lines": 80,
+      "source_bytes": 468078,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 22,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a088c0-5384-7383-94d6-59118f9fee21",
+      "committed_at": "2026-10-31T21:21:48.152862+00:00",
+      "interval_since_previous_seconds": 6.130583,
+      "source_lines": 72,
+      "source_bytes": 505169,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 18,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a33-c94c-7a83-97e1-1aab40c6ef15",
+      "committed_at": "2026-10-31T21:21:59.124546+00:00",
+      "interval_since_previous_seconds": 10.971684,
+      "source_lines": 363,
+      "source_bytes": 1372935,
+      "counts": {
+        "assistant_commentary": 12,
+        "assistant_final": 2
+      },
+      "pending_tools": 106,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a33-df80-7813-ac36-54b9ec4bd6c8",
+      "committed_at": "2026-10-31T21:22:08.956819+00:00",
+      "interval_since_previous_seconds": 9.832273,
+      "source_lines": 351,
+      "source_bytes": 1178024,
+      "counts": {
+        "assistant_commentary": 13,
+        "assistant_final": 3
+      },
+      "pending_tools": 104,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a33-f248-7d83-9b40-ee264a7ee644",
+      "committed_at": "2026-10-31T21:22:19.310801+00:00",
+      "interval_since_previous_seconds": 10.353982,
+      "source_lines": 350,
+      "source_bytes": 1256253,
+      "counts": {
+        "assistant_commentary": 11,
+        "assistant_final": 2
+      },
+      "pending_tools": 110,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a3a-95a8-7210-bce4-0e3bf609d689",
+      "committed_at": "2026-10-31T21:22:28.745577+00:00",
+      "interval_since_previous_seconds": 9.434776,
+      "source_lines": 296,
+      "source_bytes": 1067058,
+      "counts": {
+        "assistant_commentary": 10,
+        "assistant_final": 2
+      },
+      "pending_tools": 92,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a3b-53c4-7413-b002-45cbab7bda2b",
+      "committed_at": "2026-10-31T21:22:38.395027+00:00",
+      "interval_since_previous_seconds": 9.64945,
+      "source_lines": 348,
+      "source_bytes": 1190316,
+      "counts": {
+        "assistant_commentary": 11,
+        "assistant_final": 2
+      },
+      "pending_tools": 110,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a3b-ab00-7582-8414-b316f853ce55",
+      "committed_at": "2026-10-31T21:22:48.083491+00:00",
+      "interval_since_previous_seconds": 9.688464,
+      "source_lines": 373,
+      "source_bytes": 1250307,
+      "counts": {
+        "assistant_commentary": 13,
+        "assistant_final": 2
+      },
+      "pending_tools": 118,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a40-e05e-7c51-b5a2-f4f98b7c5206",
+      "committed_at": "2026-10-31T21:22:56.895046+00:00",
+      "interval_since_previous_seconds": 8.811555,
+      "source_lines": 351,
+      "source_bytes": 1254572,
+      "counts": {
+        "assistant_commentary": 10,
+        "assistant_final": 2
+      },
+      "pending_tools": 116,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a42-dab3-7222-ac84-f0ac08d91a3d",
+      "committed_at": "2026-10-31T21:23:07.225653+00:00",
+      "interval_since_previous_seconds": 10.330607,
+      "source_lines": 255,
+      "source_bytes": 935840,
+      "counts": {
+        "assistant_commentary": 10,
+        "assistant_final": 2
+      },
+      "pending_tools": 80,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a43-6048-7883-9006-2f77248974cf",
+      "committed_at": "2026-10-31T21:23:15.747858+00:00",
+      "interval_since_previous_seconds": 8.522205,
+      "source_lines": 337,
+      "source_bytes": 1070262,
+      "counts": {
+        "assistant_commentary": 12,
+        "assistant_final": 2
+      },
+      "pending_tools": 110,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a48-218c-7053-acc8-8fd99a5648c1",
+      "committed_at": "2026-10-31T21:23:24.563895+00:00",
+      "interval_since_previous_seconds": 8.816037,
+      "source_lines": 278,
+      "source_bytes": 1058452,
+      "counts": {
+        "assistant_commentary": 9,
+        "assistant_final": 2
+      },
+      "pending_tools": 88,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a48-57a2-7543-b772-d692434b0bbe",
+      "committed_at": "2026-10-31T21:23:33.232450+00:00",
+      "interval_since_previous_seconds": 8.668555,
+      "source_lines": 318,
+      "source_bytes": 1089180,
+      "counts": {
+        "assistant_commentary": 11,
+        "assistant_final": 2
+      },
+      "pending_tools": 98,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a49-6487-78e3-850e-be6f9482112d",
+      "committed_at": "2026-10-31T21:23:40.954087+00:00",
+      "interval_since_previous_seconds": 7.721637,
+      "source_lines": 338,
+      "source_bytes": 1157982,
+      "counts": {
+        "assistant_commentary": 11,
+        "assistant_final": 2
+      },
+      "pending_tools": 110,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a4d-72b6-7142-ad4e-e8f08c69b07c",
+      "committed_at": "2026-10-31T21:23:49.873631+00:00",
+      "interval_since_previous_seconds": 8.919544,
+      "source_lines": 382,
+      "source_bytes": 1400336,
+      "counts": {
+        "assistant_commentary": 14,
+        "assistant_final": 2
+      },
+      "pending_tools": 116,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a4e-b8a6-78f1-a821-ff0bac4f5ac9",
+      "committed_at": "2026-10-31T21:23:57.435032+00:00",
+      "interval_since_previous_seconds": 7.561401,
+      "source_lines": 324,
+      "source_bytes": 1165216,
+      "counts": {
+        "assistant_commentary": 10,
+        "assistant_final": 2
+      },
+      "pending_tools": 102,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a4f-2a1c-7fe1-a4a9-8706bd7d3f68",
+      "committed_at": "2026-10-31T21:24:06.634759+00:00",
+      "interval_since_previous_seconds": 9.199727,
+      "source_lines": 174,
+      "source_bytes": 743069,
+      "counts": {
+        "assistant_commentary": 6,
+        "assistant_final": 1
+      },
+      "pending_tools": 56,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a54-7265-7d73-862d-5e6725c9552d",
+      "committed_at": "2026-10-31T21:24:14.358653+00:00",
+      "interval_since_previous_seconds": 7.723894,
+      "source_lines": 177,
+      "source_bytes": 767804,
+      "counts": {
+        "assistant_commentary": 6,
+        "assistant_final": 1
+      },
+      "pending_tools": 56,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a54-bfc1-75a1-8139-51759fa40b90",
+      "committed_at": "2026-10-31T21:24:22.052851+00:00",
+      "interval_since_previous_seconds": 7.694198,
+      "source_lines": 205,
+      "source_bytes": 802613,
+      "counts": {
+        "assistant_commentary": 6,
+        "assistant_final": 1
+      },
+      "pending_tools": 64,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a55-4928-7ae1-8003-d01862705305",
+      "committed_at": "2026-10-31T21:24:28.820467+00:00",
+      "interval_since_previous_seconds": 6.767616,
+      "source_lines": 184,
+      "source_bytes": 762831,
+      "counts": {
+        "assistant_commentary": 6,
+        "assistant_final": 1
+      },
+      "pending_tools": 64,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a5a-a5a9-74a3-ac63-8d8ecfca1b04",
+      "committed_at": "2026-10-31T21:24:35.021435+00:00",
+      "interval_since_previous_seconds": 6.200968,
+      "source_lines": 231,
+      "source_bytes": 928428,
+      "counts": {
+        "assistant_commentary": 8,
+        "assistant_final": 1
+      },
+      "pending_tools": 68,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a5b-a767-73c0-9f0b-7f0101ce7f2b",
+      "committed_at": "2026-10-31T21:24:41.029825+00:00",
+      "interval_since_previous_seconds": 6.00839,
+      "source_lines": 195,
+      "source_bytes": 721710,
+      "counts": {
+        "assistant_commentary": 8,
+        "assistant_final": 1
+      },
+      "pending_tools": 60,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a5c-064d-7d81-86df-5158c4e788f2",
+      "committed_at": "2026-10-31T21:24:47.073804+00:00",
+      "interval_since_previous_seconds": 6.043979,
+      "source_lines": 90,
+      "source_bytes": 478295,
+      "counts": {
+        "assistant_commentary": 2,
+        "assistant_final": 1
+      },
+      "pending_tools": 26,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a61-ff66-77f0-8833-154add3d6dd9",
+      "committed_at": "2026-10-31T21:24:53.286650+00:00",
+      "interval_since_previous_seconds": 6.212846,
+      "source_lines": 74,
+      "source_bytes": 475880,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 20,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a62-4d36-78c2-bfc3-96f824aff0b2",
+      "committed_at": "2026-10-31T21:24:59.005190+00:00",
+      "interval_since_previous_seconds": 5.71854,
+      "source_lines": 95,
+      "source_bytes": 495064,
+      "counts": {
+        "assistant_commentary": 2,
+        "assistant_final": 1
+      },
+      "pending_tools": 28,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a63-fd5e-71b1-8654-29218c0bd90c",
+      "committed_at": "2026-10-31T21:25:05.063643+00:00",
+      "interval_since_previous_seconds": 6.058453,
+      "source_lines": 77,
+      "source_bytes": 501422,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 20,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a68-829a-7112-ac86-a3b59be8252d",
+      "committed_at": "2026-10-31T21:25:11.233853+00:00",
+      "interval_since_previous_seconds": 6.17021,
+      "source_lines": 83,
+      "source_bytes": 512357,
+      "counts": {
+        "assistant_commentary": 2,
+        "assistant_final": 1
+      },
+      "pending_tools": 22,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a6a-6c41-7442-bdd4-36e83546f405",
+      "committed_at": "2026-10-31T21:25:16.704648+00:00",
+      "interval_since_previous_seconds": 5.470795,
+      "source_lines": 84,
+      "source_bytes": 502784,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 22,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a6a-cf45-71a2-b1ae-9b3bc11a9361",
+      "committed_at": "2026-10-31T21:25:24.251326+00:00",
+      "interval_since_previous_seconds": 7.546678,
+      "source_lines": 82,
+      "source_bytes": 509847,
+      "counts": {
+        "assistant_commentary": 3
+      },
+      "pending_tools": 24,
+      "gap_count": 0
+    }
+  ],
+  "interval_seconds": {
+    "n": 30,
+    "min": 5.470795,
+    "median": 7.707917500000001,
+    "mean": 7.8085818,
+    "max": 10.971684
+  },
+  "sample_lines": {
+    "min": 72,
+    "median": 218.0,
+    "max": 382
+  },
+  "sample_bytes": {
+    "min": 448257,
+    "median": 865520.5,
+    "max": 1400336
+  },
+  "small_samples": [
+    {
+      "session_id": "01a088ba-b70b-7cb2-aa42-f6385b603d81",
+      "committed_at": "2026-10-31T21:21:35.753954+00:00",
+      "interval_since_previous_seconds": 5.760082,
+      "source_lines": 78,
+      "source_bytes": 448257,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 22,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a088bf-43e0-7513-8cb0-f6c4a4550364",
+      "committed_at": "2026-10-31T21:21:42.022279+00:00",
+      "interval_since_previous_seconds": 6.268325,
+      "source_lines": 80,
+      "source_bytes": 468078,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 22,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a088c0-5384-7383-94d6-59118f9fee21",
+      "committed_at": "2026-10-31T21:21:48.152862+00:00",
+      "interval_since_previous_seconds": 6.130583,
+      "source_lines": 72,
+      "source_bytes": 505169,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 18,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a5c-064d-7d81-86df-5158c4e788f2",
+      "committed_at": "2026-10-31T21:24:47.073804+00:00",
+      "interval_since_previous_seconds": 6.043979,
+      "source_lines": 90,
+      "source_bytes": 478295,
+      "counts": {
+        "assistant_commentary": 2,
+        "assistant_final": 1
+      },
+      "pending_tools": 26,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a61-ff66-77f0-8833-154add3d6dd9",
+      "committed_at": "2026-10-31T21:24:53.286650+00:00",
+      "interval_since_previous_seconds": 6.212846,
+      "source_lines": 74,
+      "source_bytes": 475880,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 20,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a62-4d36-78c2-bfc3-96f824aff0b2",
+      "committed_at": "2026-10-31T21:24:59.005190+00:00",
+      "interval_since_previous_seconds": 5.71854,
+      "source_lines": 95,
+      "source_bytes": 495064,
+      "counts": {
+        "assistant_commentary": 2,
+        "assistant_final": 1
+      },
+      "pending_tools": 28,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a63-fd5e-71b1-8654-29218c0bd90c",
+      "committed_at": "2026-10-31T21:25:05.063643+00:00",
+      "interval_since_previous_seconds": 6.058453,
+      "source_lines": 77,
+      "source_bytes": 501422,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 20,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a68-829a-7112-ac86-a3b59be8252d",
+      "committed_at": "2026-10-31T21:25:11.233853+00:00",
+      "interval_since_previous_seconds": 6.17021,
+      "source_lines": 83,
+      "source_bytes": 512357,
+      "counts": {
+        "assistant_commentary": 2,
+        "assistant_final": 1
+      },
+      "pending_tools": 22,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a6a-6c41-7442-bdd4-36e83546f405",
+      "committed_at": "2026-10-31T21:25:16.704648+00:00",
+      "interval_since_previous_seconds": 5.470795,
+      "source_lines": 84,
+      "source_bytes": 502784,
+      "counts": {
+        "assistant_commentary": 3,
+        "assistant_final": 1
+      },
+      "pending_tools": 22,
+      "gap_count": 0
+    },
+    {
+      "session_id": "01a08a6a-cf45-71a2-b1ae-9b3bc11a9361",
+      "committed_at": "2026-10-31T21:25:24.251326+00:00",
+      "interval_since_previous_seconds": 7.546678,
+      "source_lines": 82,
+      "source_bytes": 509847,
+      "counts": {
+        "assistant_commentary": 3
+      },
+      "pending_tools": 24,
+      "gap_count": 0
+    }
+  ],
+  "code_files": {
+    "scripts/collector.py": "c0ff12e7b10f7c7fe8f13da3c3d27cc1009b0e7a707073e2495856fea2fc755b",
+    "scripts/research_archive.py": "a4fae709bd66d0596b31f1e724ba232699c3a14711b64edd9f1b2754ce27bd85"
+  },
+  "boundary": "Intervals between durable cursor timestamps from one metadata snapshot. They include prior commit/cache, the next source read/projection and scheduling; they are not a direct CPU profiler. No source body reads, service action or canonical write."
+}

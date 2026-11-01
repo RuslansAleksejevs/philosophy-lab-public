@@ -1,0 +1,21 @@
+{
+  "status": "COORDINATOR_EXACT_FINITE_MODEL_CHECK",
+  "question": "Does either retained-source policy improve best binary classification in the stated examples?",
+  "sources": [
+    {
+      "path": "runs/final-selection-20261018/blind/M04.md",
+      "sha256": "37f240addafd761d1d361ce9c0ac1aeb3ba6997eed5b936f9386c11bd09c1a59"
+    },
+    {
+      "path": "runs/final-selection-20261018/blind/M02.md",
+      "sha256": "e6badc41a13f407d5ce9660772ff018d0ebbf109f5c8570a0659c612cb217a2d"
+    }
+  ],
+  "calculations": {
+    "E039_keep": "9/10",
+    "E039_erase": "9/10",
+    "F02_keep": "9/10",
+    "F02_erase": "9/10"
+  },
+  "finding": "Both texts give9/10 classification correctness under both policies. F02 explicitly states this; E039 permits other standards but leaves this specific limitation less explicit. Their stated squared-error differences remain valid. This limits scope; it is not a mathematical refutation or new evaluator vote."
+}

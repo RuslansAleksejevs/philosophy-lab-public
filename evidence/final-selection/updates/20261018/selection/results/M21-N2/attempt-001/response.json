@@ -1,0 +1,59 @@
+{
+  "review_id": "M21-N2",
+  "manuscript_id": "M21",
+  "profile_id": "neutral",
+  "read_complete": true,
+  "thesis": "Retaining authority to reject a recommendation does not establish retained review. For an assigned review task, relevant grounds for reconsideration must remain practically accessible when the recommendation process makes the kind of error that review is supposed to detect.",
+  "contribution": "The manuscript offers a bounded diagnostic for human review: assess information routes relative to a specified failure and review task. Its useful refinements distinguish functional independence from organizational separation, and review of individual decisions from oversight of an ongoing practice. These distinctions explain why separate vendors may provide no effective check, while separate functions within one system may suffice. The contribution is credible and practical, though its advance beyond the existing accounts described in the manuscript remains modest.",
+  "argument_map": [
+    "1. The relevant starting point is a defensible assignment of review responsibility, such as considering serious staff needs before publishing a schedule. The argument does not assume that every automated action requires human review.",
+    "2. Exercising that responsibility requires a practical opportunity to learn about relevant conflicts and respond to them. Authority to reject an output, or a random rejection policy, cannot substitute for responsiveness to reasons.",
+    "3. If access to a dismissed request requires the scheduler first to classify it as relevant, the arrangement blocks discovery of precisely the error under review. The manager's retained authority therefore exceeds her practical review capacity in that respect.",
+    "4. An adequate alternative route need not be wholly independent or guarantee success. It must remain sufficiently usable, timely, and reliable under the specified failure. This permits internal checking against unfiltered records and avoids demanding unaided competence.",
+    "5. Adequacy changes with the review task: sampling original requests may support oversight of a practice without supporting an appeal against tomorrow's shift. Voluntary delegation and superior average performance can justify less review, but do not establish that review remains available."
+  ],
+  "strongest_merit": {
+    "location": "“Why the route matters,” paragraphs 5 and 7–8; “The strongest objection: all judgment depends on something,” paragraph 6.",
+    "reason": "The manuscript makes its criterion discriminating rather than merely recommending more information. It explains how a second provider can reproduce the first provider's exclusion, how one product can preserve a useful checking route, and why auditing approved messages cannot expose excluded requests. Its distinction between classification and intake tests also prevents successful testing against one failure from becoming an unsupported assurance about all failures. These are concrete consequences of the philosophical distinction."
+  },
+  "concerns": [
+    {
+      "severity": "open",
+      "kind": "scope",
+      "location": "“The strongest objection: all judgment depends on something,” paragraphs 5–6; “Why the route matters,” paragraph 4.",
+      "excerpt": "No finite arrangement can preserve review against every correlated failure.",
+      "reason": "The manuscript establishes a conditional requirement more clearly than it establishes which failure conditions must be covered. Once some shared failures are admissible, an assessment depends on how the relevant failure class is selected. This leaves difficult applications unsettled without defeating the central necessity argument.",
+      "text_response": "The text explicitly makes reliability depend on stakes, timing, and mistake type. It distinguishes classification failures from intake failures, requires claims to name their scope, and says its test does not certify adequacy by inspection. It also acknowledges that defensible task boundaries require justification beyond this essay.",
+      "discriminating_check": "Compare two arrangements promising the same review of staff needs: one preserves requests after misclassification but loses some at intake; the other reverses these vulnerabilities. Explain which failures each promise requires covering and why, holding practical burdens and stakes fixed."
+    },
+    {
+      "severity": "minor",
+      "kind": "significance",
+      "location": "“What the existing accounts already establish,” paragraphs 1, 4–5.",
+      "excerpt": "These are limited refinements of existing ideas about control and contestability, not a new general theory.",
+      "reason": "The manuscript's own descriptions already give tracking a counterfactual structure and contestability a requirement for alternative information. Its proposed test may therefore operationalize existing commitments rather than add a distinct philosophical condition. Operational clarification can be worthwhile, but the examples establish its usefulness more securely than its additional theoretical significance.",
+      "text_response": "The author acknowledges this proximity and claims only failure-relative independence and task-relative review as refinements. The examples demonstrate that counting providers or demanding case-by-case access can misdescribe effective review.",
+      "discriminating_check": "Apply the existing conditions and the proposed diagnostic to the same cases with identical review subjects and tasks. Show either an ambiguity the diagnostic resolves or a previously unspecified assessment procedure it supplies; disagreement with earlier theories is not required."
+    }
+  ],
+  "scores": {
+    "overall": 3,
+    "argument": 4,
+    "significance": 3,
+    "originality": null
+  },
+  "originality_limit": "The packet supports identifying a specific refinement, not establishing historical novelty. The manuscript acknowledges close antecedents and illustrates its proposed additions, but the supplied material does not establish whether those additions are already developed elsewhere.",
+  "recommendation": "borderline",
+  "reason_ru": [
+    "Эссе убедительно показывает, почему право отклонить решение ещё не даёт возможности заметить ошибку.",
+    "Полезный результат — проверка того, дойдут ли нужные сведения до человека при конкретном сбое системы.",
+    "Рекомендация пограничная: аргумент крепкий, но добавка к уже известным требованиям контроля пока невелика."
+  ],
+  "confidence": "medium",
+  "profile_basis": [],
+  "limits": [
+    "The entire supplied manuscript, including its bibliography, was read.",
+    "External source correctness and exhaustive novelty were not checked; cited works were not independently inspected.",
+    "The examples support conceptual distinctions, not empirical conclusions about the reliability or costs of actual review systems."
+  ]
+}

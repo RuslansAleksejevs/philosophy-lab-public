@@ -1,0 +1,51 @@
+{
+  "role": "E086/author",
+  "recorded_at_utc": "2026-10-18T02:08:02.638032+00:00",
+  "checks": {
+    "all_output_json_parse": true,
+    "body_under_6000_words": true,
+    "body_words_whitespace": 3658,
+    "body_words_regex": 3759,
+    "bibliography_excluded_from_count": true,
+    "input_original_hash_matches_assigned_metadata": true,
+    "source_excerpt_files_exist": true,
+    "source_excerpt_verbatim_substrings_checked_against_returned_web_material": true,
+    "max_total_excerpt_words_per_source": 25,
+    "single_author_cycle": true,
+    "fresh_external_review_performed": false
+  },
+  "excerpt_word_counts": {
+    "S01_JAMES": 18,
+    "S02_CLIFFORD": 9,
+    "S03_HARDWIG": 15,
+    "S04_HAYWARD": 19,
+    "S05_BUCHAK": 19,
+    "S06_FRIEDMAN": 17,
+    "S07_DIAMOND_DYBVIG": 22,
+    "S08_SCAP_RELEASE": 8,
+    "S09_BERNANKE_MAY7": 17,
+    "S10_BERNANKE_MAY11": 13,
+    "S11_TARULLO": 12
+  },
+  "revision_sha256": "a2a5a195cbef05a6bc28ce11827c257436d55c76aaa6a98dff42ec935443c174",
+  "files": [
+    "DECISION.json",
+    "INPUT_MANIFEST.json",
+    "REPORT_RU.txt",
+    "SEARCH_LOG.json",
+    "SESSION.json",
+    "SOURCES.json",
+    "revision.md",
+    "sources/S01_JAMES.txt",
+    "sources/S02_CLIFFORD.txt",
+    "sources/S03_HARDWIG.txt",
+    "sources/S04_HAYWARD.txt",
+    "sources/S05_BUCHAK.txt",
+    "sources/S06_FRIEDMAN.txt",
+    "sources/S07_DIAMOND_DYBVIG.txt",
+    "sources/S08_SCAP_RELEASE.txt",
+    "sources/S09_BERNANKE_MAY7.txt",
+    "sources/S10_BERNANKE_MAY11.txt",
+    "sources/S11_TARULLO.txt"
+  ]
+}

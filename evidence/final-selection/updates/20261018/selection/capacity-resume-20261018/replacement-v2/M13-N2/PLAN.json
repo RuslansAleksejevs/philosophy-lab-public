@@ -1,0 +1,85 @@
+{
+  "schema": "selection-empty-capacity-replacement.v2",
+  "logical_job_id": "M13-N2",
+  "replacement_order": [
+    "M12-N2",
+    "M13-N2"
+  ],
+  "maximum_replacement_attempts": 1,
+  "automatic_retry": false,
+  "content_changes": false,
+  "input_event_id": "event-3a08660ab4024183b9acf41dc1fb7907",
+  "job": {
+    "id": "M13-N2",
+    "phase": "individual",
+    "manuscript_id": "M13",
+    "role": "N2",
+    "profile_id": "neutral",
+    "model": "gpt-6-astra",
+    "effort": "ultra",
+    "service_tier": "default",
+    "prompt_file": "runs/final-selection-20261018/packets/M13-N2.txt",
+    "prompt_sha256": "fef925caadde5a5864181d5036ed4320c55050e684129867a0a15573dcbfb497",
+    "schema_file": "runs/final-selection-20261018/review-schema.json",
+    "schema_sha256": "171ac2b1761a7cfdebcdc1569b7e1043087a8b7d45706c00426b5460729aea27",
+    "input_sources": [
+      {
+        "path": "runs/postmidterm-20261012/04-essays/F03/releases/v1/R1.md",
+        "sha256": "42accea7f8647e8de5dac9d6c55e834e2b62c07d6655730ec6e7948eff9319b5"
+      }
+    ]
+  },
+  "authorization": {
+    "event_id": "event-1693b19527294cafa5cf61f9c1c801ee",
+    "artifact": {
+      "path": "runs/final-selection-20261018/capacity-resume-20261018/AUTHORIZATION.json",
+      "sha256": "c480f1cbf5435596488eef0f118f439f2b0825f14d971c1a21a630b719ff9b8f",
+      "bytes": 1046
+    },
+    "user_capture_event_ids": [
+      "event-f63839cb8c6342b2afef5403f55f9ed8"
+    ]
+  },
+  "preserved_state": {
+    "event_id": "event-fad5b6b2ca6c4b428771c20caaa2bf36",
+    "kind": "research.selection.stopped",
+    "status": "SELECTION_INCOMPLETE_CAPACITY_STOP"
+  },
+  "failure_inspection": {
+    "path": "runs/final-selection-20261018/capacity-recovery-002/FAILURE_INSPECTION.json",
+    "sha256": "054a9875628b02c96788449deb40173f24452880442ab24f7deaf16017e40be0",
+    "bytes": 2424
+  },
+  "failed_attempt": {
+    "path": "runs/final-selection-20261018/results/M13-N2/attempt-001",
+    "event_id": "event-1118f540c1644baf8ca3fea78bdacf12",
+    "session_id": "01a151fb-6df7-79a3-b00c-cc895de7dd8e",
+    "files": [
+      {
+        "path": "runs/final-selection-20261018/results/M13-N2/attempt-001/launch.json",
+        "sha256": "1b6d45ad2e030424ba46a2245f4befa93be5dab3693ae242e9b601638808d61a",
+        "bytes": 1587
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M13-N2/attempt-001/failure.json",
+        "sha256": "2ed3271403107e0ab52159cd1ca8f83c8ca8f0ceb72c072768eca52e07c95838",
+        "bytes": 2072
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M13-N2/attempt-001/stderr.json",
+        "sha256": "0e09f022f8923c4dcb14257c19251a6817691c667e1cc47be186fd27c113c312",
+        "bytes": 38
+      },
+      {
+        "path": "runs/final-selection-20261018/results/M13-N2/attempt-001/visible-events.jsonl",
+        "sha256": "d1e638763e875203dc1db5d107210c2065ad862e03e1122c8687638d59fc4be4",
+        "bytes": 198
+      }
+    ]
+  },
+  "replacement_attempt": {
+    "number": 2,
+    "path": "runs/final-selection-20261018/results/M13-N2/attempt-002"
+  },
+  "predecessor_map_receipt": "runs/final-selection-20261018/capacity-resume-20261018/replacement-v2/M12-N2/ACCEPTED_ATTEMPTS_RECEIPT.json"
+}

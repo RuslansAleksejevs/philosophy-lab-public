@@ -1,0 +1,54 @@
+{
+  "id": "final-selection-20261018",
+  "stages": [
+    "question",
+    "sources",
+    "contribution",
+    "critique",
+    "decision"
+  ],
+  "purpose": "Select a reading shortlist of eight main and two promising/unusual essays from22 frozen current versions. This is substantive selection, not manuscript revision.",
+  "authorized_at": "2026-10-19T00:58:37.102Z",
+  "ratio": {
+    "neutral": 0.6,
+    "named_judge": 0.4,
+    "per_manuscript": {
+      "neutral": 3,
+      "named_judge": 2
+    },
+    "individual_reviews": 110,
+    "pair_limit": 10,
+    "per_pair": {
+      "neutral": 3,
+      "named_judge": 2
+    },
+    "total_review_ceiling": 160
+  },
+  "configuration": {
+    "model": "gpt-6-astra",
+    "effort": "ultra",
+    "service_tier": "default",
+    "workers_maximum": 3
+  },
+  "judge_allocation": {
+    "seed": "final-selection-20261018-60-40-v1",
+    "rule": "Shuffle blinded candidate and profile lists with a fixed local RNG; allocate two distinct profiles per manuscript, each of23 profiles used once or twice. Frozen before review. Equal number and depth of reviews, no topic or doctrinal agreement bonus.",
+    "scope_limit": "Sample of two named profiles per essay, not full-panel prediction or controlled estimate of individual judge effects."
+  },
+  "freshness": "One new CLI session per review, inline complete manuscript plus neutral rubric and its assigned profile/evidence only; no memories, AGENTS, tools, other essays, old ratings or histories. Pair sessions receive only their two full texts and the assigned profile.",
+  "rubric": "Valuable philosophical contribution: overall quality, argument, significance and provisional originality. Explain actual inference and strongest objection. Clear expression helps reconstruction; no literary-style score. Distinguish unknown novelty from established duplication and an unverified objection from a demonstrated fatal error.",
+  "aggregation": "Each valid review has equal influence in the preliminary common-rubric summary: 60% mean neutral and40% mean profile. This summary selects comparisons, not automatic winners. Missing reviews leave an explicit coverage gap; never count missing as zero or silently renormalize. Final decisions cite checked arguments from both blocks.",
+  "pair_selection": "After all accepted individual results: prioritize E039/F02 overlap; then candidates near the eight/ten boundary, large neutral/profile disagreement, and high-potential minority cases. Freeze each exact pair, rationale, profiles and balanced A/B assignment before its5 fresh reviews. Maximum10 distinct pairs. A profile familiar with one text is not automatically reused for that text. No favorable-output reruns.",
+  "decision": "Select8 strongest supported contributions then2 additional unusual/promising candidates with a defensible main argument. A verified central defect blocks admission; an allegation alone does not. No topic quota or rejection solely for overlapping subjects. Record checked original concerns in E078/E037/E074 and all other material limitations. Fewer than10 only if needed to avoid knowingly defective entries; explain any such shortfall.",
+  "source_checks": "Initial reviews have no browsing and make source/novelty limits explicit. Coordinator checks decisive uncertain attributions or alleged defects against the precise text and primary sources; broad two-search literature audits belong to the later ten-to-three phase.",
+  "outputs": [
+    "22-row Russian decision report with exact current versions and2–3 concrete sentences per candidate",
+    "selection manifest distinguishing8+2 privately",
+    "reading package with10 full unchanged essays in precommitted seeded order, no grades, selection rank or wildcard tags",
+    "preserved reviews, disagreements, targeted source checks, protected original hashes",
+    "project-memory update and existing private GitHub current-state update with the user role decision"
+  ],
+  "archive": "Freeze and archive method, inputs and current human authorization before dispatch. Verify native exact prompt, model/effort, no tools and one final; archive visible records and outputs before synthesis or pair selection. No hidden reasoning or whole-provider claim.",
+  "failure_policy": "No automatic retries. Preserve every started attempt. Actual quota, unexpected input/tools/config or mandatory archival failure stops dispatch/dependent work. A format failure or observed internal sampling retry is quarantined as missing; any repair requires a separately recorded technical decision without choosing a favorable answer.",
+  "stop": "After accepted reading package and authorized GitHub update. No final three, submission, public release, Claude, paid API or quota automation."
+}

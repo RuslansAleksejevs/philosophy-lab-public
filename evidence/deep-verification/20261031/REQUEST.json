@@ -1,0 +1,199 @@
+{
+  "schema": "verification-closure-request.v1",
+  "run_id": "deep-verification-20261031",
+  "session_id": "01a190b5-03e2-70d0-8fcf-b4a1e67148d0",
+  "boundary": "Typed multi-session verification bindings preserve each original author and session. Critiques concern the frozen manuscripts, not the later coordinator synthesis. The legacy single-author checkpoint is administrative INCOMPLETE; the separate finite receipt records only the explicitly accepted verification and recommendation. No novelty certificate, manuscript authorship transfer, whole-provider coverage, or submission approval is implied.",
+  "artifacts": {
+    "source_ledger": {
+      "path": "runs/deep-verification-20261031/coordinator-synthesis/SOURCE_LEDGER.json",
+      "sha256": "c4ea6edfb501796ea9f570bb4f636b3dfa11204c4bf977a05aecb24b7dcceea9",
+      "bytes": 199784
+    },
+    "contribution_matrix": {
+      "path": "runs/deep-verification-20261031/coordinator-synthesis/CONTRIBUTION_MATRIX.json",
+      "sha256": "cc6a4e07af1a63b9005cc5a35f78e52a9129a37e2f8e341a651116785c7f7aeb",
+      "bytes": 27720
+    },
+    "decision": {
+      "path": "runs/deep-verification-20261031/coordinator-synthesis/DECISION.json",
+      "sha256": "05052543bc6883831568f9e89d1642b1d0fb493ee20e00c168b987b4c9303756",
+      "bytes": 2195
+    },
+    "cards": {
+      "path": "runs/deep-verification-20261031/coordinator-synthesis/FIVE_CARDS.json",
+      "sha256": "969c921990af4efb659a0dacbb05bc0aaaa3567f6e6bea5419b38dcfe1ddf899",
+      "bytes": 8079
+    },
+    "checkpoint_summary": {
+      "path": "runs/deep-verification-20261031/coordinator-synthesis/CHECKPOINT_SUMMARY.json",
+      "sha256": "ffbc2f628b4a92654b0a85585d2ea0c847d61f63799e6f550eed2d50b5a3d7a3",
+      "bytes": 3658
+    },
+    "protocol_note": {
+      "path": "runs/deep-verification-20261031/closure-preparation/PROTOCOL_NOTE.md",
+      "sha256": "02a255718419a12f47584a84d32f00b26ca4095a2ffcacb132eb49e53df115c6",
+      "bytes": 3132
+    }
+  },
+  "implementation_files": [
+    {
+      "path": "runs/deep-verification-20261031/closure-preparation/closure.py",
+      "sha256": "fb9babe7b5964f593759349fddbfc6a209b7e3e47c3d72a5b7ba46b2cd3f374d",
+      "bytes": 26359
+    },
+    {
+      "path": "runs/deep-verification-20261031/closure-preparation/test_closure.py",
+      "sha256": "5f741dede117ad70b82a321c8b7fc59b4b0b54ff93fc16dd9522895ffb68295b",
+      "bytes": 17998
+    },
+    {
+      "path": "runs/deep-verification-20261031/closure-preparation/PROTOCOL_NOTE.md",
+      "sha256": "02a255718419a12f47584a84d32f00b26ca4095a2ffcacb132eb49e53df115c6",
+      "bytes": 3132
+    }
+  ],
+  "coordinator_evidence_event_ids": [
+    "event-b8b52c27a126420f98064ca4d5f7b2c0"
+  ],
+  "coverage_event_ids": [
+    "event-e04c3b6ac2644001af968e659cdb771c",
+    "event-6734158bb17d402e844a4e2077155c27",
+    "event-552b7a9f772f409a859ccc687c7fc276",
+    "event-7977bc796e4049c3a88548571b6ed427",
+    "event-0242189ab2e34fbbb2ccbf47d5d20e77",
+    "event-64f594fc792743a3be45e808ffb7b163",
+    "event-c1d731d3c15b4106a97fcf47b5dc87d9",
+    "event-c9ebb126ce5049c096e6482c451af2f4",
+    "event-d693d2c8c5d04f47a73f0046b45c7f94",
+    "event-03d0ef55f9e04753b62de98b300d357c",
+    "event-1a2722dccb4242eaad7cbe011205e2a5",
+    "event-fd9d1aaf14ef4861b970611de441ade4",
+    "event-60ab56ae0eb348d48e01c932ce92a40b",
+    "event-b51c6230babb4f9f9c5e5320110425a8",
+    "event-132daf12fd684affb8fd293e63ab753d",
+    "event-21c82adf195942848bf60dbbcb134551",
+    "event-392d0f0f6ff747c0897b91d1a81864be",
+    "event-006dfaa34bcf413ca2e6743aa6482ce6",
+    "event-199d534250d94dffaf5c1923f88fc61e",
+    "event-78482f3e435e4e2998b932bdca21277e",
+    "event-750310e1a7b14feabf350d51ce1ee615",
+    "event-ad579d72373f499c86bddeb99ee763ff",
+    "event-d1328b4edcd34f5bb2e671d394c9c753",
+    "event-2058046375f642949897b10ff9259c37",
+    "event-4b2a3ac342c242f9b7eb39af32f7b6fd",
+    "event-2ac7046d62674640857194915be2d5bb",
+    "event-9199d550136241c6a8f84c7700d2c7d8",
+    "event-98b391ed282c4cb3b5260098f84caa1a",
+    "event-18c342972730460ca13677149e57a16b",
+    "event-e56249a7a0dc4f2d8ee94b0665662eac",
+    "event-3f77bfb278784dceb0e171ca87e57a9e",
+    "event-c1a6a4ab4c3943a2931439538ccd689c",
+    "event-f89af33ef35a407fa37c4493f5420f2d",
+    "event-c1883676da404c159091dce1bdb0e0be",
+    "event-6db816f5968f4484861a687be16699d0",
+    "event-2e9e6a4d0684408090ad01d61db51783",
+    "event-804ccaad5948438d8cf3a3a0a7d3b15a",
+    "event-63e9f7989f8a4a7b96eb41a9b81b0419",
+    "event-7f7c4662fdb744da843bfb7c647ff778",
+    "event-b3352179e24e48e982acfce28d104988",
+    "event-94f4e00226d54aa59a853490c7d863ec",
+    "event-6ad40b20c2e546919bf19560f506473c",
+    "event-b178cae25bbe444097a169d796ccc2f1",
+    "event-663a76fe31cb4d088c47d55ef3b03fdb",
+    "event-7f84c4cd32814e81b648cbf386d32988",
+    "event-7b93abae16e54bbea14385b460c6b326",
+    "event-ae8998c15fff4c0a9ffbf5f31001b07a",
+    "event-1f564cf2a22a4499afb772f6ac43174b",
+    "event-45eb15cd2cd14316bc6036a30421a295",
+    "event-84893df1cfaf4c6bbe01969620dd2115",
+    "event-37a6b2d19b5142c3a59e30e4553c6b54",
+    "event-c28e3165312340cdbc0a7d4e7f3113a2",
+    "event-3589f2ad11e541f4ba9442eeb3ca55a0",
+    "event-5130149a46d54ea289eb3722b3e5f3af",
+    "event-624a1c2cd4c6476b9f3a49a064e16414",
+    "event-624b2770b8c24dbd92b4edacb95773e8",
+    "event-1a80078147614863b1d2059eaad59bb7",
+    "event-a9a239c0bbf34d449e176fff273e4c04",
+    "event-087a3d243cbb402e9b8c030065512331",
+    "event-61ba993f28c54d5d97aa45ffeb2ba59c",
+    "event-258f627187364d6f868a84000571949c",
+    "event-6a68f4cdbb5949ffb531f2cf0ad37f80",
+    "event-8b70e9290c6b43319bdc21c406126261",
+    "event-53abad9ea7a14017b6879eb7202f57df",
+    "event-ad0deb75a34940c5b73caf85de3d2bff",
+    "event-102601df15234d37b90203654bbfc93f",
+    "event-264db4035f8e4fe28a84c72a52f5c7b5",
+    "event-93b577a93e5f4ed4932ddc55961de050",
+    "event-1ae4ae7c33f34731853ec3c86351152a",
+    "event-52955fe2e5294c759943e62f759fc616",
+    "event-da648bd1679340ce936b7cf603484e54",
+    "event-6b11b2569ac74957a70a53b1b758e9e4",
+    "event-2235971aa3334206986b7b32a92ba053",
+    "event-c842233cd8344bfdbb9e73a04fb18242",
+    "event-6a101d8af9744c20b661ec382aab748d",
+    "event-af6723fd98114a4fb41922b0f1034522",
+    "event-2ee1037c65854cfeb78fc80a383a80e2",
+    "event-684f547a765340acbdefb9580c171fe6",
+    "event-ac314940ed8849c6bef9aa54b7414589",
+    "event-55eeb285a23142b4a7e0124258af4e0b",
+    "event-12adb525fba94f39aebdd90731023f84",
+    "event-d2835250382f489da777579464b46578",
+    "event-421305b7c2be405681af79de6232a304",
+    "event-cfbf9ceebc6849f4b40d0c3444a8db50",
+    "event-a8410e1431a04b1588fd8c7bbf6f2e3c",
+    "event-26ccfc1f56404817ae8e943591726fa3",
+    "event-ab801263f1b9453cbc339a2be929290a",
+    "event-10457c5253d3448f82ae31b17352b825",
+    "event-3a2af00d5d034b58ae07b87141809a7c",
+    "event-10b9772506b24493b201d9cc5ee923e1",
+    "event-4c47263da39347b4b14162c96ac0adb5",
+    "event-855a572479514ccdb9ed83c401e8473a",
+    "event-61f5fb24fd344a58a51c48f02ebc2817",
+    "event-8f569b3b4ced4a618e2d14dfaabbe32f",
+    "event-607d2bae47524ff392dc7633c97a90b8",
+    "event-a207a69a31f649068ad4613da4bef7da",
+    "event-10b45008b4b04eef9885d48a7ae96c2c",
+    "event-63d38e0f7b4045188c68e4ba005bf52c",
+    "event-2d4c4bd9eb78486ca7ce49faae5949da",
+    "event-46fcac31957248f98770d14a0e1b7815",
+    "event-02899807ada1449eb5036ed581b25ee3",
+    "event-c6483a1b10054833ba5a8252866312fa",
+    "event-518d68a1dab946fa9b7aae571a4f8631",
+    "event-b82ece76bcf54da5827c4b744632ee19",
+    "event-6b20e1dde2114ab9b5998cf43bb40081",
+    "event-df0e3f0d031947ff82e123a07fd05fb8"
+  ],
+  "capture_plan": {
+    "path": "runs/deep-verification-20261031/closure/CAPTURE_PLAN.json",
+    "sha256": "98fd55d8f1255e59eb69376e6113fcd5ee32d165e4d1f31f9bdbe86a3907dce8",
+    "bytes": 3160
+  },
+  "capture_receipt": {
+    "path": "runs/deep-verification-20261031/closure/COORDINATOR_CAPTURE.json",
+    "sha256": "f2c666ab1dd868af5dbc5aa89b320f75093676e845ef4038d61b656096310974",
+    "bytes": 574
+  },
+  "capture_driver_files": [
+    {
+      "path": "runs/deep-verification-20261031/closure-capture-preparation/README.md",
+      "sha256": "4cfbeb9faa5d7289e78d99f7db7496d3a33ab85ac50e183b5f50635adc2dcd0b",
+      "bytes": 3675
+    },
+    {
+      "path": "runs/deep-verification-20261031/closure-capture-preparation/capture_and_close.py",
+      "sha256": "a939fe85c3d1b886f6d6df1edc50736baedec706e0dea5fea84a10badca03eea",
+      "bytes": 17194
+    },
+    {
+      "path": "runs/deep-verification-20261031/closure-capture-preparation/test_capture_and_close.py",
+      "sha256": "e2cf4f1f3fe21dd40c052d0a1a0addaf4efc1c4ba387cd3471161d19cac3b347",
+      "bytes": 14555
+    },
+    {
+      "path": "runs/deep-verification-20261031/closure-capture-preparation/CAPTURE_CONTRACT.json",
+      "sha256": "22e56622e4ed66d48cc7a012d7ed2559b6809d34118b8e51a2c4ecd444dea94d",
+      "bytes": 1299
+    }
+  ],
+  "capture_intent_event_id": "event-e234932ca21e489da9a658950a21c66a"
+}

@@ -1,0 +1,51 @@
+{
+  "status": "LOCAL_CASE_COMPLETE_PENDING_CANONICAL_CAPTURE",
+  "run_id": "postmidterm05-rescue-sol-20261014-v3",
+  "author_session_id": "01a1335c-7b04-7f12-916b-f9715f387344",
+  "model_reported": "gpt-6.1-sol",
+  "effort_reported": "high",
+  "speed": "Standard user-confirmed; backend unattested",
+  "boundary": "Bounded primary passages; no novelty or admission certificate. Conditional diagnostic separated from future application.",
+  "item_id": "E086",
+  "recorded_at": "2026-10-14T10:55:51.940664+00:00",
+  "recommendation": "CONDITIONAL_RETURN_TO_FUTURE_RESEARCH_POOL",
+  "wildcard": false,
+  "classification": [
+    "EXISTING_RECOGNIZED_VALID_CONDITIONAL_DIAGNOSTIC",
+    "REPAIRABLE_SIGNIFICANCE_APPLICATION",
+    "ORIGINALITY_UNKNOWN"
+  ],
+  "missed_previously_unrecognized_contribution": false,
+  "serious_defect_confirmed": false,
+  "manuscript_edits": 0,
+  "canonical_case_event": null,
+  "review_events": [
+    "event-c455b462db6d4ea29965370b0bed5dc6",
+    "event-8b48638d89ce4379823833de4a79836a"
+  ],
+  "inputs": {
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/midterm-20261007/blind/E086.md": "f4fca601f52d3e7e5082025c92350935254f70dbbf0841026454d999376426a9",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/planning/HISTORICAL_BASELINE.json": "57d10bc5520a0aa997629267f412819e592fcbfe81c17274fb2f25eaf677c88a",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-archives-v3/j020-j024-v3/J021.json": "44213428064f56136742a86b0ae4890e677383e43b148977a5a3faf5d8057953",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-archives-v3/j025-j033-v3/J026.json": "5d0bb28ef6986cb4add0f2a9c19fe7d77540bd85637b1d566c5d3b56b78788ab",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J021/attempt-001/report.md": "512da41beb4194f349b565b991240201314be0a75d2eb26a7db668a470f2bf9e",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J026/attempt-001/report.md": "6203a706ec5db2263369afb7e21df7d995f129d1ec3315c68ae01b46bc1d6202",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J026/attempt-001/sources/retrieved/web-return-000036.txt": "145305ce1d1f81da0201b3c77e730cd55a8737f7551c480441acd881b892e97e",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J026/attempt-001/sources/retrieved/web-return-000045.txt": "9d20e6284c67c339762a10beca757e6fbf0acaa39ef0fea30295f57a76b7b6d1"
+  },
+  "case_sha256": "c0d868a780a523c61b96806e08f2259b3c3acead4e88566de57d65c04dae495a",
+  "source_reading": [
+    {
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J026/attempt-001/sources/retrieved/web-return-000036.txt",
+      "sha256": "145305ce1d1f81da0201b3c77e730cd55a8737f7551c480441acd881b892e97e",
+      "read_extent": "RELEVANT_PASSAGES_ONLY",
+      "details": "Hayward§3.2 PDFp24 L536–553 collective roles; not full publication."
+    },
+    {
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J026/attempt-001/sources/retrieved/web-return-000045.txt",
+      "sha256": "9d20e6284c67c339762a10beca757e6fbf0acaa39ef0fea30295f57a76b7b6d1",
+      "read_extent": "RELEVANT_PASSAGES_ONLY",
+      "details": "Hayward§3.3 PDFp26–27 L598–619 feasibility evidence and willing partners; not rest of§3.3/full publication."
+    }
+  ]
+}

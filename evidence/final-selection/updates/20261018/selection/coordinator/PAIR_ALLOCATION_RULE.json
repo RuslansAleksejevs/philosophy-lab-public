@@ -1,0 +1,21 @@
+{
+  "status": "PREDECLARED_MECHANICAL_ALLOCATION_ONLY_NO_PAIRS_SELECTED",
+  "seed": "final-selection-20261018-pairs-60-40-v1",
+  "candidate_pair_choice": "Root chooses at most10 distinct pairs only after110accepted/read reviews, with actual rationale under METHOD.",
+  "batching": "One frozen pair batch; no pairing or final selection is established by this record.",
+  "profile_pool": "All23 profile slugs in frozen ALLOCATION.profile_counts; no added or changed profile material.",
+  "profile_assignment": "In pair_id order, exclude profiles assigned individually to either candidate; sort eligible slugs by (uses_in_this_pair_batch, sha256(seed+\":profile:\"+pair_id+\":\"+slug)); take first2 distinct. No preference for any review verdict or subject agreement.",
+  "ab_assignment": "Sort the two candidate IDs lexically. Reverse this base order if int(sha256(seed+\":order:\"+pair_id),16)%2 == 1. N1,N3,J2 receive base order; N2,J1 receive reversed order. Thus3:2 A/B balance and opposite J1/J2 orders.",
+  "worker_inputs": "Only existing common/pair rubric, assigned frozen profile ifany and two full frozen texts; rationale, old reviews, this allocation explanation and coordinator notes stay outside worker prompts.",
+  "settings": {
+    "model": "gpt-6-astra",
+    "effort": "ultra",
+    "service_tier": "default",
+    "workers_maximum": 3
+  },
+  "votes_per_pair": {
+    "neutral": 3,
+    "profile": 2
+  },
+  "acceptance": "Root will bind this record with actual pair plan before dispatch; no model or archive writer called here."
+}

@@ -1,0 +1,127 @@
+{
+  "schema": "collector-prior-attempt-stop.v1",
+  "status": "PRIOR_COLLECTOR_ATTEMPT_STOPPED",
+  "observed_at": "2026-10-31T21:35:47.415629+00:00",
+  "pid": 40522,
+  "command": [
+    "python3",
+    "-B",
+    "scripts/collector_service.py",
+    "stop"
+  ],
+  "command_exit_code": 0,
+  "command_stdout": "Unloaded; installed login configuration remains.\n",
+  "successful_stop_commands": 1,
+  "stop_status_checked_at": "2026-10-31T21:35:17.471074+00:00",
+  "process_exit_proof": {
+    "observed_at": "2026-10-31T21:35:23.379801+00:00",
+    "command": [
+      "/bin/ps",
+      "-p",
+      "40522",
+      "-o",
+      "pid=,etime=,stat="
+    ],
+    "returncode": 1,
+    "stdout": "",
+    "stderr": ""
+  },
+  "launchd_proof": {
+    "returncode": 113,
+    "stdout": "",
+    "stderr": "Bad request.\nCould not find service \"org.philosophylab.collector\" in domain for user gui: 501\n"
+  },
+  "archive_frontier": {
+    "sequence": 601238,
+    "event_id": "collector-d62b9ec7ef5ead1c22dd5450c86e118e",
+    "kind": "collector.coverage",
+    "sha256": "88d6b23333f64ee599fb42e7b9d5fb51ab9b6457240c4b93d4b8c668fff4f21f",
+    "file_sha256": "d8eaa438f46b2228a52f487b9e26355c17cc006319ab8dc658dc8125db5efe28"
+  },
+  "canonical_events_after_original_baseline": 19553,
+  "cursor_counts_by_signature": {
+    "d901a27aba1a8383927ca37354adf89c23a7e7a48bb0a32cffa91757ef15566d": 167,
+    "8b96d6060e97ab9251ce1edc5dab6d0b00ed41e217a957bc1077b90711675e05": 1,
+    "0abd26f67ef779ffd625bdaf3d331ed6c035b5f5cdc13d5f804df13b3dd5e43f": 3184,
+    "c8d9ad955e5bdc5c8d5063dc59a31e1d53ab887c748bb8f255a22550f6508d89": 4
+  },
+  "cached_sources": 3356,
+  "runtime_snapshots": {
+    "collector/runtime/status.json": {
+      "sha256": "aa5b5a8c408afcd72f4028c8cd70ff25a42edd4404f305e166b62aa5eb7be560",
+      "bytes": 91
+    },
+    "collector/runtime/cursor-cache.json": {
+      "sha256": "c9290a70b406265de5085294a9b45f475fa999f2f32f4016c02ad15b92e7658c",
+      "bytes": 4763747
+    }
+  },
+  "archive_temp_metadata": [],
+  "runtime_temp_metadata": [
+    {
+      "name": ".tmp-339118fb52b54f719b874b2a9af16149",
+      "bytes": 0
+    },
+    {
+      "name": ".tmp-c6344336072b43ed86bf3aad7a5e2286",
+      "bytes": 0
+    },
+    {
+      "name": ".tmp-3f50c278911a4cf5bfeefa8918d6cf86",
+      "bytes": 0
+    },
+    {
+      "name": ".tmp-da6fb7ac1c764ba4a384f83ce7148be6",
+      "bytes": 0
+    },
+    {
+      "name": ".tmp-8e18ed13fa334940b2f6f4c8c15de760",
+      "bytes": 0
+    },
+    {
+      "name": ".tmp-7d50226868c34645a1eca263687db221",
+      "bytes": 0
+    },
+    {
+      "name": ".tmp-3f816ae29b4146dc898e8705beb0d337",
+      "bytes": 0
+    },
+    {
+      "name": ".tmp-6637e9300eb34af580abdf662ee4798c",
+      "bytes": 0
+    },
+    {
+      "name": ".tmp-93c25331fbe7434796894040dcb55377",
+      "bytes": 0
+    }
+  ],
+  "previous_evidence": [
+    {
+      "path": "runs/repository-rebuild-20261031/history-audit/service-recovery-plan/service-recovery-execution/BASELINE.json",
+      "sha256": "a78c8d0736f0987e0d943cb78afc763fa613cacca2a1b8c046dab64bb7105665",
+      "bytes": 13098
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/history-audit/service-recovery-plan/service-recovery-execution/SERVICE_START.json",
+      "sha256": "17a373a591b2209d43919d37615c195efb53c8416b06d93341a0c0462bdd78c1",
+      "bytes": 1151
+    }
+  ],
+  "production_files": [
+    {
+      "path": "scripts/collector.py",
+      "sha256": "c0ff12e7b10f7c7fe8f13da3c3d27cc1009b0e7a707073e2495856fea2fc755b",
+      "bytes": 43143
+    },
+    {
+      "path": "scripts/research_archive.py",
+      "sha256": "a4fae709bd66d0596b31f1e724ba232699c3a14711b64edd9f1b2754ce27bd85",
+      "bytes": 42895
+    }
+  ],
+  "service_started": false,
+  "production_modified": false,
+  "canonical_writes": 0,
+  "temporary_files_deleted": 0,
+  "boundary": "One normal bootout confirmed, then independent OS PID absence and launchd not-found; stopped status alone not used as exit proof. Event metadata validation is bounded and is not a full archive audit. Raw/cache snapshots local only."
+}

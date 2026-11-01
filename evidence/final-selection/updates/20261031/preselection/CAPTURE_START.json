@@ -1,0 +1,48 @@
+{
+  "format": "codex-visible-selection.v1",
+  "session_id": "01a1496a-7b42-7a11-b00a-11d33df80222",
+  "source_basename": "rollout-2026-10-17T03-31-17-01a1496a-7b42-7a11-b00a-11d33df80222.jsonl",
+  "cwd_binding_verified": true,
+  "target_identity_verified": true,
+  "technical_transfer": false,
+  "source_snapshot_bytes": 8387925,
+  "source_complete_bytes": 8387925,
+  "source_snapshot_sha256": "ea7c82541123344eda55b75b133519d2662c6608d6abd861c5fe04c8c8adc5b0",
+  "partial_tail_bytes": 0,
+  "complete_source_lines": 1846,
+  "selected_range": [
+    1705,
+    1705
+  ],
+  "reviewed_tool_lines": [],
+  "captured_records": 1,
+  "excluded_counts": {},
+  "coverage_gaps": [],
+  "status": "BOUNDED_COMPLETE",
+  "gaps": [],
+  "exclusions": [],
+  "limitations": [
+    "provider_request_envelopes_unavailable",
+    "future_records_not_captured",
+    "excluded_runtime_and_hidden_records",
+    "no_claim_of_full_provider_capture",
+    "model_is_reported_configuration_not_backend_attestation",
+    "thinking_duration_unavailable",
+    "bounded_range_omits_other_source_records"
+  ],
+  "capture_status": "filtered_selection",
+  "full_provider_capture": false,
+  "raw_records": [
+    {
+      "source_line": 1705,
+      "sha256": "161f3386b6e9dcae57ecf0d52dc2e5b2ce9293ad94e7fe351484ea200331f714",
+      "bytes": 1229
+    }
+  ],
+  "run_id": "final-preselection-20261017",
+  "raw_event_ids": [
+    "event-539e2cf93bac42029c92bdea8dcc2e0c"
+  ],
+  "tool_link_ids": [],
+  "coverage_event_id": "event-91128e7d82b94a55ad79691e02523be1"
+}

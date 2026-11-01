@@ -1,0 +1,134 @@
+{
+  "status": "BATCH_ACCEPTED",
+  "event_id": "event-51bb90d578ab4fc6981274aab8cbda86",
+  "roles": [
+    {
+      "status": "ROLE_ARCHIVED",
+      "candidate": "E078",
+      "role": "review-final",
+      "session_id": "01a14c65-239c-7c00-b033-6619093eb0b1",
+      "event_id": "event-2c962250c0994eb58ebb226f415f6262",
+      "lineage_event_id": "event-449c5e65645d4590a78c673eb8c2c1bc",
+      "lineage_entry_id": "final-preselection-20261017:E078:review-final:v1",
+      "files": [
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/DISPATCH.json",
+          "sha256": "a212b2aa31670ae0f818c589661b30025a70890b03b0370f5163680f0496194a",
+          "bytes": 1053
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/DISPATCH_REQUESTED.json",
+          "sha256": "9a5f5a16a7e61b99d20394643f35d74b23a3d6fc788e98ee6aa37220419f53c6",
+          "bytes": 1044
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/INPUTS.json",
+          "sha256": "920ad41dd9a7c759de37d04b48f33867d59ee157672f9265ae6a60eaf40fc3bb",
+          "bytes": 389
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/PREPARED_RECEIPT.json",
+          "sha256": "5d6c79174d42eaedc39cb80d6e7f1716aa6813481f239138a60a26aeb11319dc",
+          "bytes": 790
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/PROMPT.txt",
+          "sha256": "e13b40c57a93c5ec02ca87a73625cb4a82922addc8ef88163e5caded332dcd87",
+          "bytes": 2717
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/VISIBLE_CAPTURE.json",
+          "sha256": "28c3bfbe7ba0fc51f3c2bb6546b97733a12cb44ba253a151dd1525e054f5838e",
+          "bytes": 3601
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/capture-001/line-119-part-0.json-string.txt",
+          "sha256": "c1ac46167ff0a974b028282f1babd264b12af1ae0ea454e6036f484f2adabd52",
+          "bytes": 526
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/capture-001/line-15-part-0.json-string.txt",
+          "sha256": "305139001be2f0c86a39ccdd91be3dad0721b8905e1f06ae39900df8c375d869",
+          "bytes": 128
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/capture-001/line-49-part-0.json-string.txt",
+          "sha256": "e92e24aff22d991342a8c1eab2bb7eed8d72f7b84e76bbe0c808a1414cf86c59",
+          "bytes": 419
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/capture-001/line-94-part-0.json-string.txt",
+          "sha256": "09ae484c9c9471f778e2a68837b2bb13e0867a8027121693f6ba2636f4f8d038",
+          "bytes": 416
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/input/manuscript.md",
+          "sha256": "c6b5565dbdf236ea43656afc2d4ef59031211d5703545900698111d8f2267e28",
+          "bytes": 27392
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/output/REVIEW.json",
+          "sha256": "704ff81f3a792f74d52b04756daab0c05f14e9392f4ccfa1afc8ae1ad80ff771",
+          "bytes": 20134
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/output/REVIEW_RU.txt",
+          "sha256": "c9a4074b12e1b0a619b3c09e71133ab5935a64bc1be708243701a0218daeb60a",
+          "bytes": 7154
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/output/SESSION.json",
+          "sha256": "2f23f7752b52680aef4eb4dbdf58cac09a9f404621863126b3d89e49745313e2",
+          "bytes": 1048
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/output/SOURCES.json",
+          "sha256": "0ce35b94387d60571576d248eed941f2acce914b2171270e2579abaad2c8f50f",
+          "bytes": 11604
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/output/sources/dougherty_2014_excerpt.txt",
+          "sha256": "b3e2447a80d089ee536e76e24170a3da0dc7759758ea7168f7b63000c5100725",
+          "bytes": 1084
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/output/sources/goodin_2024_excerpt.txt",
+          "sha256": "42a754ded705dc2289565c90b4d3f725580c33a7291aa7d59e5351a4b367cdc0",
+          "bytes": 1146
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/output/sources/healey_2019_excerpt.txt",
+          "sha256": "3ccd85d925fbfe27b681264bbfb7db6a0a4c51dabc914f3849ac805fc23a1be6",
+          "bytes": 1185
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/output/sources/keller_2018_excerpt.txt",
+          "sha256": "58709ca6bc9d9b48e6910c5a52088ad654cc201c9797d6c7344e20163ebea122",
+          "bytes": 1222
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/output/sources/liberto_2016_excerpt.txt",
+          "sha256": "d7eb58bd9f3824352a2f9f6f556741680bf288fc6859f7bc70ea41e19e3bd65b",
+          "bytes": 1355
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/output/sources/obrien_2026_excerpt.txt",
+          "sha256": "d6d7dc352186cb81c8e6987fe474083265bd807ad95903405b3f60e5d3e14dc2",
+          "bytes": 1253
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/output/sources/roumeas_2023_excerpt.txt",
+          "sha256": "abaf8f3c95cec96e76f6f3b506524bc6523bdcb6be873acb8fea3d2b0f6b3d29",
+          "bytes": 1212
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E078/review-final/output/sources/spafford_2023_excerpt.txt",
+          "sha256": "22fba48035176985d9117023e4f5656011f3f29bf49618bea59f941c6974964c",
+          "bytes": 1471
+        }
+      ],
+      "capture_status": "BOUNDED_VISIBLE_FRAGMENTS_COMPLETE"
+    }
+  ],
+  "prepared_packets": []
+}

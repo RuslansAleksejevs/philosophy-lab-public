@@ -1,0 +1,48 @@
+from pathlib import Path
+import copy,datetime as dt,importlib.util,tempfile,unittest
+s=importlib.util.spec_from_file_location('probe',Path(__file__).with_name('probe_first_poll_v2.py'));m=importlib.util.module_from_spec(s);s.loader.exec_module(m)
+class ProbeTests(unittest.TestCase):
+ def setUp(self):
+  self.started=m.when('2026-10-31T20:00:00Z');self.sig='a'*64
+  self.row={'session_id':'session-1','status':'CAUGHT_UP','source_line':20,'counts':{'user_prompts':1},'pending_tool_records':3,'gaps':[{'reason':'unknown_payload_fields','surface':'tools'}]}
+  self.status={'pid':123,'status':'RUNNING','last_attempt_at':'2026-10-31T20:00:10Z','checked_at':'2026-10-31T20:05:00Z','capture_compatibility':{'active':False,'reason':'exact_transition_not_compatible'},'sessions':[self.row],'discovered_sessions':1,'next_poll_delay_seconds':3600}
+  self.cache={'session-1':{'signature':self.sig,'lines':20,'offset':600,'prefix_sha256':'b'*64,'source_storage':{'encoding':'plain'},'counts':self.row['counts'],'pending_tools':3,'gaps':self.row['gaps']}}
+  self.views={'view_schema_version':2,'archive_head':'c'*64,'sessions':[{'session_id':'session-1','view_schema_version':2}],'view_gap_count':1}
+ def assess(self):return m.assess(self.status,self.cache,self.views,123,self.started,self.sig,'c'*64,['session-1'])
+ def test_complete_service_with_historical_gaps_is_honest(self):
+  r=self.assess();self.assertTrue(all(r['checks'].values()));self.assertFalse(r['coverage_healthy']);self.assertEqual(r['gap_total'],1);self.assertEqual(r['pending_tool_records'],3);self.assertEqual(r['next_poll_delay_seconds'],3600)
+ def test_old_pid_old_time_or_active_compatibility_rejected(self):
+  for k,v in [('pid',122),('last_attempt_at','2026-10-31T19:59:00Z'),('capture_compatibility',{'active':True})]:
+   with self.subTest(k=k):
+    old=copy.deepcopy(self.status);self.status[k]=v;self.assertFalse(all(self.assess()['checks'].values()));self.status=old
+ def test_old_cursor_or_frontier_rejected(self):
+  self.cache['session-1']['signature']='d'*64;self.assertFalse(self.assess()['checks']['all_reported_cursors_current']);self.assertFalse(self.assess()['coverage_healthy']);self.cache['session-1']['signature']=self.sig
+  self.views['archive_head']='e'*64;self.assertFalse(self.assess()['checks']['view_snapshot_head'])
+ def test_error_retains_prior_gap_counts_and_never_exposes_body(self):
+  self.row.update(status='ERROR',error_type='ValueError',error='DO_NOT_PUBLISH',last_committed_cursor=copy.deepcopy(self.cache['session-1']))
+  r=self.assess();self.assertFalse(r['checks']['no_source_errors']);self.assertEqual(r['gap_total'],1);self.assertEqual(r['pending_tool_records'],3);self.assertNotIn('DO_NOT_PUBLISH',str(r))
+ def test_source_identity_rejects_path_traversal(self):
+  self.row['session_id']='../../secret'
+  with self.assertRaises(m.Invalid):self.assess()
+ def test_launchd_parser_keeps_only_known_fields(self):
+  text='state = running\nprogram = /opt/python\narguments = {\n /opt/python\n -B\n /a b/collector.py\n}\nworking directory = /a b\npid = 123\nenvironment = {\n SECRET = do-not-retain\n}\n'
+  r=m.launch_snapshot(text);self.assertEqual(r['pid'],123);self.assertEqual(r['arguments'][-1],'/a b/collector.py');self.assertNotIn('do-not-retain',str(r))
+ def test_read_rejects_symlink_and_oversize(self):
+  with tempfile.TemporaryDirectory() as t:
+   p=Path(t).resolve()/'file';p.write_bytes(b'1234');link=p.with_name('link');link.symlink_to(p);self.assertEqual(m.read(p),b'1234')
+   with self.assertRaises(m.Invalid):m.read(link)
+   with self.assertRaisesRegex(m.Invalid,'exceeded bound'):m.read(p,3)
+ def test_view_gap_does_not_become_healthy_even_with_zero_source_gaps(self):
+  self.row['gaps']=[];self.cache['session-1']['gaps']=[]
+  self.assertTrue(all(self.assess()['checks'].values()));self.assertFalse(self.assess()['coverage_healthy'])
+  self.views['view_gap_count']=0;self.assertTrue(self.assess()['coverage_healthy'])
+ def test_outer_service_state_ignores_nested_resource_states(self):
+  text='gui/501/service = {\n\tstate = running\n\tpid = 40522\n\tprogram = /opt/python\n\tworking directory = /project\n\tresource = {\n\t\tstate = active\n\t}\n\tresource2 = {\n\t\tstate = active\n\t}\n}\n'
+  r=m.launch_snapshot(text);self.assertEqual(r['state'],'running');self.assertEqual(r['pid'],40522)
+ def test_nested_running_cannot_replace_missing_outer_state(self):
+  text='gui/501/service = {\n\tpid = 40522\n\tprogram = /opt/python\n\tresource = {\n\t\tstate = running\n\t}\n}\n'
+  self.assertIsNone(m.launch_snapshot(text)['state'])
+ def test_duplicate_outer_state_is_ambiguous(self):
+  text='\tpid = 40522\n\tstate = running\n\tstate = stopped\n\t\tstate = active\n'
+  self.assertIsNone(m.launch_snapshot(text)['state'])
+if __name__=='__main__':unittest.main()

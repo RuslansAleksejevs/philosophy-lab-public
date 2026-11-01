@@ -1,0 +1,182 @@
+{
+  "audit_id": "V03-A",
+  "manuscript_id": "V03",
+  "role": "argument",
+  "manuscript_sha256": "e6badc41a13f407d5ce9660772ff018d0ebbf109f5c8570a0659c612cb217a2d",
+  "read_complete": true,
+  "thesis": "Preserving the current supported probability of a fixed proposition, while guaranteeing correct responses to all surviving evidence, does not guarantee harmless retention policy. A discarded distinction can affect how a foreseeable disclosure bears on that same proposition. If costless improvements in expected credal accuracy count toward inquiry quality, retaining such a distinction has an advantage even when both policies maintain perfect evidential fit.",
+  "claimed_contribution": "The manuscript offers a controlled counterexample to the deletion test in §1 and to 'fit-only completeness' in §5. Its distinctive explanatory conditions are an unchanged present probability for the target proposition, a fixed inquiry, and perfect subsequent fit under both policies. It explicitly claims neither a new information-loss theorem nor a refutation of an entire time-slice theory, and it does not establish historical priority.",
+  "assessment": "NO_MAJOR_DEFECT_FOUND",
+  "findings": [],
+  "surviving_contribution": "The central conditional argument survives the internal audit. In §2, 'A label with delayed value for one question,' the expected losses of 0.07 for Keep and 0.08 for Erase follow from the stipulated model. In §3, 'Why the information loss survives faultless updating,' the identity E[(r-X)^2] - E[(q-X)^2] = E[(q-r)^2] correctly explains that difference. Together they demonstrate that preserving a present marginal probability need not preserve its usefulness for continued inquiry. The normative conclusion additionally requires §4's explicit premise that a costless expected accuracy improvement 'counts in favor of a retention method.' No material mathematical error or invalid inference was demonstrated. The surviving result concerns expected inquiry quality under that premise and the specified account of surviving evidence; it does not establish a fundamental obligation, superiority in every outcome, or superiority for every task.",
+  "remaining_questions": [
+    "§4, 'From an accuracy difference to a reason for retention,' expressly leaves open whether the reason is 'fundamentally epistemic, fundamentally practical, or derivative on the agent's aim.' Resolving that classification would be necessary for a stronger conclusion about fundamental rational requirements, but not for the stated comparison of inquiry methods.",
+    "§6, 'Genuine loss and honest limits,' makes the memory case conditional on 'genuine loss from epistemically available information.' Whether a particular theory treats an irretrievably forgotten source as evidence still possessed remains unresolved. The archive-recipient variant establishes the informational comparison without deciding that question.",
+    "§2 excludes storage costs, distraction, and displacement; §3 relies on a scheduled inspection. Applying the result to an actual retention decision would require evidence about those costs and the likely continuation of inquiry. The finite example provides no empirical estimates."
+  ],
+  "limitations": [
+    "I read the complete supplied manuscript, including its bibliography. I used no tools, external sources, other manuscripts, or information about the author.",
+    "All formal checks reported below were independently performed by manual arithmetic or algebra. No code, simulation, automated proof checker, or independent hash computation was used.",
+    "I could not verify any bibliography entry, linked text, quotation attribution, section locator, or interpretation of another author's position. Those are access limitations, not demonstrated citation defects.",
+    "This is an internal argument audit. It establishes neither historical novelty nor an exhaustive assessment of every possible objection."
+  ],
+  "plain_summary_ru": [
+    "Расчёты сходятся: метка источника помогает точнее оценить вероятность цвета после проверки, хотя до неё уверенность одинакова.",
+    "Вывод зависит от того, считаем ли мы ожидаемую точность оценок вероятности частью качества исследования.",
+    "Существенной ошибки в этом условном аргументе я не нашёл, но ссылки на другие работы не проверял."
+  ],
+  "argument_reconstruction": [
+    {
+      "step": "1",
+      "kind": "Definitions and distinctions",
+      "content": "Evidential fit means assigning the probability supported by available evidence. The quality of a retention method and the fundamental rational permissibility of choosing it are separate assessment questions.",
+      "support_or_dependency": "§1, 'When does an unchanged answer justify deletion?': 'An account of the first is not automatically an account of the other two.' The argument requires keeping these assessment targets distinct throughout."
+    },
+    {
+      "step": "2",
+      "kind": "Target claim",
+      "content": "The proposed deletion test treats an unchanged present probability for the chosen proposition, together with perfect subsequent evidential fit, as sufficient for deletion to have no epistemic downside.",
+      "support_or_dependency": "§1: 'deleting a distinction has no epistemic downside if it leaves the current supported credence unchanged' and the agent continues to fit retained evidence. This is a universal sufficiency claim, so one qualifying counterexample can defeat it."
+    },
+    {
+      "step": "3",
+      "kind": "Model stipulations, not empirical findings",
+      "content": "The token and sensor selection are fair. A is sound with probability 0.8 and otherwise reports randomly. B has accuracy 0.9 conditional on either token color, independently of A's condition. An inspection reveals A's past condition. Retention has no competing cost.",
+      "support_or_dependency": "§2, 'A label with delayed value for one question': 'These are stipulations of a finite model, not empirical claims.' B's conditional independence and the fixed inspection are essential to the particular numerical example."
+    },
+    {
+      "step": "4",
+      "kind": "Representation and comparison assumptions",
+      "content": "Keep retains source and report; Erase retains the report and the correct mixture over possible sources. Both retain the model and assign full conditional distributions given their respective information. The policies face the same underlying token, report-generating process, and later disclosure.",
+      "support_or_dependency": "§2: Erase removes 'every accessible clue or source-sensitive conditional state that would identify the selected sensor.' §3 represents the retained summary S as a function of history H. The information comparison requires this nesting and the common probability model."
+    },
+    {
+      "step": "5",
+      "kind": "Derived present-state result",
+      "content": "Either source supports probability 0.9 for blue after a blue report, and probability 0.1 for blue after a red report. Erasing the source therefore preserves the current probability of the target proposition. Both policies also satisfy their respective fit standards by construction.",
+      "support_or_dependency": "§2: 'Immediately after erasure, the credence in p remains 0.9.' This equality concerns the target marginal, not all present beliefs: source and joint-proposition probabilities change."
+    },
+    {
+      "step": "6",
+      "kind": "Derived continuation result",
+      "content": "After a blue report and a faulty inspection, the source-specific probabilities are 0.5 and 0.9, while Erase assigns 0.7. After a sound inspection, they are 1 and 0.9, while Erase assigns 0.95. Correct averaging preserves fit but loses source-specific discrimination.",
+      "support_or_dependency": "§2's table and the sentence 'The last row is not irrational.' Equal mixture weights follow from the symmetry of report probabilities, including conditional on A's condition."
+    },
+    {
+      "step": "7",
+      "kind": "Calculated accuracy comparison",
+      "content": "Both policies initially have expected squared loss 0.09. After inspection, Keep has expected loss 0.07 and Erase 0.08. The difference concerns the original proposition and does not require independently valuing knowledge of source identity.",
+      "support_or_dependency": "§2: the displayed calculations yielding 0.07 and 0.08. Red-report symmetry extends the conditional comparison to the unconditional comparison."
+    },
+    {
+      "step": "8",
+      "kind": "Proven general result",
+      "content": "For q = P(p|H,Z) and r = P(p|S,Z), the excess expected squared loss from using S is E[(q-r)^2]. Consequently, preserving expected accuracy after disclosure is equivalent to preserving the later posterior almost surely. Equality of current posteriors alone does not establish that condition.",
+      "support_or_dependency": "§3, 'Why the information loss survives faultless updating': the squared-error identity and the two posterior equalities. The proof uses nested information and conditional-expectation orthogonality."
+    },
+    {
+      "step": "9",
+      "kind": "Sufficient-condition result",
+      "content": "If the disclosure is conditionally independent of the earlier history given the token, its likelihoods are common across histories. Equal current probabilities then produce equal later probabilities. The inspection example violates this independence.",
+      "support_or_dependency": "§3: 'Z is conditionally independent of H given X.' The manuscript correctly labels this condition sufficient rather than necessary."
+    },
+    {
+      "step": "10",
+      "kind": "Normative premise and supporting rationale",
+      "content": "A foreseeable improvement in expected credal accuracy counts in favor of an inquiry method when there is no relevant cost or competing disadvantage. Strict propriety explains why squared error is compatible with evidence-fitting confidence; the better-sensor analogy supports extending inquiry assessment to retention.",
+      "support_or_dependency": "§4, 'From an accuracy difference to a reason for retention': the displayed normative premise and a(1-a) + (c-a)^2. Neither the identity nor strict propriety logically entails the normative premise."
+    },
+    {
+      "step": "11",
+      "kind": "Conditional conclusion and scope",
+      "content": "Given the normative premise, Keep has an epistemic-quality advantage despite equal fit performance and an unchanged present target probability. The deletion test and fit-only completeness therefore fail in the stipulated setting. No conclusion follows that Erase's later posterior is irrational or that a fundamental epistemic obligation governs the voluntary choice.",
+      "support_or_dependency": "§5, 'What a fit-based explanation leaves out': 'fit performance does not exhaust this policy comparison.' §§4 and 6 expressly preserve the instrumentalist and historical-evidence qualifications."
+    }
+  ],
+  "strongest_objections": [
+    {
+      "objection": "A lower expected squared error does not by itself establish greater epistemic merit. A theorist could accept all probabilities while judging only evidential fit or categorical correctness relevant.",
+      "best_available_reply": "The author explicitly supplies a separate normative premise. Strict propriety shows that the measure rewards supported probabilities in expectation, and the free-sensor analogy explains why enabling more accurate confidence can count toward inquiry quality. The manuscript also concedes that categorical classification gives a tie.",
+      "assessment": "This is a substantive normative disagreement, not a demonstrated inference error. The argument establishes a conditional counterexample; it cannot compel someone who rejects the additional value premise to abandon fit-only completeness. An unconditional claim about epistemic merit would require further support, but the manuscript does not make that claim.",
+      "manuscript_location": "§4, 'From an accuracy difference to a reason for retention': 'conditional on a defended but contestable premise'; §2: 'both policies achieve expected correctness 0.9.'"
+    },
+    {
+      "objection": "The deleted source was never wholly irrelevant: it already changed source beliefs, joint probabilities, and conditional responses. Moreover, removing a literal name need not remove any useful Bayesian information.",
+      "best_available_reply": "The target test concerns the current probability of one fixed proposition, not the entire current probability distribution. The author explicitly acknowledges the existing joint-information difference and permits alternative representations that preserve the useful conditional responses. Erase is defined as actual loss of those distinctions.",
+      "assessment": "The objection defeats an overbroad reading under which nothing informationally relevant changes initially, or ordinary label removal necessarily causes harm. It does not defeat the stated target-marginal claim. Any application must establish that the relevant conditional distinctions were actually lost.",
+      "manuscript_location": "§2, 'A label with delayed value for one question': 'initially irrelevant only to the marginal credence in p'; §6, 'Genuine loss and honest limits': 'Such compression escapes the objection.'"
+    },
+    {
+      "objection": "A historical account of evidence might continue to count the original source identity as possessed evidence after psychological forgetting. Erase would then fail the asserted fit condition.",
+      "best_available_reply": "The manuscript makes its memory counterexample conditional on the loss being epistemically genuine. Its archive-recipient variant compares full and shortened reports received by people who never had the same evidence, preserving the distinction between information quality and response quality.",
+      "assessment": "This is a real scope restriction that the manuscript acknowledges. The example is not a theory-neutral refutation of every evidential standard. The archive variant secures the channel-quality comparison but does not settle the original researcher's obligations under historical evidentialism.",
+      "manuscript_location": "§6, 'Genuine loss and honest limits': 'Erase may fail its fit standard' and 'not an unrestricted verdict about the memory of the original researcher.'"
+    },
+    {
+      "objection": "Perfect conditional assignment within one stipulated model may not address a theory that evaluates dispositions across broader circumstances, including model error or alternative accounts of available evidence. Nor has the manuscript established that a named opponent endorses its fit-only completeness claim.",
+      "best_available_reply": "The proposed counterexample targets completeness of fit performance as a policy assessment, with fit perfect on every positive-probability information state in the model. It explicitly separates this result from a refutation of Hedden or an entire time-slice theory.",
+      "assessment": "The internal counterexample survives. Its broader philosophical application must remain limited to explanations that really make fit performance exhaustive in the relevant sense. Interpretations of the cited theories require the separate source check.",
+      "manuscript_location": "§2: 'every positive-probability information state'; §5, 'What a fit-based explanation leaves out': 'no reason to attribute fit-only completeness to Hedden.'"
+    }
+  ],
+  "formal_checks": [
+    {
+      "claim": "§2, 'A label with delayed value for one question': both sensors initially support 0.9 after a blue report, and erasure preserves that value.",
+      "method": "For A, P(blue report|blue token) = 0.8 + 0.2(0.5) = 0.9, while P(blue report|red token) = 0.2(0.5) = 0.1. B has the same two likelihoods by stipulation. With equal token priors, Bayes' rule gives 0.9 for either source.",
+      "result": "Verified. Each source produces a blue report with probability 0.5, so source uncertainty remains equally weighted. For a red report, the probability of p is 0.1 under either policy.",
+      "execution_boundary": "Independently checked by manual arithmetic and Bayes' rule; no computational execution."
+    },
+    {
+      "claim": "§2's inspection table: the Keep rows are (0.5, 1) and (0.9, 0.9), and the Erase row is (0.7, 0.95).",
+      "method": "A faulty A supplies no information about the token; a sound A reports perfectly. B's likelihoods remain unchanged by the inspection. Conditional on either A condition and either source, the marginal probability of a blue report is 0.5. Thus both source weights remain 1/2 even after inspection.",
+      "result": "Verified. The erased probabilities are (0.5 + 0.9)/2 = 0.7 and (1 + 0.9)/2 = 0.95. The inspection probabilities conditional on a blue report remain 0.2 faulty and 0.8 sound.",
+      "execution_boundary": "Independently derived from the stated joint-probability assumptions; no external evidence about sensors is involved."
+    },
+    {
+      "claim": "§2: expected squared losses are initially 0.09, then 0.07 for Keep and 0.08 for Erase.",
+      "method": "At posterior c, conditional expected squared loss is c(1-c). Keep gives 0.2(0.17) + 0.8(0.045) = 0.034 + 0.036. Erase gives 0.2(0.21) + 0.8(0.0475) = 0.042 + 0.038. As a separate check, E[(q-r)^2] = 0.2(0.2^2) + 0.8(0.05^2).",
+      "result": "Verified: Keep = 0.07, Erase = 0.08, and their difference is 0.01. Both begin at 0.9(0.1) = 0.09. Red-report symmetry makes these unconditional values as well.",
+      "execution_boundary": "All displayed arithmetic was independently performed manually; no simulation or numerical program was run."
+    },
+    {
+      "claim": "§3, 'Why the information loss survives faultless updating': E[(r-X)^2] - E[(q-X)^2] = E[(q-r)^2].",
+      "method": "Because S is a function of H, information in (S,Z) is contained in information in (H,Z), giving r = E[q|S,Z]. Expanding r-X = (r-q) + (q-X), the cross term vanishes because r-q is measurable given (H,Z) and E[q-X|H,Z] = 0.",
+      "result": "Verified. Expected loss is equal exactly when q = r almost surely; otherwise it is strictly greater. Strictness requires disagreement within retained (S,Z) information states with positive probability, rather than merely different answers associated with different disclosures.",
+      "execution_boundary": "Independently checked by symbolic conditional-expectation reasoning. The result assumes the common probability law and nested information used in the manuscript."
+    },
+    {
+      "claim": "§3: conditional independence of Z and H given X makes preservation of the current probability sufficient.",
+      "method": "Let a be the current probability and L1, L0 the disclosure likelihoods conditional on X = 1 and X = 0. Independence makes the updated probability aL1/[aL1 + (1-a)L0] common to histories with the same a. In the example, a red token and an A-blue report imply a faulty A, whereas a red token and a B-blue report leave A faulty with probability 0.2.",
+      "result": "Verified wherever the conditioning event has positive probability. The independence condition is sufficient, and the example violates it. The argument does not establish or require necessity of that independence condition.",
+      "execution_boundary": "Independently checked by algebra and direct conditional probabilities; null information states are excluded as in the manuscript."
+    },
+    {
+      "claim": "§4, 'From an accuracy difference to a reason for retention': expected loss at arbitrary c is a(1-a) + (c-a)^2.",
+      "method": "Expand a(1-c)^2 + (1-a)c^2 = a - 2ac + c^2, then complete the square.",
+      "result": "Verified. The expression is uniquely minimized at c = a, including boundary probabilities. This establishes strict propriety of the stated loss, but does not establish that this loss must govern epistemic assessment.",
+      "execution_boundary": "Independently checked by manual algebra; the normative significance is assessed separately."
+    },
+    {
+      "claim": "§2: both policies achieve categorical correctness 0.9, and Keep need not be more accurate in each outcome.",
+      "method": "After a blue report, Keep's expected optimal classification accuracy is 0.1(0.5) + 0.1(0.9) + 0.4(1) + 0.4(0.9) = 0.9. Erase gives 0.2(0.7) + 0.8(0.95) = 0.9. For a red token, a false blue report from B, and faulty A, the squared losses are 0.9^2 and 0.7^2.",
+      "result": "Verified. Classification ties, including the indifferent choice at posterior 0.5. In the specified false-report outcome, Erase has loss 0.49 versus Keep's 0.81. The retention advantage is an expectation, not pointwise dominance.",
+      "execution_boundary": "Independently checked by manual arithmetic using events that have positive probability in the stipulated model."
+    },
+    {
+      "claim": "§2: equal marginal reliability alone does not establish the advantage; the alternative condition-dependent B yields loss 0.05 for both policies.",
+      "method": "If both sensors are perfect when A is sound and random when A is faulty, each retains marginal reliability 0.8(1) + 0.2(0.5) = 0.9. After inspection, either source gives posterior 1 when sound and 0.5 when faulty following a blue report.",
+      "result": "Verified. Expected squared loss is 0.8(0) + 0.2(0.25) = 0.05 for both policies. This supports the manuscript's warning that the specified dependence structure, not reliability alone, determines the table.",
+      "execution_boundary": "Independently checked by manual arithmetic in the explicitly described alternative model."
+    }
+  ],
+  "source_dependent_questions": [
+    "§1, 'When does an unchanged answer justify deletion?': Does Dogramaci 2015, §3.3, pp. 670–671, support the claimed distinction between criticism of forgetting and 'the rationality of a surviving belief,' including the asserted narrow use of 'epistemic evaluation'? Unverified here.",
+    "§3, 'Why the information loss survives faultless updating': Does Pettigrew's 2025 essay evaluate forgetting through expected epistemic value and retention costs while allowing conditioning on currently possessed evidence, and is it accurate that 'His worked example changes credences immediately'? Unverified here.",
+    "§§3 and 6: Does the cited version of Aevyra 2026 require agreement on promised future targets and address provenance-sensitive revision, equivalent statistics, and explicit degradation at the stated locations? These attributions and the version information require independent source checking.",
+    "§3: Does Alvarez 2026, §9, support the attributed distinction between 'present prediction and information needed for continued learning' and the acknowledgment of antecedents? The text, identifier, and interpretation were not checked.",
+    "§5, 'What a fit-based explanation leaves out': Do Hedden 2015, §1, note 3, and Hedden 2016, §2, note 4, and §4, notes 13–15, support the manuscript's distinctions among belief rationality, expected accuracy, process dispositions, instrumental assessment, and truth-based assessment? This is especially relevant to the manuscript's deliberately limited claim about the exchange.",
+    "§5: Does Podgorski 2016, §§3 and 8 of the cited author manuscript, make the attributed criticism of exhaustive attitude-based assessment and discuss behavior that changes the evidence against which it is judged? Unverified here.",
+    "§5: Does Schwarz 2025, introduction and §8, defend the stated challenge to proportionality under deteriorating evidence while recognizing resource-based reasons for forgetting? Unverified here.",
+    "§6, 'Genuine loss and honest limits': Does Weatherson's cited text defend historical evidence and the attitude/agent distinction as described, and what does its account imply about irretrievably forgotten source identity? The manuscript's acknowledged scope limitation is intelligible, but the source interpretation remains unchecked."
+  ]
+}

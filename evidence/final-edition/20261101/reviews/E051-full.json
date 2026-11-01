@@ -1,0 +1,132 @@
+{
+  "job_id": "E051-critic",
+  "essay_id": "E051",
+  "scientific_role": "critic",
+  "manuscript_sha256": "df4786d7491c498a415f5908a24542c1f27f88b146c71ed6b580a9df77325496",
+  "read_original_complete": true,
+  "read_revision_complete": true,
+  "decision": "READY",
+  "findings": [],
+  "change_checks": [
+    {
+      "location": "Opening and “The demand for reconstruction”",
+      "what_changed": "Explains the philosophical comparison through concrete questions and moves the tree example earlier.",
+      "assessment": "Clearer; content preserved.",
+      "reason": "Readers encounter the retrieval confound before the notation. The distinction between two recollections and perception–recollection comparison remains explicit."
+    },
+    {
+      "location": "“A comparison that loses detail” and “From a valid inference to evidence”",
+      "what_changed": "Presents the formal model before developing its evidential requirements.",
+      "assessment": "Substantial organizational improvement.",
+      "reason": "The definition, proof and example now form a continuous explanation. The following section preserves the vacuity objection, independent validation and retrieval influences."
+    },
+    {
+      "location": "“Wholes, parts, and imperfect representations”",
+      "what_changed": "Simplifies the holism discussion and the account of Andonovski’s structural representations.",
+      "assessment": "Accurate clarification.",
+      "reason": "The distinction between preserved classifications and phenomenal parts survives, as does the boundary between event-model content and recollective experience."
+    },
+    {
+      "location": "“What a match can tell us”",
+      "what_changed": "Makes the singleton-output example’s three-type domain explicit and explains both directions of inference.",
+      "assessment": "Improved precision.",
+      "reason": "Specifying the complete domain makes the claim that a u/u match identifies a/a unambiguous."
+    },
+    {
+      "location": "“Establishing the observed contrast” and “The reach of the argument”",
+      "what_changed": "Separates phenomenal identification and noise from the closing objections and integrates the conclusion.",
+      "assessment": "Clearer without material loss.",
+      "reason": "The distinct evidential obligations are easier to follow. The limits concerning actual memory, explanatory attribution and immediate introspective evidence remain."
+    }
+  ],
+  "preservation_checks": [
+    {
+      "aspect": "Formal correctness and examples",
+      "assessment": "Passed.",
+      "reason": "(N) supports contraposition and makes F well defined on represented original types. In the first table, u has possible originals a/b and v has c/d: contrasts establish difference, while either match is inconclusive. The singleton example and the reverse example with disjoint output sets are also correct."
+    },
+    {
+      "aspect": "Quantifiers and local conditions",
+      "assessment": "Preserved.",
+      "reason": "The revision distinguishes domain-wide (N), global injectivity, a singleton preimage for one match, and exclusion of matching originals for one observed contrast. It does not generalize the first model’s asymmetry to every procedure."
+    },
+    {
+      "aspect": "Independent warrant and circularity",
+      "assessment": "Preserved.",
+      "reason": "The actual-pair equivalence is correctly qualified by differing outputs. Independent support across relevant alternatives remains necessary; later validation is permitted, while selecting a domain to secure the conclusion is rejected."
+    },
+    {
+      "aspect": "Holism, reconstruction and argumentative scope",
+      "assessment": "Preserved.",
+      "reason": "The argument concerns whole types and does not infer the absence of shared parts from different labels. It challenges reconstruction’s necessity relative to the stated premises, without claiming to validate memory or identify the original difference’s cause."
+    },
+    {
+      "aspect": "Phenomenal reports, noise and probabilistic support",
+      "assessment": "Preserved.",
+      "reason": "Reports remain distinct from phenomenal contrasts. Equal output distributions do not imply equal outcomes, retrieval dependence must be considered, and failure of entailment does not exclude probabilistic support."
+    },
+    {
+      "aspect": "Proof placement and appendix references",
+      "assessment": "Passed.",
+      "reason": "Neither manuscript contains an appendix or appendix-dependent claims. The essential proof and examples remain in the main text."
+    },
+    {
+      "aspect": "Proposed abstract",
+      "assessment": "Accurate and readable.",
+      "reason": "It states the conditional result, additional requirements for matching outputs, limited compatibility with holism, independent evidential obligations and lack of empirical validation. Its scope matches the manuscript."
+    },
+    {
+      "aspect": "Proposed TLDR",
+      "assessment": "Accurate and concise.",
+      "reason": "It retains both the phenomenal nature of the observed contrast and independent warrant for the observation-specific condition. It promises support for an original difference without attributing that difference to a particular feature."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "andonovski-2022",
+      "status": "Supported by supplied primary passages.",
+      "locations_checked": "“Wholes, parts, and imperfect representations”; bibliography; supplied passages 1–3.",
+      "note": "Simplification, weaker structural resemblance, system use, inference through models and the distinction from memory-experience content are accurately represented. Bibliographic details match the supplied record."
+    },
+    {
+      "source_id": "nourbakhshi-2023",
+      "status": "Attribution preserved; direct verification limited.",
+      "locations_checked": "“The demand for reconstruction”; “The reach of the argument”; bibliography; supplied access notes.",
+      "note": "The strong and weaker readings remain distinguished, and partial similarity is acknowledged as already considered. Bibliographic details and cited locations match the supplied record; no primary quotation is supplied for independent textual confirmation."
+    },
+    {
+      "source_id": "chudnoff-2015",
+      "status": "Attribution preserved; direct verification limited.",
+      "locations_checked": "“The reach of the argument”; bibliography; supplied access notes.",
+      "note": "The distinction among phenomenal presence, irreducibility and independence remains intact. The author-manuscript link and cited locations agree with the access notes; the underlying passages are not included."
+    },
+    {
+      "source_id": "fulkerson-cohen-2025",
+      "status": "Attribution preserved; direct verification limited.",
+      "locations_checked": "“The reach of the argument”; bibliography; supplied access notes.",
+      "note": "The access-to-phenomenality and downstream-attribution concerns remain. Bibliographic information and manuscript references match the supplied record; the underlying passages are not included."
+    }
+  ],
+  "language_assessment": {
+    "clearer_than_original": true,
+    "strengths": [
+      "Concrete examples prepare readers for the formal distinctions.",
+      "The progression from valid inference to warranted evidence is easier to follow.",
+      "Technical terms receive explanations, and the mathematics remains short and purposeful.",
+      "Necessary qualifications survive without obstructing the main argument."
+    ],
+    "remaining_issues": [],
+    "content_loss_found": false
+  },
+  "recommend_revision_over_original": true,
+  "limitations": [
+    "Assessment uses only the supplied packet; no external sources or tools were consulted.",
+    "Direct primary-text verification was possible only for the supplied Andonovski passages. Other source checks concern preservation and consistency with the access notes.",
+    "READY is a bounded editorial and content-preservation judgment, not certification of originality, philosophical truth or empirical reliability."
+  ],
+  "plain_summary_ru": [
+    "Редакция заметно понятнее: пример появляется раньше, а логический вывод лучше отделён от требований к доказательствам.",
+    "Существенных потерь смысла и ошибок в моделях не найдено. Аннотация и TLDR соответствуют тексту.",
+    "Обязательных исправлений нет. Проверка остальных источников ограничена предоставленными сведениями о доступе."
+  ]
+}

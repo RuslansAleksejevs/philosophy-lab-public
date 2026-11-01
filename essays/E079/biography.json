@@ -1,0 +1,1536 @@
+{
+  "entity": "creative10-20260922/essay-11",
+  "entries": [
+    {
+      "actor": {
+        "agent_path": "/root/creative_author_11",
+        "role": "AI",
+        "session_id": "01a0c890-091f-7ac3-afd6-e384db7a1da4"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/creative10-20260922/AUTHOR_BRIEF.md",
+          "role": "input",
+          "sha256": "4e254906dee2111614ee1739ea861d7383f4ba23eb5e8d3e10a8eac07efc94a7"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/OPERATIONS.md",
+          "role": "input",
+          "sha256": "6288b52b8fff2880b1cffa4aed17c06bcf737566b7c5b52d154e557aaac06b2f"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/campaign.json",
+          "role": "input",
+          "sha256": "152f0c7257980cc27135ddf1d802f04ae5c11e3d41bb12f2f45cebbd51fc04c8"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/OPPONENT.md",
+          "role": "input",
+          "sha256": "7e9f1d4bdbd50caa331c9399d6248b2d97e70af7bdd5426b5d8be92158deecf5"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/NOVELTY_CRITIC.md",
+          "role": "input",
+          "sha256": "501289b1d35417ae9f7cde5c6458ec97eead675cb05d01d264dd8e5438cb9cef"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/author-task.txt",
+          "role": "input",
+          "sha256": "7e8613ad8b71f645616e364e6e647830394875f2a632e2e22f91c32133ef538d"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/competition/RULES_SUMMARY.md",
+          "role": "input",
+          "sha256": "bb2d4673ff2c74394095075421add184579bc1c897ae04e651e1e1d15c792a05"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/competition/web-rules-faq.json",
+          "role": "input",
+          "sha256": "8dd928cc2586d85d9ab4c635d7daa7c5439c1a45a0f195668942f53e4bc107d6"
+        },
+        {
+          "path": "methods/creative-novelty-v2.json",
+          "role": "input",
+          "sha256": "51b9b111b96e1eaf4fa40485fe8a8b199f4636d59595718f8281c4bd99d2c8b0"
+        },
+        {
+          "path": "scripts/creative10_v2_artifacts.py",
+          "role": "input",
+          "sha256": "ccbcb8d034dd7b2ca415432fa4712788a84a64f7e348b1d1ee44b9095578d966"
+        },
+        {
+          "path": "runs/creative10-20260922/authorization-capture.json",
+          "role": "input",
+          "sha256": "a4c192375d5216cc4f7fe4a1a504a6c84d17908fc48d4c99ad87e9f052873bfa"
+        }
+      ],
+      "configuration": {
+        "observed": "UNKNOWN",
+        "requested": {
+          "effort": "medium",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "creative10-20260922/essay-11",
+      "event_id": "event-93d2e8e3d6774711a8aec78a2a25c16a",
+      "evidence": [
+        "event-028dd1490fd04c15b174f45738f5a940"
+      ],
+      "gaps": [
+        "Native model configuration is not backend attestation. Hidden reasoning excluded.",
+        "Marker timestamp attests saved artifact; writing start is unknown.",
+        "Task files bind designated inputs; native dispatch and additional visible instructions are separately collected."
+      ],
+      "id": "creative10-20260922:11:origin",
+      "kind": "origin",
+      "occurred_at": "UNKNOWN",
+      "parents": [],
+      "recorded_at": "2026-09-22T10:02:08.098252+00:00",
+      "summary": "Creative novelty workflow: origin",
+      "workflow": {
+        "method": "creative-novelty-v2",
+        "stage": "origin"
+      }
+    },
+    {
+      "actor": {
+        "agent_path": "/root/creative_author_11",
+        "role": "AI",
+        "session_id": "01a0c890-091f-7ac3-afd6-e384db7a1da4"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/question.md",
+          "role": "idea",
+          "sha256": "f2c2890256865d2c53c42c70d0e1bde9cd7c69f3e841f4a898bb782878dedef0"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "collector-9663c9d4b0914a70918b7f38bad5180c",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "medium",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "creative10-20260922/essay-11",
+      "event_id": "event-8d49746943614d80b5ea7c065fbd0653",
+      "evidence": [
+        "event-c729ecd9821141d5abe7f332e72454dc",
+        "event-d792aeb1ec624cab9511295635a11686",
+        "collector-9663c9d4b0914a70918b7f38bad5180c"
+      ],
+      "gaps": [
+        "Native model configuration is not backend attestation. Hidden reasoning excluded.",
+        "Marker timestamp attests saved artifact; writing start is unknown.",
+        "Task files bind designated inputs; native dispatch and additional visible instructions are separately collected."
+      ],
+      "id": "creative10-20260922:11:idea",
+      "kind": "idea",
+      "occurred_at": "2026-09-22T10:09:35.527Z",
+      "parents": [
+        "creative10-20260922:11:origin"
+      ],
+      "recorded_at": "2026-09-22T10:12:40.922607+00:00",
+      "summary": "Creative novelty workflow: idea",
+      "workflow": {
+        "method": "creative-novelty-v2",
+        "stage": "idea"
+      }
+    },
+    {
+      "actor": {
+        "agent_path": "/root/creative_author_11",
+        "role": "AI",
+        "session_id": "01a0c890-091f-7ac3-afd6-e384db7a1da4"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/sources.md",
+          "role": "selection",
+          "sha256": "135f95ff2ab5a69e224cbc3fe3119b34abd7f36ed5221528a597c560f6174976"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/novelty-gate.json",
+          "role": "selection",
+          "sha256": "e89461bb6dc03f87bc93a3f0f6d4ef5694a2a2bf4be68b80ed6e106758639f9d"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/source-manifest.json",
+          "role": "selection",
+          "sha256": "4889e9510b9e192be85e61b46137617ca01ef4f2734b05e63da1ad87943e895f"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-9f0900ddb1544660bd56eacf04826130",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "medium",
+          "model": "gpt-6-astra"
+        }
+      },
+      "decision": {
+        "closest_works": [
+          {
+            "citation": "Sekine (2026), In Defence of Second-Order Reasons, section 3",
+            "difference": "Explicit pair of observationally equivalent models refutes a specific positive inference to some individual successful excluders; does not reject conceptual defence.",
+            "evidence_path": "sources/sekine_body.json",
+            "shared_claim": "Psychological possibility of reason exclusion; this exact three-rate experiment."
+          },
+          {
+            "citation": "Wittlin (2023), Binding Hercules, pp. 1759–60 n.143",
+            "difference": "Structural non-identification persists even for exact population rates, and unchanged individual verdicts still do not identify the basing relation; directed against Sekine’s later inference, not a new caution about significance.",
+            "evidence_path": "sources/methods_and_wittlin.json",
+            "shared_claim": "Partial discounting differs from discarding; same experiment warrants statistical caution. These are inherited prior findings."
+          },
+          {
+            "citation": "Keeling (2024), Responding to second-order reasons",
+            "difference": "No novel account of basing claimed; applies distinction to invalidate a concrete empirical identification step with constructive countermodels.",
+            "evidence_path": "sources/keeling_rest.json",
+            "shared_claim": "Acting for a reason for a reason involves more than matching an outcome."
+          },
+          {
+            "citation": "Rocchè (2024) abstract; Wang (2024) abstract/introduction",
+            "difference": "Proposal neither declares impossibility nor reinvents this challenge; tests the evidential bridge from output rates to full individual exclusion. Incomplete access limits comparison.",
+            "evidence_path": "sources/primary_empirical.json",
+            "shared_claim": "Cognitive limitations challenge practical reason exclusion."
+          },
+          {
+            "citation": "Holland (1986), abstract/bibliographic coverage",
+            "difference": "No new statistical theorem; exact correction to a philosophical argument plus distinction between outcome invariance and reason-guided basing.",
+            "evidence_path": "sources/nearest_final.json",
+            "shared_claim": "Group causal information does not automatically identify individual causal effects. General methodological background is inherited."
+          }
+        ],
+        "limitations": "Self-assessment only; independent precheck required. Target Sekine and closest Wittlin passages directly read. Wistrich original full paper inaccessible: critique grants Sekine’s numerical premises, no raw-data inference. Rocchè/Wang full texts inaccessible; Holland abstract only. No exhaustive priority claim. Novelty rests on concrete local correction beyond known aggregate/individual and discount/discard distinctions; critic may reject its significance.",
+        "query_log_path": "sources/queries.json",
+        "source_manifest_sha256": "4889e9510b9e192be85e61b46137617ca01ef4f2734b05e63da1ad87943e895f",
+        "status": "PASS_RELATIVE"
+      },
+      "entity": "creative10-20260922/essay-11",
+      "event_id": "event-a796f59ee611443ba7645552d03b47da",
+      "evidence": [
+        "event-6b003ec324fd4740a626981e482cb2c4",
+        "event-cb7a095546b247a792a5cbb770d3cfbf",
+        "event-9f0900ddb1544660bd56eacf04826130"
+      ],
+      "gaps": [
+        "Native model configuration is not backend attestation. Hidden reasoning excluded.",
+        "Marker timestamp attests saved artifact; writing start is unknown.",
+        "Task files bind designated inputs; native dispatch and additional visible instructions are separately collected."
+      ],
+      "id": "creative10-20260922:11:selection",
+      "kind": "selection",
+      "occurred_at": "2026-09-22T10:12:56.503Z",
+      "parents": [
+        "creative10-20260922:11:idea"
+      ],
+      "recorded_at": "2026-09-22T10:14:08.472665+00:00",
+      "summary": "Creative novelty workflow: selection",
+      "workflow": {
+        "method": "creative-novelty-v2",
+        "stage": "selection"
+      }
+    },
+    {
+      "actor": {
+        "agent_path": "/root/creative_novelty_11",
+        "role": "AI",
+        "session_id": "01a0c89c-84cf-7de3-8660-8f4441ab788f",
+        "source_cwd": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/precheck-p1.md",
+          "role": "report",
+          "sha256": "e45b0ec73d41286d272b44d35ed9c4215326ec06a8b96c110b89eaba3b82a03c"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/precheck-gate-p1.json",
+          "role": "gate",
+          "sha256": "58509e41cd9f345d7b5c9fee82cd091c3faa6f9da6deb921edb370f4027dc59f"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/precheck-manifest-p1.json",
+          "role": "manifest",
+          "sha256": "7456874cfcbc6b6117f2c0751c0911508dd7d1f3afaaf97a6b69df45b0ddcc49"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/proposal.md",
+          "role": "proposal",
+          "sha256": "82b2c909d5f89b313848e7d71cfa3dadb278902e7246f3983b2f458810c2c816"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/NOVELTY_CRITIC.md",
+          "role": "input",
+          "sha256": "501289b1d35417ae9f7cde5c6458ec97eead675cb05d01d264dd8e5438cb9cef"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/novelty-task.txt",
+          "role": "input",
+          "sha256": "34302328fba4cc7ed6aace025bbd141690bc78196c370325320ff3fd782a0516"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-139c0ed9abbf4ff2ba63ab1b8c10a5da",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "medium",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "creative10-20260922/essay-11",
+      "event_id": "event-bf0f0017d7924826afaea2d3325b50c6",
+      "evidence": [
+        "event-02f623190a274aae84c0002cc5f92920",
+        "event-95bdb4cfb62c4247bdfca67656f2e162",
+        "event-6facbed49614478bb0fe08b789109be2",
+        "event-8b782e197226476f879bd58b8a0d8722",
+        "event-8f359b2b6cb74a3fa55c3b9cef4d34d7",
+        "event-139c0ed9abbf4ff2ba63ab1b8c10a5da"
+      ],
+      "gaps": [
+        "Independent context is not proof of intellectual independence; relative novelty is not absolute novelty."
+      ],
+      "id": "creative10-20260922:11:precheck-p1",
+      "kind": "critique",
+      "occurred_at": "2026-09-22T10:18:01.591Z",
+      "parents": [
+        "creative10-20260922:11:selection"
+      ],
+      "recorded_at": "2026-09-22T10:18:47.445693+00:00",
+      "summary": "Independent pre-draft novelty check: PASS_RELATIVE",
+      "workflow": {
+        "attempt": "p1",
+        "method": "creative-novelty-v2",
+        "stage": "precheck"
+      }
+    },
+    {
+      "actor": {
+        "agent_path": "/root/creative_novelty_11",
+        "role": "AI",
+        "session_id": "01a0c89c-84cf-7de3-8660-8f4441ab788f",
+        "source_cwd": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/precheck-p1.md",
+          "role": "report",
+          "sha256": "e45b0ec73d41286d272b44d35ed9c4215326ec06a8b96c110b89eaba3b82a03c"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/precheck-gate-p1.json",
+          "role": "gate",
+          "sha256": "58509e41cd9f345d7b5c9fee82cd091c3faa6f9da6deb921edb370f4027dc59f"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/precheck-manifest-p1.json",
+          "role": "manifest",
+          "sha256": "7456874cfcbc6b6117f2c0751c0911508dd7d1f3afaaf97a6b69df45b0ddcc49"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/proposal.md",
+          "role": "proposal",
+          "sha256": "82b2c909d5f89b313848e7d71cfa3dadb278902e7246f3983b2f458810c2c816"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/NOVELTY_CRITIC.md",
+          "role": "input",
+          "sha256": "501289b1d35417ae9f7cde5c6458ec97eead675cb05d01d264dd8e5438cb9cef"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/novelty-task.txt",
+          "role": "input",
+          "sha256": "34302328fba4cc7ed6aace025bbd141690bc78196c370325320ff3fd782a0516"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-139c0ed9abbf4ff2ba63ab1b8c10a5da",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "medium",
+          "model": "gpt-6-astra"
+        }
+      },
+      "decision": {
+        "closest_overlap": "Wittlin 2023 pp.1759–60 n.143 already distinguishes discounting/discarding, statistical caution and improper bases. Hoeft et al. 2025 already test process-sensitive information acquisition. Neither accessed text supplies this exact countermodel to Sekine.",
+        "concrete_increment": "Explicit observationally equivalent complete-excluder-mixture and universal-partial-reliance models correct Sekine's inference from three reported verdict rates to some successful excluders, preserving his conceptual defence. General statistical method and basing distinctions are inherited.",
+        "limitations": "Bounded indexed search; no universal priority claim. Sekine/Wittlin target passages and Hoeft excerpts directly read. Rocchè/Wang full texts and original Wistrich experiment/raw data not read. Model-to-basing mapping requires care, especially reasons weighed against conviction. Compatibility alone does not eliminate probabilistic evidence.",
+        "proposal_path": "research/campaigns/creative10-20260922/essay-11/proposal.md",
+        "proposal_sha256": "82b2c909d5f89b313848e7d71cfa3dadb278902e7246f3983b2f458810c2c816",
+        "verdict": "PASS_RELATIVE"
+      },
+      "entity": "creative10-20260922/essay-11",
+      "event_id": "event-1376ade775b642cfafd1c1df55b506b4",
+      "evidence": [
+        "event-02f623190a274aae84c0002cc5f92920",
+        "event-95bdb4cfb62c4247bdfca67656f2e162",
+        "event-6facbed49614478bb0fe08b789109be2",
+        "event-8b782e197226476f879bd58b8a0d8722",
+        "event-8f359b2b6cb74a3fa55c3b9cef4d34d7",
+        "event-139c0ed9abbf4ff2ba63ab1b8c10a5da"
+      ],
+      "gaps": [
+        "Independent context is not proof of intellectual independence; relative novelty is not absolute novelty."
+      ],
+      "id": "creative10-20260922:11:preflight-selection",
+      "kind": "selection",
+      "occurred_at": "2026-09-22T10:18:01.591Z",
+      "parents": [
+        "creative10-20260922:11:selection",
+        "creative10-20260922:11:precheck-p1"
+      ],
+      "recorded_at": "2026-09-22T10:18:49.307942+00:00",
+      "summary": "Independent novelty preflight released this exact proposal",
+      "workflow": {
+        "attempt": "p1",
+        "method": "creative-novelty-v2",
+        "stage": "precheck"
+      }
+    },
+    {
+      "actor": {
+        "agent_path": "/root/creative_author_11",
+        "role": "AI",
+        "session_id": "01a0c890-091f-7ac3-afd6-e384db7a1da4"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/draft.md",
+          "role": "draft",
+          "sha256": "16c9b5946c50f1e7ca60a72a5cca4e1e4e09ca42b4265818f35511596e77f72d"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-0a8fc1f5b64d481c8b6333f781fe4263",
+              "source": "native-turn-context-observation",
+              "source_line": 329,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "medium",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "creative10-20260922/essay-11",
+      "event_id": "event-28269b181a564e32b33fe1d27e9f2831",
+      "evidence": [
+        "event-887c97232ef34a14bf30c5b7e688e9fc",
+        "event-90d36e5f18d445c6adc3880527099ce8",
+        "event-0a8fc1f5b64d481c8b6333f781fe4263"
+      ],
+      "gaps": [
+        "Native model configuration is not backend attestation. Hidden reasoning excluded.",
+        "Marker timestamp attests saved artifact; writing start is unknown.",
+        "Task files bind designated inputs; native dispatch and additional visible instructions are separately collected."
+      ],
+      "id": "creative10-20260922:11:draft",
+      "kind": "draft",
+      "occurred_at": "2026-09-22T10:22:36.315Z",
+      "parents": [
+        "creative10-20260922:11:selection",
+        "creative10-20260922:11:preflight-selection"
+      ],
+      "recorded_at": "2026-09-22T10:25:02.977626+00:00",
+      "summary": "Creative novelty workflow: draft",
+      "workflow": {
+        "method": "creative-novelty-v2",
+        "stage": "draft"
+      }
+    },
+    {
+      "actor": {
+        "agent_path": "/root/creative_opponent_11",
+        "role": "AI",
+        "session_id": "01a0c8a6-827d-7810-87c6-0482fa8b95e2"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/critique-1.md",
+          "role": "critique1",
+          "sha256": "6feb8dee3fcfc3ac3d807e3fbcd5166d28460be8570dfb38d3ae753c3174c687"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/OPPONENT.md",
+          "role": "critique1",
+          "sha256": "7e9f1d4bdbd50caa331c9399d6248b2d97e70af7bdd5426b5d8be92158deecf5"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/opponent-task.txt",
+          "role": "critique1",
+          "sha256": "e229e4b920a668d9c80714becf491a8c064712d93abaa24cb0914dd595e1f04d"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-bd0e0c7d84e54e129edc5e1d90ac4e34",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "medium",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "creative10-20260922/essay-11",
+      "event_id": "event-873898ff2fa84b2f8671e33216ce1f4c",
+      "evidence": [
+        "event-a638ed9915c44fb2980a8a554f6f1998",
+        "event-02cefc56ccc248ca97709358b4be5aa2",
+        "event-bd0e0c7d84e54e129edc5e1d90ac4e34"
+      ],
+      "gaps": [
+        "Native model configuration is not backend attestation. Hidden reasoning excluded.",
+        "Marker timestamp attests saved artifact; writing start is unknown.",
+        "Task files bind designated inputs; native dispatch and additional visible instructions are separately collected."
+      ],
+      "id": "creative10-20260922:11:critique1",
+      "kind": "critique",
+      "occurred_at": "2026-09-22T10:29:32.907Z",
+      "parents": [
+        "creative10-20260922:11:draft"
+      ],
+      "recorded_at": "2026-09-22T10:30:21.661484+00:00",
+      "summary": "Creative novelty workflow: critique1",
+      "workflow": {
+        "method": "creative-novelty-v2",
+        "stage": "critique1"
+      }
+    },
+    {
+      "actor": {
+        "agent_path": "/root/creative_novelty_11",
+        "role": "AI",
+        "session_id": "01a0c89c-84cf-7de3-8660-8f4441ab788f"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/critique-2.md",
+          "role": "critique2",
+          "sha256": "2f3293d2967bdad74e7b96580f85fbd598853ce3d015769cbac432b4c92fae66"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/NOVELTY_CRITIC.md",
+          "role": "critique2",
+          "sha256": "501289b1d35417ae9f7cde5c6458ec97eead675cb05d01d264dd8e5438cb9cef"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/novelty-task.txt",
+          "role": "critique2",
+          "sha256": "34302328fba4cc7ed6aace025bbd141690bc78196c370325320ff3fd782a0516"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-ff2b14c964d84f35bfccbc3ce4cb707f",
+              "source": "native-turn-context-observation",
+              "source_line": 175,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "medium",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "creative10-20260922/essay-11",
+      "event_id": "event-90ecf915233f4124b414f638e7c62181",
+      "evidence": [
+        "event-c8675bb4a16a47ab842f629f5fe63426",
+        "event-9166415884d147b69676e078fe5741e1",
+        "event-ff2b14c964d84f35bfccbc3ce4cb707f"
+      ],
+      "gaps": [
+        "Native model configuration is not backend attestation. Hidden reasoning excluded.",
+        "Marker timestamp attests saved artifact; writing start is unknown.",
+        "Task files bind designated inputs; native dispatch and additional visible instructions are separately collected."
+      ],
+      "id": "creative10-20260922:11:critique2",
+      "kind": "critique",
+      "occurred_at": "2026-09-22T10:35:10.063Z",
+      "parents": [
+        "creative10-20260922:11:draft",
+        "creative10-20260922:11:critique1"
+      ],
+      "recorded_at": "2026-09-22T10:35:58.772103+00:00",
+      "summary": "Creative novelty workflow: critique2",
+      "workflow": {
+        "method": "creative-novelty-v2",
+        "no_content_dependency": [
+          "critique1"
+        ],
+        "ordering_boundary": "First critique is an archival ordering parent only; its content is excluded from this role input.",
+        "stage": "critique2"
+      }
+    },
+    {
+      "actor": {
+        "agent_path": "/root/creative_author_11",
+        "role": "AI",
+        "session_id": "01a0c890-091f-7ac3-afd6-e384db7a1da4"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/response.md",
+          "role": "revision",
+          "sha256": "3db6117270b3ea53adbfd1e5e25bac0ffeedbf189546723ec1bbcb0ef5cd426b"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-59ea4ebbafda450fa9cc391d8ecda6ef",
+              "source": "native-turn-context-observation",
+              "source_line": 419,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            },
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-59ea4ebbafda450fa9cc391d8ecda6ef",
+              "source": "native-turn-context-observation",
+              "source_line": 419,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "medium",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "creative10-20260922/essay-11",
+      "event_id": "event-5566883113564a0da39bf2f80f7a83ed",
+      "evidence": [
+        "event-de7fbbe60c9d44c08f80bb55d7dde175",
+        "event-24839c9c02fb4b87a2361fbf309935e3",
+        "event-59ea4ebbafda450fa9cc391d8ecda6ef",
+        "event-24839c9c02fb4b87a2361fbf309935e3",
+        "event-59ea4ebbafda450fa9cc391d8ecda6ef"
+      ],
+      "gaps": [
+        "Native model configuration is not backend attestation. Hidden reasoning excluded.",
+        "Marker timestamp attests saved artifact; writing start is unknown.",
+        "Task files bind designated inputs; native dispatch and additional visible instructions are separately collected."
+      ],
+      "id": "creative10-20260922:11:revision",
+      "kind": "revision",
+      "occurred_at": "2026-09-22T10:39:47.436Z",
+      "parents": [
+        "creative10-20260922:11:draft",
+        "creative10-20260922:11:critique1",
+        "creative10-20260922:11:critique2"
+      ],
+      "recorded_at": "2026-09-22T10:40:42.513544+00:00",
+      "summary": "Creative novelty workflow: revision",
+      "workflow": {
+        "method": "creative-novelty-v2",
+        "stage": "revision"
+      }
+    },
+    {
+      "actor": {
+        "agent_path": "/root/creative_author_11",
+        "role": "AI",
+        "session_id": "01a0c890-091f-7ac3-afd6-e384db7a1da4"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/final.md",
+          "role": "final",
+          "sha256": "3ff50cb0c41cc9267cdf2b839fb8a7b5aab278a6810dab4b41757f2cc3074cfd"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "observations": [
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-59ea4ebbafda450fa9cc391d8ecda6ef",
+              "source": "native-turn-context-observation",
+              "source_line": 419,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            },
+            {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "evidence_event_id": "event-59ea4ebbafda450fa9cc391d8ecda6ef",
+              "source": "native-turn-context-observation",
+              "source_line": 419,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          ]
+        },
+        "requested": {
+          "effort": "medium",
+          "model": "gpt-6-astra"
+        }
+      },
+      "entity": "creative10-20260922/essay-11",
+      "event_id": "event-f52861b672d742ad8754485323881991",
+      "evidence": [
+        "event-de7fbbe60c9d44c08f80bb55d7dde175",
+        "event-24839c9c02fb4b87a2361fbf309935e3",
+        "event-59ea4ebbafda450fa9cc391d8ecda6ef",
+        "event-24839c9c02fb4b87a2361fbf309935e3",
+        "event-59ea4ebbafda450fa9cc391d8ecda6ef"
+      ],
+      "gaps": [
+        "Native model configuration is not backend attestation. Hidden reasoning excluded.",
+        "Marker timestamp attests saved artifact; writing start is unknown.",
+        "Task files bind designated inputs; native dispatch and additional visible instructions are separately collected."
+      ],
+      "id": "creative10-20260922:11:final",
+      "kind": "final",
+      "occurred_at": "2026-09-22T10:39:47.436Z",
+      "parents": [
+        "creative10-20260922:11:draft",
+        "creative10-20260922:11:critique1",
+        "creative10-20260922:11:critique2",
+        "creative10-20260922:11:revision"
+      ],
+      "recorded_at": "2026-09-22T10:40:48.960955+00:00",
+      "summary": "Creative novelty workflow: final",
+      "workflow": {
+        "method": "creative-novelty-v2",
+        "stage": "final"
+      }
+    },
+    {
+      "actor": {
+        "agent_path": "/root",
+        "role": "AI",
+        "session_id": "01a0c80c-fc80-72f0-b1c3-c6337a451001"
+      },
+      "artifacts": [
+        {
+          "path": "research/campaigns/creative10-20260922/README.md",
+          "role": "completion evidence",
+          "sha256": "648247670a94f32d357470b51861c61b159ecaecb64d8e5dae9e4f1d21c195bf"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/REPORT_RU.md",
+          "role": "completion evidence",
+          "sha256": "b9010ef511759e311d4b829379a1281c6dd77f0d58807b61f76bdea4c7cde82c"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/METHOD_AND_LIMITS_RU.md",
+          "role": "completion evidence",
+          "sha256": "5eeb5aec6cb1a768f6d7d2dc8c2c29ee883225e007d2b2ee77a37b783830deea"
+        },
+        {
+          "path": "runs/creative10-20260922/completion-selection.json",
+          "role": "completion evidence",
+          "sha256": "2c521f4f2bc19b5d296e2c388947518ea2d15a8eaf04c95a68fd0cdbc055ab13"
+        },
+        {
+          "path": "runs/creative10-20260922/final-verification.json",
+          "role": "completion evidence",
+          "sha256": "0b7cb81dcb8dd483183001a618289b528b077aa5585e6609bca4662571171520"
+        },
+        {
+          "path": "runs/creative10-20260922/verify_campaign.py",
+          "role": "completion evidence",
+          "sha256": "ae65e11af50b9b01cb99406782657fb776f8b2eeb3469026f0c31ae5103f775b"
+        },
+        {
+          "path": "runs/creative10-20260922/post-repair-checks.receipt.json",
+          "role": "completion evidence",
+          "sha256": "830fa1b5a8a993117e75c8c394affc1e51afb6b07470a8ba193ec3f7d9632e6f"
+        },
+        {
+          "path": "runs/creative10-20260922/timing-qualification.receipt.json",
+          "role": "completion evidence",
+          "sha256": "bd74efa8e74c13a3da77be1de1d90f77237028c207989c2879b22118b0f303e8"
+        },
+        {
+          "path": "runs/creative10-20260922/COLLECTOR_FINAL_CHECK.md",
+          "role": "completion evidence",
+          "sha256": "09c302654238b8f44b80d4dbdbfccfe35e3b1394de9328e475a33c48f7fc166d"
+        },
+        {
+          "path": "runs/creative10-20260922/coverage/20260922T113857.561794Z/campaign-coverage.json",
+          "role": "completion evidence",
+          "sha256": "f2b182de3882938c45cba8dce4e84e92f927f50c8728e0e9465cc8ac3aff4324"
+        },
+        {
+          "path": "scripts/essay_lineage.py",
+          "role": "completion evidence",
+          "sha256": "d4aa5bfd13e7e6b5789926370a487a5bda50d13748e0825dd79afb7c470e153f"
+        },
+        {
+          "path": "tests/test_essay_lineage.py",
+          "role": "completion evidence",
+          "sha256": "e1492e4f3193f3a4a63637807a30aebf5efc78ad59e8f93d83041048a4d7a3f0"
+        },
+        {
+          "path": "runs/creative10-20260922/biography-render-tests.log",
+          "role": "completion evidence",
+          "sha256": "b1041454c8482d1c88ba7a305a289586858ae837d1364c913ca9a5f7fd5b2a00"
+        }
+      ],
+      "configuration": {
+        "observed": "UNKNOWN",
+        "requested": "UNKNOWN"
+      },
+      "decision": {
+        "criterion": "Completed source gate, two reviews and revision; no unresolved SET_ASIDE outcome. Relative novelty only.",
+        "retained": [
+          "04",
+          "06",
+          "07",
+          "09",
+          "11",
+          "12",
+          "13",
+          "15",
+          "16",
+          "17"
+        ],
+        "set_aside": [
+          "01",
+          "02",
+          "03",
+          "05",
+          "08",
+          "10",
+          "14"
+        ]
+      },
+      "entity": "creative10-20260922/series",
+      "event_id": "event-e28495eacb6842fc80326e6e09a40532",
+      "evidence": [
+        "event-a9d0a24eb3bc4e53a8a08313beb5906c",
+        "event-63f98b5543a943c2bc1284df65b5b0cd",
+        "event-6f8643ddcd064540bffd3d23b7c31397",
+        "event-391f2e19dbcc49d9af1453ec8e4b55ab",
+        "event-3458bc17ad5441fa9bccd1451f6d48bf",
+        "event-05d058721a464e9181b80e522c8d9f14",
+        "event-469149463bad4c61af1bc31c9c56afe3",
+        "event-612542064b9843c6b6536e2bd836f635",
+        "event-9651a9fd6f354d029137705955b1b228",
+        "event-c4e39d1d57ac42a39056161e95660ac7",
+        "event-186f4544b34f4973b6ae6c5aae3cf99a",
+        "event-baf558d4c7654d6e91888473b0fb6b2a",
+        "event-903912cb116848148bef45b8e850e2d4",
+        "event-d3423f40eb91440da407bc74cad60265",
+        "event-06b50cac1e9b453b862ee08b8e9711c3",
+        "event-78180c2dba1a44cd951ffe1720407cd7",
+        "event-92e6d0b68da246a587e5b34619486616"
+      ],
+      "gaps": [
+        "Relative originality is not universal priority or philosophical truth.",
+        "Distinct native sessions establish context separation, not intellectual independence.",
+        "Early exploration timing deviations and the essay02 early read are preserved; not an ideal strict-order demonstration.",
+        "Collector snapshot covers explicit research cursors; root/technical future messages and full provider traces are not certified."
+      ],
+      "id": "creative10-20260922:completion-retention",
+      "kind": "selection",
+      "occurred_at": "UNKNOWN",
+      "parents": [
+        "creative10-20260922:04:final",
+        "creative10-20260922:06:final",
+        "creative10-20260922:07:final",
+        "creative10-20260922:09:final",
+        "creative10-20260922:11:final",
+        "creative10-20260922:12:final",
+        "creative10-20260922:13:final",
+        "creative10-20260922:15:final",
+        "creative10-20260922:16:final",
+        "creative10-20260922:17:final",
+        "creative10-20260922:01:final",
+        "creative10-20260922:02:final",
+        "creative10-20260922:03:final",
+        "creative10-20260922:05:rejected-selection",
+        "creative10-20260922:08:early-rejection",
+        "creative10-20260922:10:early-rejection",
+        "creative10-20260922:14:early-rejection"
+      ],
+      "recorded_at": "2026-09-22T11:42:23.621769+00:00",
+      "summary": "Ten completed candidates were preserved; seven unsuccessful attempts were not counted. This selects for completion and criticism outcomes, not a ranking.",
+      "workflow": {
+        "comparison": "no pairwise ranking or winner assessment",
+        "method": "creative-novelty-v2 with disclosed v1 failures and transport correction",
+        "stage": "series completion"
+      }
+    },
+    {
+      "actor": "UNKNOWN",
+      "artifacts": [
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/HISTORY.md",
+          "role": "legacy_evidence",
+          "sha256": "2c46da98e41e17697e4cac0569fe94b8aea7b3a333a29d79326c9f7a6c9e868b"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/author-task.txt",
+          "role": "legacy_evidence",
+          "sha256": "7e8613ad8b71f645616e364e6e647830394875f2a632e2e22f91c32133ef538d"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/checkpoint.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "79d245bcb773c148039eca29cd019579740b3c22f0f799d39217000a1b0f067d"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/contribution.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "7727f6ab3263576d38644fee26633c1ba78c5d5588cbd8ecd29e5cb4ad09d450"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/critique-1.md",
+          "role": "legacy_evidence",
+          "sha256": "6feb8dee3fcfc3ac3d807e3fbcd5166d28460be8570dfb38d3ae753c3174c687"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/critique-2.md",
+          "role": "legacy_evidence",
+          "sha256": "2f3293d2967bdad74e7b96580f85fbd598853ce3d015769cbac432b4c92fae66"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/critique.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "cd98dddba101c2b2fb3964818269e8e87c3184b10ca9555e26c9f832b286bda5"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/decision.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "a57ed947868cc1b361d144d6e342a624a027b3ad5fb1ad1d5b5220a12117435b"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/draft.md",
+          "role": "legacy_evidence",
+          "sha256": "16c9b5946c50f1e7ca60a72a5cca4e1e4e09ca42b4265818f35511596e77f72d"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/final.md",
+          "role": "legacy_evidence",
+          "sha256": "3ff50cb0c41cc9267cdf2b839fb8a7b5aab278a6810dab4b41757f2cc3074cfd"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/identity.json",
+          "role": "legacy_evidence",
+          "sha256": "737a26ad28f7c38cda7e38900e451e069fedecd12980b33070c75b19d95da923"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/precheck-p1.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "c34c59c0f61f476220fab604aa5fc3bc12be8b113dd12b582cda7db7fdee64dc"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/question.md",
+          "role": "legacy_evidence",
+          "sha256": "f2c2890256865d2c53c42c70d0e1bde9cd7c69f3e841f4a898bb782878dedef0"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/question.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "77f2697cc94ca48218d8a8866b5c324be9697e1ab32da38aa5fc47074f985267"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/review2.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "073d0891a5be07adcba0da13a92ef6ddd0562736f1bf3d24286d72d2dccf2c58"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/sources.md",
+          "role": "legacy_evidence",
+          "sha256": "135f95ff2ab5a69e224cbc3fe3119b34abd7f36ed5221528a597c560f6174976"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/sources.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "0eea2b0a765d7842607d388241cea555f81f65fb283b1cbb97d876eb683a9d2a"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/AUTHOR_BRIEF.md",
+          "role": "shared_context",
+          "sha256": "4e254906dee2111614ee1739ea861d7383f4ba23eb5e8d3e10a8eac07efc94a7"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/campaign.json",
+          "role": "shared_context",
+          "sha256": "152f0c7257980cc27135ddf1d802f04ae5c11e3d41bb12f2f45cebbd51fc04c8"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/OPERATIONS.md",
+          "role": "shared_context",
+          "sha256": "6288b52b8fff2880b1cffa4aed17c06bcf737566b7c5b52d154e557aaac06b2f"
+        }
+      ],
+      "configuration": {
+        "observed": [
+          {
+            "event_id": "event-0a8fc1f5b64d481c8b6333f781fe4263",
+            "model": {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "source": "native-turn-context-observation",
+              "source_line": 329,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          },
+          {
+            "event_id": "event-bd0e0c7d84e54e129edc5e1d90ac4e34",
+            "model": {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          },
+          {
+            "event_id": "event-59ea4ebbafda450fa9cc391d8ecda6ef",
+            "model": {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "source": "native-turn-context-observation",
+              "source_line": 419,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          },
+          {
+            "event_id": "event-139c0ed9abbf4ff2ba63ab1b8c10a5da",
+            "model": {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          },
+          {
+            "event_id": "collector-9663c9d4b0914a70918b7f38bad5180c",
+            "model": {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          },
+          {
+            "event_id": "event-ff2b14c964d84f35bfccbc3ce4cb707f",
+            "model": {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "source": "native-turn-context-observation",
+              "source_line": 175,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          },
+          {
+            "event_id": "event-9f0900ddb1544660bd56eacf04826130",
+            "model": {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          }
+        ],
+        "requested": "UNKNOWN"
+      },
+      "entity": "creative10-20260922/essay-11",
+      "event_id": "event-99781127b94b417887256c12bef09e6c",
+      "evidence": [
+        "event-23f3dacd99bb4ff8b0bab9e8ed6677bb",
+        "event-3458bc17ad5441fa9bccd1451f6d48bf",
+        "event-d792aeb1ec624cab9511295635a11686",
+        "event-cb7a095546b247a792a5cbb770d3cfbf",
+        "event-90d36e5f18d445c6adc3880527099ce8",
+        "event-02cefc56ccc248ca97709358b4be5aa2",
+        "event-24839c9c02fb4b87a2361fbf309935e3",
+        "event-9166415884d147b69676e078fe5741e1",
+        "event-8f359b2b6cb74a3fa55c3b9cef4d34d7",
+        "candidate:creative10-11-decision",
+        "candidate:creative10-11-contribution",
+        "event-0a8fc1f5b64d481c8b6333f781fe4263",
+        "event-28269b181a564e32b33fe1d27e9f2831",
+        "event-887c97232ef34a14bf30c5b7e688e9fc",
+        "event-a638ed9915c44fb2980a8a554f6f1998",
+        "event-c8675bb4a16a47ab842f629f5fe63426",
+        "event-bd0e0c7d84e54e129edc5e1d90ac4e34",
+        "event-873898ff2fa84b2f8671e33216ce1f4c",
+        "event-78171d660b014aefbe073a805d93c13b",
+        "event-59ea4ebbafda450fa9cc391d8ecda6ef",
+        "event-f52861b672d742ad8754485323881991",
+        "event-de7fbbe60c9d44c08f80bb55d7dde175",
+        "event-93d2e8e3d6774711a8aec78a2a25c16a",
+        "event-028dd1490fd04c15b174f45738f5a940",
+        "event-139c0ed9abbf4ff2ba63ab1b8c10a5da",
+        "event-02f623190a274aae84c0002cc5f92920",
+        "event-bf0f0017d7924826afaea2d3325b50c6",
+        "event-1376ade775b642cfafd1c1df55b506b4",
+        "event-c729ecd9821141d5abe7f332e72454dc",
+        "candidate:creative10-11-question",
+        "collector-9663c9d4b0914a70918b7f38bad5180c",
+        "event-3552a8201c2646c99b07c82330f9f951",
+        "event-8d49746943614d80b5ea7c065fbd0653",
+        "event-ff2b14c964d84f35bfccbc3ce4cb707f",
+        "event-90ecf915233f4124b414f638e7c62181",
+        "event-9100071a8c7f45d4ba0d7e7c2f22843c",
+        "event-6b003ec324fd4740a626981e482cb2c4",
+        "event-9f0900ddb1544660bd56eacf04826130",
+        "event-a796f59ee611443ba7645552d03b47da",
+        "event-8b782e197226476f879bd58b8a0d8722"
+      ],
+      "gaps": [
+        "Historical causal links/model settings not reconstructed automatically; inspect linked original evidence.",
+        "No recorded tournament does not prove no historical selection occurred."
+      ],
+      "id": "legacy:creative10-20260922/essay-11:62973f178caaed7e45d8",
+      "kind": "legacy_inventory",
+      "occurred_at": "UNKNOWN",
+      "parents": [],
+      "recorded_at": "2026-09-22T11:43:10.514134+00:00",
+      "summary": "Historical materials: exact bytes, existing receipts, and links. A recorded history does not replace independent confirmation.",
+      "workflow": "UNKNOWN"
+    },
+    {
+      "actor": {
+        "id": "01a11ee2-3de2-7ff0-b84c-8a5b5f8f73e0",
+        "provider": "Codex",
+        "role": "AI"
+      },
+      "artifacts": [
+        {
+          "path": "runs/midterm-20261007/closure-20261010/FINAL_DECISION_RU.txt",
+          "role": "final_decision",
+          "sha256": "d33afb6dfce0ca4e37b65f16848a8a91b047347c3b4f033008635befc2b14e71"
+        },
+        {
+          "path": "runs/midterm-20261007/closure-20261010/claude-critic-xhigh/artifacts/critique.md",
+          "role": "separate_C_critique",
+          "sha256": "f99cf9c8581b3c2cfb8c4c51ef2937c1d5f1d38137487b97401eeb46bd80d1f2"
+        },
+        {
+          "path": "runs/midterm-20261007/diagnostics-launch-20261011/A5/REPORT-v1.txt",
+          "role": "A5",
+          "sha256": "d86ada0100031fb756e909e5f6b2c606e05817020e5b54e62b477742265fc9de"
+        }
+      ],
+      "configuration": {
+        "observed": {
+          "effort": "high",
+          "model": "gpt-6-astra",
+          "source": "native root turn context line8826; observational"
+        },
+        "requested": "Current root chat setting; latest explicit xhigh instruction concerns Claude C only."
+      },
+      "decision": {
+        "disposition": "RETAIN",
+        "new_manuscript": false,
+        "ranking": "NOT_ESTABLISHED",
+        "working_choice": "original; a narrow methodological role"
+      },
+      "entity": "creative10-20260922/essay-11",
+      "event_id": "event-96805ab062d24cc08e1efb96c6175497",
+      "evidence": [
+        "event-192c6dfeaf0c425782fc9bbd89f3b00f",
+        "event-f554e700079e456a962bc80aeebfce81",
+        "event-a4046bda6dda414fb8cc6a1d8dbffca2"
+      ],
+      "gaps": [
+        "Bounded diagnostics and literature; novelty and actual-judge fidelity not certified.",
+        "No new manuscript created; E036 dissent and all prior records preserved."
+      ],
+      "id": "midterm-closure-20261011:E079:selection-v1",
+      "kind": "selection",
+      "occurred_at": "2026-10-12T02:33:55.564399+00:00",
+      "parents": [
+        "creative10-20260922:11:final"
+      ],
+      "recorded_at": "2026-10-12T02:34:18.476274+00:00",
+      "summary": "E079: original; a narrow methodological role. The queue is not a ranking; historical versions are preserved.",
+      "workflow": "A5 and three B2 accepted, proposal, separate Claude Opus5.5/xhigh critique, root final decision. Selection event only."
+    },
+    {
+      "actor": "UNKNOWN",
+      "artifacts": [
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/HISTORY.md",
+          "role": "legacy_evidence",
+          "sha256": "2c46da98e41e17697e4cac0569fe94b8aea7b3a333a29d79326c9f7a6c9e868b"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/author-task.txt",
+          "role": "legacy_evidence",
+          "sha256": "7e8613ad8b71f645616e364e6e647830394875f2a632e2e22f91c32133ef538d"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/checkpoint.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "79d245bcb773c148039eca29cd019579740b3c22f0f799d39217000a1b0f067d"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/contribution.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "7727f6ab3263576d38644fee26633c1ba78c5d5588cbd8ecd29e5cb4ad09d450"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/critique-1.md",
+          "role": "legacy_evidence",
+          "sha256": "6feb8dee3fcfc3ac3d807e3fbcd5166d28460be8570dfb38d3ae753c3174c687"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/critique-2.md",
+          "role": "legacy_evidence",
+          "sha256": "2f3293d2967bdad74e7b96580f85fbd598853ce3d015769cbac432b4c92fae66"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/critique.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "cd98dddba101c2b2fb3964818269e8e87c3184b10ca9555e26c9f832b286bda5"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/decision.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "a57ed947868cc1b361d144d6e342a624a027b3ad5fb1ad1d5b5220a12117435b"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/draft.md",
+          "role": "legacy_evidence",
+          "sha256": "16c9b5946c50f1e7ca60a72a5cca4e1e4e09ca42b4265818f35511596e77f72d"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/final.md",
+          "role": "legacy_evidence",
+          "sha256": "3ff50cb0c41cc9267cdf2b839fb8a7b5aab278a6810dab4b41757f2cc3074cfd"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/identity.json",
+          "role": "legacy_evidence",
+          "sha256": "737a26ad28f7c38cda7e38900e451e069fedecd12980b33070c75b19d95da923"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/precheck-p1.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "c34c59c0f61f476220fab604aa5fc3bc12be8b113dd12b582cda7db7fdee64dc"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/question.md",
+          "role": "legacy_evidence",
+          "sha256": "f2c2890256865d2c53c42c70d0e1bde9cd7c69f3e841f4a898bb782878dedef0"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/question.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "77f2697cc94ca48218d8a8866b5c324be9697e1ab32da38aa5fc47074f985267"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/review2.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "073d0891a5be07adcba0da13a92ef6ddd0562736f1bf3d24286d72d2dccf2c58"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/sources.md",
+          "role": "legacy_evidence",
+          "sha256": "135f95ff2ab5a69e224cbc3fe3119b34abd7f36ed5221528a597c560f6174976"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/essay-11/sources.receipt.json",
+          "role": "legacy_evidence",
+          "sha256": "0eea2b0a765d7842607d388241cea555f81f65fb283b1cbb97d876eb683a9d2a"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/AUTHOR_BRIEF.md",
+          "role": "shared_context",
+          "sha256": "4e254906dee2111614ee1739ea861d7383f4ba23eb5e8d3e10a8eac07efc94a7"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/campaign.json",
+          "role": "shared_context",
+          "sha256": "152f0c7257980cc27135ddf1d802f04ae5c11e3d41bb12f2f45cebbd51fc04c8"
+        },
+        {
+          "path": "research/campaigns/creative10-20260922/OPERATIONS.md",
+          "role": "shared_context",
+          "sha256": "6288b52b8fff2880b1cffa4aed17c06bcf737566b7c5b52d154e557aaac06b2f"
+        }
+      ],
+      "configuration": {
+        "observed": [
+          {
+            "event_id": "event-0a8fc1f5b64d481c8b6333f781fe4263",
+            "model": {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "source": "native-turn-context-observation",
+              "source_line": 329,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          },
+          {
+            "event_id": "event-bd0e0c7d84e54e129edc5e1d90ac4e34",
+            "model": {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          },
+          {
+            "event_id": "event-59ea4ebbafda450fa9cc391d8ecda6ef",
+            "model": {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "source": "native-turn-context-observation",
+              "source_line": 419,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          },
+          {
+            "event_id": "event-139c0ed9abbf4ff2ba63ab1b8c10a5da",
+            "model": {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          },
+          {
+            "event_id": "collector-9663c9d4b0914a70918b7f38bad5180c",
+            "model": {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          },
+          {
+            "event_id": "event-ff2b14c964d84f35bfccbc3ce4cb707f",
+            "model": {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "source": "native-turn-context-observation",
+              "source_line": 175,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          },
+          {
+            "event_id": "event-9f0900ddb1544660bd56eacf04826130",
+            "model": {
+              "boundary": "Reported local configuration; exact backend identity and thinking duration unverified",
+              "source": "native-turn-context-observation",
+              "source_line": 8,
+              "status": "known",
+              "value": {
+                "model": "gpt-6-astra",
+                "reasoning_effort": "medium"
+              }
+            }
+          }
+        ],
+        "requested": "UNKNOWN"
+      },
+      "entity": "creative10-20260922/essay-11",
+      "event_id": "event-cbd8988a32f34048a5e932934a5fb081",
+      "evidence": [
+        "event-23f3dacd99bb4ff8b0bab9e8ed6677bb",
+        "event-3458bc17ad5441fa9bccd1451f6d48bf",
+        "event-d792aeb1ec624cab9511295635a11686",
+        "event-cb7a095546b247a792a5cbb770d3cfbf",
+        "event-90d36e5f18d445c6adc3880527099ce8",
+        "event-02cefc56ccc248ca97709358b4be5aa2",
+        "event-24839c9c02fb4b87a2361fbf309935e3",
+        "event-9166415884d147b69676e078fe5741e1",
+        "event-8f359b2b6cb74a3fa55c3b9cef4d34d7",
+        "candidate:creative10-11-decision",
+        "candidate:creative10-11-contribution",
+        "event-0a8fc1f5b64d481c8b6333f781fe4263",
+        "event-28269b181a564e32b33fe1d27e9f2831",
+        "event-887c97232ef34a14bf30c5b7e688e9fc",
+        "event-a638ed9915c44fb2980a8a554f6f1998",
+        "event-c8675bb4a16a47ab842f629f5fe63426",
+        "event-bd0e0c7d84e54e129edc5e1d90ac4e34",
+        "event-873898ff2fa84b2f8671e33216ce1f4c",
+        "event-78171d660b014aefbe073a805d93c13b",
+        "event-59ea4ebbafda450fa9cc391d8ecda6ef",
+        "event-f52861b672d742ad8754485323881991",
+        "event-de7fbbe60c9d44c08f80bb55d7dde175",
+        "event-ad8e005076e44994ac1c849ad4aed561",
+        "event-9ed86ad511ab4230852441c21def88d5",
+        "event-93d2e8e3d6774711a8aec78a2a25c16a",
+        "event-028dd1490fd04c15b174f45738f5a940",
+        "event-139c0ed9abbf4ff2ba63ab1b8c10a5da",
+        "event-02f623190a274aae84c0002cc5f92920",
+        "event-bf0f0017d7924826afaea2d3325b50c6",
+        "event-1376ade775b642cfafd1c1df55b506b4",
+        "event-c729ecd9821141d5abe7f332e72454dc",
+        "candidate:creative10-11-question",
+        "collector-9663c9d4b0914a70918b7f38bad5180c",
+        "event-3552a8201c2646c99b07c82330f9f951",
+        "event-8d49746943614d80b5ea7c065fbd0653",
+        "event-ff2b14c964d84f35bfccbc3ce4cb707f",
+        "event-90ecf915233f4124b414f638e7c62181",
+        "event-9100071a8c7f45d4ba0d7e7c2f22843c",
+        "event-6b003ec324fd4740a626981e482cb2c4",
+        "event-9f0900ddb1544660bd56eacf04826130",
+        "event-a796f59ee611443ba7645552d03b47da",
+        "event-8b782e197226476f879bd58b8a0d8722"
+      ],
+      "gaps": [
+        "Historical causal links/model settings not reconstructed automatically; inspect linked original evidence.",
+        "No recorded tournament does not prove no historical selection occurred."
+      ],
+      "id": "legacy:creative10-20260922/essay-11:abae844dc1695304e1ae",
+      "kind": "legacy_inventory",
+      "occurred_at": "UNKNOWN",
+      "parents": [
+        "legacy:creative10-20260922/essay-11:62973f178caaed7e45d8"
+      ],
+      "recorded_at": "2026-10-13T05:21:49.286579+00:00",
+      "summary": "Historical materials: exact bytes, existing receipts, and links. A recorded history does not replace independent confirmation.",
+      "workflow": "UNKNOWN"
+    }
+  ],
+  "protocol": "essay-lineage.v1",
+  "export": {
+    "language": "en",
+    "kind": "English translation of canonical structured biography; source identifiers, hashes, parents, and fields preserved",
+    "source_path": "research/biographies/creative10-20260922/essay-11/biography.json",
+    "source_sha256": "0589c3631442e5b90cd61d99afb7f8d7db03e8eef815e437d6bb9bd88db38fab"
+  }
+}

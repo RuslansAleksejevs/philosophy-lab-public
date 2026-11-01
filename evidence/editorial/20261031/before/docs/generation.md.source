@@ -1,0 +1,58 @@
+# How we made the essays
+
+We began with one complete loop: an AI chose a question, read primary sources, drafted an essay, received criticism from a fresh context, and revised. The first ten essays showed why the process needed to evolve: separate authors still converged on similar themes. Later batches assigned broad areas before drafting, tested different kinds of criticism, and moved some rejection decisions ahead of the expensive writing stage.
+
+The human chose the process, resources, style requests, and selection priorities. AI authors developed the philosophical content from their own assignments and materials; the coordinator retained the wider history.
+
+**Key dates:** September 8 — first isolated essays, with no word target; September 10 — plain-language batch; September 22 — contribution check before drafting; September 25 — six-method expansion; October 10 — general clear-prose instruction. [Full chronology](timeline.md).
+
+## The first hundred
+
+| Batch | Completed essays | What changed |
+| --- | ---: | --- |
+| First pilot | 10 | One author–critic–revision cycle |
+| Broader fields | 20 | Areas allocated in advance; lighter reasoning setting |
+| Plain language | 20 | Explicit criticism of difficult prose as well as argument |
+| Judge-guided writing | 8 | Two named profiles criticized each draft; 12 unstarted assignments were cancelled |
+| Claude series | 10 | Five author-only essays; five with separate criticism and revision |
+| Creative search | 10 | Seventeen attempts, with both completed and early rejections preserved |
+| Speculative scenarios | 5 | Unusual thought experiments, written in Russian |
+| Earlier Claude pilot | 1 | Completed through a recorded Codex length correction |
+| Six-method extension | 16 | Free inquiry, tournament, debate, source studies, counterexamples, and revision branches |
+
+The [100-essay collection](../essays/README.md) counts each completed line of development once. Earlier drafts and rejected ideas remain alongside it. The table also shows a deliberate difference in treatment: some essays had separate critics; others relied on self-review.
+
+## Check the contribution before writing the essay
+
+The creative series initially wrote full manuscripts before asking whether the contribution justified them. Its first three essays failed that check. From attempt four, a separate critic examined the proposal before drafting began. Across 17 attempts, three were rejected after writing and four before it; ten were accepted. The [seven unsuccessful attempts](../essays/README.md#set-aside-attempts) preserve both kinds of decision.
+
+We also separated two questions: **does the argument work?** and **does it add enough?** An opponent and a contribution critic could challenge different weaknesses. Authors had to respond, but could defend a reasoned disagreement.
+
+## Six ways to begin
+
+| Method | Actual process |
+| --- | --- |
+| Free inquiry | Three investigations without a separate critic; self-review kept its own label |
+| Idea tournament | Three generators supplied 40 ideas each; two duplicate ideas received fresh replacements. Two evaluators produced 240 assessments, followed by 120 → 24 → 6 → 3 selection |
+| Debate | Two opening positions, three rounds of objections and replies, then a fresh third author; agreement was optional |
+| Source expedition | Start from primary texts, including Zhuangzi, Cavendish and Hooke, and work toward a question |
+| Counterexample laboratory | Use executable models for a specific claim; in one case a critic independently reproduced a search over 65,536 models |
+| Revision branches | Preserve the same starting draft, then compare no revision, one cycle, and three cycles |
+
+The tournament retained reasons for 96 early deferrals and reserved a place for an unusual disputed idea. The two duplicates remained in the history: 122 attempted sketches produced the 120 admitted proposals.
+
+In the two branching cases, a blind selector preferred the one-cycle version once and the three-cycle version once. Because models and contexts also changed, this records two version choices rather than identifying an optimal number of revisions.
+
+## Plain language, intact arguments
+
+The 6,000-word ceiling left authors free to use the space their argument needed. The plain-language batch made clarity an explicit task; the later general instruction asked for simpler expression while retaining premises, objections, and qualifications.
+
+A length correction showed why content needed its own check. While shortening [E076, the earlier Claude pilot](../essays/E076/README.md), an editor removed a qualification that limited the claim. A fresh critic caught the change. The qualification was restored, and twelve other cuts remained.
+
+## What changed with resources
+
+The corpus spans Astra, Sol, Luna, and Claude, with different reasoning settings and some mixed lineages. The hundred-essay campaign paused at 89 completed essays, then resumed under a different model setting, keeping the completed work.
+
+Each biography records the roles, inputs, and observed settings needed to understand those changes. Unequal assignments and resources make these exploratory histories unsuitable for a controlled comparison of models. The [post-midterm account](post-midterm.md) continues the story with seven more completed essays.
+
+**Evidence:** [Detailed method index](methodology-index.md#generating-the-essays), [source conversations](../logs/README.md), and [essay biographies](../essays/README.md). [Decision map →](decisions.md)

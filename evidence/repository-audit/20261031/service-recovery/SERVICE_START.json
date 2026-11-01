@@ -1,0 +1,39 @@
+{
+  "status": "ONE_NORMAL_SUCCESSOR_SERVICE_START_CONFIRMED",
+  "started_at": "2026-10-31T21:48:47.581056+00:00",
+  "completed_at": "2026-10-31T21:48:47.639294+00:00",
+  "command": [
+    "python3",
+    "-B",
+    "scripts/collector_service.py",
+    "start"
+  ],
+  "command_exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "successful_start_commands": 1,
+  "prior_successful_start_commands": 1,
+  "baseline_sha256": "90b76d4c00b7172bd5eef59a80eb2ec5d6406cf1ec98c62c2fa739a00f75ef7c",
+  "priority_changed": false,
+  "forced_reconcile": false,
+  "compatibility_added": false,
+  "observed_at": "2026-10-31T21:48:59.856633+00:00",
+  "launchd": {
+    "pid": 43236,
+    "state": "running",
+    "program": "/opt/homebrew/bin/python3",
+    "arguments": [
+      "/opt/homebrew/bin/python3",
+      "-B",
+      "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/scripts/collector.py",
+      "--root",
+      "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab",
+      "watch"
+    ],
+    "working_directory": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab"
+  },
+  "launchctl_output_sha256": "41ddcbed549b44a4b081312ee62b5f2f83a77bd5c5d1921b2d789d18604a40de",
+  "process_metadata": "43236 00:12  84.6 695888 R",
+  "expected_signature": "f369e9f62c02def03101e90372e44dd2ae5bfc00e9b7d55324f0a0e426d9755d",
+  "boundary": "One normal start in this second recovery attempt. Previous PID40522 stopped with preserved events; no restart is hidden by this count."
+}

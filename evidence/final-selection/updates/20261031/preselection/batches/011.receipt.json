@@ -1,0 +1,272 @@
+{
+  "status": "BATCH_ACCEPTED",
+  "event_id": "event-de94a1ddcfd24ad2923fbc38fd10702d",
+  "roles": [
+    {
+      "status": "ROLE_ARCHIVED",
+      "candidate": "E037",
+      "role": "review-final",
+      "session_id": "01a14c9a-27fc-7dc2-a414-738419f2f808",
+      "event_id": "event-ee0b351eb3784959845a3ff854f21627",
+      "lineage_event_id": "event-580853bb1612468e8e98c765fa940d31",
+      "lineage_entry_id": "final-preselection-20261017:E037:review-final:v1",
+      "files": [
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/DISPATCH.json",
+          "sha256": "2b783e5ce440408f27ba225c6be6e9de2d236197521df482145fb403f4700178",
+          "bytes": 937
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/DISPATCH_REQUESTED.json",
+          "sha256": "b0207cf883145da375fa34cac022041971c0f1a7f20284dcc94423671e05aecb",
+          "bytes": 927
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/INPUTS.json",
+          "sha256": "b1919edcddfdebf9ea56f6813d76bcddb220e1a9a9bfd3dbb56bf7af204ec462",
+          "bytes": 389
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/PREPARED_RECEIPT.json",
+          "sha256": "45cd2bda771ad177c4a0a7bb74364aded6edddf8fe7fc10e1394f40269b146fe",
+          "bytes": 790
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/PROMPT.txt",
+          "sha256": "eb7b05c7a39dff4ab9a7c82050740e95f50e54220c4a6f0a61e45ca4654b79fa",
+          "bytes": 2717
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/VISIBLE_CAPTURE.json",
+          "sha256": "ee0bbde0620e10a7cb9e954e86eee9edcc79c49ee0c2b5edbd626f528be6063d",
+          "bytes": 3599
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/capture-001/line-15-part-0.json-string.txt",
+          "sha256": "733d64a629c0458d0bed10e3612fb652201b3c2ba28d33ec5d520f937b8b21d8",
+          "bytes": 124
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/capture-001/line-55-part-0.json-string.txt",
+          "sha256": "58a87fd93ba597275ef17a0b2fd9ca6b17de3abad0ce2f15dc5012216785c1ef",
+          "bytes": 376
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/capture-001/line-92-part-0.json-string.txt",
+          "sha256": "a862ce43c906725a6f3a405d2a528839335efcc2979bb7ce3d877db1eb2ed42e",
+          "bytes": 292
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/capture-001/line-99-part-0.json-string.txt",
+          "sha256": "6d2c6d51b514c447830ce2e36b2987cb599ff64f0cee6bbc2370a781e4bed7e2",
+          "bytes": 512
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/input/manuscript.md",
+          "sha256": "975a439f0a29e8c62c59c1d52cf303b6bb8639197cc186922dbecc963ca3b355",
+          "bytes": 23218
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/output/REVIEW.json",
+          "sha256": "5b41feeb71807e6d72351a1aa4421cceb7adc7d6a2b1723b05c251e4e879d39f",
+          "bytes": 9759
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/output/REVIEW_RU.txt",
+          "sha256": "6286225148869e921937fafb4ab8c1bc6177a9d325b07179ce488f9d2c5fa4da",
+          "bytes": 7080
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/output/SESSION.json",
+          "sha256": "b4dd7e080e2974f98cca2022ac053e7c4f72fdcb737b12599c43fe8d47b1f95a",
+          "bytes": 924
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/output/SOURCES.json",
+          "sha256": "f9dc1ecca60b546c3ed6451dceaa0629ccfb827c5e86dacec5a491e39723142c",
+          "bytes": 5780
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E037/review-final/output/SOURCE_EXCERPTS.txt",
+          "sha256": "3b4026153f2d7f633572d9b17d1f79c8507f513cba6e4b74d04edb35885b059a",
+          "bytes": 3133
+        }
+      ],
+      "capture_status": "BOUNDED_VISIBLE_FRAGMENTS_COMPLETE"
+    },
+    {
+      "status": "ROLE_ARCHIVED",
+      "candidate": "E074",
+      "role": "author",
+      "session_id": "01a14c9a-3b25-73f3-b6dc-137aca08ef13",
+      "event_id": "event-8b433d9e04674127a4473bc9b5326a1c",
+      "lineage_event_id": "event-ac393815537549fc9c4be1158bd2ff60",
+      "lineage_entry_id": "final-preselection-20261017:E074:author:v1",
+      "files": [
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/DISPATCH.json",
+          "sha256": "4a849a866825d32f898ba3e1e33490a109b8b9f4cc05b22c1d779b13d6279924",
+          "bytes": 928
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/DISPATCH_REQUESTED.json",
+          "sha256": "b1bb0811b97edb94b89e7a5654e7e26570ebe3516c99946dfc3146b805a1f7b1",
+          "bytes": 918
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/INPUTS.json",
+          "sha256": "853fa72a6fb38154b6fd0d09bf588564eef472fd5d7956848ea735199b351405",
+          "bytes": 775
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/PROMPT.txt",
+          "sha256": "db6f3b5eeae25cb3c97eee2d751f07c2ec7da7b534535790c6c19eb566070fc0",
+          "bytes": 3307
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/VISIBLE_CAPTURE.json",
+          "sha256": "6cf569ef21e5b4b80bf743505be841b0752c499e4989be0b130ee4052442d1bd",
+          "bytes": 4059
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/capture-001/line-114-part-0.json-string.txt",
+          "sha256": "146829141f3d199f559912eb288576e8f4f8ca1efab09e1665b0f85eb2afbc2c",
+          "bytes": 482
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/capture-001/line-15-part-0.json-string.txt",
+          "sha256": "6aee32d1b18e71a582b234a32127ea79de3dfb70fffbfe14a69093e76002100f",
+          "bytes": 160
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/capture-001/line-173-part-0.json-string.txt",
+          "sha256": "d1e58f803f5d578505a23803a17fe4871c3f565a2e2eff4cb3fed8871e05e145",
+          "bytes": 511
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/capture-001/line-203-part-0.json-string.txt",
+          "sha256": "2a440afc0e652225c4e3b05b1940a3b9e04c0496790eb112bb30db8994eee71c",
+          "bytes": 967
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/capture-001/line-61-part-0.json-string.txt",
+          "sha256": "eeca220d888414e3d8c5bee4fbcbe620f2d05634dacf14c6d57742021f56e73a",
+          "bytes": 356
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/input/TASK_RU.txt",
+          "sha256": "546d50d442867737a5f05a197a5ac1a2e960129d4086a3957b097cff3e540ad5",
+          "bytes": 606
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/input/evidence-02-REPORT_RU.txt",
+          "sha256": "2d056f4e2ce74dab0606b880e1a90218ca3e71e7d4894a839f1310d7ce707028",
+          "bytes": 24091
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/input/evidence-03-OPEN_QUESTIONS.json",
+          "sha256": "9703366c97a3e09468f3659d26c240c1a5bd8fa7c7db81f6fa7a125d64db4588",
+          "bytes": 14424
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/input/manuscript.md",
+          "sha256": "819580e498e7e5359dcb3908916ee75783dfd484c9e3acc23edc1722459acdbc",
+          "bytes": 24024
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/DECISION.json",
+          "sha256": "d87f4f6ef3d533053132c123938f8d83c85a2eaae44f3975d5ebcdcdfe246047",
+          "bytes": 2417
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/INPUTS_READ.json",
+          "sha256": "e19e158ae5675ccc38f0e60e5dd01e72f9da9b5b048e60fcd94008ab1b7589c2",
+          "bytes": 1486
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/OUTPUT_MANIFEST.json",
+          "sha256": "23fdf8fbf9bfaa38c7f6627a899dd22548cc8a921ba098f94da6068d2e55836e",
+          "bytes": 2580
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/QUALITY_CHECK.json",
+          "sha256": "0b235223dfddb19aa60cec7abcb5487a7db7e0ebddf0aab639e149ded4864963",
+          "bytes": 2197
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/REPORT_RU.txt",
+          "sha256": "1f587c2518460cd7124fb8dd97a9ac091c1746161372530e0e16596367a8c572",
+          "bytes": 5441
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/SEARCH_LOG.json",
+          "sha256": "fe95c5c447c87240140b5ab8f2b9defefbc27fbcfc2f982685907b2fcd898157",
+          "bytes": 1124
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/SESSION.json",
+          "sha256": "d01f8f287b88f7fd7ab8c6e9ab0b1de8919bc5a940ac775f67bc2c7f7ad4ce18",
+          "bytes": 813
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/SOURCES.json",
+          "sha256": "dd375bd87967fe8a6cd0163fc8853146a08ee95923b4fb1cc6feb5e38d74730f",
+          "bytes": 4727
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/evidence/P01.json",
+          "sha256": "9890d3c5775a963dfabf4b9f94a3d2dc799ca61002c5929e697e4156aaf79617",
+          "bytes": 1586
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/evidence/P02.json",
+          "sha256": "a1e6638411b433dd0168de78a75f6691c8432c99f913bac8244a13c68c559b01",
+          "bytes": 1478
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/evidence/P03.json",
+          "sha256": "8aee7b732bc532b405fb8673e2262ef280f9b901d65d5b9547954f611a2202e9",
+          "bytes": 1772
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/evidence/P04.json",
+          "sha256": "193fce458b802ec2cbaa1345de290a9c5b4cced0873ec19f232c301436833846",
+          "bytes": 1684
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/evidence/P05.json",
+          "sha256": "6008d139f4c2a5912ab431dad928fbb693c23bbf55178b4fbd0682a3d57ac024",
+          "bytes": 1486
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/evidence/P06.json",
+          "sha256": "515a2c02befe33df8f8ffad67945de05546ab56147a9aeceaf702db201eb0f8f",
+          "bytes": 1398
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/evidence/U01.json",
+          "sha256": "4e2d52cfa671719d2d3153e55226668e4f6dc73051091edb7a798f1084625a76",
+          "bytes": 1282
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/evidence/U02.json",
+          "sha256": "dec3c7adecfccf0fb472d3f7a909fa63bd8c275af5f34c7ad624a258ef5333dc",
+          "bytes": 1174
+        },
+        {
+          "path": "runs/final-preselection-20261017/roles/E074/author/output/revision.md",
+          "sha256": "9c603c5c4fe9f87491e10904f712cab244557550177ee0bb17faba5474f7590b",
+          "bytes": 34545
+        }
+      ],
+      "capture_status": "BOUNDED_VISIBLE_FRAGMENTS_COMPLETE"
+    }
+  ],
+  "prepared_packets": [
+    {
+      "candidate": "E074",
+      "role": "review-final",
+      "parent_entry": "final-preselection-20261017:E074:author:v1"
+    }
+  ]
+}

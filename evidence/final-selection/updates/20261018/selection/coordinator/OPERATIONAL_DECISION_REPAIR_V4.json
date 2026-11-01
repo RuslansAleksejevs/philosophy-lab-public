@@ -1,0 +1,95 @@
+{
+  "status": "ROOT_REVIEWED_ADDITIVE_OPERATIONAL_ADJUSTMENT_PENDING_PAIR_READY_BINDING",
+  "supersedes": "coordinator/CLOSURE_METADATA_DECISION.json only for future closure implementation; earlier files remain unchanged.",
+  "decision": "Use closure_repair_v4 with launch-repair-v5, actual v3 accepted-attempt map, export_repair_v3, renderer_v3 and verified connector GitHub fallback.",
+  "basis": "Actual M12/002 local initialization failure preserved; accepted M12/003 and M13/002 close original slots. Reviewed additive consumer/renderer diffs and synthetic tests preserve160 ceiling,60:40,original inputs,all failures and dissent. Completion timestamp remains the actual final event timestamp. No new substantive review method.",
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/closure_repair_v4.py",
+      "sha256": "5a59c69a4c7585e458625e899e3bfcb9faf8d1e83e7b7d47a406a75d8c18ff2f",
+      "bytes": 22108
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/validate_repair_v5.py",
+      "sha256": "8cc5e2a97099015803f8b7887d18870a9a689af3705b0c5ae2cfc7d79397ba24",
+      "bytes": 14973
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/summary_repair_v3.py",
+      "sha256": "775b1ce366c89e97c41bc54a6f81ec9944c508ee134080c13f2479d7c6664d8c",
+      "bytes": 17838
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/export_repair_v3.py",
+      "sha256": "4da73ba29339e8fc5cca6f963b70e53f577a5ced727c097f60e8c6604de4814f",
+      "bytes": 15994
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/bind_pair_ready_repair.py",
+      "sha256": "d04bce8ab75e910b95cfe2e054d89dfe04b899b5d12cf12146d19d30bff062a3",
+      "bytes": 7448
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/resolver_map_repair.py",
+      "sha256": "ebeb9e8cef491c3b8838212e8c98969b224b5b96c315f7f8fd67f674090b200f",
+      "bytes": 10308
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/CONSUMER_TESTS.json",
+      "sha256": "947be4833b27fe100c6cf399ac4257fe4a7f213e4a2f9a24684d3efb0eee4c6f",
+      "bytes": 3280
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/REPAIR_RECEIPT.json",
+      "sha256": "7b55050df2c3b6369246ad25b09757758bb90ceeaa15feacd8e41c8179da32c4",
+      "bytes": 5899
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/ACCEPTED_ATTEMPTS_RECEIPT.json",
+      "sha256": "85de8abfe9ab296bca3b25341240fb0c61273d6c013580d471631222244472c7",
+      "bytes": 327
+    },
+    {
+      "path": "runs/github-selection-20261018/render_editorial_v3.py",
+      "sha256": "2b2729f0f0aafd7dafd7e173fe5cb60596b90f187fa59c6b88181cda81db3bfd",
+      "bytes": 17673
+    },
+    {
+      "path": "runs/github-selection-20261018/render_editorial_v3.diff",
+      "sha256": "6fd714b0fe3a2585ed98c6a88d97a49a9a2a744a861724632108dedb78fec530",
+      "bytes": 16722
+    },
+    {
+      "path": "runs/github-selection-20261018/EDITORIAL_REPAIR_V3_CHECK.json",
+      "sha256": "bf1ad7de6ea2238aea6cd304d3b92900ed3c7b5d78516ced3af30956b149784f",
+      "bytes": 1295
+    },
+    {
+      "path": "runs/github-selection-20261018/prepare_connector_chunks.py",
+      "sha256": "5188fe613963137c073e7a28f07700840a3136969936bef2719ce21a642c6f3a",
+      "bytes": 10374
+    },
+    {
+      "path": "runs/github-selection-20261018/CONNECTOR_PREPARATION_CHECK.json",
+      "sha256": "b0c9cc63b09e787fb0639c0ec2c300f45d4053f2bb347e19f53c6550039aae5d",
+      "bytes": 1400
+    }
+  ],
+  "root_configuration_observation": {
+    "path": "runs/final-selection-20261018/coordinator/ROOT_CONFIGURATION_RESUME_OBSERVATION.json",
+    "sha256": "8979db47e21604e7f22445b781e84cb28b4fa42204c707bb7d4177bc65e142ec",
+    "bytes": 631
+  },
+  "final_plan_path": "runs/final-selection-20261018/FINAL_PLAN.json",
+  "postclosure_order": [
+    "finite closure",
+    "strict export and exact FINAL_RECEIPT subset",
+    "render/prepare/finalize/verify",
+    "verified private GitHub update",
+    "preserved-original root memory update",
+    "collector restoration",
+    "goal complete"
+  ],
+  "memory_reason": "Original START binds root AGENTS/START_HERE; preserve until downstream strict checks finish.",
+  "github_reason": "Read-only git transport lacked configured credentials. Use available authorized GitHub connector without credential extraction, expected base commit and nonforce ref update."
+}

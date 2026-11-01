@@ -1,0 +1,81 @@
+{
+  "schema": "edition-exact-visible-fragments.v1",
+  "messages": [
+    {
+      "id": "root-reviewer-roles",
+      "session_id": "01a1496a-7b42-7a11-b00a-11d33df80222",
+      "source_line": 4828,
+      "source_line_sha256": "c0fea6e8c86c1ef7fbf2738be5d2ace7835d9bc87f1335d9cd02212fab720535",
+      "role": "user",
+      "phase": null,
+      "source_timestamp": "2026-10-19T00:54:43.635Z",
+      "evidence_manifest": {
+        "path": "logs/selection-20261018/fragments/root-reviewer-roles/source-manifest.json",
+        "sha256": "d181770b67290ca69f0d5be1d04725a7f96e0c24778e8bdd55c92dac59e0563a",
+        "bytes": 2687,
+        "transformation": "exact bytes or disclosed derived export",
+        "source_path": "runs/final-selection-20261018/authorization-fragments/manifest.json"
+      },
+      "evidence_record_pointer": "/records/0",
+      "origin": "HUMAN",
+      "authorization": {
+        "path": "logs/selection-20261018/fragments/root-reviewer-roles/authorization.json",
+        "sha256": "78cc2cb638b752bd64f788ae57b67e45145067684857103d78a848959f632433",
+        "bytes": 4299,
+        "transformation": "exact bytes or disclosed derived export",
+        "source_path": "runs/final-selection-20261018/AUTHORIZATION.json"
+      },
+      "authorization_pointer": "/decision_history/0",
+      "parts": [
+        {
+          "path": "logs/selection-20261018/fragments/root-reviewer-roles/part-0.json-string.txt",
+          "sha256": "d139b940464e934ab6dc302e3cd6b1acf793596e5a8c2925d30477d0a15d1376",
+          "bytes": 324,
+          "transformation": "exact bytes or disclosed derived export",
+          "source_path": "runs/final-selection-20261018/authorization-fragments/line-4828-part-0.json-string.txt"
+        }
+      ],
+      "text_sha256": "4c58a6401cdfa77d040b9d67df051c483b208aafa992bcd22f8943dd76e221bd",
+      "text_path": "logs/selection-20261018/fragments/root-reviewer-roles/visible-text.txt"
+    },
+    {
+      "id": "root-selection-launch",
+      "session_id": "01a1496a-7b42-7a11-b00a-11d33df80222",
+      "source_line": 4882,
+      "source_line_sha256": "7ee2a0ee4e6f8db4f92237491dc6fa9748a227b213bab57e8274baabce8a3772",
+      "role": "user",
+      "phase": null,
+      "source_timestamp": "2026-10-19T00:58:37.102Z",
+      "evidence_manifest": {
+        "path": "logs/selection-20261018/fragments/root-selection-launch/source-manifest.json",
+        "sha256": "d181770b67290ca69f0d5be1d04725a7f96e0c24778e8bdd55c92dac59e0563a",
+        "bytes": 2687,
+        "transformation": "exact bytes or disclosed derived export",
+        "source_path": "runs/final-selection-20261018/authorization-fragments/manifest.json"
+      },
+      "evidence_record_pointer": "/records/2",
+      "origin": "HUMAN",
+      "authorization": {
+        "path": "logs/selection-20261018/fragments/root-selection-launch/authorization.json",
+        "sha256": "78cc2cb638b752bd64f788ae57b67e45145067684857103d78a848959f632433",
+        "bytes": 4299,
+        "transformation": "exact bytes or disclosed derived export",
+        "source_path": "runs/final-selection-20261018/AUTHORIZATION.json"
+      },
+      "authorization_pointer": "/current_request",
+      "parts": [
+        {
+          "path": "logs/selection-20261018/fragments/root-selection-launch/part-0.json-string.txt",
+          "sha256": "3038328232120c9faa3c71b89f1765707458e17a1553e26de88ddc72d3828926",
+          "bytes": 530,
+          "transformation": "exact bytes or disclosed derived export",
+          "source_path": "runs/final-selection-20261018/authorization-fragments/line-4882-part-0.json-string.txt"
+        }
+      ],
+      "text_sha256": "9931562aa3e9a1f8afd33552acd4fb4214bbcd4ab585805c168dfc6ca3f42e11",
+      "text_path": "logs/selection-20261018/fragments/root-selection-launch/visible-text.txt"
+    }
+  ],
+  "full_native_capture": false,
+  "boundary": "Explicit retained human messages and accepted final AI answers only. Raw hashes identify original lines; full envelopes are not copied. Repeated snapshots are not new human contributions or extra model runs."
+}

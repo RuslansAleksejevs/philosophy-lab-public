@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-10-19T07:52:50.554194+00:00",
+  "status_command_exit": 1,
+  "status": {
+    "loaded": true,
+    "service_healthy": false,
+    "coverage_healthy": null,
+    "healthy": false,
+    "collector": {
+      "checked_at": "2026-10-19T03:39:46.324820+00:00",
+      "interval_seconds": 10,
+      "status": "STALE",
+      "age_seconds": 15184.22,
+      "fresh": false,
+      "coverage_summary": {
+        "coverage_healthy": null,
+        "unresolved_gap_count": null,
+        "sessions_with_gaps": null,
+        "tool_schema_gap_count": null,
+        "text_or_unknown_gap_count": null,
+        "pending_tool_records": null,
+        "boundary": "Coverage unavailable: this report has no session inventory."
+      },
+      "coverage_healthy": null,
+      "attention": [
+        "Coverage unavailable: this report has no session inventory."
+      ]
+    }
+  },
+  "status_stderr": "",
+  "launchctl_exit": 0,
+  "launchctl_stdout": "gui/501/org.philosophylab.collector = {\n\tactive count = 1\n\tpath = /Users/ruslansaleksejevs/Library/LaunchAgents/org.philosophylab.collector.plist\n\ttype = LaunchAgent\n\tstate = running\n\n\tprogram = /opt/homebrew/bin/python3\n\targuments = {\n\t\t/opt/homebrew/bin/python3\n\t\t-B\n\t\t/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/scripts/collector.py\n\t\t--root\n\t\t/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab\n\t\twatch\n\t}\n\n\tworking directory = /Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab\n\n\tstdout path = /Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/collector/runtime/service-out.log\n\tstderr path = /Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/collector/runtime/service-error.log\n\tinherited environment = {\n\t\tSSH_AUTH_SOCK => /var/run/com.apple.launchd.cOBC44cjya/Listeners\n\t}\n\n\tdefault environment = {\n\t\tPATH => /usr/bin:/bin:/usr/sbin:/sbin\n\t}\n\n\tenvironment = {\n\t\tOSLogRateLimit => 64\n\t\tXPC_SERVICE_NAME => org.philosophylab.collector\n\t}\n\n\tdomain = gui/501 [100026]\n\tumask = 77\n\tasid = 100026\n\tminimum runtime = 30\n\texit timeout = 5\n\truns = 1\n\tpid = 6519\n\timmediate reason = speculative\n\tforks = 0\n\texecs = 2\n\tinitialized = 1\n\ttrampolined = 1\n\tstarted suspended = 0\n\tproxy started suspended = 0\n\tchecked allocations = 0 (queried = 1)\n\tchecked allocations reason = no host\n\tchecked allocations flags = 0x0\n\tlast exit code = (never exited)\n\n\tresource coalition = {\n\t\tID = 354940\n\t\ttype = resource\n\t\tstate = active\n\t\tactive count = 1\n\t\tname = org.philosophylab.collector\n\t}\n\n\tjetsam coalition = {\n\t\tID = 354941\n\t\ttype = jetsam\n\t\tstate = active\n\t\tactive count = 1\n\t\tname = org.philosophylab.collector\n\t}\n\n\tspawn type = background (5)\n\tjetsam priority = 40\n\tjetsam memory limit (active) = (unlimited)\n\tjetsam memory limit (inactive) = (unlimited)\n\tjetsamproperties category = daemon\n\tjetsam thread limit = 32\n\tcpumon = default\n\n\tproperties = keepalive | runatload | inferred program\n}\n",
+  "launchctl_stderr": "",
+  "pid": 6519,
+  "process_readback": {
+    "exit_code": 0,
+    "stdout": " 6519 R    /opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -B /Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/scripts/collector.py --root /Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab watch\n",
+    "stderr": ""
+  },
+  "plist_sha256": "915ca88094c0d291d9244448f0a989ddbed6dced11d8eef3912821b745305e43",
+  "coverage_claim": "No claim of complete historical/provider capture; retained coverage limitations remain.",
+  "first_readback_attempt": "Default sandbox blocked /bin/ps; repeated this read-only verification with process inspection permission."
+}

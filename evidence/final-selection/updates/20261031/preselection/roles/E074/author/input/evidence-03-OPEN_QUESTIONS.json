@@ -1,0 +1,198 @@
+{
+  "candidate": "E074",
+  "worker": "S",
+  "compact_summary_ru": {
+    "known": "Отбор согласных известен у Nguyen; Alston различает доверие практике и её дополнительную поддержку; Kent защищает использование свидетельств ушедших без автоматического авторитета.",
+    "possible_distinction": "Сохранение релевантной истории участника зависит от конкретного обещания: начало, завершение обучения или нынешнее упражнение способности, при допустимости доверия ради доступа.",
+    "significance": "Норма точнее ограничивает коллективное заявление об успехе практики, сохраняя место личной вере и проверке отдельных свидетельств; её приоритет не установлен.",
+    "strongest_objection": "Как отличить обоснованный внутренний критерий компетентности от правила, которое целиком оправдывается созданным им согласием? Чистый пример отбора не решает смешанные случаи.",
+    "next_check": "Один документированный случай: неизменное обещание, отдельно обоснованный критерий компетентности и сохранённые траектории начинавших, завершивших и ушедших; проверить роль нынешнего согласия в ретроспективном допуске."
+  },
+  "questions": [
+    {
+      "id": "Q01",
+      "question_ru": "Какая сила основания помимо сходимости достаточна для исключения?",
+      "why_ru": "Самое сильное возражение к применению и нормативной достаточности.",
+      "next_check_ru": "Разобрать один внутренний критерий с поддержкой, не выведенной целиком из текущего отфильтрованного согласия; отличить право исключить от нового подтверждения.",
+      "status": "OPEN",
+      "source_ids": [
+        "A-S05",
+        "A-S06",
+        "A-S08",
+        "B-S02",
+        "B-S04",
+        "B-S06",
+        "B-S08"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/S/evidence/DIRECT_ALSTON.json",
+          "sha256": "84e3687b63d4965fd52cb9eece9bf2abd32c6f05a3cbe2e442507a634f848e30"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/A/evidence/S08.json",
+          "sha256": "d582784b5221c1e7ff8b6cab8d808c81177f46051a5fccdfdd6b7dca61c7f80e"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/B/evidence/S02.json",
+          "sha256": "71c7b380cb34f4e89c46247ec2538a88565ee2a1e6972a5545b995e5abf2bd82"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/B/evidence/S08.json",
+          "sha256": "70f1c45cb0db745084fd065eae2528f6f95d50b0fdc15322dc39a070e2a8cdb0"
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "question_ru": "Какое точное обещание делает практика и кто в нём остаётся релевантным?",
+      "why_ru": "Следующая различающая проверка возможной нормы E074.",
+      "next_check_ru": "Один документированный случай: неизменное обещание, отдельно обоснованный критерий компетентности и сохранённые траектории начинавших, завершивших и ушедших; проверить роль нынешнего согласия в ретроспективном допуске.",
+      "status": "NOT_EMPIRICALLY_TESTED",
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/S/evidence/ARGUMENT_CHECK.json",
+          "sha256": "a26497e699e22faee3382b680fb9786f9b79c89e0dfc06a99ee7c00177c58325"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/S/evidence/DIRECT_KENT.json",
+          "sha256": "eb5bc4021bbb7e4d629faf266426d8a032fcc9a3aaff2c6481081646933cc202"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/B/evidence/S11.json",
+          "sha256": "b0917179e2ae20a85f0cc433872e139362ab7cee3b52469c6e0912fd75bc28e3"
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "question_ru": "Остаётся ли самостоятельный вклад сверх сочетания Nguyen, Kent и обычного выбора исходов по вопросу?",
+      "why_ru": "Граница новизны не установлена.",
+      "next_check_ru": "Сравнить именно обязанность сохранять релевантную траекторию при смене обещания и критериев, не только эффект отбора.",
+      "status": "NOVELTY_NOT_ESTABLISHED",
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/S/evidence/DIRECT_NGUYEN.json",
+          "sha256": "c8295db0ef9d5052ac4e8d25b830913735e60f5e315857a2d21bc83a3fe9ab2b"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/S/evidence/DIRECT_KENT.json",
+          "sha256": "eb5bc4021bbb7e4d629faf266426d8a032fcc9a3aaff2c6481081646933cc202"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/B/evidence/S11.json",
+          "sha256": "b0917179e2ae20a85f0cc433872e139362ab7cee3b52469c6e0912fd75bc28e3"
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "question_ru": "Что полный Perceiving God добавляет к précis о self-support и составе сходимости?",
+      "why_ru": "Ближайший религиозный предшественник пока прочитан через другие работы.",
+      "next_check_ru": "Законно прочитать главы IV–VI; отделить значимую самоподдержку, критерии CMP, духовные плоды и учёт разных траекторий.",
+      "status": "BOOK_NOT_READ",
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/A/evidence/S10.json",
+          "sha256": "787bacd3bea075e2bff118e094cf4543cb2c81e259ec603094ccc971547b3adf"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/S/evidence/DIRECT_ALSTON.json",
+          "sha256": "84e3687b63d4965fd52cb9eece9bf2abd32c6f05a3cbe2e442507a634f848e30"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/B/evidence/L12.json",
+          "sha256": "b511378544b8f87f95bd922c7e187337e4b62b107a866027be1bea1bf8b94157"
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "question_ru": "Совпадают ли цитируемые журнальные pp.120–124 Buchak с проверенной репозиторной версией?",
+      "why_ru": "Содержание поддержано; точная издательская локализация остаётся открытой.",
+      "next_check_ru": "Сопоставить законно доступный окончательный текст с §4–5 и §7 репозиторной версии; уточнить значение belief в строке 79.",
+      "status": "PUBLISHED_PAGINATION_UNVERIFIED",
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/A/evidence/S04.json",
+          "sha256": "a301b586924502e5f20e60c9c1e4a93774769983fab56b401b6196f99c289710"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/S/evidence/DIRECT_BUCHAK2017.json",
+          "sha256": "d1c3c290b99c9ab12df569366d98b3b399bb48c02f113b84152ea3cacb44182c"
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "question_ru": "Насколько точны реальные случаи Kent/Kliever и как устроены смешанные правила допуска?",
+      "why_ru": "Нормативная позиция автора не удостоверяет эмпирические факты.",
+      "next_check_ru": "Проверить исходные документы и сообщения разных участников; моделировать отбор, допускающий часть несогласных, отдельно от гарантированного единодушия.",
+      "status": "NOT_TESTED",
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/B/evidence/S09.json",
+          "sha256": "475f9def3e5eb5fe96bb546a394c7fbfb7fc2485dcdc1f55fa910beb9bdbe1bb"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/B/evidence/S10.json",
+          "sha256": "60d3a08c3cb096ebdfe736a39349d75568fe4d4a1a6d2849f0300c50c734c1fd"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/S/evidence/ARGUMENT_CHECK.json",
+          "sha256": "a26497e699e22faee3382b680fb9786f9b79c89e0dfc06a99ee7c00177c58325"
+        }
+      ]
+    },
+    {
+      "id": "Q07",
+      "question_ru": "Меняют ли ограниченные leads точную границу аргумента?",
+      "why_ru": "Gale, Goldman, Vogel, Fernández-Vargas, Levy, Butzer и остальные leads не повышены до проверенных полных аргументов.",
+      "next_check_ru": "Только при отдельном дальнейшем исследовании получить разрешённые полные версии; не реконструировать доводы по аннотациям.",
+      "status": "INHERITED_ACCESS_GAPS_PRESERVED",
+      "evidence": [
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/A/evidence/S09.json",
+          "sha256": "b0b314de694de350019b7fc344992e83621af6e8e9cc9e4f16177cbdbf6292d8"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/B/evidence/L01.json",
+          "sha256": "27858ffb144a776574d1187020fddcd4b5ee32f3de2e35899e201a5badd808b4"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/B/evidence/L02.json",
+          "sha256": "26f98872aa5cb2ffe7833b91477e4d4c691b635ca3c75e66d4c412283860ed4a"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/B/evidence/L03.json",
+          "sha256": "7b8997cfc1c88c88d62988faa1038b6fc881e499d3c55690f58718ef53fbc06a"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/B/evidence/L04.json",
+          "sha256": "dfbd7bef54cd2c61aa5113996dcf826ccb03329d247062e2a039349223d632f9"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/B/evidence/L06.json",
+          "sha256": "dbfc6a130bd6df4abcb5111189a2dce0050771f2a38e9e945f41cf3b24e97752"
+        },
+        {
+          "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/B/evidence/L11.json",
+          "sha256": "31594a2ee6b22a108ab61b86069a046eee3949a79b71c70bfc6147df87802587"
+        }
+      ]
+    }
+  ],
+  "predeclared_gap": {
+    "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/inputs/OPEN_GAPS_PREDECLARED.json",
+    "sha256": "2c3406bb69ab678543cc765f7c2b6f063155c81bd74f312fb336aa49b3577740",
+    "inherited_fact": "No prior comparable accepted B2 audit in assigned packet; not retroactively erased by new reading."
+  },
+  "reading_boundary": {
+    "direct_S": "Four fragment rereads only; whole manuscript and saved A/B evidence read.",
+    "inherited_A_B": "All wider source ranges remain attributed to the workers; no access upgrades."
+  },
+  "theorem_validity": "Bounded selection identity valid with explicit assumptions; no borrowed proof audit.",
+  "source_accuracy": "Supported bounded paraphrases with Buchak terminology and pagination qualification; unresolved Alston DOI.",
+  "novelty": "NOT_ESTABLISHED",
+  "significance": "Limited claim-relative institutional evidence norm; empirical application and sufficient exclusion standard open."
+}

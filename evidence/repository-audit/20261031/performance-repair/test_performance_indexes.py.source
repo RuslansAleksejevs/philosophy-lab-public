@@ -1,0 +1,210 @@
+"""Deterministic scaling and exact-retry checks; never reads real archives."""
+import contextlib
+import importlib.util
+import json
+from pathlib import Path
+import sqlite3
+import sys
+import tempfile
+import unittest
+from unittest import mock
+
+import collector as collector_module
+import research_archive as archive_module
+from research_archive import Archive, ArchiveError
+from test_archive_batch import request
+import test_collector as fixtures
+import test_collector_compatibility as compatibility_fixtures
+
+
+class NoIteration(list):
+    def __iter__(self):
+        raise AssertionError('Whole verified history was rescanned')
+
+
+class ArchiveIndexTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory(prefix='synthetic-indexes-')
+        self.addCleanup(self.temp.cleanup)
+        self.base = Path(self.temp.name).resolve()
+        self.archive = Archive(self.base / 'archive').init()
+
+    def test_multiple_batches_never_reiterate_verified_records_or_omissions(self):
+        self.archive.append_many([(request(id='old-' + str(n)), 'old-' + str(n))
+                                  for n in range(128)])
+        with mock.patch.object(self.archive, '_audit', wraps=self.archive._audit) as audit:
+            with self.archive.writer() as writer:
+                writer.events()
+                state = writer._state
+                deliveries, omissions = state['deliveries'], state['omitted_keys']
+                state['records'] = NoIteration(state['records'])
+                state['omitted'] = NoIteration(state['omitted'])
+                for n in range(16):
+                    item = request(id='new-' + str(n), parents=['old-0'])
+                    first = writer.append(item, 'new-' + str(n))
+                    self.assertEqual(writer.append(item, 'new-' + str(n)), first)
+                self.assertIs(deliveries, state['deliveries'])
+                self.assertIs(omissions, state['omitted_keys'])
+                self.assertEqual(len(deliveries), 144)
+                self.assertEqual(audit.call_count, 1)
+        self.assertEqual(self.archive.validate()['event_count'], 144)
+
+    def test_cross_batch_conflict_poisoning_preserves_exact_prior_bytes(self):
+        value = request(id='same')
+        with self.archive.writer() as writer:
+            original = writer.append_many([(value, 'key'), (value, 'key')])
+            self.assertEqual(original[0], original[1])
+            path = self.archive.root / 'events/000000000001.json'
+            before = path.read_bytes()
+            self.assertEqual(writer.append(value, 'key'), original[0])
+            with self.assertRaisesRegex(ArchiveError, 'delivery key conflict'):
+                writer.append(request(id='same', payload={'changed': True}), 'key')
+            with self.assertRaisesRegex(ArchiveError, 'closed or failed'):
+                writer.append(request(id='later'), 'later')
+            self.assertEqual(path.read_bytes(), before)
+        self.assertEqual(self.archive.events(), [original[0]])
+
+    def test_cached_omission_reservation_survives_other_batch(self):
+        self.archive.append_many([(request(id='keep'), 'keep'),
+                                  (request(id='omit'), 'omit')])
+        self.archive.export(self.base / 'bundle', ['keep'])
+        scoped = Archive.import_bundle(self.base / 'bundle', self.base / 'scoped')
+        with scoped.writer() as writer:
+            writer.append(request(id='new'), 'new')
+            writer._state['omitted'] = NoIteration(writer._state['omitted'])
+            with mock.patch.object(archive_module, '_publish') as publish:
+                with self.assertRaisesRegex(ArchiveError, 'explicitly omitted'):
+                    writer.append(request(id='bad'), 'omit')
+                publish.assert_not_called()
+            with self.assertRaisesRegex(ArchiveError, 'closed or failed'):
+                writer.events()
+        self.assertEqual([e['id'] for e in scoped.events()], ['keep', 'new'])
+
+    def test_failed_publication_cannot_reuse_in_memory_unpublished_delivery(self):
+        entries = [(request(id='one'), 'one'), (request(id='two'), 'two')]
+        publish = archive_module._publish
+        def interrupt(path, data):
+            if path.name == '000000000002.json':
+                raise OSError('synthetic interruption before second publication')
+            return publish(path, data)
+        with self.archive.writer() as writer:
+            with mock.patch.object(archive_module, '_publish', side_effect=interrupt):
+                with self.assertRaises(OSError):
+                    writer.append_many(entries)
+            with self.assertRaisesRegex(ArchiveError, 'closed or failed'):
+                writer.append(*entries[1])
+        first_bytes = (self.archive.root / 'events/000000000001.json').read_bytes()
+        with self.archive.writer() as recovered:
+            results = recovered.append_many(entries)
+            self.assertEqual([e['sequence'] for e in results], [1, 2])
+        self.assertEqual((self.archive.root / 'events/000000000001.json').read_bytes(), first_bytes)
+        self.assertTrue(self.archive.validate()['ok'])
+
+
+class CollectorIndexTests(unittest.TestCase):
+    def setUp(self):
+        self.fx = fixtures.CollectorTests()
+        self.fx.setUp()
+        self.addCleanup(self.fx.tearDown)
+
+    def assert_indexes(self, collector):
+        self.assertEqual(collector.event_ids, {e['id'] for e in collector.events})
+        self.assertEqual(len(collector.events), len(collector.event_ids))
+        self.assertEqual(set(collector.index), {e['delivery_key'] for e in collector.events})
+
+    def test_changed_sources_do_not_rescan_history_and_standalone_cache_stays_durable(self):
+        self.fx.add_bytes(fixtures.message('user', 'Synthetic initial'))
+        collector = collector_module.Collector(self.fx.root)
+        collector.collect()
+        session = collector_module.discover_sessions(collector.db, collector.root, collector.explicit)[0]
+        old = list(collector.events)
+        collector.events = NoIteration(collector.events)
+        for n in range(3):
+            self.fx.add_bytes(fixtures.message('assistant', 'Synthetic tail ' + str(n), 'final'))
+            with collector.archive.writer() as writer:
+                with mock.patch.object(collector_module, 'atomic_json', wraps=collector_module.atomic_json) as write:
+                    result = collector.collect_session(session, writer=writer)
+                    self.assertTrue(result['changed'])
+                    self.assertEqual(write.call_count, 1)
+                    self.assertEqual(write.call_args.args[0].name, 'cursor-cache.json')
+        collector.events = collector.events[:]
+        self.assertEqual(collector.events[:len(old)], old)
+        self.assert_indexes(collector)
+        cache = json.loads((collector.runtime / 'cursor-cache.json').read_bytes())
+        self.assertEqual(cache, collector.state)
+
+    def test_forced_sync_rebuilds_ids_after_foreign_commit_and_stale_memory(self):
+        collector = collector_module.Collector(self.fx.root)
+        collector.event_ids.add('synthetic-stale-memory')
+        foreign = collector.archive.append(request(id='foreign'), 'foreign')
+        with collector.archive.writer() as writer:
+            collector.sync_archive(force=True, writer=writer)
+        self.assert_indexes(collector)
+        self.assertEqual(collector.event_ids, {foreign['id']})
+
+    def test_internal_exclusion_updates_ids_and_replay_has_no_duplicate(self):
+        self.fx.add_bytes(fixtures.message('user', 'Synthetic original'))
+        collector = collector_module.Collector(self.fx.root)
+        collector.collect()
+        with contextlib.closing(sqlite3.connect(self.fx.db)) as db:
+            db.execute('UPDATE threads SET source=? WHERE id=?',
+                       (json.dumps({'subagent': {'other': 'guardian'}}), fixtures.SESSION))
+            db.commit()
+        collector.collect()
+        self.assert_indexes(collector)
+        prior = list(collector.events)
+        collector.collect()
+        self.assertEqual(collector.events, prior)
+        self.assert_indexes(collector)
+
+    def test_changed_candidate_signature_reparses_without_replacing_originals(self):
+        baseline_path = Path(__file__).resolve().parent / 'baseline/scripts/collector.py'
+        spec = importlib.util.spec_from_file_location('synthetic_baseline_collector', baseline_path)
+        baseline = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(baseline)
+        self.fx.add_bytes(fixtures.message('user', 'Original exact bytes') +
+                          fixtures.message('assistant', 'Original exact final', 'final'))
+        old = baseline.Collector(self.fx.root)
+        old.collect()
+        old_events = self.fx.events()
+        raw_before = [e for e in old_events if e['kind'] == 'capture.raw_record']
+        collector = collector_module.Collector(self.fx.root)
+        self.assertNotEqual(collector.signature, old.signature)
+        self.assertFalse(collector.capture_compatibility['active'])
+        with mock.patch.object(collector_module, 'project_record', wraps=collector_module.project_record) as project:
+            collector.collect()
+            self.assertEqual(project.call_count, 3)
+        self.assertEqual(collector.events[:len(old_events)], old_events)
+        self.assertEqual([e for e in collector.events if e['kind'] == 'capture.raw_record'], raw_before)
+        self.assertEqual(collector.state[fixtures.SESSION]['signature'], collector.signature)
+        self.assert_indexes(collector)
+
+    def test_stale_disk_cache_does_not_control_new_event_id_index(self):
+        self.fx.add_bytes(fixtures.message('user', 'Synthetic canonical'))
+        collector = collector_module.Collector(self.fx.root)
+        collector.collect()
+        events = list(collector.events)
+        (collector.runtime / 'cursor-cache.json').write_text('{"made_up":"stale"}')
+        restored = collector_module.Collector(self.fx.root)
+        self.assert_indexes(restored)
+        self.assertEqual(restored.events, events)
+        restored.collect()
+        self.assertEqual(restored.events, events)
+
+
+class AdoptionIndexTests(unittest.TestCase):
+    def test_existing_exact_compatibility_branch_updates_index_without_reprojection(self):
+        fx = compatibility_fixtures.CompatibilityCollectorTests()
+        fx.setUp()
+        self.addCleanup(fx.doCleanups)
+        collector = collector_module.Collector(fx.fx.root)
+        self.assertTrue(collector.capture_compatibility['active'])
+        with mock.patch.object(collector_module, 'project_record', side_effect=AssertionError('reprojected')):
+            collector.collect()
+        self.assertEqual(collector.event_ids, {e['id'] for e in collector.events})
+        self.assertEqual(len(collector.events), len(collector.event_ids))
+        self.assertEqual(len(collector.events), len(fx.original_events) + 2)
+
+
+if __name__ == '__main__':
+    unittest.main()

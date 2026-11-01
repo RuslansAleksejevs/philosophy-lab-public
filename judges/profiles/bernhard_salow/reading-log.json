@@ -1,0 +1,118 @@
+{
+  "schema": "judge-reading-log-v1",
+  "judge_id": "bernhard_salow",
+  "access_date": "2026-10-07",
+  "retrieval_form": "Web-tool source fragments; originals retained verbatim, including errors and extraction defects. Not raw HTTP or original PDF files.",
+  "readings": [
+    {
+      "source_id": "I1",
+      "coverage": "metadata",
+      "read_locations": "Identity and publication inventory.",
+      "artifacts": [
+        {
+          "path": "evidence/turn7view0.txt",
+          "sha256": "ef61d57a74263ebbf6974ff9f5c003d2b1cc903549b634fa862b1d99ba271613",
+          "line_ranges_present": [
+            [
+              0,
+              137
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn42search3.txt",
+          "sha256": "03bd827db84ba694750400da5801bc11dff1ebf822971e038835dc67f7bcd1f2",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "I2",
+      "coverage": "metadata",
+      "read_locations": "Current identity and affiliation.",
+      "artifacts": [
+        {
+          "path": "evidence/turn42search4.txt",
+          "sha256": "1ea5a4fb6bd2c84bd42719e1908393921dbb8899455ace5fe4d57118559042e6",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S1",
+      "coverage": "substantial_excerpt",
+      "read_locations": "PDF pp1–4, extracted lines0–156, of16pages. Core Headcount example read; later repairs not read.",
+      "artifacts": [
+        {
+          "path": "evidence/turn9view3.txt",
+          "sha256": "281fb9e19457c916a5ca3d301ed3c90dac5d630ac115b65a8e1c79b9fd4b5d64",
+          "line_ranges_present": [
+            [
+              0,
+              156
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S2",
+      "coverage": "substantial_excerpt",
+      "read_locations": "PDF pp1–3, extracted lines0–115, of18pages. Opening distinctions and restrictions read; not the complete argument.",
+      "artifacts": [
+        {
+          "path": "evidence/turn15view0.txt",
+          "sha256": "f5d0bc50ec1b0a51824d95b281a8227ae04bce5e3dc3b3e16905607fbbd3851c",
+          "line_ranges_present": [
+            [
+              0,
+              115
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S3",
+      "coverage": "full_main_text",
+      "read_locations": "Main review lines36–86 read after predictions were saved. Navigation and bibliographical wrapper are not argument.",
+      "artifacts": [
+        {
+          "path": "evidence/turn59view0.txt",
+          "sha256": "87d56f0a75cfe8360dfb5b763c47b25e4067b9e2d5e7c5ae79d2039c8fe4562c",
+          "line_ranges_present": [
+            [
+              0,
+              127
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "F1",
+      "coverage": "unavailable",
+      "read_locations": "Failed older link; successful current route is S3.",
+      "artifacts": [
+        {
+          "path": "evidence/turn56view0.txt",
+          "sha256": "51a5d942eeceff9f40e44e4dc1c2d52e3bdd24832c90022a963ca3896a0be68e",
+          "line_ranges_present": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    }
+  ],
+  "temperament_search": "Targeted public author/institutional pages, media/interview or public discussion/review discovery. Actual accessible and failed results are indexed; metadata is not personality evidence.",
+  "gap_rule": "UNKNOWN is retained where the accessed material is inadequate. Full/excerpt refers to the contribution or main text, not all navigation, references, linked content or rendered equations."
+}

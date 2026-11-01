@@ -1,0 +1,61 @@
+{
+  "review_id": "M19-N2",
+  "manuscript_id": "M19",
+  "profile_id": "neutral",
+  "read_complete": true,
+  "thesis": "Fair recruitment and independent deliberation establish neither the evidential representativeness nor the institutional standing of a report selected for its favorable verdict. When officials present that report as completing an independent citizen appraisal, they need an additional justification connecting report designation to the authorized task.",
+  "contribution": "The manuscript offers a credible, modest clarification: authentic authorship, evidential value, and institutional standing can come apart, even when every report remains public. Its strongest added value is distinguishing justification of report designation from justification of policy adoption. The argument supports this limited distinction convincingly; its broader significance remains constrained by acknowledged overlap with existing work on selective uptake, institutional control, and public justification.",
+  "argument_map": [
+    "The target institution promises an advisory appraisal, favorable or unfavorable. Its sponsor instead repeats an unchanged inquiry after rejection, stops after approval, and presents that approval as the completed appraisal.",
+    "All reports possess the recruitment and deliberative credentials invoked for the selected report. Those shared features cannot alone justify its comparative standing; some further premise concerning the task, arguments, or designation procedure is necessary.",
+    "The strongest normative premise is functional: an institution invoking outside appraisal as a check must justify how its assignment of standing serves that role. Sponsor agreement alone supplies no independent explanation of that connection.",
+    "The probability model shows that fair panel recruitment can coexist with a selected verdict distribution. First approval within n independent attempts has probability 1 − (1 − p)^n, rather than p. This establishes an evidential distinction, not an illegitimacy theorem.",
+    "The likelihood comparisons establish that disclosed selection need not destroy evidential value. The same observed binary history can support the same update under different stopping rules, so statistical correction cannot resolve the separate question of standing.",
+    "Improved arguments, justified replication, and defensible asymmetric gates can supply additional premises. Consequently, the supported conclusion is a distinct justificatory burden, not a general prohibition on repetition, outcome dependence, or political discretion."
+  ],
+  "strongest_merit": {
+    "location": "§4, likelihood table and paragraphs beginning “The information sets are crucial” and “For the reject–reject–approve history”; §6, externally authorized gate",
+    "reason": "The manuscript seriously tests its own apparent intuition. It accepts both valid inference from a selected public history and justified asymmetric designation, while preserving the question of institutional standing. The displayed probabilities, likelihood ratios, and expected-loss comparisons are internally correct. Their philosophical relevance is clear: evidential distortion, sponsor control, and unjustified authority are not interchangeable diagnoses. This supports a strong argument for the limited thesis without relying on a blanket objection to optional stopping."
+  },
+  "concerns": [
+    {
+      "severity": "minor",
+      "kind": "scope",
+      "location": "§3, paragraphs beginning “The further premise comes from the claimed task” and “Nor does sponsor involvement automatically defeat independence”",
+      "excerpt": "their control of report designation must be compatible with the outside-appraisal role being invoked.",
+      "reason": "The shared-credentials argument establishes insufficiency, but the functional compatibility requirement remains comparatively indeterminate. The target case is especially easy because its stipulated mandate excludes the endorsement search actually conducted. The account therefore has less demonstrated power in disputed cases where the mandate permits substantial discretion without specifying how reports acquire standing. This limits application rather than defeating the central contribution.",
+      "text_response": "The manuscript explicitly distinguishes outcome dependence, sponsor control, and role justification; permits substantive comparisons and asymmetric gates; and disclaims a complete compatibility criterion. These concessions successfully protect the insufficiency thesis, although they leave the harder institutional judgments open.",
+      "discriminating_check": "Apply the requirement to a mandate expressly permitting discretionary designation for publicly stated reasons, with no prescribed stopping rule. Identify what would make an approval-seeking rationale inadequate beyond the absence of explicit authorization. This would show whether the account guides contested cases or primarily diagnoses clear mandate mismatches."
+    },
+    {
+      "severity": "open",
+      "kind": "significance",
+      "location": "§2, paragraph beginning “The narrower question concerns selection among reports”; §7, the two burdens and proposed remedies",
+      "excerpt": "The proposed contribution is this clarification and its transparent stopping example, not a separate theory of democratic legitimacy.",
+      "reason": "The distinction is useful, but its additional normative yield is not fully demonstrated. As the manuscript describes them, existing selective-uptake and whole-process approaches already require public justification. The packet does not establish whether report designation exposes an independently neglected obligation or makes those existing duties more precise for repeated panels. That uncertainty limits significance without showing that the distinction is redundant.",
+      "text_response": "The manuscript identifies different objects of justification, explains that policy reasons and accurate evidential interpretation can leave designation unexplained, and offers practical attribution and response questions. It also expressly leaves priority and additional significance unresolved.",
+      "discriminating_check": "Develop a case satisfying the predecessor duties as characterized here, including substantive policy reasons and responses to adverse recommendations, but still failing the designation requirement. Identify the additional obligation and its institutional consequence. If existing duties already cover it, present the contribution as a useful application rather than a further normative result."
+    }
+  ],
+  "scores": {
+    "overall": 3,
+    "argument": 4,
+    "significance": 3,
+    "originality": null
+  },
+  "originality_limit": "The supplied discussion documents substantial acknowledged overlap and articulates a narrower proposed extension. It does not provide enough comparative evidence to establish that extension’s originality. Neither exhaustive novelty nor external source correctness was checked; uncertainty about either is not evidence of plagiarism, false attribution, or error.",
+  "recommendation": "borderline",
+  "reason_ru": [
+    "Эссе убедительно показывает, почему честный отбор участников сам по себе не оправдывает особый статус выбранного отчёта.",
+    "Полезный результат — различение подлинного мнения участников, доказательной силы отчёта и его официальной роли.",
+    "Рекомендация пограничная: аргумент выдерживает серьёзные возражения, но его дополнительный вклад относительно описанных предшественников остаётся умеренным."
+  ],
+  "confidence": "medium",
+  "profile_basis": [],
+  "limits": [
+    "Read the complete supplied manuscript, including Source scope and the bibliography.",
+    "Used only the supplied packet; no tools, browsing, or external source verification.",
+    "External source correctness and exhaustive novelty were not checked.",
+    "The mathematical examples were assessed internally; their assumptions are not empirical findings about actual assemblies."
+  ]
+}

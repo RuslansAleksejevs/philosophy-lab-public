@@ -1,0 +1,189 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "review_id",
+    "manuscript_id",
+    "profile_id",
+    "read_complete",
+    "thesis",
+    "contribution",
+    "argument_map",
+    "strongest_merit",
+    "concerns",
+    "scores",
+    "originality_limit",
+    "recommendation",
+    "reason_ru",
+    "confidence",
+    "profile_basis",
+    "limits"
+  ],
+  "properties": {
+    "review_id": {
+      "type": "string"
+    },
+    "manuscript_id": {
+      "type": "string"
+    },
+    "profile_id": {
+      "type": "string"
+    },
+    "read_complete": {
+      "type": "boolean"
+    },
+    "thesis": {
+      "type": "string"
+    },
+    "contribution": {
+      "type": "string"
+    },
+    "argument_map": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 3
+    },
+    "strongest_merit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "location",
+        "reason"
+      ],
+      "properties": {
+        "location": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        }
+      }
+    },
+    "concerns": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "severity",
+          "kind",
+          "location",
+          "excerpt",
+          "reason",
+          "text_response",
+          "discriminating_check"
+        ],
+        "properties": {
+          "severity": {
+            "enum": [
+              "fatal",
+              "major",
+              "minor",
+              "open"
+            ]
+          },
+          "kind": {
+            "enum": [
+              "inference",
+              "premise",
+              "source",
+              "scope",
+              "originality",
+              "significance"
+            ]
+          },
+          "location": {
+            "type": "string"
+          },
+          "excerpt": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "text_response": {
+            "type": "string"
+          },
+          "discriminating_check": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "overall",
+        "argument",
+        "significance",
+        "originality"
+      ],
+      "properties": {
+        "overall": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "argument": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "significance": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "originality": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5
+        }
+      }
+    },
+    "originality_limit": {
+      "type": "string"
+    },
+    "recommendation": {
+      "enum": [
+        "shortlist",
+        "borderline",
+        "outside"
+      ]
+    },
+    "reason_ru": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 2,
+      "maxItems": 3
+    },
+    "confidence": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "profile_basis": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limits": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

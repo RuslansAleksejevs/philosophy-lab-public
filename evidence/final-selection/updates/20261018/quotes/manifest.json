@@ -1,0 +1,74 @@
+{
+  "format": "quote-visible-fragments.v1",
+  "status": "EXACT_VISIBLE_JSON_STRING_FRAGMENTS",
+  "session_id": "01a1496a-7b42-7a11-b00a-11d33df80222",
+  "source_basename": "rollout-2026-10-17T03-31-17-01a1496a-7b42-7a11-b00a-11d33df80222.jsonl",
+  "records": [
+    {
+      "id": "accepted-workflow",
+      "session_id": "01a1496a-7b42-7a11-b00a-11d33df80222",
+      "source_line": 88,
+      "source_line_sha256": "7cc2519f2850f3245a25aac19ae6d674a376944bf0f35ffac3a99ccc18a87004",
+      "source_timestamp": "2026-10-17T21:11:07.836Z",
+      "role": "user",
+      "text_sha256": "f179f18cf005e857773302fa8ab402badc242ea8788f61fdb75c0eb8d866ea45",
+      "parts": [
+        {
+          "path": "line-88-part-0.json-string.txt",
+          "sha256": "138f2bed649cd466f7de989d18740ea229a4a4f6d5238681b6590d7f6f0f87f2",
+          "bytes": 2056
+        }
+      ]
+    },
+    {
+      "id": "plain-language-and-future-quote",
+      "session_id": "01a1496a-7b42-7a11-b00a-11d33df80222",
+      "source_line": 957,
+      "source_line_sha256": "2a13736e08e59f5a0f91b70e3ab990c94b8ba72a495b5f91a78b07b3eff3ce25",
+      "source_timestamp": "2026-10-17T22:50:47.595Z",
+      "role": "user",
+      "text_sha256": "053e380108a0698675ef8aea1caddb855b016ef77e6461425f5e71612a5dc796",
+      "parts": [
+        {
+          "path": "line-957-part-0.json-string.txt",
+          "sha256": "e2e8ab70dcfa255b9349c0be0bbe1dca730288f8eb2ed8dad3b6882c9770c46c",
+          "bytes": 402
+        }
+      ]
+    },
+    {
+      "id": "reviewer-roles-60-40",
+      "session_id": "01a1496a-7b42-7a11-b00a-11d33df80222",
+      "source_line": 4828,
+      "source_line_sha256": "c0fea6e8c86c1ef7fbf2738be5d2ace7835d9bc87f1335d9cd02212fab720535",
+      "source_timestamp": "2026-10-19T00:54:43.635Z",
+      "role": "user",
+      "text_sha256": "4c58a6401cdfa77d040b9d67df051c483b208aafa992bcd22f8943dd76e221bd",
+      "parts": [
+        {
+          "path": "line-4828-part-0.json-string.txt",
+          "sha256": "d139b940464e934ab6dc302e3cd6b1acf793596e5a8c2925d30477d0a15d1376",
+          "bytes": 324
+        }
+      ]
+    },
+    {
+      "id": "selection-launch-and-github",
+      "session_id": "01a1496a-7b42-7a11-b00a-11d33df80222",
+      "source_line": 4882,
+      "source_line_sha256": "7ee2a0ee4e6f8db4f92237491dc6fa9748a227b213bab57e8274baabce8a3772",
+      "source_timestamp": "2026-10-19T00:58:37.102Z",
+      "role": "user",
+      "text_sha256": "9931562aa3e9a1f8afd33552acd4fb4214bbcd4ab585805c168dfc6ca3f42e11",
+      "parts": [
+        {
+          "path": "line-4882-part-0.json-string.txt",
+          "sha256": "3038328232120c9faa3c71b89f1765707458e17a1553e26de88ddc72d3828926",
+          "bytes": 530
+        }
+      ]
+    }
+  ],
+  "full_provider_capture": false,
+  "boundary": "Derived read-only quote evidence: original serialized visible input_text string tokens only. Native line hashes and project/session identity were rechecked. No full native envelope, hidden reasoning or archive-writer operation."
+}

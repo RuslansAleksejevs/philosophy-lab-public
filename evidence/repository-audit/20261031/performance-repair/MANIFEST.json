@@ -1,0 +1,111 @@
+{
+  "schema": "performance-repair-evidence.v1",
+  "status": "EXACT_ADMINISTRATIVE_PERFORMANCE_REPAIR_COPY",
+  "files": [
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/before/research_archive.py.source",
+      "source_path": "runs/repository-rebuild-20261031/performance-review/installation/research_archive.py.before.source",
+      "sha256": "a4fae709bd66d0596b31f1e724ba232699c3a14711b64edd9f1b2754ce27bd85",
+      "bytes": 42895
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/current/research_archive.py.source",
+      "source_path": "scripts/research_archive.py",
+      "sha256": "b2e111bcbb405d2d0d8910f70f5bc0364e24fd42d4e5a0a7e26a51e024fa790b",
+      "bytes": 42957
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/before/collector.py.source",
+      "source_path": "runs/repository-rebuild-20261031/performance-review/installation/collector.py.before.source",
+      "sha256": "c0ff12e7b10f7c7fe8f13da3c3d27cc1009b0e7a707073e2495856fea2fc755b",
+      "bytes": 43143
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/current/collector.py.source",
+      "source_path": "scripts/collector.py",
+      "sha256": "1da9039df67d277f19f0c29d0f178d88382937666d124a194ea08f011b4fb668",
+      "bytes": 43383
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/CHECKS.json",
+      "source_path": "runs/repository-rebuild-20261031/performance-review/candidate/CHECKS.json",
+      "sha256": "e718cd709bb9383ff4af93e20eed4edd7ab096945a35c06082b3ffabc87e40cf",
+      "bytes": 4904
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/INDEPENDENT_REVIEW.json",
+      "source_path": "runs/repository-rebuild-20261031/performance-review/candidate/INDEPENDENT_REVIEW.json",
+      "sha256": "73fc1069bcaa6eb90c25e2b905c2b231aa9b0ed0e8985692d918e25022fa773f",
+      "bytes": 6544
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/BASELINE.json",
+      "source_path": "runs/repository-rebuild-20261031/performance-review/candidate/BASELINE.json",
+      "sha256": "93ca7aae6e24c0cfb72339e90eea255c34f71c464f978dfc2e1a1f2f8ae57476",
+      "bytes": 1235
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/REGRESSION_TEST_INPUTS.json",
+      "source_path": "runs/repository-rebuild-20261031/performance-review/candidate/REGRESSION_TEST_INPUTS.json",
+      "sha256": "058b20ba6549ee8772b2af0537ac147d05ad1f396e1fd39e098932d2e6b444d3",
+      "bytes": 2001
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/FORMAT_FIXTURE_INPUTS.json",
+      "source_path": "runs/repository-rebuild-20261031/performance-review/candidate/FORMAT_FIXTURE_INPUTS.json",
+      "sha256": "f067be82836a12e837c64b0d54a5f2768510a9951be3640cd4f04509ae16f6a4",
+      "bytes": 1240
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/test_performance_indexes.py.source",
+      "source_path": "runs/repository-rebuild-20261031/performance-review/candidate/test_performance_indexes.py",
+      "sha256": "ab3cdc58cbac8cbd4646e259bc92f2207cd19f219c17ec3a58169c9047443d84",
+      "bytes": 10976
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/run_tests.py.source",
+      "source_path": "runs/repository-rebuild-20261031/performance-review/candidate/run_tests.py",
+      "sha256": "de0373e13511ffd5c84f7292f7a7309d5787174c8bb3a1b8b618edf2c1bcf2a8",
+      "bytes": 2381
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/INSTALL_RECEIPT.json",
+      "source_path": "runs/repository-rebuild-20261031/performance-review/installation/INSTALL_RECEIPT.json",
+      "sha256": "5fe2a6f2e27b33be7015d09e83c3fbb80396cf04c47e08908092c0aeb3e5f1cb",
+      "bytes": 1194
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/REQUIRED_CHECKS.json",
+      "source_path": "runs/repository-rebuild-20261031/performance-review/installation/REQUIRED_CHECKS.json",
+      "sha256": "7550e5552bf1995140f6726f4a03adee5a0dd9334afba0af6432c03585b91a5d",
+      "bytes": 824
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/REQUIRED_CHECKS.log",
+      "source_path": "runs/repository-rebuild-20261031/performance-review/installation/REQUIRED_CHECKS.log",
+      "sha256": "c5e7731d0611325a804283463b7d108f6a2ada3433778e9ee0785e1b9fae5425",
+      "bytes": 113679
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/ROOT_CANDIDATE_ACCEPTANCE.json",
+      "source_path": "runs/repository-rebuild-20261031/performance-review/ROOT_CANDIDATE_ACCEPTANCE.json",
+      "sha256": "d516e43a6ef585e4c1202ef6f9c6294622c5bdfbd0e5e351d5a231fa14321bc6",
+      "bytes": 617
+    },
+    {
+      "path": "evidence/repository-audit/20261031/performance-repair/ROOT_CANDIDATE_TESTS.log",
+      "source_path": "runs/repository-rebuild-20261031/performance-review/ROOT_CANDIDATE_TESTS.log",
+      "sha256": "047d5fa3cd5461aa071e618bbb740555495d7c0f0cbaf4f508f3515ed864a871",
+      "bytes": 25817
+    }
+  ],
+  "installed_source_hashes": {
+    "scripts/research_archive.py": "b2e111bcbb405d2d0d8910f70f5bc0364e24fd42d4e5a0a7e26a51e024fa790b",
+    "scripts/collector.py": "1da9039df67d277f19f0c29d0f178d88382937666d124a194ea08f011b4fb668"
+  },
+  "project_tests": 706,
+  "candidate_tests": 150,
+  "candidate_tests_already_in_project_suite": 140,
+  "additional_regressions": 10,
+  "boundary": "Administrative source copies and completed checks. No new scientific review. Full audits, canonical fsync, cursor-cache writes and capture compatibility are unchanged. Live recovery and measured speed are separate evidence."
+}

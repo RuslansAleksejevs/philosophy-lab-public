@@ -1,0 +1,320 @@
+{
+  "schema": "deep-verification-manifest.v1",
+  "status": "PACKETS_PREPARED_NOT_DISPATCHED",
+  "run_id": "deep-verification-20261031",
+  "accepted_selection_event": "event-7358790dac874fc78e327b60a3fbe014",
+  "source_receipts": [
+    {
+      "path": "runs/final-selection-20261018/FINAL_RECEIPT.json",
+      "sha256": "783d3e52a15e42c999dc83db36a1ff90e4f74c923675ad9729453c9ed142a7b2",
+      "bytes": 170443
+    },
+    {
+      "path": "runs/final-selection-20261018/DECISIONS.json",
+      "sha256": "a42bbe11ff2e8751e4a680b2af911a0704eed618370d6b727cca1c43529193c3",
+      "bytes": 42974
+    },
+    {
+      "path": "runs/final-selection-20261018/FINAL_PLAN.json",
+      "sha256": "061369436a0b7262879aecf3d5eb286bed381b7f29ee666adeee93a5c3146759",
+      "bytes": 39739
+    },
+    {
+      "path": "runs/final-selection-20261018/reading/INDEX.md",
+      "sha256": "7f2b7ba2b806273bfd9da06bfa0fcdf2f3c973d5ed4ce51565752c6a6fa5eadc",
+      "bytes": 297
+    }
+  ],
+  "requested_configuration": {
+    "model": "gpt-6-astra",
+    "effort": "ultra",
+    "service_tier": "default",
+    "authentication": "ChatGPT subscription only"
+  },
+  "manuscripts": [
+    {
+      "manuscript_id": "V01",
+      "candidate_id": "E078",
+      "variant": "preselection-20261017-v1",
+      "source": "runs/final-preselection-20261017/roles/E078/author/output/revision.md",
+      "reading_source": "runs/final-selection-20261018/reading/01.md",
+      "sha256": "c6b5565dbdf236ea43656afc2d4ef59031211d5703545900698111d8f2267e28",
+      "bytes": 27392,
+      "packet": "runs/deep-verification-20261031/packets/V01/manuscript.md",
+      "mapping_visibility": "coordinator only"
+    },
+    {
+      "manuscript_id": "V02",
+      "candidate_id": "E009",
+      "variant": "original",
+      "source": "runs/midterm-20261007/blind/E009.md",
+      "reading_source": "runs/final-selection-20261018/reading/02.md",
+      "sha256": "6fcfd9ef400a61abed5b52b1a810c8e233a764ca059804b1223c9fb4794f4605",
+      "bytes": 26402,
+      "packet": "runs/deep-verification-20261031/packets/V02/manuscript.md",
+      "mapping_visibility": "coordinator only"
+    },
+    {
+      "manuscript_id": "V03",
+      "candidate_id": "F02",
+      "variant": "preselection-20261017-v1",
+      "source": "runs/final-preselection-20261017/roles/F02/author-repair/output/revision.md",
+      "reading_source": "runs/final-selection-20261018/reading/03.md",
+      "sha256": "e6badc41a13f407d5ce9660772ff018d0ebbf109f5c8570a0659c612cb217a2d",
+      "bytes": 29972,
+      "packet": "runs/deep-verification-20261031/packets/V03/manuscript.md",
+      "mapping_visibility": "coordinator only"
+    },
+    {
+      "manuscript_id": "V04",
+      "candidate_id": "E041",
+      "variant": "preselection-20261017-v1",
+      "source": "runs/final-preselection-20261017/roles/E041/author/output/revision.md",
+      "reading_source": "runs/final-selection-20261018/reading/04.md",
+      "sha256": "5f67b5676c4c9088072ba9d0780695a97cfd85d6d6c3876e5c22578967ae29b7",
+      "bytes": 24778,
+      "packet": "runs/deep-verification-20261031/packets/V04/manuscript.md",
+      "mapping_visibility": "coordinator only"
+    },
+    {
+      "manuscript_id": "V05",
+      "candidate_id": "F06",
+      "variant": "R1",
+      "source": "runs/postmidterm-20261012/04-essays/F06/releases/v1/R1.md",
+      "reading_source": "runs/final-selection-20261018/reading/05.md",
+      "sha256": "c2e4d644eb13efb18583f3b7fb01665639018cb510146aba942cf294bfc4d63d",
+      "bytes": 34611,
+      "packet": "runs/deep-verification-20261031/packets/V05/manuscript.md",
+      "mapping_visibility": "coordinator only"
+    },
+    {
+      "manuscript_id": "V06",
+      "candidate_id": "E050",
+      "variant": "R1-display",
+      "source": "runs/midterm-20261007/revision-trial-20261008/comparison-copies/E050-R1.md",
+      "reading_source": "runs/final-selection-20261018/reading/06.md",
+      "sha256": "af21989e46757835e64576fa666612652b04c26a6d367740de2c9a910645023e",
+      "bytes": 20641,
+      "packet": "runs/deep-verification-20261031/packets/V06/manuscript.md",
+      "mapping_visibility": "coordinator only"
+    },
+    {
+      "manuscript_id": "V07",
+      "candidate_id": "E055",
+      "variant": "original",
+      "source": "runs/midterm-20261007/blind/E055.md",
+      "reading_source": "runs/final-selection-20261018/reading/07.md",
+      "sha256": "7e89cbede4b8b1a236ecfa87e684ba46b51707b099fa0f072ccbacb833d3b520",
+      "bytes": 20567,
+      "packet": "runs/deep-verification-20261031/packets/V07/manuscript.md",
+      "mapping_visibility": "coordinator only"
+    },
+    {
+      "manuscript_id": "V08",
+      "candidate_id": "E012",
+      "variant": "preselection-20261017-v1",
+      "source": "runs/final-preselection-20261017/roles/E012/author/output/revision.md",
+      "reading_source": "runs/final-selection-20261018/reading/08.md",
+      "sha256": "53400ffacb73c30c9af7ee9fa67578305d1ee1c13711881650dfca3cd4c82884",
+      "bytes": 32126,
+      "packet": "runs/deep-verification-20261031/packets/V08/manuscript.md",
+      "mapping_visibility": "coordinator only"
+    },
+    {
+      "manuscript_id": "V09",
+      "candidate_id": "E079",
+      "variant": "preselection-20261017-v1",
+      "source": "runs/final-preselection-20261017/roles/E079/author/output/revision.md",
+      "reading_source": "runs/final-selection-20261018/reading/09.md",
+      "sha256": "f640e52f1fbccb6a085f1703c912f07b5084336ea5b52de5b15ec49e6e2e775a",
+      "bytes": 21500,
+      "packet": "runs/deep-verification-20261031/packets/V09/manuscript.md",
+      "mapping_visibility": "coordinator only"
+    },
+    {
+      "manuscript_id": "V10",
+      "candidate_id": "E074",
+      "variant": "preselection-20261017-v1",
+      "source": "runs/final-preselection-20261017/roles/E074/author/output/revision.md",
+      "reading_source": "runs/final-selection-20261018/reading/10.md",
+      "sha256": "9c603c5c4fe9f87491e10904f712cab244557550177ee0bb17faba5474f7590b",
+      "bytes": 34545,
+      "packet": "runs/deep-verification-20261031/packets/V10/manuscript.md",
+      "mapping_visibility": "coordinator only"
+    }
+  ],
+  "jobs": 20,
+  "files": [
+    {
+      "path": "runs/deep-verification-20261031/schema/argument.json",
+      "sha256": "b09cae8cf381f8014eae45b27e30ffd005d7374468c99ad819a0b8b15e3039f9",
+      "bytes": 5510
+    },
+    {
+      "path": "runs/deep-verification-20261031/schema/literature.json",
+      "sha256": "da5d9ab99fadc16716ea6403ee5ba8c213230e841f14e7263fff8e5a22f217ff",
+      "bytes": 6923
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V01/manuscript.md",
+      "sha256": "c6b5565dbdf236ea43656afc2d4ef59031211d5703545900698111d8f2267e28",
+      "bytes": 27392
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V01/A/prompt.txt",
+      "sha256": "c388a72070aa789c0a32b8f6181fa5702ca8cd31cd18baffc8b120f1f7e0c970",
+      "bytes": 33798
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V01/L/prompt.txt",
+      "sha256": "f82c943b0046aa85e71211476545bf458e3256443ddd0d423659fb6bb1cb87b1",
+      "bytes": 34979
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V02/manuscript.md",
+      "sha256": "6fcfd9ef400a61abed5b52b1a810c8e233a764ca059804b1223c9fb4794f4605",
+      "bytes": 26402
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V02/A/prompt.txt",
+      "sha256": "83dac227c1f39c7bf6c5ea5e62ef6b6ffe37f3025ce6b864e04d421893319eaa",
+      "bytes": 32808
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V02/L/prompt.txt",
+      "sha256": "bdde7e2d2013573bd3bcf5cd325d4a3bfb5ff2dc60bce030146fc3564d4a79d3",
+      "bytes": 33989
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V03/manuscript.md",
+      "sha256": "e6badc41a13f407d5ce9660772ff018d0ebbf109f5c8570a0659c612cb217a2d",
+      "bytes": 29972
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V03/A/prompt.txt",
+      "sha256": "705d6aca581b139be3fa136bc5ac4c35bb6840697267d1f9b33afbb9041821e0",
+      "bytes": 36378
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V03/L/prompt.txt",
+      "sha256": "5ab1c53b206d323e5eef4315d3c7a9a8805717f7b8ed18ca3b1aed9508c44bb6",
+      "bytes": 37559
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V04/manuscript.md",
+      "sha256": "5f67b5676c4c9088072ba9d0780695a97cfd85d6d6c3876e5c22578967ae29b7",
+      "bytes": 24778
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V04/A/prompt.txt",
+      "sha256": "82b70b0c770a5ac65d0b94cd15243a2a31cb8ddd86abd211691fcd07b6c44ac5",
+      "bytes": 31184
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V04/L/prompt.txt",
+      "sha256": "a180e56dc22b311ade43808671ead0a856722a898400961ca82b938cc7064e6c",
+      "bytes": 32365
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V05/manuscript.md",
+      "sha256": "c2e4d644eb13efb18583f3b7fb01665639018cb510146aba942cf294bfc4d63d",
+      "bytes": 34611
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V05/A/prompt.txt",
+      "sha256": "da412781a54929669f38305b8181d0965ce9ef76d2fd9451eb76d1d6004b1bdb",
+      "bytes": 41017
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V05/L/prompt.txt",
+      "sha256": "b3efb3f63582769c780a3fe98ab453319de249a0a2b6f06bdc21bbc2a950481e",
+      "bytes": 42198
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V06/manuscript.md",
+      "sha256": "af21989e46757835e64576fa666612652b04c26a6d367740de2c9a910645023e",
+      "bytes": 20641
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V06/A/prompt.txt",
+      "sha256": "14a7d16bb96512a97ff75d69d9b66bc2907717c73380630a28f63433b87539ed",
+      "bytes": 27047
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V06/L/prompt.txt",
+      "sha256": "7d8f9aa06cc2acf7f99e4201933285df0bb6c6daa8ddd811cc995de89a794856",
+      "bytes": 28228
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V07/manuscript.md",
+      "sha256": "7e89cbede4b8b1a236ecfa87e684ba46b51707b099fa0f072ccbacb833d3b520",
+      "bytes": 20567
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V07/A/prompt.txt",
+      "sha256": "4d202a0bb4900fa8ff5ec3581cd9ab98799f7a656bd51f6b3c4859ec1ef63098",
+      "bytes": 26973
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V07/L/prompt.txt",
+      "sha256": "60258cd9c16d8440d8961ec0d8db836c72b15afa3094871768547202a61307a4",
+      "bytes": 28154
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V08/manuscript.md",
+      "sha256": "53400ffacb73c30c9af7ee9fa67578305d1ee1c13711881650dfca3cd4c82884",
+      "bytes": 32126
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V08/A/prompt.txt",
+      "sha256": "c7c19fdc86df7253b6cbc41600ea41c3037cb47a031a1eb9461d2a6e33b8ebd0",
+      "bytes": 38532
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V08/L/prompt.txt",
+      "sha256": "5f8cacf3488293a55da3ee72ee48cc9ecdb73906e911da81ae077ba9b4c3fdf2",
+      "bytes": 39713
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V09/manuscript.md",
+      "sha256": "f640e52f1fbccb6a085f1703c912f07b5084336ea5b52de5b15ec49e6e2e775a",
+      "bytes": 21500
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V09/A/prompt.txt",
+      "sha256": "b332b9492ec1346b8deb002d6da1c1b161ddb03b26c182dc11be04a4591c0958",
+      "bytes": 27906
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V09/L/prompt.txt",
+      "sha256": "04b380ddb710f00c452e62bd4aec1e17494d3ec1ae7e2c6edd4adc2bffbcaa3e",
+      "bytes": 29087
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V10/manuscript.md",
+      "sha256": "9c603c5c4fe9f87491e10904f712cab244557550177ee0bb17faba5474f7590b",
+      "bytes": 34545
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V10/A/prompt.txt",
+      "sha256": "eb54a45d8a41aac99b28a1039b879187d6e83ef0f400c47c7efdf4ddf16ae234",
+      "bytes": 40951
+    },
+    {
+      "path": "runs/deep-verification-20261031/packets/V10/L/prompt.txt",
+      "sha256": "8b8bd67d530b95287513a824d55d0c93c2c3042d0100cfe1bcb088bde59a3001",
+      "bytes": 42132
+    },
+    {
+      "path": "runs/deep-verification-20261031/jobs.json",
+      "sha256": "7eb30f18d3db478bef2e09779092b765b986928ce620fa5683391a446ccab99e",
+      "bytes": 22082
+    }
+  ],
+  "boundaries": [
+    "Coordinator mapping is not a worker input.",
+    "The completed 160 selection reviews are not repeated or reclassified.",
+    "Original manuscripts remain byte-identical.",
+    "No substantive review, model call, canonical write, submission or publication occurred during preparation."
+  ]
+}

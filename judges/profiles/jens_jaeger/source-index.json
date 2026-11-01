@@ -1,0 +1,50 @@
+{
+  "judge_id": "jens_jaeger",
+  "created_at": "2026-10-07T10:35:22.230262+00:00",
+  "baseline_reuse": "Reported substantive claims/coverage are inherited, explicitly attributed to B0; no new full-paper claim.",
+  "sources": [
+    {
+      "source_id": "B0",
+      "title": "Inherited profile with exact substantive citations and historical coverage",
+      "url": null,
+      "path": "research/judges/20260912/profiles/jens_jaeger-v1.md",
+      "sha256": "6bf2ad955bd409214d9292b81acff3e4547994140848a8529ff8256014626115",
+      "coverage": "full profile read; underlying cited papers not newly read except explicitly logged",
+      "accessed_at": "2026-10-07T10:35:22.230262+00:00",
+      "copy": "baseline-profile-20260912.md"
+    },
+    {
+      "source_id": "identity-web",
+      "title": "Author identity page",
+      "url": "https://jjaegerphilo.github.io/",
+      "path": "research/judges/20261007/jens_jaeger/sources/identity-web.json",
+      "sha256": "bdba8163562502d4c5eae9ad6abc9337441a23036d9dcb1c558c98b9779b2d16",
+      "accessed_at": "2026-10-07T10:32:34.188Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "identity and research-interest statements only; bibliography is metadata"
+    },
+    {
+      "source_id": "T1",
+      "title": "Parallelwelten erforschen, ETH Zurich, Regina Moser, 2 April 2017",
+      "url": "https://www.phys.ethz.ch/de/news-und-veranstaltungen/d-phys-news/2017/04/parallelwelten-erforschen.html",
+      "path": "research/judges/20261007/jens_jaeger/sources/interview-web.json",
+      "sha256": "b022483e3455797b7d87ea2777d6023b401c968286603087f9974cee0f11af8b",
+      "accessed_at": "2026-10-07T10:31:27.129Z",
+      "capture_type": "web_tool_extraction",
+      "coverage": "excerpt",
+      "read_locations": "Lines 47–66; institution report, not an interview despite capture filename"
+    },
+    {
+      "source_id": "jens_search-discovery",
+      "title": "jens_search-discovery",
+      "url": null,
+      "path": "research/judges/20261007/jens_jaeger/sources/jens_search-discovery.json",
+      "sha256": "e20fe7b1c37029863f4d2acb8fa63d918d2216e0d3cb0b0b127d7a1c9997bddb",
+      "accessed_at": "2026-10-07T10:35:22.230262+00:00",
+      "capture_type": "web_tool_search_discovery_not_full_reading",
+      "coverage": "metadata/search discovery",
+      "read_locations": "discovery/exposure only; not a basis for full-source reading"
+    }
+  ]
+}

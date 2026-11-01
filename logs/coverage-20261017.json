@@ -1,0 +1,27 @@
+{
+  "snapshot_started_at": "2026-10-17T19:24:48.323739+00:00",
+  "display_timezone": "America/Los_Angeles",
+  "current_codex_sessions": 3154,
+  "counts": {
+    "chats": 43,
+    "messages": 13751,
+    "timestamped": 13751,
+    "undated": 0,
+    "human_user": 363,
+    "agents": 461,
+    "cli": 2650
+  },
+  "remaining_gap_count": 115,
+  "gap_reasons": {
+    "attachment_or_record:attachment_body_not_captured": 5,
+    "attachment_or_record:original_mixed_record_not_retained": 5,
+    "tools:unknown_record_metadata": 70,
+    "tools:unknown_payload_fields": 22,
+    "unretained_record:record_exceeds_8MiB_or_incomplete_at_snapshot": 13
+  },
+  "native_paths_unavailable": 2755,
+  "large_native_files_streamed": 2,
+  "oversized_raw_records_not_retained": 13,
+  "new_claude_visible_messages": 24,
+  "boundary": "Visible retained text at per-session cutoffs; no whole-provider or global collector-repair claim."
+}

@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-10-18T01:20:41.103283+00:00",
+  "stop_command": "python3 -B scripts/collector_service.py stop",
+  "exit_code": 0,
+  "observed_result": "Unloaded; installed login configuration remains.",
+  "followup_process_observation": "Old collector PID 20228 absent; archive batch PID 25532 active at 69.6% CPU.",
+  "native_logs_unchanged_by_this_action": true,
+  "restoration_required_before_goal_completion": true,
+  "coverage_claim": "No claim that older collector gaps are fixed. Current bounded explicit captures remain mandatory."
+}

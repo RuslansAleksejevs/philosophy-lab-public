@@ -1,0 +1,130 @@
+{
+  "schema": "judge-reading-log-v1",
+  "judge_id": "kacper_kowalczyk",
+  "access_date": "2026-10-07",
+  "retrieval_form": "Web-tool source fragments; originals retained verbatim, including errors and extraction defects. Not raw HTTP or original PDF files.",
+  "readings": [
+    {
+      "source_id": "I1",
+      "coverage": "metadata",
+      "read_locations": "Identity, interests, publication inventory; full short page accessed.",
+      "artifacts": [
+        {
+          "path": "evidence/turn9view1.txt",
+          "sha256": "c1bf78848ce1456298fb405ab877107fb63c5cb4c23dcfa4733e4252b70e069c",
+          "line_ranges_present": [
+            [
+              0,
+              93
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S1",
+      "coverage": "substantial_excerpt",
+      "read_locations": "PDF pp1–9, extracted lines0–336, of36pages. Opening pedagogical argument, utility framework, and theorem setup; not full later derivations.",
+      "artifacts": [
+        {
+          "path": "evidence/turn57view2.txt",
+          "sha256": "32d56617911b77a7095bf07b3ac03c4e6286c963d4c367e760f904889d2232fc",
+          "line_ranges_present": [
+            [
+              0,
+              336
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S2",
+      "coverage": "full_main_text",
+      "read_locations": "Article main text lines63–181 and notes182–218 read, plus metadata. Diagrams/equations may be incomplete in extraction.",
+      "artifacts": [
+        {
+          "path": "evidence/turn60view1.txt",
+          "sha256": "d67e2bb63915eae10360223ea0ee485a40b15c7ed979ed559a52e27839b33de1",
+          "line_ranges_present": [
+            [
+              0,
+              222
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "T1",
+      "coverage": "metadata",
+      "read_locations": "Search-visible opening; full access attempt failed. Not counted as substantive primary reading.",
+      "artifacts": [
+        {
+          "path": "evidence/turn47search5.txt",
+          "sha256": "35176857be3b1c53400f2ed2e38e32df80516c6c4f4e034daac23b76f3fdba0d",
+          "line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn69view0.txt",
+          "sha256": "9ffa5a2df804f6cc78ddcd303ab98e01771e25eb48d5bb224fd073d8865dfce8",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "D1",
+      "coverage": "unavailable",
+      "read_locations": "Alternative PhilArchive, DOI, and publisher routes failed or yielded abstracts only. Exact routes retained in evidence; no substantive reading claimed.",
+      "artifacts": [
+        {
+          "path": "evidence/turn46view1.txt",
+          "sha256": "6a3d730e8c6eda10554896fab6dabc7f6fd7715ebee0c11898f7dbfd6a275f86",
+          "line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn39view0.txt",
+          "sha256": "3388c1bbf8e76fc21447826ebbfd57663ec52d03cecbbd13684e519079e70fec",
+          "line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn42view3.txt",
+          "sha256": "1d09aa48b101c030531db14d013534bbcd42171834fc836346c1b3e929390084",
+          "line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn42view4.txt",
+          "sha256": "2a01f41e6d52548ff75570bb4ae4d3a02c3448844457aa7536a5620cf58a29e4",
+          "line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn59view1.txt",
+          "sha256": "ff5abe28acef89bff515e77cac3ec8ef12452928b624ce07211d02688fd637ba",
+          "line_ranges_present": [
+            [
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn60view0.txt",
+          "sha256": "c96feb5113a10c9baf022f39f494237f66254a14e883e40b76db24d1e20fe352",
+          "line_ranges_present": []
+        },
+        {
+          "path": "evidence/turn47search3.txt",
+          "sha256": "38c87e1609a3f2831f38e0825a911afd29f34bc9cafaaeb19cc78a6c7895aae8",
+          "line_ranges_present": []
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    }
+  ],
+  "temperament_search": "Targeted public author/institutional pages, media/interview or public discussion/review discovery. Actual accessible and failed results are indexed; metadata is not personality evidence.",
+  "gap_rule": "UNKNOWN is retained where the accessed material is inadequate. Full/excerpt refers to the contribution or main text, not all navigation, references, linked content or rendered equations."
+}

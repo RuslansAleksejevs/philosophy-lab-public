@@ -1,0 +1,80 @@
+{
+  "schema": "verification-capture-closure-plan.v1",
+  "run_id": "deep-verification-20261031",
+  "session_id": "01a190b5-03e2-70d0-8fcf-b4a1e67148d0",
+  "source": {
+    "source_line": 7649,
+    "sha256": "ad062e6cbd6e926a48626dd17c42a33333a781180728d1dcecfb6fd63535291b"
+  },
+  "artifacts": {
+    "source_ledger": {
+      "path": "runs/deep-verification-20261031/coordinator-synthesis/SOURCE_LEDGER.json",
+      "sha256": "c4ea6edfb501796ea9f570bb4f636b3dfa11204c4bf977a05aecb24b7dcceea9",
+      "bytes": 199784
+    },
+    "contribution_matrix": {
+      "path": "runs/deep-verification-20261031/coordinator-synthesis/CONTRIBUTION_MATRIX.json",
+      "sha256": "cc6a4e07af1a63b9005cc5a35f78e52a9129a37e2f8e341a651116785c7f7aeb",
+      "bytes": 27720
+    },
+    "decision": {
+      "path": "runs/deep-verification-20261031/coordinator-synthesis/DECISION.json",
+      "sha256": "05052543bc6883831568f9e89d1642b1d0fb493ee20e00c168b987b4c9303756",
+      "bytes": 2195
+    },
+    "cards": {
+      "path": "runs/deep-verification-20261031/coordinator-synthesis/FIVE_CARDS.json",
+      "sha256": "969c921990af4efb659a0dacbb05bc0aaaa3567f6e6bea5419b38dcfe1ddf899",
+      "bytes": 8079
+    },
+    "checkpoint_summary": {
+      "path": "runs/deep-verification-20261031/coordinator-synthesis/CHECKPOINT_SUMMARY.json",
+      "sha256": "ffbc2f628b4a92654b0a85585d2ea0c847d61f63799e6f550eed2d50b5a3d7a3",
+      "bytes": 3658
+    },
+    "protocol_note": {
+      "path": "runs/deep-verification-20261031/closure-preparation/PROTOCOL_NOTE.md",
+      "sha256": "02a255718419a12f47584a84d32f00b26ca4095a2ffcacb132eb49e53df115c6",
+      "bytes": 3132
+    }
+  },
+  "implementation_files": [
+    {
+      "path": "runs/deep-verification-20261031/closure-preparation/closure.py",
+      "sha256": "fb9babe7b5964f593759349fddbfc6a209b7e3e47c3d72a5b7ba46b2cd3f374d",
+      "bytes": 26359
+    },
+    {
+      "path": "runs/deep-verification-20261031/closure-preparation/test_closure.py",
+      "sha256": "5f741dede117ad70b82a321c8b7fc59b4b0b54ff93fc16dd9522895ffb68295b",
+      "bytes": 17998
+    },
+    {
+      "path": "runs/deep-verification-20261031/closure-preparation/PROTOCOL_NOTE.md",
+      "sha256": "02a255718419a12f47584a84d32f00b26ca4095a2ffcacb132eb49e53df115c6",
+      "bytes": 3132
+    }
+  ],
+  "driver_files": [
+    {
+      "path": "runs/deep-verification-20261031/closure-capture-preparation/README.md",
+      "sha256": "4cfbeb9faa5d7289e78d99f7db7496d3a33ab85ac50e183b5f50635adc2dcd0b",
+      "bytes": 3675
+    },
+    {
+      "path": "runs/deep-verification-20261031/closure-capture-preparation/capture_and_close.py",
+      "sha256": "a939fe85c3d1b886f6d6df1edc50736baedec706e0dea5fea84a10badca03eea",
+      "bytes": 17194
+    },
+    {
+      "path": "runs/deep-verification-20261031/closure-capture-preparation/test_capture_and_close.py",
+      "sha256": "e2cf4f1f3fe21dd40c052d0a1a0addaf4efc1c4ba387cd3471161d19cac3b347",
+      "bytes": 14555
+    },
+    {
+      "path": "runs/deep-verification-20261031/closure-capture-preparation/CAPTURE_CONTRACT.json",
+      "sha256": "22e56622e4ed66d48cc7a012d7ed2559b6809d34118b8e51a2c4ecd444dea94d",
+      "bytes": 1299
+    }
+  ]
+}

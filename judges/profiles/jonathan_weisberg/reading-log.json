@@ -1,0 +1,138 @@
+{
+  "schema": "judge-reading-log-v1",
+  "judge_id": "jonathan_weisberg",
+  "access_date": "2026-10-07",
+  "retrieval_form": "Web-tool source fragments; originals retained verbatim, including errors and extraction defects. Not raw HTTP or original PDF files.",
+  "readings": [
+    {
+      "source_id": "I1",
+      "coverage": "metadata",
+      "read_locations": "Identity and publication links.",
+      "artifacts": [
+        {
+          "path": "evidence/turn9view0.txt",
+          "sha256": "eecfbff96b02ae6f3b0fe51d7b0e34a67e4915d1932f1d5847bc6a86b57990bb",
+          "line_ranges_present": [
+            [
+              0,
+              54
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S1",
+      "coverage": "substantial_excerpt",
+      "read_locations": "PDF pp1–5, extracted lines0–175 with overlap;18pages total. Opening argument read, not all technical analyses.",
+      "artifacts": [
+        {
+          "path": "evidence/turn30view3.txt",
+          "sha256": "43af0e37092f75b550700e2e06d11adcb0cc2848ebe3ebefe46db63c3745dfcd",
+          "line_ranges_present": [
+            [
+              0,
+              83
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn38view4.txt",
+          "sha256": "658abae995e4aeb88bd6b3d889277a80f0029661d71228670c9d69051aa1bc25",
+          "line_ranges_present": [
+            [
+              65,
+              175
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S2",
+      "coverage": "substantial_excerpt",
+      "read_locations": "PDF pp1–4, extracted lines0–129;39pages total. Thesis and conceptual framing read, not the later empirical survey.",
+      "artifacts": [
+        {
+          "path": "evidence/turn30view4.txt",
+          "sha256": "d97fb13a44497978a0c50ad32ca074e6d38eb1f8fe598371a2d83a2f510ff349",
+          "line_ranges_present": [
+            [
+              0,
+              60
+            ]
+          ]
+        },
+        {
+          "path": "evidence/turn38view3.txt",
+          "sha256": "f6e98a00492b237061c493cfbf5eeb77085fc96b07aa897ce4a3a01c90c7ad6b",
+          "line_ranges_present": [
+            [
+              61,
+              129
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S3",
+      "coverage": "full_main_text",
+      "read_locations": "Short authored blog body and displayed discussion/code links, extracted lines0–55. Linked code was not run.",
+      "artifacts": [
+        {
+          "path": "evidence/turn66view1.txt",
+          "sha256": "1613aee8123928851a3f92e051bc0d7f2de7d2436b2171bdfeeef9f3da12ceb1",
+          "line_ranges_present": [
+            [
+              0,
+              55
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "S4",
+      "coverage": "full_main_text",
+      "read_locations": "Eight-page PDF, extracted lines0–250 read after predictions were saved. Some mathematical typography is garbled by extraction.",
+      "artifacts": [
+        {
+          "path": "evidence/turn71view0.txt",
+          "sha256": "9ac12dea6c77257d9114494b98b9192026524aaca5f35749538c7dae6b5d189e",
+          "line_ranges_present": [
+            [
+              0,
+              250
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    },
+    {
+      "source_id": "F1",
+      "coverage": "unavailable",
+      "read_locations": "Failed route; homepage supplied sources.",
+      "artifacts": [
+        {
+          "path": "evidence/turn7view1.txt",
+          "sha256": "be83deb79d434923b94cd1f78f9596510053cb78a2f7af489d652b65381491c4",
+          "line_ranges_present": [
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      ],
+      "interpretation_limit": "Only actual source excerpts displayed and examined support the profile; source-wide line numbers do not imply the whole original was read."
+    }
+  ],
+  "temperament_search": "Targeted public author/institutional pages, media/interview or public discussion/review discovery. Actual accessible and failed results are indexed; metadata is not personality evidence.",
+  "gap_rule": "UNKNOWN is retained where the accessed material is inadequate. Full/excerpt refers to the contribution or main text, not all navigation, references, linked content or rendered equations."
+}

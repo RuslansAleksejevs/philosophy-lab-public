@@ -1,0 +1,23 @@
+{
+  "batch_id": "007-expanded",
+  "roles": [
+    {
+      "candidate": "F02",
+      "role": "author-repair",
+      "parent_entry": "final-preselection-20261017:F02:review-initial:v1"
+    },
+    {
+      "candidate": "F01",
+      "role": "review-final",
+      "parent_entry": "final-preselection-20261017:F01:author-repair:v1"
+    }
+  ],
+  "prepared_packets": [
+    {
+      "candidate": "F02",
+      "role": "review-final",
+      "parent_entry": "final-preselection-20261017:F02:author-repair:v1"
+    }
+  ],
+  "supersedes_unlaunched_plan": "007.plan.json"
+}

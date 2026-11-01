@@ -1,0 +1,178 @@
+{
+  "audit_id": "V10-A",
+  "manuscript_id": "V10",
+  "role": "argument",
+  "manuscript_sha256": "9c603c5c4fe9f87491e10904f712cab244557550177ee0bb17faba5474f7590b",
+  "read_complete": true,
+  "thesis": "When a practice claims additional evidence of reliability from participant outcomes, continued assent cannot supply the entire justification for excluding otherwise relevant dissenting histories. Exclusions must fit the particular claim and have adequate support beyond the agreement they produce. This restriction can coexist with legitimate requirements of trust, training, and commitment.",
+  "claimed_contribution": "The manuscript applies an explicitly acknowledged selection problem to practices in which participation may be necessary for understanding. Its specific contribution is a claim-relative distinction among entering training, completing training, currently exercising a capacity, and acquiring stable understanding. It also distinguishes retaining a participant's history from accepting the accuracy or interpretation of her testimony, and explains why uncertain eligibility neither establishes a counterexample nor establishes justified exclusion.",
+  "assessment": "NO_MAJOR_DEFECT_FOUND",
+  "findings": [],
+  "surviving_contribution": "The central result survives the objections examined: agreement guaranteed by selection cannot provide additional confirmation merely through being agreement. Section 2, “Two communities and one missing witness,” expressly limits the target to “the bare unanimity statistic conditional on selection for affirmation,” while preserving the possible value of participant counts and report contents. Sections 3–4 extend this into a defensible necessary constraint on exclusions: their grounds must concern the relevant capacity, apply to the particular person, and support the amount of discount imposed. This does not establish that religious practices are unreliable, that dissenters are generally right, or that inclusive records establish truth. The Vipassana discussion illustrates unresolved classification; it does not document an institution manufacturing a success record. No demonstrated material internal defect was found in this limited argument, so the findings array is empty.",
+  "remaining_questions": [
+    "Section 4, “What must be retained?” permits a criterion with “support other than the very filtered convergence now offered as its vindication.” In difficult applications, how much support is sufficient when the criterion and the practice's reliability depend on overlapping background commitments? The manuscript supplies relevance, applicability, and proportionality requirements, but no complete account of evidential sufficiency. This limits application rather than defeating the selection argument.",
+    "Section 5, “A departure with a real qualification problem,” acknowledges that “whether the willingness condition requires a sustained attempt is a legitimate interpretive question.” Does the manageability undertaking concern initial eligibility, continuing willingness, or a counterfactual ability to complete if willingness persists? This must be settled before classifying departures as failures of the undertaking.",
+    "Section 3, “Which claim, which participants?” mentions the broader claim that “training yields stable understanding.” What duration and kind of stability would a particular practice actually promise? Later dissent cannot be assigned a definite evidential role against that claim until the promised achievement is specified."
+  ],
+  "limitations": [
+    "The complete supplied manuscript, including its bibliography, was read. No tools, agents, outside manuscripts, or external sources were used. The supplied manuscript hash was accepted as an identifier and was not recomputed.",
+    "The linked sources were not accessed. Their wording, context, bibliographic details, and support for the manuscript's interpretations remain unverified. Source-dependent questions are listed separately.",
+    "The participant narrative supplies no independently verified medical, attendance, accommodation, or institutional assessment record. The manuscript itself acknowledges these limitations and the unverified continuity between current policy wording and the 2024 course.",
+    "The formal checks were performed manually. They establish logical relations within stipulated models, not empirical reliability, causal effects of participation, or the truth of religious experiences.",
+    "This audit assesses the manuscript's argument. It makes no finding about historical originality or the prevalence of the criticised evidential practice."
+  ],
+  "plain_summary_ru": [
+    "Единодушие людей, отобранных за согласие, само по себе не подтверждает надёжность практики.",
+    "Серьёзной ошибки в этом ограниченном выводе я не нашёл.",
+    "Пример с курсом медитации остаётся неоднозначным, а цитируемые источники здесь не проверены."
+  ],
+  "argument_reconstruction": [
+    {
+      "step": "R1",
+      "kind": "Definition and scope restriction",
+      "content": "Vindication means acquiring a further reason to regard a practice as a reliable route to its promised understanding. It is distinct from permission to participate, immediate experiential warrant, and justification for maintaining a commitment.",
+      "support_or_dependency": "Introduction, “When Only Believers Count”: “vindicating a practice means gaining a further reason to regard it as a reliable route to the understanding it promises.” This definition fixes the target of the subsequent criticism."
+    },
+    {
+      "step": "R2",
+      "kind": "Granted possibility about access",
+      "content": "Some understanding may require participation, trust, or acquired habits of attention. The argument grants this possibility rather than proving that any particular religious practice has such an access requirement.",
+      "support_or_dependency": "Section 1, “Access is not vindication”: a participant “may need to acquire habits of attention.” James is invoked in support, but the attribution is unverified here. Granting the possibility gives the defender of participation the stronger starting position."
+    },
+    {
+      "step": "R3",
+      "kind": "Logical distinction",
+      "content": "The necessity or possible usefulness of participation does not establish that a participant acquired genuine understanding. Conversely, participation's causal role does not by itself discredit what was experienced.",
+      "support_or_dependency": "Section 1: “The first concerns opportunity” and “The second concerns learning”; “The first does not entail the second.” This follows from the difference between enabling a successful outcome and establishing that it occurred."
+    },
+    {
+      "step": "R4",
+      "kind": "Epistemic normative premise",
+      "content": "A record offered as additional evidence must be assessed in light of how its membership was determined. A feature guaranteed by the selection rule cannot provide fresh confirmation merely through exhibiting that feature.",
+      "support_or_dependency": "Section 2, “Two communities and one missing witness”: “The strength of that agreement cannot be assessed as though disagreement had been allowed to appear in the group being counted.” The numerical example supports the narrow application of this premise."
+    },
+    {
+      "step": "R5",
+      "kind": "Stipulated example",
+      "content": "One hundred equally prepared entrants produce either eighty affirmations and twenty rejections or twenty affirmations and eighty rejections. Certifying only affirmers produces unanimity in both cases.",
+      "support_or_dependency": "Section 2 explicitly calls the numbers “a stipulated illustration, not data about religion.” Equal preparation does not establish equal final competence; the example isolates selection for affirmation."
+    },
+    {
+      "step": "R6",
+      "kind": "Demonstrated result within the example",
+      "content": "The selected unanimity statistic does not distinguish the two underlying outcomes. This does not erase information supplied by the original cohort, the number selected, or the contents and evidential relations of reports.",
+      "support_or_dependency": "Section 2: “The reported unanimity therefore fails to distinguish these very different outcomes”; “The content and evidential relations of their reports can matter as well.” The arithmetic and conditional evidential claim are checked below."
+    },
+    {
+      "step": "R7",
+      "kind": "Distinction among target claims",
+      "content": "Success among completers, prospects for entrants, current exercise of a capacity, and durable understanding are different claims. A participant can be irrelevant to one comparison while remaining relevant to another.",
+      "support_or_dependency": "Section 3, “Which claim, which participants?” distinguishes “The discipline succeeds when completed” from “starting the discipline is a dependable route to success,” and separately considers current exercise and stable understanding."
+    },
+    {
+      "step": "R8",
+      "kind": "Inferential consequence",
+      "content": "Evidence restricted to successful completers does not by itself establish the prospects of starting. Moving between those claims requires information or justified assumptions about completion and any success attainable without completion.",
+      "support_or_dependency": "Section 3: evidence for completion success contributes to an entry claim “only alongside information or justified assumptions about completion.” Section 4 also allows that “a capacity might manifest itself before the usual training ends.”"
+    },
+    {
+      "step": "R9",
+      "kind": "Epistemic normative principle",
+      "content": "Relevant histories should be retained or excluded for adequate, claim-specific reasons. A discount requires support that concerns the relevant condition, applies to the person, and warrants the extent of the discount. Uncertain qualification must remain uncertain.",
+      "support_or_dependency": "Section 3 requires reasons “supported otherwise than entirely by the agreement that exclusion produces.” Section 4, “What must be retained?” adds that “the resulting discount must not exceed what the reason supports.” This is a necessary constraint, not a complete theory of competence."
+    },
+    {
+      "step": "R10",
+      "kind": "Distinction concerning testimony",
+      "content": "Recognising that participation occurred does not establish that every retrospective report is accurate or that the former participant's interpretation is correct. Criticism of testimony and unequal evidential weights remain permissible.",
+      "support_or_dependency": "Section 4 separates undergoing participation, accurately reporting it, and correctly interpreting it. Its conclusion is “historical inclusion for appropriate purposes, not a general privilege as interpreters.”"
+    },
+    {
+      "step": "R11",
+      "kind": "Unverified empirical illustration and conditional analysis",
+      "content": "The reported day-five departure cannot establish what full training yields. For the separate manageability undertaking, injury may bear on eligibility, while departure may reflect inability or voluntary choice. The available narrative settles neither failure nor disqualification.",
+      "support_or_dependency": "Section 5: “This account does not establish a failure of the manageability undertaking. It also does not establish that the participant was outside its scope.” The policy and narrative premises require external checking; the conditional distinctions can be assessed internally."
+    },
+    {
+      "step": "R12",
+      "kind": "Replies to potential defeaters and final inference",
+      "content": "Commitment, transformed competence, and direct experiential warrant can justify attitudes or actions without validating a separate inference from filtered agreement. Therefore legitimate access requirements do not automatically justify assent-based exclusions from a retrospective record.",
+      "support_or_dependency": "Section 7, “Transformation and direct encounter”: “The possible sufficiency of one ground does not validate another defective ground.” Section 8, “What faith may ask of a witness”: “None of these facts alone licenses an evidential policy on which only continued assent can certify that the process occurred.” This conclusion depends on R4–R10 and is compatible with the possibilities granted in R2."
+    }
+  ],
+  "strongest_objections": [
+    {
+      "objection": "Continued assent might genuinely be necessary for possessing or exercising the relevant capacity. Excluding dissenters could then track competence rather than manufacture it.",
+      "best_available_reply": "The manuscript permits this possibility. It distinguishes current exercise from past participation and allows exclusions supported by reasons other than the filtered agreement. What it rejects is using the agreement of those selected for assent as the entire support for the rule that only assent demonstrates competence.",
+      "assessment": "This objection defeats an unconditional requirement to count every dissenter as a competent current assessor, but the manuscript does not impose that requirement. The remaining substantive issue is whether a particular assent-linked criterion has adequate support.",
+      "manuscript_location": "Section 3, “Which claim, which participants?”: “Someone who completed the training but stopped exercising the capacity may not be a counterexample”; Section 7, “Transformation and direct encounter”: “Loss of current access and irrelevance of a past trajectory are distinct.”"
+    },
+    {
+      "objection": "Some epistemic dependence on a practice's own standards may be unavoidable. Requiring independent validation could covertly impose an external standard that the religious epistemologist reasonably rejects.",
+      "best_available_reply": "The required independence is local: the exclusion's warrant must not derive entirely from the very convergence it generates. The manuscript explicitly permits internal criteria and disputed background commitments.",
+      "assessment": "The objection does not reach the deterministic unanimity argument. It does identify an unresolved issue for mixed cases: local independence alone does not establish sufficient warrant. The manuscript recognises this by adding relevance, individual applicability, and proportionality requirements, but does not provide a general theory resolving every disputed case.",
+      "manuscript_location": "Section 4, “What must be retained?”: “The principle requires no universal, religiously neutral examination of competence”; “Mixed cases require more than finding some reason independent of agreement.”"
+    },
+    {
+      "objection": "Reports from a selected group can still confirm a practice. Their number, existence, specificity, or unexpected shared details may be more likely if the practice is reliable.",
+      "best_available_reply": "The manuscript expressly preserves those evidential routes. Its zero-additional-support claim concerns the guaranteed unanimity statistic alone, with the selection mechanism understood.",
+      "assessment": "The reply succeeds within that restriction. Treating all testimony from assent-selected witnesses as worthless would exceed the result. The manuscript does not make that stronger claim.",
+      "manuscript_location": "Section 2, “Two communities and one missing witness”: “The target here is the bare unanimity statistic conditional on selection for affirmation”; “They may contain valuable individual evidence.”"
+    },
+    {
+      "objection": "Departures may reflect poor health, incomplete training, changed preferences, or unwillingness to continue. Their inclusion could misleadingly suggest that dissent or attrition refutes the practice.",
+      "best_available_reply": "The relevant outcome depends on the undertaking. An incomplete trainee cannot straightforwardly challenge a completion claim; a voluntary departure need not challenge manageability. Inclusion preserves the case for assessment without determining its weight or classification.",
+      "assessment": "The manuscript avoids equating departure with failure. Its Vipassana application therefore supports only an unresolved classification, not a finding that the undertaking was false or that the institution improperly excluded a witness.",
+      "manuscript_location": "Section 5, “A departure with a real qualification problem”: “leaving is not identical to being unable to continue”; “not a finding that the organization actually excluded this testimony from a success count.”"
+    },
+    {
+      "objection": "Transformative learning may reveal standards unavailable to novices, while former practitioners may lose both their capacity and their ability to interpret earlier experiences accurately.",
+      "best_available_reply": "The manuscript allows revised standards, capacity loss, and retrospective error. It requires an explanation of how revised standards bear on the particular earlier promise, and it distinguishes preserving a history from endorsing its later interpretation.",
+      "assessment": "The objection would defeat a requirement that every criterion be fixed in advance or every former participant remain authoritative. Neither is required here. Whether a particular retrospective report deserves weight remains an empirical and epistemic question.",
+      "manuscript_location": "Section 7, “Transformation and direct encounter”: “The claim-relative principle allows transformation and revised criteria”; Section 4, “What must be retained?”: “Their trajectory cannot alone establish their present authority.”"
+    },
+    {
+      "objection": "Faith may rationally resist repeated investigation, and direct acquaintance may warrant belief without any argument from participant success. The proposed restriction could therefore be irrelevant to religious justification.",
+      "best_available_reply": "The manuscript concedes both routes. Its restriction applies only when someone additionally invokes participant outcomes to confirm the practice's reliability.",
+      "assessment": "This establishes a significant boundary rather than a defect. The argument cannot undermine religious warrant that does not depend on the disputed testimonial inference. The cited accounts of faith still require source verification.",
+      "manuscript_location": "Section 6, “Does the restriction undermine faith?”: “A person need not interview every former believer before praying again”; Section 7, “Transformation and direct encounter”: “For that person's immediate warrant, it might be.”"
+    }
+  ],
+  "formal_checks": [
+    {
+      "claim": "Section 1, “Access is not vindication”: “The first does not entail the second,” concerning opportunity through participation and subsequent successful learning.",
+      "method": "Let P mean participation and E mean obtaining the relevant successful encounter. Even granting that participation is necessary, E implies P does not entail P implies E. The assignment P=true and E=false is a countermodel to the latter inference.",
+      "result": "The distinction is valid. Participation can enable evidence without guaranteeing its arrival. This check does not establish whether any particular practice requires participation or whether an actual experience is veridical.",
+      "execution_boundary": "Independently checked by elementary logic, manually. The symbols are audit notation, not manuscript equations."
+    },
+    {
+      "claim": "Section 2, “Two communities and one missing witness”: selected unanimity “fails to distinguish these very different outcomes of the original inquiry.”",
+      "method": "In the stipulated example, certification selects affirmers. With eighty affirmers the selected proportion is 80/80=1; with twenty affirmers it is 20/20=1. More generally, if U denotes unanimity and R the known selection rule, then for any hypothesis H compatible with a nonempty selected group, P(U | H, R, nonempty)=1.",
+      "result": "The arithmetic is correct. Comparing two such hypotheses gives a likelihood ratio of 1 for U alone. The observation that a selected group exists, its size, and its members' substantive reports can still carry information. If no one affirms, the unanimity proportion is undefined; the manuscript's two examples avoid that boundary.",
+      "execution_boundary": "The fractions and conditional argument were independently checked manually. No empirical likelihoods, simulations, or real participant data were used."
+    },
+    {
+      "claim": "Section 3, “Which claim, which participants?”: “Success among completers alone does not answer the prospective entrant's question.”",
+      "method": "Let B mean entering, C completing, and S attaining the promised success. Where the conditionals are defined, P(S | B)=P(S | C,B)P(C | B)+P(S | not C,B)P(not C | B). Thus the success rate among completers leaves completion and noncompletion outcomes unspecified.",
+      "result": "The inference gap is real. For example, stipulating success for every completer and no success without completion yields entrant success of 0.1 when completion is 0.1 and 0.9 when completion is 0.9. Both cases have identical success among completers. The general equation also permits the early success expressly allowed in Section 4. Here S represents the promised achievement, not merely an affirmative report.",
+      "execution_boundary": "The identity and illustrative arithmetic were independently checked manually. The numbers are audit countermodels, not manuscript data or estimates about religion."
+    },
+    {
+      "claim": "Section 5, “A departure with a real qualification problem”: “A possible independent explanation can block a decisive objection without becoming a demonstrated explanation.”",
+      "method": "Distinguish antecedent eligibility, ability to undergo the course, and actual completion. An injury does not logically establish ineligibility without a relevant threshold and facts about its severity. Noncompletion does not logically establish inability because voluntary departure remains possible.",
+      "result": "The reported injury and departure underdetermine the proposed classifications. They are compatible with ineligibility, eligible voluntary departure, or an eligible participant encountering a genuine manageability problem, subject to the undertaking's precise meaning. This establishes lack of entailment, not equal probability or equal evidential weight among the possibilities.",
+      "execution_boundary": "The logical compatibility check was performed manually using the manuscript's stated distinctions. Medical facts, policy interpretation, historical applicability, and the participant's actual reasons were not independently checked."
+    }
+  ],
+  "source_dependent_questions": [
+    "James 1896/1897, “The Will to Believe,” IX–X: Does the primary text support Section 1's interpretation that prior confidence may enable religious discovery while offering permission to risk rather than assurance of success? The scope and conditions of that permission remain unchecked.",
+    "Alston 1994, “Précis of Perceiving God,” pp. 865–866: Does the précis support Section 1's distinction between rational continuation of a practice and additional support from its results, including the claimed doctrinal and spiritual-development checks? No conclusion about the full book can be drawn from the manuscript's citation alone.",
+    "Nguyen, “Echo Chambers and Epistemic Bubbles,” cited author manuscript pp. 2–3 and 7–8: Does the diet-network example establish the specific guaranteed-agreement problem attributed to it in Section 3? The attribution and locators were not verified; the manuscript's stipulated example can be assessed independently.",
+    "Kent, “The History of Credibility Attacks Against Former Cult Members,” conclusion, pp. 15–16: Does the conclusion support checking former members' accounts against other evidence while allowing deception, as Section 4 states? The applicability and accuracy of this attribution remain unverified.",
+    "Dhamma.org, “Code of Discipline,” the sections on self-discipline and acceptance of the technique: Are full attendance and adherence to the technique specified as Section 5 reports, and what exactly do those requirements establish about completion or competence?",
+    "Dhamma.org, FAQ, the questions concerning capability, sitting, and physical conditions: What is the exact wording and scope of the manageability undertaking, including reasonable health, willingness, ability to follow instructions, and chairs? Does it concern initial or sustained conditions? These details could change the application while leaving the abstract selection argument intact.",
+    "Hovhannisyan 2024, “I Left Vipassana on Day Five,” opening account, day four, and departure: Does the narrative support each reported detail about injury, effort, exercise difficulty, distrust, and departure? Does it contain additional context that would alter the eligibility or manageability analysis? Its own account would still not constitute independent medical or institutional corroboration.",
+    "Buchak 2012, “Can it be Rational to Have Faith?”, III–IV, VI, VIII: Does the account support Section 6's distinction between commitment to action, information gathering, and confidence, including the stated costs of delay? The source-dependent interpretation has not been checked.",
+    "Buchak 2017, “Faith and Steadfastness in the Face of Counter-Evidence,” author manuscript §§4–5 and §7: Does the text allow ordinary credence updating, acknowledge possible epistemic superiority of the later perspective, and permit breaking commitment under sufficiently decisive evidence, while connecting faith with belief as Section 6 states? The precise qualifications remain unverified."
+  ]
+}

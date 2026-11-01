@@ -1,0 +1,101 @@
+{
+  "checks": {
+    "current_pid": true,
+    "completed_running_poll": true,
+    "fresh_launch_boundary": true,
+    "compatibility_inactive": true,
+    "no_source_errors": true,
+    "inventory_count": true,
+    "all_reported_cursors_current": true,
+    "required_sessions_caught_up": true,
+    "view_schema_and_inventory": true,
+    "view_snapshot_head": true,
+    "required_view_files_present": true,
+    "snapshot_stable_during_probe": true,
+    "published_after_start": true,
+    "no_later_canonical_writer": true
+  },
+  "source_errors": [],
+  "cursor_mismatch_sessions": [],
+  "reported_sessions": 3701,
+  "ordinary_sessions": 3378,
+  "internal_excluded_sessions": 323,
+  "gap_counts": [
+    {
+      "reason": "attachment_body_not_captured",
+      "surface": "unspecified",
+      "count": 5
+    },
+    {
+      "reason": "original_mixed_record_not_retained",
+      "surface": "unspecified",
+      "count": 5
+    },
+    {
+      "reason": "oversized_record_not_retained",
+      "surface": "unspecified",
+      "count": 2
+    },
+    {
+      "reason": "unknown_event_message_type",
+      "surface": "text_or_unknown",
+      "count": 2
+    },
+    {
+      "reason": "unknown_payload_fields",
+      "surface": "tools",
+      "count": 968
+    },
+    {
+      "reason": "unknown_record_metadata",
+      "surface": "text_or_unknown",
+      "count": 80
+    },
+    {
+      "reason": "unknown_record_metadata",
+      "surface": "tools",
+      "count": 77
+    },
+    {
+      "reason": "unknown_response_item_type",
+      "surface": "text_or_unknown",
+      "count": 27
+    }
+  ],
+  "gap_total": 1166,
+  "pending_tool_records": 90704,
+  "coverage_healthy": false,
+  "view_sessions": 3407,
+  "view_gap_count": 1,
+  "next_poll_delay_seconds": 3600,
+  "missing_view_files": [],
+  "status": "PASS_SERVICE_RECOVERY_BOUNDED",
+  "pid": 43236,
+  "observed_at": "2026-11-01T00:18:48.433652+00:00",
+  "started_after": "2026-10-31T21:48:13.676174+00:00",
+  "completed_poll_observed": true,
+  "signature": "f369e9f62c02def03101e90372e44dd2ae5bfc00e9b7d55324f0a0e426d9755d",
+  "collector_version": {
+    "event_id": "collector-e971d18e557d04c8f45ef3eb1e178d06",
+    "sequence": 601239,
+    "sha256": "15d031a780baead93490fd2eaf780d6581b0388dbae0b6b96f8a81ac4b0596c6"
+  },
+  "archive_snapshot": {
+    "sequence": 728142,
+    "sha256": "e9b2363fb5b5a6b16055e3b06baef3ea48133a8165ea71d02cb6c5d76c5831cd"
+  },
+  "last_attempt_at": "2026-10-31T22:00:59.202163+00:00",
+  "checked_at_before_render": "2026-10-31T23:01:46.248370+00:00",
+  "elapsed_seconds": 8194.284679,
+  "evidence_hashes": {
+    "status": "1eb23488d7f2f0271d602ae9b71dee4b32858a3a296618e8c29840a8192294b8",
+    "cursor_cache": "e77a348c5e44a4a11188565a2b445e61235e1832fadb4cc0c70e78d21c8eb61b",
+    "chat_index": "6e8c2b226c75983f64b6f6456f1d40ffbd516c74e0dacd55e50d85c643ea4810",
+    "contract": "bfb1069846c94bc1755b90cf5fe5a305f5767a388c6a4c43d88524310ace0443",
+    "launch_agent": "915ca88094c0d291d9244448f0a989ddbed6dced11d8eef3912821b745305e43"
+  },
+  "service_actions": 0,
+  "canonical_writes": 0,
+  "source_bodies_read": 0,
+  "boundary": "One completed observed poll under pinned production code. Runtime cursors are derived reports, not a second canonical audit. Historical gaps/pending tools remain; no second-poll or whole-provider claim."
+}

@@ -1,0 +1,184 @@
+{
+  "job_id": "E012-critic",
+  "essay_id": "E012",
+  "scientific_role": "critic",
+  "manuscript_sha256": "eef951ccf27bd3b504497ed02b0e29ca4df7fe53ced4be3343a4dd694b69f0ce",
+  "read_original_complete": true,
+  "read_revision_complete": true,
+  "decision": "MINOR_FIXES",
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "minor",
+      "location": "Introduction, second paragraph, first sentence",
+      "issue": "The payment sentence introduces ambiguity about who destroyed Mara’s opportunity.",
+      "evidence": "‘The fund pays Mara for destroying her opportunity’ can conventionally mean that Mara receives payment for something she did. The preceding paragraph and the original clearly assign destruction to the fund.",
+      "necessary_correction": "Replace ‘pays Mara for destroying’ with ‘compensates Mara for the destruction of’. This removes the agency ambiguity without changing the argument."
+    }
+  ],
+  "change_checks": [
+    {
+      "location": "Original §§2–3; revision §§2–4",
+      "what_changed": "The protected undertaking and contrasting cases now precede most literature discussion.",
+      "assessment": "Substantial readability improvement.",
+      "reason": "Readers encounter the concrete problem before its theoretical foundation. The independent basis for protecting later uses remains explicit."
+    },
+    {
+      "location": "Revision §3",
+      "what_changed": "The positive and negative cases receive separate descriptive subheadings.",
+      "assessment": "Argument preserved and easier to follow.",
+      "reason": "The relevant comparison remains whether preservation would have reduced correction difficulties, rather than whether the fund caused the receiving office’s error."
+    },
+    {
+      "location": "Revision §5",
+      "what_changed": "Communication duties and the finality objection are brought together; procedural force receives a plain explanation.",
+      "assessment": "Faithful clarification.",
+      "reason": "Historical evidence, remedial entitlement, and legitimately binding procedural effects remain distinct. Independent testimony and continuing inquiry remain possible."
+    },
+    {
+      "location": "Revision §7",
+      "what_changed": "Responsibility, competing claims, settlement, third-party rights, and endpoints are grouped together.",
+      "assessment": "Improved organization without material loss.",
+      "reason": "The revision retains additional-cost limits, the innocent-loss comparison, no double recovery, institutional continuity, proportionality, and claimant agency."
+    },
+    {
+      "location": "Revision §6",
+      "what_changed": "The numerical illustration is displayed separately, and the audience test follows the discussion of inference.",
+      "assessment": "Correct and clearer.",
+      "reason": "0.90 × 0.90 + 0.10 × 0.40 = 0.81 + 0.04 = 0.85. Conditioning on the evidential-loss category gives 0.40 under the stipulated information. The example remains explicitly artificial."
+    },
+    {
+      "location": "Proposed abstract",
+      "what_changed": "The argument is summarized through the undertaking, contrasting cases, and limits.",
+      "assessment": "Accurate and readable.",
+      "reason": "It preserves the conditional reparative basis, distinguishes the three uses of decisions, and avoids presenting legal analogies as a general post-closure legal duty."
+    },
+    {
+      "location": "Proposed TLDR",
+      "what_changed": "The central claim is expressed in one sentence.",
+      "assessment": "Accurate and appropriately qualified.",
+      "reason": "‘May’, ‘proportionate’, and the continuing impairment of a promised defence preserve the argument’s essential restrictions."
+    }
+  ],
+  "preservation_checks": [
+    {
+      "aspect": "Premises and causal reasoning",
+      "assessment": "Preserved.",
+      "reason": "The five-year reasonable-care undertaking independently protects later official challenges. The positive case establishes a lost defensive route; the negative case expressly holds correction steps, costs, and prospects unchanged."
+    },
+    {
+      "aspect": "Uncertainty about missing evidence",
+      "assessment": "Preserved.",
+      "reason": "The helpful photographs are explicitly stipulated. Actual claims require support for likely relevance; a genuine lost opportunity can suffice without certainty, while merely imaginable benefits cannot."
+    },
+    {
+      "aspect": "Objections and epistemic limits",
+      "assessment": "Preserved.",
+      "reason": "Finality, warranted inference from awards, probative destruction, privacy, independent knowledge, and third-party risks all remain. Repair neither creates historical truth nor requires universal suspension of judgment."
+    },
+    {
+      "aspect": "Reparative scope",
+      "assessment": "Preserved.",
+      "reason": "The duty remains presumptive, proportionate, tied to protected uses and additional impairment, and compatible with another institution’s responsibility."
+    },
+    {
+      "aspect": "Appendices and proof dependencies",
+      "assessment": "Not applicable.",
+      "reason": "Neither manuscript contains an appendix or appendix-dependent claim. No proof relocation introduces circularity or an unsupported main-text conclusion."
+    },
+    {
+      "aspect": "Bibliography and contribution",
+      "assessment": "Preserved within the available evidence.",
+      "reason": "All eleven references remain, with unchanged bibliographic information and destinations. The revision presents an application of existing reparative principles rather than claiming a new general foundation or exhaustive novelty."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "Gardner 2011",
+      "status": "Supported by supplied primary passages.",
+      "locations_checked": "Revision §4 and references; typescript p. 40 and pp. 46–50.",
+      "note": "Continuing reasons, next-best satisfaction, purpose-sensitive substitutes, and consequential losses are accurately represented. The eprint pagination is explicit, and the particular undertaking’s scope is separately established."
+    },
+    {
+      "source_id": "Thompson 1998",
+      "status": "Supported by supplied primary passages.",
+      "locations_checked": "Revision §4 and references; majority §III and notes 1, 6–7.",
+      "note": "The revision correctly distinguishes permission to proceed from established liability or awarded damages, and retains the special-relationship, foreseeability, and policy grounds."
+    },
+    {
+      "source_id": "Rule 37, 2015 Advisory Committee Notes",
+      "status": "Supported by supplied primary passages.",
+      "locations_checked": "Revision §4 and references; supplied scope, replacement, proportionality, prejudice, and intent passages.",
+      "note": "The replacement discussion and distinctions between subdivisions (e)(1) and (e)(2) are accurate. The litigation context and analogical use are preserved."
+    },
+    {
+      "source_id": "Porat and Stein 1997",
+      "status": "Access limitation accurately retained.",
+      "locations_checked": "Revision §4 and references; supplied source-access notes.",
+      "note": "The manuscript expressly limits its comparison to the repository abstract. The abstract itself is not reproduced here, so its substantive attribution cannot be independently verified from primary text in this packet."
+    },
+    {
+      "source_id": "Friedman 1997",
+      "status": "Access limitation accurately retained.",
+      "locations_checked": "Revision §4 and references; supplied source-access notes.",
+      "note": "The manuscript expressly identifies the repository introduction and inaccessible full text. The supplied access notes are consistent with the restrained attribution."
+    },
+    {
+      "source_id": "Altanian 2024",
+      "status": "Preserved; primary-text verification unavailable.",
+      "locations_checked": "Original §2; revision §5 and references.",
+      "note": "The attribution and bibliographic details remain unchanged in substance. No supporting passage or source-specific access record is supplied."
+    },
+    {
+      "source_id": "Flowerree 2026",
+      "status": "Preserved; primary-text verification unavailable.",
+      "locations_checked": "Original §2; revision §5 and references.",
+      "note": "The attribution concerning uptake and reparative response is preserved. No supporting primary passage is supplied."
+    },
+    {
+      "source_id": "Nance 2010",
+      "status": "Preserved; primary-text verification unavailable.",
+      "locations_checked": "Original §§2 and 5; revision §5 and references.",
+      "note": "The distinctions concerning evidence management, merits, and procedural force remain, including the qualification that particular preclusion rules are not evaluated."
+    },
+    {
+      "source_id": "Nissenbaum 2019",
+      "status": "Preserved; primary-text verification unavailable.",
+      "locations_checked": "Original §4; revision §5 and references.",
+      "note": "The limited attribution concerning context and data transformations is unchanged. The packet does not provide the cited pages."
+    },
+    {
+      "source_id": "Ross 2023",
+      "status": "Preserved; primary-text verification unavailable.",
+      "locations_checked": "Original §5; revision §5 and references.",
+      "note": "The attribution concerning rational belief and ending ordinary inquiry is preserved. No cited primary passage is supplied."
+    },
+    {
+      "source_id": "Ross 2026",
+      "status": "Preserved; primary-text verification unavailable.",
+      "locations_checked": "Original §5; revision §5 and references.",
+      "note": "The attribution concerning defeasible institutional testimony and the bibliographic information are preserved. No cited primary passage is supplied."
+    }
+  ],
+  "language_assessment": {
+    "clearer_than_original": true,
+    "strengths": [
+      "Concrete cases now prepare readers for the theoretical discussion.",
+      "Descriptive headings make the central comparison and the limits easier to locate.",
+      "Procedural force and epistemic reparation receive useful plain-language explanations."
+    ],
+    "remaining_issues": [
+      "The opening payment sentence needs the bounded agency clarification identified in F1."
+    ],
+    "content_loss_found": false
+  },
+  "recommend_revision_over_original": true,
+  "limitations": [
+    "Assessment uses only the supplied materials. Source claims without supplied primary passages were checked for preservation and access honesty, not independently verified.",
+    "This is a bounded editorial and content-preservation judgment, not certification of truth, originality, empirical validity, or current legal authority."
+  ],
+  "plain_summary_ru": [
+    "Новая версия заметно понятнее. Основной довод, оговорки и ограничения сохранены; расчёт верен.",
+    "Нужна одна небольшая правка: фраза о выплате допускает прочтение, будто возможность доказать требование уничтожила сама Мара. Аннотация и TLDR точны."
+  ]
+}

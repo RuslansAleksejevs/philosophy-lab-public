@@ -1,0 +1,15 @@
+{
+  "judge_id": "cian_dorr",
+  "status": "NOT_TESTED",
+  "reason": "Newly reread Sider review was already used for historical calibration; treating it as new holdout would be invalid. Search-visible material about the other review also exposed its criticism.",
+  "historical": {
+    "status": "HISTORICAL_REPORTED_ONLY",
+    "source": "research/judges/20260912/profiles/cian_dorr-v1.md",
+    "reported_results": "D1 and D3 local support; D2 miss. Underlying old calibration file not reopened."
+  },
+  "limits": [
+    "No independent calibration",
+    "Possible pretraining exposure",
+    "No contest-vote validation"
+  ]
+}

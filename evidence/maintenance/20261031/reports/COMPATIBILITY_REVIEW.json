@@ -1,0 +1,36 @@
+{
+  "status": "BOUNDED_COMPATIBILITY_IMPLEMENTED_AND_TESTED",
+  "old_signature": "0abd26f67ef779ffd625bdaf3d331ed6c035b5f5cdc13d5f804df13b3dd5e43f",
+  "old_collector_sha256": "3f91e9359cd91a65389092847aa96a4aa9f710d63de45ce014be0a7b05bdf3d0",
+  "current_files": {
+    "scripts/collector.py": "c0ff12e7b10f7c7fe8f13da3c3d27cc1009b0e7a707073e2495856fea2fc755b",
+    "scripts/collector_views.py": "7244cf0cd8e3fec51cf46a60c43b0defd32d99ad31b04e5ff77294bd445e3a84",
+    "tests/test_collector_compatibility.py": "f23350f7eee0ac8ababbcb423e3ae39d0def81225cf1093642fcfa66537cc4da"
+  },
+  "manifest_path": "collector/capture-compatibility.json",
+  "manifest_created_by_this_agent": false,
+  "new_signature_includes_exact_manifest_bytes": true,
+  "old_signature_rebuilt_from_archive_objects_in_original_order": true,
+  "unchanged_sources_keep_original_cursor_events": true,
+  "new_tail_requires_old_prefix_verification": true,
+  "reconcile_and_changed_tool_reviews_still_reset": true,
+  "malformed_manifest_fails_closed": true,
+  "well_formed_incompatible_manifest_disables_alias": true,
+  "migration_record": "collector.capture_compatibility; once per exact old/new signature pair, references both version events and exact manifest hash",
+  "tests": [
+    {
+      "command": "python3 -B -m unittest discover -s tests -p 'test_collector*.py'",
+      "result": "PASS",
+      "count": 109,
+      "includes_new_compatibility_tests": 11
+    },
+    {
+      "command": "python3 -B -m unittest discover -s tests -p test_codex_rollout.py",
+      "result": "PASS",
+      "count": 26
+    }
+  ],
+  "live_collector_run": false,
+  "real_archive_modified_by_this_agent": false,
+  "boundary": "Synthetic behavior and code review only. Root constructs the manifest after checking final code hashes, then starts the service. This compatibility transition preserves historical incomplete capture and does not imply complete coverage."
+}

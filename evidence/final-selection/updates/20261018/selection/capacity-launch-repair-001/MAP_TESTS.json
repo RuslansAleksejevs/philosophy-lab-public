@@ -1,0 +1,55 @@
+{
+  "schema": "local-launch-repair-map-tests.v1",
+  "status": "PASS_SYNTHETIC_PREPARATION_ONLY",
+  "created_at": "2026-10-19T05:58:14.233475+00:00",
+  "tests_run": 5,
+  "tests": [
+    "test_M13_waits_for_actual_M12_map",
+    "test_changed_map_execution_file_blocks_dependent_resolution",
+    "test_extra_physical_attempt_cannot_be_hidden",
+    "test_full110_validator_then_finite_closure_with_timestamp_replay",
+    "test_sequential_maps_keep110_and_all3_failures"
+  ],
+  "failures": 0,
+  "errors": 0,
+  "elapsed_seconds_observed": 8.953,
+  "scope": "Temporary synthetic inputs, mocked CLI/native capture, MemoryArchive, real lineage/checkpoint helpers. Validates 108 ordinary + M12/003 + M13/002, all three preserved failed physical attempts, 110 unique reviews, sequential map gate, exact replay, finite closure and actual-event timestamp. Driver syntax and sequential orchestration reviewed; no actual models/archive/network/collector calls.",
+  "launch_core_files_unchanged": true,
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/archive_repair.py",
+      "sha256": "ac2a80a1a535096a089d15bacc6f3195c4165564f8d001f208f1bbf7c71094bb",
+      "bytes": 18749
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/resolver_map_repair.py",
+      "sha256": "ebeb9e8cef491c3b8838212e8c98969b224b5b96c315f7f8fd67f674090b200f",
+      "bytes": 10308
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/finish_replacements.py",
+      "sha256": "0566cffc87966ef6f0023e682e1226cca585c4eb28c3d8a0618aa1943126a1f0",
+      "bytes": 3360
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/test_map_repair.py",
+      "sha256": "9a66f6ac1dad77723aab86555a2b9e162489b710696bf07b3a44cfda662a499c",
+      "bytes": 9718
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/summary_repair_v3.py",
+      "sha256": "775b1ce366c89e97c41bc54a6f81ec9944c508ee134080c13f2479d7c6664d8c",
+      "bytes": 17838
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/validate_repair_v5.py",
+      "sha256": "8cc5e2a97099015803f8b7887d18870a9a689af3705b0c5ae2cfc7d79397ba24",
+      "bytes": 14973
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/closure_repair_v4.py",
+      "sha256": "5a59c69a4c7585e458625e899e3bfcb9faf8d1e83e7b7d47a406a75d8c18ff2f",
+      "bytes": 22108
+    }
+  ]
+}

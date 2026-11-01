@@ -1,0 +1,67 @@
+{
+  "status": "BOUNDED_SCOPE_CLARIFIED",
+  "native_generic_tool_pending": {
+    "count": 84799,
+    "unit": "native records within 3355 frozen prefixes",
+    "defined_types": [
+      "function_call",
+      "custom_tool_call",
+      "function_call_output",
+      "custom_tool_call_output"
+    ],
+    "per_type_histogram": "NOT_RETAINED_IN_FROZEN_RECOVERY_SUMMARY; not inferred from the smaller export",
+    "body_review_status": "Generic classification does not consult separate manual reviews."
+  },
+  "exact_exported_subset": {
+    "count": 1938,
+    "per_type": {
+      "custom_tool_call": 967,
+      "custom_tool_call_output": 951,
+      "function_call": 8,
+      "function_call_output": 12
+    },
+    "unit": "reviewed normalized tool fragments with exact original SID/line/record SHA"
+  },
+  "native_sensitive_exclusions": {
+    "count": 1145,
+    "unit": "native records excluded by the frozen source scan",
+    "part_of_84799_pending": false
+  },
+  "archived_tool_withheld": {
+    "count": 12,
+    "reason_counts": {
+      "credential_shape": 12
+    },
+    "unit": "previously archived tool fragments withheld by current export validation",
+    "population": "1950 archived Codex tool fragments:1938 eligible normalized fragments and12 withheld",
+    "is_total_native_sensitive_exclusions": false
+  },
+  "population_boundary": "The native1145 and archived12 are different audits/populations. Their overlap was not established here; do not add them or substitute one for the other. The residual82861 pending records are unverified exact export coverage, not a proven loss count.",
+  "why_complete_trace_not_certified": [
+    "The generic source scan leaves tool bodies pending without manual per-record approval. Tool requests/results may contain credentials, internal context, attachments, or unsupported data; a visible-text export is a narrower object.",
+    "Older Codex conversation/turn bundles retain visible messages and aggregate pending counters. The counters lack individual source identities and cannot prove tool-body export.",
+    "This audit hashes every bundle/member, walks non-body JSON metadata, and matches reviewed native identities. It does not semantically inspect text/Markdown/code strings for indirect copies, infer provider-wide retention, or enlarge any capture permission."
+  ],
+  "source_files": [
+    {
+      "path": "repository/logs/updates/20261031-complete-visible/provider-audit.json",
+      "bytes": 18970,
+      "sha256": "dbb406c6fb12d26c345d97734c8f26abc10c61cb9b6b908f5604834e6f58d0ab"
+    },
+    {
+      "path": "scripts/collector_source.py",
+      "bytes": 26248,
+      "sha256": "5ff57125ad09caf2d4d121cc15075ed5668bcf875016093808fa4a0a36bf1ffd"
+    },
+    {
+      "path": "scripts/capture_codex.py",
+      "bytes": 48221,
+      "sha256": "26c6d6781df7e9e02a4c4258c699e3fb798618e6b4815ff3431b23c31399f2c7"
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/log-audit/recovery/SUMMARY.json",
+      "bytes": 1737,
+      "sha256": "1707c7e5ef1c196c6a52255f0d44c452e4e93bfc33e2c98652385aa43575942f"
+    }
+  ]
+}

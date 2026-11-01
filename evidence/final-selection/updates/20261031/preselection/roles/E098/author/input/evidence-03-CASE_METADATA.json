@@ -1,0 +1,51 @@
+{
+  "status": "LOCAL_CASE_COMPLETE_PENDING_CANONICAL_CAPTURE",
+  "run_id": "postmidterm05-rescue-sol-20261014-v3",
+  "author_session_id": "01a1335c-7b04-7f12-916b-f9715f387344",
+  "model_reported": "gpt-6.1-sol",
+  "effort_reported": "high",
+  "speed": "Standard user-confirmed; backend unattested",
+  "boundary": "Limited primary passages; no novelty or admission certificate. Narrow opportunity/control distinction separated from unresolved attribution.",
+  "item_id": "E098",
+  "recorded_at": "2026-10-14T10:54:09.046085+00:00",
+  "recommendation": "CONDITIONAL_RETURN_TO_FUTURE_RESEARCH_POOL",
+  "wildcard": false,
+  "classification": [
+    "EXISTING_RECOGNIZED_NARROW_CONTROL_ARGUMENT",
+    "REPAIRABLE_CONTROL_ATTRIBUTION_CRITERION",
+    "ORIGINALITY_UNKNOWN"
+  ],
+  "missed_previously_unrecognized_contribution": false,
+  "serious_defect_confirmed": false,
+  "manuscript_edits": 0,
+  "canonical_case_event": null,
+  "review_events": [
+    "event-0cd1f084eecb48c98cf4c1596acaca3f",
+    "event-ed9d0a32bd7843ff8cbf58a2247075c1"
+  ],
+  "inputs": {
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/midterm-20261007/blind/E098.md": "2c031255a92853d4276e2599c637ce7a565ce1feb46da2c97393dc5bfe73d191",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/planning/HISTORICAL_BASELINE.json": "57d10bc5520a0aa997629267f412819e592fcbfe81c17274fb2f25eaf677c88a",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-archives-v3/j025-j033-v3/J025.json": "05d70cf9cd47e4e1aa9eb7ce15840713843d9cf09f432c8d6ffa8e1ca662bbba",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-archives-v3/j006-j012-v3/J009.json": "44d919eccdad47704d07c992ce6e5edea76e6eebafea2fddf961d8c01297f8ff",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J025/attempt-001/report.md": "2ca32e1fdf47da0357017ead143c89f14984b771cef736c2b2e294df76df0564",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J009/attempt-001/report.md": "5280724e8983cca5a7a7511cccea6863ef4a330bddb8d32d4dfa115647884ac4",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J025/attempt-001/sources/retrieved/web-return-000081.txt": "3b512a9b0621c8fab7fecf21f0961f8c48b7164a5d6e19c5dbc3b2e0ca83fb45",
+    "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J025/attempt-001/sources/retrieved/web-return-000088.txt": "b5a5758caedf324bccd9b402fe613ee24c8e0eb07505574b92c787426e9dd5f6"
+  },
+  "case_sha256": "ba01d99d28a44bf9d511c376c5fba39b90be4d86d7cb40c80ae73d3dc4ad1273",
+  "source_reading": [
+    {
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J025/attempt-001/sources/retrieved/web-return-000081.txt",
+      "sha256": "3b512a9b0621c8fab7fecf21f0961f8c48b7164a5d6e19c5dbc3b2e0ca83fb45",
+      "read_extent": "RELEVANT_PASSAGES_ONLY",
+      "details": "Hofmann L111–120 taxonomy; Mayr–Vetter§5 L196–218 modes, when, integration; bounded primary passages."
+    },
+    {
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/05-rescue/review-sol-v3/J025/attempt-001/sources/retrieved/web-return-000088.txt",
+      "sha256": "b5a5758caedf324bccd9b402fe613ee24c8e0eb07505574b92c787426e9dd5f6",
+      "read_extent": "RELEVANT_PASSAGES_ONLY",
+      "details": "Mayr–Vetter§5 L219–232 integrated meta-powers and implementation; Santoni–van den Hoven L239–250 responsibility/tracing. Truncated first display repaired by rereading L219–232."
+    }
+  ]
+}

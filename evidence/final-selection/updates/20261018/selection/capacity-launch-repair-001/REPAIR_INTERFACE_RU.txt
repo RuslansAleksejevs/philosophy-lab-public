@@ -1,0 +1,89 @@
+Техническая приёмка: 108 обычных /001 + M12-N2/003 + M13-N2/002.
+Старые две capacity-попытки001 и локальный сбой M12/002 сохраняются отдельно:
+3 неуспешные физические попытки, 2 незаполненных ранее слота, 110 отзывов всего.
+Ни один failed attempt не является отзывом. Состав, rubric и 60:40 неизменны.
+Все команды выполняет root из корня проекта. Этот файл ничего не запускает.
+
+1. После выхода M12/003 и при отсутствии другого dispatcher/writer:
+
+python3 -B runs/final-selection-20261018/capacity-launch-repair-001/finish_replacements.py \
+  --summary-output runs/final-selection-20261018/summaries/COMPLETE_REPAIR_V3
+
+Внешний вызов требует разрешённого sandbox_permissions=require_escalated.
+Один writer принимает M12, затем запускает M13, принимает его, пишет общую
+карту и механическую сводку. Любая ошибка останавливает цепочку; повторных
+provider-вызовов нет. Уже существующая попытка не запускается заново.
+Карты и execution_files связывают исходные frozen inputs, actual repair-ready,
+исходные failure events и fresh native sessions; M13 зависит от принятой карты M12.
+Итог: capacity-launch-repair-001/ACCEPTED_ATTEMPTS_RECEIPT.json со статусом
+CAPACITY_REPLACEMENTS_COMPLETE_ARCHIVED; mapping schema selection-capacity-map.v3.
+Per-job карты: <job>/ACCEPTED_ATTEMPTS.v3.json и ACCEPTED_ATTEMPTS_RECEIPT.json.
+Логические results/<job>/ARCHIVE_RECEIPT.json сохраняют original input_event_id.
+
+2. После actual group map root читает принятые отзывы и сам выбирает пары.
+Старый handoff остаётся историческим; использовать новый binder ниже.
+PAIR_PLAN содержит batch_id,pairs[{pair_id,candidate_ids:[id,id],rationale,
+profiles:[slug,slug],order_by_role:{N1:[id,id],N2:[id,id],N3:[id,id],
+J1:[id,id],J2:[id,id]}}]. До10 разных пар/50 отзывов суммарно по всем batches.
+Два разных frozen profile slug, A/B 3:2, J1/J2 противоположны. Rationale в
+worker packet не входит. Candidate IDs и факты задаёт root, примера решения нет.
+
+После задания настоящих путей PAIR_PLAN_PATH, PAIR_PREPARATION_PATH,
+PAIR_COORDINATOR_REPORT_PATH, PAIR_READY_SPEC_PATH:
+
+python3 -B runs/final-selection-20261018/pair-preparation/prepare_pairs.py \
+  --plan "${PAIR_PLAN_PATH:?Укажите настоящий план root}"
+
+python3 -B runs/final-selection-20261018/capacity-launch-repair-001/bind_pair_ready_repair.py \
+  --preparation "${PAIR_PREPARATION_PATH:?Укажите созданный PAIR_PREPARATION.json}" \
+  --coordinator-artifact "${PAIR_COORDINATOR_REPORT_PATH:?Укажите настоящий отчёт root}" \
+  --output "${PAIR_READY_SPEC_PATH:?Укажите новый путь spec внутри selection run}"
+
+Binder read-only проверяет actual v3 resolution, 110 logical receipts и original
+input event. Spec helper_inputs связывает новые code/tests и safe recovery files;
+check_events связывает actual aggregate event с общей map и двумя per-job receipt.
+Саму group receipt не объявляет output собственного события.
+
+python3 -B runs/github-selection-20261018/archive_pair_ready.py accept \
+  --spec "$PAIR_READY_SPEC_PATH"
+
+accept исполняет проверки до записей; отдельный check необязателен. Сначала
+закрыть прочие writers. Результат — НОВЫЕ pair-batches/<batch>/queue.json и
+START_RECEIPT.json, original queue/START неизменны. Потом frozen runner и
+archive_reviews получают одинаковые --queue pair-batches/<batch>/queue.json
+и --input-receipt pair-batches/<batch>/START_RECEIPT.json. Root выбирает ids/workers.
+При отсутствии пар root явно записывает EXPLICIT_NO_PAIRS; binder не нужен.
+
+3. Четыре downstream-потребителя используют явную карту:
+archive_repair.py + resolver_map_repair.py; summary_repair_v3.py;
+validate_repair_v5.py/closure_repair_v4.py; export_repair_v3.py.
+Frozen старые потребители, hard-coded на /001 или /002, для двух исключений
+не использовать. Обычные108 и pair jobs продолжают пользоваться /001.
+
+python3 -B runs/final-selection-20261018/capacity-launch-repair-001/closure_repair_v4.py \
+  --validator launch-repair-v5 \
+  --map-receipt runs/final-selection-20261018/capacity-launch-repair-001/ACCEPTED_ATTEMPTS_RECEIPT.json \
+  --request "${CLOSURE_REQUEST_PATH:?Укажите настоящий closure request root}"
+
+request.validator={name:launch-repair-v5,code:точный descriptor validate_repair_v5.py,
+map_receipt:точный descriptor общей receipt}. При необходимости root явно даёт
+--allow-checkpoint-derived-updates штатному checkpoint API. Старый core остаётся
+INCOMPLETE; отдельная finite selection receipt не утверждает завершение goal.
+completed_at берётся из настоящего final event. GitHub/collector идут позже.
+
+4. Export использует прежний explicit-selection-final-files.v1 spec и CLI
+export_repair_v3.py --spec <root spec> --map-receipt <общая receipt> --output <новый путь>.
+До closure generated FINAL_PLAN не подделывать: request.export_generated=
+[final_plan,validation_report,closure_request], а export_files — только существующие
+явно выбранные файлы. Финальный builder выполняется после actual FINAL_RECEIPT.
+Каждый proposed file должен точно совпадать с FINAL_RECEIPT.files.
+Помимо safe recovery manifest root явно включает в closure.export_files:
+capacity-resume-20261018/AUTHORIZATION.json и capacity-resume-20261018/ARCHIVE_RECEIPT.json.
+Это два дополнительных источника renderer v3; остальные repair/readies/plans/maps/
+inspection/STOP уже входят в resolution.evidence_files. Renderer добавляет свои
+proof.sources в additional_accepted_sources; prepare_update_v2 экспортирует их.
+Нативные envelopes, stderr и stdout не входят в safe export.
+
+Порядок: finite closure → export/render/prepare/verified GitHub → обновление
+root AGENTS/START_HERE → collector restore → принятие всего goal. Root memory
+START-bound: не менять её перед строгими downstream checks/replay.

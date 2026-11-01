@@ -1,0 +1,180 @@
+{
+  "audit_id": "V06-A",
+  "manuscript_id": "V06",
+  "role": "argument",
+  "manuscript_sha256": "af21989e46757835e64576fa666612652b04c26a6d367740de2c9a910645023e",
+  "read_complete": true,
+  "thesis": "Complete limiting outcomes for the specified nonempty persistent coordinate clamps, together with the stated baseline and qualitative equilibrium information, need not identify the endpoint after simultaneous release. Within the independently specified equation family, releasing x before y nevertheless guarantees convergence to (1,0) without identifying k.",
+  "claimed_contribution": "A concrete counterexample to identification from the evidence E, followed by a conditional control result: one withdrawal order succeeds for every k > 0, while the reverse order retains disagreement for every fixed finite waiting time. The philosophical claim concerns the limits of substituting models that agree on a particular experimental menu.",
+  "assessment": "NO_MAJOR_DEFECT_FOUND",
+  "findings": [],
+  "surviving_contribution": "Direct analytical checks support the evidence equivalence, the opposite release endpoints, and both withdrawal-order results. No demonstrated defect warrants an entry in findings. The strongest surviving contribution is their conjunction: under the stated assumptions, inability to identify one procedure's outcome coexists with a procedure guaranteed to achieve the chosen target. In 'An application: choosing the order of withdrawal', the qualification 'These assumptions are not consequences of E alone' is essential and correctly maintained. The result establishes a conditional separation between identification and successful control; it supplies no empirical warrant for applying this particular equation family to an actual intervention.",
+  "remaining_questions": [
+    "Unanswered application question: 'An application: choosing the order of withdrawal' assumes that 'the functional form (1) is independently justified'. For an actual system, what evidence would establish that form, its time scale, and the availability of the stipulated clamps? The manuscript presents no particular empirical application, so this does not leave its mathematical conclusions unsupported.",
+    "Unanswered extension: 'What experimental completeness amounts to' explicitly says the result 'does not locate the exact transition' as k varies. The outcomes at intermediate k, including any release trajectory converging to the saddle, are not characterized here. Neither principal conclusion requires that characterization.",
+    "Unanswered extension: the stated success criterion is asymptotic convergence under exact preparation and control. Guarantees under preparation error, release delays, disturbances, or a finite completion deadline would require additional analysis."
+  ],
+  "limitations": [
+    "I read the complete supplied manuscript, including its bibliography. No tools, external sources, other manuscripts, or identifying information were used.",
+    "The mathematical checks below were performed directly by algebra, inequalities, and qualitative differential-equation arguments. No numerical integration or software calculation was executed.",
+    "No exact transition parameter, explicit basin boundary, optimal withdrawal duration, or general robustness theorem was calculated.",
+    "Access limitation: none of the four cited primary sources was retrieved. Their bibliographic details and the manuscript's descriptions of them remain unverified. Historical novelty was not assessed.",
+    "The supplied SHA-256 was retained as an identity value and was not recomputed."
+  ],
+  "plain_summary_ru": [
+    "Ошибок, которые ломали бы основные математические выводы, я не нашёл.",
+    "Одинаковые результаты при фиксации переменных могут скрывать разный итог после их освобождения.",
+    "Поэтапное снятие фиксации работает в указанном семействе уравнений, а ссылки на другие работы я не проверял."
+  ],
+  "argument_reconstruction": [
+    {
+      "step": "1",
+      "kind": "Definition",
+      "content": "The relevant evidence consists of endpoint maps for persistent coordinate clamps, one baseline trajectory, and qualitative equilibrium classifications; it excludes arbitrary uncontrolled initial-state outcomes.",
+      "support_or_dependency": "'Systems and evidence': 'Let the evidence E contain' introduces the five items. A clamp replaces the selected coordinate equation, and its readout is 'the limiting pair (x,y)'."
+    },
+    {
+      "step": "2",
+      "kind": "Constructed mathematical example",
+      "content": "The admissible family C consists of x' = x - x³ + y and y' = -ky, with k > 0. These are hypothetical systems, not empirical estimates.",
+      "support_or_dependency": "'Systems and evidence', equation (1), and 'These are mathematical systems, not fitted models of a particular treatment or apparatus.'"
+    },
+    {
+      "step": "3",
+      "kind": "Proven result",
+      "content": "Every family member produces the same E. An x clamp hides k in an unrecorded decay rate; a y clamp removes the equation containing k; a joint clamp fixes the outcome. The baseline and qualitative equilibrium classifications also agree.",
+      "support_or_dependency": "'Systems and evidence': 'Every member of C agrees on E.' The unclamped eigenvalues are 1 - 3x² and -k; numerical eigenvalues and relaxation rates are expressly excluded."
+    },
+    {
+      "step": "4",
+      "kind": "Proven result",
+      "content": "Simultaneous release from (-1/2,1) converges to (1,0) for k = 1/100 and to (-1,0) for k = 100. The respective arguments use sustained positive forcing and a small total forcing integral.",
+      "support_or_dependency": "'The same release, opposite endpoints': the slow case has x' > 0.605 until crossing zero during the first unit; the fast case has integral y(t) dt = 0.01 and therefore x(t) ≤ -0.49."
+    },
+    {
+      "step": "5",
+      "kind": "Deductive identification conclusion",
+      "content": "Since the two systems agree on E but disagree on the queried endpoint, that endpoint is not uniquely entailed by E over C. Any larger admissible class retaining both witnesses also retains this failure of identification.",
+      "support_or_dependency": "'The same release, opposite endpoints': 'Any rule assigning a unique release endpoint from E alone must assign the same answer to both systems'. This is an inference about unique identification, not about the impossibility of uncertainty-aware predictions."
+    },
+    {
+      "step": "6",
+      "kind": "Explanatory clarification",
+      "content": "The two vector fields assign the prepared state to different attraction basins. The slow trajectory's crossing of x = 0 does not constitute crossing its own autonomous basin boundary.",
+      "support_or_dependency": "'What the basin explanation must say': 'The trajectory remains in that basin throughout its autonomous evolution.' At x = 0 and y > 0, x' = y, so this line is not invariant."
+    },
+    {
+      "step": "7",
+      "kind": "Stipulated practical objective",
+      "content": "The application selects lasting convergence to (1,0) as the desired outcome. This is a stipulated target, not a defended moral premise or a claim that the procedure optimizes costs, risks, or duration.",
+      "support_or_dependency": "'An application: choosing the order of withdrawal': 'Suppose the objective is a lasting transition to (1,0)'."
+    },
+    {
+      "step": "8",
+      "kind": "Conditional modeling assumption requiring empirical warrant for application",
+      "content": "The withdrawal guarantee assumes the exact functional form (1), including its time scale, while leaving k unknown. It also uses the defined ability to prepare, hold, and release coordinates exactly.",
+      "support_or_dependency": "'An application: choosing the order of withdrawal': 'Assume the functional form (1) is independently justified'. 'Systems and evidence' defines the ideal clamp operation."
+    },
+    {
+      "step": "9",
+      "kind": "Proven control result",
+      "content": "Keeping y = 1 while releasing x for one unit makes x positive independently of k. Releasing y afterward succeeds because every state with x > 0 and y ≥ 0 converges to (1,0) within C.",
+      "support_or_dependency": "'An application: choosing the order of withdrawal': x' ≥ c = 1 - 2/(3√3), followed by comparison with z' = z - z³ and an eventual upper bound."
+    },
+    {
+      "step": "10",
+      "kind": "Proven quantified limitation",
+      "content": "For every fixed finite reverse-order wait T, some slow members reach the positive equilibrium and fast members reach the negative equilibrium. The slow parameter may depend on T.",
+      "support_or_dependency": "'An application: choosing the order of withdrawal': 0 < k ≤ 0.01/(T + 1) preserves sufficient forcing for the slow proof, whereas k ≥ 100 gives remaining forcing integral e^(-kT)/k ≤ 0.01."
+    },
+    {
+      "step": "11",
+      "kind": "Qualified philosophical conclusion",
+      "content": "Agreement over an exhaustive but restricted experimental menu does not license substitution for every new procedural question. Parameter identification, identification of a particular procedure's outcome, and choosing a successful procedure can come apart.",
+      "support_or_dependency": "'What experimental completeness amounts to': 'its completeness is indexed to procedures and readouts'. This follows from steps 3–10 within their respective evidence and model restrictions."
+    }
+  ],
+  "strongest_objections": [
+    {
+      "objection": "The nonidentification result might seem manufactured by excluding precisely the uncontrolled outcomes that would answer the release question.",
+      "best_available_reply": "The exclusion is explicit. The substantive question is whether exhaustive nonempty clamp endpoints, supplemented by equilibrium information, determine the missing outcome indirectly. The two systems demonstrate that they do not. Observing all uncontrolled endpoints would change the evidence and directly include the answer.",
+      "assessment": "A reasonable objection to any broader claim about experimental completeness, but it does not defeat the stated conditional result. The manuscript does not establish how common this failure is in practical datasets.",
+      "manuscript_location": "'Systems and evidence': 'Arbitrary uncontrolled trajectories are excluded'; 'What experimental completeness amounts to': 'Preparing a state and maintaining a clamp is one experiment; preparing it and leaving both coordinates free is another.'"
+    },
+    {
+      "objection": "The successful one-unit withdrawal procedure might appear to be certified by E, although its timing requires dynamical information absent from E.",
+      "best_available_reply": "The manuscript explicitly assumes the equation family independently. This qualification is necessary: multiplying both equations by a small positive constant preserves E but can make the one-unit procedure fail, as checked below.",
+      "assessment": "A substantive scope objection that the manuscript already answers. The guarantee survives within C. A guarantee across all systems compatible with E would fail without additional restrictions.",
+      "manuscript_location": "'An application: choosing the order of withdrawal': 'These assumptions are not consequences of E alone' and 'the following guarantees concern C, not every system compatible with the endpoint evidence'."
+    },
+    {
+      "objection": "Success for every k > 0 could be mistaken for reaching the target within a common finite deadline.",
+      "best_available_reply": "The established outcome is convergence as time tends to infinity. After the final release, y(t) = e^(-kt); reaching y ≤ δ for 0 < δ < 1 requires t ≥ log(1/δ)/k. This time is unbounded as k approaches zero.",
+      "assessment": "An acknowledged asymptotic scope condition, not a defect in the convergence proof. A uniform finite-time guarantee would need a lower bound on k or a different success criterion.",
+      "manuscript_location": "'An application: choosing the order of withdrawal': 'Any released state with x > 0 and y ≥ 0 converges to (1,0)' and 'The staged procedure therefore succeeds for every k > 0.'"
+    },
+    {
+      "objection": "The slow-case explanation could wrongly suggest that an autonomous trajectory crosses from one attraction basin into another when x becomes positive.",
+      "best_available_reply": "Basin membership concerns the full state and the fixed vector field. A trajectory and each of its later states have the same eventual attractor. The prepared state already belongs to the positive basin in the slow system, while the same coordinates belong to the negative basin in the fast system.",
+      "assessment": "The manuscript avoids this equivocation. Its crossing argument establishes a sufficient condition for the endpoint; it does not identify x = 0 as the full-system basin boundary.",
+      "manuscript_location": "'What the basin explanation must say': 'The crossing of x = 0 in the slow system is not a crossing of that autonomous system’s basin boundary.'"
+    }
+  ],
+  "formal_checks": [
+    {
+      "claim": "'Systems and evidence', equation (1): solutions exist for all future times, and the equilibrium stability classifications are independent of k.",
+      "method": "Use y(t) = y(0)e^(-kt). Choose R > 1 with R³ - R > |y(0)|; the x vector field points inward at ±R. Solve y = 0 and x - x³ = 0, then calculate the triangular Jacobian.",
+      "result": "The inward bounds prevent forward escape, and smoothness supplies local uniqueness. The equilibria are exactly (-1,0), (0,0), and (1,0). Their eigenvalues are (-2,-k), (1,-k), and (-2,-k), respectively, giving two asymptotically stable equilibria and one saddle.",
+      "execution_boundary": "Checked analytically from the supplied equations; no numerical solver or external theorem source was consulted."
+    },
+    {
+      "claim": "'Systems and evidence': 'Every member of C agrees on E.'",
+      "method": "Evaluate each clamp type separately. For y = b, inspect the scalar equation x' = x - x³ + b, including initial conditions at unstable or multiple roots.",
+      "result": "An x clamp gives (a,0). A y clamp gives an identical scalar differential equation for every k; bounded trajectories move monotonically between roots and therefore have limits. Joint clamps and the baseline are identical by construction. Clamped qualitative stability also agrees, including nonhyperbolic scalar cases. Initial-state dependence does not reveal k.",
+      "execution_boundary": "All components of the defined E were checked symbolically. Explicit cubic root formulas were unnecessary and were not calculated."
+    },
+    {
+      "claim": "'The same release, opposite endpoints', 'Slow decay': release with k = 1/100 converges to (1,0).",
+      "method": "Check x - x³ ≥ -2/(3√3) > -0.385 and e^(-0.01) > 0.990. Integrate the resulting positive lower bound until crossing zero, then use scalar comparison and an eventual upper barrier.",
+      "result": "Until crossing during the first unit, x' > 0.605, so crossing occurs before 100/121 < 0.827. Positive forcing prevents a return through zero. Comparison gives liminf x ≥ 1. Once y is small, the derivative is uniformly negative for x ≥ 1 + ε, yielding limsup x ≤ 1. The endpoint follows.",
+      "execution_boundary": "The displayed numerical inequalities were verified analytically; no simulated trajectory or numerical exponential evaluation was used."
+    },
+    {
+      "claim": "'The same release, opposite endpoints', 'Fast decay': release with k = 100 converges to (-1,0).",
+      "method": "Use the inward boundary at x = -1, the sign x - x³ ≤ 0 on [-1,0], and the exact forcing integral 1/k. Check the eventual negative derivative outside any small neighborhood of -1.",
+      "result": "Before a hypothetical first crossing of zero, x(t) ≤ -1/2 + 0.01 = -0.49, contradicting that crossing. Hence -1 ≤ x(t) ≤ -0.49 for all time. For each 0 < ε < 0.51, the stated positive minimum m exists; eventually x' < -m/2 on [-1 + ε,-0.49]. Entry into and retention within [-1,-1 + ε] establishes convergence to -1.",
+      "execution_boundary": "The integral and invariant-interval argument were checked directly; no numerical integration was performed."
+    },
+    {
+      "claim": "'The same release, opposite endpoints': the endpoint 'is not identified by E'.",
+      "method": "Compare the evidence map and release-outcome map at the two displayed parameter values.",
+      "result": "The evidence map has the same value at k = 1/100 and k = 100, whereas the release-outcome map does not. Therefore the latter cannot be a single-valued function of E on this admissible class. Retaining the pair in a larger class preserves the counterexample.",
+      "execution_boundary": "Direct logical verification using the preceding checks; this establishes nonidentification, not a statistical lower bound or impossibility under additional evidence."
+    },
+    {
+      "claim": "'An application: choosing the order of withdrawal': releasing x first for one time unit guarantees the positive endpoint throughout C.",
+      "method": "Check the first-stage bound c = 1 - 2/(3√3) > 0.615 and the lemma for positive x with nonnegative y.",
+      "result": "Crossing occurs within 1/(2c) < 100/123 < 0.814, independently of k. The derivative at zero prevents return while y = 1. After final release, comparison with the positive unforced solution gives liminf x ≥ 1, and decay of y gives limsup x ≤ 1. This also covers positive initial x above 1 and y = 0.",
+      "execution_boundary": "Checked analytically, including the positive-state lemma. No optimal duration was calculated."
+    },
+    {
+      "claim": "'An application: choosing the order of withdrawal': 'No fixed finite waiting period in this reverse order removes the disagreement across C.'",
+      "method": "For each finite T, substitute k ≤ 0.01/(T + 1) into y(t) = e^(-k(T+t)) for 0 ≤ t ≤ 1. Separately integrate the remaining forcing for k ≥ 100.",
+      "result": "The slow choice ensures y(t) ≥ e^(-0.01) during the first released unit, so the positive-endpoint proof applies. The fast choice gives e^(-kT)/k ≤ 0.01, so the negative-endpoint proof applies. The quantifier is correctly 'for every finite T, there exist disagreeing members'; the slow member need not be the same for every T.",
+      "execution_boundary": "Both inequalities and their quantifier dependencies were checked directly; no parameter search was executed."
+    },
+    {
+      "claim": "'An application: choosing the order of withdrawal': enlarging the admissible class 'need not preserve the staged procedure’s guarantee'.",
+      "method": "Stress-test the boundary by multiplying both equations by λ > 0. This preserves clamp endpoints, the baseline, and qualitative stability. Choose λ = 0.01 and the underlying k = 100.",
+      "result": "With y held at 1, x' = λ(x - x³ + 1) ≤ 0.01 while x lies in [-1/2,0], so after one unit x ≤ -0.49 and has not crossed zero. After final release, the forcing contribution to x integrates to λ/(λk) = 0.01. The same invariant-interval argument keeps x ≤ -0.48 and yields convergence to -1. Thus E alone genuinely cannot certify the one-unit procedure. This supports the manuscript's stated limitation and is not a counterexample within C.",
+      "execution_boundary": "An additional analytical scope check performed from the supplied equations; no simulation or external model was used."
+    }
+  ],
+  "source_dependent_questions": [
+    "'The question and its scope': does Weinberger, 'Intervening and Letting Go', §5, support the specific description of the movable-piston example and of removing a constraint as an action against which model adequacy is assessed? The primary text was not accessed.",
+    "'The question and its scope': does Blom, Bongers, and Mooij, 'Beyond Structural Causal Models: Causal Constraints Models', §§2.2–3.4, supply the described construction incorporating initial-state-sensitive equilibrium outcome maps for every intervention target, including the empty target? Its assumptions and exact representational scope require primary-source checking.",
+    "'The question and its scope': what precisely does Dash, 'Restructuring Dynamic Causal Systems in Equilibrium', §6, establish about manipulation, equilibration, and temporal information? The manuscript's broad comparison remains unverified.",
+    "'The question and its scope': do Ryan and Dablander, 'Equilibrium Causal Models: Connecting Dynamical Systems Modeling and Cross-Sectional Data Analysis', §1 and Appendix A, support the stated pulse/press distinction in full context? The manuscript itself reports reliance on publisher excerpts, and no full text was available for this audit.",
+    "'Bibliography': the author lists, titles, publication dates, venues, pagination, identifiers, and section references for all four entries require authentication. Any correction would affect the literature framing; the self-contained mathematical results do not depend on those descriptions being accurate."
+  ]
+}

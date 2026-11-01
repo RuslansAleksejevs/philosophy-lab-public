@@ -1,0 +1,96 @@
+{
+  "additional_content_only_native_records": 36,
+  "additional_exact_identity_matches": 0,
+  "ambiguous_call_tuple_native_records": 0,
+  "boundary": [
+    "Only the previously frozen81 native prefixes and37 bundles/119 loose JSON files were read. No new cutoff, private session discovery, canonical write, provider or service action.",
+    "Exact additional identity requires an explicit exported SID, matching call-id hash and native tool type, exactly one native tuple occurrence within the fixed81 prefixes, and identical complete allowlisted payload core. Repeated native call tuples remain ambiguous even if text matches.",
+    "Content equality uses whole payload cores, complete string body fields, or entire UTF8 non-JSON members. It does not use substring, fuzzy or semantic search. Matching content alone does not identify which native record or provider invocation produced the copy.",
+    "Hidden reasoning and system/developer objects and fields are not searched. Native bodies are hashed in RAM; no body, URL, credential or scientific/private text is emitted or saved.",
+    "The84799 generic denominator covers3355 sources; this followup covers only81. The previous82861 remainder remains UNKNOWN coverage, never a demonstrated loss count. No inference is made for the other sources.",
+    "Per-hash example export locations are capped at12; occurrences and native-identity counts are complete within this exact equality scope. Source hashes do not claim original raw envelopes were exported."
+  ],
+  "bundle_count": 37,
+  "call_type_sid_plus_exact_payload_unique_native_matches": 1934,
+  "content_match_groups": 2915,
+  "inputs": [
+    {
+      "bytes": 15146,
+      "path": "runs/repository-rebuild-20261031/tool-coverage-followup/audit.py",
+      "sha256": "2095c5bad3df0c2ffb7355f6910001fda2ac0a5e4fea888565f9e17f50c3c6ca"
+    },
+    {
+      "bytes": 5547,
+      "path": "runs/repository-rebuild-20261031/history-audit/tool-coverage/REPORT.json",
+      "sha256": "6bae0c4f3be15a67b19675b40068d363da37e3c603f816591cc268439f6d5975"
+    },
+    {
+      "bytes": 40105,
+      "path": "runs/repository-rebuild-20261031/history-audit/tool-coverage/BUNDLE_AND_INDEX_AUDIT.json",
+      "sha256": "755f5d745b5182f2ff3483b8279fad00cf090bc3fb55f819c33654efec1d7d06"
+    },
+    {
+      "bytes": 17621,
+      "path": "runs/repository-rebuild-20261031/history-audit/tool-coverage/NATIVE_PREFIX_VERIFICATION.json",
+      "sha256": "5c0c7cf4aab9fa1acbf4bd07328da035bba6dba69620a7e3ef6cabe18fe969a0"
+    },
+    {
+      "bytes": 946601,
+      "path": "runs/repository-rebuild-20261031/history-audit/tool-coverage/EXACT_TOOL_IDENTITIES.json",
+      "sha256": "461cce7557e4999b153fc0e6736b79e8668e6a06205467718bcc63b0fbd4ac73"
+    },
+    {
+      "bytes": 26248,
+      "path": "scripts/collector_source.py",
+      "sha256": "5ff57125ad09caf2d4d121cc15075ed5668bcf875016093808fa4a0a36bf1ffd"
+    },
+    {
+      "bytes": 48221,
+      "path": "scripts/capture_codex.py",
+      "sha256": "26c6d6781df7e9e02a4c4258c699e3fb798618e6b4815ff3431b23c31399f2c7"
+    },
+    {
+      "bytes": 7213,
+      "path": "scripts/codex_rollout.py",
+      "sha256": "541e2506db54b1d8f332bdc14dc7eb4480f9640617ddc77acc7eab752ffdea5e"
+    }
+  ],
+  "loose_json_files_verified": 119,
+  "members_verified": 13118,
+  "native_pending_without_explicit_call_id": 4,
+  "native_prefix_bytes": 312705990,
+  "native_prefixes": 81,
+  "native_records_with_equal_exported_content": 1974,
+  "native_tool_pending_records_in81": 15456,
+  "native_tool_types_in81": {
+    "custom_tool_call": 6010,
+    "custom_tool_call_output": 6098,
+    "function_call": 1672,
+    "function_call_output": 1676
+  },
+  "outputs": [
+    {
+      "bytes": 20227,
+      "path": "runs/repository-rebuild-20261031/tool-coverage-followup/NATIVE_PREFIXES.json",
+      "sha256": "c7a1649c9245bd02f4f07391cf03a4a45dd76f32ca3301d43ab2a31abbd81204"
+    },
+    {
+      "bytes": 1721876,
+      "path": "runs/repository-rebuild-20261031/tool-coverage-followup/EXACT_CALL_PAYLOAD_MATCHES.json",
+      "sha256": "4d3de72a470a6b3daf62b977585550fb368cae18039a23a8f7a58e76494048fd"
+    },
+    {
+      "bytes": 2955573,
+      "path": "runs/repository-rebuild-20261031/tool-coverage-followup/CONTENT_ONLY_MATCH_GROUPS.json",
+      "sha256": "20a46306590ff2848490814a656d0a957adfb20ae19d6a6b7f068cf69a24d880"
+    }
+  ],
+  "previous_exact_raw_identities": 1938,
+  "previous_raw_identities_not_unique_call_payload_matched": 4,
+  "previous_raw_identities_with_ambiguous_call_tuple": 0,
+  "short_or_repeated_content_groups": 17,
+  "status": "PASS_BOUNDED_CALL_AND_CONTENT_EQUALITY_AUDIT",
+  "structured_scan_counts": {
+    "structured_tool_payloads": 1938
+  }
+}

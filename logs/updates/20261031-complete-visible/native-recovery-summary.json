@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETE_BOUNDED_VISIBLE_RECOVERY",
+  "started_at": "2026-10-31T17:47:34.183789+00:00",
+  "finished_at": "2026-10-31T17:47:56.938750+00:00",
+  "selected_sessions": 3355,
+  "scanned_sessions": 3355,
+  "internal_runtime_sessions_not_opened": 317,
+  "new_visible_messages": 1049,
+  "sessions_with_new_visible_messages": 202,
+  "counts": {
+    "agent_metadata": 3389,
+    "lifecycle": 8390,
+    "gap": 417,
+    "excluded": 298122,
+    "model": 4475,
+    "text": 14803,
+    "tool_pending": 84799,
+    "old_messages_matched": 13754
+  },
+  "excluded_counts": {
+    "excluded:message_role:developer": 10431,
+    "nonvisible_envelope:world_state": 4521,
+    "noncanonical_or_hidden_event:thread_settings_applied": 1082,
+    "noncanonical_or_hidden_event:item_completed": 119094,
+    "nonvisible_envelope:token_usage_record": 47418,
+    "noncanonical_or_hidden_event:token_count": 49109,
+    "excluded:reasoning": 52807,
+    "nonvisible_envelope:inter_agent_communication_metadata": 4371,
+    "excluded:agent_message": 4372,
+    "excluded:sensitive_tool_body": 1145,
+    "nonvisible_envelope:compacted": 263,
+    "excluded:non_user_text_context": 3509
+  },
+  "remaining_gap_reasons": {
+    "unknown_response_item_type": 4,
+    "unknown_metadata_fields": 6,
+    "unknown_payload_fields": 171,
+    "unknown_record_metadata": 234,
+    "oversized_or_incomplete_record": 13,
+    "unknown_event_message_type": 2
+  },
+  "errors": [],
+  "boundary": "Fixed snapshot per native source. All old indexed messages must survive union unchanged. No native envelopes, hidden reasoning, internal instructions, credential-shaped text or unreviewed tool bodies exported. No whole-provider trace claim. Canonical archive and source files unchanged."
+}

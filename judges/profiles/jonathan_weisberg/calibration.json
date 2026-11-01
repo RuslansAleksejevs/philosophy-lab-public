@@ -1,0 +1,31 @@
+{
+  "status": "SAME_AGENT_BOUNDED_TEST",
+  "prediction_file": "predictions-before-reading.json",
+  "heldout_source_id": "S4",
+  "outcomes": [
+    {
+      "id": "P1",
+      "result": "MATCH_LOW_DISCRIMINATION",
+      "evidence": "S4 lines55–83 retain the small/grand-world issue. The title and earlier paper make this unsurprising."
+    },
+    {
+      "id": "P2",
+      "result": "MATCH",
+      "evidence": "S4 lines98–160 examine the skew-normal response;162–222 address idealization."
+    },
+    {
+      "id": "P3",
+      "result": "MATCH",
+      "evidence": "S4 lines223–241 distinguish possible theoretical superiority in a hypothetical case from the original practical motivation."
+    }
+  ],
+  "limits": [
+    "One coauthored reply, same constructing agent, possible pretraining exposure uncontrolled.",
+    "No assessment of independent prediction or actual review/competition behavior.",
+    "The outcome was inspected only after prediction bytes were saved; no post-hoc prediction edits."
+  ],
+  "judge_id": "jonathan_weisberg",
+  "recorded_date": "2026-10-07",
+  "post_check_use": "Held-out source, where tested, may now inform v1; it is no longer reserved for subsequent tests."
+}
+

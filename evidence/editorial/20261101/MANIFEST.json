@@ -1,0 +1,447 @@
+{
+  "schema": "reading-history-view.v1",
+  "base_commit": "43f36eb6b09bc29703bd2922aac90e58a24fb080",
+  "scope": "Private reading navigation, selection tree and accepted E051 result import. No manuscript edits, research dispatch or publication.",
+  "previous_pages": [
+    {
+      "path": "README.md",
+      "snapshot": "evidence/editorial/20261101/before/README.md.source",
+      "sha256": "ed328cbae694d88bbf39b1f880db61db9e954879492688737c1798a4910bf62d"
+    },
+    {
+      "path": "essays/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/README.md.source",
+      "sha256": "89ea5fd7cbc8b572cabbf47506567ea95ddb7ca0bbae225292245caaa13ea14a"
+    },
+    {
+      "path": "docs/final-shortlist.md",
+      "snapshot": "evidence/editorial/20261101/before/docs/final-shortlist.md.source",
+      "sha256": "2113dec7bafeb4175cb09ec649de1c58a362d5b8d972abe3800382f11430c8e9"
+    },
+    {
+      "path": "docs/method.md",
+      "snapshot": "evidence/editorial/20261101/before/docs/method.md.source",
+      "sha256": "7ccc6b96fc04f76e06d82ecad9b8ebcaeb0b80c3cc032ebfe47917711aac3336"
+    },
+    {
+      "path": "docs/selection.md",
+      "snapshot": "evidence/editorial/20261101/before/docs/selection.md.source",
+      "sha256": "25d908d956f59c460408e45af7332c0f2ee59c556e51fe808799c051b307d757"
+    },
+    {
+      "path": "ROADMAP.md",
+      "snapshot": "evidence/editorial/20261101/before/ROADMAP.md.source",
+      "sha256": "26d79179628d5b0320f6f66037c918c1c452cf09a5ef8b9f87cfec11af2ec569"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "snapshot": "evidence/editorial/20261101/before/PUBLICATION.md.source",
+      "sha256": "922d67e27bbd955dc433ef2a84db2ca871ab781ec9ed0e07c36715a9829b3019"
+    },
+    {
+      "path": "essays/post-midterm/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/post-midterm/README.md.source",
+      "sha256": "1819cfec61f5066bbdeb03fd1e8debb3cd5a37c56b9d4f500882bfc5ce094992"
+    },
+    {
+      "path": "essays/post-midterm/F01/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/post-midterm/F01/README.md.source",
+      "sha256": "9eb70c8c6f6247ffc2d315158f0cfcb5e8527ee04224523466f7073b90f7ca9c"
+    },
+    {
+      "path": "essays/post-midterm/F02/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/post-midterm/F02/README.md.source",
+      "sha256": "1178646b757622f482a05f3df18a2e59cd41b74b70ba8544eb8ffef8531361bb"
+    },
+    {
+      "path": "essays/post-midterm/F03/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/post-midterm/F03/README.md.source",
+      "sha256": "b1d66202350d7ba4064f2502bec368e78778833f08aecefbfba09d308f1770bb"
+    },
+    {
+      "path": "essays/post-midterm/F04/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/post-midterm/F04/README.md.source",
+      "sha256": "dd37bd9dae908b422008c35a3d02d38d4ede8878f92bf53d0b36e5c40d7ef935"
+    },
+    {
+      "path": "essays/post-midterm/F05/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/post-midterm/F05/README.md.source",
+      "sha256": "e548099507ca58b826afbf6f2ee0ca86aaaf7f5f2944adc8f17722b4daf1216a"
+    },
+    {
+      "path": "essays/post-midterm/F06/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/post-midterm/F06/README.md.source",
+      "sha256": "d4a814b1378352831d392bc24ab5dc75af1d6d3b7f79ed72c75e9b6e13d74b23"
+    },
+    {
+      "path": "essays/post-midterm/S02/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/post-midterm/S02/README.md.source",
+      "sha256": "49ec796f1faa548641588eeb5572487c28ae0b2246e4171b45c29c5b59652a23"
+    },
+    {
+      "path": "essays/E051/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/E051/README.md.source",
+      "sha256": "b393f4292a7683fdac0deec7908a64a8b58aa3d096be70bbaaefbba75c748fa1"
+    },
+    {
+      "path": "essays/E050/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/E050/README.md.source",
+      "sha256": "566fc637124e126ed0fb7df34a45afbaf56270437f695558ae41c2185fb75e8c"
+    },
+    {
+      "path": "essays/E012/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/E012/README.md.source",
+      "sha256": "1dff4a1bc50c069313856031d0b68094773f9fa4317b744bc785ca712e611f1f"
+    },
+    {
+      "path": "essays/E009/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/E009/README.md.source",
+      "sha256": "de43a591cbdf2f130b25c171aac57d319cefc80e78990066569ac8cfb11d3605"
+    },
+    {
+      "path": "essays/E078/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/E078/README.md.source",
+      "sha256": "19c028f4b175445511fd9a03910643c45696c7d239485805bee998a6c19c107e"
+    },
+    {
+      "path": "essays/E041/README.md",
+      "snapshot": "evidence/editorial/20261101/before/essays/E041/README.md.source",
+      "sha256": "1f0f8f05e03ae1ff0e0a49fa93118208207ea1cdb3a98fec0831103b59ac0ee1"
+    },
+    {
+      "path": "docs/timeline.md",
+      "snapshot": "evidence/editorial/20261101/before/docs/timeline.md.source",
+      "sha256": "03a583e45e79ab1a4d60bd3d9029cb1e15a776a51abe09e40bd0ea076c171ee6"
+    },
+    {
+      "path": "docs/post-midterm.md",
+      "snapshot": "evidence/editorial/20261101/before/docs/post-midterm.md.source",
+      "sha256": "4349ce2c3457957468a60f943d2b363cce0d0e8a14c2c3e027e08651b86966d5"
+    },
+    {
+      "path": "evidence/README.md",
+      "snapshot": "evidence/editorial/20261101/before/evidence/README.md.source",
+      "sha256": "2ab0ab61ac07222750d68b2c77248a7bfea8908215e5d4988acb63e28848e0fa"
+    },
+    {
+      "path": "logs/README.md",
+      "snapshot": "evidence/editorial/20261101/before/logs/README.md.source",
+      "sha256": "23ee352a30f4266b1fb305e0a8c50edca5441be56431d5edd6fee9e81fecd0c7"
+    }
+  ],
+  "added_files": [
+    "docs/current-selection.md",
+    "docs/reading-state.json",
+    "docs/selection-tree.md",
+    "docs/worked-example.md",
+    "essays/topics.md",
+    "evidence/editorial/20261101/MANIFEST.json",
+    "evidence/editorial/20261101/REQUEST.txt",
+    "evidence/editorial/20261101/before/PUBLICATION.md.source",
+    "evidence/editorial/20261101/before/README.md.source",
+    "evidence/editorial/20261101/before/ROADMAP.md.source",
+    "evidence/editorial/20261101/before/docs/final-shortlist.md.source",
+    "evidence/editorial/20261101/before/docs/method.md.source",
+    "evidence/editorial/20261101/before/docs/post-midterm.md.source",
+    "evidence/editorial/20261101/before/docs/selection.md.source",
+    "evidence/editorial/20261101/before/docs/timeline.md.source",
+    "evidence/editorial/20261101/before/essays/E009/README.md.source",
+    "evidence/editorial/20261101/before/essays/E012/README.md.source",
+    "evidence/editorial/20261101/before/essays/E041/README.md.source",
+    "evidence/editorial/20261101/before/essays/E050/README.md.source",
+    "evidence/editorial/20261101/before/essays/E051/README.md.source",
+    "evidence/editorial/20261101/before/essays/E078/README.md.source",
+    "evidence/editorial/20261101/before/essays/README.md.source",
+    "evidence/editorial/20261101/before/essays/post-midterm/F01/README.md.source",
+    "evidence/editorial/20261101/before/essays/post-midterm/F02/README.md.source",
+    "evidence/editorial/20261101/before/essays/post-midterm/F03/README.md.source",
+    "evidence/editorial/20261101/before/essays/post-midterm/F04/README.md.source",
+    "evidence/editorial/20261101/before/essays/post-midterm/F05/README.md.source",
+    "evidence/editorial/20261101/before/essays/post-midterm/F06/README.md.source",
+    "evidence/editorial/20261101/before/essays/post-midterm/README.md.source",
+    "evidence/editorial/20261101/before/essays/post-midterm/S02/README.md.source",
+    "evidence/editorial/20261101/before/evidence/README.md.source",
+    "evidence/editorial/20261101/before/logs/README.md.source",
+    "evidence/selection-update/20261101/DECISION.json",
+    "evidence/selection-update/20261101/FINAL_RECEIPT.json",
+    "evidence/selection-update/20261101/IMPORT_MANIFEST.json",
+    "evidence/selection-update/20261101/README.md",
+    "evidence/selection-update/20261101/REVISION_PLAN.json",
+    "evidence/selection-update/20261101/SOURCE_LEDGER.json",
+    "evidence/selection-update/20261101/USER_CHOICE.txt",
+    "evidence/selection-update/20261101/reports/W01-A.json",
+    "evidence/selection-update/20261101/reports/W01-L.json",
+    "tools/verify_reading_edition.py"
+  ],
+  "current_files": [
+    {
+      "path": "PUBLICATION.md",
+      "sha256": "fce36796764fdc1f30337df0c1176e2edf802e33490b874298e24ca6e0b7c502"
+    },
+    {
+      "path": "README.md",
+      "sha256": "63b45b948a241069444bde0d691f5594ac20e80af16d5e6a23d5b4d1e08019db"
+    },
+    {
+      "path": "ROADMAP.md",
+      "sha256": "0e677e74b7e0c220be4d423937b1f774c5dcc9b3fa76039ff6ff8e458e69406c"
+    },
+    {
+      "path": "docs/current-selection.md",
+      "sha256": "a44af38dc12caa595b6ef02ca5f45bfa44956ff84a0710f48335f839ae9cda8f"
+    },
+    {
+      "path": "docs/final-shortlist.md",
+      "sha256": "3a1fb928f83f638bfc16c7d01e83d708ee0ba05a191e6b8ab7f9d1cace05fd94"
+    },
+    {
+      "path": "docs/method.md",
+      "sha256": "50048334d93cf0ce1d39465a333e580ad9a92560d168434cbd3447a61f9b2d64"
+    },
+    {
+      "path": "docs/post-midterm.md",
+      "sha256": "b99b212d4697182e71dc5576ebaf7567bacc25df6521061ea60ffe90eaa23077"
+    },
+    {
+      "path": "docs/reading-state.json",
+      "sha256": "05206ececa2032868ba98e33dc7ee71fc3d2bae8b92807762d5a0a5c936e8ca9"
+    },
+    {
+      "path": "docs/selection-tree.md",
+      "sha256": "c798a558f2bdef4dcb37a004fb4520a61dbc821dec70d4736f12e52ffea9b2d5"
+    },
+    {
+      "path": "docs/selection.md",
+      "sha256": "78c9220b6d94b0f787f38c1b8fca08a8680b70423c23e0893cdc4894a5fa2da6"
+    },
+    {
+      "path": "docs/timeline.md",
+      "sha256": "409fb65f2b07873c1deecae69a8eb0b28bcf61966f751fd23c210754ef3b2abd"
+    },
+    {
+      "path": "docs/worked-example.md",
+      "sha256": "299368a5c3d77d744a0041df972e4a60f298dcf41d7be32eb9c6bcd939f7577c"
+    },
+    {
+      "path": "essays/E009/README.md",
+      "sha256": "ba87dbb7b40f8b12f61cfef0757049aca8106a2279beb0b1f43450bef1cdd87a"
+    },
+    {
+      "path": "essays/E012/README.md",
+      "sha256": "5c4d6f0f8b16e14d7615555cbb17dd7c30a6134ef346e53015f637f4a2a81681"
+    },
+    {
+      "path": "essays/E041/README.md",
+      "sha256": "9540d4923369f036049d2117f0720041a9a6231c50b462688529c6cc5397b73f"
+    },
+    {
+      "path": "essays/E050/README.md",
+      "sha256": "c4e0e631fbddb752a47ad1910711a42867e6915f0824ce07bf41f43fedc68996"
+    },
+    {
+      "path": "essays/E051/README.md",
+      "sha256": "b164c2075502354871da9ebdd67eacb9777dd975962001b55c73f0ba61f412cc"
+    },
+    {
+      "path": "essays/E078/README.md",
+      "sha256": "79adcc05a12189e97692231733662c39b38f3c2109c24c7992cc2f0885b7b38f"
+    },
+    {
+      "path": "essays/README.md",
+      "sha256": "b7acb78e1ca996b99f70ce19867d68c45af838cd93051a80852c9859afb8d34c"
+    },
+    {
+      "path": "essays/post-midterm/F01/README.md",
+      "sha256": "549dfad6f97337496b85dd9112abed7d553cae40bcece818b717da4bee0c0fa2"
+    },
+    {
+      "path": "essays/post-midterm/F02/README.md",
+      "sha256": "b6b8343f3a1a786ac097d568bc4fc79088730e9a24a01da4f8dc0be570ace09d"
+    },
+    {
+      "path": "essays/post-midterm/F03/README.md",
+      "sha256": "07ff3bff615f2f236700a2e33dd766fb4a29663d0147c20e4d7e36ea8699960d"
+    },
+    {
+      "path": "essays/post-midterm/F04/README.md",
+      "sha256": "3df2e2e64616ac0866fe86a028de0d6f56b5c55f4e8d2a64644bf022c82770bc"
+    },
+    {
+      "path": "essays/post-midterm/F05/README.md",
+      "sha256": "7145be32de9fd3d48011f4ce0cfc49b7fafd09038d6676812106c588565e6bf5"
+    },
+    {
+      "path": "essays/post-midterm/F06/README.md",
+      "sha256": "df9a08a003d3a49a37615fd014fcc835c4fd2dee09ab5d6ea6b3eef7b0ed5800"
+    },
+    {
+      "path": "essays/post-midterm/README.md",
+      "sha256": "6c863b71feafa70235fac83036367826ac1ffe77988a404c38458a0c69c26abf"
+    },
+    {
+      "path": "essays/post-midterm/S02/README.md",
+      "sha256": "cd7d3dc16cddee28badc26cba6ca1fbc14a986258385cb6d8a95e03ce62ba089"
+    },
+    {
+      "path": "essays/topics.md",
+      "sha256": "b04eba37ffa5d62ad84c048ea26499fe6d1ce14fede64f204a311e2eef8aaf71"
+    },
+    {
+      "path": "evidence/README.md",
+      "sha256": "7454cdda381482d92f2d8049a233ff4f32801c15ad2776297a740c67ba1d3db1"
+    },
+    {
+      "path": "evidence/editorial/20261101/REQUEST.txt",
+      "sha256": "22d95baf04b360bdd1e5745ecb8235389fb36e6f9cf39f98476bb1fe6db36394"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/PUBLICATION.md.source",
+      "sha256": "922d67e27bbd955dc433ef2a84db2ca871ab781ec9ed0e07c36715a9829b3019"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/README.md.source",
+      "sha256": "ed328cbae694d88bbf39b1f880db61db9e954879492688737c1798a4910bf62d"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/ROADMAP.md.source",
+      "sha256": "26d79179628d5b0320f6f66037c918c1c452cf09a5ef8b9f87cfec11af2ec569"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/docs/final-shortlist.md.source",
+      "sha256": "2113dec7bafeb4175cb09ec649de1c58a362d5b8d972abe3800382f11430c8e9"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/docs/method.md.source",
+      "sha256": "7ccc6b96fc04f76e06d82ecad9b8ebcaeb0b80c3cc032ebfe47917711aac3336"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/docs/post-midterm.md.source",
+      "sha256": "4349ce2c3457957468a60f943d2b363cce0d0e8a14c2c3e027e08651b86966d5"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/docs/selection.md.source",
+      "sha256": "25d908d956f59c460408e45af7332c0f2ee59c556e51fe808799c051b307d757"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/docs/timeline.md.source",
+      "sha256": "03a583e45e79ab1a4d60bd3d9029cb1e15a776a51abe09e40bd0ea076c171ee6"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/E009/README.md.source",
+      "sha256": "de43a591cbdf2f130b25c171aac57d319cefc80e78990066569ac8cfb11d3605"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/E012/README.md.source",
+      "sha256": "1dff4a1bc50c069313856031d0b68094773f9fa4317b744bc785ca712e611f1f"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/E041/README.md.source",
+      "sha256": "1f0f8f05e03ae1ff0e0a49fa93118208207ea1cdb3a98fec0831103b59ac0ee1"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/E050/README.md.source",
+      "sha256": "566fc637124e126ed0fb7df34a45afbaf56270437f695558ae41c2185fb75e8c"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/E051/README.md.source",
+      "sha256": "b393f4292a7683fdac0deec7908a64a8b58aa3d096be70bbaaefbba75c748fa1"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/E078/README.md.source",
+      "sha256": "19c028f4b175445511fd9a03910643c45696c7d239485805bee998a6c19c107e"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/README.md.source",
+      "sha256": "89ea5fd7cbc8b572cabbf47506567ea95ddb7ca0bbae225292245caaa13ea14a"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/post-midterm/F01/README.md.source",
+      "sha256": "9eb70c8c6f6247ffc2d315158f0cfcb5e8527ee04224523466f7073b90f7ca9c"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/post-midterm/F02/README.md.source",
+      "sha256": "1178646b757622f482a05f3df18a2e59cd41b74b70ba8544eb8ffef8531361bb"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/post-midterm/F03/README.md.source",
+      "sha256": "b1d66202350d7ba4064f2502bec368e78778833f08aecefbfba09d308f1770bb"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/post-midterm/F04/README.md.source",
+      "sha256": "dd37bd9dae908b422008c35a3d02d38d4ede8878f92bf53d0b36e5c40d7ef935"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/post-midterm/F05/README.md.source",
+      "sha256": "e548099507ca58b826afbf6f2ee0ca86aaaf7f5f2944adc8f17722b4daf1216a"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/post-midterm/F06/README.md.source",
+      "sha256": "d4a814b1378352831d392bc24ab5dc75af1d6d3b7f79ed72c75e9b6e13d74b23"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/post-midterm/README.md.source",
+      "sha256": "1819cfec61f5066bbdeb03fd1e8debb3cd5a37c56b9d4f500882bfc5ce094992"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/essays/post-midterm/S02/README.md.source",
+      "sha256": "49ec796f1faa548641588eeb5572487c28ae0b2246e4171b45c29c5b59652a23"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/evidence/README.md.source",
+      "sha256": "2ab0ab61ac07222750d68b2c77248a7bfea8908215e5d4988acb63e28848e0fa"
+    },
+    {
+      "path": "evidence/editorial/20261101/before/logs/README.md.source",
+      "sha256": "23ee352a30f4266b1fb305e0a8c50edca5441be56431d5edd6fee9e81fecd0c7"
+    },
+    {
+      "path": "evidence/selection-update/20261101/DECISION.json",
+      "sha256": "78e304ff355ecfd5e484238d3a2265d63e5675fc6aada5cc632cf6e35c2e7adb"
+    },
+    {
+      "path": "evidence/selection-update/20261101/FINAL_RECEIPT.json",
+      "sha256": "028add9f946da8f363f8bf4baac61ae0ad2b24b57954b9cc4b45f77632687bf6"
+    },
+    {
+      "path": "evidence/selection-update/20261101/IMPORT_MANIFEST.json",
+      "sha256": "efecc444ba0231d010c4d62a39a25ab143471223a8ec250dfc4457ac3e9b674e"
+    },
+    {
+      "path": "evidence/selection-update/20261101/README.md",
+      "sha256": "105d16c711ba917b2fcc7390fcc6d2d3e849d75e4ac00e56b437a6af40234677"
+    },
+    {
+      "path": "evidence/selection-update/20261101/REVISION_PLAN.json",
+      "sha256": "f7e23cc533e4b7e693f2ceb59ad9b0f8249483230aa7a80976bd051de0d2551c"
+    },
+    {
+      "path": "evidence/selection-update/20261101/SOURCE_LEDGER.json",
+      "sha256": "9b55f784cf3908ad073a9ffacfc51dec879fbf38d6f572cac6ab5a5250414cba"
+    },
+    {
+      "path": "evidence/selection-update/20261101/USER_CHOICE.txt",
+      "sha256": "18e3c8491cd3cdbc0298990009118a2a04466b807521b94f417c9841bec8f590"
+    },
+    {
+      "path": "evidence/selection-update/20261101/reports/W01-A.json",
+      "sha256": "944e313d57f8b78f6b251f281d636966ad9506c366c7196157b6bfd5e5cc8a88"
+    },
+    {
+      "path": "evidence/selection-update/20261101/reports/W01-L.json",
+      "sha256": "7b2fc06d6d7921b848bac4447c4959578fab6a899d4d7bc6a60403ded83d3d81"
+    },
+    {
+      "path": "tools/verify_reading_edition.py",
+      "sha256": "75c849b6f82ceddf0a81e33fb3173cac2d0d75dd225e10772f86e3a46d78030a"
+    }
+  ],
+  "historical_verifier": {
+    "path": "tools/verify_editorial_edition.py",
+    "sha256": "6baa247f8358e519379d72a4524b8e859e36654da9f1bcab902b0d3c4e4cca35",
+    "manifest_sha256": "e1e01f3ffc4f72a7fe47fcad9a9a7d131b879db7917057c72cd140e9d806ce6b"
+  },
+  "hash_exclusions": {
+    "logs/README.md": "Contains the externally supplied hash of this manifest; its previous version is preserved.",
+    "evidence/editorial/20261101/MANIFEST.json": "Hash supplied by the verification command, avoiding self-reference."
+  }
+}

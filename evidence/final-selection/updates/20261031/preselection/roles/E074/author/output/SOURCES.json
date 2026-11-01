@@ -1,0 +1,110 @@
+{
+  "role": "E074/author",
+  "session_id": "01a14c9a-3b25-73f3-b6dc-137aca08ef13",
+  "direct_primary_sources": [
+    {
+      "id": "P01",
+      "url": "https://www.dhamma.org/en/about/qanda",
+      "evidence_file": "evidence/P01.json",
+      "sha256": "9890d3c5775a963dfabf4b9f94a3d2dc799ca61002c5929e697e4156aaf79617",
+      "used_in_revision": true
+    },
+    {
+      "id": "P02",
+      "url": "https://www.dhamma.org/en/about/code",
+      "evidence_file": "evidence/P02.json",
+      "sha256": "a1e6638411b433dd0168de78a75f6691c8432c99f913bac8244a13c68c559b01",
+      "used_in_revision": true
+    },
+    {
+      "id": "P03",
+      "url": "https://vahehovhannisyan.com/i-left-vipassana-on-day-five",
+      "evidence_file": "evidence/P03.json",
+      "sha256": "8aee7b732bc532b405fb8673e2262ef280f9b901d65d5b9547954f611a2202e9",
+      "used_in_revision": true
+    },
+    {
+      "id": "P04",
+      "url": "https://escholarship.org/content/qt9x9649v4/qt9x9649v4_noSplash_6a388f192bbe86349cf26bdd2dd41ad0.pdf",
+      "evidence_file": "evidence/P04.json",
+      "sha256": "193fce458b802ec2cbaa1345de290a9c5b4cced0873ec19f232c301436833846",
+      "used_in_revision": true
+    },
+    {
+      "id": "P05",
+      "url": "https://www.andrewmbailey.com/wpa/PrecisPerceiving.pdf",
+      "evidence_file": "evidence/P05.json",
+      "sha256": "6008d139f4c2a5912ab431dad928fbb693c23bbf55178b4fbd0682a3d57ac024",
+      "used_in_revision": true
+    },
+    {
+      "id": "P06",
+      "url": "https://fecris.org/wp-content/uploads/2015/05/Kent-EN.pdf",
+      "evidence_file": "evidence/P06.json",
+      "sha256": "515a2c02befe33df8f8ffad67945de05546ab56147a9aeceaf702db201eb0f8f",
+      "used_in_revision": true
+    },
+    {
+      "id": "U01",
+      "url": "https://harald.co/2017/07/16/vipassana-long/",
+      "evidence_file": "evidence/U01.json",
+      "sha256": "4e2d52cfa671719d2d3153e55226668e4f6dc73051091edb7a798f1084625a76",
+      "used_in_revision": false
+    },
+    {
+      "id": "U02",
+      "url": "https://www.dhamma.org/en/about/art",
+      "evidence_file": "evidence/U02.json",
+      "sha256": "dec3c7adecfccf0fb472d3f7a909fa63bd8c275af5f34c7ad624a258ef5333dc",
+      "used_in_revision": false
+    }
+  ],
+  "inherited_sources_not_reverified": [
+    {
+      "author": "William James",
+      "work": "The Will to Believe",
+      "url": "https://www.gutenberg.org/files/26659/26659-h/26659-h.htm",
+      "support": "Assigned manuscript and assigned literature report; original section claims preserved."
+    },
+    {
+      "author": "Lara Buchak",
+      "work": "Can it be Rational to Have Faith? (2012)",
+      "url": "https://www.theapj.com/wp-content/uploads/2012/08/Buchak_Can_it_be_Rational_to_have_Faith.pdf",
+      "support": "Assigned manuscript and assigned literature report; original claims preserved."
+    },
+    {
+      "author": "C. Thi Nguyen",
+      "work": "Echo Chambers and Epistemic Bubbles",
+      "url": "https://doi.org/10.1017/epi.2018.32",
+      "support": "Assigned manuscript and assigned literature report; original selection argument preserved."
+    }
+  ],
+  "expressly_referenced_same_essay_notes_read": [
+    {
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/S/evidence/DIRECT_BUCHAK2017.json",
+      "sha256": "d1c3c290b99c9ab12df569366d98b3b399bb48c02f113b84152ea3cacb44182c",
+      "status": "Inherited source note; not substituted for new primary reading"
+    },
+    {
+      "path": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/runs/postmidterm-20261012/01-literature/E074/workers/S/evidence/DIRECT_ALSTON.json",
+      "sha256": "84e3687b63d4965fd52cb9eece9bf2abd32c6f05a3cbe2e442507a634f848e30",
+      "status": "Inherited source note; not substituted for new primary reading"
+    }
+  ],
+  "failed_accesses": [
+    {
+      "url": "https://web.archive.org/web/20240501000000/https://www.dhamma.org/en/about/qanda",
+      "result": "Web tool reported URL inaccessible; no historical snapshot read."
+    },
+    {
+      "url": "https://web.archive.org/web/20240501000000/https://www.dhamma.org/en/about/code",
+      "result": "Web tool reported URL inaccessible; no historical snapshot read."
+    }
+  ],
+  "boundaries": [
+    "Primary empirical case rests on an uncorroborated named public account plus current official rules.",
+    "No claim of independently known medical/attendance facts, historically unchanged wording, or actual institutional exclusion.",
+    "Search-result leads were not promoted to evidence; only opened primary pages in direct_primary_sources were used or considered substantively.",
+    "No full Alston book, no novelty proof, no complete empirical audit, no external outreach."
+  ]
+}

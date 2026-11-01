@@ -1,0 +1,426 @@
+{
+  "audit_id": "V07-L",
+  "manuscript_id": "V07",
+  "role": "literature",
+  "manuscript_sha256": "7e89cbede4b8b1a236ecfa87e684ba46b51707b099fa0f072ccbacb833d3b520",
+  "read_complete": true,
+  "thesis": "A person retains review of a delegated task only if relevant reasons can reach that person with adequate reliability, usability and timeliness when the recommendation process makes the particular error being reviewed. The strongest version is a necessary condition for an assigned review function, not a requirement of complete independence, unaided competence, universal human veto or guaranteed correction. Under ‘Why the route matters,’ the decisive claim is: ‘she can see the request only if the program has already decided not to dismiss it.’ Authority to reject therefore does not establish the capacity to review that dismissal.",
+  "claimed_contribution": "Under ‘What the existing accounts already establish,’ the manuscript expressly disclaims discovering the inadequacy of override. Its proposed refinements are that ‘the route to the reviewer remains adequate under the error being reviewed’ and that adequacy depends on whether review concerns an individual result or an ongoing practice. It connects these requirements to a particular person's continuing power, while allowing extensive delegation and checks within one product.",
+  "assessment": "MAJOR_CONCERN",
+  "findings": [
+    {
+      "id": "L1",
+      "severity": "major",
+      "manuscript_location": "‘What the existing accounts already establish’: ‘My proposed refinement concerns the particular failure that a review is supposed to catch’; ‘Why the route matters’: ‘A fixed inbox that displays every staff message can remain useful when a nearby recommendation model misclassifies one.’",
+      "claim": "The central safeguard has a substantially closer, uncited predecessor than the literature comparison acknowledges.",
+      "analysis": "Parasuraman, Sheridan and Wickens distinguish highlighting from filtering because the former preserves original information (§III.A, p. 288). They then permit extensive information automation conditional on access to raw data when its algorithms can be inappropriate (§IV.B.1, p. 292). This anticipates both the safeguard and its failure rationale, rather than merely warning about deskilling. The demonstrated problem is incomplete novelty positioning, not a refutation. [Primary text](https://www.researchgate.net/publication/11596569_A_model_for_types_and_levels_of_human_interaction_with_automation).",
+      "status": "demonstrated",
+      "effect_on_conclusion": "Preserving access around filtering errors cannot itself establish novelty. The argument about an assigned reviewer's power remains available.",
+      "repair_conditions": "Compare this predecessor and explain what the philosophical necessity argument adds to its design recommendation.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "id": "L2",
+      "severity": "minor",
+      "manuscript_location": "‘What the existing accounts already establish’: ‘whether the person is reviewing an individual result or the practice over time’; ‘Why the route matters’: ‘It is control over an ongoing practice, however, not an opportunity to correct every schedule before publication.’",
+      "claim": "The distinction between individual and process review is already explicit in uncited reviewability literature.",
+      "analysis": "Cobbe, Lee and Singh provide a framework for contextually appropriate evidence supporting both individual-decision review and assessment of the whole process. Section 3.2 also makes informational requirements relative to the accountability relationship. The manuscript's distinction is sound, but is not independently new. Its specific application to sampling and timely scheduling appeals is a further application. [Primary text](https://arxiv.org/pdf/2102.04201).",
+      "status": "demonstrated",
+      "effect_on_conclusion": "The claimed contribution should narrow to applying this established distinction within the proposed dependence test.",
+      "repair_conditions": "Acknowledge reviewability literature and distinguish the manuscript's particular application from the established distinction.",
+      "source_ids": [
+        "S6"
+      ]
+    },
+    {
+      "id": "L3",
+      "severity": "question",
+      "manuscript_location": "‘Why the route matters’: ‘The relevant independence is independence from the error being checked, not a count of companies, interfaces, or devices.’",
+      "claim": "A recent public draft closely overlaps this formulation, but its priority relative to the manuscript cannot be established.",
+      "analysis": "ER-018 expressly distinguishes evidential independence from numbers of reviewers or models and proposes checks targeted to consequential errors. Its page reports publication on 21 October 2026 and revision on 26 October. This is verified conceptual overlap, but the supplied manuscript has no composition or freeze date. Consequently, I cannot classify this document as demonstrably earlier than the manuscript. [Public draft](https://londonresearchcentreformarketingai.org.uk/research/024-offloading-human-oversight).",
+      "status": "unresolved",
+      "effect_on_conclusion": "Priority for this particular formulation remains unresolved; the older overlaps in L1 and L2 do not depend on this draft.",
+      "repair_conditions": "Compare the arguments if chronologically applicable, without inferring borrowing or priority from resemblance.",
+      "source_ids": [
+        "S9"
+      ]
+    }
+  ],
+  "surviving_contribution": "What survives is a philosophical synthesis and specification of an established oversight problem. Under ‘A power that lacks its occasion,’ ‘Control through review involves being able to change course for a reason’ connects information access to an individual's practical power. The matched theatre cases isolate this dependence while holding authority and competence fixed. ‘The strongest objection: all judgment depends on something’ then limits the requirement to a specified failure rather than complete independence. The sources examined do not establish that this entire argument, with its exact personal and task-relative scope, has already been made. Nevertheless, substantial components of the proposed refinements are prior results, so a claim to a newly discovered safeguard is unavailable. The major concern concerns substantiation of novelty, not fabricated citations or a demonstrated failure of the central necessary-condition argument.",
+  "remaining_questions": [
+    "Under ‘What the existing accounts already establish,’ ‘A test of relevant failures therefore develops their approach’ leaves the precise increment open: is the contribution a new necessary condition, a practical specification of tracking, or a distinction between system-wide control and a particular person's assigned review power?",
+    "Under ‘Why the route matters,’ ‘The required reliability depends on the stakes, time available, and kind of mistake’ identifies relevant variables but supplies no rule for settling adequacy. This is an acknowledged unfinished question, not a demonstrated defect; comparison with operational oversight frameworks could clarify what the proposed test adds.",
+    "Under ‘The strongest objection: all judgment depends on something,’ the proposed omission test could be presented as an application of established failure testing. What additional philosophical claim, beyond such testing, follows from passing or failing it?"
+  ],
+  "limitations": [
+    "This was a finite public-web search across 21 queries, cited sources and selected adjacent literature. It does not establish exhaustive originality or the absence of closer predecessors.",
+    "The complete supplied manuscript, including its bibliography, was read. External sources were inspected at the locations recorded below; availability of a full text is not a claim that every page of that external work was read.",
+    "Bainbridge's publisher page returned 403, and the university-hosted copy was unavailable. Its original article was inspected through a public scan. A separate Crossref API request also failed, so the DOI registration record was not independently opened.",
+    "Pettit's author-hosted chapter exceeded the web tool's document-size limit. An older author URL and the publisher route also failed. Only its primary bibliographic record was opened; its substantive argument is not counted as independently verified.",
+    "Some failed retrievals were resolved through alternative copies: Parasuraman and colleagues and Kahl were read as displayed original texts on ResearchGate. Search snippets and related-publication panels were not treated as primary-text evidence.",
+    "The manuscript supplies no date permitting priority judgments against very recent 2026 publications. Publication dates reported by public pages do not establish intellectual influence.",
+    "The manuscript invokes no mathematical theorem or equation. The audit checked the scope of its formal-source attribution to Freiesleben and colleagues, not every proof or legal proposition in that preprint.",
+    "The theatre, mailbox, calculator and speech-software examples are presented as illustrations. They were not treated as documented events or empirical demonstrations that a particular deployed channel meets the proposed reliability threshold."
+  ],
+  "plain_summary_ru": [
+    "Четыре указанные работы найдены, и проверенные пересказы соответствуют источникам.",
+    "Важные части предложенного уточнения уже есть в более ранних работах, которые здесь не обсуждаются.",
+    "Остаётся философское объяснение личного контроля, но его новизну нужно сформулировать точнее."
+  ],
+  "novelty_status": "MATERIAL_PRIOR_OVERLAP",
+  "search_log": [
+    {
+      "query": "Direct opening of the four manuscript references",
+      "purpose": "Check bibliography identity and the passages supporting the attributions before searching independently.",
+      "result_summary": "Opened the Frontiers article at https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2018.00015/full, Cohen and Suzor at https://policyreview.info/articles/analysis/contesting-public-interest-ai-governance, and the exact preprint version at https://arxiv.org/html/2605.16041v1. The Bainbridge DOI https://doi.org/10.1016/0005-1098(83)90046-8 returned 403. Read locations and access are recorded in S1–S4."
+    },
+    {
+      "query": "Bainbridge 1983 Ironies of Automation pdf",
+      "purpose": "Find an accessible original copy.",
+      "result_summary": "Opened https://gwern.net/doc/sociology/technology/1983-bainbridge.pdf successfully. https://www.sciencedirect.com/science/article/pii/0005109883900468 returned 403; https://www.ise.ncsu.edu/wp-content/uploads/2017/02/Bainbridge_1983_Automatica.pdf was inaccessible. Used the original scan, S2."
+    },
+    {
+      "query": "human oversight automation independent information error detection same system monitoring contestability",
+      "purpose": "Search the precise mechanism through oversight and error-detection terminology.",
+      "result_summary": "Located and opened the publisher texts for S7 and S8. Both supplied relevant comparisons."
+    },
+    {
+      "query": "algorithmic contestability independent review information channels omitted evidence",
+      "purpose": "Search for channels preserving evidence excluded from automated decisions.",
+      "result_summary": "Returned contestability and informational-condition leads. Unopened results were not counted as read or used to establish overlap."
+    },
+    {
+      "query": "\"human oversight\" \"independent\" \"information\" \"errors\" Langer",
+      "purpose": "Follow the error-detection predecessor.",
+      "result_summary": "Used the opened publisher text of S7, particularly its account of detection and intervention."
+    },
+    {
+      "query": "\"automation\" \"monitor\" \"common mode\" failure information",
+      "purpose": "Test adjacent engineering terminology for shared failure.",
+      "result_summary": "Did not establish a usable predecessor from this query alone; followed with a more specific independent-monitor search."
+    },
+    {
+      "query": "\"contestability\" \"filtered\" information review",
+      "purpose": "Find treatments of information filtering within contestability.",
+      "result_summary": "Returned applied contestability and legal leads. They were not counted as read without opening."
+    },
+    {
+      "query": "\"algorithmic\" \"review\" \"omitted\" evidence contestability",
+      "purpose": "Search for omitted evidence rather than explanation alone.",
+      "result_summary": "Produced adjacent legal and institutional-accountability leads, including S12, subsequently opened through an alternative route."
+    },
+    {
+      "query": "\"Reviewable Automated Decision-Making\" Cobbe Lee Singh pdf",
+      "purpose": "Check prior distinctions between case review and process review.",
+      "result_summary": "Opened https://arxiv.org/abs/2102.04201 and https://arxiv.org/pdf/2102.04201. Read the sections specified in S6."
+    },
+    {
+      "query": "\"common mode\" \"monitoring\" \"automation\" independent",
+      "purpose": "Search for checks that remain useful under the checked system's failure.",
+      "result_summary": "No substantive finding was based on this query alone."
+    },
+    {
+      "query": "\"human oversight\" \"evidence\" \"independent\" review failure",
+      "purpose": "Search directly for evidential rather than organizational independence.",
+      "result_summary": "Located and opened ER-018, S9, including its second-route argument and stated publication history."
+    },
+    {
+      "query": "\"Pettit\" \"contestatory\" \"information\" 2000 democracy",
+      "purpose": "Follow the political-theory predecessor cited by Cohen and Suzor.",
+      "result_summary": "Located the chapter; later opened its author bibliographic record. Full-text access remained unsuccessful, as recorded in S13."
+    },
+    {
+      "query": "\"independent monitor\" \"common cause\" safety",
+      "purpose": "Check whether failure-specific channel independence is an established engineering requirement.",
+      "result_summary": "Opened the manufacturer's application note S10 and inspected its independence requirements and failure-testing discussion."
+    },
+    {
+      "query": "\"Human Control Problem\" Zerilli Knott Maclaurin Gavaghan 2019 pdf",
+      "purpose": "Compare the manuscript with philosophical work on automation and control.",
+      "result_summary": "Opened https://link.springer.com/article/10.1007/s11023-019-09513-7. S11 was treated as adjacent, rather than identical, prior work."
+    },
+    {
+      "query": "\"Pettit\" \"Democracy Electoral and Contestatory\" pdf",
+      "purpose": "Retrieve the original chapter.",
+      "result_summary": "Opened https://ppettit.scholar.princeton.edu/publications/democracy-electoral-and-contestatory. Its document link https://ppettit.scholar.princeton.edu/document/981 failed because the file exceeded the tool's size limit."
+    },
+    {
+      "query": "\"Parasuraman\" \"information acquisition\" \"filtering\" 2000 automation pdf",
+      "purpose": "Search the older distinction between automating information selection and automating decisions.",
+      "result_summary": "Located the original 2000 article, subsequently opened as S5."
+    },
+    {
+      "query": "\"A model for types and levels of human interaction with automation\" pdf Parasuraman Sheridan Wickens 2000",
+      "purpose": "Obtain the original text and check the filtering claim.",
+      "result_summary": "The institutional PDF https://www.cs.uml.edu/~holly/91.550/papers/sheridan-autonomy.pdf returned 502. The displayed original article on ResearchGate was successfully opened and inspected."
+    },
+    {
+      "query": "\"Democracy, Electoral and Contestatory\" \"pdf\" Pettit Princeton",
+      "purpose": "Try alternative primary routes after the size-limit failure.",
+      "result_summary": "https://www.princeton.edu/~ppettit/papers/Democracy_Electoral_and_Contestatory_NOMOS_2000.pdf was inaccessible; https://www.degruyterbrill.com/document/doi/10.18574/nyu/9780814786628.003.0009/html returned 405. No substantive claim was inferred from snippets."
+    },
+    {
+      "query": "\"The Capture of Answerability\" Kahl",
+      "purpose": "Investigate a public working-paper lead about circular review.",
+      "result_summary": "https://philarchive.org/archive/KAHTCO-5 returned 403 and https://zenodo.org/records/20093912 was inaccessible. An author-uploaded original text was subsequently opened on ResearchGate, S12."
+    },
+    {
+      "query": "\"Parasuraman\" \"Sheridan\" \"Wickens\" \"844354\" pdf",
+      "purpose": "Locate an alternative original copy.",
+      "result_summary": "Used the successfully opened ResearchGate text of S5; the failed institutional copy was not counted as read."
+    },
+    {
+      "query": "\"A Model for Types and Levels\" \"selected\" \"excluded\"",
+      "purpose": "Check the specific relation between filtering and access.",
+      "result_summary": "The substantive result came from opening and searching S5 itself, particularly §§III.A and IV.B.1."
+    },
+    {
+      "query": "\"The Capture of Answerability\" \"20093912\" pdf",
+      "purpose": "Resolve access to the working paper.",
+      "result_summary": "Opened https://www.researchgate.net/publication/404675192_The_Capture_of_Answerability_AI_Governance_and_Institutional_Accountability and inspected the original text's structural-capture sections."
+    },
+    {
+      "query": "Bibliographic and passage follow-up opens",
+      "purpose": "Confirm version identity and exact locations.",
+      "result_summary": "Opened https://arxiv.org/abs/2605.16041v1 to confirm authors and submission date. Follow-up opens and text searches established the locations listed in sources. The attempted registration lookup https://api.crossref.org/works/10.1016%2F0005-1098%2883%2990046-8 was inaccessible."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Santoni de Sio, Filippo, and Jeroen van den Hoven. 2018. ‘Meaningful Human Control over Autonomous Systems: A Philosophical Account.’ Frontiers in Robotics and AI 5:15.",
+      "url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2018.00015/full",
+      "primary_source": true,
+      "access_level": "Publisher full text opened.",
+      "locations_read": "Publication header; ‘Conditions for Guidance Control’; ‘Tracking,’ especially reliability thresholds and whose reasons count; ‘Tracing,’ including its necessary condition.",
+      "relevant_result": "Supports the manuscript's attribution and its acknowledged dependence on an existing epistemic and moral tracking framework."
+    },
+    {
+      "id": "S2",
+      "citation": "Bainbridge, Lisanne. 1983. ‘Ironies of Automation.’ Automatica 19(6):775–779.",
+      "url": "https://gwern.net/doc/sociology/technology/1983-bainbridge.pdf",
+      "primary_source": true,
+      "access_level": "Original published article opened as a public PDF scan; publisher route blocked.",
+      "locations_read": "First-page bibliographic header; §§1.1.1–1.1.3 and 2.1, especially pp. 775–776.",
+      "relevant_result": "Supports skill-loss and monitoring claims. Section 2.1 also discusses direct-wired displays and automation concealing failure, a closer architectural connection than the manuscript emphasizes."
+    },
+    {
+      "id": "S3",
+      "citation": "Cohen, Tegan, and Nicolas P. Suzor. 2024. ‘Contesting the Public Interest in AI Governance.’ Internet Policy Review 13(3). DOI:10.14763/2024.3.1794.",
+      "url": "https://policyreview.info/articles/analysis/contesting-public-interest-ai-governance",
+      "primary_source": true,
+      "access_level": "Publisher full text opened.",
+      "locations_read": "Publication metadata; introduction; §§3.2–3.3.3, particularly §3.3 opening paragraphs and discussion of internal records.",
+      "relevant_result": "Directly supports the anti-monopoly attribution; also addresses internal checks, dependence on internal information and alternative incident reporting."
+    },
+    {
+      "id": "S4",
+      "citation": "Freiesleben, Timo, Kristof Meding, and Gunnar König. 2026. ‘Explainable AI Isn’t Enough! Rethinking Algorithmic Contestability.’ arXiv:2605.16041v1, submitted 15 May.",
+      "url": "https://arxiv.org/html/2605.16041v1",
+      "primary_source": true,
+      "access_level": "Exact-version HTML and abstract/version record opened.",
+      "locations_read": "Version header; abstract; §1; §§5.2–5.3, including Definition 14 and surrounding discussion.",
+      "relevant_result": "Supports the recourse/contestability distinction and the relevance of evidence outside the original feature set."
+    },
+    {
+      "id": "S5",
+      "citation": "Parasuraman, Raja, Thomas B. Sheridan, and Christopher D. Wickens. 2000. ‘A Model for Types and Levels of Human Interaction with Automation.’ IEEE Transactions on Systems, Man, and Cybernetics—Part A 30(3):286–297. DOI:10.1109/3468.844354.",
+      "url": "https://www.researchgate.net/publication/11596569_A_model_for_types_and_levels_of_human_interaction_with_automation",
+      "primary_source": true,
+      "access_level": "Displayed original article text opened; university PDF failed.",
+      "locations_read": "§III.A, p. 288; §IV.B.1–2, pp. 291–292.",
+      "relevant_result": "Direct predecessor to the preserved-inbox safeguard; see L1."
+    },
+    {
+      "id": "S6",
+      "citation": "Cobbe, Jennifer, Michelle Seng Ah Lee, and Jatinder Singh. 2021. ‘Reviewable Automated Decision-Making: A Framework for Accountable Algorithmic Systems.’ FAccT 2021; arXiv:2102.04201v2.",
+      "url": "https://arxiv.org/pdf/2102.04201",
+      "primary_source": true,
+      "access_level": "Original paper PDF and version record opened.",
+      "locations_read": "Abstract; §§2.3, 3.1–3.2, 4.2.1–4.2.2, 4.4 and 5; PDF pp. 1, 4–5, 7–10.",
+      "relevant_result": "Prior framework for review-relative evidence and individual/process review; see L2."
+    },
+    {
+      "id": "S7",
+      "citation": "Langer, Markus, Kevin Baum, and Nadine Schlicker. 2025, online 5 November 2024. ‘Effective Human Oversight of AI-Based Systems: A Signal Detection Perspective on the Detection of Inaccurate and Unfair Outputs.’ Minds and Machines 35:1.",
+      "url": "https://link.springer.com/article/10.1007/s11023-024-09701-0",
+      "primary_source": true,
+      "access_level": "Publisher full text opened.",
+      "locations_read": "§§2–3; discussion of individual unfairness detection; later discussion of automation level and access to applicant information.",
+      "relevant_result": "Separates detecting errors from intervening and treats evidence gathering as foundational. This supports comparison with the manuscript's rejection of random override."
+    },
+    {
+      "id": "S8",
+      "citation": "Zhu, Liming, Qinghua Lu, Ming Ding, Sung Une Lee, and Chen Wang. 2026. ‘Designing Meaningful Human Oversight in AI.’ AI and Ethics 6:286, published 4 May.",
+      "url": "https://link.springer.com/article/10.1007/s43681-026-01147-7",
+      "primary_source": true,
+      "access_level": "Publisher full text opened.",
+      "locations_read": "§§5.1–5.2 and 6; publication metadata.",
+      "relevant_result": "Presents evaluative agency without reproducing the solution, independent checks, and sampling within an oversight framework. Used for its proposed framework, not as primary experimental evidence."
+    },
+    {
+      "id": "S9",
+      "citation": "The London Research Centre for Marketing & AI. 2026. ‘Human Oversight Works Only When the Reviewer Can Change the Outcome.’ ER-018, draft; page reports publication 21 October and revision 26 October.",
+      "url": "https://londonresearchcentreformarketingai.org.uk/research/024-offloading-human-oversight",
+      "primary_source": true,
+      "access_level": "Public draft opened; primary only for its own analytical proposals.",
+      "locations_read": "Date notice; ‘Review should create a second route to the answer’; ‘Testing whether oversight adds value’; scope and disclosure.",
+      "relevant_result": "Close conceptual overlap with error-specific evidential independence. Its cited experiments were not used through this review as primary evidence."
+    },
+    {
+      "id": "S10",
+      "citation": "Infineon Technologies. 2025. ‘FuSa in a Nutshell—Fail Operational Systems and Active Suspensions.’ AN1106, version 1.0, 9 October.",
+      "url": "https://www.infineon.com/assets/row/public/documents/10/42/infineon-fusa-in-a-nutshell-fail-operational-systems-annd-active-suspensio-applicationnotes-en.pdf",
+      "primary_source": true,
+      "access_level": "Manufacturer's original application note opened.",
+      "locations_read": "§2.5; §§3.1–3.3, printed pp. 12–16; safety-analysis table, p. 19.",
+      "relevant_result": "Requires checking dependencies between redundant channels and independent acquisition paths, and includes fault-injection testing. This is an engineering analogue, not a philosophical account of personal review power."
+    },
+    {
+      "id": "S11",
+      "citation": "Zerilli, John, Alistair Knott, James Maclaurin, and Colin Gavaghan. 2019. ‘Algorithmic Decision-Making and the Control Problem.’ Minds and Machines 29:555–578.",
+      "url": "https://link.springer.com/article/10.1007/s11023-019-09513-7",
+      "primary_source": true,
+      "access_level": "Publisher full text opened; selected passages inspected.",
+      "locations_read": "Abstract; discussion of complementary human/machine capabilities; ACC claims-processing example.",
+      "relevant_result": "Adjacent account of complacency, overreliance and task allocation. It was not treated as establishing the manuscript's particular information-blocking argument."
+    },
+    {
+      "id": "S12",
+      "citation": "Kahl, Peter. 2026. ‘The Capture of Answerability: AI Governance and Institutional Accountability.’ Legal governance working paper, 9 May. DOI:10.5281/zenodo.20093912.",
+      "url": "https://www.researchgate.net/publication/404675192_The_Capture_of_Answerability_AI_Governance_and_Institutional_Accountability",
+      "primary_source": true,
+      "access_level": "Author-uploaded original text opened; PhilArchive and Zenodo retrievals failed.",
+      "locations_read": "Abstract; §§3.1–3.3, especially printed pp. 8–11; selected discussion of human oversight.",
+      "relevant_result": "Analyzes circular challenge when institutions control criteria, evidence and review forums. Used for this conceptual argument, not as verification of its legal interpretations."
+    },
+    {
+      "id": "S13",
+      "citation": "Pettit, Philip. 2000. ‘Democracy, Electoral and Contestatory.’ In Designing Democratic Institutions, edited by Ian Shapiro and Stephen Macedo, pp. 105–144. NYU Press.",
+      "url": "https://ppettit.scholar.princeton.edu/publications/democracy-electoral-and-contestatory",
+      "primary_source": true,
+      "access_level": "Author bibliographic record opened; chapter text inaccessible.",
+      "locations_read": "Bibliographic record only.",
+      "relevant_result": "Verified as a predecessor cited by Cohen and Suzor; no independently verified substantive overlap is claimed."
+    }
+  ],
+  "closest_predecessors": [
+    {
+      "source_id": "S5",
+      "overlap": "Preserving original information when automated filtering is fallible; substantive overlap documented in L1.",
+      "difference": "A design framework rather than an argument about a particular person's retained normative role.",
+      "remaining_contribution": "The personal-power interpretation and its bounded necessity claim.",
+      "evidence_location": "§III.A, p. 288; §IV.B.1, p. 292."
+    },
+    {
+      "source_id": "S1",
+      "overlap": "Control already requires responsiveness to relevant facts and reasons, with purpose-relative reliability.",
+      "difference": "Relevant control can be distributed across actors rather than retained by the particular reviewer.",
+      "remaining_contribution": "An explicit information-route condition for that person's assigned review function.",
+      "evidence_location": "‘Tracking,’ reliability paragraph and discussion of whose reasons count; ‘Tracing.’"
+    },
+    {
+      "source_id": "S3",
+      "overlap": "An actor's control over information used to assess it can undermine effective challenge.",
+      "difference": "Public contestability and institutional power are the main objects of analysis.",
+      "remaining_contribution": "A more specific test of whether evidence survives the particular error under review.",
+      "evidence_location": "§3.3, opening paragraphs and discussion of unavoidable reliance on internal records."
+    },
+    {
+      "source_id": "S6",
+      "overlap": "Evidence requirements depend on the review relationship, including individual and whole-process review.",
+      "difference": "A broad framework for records and accountability across the decision lifecycle.",
+      "remaining_contribution": "The omission scenario and its explicit contrast between timely appeal and sampling.",
+      "evidence_location": "§§2.3 and 3.2; §§4.4–5."
+    },
+    {
+      "source_id": "S2",
+      "overlap": "Automation can obscure failure; information aids can themselves fail and require alternatives.",
+      "difference": "Industrial monitoring and recovery are central, rather than the standing to reconsider staff needs.",
+      "remaining_contribution": "A controlled case isolating blocked reasons despite retained authority and competence.",
+      "evidence_location": "§§1.1.3 and 2.1, especially p. 776."
+    },
+    {
+      "source_id": "S4",
+      "overlap": "Evidence omitted from the original feature set can justify reconsidering an algorithmic decision.",
+      "difference": "Analyzes grounds for contesting a result, rather than reliable delivery of those grounds.",
+      "remaining_contribution": "The dependence between the contested classification and access to its reviewer.",
+      "evidence_location": "§1 and §5.3, Definition 14 and implementation discussion."
+    },
+    {
+      "source_id": "S7",
+      "overlap": "Effective oversight needs error detection as well as intervention.",
+      "difference": "An operational signal-detection framework, rather than a specified-channel necessity argument.",
+      "remaining_contribution": "Explaining why blocked evidence impairs role-specific power even without psychological failure.",
+      "evidence_location": "§2; §3; discussion of information access under higher automation."
+    },
+    {
+      "source_id": "S8",
+      "overlap": "Evaluation can remain human without humans reproducing the generated solution; checks and sampling support oversight.",
+      "difference": "A broader allocation of operative and evaluative agency.",
+      "remaining_contribution": "The explicit connection between a particular omission and the disappearance of its review trigger.",
+      "evidence_location": "§§5.1–5.2 and 6."
+    },
+    {
+      "source_id": "S12",
+      "overlap": "Control over the evidential and procedural conditions of challenge can make review circular.",
+      "difference": "Its central condition combines institutional captures; the manuscript isolates one failure without requiring institutional self-interest.",
+      "remaining_contribution": "A narrower diagnostic applicable to an otherwise competent, well-intentioned reviewer.",
+      "evidence_location": "§§3.1–3.3, printed pp. 8–11."
+    },
+    {
+      "source_id": "S9",
+      "overlap": "Independent evidence, rather than additional reviewer or model counts, supports error-specific checks.",
+      "difference": "Assesses review's performance and cost; relative priority is unresolved.",
+      "remaining_contribution": "The manuscript's necessary-condition argument about retained personal power.",
+      "evidence_location": "‘Review should create a second route to the answer’; ‘Testing whether oversight adds value.’"
+    }
+  ],
+  "citation_audit": [
+    {
+      "manuscript_reference": "Bainbridge 1983, ‘Ironies of Automation.’",
+      "manuscript_location": "‘What the existing accounts already establish’: ‘People may lose the skills that they will later need for exceptional cases’; reference to §§1.1–2.1, pp. 775–777.",
+      "status": "verified",
+      "evidence": "The original scan confirms author, title, year, journal, volume, issue and pages. The cited sections support skill deterioration, monitoring limitations and the problem of checking alarms or displays. The page range contains the relevant passages. Publisher and DOI-registration retrieval limitations are recorded separately.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "manuscript_reference": "Cohen and Suzor 2024, ‘Contesting the Public Interest in AI Governance.’",
+      "manuscript_location": "‘What the existing accounts already establish’: ‘an actor should not monopolize the information used to assess its conduct’ and ‘outside reviewers often must rely on internal records’; citation to §3.3.",
+      "status": "verified",
+      "evidence": "The publisher confirms both authors, title, 2024 date, volume 13(3) and DOI. Section 3.3 supports both propositions. It also allows dependence on internal functions, so the manuscript correctly avoids attributing an absolute external-independence requirement.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "manuscript_reference": "Freiesleben, Meding, and König 2026, ‘Explainable AI Isn’t Enough! Rethinking Algorithmic Contestability.’",
+      "manuscript_location": "‘What the existing accounts already establish’: ‘distinguish changing one's circumstances to obtain a different result from challenging the result's correctness’; citation to §§1 and 5.3.",
+      "status": "verified",
+      "evidence": "The exact v1 text and submission record confirm authors, title, identifier and 15 May 2026 date. Section 1 supports the distinction and the limited usefulness of standard explanations. Section 5.3 supports the additional-feature point. The manuscript does not claim that every explanation fails or import an unrestricted mathematical guarantee.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "manuscript_reference": "Santoni de Sio and van den Hoven 2018, ‘Meaningful Human Control over Autonomous Systems: A Philosophical Account.’",
+      "manuscript_location": "‘What the existing accounts already establish’: ‘Their tracking condition already asks how beliefs and actions would change with relevant facts, and allows reliability thresholds suited to the purpose’; citation to ‘Tracking’ and ‘Tracing.’",
+      "status": "verified",
+      "evidence": "Publisher metadata matches the reference. The named sections support counterfactual responsiveness, purpose-relative reliability, distributed control, and the connection to human understanding and responsibility. The manuscript correctly states that the immediate operator's reasons need not be tracked in every circumstance.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "manuscript_reference": "Uncited illustrative cases and proposed test.",
+      "manuscript_location": "‘Why the route matters’: ‘A channel that delivers only one request in a million’; ‘The strongest objection: all judgment depends on something’: ‘One bounded test would deliberately omit requests from recommendations.’",
+      "status": "verified",
+      "evidence": "These passages are explicitly illustrative or proposed, rather than reports of an experiment or deployment. No external quotation, numerical result or validation study is attributed to them. Their practical effectiveness is not established by the manuscript and was not inferred by this audit.",
+      "source_ids": []
+    }
+  ]
+}

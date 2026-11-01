@@ -1,0 +1,41 @@
+{
+  "schema": "local-launch-repair-tests.v1",
+  "status": "PASS_SYNTHETIC_PREPARATION_ONLY",
+  "created_at": "2026-10-19T05:47:31.124715+00:00",
+  "tests_run": 6,
+  "tests": [
+    "test_changed_config_and_any_final_rejected",
+    "test_fake_launch003_exact_prompt_and_no_rerun",
+    "test_nonempty_stdout_or_sid_rejected",
+    "test_other_error_or_live_process_rejected",
+    "test_ready_routes003_002_and_keeps_old_plans",
+    "test_unaccepted_failure_blocks_ready_before_append"
+  ],
+  "failures": 0,
+  "errors": 0,
+  "elapsed_seconds_observed": 2.415,
+  "scope": "Synthetic temporary files and MemoryArchive only; CLI Popen and native output mocked. No actual archive/model/collector/network operation. Exact original108, 003/002 routing, no rerun, local-init invariant tested.",
+  "frozen_v2_files_unchanged": true,
+  "files": [
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/resolver_repair.py",
+      "sha256": "d4497b32f4a0f4b93a36a1734336e93e0b01a13c65aa931d9a43191849f8d4bf",
+      "bytes": 9105
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/runner_repair.py",
+      "sha256": "f87086bf84f20852075c8ef0c5d52579bb72a82e10a88486ad3308b6309bbe29",
+      "bytes": 14011
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/ready_repair.py",
+      "sha256": "4700c6cca570801a52a97d5b57b5664ff654ab0005a55cb766c090ddbc4fd09f",
+      "bytes": 8144
+    },
+    {
+      "path": "runs/final-selection-20261018/capacity-launch-repair-001/test_launch_repair.py",
+      "sha256": "cc36b427cdcf440fd7af710c35f2fff01d1ec271e60074d08134a2a07cdfb029",
+      "bytes": 8773
+    }
+  ]
+}

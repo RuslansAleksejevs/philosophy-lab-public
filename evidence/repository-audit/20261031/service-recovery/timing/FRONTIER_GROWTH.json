@@ -1,0 +1,36 @@
+{
+  "observed_at": "2026-10-31T21:28:17.138699+00:00",
+  "baseline_sequence": 581685,
+  "observed_sequence": 595112,
+  "new_events": 13427,
+  "head_kind": "collector.coverage",
+  "head_recorded_at": "2026-10-31T21:28:13.717717+00:00",
+  "head_sha256": "9c8a2a370d3a46138aa014370e428b8066995a006b0c7199e5c081fce7819a48",
+  "current_cursors": 129,
+  "total_cached_sources": 3356,
+  "cache_snapshot_sha256": "5e00b08e24b081c8c0802c76eaab3b8fee3f0a13fec26da63d445fd68bf43ec0",
+  "boundary": "Existence-only binary frontier discovery plus bounded suffix event metadata; not an archive audit. Cache and frontier sampled consecutively while writer is running.",
+  "suffix": {
+    "from_sequence": 594613,
+    "through_sequence": 595112,
+    "kinds": {
+      "collector.tool_pending": 429,
+      "collector.message": 32,
+      "collector.lifecycle": 22,
+      "collector.model": 13,
+      "collector.coverage": 2,
+      "collector.agent_metadata": 2
+    },
+    "sessions": 2,
+    "largest_session_counts": [
+      [
+        "01a093cb-1a86-7470-898b-9430d74c3dea",
+        337
+      ],
+      [
+        "01a093c0-3f75-7f52-b67a-c0707e5c1cc7",
+        163
+      ]
+    ]
+  }
+}

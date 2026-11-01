@@ -1,0 +1,59 @@
+{
+  "review_id": "M21-N3",
+  "manuscript_id": "M21",
+  "profile_id": "neutral",
+  "read_complete": true,
+  "thesis": "Retaining meaningful review of delegated recommendations requires a sufficiently reliable, usable, and timely route to relevant reasons that survives the particular error under review. An override does not preserve this capacity when the recommending process can also suppress the information needed to question its recommendation.",
+  "contribution": "The manuscript offers a bounded diagnostic refinement of informed human control: assess informational independence relative to a specified failure, and assess evidential adequacy relative to the object of review. Its useful result is that separate providers can share a disabling information dependency, while functions within one product can preserve review. It also distinguishes correcting an individual decision from auditing a practice. This is a credible conceptual clarification, although the packet does not establish a substantial advance beyond the acknowledged literature.",
+  "argument_map": [
+    "The relevant starting point is an assigned review task, such as reconsidering schedules in light of serious staff needs. The argument assumes that this remit is defensible; it does not derive a universal requirement for human review.",
+    "Performing that task requires a practical capacity to learn reasons for reconsideration. The ability to reject randomly is insufficient because it does not make intervention responsive to the considerations the reviewer is supposed to assess.",
+    "If access to a request depends entirely on the scheduler classifying it as relevant, a classification error both creates the need for review and removes its informational occasion. Holding the manager's authority and competence fixed therefore isolates a genuine limitation of her review capacity.",
+    "A usable route that survives that error can address this limitation without guaranteeing success or requiring unaided performance of the delegated task. What matters is its dependence on the disputed judgment, rather than its organizational ownership or complete freedom from possible error.",
+    "The required evidence and timing vary with the retained task: sampling original requests may support reviewing a practice without providing an appeal against tomorrow's shift. Voluntary delegation and superior average performance can justify reduced review, but neither establishes that review remains available."
+  ],
+  "strongest_merit": {
+    "location": "“Why the route matters,” paragraphs 4–8; “The strongest objection: all judgment depends on something,” paragraphs 4–6.",
+    "reason": "The manuscript makes its necessity claim precise without requiring total independence. The contrast between filtered summaries from separate companies and an unfiltered inbox within one product shows why organizational separation is an unreliable proxy for review capacity. The proposed classification-error and intake-error tests then distinguish evidence for a bounded claim from certification of the whole arrangement. This gives the philosophical argument a practical application while directly addressing self-checking tools, correlated failures, and regress."
+  },
+  "concerns": [
+    {
+      "severity": "minor",
+      "kind": "significance",
+      "location": "“What the existing accounts already establish,” paragraph 5, read alongside paragraphs 1 and 4.",
+      "excerpt": "The test is whether the route to the reviewer remains adequate under the error being reviewed.",
+      "reason": "On the manuscript's own presentation, tracking already considers responsiveness to relevant facts, while contestability already requires alternative information and permits reliance on internal records. The proposed test plausibly makes these ideas easier to apply, but the text provides limited evidence that its refinement resolves a substantive ambiguity left by those accounts. Its demonstrated contribution is consequently more securely diagnostic than theoretically transformative.",
+      "text_response": "The manuscript explicitly calls its contribution limited. It supplies the contrasting information architectures and the distinction between individual review and practice-level audit as its added value. These examples support a modest contribution; they do not establish a larger departure from existing approaches.",
+      "discriminating_check": "Apply the proposed test and the strongest versions of the acknowledged approaches to the same architectures. Identify whether the refinement changes an assessment or makes an otherwise underspecified assessment determinate, and explain the practical importance of that difference."
+    },
+    {
+      "severity": "open",
+      "kind": "scope",
+      "location": "“Why the route matters,” paragraphs 2–4; “The strongest objection: all judgment depends on something,” paragraphs 5–6.",
+      "excerpt": "No finite arrangement can preserve review against every correlated failure.",
+      "reason": "The criterion's strength depends on which failures must be covered and what reliability counts as adequate. A route can withstand classification errors while sharing an intake failure that defeats the same advertised responsibility to review staff needs. Naming a narrow failure class establishes a local capacity, but does not itself justify a broader attribution of retained review.",
+      "text_response": "The text recognizes this limitation: task boundaries require justification, reliability depends on stakes and timing, and successful classification tests do not establish resilience to intake failures. This prevents an overclaim, but leaves the move from local test results to an adequate overall review arrangement unresolved.",
+      "discriminating_check": "Hold the advertised review responsibility, stakes, and deadline fixed. Compare arrangements with equal resilience to classification errors but different exposure to intake loss. Specify which failures the responsibility requires covering and whether each arrangement warrants the same claim of retained review."
+    }
+  ],
+  "scores": {
+    "overall": 3,
+    "argument": 4,
+    "significance": 3,
+    "originality": null
+  },
+  "originality_limit": "The manuscript identifies close precedents and acknowledges their overlap. Its examples support a useful refinement, but the supplied packet cannot establish priority or how much of that refinement is already developed elsewhere. Originality is therefore unscored.",
+  "recommendation": "borderline",
+  "reason_ru": [
+    "Эссе убедительно показывает, почему право отменить решение недостаточно, если программа скрывает причины для отмены.",
+    "Полезный результат — проверять доступ к информации при конкретной ошибке и различать пересмотр решения и аудит всей практики.",
+    "Рекомендация пограничная: аргумент крепкий, но показанный вклад в уже известные идеи остаётся скромным."
+  ],
+  "confidence": "medium",
+  "profile_basis": [],
+  "limits": [
+    "The entire supplied manuscript, including its bibliography, was read.",
+    "External source correctness and exhaustive novelty were not checked; no browsing or independent source verification was performed.",
+    "The assessment concerns the internal argument and demonstrated contribution. Unverified source claims are not treated as false attributions."
+  ]
+}

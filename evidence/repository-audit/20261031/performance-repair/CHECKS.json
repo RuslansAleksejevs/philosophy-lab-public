@@ -1,0 +1,134 @@
+{
+  "schema": "collector-performance-candidate-checks.v1",
+  "status": "PASS_CANDIDATE_ONLY_NOT_INSTALLED",
+  "tests": {
+    "count": 150,
+    "new": 10,
+    "existing": 140,
+    "elapsed_seconds": 4.086,
+    "command": "python3 -B runs/repository-rebuild-20261031/performance-review/candidate/run_tests.py",
+    "log": {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/TEST_OUTPUT.txt",
+      "sha256": "8f67ec1d0f2d37ceae640434e0a39019a29be62ee511a2c14f21a5d265e3cfc5",
+      "bytes": 25817
+    },
+    "all_selected_test_source_paths_verified": true,
+    "direct_archive_loader_verified_candidate": true
+  },
+  "ast_changed_methods": {
+    "research_archive.py": [
+      "Archive._append_prepared",
+      "Archive._audit"
+    ],
+    "collector.py": [
+      "Collector.__init__",
+      "Collector.collect_session",
+      "Collector.exclude_internal_session",
+      "Collector.record_capture_compatibility",
+      "Collector.sync_archive"
+    ]
+  },
+  "implementation_files": [
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/scripts/research_archive.py",
+      "sha256": "b2e111bcbb405d2d0d8910f70f5bc0364e24fd42d4e5a0a7e26a51e024fa790b",
+      "bytes": 42957
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/scripts/collector.py",
+      "sha256": "1da9039df67d277f19f0c29d0f178d88382937666d124a194ea08f011b4fb668",
+      "bytes": 43383
+    }
+  ],
+  "test_driver_files": [
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/run_tests.py",
+      "sha256": "de0373e13511ffd5c84f7292f7a7309d5787174c8bb3a1b8b618edf2c1bcf2a8",
+      "bytes": 2381
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/test_performance_indexes.py",
+      "sha256": "ab3cdc58cbac8cbd4646e259bc92f2207cd19f219c17ec3a58169c9047443d84",
+      "bytes": 10976
+    }
+  ],
+  "support_manifests": [
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/BASELINE.json",
+      "sha256": "93ca7aae6e24c0cfb72339e90eea255c34f71c464f978dfc2e1a1f2f8ae57476",
+      "bytes": 1235
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/REGRESSION_TEST_INPUTS.json",
+      "sha256": "058b20ba6549ee8772b2af0537ac147d05ad1f396e1fd39e098932d2e6b444d3",
+      "bytes": 2001
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/candidate/FORMAT_FIXTURE_INPUTS.json",
+      "sha256": "f067be82836a12e837c64b0d54a5f2768510a9951be3640cd4f04509ae16f6a4",
+      "bytes": 1240
+    }
+  ],
+  "readme": {
+    "path": "runs/repository-rebuild-20261031/performance-review/candidate/README_RU.txt",
+    "sha256": "d78a6484e4f634db5dee7e6121d3160d94cc972d5a803d1d0f982d2804c21d07",
+    "bytes": 4521
+  },
+  "derived_signature_with_current_config": "f369e9f62c02def03101e90372e44dd2ae5bfc00e9b7d55324f0a0e426d9755d",
+  "signature_inputs": [
+    {
+      "path": "collector/config.json",
+      "sha256": "3f37a565a8c68d05e911904a2829d73b954e59a1a537d1a18543d3800d405368",
+      "bytes": 363
+    },
+    {
+      "path": "scripts/collector.py",
+      "sha256": "1da9039df67d277f19f0c29d0f178d88382937666d124a194ea08f011b4fb668",
+      "bytes": 43383
+    },
+    {
+      "path": "scripts/collector_source.py",
+      "sha256": "5ff57125ad09caf2d4d121cc15075ed5668bcf875016093808fa4a0a36bf1ffd",
+      "bytes": 26248
+    },
+    {
+      "path": "scripts/collector_safety.py",
+      "sha256": "c5bb38c2ac923ddd2d1f23c46af340b812b6bc33c0f685eed2a479753a193db6",
+      "bytes": 2275
+    },
+    {
+      "path": "scripts/capture_codex.py",
+      "sha256": "26c6d6781df7e9e02a4c4258c699e3fb798618e6b4815ff3431b23c31399f2c7",
+      "bytes": 48221
+    },
+    {
+      "path": "scripts/codex_rollout.py",
+      "sha256": "541e2506db54b1d8f332bdc14dc7eb4480f9640617ddc77acc7eab752ffdea5e",
+      "bytes": 7213
+    },
+    {
+      "path": "scripts/research_archive.py",
+      "sha256": "b2e111bcbb405d2d0d8910f70f5bc0364e24fd42d4e5a0a7e26a51e024fa790b",
+      "bytes": 42957
+    },
+    {
+      "path": "scripts/collector_views.py",
+      "sha256": "7244cf0cd8e3fec51cf46a60c43b0defd32d99ad31b04e5ff77294bd445e3a84",
+      "bytes": 25608
+    },
+    {
+      "path": "collector/capture-compatibility.json",
+      "sha256": "bae8766fa89f91c55d03270ca915f544542a8b1456a0f129b6cafe338953e1da",
+      "bytes": 485
+    }
+  ],
+  "production_unchanged_against_baseline": true,
+  "new_compatibility_rules": false,
+  "cache_write_frequency_unchanged": true,
+  "audit_and_canonical_durability_unchanged": true,
+  "real_archive_reads": 0,
+  "canonical_writes": 0,
+  "service_actions": 0,
+  "model_calls": 0,
+  "boundary": "Synthetic correctness and deterministic complexity guards; no real speedup measurement or new coverage guarantee. Initial first test-routing result was superseded by the exact copied-suite run recorded here."
+}

@@ -1,0 +1,32 @@
+{
+  "status": "SAME_AGENT_BOUNDED_TEST",
+  "prediction_file": "predictions-before-reading.json",
+  "heldout_source_id": "S3",
+  "outcomes": [
+    {
+      "id": "P1",
+      "result": "MATCH",
+      "evidence": "S3 lines36–47 reconstruct the ambition; line86 values local contributions despite criticism."
+    },
+    {
+      "id": "P2",
+      "result": "MATCH",
+      "evidence": "S3 lines60–63 discuss a counterexample and charitable repair;71–78 test what contextualism explains."
+    },
+    {
+      "id": "P3",
+      "result": "PARTIAL",
+      "evidence": "S3 lines69–81 separate the explanatory program from local achievements. A direct formal-model-versus-intuition contrast was not found; the prediction was too specific in that respect."
+    }
+  ],
+  "limits": [
+    "One judgment, same constructing agent; uncontrolled possible pretraining exposure.",
+    "Title/catalogue information was seen beforehand.",
+    "Broad methodological predictions can match many philosophers; no predictive accuracy or profile fidelity established.",
+    "Original older URL failed before the successful review body was accessed."
+  ],
+  "judge_id": "bernhard_salow",
+  "recorded_date": "2026-10-07",
+  "post_check_use": "Held-out source, where tested, may now inform v1; it is no longer reserved for subsequent tests."
+}
+

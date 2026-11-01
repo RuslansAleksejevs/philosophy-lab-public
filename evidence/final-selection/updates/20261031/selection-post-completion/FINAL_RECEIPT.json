@@ -1,0 +1,95 @@
+{
+  "status": "SELECTION_GOAL_DELIVERABLES_COMPLETE_BOUNDED",
+  "completed_at": "2026-10-19T07:53:52.676140+00:00",
+  "finite_selection_receipt": {
+    "path": "runs/final-selection-20261018/FINAL_RECEIPT.json",
+    "sha256": "783d3e52a15e42c999dc83db36a1ff90e4f74c923675ad9729453c9ed142a7b2",
+    "bytes": 170443
+  },
+  "finite_selection_event_id": "event-7358790dac874fc78e327b60a3fbe014",
+  "finite_accepted_files_rechecked_unchanged": 709,
+  "individual_reviews": 110,
+  "pair_reviews": 50,
+  "pairs": 10,
+  "initial_60_reviews_repeated": false,
+  "review_model": "gpt-6-astra",
+  "review_effort": "ultra",
+  "neutral_profile_ratio": "60/40",
+  "selected": {
+    "main": 8,
+    "wildcard": 2
+  },
+  "reading_index": {
+    "path": "runs/final-selection-20261018/reading/INDEX.md",
+    "sha256": "7f2b7ba2b806273bfd9da06bfa0fcdf2f3c973d5ed4ce51565752c6a6fa5eadc",
+    "bytes": 297
+  },
+  "decision_report": {
+    "path": "runs/final-selection-20261018/22_CANDIDATES_RU.md",
+    "sha256": "db49122d0da0cb19f5e29344c425525dec418fe19a1758bcfb129ba3369bb64a",
+    "bytes": 29711
+  },
+  "project_memory_update": {
+    "path": "runs/final-selection-20261018/post-completion/MEMORY_UPDATE.json",
+    "sha256": "33bffe7add2544e6690e589e8ee738430a36826aa31eb28cc46ec6eed2c86289",
+    "bytes": 865
+  },
+  "github": {
+    "receipt": {
+      "path": "runs/github-selection-20261018/REMOTE_UPDATE_RECEIPT.json",
+      "sha256": "5aadb304d61d180a12e345f2603e667ef58079f27965943a56845d6983042b1a",
+      "bytes": 10899
+    },
+    "mechanical_audit": {
+      "path": "runs/github-selection-20261018/ACTUAL_UPLOAD_AUDIT.json",
+      "sha256": "d7e83414408ac7d03f306f6b74c4a6d66d4a122dab43f270982d81616bc1be62",
+      "bytes": 48530
+    },
+    "editorial_audit": {
+      "path": "runs/github-selection-20261018/ACTUAL_EDITORIAL_COHERENCE_CHECK.json",
+      "sha256": "dd31e8fafa84f0883d9a9902c5b22532759789702d978e6f007ed43d86525a8f",
+      "bytes": 14462
+    },
+    "repository": "RuslansAleksejevs/philosophy-lab",
+    "visibility": "private",
+    "branch": "main",
+    "commit_sha": "467cdcebe3207cb7b141f7d924124bed007fd496",
+    "parent_sha": "a839f80621d1aa6c5db793b7e7b443f7153825f6",
+    "tree_sha": "3ac297322e8f3b27195130249922ec7a306116ad",
+    "url": "https://github.com/RuslansAleksejevs/philosophy-lab/commit/467cdcebe3207cb7b141f7d924124bed007fd496",
+    "force": false
+  },
+  "collector": {
+    "restored": true,
+    "configuration_unchanged": true,
+    "start": {
+      "path": "runs/final-selection-20261018/post-completion/COLLECTOR_START.json",
+      "sha256": "b90a410c43dc6e1965529ffa80c795a485ad7fc23bb8fcf4b3e9213078b9f8cf",
+      "bytes": 223
+    },
+    "process_readback": {
+      "path": "runs/final-selection-20261018/post-completion/COLLECTOR_RESTORE_READBACK.json",
+      "sha256": "d2f5e0f81678b7127b5f013ebe0b95a8ecce26cc483c1ce19bffdce70468e41a",
+      "bytes": 3771
+    },
+    "latest_status": {
+      "path": "runs/final-selection-20261018/post-completion/COLLECTOR_STATUS_FINAL.json",
+      "sha256": "fde80251a4ec03c78655ce39aa96317c4e96134b5047ec917db24228bef3da7c",
+      "bytes": 880
+    },
+    "service_loaded": true,
+    "observed_pid": 6519,
+    "service_healthy": false,
+    "coverage_healthy": null,
+    "boundary": "Restoration confirms unchanged service loaded and observed process running. It does not certify backlog catch-up or complete historical/provider capture."
+  },
+  "local_repository": {
+    "head": "a839f80621d1aa6c5db793b7e7b443f7153825f6",
+    "clean": true,
+    "remote_ahead": true,
+    "boundary": "The local repository/ checkout was not synchronized; do not push its older HEAD over the verified remote update."
+  },
+  "pending_goal_steps": [],
+  "stop_point": "Ten essays ready for user reading. No final-three selection or submission. Further research requires the next user instruction.",
+  "archive_boundary": "This ordinary post-completion receipt binds actual external/update steps. It does not alter the accepted finite archive receipt or assert canonical ingestion of these later administrative records. Retained capture gaps and the core INCOMPLETE checkpoint remain."
+}

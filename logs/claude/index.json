@@ -1,0 +1,1392 @@
+{
+  "collections": [
+    {
+      "collection": "01-claude10-cli-remainder-v2-ready-20260920",
+      "source": "runs/claude10-cli-autorepair-20260921/campaign-collection-001",
+      "manifest_id": "claude10-cli-remainder-v2-ready-20260920",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 5,
+        "provider.visible": 328,
+        "files.snapshot": 72,
+        "source.capture": 19,
+        "native.observations": 5,
+        "output.validation": 5,
+        "attempt.finished": 5,
+        "runtime.adapter": 3,
+        "output.repair_requested": 1
+      },
+      "records": "collections/01-claude10-cli-remainder-v2-ready-20260920/records.jsonl",
+      "records_sha256": "6488eaffc4b2a7ead66e69d676e33ce986318a782395882f10b54514372ac54c",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/01-claude10-cli-remainder-v2-ready-20260920/records.jsonl"
+    },
+    {
+      "collection": "02-claude10-cli-remainder-v2-ready-20260920",
+      "source": "runs/claude10-cli-autorepair-resume-20260921/campaign-collection-001",
+      "manifest_id": "claude10-cli-remainder-v2-ready-20260920",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 7,
+        "provider.visible": 554,
+        "files.snapshot": 136,
+        "source.capture": 39,
+        "native.observations": 7,
+        "output.validation": 7,
+        "attempt.finished": 7,
+        "runtime.adapter": 4,
+        "output.repair_requested": 2
+      },
+      "records": "collections/02-claude10-cli-remainder-v2-ready-20260920/records.jsonl",
+      "records_sha256": "b6393160720bcfaa33219c75814d812769aca10633c7be32930dca8d8315fe2f",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/02-claude10-cli-remainder-v2-ready-20260920/records.jsonl"
+    },
+    {
+      "collection": "03-claude10-cli-remainder-v2-ready-20260920",
+      "source": "runs/claude10-cli-opus55-20260923/campaign-collection-001",
+      "manifest_id": "claude10-cli-remainder-v2-ready-20260920",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 16,
+        "provider.visible": 1362,
+        "files.snapshot": 306,
+        "source.capture": 78,
+        "native.observations": 16,
+        "output.validation": 16,
+        "attempt.finished": 16,
+        "runtime.adapter": 8,
+        "output.repair_requested": 2,
+        "runtime.model_transition": 1
+      },
+      "records": "collections/03-claude10-cli-remainder-v2-ready-20260920/records.jsonl",
+      "records_sha256": "6216db1a7f955737cd21003b1e0f7e7a4ae73ebd96b08a588762e819f5e04770",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/03-claude10-cli-remainder-v2-ready-20260920/records.jsonl"
+    },
+    {
+      "collection": "04-claude10-cli-remainder-v2-ready-20260920",
+      "source": "runs/claude10-cli-opus55-updated-20260923/campaign-collection-001",
+      "manifest_id": "claude10-cli-remainder-v2-ready-20260920",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 17,
+        "provider.visible": 1442,
+        "files.snapshot": 319,
+        "source.capture": 78,
+        "native.observations": 17,
+        "output.validation": 17,
+        "attempt.finished": 17,
+        "runtime.adapter": 9,
+        "output.repair_requested": 2,
+        "runtime.model_transition": 2
+      },
+      "records": "collections/04-claude10-cli-remainder-v2-ready-20260920/records.jsonl",
+      "records_sha256": "4e45334b441ed7d4d2c847a80d613064c764bdf3d1d1985bcd01daddcb680498",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/04-claude10-cli-remainder-v2-ready-20260920/records.jsonl"
+    },
+    {
+      "collection": "05-claude10-cli-remainder-v2-ready-20260920",
+      "source": "runs/claude10-cli-resume-20260920-1826/campaign-collection-001",
+      "manifest_id": "claude10-cli-remainder-v2-ready-20260920",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 3,
+        "provider.visible": 228,
+        "files.snapshot": 34,
+        "source.capture": 19,
+        "native.observations": 3,
+        "output.validation": 3,
+        "attempt.finished": 3,
+        "runtime.adapter": 1
+      },
+      "records": "collections/05-claude10-cli-remainder-v2-ready-20260920/records.jsonl",
+      "records_sha256": "d0ea0805ddbefb8a610ce8b8856244b35d88559ac11fc9dab6eb7dc6e32f7ce6",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/05-claude10-cli-remainder-v2-ready-20260920/records.jsonl"
+    },
+    {
+      "collection": "06-claude10-cli-remainder-v2-ready-20260920",
+      "source": "runs/claude10-cli-resume-20260920-2342/campaign-collection-001",
+      "manifest_id": "claude10-cli-remainder-v2-ready-20260920",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 4,
+        "provider.visible": 325,
+        "files.snapshot": 72,
+        "source.capture": 19,
+        "native.observations": 4,
+        "output.validation": 4,
+        "attempt.finished": 4,
+        "runtime.adapter": 2
+      },
+      "records": "collections/06-claude10-cli-remainder-v2-ready-20260920/records.jsonl",
+      "records_sha256": "cc3dcea9b5a4163253f8831adf42028c62cf5c5265c5b411a0ee353c5d855a57",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/06-claude10-cli-remainder-v2-ready-20260920/records.jsonl"
+    },
+    {
+      "collection": "07-claude10-cli-remainder-v2-ready-20260920",
+      "source": "runs/claude10-cli-xhigh-finish-20260921/campaign-collection-001",
+      "manifest_id": "claude10-cli-remainder-v2-ready-20260920",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 10,
+        "provider.visible": 874,
+        "files.snapshot": 205,
+        "source.capture": 54,
+        "native.observations": 10,
+        "output.validation": 10,
+        "attempt.finished": 10,
+        "runtime.adapter": 5,
+        "output.repair_requested": 2
+      },
+      "records": "collections/07-claude10-cli-remainder-v2-ready-20260920/records.jsonl",
+      "records_sha256": "1bd7dfd81fc6393fb551fe1cfb329194e96ba1e3bba0ebbe296f64f88e69d081",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/07-claude10-cli-remainder-v2-ready-20260920/records.jsonl"
+    },
+    {
+      "collection": "08-claude10-cli-remainder-v2-ready-20260920",
+      "source": "runs/claude10-cli-xhigh-resume-20260922/campaign-collection-001",
+      "manifest_id": "claude10-cli-remainder-v2-ready-20260920",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 11,
+        "provider.visible": 1034,
+        "files.snapshot": 259,
+        "source.capture": 64,
+        "native.observations": 11,
+        "output.validation": 11,
+        "attempt.finished": 11,
+        "runtime.adapter": 6,
+        "output.repair_requested": 2
+      },
+      "records": "collections/08-claude10-cli-remainder-v2-ready-20260920/records.jsonl",
+      "records_sha256": "9f23242ad8a078513cada59768032ddb68c124dc143611fa1936c281628c2e1a",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/08-claude10-cli-remainder-v2-ready-20260920/records.jsonl"
+    },
+    {
+      "collection": "09-claude10-cli-remainder-v2-ready-20260920",
+      "source": "runs/claude10-cli-xhigh-resume2-20260922/campaign-collection-001",
+      "manifest_id": "claude10-cli-remainder-v2-ready-20260920",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 15,
+        "provider.visible": 1359,
+        "files.snapshot": 306,
+        "source.capture": 78,
+        "native.observations": 15,
+        "output.validation": 15,
+        "attempt.finished": 15,
+        "runtime.adapter": 7,
+        "output.repair_requested": 2
+      },
+      "records": "collections/09-claude10-cli-remainder-v2-ready-20260920/records.jsonl",
+      "records_sha256": "a8658a430b4d95663eb9fcf7e7d755f01cacf4a37f7f491fa396f9e223b371d5",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/09-claude10-cli-remainder-v2-ready-20260920/records.jsonl"
+    },
+    {
+      "collection": "10-claude10-cli-remainder-v2-ready-20260920",
+      "source": "runs/cli-repair-launch-20260920/campaign-collection-001",
+      "manifest_id": "claude10-cli-remainder-v2-ready-20260920",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 78,
+        "files.snapshot": 13,
+        "source.capture": 12,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/10-claude10-cli-remainder-v2-ready-20260920/records.jsonl",
+      "records_sha256": "6eb69e629df05f510d8dc31607ec3509f23246e79ac14d1e6da9c87cbc5d0c81",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/10-claude10-cli-remainder-v2-ready-20260920/records.jsonl"
+    },
+    {
+      "collection": "11-cli-source-repaired-20260920",
+      "source": "runs/cli-repair-launch-20260920/smoke-collection",
+      "manifest_id": "cli-source-repaired-20260920",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 2,
+        "provider.visible": 48,
+        "files.snapshot": 8,
+        "source.capture": 2,
+        "native.observations": 2,
+        "output.validation": 2,
+        "attempt.finished": 2
+      },
+      "records": "collections/11-cli-source-repaired-20260920/records.jsonl",
+      "records_sha256": "79cd5dfb315a143c4d33f1727462d7007d8f3edef13da91b6af783b955363a53",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/11-cli-source-repaired-20260920/records.jsonl"
+    },
+    {
+      "collection": "12-cli-smoke-20260920",
+      "source": "runs/cli-smoke-live-20260920/collection",
+      "manifest_id": "cli-smoke-20260920",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 4,
+        "provider.visible": 35,
+        "files.snapshot": 7,
+        "attempt.finished": 4
+      },
+      "records": "collections/12-cli-smoke-20260920/records.jsonl",
+      "records_sha256": "2afa82bf459de67eec5feed7dc4ecbe91b565006f1ee4e9ad61b3bb6233b4f41",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/12-cli-smoke-20260920/records.jsonl"
+    },
+    {
+      "collection": "13-cli-source-check-20260920",
+      "source": "runs/cli-source-check-20260920/collection",
+      "manifest_id": "cli-source-check-20260920",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 2,
+        "provider.visible": 27,
+        "files.snapshot": 5,
+        "attempt.finished": 2
+      },
+      "records": "collections/13-cli-source-check-20260920/records.jsonl",
+      "records_sha256": "277e082bbfaafbad9ef00b8dd5157be70706fa2c43c3d75f4a1def8f3519e8c3",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/13-cli-source-check-20260920/records.jsonl"
+    },
+    {
+      "collection": "14-midterm-a0-error-validator-20261010-v1",
+      "source": "runs/midterm-20261007/a0-b-launch-20261010/A0/error-validator/collection-001",
+      "manifest_id": "midterm-a0-error-validator-20261010-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 49,
+        "files.snapshot": 9,
+        "provider.rate_limit": 4,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/14-midterm-a0-error-validator-20261010-v1/records.jsonl",
+      "records_sha256": "b70371d40230a1eca3d1793fc1293716a163313e08dd99363018b6d4ae8996aa",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/14-midterm-a0-error-validator-20261010-v1/records.jsonl"
+    },
+    {
+      "collection": "15-midterm-a0-style-author-20261010-v1",
+      "source": "runs/midterm-20261007/a0-b-launch-20261010/A0/style-author/collection-001",
+      "manifest_id": "midterm-a0-style-author-20261010-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 36,
+        "files.snapshot": 15,
+        "provider.rate_limit": 5,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/15-midterm-a0-style-author-20261010-v1/records.jsonl",
+      "records_sha256": "420f54661d3bc0ca27853a17223d46dbdc2669f75825d70419ea732415cb11f3",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/15-midterm-a0-style-author-20261010-v1/records.jsonl"
+    },
+    {
+      "collection": "16-midterm-a0-style-repair-20261010-r1",
+      "source": "runs/midterm-20261007/a0-b-launch-20261010/A0/style-repair-r1/collection-001",
+      "manifest_id": "midterm-a0-style-repair-20261010-r1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 29,
+        "files.snapshot": 9,
+        "provider.rate_limit": 6,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/16-midterm-a0-style-repair-20261010-r1/records.jsonl",
+      "records_sha256": "633be46bde5641c3989ac782991a6c7344ade3bef293cc801d14b18bcb190df6",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/16-midterm-a0-style-repair-20261010-r1/records.jsonl"
+    },
+    {
+      "collection": "17-midterm-20261007-e010",
+      "source": "runs/midterm-20261007/claude-runs/E010/collection-001",
+      "manifest_id": "midterm-20261007-e010",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 14,
+        "files.snapshot": 5,
+        "provider.rate_limit": 1,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/17-midterm-20261007-e010/records.jsonl",
+      "records_sha256": "5a7b3b18e57e7a4cfa82e2d7646d6bc5daecdf7239f71fe2672b81717ebeb14e",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/17-midterm-20261007-e010/records.jsonl"
+    },
+    {
+      "collection": "18-midterm-20261007-e015",
+      "source": "runs/midterm-20261007/claude-runs/E015/collection-001",
+      "manifest_id": "midterm-20261007-e015",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 15,
+        "files.snapshot": 5,
+        "provider.rate_limit": 1,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/18-midterm-20261007-e015/records.jsonl",
+      "records_sha256": "c002460ebfea15aed250b8e5f8b942ab6b224e2a382078522d3e1c6e3834c27b",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/18-midterm-20261007-e015/records.jsonl"
+    },
+    {
+      "collection": "19-midterm-20261007-e036",
+      "source": "runs/midterm-20261007/claude-runs/E036/collection-001",
+      "manifest_id": "midterm-20261007-e036",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 14,
+        "files.snapshot": 5,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/19-midterm-20261007-e036/records.jsonl",
+      "records_sha256": "62156467282018dffd845147ddd3965d5d0f53159a742d49ef118a6f293cb1ec",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/19-midterm-20261007-e036/records.jsonl"
+    },
+    {
+      "collection": "20-midterm-selective-20261008-e009",
+      "source": "runs/midterm-20261007/claude-selective-20261008/E009/collection-001",
+      "manifest_id": "midterm-selective-20261008-e009",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 82,
+        "files.snapshot": 21,
+        "provider.rate_limit": 7,
+        "source.capture": 13,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/20-midterm-selective-20261008-e009/records.jsonl",
+      "records_sha256": "c29ee387e09de6fa4c38d4103fbd990443c8838b6f276d743bcd4af4799f86ac",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/20-midterm-selective-20261008-e009/records.jsonl"
+    },
+    {
+      "collection": "21-midterm-selective-20261008-e022",
+      "source": "runs/midterm-20261007/claude-selective-20261008/E022/collection-001",
+      "manifest_id": "midterm-selective-20261008-e022",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 67,
+        "files.snapshot": 18,
+        "provider.rate_limit": 9,
+        "source.capture": 8,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/21-midterm-selective-20261008-e022/records.jsonl",
+      "records_sha256": "142f592e6f771f1a9d6f1ca5253f74e2d9b98b4e689634746f3509187800ccb4",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/21-midterm-selective-20261008-e022/records.jsonl"
+    },
+    {
+      "collection": "22-midterm-selective-20261008-e036",
+      "source": "runs/midterm-20261007/claude-selective-20261008/E036/collection-001",
+      "manifest_id": "midterm-selective-20261008-e036",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 49,
+        "files.snapshot": 14,
+        "provider.rate_limit": 7,
+        "source.capture": 6,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/22-midterm-selective-20261008-e036/records.jsonl",
+      "records_sha256": "ceef3f5fc5118e9d190da87ee7bd3d0c2ed0a3dffdcc47d29894728442616b2e",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/22-midterm-selective-20261008-e036/records.jsonl"
+    },
+    {
+      "collection": "23-midterm-selective-20261008-e050",
+      "source": "runs/midterm-20261007/claude-selective-20261008/E050/collection-001",
+      "manifest_id": "midterm-selective-20261008-e050",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 70,
+        "files.snapshot": 17,
+        "provider.rate_limit": 8,
+        "source.capture": 7,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/23-midterm-selective-20261008-e050/records.jsonl",
+      "records_sha256": "5fcc655273c48919971561591858401d545edf511f998fcf7294ff5445a3aa7f",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/23-midterm-selective-20261008-e050/records.jsonl"
+    },
+    {
+      "collection": "24-midterm-selective-20261008-e055",
+      "source": "runs/midterm-20261007/claude-selective-20261008/E055/collection-001",
+      "manifest_id": "midterm-selective-20261008-e055",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 59,
+        "files.snapshot": 14,
+        "provider.rate_limit": 6,
+        "source.capture": 6,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/24-midterm-selective-20261008-e055/records.jsonl",
+      "records_sha256": "7aae8f3b4bf4a32900185c2523aa82bcf986529af1a367fea166118d18401b1b",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/24-midterm-selective-20261008-e055/records.jsonl"
+    },
+    {
+      "collection": "25-midterm-selective-20261008-e078",
+      "source": "runs/midterm-20261007/claude-selective-20261008/E078/collection-001",
+      "manifest_id": "midterm-selective-20261008-e078",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 89,
+        "files.snapshot": 24,
+        "provider.rate_limit": 8,
+        "source.capture": 16,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/25-midterm-selective-20261008-e078/records.jsonl",
+      "records_sha256": "5e658c05cb6f516bb87404a0c0974ee16335bab14519b395c28927f2e2051e6e",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/25-midterm-selective-20261008-e078/records.jsonl"
+    },
+    {
+      "collection": "26-midterm-selective-20261008-e079",
+      "source": "runs/midterm-20261007/claude-selective-20261008/E079/collection-001",
+      "manifest_id": "midterm-selective-20261008-e079",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 54,
+        "files.snapshot": 15,
+        "provider.rate_limit": 6,
+        "source.capture": 7,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/26-midterm-selective-20261008-e079/records.jsonl",
+      "records_sha256": "1939b4c3a83f70885822b7a56665f936ce6ecbd6a7974cf911b852c737d86aa7",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/26-midterm-selective-20261008-e079/records.jsonl"
+    },
+    {
+      "collection": "27-midterm-selective-20261008-e096",
+      "source": "runs/midterm-20261007/claude-selective-20261008/E096/collection-001",
+      "manifest_id": "midterm-selective-20261008-e096",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 66,
+        "files.snapshot": 20,
+        "provider.rate_limit": 8,
+        "source.capture": 8,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/27-midterm-selective-20261008-e096/records.jsonl",
+      "records_sha256": "a510f9ec15970740206fadc4f46e3ec666f0dc91ab2a714cd9c332396d11a263",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/27-midterm-selective-20261008-e096/records.jsonl"
+    },
+    {
+      "collection": "28-midterm-selective-20261008-e100",
+      "source": "runs/midterm-20261007/claude-selective-20261008/E100/collection-001",
+      "manifest_id": "midterm-selective-20261008-e100",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 26,
+        "files.snapshot": 9,
+        "provider.rate_limit": 4,
+        "source.capture": 1,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/28-midterm-selective-20261008-e100/records.jsonl",
+      "records_sha256": "2c3b6338456b4a6d96235e1fedafb61113cd32260b552581ae2ea77c44d5dbfa",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/28-midterm-selective-20261008-e100/records.jsonl"
+    },
+    {
+      "collection": "29-midterm-closure-20261011-critic-xhigh",
+      "source": "runs/midterm-20261007/closure-20261010/claude-critic-xhigh/collection-001",
+      "manifest_id": "midterm-closure-20261011-critic-xhigh",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 24,
+        "files.snapshot": 6,
+        "provider.rate_limit": 5,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/29-midterm-closure-20261011-critic-xhigh/records.jsonl",
+      "records_sha256": "5ea7e0d39afd11117a425e4c1f187c2bde3594823bd25cdb42f9186ea5790a47",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/29-midterm-closure-20261011-critic-xhigh/records.jsonl"
+    },
+    {
+      "collection": "30-midterm-diagnostic-j001-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J001/collection-001",
+      "manifest_id": "midterm-diagnostic-j001-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 15,
+        "files.snapshot": 5,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/30-midterm-diagnostic-j001-20261011-once-v1/records.jsonl",
+      "records_sha256": "5fa213ce3f548628159e2ec3c2f1d1372e81c2f2f0725c5dc6a6fd8eaba4a3f4",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/30-midterm-diagnostic-j001-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "31-midterm-diagnostic-j007-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J007/collection-001",
+      "manifest_id": "midterm-diagnostic-j007-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 15,
+        "files.snapshot": 5,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/31-midterm-diagnostic-j007-20261011-once-v1/records.jsonl",
+      "records_sha256": "b772b197d5366b019c9b1d3c6974c44f201fdc6d314046fe4e0f4b0daf366b2f",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-01.tar.gz",
+      "records_member": "claude/collections/31-midterm-diagnostic-j007-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "32-midterm-diagnostic-j008-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J008/collection-001",
+      "manifest_id": "midterm-diagnostic-j008-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 15,
+        "files.snapshot": 6,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/32-midterm-diagnostic-j008-20261011-once-v1/records.jsonl",
+      "records_sha256": "4c2d8c1a67f2e65bcec57dcb6fbdb67288f0cc8d48ccd8148d08a2852a2fdbfa",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/32-midterm-diagnostic-j008-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "33-midterm-diagnostic-j009-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J009/collection-001",
+      "manifest_id": "midterm-diagnostic-j009-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 14,
+        "files.snapshot": 5,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/33-midterm-diagnostic-j009-20261011-once-v1/records.jsonl",
+      "records_sha256": "2588c1849ecfb14eeaafa19014b75aed3131610e4b0acc1b580e74df63580b29",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/33-midterm-diagnostic-j009-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "34-midterm-diagnostic-j012-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J012/collection-001",
+      "manifest_id": "midterm-diagnostic-j012-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 15,
+        "files.snapshot": 5,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/34-midterm-diagnostic-j012-20261011-once-v1/records.jsonl",
+      "records_sha256": "ad163579bdd631ab428ea49c447203a5a033cc771f69405ef368d9fb9378fd29",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/34-midterm-diagnostic-j012-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "35-midterm-diagnostic-j022-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J022/collection-001",
+      "manifest_id": "midterm-diagnostic-j022-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 14,
+        "files.snapshot": 5,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/35-midterm-diagnostic-j022-20261011-once-v1/records.jsonl",
+      "records_sha256": "682b14a8eea5edb636fdd27706e23853e16348cdfc307c8ae8808fa7f9ddc583",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/35-midterm-diagnostic-j022-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "36-midterm-diagnostic-j023-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J023/collection-001",
+      "manifest_id": "midterm-diagnostic-j023-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 14,
+        "files.snapshot": 5,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/36-midterm-diagnostic-j023-20261011-once-v1/records.jsonl",
+      "records_sha256": "e8119ea72221d3e9a83f3531cb3406fe46c372d89c392ee698a7e358015e988d",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/36-midterm-diagnostic-j023-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "37-midterm-diagnostic-j026-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J026/collection-001",
+      "manifest_id": "midterm-diagnostic-j026-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 15,
+        "files.snapshot": 5,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/37-midterm-diagnostic-j026-20261011-once-v1/records.jsonl",
+      "records_sha256": "9e3e19ad039e64ac40ebcd9e07e46a74bbdbbb227b8ba9003280b4f50c088e49",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/37-midterm-diagnostic-j026-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "38-midterm-diagnostic-j031-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J031/collection-001",
+      "manifest_id": "midterm-diagnostic-j031-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 14,
+        "files.snapshot": 5,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/38-midterm-diagnostic-j031-20261011-once-v1/records.jsonl",
+      "records_sha256": "ff276627576bc0fb85af38eba97c09a198babdc2507bc353f314ba95f261ce04",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/38-midterm-diagnostic-j031-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "39-midterm-diagnostic-j032-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J032/collection-001",
+      "manifest_id": "midterm-diagnostic-j032-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 15,
+        "files.snapshot": 6,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/39-midterm-diagnostic-j032-20261011-once-v1/records.jsonl",
+      "records_sha256": "ed074a898722ec810ce88c584cc6cfba7f93d493365833c31ed3722ae29dcbf4",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/39-midterm-diagnostic-j032-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "40-midterm-diagnostic-j035-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J035/collection-001",
+      "manifest_id": "midterm-diagnostic-j035-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 16,
+        "files.snapshot": 5,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/40-midterm-diagnostic-j035-20261011-once-v1/records.jsonl",
+      "records_sha256": "f34829a5e0e6b823c754e2419e48d366c367ebe23499b6013db41d869c30c89e",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/40-midterm-diagnostic-j035-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "41-midterm-diagnostic-j037-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J037/collection-001",
+      "manifest_id": "midterm-diagnostic-j037-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 15,
+        "files.snapshot": 5,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/41-midterm-diagnostic-j037-20261011-once-v1/records.jsonl",
+      "records_sha256": "843ec43d1361cdf52e485f8fa29d0a9776356569971e165ae76a96c25543f7b1",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/41-midterm-diagnostic-j037-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "42-midterm-diagnostic-j038-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J038/collection-001",
+      "manifest_id": "midterm-diagnostic-j038-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 13,
+        "files.snapshot": 5,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/42-midterm-diagnostic-j038-20261011-once-v1/records.jsonl",
+      "records_sha256": "b1856d96d7585559a41a3e5a277b2b57e1f93302db5c4eeb86fd0e56b4f34011",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/42-midterm-diagnostic-j038-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "43-midterm-diagnostic-j041-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J041/collection-001",
+      "manifest_id": "midterm-diagnostic-j041-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 14,
+        "files.snapshot": 5,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/43-midterm-diagnostic-j041-20261011-once-v1/records.jsonl",
+      "records_sha256": "77a521e75b047c343e56ecedec4b40f814ee25dbaabf83f27a16ca7a0a86c231",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/43-midterm-diagnostic-j041-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "44-midterm-diagnostic-j044-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J044/collection-001",
+      "manifest_id": "midterm-diagnostic-j044-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 16,
+        "files.snapshot": 5,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/44-midterm-diagnostic-j044-20261011-once-v1/records.jsonl",
+      "records_sha256": "ad44343b60b8d0487cc78b6e92f3bb40df32f84757c3132d50077734d49dbafc",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/44-midterm-diagnostic-j044-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "45-midterm-diagnostic-j045-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J045/collection-001",
+      "manifest_id": "midterm-diagnostic-j045-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 16,
+        "files.snapshot": 6,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/45-midterm-diagnostic-j045-20261011-once-v1/records.jsonl",
+      "records_sha256": "be894de166909d82fca01a5b0fc3470c879ae58e11bc3300f8977b4486e4c3b9",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/45-midterm-diagnostic-j045-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "46-midterm-diagnostic-j050-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J050/collection-001",
+      "manifest_id": "midterm-diagnostic-j050-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 20,
+        "files.snapshot": 6,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/46-midterm-diagnostic-j050-20261011-once-v1/records.jsonl",
+      "records_sha256": "79f7e96c87ff1548650fe03df7e2c4f890986669e38a57dad6fee46d85144bb2",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/46-midterm-diagnostic-j050-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "47-midterm-diagnostic-j053-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J053/collection-001",
+      "manifest_id": "midterm-diagnostic-j053-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 14,
+        "files.snapshot": 5,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/47-midterm-diagnostic-j053-20261011-once-v1/records.jsonl",
+      "records_sha256": "20371ef75479d9b6eec10f5df4d4a33de9451af1c1f7f88d99845fa757a64a6e",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/47-midterm-diagnostic-j053-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "48-midterm-diagnostic-j054-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J054/collection-001",
+      "manifest_id": "midterm-diagnostic-j054-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 14,
+        "files.snapshot": 5,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/48-midterm-diagnostic-j054-20261011-once-v1/records.jsonl",
+      "records_sha256": "6308cd72499351132da3c096a73eec2188c9d898934a6a0868d404795d3f2ba3",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/48-midterm-diagnostic-j054-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "49-midterm-diagnostic-j055-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J055/collection-001",
+      "manifest_id": "midterm-diagnostic-j055-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 16,
+        "files.snapshot": 5,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/49-midterm-diagnostic-j055-20261011-once-v1/records.jsonl",
+      "records_sha256": "7718565433bd9ca13e7cd656919b41deb252073d3ee0947782b50edb5cea6a61",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/49-midterm-diagnostic-j055-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "50-midterm-diagnostic-j056-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J056/collection-001",
+      "manifest_id": "midterm-diagnostic-j056-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 14,
+        "files.snapshot": 5,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/50-midterm-diagnostic-j056-20261011-once-v1/records.jsonl",
+      "records_sha256": "23cb044ee377fec1fc5174db8cd99f1afaab572e3e568b45fbc5725aa30057e4",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/50-midterm-diagnostic-j056-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "51-midterm-diagnostic-j058-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J058/collection-001",
+      "manifest_id": "midterm-diagnostic-j058-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 16,
+        "files.snapshot": 6,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/51-midterm-diagnostic-j058-20261011-once-v1/records.jsonl",
+      "records_sha256": "d2537b624dc5180bbf945030885844ea1b067977535cdb106a89820f38468283",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/51-midterm-diagnostic-j058-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "52-midterm-diagnostic-j061-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J061/collection-001",
+      "manifest_id": "midterm-diagnostic-j061-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 15,
+        "files.snapshot": 5,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/52-midterm-diagnostic-j061-20261011-once-v1/records.jsonl",
+      "records_sha256": "9ec65639780d9a69548e01c5fd81626d93156689c668a4766e247194c604d2fc",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/52-midterm-diagnostic-j061-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "53-midterm-diagnostic-j068-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J068/collection-001",
+      "manifest_id": "midterm-diagnostic-j068-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 14,
+        "files.snapshot": 5,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/53-midterm-diagnostic-j068-20261011-once-v1/records.jsonl",
+      "records_sha256": "2cfeb127b4f0ae8713a785f69cf2ad2e4a1cec719e04f62e0225f28b5014a424",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/53-midterm-diagnostic-j068-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "54-midterm-diagnostic-j069-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J069/collection-001",
+      "manifest_id": "midterm-diagnostic-j069-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 15,
+        "files.snapshot": 5,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/54-midterm-diagnostic-j069-20261011-once-v1/records.jsonl",
+      "records_sha256": "5f99c187a76b3c0eab3d15c732cfa1052e934b9a8a0cb97963a5001708db9db4",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/54-midterm-diagnostic-j069-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "55-midterm-diagnostic-j077-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J077/collection-001",
+      "manifest_id": "midterm-diagnostic-j077-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 14,
+        "files.snapshot": 5,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/55-midterm-diagnostic-j077-20261011-once-v1/records.jsonl",
+      "records_sha256": "9f37bd57c0fe7af885343e8c7b950643d9b59bf33d693e8ea7465ff3c6431cb1",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/55-midterm-diagnostic-j077-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "56-midterm-diagnostic-j078-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J078/collection-001",
+      "manifest_id": "midterm-diagnostic-j078-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 14,
+        "files.snapshot": 5,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/56-midterm-diagnostic-j078-20261011-once-v1/records.jsonl",
+      "records_sha256": "5c8e1e440eda26e76e6defe896ba519c9d875f735c40a7d5281e0f66b9119f48",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/56-midterm-diagnostic-j078-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "57-midterm-diagnostic-j083-20261011-once-v1",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/claude/jobs/J083/collection-001",
+      "manifest_id": "midterm-diagnostic-j083-20261011-once-v1",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 14,
+        "files.snapshot": 5,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/57-midterm-diagnostic-j083-20261011-once-v1/records.jsonl",
+      "records_sha256": "a114fede50f72b8db601a38bd024a0bb707a233311d836a27dc10f3b1da7e24a",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/57-midterm-diagnostic-j083-20261011-once-v1/records.jsonl"
+    },
+    {
+      "collection": "58-midterm-literature-l01-20261011-v2-once",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/literature/L01/collection-001",
+      "manifest_id": "midterm-literature-l01-20261011-v2-once",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 147,
+        "files.snapshot": 40,
+        "provider.rate_limit": 22,
+        "source.capture": 27,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/58-midterm-literature-l01-20261011-v2-once/records.jsonl",
+      "records_sha256": "376b2dc461509728436e783ee38dbd8b478fd9cb7f0817f81ab69f1e80dd31a4",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/58-midterm-literature-l01-20261011-v2-once/records.jsonl"
+    },
+    {
+      "collection": "59-midterm-literature-l02-20261011-v2-once",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/literature/L02/collection-001",
+      "manifest_id": "midterm-literature-l02-20261011-v2-once",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 159,
+        "files.snapshot": 32,
+        "provider.rate_limit": 22,
+        "source.capture": 18,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/59-midterm-literature-l02-20261011-v2-once/records.jsonl",
+      "records_sha256": "38728ef00145196faf8ff26b5651d0c742c31329e9763656703436944d636299",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/59-midterm-literature-l02-20261011-v2-once/records.jsonl"
+    },
+    {
+      "collection": "60-midterm-literature-l03-20261011-v2-once",
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/literature/L03/collection-001",
+      "manifest_id": "midterm-literature-l03-20261011-v2-once",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 139,
+        "files.snapshot": 35,
+        "provider.rate_limit": 17,
+        "source.capture": 22,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/60-midterm-literature-l03-20261011-v2-once/records.jsonl",
+      "records_sha256": "a216482667fc214ac512c56bf747ffca78cdcf0a9567a82415b780668854af33",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/60-midterm-literature-l03-20261011-v2-once/records.jsonl"
+    },
+    {
+      "collection": "61-midterm-pair-trial-20261008-1-v2",
+      "source": "runs/midterm-20261007/revision-trial-20261008/claude-v2/pair-1/collection-001",
+      "manifest_id": "midterm-pair-trial-20261008-1-v2",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 20,
+        "files.snapshot": 5,
+        "provider.rate_limit": 3,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/61-midterm-pair-trial-20261008-1-v2/records.jsonl",
+      "records_sha256": "f49045d0f551048d393e73966669c39ff7923adfaa5be7b4b9772b77a37425c0",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/61-midterm-pair-trial-20261008-1-v2/records.jsonl"
+    },
+    {
+      "collection": "62-midterm-pair-trial-20261008-2-v2",
+      "source": "runs/midterm-20261007/revision-trial-20261008/claude-v2/pair-2/collection-001",
+      "manifest_id": "midterm-pair-trial-20261008-2-v2",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 19,
+        "files.snapshot": 5,
+        "provider.rate_limit": 4,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/62-midterm-pair-trial-20261008-2-v2/records.jsonl",
+      "records_sha256": "1045aa401013871926a1b13decb7d69184b92bd715685f42fc560ec03cd6f47e",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/62-midterm-pair-trial-20261008-2-v2/records.jsonl"
+    },
+    {
+      "collection": "63-midterm-pair-trial-20261008-3-v2",
+      "source": "runs/midterm-20261007/revision-trial-20261008/claude-v2/pair-3/collection-001",
+      "manifest_id": "midterm-pair-trial-20261008-3-v2",
+      "counts": {
+        "packet.released": 1,
+        "attempt.started": 1,
+        "provider.visible": 15,
+        "files.snapshot": 5,
+        "provider.rate_limit": 2,
+        "native.observations": 1,
+        "output.validation": 1,
+        "attempt.finished": 1
+      },
+      "records": "collections/63-midterm-pair-trial-20261008-3-v2/records.jsonl",
+      "records_sha256": "36b42ce788d79c2234e3d327219082c6575b88f8266f8f3adf5cf12f37037f9c",
+      "boundary": "Visible assistant text and selected metadata; tool bodies, hidden reasoning and internal instructions excluded. Output snapshots are separate artifacts.",
+      "records_archive": "bundles/claude-collections-02.tar.gz",
+      "records_member": "claude/collections/63-midterm-pair-trial-20261008-3-v2/records.jsonl"
+    }
+  ],
+  "legacy": [
+    {
+      "session_id": "06d0cf82-8760-489a-a4ee-9659b59c3905",
+      "job_id": "claude-pilot1-20260913-revision-v2",
+      "fragment_count": 148,
+      "path": "legacy/06d0cf82-8760-489a-a4ee-9659b59c3905-claude-pilot1-20260913-revision-v2/fragments.json",
+      "archive": "bundles/claude-legacy-01.tar.gz",
+      "member": "claude/legacy/06d0cf82-8760-489a-a4ee-9659b59c3905-claude-pilot1-20260913-revision-v2/fragments.json"
+    },
+    {
+      "session_id": "33c127aa-34f2-4ef1-9cb5-364d93254ca4",
+      "job_id": "smoke-20260912-01",
+      "fragment_count": 28,
+      "path": "legacy/33c127aa-34f2-4ef1-9cb5-364d93254ca4-smoke-20260912-01/fragments.json",
+      "archive": "bundles/claude-legacy-01.tar.gz",
+      "member": "claude/legacy/33c127aa-34f2-4ef1-9cb5-364d93254ca4-smoke-20260912-01/fragments.json"
+    },
+    {
+      "session_id": "6ac99c24-af36-4edc-9b7c-21194a839260",
+      "job_id": "claude-pilot1-20260912-author",
+      "fragment_count": 256,
+      "path": "legacy/6ac99c24-af36-4edc-9b7c-21194a839260-claude-pilot1-20260912-author/fragments.json",
+      "archive": "bundles/claude-legacy-02.tar.gz",
+      "member": "claude/legacy/6ac99c24-af36-4edc-9b7c-21194a839260-claude-pilot1-20260912-author/fragments.json"
+    },
+    {
+      "session_id": "bf0d2605-59b1-436e-8f6a-496e9e56a43d",
+      "job_id": "bridge-v2-smoke-20260913",
+      "fragment_count": 29,
+      "path": "legacy/bf0d2605-59b1-436e-8f6a-496e9e56a43d-bridge-v2-smoke-20260913/fragments.json",
+      "archive": "bundles/claude-legacy-03.tar.gz",
+      "member": "claude/legacy/bf0d2605-59b1-436e-8f6a-496e9e56a43d-bridge-v2-smoke-20260913/fragments.json"
+    },
+    {
+      "session_id": "d704f5b0-3f51-4b61-a087-f618de5b4c5e",
+      "job_id": "claude-pilot1-20260913-critic-v2",
+      "fragment_count": 115,
+      "path": "legacy/d704f5b0-3f51-4b61-a087-f618de5b4c5e-claude-pilot1-20260913-critic-v2/fragments.json",
+      "archive": "bundles/claude-legacy-04.tar.gz",
+      "member": "claude/legacy/d704f5b0-3f51-4b61-a087-f618de5b4c5e-claude-pilot1-20260913-critic-v2/fragments.json"
+    }
+  ],
+  "distinct_collection_records": 4824,
+  "distinct_cli_session_ids": 65,
+  "metadata_exclusions": [
+    {
+      "source": "runs/midterm-20261007/diagnostics-launch-20261011/literature/L03/collection-001/records/1791701546794422000-c738c4f4c1ae4219b0579eb4df623433.json",
+      "field": "receipt.retrieval.final_url",
+      "reason": "temporary signed-URL credentials; no conversational text altered"
+    }
+  ],
+  "boundary": "Collections are cumulative snapshots; repeated records are not independent calls. These are the launcher’s already retained visible records, not whole-provider history. System observations contain configuration only, not internal instructions.",
+  "direct_post_midterm_conversations": [
+    {
+      "task": "search-RS-R01",
+      "session_id": null,
+      "conversation": "claude/direct/search-RS-R01/conversation.json",
+      "readable": "claude/direct/search-RS-R01/conversation.md",
+      "messages": 2,
+      "first_message_at": "2026-10-14T04:26:11.933Z",
+      "last_message_at": "2026-10-14T05:40:55.234Z",
+      "sha256": "36b6a709cabd7d9f911054ec8e6ee382b2102c9fa637013a9d98dba5587224c5"
+    },
+    {
+      "task": "critic-PCR-C2",
+      "session_id": null,
+      "conversation": "claude/direct/critic-PCR-C2/conversation.json",
+      "readable": "claude/direct/critic-PCR-C2/conversation.md",
+      "messages": 1,
+      "first_message_at": "2026-10-14T06:28:34.873Z",
+      "last_message_at": "2026-10-14T06:28:34.873Z",
+      "sha256": "32b0b00aca4af7a23e7fbcad4e5f59e31a248ea240ed45632896504a494d0be0"
+    },
+    {
+      "task": "critic-PCR-C5",
+      "session_id": null,
+      "conversation": "claude/direct/critic-PCR-C5/conversation.json",
+      "readable": "claude/direct/critic-PCR-C5/conversation.md",
+      "messages": 3,
+      "first_message_at": "2026-10-14T06:44:51.820Z",
+      "last_message_at": "2026-10-14T06:59:58.961Z",
+      "sha256": "a2ae3b219996d8ec1be78472a68ddf11853d551e152108974ed9da8accc63469"
+    },
+    {
+      "task": "repair-PCR-C2",
+      "session_id": "aa0ed66b-fc3d-4974-8b05-bbc9ee0c916f",
+      "conversation": "claude/direct/repair-PCR-C2/conversation.json",
+      "readable": "claude/direct/repair-PCR-C2/conversation.md",
+      "messages": 8,
+      "first_message_at": "2026-10-14T17:14:59.369Z",
+      "last_message_at": "2026-10-14T17:28:54.145Z",
+      "sha256": "7475ab31363932e8b1ae9626d316f63d54b0e1d111881180e396e8074d4dca73"
+    },
+    {
+      "task": "repair-PCR-C5",
+      "session_id": "6c42a777-20b2-4777-8420-b7270f24d62f",
+      "conversation": "claude/direct/repair-PCR-C5/conversation.json",
+      "readable": "claude/direct/repair-PCR-C5/conversation.md",
+      "messages": 10,
+      "first_message_at": "2026-10-14T17:15:00.270Z",
+      "last_message_at": "2026-10-14T17:35:47.576Z",
+      "sha256": "4445300401b767e064b72e123a8c489a04d28821b6b39933c7f91096f029d288"
+    }
+  ]
+}
