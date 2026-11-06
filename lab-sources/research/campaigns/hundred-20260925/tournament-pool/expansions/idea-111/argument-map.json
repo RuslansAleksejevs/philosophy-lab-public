@@ -1,0 +1,93 @@
+{
+  "schema": "hundred-argument-map-v1",
+  "candidate": "idea-111",
+  "title": "Optional Signals, Unequal Burdens: A Narrow Duty to Supply Cover",
+  "status": "argument proposal; no source investigation or independent critique performed",
+  "central_question": "Can a co-maintainer of an optional disclosure practice owe low-cost cover for a legitimate confidential exception?",
+  "claim": {
+    "text": "A person who voluntarily accepts a governance role in a disclosure practice can owe a defeasible duty to prevent the practice from making a legitimate confidential exception readily identifiable; a truthful cover refusal is a fallback remedy when redesign is unavailable and cover is expected to reduce net risk.",
+    "relation_to_selected_idea": "NARROWED: preserves the participant-specific harmless-refusal proposal but limits special responsibility to accepted governance roles; mere membership is not sufficient.",
+    "scope_conditions": [
+      "The confidentiality interest is independently legitimate.",
+      "The routine makes refusal informative despite formal optionality.",
+      "The agent accepted a role in setting, administering, or reinforcing the practice.",
+      "The proposed repair has low burden and is expected to reduce net privacy risk.",
+      "No stronger reporting, safety, expressive, or reliance obligation defeats the presumption."
+    ]
+  },
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Formal permission to decline does not guarantee practical freedom when refusal exposes protected status.",
+      "support": "Conceptual distinction between rule-level optionality and information carried by observed behavior.",
+      "status": "argued; literature unchecked"
+    },
+    {
+      "id": "P2",
+      "text": "A predictable compliance convention can make an exception's refusal diagnostic.",
+      "support": "Stipulated certificate example; deterministic inference under the stated convention.",
+      "status": "illustrated, not empirically established"
+    },
+    {
+      "id": "P3",
+      "text": "The target's individual opt-out does not remove the inference while the surrounding convention remains predictable.",
+      "support": "Same stipulated example; policy permission leaves the response pattern unchanged.",
+      "status": "argued"
+    },
+    {
+      "id": "P4",
+      "text": "A voluntarily accepted governance role can generate responsibility beyond equal capacity to assist.",
+      "support": "Undertaking, control of default, and expectation-maintenance; contrasted with an equally capable bystander.",
+      "status": "central unresolved normative premise"
+    },
+    {
+      "id": "P5",
+      "text": "Where the co-maintainer can make a low-cost, truthful, effective repair and disclosure is not owed, fair terms can require repair.",
+      "support": "Burden-sharing within an accepted practice; subject to rights, duties, effectiveness, and displacement limits.",
+      "status": "argued; literature unchecked"
+    }
+  ],
+  "inference": [
+    "P1-P3 show why formal opt-out permission alone can fail to protect confidentiality.",
+    "P4 supplies a role-specific reason for the practice's co-maintainer to act; without it, only a general easy-aid argument remains.",
+    "P5 identifies a bounded repair obligation and makes refusal only one possible fallback.",
+    "Therefore, some co-maintainers can owe a defeasible duty to repair the practice, potentially by harmless cover refusal."
+  ],
+  "worked_case": {
+    "setup": "Ten people; exactly one confidentially exempt person declines; nine non-exempt people ordinarily display a certificate.",
+    "baseline": "Under the stipulated convention, the single refusal identifies the exempt person.",
+    "cover_model": "If each non-exempt person independently declines with probability 1/3, an observed set of four refusers leaves each of those four equally likely to be the exempt person only under the simplified assumptions of a uniform prior, independent cover, and no side information.",
+    "limit": "The example demonstrates reduced certainty under a stipulated model, not adequate real-world privacy or empirical behavior."
+  },
+  "objections": [
+    {
+      "id": "O1",
+      "text": "A duty to withhold truthful information uses participants' speech as a privacy device and can violate their autonomy; the target has no general veto over others' self-disclosure.",
+      "response": "Restrict the duty to accepted governance roles, give redesign priority, preserve stronger speech/reporting interests, and treat refusal as non-assertive only where the practice grants a genuine option.",
+      "remaining_risk": "The boundaries between non-disclosure, misleading implication, and protected expression need primary-source and case analysis."
+    },
+    {
+      "id": "O2",
+      "text": "Bystanders with equal capacity and cost may owe exactly the same aid, so co-maintenance adds no special duty.",
+      "response": "Use a counterfactual that holds capacity, cost, knowledge, and benefit fixed while removing accepted governance responsibility.",
+      "remaining_risk": "The role-specific premise may fail; if it does, narrow to easy aid or reject the distinctive thesis."
+    },
+    {
+      "id": "O3",
+      "text": "Cover may reduce certainty without producing adequate privacy, or may relocate suspicion to another person or data source.",
+      "response": "Require an explicit threat model and net-leakage assessment; prefer private collection, aggregate release, or other protocol redesign.",
+      "remaining_risk": "The model is illustrative and does not establish any real anonymity threshold."
+    }
+  ],
+  "failure_conditions": [
+    "Mere membership cannot ground a distinct role duty.",
+    "The supposed confidentiality interest is unjustified.",
+    "Cover does not lower expected exposure or merely displaces it.",
+    "The burden is material or a stronger right, duty, or public interest overrides it.",
+    "The refusal operates as a false assertion or improperly controls another person's chosen self-disclosure."
+  ],
+  "novelty": {
+    "status": "UNKNOWN",
+    "reason": "No external sources were retrieved or read; close work may exist on inferential/group privacy, role responsibility, fair procedures, or easy aid."
+  }
+}

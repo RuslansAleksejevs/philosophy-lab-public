@@ -1,0 +1,63 @@
+{
+  "schema": "hundred-expansion-argument-map-v1",
+  "run_id": "hundred-20260925-expand-idea-085",
+  "stage": "expansion-001",
+  "requested": {"model": "gpt-6-luna", "effort": "xhigh"},
+  "question": "Can a critical edition become less faithful by converting evidence of private preference into a claim that a publicly authorized alternative is no longer a faithful realization?",
+  "claim": "Where two versions were deliberately authorized as alternatives, no editor was delegated final selection, and no valid revocation is established, evidence that the maker privately preferred one version does not alone warrant representing the other as outside the work's faithful realization range.",
+  "scope": [
+    "Critical-edition claims about a work's authorized or faithful performance range.",
+    "Deliberately authorized alternatives, not all drafts or variants.",
+    "A preference report that does not itself establish revocation, constitutive intention, or delegated authority.",
+    "Status-restricting labels; plainly advisory recommendations are excluded."
+  ],
+  "definitions": {
+    "preference_evidence": "Evidence of which alternative the maker liked or favored.",
+    "authorization_evidence": "Evidence of which alternatives were admitted as faithful realizations under the maker's act and relevant practice.",
+    "supersession_warrant": "A valid act, delegated rule, or defended work-constituting principle that allows later evidence to remove an earlier authorization.",
+    "authority_fidelity": "Accuracy in representing which realizations the work's relevant authorization practice treats as faithful; distinct from factual accuracy about the maker's preference."
+  },
+  "premises": [
+    {"id": "P1", "text": "A status-asserting critical edition can represent the work's authorized performance range, rather than merely recommend an interpretation."},
+    {"id": "P2", "text": "A deliberate public authorization of A and B, absent delegation, admits both alternatives unless a valid supersession occurs."},
+    {"id": "P3", "text": "Evidence that the maker preferred A does not by itself entail an intention to revoke B, a constitutive intention excluding B, or a rule giving editors final selection authority."},
+    {"id": "P4", "text": "An edition that calls A definitive and B non-faithful makes a narrower status claim than an edition that presents both as authorized, even when both preserve the same archival evidence."},
+    {"id": "P5", "text": "A status claim that narrows the authorized range without a supersession warrant misrepresents that range and is less faithful in the authority dimension."}
+  ],
+  "inference": [
+    {"from": ["P2", "P3"], "to": "No supersession is established by preference evidence alone."},
+    {"from": ["P1", "P4"], "to": "A status-restricting label asserts a claim about what counts as a faithful performance."},
+    {"from": ["P5", "No supersession is established by preference evidence alone", "A status-restricting label asserts a claim about what counts as a faithful performance"], "to": "True historical knowledge of preference can accompany reduced authority-fidelity."}
+  ],
+  "worked_case": {
+    "setup": "A score deliberately authorizes incompatible codas A and B as permissible alternatives. A later authenticated diary records the maker's private preference for A but contains no revocation or delegation.",
+    "controlled_comparison": "Edition One reports the diary and leaves both codas authorized. Edition Two preserves the same evidence but calls A definitive and B non-faithful.",
+    "result_if_scope_conditions_hold": "Edition Two makes an unsupported narrowing status claim; if its label is advisory only, the case falls outside the argument."
+  },
+  "objection": {
+    "text": "A sophisticated intentionalist may hold that private intentions determine work identity; the diary may disclose that B was never genuinely part of the work, so the editor recovers rather than narrows its status.",
+    "reply": "Bare preference is not yet a constitutive intention or revocation. The intentionalist may defeat the case by supplying a theory and evidence that license this transition; if an established theory already derives the exact test, the candidate's novelty fails.",
+    "unresolved": "Whether a relevant artistic practice permits private intention to revise a deliberately public authorization without public revocation, and what diary evidence proves such intention rather than preference."
+  },
+  "assessment_engagement": [
+    {
+      "source": "Astra individual assessment, separately attributed contribution astra-assessment-idea-085",
+      "challenge": "When does a canonical label purport to settle permissible faithful performance rather than merely recommend one editorial reading?",
+      "response": "Use the label's asserted function and edition policy: recommendation leaves status open; a claim that B cannot count as faithful settles status."
+    },
+    {
+      "source": "Sol comparison assessment",
+      "challenge": "The intentionalism overlap may fully entail the test; no primary literature was checked.",
+      "response": "Treat this as a live novelty threat. No source-based originality claim is made; the next probe must test primary accounts directly."
+    }
+  ],
+  "defeaters_or_narrowing_conditions": [
+    "Valid later revocation.",
+    "Delegation of final status choice to editors.",
+    "Evidence that the diary records a constitutive intention or status-changing act, not only preference.",
+    "A practice rule making private preference supersede public alternatives.",
+    "An advisory-only label that leaves both versions within the edition's account of faithful performance.",
+    "An established theory that already supplies the whole authority-fidelity test, which defeats novelty even if the application remains sound."
+  ],
+  "source_status": "No external primary sources searched, retrieved, or read. Novelty remains unknown."
+}

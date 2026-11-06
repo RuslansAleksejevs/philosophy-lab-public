@@ -1,5 +1,7 @@
 # E022 · When Every Finite Classification Chart Contains a Circle
 
+[Original research files and revision evidence](../../docs/essay-evidence/E022.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

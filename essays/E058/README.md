@@ -1,5 +1,7 @@
 # E058 · A Body One Can Plan With
 
+[Original research files and revision evidence](../../docs/essay-evidence/E058.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

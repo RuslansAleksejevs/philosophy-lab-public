@@ -1,5 +1,7 @@
 # E027 · Being Right About What You Meant
 
+[Original research files and revision evidence](../../docs/essay-evidence/E027.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

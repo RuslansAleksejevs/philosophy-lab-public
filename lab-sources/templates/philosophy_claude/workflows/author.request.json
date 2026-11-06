@@ -1,0 +1,17 @@
+{
+  "job_id": "{{AUTHOR_JOB_ID}}",
+  "essay_id": "{{ESSAY_ID}}",
+  "run_id": "{{RUN_ID}}",
+  "stage": "author",
+  "prompt": "{{AUTHOR_PROMPT_TEXT}}",
+  "model_requested": "{{REQUESTED_MODEL_OR_UNKNOWN}}",
+  "effort_requested": "{{REQUESTED_EFFORT_OR_UNKNOWN}}",
+  "style": "{{STYLE_BRIEF}}",
+  "public_web": "{{PUBLIC_WEB_BOOLEAN}}",
+  "selected_inputs": [
+    {"source": "{{RULES_SOURCE_PATH}}", "label": "rules.txt", "scope": "neutral"},
+    {"source": "{{SOURCE_INDEX_PATH}}", "label": "source-index.md", "scope": "neutral"},
+    {"source": "{{PRIMARY_SOURCE_PATH}}", "label": "primary-source.txt", "scope": "neutral"}
+  ],
+  "required_outputs": ["question-001.md", "sources-001.md", "source-manifest-001.json", "draft-001.md", "history-001.md"]
+}

@@ -1,5 +1,7 @@
 # E035 · What a Selection Establishes: Allocation Choice and Whole-Life Comparison
 
+[Original research files and revision evidence](../../docs/essay-evidence/E035.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

@@ -1,0 +1,6 @@
+# Sources stage
+Primary text reading and access limits are preserved in sources/retrieval-notes.md. Gustafsson's discussion of future dependence is the closest precedent and requires narrowing the initial contribution: merely objecting that future branching can undermine earlier persistence would not be original. The proposed essay will instead state an explicit incompatibility between completed-persistence stability, sole-successor sufficiency, and indifference to the temporal order of otherwise equal claimants. It will defend the diagnostic importance of separating these commitments, rather than pretending to settle identity or to refute every nonbranching account.
+
+Source-derived argument and independent argument will be distinguished. The staged-replica case is constructed by this author; relevant asynchronous branching already appears in Gustafsson. Novelty of the exact compatibility diagnosis is unverified.
+
+Process: an initial public search preceded exit 0 of the mandatory question-record command, as preserved in process-deviation.md. After pausing, question recording returned exit 0; all subsequent full-text research followed that success. No draft existed before source recording.

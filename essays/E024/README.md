@@ -1,5 +1,7 @@
 # E024 · A True Answer Is Not Always the End
 
+[Original research files and revision evidence](../../docs/essay-evidence/E024.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

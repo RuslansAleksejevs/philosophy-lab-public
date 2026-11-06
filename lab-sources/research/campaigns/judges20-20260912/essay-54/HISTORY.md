@@ -1,0 +1,43 @@
+# Essay 54: version and evidence history
+
+This is an artifact-lineage record for the sealed essay, not a competing philosophical diary. The canonical compact research checkpoint is appended by the checkpoint helper and identified in checkpoint.receipt.json.
+
+## Versions and roles
+
+| Artifact | Role | Exact marker timestamp(s), UTC | Canonical stage event |
+| --- | --- | --- | --- |
+| question.md | AI author: question and rejected angles | 2026-09-12T06:02:04.368Z | event-8c5862a8efc44a5e8f38a82a31210161 |
+| sources.md | AI author: bounded primary research | 2026-09-12T06:09:52.095Z | event-aa7255ff3d3b4b198ef99056809bb8e6 |
+| draft.md | AI author: first complete draft | 2026-09-12T06:15:33.736Z | event-f1a05f1f699144e08a5b3b2794aa7248 |
+| critique.md | Independent AI critic applying Hilary Greaves profile | 2026-09-12T06:22:25.955Z | event-0467f2056ecb4d5b98aa9799b9121ee4 |
+| review-2.md | Independent AI critic applying Christian Tarsney profile | 2026-09-12T06:29:12.598Z | event-adb09d1e99834e44a5e04fe090632982 |
+| decision.md | Original AI author: revision decision and sealed final | 2026-09-12T06:37:03.592Z, 2026-09-12T06:36:45.659Z | event-cd212f06c514429e8abb79ce32b32e52 |
+
+The initial manuscript draft.md remains unchanged, SHA-256 3a96eaf61e68d13977ff5e3716292ea945f09c1096a73e1c7c0c7c2ffc96af00. The revised manuscript final.md has SHA-256 6fcfd9ef400a61abed5b52b1a810c8e233a764ca059804b1223c9fb4794f4605 and 3,643 whitespace-delimited words excluding bibliography. The draft has 3,631 under the same bounded method. The full respective word-count observations are preserved in draft-word-count.json and final-word-count.json.
+
+Decision event event-cd212f06c514429e8abb79ce32b32e52 binds decision.md and final.md. Its receipt records separate exact visible final and decision markers. All stage receipts are retained beside their artifacts. The final has not been rereviewed independently.
+
+The author materially narrowed the thesis after both reviews. A failed assurance does not alone establish a general precaution duty; the final retains a conditional test of correction and an ordering requirement where permissible implementation depends on that correction. The rejected stronger reading and all responses, accepted and qualified, are preserved in decision.md. Earlier rejected candidate angles remain in question.md and the post-reading limitations in sources.md. No draft or critical disagreement was deleted.
+
+## Source records
+
+- Initial source snapshot event: event-35dd77c4133f4c7fb6a71d677c1113df. sources.md and source-manifest.json distinguish exact originals, derived text, visual pages, metadata, excerpt reading and unavailable downloads.
+- First reviewer source event, as recorded by that review: event-678570160f1344518f430b1a46506635. Reviewer source evidence and notes remain under sources/reviewer1/ with its own manifest.
+- Second reviewer source event, as recorded by that review: event-a7b14687df354cc092a3171701e52359. Reviewer source evidence and notes remain under sources/reviewer2/ with its own manifest.
+- Author revision source event: event-ab20da9c5ec54130a7cc15b405d8c0d1, exact revision-source-manifest.json SHA-256 bb85b6d6bebaee45affadbca8028a416e2156efe85d7b891b709ce077a541618. Additional Krick primary excerpts and bounded discovery notes were archived before final writing.
+
+Full source access was not achieved. Exact downloaded originals are not evidence of full reading. The originality search remains bounded. Unused signed download material was excluded from the selected second revision-search record rather than imported. No hidden reasoning, unrelated sessions, judge works loaded by the author, or other essays are claimed as inputs.
+
+## Observed configuration and timing
+
+The same author session, 01a09433-ee4d-7382-af00-b773640b1295, produced the draft and revision. Bounded selected own-session turn-context metadata records gpt-6-astra / ultra at 2026-09-12T06:00:27.985Z and 2026-09-12T06:30:27.848Z. These are recorded configuration observations, not proof of hidden provider routing. See author-runtime-observations.json. The native observations contain no service-tier field.
+
+Root relayed a user request for fast mode and careful continuation. No actual fast-mode, model or effort change was observed by this author. Root also reported a temporary collector stop for provider-view compatibility repair; that state was not independently inspected here. The author's mandatory selected-marker captures and stage writes succeeded. Their receipts delimit the evidence; a complete provider trace is not claimed.
+
+Stage timestamps, turn-context timestamps and individual tool elapsed times are distinct. Exact whole-response wall time, hidden routing, total token usage, cost and subscription consumption were not inferred or invented.
+
+## Authorship and scope
+
+All question selection, argumentation, examples, prose and revisions in this lineage were generated by AI. Humans supplied the authorized neutral workflow/style and a relayed performance-setting request. Two fresh named-judge simulations supplied criticism. A requested source-assistant spawn failed at the concurrency limit and supplied no content. The author read only the neutral packet, official rules, this essay's artifacts and external sources recorded for this essay. The final preserves warranted limits rather than treating simulated reviews as actual judges' verdicts.
+
+The sealed candidate is retained for later authorized assessment. No publication, submission, outreach or additional essay generation occurred. This history was written at 2026-09-12T06:38:54.606153+00:00.

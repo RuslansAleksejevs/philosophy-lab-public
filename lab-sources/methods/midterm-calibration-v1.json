@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "midterm-calibration-v1",
+  "stages": [
+    "question",
+    "sources",
+    "contribution",
+    "critique",
+    "decision"
+  ],
+  "origin": "AI_PROPOSED_USER_ACCEPTED",
+  "scope": "3 neutral Luna/high controls, fresh context each, same full blinded manuscripts and180–300word review budget; independent rescoring of3 prior public-work prediction tests in fresh audit contexts; no new manuscripts or publication.",
+  "controls": {
+    "ids": [
+      "E010",
+      "E015",
+      "E036"
+    ],
+    "model": "gpt-6-luna",
+    "effort": "high",
+    "replications_per_manuscript": 1,
+    "limitation": "Descriptive comparison; one neutral draw does not estimate sampling variance or causally identify persona effects."
+  },
+  "public_prediction_audit": {
+    "judges": [
+      "rachel_sterken",
+      "bernhard_salow",
+      "jonathan_weisberg"
+    ],
+    "selection": "All3 current profile-building checks with saved predictions before reading, selected before audit outputs.",
+    "input": "Exact prior predictions and heldout-at-construction public text only; withhold original self-grades and post-test profiles.",
+    "purpose": "Independent grading of original checks, not a fresh heldout prediction or validation of all23 people.",
+    "criteria": [
+      "MATCH",
+      "PARTIAL",
+      "MISS",
+      "UNASSESSABLE"
+    ],
+    "require": [
+      "located evidence",
+      "specificity versus generic philosopher behavior",
+      "counterevidence and missed emphasis",
+      "coauthorship and pretraining limits"
+    ]
+  },
+  "preserve": "No original review or profile is overwritten. Archive input evidence before dispatch, outputs before synthesis.",
+  "comparability": "Neutral controls reuse same rubric and short prose budget. Different contexts remain correlated base-model samples; no real-human fidelity or significance claim."
+}

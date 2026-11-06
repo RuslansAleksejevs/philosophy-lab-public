@@ -1,0 +1,12 @@
+{
+  "id": "claude-cli-v2",
+  "stages": ["question", "sources", "contribution", "critique", "decision"],
+  "purpose": "Fixed fresh Claude CLI sessions per author, critic and revision; continuation of preserved same-essay lineage.",
+  "source_policy": "Separate public HTTPS raw retrieval and text extraction triggered by WebFetch; exact source files passed only to same-essay dependents. Native bound PDF reads preserved. Failed access remains explicit.",
+  "privacy": "Ordinary local paths allowed by current user. Unrelated chats, biography, relationships, preferences and credentials excluded. Narrow relay marker screen is not semantic anonymization certification.",
+  "configuration": "Requested model, effort and fixed-session orchestration plus separate native observations. Ultracode is off; no child agents allowed.",
+  "acceptance": "Required artifacts, JSON/source schema, source integrity, requested versus observed model/effort, manuscript ceiling, immutable input binding. Not philosophical acceptance.",
+  "archive_policy": "Durable visible journal and content-addressed artifact versions, selected tool argument metadata and native configuration observations before dependency launch. Canonical intake after finite run exits.",
+  "exclusions": "Hidden reasoning, internal instructions, whole native transcripts and full unreviewed tool results. Provider-reported token usage/estimated cost is not a billing attestation.",
+  "stop": "Persistent stop latch blocks subsequent stages; explicit resume-stopped required. No quota scheduler or automatic retry."
+}

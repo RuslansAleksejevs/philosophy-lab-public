@@ -1,0 +1,22 @@
+{
+  "checkpoint_event_id": "event-f9f9529421504684afa931695af61a44",
+  "correction_event_id": "event-f1189d4e7d6d49e8b6649745bfa0c6a9",
+  "coverage_event_ids": [
+    "event-cc3c64b41a6d4b2f9a15e2623914e700",
+    "event-c14eb540e2d048609769a25f6f3a2a24",
+    "event-50c3bb05e9344450a04fbea5f03c8553",
+    "event-21c6d8e1efc24b8591c9b30fe9e70398",
+    "event-e5186701d3954ec0821e975d775baf87"
+  ],
+  "final_stage_event_id": "event-114343b284be4aed884d303b81c4ef9c",
+  "ok": true,
+  "protocol": "hundred-checkpoint-alias.v3",
+  "run_id": "hundred-20260925-final-idea-111-20260927",
+  "stage_label_resolutions": [
+    {"actual_stage": "sources-001", "event_id": "event-87136df442a044ab9a89b071581acb2a", "required_stage": "sources-001", "resolution": "exact"},
+    {"actual_stage": "draft-001", "event_id": "event-ef7065aea91245acacd4e8a1ccb03135", "required_stage": "draft-001", "resolution": "exact"},
+    {"actual_stage": "critic-001", "event_id": "event-10b5d042742a4f9890c11a86c1b91601", "independent": true, "kind": "critique", "phase": "critique", "required_stage": "critique-001", "resolution": "documented-semantic-alias"},
+    {"actual_stage": "revision-001", "event_id": "event-114343b284be4aed884d303b81c4ef9c", "required_stage": "revision-001", "resolution": "exact"}
+  ],
+  "validation": {"complete": true, "errors": [], "ok": true}
+}

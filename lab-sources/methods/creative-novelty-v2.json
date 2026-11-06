@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "creative-novelty-v2",
+  "status": "AUTHORIZED_EXPLORATORY_METHOD",
+  "origin": "AI_PROPOSED_USER_APPROVED",
+  "effective_from": "creative10-20260922 attempts 04 onward, before any author initialization",
+  "stages": [
+    "question",
+    "sources",
+    "contribution",
+    "critique",
+    "decision"
+  ],
+  "configuration": {
+    "model": "gpt-6-astra",
+    "effort": "medium"
+  },
+  "rationale": "Add an independent pre-draft novelty review, retaining the same critic for post-draft source/contribution review. Early attempts showed self-assessment alone was too permissive.",
+  "novelty_gate": "Search closest arguments, not merely distinctive wording. Read primary works as accessible. PASS_RELATIVE requires explicit contribution beyond closest works and qualified coverage; duplicate ideas must be revised or rejected before manuscript drafting.",
+  "independent_critique": "Two separate fresh sessions per essay; no access to other essays or each other's review before delivering their own review.",
+  "revision": "Author may disagree with criticism with reasons. A substantially changed thesis requires a renewed search before the revised manuscript.",
+  "comparability": "Exploratory method change after attempts 01-03. Those originals remain v1; subsequent attempts have additional independent pre-draft checking. Not a controlled comparison.",
+  "budget": "Ten private essays and two reviews per essay, no paid API, publication, submission or quota scheduler. No minimum manuscript length; 6000-word ceiling excluding bibliography.",
+  "pre_draft_review": "After author sources/selection, second-critic role independently checks exact proposal before draft. Precheck reports and source snapshots are archived, with explicit lineage selection and a release receipt. Failed proposals are revised with new evidence or set aside; no manuscript before PASS_RELATIVE independent release."
+}

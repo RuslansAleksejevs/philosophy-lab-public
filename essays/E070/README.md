@@ -1,5 +1,7 @@
 # E070 · What a Simpler Animal Model Does Not Deny
 
+[Original research files and revision evidence](../../docs/essay-evidence/E070.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

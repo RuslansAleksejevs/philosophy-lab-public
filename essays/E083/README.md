@@ -1,5 +1,7 @@
 # E083 · What a Corrected Number Leaves Out
 
+[Original research files and revision evidence](../../docs/essay-evidence/E083.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

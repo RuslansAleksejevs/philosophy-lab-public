@@ -1,0 +1,11 @@
+# Source stage
+Primary reading and exact limited excerpts, URLs and locators are retained in sources/reading-notes.md. Reading uses James (1896/1897) and Buchak (2012, 2017); sources were accessed via public web pages/PDF rendering on 2026-09-09 UTC. Only listed sections/excerpts were read, not every page of each book/paper.
+
+# Development after investigation
+The simple distinction between practical and epistemic rationality is already explicit in Buchak. Openness to correction is also already defended in her discussion, including her quotation of Robert Adams. These are not original contributions. Narrow the contribution to a problem about the sampling of outcomes under participant transformation: a commitment can permissibly shape what evidence one encounters, but a report of the practice's confirming tendency cannot gain warrant merely by excluding those whose experience led them to reject its interpretive authority. Distinguish experiential evidence itself, persistence of commitment, and a second-order claim that the practice vindicates its reliability. Develop a matched pair of religious communities, differing only in their rule for whose results count. Show why epistemic access restrictions must not become outcome-dependent eligibility restrictions.
+
+# Strong objections to address
+Expertise and transformed understanding can legitimately change whose testimony deserves weight; an outsider cannot dictate a fixed test. Commitment may be necessary and inquiry costly; no duty of continuous searching follows. Direct religious experience may provide basic warrant independent of a comparative inference. The proposed constraint concerns additional warrant from the reported success of a practice, not all religious belief or all immediate experience. No empirical claim about actual religious communities is intended.
+
+# Originality boundary
+Focused searches covered faith-created verification, religious epistemic bootstrapping, non-doxastic faith, and commitment under counterevidence. Selection and survivorship bias are familiar general ideas. Potential contribution is a claim-specific argument explaining why the competence conditions that allow religious access cannot, without extra support, be used to screen a purported retrospective vindication of the practice itself. No exhaustive novelty search, no proof of firstness.

@@ -1,0 +1,89 @@
+{
+  "schema": "hundred-expanded-argument-map-v1",
+  "candidate": "A Right to Delay an Answer: A Procedural Claim on Disclosure Timing",
+  "stage": "expansion-001",
+  "status": "argument proposal; literature and originality unverified",
+  "claim": {
+    "text": "A participant in a legitimate shared-governance process may trigger a brief, pre-authorized neutral pause before organized disclosure when release would irreversibly foreclose a fair position-neutral procedure for a common decision.",
+    "scope_inclusions": [
+      "defined participants whose standing is fixed independently of the answer",
+      "an inquiry operator with discretion over organized release",
+      "a concrete fair procedural option materially lost after disclosure",
+      "a pre-authorized bounded process with neutral review and a default"
+    ],
+    "scope_exclusions": [
+      "general right to ignorance or secrecy",
+      "veto over disclosure or choice of outcome",
+      "unilateral participant control of delay",
+      "outsider disclosures outside the governed inquiry",
+      "urgent overriding duties to disclose",
+      "situations where post-disclosure procedure restores equal standing"
+    ]
+  },
+  "premises": [
+    {
+      "id": "P1",
+      "text": "Legitimate shared institutions can give defined participants equal standing over common decision procedures.",
+      "needs_defense": "What confers legitimacy and defines participants without using the answer to be disclosed?",
+      "source_status": "not checked"
+    },
+    {
+      "id": "P2",
+      "text": "Some answers alter strategic positions and irreversibly remove an option to adopt a fair rule from a position-neutral standpoint.",
+      "needs_defense": "Show the lost option is real and cannot be restored by blind administration, simultaneous release, or post-disclosure review.",
+      "source_status": "hypothetical only"
+    },
+    {
+      "id": "P3",
+      "text": "Bypassing an authorized equal procedure can wrong participants even when no separate informational harm occurs and the outcome is unchanged.",
+      "needs_defense": "Establish the independent force of equal procedural standing; test reduction to consequence or established process rights.",
+      "source_status": "not checked"
+    },
+    {
+      "id": "P4",
+      "text": "The claim is only to trigger a time-limited neutral procedure, not decide its result.",
+      "needs_defense": "Require prior authority, capped delay, review, and a default that prevents indefinite suppression.",
+      "source_status": "design constraint"
+    },
+    {
+      "id": "P5",
+      "text": "Urgent duties, necessary information, or a fully restorative less restrictive remedy defeat the claim.",
+      "needs_defense": "Specify how competing claims are assessed and who has authority.",
+      "source_status": "not checked"
+    }
+  ],
+  "inference": [
+    "P1 identifies standing in an existing common procedure.",
+    "P2 identifies a particular irreversible timing loss.",
+    "P3 explains why that loss can matter apart from bad downstream outcomes.",
+    "P4 converts the concern into a bounded trigger right rather than a veto.",
+    "P5 supplies defeaters and proportionality limits.",
+    "Therefore a conditional procedural claim to a short hold may exist in this narrow class; no general right to postpone truth follows."
+  ],
+  "worked_case": "Three co-beneficiaries share a collection. A harmless factual mapping shifts bargaining positions before they choose a division rule. An existing estate process gives any beneficiary one brief meeting, a neutral decider, and a default by deadline. A request pauses organized release only long enough to use that process.",
+  "assessor_engagement": [
+    {
+      "source": "Astra sketch assessment; explicitly attributed contribution astra-assessment-idea-003",
+      "challenge": "What grounds standing when some reasonably reject the proposed fair procedure?",
+      "response": "Standing derives from a legitimate pre-existing shared-governance rule independent of the answer. The claimant can trigger review, not impose the favored procedure. Without authority, neutral review, or a default, this argument supplies no unilateral hold."
+    },
+    {
+      "source": "Sol sketch assessment",
+      "challenge": "Does the claim add anything beyond ordinary consequences, confidentiality, and contract?",
+      "response": "These explain many cases. The proposed distinction is between who knows and when a shared decision rule is set. Institutional procedural standing may apply without an individually negotiated disclosure contract, but this may reduce to familiar procedural rights; originality remains unresolved."
+    }
+  ],
+  "strongest_objections": [
+    "A neutral post-disclosure process may work as well; blind ex ante choice may be normatively irrelevant.",
+    "Information may reveal morally relevant needs and should change the rule.",
+    "A pause can empower dissenters to delay indefinitely or suppress evidence.",
+    "The account may be fully subsumed by confidentiality, contract, or established due-process rights."
+  ],
+  "replies": [
+    "Require an actual irrecoverable procedural option and deny a hold where an alternative restores equal standing.",
+    "Exclude delay where the answer is needed to choose responsibly; neutral review may reject speculative claims.",
+    "Limit the trigger to an existing capped process with deadline, neutral decision-maker, default, and review.",
+    "Treat reduction to existing rights as a live falsifier, not an established novelty claim."
+  ],
+  "candidate_relation": "Explicit descendant of the original idea candidate; narrows its broad timing thesis to a limited procedural trigger right within existing legitimate governance. The original candidate is retained as ancestry, not overwritten."
+}

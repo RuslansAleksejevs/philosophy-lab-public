@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "midterm-full97-v1",
+  "stages": [
+    "question",
+    "sources",
+    "contribution",
+    "critique",
+    "decision"
+  ],
+  "origin": "USER_LAUNCH_AFTER_PILOT_AND_CALIBRATION",
+  "scope": "97remaining manuscripts,2328blind reviews; shortlist5–10, selective Claude Opus5.5/high, trial revisions2–3 thereafter with separately bound selection/lineage.",
+  "models": {
+    "deep": "gpt-6-astra/high",
+    "panel": "gpt-6-luna/high",
+    "later_selective": "claude-opus-5-5/high"
+  },
+  "transport": "Installed first-party Codex CLI fresh session per job, ChatGPT subscription forced. Full neutral prompt embeds exact rubric, full text and assigned frozen profile/evidence. Project instructions and memories excluded from evaluator input; no tools or web requested.",
+  "comparability": "Same original rubric and frozen profiles as pilot. CLI versus app-subagent harness and inline full-input transport are explicit process changes, not a controlled comparison. Short prose requirement reiterated and schema adds transport receipt only.",
+  "archive": "Bind authorization,allinput bytes,queue,method before research. Preserve job-specific filtered visible event streams, final output and native session IDs with mechanical receipts before any dependent synthesis. Canonical bulk intake batches avoid per-job full archive re-audit.",
+  "stopping": "Actual quota, unexpected model/config/input, transport or archive failure stop new dispatch; no quota resets, paidAPI or automated quota retries. User monitors usage; no reserve cap.",
+  "selection": "Arguments and objections, separate current quality/development promise; preserve disputed minority. No score-only veto. Originals and all attempts retained."
+}

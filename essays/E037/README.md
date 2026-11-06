@@ -1,5 +1,7 @@
 # E037 · Sincere, Forgiven, and Still Unacceptable
 
+[Original research files and revision evidence](../../docs/essay-evidence/E037.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

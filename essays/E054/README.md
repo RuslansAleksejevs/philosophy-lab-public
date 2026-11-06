@@ -1,5 +1,7 @@
 # E054 · What a Good Explanation Can Prevent Us from Checking
 
+[Original research files and revision evidence](../../docs/essay-evidence/E054.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

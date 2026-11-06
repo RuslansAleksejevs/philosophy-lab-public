@@ -1,0 +1,56 @@
+# Process notes: essay-01-author, stage 1 (generation only)
+
+## 1. What this stage was
+
+This was the single authoring stage for one independent philosophical essay. No topic, field or thesis was assigned. The task specified the generation-only condition: no critic and no revision stage was assigned, and I neither simulated one nor produced a separate critique or revised edition. The deliverables are `final-001.md` (the manuscript), `sources.md` (provenance and coverage) and this file.
+
+Work sequence, in order:
+1. Read the three assigned inputs (`task.md`, `NEUTRAL_BRIEF.md`, `RULES.md`).
+2. Generated and triaged candidate topics (§2 below).
+3. Selected the topic and roughed out the argument's spine before searching, then searched for primary sources that would either support or embarrass it.
+4. Retrieved sources. Where the retrieval hook saved a separate download, I read the saved extracted text rather than relying on the WebFetch summary; where it did not, I recorded summary-only or unavailable coverage.
+5. Revised the thesis in light of what the sources actually said (§3 below records the two substantive revisions).
+6. Drafted the essay to roughly 5,400 words, within the 6,000-word cap excluding bibliography.
+
+## 2. Topics considered and set aside
+
+All of these were live enough to be worked on for at least a few minutes before rejection. Recording them because the brief asks for abandoned approaches and reasons.
+
+- **The reason-giving power of requests.** A puzzle: if a request gives the addressee a reason, declining should leave normative residue, yet many requests can be declined with nothing owed. I sketched a category of "offered" or "discretionary" reasons whose force depends on the addressee's uptake. *Set aside* because the central move looked as though it might be terminological rather than substantive, and because the obvious interlocutor (Enoch's distinction between triggering and robust reason-giving) was not something I could verify at first hand within this stage.
+- **A unified theory of normative preemption** across practical authority, testimony, higher-order evidence and rule-following, with the thesis that all genuine preemption is self-preemption. *Set aside* as far too large for 6,000 words; it would have become a survey. A fragment of it survives in §5 of the essay, restricted to exclusionary reasons.
+- **Higher-order evidence and level-splitting.** *Set aside* as saturated; I could not identify a move that would not be a variation on existing positions.
+- **The rationality of sunk-cost reasoning**, defended for cases where past investment partly constitutes the agent's ends. *Set aside* on discovering that Thomas Kelly's 2004 paper on acting for the sake of the past occupies essentially this ground.
+- **Promissory obligation and normative powers** (how one can obligate oneself at will). *Set aside*: I had no clear wedge against Scanlon-style and Owens-style accounts, only a relabelling.
+- **Hermeneutical injustice as uptake-resistance rather than conceptual lack.** *Set aside*: crowded, and the source base I could verify was thin.
+- **Suspension of judgment as a question-directed attitude.** *Set aside*: Friedman's work already occupies most of the space I had in mind.
+
+## 3. Approaches abandoned inside the chosen topic
+
+- **First framing: the constitutive thesis alone.** My initial thesis was just that evaluative statuses are individuated by their evidential base, so that a verdict resting on character evidence is a different act rather than a worse-supported one. I abandoned this as the *whole* thesis when I noticed it answers only one of the two questions. It explains why probative material may be excluded; it does not explain why the material must be made unavailable rather than merely ruled out of consideration, since an upright decision-maker could honour the basing requirement by discipline. The non-domination material (§4) was introduced specifically to close that gap, and the constitutive claim was demoted to §3, where it now does preparatory work.
+- **Second framing: designed ignorance as a counterexample to Good's theorem.** I drafted and then deleted a section presenting the cases as counterexamples to the claim that cost-free evidence is never harmful. They are not counterexamples. Good's result concerns the expected value of the decision-maker's own choice with her values held fixed, and the cases do not contradict it. The correct claim is that the theorem is *silent*, because the good at stake is a property of the procedure's modal profile and of the distribution of authority, not of the act chosen. The essay now says this (§7), and I regard the correction as important enough to record: the stronger version would have been a false claim about a real theorem.
+- **An expressive account** (the procedure expresses the community's commitment to equal standing) was drafted as the positive thesis and dropped. It fails for the same reason as the appearance account: a well-designed but unobserved procedure satisfies the requirement, and a concealed conflict of interest violates it, which is the reverse of what an expressive account predicts.
+- **A psychological argument from "supervisory residue"** — that an agent who knows p and tries to exclude it must keep p in view to police its influence, so exclusion never achieves absence. I built this into §4 and then cut it back, because on reflection it is not obviously sound: a judge who knows of the priors and disregards them seems to have a verdict based only on admissible evidence, with p figuring in the etiology of her self-restraint rather than in the basis of her judgment. A weakened version survives in §5, where the point is used only to explain why exclusion looks indistinguishable from discounting *within a single mind*, which is a claim about the visibility of the distinction rather than about contamination.
+- **Attributing the "fairness through blindness is insufficient" sentence to Dwork et al. §1.2.** A WebFetch summary reported this sentence; I could not find it in the saved extracted text I read, so I removed the quotation and cite only the verified "redundant encodings" phrase. Recorded in `sources.md` as well.
+
+## 4. What the sources changed
+
+Two findings altered the argument rather than merely decorating it.
+
+- The *Sussex Justices* report turned out to contain, in the headnote and in Lord Hewart's judgment, an explicit acceptance that the clerk said nothing and the justices were unbiased — and a quashing anyway. This is much stronger evidence for a modal reading of the entitlement than I expected to find, and it let me put a real case rather than a thought experiment at the centre of §4. It also contains a second, capacity-based strand ("his one position was such that he could not ... discharge the duties which his other position involved") which I had not anticipated and which I now use against the appearance reading of the same judgment.
+- The Advisory Committee Note to Federal Rule 404 concedes that the character rule overrides "doubts of the basic relevancy of the evidence", and reproduces the California Law Revision Commission's complaint that character evidence distracts from "what actually happened on the particular occasion" and lets the trier "reward the good man to punish the bad man". That second passage is close to my §3 thesis in the mouth of a drafting committee, which is good for the thesis's plausibility and bad for any claim that the thesis is wholly novel. I have not claimed it is; I claim novelty for the modal entitlement (§4) and for the architectural reconstrual of exclusionary reasons (§5), not for the observation that a trial is about the charge.
+
+## 5. Remaining uncertainties and open disagreements
+
+- **Is EN distinct from sophisticated instrumentalism?** A determined instrumentalist can add robustness to the list of goods to be produced and claim to have absorbed EN. I think the authority argument in §4(iii) resists this — the question of *who decides* what may count is not a question about outputs — but the boundary is genuinely contestable and I have not proved it cannot be crossed.
+- **The modal range is stipulated.** EN requires independence across variation in the decision-maker's will, holding institutional design fixed. I argue by analogy with the republican restriction (freedom from others' choices, not from the weather), but I have no principled account of which capacities count, and a full theory would need one. This is the weakest joint in the argument.
+- **Insulation entitlements are assumed, not grounded.** Condition 2 in §6 presupposes an independent account of when a party is entitled not to be judged on a ground. I gesture at "who she is rather than what she did" and "a feature for which she cannot answer", which is not a theory. There is a real risk of circularity if such entitlements are themselves explained by appeal to deliberative jurisdiction.
+- **Literature coverage.** I could not access Raz, Pettit or Good directly, and several relevant items were paywalled or blocked (see `sources.md`, category B). I searched for a precedent for "evidential non-domination" and found none, but the search was not exhaustive and I would not be astonished if something close exists, particularly in the legal-theory literature on procedural fairness or in work applying republican ideas to administrative law. If so, the correct response would be to reposition the essay as a defence or extension rather than a proposal.
+- **Scope questions left open.** Whether EN extends to self-imposed ignorance (a person deciding not to learn something about herself), and whether it applies to automated decision procedures, which have no will for the entitlement to be independent of. The essay's closing paragraph raises the second but does not settle it; the natural move is to relocate the relevant will to the system's designers and operators, which I have not defended.
+- **One residual worry about §3.** The claim that a status is individuated by its grounds may overgenerate. If every difference in grounds yields a different act-kind, then no two verdicts are of the same kind. I intend the claim to be restricted to grounds inside versus outside the office's jurisdiction, but the restriction is stated rather than derived.
+
+## 6. Version lineage
+
+- `final-001.md` is the first and only numbered manuscript produced for this essay. There is no `final-000` or earlier draft file; the abandoned framings described in §3 were revised in place during composition and were never saved as separate numbered outputs.
+- No prior essay version, campaign, shared research summary or memory was consulted; the only inputs read were the three assigned files and the sources listed in `sources.md`.
+- No critic pass and no revision pass exist for this essay, by design of the assigned condition. Should a later stage be assigned, this file and `sources.md` should be treated as the baseline, and any revised manuscript should take a new number rather than overwriting `final-001.md`.
+- I did not record model, effort, cost or configuration metadata, and no timestamps in these files were generated by me; the capture times quoted in `sources.md` are copied from the saved extraction metadata written by the local retrieval hook.

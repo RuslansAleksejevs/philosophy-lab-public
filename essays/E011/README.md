@@ -1,5 +1,7 @@
 # E011 · A Lower Complaint Count Is Not Yet Better Deliberation
 
+[Original research files and revision evidence](../../docs/essay-evidence/E011.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

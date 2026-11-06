@@ -1,0 +1,61 @@
+{
+  "schema": "hundred-expansion-remaining-tests-v1",
+  "logical_id": "idea-059",
+  "stage": "expansion-001",
+  "status": "not literature-checked; requires a distinct fresh source probe before any full essay decision",
+  "source_work_performed": false,
+  "selected_source_evidence_manifest": [],
+  "manifest_note": "No source search, retrieval, or reading occurred in this expansion. The empty manifest is not evidence that the relevant literature is empty.",
+  "primary_source_tests": [
+    {
+      "question": "Do theories of conceptual engineering or conceptual reform already impose a closely related condition on reformers to preserve contestability or assessable disagreement?",
+      "search_direction": "Identify primary works that defend, criticize, or assess the legitimacy of concept revision, including their stated standards for success.",
+      "required_record": "Save actual queries, source bytes or bounded excerpts read, and distinguish full reading, excerpt, metadata, and unavailable material.",
+      "narrowing_trigger": "If a source already gives the same condition with a stronger account of scope and uptake, treat this candidate as an application or reject the originality claim."
+    },
+    {
+      "question": "Does work on metalinguistic negotiation or disagreement explain when an alternate vocabulary preserves a substantive objection after a local term changes meaning?",
+      "search_direction": "Compare disputes about which word or concept to use with disputes about the underlying policy, harm, or reason; test whether the proposal collapses them.",
+      "required_record": "Read the closest primary arguments and record the exact distinctions they draw.",
+      "narrowing_trigger": "If the candidate mistakes a merely verbal dispute for a silenced substantive objection, revise the scope to cases with a traceable challenge to the reform's stated reasons or effects."
+    },
+    {
+      "question": "Are uptake, translation burden, or exclusion from a decision process already analyzed as conditions of legitimate deliberation or as expressive/epistemic injustice?",
+      "search_direction": "Test whether the proposed usable-route criteria add a distinct inference or simply redescribe a familiar inclusion requirement.",
+      "required_record": "Compare primary texts and preserve disagreements about whose uptake or which costs count.",
+      "narrowing_trigger": "If an established account already covers the full argument, present the proposal only as a targeted application if the case adds something; otherwise set it aside."
+    }
+  ],
+  "argument_tests": [
+    {
+      "test": "Try counterexamples in which the reform removes a harmful category, yet affected people retain other ways to challenge the reform's stated aims or effects.",
+      "success_for_candidate": "The criterion allows reform and does not require restoring the harmful term.",
+      "failure_trigger": "If the criterion still demands preservation of the old category, revise its formulation."
+    },
+    {
+      "test": "Construct a case where an objection is technically translatable but is systematically misunderstood, discounted, or costly for affected speakers to state.",
+      "success_for_candidate": "The usable-route conditions identify why bare availability is insufficient without requiring word-for-word equivalence.",
+      "failure_trigger": "If the conditions cannot tell a usable route from formal permission to speak, replace or abandon the test."
+    },
+    {
+      "test": "Compare reforms supported by participation data with reforms supported by independent outcome evidence.",
+      "success_for_candidate": "The rule constrains self-validating deliberative evidence while allowing independently supported reform to proceed.",
+      "failure_trigger": "If the rule wrongly treats all reform as invalid whenever an objection is hard to express, restrict the scope to claims whose evidence depends on deliberative participation or agreement."
+    },
+    {
+      "test": "Test whether the stated-aims/foreseeable-costs boundary lets reformers exclude important objections by defining the scope too narrowly.",
+      "success_for_candidate": "The scope boundary can itself be challenged and revised without an unbounded veto.",
+      "failure_trigger": "If the proposal cannot supply a defensible boundary, narrow it to a more specific class of reforms or set it aside."
+    }
+  ],
+  "originality_gate": {
+    "current_status": "UNKNOWN",
+    "closest_source_questions_unresolved": [
+      "Whether the contestability condition is already stated in conceptual-engineering literature.",
+      "Whether an account of metalinguistic negotiation already distinguishes loss of a word from loss of an answerable objection.",
+      "Whether deliberative theory or work on exclusion supplies the same necessary condition under another name."
+    ],
+    "decision_rule": "Do not call the contribution novel until the closest primary arguments have been read and compared premise by premise."
+  },
+  "next_stage": "A fresh source phase should test the closest primary literature, retain exact source evidence and failures, and only then decide whether to probe this proposal further."
+}

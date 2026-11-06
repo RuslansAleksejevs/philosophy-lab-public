@@ -1,0 +1,15 @@
+# Debate-01 final author — 2026-09-27 continuation
+
+Run: `hundred-20260925-debate-01`
+Final stage: `final-manuscript` (use the already bound stage ID).
+Requested setting for this new context: gpt-6-luna / xhigh. The older Astra/ultra request in `TASK_FINAL.md` is superseded for new work by `runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md`; observed settings must come from native evidence, and do not claim backend attestation.
+
+You are one fresh final-author context. Do not spawn any additional agents. Read only the neutral campaign/debate instructions named in the dispatch, this task, and the exact final-author packet you prepare. Do not open other essays, global resumes, cross-essay commentary, judge profiles, or unrelated archive records.
+
+Before reading any substantive opening, message, or source text, use `STAGE_IDS.json` and the exact existing debate receipts/request metadata to assemble a bounded input manifest. It must contain the original shared question, both sealed openings, all four actual objection/reply messages from each of three rounds (twelve messages total), the exact source/argument materials used in this debate that are bound by its recorded source stages, and only necessary neutral instructions. Preserve the recorded replacement-context provenance. Do not include unrelated tool logs, failed attempts as substantive material, or prose outside these exact inputs. Then prepare a distinct final source/argument investigation stage with your actual UUID. Only after successful preparation may you read the bound packet.
+
+Read the complete debate and selected sources. Distinguish concessions from unresolved objections; independently verify central claims and extend primary-source reading where warranted. Archive exact new source bytes, retrieval metadata, failures and coverage before relying on them. Save a concise English investigation note, source manifest/coverage, and Russian `HISTORY-investigation.md`; record and validate this stage before preparing the final essay.
+
+Then prepare the bound `final-manuscript` stage using the complete debate packet and sealed investigation outputs. Write a self-contained complete English essay defending a worthwhile position: you may defend either side, offer another answer, or identify a principled limit. Address the strongest surviving opposition; do not force a compromise or treat agreement as proof. Save `final.md`, an argument map, response-to-debate decisions, source and novelty limits, word counts, and `HISTORY-final.md` in Russian. Keep operational details out of the philosophical essay. No minimum length; contest ceiling is 6,000 words excluding bibliography only.
+
+After the final is fully recorded and visibly captured, create exactly one canonical complete-essay checkpoint and run full v2 validation. Preserve earlier debate artifacts and every genuine contribution; do not claim a separate post-draft critic. Stop if a mandatory prepare/record/capture/validation step fails, preserve the failed attempt, and report exact IDs, hashes, coverage and limitations.

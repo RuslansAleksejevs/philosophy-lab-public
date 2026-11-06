@@ -1,5 +1,7 @@
 # E003 · Signing Beneath Someone Else's Crime
 
+[Original research files and revision evidence](../../docs/essay-evidence/E003.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md) · [English translation](translation.en.md)
 
 ## How this essay was made

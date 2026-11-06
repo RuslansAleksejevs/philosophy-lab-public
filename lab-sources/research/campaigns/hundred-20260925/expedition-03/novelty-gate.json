@@ -1,0 +1,44 @@
+{
+  "status": "narrowed_after_close_reading; limited_reconstructive_contribution_only",
+  "initial_candidate": {
+    "question": "Can a microscope reveal hidden natural structure, as against Cavendish's critique?",
+    "decision": "REJECTED_AS_TOO_FAMILIAR",
+    "reason": "Clucas 2022 directly treats Cavendish's microscopic-image epistemology, Hooke's image practices, variability, and fly-eye example. The original broad question does not pass the novelty gate."
+  },
+  "revised_candidate": {
+    "question": "What does Hooke mean by calling each fly-facet a 'perfect eye', and does Cavendish's behavioral objection contest that local optical function or the integrated animal's sight?",
+    "proposed_contribution": "A bounded comparison of Hooke Observation XXXIX with Cavendish's 'Of the Eyes of Flies': Hooke explicitly distinguishes many local images from the fly's whole-animal faculty; Cavendish's functional challenge therefore does not directly refute the optical-subunit hypothesis, while it correctly warns against inferring function or system-level capacity from a surface count alone.",
+    "type": "interpretive and argumentative clarification; not a new general theory of scientific evidence"
+  },
+  "closest_work": [
+    {
+      "work": "Stephen Clucas, 'Margaret Cavendish and the Rhetoric and Aesthetics of the Microscopic Image in Seventeenth-Century England' (2022), pp.51-68, DOI 10.1017/9781108780780.005",
+      "coverage": "Bounded excerpts, PDF pp.2-4, 12-16, 20-26; fly-eye and image instability discussion read.",
+      "effect": "Preempts broad anti-microscopy thesis; no direct treatment found in inspected excerpts of Hooke's local-image/animal-faculty qualification alongside Cavendish's behavioral argument."
+    },
+    {
+      "work": "Mary Purcell, 'Inner discourse as philosophical debate in Margaret Cavendish' (2025), Galilæana XXII.2, pp.39-63, DOI 10.57617/gal-78",
+      "coverage": "Relevant pages 56-57 (local PDF pp.18-19) read; surrounding local pages 54-55 used only to locate it.",
+      "effect": "Directly discusses Cavendish's 14,000-eye and spider arguments, strengthening the need for a narrow distinction. In the pages read, it does not compare Cavendish's inference with Hooke's express refusal to infer greater whole-animal seeing from numerous facets."
+    },
+    {
+      "work": "Emma Wilkins, 'Margaret Cavendish and the Royal Society' (2014), DOI 10.1098/rsnr.2014.0015",
+      "coverage": "Metadata and search-result abstract snippet only; attempted PDF returned an HTML interstitial.",
+      "effect": "Not used as evidence for novelty or for a claim about the article's full argument."
+    }
+  ],
+  "bounded_search": {
+    "queries": "See sources/search-log.json for exact supplemental queries and relevant result IDs/URLs; exact earlier exploratory query payloads are not recoverable and have not been reconstructed.",
+    "outcome": "No direct match surfaced in the consulted excerpts/search results for the side-by-side contrast between Hooke's explicit local-vs-whole-vision qualification and Cavendish's behavioral inference.",
+    "scope_warning": "Search results are incomplete discovery aids. Clucas and Purcell are partial readings, and much relevant literature remains unchecked."
+  },
+  "strongest_opposing_reading": "Hooke's 'perfect eye' already means a miniature optical subsystem, not an autonomous visual subject. His dissection, structural analogies, crustacean removal tests, and ray model make the classification more than an inference from an enlarged surface image; his account already denies that many facets yield enhanced whole-animal visual power. On this reading, Cavendish attacks an inference Hooke does not make, and the essay's distinction merely restates Hooke's own caution.",
+  "response_and_concession": "The essay concedes that Hooke explicitly blocks the strongest count-to-capacity inference and that his evidence is multi-modal. It argues only that the term 'eye' spans local optical and organism-level explanatory roles, and that readers should keep these roles explicit. The proposed contribution is small and interpretive; it may be a clarification rather than a novel philosophical result.",
+  "open_reopen_triggers": [
+    "A close reading of the full relevant secondary corpus finds this exact Hooke-Cavendish comparison already argued.",
+    "The underlying Hooke edition or text contradicts the transcribed Observation XXXIX passage or changes its sequence/qualification.",
+    "The full essay cannot defend why the level distinction matters beyond terminology.",
+    "An independent critic finds that Cavendish's behavior argument does directly refute the local optical-subunit claim rather than only the organism-level inference."
+  ],
+  "authorship_and_status": "AI-originated author-stage candidate. No independent critic has yet evaluated it. This gate is not a novelty certificate."
+}

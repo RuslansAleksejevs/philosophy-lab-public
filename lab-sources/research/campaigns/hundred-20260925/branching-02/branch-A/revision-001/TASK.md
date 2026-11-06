@@ -1,0 +1,9 @@
+# Fresh one-cycle branch-A author for branching-02
+
+Requested model/effort: gpt-6-luna / xhigh. This is the sole one-cycle descendant of sealed `branching-02/D0.md`. Read only campaign AGENTS, AUTHOR_BRIEF, OPERATIONS, FRESH_DISPATCH_V2, the shared `branching-01/BRANCH_PROTOCOL.md`, current rules, method-change note, this task and exact `input-packet.json` / dispatch. Do not read the D0 author's self-review/history, critic private notes or biography, branch B, other essays or global resumes.
+
+Use your fresh actual native UUID. Prepare `revision-001` from the exact request template before opening the substantive packet. Wait for a successful prepare. Read the complete D0, the one sealed independent critique, its source manifest/coverage metadata, and only the allowed primary-source evidence in the packet. Verify the critique's decisive points against actual sources; any additional primary research must use a separately prepared source stage before relying on it.
+
+Produce a complete revised English manuscript `D1.md` and separate `response-001.md` that answers every material objection by change, reasoned disagreement, or explicit unresolved limit. Preserve the D0 bytes, attribute genuinely new critic contributions, and do not accept advice without argument. Write Russian `HISTORY-001.md`, exact word counts excluding only bibliography, coverage notes, and a checkpoint summary. The candidate must descend from exact D0 candidate `candidate:hundred-35236bd863b4736b72e8c977b1e3b85c`.
+
+After successful prepare, emit the real exact marker once, record the revision, append the branch-condition checkpoint with outcome CONTINUE, and run complete validation. This completes only branch A of the method, not the essay count. Return manuscript hash/candidate, all stage/lineage/receipt/coverage/checkpoint IDs and validation. Root will later blind-select among exact D0/D1/D3 versions. No branch B access, Claude, paid API, publication or submission.

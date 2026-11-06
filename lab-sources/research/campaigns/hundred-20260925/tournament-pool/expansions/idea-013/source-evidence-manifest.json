@@ -1,0 +1,41 @@
+{
+  "schema": "hundred-source-evidence-manifest-v1",
+  "logical_id": "idea-013",
+  "stage": "expansion-001",
+  "external_literature_retrieval": "none",
+  "primary_sources_read": [],
+  "novelty_status": "not checked; unknown",
+  "selected_argument_inputs": [
+    {
+      "path": "research/campaigns/hundred-20260925/tournament-pool/generator-01/ideas/idea-013.md",
+      "sha256": "1735434c6893be301535f54e43801b1971ee9e0d2a71a960c6b6c942699a66cb",
+      "event_id": "event-ae84b09746844619a8379799ebb58a32",
+      "role": "selected AI-origin idea; conceptual input, not literature evidence"
+    },
+    {
+      "path": "research/campaigns/hundred-20260925/tournament-pool/assessor-astra/assessments/idea-013.json",
+      "sha256": "ed643079a1e163435d00e7979ca0307793fc83e8dd9354d4a4d6e77eb17fbe9f",
+      "event_id": "event-7a80a0c4bc74430a9ade5d7f092d40f7",
+      "role": "selected sketch assessment; includes separately attributed Astra challenge"
+    },
+    {
+      "path": "research/campaigns/hundred-20260925/tournament-pool/assessor-sol/assessments/idea-013.json",
+      "sha256": "d3a38ef02304f67a49242c5914379dc56cc45b943c6d84d97a9e76cdcef15bd8",
+      "event_id": "event-07ddc65f00f34c60b02042a0075469a0",
+      "role": "selected comparison assessment; no separate new contribution declared"
+    },
+    {
+      "path": "research/campaigns/hundred-20260925/tournament-pool/selection-120-24/reasons/idea-013.json",
+      "sha256": "c491b594aa7cb7d0fa243f6343e49469f2b136b0be6869f2ed797a5429a459ac",
+      "event_id": "event-c7807695afd945b59f77b7ff7fb36318",
+      "role": "individual selection reason; AI substantive orchestration attributed there"
+    }
+  ],
+  "next_probe_source_tasks": [
+    "Retrieve primary work on incomplete social orderings and test whether completeness is treated as a required rationality or welfare premise.",
+    "Retrieve the closest primary work on interpersonal life comparisons, population ethics, and person-affecting claims.",
+    "Retrieve primary arguments on priority and lifetime distribution that could show why prior access must enter the context.",
+    "Save exact queries, results, editions, retrieval metadata, source bytes, unavailable paths, and precise read coverage in a separately prepared source stage before using them in a dependent probe."
+  ],
+  "coverage_limit": "This manifest records selected argument ancestry and explicit next-source tasks. It is not a literature search, bibliography, originality certificate, or evidence that any primary source was read."
+}

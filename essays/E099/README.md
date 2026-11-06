@@ -1,5 +1,7 @@
 # E099 · What a Mathematical Explanation Leaves Open
 
+[Original research files and revision evidence](../../docs/essay-evidence/E099.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

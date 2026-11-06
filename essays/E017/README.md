@@ -1,5 +1,7 @@
 # E017 · The Objection That Outlived Its Evidence
 
+[Original research files and revision evidence](../../docs/essay-evidence/E017.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

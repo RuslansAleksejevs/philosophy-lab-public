@@ -1,0 +1,71 @@
+{
+  "manuscript": {
+    "path": "research/campaigns/hundred-20260925/counterexample-02/DRAFT-001.md",
+    "read_status": "full",
+    "sha256": "6d488f1f3bd188a38a24878740da50a5f487cef31eecb9c9b5507df551534eb8",
+    "word_count": 2676,
+    "count_method": "Unicode lexical tokens; excludes References section and bibliography; includes title, abstract, headings and body"
+  },
+  "model": {
+    "copied_file": "research/campaigns/hundred-20260925/counterexample-02/critic-01/model-check/model_search.py",
+    "read_status": "full code inspection and copied execution",
+    "execution": "exit 0; output byte-identical to author-supplied output; no in-place execution"
+  },
+  "source_coverage": [
+    {
+      "work": "Goldman 1967",
+      "status": "excerpt",
+      "locator": "pp. 363, 365–366, 370; PDF excerpt; JSTOR metadata cross-check"
+    },
+    {
+      "work": "Stalkfleet 2011",
+      "status": "excerpt",
+      "locator": "pp. 75–77 in search-indexed article text; direct open failed"
+    },
+    {
+      "work": "Kopec 2011",
+      "status": "excerpt",
+      "locator": "pp. 1252 and 1255 in author-copy indexed text; Cambridge metadata/abstract; direct author-copy open failed"
+    },
+    {
+      "work": "King and Mertens 2023",
+      "status": "excerpt",
+      "locator": "publisher article sections 1 and 2; not the whole article"
+    },
+    {
+      "work": "Mertens et al. 2022",
+      "status": "excerpt",
+      "locator": "BMJ publisher search extraction; direct open failed"
+    },
+    {
+      "work": "Perdomo et al. 2020",
+      "status": "excerpt",
+      "locator": "PMLR abstract and selected framework passages"
+    },
+    {
+      "work": "Kim and Perdomo 2023",
+      "status": "excerpt",
+      "locator": "publisher PDF abstract and selected introduction pages 79:1–3"
+    },
+    {
+      "work": "Khosrowi 2023",
+      "status": "excerpt",
+      "locator": "SAGE article introduction and selected appraisal passages, including counterfactual forecast discussion"
+    }
+  ],
+  "not_checked": [
+    {
+      "work": "Merton 1948",
+      "reason": "not independently retrieved; supplied source locator marked metadata-only; no substantive manuscript claim was verified against it"
+    },
+    {
+      "work": "other literature",
+      "reason": "search was targeted to cited nearest works; no exhaustive novelty search"
+    }
+  ],
+  "access_failures": [
+    "Official JSTOR content page did not provide Goldman full text; accessible scanned copy was used for bounded excerpts.",
+    "Web-reader direct open returned internal errors for Stalkfleet, Kopec author copy, and the Journal of Medical Ethics article; only narrow search-indexed excerpts were read."
+  ],
+  "scope_limit": "Downloads/indexed passages were not treated as full reading. No claim of exhaustive novelty."
+}

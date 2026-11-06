@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "id": "hundred-tournament-probe-v1",
+  "status": "AUTHORIZED_CAMPAIGN_METHOD",
+  "effective_from": "hundred-20260925-resume-20260927",
+  "requested_configuration": {
+    "model": "gpt-6-luna",
+    "effort": "xhigh",
+    "backend": "unverified"
+  },
+  "stages": [
+    "primary_sources",
+    "adversarial_argument_probe",
+    "survival_decision"
+  ],
+  "rules": "Each selected expanded proposal receives one fresh, isolated context. First archive actual primary-source investigation. Then, in the same assigned context, seriously attempt to defeat or narrow the argument and test its assigned cases. No full essay and no separate critic in this six-probe funnel. Negative results are valid. A later three finalists receive fresh full authors, independent fresh critics, and author revisions.",
+  "source_standard": "Search the closest primary sources, save actual retrieved bytes or bounded excerpts, queries, retrieval metadata and exact page/passage coverage; distinguish full, excerpt, metadata and unavailable.",
+  "provenance": "Exact assigned proposal, argument map, remaining tests and individual selection rationale only; no sibling proposal, aggregate ranking, global resume or other essay. Preserve exact stage/candidate ancestry.",
+  "comparability": "New roles request gpt-6-luna/xhigh; native observations are recorded separately and may remain unknown."
+}

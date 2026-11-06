@@ -1,0 +1,41 @@
+{
+  "coverage_boundary": "Complete D0 and complete supplied evidence packet read. Primary texts were checked in excerpts only. Downloaded full files were not read in full; no plate images or wider literature review.",
+  "sources": [
+    {
+      "key": "cavendish1666",
+      "status": "excerpt",
+      "coverage": "Part I, ch. III, edition PDF pp. 98–99 / web extraction lines 2992–3043; checked mediation, qualification, knife/needle counterfactual and footnotes."
+    },
+    {
+      "key": "hooke1665",
+      "status": "excerpt",
+      "coverage": "Preface lines 239–242; Observations I–II lines 292–323; Observation XXV lines 1483–1489; no plates checked."
+    },
+    {
+      "key": "supplied-source-packet",
+      "status": "excerpt-or-abstract-as-labeled",
+      "coverage": "All seven exact evidence files, source dossier, input reading coverage, source manifest and retrieval history read."
+    }
+  ],
+  "retrieval_failures": [
+    {
+      "source": "Hooke Project Gutenberg HTML",
+      "stage": "initial sandbox request",
+      "failure": "URLError: DNS resolution failure",
+      "resolved_by": "narrowly scoped public HTTPS request returned HTTP 200; exact bytes retained."
+    },
+    {
+      "source": "Cavendish LSE-hosted PDF",
+      "stage": "initial sandbox request",
+      "failure": "URLError: DNS resolution failure",
+      "resolved_by": "narrowly scoped public HTTPS request returned HTTP 200; exact bytes retained."
+    }
+  ],
+  "not_checked": [
+    "complete Hooke Micrographia",
+    "complete Cavendish Observations",
+    "plate images",
+    "full secondary works",
+    "exhaustive novelty across the field"
+  ]
+}

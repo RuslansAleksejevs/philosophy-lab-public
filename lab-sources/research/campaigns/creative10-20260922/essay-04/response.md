@@ -1,0 +1,22 @@
+# Response to both independent critics
+
+The final retains the approved thesis: a truthful relay can bear responsibility for avoidable loss of access to unaffected support because it destroyed a distinction needed for later selective correction. It narrows the basis of that responsibility, rather than replacing the proposal. No new external sources were used. The original draft, proposal and reviews remain unchanged.
+
+## Argument opponent
+
+1. **Directed obligation versus useful assistance — accepted.** Section 4 now bases the obligation on an undertaking to maintain guidance during an identifiable period and reasonable audience dependence on that arrangement. It explains why the recipient has a claim concerning performance of the offered role, not an entitlement to the best affordable information. A casual walker who merely shares reports is distinguished from a walker who agrees to coordinate information for a group. Payment and institutional status are not decisive. The defended premise remains contestable, but is now explicit.
+2. **Whether correction alone entails preservation — accepted.** The final expressly denies that entailment. A minimal obligation to broadcast known defects may be fully discharged by a broad notice. Earlier retention follows here from reasonable care within the richer undertaking to maintain guidance. Favorable updates may raise analogous concerns; the paper does not claim correction exhausts them.
+3. **Policy costs and foreseeability — accepted.** The norm now evaluates feasible policies, total collection/verification/retrieval/protection costs, likelihood and severity within the relevant period, alternatives and competing responsibilities. The case stipulates an ordinary recognized defect type. Many individually cheap distinctions do not automatically produce individually mandatory records.
+4. **Notice compatibility — accepted.** The exact-target condition and conservative union are restricted to histories jointly compatible with the retained record and the received notice. An assignment-revealing notice is explicitly considered.
+5. **Exact targeting versus practical negligence — accepted.** Section 3 now expressly says the information condition is not sufficient for negligence or practical loss. Other support may make exact targeting unnecessary. The paper retains the distinction between original support, truth, and overall present entitlement.
+
+## Contribution/source critic
+
+A. **Ground the directed duty and clarify disclaimers — accepted.** The undertaking argument replaces the draft's largely undeveloped appeal to unfairness. Specific limitations can narrow a voluntary undertaking if communicated before dependence and recipients can understand and reasonably adapt. A late blanket disclaimer does not automatically alter it. Independent obligations of monopoly services are left unresolved rather than assumed away.
+B. **Likelihood and aggregate cost — accepted.** The policy-level standard addresses remote risks and aggregate burdens. The formal information condition remains instrumental rather than a moral decision procedure.
+C. **Formal condition and decision relevance — accepted.** Joint compatibility is explicit. The stipulated probability example now includes route/waiting costs showing one setting where preservation changes the rational choice; it makes no universal decision or belief claim.
+D. **Modest inheritance and source fidelity — accepted and retained.** Frise receives explicit credit for the paired-source precedent. Doyle already supplies prospective and socially motivated provenance preservation; Cheney et al. supply dependency and conservative approximation background. Egan and MacFarlane are not presented as targets refuted by this paper. No new mathematical theorem or first-ever recordkeeping norm is claimed. Doyle's full-text access gap remains visible in the bibliography.
+
+## Assessment
+
+All substantive requests were accepted; none required a different thesis or a new novelty gate. The contribution is a small diagnostic argument about a specific failure of maintaining testimonial dependence. The final is not offered as a comprehensive theory of testimonial responsibility. Its normative premise, boundary between casual help and an undertaking, and significance beyond existing care/provenance obligations remain matters for philosophical assessment. Independent PASS_RELATIVE is a bounded literature-relative judgment, not a certificate of priority or truth.

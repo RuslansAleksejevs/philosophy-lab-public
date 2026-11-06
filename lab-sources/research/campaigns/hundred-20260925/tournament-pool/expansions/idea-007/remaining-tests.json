@@ -1,0 +1,72 @@
+{
+  "schema": "hundred-remaining-tests-v1",
+  "candidate": "idea-007",
+  "complete": false,
+  "literature_or_novelty_check_performed": false,
+  "tests": [
+    {
+      "id": "T1",
+      "priority": "blocking",
+      "question": "Can a promissory claim or duty attach to psychologically continuous successors without assuming that they are numerically identical to the promisor?",
+      "source_scope": "Primary work on fission, personal identity, practical responsibility, and first-person survival.",
+      "disconfirming_result": "If all responsibility-relevant accounts require unique numerical identity or successor consent, the general transfer thesis fails.",
+      "next_step": "Fresh source phase: identify and read primary arguments on branching and responsibility; separate their identity claims from normative transfer claims."
+    },
+    {
+      "id": "T2",
+      "priority": "blocking",
+      "question": "Do theories of promise distinguish the recipient's claim from the identity of the promisor, and what grounds the claim after performance becomes harder?",
+      "source_scope": "Primary work on promising, assurance, directed duties, and claim-rights.",
+      "disconfirming_result": "If the relevant account treats a promise as inherently nontransferable or identity-essential, P1-P2 need substantial qualification.",
+      "next_step": "Compare the strongest source-grounded accounts; do not infer novelty from the selected sketch's identity-only alternative."
+    },
+    {
+      "id": "T3",
+      "priority": "high",
+      "question": "How do existing theories justify joint, alternative, shared, or backup responsibility, and when does a duty to secure an end imply a duty to coordinate?",
+      "source_scope": "Primary work on shared obligations, collective agency, and joint responsibility.",
+      "disconfirming_result": "If task-specific coordination necessarily requires consent or shared intention, the cooperative branch of the rule fails.",
+      "next_step": "Separate duty to the promisee from duties among successors; test cases where either can perform alone versus only joint action can succeed."
+    },
+    {
+      "id": "T4",
+      "priority": "high",
+      "question": "What principled measure, if any, fixes fair shares while preserving a single claim?",
+      "source_scope": "Primary work on burden-sharing, control, reliance, and remedial limits, plus conceptual case analysis.",
+      "disconfirming_result": "If no non-arbitrary burden cap or allocation rule can preserve practical protection, the proposal must drop backup liability or narrow to unilateral performance cases.",
+      "next_step": "Compare equal division, least-burden route, control-sensitive allocation, and claimant choice; identify who bears uncertainty."
+    },
+    {
+      "id": "T5",
+      "priority": "high",
+      "question": "Which promises are identity-sensitive, harmful to carry forward, or nontransferable because the promised act is personal?",
+      "source_scope": "Primary accounts of personal promises and promisee reliance; adversarial case construction.",
+      "disconfirming_result": "If most ordinary promises depend on unique promisor identity, the default scope is too wide.",
+      "next_step": "Test intimate, skill-dependent, explicitly personal, and materially harmful cases before claiming generality."
+    },
+    {
+      "id": "T6",
+      "priority": "medium",
+      "question": "Does the distinction between one claimant entitlement and multiple responsible agents already exist under a well-developed name?",
+      "source_scope": "Primary literature discovered in T1-T5 and its cited foundational work.",
+      "disconfirming_result": "A close source that already provides the same distinction and burden rule would remove any novelty claim and could require revising the proposal's contribution.",
+      "next_step": "Build a source map only after the relevant primary arguments have been read; novelty remains unknown until then."
+    }
+  ],
+  "adversarial_cases": [
+    "Involuntary or forced branching",
+    "Successors with radically diverging values or incompatible plans",
+    "A successor has no practical control over performance",
+    "A bystander has control but no continuity with the promissory agency",
+    "Only one successor can perform, but at a burden much higher than the other",
+    "Performance requires indispensable cooperation",
+    "Identity-sensitive, intimate, skill-specific, harmful, or nontransferable promises",
+    "One successor deliberately frustrates performance after the other has completed it"
+  ],
+  "stop_or_narrow_if": [
+    "The continuity/control condition cannot be defended without assuming numerical identity.",
+    "A bounded duty still imposes a new, unjustified relation on nonconsenting successors.",
+    "The fair-burden condition has no principled operational interpretation.",
+    "The proposal applies only to rare promises but cannot state a stable boundary for them."
+  ]
+}

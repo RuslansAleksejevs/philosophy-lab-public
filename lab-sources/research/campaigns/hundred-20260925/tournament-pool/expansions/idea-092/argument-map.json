@@ -1,0 +1,96 @@
+{
+  "schema": "hundred-expanded-argument-map-v1",
+  "run_id": "hundred-20260925-expand-idea-092",
+  "stage": "expansion-001",
+  "source_status": {
+    "primary_sources_read": 0,
+    "literature_checked": false,
+    "originality": "UNKNOWN"
+  },
+  "question": "When a fixed deadline becomes impossible to meet before it arrives, has the deadline-relative failure occurred, or has only its outcome become settled?",
+  "claim": "For a fixed deadline criterion, closure of every relevant success route can precede the evaluation of nonachievement at the criterion time; obligation violation is a third, norm-dependent matter.",
+  "scope": [
+    "fixed deadline criterion",
+    "robust loss of all relevant success routes",
+    "deadline-relative performance claim"
+  ],
+  "distinctions": [
+    {
+      "term": "closure time",
+      "definition": "First time when every physically open relevant continuation fails the fixed success criterion."
+    },
+    {
+      "term": "criterion time",
+      "definition": "Endpoint named by the deadline condition, at which the completed interval can be evaluated."
+    },
+    {
+      "term": "obligation violation",
+      "definition": "Failure under a norm that additionally depends on a live duty and its terms."
+    }
+  ],
+  "premises": [
+    {
+      "id": "P1",
+      "claim": "A criterion of the form 'deliver by d' evaluates performance over a specified interval ending at d."
+    },
+    {
+      "id": "P2",
+      "claim": "If all relevant continuations from c<d exclude success, then success is settled as impossible at c, assuming no later route or criterion change."
+    },
+    {
+      "id": "P3",
+      "claim": "A fact about what remains possible at c does not by itself alter the endpoint d specified by the criterion."
+    },
+    {
+      "id": "P4",
+      "claim": "An obligation violation requires normative conditions beyond failure to satisfy an outcome description."
+    }
+  ],
+  "inferences": [
+    {
+      "from": [
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "to": "The outcome can be settled at c while the fixed deadline-relative condition is evaluated at d."
+    },
+    {
+      "from": [
+        "P1",
+        "P4"
+      ],
+      "to": "The time or existence of an obligation violation cannot be inferred solely from closure or deadline nonachievement."
+    }
+  ],
+  "worked_case": {
+    "closure_time": "Monday 10:00",
+    "criterion_time": "Tuesday 12:00",
+    "criterion": "The unique sealed document arrives at the named office no later than Tuesday noon.",
+    "closure": "The only package and all copies are destroyed; no replacement or other route is available.",
+    "result": "At closure, prospective failure is settled on the assumptions. At the deadline, the fixed delivery criterion is unmet. A valid cancellation before the deadline can remove an operative duty without changing whether delivery occurred by noon."
+  },
+  "strongest_objection": {
+    "claim": "Possibility closure is the only practically significant failure time; the deadline adds only an administrative label.",
+    "answer": "Closure is significant for intervention, prediction, and some duties, but does not alter the endpoint encoded by a fixed 'by d' criterion. If failure is stipulated to mean point of no return, the objection succeeds for that different sense."
+  },
+  "assessor_feedback": [
+    {
+      "source": "Astra individual assessment",
+      "contribution": "Test whether task failure and obligation violation can have different temporal profiles under cancellation.",
+      "response": "Accepted as a decisive scope test; distinguish the fixed outcome criterion from the live obligation and concede that institutional task identity can change on cancellation."
+    },
+    {
+      "source": "Sol individual assessment",
+      "contribution": "The proposal is coherent but niche and needs primary work on negative events and tense; no separate new argument was attributed.",
+      "response": "Agree that significance is modest, the topic is narrow, and literature engagement is absent; disagree that narrowness alone makes it trivial, while treating any wider payoff as unproven until a source probe."
+    }
+  ],
+  "revision_conditions": [
+    "Closest primary sources already contain this distinction and no further explanatory contribution survives.",
+    "Ordinary deadline cases do not support separating prospective inevitability from completed deadline evaluation.",
+    "The criterion cannot be held fixed in cancellation cases without stipulating task identity in a way the account cannot defend.",
+    "Later routes or criterion changes routinely defeat the closure condition."
+  ],
+  "relation_to_parent": "Direct descendant: retains early inevitability versus later deadline-relative nonachievement, clarifies the inferential steps, and narrows the thesis to fixed criteria while separating duty violation."
+}

@@ -1,0 +1,7 @@
+# Sources and refined contribution
+
+Primary works and actual access are recorded in sources/retrieval-notes.md. MacFarlane (2004), Boghossian (2014), Evershed (2021), Montessori (2026), and the publisher abstract of Hamami (2023) were read in the specified portions. Source retrieval completed 2026-09-09 around 23:11 UTC.
+
+The original broad thought is substantially anticipated by Evershed: invalidity constrains methods rather than just combinations, and independent reasons for a conclusion do not license a bad deduction. The contribution must therefore be narrower: end-to-end consequence and belief attitudes can remain fixed while a *specified proof route* needs withdrawal; replacement warrant for the conclusion does not retroactively vindicate that route. Distinguish defective displayed subarguments, objectively valid but misleadingly defeated routes, and sound alternative routes. Argue for a local non-substitution principle and show why it limits what logical bridge principles alone can establish. This is a proposed synthesis/refinement, not a claim to discover basing, defeaters or proof repair.
+
+Potential strongest objection: just apply Evershed to each local step. Response should concede this works for certain actual defects, then separate route-specific uncertainty when no end-to-end invalidity is accepted, and continuing reliance. Another: repair concerns epistemology, not logic. Concede the normative force is mixed; logical structure identifies what a replacement must establish but does not itself impose inquiry or select a logic.

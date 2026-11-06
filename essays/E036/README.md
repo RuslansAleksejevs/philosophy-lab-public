@@ -1,5 +1,7 @@
 # E036 · No Penalty for Silence
 
+[Original research files and revision evidence](../../docs/essay-evidence/E036.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 Current selection: [exact comparison R1](../../evidence/final-selection/manuscripts/E036-R1-comparison.md) · [preserved author R1](revision-R1.md) · [decision and next task](../../docs/selection.md).

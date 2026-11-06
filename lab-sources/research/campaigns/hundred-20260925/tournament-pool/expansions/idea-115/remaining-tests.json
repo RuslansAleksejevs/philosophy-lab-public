@@ -1,0 +1,65 @@
+{
+  "schema": "hundred-idea-115-remaining-tests-v1",
+  "status": "planned; no test below has been performed",
+  "linked_manifest": "source-evidence-manifest.json",
+  "central_discriminator": "Does a primary theory give independent, non-selective grounds for future-directed interest, welfare-bearer identity, cross-temporal aggregation, and permission to impose suffering?",
+  "tests": [
+    {
+      "id": "T1-psychological-ground",
+      "type": "primary-source reconstruction",
+      "task": "Locate and read primary formulations of the criterion by which psychological continuity, memory, intention, preference, or anticipation affects future-directed concern.",
+      "record": ["exact work and section", "retrieval status", "actual pages or passage bytes read", "whether the criterion concerns preference, deprivation, welfare subjecthood, or another relation"],
+      "supports_challenge_if": "The theory uses P to reduce the significance of a future outcome but does not specify the target of that reduction.",
+      "weakens_or_defeats_if": "The theory clearly limits the P-based claim to stage-relative anticipation or preference and makes no broader welfare or harm inference."
+    },
+    {
+      "id": "T2-welfare-bearer",
+      "type": "primary-source reconstruction",
+      "task": "Locate and read a primary account of who or what bears welfare across time and what relation makes experiences parts of one subject's life.",
+      "record": ["the proposed bearer", "the identity or continuity criterion", "whether it is independently defended from the desired compensation result", "cases where the rule applies or fails"],
+      "supports_challenge_if": "No independent W rule is supplied, or the account shifts its boundary to retain only later benefits.",
+      "weakens_or_defeats_if": "An explicit independently motivated W rule includes the stipulated case without relying on P, while remaining stable across comparable cases."
+    },
+    {
+      "id": "T3-aggregation-and-compensation",
+      "type": "primary-source reconstruction",
+      "task": "Locate primary arguments about lifetime welfare aggregation and distinguish an improved total from making an earlier harm good for a subject.",
+      "record": ["the exact K rule", "whether welfare is cardinally or otherwise combined", "whether later benefits can offset earlier harms", "whether the author calls this compensation or uses another concept"],
+      "supports_challenge_if": "The theory moves from a total to 'compensation' without explaining the relation or the relevant subject.",
+      "weakens_or_defeats_if": "The author states a stable aggregation rule and does not claim that it alone justifies the earlier suffering."
+    },
+    {
+      "id": "T4-permission-bridge",
+      "type": "normative argument test",
+      "task": "Check whether the theory infers that present suffering may be imposed from a higher cross-temporal total, and reconstruct any rights, consent, distribution, or harm constraints it invokes.",
+      "record": ["the exact permission premise", "whether it is independent of K", "how it treats severe versus minor suffering", "what counterexample would defeat it"],
+      "supports_challenge_if": "The theory treats net welfare as sufficient permission without defending the bridge.",
+      "weakens_or_defeats_if": "A separate defensible moral principle licenses the act or blocks it independently of the disputed continuity claim."
+    },
+    {
+      "id": "T5-symmetry-and-result-independence",
+      "type": "case comparison",
+      "task": "Apply the proposed P, W, and K rules without changing them to Mica and a sign-reversed case in which t0 is pleasant and t1 painful; include a continuity-variation case while holding the welfare experiences fixed.",
+      "record": ["predicted judgment in each case before interpretation", "any changed boundary", "the stated reason for every change"],
+      "supports_challenge_if": "The boundary moves with the valence sign or desired permissibility conclusion without an independent reason.",
+      "weakens_or_defeats_if": "The same rule yields stable judgments and the theory explains any asymmetry independently."
+    },
+    {
+      "id": "T6-originality-and-nearest-neighbor",
+      "type": "bounded literature search",
+      "task": "Search primary literature for the closest accounts of psychological unity, future-directed or time-relative interests, the welfare subject, animal death or deprivation, and intralife compensation; record exact passages rather than relying on labels.",
+      "record": ["queries and retrieval dates", "primary sources found and unavailable", "full/excerpt/metadata coverage", "the nearest conceptual overlap and the difference, if any"],
+      "supports_challenge_if": "A specific unaddressed inference or calibration test remains after comparison.",
+      "weakens_or_defeats_if": "A close primary account already states and defends the same test; originality must then be narrowed or left unclaimed."
+    },
+    {
+      "id": "T7-empirical-boundary",
+      "type": "conditional empirical follow-up",
+      "task": "Only if applying the argument to real animals, retrieve appropriate primary empirical studies of the specific capacities the moral theory invokes and record species, methods, and limits.",
+      "record": ["species and capacity", "primary study bytes and coverage", "method limits", "the exact normative inference the evidence is meant to support"],
+      "supports_challenge_if": "Evidence supports the stipulated capacity distinction for the target case and the normative bridge is separately defended.",
+      "weakens_or_defeats_if": "The empirical premise fails, is uncertain, or does not support the moral inference. No empirical claim is needed for the present conceptual proposal."
+    }
+  ],
+  "probe_gate": "Do not write a source-dependent expanded proposal or report a novelty result until source retrieval, actual reading coverage, and the nearest-source comparison are archived in a separately prepared source stage."
+}

@@ -1,5 +1,7 @@
 # E018 · A Right Without Reliance: How an Accepted Promise Can Bind
 
+[Original research files and revision evidence](../../docs/essay-evidence/E018.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

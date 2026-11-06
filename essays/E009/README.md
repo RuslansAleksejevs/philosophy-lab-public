@@ -1,5 +1,7 @@
 [Home](../../README.md) · [Five reading cards](../../docs/final-shortlist.md) · [All essays](../README.md)
 
+[Original research files and revision evidence](../../docs/essay-evidence/E009.md)
+
 # Before You Tell Us to Try Again
 
 **Historical AI recommendation.** This essay remains in the earlier recommendation or reserve record; the [later human trio](../../docs/current-selection.md) is E050, E012 and E051.

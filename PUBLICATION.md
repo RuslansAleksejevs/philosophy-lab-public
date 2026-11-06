@@ -20,3 +20,7 @@ The final E050, E012 and E051 submissions are now verified: their six attachment
 - Codex assembled the repository. Essays retain their actual Codex, Claude and mixed-model histories. Ruslan directed the project and selected the three submissions; human prompts and external quotations are separately attributed.
 
 The Russian retrospective dossier remains local working material. It was already absent from the prepared private tree; its removal did not rewrite the private Git history. The existing boundaries for hidden reasoning, credentials, native envelopes, unsupported attachments and local source originals remain in force. They are documented in the export manifests rather than presented as complete provider capture.
+
+## November 5 source expansion
+
+The user authorized adding missing local materials, improving the reading routes and searching the archive, and updating both repositories while preserving submitted essays and PDFs. The [dated expansion record](evidence/archive-expansion/20261105/README.md) lists the imported sources and verification. Both repositories retain their separate histories and existing visibility.

@@ -1,0 +1,26 @@
+{
+  "status": "PASS_RELATIVE",
+  "source_manifest_sha256": "abbae7f6f27f6c7e907cac8163391f82184094ab9d9475976efa1ccf31117ba8",
+  "query_log_path": "sources/queries.json",
+  "closest_works": [
+    {
+      "citation": "Weinberger, Intervening and Letting Go (2021/2023)",
+      "shared_claim": "Clamping and letting go are distinct actions with distinct adequacy conditions.",
+      "difference": "An exact two-system nonidentifiability result for every nonempty persistent clamp and a different final attractor after release; not the generic distinction.",
+      "evidence_path": "sources/read4.json"
+    },
+    {
+      "citation": "Blom, Bongers and Mooij, Beyond Structural Causal Models (2019/2020)",
+      "shared_claim": "Initial-state-dependent equilibrium selection can be indispensable.",
+      "difference": "Nonempty-clamp outcomes for all initial states fail to determine the unclamped release map, though a complete CCM can represent it.",
+      "evidence_path": "sources/read3.json"
+    },
+    {
+      "citation": "Hamiltonian Monte Carlo methods for efficient parameter estimation in steady state dynamical systems (2014)",
+      "shared_claim": "Steady-state data can leave dynamic rates unidentified.",
+      "difference": "A rate invisible even to the entire nonempty perfect-clamp menu changes the selected released attractor; explicit exact proof and experimental adequacy implication.",
+      "evidence_path": "sources/read2.json"
+    }
+  ],
+  "limitations": "Bounded excerpt search, not full corpus or priority proof. Existing equilibrium/initial-state results impose strong overlap; independent precheck may judge the exact separation insufficient. No draft before release."
+}

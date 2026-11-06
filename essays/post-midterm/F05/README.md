@@ -1,5 +1,7 @@
 # F05 · Knowing the Experience You Changed
 
+[Original research files and revision evidence](../../../docs/essay-evidence/F05.md)
+
 **Working version, October 19 comparison:** [read the checked text](../../selection-20261018/F05.md). A separate reviewer read and checked the full R1 manuscript during preparation; that version remained the comparison text. It remained outside the reading ten; its reasons are preserved in the selection record.
 
 [Later independent review](../../../evidence/final-selection/updates/20261031/preselection/roles/F05/review-initial/output/REVIEW_RU.txt) · [Preparation decision](../../../evidence/final-selection/updates/20261031/preselection/decisions/F05.json) · [Selection reasons](../../../docs/selection.md).

@@ -1,0 +1,124 @@
+{
+  "schema": "hundred-expanded-argument-map-v1",
+  "logical_id": "idea-062",
+  "stage": "expansion-001",
+  "status": "proposal; not a finished essay",
+  "candidate_parent_event_id": "candidate:hundred-projected-34de9a65e811a09b2f0c5daad55378525d55b9da",
+  "question": "Can an error theorist sincerely apologize without sincerely asserting the objective moral wrongness they deny?",
+  "central_claim": "Some apologies can remain sincere for an error theorist when they function as transparent acknowledgment, regret, and a genuine accountability undertaking; this does not make an objective moral avowal sincere, and it does not guarantee that the recipient accepts the apology as adequate.",
+  "scope": {
+    "moral_only_error_theory": "Denies objective moral properties or objective moral truth; may accept nonmoral practical facts or reasons.",
+    "global_normative_error_theory": "Also denies objective normative facts generally; may adopt chosen policies or relationship practices, but cannot claim categorical moral authority.",
+    "apology_cases": "Cases where the speaker can state what happened and offer real repair; excludes cases where the recipient's condition for apology is an objective moral avowal the speaker rejects.",
+    "not_claimed": [
+      "Every conventional apology survives error theory.",
+      "A voluntary undertaking proves an objective duty or moral right.",
+      "Recipient acceptance is required for speaker sincerity.",
+      "The proposal is novel or literature-tested."
+    ]
+  },
+  "terms": {
+    "objective_moral_avowal": "Sincere assertion or endorsement that an objective moral wrongness fact or categorical moral claim applies.",
+    "accountability_undertaking": "A sincere intention to answer the affected person, stop relying on an excuse, and perform specified repair or non-repetition actions.",
+    "practice_internal_standing": "A role in a shared agreement by which the affected person may call the speaker back to the speaker's commitment; it is not thereby an objective moral entitlement.",
+    "speaker_sincerity": "Truthful acknowledgment of believed facts and genuine intention to fulfill the stated undertaking.",
+    "adequacy_and_repair": "Whether the recipient regards the exchange as meeting their conditions and whether the relationship is repaired; these can fail despite speaker sincerity."
+  },
+  "premises": [
+    {
+      "id": "P1",
+      "claim": "An apology may combine factual acknowledgment, regret, moral avowal, and an undertaking to repair; these components need not share one sincerity condition.",
+      "status": "conceptual premise; requires source and counterexample testing"
+    },
+    {
+      "id": "P2",
+      "claim": "If an utterance asserts an objective moral fact the speaker rejects, the speaker cannot sincerely make that assertion in the ordinary belief-based sense.",
+      "status": "scope constraint"
+    },
+    {
+      "id": "P3",
+      "claim": "A speaker can truthfully acknowledge an action, an agreement, and an effect while denying objective moral wrongness.",
+      "status": "conditional; case-specific facts must be checked"
+    },
+    {
+      "id": "P4",
+      "claim": "A speaker may genuinely intend concrete repair and answerability without claiming that the undertaking proves an objective moral duty.",
+      "status": "central philosophical premise; open to relocation objection"
+    },
+    {
+      "id": "P5",
+      "claim": "A moral-only error theorist may retain nonmoral commitments or practical reasons, so such an undertaking need not contradict that narrower theory.",
+      "status": "conditional; closest literature and exact theory scope untested"
+    },
+    {
+      "id": "P6",
+      "claim": "A global normative error theorist cannot sincerely claim categorical moral authority, but may describe a chosen policy or practice role; whether this is enough for apology remains open.",
+      "status": "conditional; may fail for strict global variants"
+    },
+    {
+      "id": "P7",
+      "claim": "Speaker sincerity, recipient acceptance, and successful repair are distinct; a sincere offer may be inadequate or rejected.",
+      "status": "conceptual distinction; requires apology-practice testing"
+    }
+  ],
+  "inference": [
+    {
+      "from": ["P1", "P2", "P3", "P4"],
+      "to": "A transparent apology can sometimes be sincere as acknowledgment, regret, and undertaking without a sincere objective moral avowal.",
+      "strength": "possibility claim only"
+    },
+    {
+      "from": ["P5", "P6"],
+      "to": "The possibility is more secure for moral-only error theory and more limited or uncertain for global normative error theory.",
+      "strength": "conditional distinction"
+    },
+    {
+      "from": ["P2", "P7"],
+      "to": "No conclusion follows that every error theorist's ordinary 'I was wrong' utterance is sincere or that the recipient must accept the apology.",
+      "strength": "scope limitation"
+    }
+  ],
+  "strongest_objection": {
+    "claim": "Answerability, standing, and repair already presuppose normativity. A global error theorist either cannot sincerely accept these obligations or only offers strategic appeasement; an exchange without moral acknowledgment may not count as an apology.",
+    "response": "Do not infer objective authority from a self-chosen commitment. Distinguish a practice role from a categorical moral right and a repair undertaking from moral avowal. Concede that if a global theory makes even chosen commitments insincere, or apology necessarily entails objective moral avowal, this route fails or narrows to moral-only error theory.",
+    "remaining_risk": "The proposal may redescribe promise or damage control rather than preserve apology. Primary-source and usage analysis are required."
+  },
+  "worked_case": {
+    "setup": "A speaker forwards a private draft despite an agreement not to share it.",
+    "speaker_offer": "Truthful account of forwarding and exposure, regret, deletion/correction steps, and a transparent commitment to answer the affected person; no claim to believe in objective wrongness.",
+    "diagnostic_outcomes": [
+      "If the speaker does not intend repair, the undertaking is insincere.",
+      "If the speaker intends repair but the recipient requires objective moral acknowledgment, the offer may be sincere but inadequate.",
+      "If the recipient treats agreed answerability as sufficient for this case, the accountability-undertaking analysis may explain an accepted apology without proving objective moral authority."
+    ]
+  },
+  "assessor_engagement": [
+    {
+      "assessor": "Astra comparison assessor; session 01a0dbb8-f987-7ab3-887f-5f4d38ed758a",
+      "attributed_contribution_id": "astra-assessment-idea-062",
+      "challenge": "Can directed standing be adopted without objective authority, and does the recipient accept the deflated standing as an apology?",
+      "response": "Distinguish practice-internal answerability from objective moral entitlement; recipient response tests uptake and adequacy, not speaker sincerity alone."
+    },
+    {
+      "assessor": "Sol comparison assessor; session 01a0dbb9-389a-7bb3-a2ac-7cc1c5478165",
+      "challenge": "The relocation objection may reintroduce normativity; expressivism and fictionalism need engagement.",
+      "response": "Grant the objection's force, narrow the claim, and leave the relevant literature comparison as an explicit unperformed test."
+    },
+    {
+      "assessor": "Root selection rationale; session 01a0d281-ce48-72a3-8f42-b3a849471fd1",
+      "challenge": "Granting standing does not settle whether the apology sincerely avows what its words express.",
+      "response": "Agree; the argument only covers transparent cases that separate the rejected assertion from the undertaking. Ordinary utterance force remains open."
+    }
+  ],
+  "defeaters": [
+    "A strong account showing sincere apology necessarily avows objective moral wrongness.",
+    "A global error-theory account under which voluntary commitment or relationship-based constraints cannot be sincerely adopted.",
+    "Evidence that the proposed distinction is already standard and adds no defensible boundary test.",
+    "A case where the alleged undertaking cannot be distinguished from strategic concession or mere preference reporting."
+  ],
+  "source_status": {
+    "external_primary_source_retrieval": "not performed",
+    "literature_coverage": "none",
+    "originality": "unknown"
+  }
+}

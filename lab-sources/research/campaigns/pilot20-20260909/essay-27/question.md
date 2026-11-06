@@ -1,0 +1,4 @@
+# Question
+Must a meaningful life have a last possible day, or can irreversible opportunities and obligations supply practical finitude within an indefinitely continuing life?
+
+Tentative thesis: Arguments from mortality to the seriousness of choice often conflate a finite total lifespan with local nonrenewability. An immortal agent can face nonrepeatable reasons indexed to particular people, events, and commitments. The challenge is to explain why these reasons cannot always be compensated by later goods without assuming mortality or simply defining meaning into examples. Investigate Williams on categorical desire and immortality, and Fischer's reply, while checking existing arguments concerning deadlines and procrastination. This is an AI-selected question and tentative candidate, not a novelty claim.

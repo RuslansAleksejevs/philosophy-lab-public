@@ -1,5 +1,7 @@
 # F03 · Errors, Repairs, and Evidence about Essence
 
+[Original research files and revision evidence](../../../docs/essay-evidence/F03.md)
+
 **Working version, October 19 comparison:** [read the checked text](../../selection-20261018/F03.md). A separate reviewer read and checked the full R1 manuscript during preparation; that version remained the comparison text. It remained outside the reading ten; its reasons are preserved in the selection record.
 
 [Later independent review](../../../evidence/final-selection/updates/20261031/preselection/roles/F03/review-initial/output/REVIEW_RU.txt) · [Preparation decision](../../../evidence/final-selection/updates/20261031/preselection/decisions/F03.json) · [Selection reasons](../../../docs/selection.md).

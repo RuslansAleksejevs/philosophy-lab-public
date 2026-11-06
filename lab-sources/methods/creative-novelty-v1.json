@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "creative-novelty-v1",
+  "status": "AUTHORIZED_EXPLORATORY_METHOD",
+  "origin": "AI_PROPOSED_USER_APPROVED",
+  "effective_from": "creative10-20260922",
+  "stages": ["question", "sources", "contribution", "critique", "decision"],
+  "configuration": {"model": "gpt-6-astra", "effort": "medium"},
+  "rationale": "Ten fresh authors, documented pre-draft internet novelty gate, separate argument opponent and contribution/source critic, one revision responding to both.",
+  "novelty_gate": "Search closest arguments, not merely distinctive wording. Read primary works as accessible. PASS_RELATIVE requires explicit contribution beyond closest works and qualified coverage; duplicate ideas must be revised or rejected before manuscript drafting.",
+  "independent_critique": "Two separate fresh sessions per essay; no access to other essays or each other's review before delivering their own review.",
+  "revision": "Author may disagree with criticism with reasons. A substantially changed thesis requires a renewed search before the revised manuscript.",
+  "comparability": "Exploratory campaign, no controlled model comparison or certified originality.",
+  "budget": "Ten private essays and two reviews per essay, no paid API, publication, submission or quota scheduler. No minimum manuscript length; 6000-word ceiling excluding bibliography."
+}

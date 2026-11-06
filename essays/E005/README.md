@@ -1,5 +1,7 @@
 # E005 · A New Goal Does Not Settle an Old Loss
 
+[Original research files and revision evidence](../../docs/essay-evidence/E005.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

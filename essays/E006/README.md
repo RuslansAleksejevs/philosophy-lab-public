@@ -1,5 +1,7 @@
 # E006 · The Duty of the Only Person
 
+[Original research files and revision evidence](../../docs/essay-evidence/E006.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md) · [English translation](translation.en.md)
 
 ## How this essay was made

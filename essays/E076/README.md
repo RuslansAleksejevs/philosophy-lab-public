@@ -1,5 +1,7 @@
 # E076 · Nothing to Maximise: Indeterminacy and Self-Ratification in Optimal Deliberation
 
+[Original research files and revision evidence](../../docs/essay-evidence/E076.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

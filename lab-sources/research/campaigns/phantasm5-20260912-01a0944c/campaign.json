@@ -1,0 +1,27 @@
+{
+  "id": "phantasm5-20260912-01a0944c",
+  "root_session": "01a0944c-1e9b-7fa1-9882-01da02bb499a",
+  "authorized_count": 5,
+  "local_ids": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05"
+  ],
+  "language": "ru",
+  "method": "phantasm5-v1",
+  "model_policy": "inherit actual current model/effort; record observed settings, no override requested",
+  "isolation": "Fresh author and separate fresh critic per essay; own essay files only; no other campaign outputs. Root aggregation after all five sealed.",
+  "human_contribution": "Neutral request for five unusually imaginative essays; no human thesis/argument supplied",
+  "publication_authorized": false,
+  "global_essay_numbers": "Not allocated: avoid collision with concurrent campaign",
+  "concurrency": "Unique campaign directory, helper, agent names, run IDs; shared append-only archive via locking; no shared instructions/config/services edits; defer shared refresh",
+  "areas_ai_allocated_before_outputs": {
+    "01": "Личность, время и метафизика существования",
+    "02": "Моральная ответственность и невозможные ситуации",
+    "03": "Значение слов, вымышленные миры и общение",
+    "04": "Красота, искусство, исчезновение и изменение вещей",
+    "05": "Познание, сомнение, память и пределы объяснения"
+  }
+}

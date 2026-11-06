@@ -10,7 +10,9 @@
 - [Earlier session index](index.json) + [release fragments](updates/20261101-release/INDEX.json) + [submission fragments](updates/20261101-submission/INDEX.json): the structured inventory for deeper inspection.
 - [Evidence guide](../evidence/README.md): manuscripts, reviews, decisions and verification records.
 
-**Current union:** 15,695 visible messages across 3,424 indexed sessions. The [release supplement](updates/20261101-release/README.md) added 355 messages; the [submission supplement](updates/20261101-submission/README.md) adds another 38. The latest scan ran on November 1 at 12:07:03–12:07:28 UTC; exact boundaries are recorded per source. Eight labelled inherited copies remain included in the old baseline. Gaps, unsupported tools and attachments remain explicit.
+**Current union:** 15,722 visible messages across 3,424 indexed sessions. [November 5 addition](updates/20261105-archive/README.md) · [Unified catalogue](catalogue.json) · [Search every published bundle](../docs/archive-search.md).
+
+**November 1 submitted-edition snapshot:** 15,695 visible messages across 3,424 indexed sessions. The [release supplement](updates/20261101-release/README.md) added 355 messages; the [submission supplement](updates/20261101-submission/README.md) adds another 38. That snapshot’s latest scan ran on November 1 at 12:07:03–12:07:28 UTC; exact boundaries are recorded per source. Eight labelled inherited copies remain included in the old baseline. Gaps, unsupported tools and attachments remain explicit.
 
 The [final three](../docs/current-selection.md) now have exact manuscripts, PDFs and checks. Local logging continues beyond this release's cutoff.
 

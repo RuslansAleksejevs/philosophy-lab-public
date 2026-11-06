@@ -1,5 +1,7 @@
 # E073 · The Signal in Saying No: Confidentiality, Opt-Outs, and Design-First Responsibility
 
+[Original research files and revision evidence](../../docs/essay-evidence/E073.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

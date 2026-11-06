@@ -1,0 +1,63 @@
+[Home](../README.md) · [Read](final-shortlist.md) · [Method](method.md) · [History](timeline.md) · [Archive](../logs/README.md)
+
+# Agents in the judges' image
+
+**The proposal dates to September 7.** Ruslan wanted internal judges based on the actual competition judges' work, comments and biographies, so essay tournaments could face their particular intellectual approaches. He later corrected a narrower description that reduced this to generic source-based criticism. [Original proposal, item 5](../logs/codex/chats/01a07d7c-05c5-7091-a7cc-692e19ff8fca/conversation.md#source-line-642).
+
+The lab implemented that ambition through **profiles supplied to fresh AI sessions**. It did not fine-tune model weights. The distinction matters: the intended imitation was ambitious, while the recorded implementation and validation were limited.
+
+We wanted reviewers that reflected the intellectual approaches of the actual competition judges: the distinctions they attend to, the objections they find revealing, and the kinds of contribution they value. The resulting 23 profiles gave us specific reviewing instructions to try. Their accuracy as portraits of the real judges remains unvalidated.
+
+Each profile was built from accessible work and public statements, separating source evidence from inference and marking gaps. The model received these instructions and source material in its prompt; no model weights were trained. The original 16-profile panel grew to 23 before the midterm.
+
+**Key dates:** September 12 — first judge-guided writing campaign; October 7 — full panel and calibration; October 10–11 — diagnostics. [Timeline](timeline.md).
+
+## Two roles in the project
+
+During one writing series, two different profiles criticized each draft before revision. During the midterm, every manuscript received a review through each of the 23 profiles, alongside a deeper neutral review.
+
+The instructions asked reviewers to use a particular angle while assessing the argument on its merits. Citations to the judge, shared doctrines, and familiar terminology earned no automatic credit.
+
+## What a profile changed
+
+| Profile | Question built into our instruction |
+| --- | --- |
+| [Fitelson](../judges/profiles/branden_fitelson/profile-v1.md) | Does the formal quantity measure the philosophical target? |
+| [Chalmers](../judges/profiles/david_chalmers/profile-v1.md) | What remains once a verbal dispute is removed? |
+| [Easwaran](../judges/profiles/kenny_easwaran/profile-v1.md) | How does a numerical representation relate to the state represented? What can a reader who disagrees still gain? |
+| [Salow](../judges/profiles/bernhard_salow/profile-v1.md) | Do the local results support the promised unifying theory? |
+
+The [profile library](../judges/README.md) preserves all 23 historical instructions unchanged.
+
+## We checked our portraits
+
+In early calibration, predictions about published criticism were recorded before comparison with reviews withheld from that task's reading packet. Some expectations failed: a reviewer could value an ambitious project despite its flaws; a formal philosopher could prefer a simple example to more machinery. The model's possible prior familiarity with those publications was uncontrolled.
+
+Later independent checks found some predictions too generic to distinguish one judge from another. Shared language across profile reviews raised a related question: were the profiles adding distinct perspectives, or repeating the model's ordinary criticism? Three neutral Luna reviews offered a comparison, but one review per text and differing response lengths left the profiles' advantage unresolved.
+
+## The source boundary matters
+
+The September inventory included six fully read substantive texts and 24 partial readings, with no complete books. The larger link inventory was a discovery record; the reading log showed what was actually examined. Unsupported claims about public temperament remained `UNKNOWN`, and namesakes and anonymous student ratings were excluded from personal inference. These boundaries let readers trace a profile's instruction back to the material behind it.
+
+**Evidence:** [Detailed method index](methodology-index.md#judge-profiles-and-the-midterm), [source conversations](../logs/README.md), and [essay biographies](../essays/README.md). [Decision map →](decisions.md)
+
+## From profiles to the final reading selection
+
+## The agreed balance of reviewers
+
+On October 18, 2026, the user chose a **60/40 balance between neutral reviewers and reviewers using named judge profiles** for the selection from 22 essays to ten. The accepted design assigns three neutral reviews and two profile reviews to each fixed manuscript: **110 individual reviews were specified**. Disputed pairs could receive the same three-to-two allocation, with a limit of ten pairs and 160 reviews overall.
+
+Each review has equal weight within its group. The preliminary summary combines 60% of the mean neutral assessment with 40% of the mean profile assessment. That summary guides closer comparisons; it does not automatically determine the shortlist. Missing reviews remain explicit gaps rather than zero scores or a reason to silently change the balance. The final choice must explain the checked arguments and objections from both groups.
+
+## What a judge-profile agent means here
+
+A profile is a set of reviewing instructions grounded in selected work by a named philosopher. A fresh model session receives the assigned text, common rubric, and that profile. **The project did not fine-tune a separate model for each judge.** The profiles remain experiments in directing attention and criticism; they are not validated predictions of how the real judges will vote.
+
+The accepted allocation uses two distinct profiles per essay from the stored library of 23. Their assignments were fixed before review, with each profile used once or twice across the 44 profile seats. Two profiles give an essay two specified perspectives; they do not represent the full panel. Familiar terminology, agreement with a judge, or citing that judge earns no automatic advantage.
+
+These paragraphs describe the accepted design and its interpretation. The dated completion record separately establishes how much of the planned work was actually accepted.
+
+**Accepted execution record.** The accepted record contains **110 individual reviews** (66 neutral and 44 profile reviews), plus **50 accepted reviews across 10 pair comparisons**. All 110 planned individual review slots were accepted. [Current decisions](selection.md).
+
+
+[Later 3+2 recommendation](final-shortlist.md). The profile-based 60/40 selection and the October 31 argument/source checks are separate completed stages.

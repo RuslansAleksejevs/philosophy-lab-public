@@ -1,0 +1,10 @@
+{
+  "id": "claude-cli-v1",
+  "stages": ["question", "sources", "contribution", "critique", "decision"],
+  "status": "BUILD_LOCAL_CHECKS_PENDING_APPROVED_LIVE_TEST",
+  "purpose": "Finite manually started file packets; one primary Claude CLI session per task, exact session resume, direct file outputs.",
+  "archive_policy": "Local visible-text/metadata journal and artifact snapshots before dependencies; Codex imports selected exact bytes into canonical archive after return. Native effort and missing capture remain explicit pending review.",
+  "capture_boundary": "No thinking, internal instructions, raw tool bodies or stderr contents; unchanged old packets and manuscripts retained.",
+  "control": "Codex prepares and reviews anonymous task inputs. A deterministic local program sequences tasks. No AI dispatcher, scheduler, API fallback or unapproved live run.",
+  "limitations": "Technical packets only until live acceptance and explicit research authorization. CLI flag behavior and real quota recovery are not certified by synthetic tests. New method is not retroactive to old campaigns."
+}

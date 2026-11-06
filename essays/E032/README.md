@@ -1,5 +1,7 @@
 # E032 · A Working Blade and a Microscopic Image: A Bounded Reading of Functional Evidence
 
+[Original research files and revision evidence](../../docs/essay-evidence/E032.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

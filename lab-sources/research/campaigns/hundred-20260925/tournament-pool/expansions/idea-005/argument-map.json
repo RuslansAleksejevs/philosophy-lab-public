@@ -1,0 +1,84 @@
+{
+  "schema": "hundred-expanded-argument-map-v1",
+  "logical_id": "idea-005",
+  "stage": "expansion-001",
+  "status": "proposed; conceptual only; source and novelty checks not performed",
+  "inherited_candidate": {
+    "candidate_event_id": "candidate:hundred-projected-37baaa67e312a8acb469ef8db4e07cfd4f83a908",
+    "artifact_sha256": "09dc34c036573aaa4f6835b6b209979c3c9a5218c7c03aaa91840282971c9b04",
+    "title": "Uptake Without a Veto"
+  },
+  "current_question": "When A has unilateral authority to end B's ongoing permission, is clear, accessible notice plus a fair opportunity sufficient to end it without B's acknowledgment?",
+  "provisional_claim": "In the specified revocable-permission cases, A's intention and clear notice through a reasonably accessible channel end the permission after a fair opportunity to understand; actual acknowledgment is not constitutive. This is a normative authority claim, not a general thesis about linguistic success.",
+  "scope_conditions": [
+    "A already has unilateral authority to withdraw the permission.",
+    "The permission concerns an ongoing cooperative use and does not have a conflicting irrevocability or joint-control condition.",
+    "Notice is clear, reaches an agreed or ordinary accessible channel, is not known to have failed, and remains available for a context-sensitive reasonable interval.",
+    "The claim concerns permission status; blame, reliance, and remedies may still depend on actual knowledge and circumstances."
+  ],
+  "inference": [
+    {
+      "id": "P1",
+      "statement": "A's authority to revoke is independently established; the message does not create the authority.",
+      "role": "scope premise",
+      "status": "stipulated for the target cases; must be verified case by case"
+    },
+    {
+      "id": "P2",
+      "statement": "If A can revoke unilaterally, B's discretionary acknowledgment cannot be a necessary permission from B to exercise A's authority.",
+      "role": "anti-veto premise",
+      "status": "argued; contested if acknowledgment is built into the underlying arrangement"
+    },
+    {
+      "id": "P3",
+      "statement": "A's private intention alone cannot fairly change B's practical situation because B has no access to it.",
+      "role": "notice requirement",
+      "status": "argued; depends on separating private intention from communicated exercise"
+    },
+    {
+      "id": "P4",
+      "statement": "A clear notice in a reasonably accessible channel, available for a fair interval, supplies an opportunity to adjust without requiring proof of mental acknowledgment.",
+      "role": "fairness bridge",
+      "status": "provisional; accidental nonreceipt is a central stress test"
+    },
+    {
+      "id": "C",
+      "statement": "Where P1 and P4 hold, permission ends after the fair-opportunity threshold; acknowledgment is evidence of notice, not an extra veto condition.",
+      "role": "conclusion",
+      "status": "provisional normative conclusion; no general speech-act conclusion follows"
+    }
+  ],
+  "strongest_objection": {
+    "text": "The argument may establish only a moral change in permission, not success of the utterance as a speech act; and objective opportunity may burden a recipient who never actually knew.",
+    "attribution": [
+      {
+        "source": "Astra individual assessment",
+        "session_id": "01a0dbb8-f987-7ab3-887f-5f4d38ed758a",
+        "contribution_id": "astra-assessment-idea-005",
+        "contribution": "Can the opportunity condition be defended as speech-act success rather than merely a change in moral permission?"
+      },
+      {
+        "source": "Sol comparison assessment",
+        "session_id": "01a0dbb9-389a-7bb3-a2ac-7cc1c5478165",
+        "contribution": "No separate substantive contribution declared; assessment asks whether intention plus fair notice explains the normative effect without a claim about speech-act uptake."
+      }
+    ],
+    "proposed_answer": "Concede the semantic conclusion is unsupported and narrow the proposal to exercising an already established normative authority. Separate permission status from culpability, but retain accidental nonreceipt as a possible disconfirmation rather than treating the distinction as decisive."
+  },
+  "worked_case": {
+    "case": "Mira withdraws future use of her drawings in a collaborative project through the ordinary functioning project channel, with clear terms and time to adjust; Lee deliberately leaves the message unacknowledged.",
+    "result_if_claim_holds": "Permission for future releases ends after the fair interval despite nonacknowledgment.",
+    "countercase": "The channel is known to be unavailable or the notice is inaccessible; fair opportunity is absent and the same threshold is not met."
+  },
+  "reopen_triggers": [
+    "A fair opportunity without actual receipt is too unfair in ordinary cases even with accessible-channel and timing limits.",
+    "The unilateral authority assumption fails in the relevant consent arrangements.",
+    "Primary literature shows the proposed notice condition is redundant or already defended in the same form.",
+    "A source-grounded account makes actual uptake constitutive even for unilateral revocation cases."
+  ],
+  "source_status": {
+    "primary_sources_consulted": 0,
+    "literature_search_performed": false,
+    "novelty": "UNKNOWN"
+  }
+}

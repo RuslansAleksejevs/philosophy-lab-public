@@ -1,0 +1,58 @@
+{
+  "schema": "hundred-remaining-tests-v1",
+  "logical_id": "idea-026",
+  "research_status": {
+    "external_primary_sources_retrieved_or_read": false,
+    "literature_check_performed": false,
+    "novelty": "UNKNOWN",
+    "source_evidence_manifest": [],
+    "statement": "This expansion is conceptual. No source retrieval, primary-source reading, literature survey, empirical case study or novelty finding is claimed."
+  },
+  "tests": [
+    {
+      "id": "T1-formal-order",
+      "priority": "blocking for argument probe",
+      "question": "Does the set-inclusion rule entail preservation, strict improvement, transitivity, asymmetry and incomparability exactly as claimed?",
+      "method": "Enumerate met-sets over a finite obligation universe, including all triples; separately enumerate task-switching chains and identify which inference fails when T changes.",
+      "evidence_required": "Reproducible derivation or small exhaustive program with the exact fixed-T assumptions and counterexamples for cross-task inference.",
+      "decision_rule": "If any fixed-T cycle or loss of a previously met obligation is derivable under the definitions, reject or repair the rule; do not relax the task identity condition silently."
+    },
+    {
+      "id": "T2-task-independence",
+      "priority": "blocking for real application",
+      "question": "Can the task profile be justified without seeing which standard it favors?",
+      "method": "Have a separate assessor specify uses, obligations, thresholds, and evidence rules from the task description while blinded to candidate identities and scores; reveal candidate results only after sealing the profile. Repeat with reasonable rival task framings.",
+      "evidence_required": "Sealed precomparison profile, its rationale, assessor disagreement, and sensitivity results across plausible profiles.",
+      "decision_rule": "If the verdict depends on retrospective task choice or plausible rival profiles reverse it, report conditional judgments or suspend comparison."
+    },
+    {
+      "id": "T3-held-out-regression",
+      "priority": "blocking for real application",
+      "question": "Does the replacement preserve previously warranted outcomes and resolve a stated failure beyond the cases used to design it?",
+      "method": "Preselect shared and held-out cases, score both standards under identical evidence rules, and record unknowns and new failures rather than mapping them to success.",
+      "evidence_required": "Exact case set, task registry, output snapshots, scoring rationale, and complete pass/fail/unknown matrix.",
+      "decision_rule": "Claim strict improvement only if the new met-set is a strict superset over the registered complete comparison set. Otherwise report trade-off, incomparability, or failure."
+    },
+    {
+      "id": "T4-closest-primary-work",
+      "priority": "blocking for originality claim",
+      "question": "Do existing primary accounts of measurement, scientific progress, or conceptual change already use a plural task-relative relation equivalent to this rule?",
+      "method": "Retrieve and read primary works on measurement standards and scientific progress/conceptual change; trace cited sources from the closest passages; reconstruct each account before comparing its relation, task invariance, treatment of trade-offs, and cycle conditions.",
+      "evidence_required": "Saved exact source bytes, retrieval log, precise full/excerpt coverage, and a claim-by-claim source comparison. Bibliographic metadata alone is insufficient.",
+      "decision_rule": "Keep originality UNKNOWN until the closest comparison is completed. If an existing account already supplies the same relation, identify a defensible difference or set aside any originality claim."
+    },
+    {
+      "id": "T5-historical-case",
+      "priority": "after T4 source scoping",
+      "question": "Can a documented historical change in measurement standard meet the fixed-profile conditions without retrospective task selection?",
+      "method": "Choose one case only after source inventory; identify contemporaneous task commitments and the original evidence, then compare standards using a profile justified independently of later success narratives.",
+      "evidence_required": "Primary records from both sides of the transition, source coverage manifest, and explicit treatment of missing evidence.",
+      "decision_rule": "If the profile is available only retrospectively or standards change the identity of the cases beyond defensible mapping, do not claim historical progress from this framework."
+    }
+  ],
+  "next_probe_inputs_needed": [
+    "This exact proposal and argument-map.json only, plus its explicitly selected ancestral assessment inputs.",
+    "A separately prepared primary-source packet built after T4 retrieval, with exact bytes and honest coverage.",
+    "No other idea, proposal, essay, ranking, or unselected assessor report."
+  ]
+}

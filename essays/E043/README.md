@@ -1,5 +1,7 @@
 # E043 · Baseline Capture
 
+[Original research files and revision evidence](../../docs/essay-evidence/E043.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

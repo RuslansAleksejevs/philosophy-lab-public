@@ -1,0 +1,70 @@
+[Home](../README.md) · [Read](final-shortlist.md) · [Method](method.md) · [History](timeline.md) · [Archive](../logs/README.md)
+
+# Inside the midterm
+
+**Historical stage: October 7–11.** For the October 31 outcome, see the [current recommendation](final-shortlist.md).
+
+The midterm reviewed all 100 essays and left nine candidates in play. It also exposed a problem with the reviewers: none of the 2,400 primary reviews recommended setting an essay aside. Scores alone could not do the selecting. We had to inspect objections, preserve disagreements, and test the reviewing process itself.
+
+**Campaign:** October 7–11, 2026, America/Los_Angeles. Closure was accepted October 11 at 20:06 PDT (`2026-10-12T03:06:07.794813+00:00`). The [post-midterm account](post-midterm.md) covers the next stage.
+
+## Read the manuscript before the biography
+
+Reviewers received full manuscripts, including bibliography, without author model, production method, biography, or earlier scores. Each reviewer–manuscript pairing used a fresh context.
+
+We began with three manuscripts and 75 reviews, including a small Claude check. The full primary panel ultimately comprised 100 deep Astra/high reviews and 2,300 shorter Luna/high profile reviews. The pilot's completed work was reused.
+
+Blinding needed more than labels A and B. Before later comparisons, phrases such as “revision” and “supplied manuscript” had to be removed from display copies. The underlying versions remained preserved.
+
+## What the scores missed
+
+Scores clustered, objections overlapped across profiles, and many responses exceeded their requested length. In the remaining-97 batch, 315 of 2,328 replies contained quotations that failed the exact-text check. Any passage used to justify a consequential decision needed checking against the manuscript.
+
+Selection therefore turned on the objections, the contribution, and what the essay had already achieved. [E078](../essays/E078/README.md) stayed in contention with support from only one of 23 profile reviewers. [E096](../essays/E096/README.md), supported by 21 of 23, still faced a substantive objection that blocked promotion.
+
+A separate critic also challenged the coordinator: E079's actual result had been compared with E036's possible future improvement. That gave one essay credit for work still to be done. [E079](../essays/E079/README.md) returned to the candidate set, with the earlier decision and its correction preserved.
+
+## Targeted review and revision
+
+Claude received a preselected mix of three leaders, four disputed cases, and two essays outside the shortlist. This targeted check could challenge particular decisions; the chosen sample could not estimate how often good essays had been rejected across the corpus. E100 remained a separate wildcard.
+
+Three essays underwent trial revision and blind comparison. [E050 comparison R1](../evidence/final-selection/manuscripts/E050-R1-comparison.md) and [E078 comparison R1](../evidence/final-selection/manuscripts/E078-R1-comparison.md) became their working versions. [E036](../essays/E036/README.md) remained disputed: two Codex comparisons preferred the revision, while Claude preferred the original's stronger ambition. Choosing a version required deciding which claim was worth defending, so both stayed open.
+
+## Check the reviewers
+
+Before diagnostic review, one provider prepared test pairs and the other checked them. Two of eight initial pairs needed a bounded repair and fresh validation. These were test-only texts, kept outside the eligible essay lineages.
+
+| Diagnostic | Question | Observed result among accepted replies |
+| --- | --- | --- |
+| A1: error detection | Can a reviewer distinguish a planted flaw from a sound control? | 11/11 errors detected; 11/11 controls treated as sound |
+| A2: wording | Can a reviewer separate clearer language from argumentative content? | Content scores matched within all 23 answered pairs; plain wording was clearer in all 23 |
+| A3: comparison stability | Does the choice survive reversed order and repetition? | All 34 accepted comparisons chose R1; detailed scores were less stable |
+| A4: profile panel | Do all 23 profiles detect one flaw without inventing it in the control? | All detected the flaw; four also falsely accused the control |
+
+The fixed diagnostic set yielded 125 accepted answers from 130 slots, with five technical gaps. It tested these particular errors, wording changes, and comparisons. The results gave us useful checks on review behavior, but left general philosophical competence and resemblance to real judges unestablished. The later consistent preference for R1 also left the earlier substantive objection to E036 on record.
+
+## Literature and a critic of the final decision
+
+Three exact manuscript versions received independent Codex and Claude literature searches, followed by synthesis. The synthesis examined the auditors' accusations as well as the essays; one claim of five full source readings was corrected against the extraction record.
+
+A final fresh Claude critic examined the proposed closure. It identified the risk of silently demoting candidates and giving them unequal opportunities for development. All four major and eight minor objections received recorded responses.
+
+The campaign closed with nine candidates, an open choice between E036's versions, and a proposed order for further work. Final selection and the candidates' claims to novelty remained for the next stage.
+
+**Evidence:** [Detailed method index](methodology-index.md#judge-profiles-and-the-midterm), [source conversations](../logs/README.md), and [essay biographies](../essays/README.md). [Decision map →](decisions.md)
+
+<details>
+<summary>Execution record: interruptions, repairs and accepted replacements</summary>
+
+## Capacity interruption and resumption
+
+The initial attempts for M12-N2 and M13-N2 ended with provider-capacity errors and produced no visible reviews. Both failed attempts remain preserved; neither contributes a rating or a vote. The work was paused. The user then explicitly resumed it on the same Astra model, with ultra effort and the default service tier, while retaining completed reviews.
+
+The first replacement launch for M12-N2 (attempt-002) then stopped with a local app-server initialization permission error. No session identity or review output was observed. This was recorded separately from the two capacity failures. The preserved local evidence does not establish whether any backend request or hidden computation occurred. An explicit technical repair kept the original packets, model, effort, service tier and allocation unchanged.
+
+The accepted record contains 108 completed first attempts, the accepted third physical attempt for M12-N2 and the accepted second physical attempt for M13-N2. Three failed physical attempts remain preserved: two capacity failures and one local initialization failure. The replacements fill the original two review slots; they do not add extra reviews or change the three-neutral/two-profile allocation. The count of 110 accepted individual reviews therefore does not mean that every first attempt succeeded.
+
+Sources: [resume authorization](../evidence/final-selection/updates/20261018/selection/capacity-resume-20261018/AUTHORIZATION.json), [accepted resumption](../evidence/final-selection/updates/20261018/selection/capacity-resume-20261018/ARCHIVE_RECEIPT.json), [first preserved failure](../evidence/final-selection/updates/20261018/selection/capacity-recovery-001/FAILURE_INSPECTION.json), [second preserved failure](../evidence/final-selection/updates/20261018/selection/capacity-recovery-002/FAILURE_INSPECTION.json), [local initialization evidence](../evidence/final-selection/updates/20261018/selection/capacity-launch-repair-001/local-launch-evidence/FAILURE_INSPECTION.json), [accepted technical repair](../evidence/final-selection/updates/20261018/selection/capacity-launch-repair-001/REPAIR_RECEIPT.json), [accepted replacement map](../evidence/final-selection/updates/20261018/selection/capacity-launch-repair-001/ACCEPTED_ATTEMPTS_RECEIPT.json).
+
+
+</details>

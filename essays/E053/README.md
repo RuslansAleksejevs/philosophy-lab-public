@@ -1,5 +1,7 @@
 # E053 · Leaving Care Without Leaving People
 
+[Original research files and revision evidence](../../docs/essay-evidence/E053.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

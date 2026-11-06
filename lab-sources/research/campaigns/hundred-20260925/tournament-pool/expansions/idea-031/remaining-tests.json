@@ -1,0 +1,53 @@
+{
+  "schema": "hundred-remaining-tests-v1",
+  "candidate": "idea-031",
+  "stage": "expansion-001",
+  "literature_status": "NOT_CHECKED: no texts or search results were retrieved or read in this expansion.",
+  "tests": [
+    {
+      "id": "source-test-1",
+      "priority": "blocking before any originality claim",
+      "question": "Do primary accounts of petitionary prayer already treat petition as noninformational, relational, permissive, or constitutive of a response?",
+      "search_plan": ["\"petitionary prayer\" non-informational reason", "prayer petition relational response omniscience primary text", "prayer request authorization divine foreknowledge"],
+      "recording_requirement": "Save exact queries, results, source bytes or read excerpts, and distinguish primary text read from abstract or metadata. Compare the proposal premise-by-premise with the closest account."
+    },
+    {
+      "id": "source-test-2",
+      "priority": "blocking for the theological bridge",
+      "question": "Which primary arguments about divine timelessness, temporal knowledge, and responsive divine action permit an event-indexed relation without a change in divine belief?",
+      "search_plan": ["divine timelessness response to prayer primary source", "divine foreknowledge temporal action prayer primary text", "God timeless relational response petition"],
+      "recording_requirement": "Read the relevant primary arguments, not just summaries; record whether response is temporal, causal, explanatory, or merely counterfactual."
+    },
+    {
+      "id": "source-test-3",
+      "priority": "blocking for P1",
+      "question": "Do speech-act, permission, invitation, and consent theories support an act-constituted authorization that is not reducible to the listener's knowledge of future consent?",
+      "search_plan": ["consent actual expression knowledge of future consent philosophy primary source", "speech act invitation permission constitutive act primary text", "consent foreknowledge authorization normative fact"],
+      "recording_requirement": "Identify scope conditions, withdrawal rules, and whether authorization creates permission, obligation, or only a communicative description."
+    },
+    {
+      "id": "argument-test-1",
+      "priority": "blocking for inference P5 to C",
+      "question": "Can an infallible foreknower follow the stated conditional policy without the request making any difference to action, reason, or relation?",
+      "method": "Build a small explicit temporal model with actual and no-request histories; distinguish epistemic access, normative permission, action choice, and event-description. Test whether the no-request comparison improperly assumes a freedom or alternative possibility claim."
+    },
+    {
+      "id": "argument-test-2",
+      "priority": "blocking for relevance",
+      "question": "Does the response-description carry normative significance, or is it merely causal bookkeeping with no change in permission or reason?",
+      "method": "Give a case in which the physical outcome is held fixed and ask which independent norm makes the requested route better or permissible. Reject the argument if no such norm can be defended without assuming the conclusion."
+    },
+    {
+      "id": "argument-test-3",
+      "priority": "required for scope",
+      "question": "Does any defensible bridge transfer the temporal permission argument to a timeless divine agent?",
+      "method": "Specify an atemporal dependence relation between request and outcome; distinguish it from temporal uptake, causal influence, and post hoc labeling. If no account survives, exclude timeless views from the conclusion."
+    }
+  ],
+  "failure_conditions": [
+    "A close primary-source precedent makes the proposed contribution derivative or requires a substantial reframing.",
+    "P1 is rejected or its scope excludes the relevant response relation.",
+    "Foreknowledge renders the conditional policy normatively idle under the best available account, rather than merely epistemically unsurprising.",
+    "No non-question-begging bridge supports applying the temporal result to the intended divine model."
+  ]
+}

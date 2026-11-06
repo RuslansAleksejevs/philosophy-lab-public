@@ -1,0 +1,104 @@
+{
+  "schema": "hundred-argument-map-v1",
+  "logical_id": "idea-077",
+  "stage": "expansion-001",
+  "status": "argument proposal; not a completed essay",
+  "question": "When may finite-horizon welfare comparisons justify a ranking of two infinite, temporally ordered histories?",
+  "claim": "Extend a finite-prefix total-welfare comparison only when its direction is stable at every sufficiently late finite horizon; persistent sign reversal yields incompleteness under horizon-neutral robustness.",
+  "scope": [
+    "temporally ordered infinite welfare streams with finite real welfare per period",
+    "finite-prefix additive total-welfare comparisons",
+    "no claim for arbitrarily enumerated unordered populations"
+  ],
+  "definitions": {
+    "prefix_difference": "D_n(x,y) = sum_{t=1}^n (x_t - y_t)",
+    "weak_support": "x >=H y iff exists N such that for every n >= N, D_n(x,y) >= 0",
+    "strict_support": "x >H y iff exists N such that for every n >= N, D_n(x,y) > 0",
+    "incomparability": "neither direction has eventual weak support",
+    "horizon_neutrality": "where no terminal horizon or unbounded cutoff schedule has independent moral standing, an extension should survive every cofinal finite-cutoff inspection schedule"
+  },
+  "premises": [
+    {
+      "id": "P1",
+      "text": "The stipulated finite comparison ranks prefixes by cumulative total welfare.",
+      "status": "scope assumption"
+    },
+    {
+      "id": "P2",
+      "text": "An infinite comparison requires an extension beyond any one finite prefix.",
+      "status": "conceptual"
+    },
+    {
+      "id": "P3",
+      "text": "No single cofinal schedule may decide the extension without an independent ethical reason.",
+      "status": "central normative premise; unresolved"
+    },
+    {
+      "id": "P4",
+      "text": "Universal robustness over all cofinal schedules is equivalent to eventual sign stability.",
+      "status": "analytic equivalence stated and proved informally in proposal"
+    },
+    {
+      "id": "P5",
+      "text": "Persistent positive and negative prefix differences permit cofinal schedules with opposing verdicts.",
+      "status": "analytic consequence"
+    }
+  ],
+  "inference": {
+    "from": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "to": "eventual agreement licenses a weak or strict comparison; persistent sign reversal licenses neither direction under this method"
+  },
+  "worked_cases": [
+    {
+      "id": "dominance",
+      "difference_sequence": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "generalization": "Any coordinatewise weak improvement with one strict finite-period improvement yields eventual strict positive cumulative difference.",
+      "result": "x >H y"
+    },
+    {
+      "id": "oscillation",
+      "prefix_differences": "D_1=1; D_n=1 for odd n and -1 for even n",
+      "welfare_difference_sequence": [
+        1,
+        -2,
+        2,
+        -2,
+        2
+      ],
+      "result": "Neither direction has eventual weak support; odd and even cofinal schedules disagree."
+    }
+  ],
+  "critic_engagement": {
+    "astra_session_id": "01a0dbb8-f987-7ab3-887f-5f4d38ed758a",
+    "astra_contribution": "Can admissible truncations be justified independently while preserving enough determinate comparisons to guide choice?",
+    "response": "Dominance holds in the stated model; the unresolved region size and independent defense of admissibility remain open. Familiarity risk is accepted; source review can falsify the contribution.",
+    "sol_session_id": "01a0dbb9-389a-7bb3-a2ac-7cc1c5478165",
+    "sol_contribution": "No separate new argument declared; assessor supports research priority based on formal testability and possible role for incompleteness.",
+    "response_to_sol": "Formal testability is not proof of ethical justification or originality."
+  },
+  "properties_claimed_for_defined_model": [
+    "positive rescaling invariance",
+    "invariance to adding identical welfare at each period to both histories",
+    "transitivity",
+    "preservation of pointwise dominance with a strict finite improvement"
+  ],
+  "unresolved": [
+    "independent defense of horizon neutrality",
+    "size and usefulness of determinate region",
+    "permutation/enumeration invariance for population comparisons",
+    "whether early finite advantages should settle bounded tail oscillations",
+    "closest-source and originality comparison",
+    "relationship between incompleteness and choice under required action"
+  ]
+}

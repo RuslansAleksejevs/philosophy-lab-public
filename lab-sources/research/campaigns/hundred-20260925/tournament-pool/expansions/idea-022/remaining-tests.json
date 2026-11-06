@@ -1,0 +1,54 @@
+{
+  "schema": "hundred-expansion-remaining-tests-v1",
+  "candidate_id": "idea-022",
+  "status": "not performed in expansion-001",
+  "tests": [
+    {
+      "id": "T1",
+      "priority": "first",
+      "type": "argument-counterexample",
+      "question": "Can the intervention-profile/partition distinction survive a single-subject case with separately alterable subsystems and a multiple-subject case with tightly coupled streams?",
+      "procedure": "Construct both stipulated causal models; hold the welfare-individuation hypothesis fixed in turn and check whether the method mistakes controllability for identity.",
+      "failure_condition": "The proposal still infers one or multiple subjects directly from separability or inseparability."
+    },
+    {
+      "id": "T2",
+      "priority": "first",
+      "type": "conceptual-invariance",
+      "question": "Does adding a stipulated read-only output mirror change the profile-based precautionary result without adding a stateful candidate process?",
+      "procedure": "Compare the exact same causal model before and after adding only a rendering channel. State which independent welfare account, if any, treats the change as morally relevant.",
+      "failure_condition": "The method raises or lowers the count solely from display multiplicity, without an explicit welfare premise."
+    },
+    {
+      "id": "T3",
+      "priority": "second",
+      "type": "bridge-premise-audit",
+      "question": "Can any proposed link from persistent memory, action selection, or separate perturbability to welfare be defended without assuming the subject partition?",
+      "procedure": "List each candidate bridge premise, its independent support requirement, alternative explanation, and what observation would weaken it.",
+      "failure_condition": "The bridge premise restates the desired patient count or uses a welfare proxy whose interpretation already assumes that count."
+    },
+    {
+      "id": "T4",
+      "priority": "second",
+      "type": "decision-sensitivity",
+      "question": "Does the range of counts produce a meaningful difference in a concrete precautionary decision?",
+      "procedure": "Use one fully stipulated artificial-care case and compute outcomes under each explicit partition and aggregation rule. Do not assign probabilities unless a defensible basis is supplied.",
+      "failure_condition": "The range cannot affect any available action, or a useful recommendation requires an unargued midpoint/probability."
+    },
+    {
+      "id": "T5",
+      "priority": "required-source-probe",
+      "type": "primary-literature-and-novelty",
+      "question": "Is the profile-versus-partition distinction already established, and what are its closest objections?",
+      "procedure": "Retrieve and read relevant primary texts on numerical identity and branching; accounts of subject individuation and consciousness boundaries; welfare individuation and aggregation; and precaution under moral uncertainty. Search alternative terminology for causal separability, process individuation, and mirror/duplication cases. Preserve exact queries, retrieved bytes, unavailability, and reading coverage, then compare the present claim and each premise against the closest passages.",
+      "failure_condition": "A close prior argument already establishes the same proposal, or source-based criticism defeats the conditional evidential role. Revise the originality claim or set the proposal aside.",
+      "completion_note": "No retrieval or reading in expansion-001. These are targets for a later fresh source phase, not sources consulted."
+    }
+  ],
+  "current_limitations": [
+    "No primary sources were read and no literature or novelty search was performed.",
+    "No empirical artificial-welfare indicators or validated bridge premises are supplied.",
+    "No probability distribution over welfare partitions is justified.",
+    "The worked case is stipulated, not an observation about a present AI system."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "hundred-remaining-tests-v1",
+  "proposal_id": "idea-043-expanded-proposal",
+  "research_performed": false,
+  "primary_sources_read": [],
+  "literature_searches_performed": [],
+  "tests": [
+    {
+      "id": "T1",
+      "type": "primary-source-and-novelty",
+      "question": "Does an existing account of epistemic dependence already assign experts a withdrawal or transition obligation with this trigger and remedy?",
+      "candidate_primary_texts_to_locate_and_check": [
+        {"author": "John Hardwig", "title": "Epistemic Dependence", "year": 1985, "bibliography_status": "unverified lookup lead; locate authoritative text and confirm metadata"},
+        {"author": "Annette Baier", "title": "Trust and Antitrust", "year": 1986, "bibliography_status": "unverified lookup lead; locate authoritative text and confirm metadata"},
+        {"author": "Charles S. Peirce", "title": "The Fixation of Belief", "year": 1877, "bibliography_status": "unverified lookup lead; locate authoritative text and confirm metadata"}
+      ],
+      "planned_queries": [
+        "epistemic dependence expert withdrawal duties transition handoff primary source",
+        "trust assurance termination dependence epistemic agency primary philosophy",
+        "duties to repair epistemic dependence loss of independent checking"
+      ],
+      "outcome_status": "not run",
+      "decision_rule": "Revise or reject any novelty claim if a close source already gives the same trigger, scope, and transition remedy; cite and compare exact passages in the later probe."
+    },
+    {
+      "id": "T2",
+      "type": "conceptual-counterexample",
+      "question": "Can informed, fair, reversible specialization defeat the duty even when provider conduct caused recipients to stop checking?",
+      "cases_to_compare": [
+        "clear risk disclosure plus retained usable fallback",
+        "clear disclosure but no feasible alternative or retained records",
+        "provider encourages abandonment and controls all evidence needed for re-entry",
+        "recipient independently chooses specialization without provider encouragement"
+      ],
+      "outcome_status": "not run",
+      "decision_rule": "If informed consent alone defeats all cases, narrow the claim to coercive or unfairly structured dependence; if the duty survives, defend why the chosen risk could not include the impaired evaluative capacity."
+    },
+    {
+      "id": "T3",
+      "type": "distinction-test",
+      "question": "Does the epistemic criterion add anything to a general duty to repair dependence?",
+      "paired_cases": [
+        "financial dependence caused by a provider, with evaluative capacity intact",
+        "evaluative capacity impaired by provider assurance, with no financial loss",
+        "both financial and epistemic dependence caused",
+        "neither dependence caused, but recipients rely heavily"
+      ],
+      "outcome_status": "not run",
+      "decision_rule": "State what changes in duty-bearer, remedy, or threshold across pairs. If nothing changes, drop the distinct-duty framing and present only a domain-specific application of general repair."
+    },
+    {
+      "id": "T4",
+      "type": "remedy-feasibility",
+      "question": "Can 'minimum usable capacity to assess a successor' be specified without requiring an undefined level of self-sufficiency?",
+      "candidate_measures": ["portable records", "limits and calibration notes", "notice while a fallback remains usable", "brief training", "successor overlap"],
+      "outcome_status": "not run",
+      "decision_rule": "Identify a domain-relative threshold and cost limit; reject or narrow the proposal if the threshold cannot be made intelligible or proportionate."
+    }
+  ],
+  "probe_requirement": "A later fresh probe must perform and archive actual source retrieval and reading before claiming any novelty assessment."
+}

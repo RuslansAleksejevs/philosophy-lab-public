@@ -1,0 +1,570 @@
+{
+  "schema": "philosophy-lab-private-repository-build.v1",
+  "date_local": "2026-10-13",
+  "timezone": "America/Los_Angeles",
+  "completed_at_utc": "2026-10-14T04:37:31.146562+00:00",
+  "repository_url": "https://github.com/RuslansAleksejevs/philosophy-lab",
+  "visibility": "private",
+  "visibility_evidence": "GitHub repository metadata and rendered repository badge",
+  "commit": "a8086059d5c1ed427134350952158931ae922ff7",
+  "tree": "d60addbc31e069deb4d312d9ac1bd1b7c0fa2bc6",
+  "local_working_copy": "/Users/ruslansaleksejevs/Documents/Codex/Philosophy Lab/repository",
+  "working_tree_clean": true,
+  "upload_transport": "GitHub connector; browser used only to create the private repository and inspect rendering",
+  "terminal_push": "Unavailable due to missing HTTPS Git authentication; credentials unchanged",
+  "local_history": "Remote commits reconstructed from returned metadata and admitted only after exact Git SHA checks; same tree verified before aligning main. Local preparation commit preserved on local-preparation-20261013.",
+  "scope": {
+    "english_chapters": 5,
+    "overview_points": 48,
+    "detailed_entries_preserved": 121,
+    "judge_profiles": 23,
+    "byte_exact_evidence_copies": 113,
+    "files": 131
+  },
+  "pending": [
+    "Complete essay and biography import",
+    "Full saved project log import in original languages",
+    "Remaining reviews, test materials, code and later research updates"
+  ],
+  "publication_decision": "Private until after competition deadline; later choose opening this repository or a fresh complete public release with intermediate Git history kept private. No scheduled public release.",
+  "checks": {
+    "files": 131,
+    "readme_words": 434,
+    "broken_navigation_links": [],
+    "credential_pattern_findings": [],
+    "exact_evidence_copies": 113,
+    "coverage": {
+      "overview": 48,
+      "detailed": 121
+    },
+    "boundary": "Checked new navigation and exact copied evidence, not a new philosophical or infrastructure test."
+  },
+  "git_connectivity_check": "passed",
+  "screenshot": "runs/github-preparation-20261013/github-readme.jpg",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "d9cfded09f82fa8105ca651029f94e03ec31410f7ffa9c115fe34cec898f9f43"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "f5629701211e1c112d96ba4d5372474fc3c59c3644b7bae41ee3cfe834df2430"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "sha256": "c4a061ca86c02eeeab469673213e3519a61397f7f655ee51f725ac63bfccc439"
+    },
+    {
+      "path": "README.md",
+      "sha256": "e26f5bc77d972e3a69e7faa42a785324e7063e4368a7c6a7aa414ff9ddf9e8ad"
+    },
+    {
+      "path": "ROADMAP.md",
+      "sha256": "6271263b699ce953c0d4bf13382a82a217a41feea2e7d2b8c4b040a142dc04da"
+    },
+    {
+      "path": "docs/bridge.md",
+      "sha256": "d3627ec9b0f6f6c60b3f206fe45b2af949d64a3b57ba1db6905b84d52965b75b"
+    },
+    {
+      "path": "docs/coverage.json",
+      "sha256": "01873da6ba0f283285cff1709ef208914259e4ddac3a566b3d4c907c82039ba1"
+    },
+    {
+      "path": "docs/decisions.md",
+      "sha256": "d885a7f87ae4a8f4c521dae28b0d40237b387809791b43d0ef40fbc6b8aab289"
+    },
+    {
+      "path": "docs/evaluation.md",
+      "sha256": "867ff45acefa43d67677e664a66613213115d7fbbfe54d32a1d6d05a4de36929"
+    },
+    {
+      "path": "docs/generation.md",
+      "sha256": "59cdd60a5987eb14bb9c853f35ee62d0b5ebc881331affd1ed608dfbc2ccdf64"
+    },
+    {
+      "path": "docs/judges.md",
+      "sha256": "231570a6d02685875315920ffe42d601b046dd52331107413f24f93abdfe91a2"
+    },
+    {
+      "path": "docs/provenance.md",
+      "sha256": "34156e61d35f70f77da40ea54e6eb808ac4ab486b97e7d76f5d8b29d6437a524"
+    },
+    {
+      "path": "essays/README.md",
+      "sha256": "af9a0a1cf850de5dc675cdcb14e853cec6bd3566e09dd87341e39dbb41db0e60"
+    },
+    {
+      "path": "evidence/README.md",
+      "sha256": "51b46e44375ab9e16a07f88b918ba35f09c254f0b45f9d202e6510b8bd148011"
+    },
+    {
+      "path": "evidence/manifest.json",
+      "sha256": "bf225504e4cfb1dbcac53d4926969acbd8f03de36b31c2f48c7d7f7853f10f01"
+    },
+    {
+      "path": "evidence/midterm/FINAL_DECISION_RU.txt",
+      "sha256": "d33afb6dfce0ca4e37b65f16848a8a91b047347c3b4f033008635befc2b14e71"
+    },
+    {
+      "path": "evidence/midterm/FINAL_RECEIPT.json",
+      "sha256": "c8ba63c86d17d79cb465ebec0dad06cd09b4413d62ebd8f02b0026b2f9fe464c"
+    },
+    {
+      "path": "evidence/retrospective/README.md",
+      "sha256": "ce32da1acd59ce92481a5e32fd312a260a577d8f5acf03d4d7eee4abb7945e85"
+    },
+    {
+      "path": "evidence/retrospective/RECEIPT.json",
+      "sha256": "1c9b02e1925e440805890e1a54b896653bc3d0df9048ff6574ac596716ad0cd3"
+    },
+    {
+      "path": "evidence/retrospective/REPORT_RU.txt",
+      "sha256": "c062d229d24dd7480157de338ec97f5ce2666adec4722ede5421b8008d2d4f52"
+    },
+    {
+      "path": "evidence/retrospective/bridge-history.txt",
+      "sha256": "24efe2738a455f7c5b837e70a4199f2199c8e48c773f19d5acbb959ab42b5ae3"
+    },
+    {
+      "path": "evidence/retrospective/bridge-sources.json",
+      "sha256": "fd969c65e64e92788dbd0228bcb7688e3e82cdd0fee7c1bcd60339a499b7e2c0"
+    },
+    {
+      "path": "evidence/retrospective/collector-status-observed.json",
+      "sha256": "e7709735f0e9c0570037e839b7cc12da6b3b1d8218246ea43c1e372dc9c9d89a"
+    },
+    {
+      "path": "evidence/retrospective/current-request-locations.json",
+      "sha256": "ab5c5d59e762ad6929e546f19673517d36c7766e25f48a2e02215235faf32d30"
+    },
+    {
+      "path": "evidence/retrospective/dispatch-prefixes.json",
+      "sha256": "826143105cf8a2669305a8b928deda47fd07564a04768f16c3cab19c23c82024"
+    },
+    {
+      "path": "evidence/retrospective/generation-history.txt",
+      "sha256": "6f3c543cfc2c7d84145e8f5eb6a819e389903edf6ff519066c40767c2092c764"
+    },
+    {
+      "path": "evidence/retrospective/generation-sources.json",
+      "sha256": "53fcc98e0c3b02bc4f7bd3fa22ffc13067f60c3f3c824b6d124bf64db2a9a668"
+    },
+    {
+      "path": "evidence/retrospective/governance-archive.txt",
+      "sha256": "955612f6a7d0186c0a6bae22736cb023c2d9e3eeddfd5a07a2cd504a9f050287"
+    },
+    {
+      "path": "evidence/retrospective/initial-main-sessions.json",
+      "sha256": "34115ed38973c4760972dc0f8f7fdbd9e860d758ab165ea1c16aad9e9c88c038"
+    },
+    {
+      "path": "evidence/retrospective/judges-midterm.txt",
+      "sha256": "0ff39babc9c562c12c66cb8b2ff750dd51e63001fc84934955e25267937c1447"
+    },
+    {
+      "path": "evidence/retrospective/judges-sources.json",
+      "sha256": "287c22a06e7aaa0e0fd71a8fb96a36059dea93d438ea367b1ea88c8071421efe"
+    },
+    {
+      "path": "evidence/retrospective/request-capture-receipt.json",
+      "sha256": "8384902e6c1b7896676ada670c6b3404f9760ca605365f2feb0aa1057c291173"
+    },
+    {
+      "path": "evidence/retrospective/retrospective-check.txt",
+      "sha256": "6e529554ec10bbe9df2d18603580b057037278897b44553f7477b80bb06df216"
+    },
+    {
+      "path": "evidence/retrospective/scan_saved_logs.py",
+      "sha256": "801f1d5e2edfdc0dcfed095994b72e85f3be275079f828aff81f7302901ec891"
+    },
+    {
+      "path": "evidence/retrospective/visible-log-files.json",
+      "sha256": "4e5f04c259feb7e7398cb26a65d29bfb1e7d964a932ad6210480ece0e4154eab"
+    },
+    {
+      "path": "evidence/retrospective/visible-log-scan.json",
+      "sha256": "88b5035a9d947497600e9294a52d249c9a5cdad99e75af21152bc752ceb3f252"
+    },
+    {
+      "path": "evidence/retrospective/visible-message-index.jsonl",
+      "sha256": "2b51551cb6dd87bce11dd18571443356719a742c3f30a80fac74130dd814d873"
+    },
+    {
+      "path": "judges/README.md",
+      "sha256": "b2fd1dc9fd974deadca591f6296d978400fec6d4faa92aa7adbad6e3467ee1d7"
+    },
+    {
+      "path": "judges/profiles/bernhard_salow/calibration.json",
+      "sha256": "b8dab1808b8fca93250330328dd40e7dfa0792e1e239bab1c2adf12e1dd51f1d"
+    },
+    {
+      "path": "judges/profiles/bernhard_salow/profile-v1.md",
+      "sha256": "3207c3fc98a33e29b6bd75b4c5f1f0d2a44aaea1051a1e86c55213585d16f494"
+    },
+    {
+      "path": "judges/profiles/bernhard_salow/reading-log.json",
+      "sha256": "cf1d148306de41ac8214bca676c7c14beb48cb675f45b043995277ddf27573c3"
+    },
+    {
+      "path": "judges/profiles/bernhard_salow/source-index.json",
+      "sha256": "9423042e1e0ffcf61d82ebeb0a6e279474694981dbc27783c639c6caa536c9b1"
+    },
+    {
+      "path": "judges/profiles/branden_fitelson/calibration.json",
+      "sha256": "d3d461966d7b0522f60c1085ddbc56611b7a261242c29804e28185a2ca355f84"
+    },
+    {
+      "path": "judges/profiles/branden_fitelson/profile-v1.md",
+      "sha256": "ae7cdcd1114ef249fcd707edc9b23b79d7f0c7b45beaf2d9c3643a41ee9502a0"
+    },
+    {
+      "path": "judges/profiles/branden_fitelson/reading-log.json",
+      "sha256": "ffa3e3332f439edb5857fb8c7a6db50d364be53df2df47bc150d5ff9ba7458fc"
+    },
+    {
+      "path": "judges/profiles/branden_fitelson/source-index.json",
+      "sha256": "66082f0d42a0dd96534da45cd346a966bc57935e1278633697400bf1f8fcf6f6"
+    },
+    {
+      "path": "judges/profiles/christian_tarsney/calibration.json",
+      "sha256": "e999ad4a2f23c46f6f2b165558cd59d1b32e02bb75f9240381ee08e8e56f3588"
+    },
+    {
+      "path": "judges/profiles/christian_tarsney/profile-v1.md",
+      "sha256": "ca49eecfc39e6fb16bcb70c0eadf795ad4439f31256fadd202e7b7974167c75a"
+    },
+    {
+      "path": "judges/profiles/christian_tarsney/reading-log.json",
+      "sha256": "7b3efcab2b8a7b6e7a575ae93664b5f5356aeee05afd4ce2b95e0cd95f585746"
+    },
+    {
+      "path": "judges/profiles/christian_tarsney/source-index.json",
+      "sha256": "ec71add9337c41f5546ef66576c77dad39c4420c0abda1be8abb982ba275fa78"
+    },
+    {
+      "path": "judges/profiles/cian_dorr/calibration.json",
+      "sha256": "2b5d880dd69e99fc98130bd1a5d259cfca77684c560b3b94cb90314c5909ff5f"
+    },
+    {
+      "path": "judges/profiles/cian_dorr/profile-v1.md",
+      "sha256": "554656d4bdd735cb479c9beeb246ea26eb56794d4aa6ed34967e19b333657ed1"
+    },
+    {
+      "path": "judges/profiles/cian_dorr/reading-log.json",
+      "sha256": "9436efcfa1d64e823c5ef0ad2aefb490e959a532a809972a4ad7bc7b59b04540"
+    },
+    {
+      "path": "judges/profiles/cian_dorr/source-index.json",
+      "sha256": "86240dbbf5b140cc6d579a44b6c9a041c46b889acada8984eb32938daf20bb86"
+    },
+    {
+      "path": "judges/profiles/daniel_greco/calibration.json",
+      "sha256": "c95731a7b6994b0ee62f7c4a1a0a13e44305c5a216bcc15cb1c7a4e1eae50af5"
+    },
+    {
+      "path": "judges/profiles/daniel_greco/profile-v1.md",
+      "sha256": "ef9b2b279441005cb6729bc80b8eb4706e9960a1c7b2ad4393926f40c4bd8359"
+    },
+    {
+      "path": "judges/profiles/daniel_greco/reading-log.json",
+      "sha256": "3a091f0a2d7de1b4f1c1d13f77bcc95ed21101f475d39b1a826893474cf4b684"
+    },
+    {
+      "path": "judges/profiles/daniel_greco/source-index.json",
+      "sha256": "326b1f271bd9c2e0677ead65d28c737e60960fd0d2ae1749a7dae56dbf87ddad"
+    },
+    {
+      "path": "judges/profiles/david_chalmers/calibration.json",
+      "sha256": "b680644c2edd18b8b96fd3e0ca58dedd677cb3cdbaf3a5fdca7d209a9df12158"
+    },
+    {
+      "path": "judges/profiles/david_chalmers/profile-v1.md",
+      "sha256": "d6500c80c0fa05926c0bb3fa50ed6b4b42196716552bc880a3d337dcaa2dbf6d"
+    },
+    {
+      "path": "judges/profiles/david_chalmers/reading-log.json",
+      "sha256": "0ad63c2bf4c680432fe6b7abb7b47f38952bf1967f9b11fe88d4b1523c180c9c"
+    },
+    {
+      "path": "judges/profiles/david_chalmers/source-index.json",
+      "sha256": "ef22079144982ea7f51b9451b0be712679c0fe8c0c2d621ee36d694a5d2fe5a0"
+    },
+    {
+      "path": "judges/profiles/henry_shevlin/calibration.json",
+      "sha256": "c886d3cb8180e02696708ce53ec09fd64da207adf149f7cbedefb58e6c6279af"
+    },
+    {
+      "path": "judges/profiles/henry_shevlin/profile-v1.md",
+      "sha256": "327d24846635318fa11ac3d0d61fb55989a7f20292846be8555fe1c53b02490f"
+    },
+    {
+      "path": "judges/profiles/henry_shevlin/reading-log.json",
+      "sha256": "aef74c2d057ca475d0955da767c762ca1c8b26965c540d179eeff693a94221a1"
+    },
+    {
+      "path": "judges/profiles/henry_shevlin/source-index.json",
+      "sha256": "25836e4a3ff1ad8b1123430db1aae1a3eeb2fa9eef166b96b9fa748c02b6d111"
+    },
+    {
+      "path": "judges/profiles/herman_cappelen/calibration.json",
+      "sha256": "c42ece3c1d8efd55efc95bdac02f4401c014422ca87063c4a42bb8e7c9f325a3"
+    },
+    {
+      "path": "judges/profiles/herman_cappelen/profile-v1.md",
+      "sha256": "4b26c22d7bcd445901e0c8a869d6b5e2a5e247b39dcc381903527a8043f2192e"
+    },
+    {
+      "path": "judges/profiles/herman_cappelen/reading-log.json",
+      "sha256": "45c25c2b45223b24817eb894f9964679d42bab66b0ebaeca529f99c41c87e9d5"
+    },
+    {
+      "path": "judges/profiles/herman_cappelen/source-index.json",
+      "sha256": "7f9cb1f142d656433bdb0df1195ebb11bacdf84ab29745cce7ec58d2038daebe"
+    },
+    {
+      "path": "judges/profiles/hilary_greaves/calibration.json",
+      "sha256": "010e1d48dd855ae6ca73e025099ef8774de7e1417f06dfa2cfcf4f1877bb77f7"
+    },
+    {
+      "path": "judges/profiles/hilary_greaves/profile-v1.md",
+      "sha256": "3afda23249efc660ddd89183cf9702db07fd28652d842967f61150e10807c9dd"
+    },
+    {
+      "path": "judges/profiles/hilary_greaves/reading-log.json",
+      "sha256": "700c96020767a4686ac54280fbf3f931361e1230854b361b39f4052c3ae472f6"
+    },
+    {
+      "path": "judges/profiles/hilary_greaves/source-index.json",
+      "sha256": "133c7f3e1e710ae146deb1ad1c4b2c9a46d21b5572524a2cfd01144262d6cdfe"
+    },
+    {
+      "path": "judges/profiles/jake_nebel/calibration.json",
+      "sha256": "f9340c302c5e8125a3105d7d38a9e8ae56e2ab846fc8e7bb2dce762002ffb781"
+    },
+    {
+      "path": "judges/profiles/jake_nebel/profile-v1.md",
+      "sha256": "f8706167ee8a06bbd813e58f1247d4caf22ac425eed22c24f6a2bdac0f708305"
+    },
+    {
+      "path": "judges/profiles/jake_nebel/reading-log.json",
+      "sha256": "d0891dd9fa8af970255b845adb8ed2214a045cb3342ff3e16521295a50f81fdb"
+    },
+    {
+      "path": "judges/profiles/jake_nebel/source-index.json",
+      "sha256": "d7669d27d65aee6c93a0dcdacbea58021bae27ac6320725924eecbd5460de4fb"
+    },
+    {
+      "path": "judges/profiles/jens_jaeger/calibration.json",
+      "sha256": "48c91f08f22fea29cda8f847795135492a6927895f8b7f50ea2d1ab36c6d0be9"
+    },
+    {
+      "path": "judges/profiles/jens_jaeger/profile-v1.md",
+      "sha256": "982399e2de95b16bd89f626298a01a0e203a230e7f220bf1101c83677f3ae35a"
+    },
+    {
+      "path": "judges/profiles/jens_jaeger/reading-log.json",
+      "sha256": "19143346381ae7ec32f8955c65a82f11ee84ba94756fa3e87b1065b2702cc2ee"
+    },
+    {
+      "path": "judges/profiles/jens_jaeger/source-index.json",
+      "sha256": "3fc7938d14edda3fb2cc9a8bbbd1c25a5c3cf41b9dcd9799a8ae8be903f80554"
+    },
+    {
+      "path": "judges/profiles/john_hawthorne/calibration.json",
+      "sha256": "84fd7cfcb2e9619207386cf87d30b7c1cdd704e26e835e435b0830f98e5cb3b4"
+    },
+    {
+      "path": "judges/profiles/john_hawthorne/profile-v1.md",
+      "sha256": "60ebab4ac288db2b3b2e9a7cf2a0e900dc97a06f4f18f69b4352d0a53102e126"
+    },
+    {
+      "path": "judges/profiles/john_hawthorne/reading-log.json",
+      "sha256": "a1cc507914a10117f472f8d71a4318062c3369857a704ab451967775bec473cc"
+    },
+    {
+      "path": "judges/profiles/john_hawthorne/source-index.json",
+      "sha256": "1321e0d31dde621feca6bfc0b6599990fa897e1e3736a55b9d245fc57be14f8e"
+    },
+    {
+      "path": "judges/profiles/jonathan_weisberg/calibration.json",
+      "sha256": "57efdfc756dfbbb737cf46847efb104a7d6189d0998b3d3a55db28e0378ad8e8"
+    },
+    {
+      "path": "judges/profiles/jonathan_weisberg/profile-v1.md",
+      "sha256": "0a5d7b90b3ccf1855e4696e58a804b4b8824b0acd3d536b5367a48aab6840faa"
+    },
+    {
+      "path": "judges/profiles/jonathan_weisberg/reading-log.json",
+      "sha256": "49673e1e640b31a0978b615e72fe89d17c97004dc2581436c584be1db3c87369"
+    },
+    {
+      "path": "judges/profiles/jonathan_weisberg/source-index.json",
+      "sha256": "fd2d692819c0bde4e69c255e62b3fc15657189d6b3b6081dd76c3f459ff67631"
+    },
+    {
+      "path": "judges/profiles/josh_dever/calibration.json",
+      "sha256": "80313c2a685046a98eae03f252ff8136d39186f1549f364b3a0676053eed36af"
+    },
+    {
+      "path": "judges/profiles/josh_dever/profile-v1.md",
+      "sha256": "72df390fcc1072a82ed301bf586259b9f90588932f5b94c9abf82a446b22a08e"
+    },
+    {
+      "path": "judges/profiles/josh_dever/reading-log.json",
+      "sha256": "eddfd99009170a15a130947d8d2a6fd06d392de76b0372c301bc0f6a12554990"
+    },
+    {
+      "path": "judges/profiles/josh_dever/source-index.json",
+      "sha256": "d572d5c39a97eb845480f6de1e2e928b99e3c968638b30f6226881ebb96ca82d"
+    },
+    {
+      "path": "judges/profiles/kacper_kowalczyk/calibration.json",
+      "sha256": "67ca98e19f8553085d8cc11c889ae8afbf66432dd13cfdf28eded97fadf5e04c"
+    },
+    {
+      "path": "judges/profiles/kacper_kowalczyk/profile-v1.md",
+      "sha256": "eda23828f1ed817f830f5528f24aee11909439e82617b56604381271560e8122"
+    },
+    {
+      "path": "judges/profiles/kacper_kowalczyk/reading-log.json",
+      "sha256": "78af195849317d8271128cbef4e64b942d0b87772c51b4fe620747a78952817d"
+    },
+    {
+      "path": "judges/profiles/kacper_kowalczyk/source-index.json",
+      "sha256": "e6f4a0c692d01a6f06d31ecb1476d5416c334111a8880c63aee5ca8f19230ed0"
+    },
+    {
+      "path": "judges/profiles/karina_vold/calibration.json",
+      "sha256": "c55e6867ca7d3c809a314f16d85760b80ef44f61f9dc2af437fc76c890b7ad7b"
+    },
+    {
+      "path": "judges/profiles/karina_vold/profile-v1.md",
+      "sha256": "4f5831f44b0f52cdeba8b7a16bf73ebc630306180de3b7394f5622b7515ea9ae"
+    },
+    {
+      "path": "judges/profiles/karina_vold/reading-log.json",
+      "sha256": "b1b7fb3860bf179a5c534153663fc8b96287b22d5f3f1db4bd51d4c475740629"
+    },
+    {
+      "path": "judges/profiles/karina_vold/source-index.json",
+      "sha256": "712a522ba3139763b2ae891fe33623a9d755cc91026d72c33d107a337e5dfa2b"
+    },
+    {
+      "path": "judges/profiles/kenny_easwaran/calibration.json",
+      "sha256": "a12725753b5ae39ad8451cdf287b7c3b46055dcc3843313a0611703694d31ef3"
+    },
+    {
+      "path": "judges/profiles/kenny_easwaran/profile-v1.md",
+      "sha256": "c187359f7fd8d9b1ff910f5cbf5f8dd3bbf920dfe29b4b2c02bc6c4aacefde09"
+    },
+    {
+      "path": "judges/profiles/kenny_easwaran/reading-log.json",
+      "sha256": "b9fccad411e7cddbcc86f87b8060488f0d5f79fa0dfc6aaba7b23925e97e4d79"
+    },
+    {
+      "path": "judges/profiles/kenny_easwaran/source-index.json",
+      "sha256": "c71285ab7d3c3bddfb7d6f709d43aae32fec6913d3c4edaefc51f55925e61835"
+    },
+    {
+      "path": "judges/profiles/mario_gunther/calibration.json",
+      "sha256": "d447a335dd8b8a73ec3888c6de1966d357f3a5fb8512e482595fdc1c1af53d34"
+    },
+    {
+      "path": "judges/profiles/mario_gunther/profile-v1.md",
+      "sha256": "4e57f7d4091710646a1d70e36e58ee1fbb9bf94a6ab71d15ad3a04b88a34bcb4"
+    },
+    {
+      "path": "judges/profiles/mario_gunther/reading-log.json",
+      "sha256": "c5f07d5751b45c0c9930e904cf925a93035c4931cba334429fcc28e191db7f7d"
+    },
+    {
+      "path": "judges/profiles/mario_gunther/source-index.json",
+      "sha256": "02c9af4b33ef8903161d0101bb50516403bea193e507b5dbe005aeb94ddefa07"
+    },
+    {
+      "path": "judges/profiles/matthew_mandelkern/calibration.json",
+      "sha256": "c394b10a917ff425a7d6356a19f7145b11b36e7d2550861208ce2a898ace845e"
+    },
+    {
+      "path": "judges/profiles/matthew_mandelkern/profile-v1.md",
+      "sha256": "0065cb6e88f065d84281d0ee3c3318b40ba744953eb8341079892f321050057d"
+    },
+    {
+      "path": "judges/profiles/matthew_mandelkern/reading-log.json",
+      "sha256": "57a3200ff271c5aec675a0cd241f0e08561e5385ecf556f1259fd989c2e782c3"
+    },
+    {
+      "path": "judges/profiles/matthew_mandelkern/source-index.json",
+      "sha256": "45ed57b64456eb56f1df7ba98d10e7a912f810256828b02b869c797351482f48"
+    },
+    {
+      "path": "judges/profiles/pamela_robinson/calibration.json",
+      "sha256": "4f7c4ee73b9abdb6ccac0f1d3a346e822841ee6062af3004f978722a82bf0c9f"
+    },
+    {
+      "path": "judges/profiles/pamela_robinson/profile-v1.md",
+      "sha256": "6a37eae298091d8baaed377a726c2b251a1a066875d2a072844a0047508cd26f"
+    },
+    {
+      "path": "judges/profiles/pamela_robinson/reading-log.json",
+      "sha256": "21a90319d8c25b5744a3f160f0953ac39c7a1e0157e4f281fea2cdd72ed0a7b0"
+    },
+    {
+      "path": "judges/profiles/pamela_robinson/source-index.json",
+      "sha256": "18658ac3f6f9612c02f37eb2135329b690426ade2ae6891538ba8b7d563efeed"
+    },
+    {
+      "path": "judges/profiles/rachel_sterken/calibration.json",
+      "sha256": "2083d4dc7c4da4288acd94c689201a57996534483005458adc09d87693be0749"
+    },
+    {
+      "path": "judges/profiles/rachel_sterken/profile-v1.md",
+      "sha256": "a0e15dbc4088e7186b543d37cc6d8c5093d135bd29c5252b36e2f9e3fa8c1ad2"
+    },
+    {
+      "path": "judges/profiles/rachel_sterken/reading-log.json",
+      "sha256": "17f8370246056c3e91596bdf249be837a247e52dc367e62121cfee347d4749d9"
+    },
+    {
+      "path": "judges/profiles/rachel_sterken/source-index.json",
+      "sha256": "4c13c0d6b60c59cbb020ee1d2f436fa5128f5a28060cef17defeece229060f26"
+    },
+    {
+      "path": "judges/profiles/raphael_milliere/calibration.json",
+      "sha256": "2a2dd78a6c7ecdfb742d409f14fe1e56d6845747ad3c1fa0928e3777e9db0b1d"
+    },
+    {
+      "path": "judges/profiles/raphael_milliere/profile-v1.md",
+      "sha256": "5128d55911724a3232d610b8e8a83dbc1a6905d6a5e6eb07cb3ce1837059e7a3"
+    },
+    {
+      "path": "judges/profiles/raphael_milliere/reading-log.json",
+      "sha256": "1114b1c7dbb500d19c0e31931e0efa4e117176f9a84bba6f55087c363c2657f6"
+    },
+    {
+      "path": "judges/profiles/raphael_milliere/source-index.json",
+      "sha256": "a5457fd3f951988c5030da5a81bd2e1f598a351639a9648f299edcd2f95597da"
+    },
+    {
+      "path": "judges/profiles/simon_goldstein/calibration.json",
+      "sha256": "f8be1ae200b6eb57ff7c567a1e6dfef6c90400a389f09545e84a8913e4e9feaf"
+    },
+    {
+      "path": "judges/profiles/simon_goldstein/profile-v1.md",
+      "sha256": "c44a46e93ddd6b040adde003b3dc81e17e79500b65a15ea8bd3bd4a4e1173d44"
+    },
+    {
+      "path": "judges/profiles/simon_goldstein/reading-log.json",
+      "sha256": "5e64d95bcceee164bc5d56e54ca9258009f641912c0e321a832c6f96d03a5f00"
+    },
+    {
+      "path": "judges/profiles/simon_goldstein/source-index.json",
+      "sha256": "06fd34c20755454693e410d51b67e1de411f34b48c6e1c0b5f2b9daff5adf767"
+    },
+    {
+      "path": "logs/README.md",
+      "sha256": "7f06a8594155b6f49f5be2aeb2917be8a9db47fa9724a0a1b4c2eba60547d436"
+    }
+  ]
+}

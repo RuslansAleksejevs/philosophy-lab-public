@@ -1,5 +1,7 @@
 # E069 · When Old Parts Become a Second Table
 
+[Original research files and revision evidence](../../docs/essay-evidence/E069.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

@@ -1,0 +1,79 @@
+{
+  "schema": "hundred-argument-map-v1",
+  "candidate": "idea-043-expanded-proposal",
+  "status": "provisional; source and originality checks not performed",
+  "central_question": "When does assurance-backed induced abandonment of independent checking create a duty to support epistemically usable withdrawal?",
+  "central_claim": "A provider that materially induces recipients to abandon independent checking, thereby weakening their ability to assess later claims in that domain, has a defeasible role-specific duty to support a proportionate epistemic transition.",
+  "inference_nodes": [
+    {
+      "id": "P1",
+      "type": "premise",
+      "claim": "Reliability assurance can invite organized reliance on the provider's continuing competence, not merely belief in isolated true statements.",
+      "status": "philosophical premise; needs literature and counterexample testing"
+    },
+    {
+      "id": "P2",
+      "type": "premise",
+      "claim": "Replacing independent checks can foreseeably reduce recipients' ability to notice, assess, or investigate later informational failures.",
+      "status": "conceptual and empirical premise; needs operational definition"
+    },
+    {
+      "id": "P3",
+      "type": "premise",
+      "claim": "A provider that materially invites or engineers this substitution has a special causal and role-based connection to the resulting transition problem.",
+      "status": "normative premise; boundaries against mere reliance need defense"
+    },
+    {
+      "id": "P4",
+      "type": "premise",
+      "claim": "A proportionate handoff, preserved evidence, or limited training can sometimes restore a minimally usable ability to assess successors without requiring permanent service or full self-sufficiency.",
+      "status": "remedial premise; worked case is hypothetical, feasibility unverified"
+    },
+    {
+      "id": "I1",
+      "type": "intermediate",
+      "from": ["P1", "P2"],
+      "claim": "Assurance-backed reliance can create a loss in epistemic agency at withdrawal even when the provider has been truthful and no financial loss occurs."
+    },
+    {
+      "id": "I2",
+      "type": "intermediate",
+      "from": ["P2", "P3", "P4"],
+      "claim": "Where the provider materially contributed to the loss and a proportionate transition measure is available, the provider is a fitting bearer of a limited transition responsibility."
+    },
+    {
+      "id": "C",
+      "type": "conclusion",
+      "from": ["I1", "I2"],
+      "claim": "Truthful notice and financial compensation may be insufficient; the provider may owe support that makes epistemic exit usable."
+    }
+  ],
+  "strongest_objection": {
+    "id": "O1",
+    "claim": "The proposal either restates general dependency repair or is defeated by informed, fair acceptance of specialization and shutdown risk.",
+    "assessor_sources": [
+      "Astra assessment: distinguish an epistemic transition duty from general repair of induced dependence under fair allocation.",
+      "Sol assessment: test whether informed voluntary specialization and fair advance risk allocation eliminate the special duty."
+    ],
+    "provisional_reply": "Concede that a new irreducible duty is not established. Defend a narrower epistemic trigger and remedy: the impaired capacity is to assess later claims, and repair must restore a usable route to judgment. Fair, feasible, reversible delegation can narrow or discharge the duty; bare advance permission may not settle whether the provider induced and controls the loss."
+  },
+  "worked_case": {
+    "case": "Two equally accurate weather services; only one encourages a community to dismantle local observation capacity before shutting down.",
+    "isolated_variable": "Provider-induced loss of independent epistemic checking capacity, holding forecast accuracy and notice equal.",
+    "predicted_difference": "The service that helped remove the community's evaluative fallback may owe a proportionate handoff; the other need not rebuild capacity that remained intact.",
+    "status": "hypothetical; not empirical evidence"
+  },
+  "defeaters": [
+    "Informed, feasible, reversible specialization eliminates the complaint even where the provider induced the loss.",
+    "The proposed epistemic trigger and remedy add no guidance beyond general dependency repair.",
+    "Recipients cannot be said to have lost a coherent evaluative capacity, or transition measures cannot restore one.",
+    "Equivalent duties arise when evaluative capacity was not impaired, showing the epistemic feature is explanatorily idle.",
+    "Closest existing literature already supplies the same trigger, scope limits, and remedy."
+  ],
+  "non_claims": [
+    "No source has been read or checked in this expansion.",
+    "No originality or contest-eligibility conclusion is established.",
+    "No claim that every expert, platform, or infrastructure owes continued service.",
+    "No empirical result about actual weather-service users or providers."
+  ]
+}

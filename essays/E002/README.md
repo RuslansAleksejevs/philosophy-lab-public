@@ -1,5 +1,7 @@
 # E002 · Keeping the Change, Keeping the Claim
 
+[Original research files and revision evidence](../../docs/essay-evidence/E002.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

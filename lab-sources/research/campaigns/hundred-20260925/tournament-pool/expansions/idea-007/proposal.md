@@ -1,0 +1,69 @@
+# Promises After Personal Duplication: one claim, divided responsibility
+
+**Status:** conceptual argument proposal; no primary-source research or novelty check has been performed.
+
+## Question and provisional claim
+
+When one promisor branches into two psychologically continuous successors, what happens to the promisee's claim? The proposal defends a defeasible **single-claim, divided-responsibility rule**. Branching by itself neither cancels the promised performance nor creates a second promised performance. If both successors retain the agency and practical capacity that made the promise actionable, both can bear responsibility for securing the one outstanding performance. Their duties are alternative and bounded: one adequate performance discharges the shared claim; the successors owe no duplicate object, no general partnership, and no burden greater in total than a fair fulfillment of the original promise would have imposed.
+
+This is a normative account of promissory succession, not an answer to whether the successors are numerically identical to the promisor. It also does not claim that memory alone transfers a duty. The argument depends on a defeasible account of successor responsibility, stated below as an explicit premise rather than hidden inside the word “identity.”
+
+## Scope and terms
+
+Assume a harmless branching case: one person knowingly promises one recipient one identifiable performance, then two successors emerge. Each remembers making the promise and can form intentions about it. The case is not a prediction about technology. It isolates the normative result of branching from disputes about whether any actual procedure could produce it.
+
+“One claim” means that the promisee is entitled to the promised outcome once. “Divided responsibility” means that more than one successor may be answerable for protecting and securing that outcome. It does not mean that the recipient may collect the performance twice, or that each successor automatically owes an unrestricted full substitute. A “qualifying successor” is a person who has a sufficiently strong, responsibility-relevant continuity with the promisor’s practical agency and retains meaningful control over whether the promised performance is completed. The threshold is normative and needs source-grounded defense; it is not settled by a psychological description alone.
+
+## Argument
+
+**P1 — A promise creates a recipient-directed claim with a specified object and scale.** In the test case, the promisor undertook to deliver one sculpture. Unless the promise’s terms make the promisor’s unique identity part of what is promised, the object is one completed sculpture, not a continuing supply of sculptures and not merely the promisor’s private intention to make one.
+
+**P2 — Branching does not itself change that claim’s object or satisfy it.** Neither successor has delivered the sculpture merely by coming into existence or remembering the promise. Treating branching as cancellation would let a change in the promisor’s successor structure defeat an outstanding claim without performance or the promisee’s release. Treating it as multiplication would add an object that the promisor never undertook to provide. The first move erases the claim; the second rewrites it.
+
+**P3 — Where both branches retain responsibility-relevant agency, each is a plausible bearer of duties concerning the outstanding claim.** This premise is not that every psychological copy inherits every obligation. It is narrower: a successor is a candidate bearer where she is causally and practically connected to the promissory agency, can understand the claim as arising from that agency, and retains meaningful power over performance. That link gives a reason to assign answerability to both branches instead of arbitrarily selecting one by a metaphysical label that the case has made indeterminate. It remains possible that a better theory of responsibility will reject or refine this test.
+
+**P4 — The content of successor responsibility must preserve the claim without imposing a new, unlimited burden.** If both branches inherited a separate, unconditional debt for a whole sculpture, the responsibility would multiply beyond the original undertaking. If neither had any duty, the recipient would lose the practical protection of the original commitment. A defensible transfer therefore needs a shared discharge condition and a fair limit on each successor’s means and burden.
+
+**P5 — A bounded duty to secure one performance is the least revisionary way to meet both constraints.** Where either successor can fairly perform alone, each may be answerable for the same outstanding outcome, but performance by either ends the claim against both. The recipient retains a practical route to completion if one successor refuses. Where completion requires complementary action, each owes only reasonable, task-specific assistance directed to the original recipient’s claim, subject to a total burden cap tied to fair performance of the original promise. This is a duty to the promisee, not a standing duty of friendship, loyalty, or cooperation between the successors.
+
+**Conclusion —** A promise can survive branching as one claim borne by overlapping, conditional successor responsibilities. This rule preserves the promise’s object and its assurance function while preventing automatic cancellation, automatic duplication, and unrestricted backup liability.
+
+## Why the rule is not simply “memory transfers the debt”
+
+The claim’s persistence and the successors’ responsibility are separate questions. P2 concerns the promisee’s unsatisfied claim; P3 concerns who, if anyone, must answer for it after branching. Remembering the act is evidence relevant to continuity, but it is not sufficient. A successor who merely remembers, has no practical control, and did not take up any role in securing performance is a weaker candidate than one who carries forward the promisor’s plan and can complete it. Conversely, practical control without the relevant connection to the promissory agency may also be insufficient: an unrelated person who happens to own the workshop is not thereby the promisor’s successor.
+
+The proposal is not a theory of moral blame. An involuntary branch could leave a successor with a claim-directed duty without making her blameworthy for the branching. That distinction does not settle whether imposing any duty is fair. It makes the burden cap and the successor threshold essential, rather than optional qualifications.
+
+## Worked case
+
+Mara promises Lee one finished sculpture by Friday. Before Friday, Mara branches into A and B. Both remember the promise and want Lee to receive the sculpture. A has the partly finished work and can finish it in the ordinary time and at the ordinary cost. B has no special advantage. Under the proposal, Lee remains entitled to one finished sculpture. A is the least-burden route and can discharge the shared claim by delivering it. B cannot be made to produce another sculpture after A performs. Before performance, B remains answerable in the limited sense that she may not deliberately frustrate the claim and may have to take a reasonable step if A defaults and B can secure the same performance within the original burden envelope.
+
+Now change the case: A has the sculpture, while only B has a tool needed for completion. The successors may agree how to use it, but their relationship is not the source of the duty. The outstanding claim is. Any coordination duty is limited to the steps reasonably necessary to deliver the one promised object. If the only proposed arrangement would require a successor to bear a burden materially beyond fair fulfillment by the original promisor, the rule does not authorize that arrangement. It leaves open whether the promisee then has a narrower substitute claim or whether this class of promise cannot be transferred at all.
+
+Finally, suppose Mara expressly promised a performance whose point is that *Mara herself* make it, and the recipient reasonably understood that identity to be essential. The proposal does not assume that a successor-made object satisfies that promise. The terms may make the promise identity-sensitive and therefore outside the default single-claim transfer rule. Whether the recipient then retains another claim, and what it is, requires separate argument.
+
+## Strongest objection and proposed answer
+
+The strongest objection is that both successors never consented to a cooperative relationship with one another. They may have incompatible plans, different resources, or no reason to trust each other. Calling their burden “inherited” risks disguising a new duty that no successor undertook. The Sol assessor put this issue directly: can joint responsibility be imposed without creating a new unconsented cooperative relationship? The Astra assessor asks the related prior question: why does each nonconsenting successor inherit a backup duty, and how is its fair burden fixed? The root selection reason likewise warns against treating memory as automatic full liability.
+
+The answer is limited. The successors are not required to create a general association or to value each other’s interests. The proposed duty is addressed to the promisee and extends only to reasonable acts needed to discharge one claim, with no more than a fair share of the original promisor’s burden in total. When one successor can perform alone, no cooperation is needed. When neither can, task-specific coordination is one possible means of meeting the earlier claim, not a new source of it. This explains why consent to a relationship need not be a condition of every necessary act.
+
+That answer does not establish that successor duties are justified. It relies on the claim that the voluntary promissory act can ground a limited, nonpunitive responsibility in qualifying continuants, and that protecting the promisee from unilateral evasion can outweigh the successors’ lack of consent within the stated limits. If the successors are morally distinct in a way that defeats this transfer, or if even bounded assistance necessarily creates the very new relation the objection condemns, the argument fails. The proposal should then narrow to branches where a single successor can perform without assistance, or be abandoned as a general account.
+
+## Fair-burden rule and its open point
+
+The burden cap should be assessed against what fair performance of the original promise would have required, not by adding a fresh full obligation for every branch. If one successor can perform at roughly the original cost and effort, she may be the primary route. If practical control is divided, a feasible plan may distribute concrete steps. A tie should not be resolved by assuming that the recipient may arbitrarily select the most burdened successor. The present proposal therefore adopts a least-burden feasible route as a provisional default, adjusted only for morally relevant differences in control and reliance.
+
+This states a constraint more clearly than it supplies a complete formula. “Fair share” could be measured by control, capacity, benefit, reliance, or some combination. A source-based comparison with promissory and responsibility theories is needed before asserting that the least-burden rule is principled. The argument’s modest result is that unlimited joint-and-several liability and simple equal division each need additional defense; neither follows merely from the fact that two branches exist.
+
+## What would disprove or narrow the claim
+
+The transfer rule should be rejected or narrowed if a defensible account of directed claims shows that obligations cannot attach to psychologically continuous but numerically distinct successors without their consent. It should also be narrowed if the test for qualifying successor agency cannot distinguish a successor from a capable bystander without smuggling in the identity conclusion. Cases of forced branching, radical divergence in values, loss of control, nontransferable skill, intimate or explicitly identity-sensitive promises, and promises whose performance becomes harmful are decisive probes. If the rule cannot preserve the recipient’s original claim in these cases without imposing a new or disproportionate burden, it should apply only to promises with separable, transferable performance and willing or independently responsible successors.
+
+## Significance if correct
+
+The case would show that the number of duty bearers and the number of promised benefits need not track each other. It would also separate two questions often run together: what the promisee is owed, and which future agents must answer for securing it. That distinction could clarify how theories of promise, personal identity, and responsibility should treat branching, inheritance, agency transfer, and other cases where one practical history continues through more than one person. This is a conditional significance claim, not evidence that the proposal is original or that any real-world legal system should adopt it.
+
+## Closest-source and originality questions still open
+
+No primary source was retrieved or read for this expansion. The selected sketch’s “identity determines obligations” contrast is too narrow to establish a closest alternative. A later source phase should compare primary discussions of personal fission and responsibility, promissory obligation and claim-rights, joint or shared obligations, and the transfer of duties where identity is uncertain. It should ask whether the single-claim/divided-responsibility distinction already appears under another name; whether existing accounts explain nonconsensual successor burdens; and whether a “least-burden feasible route” is a real contribution or an ordinary implication of established theories. Until that probe is completed, originality is **unknown** and the proposal is only a research candidate.

@@ -1,0 +1,13 @@
+# Branch B cycle 3: fresh independent critic
+
+Run: `hundred-20260925-branching-02-b-linked-20260927`
+Stage: `critic-003`
+Requested setting: gpt-6-luna / xhigh. Record observed settings only when native metadata supports them.
+
+This critique uses the same fresh native context that completed `critic-source-check-003`, under the narrowly recorded adjustment in `../METHOD-DEVIATION-001_RU.md`. It remains a distinct critic context from D2's author and critics C1/C2, but it has already read D2 and its bounded sources and wrote the source-check. Read the exact neutral campaign instructions named in your dispatch, this task, the full sealed D2 manuscript, the method-deviation note, and only the sealed outputs of `critic-source-check-003`. Do not inspect or use C1/C2 critiques, C1/C2 source-checks, D0 self-review, branch A, other essays, global summaries, or cross-essay commentary. Assess the source-check note critically and disclose that the source-check and critique share one context. Do not edit D2, write D3, or create a checkpoint.
+
+The same context has already read D2 and the original bounded source packet for `critic-source-check-003`. Do not claim those materials were first opened after this critic prepare. Before writing any critique, construct an exact input manifest from D2 and the C3 source-check receipt/coverage metadata, bind your actual UUID, and successfully prepare `critic-003`; do not retrieve or inspect additional substantive material before that prepare. After success, perform the critical assessment using the bound D2 and the sealed source-check output. The source-check has bounded coverage; do not overstate it or assume literature completeness.
+
+Reconstruct D2's central thesis charitably. Assess source accuracy using only the sealed source-check, inference validity, premise support, interpretation, significance, and bounded novelty. Identify the strongest objection to the central contribution and whether it threatens the argument or only scope/style. State unresolved coverage clearly. Keep critique fresh; do not seek or infer earlier criticisms.
+
+Write substantive English `critique.md`, structured `report.json` covering thesis, source/reading coverage, accuracy, validity, premise support, interpretation, significance, novelty, strongest reading, severe issues, prioritized repair requests, new contributions, uncertainty, recommendation and checks, plus concise Russian `HISTORY.md` with real accessed sources, coverage, process boundaries and deviations. Recommend accept with limitations, revise, or set aside and explain why. Emit exact marker, record/capture, and validate complete=false. Preserve failures. No revision, checkpoint or later-stage artifact.

@@ -1,5 +1,7 @@
 # E008 · Why Innocence Does Not Close the Question
 
+[Original research files and revision evidence](../../docs/essay-evidence/E008.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

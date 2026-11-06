@@ -1,0 +1,123 @@
+# Keeping the Change, Keeping the Claim
+
+A person can reasonably want to keep the benefits of something another person had no right to do. The harder case arises when what she wants to keep includes changes to her own preferences. If she now welcomes both the change and the conduct that produced it, must respecting her mean accepting that the conduct has been vindicated? Conversely, if her welcome was manipulated, must respecting her mean restoring the person she used to be?
+
+Both inferences can fail. I defend a constraint on retrospective ratification: when an intervention actively disables the person's assessment of a claim against that intervention, the resulting endorsement cannot, through her authority alone, discharge that claim. This does not give her former preferences general priority. Nor does it permit others to reverse the intervention against her present wishes. A person may retain protection against further interference while a purported waiver of responsibility for earlier interference is ineffective.
+
+The familiar warning against manufactured consent does not itself establish this result. The needed argument concerns the allocation of different normative powers after manipulation. The power to settle a complaint and the protection against another unwanted intervention have different grounds. Recognizing that difference also changes the aim of repair: where possible, restore the person's capacity to assess her claim without restoring the preferences she has come to reject.
+
+## 1. Two questions after a change
+
+Consider an imagined procedure with two separable effects. **Opening** enables Mara to find sustained enjoyment in music. Before the procedure she had little interest in it; afterwards she develops a demanding musical practice and makes new friendships. Its effects are durable. Mara understands how they arose, reflects intelligently on their value, and wants them to continue. Assume the procedure was performed without adequate authorization. There are no emergency conditions that independently justify that failure.
+
+**Closing** has a different function. It selectively interrupts Mara's consideration of complaints against the clinic concerning Opening. It does not conceal facts. Mara remembers that she was not asked. She understands the idea of a right and can assess analogous complaints by other people. But when she considers whether this clinic owes her an explanation or repair, Closing prevents those considerations from entering her settled assessment. The mechanism operates during that assessment; it does not merely wait in reserve. Mara can repeat an objection's words but cannot use it in deciding whether to release the clinic. The procedure thereby produces sincere assurance that the clinic owes her nothing.
+
+This is a philosophical construction, not a description of available technology. Separating the two effects makes a distinction visible that a general description such as “personality change” can hide. One effect produces valuable interests; the other disables assessment of a particular normative relationship. Nothing requires the new interests to be inferior, superficial, or alien to Mara. The wrong-making feature under investigation is not their content.
+
+The clinic asks Mara whether she wants Opening reversed. She answers no. It then asks whether she releases it from any claim arising from the unauthorized procedure. She answers yes. These answers might form one fluent sentence: “Leave me as I am; you owe me nothing.” Yet the clinic would make a mistake if it treated the two clauses as exercising one indivisible authority.
+
+The first addresses a proposed action upon Mara now. The second purports to extinguish a claim concerning what the clinic already did. Refusing the second inference need not require performing the first action. We can leave her musical life intact while denying that the clinic has acquired a release merely by eliciting these words.
+
+An initial temptation is to say that her original refusal must prevail over her subsequent endorsement. But the example need not contain an original refusal. The clinic might have proceeded without asking a person who had never considered such a procedure. There is then no earlier resolution to reinstate. Another temptation is to say that all her new preferences are inauthentic. Nothing in the argument requires that verdict. Mara can take ownership of a life she was wrongfully made capable of valuing.
+
+## 2. What is being ratified?
+
+Three questions should be distinguished. Is Mara glad that she has her present interests? Does she authorize a further intervention? Does she release an outstanding claim against the earlier intervener? Call these questions of appreciation, present authorization, and release. A single attitude can be relevant to all three without settling them all.
+
+Suppose a friend used my unfinished painting without permission and the exhibition unexpectedly improved my career. I can value the result while insisting that my friend should have asked. I can also waive a claim even if I dislike the result: perhaps reconciliation matters more to me. Appreciation and release therefore come apart in both directions. This is not merely a distinction between emotional and rational attitudes. Each response can survive informed deliberation.
+
+Chwang's defence of subsequent consent expressly distinguishes consent from gratitude and treats relinquishing demands for compensation as central. He also recognizes that brainwashing can undermine subsequent consent, without showing that all subsequent consent fails. The present argument accepts that temporal order alone cannot settle the matter. Its question is how to assign powers when the intervention disables precisely the assessment a release would require. [Chwang 2009, §§3.1–3.2, 5.2.](https://spot.colorado.edu/~chwang/chwang-eric-a-defense-of.pdf)
+
+I use *ratification* for a person's purported exercise of authority to settle a complaint about an earlier intervention. Whether successful ratification makes that intervention permissible retrospectively is a further question. A reader who thinks past wrongness cannot change may understand ratification as releasing a claim that the wrong generated. A reader who permits retrospective authorization may understand it more strongly. My constraint applies to both: the intervention cannot obtain either normative benefit simply through an endorsement it produced by disabling the relevant assessment.
+
+The qualification “through her authority alone” matters. Claims can be settled by fulfilling an obligation, or limited by other moral considerations. An intervention can have independent justification. My thesis does not make ratification the only route to an acceptable outcome. It identifies one route on which a particular defect cannot be ignored.
+
+Nor is the person required to conduct an exhaustive inquiry before releasing an ordinary claim. She can decide that its precise merits are not worth her time. A waiver can be impulsive, generous, or based on imperfect understanding. The case concerns a narrower impediment: another party has actually prevented certain considerations from functioning in her assessment of that party's responsibility. Deciding not to pursue a question differs from having one's assessment of it selectively disabled.
+
+## 3. A claim cannot be extinguished by disabling its holder
+
+Why should Closing make a difference? Begin with the point of allowing a person to release a claim. Release gives the holder some authority over whether the duty owed to her continues. Within the limits of that authority, others may not substitute their judgment that forgiveness would be wise, that compensation would be inconvenient, or that the holder would be happier without the claim. The release must be attributable to an exercise of the holder's relevant agency.
+
+This premise does not require uncaused agency. It states a modest asymmetry between being subject to someone's claim and possessing the power to extinguish it. If I owe you a debt, my ability to make you unable to demand payment does not give me authority to cancel the debt. Destroying your records, cutting your communication, or inducing temporary confusion can prevent its exercise without transferring it to me. A claim would provide little protection if the debtor could remove it by disabling its holder and calling the resulting silence a release.
+
+Mara's case is harder because there is speech rather than silence. She understands the facts and explicitly says that the clinic owes her nothing. But the underlying distinction survives. A release is not whatever behaviour a debtor can produce that resembles release. It is the holder's exercise of a power. Closing interrupts the very activity in which Mara would assess whether to exercise that power. The clinic has obtained words of discharge by interfering with the agency whose exercise would make those words effective.
+
+The objection is not that Mara has reached the wrong conclusion. Suppose an independent observer correctly judges that waiving this particular claim would be morally admirable. Closing still fails to turn that observer's assessment into Mara's exercise of authority. Nor is the objection simply that the clinic benefits. A debtor may offer a persuasive apology, and a creditor may freely release a debt because the apology matters to her. What matters is how the claim is settled: through her assessment, including a decision not to dwell on it, or through another party's disabling of that assessment.
+
+The argument can be stated without assuming a comprehensive theory of authenticity. First, an outstanding claim reserves to its holder some authority over its release. Second, the intervener has no independently authorized power to settle the claim by interfering with the holder's assessment. Third, the putative release is produced through the actual exercise of precisely that interference. Therefore, the release cannot acquire its force merely from being expressed by the holder. The unauthorized interference explains why her expression fails to exercise the power on which the proposed discharge depends.
+
+The second premise is the substantive moral commitment. Someone could deny it by claiming that bringing about sincere satisfaction is sufficient to settle any personal claim. But this would replace a person's authority with a technology for making complaints disappear. The view could no longer explain why a creditor's considered release matters differently from a debtor's successful suppression of concern. To preserve that distinction, it must recognize a constraint on the means by which the apparent release is obtained.
+
+This is not an inference from impaired agency to reduced moral standing. It runs in the opposite direction: because Mara retains the standing of a person to whom justification can be owed, the clinic cannot appropriate her power of release by interfering with its exercise. A vulnerability in the exercise of a right is ordinarily a reason to protect the right, not a reason to recognize the beneficiary of that vulnerability as its new owner.
+
+The restriction is consequently specific to a claim and a use of endorsement. Closing might leave Mara able to consent to a concert booking, reject an unwanted visitor, and release an unrelated friend from a promise. An assessment of her authority must track the relevant transaction. Describing her simply as autonomous or nonautonomous would obscure what requires protection.
+
+## 4. Causal influence is not enough
+
+A critic may reasonably worry that this argument hides an impossible ideal. Every evaluative capacity has a formative history. Education makes some complaints less attractive; emotional recovery can make past grievances lose their force. Why should these changes fare better than Closing?
+
+They fare better only if they leave the person's assessment functioning in the relevant way. The distinction is between changing what an agent finds valuable and disabling her consideration of whether the process that changed her respected a claim she holds. A music teacher can disclose dimensions of an activity that make a pupil grateful for difficult lessons. A therapy can help someone judge an old grievance no longer worth pursuing. Neither description entails that objections to the teacher or therapist are prevented from entering deliberation. If a programme does systematically obstruct that assessment, calling it education or therapy does not exempt it.
+
+Varelius argues that a neuroenhancement's production of endorsement does not by itself establish heteronomy; ordinary beneficial changes can also shape the capacities with which we assess them. His conclusion is explicitly compatible with particular interventions undermining autonomy. This rules out a requirement that Mara evaluate Opening using capacities untouched by Opening. My objection concerns Closing's specific obstruction, not whether the assessment uses newly acquired capacities. [Varelius 2020, “Is the main reason for considering self-validating neuroenhancement heteronomous plausible?” and Conclusion.](https://link.springer.com/article/10.1007/s11019-019-09905-7)
+
+The account also permits recovery without repudiation. Pugh emphasizes that later reflection can make a manipulated desire one's own while leaving objections to the process that produced it intact. That possibility is essential here: ownership of a preference need not confer acquittal upon its producer. [Pugh 2020, chapter 3, §2.](https://www.ncbi.nlm.nih.gov/books/NBK556856/)
+
+However, a capacity to assess cannot mean a disposition to arrive at the conclusion an outsider prefers. Mara may hear every objection, understand its relevance, and still conclude that the clinic should be released. She may reject the moral view that she ever had such a claim. She may become unusually forgiving. These possibilities are compatible with an effective release. A diagnosis of Closing requires evidence of an impediment to the assessment, not merely disagreement with its result.
+
+There may be difficult borderline cases in which a deeply rooted commitment and a selective impediment cannot be distinguished. That is a limit on applying the criterion, not a reason to identify the two. The clear case stipulates an actual interruption of Mara's consideration of a claim, while leaving her treatment of comparable claims intact. Ordinary cases would require independent investigation of the process. Mere novelty, unusual preferences, or intense satisfaction supplies no such evidence.
+
+A second concern involves alternative possibilities. Pettigrew makes the effectiveness of consent sensitive to the agency and resources available in preference formation. But he also accepts a Frankfurt-style case in which an agent forms preferences freely although coercion would have produced them had she not. His assessment follows the actual formation, not the unused alternative sequence. [Pettigrew 2026, §4.](https://onlinelibrary.wiley.com/doi/10.1111/phpr.70131)
+
+That is a reason to avoid the sweeping claim that every valid ratification requires an available alternative of rejection. Imagine that a hidden device would have blocked Mara's dissent, but never operated because she independently decided to release the clinic. My central argument does not establish that her release is ineffective. The device's presence may be wrongful for other reasons. But the argument here requires the interference to operate in producing the assessment on which the purported release rests.
+
+This qualification separates the thesis from a general defence of alternative possibilities. It also limits what an endorsement can show. Where a process ensures approval either through independent reflection or through interference, the bare fact of approval does not establish which occurred. Anyone relying on the approval must establish the relevant route. Yet this evidential problem should not be confused with the moral defect of an actually obstructed assessment. A release can be valid while its validity is uncertain to an observer.
+
+## 5. Why respecting the new person need not release the old intervener
+
+Return to Mara's two clauses. If her purported release is defective, why should her refusal of reversal be respected? Is that not selectively crediting her preferences whenever they support the theorist's conclusion?
+
+The answer does not require certifying every present refusal as an unimpaired exercise of consent. The clinic needs justification for another intervention upon Mara. Its first interference does not generate a standing entitlement to perform a second. Even if Closing also compromises her deliberation about reversing it, that impairment does not supply the missing entitlement. An inability to waive one protection does not cancel other protections.
+
+The relevant asymmetry lies between leaving an existing claim in place and undertaking a new intrusion. Denying an effective release leaves the clinic's obligation undischarged by that particular response. Forcing a reversal changes Mara's life and body. It therefore requires additional justification, responsive to her present interests and protections. One cannot derive that justification merely from showing that the clinic lacks a release.
+
+A simpler case illustrates the point. A thief secretly uses a child's savings to buy a valuable instrument for her. The child loves the instrument but does not yet understand financial claims. The failure of her cheerful forgiveness to settle every obligation does not entail permission to take the instrument away. Someone must still work out what repair is owed and how to provide it. The possibility of defective waiver and the desirability of preserving a benefit are compatible. Mara's sophistication makes the situation less conspicuous, but not structurally different in this respect.
+
+This is also why we need not rank Mara's entire former personality above her present one. The earlier Mara's preferences might have been narrow and poorly informed; the present Mara might be considerably more capable. Davis defends subsequent consent in cases where increased competence enables a person to compare preferences she could not previously comprehend. That account makes room for later authority without privileging what happens to be current. My case adds that gains elsewhere do not settle whether a particular assessment remains obstructed. [Davis 2004, §5, pp. 282–285.](https://www.researchgate.net/publication/7587650_Precedent_Autonomy_and_Subsequent_Consent)
+
+Suppose Closing can now be removed without undoing Opening. This offers a repair directed at agency rather than identity. Mara could retain her musical interests and newly acquired capacities while gaining the ability to decide what follows from the clinic's conduct. If, through an adequately authorized process, that capacity is restored and she releases the clinic, her release is not disqualified by her continuing to be the person Opening helped create. No untouched pre-intervention self must preside over the decision.
+
+But removing Closing is itself an intervention; its desirability does not establish permission to impose it. Information, time, independent assistance, or a voluntarily accepted adjustment might make an appropriate route available. Where no permissible route exists, it can remain true that the clinic has not secured a valid release. Failure to obtain a release is not a warrant to force the conditions for obtaining one.
+
+Nor does an outstanding claim require Mara to live as a complainant. She need not accept repeated apologies, attend hearings, describe herself as a victim, or cultivate resentment. Her wish to be left alone can strongly constrain the manner of repair. A claim's continued existence and its holder's current decision not to pursue it are different matters. The clinic can stop demanding reassurance and respect her present life without announcing that her engineered acquiescence vindicates its conduct.
+
+## 6. Permission to change oneself and reasons to intervene
+
+What if Mara authorized Closing in advance? Perhaps she wanted to bind herself against reconsideration, just as someone may arrange obstacles to abandoning a commitment. Would the proposed constraint deny her freedom to shape her own agency?
+
+The constraint expressly concerns interference lacking independent authorization to settle the relevant claim. Valid prior authorization can alter the case. If Mara competently permitted a specific change to her future powers, the clinic's justification would rest on that prior permission and its proper scope. Whether particular powers may permissibly be delegated or surrendered is a substantive question that the present argument leaves open.
+
+What the clinic cannot do is infer that prior permission covered Closing merely because Closing later produced assent. Nor may it expand permission for Opening into permission to disable complaints about whether Opening was properly performed. A person's willingness to undergo change does not automatically confer authority to determine the future interpretation of that willingness. The scope of prior authorization must be defended independently of the mechanism whose permission is disputed.
+
+An emergency can also change the justification. An intervention that saves life or restores decisional capacity might be permissible without prior authorization. If so, it should be defended on those grounds. The constraint on ratification neither requires preserving every obstruction a person happens to have nor forbids all interventions that alter her capacity to object. It prevents a specific shortcut: making the subject unable to assess a complaint and then treating the resulting assurance as the subject's authoritative settlement of it.
+
+Finally, granting the constraint does not settle what remedies are owed. Compensation, disclosure, assistance, changes in practice, and the cessation of further interference answer different wrongs. Some claims are waivable; others concern third parties as well. My argument assumes that a personal claim is outstanding and would ordinarily be releasable. It establishes only that this route to its discharge fails. More extensive conclusions require more extensive premises.
+
+## 7. What repair should preserve
+
+The central practical consequence is a change in the question asked after a disputed transformation. Asking whether someone endorses her new life is inadequate. Asking whether her former self would endorse it is also inadequate. We must ask what authority is being attributed to the present response, and whether the process allowed the relevant assessment to be hers.
+
+Where the aim is to decide what happens next, current interests and protections remain central. Where the aim is to establish a release, we must examine the production of the particular assessment on which release depends. The same person can have strong claims under the first description while being unable, for a specific reason, to extinguish a claim under the second. There is no need to choose one temporal version of the person as the only legitimate bearer of authority.
+
+This account leaves ordinary self-transformation possible and subsequent ratification meaningful. It also preserves something for an individual whose capacity to object has been damaged: her claims do not vanish merely because their exercise has been obstructed. Respecting her new life need not award a moral benefit to the agent who obstructed them. When repair is possible, its proper ambition is to return the assessment to her, while allowing the life she values to remain her own.
+
+## References
+
+Chwang, Eric. 2009. “A Defense of Subsequent Consent.” *Journal of Social Philosophy* 40(1): 117–131. https://doi.org/10.1111/j.1467-9833.2009.01441.x.
+
+Davis, John K. 2004. “Precedent Autonomy and Subsequent Consent.” *Ethical Theory and Moral Practice* 7(3): 267–291. https://doi.org/10.1023/B:ETTA.0000042908.13784.00.
+
+Pettigrew, Richard. 2026. “Consent and the Formation of Preferences.” *Philosophy and Phenomenological Research*, Early View, published 10 June. https://doi.org/10.1111/phpr.70131.
+
+Pugh, Jonathan. 2020. *Autonomy, Rationality, and Contemporary Bioethics*. Oxford: Oxford University Press. Chapter 3, “Controlling Influences.” https://www.ncbi.nlm.nih.gov/books/NBK556856/.
+
+Varelius, Jukka. 2020. “Can Self-Validating Neuroenhancement Be Autonomous?” *Medicine, Health Care and Philosophy* 23: 51–59. Published online 29 May 2019. https://doi.org/10.1007/s11019-019-09905-7.

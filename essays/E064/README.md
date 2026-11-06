@@ -1,5 +1,7 @@
 # E064 · When Trying a Ritual Becomes a Promise
 
+[Original research files and revision evidence](../../docs/essay-evidence/E064.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

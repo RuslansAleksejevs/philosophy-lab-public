@@ -1,0 +1,75 @@
+{
+  "schema": "visible-log-supplement.v1",
+  "started_at": "2026-11-06T03:07:42.452739+00:00",
+  "finished_at": "2026-11-06T03:08:10.681141+00:00",
+  "baseline": {
+    "path": "logs/updates/20261101-submission/INDEX.json",
+    "sha256": "2d5a979e282bb878cab60445ce78dde802fa463b64c0c719fd615969711f959f",
+    "messages": 15695,
+    "sessions": 3424
+  },
+  "added_messages": 27,
+  "total_visible_messages": 15722,
+  "total_sessions_in_union": 3424,
+  "new_session_ids": [],
+  "sessions_with_new_messages": 2,
+  "scanned_native_sources": 3395,
+  "internal_runtime_sessions_excluded": 349,
+  "missing_sources": [],
+  "bundle": {
+    "path": "visible-messages.tar.gz",
+    "sha256": "1bd1e650334e2ab2ce11ee0735a835b2e7caec90217e847ecd051c5bba1a7216",
+    "bytes": 10699
+  },
+  "cutoffs": {
+    "path": "native-source-cutoffs.json.gz",
+    "sha256": "58b9933c1f01cf97a63d70bae2ffdd48a98884480d85d8928cd8ec9351e5719a"
+  },
+  "sessions": [
+    {
+      "session_id": "01a190b5-03e2-70d0-8fcf-b4a1e67148d0",
+      "title": "(*) завершаем",
+      "member": "sessions/01a190b5-03e2-70d0-8fcf-b4a1e67148d0.json",
+      "sha256": "a1d45e50812f5223e2be13083129e30d8e8346539a081b1052b901a78d913f8a",
+      "bytes": 39097,
+      "added_messages": 17,
+      "previous_messages": 343,
+      "counts": {
+        "assistant": 14,
+        "user": 3
+      },
+      "dates": {
+        "first_message_at": "2026-11-01T12:10:41.001Z",
+        "last_message_at": "2026-11-01T13:04:41.004Z",
+        "first_message_local": "2026-11-01T04:10:41.001000-08:00",
+        "last_message_local": "2026-11-01T05:04:41.004000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 17,
+        "undated_messages": 0
+      }
+    },
+    {
+      "session_id": "01a1958a-af92-7fa3-98bc-4a34bcf2afd2",
+      "title": "(*) гитхаб",
+      "member": "sessions/01a1958a-af92-7fa3-98bc-4a34bcf2afd2.json",
+      "sha256": "1f2f59269bf96d02f78aba74f28234f76fa747f820c1c979d94e3fe37869090e",
+      "bytes": 25623,
+      "added_messages": 10,
+      "previous_messages": 50,
+      "counts": {
+        "user": 2,
+        "assistant": 8
+      },
+      "dates": {
+        "first_message_at": "2026-11-06T01:48:06.841Z",
+        "last_message_at": "2026-11-06T03:07:00.720Z",
+        "first_message_local": "2026-11-05T17:48:06.841000-08:00",
+        "last_message_local": "2026-11-05T19:07:00.720000-08:00",
+        "display_timezone": "America/Los_Angeles",
+        "timestamped_messages": 10,
+        "undated_messages": 0
+      }
+    }
+  ],
+  "limits": "Bounded visible-text supplement. Prior gaps, inherited copies and excluded native/tool/attachment material remain. No whole-provider capture claim."
+}

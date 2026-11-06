@@ -1,5 +1,7 @@
 # E004 · When the Record Ends: How Rebuttable Decisions Become Final
 
+[Original research files and revision evidence](../../docs/essay-evidence/E004.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

@@ -1,5 +1,7 @@
 # E039 · Settled, but Still Revisable
 
+[Original research files and revision evidence](../../docs/essay-evidence/E039.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

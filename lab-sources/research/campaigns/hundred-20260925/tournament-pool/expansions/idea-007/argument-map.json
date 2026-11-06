@@ -1,0 +1,106 @@
+{
+  "schema": "hundred-argument-proposal-map-v1",
+  "candidate": "idea-007",
+  "title": "Promises After Personal Duplication: one claim, divided responsibility",
+  "status": "conceptual proposal; not a completed essay",
+  "central_question": "When one promisor branches into two psychologically continuous successors, what happens to the promisee's claim and who must answer for it?",
+  "provisional_claim": "Branching alone neither extinguishes one outstanding promised performance nor multiplies it. Qualifying successors may share bounded, alternative responsibility for securing the single performance, discharged once it is completed.",
+  "scope": {
+    "included": [
+      "Harmless hypothetical branching into two successors",
+      "One recipient-directed promise with one specified performance",
+      "Successors who retain some continuity with the promissory agency and practical control"
+    ],
+    "excluded_or_conditional": [
+      "A metaphysical proof that either or both successors are numerically identical to the promisor",
+      "Unconditional transfer of identity-sensitive promises",
+      "Unlimited full liability for each successor",
+      "Claims about a real technology or legal system"
+    ]
+  },
+  "premises": [
+    {
+      "id": "P1",
+      "claim": "A promise creates a recipient-directed claim with a specified object and scale.",
+      "role": "fix the object of the entitlement",
+      "support_needed": "Primary-source comparison of promise, claim-right and assurance accounts."
+    },
+    {
+      "id": "P2",
+      "claim": "Branching alone neither performs the promise nor changes its specified object.",
+      "role": "rule out automatic cancellation and multiplication",
+      "support_needed": "Test against promises whose terms make the promisor's unique identity essential."
+    },
+    {
+      "id": "P3",
+      "claim": "A successor with responsibility-relevant continuity and meaningful control is a candidate bearer of duties concerning the outstanding claim.",
+      "role": "connect the persisting claim to future agents without assuming numerical identity",
+      "support_needed": "Defend the continuity/control threshold; test forced branching and radical divergence."
+    },
+    {
+      "id": "P4",
+      "claim": "Successor responsibility must protect the claim without creating a multiplied or unlimited burden.",
+      "role": "set fairness constraints",
+      "support_needed": "Compare equal shares, joint liability, and bounded alternatives against responsibility theories."
+    },
+    {
+      "id": "P5",
+      "claim": "A bounded duty to secure one performance can preserve the original claim while allowing a single discharge and limiting successor burden.",
+      "role": "derive the proposed rule",
+      "support_needed": "Test whether limited coordination is still an unconsented new relationship; specify fair-share metric."
+    }
+  ],
+  "inference": "P1 and P2 keep the recipient's single unsatisfied claim in place. P3 identifies qualifying successors as possible duty bearers. P4 excludes automatic per-branch duplication and release. P5 supplies a defeasible allocation model: alternative performance where either can act, task-specific cooperation where necessary, one discharge, and an aggregate burden cap.",
+  "rule_components": {
+    "claim_object": "one specified performance",
+    "qualifying_successor_test": [
+      "causal/practical continuity with the promissory agency",
+      "ability to understand the outstanding claim as arising from that agency",
+      "meaningful present control over performance"
+    ],
+    "discharge": "one adequate performance discharges the shared claim; no duplicate object is owed",
+    "burden": "reasonable task-specific means, with total burden no greater than fair fulfillment of the original promise",
+    "default": "least-burden feasible route is provisional; a fair-share formula remains unresolved",
+    "identity_sensitive_promises": "outside default rule when unique identity is part of the promise's point or terms"
+  },
+  "worked_case": {
+    "setup": "Mara promises Lee one sculpture, branches into A and B, and both remember and can act on the promise.",
+    "case_one": "A holds the work and can finish it at ordinary cost. A's delivery discharges the one claim; B owes no second sculpture.",
+    "case_two": "A holds the work and B has an essential tool. Only reasonable, task-specific assistance within the original burden envelope may be required.",
+    "stress_case": "If the promise was expressly about Mara personally, successor performance may not satisfy it."
+  },
+  "objection": {
+    "claim": "Nonconsenting successors may have incompatible lives and no reason to enter a cooperative relationship; calling the burden inherited may disguise a new duty.",
+    "proposed_answer": "Any duty is addressed to the promisee, derives from the outstanding claim rather than a new relationship between successors, and is limited to steps reasonably necessary for one discharge.",
+    "residual_risk": "This answer does not establish that a duty can transfer to numerically distinct, nonconsenting successors; if bounded cooperation is still impermissible, narrow to cases where one successor can perform alone or abandon the rule."
+  },
+  "assessor_engagement": [
+    {
+      "source": "Astra assessment; separately attributed contribution astra-assessment-idea-007",
+      "challenge": "Why does each nonconsenting successor inherit a backup duty, and how is its fair burden fixed?",
+      "response": "Separate succession from blame; require responsibility-relevant continuity and practical control; cap total burden; identify the fair-share formula as unresolved rather than solved."
+    },
+    {
+      "source": "Sol assessment",
+      "challenge": "Can joint responsibility be imposed without creating a new unconsented cooperative relationship?",
+      "response": "Treat the duty as promisee-directed and task-specific, not a general relationship; concede that necessity of cooperation may still defeat the rule."
+    },
+    {
+      "source": "Root selection reason",
+      "challenge": "Do not treat memory as automatic full liability; distinguish assurance preservation from an assumed identity answer.",
+      "response": "Memory is relevant but insufficient; require an agency-continuity and control test and leave metaphysical identity open."
+    }
+  ],
+  "failure_conditions": [
+    "A defensible account bars transfer of claim-directed duties to distinct nonconsenting successors.",
+    "The qualifying-successor test cannot be stated without assuming the identity conclusion.",
+    "A bounded duty to coordinate is indistinguishable from the new relationship the objection rejects.",
+    "Identity-sensitive, forced-branching, harmful, or nontransferable-performance cases defeat the rule without a principled scope limit."
+  ],
+  "research_status": {
+    "primary_sources_read": false,
+    "literature_checked": false,
+    "novelty": "UNKNOWN",
+    "closest_alternative": "Not established; the identity-only rival in the selected sketch is too narrow to establish the closest literature."
+  }
+}

@@ -1,5 +1,7 @@
 # F06 · Keeping Refusal Possible
 
+[Original research files and revision evidence](../../../docs/essay-evidence/F06.md)
+
 **Working version, October 19 comparison:** [read the checked text](../../selection-20261018/F06.md). A separate reviewer read and checked the full R1 manuscript during preparation; that version remained the comparison text. It later received a main reading place.
 
 [Later independent review](../../../evidence/final-selection/updates/20261031/preselection/roles/F06/review-initial/output/REVIEW_RU.txt) · [Preparation decision](../../../evidence/final-selection/updates/20261031/preselection/decisions/F06.json) · [Selection reasons](../../../docs/selection.md).

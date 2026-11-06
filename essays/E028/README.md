@@ -1,5 +1,7 @@
 # E028 · Can Tomorrow Cancel Yesterday's Survival?
 
+[Original research files and revision evidence](../../docs/essay-evidence/E028.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

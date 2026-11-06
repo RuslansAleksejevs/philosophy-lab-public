@@ -1,0 +1,56 @@
+{
+  "schema": "hundred-remaining-tests-v1",
+  "run_id": "hundred-20260925-expand-idea-092",
+  "stage": "expansion-001",
+  "status": "PROPOSED_NOT_RUN",
+  "source_status": "No literature search, retrieval, or primary-source reading was performed in this expansion.",
+  "priority_tests": [
+    {
+      "id": "T1",
+      "type": "primary_source_and_novelty",
+      "question": "Do primary accounts of omissions, negative facts, and event ontology already distinguish when an absence obtains from when it becomes inevitable?",
+      "procedure": "Search and read the closest primary texts identified by a fresh source phase; record exact queries, retrievals, and bounded passages. Compare their distinctions and truth conditions with closure time and criterion time.",
+      "decision_rule": "If the same distinction and payoff are already explicit, mark novelty unestablished and either identify a narrower consequence or set aside the originality claim."
+    },
+    {
+      "id": "T2",
+      "type": "primary_source_and_semantics",
+      "question": "How do primary treatments of tense and future outcomes distinguish a presently settled future result from a completed deadline-relative claim?",
+      "procedure": "Read primary treatments selected in a fresh source phase. Check whether the argument assumes present truth of future-tense propositions; revise if so.",
+      "decision_rule": "Keep only the modal claim about open continuations unless a defensible account of future truth is supplied."
+    },
+    {
+      "id": "T3",
+      "type": "normative_countercase",
+      "question": "Does pre-deadline cancellation remove only the duty, or does it also end the identity of the task whose outcome is being assessed?",
+      "procedure": "Compare an outcome benchmark that remains historically fixed, a norm that is waived, and an institutionally constituted task that terminates on cancellation. Ask what each statement evaluates.",
+      "decision_rule": "If the task token has no stable criterion after cancellation, restrict the thesis to fixed outcome criteria and avoid calling the canceled task a failure."
+    },
+    {
+      "id": "T4",
+      "type": "possibility_countercase",
+      "question": "Was the success route really closed?",
+      "procedure": "Vary the case so that a substitute, reconstruction, waiver, or new route becomes available before the deadline. Separate objective possibility from the agent's knowledge or belief.",
+      "decision_rule": "Use 'settled' only relative to explicitly stated live continuations; re-open the claim when a relevant route returns."
+    },
+    {
+      "id": "T5",
+      "type": "temporal_case",
+      "question": "Does the distinction survive late performance and pure physical absence?",
+      "procedure": "Compare on-time delivery, late delivery, a never-arriving package, and a physical absence with no task or deadline. Track the truth conditions of each description at closure, deadline, and afterward.",
+      "decision_rule": "Keep the proposal limited to deadline-relative nonachievement if non-deadline absences have a different profile."
+    },
+    {
+      "id": "T6",
+      "type": "argument_failure",
+      "question": "Does the deadline endpoint actually matter beyond reporting convention?",
+      "procedure": "Construct a case where intervention becomes futile at c but the criterion time d affects a later evaluation, cancellation, or late-arrival judgment. Ask whether the proposed distinction changes any warranted explanation or responsibility judgment.",
+      "decision_rule": "If no explanatory or practical difference survives after stipulations are made explicit, lower significance or set the proposal aside."
+    }
+  ],
+  "unexecuted_query_seeds": [
+    "primary philosophy omissions negative facts time of absence",
+    "temporal predication future outcome deadline failure obligation",
+    "deadline obligation waiver cancellation nonperformance"
+  ]
+}

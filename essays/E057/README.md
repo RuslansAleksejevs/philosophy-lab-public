@@ -1,5 +1,7 @@
 # E057 · Permission Is Not a Lock: Why Advance Authorization Cannot Override Competent Refusal
 
+[Original research files and revision evidence](../../docs/essay-evidence/E057.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

@@ -1,0 +1,11 @@
+# Источники и проверка близких идей
+
+Получено: 2026-09-10T07:56:16.732650+00:00. Читались доступные первичные тексты через web.open, а не только поисковые сниппеты. Сохранены локаторы и краткие собственные заметки; полные защищённые тексты не копировались.
+
+1. Filippo Santoni de Sio and Jeroen van den Hoven. 2018. Meaningful Human Control over Autonomous Systems: A Philosophical Account. Frontiers in Robotics and AI 5:15. https://doi.org/10.3389/frobt.2018.00015 . Прочитаны Introduction, Toward a Theory, Tracking и начало Tracing (HTML строки 282–469). URL: https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2018.00015/full . Не заявляю полного прочтения статьи.
+2. Lisanne Bainbridge. 1983. Ironies of Automation. Automatica 19(6):775–779. https://doi.org/10.1016/0005-1098(83)90046-8 . PDF: https://gwern.net/doc/sociology/technology/1983-bainbridge.pdf . Прочитаны pp.775–777, §§1.1–2.1, доступная текстовая экстракция. Визуальная структура не нужна аргументу, скриншоты не делались.
+3. Timo Freiesleben, Kristof Meding, Gunnar König. 2026. Explainable AI Isn’t Enough! Rethinking Algorithmic Contestability. arXiv:2605.16041v1, 15 May 2026. https://arxiv.org/html/2605.16041v1 . Прочитаны abstract, §1, §§5.1–5.3 (до определения overruling evidence и следующего абзаца). Это препринт. Доказательства и юридическая часть не проверялись и не используются.
+
+Поиск: meaningful human control tracking tracing; Bainbridge ironies automation; algorithmic contestability autonomy epistemic dependence. Найден также Why human–AI collaboration fails: An operational contestability framework, https://journal.hep.com.cn/fem/EN/10.1007/s42524-026-6049-7 . Открытие вернуло Internal Error. Не используется как прочитанный источник и не цитируется в эссе. Его сниппет предупреждает о близкой современной работе; новизна остаётся ограниченно проверенной.
+
+Близость и предел вклада: несостоятельность одной кнопки вмешательства, потеря навыков и необходимость оснований оспаривания уже известны. Собственный предполагаемый вклад — проверка сохранения пути к человеку при отказе основного советчика признавать конкретный класс оснований; различение полномочия отказать и управления тем, какие основания вообще достигают отказа. Это уточнение одной части meaningful control, не опровержение всей теории и не доказанная абсолютная новизна.

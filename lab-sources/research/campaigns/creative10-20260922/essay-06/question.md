@@ -1,0 +1,9 @@
+# Candidate questions — essay 06
+
+AI-originated candidates, 2026-09-22. Public research rationale only.
+
+1. **Can a dependence cycle be created by describing its relata less precisely?** Acyclic fact-level explanatory dependencies may become cyclic when facts are grouped into kinds or determinables. Investigate whether existentially projecting dependence warrants any kind-level explanation, and what extra condition would preserve explanatory ordering. Promising because the apparent cycle may survive ordinary relevance checks while losing the identity of its relata across the two directions.
+2. **Can an exact explanation lack any privileged finite approximation?** Infinite grounds may suffice for a fact although no finite set does. Investigate whether demands for a finite salient explanation conflict with exactness. Not selected initially: the familiar noncompactness problem is likely to absorb the central observation; an original explanatory consequence is not yet identified.
+3. **Does explanatory redundancy destroy comparisons of depth?** Two explanations may use equally many steps, yet one depends on a fragile intermediate lemma and the other has multiple independent routes. Investigate whether metaphysical depth should be path length or deletion resistance. Not selected initially: this risks importing network reliability without a philosophical increment.
+
+Selected direction: candidate 1, provisionally. The target is not the observation that coarse descriptions lose information. It is a specific inference problem: whether a reciprocal dependence pattern at the kind level licenses metaphysical feedback, or instead equivocates between different instances of a kind. Seek a precise condition and a philosophical argument for what each reading supports. If closest literature already contains the same inference and result, change or reject the candidate before drafting.

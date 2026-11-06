@@ -1,0 +1,52 @@
+{
+  "schema": "hundred-remaining-risks-v1",
+  "candidate": "idea-007",
+  "stage": "probe-001",
+  "complete": false,
+  "risks": [
+    {
+      "id": "T1",
+      "priority": "blocking",
+      "status": "unresolved",
+      "risk": "No assigned source establishes whether claim-directed duties can attach to nonconsenting, psychologically continuous successors without numerical identity.",
+      "next_evidence": "Primary theories of moral responsibility, fission, practical agency, and obligation transfer."
+    },
+    {
+      "id": "T2",
+      "priority": "blocking",
+      "status": "partial",
+      "risk": "Scanlon explains why the original promise is owed to its recipient, but the source does not determine whether its directed duty survives fission against successors.",
+      "next_evidence": "Primary comparison of promisee rights, assurance, release, and transfer/novation of directed duties."
+    },
+    {
+      "id": "T3",
+      "priority": "high",
+      "status": "partial",
+      "risk": "Gilbert's bounded joint-commitment texts make consent salient; the probe cannot decide whether a limited coordination duty can arise without successor participation.",
+      "next_evidence": "Full primary treatments of joint, shared, alternative, and collective duties, plus nonconsensual coordination cases."
+    },
+    {
+      "id": "T4",
+      "priority": "high",
+      "status": "unresolved",
+      "risk": "The fair-burden cap has no operational metric and does not say who bears unusual cost or control risk.",
+      "next_evidence": "Primary work on burden-sharing, reliance, remedial limits, and claimant choice."
+    },
+    {
+      "id": "T5",
+      "priority": "high",
+      "status": "unresolved",
+      "risk": "The boundary for personal, skill-dependent, harmful, or nontransferable promises is not defended.",
+      "next_evidence": "Primary promise theory and adversarial cases testing the terms and reasonable expectations of the original promise."
+    },
+    {
+      "id": "T6",
+      "priority": "medium",
+      "status": "unknown",
+      "risk": "Originality remains unknown; several foundational texts were only excerpts or metadata, and the source search was bounded.",
+      "next_evidence": "A new bounded primary-source stage and an explicitly scoped literature/closest-alternative check."
+    }
+  ],
+  "coverage_limit": "The local archive precheck supplied by the coordinator reports text_coverage=GAPS and tools_coverage=UNSUPPORTED_SCHEMA for this session. Full visible text/tool trace is not established by the probe receipt.",
+  "configuration_limit": "Requested gpt-6-luna / xhigh is bound in the stage request; no visible native record in this context verifies observed model or effort."
+}

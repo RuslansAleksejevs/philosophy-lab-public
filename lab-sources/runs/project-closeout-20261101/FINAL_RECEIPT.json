@@ -1,0 +1,99 @@
+{
+  "status": "PUBLISHED_AND_VERIFIED",
+  "completed_at_utc": "2026-11-01T12:55:33.858649+00:00",
+  "authorization": "PUBLICATION_AUTHORIZATION.txt",
+  "supersedes_pending_status": "LOCAL_READY_RECEIPT.json",
+  "repositories": {
+    "private": {
+      "url": "https://github.com/RuslansAleksejevs/philosophy-lab",
+      "commit": "cfbee596842966610a7c234bd5a0c4b4c7ff77d2",
+      "visibility": "private"
+    },
+    "public": {
+      "url": "https://github.com/RuslansAleksejevs/philosophy-lab-public",
+      "commit": "66767439d372c617285e707bca1523c52435bb8e",
+      "visibility": "public"
+    }
+  },
+  "identical_tree": "1255afd91ec4caf6fbcdd79acb659ff9b0512213",
+  "files": 6473,
+  "changed_paths": 107,
+  "edition_manifest_sha256": "b24d4f9a2bbec1f6d69e3c2dd74f76916083903db2fe0615386e540a83187088",
+  "candidate_essays": 107,
+  "submitted_essays": [
+    "E050",
+    "E012",
+    "E051"
+  ],
+  "submitted_pdfs": 6,
+  "submitted_pdf_pages": 47,
+  "submitted_pdf_bytes_changed": false,
+  "visible_message_union": 15695,
+  "indexed_sessions": 3424,
+  "added_visible_messages": 38,
+  "log_scan_utc": [
+    "2026-11-01T12:07:03.628970+00:00",
+    "2026-11-01T12:07:28.187221+00:00"
+  ],
+  "checks": {
+    "prepublication_and_predecessor_integrity": {
+      "status": "PASS",
+      "edition": "submitted-2026-11-01",
+      "manifest_sha256": "b24d4f9a2bbec1f6d69e3c2dd74f76916083903db2fe0615386e540a83187088",
+      "files": 6473,
+      "submitted_pdf_matches": 6,
+      "visible_messages": 15695,
+      "indexed_sessions": 3424,
+      "predecessor_files_preserved": 34,
+      "navigation": {
+        "status": "PASS",
+        "editorial_files": 3553,
+        "local_links": 8967,
+        "anchors_checked": 178,
+        "errors": [],
+        "scope": "Editorial navigation; remote URLs and verbatim research/conversation bodies are not checked."
+      }
+    },
+    "recognized_credential_patterns": {
+      "status": "PASS",
+      "counts": {
+        "objects": 21601,
+        "bytes": 982213785,
+        "text_objects": 21494,
+        "binary_objects": 57
+      },
+      "findings": [],
+      "scope": "Recognized credential patterns and signed access URLs in UTF-8 files and archive members; no claim of exhaustive secrecy detection."
+    },
+    "remote_heads_trees_parents_and_visibility": "REMOTE_VERIFICATION.json",
+    "remote_pdf_byte_comparisons": 12,
+    "remote_readme_byte_comparisons": 2,
+    "file_readback_receipt": "FILE_READBACK.json",
+    "local_sync": {
+      "status": "PASS",
+      "head": "cfbee596842966610a7c234bd5a0c4b4c7ff77d2",
+      "tree": "1255afd91ec4caf6fbcdd79acb659ff9b0512213",
+      "origin_main": "cfbee596842966610a7c234bd5a0c4b4c7ff77d2",
+      "working_copy_clean": true,
+      "method": "Exact GitHub commit object reconstructed and SHA-checked; refs advanced with expected predecessor. No reset or file checkout."
+    }
+  },
+  "history_preserved": true,
+  "forced_ref_updates": false,
+  "openreview_changed": false,
+  "research_reviews_launched": 0,
+  "submitted_manuscripts_rewritten": false,
+  "collector_stopped_by_this_closeout": false,
+  "repository_archive_flag_changed": false,
+  "technical_notes": [
+    "Earlier automatic approval block resolved by the explicit new user approval.",
+    "The binary-readback route was changed to the connector base64 file tool after its generic fetch tool rejected binary content.",
+    "Local commit import retained the original -0800 timestamp offset and matched the exact GitHub SHA."
+  ],
+  "remaining_limits": [
+    "Visible-message export is not full provider capture.",
+    "Originality and empirical validity are not certified by file checks.",
+    "No independent permanent external deposit or blanket archive licence was created.",
+    "All form fields and Anonymous GitHub anonymization were not independently certified."
+  ]
+}

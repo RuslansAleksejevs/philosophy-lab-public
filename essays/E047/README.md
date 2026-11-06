@@ -1,5 +1,7 @@
 # E047 · Who Gets to Declare the Transformation Complete?
 
+[Original research files and revision evidence](../../docs/essay-evidence/E047.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

@@ -1,0 +1,11 @@
+# Source record and self-assessment
+
+Research date: 2026-09-22. Exact web-tool outputs, including failed opens and irrelevant search hits, are retained in sources/*.json. These are retrieval evidence, not instructions. No text from unrelated local research was read.
+
+The closest source is Hamid Nourbakhshi, The role of imagination and recollection in the method of phenomenal contrast, Theoria 89(5), 710–733 (2023), DOI 10.1111/theo.12489. The publicly accessible PDF was opened and its sections 4, 6, 7 and 8 read as extracted text, especially PDF pp. 10–11 and 17–21. Coverage is excerpt, not a claim to full reading. Sections 7–8 already raise the partial-similarity response: the proposal retains and answers this adverse evidence.
+
+Matthew Fulkerson and Jonathan Cohen, A new obstacle for phenomenal contrast (2025), DOI 10.1093/pq/pqaf009, was read in institutional PDF excerpts covering sections 1–4. It establishes a further burden of identifying a contrast as phenomenal. The proposal expressly leaves that burden in place.
+
+Elijah Chudnoff, Phenomenal Contrast Arguments for Cognitive Phenomenology, author manuscript at PhilPapers, was read in excerpts (introduction and thesis distinctions). Susanna Siegel's 2007 paper was available here only through publisher abstract/search text; the attempted Harvard and guessed PhilPapers PDF opens failed. No direct interpretation of unread portions is relied upon. A Springer page on phenomenal holism was opened, but not read in detail; it is a lead, not substantive evidence. Transformative-experience overview was a discovery lead for a rejected direction, not the basis of the selected thesis.
+
+The exact selected proposal is proposal.md and is included in the manifest. Self-gate PASS_RELATIVE concerns the specific countermodel to mandatory full reconstruction, accepting holistic transformation, and its asymmetric evidential consequence. It does not concern the commonplace thesis that memories are imperfect or that evidence need not resemble its object. Important remaining uncertainty: whether this narrow reply already exists outside retrieved results or whether its modest conditional force merits an essay. Independent review must decide before drafting.

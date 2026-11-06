@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "hundred-six-v1",
+  "status": "AUTHORIZED_EXPLORATORY_METHOD",
+  "origin": "AI_PROPOSED_USER_APPROVED",
+  "effective_from": "hundred-20260925",
+  "stages": ["question", "sources", "contribution", "critique", "decision"],
+  "protocol_extension": "hundred-artifacts.v1 records arbitrary exact stages and honest no-critic one-shot exemptions; no fabricated reviews",
+  "configuration": {"model": "gpt-6-astra", "effort": "ultra", "comparison_branches": ["gpt-6-astra/max", "gpt-6-astra/xhigh", "gpt-5.6-sol/ultra"]},
+  "allocation": {"free": 3, "tournament": 3, "debate": 3, "expedition": 3, "counterexample": 2, "branching": 2, "existing_pilot_closure": 1},
+  "tournament": {"initial_ideas": 120, "expanded": 24, "probed": 6, "final_essays": 3, "reserved_unusual_disputed_place": 1},
+  "debate": {"opposed_researchers": 2, "rounds": 3, "separate_final_author": true},
+  "branching": {"critique_cycles": [0, 1, 3], "count_each_original_idea_once": true},
+  "length": {"minimum": null, "maximum": 6000, "excluded": "bibliography only"},
+  "archive": "Exact selected inputs, retained original artifacts and visible native attestations before dependencies; original/attempt/selection lineage and actual model observations separately recorded",
+  "comparability": "Exploratory diverse portfolio; planned same-draft criticism branches permit narrower comparisons. No universal model or methodology ranking from unequal topics/resources.",
+  "authorization_boundary": "Codex-only within current task; no Claude calls, paid APIs, publication, submission, midterm or quota scheduler"
+}

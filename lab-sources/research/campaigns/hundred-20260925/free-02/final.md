@@ -1,0 +1,135 @@
+# No Penalty for Silence
+
+## Consent, privacy, and the allocation of chances
+
+A training programme has one fellowship and three applicants. Its work sample and interview place Ada, Ben, and Cy in a tie. These assessments provide a reasonable basis for selection without examining the applicants' intimate lives. The programme therefore gives each a one-third chance. It also assures applicants that withholding private records will not disadvantage them.
+
+Ada volunteers her personal diary. It provides convincing additional evidence of perseverance, a quality relevant to the fellowship. She understands the risks and wants the programme to use the diary. The selectors raise her score and award her the place. They insist that they have drawn no negative inference about Ben or Cy. Neither has lost points. Ada has simply supplied more positive evidence.
+
+Those statements can all be true. But the assurance about disadvantage cannot, on its natural practical interpretation, also be true. Ben and Cy have lost their chances because the programme introduced a form of evidence they were entitled to withhold. Calling this a bonus for Ada does not identify who had authority to give away what the bonus cost.
+
+The familiar problem of privacy unraveling concerns a succession of disclosures that makes silence increasingly suspicious. I examine a different, narrower problem: favourable evidence can displace silent applicants even when silence creates no suspicion, disclosure is wholly voluntary, and no succession follows. Where an institution owes applicants assessment on a justified common evidential basis, consent to disclose cannot by itself authorize a reduction in other applicants' protected prospects. A right to withhold can therefore constrain the allocation rule, including its treatment of positive evidence, rather than merely prohibit intrusive collection or adverse inference.
+
+This is a conditional argument. Not every person has a right to preserve the advantages of other people's ignorance. The difficult premise is that a particular evidential boundary deserves protection. I defend that premise for a limited class of institutional practices, specify its allocation consequences, and show what must change if beneficial disclosure is to remain permissible.
+
+## 1. What the existing problem leaves open
+
+Peppet's account identifies how people with favourable private information can gain by revealing it, leaving others under pressure to disclose rather than invite negative interpretations of their silence. That diagnosis does not depend on forcible data collection. An arrangement of apparently voluntary exchanges can threaten privacy. [Peppet 2011, abstract](https://scholar.law.colorado.edu/faculty-articles/177/).
+
+There are already powerful reasons not to treat individual choice as a complete answer. Nissenbaum evaluates informational practices through the relationships and justified norms governing a context, including restrictions on use. Pasquale connects rights waiver to effects on third parties and criticizes manipulation of the baseline against which additional benefits are offered. Neither contextual restrictions nor the thought that waiver affects others is new. [Nissenbaum 2004, §§III.C–IV](https://nissenbaum.tech.cornell.edu/papers/H.%20Nissenbaum%2C%20_Privacy%20as%20Contextual%20Integrity.pdf); [Pasquale 2021, §§3.4–3.5](https://doi.org/10.1017/9781108914857.004).
+
+Moore and Martin discuss both the limits of unraveling and the doubtful moral force of consent given under its pressure. Their discussion also suggests that a person's waiver may be permissible when nobody else has yet disclosed. This is a useful point of departure: an unpressured first disclosure seems to preserve the very agency privacy protects. [Moore and Martin 2020, pp. 218–219](https://faculty.washington.edu/moore2/PTPD.pdf).
+
+The question is what that permissibility authorizes. Ada may permit access to her diary. Does that also settle whether a selector may use it to reduce Ben's chance? An argument about Ada's freedom, however convincing, does not yet answer a question about Ben's institutional claim.
+
+Nor must the answer wait for unraveling. Imagine that Ben and Cy cannot disclose before the selection closes. Ada acts spontaneously; everyone knows that the others' silence carries no information. Her diary concerns only her own conduct. The programme draws no conclusions about them from either her disclosure or their silence. Still, awarding her the place displaces them. The problem survives after removing adverse inference, pressure on subsequent disclosers, and disclosure of facts about other people.
+
+An economic model might instead ask whether waivable privacy maximizes welfare. Daughety and Reinganum's work illustrates why the answer can depend on the effects of observability and the costs of enforcing alternative policies. The present question is different: which claims may an institution alter on the strength of one person's permission? [Daughety and Reinganum 2008, abstract and introduction](https://users.nber.org/~confer/2008/si2008/LE/daughety.pdf). An increase in total welfare can supply a reason to reconsider a rule; it is not itself that person's authorization to change it.
+
+## 2. Three permissions, three possible losses
+
+An applicant may have a claim that an institution not inspect a diary without permission. Call this a claim against access. Waiving it permits an inspection. The waiver need not be defective merely because the applicant hopes to obtain a benefit.
+
+A second claim concerns the grounds on which the institution may assess applicants. A programme might owe every applicant assessment by work samples rather than by religious conformity, inherited wealth, or willingness to expose an intimate relationship. This is a claim concerning the allocation rule. It is relational: what the institution counts in another applicant's favour can change the claimant's treatment.
+
+Third, an applicant may hold a particular protected prospect within that rule. If the authorized evidence places three applicants in a tie for one place, the prospect might be a one-third chance. This is not a right to win. It is a right that the procedure not remove a share of the chance on an unauthorized ground.
+
+These claims can coexist without being identical. Ada's waiver of the access claim does not automatically release a claim Ben holds against the programme's allocation rule. Even Ada's explicit request to use the diary cannot do so. Permission is bounded by the claim over which the person giving it has authority. I can let a visitor enter my room; that does not release the visitor from an obligation owed to my neighbour. The point does not depend on whether the visitor's action benefits me.
+
+There are consequently different senses in which silence might remain protected. An institution can leave a box unchecked without deducting points. It can refrain from interpreting that empty box as evidence of bad character. Or it can preserve a person's opportunity under the authorized assessment procedure. The first two protections do not entail the third. Rankings respond to competitors' scores as well as to one's own.
+
+The opening case makes that distinction stark. Ben's score stays at 100 while Ada's rises to 110. Ben's treatment on the scoring sheet is unchanged; his prospect of a fellowship falls from one-third to zero. If the relevant protection concerns chances of selection, unchanged points are the wrong unit of comparison.
+
+This does not mean that every improvement in a competitor's score wrongs Ben. A better work sample can legitimately reduce his chance. The claim is indexed to an evidential boundary, not to his preferred outcome. What requires justification is crossing that boundary while presenting the resulting loss as compatible with it.
+
+## 3. Which baseline is protected?
+
+The programme might deny that Ben ever had the stronger claim. Its assurance meant only that it would not compel him to disclose or mark him down. On this interpretation it kept its word.
+
+That is possible. The words “optional” and “no disadvantage” should not be treated as interchangeable. A genuinely optional offer may carry an opportunity cost. An institution that offers only freedom from compulsory access should say so. My argument concerns a stronger assurance: applicants can retain the institutionally protected opportunity without admitting the excluded evidence. That assurance can be justified, but its justification cannot consist merely in the fact that an old procedure produced favourable chances.
+
+Consider how a common assessment procedure can earn protection. A public training programme pursues a legitimate aim: selecting people able to benefit from instruction. It needs evidence, and applicants owe reasonable cooperation in providing it. But the programme is not entitled to demand any information that would marginally improve prediction. Records of family conflict, grief, sexual relationships, or private religious practice may reveal perseverance. That does not make comprehensive access a reasonable condition of competing for training.
+
+The restriction rests on a proportional relation between what the institution needs and what it asks people to expose. If a work sample and interview provide an adequate assessment, intimate access can impose a substantial burden for a small predictive gain. A common evidential route then protects applicants' ability to participate while maintaining boundaries around the rest of their lives. Its purpose is undermined if supplying the excluded material becomes the reliable way to escape competitive displacement.
+
+A personal diary need not become morally irrelevant simply because it is intimate. The legitimate quality may remain perseverance, and the evidence may be excellent. The relevant distinction is between a legitimate quality and every possible means of establishing it. The programme can be entitled to test how applicants perform a task while lacking an entitlement to make their comparative prospects turn on permission to inspect their relationships.
+
+The adequacy of a test alone is not enough. A second work sample might be both informative and unobjectionable. The further premise is that, given the programme's purpose and the burden of intimate access, applicants deserve to retain the specified opportunity while refusing that access. Equal standing requires the institution to justify this condition to those who refuse it, not merely to secure agreement from those whom it favours. If that further premise is rejected, the stronger protection of opportunity has been rejected too. It does not follow from the bare concept of privacy.
+
+This leaves room for disagreement about adequacy and burden. A procedure that routinely misses essential qualifications is not vindicated by being conventional. Applicants with disabilities may need alternative forms of evidence to receive fair consideration. A standard work sample may embody a cultural bias. In such cases, preserving the original procedure can perpetuate injustice. A justified baseline must accommodate corrections of these defects rather than convert an incumbent advantage into a right.
+
+The proposed protection is therefore against a specified change, not against all change. Hold fixed the applicants, available places, relevant circumstances, and authorized evidence. Compare the person's prospect with and without the optional intimate-evidence channel. Do not compare this year's applicant pool with last year's, or insist that new legitimate evidence from the authorized channel be ignored. Nor use the selection outcome after private disclosures have already reshaped competition as the benchmark. That would allow the practice being challenged to define away its own effect.
+
+Why protect this comparison rather than merely access? Because the point of the common route is practical participation without the excluded exposure. If the institution can remove its competitive value while keeping it nominally open, it can impose the very dependence on exposure that the justified boundary rules out. A route to applying is not necessarily a route to the protected opportunity.
+
+An institution need not freeze its policy forever. New evidence about the failures of its assessments, or the availability of a substantially less intrusive procedure, can justify change. What it cannot offer as a sufficient reason is simply that Ada consented. Her consent establishes her willingness. It does not establish the adequacy of Ben's remaining route or defeat his claim to it.
+
+## 4. The cost of a disclosure advantage
+
+The allocation implication can be stated precisely. Fix one opportunity and a set of applicants. Let each person's justified baseline chance be bᵢ, with the chances summing to one. Let pᵢ be that person's chance after some applicants submit optional private evidence. A strong protection of silence requires that any applicant who withholds receive at least bᵢ, whatever optional reports others submit.
+
+Suppose only Ada discloses. Everyone else's chance must remain at least their baseline. Since the chances still sum to one, Ada's chance cannot exceed hers. A strict advantage for the first discloser is incompatible with preserving all the silent applicants' baseline chances.
+
+For several disclosers, let S be the set who disclose and N the set who remain silent. Conservation gives:
+
+Σᵢ∈S(pᵢ − bᵢ) = −Σᵢ∈N(pᵢ − bᵢ).
+
+If every silent person's difference is nonnegative, the disclosers' differences sum to zero or less. Some disclosers may gain, but their aggregate gain cannot be financed by losses imposed on people who retain the protection. With a fixed number of multiple places, the same argument applies to expected numbers of places and baseline chances whose sum equals that capacity.
+
+There is nothing mathematically deep here. Its value is to make the available moral responses explicit. A programme cannot promise a disclosure advantage financed by nobody's loss when all existing capacity has already been allocated as protected prospects. It must identify a claim that can properly be reduced, add capacity, or establish that the asserted baseline is not actually owed.
+
+This also reveals a limit on a putative compromise. Let disclosers compete among themselves while silent applicants keep their baseline chances. That respects the latter's floor. It can benefit a particularly impressive discloser by reducing another discloser's chance. But disclosure to obtain a benefit does not automatically amount to informed acceptance of a chance below the protected baseline. The loss requires its own valid authorization.
+
+If everyone can costlessly withdraw their optional report and recover at least their baseline chance, and everyone ranks outcomes solely by chances of selection, any stable participation outcome gives each applicant at least the baseline. Under exhausted capacity, that means exactly the baseline for everyone. The conclusion follows from the sum constraint, not from a prediction that real applicants are perfectly calculating. It identifies the price of the compromise: gains require somebody's accepted loss, something else participants value, additional resources, or a weaker assurance.
+
+There is also a genuine intermediate possibility: protect only part of each baseline chance. Three applicants could each be guaranteed a one-sixth chance, leaving half the total probability available for supplementary allocation. Advantages funded entirely from that remainder need not reduce anyone's guaranteed floor. The guarantee remains meaningful but limited. It does not preserve the one-third chance each had under the original common procedure. An institution may defend this compromise, but it must describe which protection it has weakened. The impossibility concerns protected claims that exhaust capacity, not every scarce allocation with a privacy guarantee.
+
+The argument does not prohibit every benefit from disclosure. Extra mentoring funded without reducing anyone else's protected provision could be offered. Nor does it prohibit a person from knowingly surrendering a transferable share of a chance, if the institution's purpose permits that transfer. What it rules out is financing Ada's advantage by silently spending a claim Ben has retained.
+
+## 5. Objections to the protected chance
+
+The strongest objection concerns merit. If the diary shows that Ada is genuinely the best candidate, why should Ben's privacy interest prevent the best selection? Preserving a lottery can appear to reward concealment over achievement.
+
+First, the argument does not establish that the lottery must survive every conceivable discovery. Its conclusion depends on a justified limit on the methods of comparative assessment. Where an applicant must establish a qualification essential to others' safety, refusing all adequate ways of establishing it may properly defeat the application. There is then no right to a chance independent of that evidence. Calling the evidence private does not settle the case.
+
+Second, merit does not select its own evidential procedure. We accept that assessments must operate under constraints of burden, opportunity, and institutional purpose. An extraordinarily revealing interrogation might sort applicants more accurately than a reasonable interview. Accuracy alone does not make the interrogation a permissible competitive standard. Making that standard nominally voluntary does not resolve the justification problem when its selective use redistributes protected prospects.
+
+Third, a qualification can be important without every increment in confidence about it having priority over privacy. The fellowship is for people capable of benefiting from training, not a prize for the fullest available biography. If the programme claims that the extra evidence is now necessary, it must defend that change to all affected applicants. It cannot discharge the burden by reporting that the person favoured by the change wants it.
+
+A second objection invokes expressive agency. Ada has chosen to tell her story. Refusing to credit it may dismiss her understanding of herself and enforce a compulsory privacy she rejects.
+
+That objection identifies a real cost but conflates reception with competitive use. Ada may authorize publication, discuss the diary with an adviser, or use it in relationships whose purposes make the disclosure appropriate. She can even help the programme debate whether its assessment regime should change. None of those freedoms entails a right to have the diary increase her chance at Ben's expense. Institutional recognition comes in several forms; admission priority is only one of them.
+
+This reply would be inadequate where the diary corrects an unjust characterization produced by the institution's existing assessment. Suppose the programme has falsely treated Ada's absence as laziness, and the diary explains a serious caregiving obligation. Then forbidding her to contest the error could entrench an unjust baseline. The institution should provide a proportionate way to establish the relevant correction, using less intrusive evidence where possible. The correction changes what is legitimately owed; it is not simply a purchase of an advantage within an already justified tie. The programme should also repair the defective assessment and make a suitable correction route available to similarly situated applicants. Relabelling intimate autobiographical bonuses as appeals would not satisfy that duty.
+
+A third objection says that Ben is demanding epistemic irrationality. Once selectors read Ada's diary, they cannot reasonably pretend that they have learned nothing.
+
+They need not. The duty concerns an institutional decision, not the manufacture of false beliefs. A selector may believe that Ada is more persevering while recognizing that the programme is bound to distribute the place by a protected procedure. The distinction is familiar whenever an agent has reasons for an action beyond maximizing the accuracy of a ranking. In practice, avoiding access, separating advisers from selectors, or binding a lottery before supplementary disclosures may be more reliable than asking selectors to disregard what they know. These are possible means of honouring the duty, not proof that compliance is effortless.
+
+A fourth objection says that the rule prevents beneficial social change. Once an institution adopts a privacy protection, the protected baseline seems to let each applicant veto a better allocation method.
+
+It gives no such unrestricted veto. Public institutions can revise policies through justified collective decisions; the claims they owe are not necessarily absolute or individually transferable. The argument instead blocks one particular shortcut: treating a bilateral permission as sufficient authority for a change affecting other claimants. If compelling reasons warrant revising the evidential boundary, those reasons should be presented as such. A change may be justified even when some affected people oppose it. But neither the number of voluntary disclosures nor the enthusiasm of the beneficiaries substitutes for that justification.
+
+## 6. What an honest assurance requires
+
+A protection of silence needs an object. It might protect secrecy, freedom from compulsory participation, freedom from adverse interpretation, or a meaningful opportunity under a constrained assessment rule. Confusing these objects lets an institution retain the language of protection while abandoning its practical point.
+
+Exact chances are transparent in a lottery and harder to establish in discretionary selection. The proposal is a normative diagnostic, not a claim that every counterfactual prospect can already be measured. Nor is preserving chances sufficient for every privacy interest: an intrusive practice could disrespect applicants even when it happens not to change who wins. The argument isolates one obligation within a broader assessment of privacy.
+
+The distinction also improves diagnosis. If no protected allocation baseline exists, a competitive loss does not by itself establish a privacy wrong. A seller who refuses to verify a product's quality may legitimately lose customers to a more informative competitor. Conversely, if a baseline is owed, the institution need not wait for mass disclosure, invalid consent, or suspicious attitudes before recognizing the problem. A single freely offered item of positive evidence can be enough.
+
+The programme should therefore decide which assurance it can defend. If it protects only against compelled access, it should acknowledge that silence can carry a competitive cost. If it protects the common route to selection, it must examine how positive disclosures change others' prospects. If it wishes to reward disclosure, it must identify a legitimate source of the reward: uncommitted or new capacity, a properly accepted loss, or a justified revision of the underlying claims. Renaming displacement a bonus supplies none of these.
+
+Privacy can secure a power over access without making every consequence of using information the discloser's to authorize. In scarce institutional selection, the missing permission may belong to someone who has supplied no information at all. Respecting that person does not require denying what the evidence shows. It requires knowing whose chance the institution is using to pay for it.
+
+## Bibliography
+
+Daughety, Andrew F., and Jennifer F. Reinganum. 2008. “Privacy, Publicity, and Choice.” May working paper, NBER conference copy. [Text](https://users.nber.org/~confer/2008/si2008/LE/daughety.pdf).
+
+Moore, Adam D., and Sean Martin. 2020. “Privacy, transparency, and the prisoner's dilemma.” *Ethics and Information Technology* 22: 211–222. [Author-hosted text](https://faculty.washington.edu/moore2/PTPD.pdf). DOI: 10.1007/s10676-020-09530-6.
+
+Nissenbaum, Helen. 2004. “Privacy as Contextual Integrity.” *Washington Law Review* 79: 119–158. [Author-hosted text](https://nissenbaum.tech.cornell.edu/papers/H.%20Nissenbaum%2C%20_Privacy%20as%20Contextual%20Integrity.pdf).
+
+Pasquale, Frank. 2021. “Inalienable Due Process in an Age of AI: Limiting the Contractual Creep toward Automated Adjudication.” In *Constitutional Challenges in the Algorithmic Society*, edited by Hans-W. Micklitz et al., 42–56. Cambridge University Press. [Chapter](https://doi.org/10.1017/9781108914857.004).
+
+Peppet, Scott R. 2011. “Unraveling Privacy: The Personal Prospectus and the Threat of a Full-Disclosure Future.” *Northwestern University Law Review* 105: 1153–1204. [Author-university repository abstract](https://scholar.law.colorado.edu/faculty-articles/177/). Abstract consulted; full article unavailable in this investigation.

@@ -1,5 +1,7 @@
 # E052 · What Survives a Lost Appeal?
 
+[Original research files and revision evidence](../../docs/essay-evidence/E052.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

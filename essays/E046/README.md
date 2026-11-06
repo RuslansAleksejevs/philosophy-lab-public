@@ -1,5 +1,7 @@
 # E046 · How Much Must a Rational Plan Settle?
 
+[Original research files and revision evidence](../../docs/essay-evidence/E046.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

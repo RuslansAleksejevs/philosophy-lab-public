@@ -1,0 +1,36 @@
+{
+  "run_id": "hundred-20260925-counterexample-02",
+  "stage": "revision-001",
+  "session_id": "01a0e1d3-0a74-7241-a959-c16e023c72cc",
+  "requested_configuration": {
+    "model": "gpt-6-luna",
+    "effort": "xhigh"
+  },
+  "configuration_status": "requested; backend identity/configuration is not independently attested",
+  "prepared_event_id": "event-0b631914b2324ab28df2be0e16ce9083",
+  "prepared_request_path": "research/campaigns/hundred-20260925/counterexample-02/revision-001/revision.prepare.json",
+  "prepared_request_sha256": "5609d8ed4ee2e2478afc88b1a918c61c0e6071b9c739b431116d99c7f3c55182",
+  "prepared_receipt_path": "research/campaigns/hundred-20260925/counterexample-02/revision-001/revision.prepare.receipt.json",
+  "stage_parent_event_ids": [
+    "event-26ba8b004a954079bcf3300017985183",
+    "event-b5c105f4d5da45379f4596ca078e7802",
+    "event-83e710403090403abbeb170727729740",
+    "event-a4d7560642c44a8983862497dcfbf040",
+    "event-5c4bce14bcea46d1ab7271cf23b47845"
+  ],
+  "candidate_parent_event_ids": [
+    "candidate:hundred-3024ca5d7671c0a304ee513b9535c773"
+  ],
+  "primary_input": {
+    "path": "research/campaigns/hundred-20260925/counterexample-02/DRAFT-001.md",
+    "sha256": "6d488f1f3bd188a38a24878740da50a5f487cef31eecb9c9b5507df551534eb8",
+    "from_event_id": "event-26ba8b004a954079bcf3300017985183"
+  },
+  "critique_input": {
+    "path": "research/campaigns/hundred-20260925/counterexample-02/critic-01/critique.md",
+    "sha256": "0412b929626d049876ad819a2a0633011366c03f6eb6229d8259eb66f94ef125",
+    "from_event_id": "event-b5c105f4d5da45379f4596ca078e7802"
+  },
+  "method_change_input": "runs/hundred-20260925/resume-20260927/METHOD_CHANGE_RU.md",
+  "archive_outputs": "Revision stage and receipt/coverage/lineage/candidate event IDs are returned in revision.record.receipt.json; no final/checkpoint event is requested."
+}

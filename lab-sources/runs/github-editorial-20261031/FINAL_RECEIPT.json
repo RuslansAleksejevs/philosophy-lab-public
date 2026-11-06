@@ -1,0 +1,33 @@
+{
+  "status": "EDITORIAL_DELIVERY_COMPLETE",
+  "remote": {
+    "status": "PRIVATE_MAIN_UPDATED_AND_READ_BACK",
+    "head": "43f36eb6b09bc29703bd2922aac90e58a24fb080",
+    "README.md": true,
+    "docs/ideas.md": true,
+    "visibility": "private",
+    "tree": "9fcb4e6bfee0d86889aa4cac22e064fbd3808fc3",
+    "base": "2427b4fb3008f0b848e19ded2f26bb16659ca683",
+    "force": false,
+    "local_clean": true,
+    "local_object_matches_remote": true,
+    "files": 46
+  },
+  "checks": {
+    "preserved_research_edition": "PASS",
+    "editorial_links": 8383,
+    "anchors_checked": 168,
+    "unchanged_original_files": 6208,
+    "wrong_manifest_rejected": true,
+    "visual_preview": "Local GitHub-style rendering, desktop and 390px mobile; SVG cover inspected"
+  },
+  "protected_content": "All 6208 pre-existing files outside the 20 edited editorial pages retain their baseline hashes. Prior versions of the 20 pages are included as exact .source snapshots.",
+  "canonical_append_at_delivery": {
+    "status": "WAITING_FOR_SHARED_ARCHIVE_LOCK",
+    "process_script": "runs/github-editorial-20261031/archive_prepared.py",
+    "event_output": "runs/github-editorial-20261031/PREPARATION_EVENT.json",
+    "note": "The existing collector is holding the archive. This delivery receipt does not claim canonical acceptance or a fresh conversation export."
+  },
+  "scientific_work": "No new research, reviews, manuscript changes or submission.",
+  "next_step": "User review of the private editorial edition. Any manuscript work or submission remains separately scoped."
+}

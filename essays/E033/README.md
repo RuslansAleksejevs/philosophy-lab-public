@@ -1,5 +1,7 @@
 # E033 · When a Second Proof Is Not a Second Safeguard
 
+[Original research files and revision evidence](../../docs/essay-evidence/E033.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

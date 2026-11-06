@@ -1,5 +1,7 @@
 # E001 · Keeping the Debt: The Limits of Historical Reasons
 
+[Original research files and revision evidence](../../docs/essay-evidence/E001.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

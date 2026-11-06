@@ -1,5 +1,7 @@
 # S02 · Who Chooses the Last Citizens’ Assembly?
 
+[Original research files and revision evidence](../../../docs/essay-evidence/S02.md)
+
 **Working version, October 19 comparison:** [read the checked text](../../selection-20261018/S02.md). A separate reviewer read and checked the full R1 manuscript during preparation; that version remained the comparison text. It remained outside the reading ten; its reasons are preserved in the selection record.
 
 [Later independent review](../../../evidence/final-selection/updates/20261031/preselection/roles/S02/review-initial/output/REVIEW_RU.txt) · [Preparation decision](../../../evidence/final-selection/updates/20261031/preselection/decisions/S02.json) · [Selection reasons](../../../docs/selection.md).

@@ -1,0 +1,79 @@
+{
+  "schema": "hundred-argument-map-v1",
+  "logical_id": "idea-067",
+  "stage": "expansion-001",
+  "status": "PROVISIONAL_ARGUMENT_PROPOSAL",
+  "question": "Can a policy remain objectionable when it lowers each person's chance of physical harm because it places access to protection under unaccountable discretionary control?",
+  "claim": {
+    "text": "A policy may improve every person's specified physical-risk profile while remaining prima facie objectionable because it makes basic protection depend on unaccountable discretion.",
+    "scope": "Defeasible institutional complaint; no universal prohibition on centralized authority and no all-things-considered decision rule.",
+    "conditional_limit": "The residual claim matters only if standing subjection is not stipulated equal or excluded by definition; a complete-outcome theory may encode the relation as an outcome."
+  },
+  "terms": {
+    "exposure_profile": "Each person's probability of a specified harm.",
+    "joint_risk_distribution": "The distribution over which combinations of persons suffer specified harms.",
+    "control_structure": "Who may alter access to protection, under which rules, reasons, review, and appeal.",
+    "unaccountable_discretion": "Practical power to alter essential protection without constraining criteria or an effective demand for reasons and review."
+  },
+  "premises": [
+    {
+      "id": "P1",
+      "claim": "A policy has assessable risk and governance features.",
+      "support": "A probability profile or joint physical-risk distribution does not by itself specify who may alter access to protection.",
+      "status": "CONCEPTUAL_DISTINCTION"
+    },
+    {
+      "id": "P2",
+      "claim": "A lower specified risk is a real benefit regarding that harm, but it entails overall acceptability only if no other feature has moral weight.",
+      "support": "The inference from improvement in one dimension to acceptability of the whole policy needs a bridging premise.",
+      "status": "INFERENTIAL"
+    },
+    {
+      "id": "P3",
+      "claim": "Unaccountable discretion makes access to basic protection dependent on another agent's unreviewable choice.",
+      "support": "This follows from the operational definition of unaccountable discretion.",
+      "status": "DEFINITIONAL"
+    },
+    {
+      "id": "P4",
+      "claim": "Being subject to uncontrolled power over basic protection is a prima facie moral concern even without demonstrated additional expected physical harm.",
+      "support": "Affected persons lack a standing assurance and cannot demand that the decision track contestable reasons.",
+      "status": "CONTESTABLE_NORMATIVE_PREMISE"
+    },
+    {
+      "id": "P5",
+      "claim": "The authority concern must not double-count expected misuse, correlated failure, fear, lost options, or other consequences already included in the comparison.",
+      "support": "Those differences are separate effects and should be modeled explicitly before claiming a residual relational concern.",
+      "status": "METHODOLOGICAL_CONSTRAINT"
+    },
+    {
+      "id": "P6",
+      "claim": "A reduction in every person's specified physical risk can coexist with a prima facie objection to the policy's authority structure.",
+      "support": "P2 through P5: one benefit can coexist with a distinct defeasible concern.",
+      "status": "CONCLUSION"
+    }
+  ],
+  "strongest_objection": {
+    "claim": "Either the relation changes complete outcomes and should be modeled there, or all outcomes and preferences are equal and there is no residual complaint; otherwise the argument assumes the relational value it needs. Marginal-only comparisons may also conceal changed joint catastrophe risk.",
+    "response": "Concede that the proposal cannot refute a complete-outcome theory when the authority relation is included, and concede that changed joint risk defeats the clean comparison. The narrower challenge is to inferences from physical-risk improvement alone and to outcome spaces that omit standing authority. The normative premise that the relation matters remains open to defense."
+  },
+  "worked_case": {
+    "baseline": "A decentralized rescue arrangement has joint physical-injury distribution J0.",
+    "improvement": "A replacement lowers each person's injury probability and has a stipulated joint distribution J.",
+    "rule_variant": "Access under J is governed by published criteria, reasons, and effective appeal.",
+    "discretion_variant": "Access under the same stipulated J is subject to an official's unreviewable power to remove residents.",
+    "isolated_difference": "Standing authority over access, not specified physical injury risk.",
+    "limitation": "If possible exercise of discretion changes expected harms, preferences, fear, or other downstream effects, the variants are not outcome-matched and that change must be counted."
+  },
+  "reopen_triggers": [
+    "A primary-source account fully explains the relevant complaint through other effects and gives a reason to reject P4.",
+    "The only persuasive version of the case depends on unmodeled misuse, changed joint risk, fear, or lost options.",
+    "A matched case with equal specified risks and downstream effects supplies no defensible claim against unaccountable authority.",
+    "Relevant primary literature shows the proposal is only an application of an existing risk-governance or non-domination account."
+  ],
+  "research_status": {
+    "primary_sources_read": 0,
+    "literature_checked": false,
+    "novelty": "UNKNOWN"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "hundred-remaining-tests-v1",
+  "candidate": "idea-111",
+  "source_check_performed": false,
+  "source_evidence_manifest": [],
+  "tests": [
+    {
+      "id": "T1-role-versus-aid",
+      "priority": "decisive",
+      "question": "Does an accepted governance role create a special duty beyond a general duty of easy assistance?",
+      "procedure": "Compare an organizer who chose and administers the disclosure protocol, a routine participant, and an equally capable bystander. Hold knowledge, cost, expected benefit, and available alternatives constant; vary only accepted responsibility and control of the default. Check primary arguments about voluntary undertaking, fair play, role responsibility, and duties of assistance.",
+      "pass_condition": "A defensible principle explains why the organizer/co-maintainer owes more while mere membership does not.",
+      "fail_condition": "The role makes no normative difference; revise to general aid or set aside the distinctive claim.",
+      "status": "not performed"
+    },
+    {
+      "id": "T2-inferential-privacy",
+      "priority": "decisive",
+      "question": "Does the privacy literature already make the central point that formally optional disclosure can expose a person through others' predictable responses?",
+      "procedure": "Read exact primary works on inferential privacy, group privacy, and privacy harms from public or distributed data. Extract their account of who has duties to prevent inference, whether they distinguish targets, co-maintainers, and bystanders, and whether refusal or protocol redesign is treated as a remedy. Compare the result premise by premise with P1-P5.",
+      "pass_condition": "The proposal identifies a defensible unresolved normative distinction or revises its contribution to the exact remaining gap.",
+      "fail_condition": "A close primary argument already establishes the same role-specific duty; retain this proposal as a reconstruction or reject its originality claim.",
+      "status": "not performed"
+    },
+    {
+      "id": "T3-autonomy-and-implication",
+      "priority": "high",
+      "question": "When does a coordinated truthful refusal respect a person's option not to disclose, and when does it become coercive silence or misleading implication?",
+      "procedure": "Read primary accounts of autonomy, expression, disclosure duties, and the pragmatics of silence; test cases where the speaker has a public-interest, safety, legal, or personal self-disclosure reason. Identify a rule that protects the target without giving the target a veto over another person's speech.",
+      "pass_condition": "A narrow boundary distinguishes permissible cover from cases where truthful disclosure is owed or protected.",
+      "fail_condition": "The proposed refusal cannot be separated from false implication or an unjustified speech constraint.",
+      "status": "not performed"
+    },
+    {
+      "id": "T4-probabilistic-leakage",
+      "priority": "decisive",
+      "question": "How much information does cover remove under realistic priors, non-random selection, side information, and repeated rounds?",
+      "procedure": "Write a small explicit Bayesian model for group size, number of protected exceptions, cover rate, response correlation, observers' prior knowledge, and repeated observations. Calculate posterior risk for the target and every other exposed person; compare private collection, aggregate release, and cover refusal. Preserve assumptions and counterexamples.",
+      "pass_condition": "At least one feasible low-burden design reduces net expected exposure without merely shifting it, under a stated threat model.",
+      "fail_condition": "Cover leaves high posterior risk, depends on implausible independence, or displaces the target; remove cover refusal as a presumptive remedy.",
+      "status": "not performed"
+    },
+    {
+      "id": "T5-counterexamples",
+      "priority": "high",
+      "question": "Which cases defeat the proposed role duty even where the practice is revealing?",
+      "procedure": "Construct and assess counterexamples involving whistleblowing, urgent safety reporting, a person's own voluntary disclosure, unjustified secrecy, burdens on vulnerable speakers, and third-party suspicion shifted by cover. State which premise defeats each case and revise the scope if cases expose a missing condition.",
+      "pass_condition": "The rule handles the cases by a principled condition rather than an ad hoc exception list.",
+      "fail_condition": "The boundary cannot be stated coherently or yields unacceptable restrictions; narrow or reject the thesis.",
+      "status": "not performed"
+    },
+    {
+      "id": "T6-empirical-signal",
+      "priority": "medium",
+      "question": "Do observers actually interpret refusal as the confidential status in plausible settings, and how does that change with cover?",
+      "procedure": "After the normative and source checks, define an ethically acceptable, non-identifying experimental or observational design. Measure observer beliefs across response patterns and relevant side information. Do not infer a general effect from the stipulated example alone.",
+      "pass_condition": "Observed inference supports the practice-level mechanism in a bounded setting.",
+      "fail_condition": "The audience does not draw the predicted inference, or the proposed cover worsens exposure; narrow the claim to settings where the signal is established.",
+      "status": "not performed"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # E016 · Making Goodness Cheap: Cost, Character, and the Ethics of Relief
 
+[Original research files and revision evidence](../../docs/essay-evidence/E016.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

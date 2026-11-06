@@ -1,0 +1,38 @@
+{
+  "status": "PASS_RELATIVE",
+  "source_manifest_sha256": "4889e9510b9e192be85e61b46137617ca01ef4f2734b05e63da1ad87943e895f",
+  "query_log_path": "sources/queries.json",
+  "closest_works": [
+    {
+      "citation": "Sekine (2026), In Defence of Second-Order Reasons, section 3",
+      "shared_claim": "Psychological possibility of reason exclusion; this exact three-rate experiment.",
+      "difference": "Explicit pair of observationally equivalent models refutes a specific positive inference to some individual successful excluders; does not reject conceptual defence.",
+      "evidence_path": "sources/sekine_body.json"
+    },
+    {
+      "citation": "Wittlin (2023), Binding Hercules, pp. 1759\u201360 n.143",
+      "shared_claim": "Partial discounting differs from discarding; same experiment warrants statistical caution. These are inherited prior findings.",
+      "difference": "Structural non-identification persists even for exact population rates, and unchanged individual verdicts still do not identify the basing relation; directed against Sekine\u2019s later inference, not a new caution about significance.",
+      "evidence_path": "sources/methods_and_wittlin.json"
+    },
+    {
+      "citation": "Keeling (2024), Responding to second-order reasons",
+      "shared_claim": "Acting for a reason for a reason involves more than matching an outcome.",
+      "difference": "No novel account of basing claimed; applies distinction to invalidate a concrete empirical identification step with constructive countermodels.",
+      "evidence_path": "sources/keeling_rest.json"
+    },
+    {
+      "citation": "Rocch\u00e8 (2024) abstract; Wang (2024) abstract/introduction",
+      "shared_claim": "Cognitive limitations challenge practical reason exclusion.",
+      "difference": "Proposal neither declares impossibility nor reinvents this challenge; tests the evidential bridge from output rates to full individual exclusion. Incomplete access limits comparison.",
+      "evidence_path": "sources/primary_empirical.json"
+    },
+    {
+      "citation": "Holland (1986), abstract/bibliographic coverage",
+      "shared_claim": "Group causal information does not automatically identify individual causal effects. General methodological background is inherited.",
+      "difference": "No new statistical theorem; exact correction to a philosophical argument plus distinction between outcome invariance and reason-guided basing.",
+      "evidence_path": "sources/nearest_final.json"
+    }
+  ],
+  "limitations": "Self-assessment only; independent precheck required. Target Sekine and closest Wittlin passages directly read. Wistrich original full paper inaccessible: critique grants Sekine\u2019s numerical premises, no raw-data inference. Rocch\u00e8/Wang full texts inaccessible; Holland abstract only. No exhaustive priority claim. Novelty rests on concrete local correction beyond known aggregate/individual and discount/discard distinctions; critic may reject its significance."
+}

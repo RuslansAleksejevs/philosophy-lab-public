@@ -1,5 +1,7 @@
 # E066 · Learning Enough to Disagree
 
+[Original research files and revision evidence](../../docs/essay-evidence/E066.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

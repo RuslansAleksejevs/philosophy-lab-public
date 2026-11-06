@@ -1,0 +1,17 @@
+# Source check 001 — branch B critic 01
+
+Checked the complete D0 and the exact supplied source packet after successful preparation event `event-e0e738180a9d4c6897edce9dc4038975`. The primary-text checks used the public text of Hooke's *Micrographia* and the 2001 edition of Cavendish's *Observations*, accessed through the in-app web reader and preserved here as exact HTTP response bytes. The web reader displayed the following bounded sections; I did not read either work in full.
+
+## Primary-source findings
+
+Cavendish, Part I, chapter III (edition PDF pp. 98–99; web extraction lines 2992–3043): she says she lacks the practice needed for a solid technical judgment of micrography, then argues that microscopes cannot disclose interior motions and questions their representation of exterior forms. Her discussion first lists variation from glass, light, position and other mediating conditions; she explicitly allows that some glass may present a true picture. She then says that if a knife edge or needle point were naturally and really as the microscope presents them, their ordinary cutting and piercing would be inexplicable. Her footnote points to Hooke's Observations I and II. D0 reports these qualifications and the direct Hooke connection accurately. The passage remains a practical polemic about utility as well as an evidential challenge; the text does not itself state the essay's modern distinction between task-relevant geometry and local topography.
+
+Hooke, *Micrographia*, Preface (web extraction lines 239–242), Observations I–II (292–323), and XXV (1483–1489): the needle both easily pierces softer bodies and appears broad, blunt and irregular through a good microscope; Hooke's razor passage makes the matching conditional about an edge literally being as it appears. In the Preface he reports examinations under multiple lights and positions before drawing in order to identify a form he takes to be true. In Observation XXV he describes pressing nettle bristles, seeing liquid move up and down in a hollow structure, and infers that the liquid produces the sting. D0's report of these practices and its caution that this passage gives no controls excluding all alternatives are accurate. The repeated viewing is presented by Hooke as a way to seek true form, not merely as an illustration that appearance varies.
+
+## Assessment of the source use
+
+The supplied excerpts and bounded coverage notes support D0's source descriptions. No decisive source misquotation or false attribution appeared in the checked claims. D0 appropriately limits its use of Killeen, Clucas, Boettcher, Lawson and Wilkins to the supplied excerpt/abstract/search coverage, and does not claim exhaustive novelty. Lawson is a close antecedent for the Cavendish–Hooke parallel and observer/object-scale interpretation; the checked excerpt does not establish whether the new task-relative formulation is absent elsewhere.
+
+## Retrieval and coverage limits
+
+The first direct HTTP attempts from the sandbox failed with DNS resolution errors. Exact public URLs were retried through approved public-network retrieval; both returned HTTP 200, and the complete response bytes and hashes are listed in `retrieval-success.json`. The PDF and HTML were downloaded in full but only the excerpts listed above were read. Web extraction was used to locate and read those sections. No plate image, other chapter, full book, or wider literature was checked in this stage. Exact failures, final URLs, sizes, and hashes are retained; downloaded does not mean fully read.

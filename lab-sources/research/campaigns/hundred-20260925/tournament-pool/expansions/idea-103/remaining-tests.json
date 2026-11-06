@@ -1,0 +1,70 @@
+{
+  "schema": "hundred-idea-remaining-tests-v1",
+  "logical_id": "idea-103",
+  "stage": "expansion-001",
+  "status": "OPEN_FOR_FRESH_PROBE",
+  "research_performed": {
+    "primary_source_retrieval": false,
+    "primary_source_reading": false,
+    "literature_search": false,
+    "empirical_or_executable_test": false
+  },
+  "novelty": {
+    "status": "UNKNOWN",
+    "reason": "No source comparison was performed. Construct validity, treatment versions, causal estimands, and social-kind literature may already cover the proposed inference."
+  },
+  "selected_source_evidence_manifest": [],
+  "selected_ancestral_input_manifest": [
+    {
+      "path": "research/campaigns/hundred-20260925/tournament-pool/generator-03/ideas/idea-103.md",
+      "sha256": "6db9aa8521e3816af5d03775f7d99daeb868e06d44eeae6d3aa74f4a825d6704",
+      "from_event_id": "event-0908c8dd1a6b4c6da9176cacf9d9eeee",
+      "role": "selected AI proposal; not primary-source evidence"
+    },
+    {
+      "path": "research/campaigns/hundred-20260925/tournament-pool/assessor-astra/assessments/idea-103.json",
+      "sha256": "b7bc39ffbeaffbfc7bf1d911ec48ff6ba78127ecf6fa64779bc2ccde6dfc16ad",
+      "from_event_id": "event-7a80a0c4bc74430a9ade5d7f092d40f7",
+      "role": "selected assessor feedback with its separately attributed challenge; not primary-source evidence"
+    },
+    {
+      "path": "research/campaigns/hundred-20260925/tournament-pool/assessor-sol/assessments/idea-103.json",
+      "sha256": "6aaa44d4e0559426b590bc363794d9164a157486b9fcfc93bba8d248cab57133",
+      "from_event_id": "event-07ddc65f00f34c60b02042a0075469a0",
+      "role": "selected comparison assessment; packet declares no separate substantive contribution"
+    },
+    {
+      "path": "research/campaigns/hundred-20260925/tournament-pool/selection-120-24/reasons/idea-103.json",
+      "sha256": "5fa17c190f1539065415146da7203db6716d3a26e8bcf93a733e33668af57011",
+      "from_event_id": "event-c7807695afd945b59f77b7ff7fb36318",
+      "role": "candidate-specific AI selection rationale; not primary-source evidence"
+    }
+  ],
+  "next_probe_tests": [
+    {
+      "id": "T1-closest-frameworks",
+      "test": "Read selected primary works on construct validity, treatment-version consistency, causal estimands, and social-kind constitution. Map whether each already distinguishes package effects from kind-specific interpretation when an intervention changes constitutive relations.",
+      "decision_rule": "If an existing account fully captures the distinction, remove any novelty claim and decide whether the example still makes a useful application; otherwise specify the exact residual gap."
+    },
+    {
+      "id": "T2-identification",
+      "test": "Formalize a minimal randomized case where K(0) and K(1) may differ. Separate the package effect, the effect on category status, and any claim about the population whose practice remains K under both assignments.",
+      "decision_rule": "State which estimands randomization identifies and what additional assumptions would be required; do not infer a same-K effect from the package contrast alone."
+    },
+    {
+      "id": "T3-anti-immunization",
+      "test": "Apply the predeclared target rule to outcomes both favorable and unfavorable to the theory, including a case where category status changes after intervention.",
+      "decision_rule": "If the rule can be changed after seeing outcomes without independent evidence, reject it as protective redescription."
+    },
+    {
+      "id": "T4-counterexample",
+      "test": "Find a case where a practice's recognition or reciprocity changes under treatment but a well-supported account says that change is irrelevant to the target kind.",
+      "decision_rule": "Use the case to narrow the range of claims requiring the proposed target-link warrant."
+    }
+  ],
+  "scope_and_limitations": [
+    "The proposal is not a complete essay or accepted argument.",
+    "The four ancestral inputs are process and assessment evidence, not literature evidence.",
+    "No source citations or factual claims about real gift practices are asserted."
+  ]
+}

@@ -1,5 +1,7 @@
 # F01 · Answerability Without Surveillance
 
+[Original research files and revision evidence](../../../docs/essay-evidence/F01.md)
+
 **Working version, October 19 comparison:** [read the checked text](../../selection-20261018/F01.md). The first separate R1 review led to one additional repair, followed by a fresh review of the new manuscript. It remained outside the reading ten; its reasons are preserved in the selection record.
 
 [Later independent review](../../../evidence/final-selection/updates/20261031/preselection/roles/F01/review-final/output/REVIEW_RU.txt) · [Preparation decision](../../../evidence/final-selection/updates/20261031/preselection/decisions/F01.json) · [Selection reasons](../../../docs/selection.md).

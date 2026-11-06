@@ -13,10 +13,10 @@ Download the repository at the desired commit, or keep the [submission ZIP](../s
 From the repository root, with Python 3.10 or newer:
 
 ```sh
-python3 -B tools/verify_submission_edition.py
+python3 -B tools/verify_archive_expansion.py
 ```
 
-The verifier uses only the standard library. It checks the frozen file inventory, the six submitted hashes, all 107 candidate biographies, the package manifest, navigation, and preservation of every preceding file. It restores the previous edition in a temporary view and runs that edition's existing checks too. It does not access the network, call a model or change research files.
+The current expansion verifier uses only the standard library. It verifies the source import and reconstructs the unchanged submitted edition before running its checks. It checks the frozen file inventory, the six submitted hashes, all 107 candidate biographies, the package manifest, navigation, and preservation of every preceding file. It restores the previous edition in a temporary view and runs that edition's existing checks too. It does not access the network, call a model or change research files.
 
 For a quick check of just the six PDFs:
 

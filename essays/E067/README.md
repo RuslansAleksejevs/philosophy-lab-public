@@ -1,5 +1,7 @@
 # E067 · Leaving Without Taking Back the Thanks
 
+[Original research files and revision evidence](../../docs/essay-evidence/E067.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

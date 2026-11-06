@@ -1,0 +1,80 @@
+{
+  "schema": "hundred-idea-expansion-argument-map-v1",
+  "logical_id": "idea-013",
+  "version": "expansion-001",
+  "candidate_relation": {
+    "type": "explicit descendant",
+    "parent_candidate_event_id": "candidate:hundred-projected-4908b652047e56bf09dda2cdef1db8d26b354a87",
+    "preserved_core": "Local comparisons of intervention-caused burdens can justify action without ranking recipients' complete lives.",
+    "revision": "Replace blanket separability with a context-sensitive, acyclic partial priority relation over interventions; make tie resolution a separate justified step; treat the positive moral value of incompleteness as unestablished."
+  },
+  "question": "Can a decision procedure select a benefit while leaving two recipients' complete lives unranked?",
+  "claim": "Yes, conditionally: explicit action effects and distributive context, a coherent incomplete priority relation over feasible interventions, and a justified choice among maximal options can settle an action without entailing a complete ranking of recipients' lives.",
+  "premises": [
+    {
+      "id": "P1",
+      "text": "A resource decision requires justified selection among feasible interventions; that task does not by itself compare every feature of each affected person's life.",
+      "supports": ["C"]
+    },
+    {
+      "id": "P2",
+      "text": "Reasons for an intervention can be action-relative and context-sensitive, including baseline burden, urgency, rights, past access, and distribution of prior benefits.",
+      "supports": ["P3", "C"]
+    },
+    {
+      "id": "P3",
+      "text": "A justified relation among intervention claims does not entail a ranking of each recipient's complete life unless an additional bridge premise is defended.",
+      "supports": ["C", "O1R"]
+    },
+    {
+      "id": "P4",
+      "text": "A finite acyclic partial priority relation has at least one maximal option; a unique maximum determines the action, while multiple maxima require a separate fair tie rule or leave the choice unresolved.",
+      "supports": ["C"]
+    },
+    {
+      "id": "P5",
+      "text": "Context fidelity, menu stability, and acyclicity are necessary tests; a local rule that fails them is not vindicated by calling its reasons local.",
+      "supports": ["C", "F"]
+    }
+  ],
+  "inference": [
+    {"from": ["P1", "P2", "P3", "P4"], "to": "C", "type": "conditional sufficiency"},
+    {"from": ["P5"], "to": "F", "type": "failure conditions"}
+  ],
+  "objections": [
+    {
+      "id": "O1",
+      "origin": "complete-ordering objection; stated in selected idea and sharpened by Sol assessment",
+      "text": "Consistent choices across connected decisions may imply a complete ordering of outcomes and conceal a ranking of whole lives.",
+      "reply": "Accept coherence constraints on the action relation, but deny that every finite coherent choice requires a complete ordering of individual lives. Multiple total extensions may preserve the same partial priorities while reversing an incomparable life comparison; a total extension is a representation, not an entailed ground.",
+      "residual_risk": "A defender of completeness as a normative rationality axiom will reject the thinner standard; that axiom needs independent defense."
+    },
+    {
+      "id": "O2",
+      "origin": "Astra assessment, explicitly attributed to session 01a0dbb8-f987-7ab3-887f-5f4d38ed758a",
+      "text": "Separability may fail when background disadvantage legitimately changes distributive claims.",
+      "reply": "Accept this as a revision to the original sketch: context includes relevant disadvantage, rights, urgency, and allocation history; only facts excluded by a defended reason policy are treated as irrelevant.",
+      "residual_risk": "If legitimate distributive reasons require full-life aggregation and no narrower representation, the central claim is narrowed or rejected."
+    },
+    {
+      "id": "O3",
+      "origin": "independent development in this expansion",
+      "text": "The priority rule or fair tie procedure may be arbitrary, so the procedure may fail to justify an actual choice.",
+      "reply": "Separate the coherence claim from substantive justification. Defend the priority rule and tie mechanism independently; without them, report underdetermination rather than moral permission to choose arbitrarily.",
+      "residual_risk": "No universal priority rule or lottery defense is established here."
+    }
+  ],
+  "worked_case": {
+    "context": "One clinic treatment slot; patients A and B have equally severe recurring pain, each reduced to intermittent moderate pain by treatment; A has repeatedly been denied comparable care and B has received two comparable scarce treatments; no overriding right or contraindication is assumed.",
+    "rule": "Prioritize prevention of severe burden, then use documented unequal prior access as corrective priority where the first rule does not settle the choice.",
+    "result": "A is the unique maximal option under the assumed rule.",
+    "limit": "Equal severity leaves the first priority tied, so the documented access history selects A under the assumed corrective rule. The case illustrates the structure only; the rule's justice is unproven and it does not rank either complete life."
+  },
+  "explicit_defeaters": [
+    "A cycle in the justified-priority graph across connected decisions under the same relevant context.",
+    "A reversal caused solely by changing facts the defended rule treats as irrelevant.",
+    "A defensible distributive claim that cannot be represented without a complete comparison of whole lives.",
+    "No acceptable tie procedure for multiple maximal options, where a concrete choice is nevertheless claimed to be justified."
+  ],
+  "research_status": "Conceptual expansion only; no literature search, primary-source reading, model implementation, novelty check, or independent critique of this expansion was performed."
+}

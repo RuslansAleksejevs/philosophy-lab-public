@@ -1,0 +1,10 @@
+# Source and argument check
+
+- Sen's primary text distinguishes complete social orderings from choice. It supports the structural point that a choice problem need not be posed as a full ranking problem. It also warns that incompleteness may leave a two-option menu unresolved. The present case therefore adds an independently defended tie procedure or reports underdetermination.
+- Arrow's exact inherited excerpt states completeness for a formal preference relation. It supplies no ethical bridge from an ordering over alternatives to an ordering of beneficiaries' lives.
+- Chang: do not describe failure of better, worse, and equal as proof of incomparability. Parity can be a fourth relation; a comparison can also be relative to duty or a standard of conduct. The essay's conclusion concerns non-entailment of a complete weak-betterness ordering.
+- Taurek/Parfit: a lottery can express equal concern in Taurek's account; Parfit argues that equal weight per person can require saving more people. The disagreement undercuts any inference from equality alone to a fair procedure. The example is restricted to two equally situated claims for one resource; it does not generalize to one versus many or unequal claims.
+- Parfit/priority: selected excerpts concern whole-life disadvantage and histories. They support treating history as potentially relevant, not the claim that a treatment-counting rule is correct.
+- Different objects of judgment block a bare inference, but do not prove that a real rule contains no hidden whole-life premise. Each application needs the bridge audit and an independent defense of substantive and procedural premises.
+- Failed access: direct browser PDF extraction for Taurek exposed only the cover; a targeted indexed result exposed p.303. The direct open of an initial Taurek URL failed. Parfit's article PDF URL redirected to a page with a quotation, not the full text. These are retained as limits, not described as full readings.
+- Novelty: unknown. The sources are close enough that no field-wide or author-specific originality claim is warranted.

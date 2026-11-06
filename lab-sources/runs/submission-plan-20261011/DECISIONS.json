@@ -1,0 +1,37 @@
+{
+  "status": "PROPOSED_NOT_LAUNCHED",
+  "local_date": "2026-10-11",
+  "timezone": "America/Los_Angeles",
+  "user_confirmed": {
+    "reading_essays": 10,
+    "reading_days": 5,
+    "openreview": "Account exists; status requires checking",
+    "wildcard_at_every_selection_stage": true
+  },
+  "proposed": {
+    "generation_target": 24,
+    "generation_fallback": 12,
+    "generation_cutoff": "2026-10-18",
+    "current_candidates": 9,
+    "rescue_candidates": 3,
+    "tournaments": [
+      {"date": "2026-10-19", "input_max": 36, "output": 20, "wildcard_slots": 2, "core_reviews_max": 72},
+      {"date": "2026-10-22", "input": 20, "output": 10, "wildcard_slots": 2, "core_reviews": 40},
+      {"date": "2026-10-28", "input": 10, "submission_choices": 3, "reserves": 2, "core_reviews": 90}
+    ],
+    "wildcard_nomination_reports": 4,
+    "core_tournament_reviews_max": 202,
+    "reading_start": "2026-10-23",
+    "reading_end": "2026-10-27",
+    "internal_submission_target": "2026-10-30",
+    "official_deadline": "2026-10-31T23:59:00-12:00"
+  },
+  "research_launched": false,
+  "submission_authorized": false,
+  "limitations": [
+    "Counts are proposed task slots, not backend calls or a quota estimate.",
+    "Blind reviews, source audits and human selection have different roles.",
+    "The plan does not certify originality or select a winner.",
+    "No new scheduled automation or chat has been created."
+  ]
+}

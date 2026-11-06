@@ -1,0 +1,67 @@
+{
+  "schema": "hundred-idea-argument-map-v1",
+  "candidate": "idea-119",
+  "proposal_title": "The Evidence Custodian’s Role in Repair: A Duty Without Inherited Blame",
+  "status": "expanded proposal; conceptual argument only; no literature check",
+  "question": "Can present control of indispensable evidence ground a duty to cooperate in repair without inherited blame or underlying compensation liability?",
+  "claim": "An institution with present control of materially relevant, non-substitutable evidence for a credible claim of historical wrong has a proportionate role-based duty to preserve it and provide fair access for assessment and possible remedy.",
+  "scope_conditions": [
+    "A credible claim is presented for fair assessment; truth of the claim is not presupposed.",
+    "The evidence is materially relevant to assessing or supporting remedy.",
+    "The custodian has effective control over preservation or access.",
+    "The evidence is non-substitutable or the custodian controls a materially important access route.",
+    "The requested action is proportionate and can respect privacy, safety, legal process, evidentiary integrity, and cost."
+  ],
+  "distinctions": [
+    {"term": "blame", "meaning": "Culpability for the original wrong; not implied by custody."},
+    {"term": "underlying remedial liability", "meaning": "Responsibility to compensate for or otherwise repair the original wrong; not established by the custodial duty."},
+    {"term": "remedy-enabling responsibility", "meaning": "A prospective role duty arising from present control over a necessary step in a fair repair process."}
+  ],
+  "premises": [
+    {"id": "P1", "claim": "Credible claims require a fair route to assessment, which may depend on evidence controlled by another institution.", "status": "conceptual premise requiring source and counterexample testing"},
+    {"id": "P2", "claim": "A custodian with effective control can preserve, destroy, disclose, restrict, or arrange review of the relevant records.", "status": "stipulated case structure; real cases require verification"},
+    {"id": "P3", "claim": "Control over a materially necessary, non-substitutable remedy condition can ground a prospective role duty independent of fault for the past.", "status": "central defended normative premise; unresolved in literature"},
+    {"id": "P4", "claim": "The duty is directed to claimants as claimants and to fair assessment, so payment or unrelated aid need not discharge it.", "status": "central distinction; test against rescue and stewardship accounts"},
+    {"id": "P5", "claim": "The duty is limited by relevance, evidentiary integrity, privacy, safety, legality, cost, and substitutes.", "status": "proportionality constraint; exact weights unresolved"}
+  ],
+  "inference": [
+    "P1 and P2 identify a present control point in the repair process.",
+    "P3 assigns prospective responsibility for responsibly governing that control point without attributing original wrongdoing.",
+    "P4 explains why the duty requires preservation and fair access rather than any welfare-improving aid.",
+    "P5 bounds the required form and burden of compliance.",
+    "Therefore, qualifying custody can generate a repair-directed custodial duty without inherited blame or underlying compensation liability."
+  ],
+  "assessor_engagement": [
+    {"source": "Astra individual assessment", "session_id": "01a0dbb8-f987-7ab3-887f-5f4d38ed758a", "challenge": "Why custody grounds a distinct reparative duty rather than heightened rescue by a uniquely placed helper.", "response": "Custodian’s duty concerns an access act the outsider cannot discharge; this is a difference in content, direction, and priority, not a promise of greater total burden. If the outsider gains equivalent control, it bears the same role duty."},
+    {"source": "Sol individual assessment", "session_id": "01a0dbb9-389a-7bb3-a2ac-7cc1c5478165", "challenge": "Whether custody grounds a distinctively reparative duty stronger than ordinary aid owed by equally capable outsiders.", "response": "The proposal withdraws the claim that custody always yields a stronger burden. It argues for a distinct role-specific act and claimant-directed discharge condition; if ordinary aid theory already explains these, the separate category should be dropped."}
+  ],
+  "strongest_objection": {
+    "claim": "The reparative label adds nothing to ordinary rescue, aid, or stewardship and may insinuate inherited guilt; disclosure also risks privacy and safety.",
+    "proposed_answer": "No guilt or unrestricted release follows. The custodian’s duty is to preserve and fairly govern access to a specific remedy-enabling resource; outsiders cannot discharge that act by spending equivalent money. The distinction fails if general role-based aid already captures the same recipient, act, priority, and conditions."
+  },
+  "worked_case": {
+    "type": "hypothetical only",
+    "setup": "An innocent public archive holds the only surviving relevant records for a credible community claim; an equally wealthy foundation lacks access.",
+    "duty": "The archive preserves records and arranges proportionate independent review with safeguards; it need not publish raw files or decide the claim.",
+    "comparison": "The foundation may fund support but cannot itself provide access. If an equivalent trustworthy copy becomes available elsewhere, the archive-specific priority weakens."
+  },
+  "defeat_or_narrowing_conditions": [
+    "A fair and reliable substitute removes the custodian’s non-substitutable control.",
+    "Records are irrelevant or the claim lacks a credible basis for assessment.",
+    "No proportionate privacy, safety, or legal safeguard is available.",
+    "Cost makes the requested act unfairly burdensome and a shared-cost process is necessary.",
+    "Ordinary stewardship or rescue theory supplies the same role, recipient, action, priority, and discharge rules; then no separate reparative duty is established."
+  ],
+  "research_status": {
+    "primary_sources_retrieved": 0,
+    "primary_sources_read": 0,
+    "originality": "UNKNOWN; not assessed",
+    "unsupported_claims": "No historical case or literature novelty claim is made.",
+    "next_probe_questions": [
+      "Can present control ground prospective duties absent fault or undertaking?",
+      "Do repair-directed duties differ from general aid in recipient, action, priority, or discharge conditions?",
+      "Does evidence stewardship already entail the proposed duties, including claimant access?",
+      "What safeguards and cost limits are required where claims and archival privacy conflict?"
+    ]
+  }
+}

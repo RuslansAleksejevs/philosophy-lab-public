@@ -1,0 +1,63 @@
+# Critique: “What an Allocation Decides: Choice Without a Whole-Life Ranking”
+
+## Recommendation
+
+**Revise the argument and its positioning in the literature.** The central non-entailment claim survives: selecting a recipient under a rule about equal claims does not, by itself, establish a complete ranking of the recipients’ lives. The draft states that point carefully and avoids several tempting overclaims. No fatal logical or citation error was found in the passages checked.
+
+The present manuscript has not yet established that its clinic rule is independently justified, that its “bridge audit” adds a distinct philosophical result, or that the motivating inference is a live one in the relevant literature. Sen’s later work is a closer formal predecessor than the cited 1970 passage, while Broome and Vong treat the equal-claims lottery case directly. The revision should either defend the normative possibility with this literature or present the result expressly as a conditional clarification, with a narrower claim to significance.
+
+## Argument reconstructed
+
+The paper distinguishes (1) choosing an allocation, (2) comparing claims or reasons for priority, and (3) comparing beneficiaries’ complete lives in well-being. It constructs a clinic case in which two people have equal claims to one indivisible treatment, and a public equal-chance draw selects one. The draw is meant to illustrate that a decision rule can be justified by fair access without comparing complete lives. The conclusion is limited: the selection alone does not entail a complete weak-betterness ordering of those lives. The four-part “bridge audit” in §6 asks what is compared, which reason matters, what premise connects that reason to whole-life value, and what facts could defeat the rule.
+
+This is a valid conditional countermodel. Two possible cases can share the same equal-claims facts and fair lottery while differing in how the beneficiaries’ complete lives compare. The observed selection therefore does not fix that comparison. The formal claim in §2 that a finite acyclic strict-priority relation over a nonempty menu has a maximal option is correct; the draft also rightly says that several maximal options require an additional rule and that coherence does not establish justice.
+
+The inference has a deliberately small reach. It establishes neither that whole-life comparisons never matter nor that a real clinic may disregard lifetime benefit, rights, urgency, or history. Those qualifications in §§1, 3, 4, 7, and 9 are valuable. The weakness is that the illustrative allocation rule is assumed to be “independently justified,” and the paper gives only a brief sketch of why equal chances would be fair. This leaves the logical result intact but prevents the example from establishing the substantive possibility on which the essay’s significance depends.
+
+## Major revisions
+
+### 1. Defend the normative example or make its conditional status unmistakable
+
+The clinic case does the main work (§§1, 3–4; especially lines 17, 39–45, and 59–61). The paper stipulates equal expected benefit, urgency, rights, and relevant history, then stipulates a defensible equal-chance rule. It explicitly admits that each condition is contestable. A critic can accept the countermodel’s logic while asking whether the premises describe a genuinely justified allocation that needs no whole-life ranking, rather than a rule whose justification has simply been assumed.
+
+Broome’s “Fairness” is a close source for the missing step: he treats lotteries for equal or near-equal claims and distinguishes fairness from what is all-things-considered required, while arguing that calling a lottery a tie-breaker does not by itself explain why it is fair. The draft goes beyond the bare tie-breaker label by citing symmetry, transparency, and the prevention of official favoritism (§4, lines 59–61), but it does not explain why these considerations warrant equal chances or how they relate to claims. Vong’s discussion of equal-conflict cases is also directly relevant to the stipulated combination of scarcity, indivisibility, equal claims, and no further morally relevant difference. Engage these sources in the body, not only in the reference apparatus.
+
+There are two defensible paths. The stronger path is to defend a modest procedural principle: when claims are equal under an already defensible rule and no further relevant reason distinguishes claimants, equal chances are a fair way to allocate the indivisible good. Explain what “equal claims” means, why symmetry is morally relevant, and what would defeat the lottery. The narrower path is to state that the paper offers only a logical countermodel conditional on such a principle, and to avoid treating the clinic case as evidence that real allocation can be justified in this way. Either path should keep the paper’s distinction between a policy’s local reason and a complete welfare ranking clear.
+
+### 2. Reposition the formal point against closer literature
+
+Section 3 currently relies on Sen 1970. The verified quote and its context are represented accurately: Sen discusses choice with incomplete or nontransitive orderings and does not claim that incompleteness always suffices. But Sen’s “Maximization and the Act of Choice” (1997, especially the selected discussion at pp. 746–747) is a closer predecessor for the claim that decisions can be made despite incomplete rankings. Sen frames that work as an account of choice behavior rather than a normative defense, which limits how much it settles here; it does not remove the need to discuss it. Add it and explain precisely what remains: perhaps the distinction between decision behavior and a justified allocation, or the paper’s proposed diagnostic for an inference from allocation reasons to whole-life value.
+
+The practical example also overlaps with established lottery literature. Broome directly discusses equal or near-equal claims to scarce goods; Vong examines equal-conflict and scarcity cases and the fairness of lotteries. Taurek and Parfit, cited in §4, concern the one-versus-many dispute, which the clinic example deliberately avoids. They are useful boundary cases, but they do not substitute for the equal-claims literature. The draft should state whether its contribution is a new argument, a synthesis, or a compact diagnostic. On the bounded material checked, the broad formal distinction and the equal-claims lottery are not presented as new. The proposed “bridge audit” may be a useful synthesis, but the paper does not yet show an application where it exposes a mistaken inference that existing work leaves unrecognized.
+
+This bears on significance as much as novelty. The opening says that decisions are “often” treated as rankings of lives (§1, lines 11–15), but offers no specific argument, policy, or passage that makes that inference. Add one carefully sourced example and show how the audit changes its analysis, or narrow the motivating claim to a possible confusion rather than a common one. Do not claim field-wide novelty; this bounded search cannot establish it.
+
+### 3. State exactly what “does not entail” means
+
+The strongest version of the paper is the modest logical one: the decision rule and selected outcome alone do not determine a complete weak-betterness ordering of the recipients’ lives. Section 3, lines 41–45, makes this clear by varying the whole-life comparison while holding the allocation rule fixed. Some other phrasing—especially the title and the formulations “choice without a whole-life ranking” and “does not require”—can sound like the stronger claim that the decision-maker never needs, or the justified rule cannot presuppose, any whole-life facts. Section 7 and the conclusion disclaim that stronger result, but the distinction should be explicit at the start and carried through.
+
+A useful revision would say that the paper establishes **non-entailment from the selection alone**, not the absence of a whole-life ranking in reality, the absence of such a ranking from every defensible justification, or the general sufficiency of local/procedural reasons. That formulation also makes the countermodel’s dependence on an independent fairness premise visible instead of allowing the example to appear to prove that premise.
+
+## Source and inference assessment
+
+The checked quotations from Sen 1970, Chang 2002, and Taurek 1977 are accurate in the consulted passages, and the draft generally draws appropriately limited conclusions from them. The Chang discussion (§5, lines 67–71) is particularly careful: failure to establish better, worse, or equal does not establish incomparability. The Taurek/Parfit exchange is correctly marked as contested and as a different, one-versus-many case (§4, lines 55–59). The selected Parfit 2000 passages support the history/lifetime-disadvantage distinction used in §7.
+
+Two citations need repair or a coverage note. The primary passage for Parfit 1978, p. 301 was not available in the source check; the quote at §4, line 57 is inherited from the input packet and remains unverified against the article itself. Recheck the exact quotation and page before relying on it. Arrow 1951, p. 13 was also not freshly extractable from the first-edition PDF; the available inherited excerpt and later-edition mirror are consistent with the standard completeness condition, but do not verify that exact first-edition page in this check. Either verify the edition/page or cite a version whose wording and pagination were checked. These are bounded verification gaps, not evidence that either citation is false.
+
+The conceptual inference is sound if the fairness rule is treated as an independent premise. The paper is right that completeness over allocation alternatives would not automatically yield a ranking over complete lives (§3, lines 47–51). The remaining gap is normative, not a formal fallacy: why is the rule justified, and why does that justification not itself depend on the comparison the paper says is unnecessary? The answer may be that a procedure can be defended by equal claims and fair access, but the paper must engage the strongest argument against that answer rather than merely repeat the stipulation.
+
+## Specific repair checklist
+
+1. Add Sen 1997 to §3 and explain its behavioral/normative boundary and the precise residue of the paper’s claim.
+2. Add and analyze Broome 1990 and Vong 2020 in §4; explain whether the clinic lottery instantiates their account or makes a narrower point.
+3. Either defend the equal-claims principle in a short, explicit argument or mark the clinic case as a conditional logical countermodel throughout.
+4. Tighten the thesis to non-entailment from the selection alone; keep whole-life comparisons, local reasons, and the rule’s independent justification distinct.
+5. Provide a concrete motivating inference from a policy or philosophical argument, or weaken “often” to a possibility and describe the audit as a heuristic synthesis.
+6. Recheck Parfit 1978, p. 301 against the primary text and verify Arrow’s exact edition/page, or revise those citations transparently.
+7. Retain the existing caveats that the result does not settle unequal claims, real triage, or the justice of any particular policy.
+
+## Coverage and process boundary
+
+The complete 4,556-word manuscript was reread after the source-check stage was prepared. The complete original source manifest and all eight evidence files in the assigned packet were reviewed. The independent source-check added selected primary excerpts from Sen 1970, Sen 1997, Chang 2002, Broome 1990, Vong 2020, Taurek 1977, and Parfit 2000. These were excerpts or selected sections, not full-work readings. Arrow 1951 and Parfit 1978 remained inherited/indexed excerpts; their exact first-edition or primary passages could not be freshly checked. Exact queries, selected results, access attempts, and the limits of reading are in `source-check-001/search-log.json` and `source-check-001/source-manifest.json`.
+
+There was a process-order breach: before `critic-source-check-001` was prepared, an initial command exposed the assigned manuscript to this critic context. The breach is recorded in `attempt-000.json` and disclosed in the source-check record. The source search therefore was **not thesis-unaware**. The author and critic remain separate sessions, and no other essay, tournament material, author history, global resume, or prior assessor report was consulted, but this process does not support a clean claim of source-discovery independence from the thesis. Requested setting: gpt-6-luna / xhigh. The actual backend was not verified.

@@ -1,0 +1,31 @@
+{
+  "schema": "hundred-argument-tests-v1",
+  "proposal_id": "idea-088",
+  "stage": "expansion-001",
+  "research_status": "No primary-source retrieval or literature review was performed in this stage.",
+  "primary_source_tests": [
+    {
+      "question":"What is the strongest primary defense of a knowledge norm for categorical assertion, and does it treat permission as evidence-level propriety, an all-things-considered choice, or both?",
+      "search_leads_not_claims":["knowledge norm of assertion primary text", "categorical assertion knowledge norm permission"],
+      "required_reading":"Read the closest primary defense in full where accessible and record the relevant passage, edition, retrieval details, and limits. Identify its exact standard and whether it is exceptionless."
+    },
+    {
+      "question":"Do primary defenses of justification-, reasonable-belief-, or evidence-based norms already distinguish warrant from permission to communicate under practical pressure?",
+      "search_leads_not_claims":["assertion norm justification evidence categorical assertion primary source", "assertion knowledge norm practical encroachment permission"],
+      "required_reading":"Read the closest source for each serious alternative located; reconstruct its actual premise and test whether the proposed two-permission distinction adds anything."
+    },
+    {
+      "question":"Is there a closer existing account of epistemic correction, retraction, testimony repair, or responsibility for shared information records?",
+      "search_leads_not_claims":["epistemic responsibility correction testimony retraction primary source", "epistemic repair public record updating assertion"],
+      "required_reading":"Search beyond the vocabulary in the sketch. Read the most directly relevant primary arguments and compare their unit of evaluation, correction duty, and account of epistemic versus practical reasons."
+    }
+  ],
+  "argument_tests": [
+    {"id":"T1-cost-match","design":"Hold evidence, confidence, proposition, force, audience, initial uptake, final belief, delay and practical/epistemic costs fixed. Change only who can append the visible correction and who is answerable for it.","interpretation":"No residual permission difference supports reduction to consequences. A residual difference motivates, but does not establish, an accountability or record norm."},
+    {"id":"T2-audience-evidence","design":"Ensure the correction channel is not evidence to the audience about p or the speaker's reliability; then vary correction ability.","interpretation":"If the effect disappears, the original evidence-fixed comparison failed because audience evidence changed."},
+    {"id":"T3-categorical-versus-qualified","design":"Compare the same speaker and channel under a bare categorical assertion and an explicitly provisional report, keeping available evidence fixed.","interpretation":"If only the provisional report gains permission, the channel may license a different communicative package rather than a bare assertion."},
+    {"id":"T4-capacity-and-duty","design":"Separate nominal editability from reliable, timely, recipient-visible correction and from an actual obligation to monitor and correct.","interpretation":"Permission should not rise merely from a platform feature that cannot repair the relevant uptake."}
+  ],
+  "rejection_or_narrowing_rule":"Reject the strong epistemic thesis if correction changes no evidence-level condition. Narrow to all-things-considered communication permission if cost-matched judgments show no defensible practice-level epistemic norm. Do not state novelty or literature conclusions until the source tests are completed.",
+  "prohibited_inference":"A planned search, source lead, hypothetical case, or test design is not a completed literature check or observed result."
+}

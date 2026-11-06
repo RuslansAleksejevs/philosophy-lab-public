@@ -1,5 +1,7 @@
 # E074 · When Only Believers Count: Faith and the Evidence of Participation
 
+[Original research files and revision evidence](../../docs/essay-evidence/E074.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

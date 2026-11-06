@@ -1,0 +1,27 @@
+# Response to the two independent reviews
+
+Decision: retain the approved conditional thesis with targeted revision. The final remains a logical compatibility argument, not an empirically vindicated memory procedure. Original draft and both reviews are preserved. No new substantive thesis or source is introduced.
+
+## Argument opponent: critique-1.md
+
+1. **Actual-domain vacuity and independent evidential warrant — ACCEPTED.** The displayed conditional may hold accidentally whenever the original phenomenal types differ. Retrospectively assigning a function to an actual pair is not evidence that the recollective difference tracks the original difference. “What a comparison must preserve” now distinguishes the extensional condition, sufficient for conditional entailment, from a warranted procedure. It gives the opponent's incidental-discomfort/leading-cue case and explicitly requires independent support over a prior-delimited domain including relevant matched-target alternatives and permitted retrieval variations. It disclaims supplying such warrant for human memory. The later calibration discussion and conclusion repeat the distinction where practically important. This repairs an evidential overreach without changing the approved logical result.
+
+2. **The asymmetry is conditional, not a general privilege of positive contrast — ACCEPTED.** Replaced the “easier to preserve” heading with “Two directions of error.” Added the reverse relation: a can produce u or v, b only w. Equal outputs can then identify equal original types while a u/v difference fails to establish distinct inputs. The introduction and conclusion now identify the original asymmetry as internal to a specified class; no claim about comparative psychological ease is retained. The original class matters specifically because it permits positive inference without full reconstruction.
+
+3. **Global injectivity is unnecessary for a particular matching output — ACCEPTED.** Global injectivity is now explicitly the condition for a uniform guarantee across all possible matches. A new example F(a)=u and F(b)=F(c)=v shows that a u/u observation can be informative despite global information loss. The text distinguishes local exclusion of alternatives from a uniform guarantee for both directions. This implements the essay's own principle of inference-relative requirements more consistently.
+
+4. **The table does not itself formalize partwise alteration or a complete holism — ACCEPTED.** Added that disjoint type labels establish difference of whole types, not of every constituent, and that the table supplies only cross-stage structure. The following prose makes the compatibility argument against the stated internal-dependence premise. No psychological or metaphysical possibility result is inferred from uninterpreted labels alone. The original sound distinction between partitions of possible wholes and constituents of particular wholes remains.
+
+5. **Dialectical significance depends on whether the source asserts the strong or weak claim — ACCEPTED AS A SCOPE REQUIREMENT.** The source review supports attributing the strong reconstruction requirement, but the final now explicitly says what disagreement remains: the countermodel challenges a requirement on all informative recollective comparison; an opponent concerned only with uncalibrated introspective substitution can accept the result. Under that weaker reading the essay supplies conditional clarification rather than refutation. This is a bounded correction, not a claim to refute Nourbakhshi's paper or to recover all advantages of immediate comparison.
+
+## Contribution and source critic: critique-2.md
+
+1. **Independently delimited domain and no retrospective selection — ACCEPTED.** This overlaps the opponent's first criticism but was assessed independently. The revised domain includes relevant possible matching targets and retrieval variations, chosen before using the observed contrast. An actual pair's accidental factorization is expressly insufficient. No calibration experiment is invented.
+
+2. **Heading could suggest psychological superiority — ACCEPTED.** Changed the heading and added the reverse error pattern, as detailed above. The claim is a comparison of conditional inferential requirements only.
+
+3. **Retain source fidelity, modest novelty, and precheck limits — ACCEPTED.** Rechecked the saved Nourbakhshi sections 7–9: the strong requirement and weaker rival explanation are both preserved. The final retains the distinction between paired recollections and perception/recollection pairs; phenomenal types and complete histories; deterministic and noisy models; entailment and probabilistic support; formal compatibility and psychological realization; existence, location, and explanation of phenomenal difference. Chudnoff and Fulkerson/Cohen support only the bounded distinctions attributed to them. No absolute-priority claim is added.
+
+## Remaining limitations
+
+No actual memory procedure receives independent calibration here. The argument is elementary in mathematical machinery and modest in philosophical reach. It challenges a specific necessity inference and separates the obligations for different contrast judgments. The holistic compatibility claim addresses internal interdependence, not every stronger metaphysical theory. Search coverage remains bounded. The two reviewers' positive assessments are evidence about this review process, not certificates of truth, novelty, or contest success.

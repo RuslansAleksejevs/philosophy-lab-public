@@ -1,5 +1,7 @@
 # E026 · What an Artwork’s Provenance Does Not Determine about Its Personal Time
 
+[Original research files and revision evidence](../../docs/essay-evidence/E026.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

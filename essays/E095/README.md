@@ -1,5 +1,7 @@
 # E095 · What a Second Look Can Refute
 
+[Original research files and revision evidence](../../docs/essay-evidence/E095.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

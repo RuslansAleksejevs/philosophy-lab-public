@@ -1,5 +1,7 @@
 # E007 · When an Answer Becomes the Group's Result
 
+[Original research files and revision evidence](../../docs/essay-evidence/E007.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

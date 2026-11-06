@@ -1,5 +1,7 @@
 [Home](../../README.md) · [Five reading cards](../../docs/final-shortlist.md) · [All essays](../README.md)
 
+[Original research files and revision evidence](../../docs/essay-evidence/E012.md)
+
 # When a Remedy Becomes Evidence
 
 **Verified submission edition · November 1, 2026.** The submitted essay and its final report were downloaded from OpenReview and matched byte for byte. [Read the final PDF](../../submission/20261101/pdf/E012-essay.pdf) · [Final text](../final-20261101/E012.md) · [Method report](../../submission/20261101/pdf/E012-methodology.pdf) · [All three](../../docs/current-selection.md).

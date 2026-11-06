@@ -1,0 +1,85 @@
+{
+  "schema": "hundred-idea-115-argument-map-v1",
+  "proposal": "proposal.md",
+  "status": "conditional calibration challenge; not an established inconsistency",
+  "candidate": {
+    "logical_id": "idea-115",
+    "parent_candidate_event_id": "candidate:hundred-projected-eab5431bd7726a4132bc216661e601ae807335d5",
+    "artifact_type": "idea",
+    "relation": "explicit descendant; preserves the idea's conditional concern while narrowing it from a presumed shared-ground tension to a burden to state and defend separate grounds"
+  },
+  "question": "Can weak psychological continuity reduce a stage's future-directed stake while later pleasure still counts as compensation for present suffering in the same welfare-bearing life?",
+  "revised_claim": "The combination can be coherent if psychological connection, welfare-bearer identity, aggregation, and permission are independently and consistently defended. Reduced psychological continuity alone does not establish that later welfare is excluded or that a positive lifetime total licenses imposed suffering.",
+  "terms": {
+    "P": "psychological connection between stages, such as memory, intentions, stable preferences, or anticipation",
+    "W": "the relation that makes experiences count for one welfare subject or one life-level assessment",
+    "K": "the rule by which one good and one bad experience are related; distinguish net aggregation, benefit to a subject, and moral permission"
+  },
+  "premises": [
+    {
+      "id": "P1",
+      "claim": "A continuity-based reduction must specify whether it concerns anticipation, present preference, future-directed interest, deprivation, or the identity of a welfare subject.",
+      "role": "disambiguation"
+    },
+    {
+      "id": "P2",
+      "claim": "A reduction in P does not by itself determine W or K; that inference requires an additional bridge premise.",
+      "role": "missing-inference test"
+    },
+    {
+      "id": "P3",
+      "claim": "A claim that later pleasure compensates present pain must state the eligible bearer, temporal aggregation rule, meaning of compensation, and whether it purports to justify imposing pain.",
+      "role": "burden of specification"
+    },
+    {
+      "id": "P4",
+      "claim": "Different grounds for P and W can be coherent when independently motivated and consistently applied.",
+      "role": "two-ground reply accepted"
+    },
+    {
+      "id": "P5",
+      "claim": "A two-ground reply still needs a case-neutral account that is stable across comparable benefits and harms and is not selected only to preserve a preferred conclusion.",
+      "role": "anti-selectivity test"
+    },
+    {
+      "id": "P6",
+      "claim": "A positive lifetime total does not alone establish permission to impose suffering; an additional normative bridge is needed.",
+      "role": "aggregation/permission distinction"
+    }
+  ],
+  "inference": {
+    "from": ["P1", "P2", "P3", "P4", "P5", "P6"],
+    "to": "The defensible conclusion is a conditional calibration challenge, not a contradiction: a theory using weak P and strong cross-temporal K must state and defend W and the bridge from K to permission.",
+    "strength": "conceptual and conditional; source support and originality unverified"
+  },
+  "strongest_objection": {
+    "claim": "Future-directed interests and life-level welfare answer different questions. A stage need not anticipate later pleasure for that pleasure to improve the same continuing life.",
+    "force": "defeats any claim that a single continuity relation must govern both interests and aggregation; may defeat the challenge for a theory with a principled independent W account"
+  },
+  "response": {
+    "concession": "Different grounds are not inherently inconsistent; requiring one shared ground would beg the question.",
+    "surviving_burden": "The theorist must make the distinct grounds and the aggregation-to-permission inference explicit, independent, stable across valence signs, and applicable to the case without result-driven boundary shifts."
+  },
+  "worked_case": {
+    "name": "Mica",
+    "stipulations": [
+      "At t0 a sentient subject undergoes severe pain and has no memory, plan, or anticipation representing t1.",
+      "At t1 the same stipulated living organism undergoes pleasure.",
+      "The case stipulates persistence for conceptual analysis and makes no empirical claim about any species."
+    ],
+    "discriminator": "Compare a one-ground view, a coherent two-ground life-level aggregation view, and a view that allows aggregation but rejects permission to impose the pain.",
+    "limits": "Any numerical welfare values are illustrative only; no metric or actual animal psychology is asserted."
+  },
+  "failure_or_narrowing_conditions": [
+    "A primary-source theory supplies independently motivated, case-neutral accounts of P, W, and K, applies them symmetrically, and separates lifetime totals from permission; then no inconsistency is established for that theory.",
+    "The target uses future interest only to mean present preference and compensation only to mean a neutral lifetime total; then the argument is a terminology warning, not a consistency challenge.",
+    "An application depends on claims about actual animal capacities; without empirical evidence, that application must be withheld."
+  ],
+  "research_status": {
+    "external_sources_retrieved": false,
+    "primary_sources_read": false,
+    "originality_checked": false,
+    "actual_species_psychology_checked": false,
+    "manifest": "source-evidence-manifest.json"
+  }
+}

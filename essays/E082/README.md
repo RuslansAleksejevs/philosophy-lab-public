@@ -1,5 +1,7 @@
 # E082 · What a Second Look Leaves Unchecked
 
+[Original research files and revision evidence](../../docs/essay-evidence/E082.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

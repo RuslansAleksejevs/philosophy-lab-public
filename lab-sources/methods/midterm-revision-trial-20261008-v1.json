@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "midterm-revision-trial-20261008-v1",
+  "stages": [
+    "question",
+    "sources",
+    "contribution",
+    "critique",
+    "decision"
+  ],
+  "scope": "Three separate AI revisions E050/E036/E078, six fresh blind Codex comparisons (both orders), three fresh blind Claude comparisons (one precommitted order each).",
+  "settings": {
+    "codex_revision": "gpt-6-astra/high",
+    "codex_comparison": "gpt-6-astra/high",
+    "claude_comparison": "claude-opus-5-5/high"
+  },
+  "transport": "Codex existing full97 first-party subscription fresh CLI, tools/web/memories/project instructions disabled; complete inline inputs. Claude existing subscription file runner, new neutral packet each, no public web.",
+  "lineage": "Exact parent hashes and descendant IDs precommitted; all originals retained. Criticism supplied to revisers is AI-origin; human contribution is process authorization and later selection.",
+  "archive": "Input snapshots and authority before generation; complete visible outputs, native input/model/effort verified and canonically archived before dependent comparisons and synthesis.",
+  "stopping": "Actual quota, provider/configuration/isolation failure or mandatory archive error stops dependent work; no retry scheduler or paid API.",
+  "limits": "Three trial revisions only. Two order observations are not robust bias estimation; Claude order not fully controlled. No causal comparison between providers. New-source verification not part of this bounded internal-argument revision/comparison trial; retain original source caveats.",
+  "instruction_provenance": "Latest user explicitly approved described revisions/comparisons and asked to add Claude; previous final AI synthesis supplied selected repairs."
+}

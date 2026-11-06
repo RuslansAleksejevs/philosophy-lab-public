@@ -1,0 +1,21 @@
+{
+  "job_id": "{{CRITIC_JOB_ID}}",
+  "essay_id": "{{ESSAY_ID}}",
+  "run_id": "{{RUN_ID}}",
+  "stage": "critic",
+  "parent_job_id": "{{PARENT_AUTHOR_JOB_ID}}",
+  "prompt": "{{CRITIC_PROMPT_TEXT}}",
+  "model_requested": "{{REQUESTED_MODEL_OR_UNKNOWN}}",
+  "effort_requested": "{{REQUESTED_EFFORT_OR_UNKNOWN}}",
+  "style": "{{STYLE_BRIEF}}",
+  "public_web": "{{PUBLIC_WEB_BOOLEAN}}",
+  "selected_inputs": [
+    {"source": "{{RULES_SOURCE_PATH}}", "label": "rules.txt", "scope": "neutral"},
+    {"source": "{{EXACT_DRAFT_PATH}}", "label": "draft.md", "scope": "essay", "owner_essay_id": "{{ESSAY_ID}}"},
+    {"source": "{{AUTHOR_SOURCE_MANIFEST_PATH}}", "label": "author-source-manifest.json", "scope": "essay", "owner_essay_id": "{{ESSAY_ID}}"},
+    {"source": "{{JUDGE_PROFILE_PATH}}", "label": "judge-profile.md", "scope": "neutral"},
+    {"source": "{{JUDGE_PRIMARY_WORK_PATH}}", "label": "judge-primary-work.txt", "scope": "neutral"},
+    {"source": "{{PRIMARY_SOURCE_PATH}}", "label": "primary-source.txt", "scope": "neutral"}
+  ],
+  "required_outputs": ["critique-001.md", "source-check-001.md", "reviewer-coverage-001.json"]
+}

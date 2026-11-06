@@ -1,0 +1,54 @@
+{
+  "schema": "hundred-argument-map-v1",
+  "proposal_id": "idea-088",
+  "stage": "expansion-001",
+  "question": "Can correction infrastructure change permission to assert a proposition when the speaker's evidence, confidence, content and audience are fixed?",
+  "status": "conceptual proposal; no literature check",
+  "terms": {
+    "evidence_level_propriety": "Whether the speaker's evidence meets the relevant epistemic standard for categorical assertion of p.",
+    "communicative_permission": "Whether the speaker may perform the whole message act, considering foreseeable consequences, alternatives and duties.",
+    "practice_level_record_permission": "Whether an assertion and its correction obligations may be entered into a shared, updateable record; its epistemic status remains to be defended."
+  },
+  "claim": {
+    "revised": "Correction availability alone does not improve evidence-level entitlement to assert p. It can change all-things-considered permission and may affect a separately defended practice-level record norm.",
+    "relation_to_original": "Narrows the original idea. The strong reading that repairability makes an otherwise unsupported categorical assertion epistemically proper is rejected unless a separate record-level norm is established.",
+    "candidate_parent": "candidate:hundred-projected-a3e0077681f94e79a88becae01b327aea3eb4569"
+  },
+  "premises": [
+    {"id":"P1","text":"Hold fixed the speaker's evidence, confidence, proposition, categorical force, audience and information about p at assertion time."},
+    {"id":"P2","text":"A correction channel by itself adds no evidence that p is true and changes neither p nor the speaker's knowledge or justification concerning p."},
+    {"id":"P3","text":"If evidence-level propriety depends on the speaker's evidential relation to p and the applicable assertion standard, P1 and P2 leave that propriety unchanged."},
+    {"id":"P4","text":"All-things-considered permission may depend on foreseeable uptake, repair costs, alternatives and obligations, which a reliable correction channel can change."},
+    {"id":"P5","text":"An updateable public-record practice may impose duties of monitoring and visible correction, but its classification as epistemic rather than practical or moral requires an independent defense."}
+  ],
+  "inferences": [
+    {"from":["P1","P2","P3"],"to":"C1","strength":"deductive conditional","text":"If the evidence standard is fixed, a channel change without an evidence change cannot raise the speaker's evidence-level entitlement."},
+    {"from":["P4"],"to":"C2a","strength":"possibility claim","text":"Repairability can change all-things-considered permission by changing the communication act's foreseeable lifecycle."},
+    {"from":["P5"],"to":"C2b","strength":"research hypothesis","text":"Practice-level permission may vary with the right and duty to correct, but this is not established as an epistemic entitlement."}
+  ],
+  "conclusions": [
+    {"id":"C1","text":"Repairability alone cannot establish evidence-level permission to make a bare categorical assertion that fails the relevant evidence standard."},
+    {"id":"C2a","text":"Repairability can affect all-things-considered communicative permission."},
+    {"id":"C2b","text":"A distinct practice-level epistemic permission is possible only if an updateable-record norm is independently defended and survives cost-matched tests."}
+  ],
+  "worked_case": {
+    "proposition":"The east archive room is open.",
+    "fixed":"Same incomplete but credible report, confidence, sentence, audience, initial uptake and information about the proposition.",
+    "contrast":"One speaker can append a visible correction and is answerable for doing so; the other cannot edit the assertion, while a moderator sends an equally visible correction at the same time.",
+    "controlled_outcomes":"Stipulate equal initial uptake, final belief, reliance, delay and practical cost.",
+    "diagnostic":"A residual permission difference may indicate accountability or record governance; it is not yet evidence of changed warrant. No residual difference supports a consequences-based narrowing."
+  },
+  "objections": [
+    {"id":"O1","challenge":"A knowledge norm makes an unknowing categorical assertion epistemically impermissible regardless of correction capacity.","reply":"Concede for evidence-level propriety unless the knowledge norm is separately challenged; investigate only separate considered or practice-level permission."},
+    {"id":"O2","challenge":"Correction only reduces expected harm above an unchanged epistemic floor.","reply":"Concede as the default explanation; use a cost-matched case. A residual difference identifies an accountability norm, not automatically an epistemic one."},
+    {"id":"O3","challenge":"A correction duty changes the speech act, so the asserted content or force is not held fixed.","reply":"If the public undertaking changes meaning, report a different communicative package, not different warrant for the same bare assertion."}
+  ],
+  "disconfirmation_conditions": [
+    "Permission judgments do not vary after evidence, audience evidence, uptake, final beliefs, delays and costs are controlled.",
+    "The effect disappears once correction availability cannot serve as evidence about p.",
+    "The record-level account cannot be distinguished from practical loss, moral accountability or changed utterance meaning.",
+    "A stable evidence norm fixes the relevant threshold and correction changes none of its conditions.",
+    "Nominally available but ineffective correction still appears to raise permission."
+  ],
+  "literature_status":"No sources retrieved or read; closest-source and originality questions remain open."
+}

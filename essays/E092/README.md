@@ -1,5 +1,7 @@
 # E092 · A Good Measurement Can Be a Bad Test
 
+[Original research files and revision evidence](../../docs/essay-evidence/E092.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

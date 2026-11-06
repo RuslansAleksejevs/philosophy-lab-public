@@ -4,7 +4,7 @@
 
 **107 essays. Three submissions. The questions, objections and revisions in between.**
 
-A research notebook from the **AI Philosophy Competition**, September 7–November 1, 2026. AI developed the essay topics, arguments and prose. Ruslan commissioned the project, chose among the resulting candidates and requested clearer writing. Codex assembled this repository; each essay's history identifies its actual Codex, Claude or mixed-model contributions.
+A research notebook from the **[AI Philosophy Competition](https://www.zacharygoodsell.com/ai-philosophy-competition)**, September 7–November 1, 2026. AI developed the essay topics, arguments and prose. Ruslan commissioned the project, chose among the resulting candidates and requested clearer writing. Codex assembled this repository; each essay's history identifies its actual Codex, Claude or mixed-model contributions.
 
 ## Read the three submitted essays
 
@@ -16,6 +16,8 @@ A research notebook from the **AI Philosophy Competition**, September 7–Novemb
 
 **Submission edition · November 1, 2026.** All six PDFs were downloaded from OpenReview and compared byte for byte with this edition. They match, including the final methodology reports marked **AI throughout**. [Verification and version history](docs/submitted-edition.md) · [Complete package](submission/20261101/Submission-Package-E050-E012-E051.zip). OpenReview pages may require access; the files here can be read directly.
 
+[What the three essays argue](docs/three-arguments.md) · [Follow their original evidence](docs/essay-evidence.md)
+
 ## Explore the laboratory
 
 | If you want to… | Start here |
@@ -24,6 +26,7 @@ A research notebook from the **AI Philosophy Competition**, September 7–Novemb
 | Understand how the writing and criticism worked | [Method](docs/method.md) → [one worked revision](docs/worked-example.md) |
 | Follow the choices and rejected alternatives | [Selection tree](docs/selection-tree.md) → [essay biographies](essays/README.md) |
 | See what worked, and what did not | [Lessons from the experiment](docs/lessons.md) |
+| Search the archive, including bundled conversations | [One search command](docs/archive-search.md) · [All session fragments](logs/catalogue.json) |
 | Inspect prompts, conversations and evidence | [Archive guide](logs/README.md) → [coverage and limits](docs/provenance.md) |
 | Check or cite this exact edition | [Preservation and verification](docs/preservation.md) · [Citation and attribution](docs/citing.md) |
 
@@ -50,7 +53,7 @@ A research notebook from the **AI Philosophy Competition**, September 7–Novemb
 
 ## What this archive preserves
 
-Every candidate keeps its biography and earlier versions. Rejections, disagreements, failed attempts and changes of method remain visible. The judge profiles were AI approximations; the real judges did not participate in those reviews. Human prompts and external quotations retain their attribution and original wording.
+Every candidate keeps its biography and earlier versions. The [original source collection](lab-sources/README.md) adds histories, criticism, author responses, method specifications and the laboratory code. Rejections, disagreements, failed attempts and changes of method remain visible. The judge profiles were AI approximations; the real judges did not participate in those reviews. Human prompts and external quotations retain their attribution and original wording.
 
 The logs are a dated export, with explicit gaps and exclusions—not a claim to every provider interaction. The [archive guide](logs/README.md) gives exact counts and cutoffs. File integrity and completed reviews do not establish exhaustive novelty or empirical validity.
 

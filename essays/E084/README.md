@@ -1,5 +1,7 @@
 # E084 · Listening Again Without Listening Less
 
+[Original research files and revision evidence](../../docs/essay-evidence/E084.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

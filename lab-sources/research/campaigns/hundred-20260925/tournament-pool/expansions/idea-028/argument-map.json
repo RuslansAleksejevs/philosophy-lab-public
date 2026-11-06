@@ -1,0 +1,108 @@
+{
+  "schema": "hundred-argument-map-v1",
+  "candidate": "idea-028",
+  "question": "When do equal final chances fail to make a lottery fair because of post-draw acceptance authority?",
+  "claim_status": "narrowed_and_provisional",
+  "claim": "For a lottery used to replace discretionary ranking between equal claims, equal chances alone do not establish procedural fairness when an interested party has unreviewable authority to make exceptions after observing a draw. A binding acceptance rule or justified, answerable delegation is needed. The stronger claim about authority under guaranteed outcome-neutral constraints is unresolved.",
+  "scope": {
+    "included": [
+      "indivisible benefit",
+      "equal claims by stipulation",
+      "lottery used instead of comparative discretionary ranking",
+      "interested actor with possible post-draw exception authority"
+    ],
+    "excluded_or_unsettled": [
+      "all lotteries",
+      "all administrator roles",
+      "mere physical execution of a binding rule",
+      "pure status objection when every allowed act preserves all relevant chances"
+    ]
+  },
+  "distinctions": [
+    {
+      "term": "outcome neutrality",
+      "definition": "Equal probability of each claimant receiving the good under the implemented mechanism, conditional on relevant information."
+    },
+    {
+      "term": "acceptance authority",
+      "definition": "Power after observing a draw or history to decide whether its result binds or is replaced."
+    },
+    {
+      "term": "constraint",
+      "definition": "A prospective rule, review procedure, or valid delegation that makes acceptance authority answerable."
+    },
+    {
+      "term": "disclosure versus constraint",
+      "definition": "Publishing a rule informs participants; it does not bind an official who can depart without review."
+    }
+  ],
+  "premises": [
+    {
+      "id": "P1",
+      "text": "A lottery between equal claims can be justified as avoiding discretionary ranking where no relevant basis for ranking is available.",
+      "status": "normative premise; needs source-grounded defense"
+    },
+    {
+      "id": "P2",
+      "text": "Equal final probabilities establish a distributive feature but do not specify who controls finality after a draw.",
+      "status": "conceptual distinction"
+    },
+    {
+      "id": "P3",
+      "text": "Unreviewable post-draw exception power gives its holder a second-order right to decide which realization governs.",
+      "status": "institutional description; case dependent"
+    },
+    {
+      "id": "P4",
+      "text": "When a lottery is offered to replace discretionary ranking, an interested holder’s unreviewable exception power reintroduces discretion at the point of finality.",
+      "status": "central inferential premise; contestable"
+    },
+    {
+      "id": "P5",
+      "text": "Such reintroduced discretion is procedurally unfair absent valid delegation or an answerable public constraint.",
+      "status": "central normative premise; unresolved under guaranteed outcome-neutral authority"
+    },
+    {
+      "id": "C",
+      "text": "Equal chances under an announced rule are insufficient where an interested party can make unreviewable post-draw exceptions.",
+      "status": "provisional conditional conclusion"
+    }
+  ],
+  "worked_case": {
+    "mechanism": "X,Y are independent fair bits. If X differs from Y, use X. If X equals Y, rerun with independent fair bit Z.",
+    "calculation": {
+      "P_A": "1/8 + 1/8 + 1/4 = 1/2",
+      "P_B": "1/2",
+      "details": "XX=00 and XX=11 each contribute 1/8 to A after rerun; X=1,Y=0 contributes 1/4; X=0,Y=1 contributes 0."
+    },
+    "deviation": "If the official accepts A on X=Y=1 instead of rerunning, P(A) rises by 1/8 to 5/8.",
+    "what_it_shows": "A binding symmetric rerun can be outcome-neutral; an unreviewable exception can alter the distribution.",
+    "what_it_does_not_show": "It does not establish a pure procedural complaint when every permitted exercise is guaranteed to preserve all relevant chances."
+  },
+  "assessor_engagement": [
+    {
+      "source": "Astra assessment, contribution astra-assessment-idea-028",
+      "attribution": "01a0dbb8-f987-7ab3-887f-5f4d38ed758a",
+      "challenge": "Does objectionable control remain with full disclosure and guaranteed preservation of every relevant chance?",
+      "response": "The proposal distinguishes disclosure from a binding constraint and answers only cases where unchecked exceptions can alter outcomes; the stronger equal-chance case is explicitly unresolved."
+    },
+    {
+      "source": "Sol assessment",
+      "attribution": "No separately attributed contribution declared in the supplied file.",
+      "challenge": "The status objection may disappear under full disclosure, waiver, and preserved probabilities, or reduce to deception/control already captured elsewhere.",
+      "response": "Accepts the force of valid informed delegation and narrows the claim; disclosure alone is not treated as equivalent to enforceable constraint. The unresolved status-only case remains open."
+    }
+  ],
+  "failure_conditions": [
+    "A fully specified equal-conditional-probability model with meaningful unreviewable post-draw authority yields no defensible fairness complaint.",
+    "Primary-source analysis supports an outcome-only account in the closest domain.",
+    "Valid informed and optional delegation defeats the concern across the intended scope.",
+    "The constraint/administration distinction cannot be defended without begging the question.",
+    "Closest literature already contains the same contribution without a defensible refinement."
+  ],
+  "research_status": {
+    "primary_sources_read": [],
+    "literature_check": "not performed",
+    "novelty": "UNKNOWN"
+  }
+}

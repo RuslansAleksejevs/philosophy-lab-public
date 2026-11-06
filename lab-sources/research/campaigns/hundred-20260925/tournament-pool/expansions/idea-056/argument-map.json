@@ -1,0 +1,50 @@
+{
+  "schema": "hundred-argument-map-v1",
+  "candidate": "idea-056",
+  "version": "expansion-001",
+  "status": "provisional_argument_proposal",
+  "question": "Can a still-guilty wrongdoer cease to face a deferred punitive desert claim because sustained accountability changes the present answerability relation?",
+  "claim": "Only where a punitive desert claim is constitutively an ongoing demand for answerability can its remaining burden lapse after that demand is independently and publicly met; guilt and independent grounds for sanction persist separately.",
+  "scope_conditions": [
+    "The original culpable wrong and guilt remain true.",
+    "The claim at issue is grounded in an unanswered answerability demand, not a fixed quantity of hardship owed under every theory of desert.",
+    "Accountability is sustained, truthful, conduct-based, independently reviewable, and not inferred from remorse or elapsed time alone.",
+    "Other legal, protective, deterrent, restorative, or proportionality grounds are outside the conclusion."
+  ],
+  "terms": {
+    "guilt": "The enduring backward-looking fact that the person culpably did wrong.",
+    "answerability": "Truthful acknowledgment, acceptance of responsibility, feasible repair, cooperation with public accounting, and continued availability to answer; proposed criteria, not validated standards.",
+    "punitive_claim": "A present claim to impose a punitive burden on the ground that the offender has not answered for the wrong.",
+    "lapse": "The loss of that remaining answerability-based claim; not innocence, forgiveness, legal immunity, or erasure of the public record."
+  },
+  "premises": [
+    {"id":"P1","text":"Later conduct cannot make the past culpable wrong or enduring guilt false.","status":"conceptual_boundary"},
+    {"id":"P2","text":"Some punishment theories ground a present punitive desert claim in an ongoing directed demand for answerability.","status":"unverified_theoretical_premise","critical_dependency":true},
+    {"id":"P3","text":"Answerability can in principle be met through public, non-punitive conduct rather than equivalent imposed suffering.","status":"unverified_substantive_premise","critical_dependency":true},
+    {"id":"P4","text":"When answerability is independently verified as complete, further hardship solely to force that same answerability has no unanswered demand as its ground.","status":"inference_from_P2_P3"},
+    {"id":"P5","text":"A present desert claim conditional on an unanswered demand ceases when that condition is no longer true.","status":"conditional_normative_bridge","critical_dependency":true}
+  ],
+  "inference": {
+    "from": ["P2","P3","P4","P5"],
+    "to": "A narrow deferred punishment claim can lapse while guilt persists.",
+    "failure_point": "If desert is fixed by the completed wrong, or if accountability cannot satisfy the relevant demand without punishment, the conclusion does not follow."
+  },
+  "worked_case": {
+    "case": "Two officials commit the same culpable safety-report fraud, cause the same harm, and evade review for the same period. One later discloses fully, accepts public judgment, cooperates, and makes feasible repair; the other continues to conceal and deny. A fair process verifies both records; the injured party refuses forgiveness.",
+    "predicted_difference": "Only the answerability-based remaining punitive claim lapses for the first official, if the premises hold.",
+    "held_constant": ["original wrong", "harm", "elapsed time", "later social consequences", "available protective measures", "victim refusal to forgive"],
+    "limits": ["hypothetical case", "cannot alone separate desert from mercy", "fairness of the verification process is unresolved"]
+  },
+  "objection": {
+    "content": "Completed wrongdoing fixes desert; later reform cannot alter it. Lapse rewards evasion, disadvantages less articulate or poorer offenders, and disguises mercy or policy as desert.",
+    "answer": "Narrow the claim to a present answerability-based desert relation; reject mere time, regret, or self-description as triggers; require an accessible conduct-based public process.",
+    "unresolved_residue": "This does not settle temporal fairness for people punished before later accountability, or establish that answerability is constitutive of desert rather than mitigation."
+  },
+  "assessor_engagement": [
+    {"source":"Astra individual assessment; session 01a0dbb8-f987-7ab3-887f-5f4d38ed758a", "contribution_id":"astra-assessment-idea-056", "challenge":"Why would a changed relationship alter desert itself rather than merely provide a competing reason not to impose deserved punishment?", "response":"The argument makes the distinction depend on P2 and P5: the relevant desert claim is defined as conditional on an unanswered relation. This is a substantive, unverified premise; if fixed desert is correct, the candidate fails."},
+    {"source":"Sol comparison assessment; session 01a0dbb9-389a-7bb3-a2ac-7cc1c5478165", "contribution":"No separate new argument declared.", "challenge":"The internal-expiry mechanism remains indistinguished from mercy, proportionality, and institutional purpose.", "response":"The matched case holds time, harm, later consequences, and forgiveness constant, but this does not yet prove the distinction. The remaining source and conceptual tests explicitly target it."},
+    {"source":"Root selection reason; current AI orchestration", "challenge":"Avoid rewarding evasion or unequal access to self-reform; do not relabel a familiar permissibility limit as a new theory of desert.", "response":"Elapsed time and unaudited reform are excluded as triggers. Evasion and access fairness remain serious unresolved risks, and originality is not claimed."}
+  ],
+  "literature_status": "No source retrieval or reading performed; originality UNKNOWN.",
+  "source_manifest_path": "research/campaigns/hundred-20260925/tournament-pool/expansions/idea-056/source-evidence-manifest.json"
+}

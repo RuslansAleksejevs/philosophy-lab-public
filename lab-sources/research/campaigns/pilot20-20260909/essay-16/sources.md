@@ -1,0 +1,16 @@
+# Source investigation
+
+Retrieved 2026-09-09 UTC via web search/open/find. Exact retrieval timestamps are in visible tool event metadata; no invented second-level times. Scope: focused primary-source passages, not full-book reading. Source URLs and locators are retained below and in sources/retrieval-notes.md.
+
+1. James Pryor (2000), “The Skeptic and the Dogmatist,” Noûs 34(4):517–549. https://www.jimpryor.net/research/papers/Skeptic.pdf . Read opening pp.517–521, especially p.519. Dogmatism permits defeasible perceptual justification without antecedent supporting beliefs.
+2. Jonathan Vogel (2008), “Epistemic Bootstrapping,” Journal of Philosophy 105(9):518–539. https://fitelson.org/seminar/vogel2.pdf . Read pp.518–522. Gauge-based self-certification contrasted with a dipstick comparison.
+3. Jonathan Weisberg (2010), “Bootstrapping in General,” Philosophy and Phenomenological Research 81(3):525–548. https://jonathanweisberg.org/pdf/Bootstrapping%20in%20General.pdf . Read author PDF §§4.1–4.3, PDF pp.10–16, plus §5 excerpts. No Feedback constrains amplification through intermediate conclusions; it allows informative checks among faculties.
+4. Elise Woodard (2024; online 2022), “Why Double-Check?” Episteme 21(2):644–667. https://doi.org/10.1017/epi.2022.22 . Read publisher HTML §§1–3 and displayed later objection passages. Checking can seek epistemic goods beyond knowledge, including sensitivity to errors.
+5. Guido Melchior (2023; online 2022), “Précis on Knowing and Checking: an Epistemological Investigation,” Acta Analytica 38:1–13. https://philpapers.org/archive/MELPOK-2.pdf ; https://doi.org/10.1007/s12136-022-00540-1 . Read primary précis opening and chapter 6 overview via indexed text; opened PDF to verify. Sensitivity-based checking is already a developed view. Monograph itself not read.
+6. Miguel Ángel Fernández-Vargas (2022), “Epistemic bootstrapping as a failure to use an independent source,” Philosophical Issues 32(1):65–81. https://doi.org/10.1111/phis.12226 . Abstract and metadata only: PDF/full links redirect to abstract. Independence is explicitly an existing proposal. No detailed criticism of unavailable argument is warranted.
+
+## Novelty assessment and narrowed question
+The general proposal in question.md is substantially anticipated: discrimination, checking, and independence are established connections. Do not advertise those as new. Develop instead an explicit residual-error result: a successful recheck may raise confidence in a perceptual proposition while increasing the conditional concentration of its remaining error in untested shared causes. Derive implications for what it means to say a belief has been checked, and for selecting subsequent checks. The elementary probability result is not claimed mathematically new; philosophical value lies in its application and interpretation. Priority remains uncertain, especially pending fuller reading of Melchior and Fernández-Vargas.
+
+## Gaps
+Cohen discovered bibliographically but not directly read or cited. Tim Black PDF opened but no substantive argument used. Search results also exposed Roush on growth of error, Friedman on checking, and Siegel on experience influenced by belief; these were leads, not read works. No comprehensive novelty survey or empirical perceptual claims are established.

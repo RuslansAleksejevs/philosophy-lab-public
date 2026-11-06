@@ -1,5 +1,7 @@
 # E098 · Being Able to Stop
 
+[Original research files and revision evidence](../../docs/essay-evidence/E098.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

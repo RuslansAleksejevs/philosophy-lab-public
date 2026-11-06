@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "claude-manual-pilot-v1",
+  "status": "AUTHORIZED_SINGLE_ESSAY_PILOT",
+  "origin": "AI_PROPOSED_UNDER_EXPLICIT_USER_TEST_REQUEST",
+  "effective_from": "Only the round explicitly binding these bytes",
+  "stages": ["question", "sources", "contribution", "critique", "decision"],
+  "rationale": "Test one real Claude subscription essay and its visible provenance through one separate critique and one revision.",
+  "independent_critique": "One fresh Claude critic session receives only this essay's archived draft, source evidence and a neutral rubric. This is general philosophical criticism, not a named-judge simulation.",
+  "revision": "A fresh Claude author-role session receives this essay's archived draft, sources and critique. It is recorded as a new revision context, not the original author's resumed session.",
+  "archive_boundaries": "Author stops after question and sources. Codex captures and checks the exact stage before releasing dependent work. New sources in any role require the same gate.",
+  "authorship": "Claude chooses all philosophical content. Humans select process and model settings and relay neutral archive releases. Codex prepares, captures, verifies and indexes.",
+  "style": "Clear natural English manuscript; concise Russian progress and report. No word minimum; at most 6000 words excluding bibliography.",
+  "model_policy": "Use the model and effort selected by the operator in the subscription UI. Until observed, requested and observed values remain UNKNOWN; do not silently substitute a model.",
+  "budget": "Exactly one standalone essay with one critique and one revision; manual subscription launch only. No worker, scheduler, paid API, purchase, publication or submission.",
+  "comparability": "Separate from paused judges20. Different provider and one general critic; not a controlled model comparison or a permanent method ceiling. Fresh context is observable separation, not proof of independence."
+}

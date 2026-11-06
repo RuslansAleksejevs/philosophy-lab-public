@@ -1,5 +1,7 @@
 # E021 · Asking Makes You Answerable: The Question as a Normative Power
 
+[Original research files and revision evidence](../../docs/essay-evidence/E021.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

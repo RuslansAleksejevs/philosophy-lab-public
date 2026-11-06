@@ -1,0 +1,83 @@
+{
+  "schema": "hundred-idea-argument-map-v1",
+  "logical_id": "idea-103",
+  "stage": "expansion-001",
+  "candidate_relation": {
+    "type": "explicit_descendant",
+    "parent_candidate_event_id": "candidate:hundred-projected-47f03d5d41a7ae5afdd2b9180fbd705d5d22af2c",
+    "parent_lineage_id": "hundred-projected:47f03d5d41a7ae5afdd2b9180fbd705d5d22af2c",
+    "relation": "Retains the idea that an intervention can alter the social kind it is intended to test; narrows a blanket stability demand into a conditional target-link requirement."
+  },
+  "question": "When does a randomized intervention support a claim about a social practice, rather than only about the assigned package?",
+  "revised_claim": "A kind-specific interpretation requires an outcome-independent warrant linking the assigned conditions to the target practice, unless a transformation of that practice is explicitly part of the estimand. Randomization alone identifies no such interpretive link.",
+  "scope_limits": [
+    "Does not challenge identification of the assigned-package effect under ordinary design assumptions.",
+    "Does not require every intervention to preserve a social kind.",
+    "Does not establish that the proposed distinction is novel relative to construct validity or treatment-version literature."
+  ],
+  "argument": {
+    "premises": [
+      {
+        "id": "P1",
+        "claim": "A randomized design can identify a causal contrast between assigned packages under its ordinary assumptions.",
+        "role": "package-level causal result"
+      },
+      {
+        "id": "P2",
+        "claim": "A kind-specific conclusion adds that the assigned conditions instantiate the target kind in the relevant respects, or that a change of kind is included in the estimand.",
+        "role": "additional interpretive premise"
+      },
+      {
+        "id": "P3",
+        "claim": "Social kind status may depend on relations such as obligation, recognition, or reciprocal expectation, and an intervention may alter those relations.",
+        "role": "possibility claim; source support remains untested"
+      },
+      {
+        "id": "P4",
+        "claim": "Random assignment controls assignment relations to units; it does not establish the target relation between each package and the named social practice.",
+        "role": "separates identification from target interpretation"
+      }
+    ],
+    "inference": "P1 does not entail P2. If P2 is unsupported, the package effect remains available but the kind-specific interpretation is underdetermined.",
+    "conclusion": "Kind-specific experimental claims need a defended target link or an estimand that includes the transformation of the practice."
+  },
+  "worked_case": {
+    "case": "Hypothetical gift experiment comparing help with no guaranteed return against help with a guaranteed reward.",
+    "stipulations": [
+      "The target is defined before outcomes as voluntary help not governed by guaranteed reciprocal return.",
+      "For the example only, participants in the reward condition understand the guarantee as reciprocal return."
+    ],
+    "result_interpretation": "Randomization may identify the effect of the reward package on helping. The result alone does not establish an effect within the target gift practice if the reward condition changes its stipulated status.",
+    "alternative_estimands": [
+      "Package effect on helping.",
+      "Effect of reward on recognition/status of the activity.",
+      "A kind-specific contrast under a design and assumptions that justify the target link."
+    ],
+    "selection_caution": "Conditioning on post-assignment recognition of K may undo randomization balance and requires a separate estimand and assumptions."
+  },
+  "objections": [
+    {
+      "id": "O1",
+      "source": "Astra assessment, separately attributed contribution astra-assessment-idea-103",
+      "challenge": "Can an ex ante kind-stability requirement be specified without merely redescribing standard construct validity?",
+      "response": "The proposal narrows stability to a target-link warrant and tentatively distinguishes a change in constitutive relation from error in measuring an unchanged construct. Whether existing frameworks already capture this is unresolved and is a required source test."
+    },
+    {
+      "id": "O2",
+      "source": "Sol assessment; no separate assessor contribution declared",
+      "challenge": "Outcome-sensitive stability conditions could immunize a theory from failed predictions, while fixed conditions could freeze contested social categories.",
+      "response": "No universal stability is required. The target relation and counterevidence must be specified independently of outcome; failure narrows or suspends the kind-specific claim."
+    }
+  ],
+  "failure_conditions": [
+    "Primary-source work shows the distinction is fully captured by established construct-validity or treatment-version accounts, with no added contribution.",
+    "No defensible outcome-independent target rule can be given without encoding the predicted result.",
+    "A well-supported account shows that the intervention's change in recognition or reciprocal expectation is irrelevant to the identity of K in the proposed case."
+  ],
+  "research_status": {
+    "primary_sources_read": false,
+    "literature_search_performed": false,
+    "originality": "UNKNOWN",
+    "empirical_claims": "None; the worked case is explicitly hypothetical and stipulated."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "status": "REVISE_BROAD_INITIAL_CLAIM",
+  "initial_question": "What can observed accuracy establish when a forecast is made public to an agent able to respond to it?",
+  "initial_claim_disposition": "The broad observation that publicly disseminated predictions can change predicted outcomes is established in the checked sources. Do not present it as novel.",
+  "closest_existing_argument": {
+    "author": "Kenneth Stalkfleet",
+    "work": "Gettiering Goldman",
+    "citation": "Stance 4 (2011): 69-78. https://doi.org/10.5840/stance201147",
+    "coverage": "Full ten-page article read, especially pp. 75-78.",
+    "relevance": "Gene's stock forecast is justified and self-fulfilling; Stalkfleet considers a no-prophecy counterfactual repair to the causal theory of knowledge.",
+    "limit": "The proposed repair is examined, not adopted as a universal account of knowledge."
+  },
+  "strongest_rival": {
+    "authors": "Owen C. King and Mayli Mertens",
+    "work": "Self-fulfilling Prophecy in Practical and Automated Prediction",
+    "citation": "Ethical Theory and Moral Practice 26 (2023): 127-152. https://doi.org/10.1007/s10677-022-10359-9",
+    "coverage": "Selected sections of full 26-page PDF; see source note.",
+    "relevance": "Their taxonomy already separates transformative from operative causal contribution and self-securing cases; they explain how accuracy can hide process mistakes and make counterfactual classification difficult."
+  },
+  "other_close_sources": [
+    "Matthew Kopec (2011), probabilistic reflexivity and the variable evidential force of observed outcomes.",
+    "Mayli Mertens et al. (2022), hidden false positives and poor learning from self-fulfilling neuroprognoses; excerpt only.",
+    "Juan C. Perdomo et al. (2020), deployed prediction changes the outcome distribution and is evaluated under the induced distribution.",
+    "Michael P. Kim and Juan C. Perdomo (2023), accuracy and steering are different decision objectives under outcome performativity.",
+    "Donal Khosrowi (2023), model performativity is contextual and both actual and counterfactual forecasts matter."
+  ],
+  "provisional_contribution": "A modest proposition-indexing diagnosis: distinguish a forecast of the choice under the disclosed-forecast policy (Y^1) from a forecast of the choice under non-disclosure (Y^0). Accuracy about Y^1 does not establish truth or knowledge about Y^0; a causal contribution to Y^1 alone does not defeat knowledge of Y^1.",
+  "scope": [
+    "Binary choice in a one-shot setting with a forecast generated before the choice and an explicit disclosure regime.",
+    "The essay evaluates what observed exposed-regime accuracy supports; it does not offer a general theory of knowledge, agency, free will, forecasting, or causal inference.",
+    "The thesis is an inferential limitation, not a blanket claim that self-fulfilling forecasts cannot be knowledge.",
+    "Computational results, if any, concern only the specified finite structural-model class."
+  ],
+  "defeaters": [
+    "The distinction merely repeats established potential-outcomes or reflexive-prediction terminology without a useful epistemic consequence.",
+    "The claim wrongly treats Y^0 and Y^1 as the same proposition or misstates Stalkfleet's candidate repair.",
+    "A forecast that reliably predicts a known response policy already provides knowledge of exactly the proposition at issue; then the argument only blocks an inference to a different target.",
+    "The finite model search demonstrates only generic observational non-identifiability and adds no philosophical insight."
+  ],
+  "originality_limit": "The checked primary sources are targeted rather than exhaustive. No claim that no prior author has made this proposition-indexing point is warranted."
+}

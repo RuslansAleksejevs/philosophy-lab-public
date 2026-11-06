@@ -1,0 +1,55 @@
+{
+  "schema": "hundred-selected-source-evidence-manifest-v1",
+  "purpose": "Exact bounded evidence used for this conceptual expansion and a handoff map for a later fresh primary-source probe.",
+  "candidate": "idea-007",
+  "stage": "expansion-001",
+  "external_literature_checked": false,
+  "primary_sources_read": [],
+  "novelty": "UNKNOWN",
+  "selected_evidence": [
+    {
+      "role": "selected AI idea",
+      "path": "research/campaigns/hundred-20260925/tournament-pool/generator-01/ideas/idea-007.md",
+      "sha256": "1f6e978c0d8bceb0f572ae7a2ab0ca7679af484feb2604cfac72419a111cdc0c",
+      "from_event_id": "event-a93d256312104c139df9afecb9bf06b9",
+      "read_status": "full",
+      "coverage": "Whole selected sketch; it explicitly says literature and novelty remain unchecked."
+    },
+    {
+      "role": "Astra assessor feedback with separately attributed critical contribution",
+      "path": "research/campaigns/hundred-20260925/tournament-pool/assessor-astra/assessments/idea-007.json",
+      "sha256": "ff09ff5c83af589aa287857659a8fbb594ba21eb493d07bdb5af0cdf4e24018c",
+      "from_event_id": "event-7a80a0c4bc74430a9ade5d7f092d40f7",
+      "read_status": "full",
+      "coverage": "Whole assessment; the attributed challenge is preserved as Astra's contribution."
+    },
+    {
+      "role": "Sol assessor feedback",
+      "path": "research/campaigns/hundred-20260925/tournament-pool/assessor-sol/assessments/idea-007.json",
+      "sha256": "6b47c56045c4311359d5a1af57d24c91f1a794984ba3f3802d1e64378753423e",
+      "from_event_id": "event-07ddc65f00f34c60b02042a0075469a0",
+      "read_status": "full",
+      "coverage": "Whole assessment; it declares no separate assessor argument contribution."
+    },
+    {
+      "role": "Narrow selection reason and attributed assessor summaries",
+      "path": "research/campaigns/hundred-20260925/tournament-pool/selection-120-24/reasons/idea-007.json",
+      "sha256": "3bfc91ddccab3c8eb8615556d68a6f0a9a51c6dddae360ee71c8bc53ed253547",
+      "from_event_id": "event-c7807695afd945b59f77b7ff7fb36318",
+      "read_status": "full",
+      "coverage": "Whole idea-specific reason file; no aggregate ranking or decision file was consulted."
+    }
+  ],
+  "later_probe_targets": [
+    "Primary accounts of personal fission and responsibility",
+    "Primary accounts of promising, assurance, directed duties, and claim-rights",
+    "Primary accounts of shared obligations, collective agency, and joint responsibility",
+    "Primary accounts addressing personal or nontransferable promises",
+    "Closest-source comparison for the distinction between one entitlement and plural successor responsibility"
+  ],
+  "limits": [
+    "This manifest records only selected internal campaign evidence for the current proposal.",
+    "It does not contain primary-source reading, web retrieval, a literature survey, or evidence of originality.",
+    "The selected assessors reviewed only the supplied sketch; their assessments are not literature verification."
+  ]
+}

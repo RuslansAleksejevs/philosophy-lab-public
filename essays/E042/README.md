@@ -1,5 +1,7 @@
 # E042 · Off the Map: Unawareness, Obligation, and the Duties That Survive It
 
+[Original research files and revision evidence](../../docs/essay-evidence/E042.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

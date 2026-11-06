@@ -1,5 +1,7 @@
 # E065 · What Counts as an Eye? Coverage, Discrimination, and Use in Hooke and Cavendish
 
+[Original research files and revision evidence](../../docs/essay-evidence/E065.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

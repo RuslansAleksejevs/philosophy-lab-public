@@ -1,0 +1,101 @@
+{
+  "status": "REPOSITORY_REBUILD_COMPLETE_BOUNDED",
+  "completed_at": "2026-11-01T00:57:57.770072+00:00",
+  "repository": "RuslansAleksejevs/philosophy-lab",
+  "private": true,
+  "commit": "2427b4fb3008f0b848e19ded2f26bb16659ca683",
+  "tree": "e408fcaecfcfe738da037cf433f865f2050c0c1f",
+  "local_clean": true,
+  "new_paths": 425,
+  "modified_paths": 10,
+  "deleted_paths": 0,
+  "independent_reviews_accepted": 20,
+  "primary": [
+    "E050",
+    "E009",
+    "E012"
+  ],
+  "reserves": [
+    "E078",
+    "E041"
+  ],
+  "messages_exported": 15302,
+  "sessions_exported": 3407,
+  "inherited_copies_labelled": 8,
+  "production_tests_passed": 706,
+  "service_first_poll_checks_passed": 14,
+  "canonical_status_event": "event-2d4f573dcb074333b6503e1b04a04d2b",
+  "sources": [
+    {
+      "path": "runs/deep-verification-20261031/FINAL_RECEIPT.json",
+      "sha256": "ea51bb24c7e30577730ead944cdc27a701efea220b4697bcbbf846d8293099f6",
+      "bytes": 1558
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/REMOTE_UPDATE_RECEIPT.json",
+      "sha256": "33b1044fb84deb7f092a4831991f970df4687660d701a8aa252708337dc9e554",
+      "bytes": 567
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/INDEPENDENT_DELIVERY_REVIEW.json",
+      "sha256": "201725b42d361ef96353cf9b7257191da4acefc9a7bb7e35ad8b57f6b251fa4f",
+      "bytes": 3306
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/VERIFICATION.json",
+      "sha256": "19952ebe6593d9f4c72161b07bc98206b52e0769d21275517fdf796e9d11ee7d",
+      "bytes": 7428
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/FULL_EDITION_CHECK.json",
+      "sha256": "64ab804b6da4da40bff6fc765bc48d97cbdcc92494a2579a11a8db16708e671c",
+      "bytes": 3467
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/status-closeout-performance/PROJECT_STATUS_ACCEPTANCE.json",
+      "sha256": "6e024b9c58775c5e9962f000839e42eb668a58866b0f6c9b51410de8677a671b",
+      "bytes": 1622
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/ROOT_STATUS_HEADERS_RECEIPT.json",
+      "sha256": "f518e513283e58a35871ab528525a203fc55b6d18ccf3c9900163865851d0a0a",
+      "bytes": 698
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/history-audit/service-recovery-performance/execution/FIRST_COMPLETED_POLL.json",
+      "sha256": "7c913d1dd1cf954969eb642ef21f75178da6e084c392781cd9a3d578ea5f20cd",
+      "bytes": 3289
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/performance-review/installation/REQUIRED_CHECKS.json",
+      "sha256": "7550e5552bf1995140f6726f4a03adee5a0dd9334afba0af6432c03585b91a5d",
+      "bytes": 824
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/log-audit/FINAL_DELTA_VERIFICATION.json",
+      "sha256": "bf178cdccb4a0c5e1ebfee79fc8fac586d95b6205893307a54c105c2add2ff88",
+      "bytes": 1497
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/upload-transport-repair/REPAIR_MANIFEST.json",
+      "sha256": "3ba469bbcb325d08059a4291516f38755670eb0b32ef1b42259d1721e1f02ce6",
+      "bytes": 5825
+    },
+    {
+      "path": "runs/repository-rebuild-20261031/upload-transport-repair/INDEPENDENT_REVIEW.json",
+      "sha256": "48f69e83ae6cc368e05c8d8a5f5dfbd560a52751dbef2799a3500e5d573e1056",
+      "bytes": 3822
+    }
+  ],
+  "boundaries": {
+    "export_cutoff_utc": "2026-11-01T00:25:07.030876Z through 2026-11-01T00:25:28.049716Z; individual source prefixes authoritative",
+    "whole_provider_capture_claimed": false,
+    "novelty_proven": false,
+    "manuscripts_changed": false,
+    "git_history_rewritten": false,
+    "submission_performed": false,
+    "public_release_performed": false,
+    "final_delivery_status_and_this_receipt": "Local post-export administrative records; not retroactively included in delivered snapshot"
+  },
+  "next_step": "По новому поручению: точечные AI-правки рекомендованной тройки, отдельная проверка изменений, анонимный пакет и отчёт о методе. Подача — только по прямому поручению."
+}

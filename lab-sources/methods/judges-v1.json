@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "id": "judges-v1",
+  "status": "EXPERIMENTAL_NOT_VALIDATED",
+  "origin": "AI_PROPOSED_USER_AUTHORIZED_2026-09-12",
+  "rationale": "Twenty independent AI contributions with two separate, source-grounded simulations of named competition judges and author revision; later blinded assessment of sealed candidates.",
+  "effective_from": "first round explicitly binding this version",
+  "comparability": "Different method and observed settings from prior batches; no controlled superiority claim. Judge fidelity and selection validity remain empirical questions.",
+  "stages": ["question", "sources", "contribution", "critique", "decision"],
+  "independent_critique": "A first named-judge review is the canonical critique stage; a second independently captured named-judge review supplements it before author revision. Both are separate fresh sessions with only this essay and the assigned judge evidence. No cross-essay memory. Authors may disagree with either review.",
+  "budget": "Twenty authorized essays, two named-judge reviews each, one defended author revision; full panel assessment of the sealed shortlist. No word minimum. Contest ceiling remains. Claude runs use manual subscription access when available; no paid APIs."
+}

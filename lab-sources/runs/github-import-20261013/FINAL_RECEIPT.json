@@ -1,0 +1,95 @@
+{
+  "status": "PRIVATE_REPOSITORY_IMPORT_COMPLETE",
+  "verified_at_utc": "2026-10-14 05:45:00 UTC",
+  "repository": "https://github.com/RuslansAleksejevs/philosophy-lab",
+  "visibility": "private",
+  "branch": "main",
+  "commit": "514d88fc2583235d298ca41378c8661a3aa31a68",
+  "parent": "a8086059d5c1ed427134350952158931ae922ff7",
+  "tree": "bae5efa5bde05ea118c491064f39606509c9328f",
+  "local_remote_alignment": {
+    "commit_bytes_sha1_verified": true,
+    "tree_sha_identical": true,
+    "local_working_tree": "clean",
+    "remote_head_confirmed": true
+  },
+  "contents": {
+    "original_essays": 100,
+    "original_english_essays": 95,
+    "original_russian_essays": 5,
+    "separate_complete_english_reading_translations": 5,
+    "english_biographies": 100,
+    "structured_biography_entries": 642,
+    "archived_manuscript_versions": 127,
+    "midterm_R1_revisions": 3,
+    "set_aside_attempts": 7,
+    "in_progress_draft_snapshots": 6,
+    "judge_profiles": 23,
+    "original_evidence_artifacts": 93,
+    "main_methodology_decisions": 48,
+    "detailed_methodology_entries": 121,
+    "verbatim_russian_quotations_with_english_translations": 61,
+    "codex_sessions": 2935,
+    "codex_human_facing_chats": 25,
+    "codex_subagent_sessions": 461,
+    "codex_cli_sessions": 2449,
+    "codex_visible_messages": 11351,
+    "user_channel_messages_in_human_facing_chats": 289,
+    "claude_cumulative_launcher_collections": 63,
+    "claude_distinct_saved_records": 4824,
+    "claude_distinct_observed_cli_session_ids": 65,
+    "claude_legacy_bridge_jobs": 5,
+    "claude_task_input_files": 613,
+    "lossless_archive_bundles": 18,
+    "verified_bundle_members": 6564,
+    "bundle_uncompressed_bytes": 356489259,
+    "bundle_compressed_bytes": 144589993
+  },
+  "verification": {
+    "report": "runs/github-import-20261013/verification.json",
+    "edition_verifier": "repository/tools/verify_edition.py",
+    "original_manuscript_hashes": "100/100",
+    "exact_quote_offsets_and_source_message_hashes": "61/61",
+    "codex_message_text_hashes": "11351/11351",
+    "bundle_members": "6564/6564",
+    "local_markdown_links": {
+      "editorial_files_checked": 3023,
+      "broken_links": 0
+    },
+    "translation_pair_hashes": "5/5",
+    "interpretation": "Integrity checks do not certify translation quality, philosophical novelty, contest eligibility, or complete provider capture."
+  },
+  "preservation": {
+    "canonical_manuscripts_and_archives": "unchanged",
+    "russian_retrospective": "Removed from the current repository tree; original remains in runs/methodology-retrospective-20261012/. Earlier private Git history retains the earlier export.",
+    "original_prompts": "Verbatim retained visible text; no grammatical cleanup or translation in place.",
+    "translations": "English reading editions beside Russian originals; not versions evaluated during the midterm.",
+    "older_narrative_histories": "Local originals and fingerprints retained. English biographies derive from the complete canonical structured biography entries; do not claim every historical prose HISTORY file was fully translated.",
+    "editorial_language": "English, except original-language logs, attributed Russian quotations, and the five user-approved Russian-original essay lineages."
+  },
+  "coverage": {
+    "native_visible_messages_added": 91,
+    "new_host_metadata_affected_visible_messages_recovered": 59,
+    "unresolved_parser_gaps": 69,
+    "affected_sessions": 4,
+    "remaining_gap_surface": "Tool records only; no unresolved conversational-text parser item in this export.",
+    "oversized_native_files": 1,
+    "oversized_file_handling": "Existing collector view reused under the established 64 MiB bounded capture limit.",
+    "excluded": "Hidden reasoning, system/developer instructions, unrelated sessions, and unreviewed tool bodies. One temporary signed download-URL query excluded from Claude transport metadata; no human prompt altered.",
+    "boundary": "Snapshot of accessible retained records, not whole-provider capture. Human prompts are distinct from user-role AI-dispatched research packets.",
+    "collector": "Export-local recovery; no claim that the canonical background collector was globally repaired."
+  },
+  "scope": {
+    "private_github_update_authorized": true,
+    "public_release": false,
+    "submission": false,
+    "new_research_launched": false,
+    "future_public_release_choice": "After deadline: publish this repository or export the full edition to a fresh public repository while retaining intermediate Git history privately."
+  },
+  "transport": {
+    "auth": "Connected GitHub tools",
+    "git_history_rewritten": false,
+    "remote_tree_matches_local_index": true,
+    "bounded_recovery": "A GitHub tree batch exceeded the service request limit; remaining files were uploaded in smaller batches before the final tree and commit were verified."
+  }
+}

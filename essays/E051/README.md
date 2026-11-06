@@ -1,5 +1,7 @@
 # E051 · Difference without Reconstruction
 
+[Original research files and revision evidence](../../docs/essay-evidence/E051.md)
+
 **Verified submission edition · November 1, 2026.** The submitted essay and its final report were downloaded from OpenReview and matched byte for byte. [Read the final PDF](../../submission/20261101/pdf/E051-essay.pdf) · [Final text](../final-20261101/E051.md) · [Method report](../../submission/20261101/pdf/E051-methodology.pdf) · [All three](../../docs/current-selection.md).
 
 [Read the checked working text](original.md) · [Current three](../../docs/current-selection.md) · [Selection tree](../../docs/selection-tree.md)

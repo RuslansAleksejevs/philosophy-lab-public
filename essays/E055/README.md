@@ -1,5 +1,7 @@
 # E055 · Who Gets to Tell the Tool It Is Wrong?
 
+[Original research files and revision evidence](../../docs/essay-evidence/E055.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

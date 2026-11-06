@@ -1,0 +1,11 @@
+[project]
+name = "philosophy-lab"
+version = "0.1.0"
+description = "Local philosophical inquiry program: Philosophy Lab"
+requires-python = ">=3.9"
+
+[tool.philosophy_lab]
+lab_id = "philosophy-lab"
+template_version = "0.1.0-alpha.33"
+github_enabled = false
+external_monitoring_enabled = false

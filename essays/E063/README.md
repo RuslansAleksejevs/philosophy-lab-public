@@ -1,5 +1,7 @@
 # E063 · Ignorance by Design: Deliberative Jurisdiction and the Modal Structure of Fair Judgment
 
+[Original research files and revision evidence](../../docs/essay-evidence/E063.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

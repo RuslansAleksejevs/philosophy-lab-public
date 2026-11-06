@@ -1,0 +1,124 @@
+{
+  "schema": "hundred-argument-map-v1",
+  "candidate_id": "idea-026",
+  "candidate_parent_event_id": "candidate:hundred-projected-cea9f67decdc9f97cffdb8e429c9adb2ccc94e11",
+  "question": "When can a changed measurement standard count as local progress when its readings change meaning?",
+  "scope": "Only standards fully assessed on one fixed, independently justified, task-specific obligation set; no claim of global scientific progress.",
+  "definitions": {
+    "task_profile": "A versioned, precomparison record of task uses, tested cases, warranted obligations, reasons and evidence rules.",
+    "obligation_set": "Finite set O_T of independently justified distinctions or outcomes to be assessed under profile T.",
+    "met_set": "G_T(S), the obligations in O_T met by standard S on the shared evidence.",
+    "improvement": "S ≺_T S2 iff G_T(S) is a strict subset of G_T(S2), both complete on the same O_T."
+  },
+  "premises": [
+    {
+      "id": "P1",
+      "claim": "A progress claim needs an explicit basis of comparison.",
+      "role": "normative/methodological"
+    },
+    {
+      "id": "P2",
+      "claim": "A single score may hide task-relevant distinctions or impose unjustified exchange rates.",
+      "role": "conceptual; needs literature and case examination"
+    },
+    {
+      "id": "P3",
+      "claim": "A fixed task can warrant several obligations separately without ordering all trade-offs.",
+      "role": "central substantive premise; task justification is contestable"
+    },
+    {
+      "id": "P4",
+      "claim": "Set inclusion preserves all earlier met obligations and identifies additional met obligations without summing them.",
+      "role": "formal representation"
+    },
+    {
+      "id": "P5",
+      "claim": "Strict set inclusion is transitive and asymmetric on a fixed obligation universe.",
+      "role": "formal theorem"
+    }
+  ],
+  "inference": {
+    "steps": [
+      "Fix T, its obligation universe, case set and evidence rules before seeing comparative outputs.",
+      "Evaluate each standard against every obligation using common evidence; unknown outcomes block a complete comparison.",
+      "Compare met sets by strict inclusion; do not weight or total the obligations.",
+      "Infer only a local, conditional improvement claim; conflicting outcomes yield incomparability."
+    ],
+    "conclusion": "A standard may improve locally across representational change without a scalar total accuracy measure, if it preserves prior warranted success and adds success on the same fixed profile."
+  },
+  "worked_case": {
+    "status": "stipulated hypothetical only",
+    "systems": {
+      "A": {
+        "misses": 0.2,
+        "false_alarms": 1.8,
+        "scalar_sum": 2.0
+      },
+      "B": {
+        "misses": 1.2,
+        "false_alarms": 0.8,
+        "scalar_sum": 2.0
+      },
+      "C": {
+        "misses": 0.1,
+        "false_alarms": 0.1,
+        "scalar_sum": 0.2
+      },
+      "D": {
+        "misses": 2.0,
+        "false_alarms": 2.0,
+        "scalar_sum": 4.0
+      }
+    },
+    "obligations": {
+      "O1": "choose lower-miss system for the predeclared high-miss-cost use; scalar tie A/B cannot resolve, vector can select A",
+      "O2": "choose lower-false-alarm system for the predeclared nuisance-cost use; scalar tie A/B cannot resolve, vector can select B",
+      "O3": "preserve C ahead of D, which is better in both dimensions; scalar and vector both do so"
+    },
+    "result": {
+      "scalar_met": [
+        "O3"
+      ],
+      "vector_met": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "relation": "strict inclusion, conditional on the stipulated task rationale and correct assessment"
+    },
+    "limits": [
+      "No empirical detector or user behavior is asserted.",
+      "The task profile and evidence must be fixed before testing.",
+      "Actual robustness and practical costs are untested."
+    ]
+  },
+  "objections": [
+    {
+      "source": "Astra assessor, separately attributed critical challenge; session 01a0dbb8-f987-7ab3-887f-5f4d38ed758a",
+      "challenge": "Can the relation avoid cycles without reinstating the complete master ordering it rejects?",
+      "response": "Strict set inclusion on the same T is acyclic by transitivity and asymmetry; it reinstates neither a scalar nor a total ordering. The result fails to cover task switching, which must be marked incomparable without a justified bridge."
+    },
+    {
+      "source": "Sol assessor assessment; no separate contribution ID declared",
+      "challenge": "The task-relative comparison may be cyclic and may select a task that encodes the desired verdict.",
+      "response": "Freeze task obligations before candidate outputs, document independent reasons, use candidate-blind specification and sensitivity/held-out checks. These controls reduce but cannot eliminate normative contestability; if no stable justified profile remains, withdraw the comparison."
+    },
+    {
+      "source": "Root selection reason as substantive AI orchestration",
+      "challenge": "Preserve distinctions without silently substituting another scalar master measure; prevent task switching and cycles.",
+      "response": "Use an unweighted obligation set and allow incomparability. Narrow the claim to one fixed task profile; do not infer global progress across differing profiles."
+    }
+  ],
+  "falsifiers_or_narrowing_conditions": [
+    "Candidate-blind, independently justified task profiles do not support the key obligations.",
+    "The apparent gain requires a post hoc threshold, dropped obligation, or hidden weighting.",
+    "A real replacement loses a previously met obligation, so strict inclusion fails.",
+    "No cross-version obligations can be defended because concepts/cases shift too far.",
+    "Relevant primary literature already supplies the same criterion, requiring a new contribution or abandonment."
+  ],
+  "research_status": {
+    "primary_sources_read": 0,
+    "literature_check_performed": false,
+    "novelty": "UNKNOWN"
+  }
+}

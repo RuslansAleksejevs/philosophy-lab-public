@@ -1,0 +1,48 @@
+{
+  "schema": "hundred-argument-map-v1",
+  "candidate": "idea-031",
+  "version": "expansion-001",
+  "question": "Does perfect foreknowledge make an actual petition normatively idle?",
+  "bounded_conclusion": "Omniscience alone does not rule out a noninformational authorizing role for a request, given a temporal agent and a defensible act-constituted permission norm.",
+  "not_established": [
+    "that God exists",
+    "that every conception of God is temporal or responsive",
+    "that a request creates an obligation to grant it",
+    "that prayer changes outcomes or welfare",
+    "that the view is original or accurately represents the literature"
+  ],
+  "terms": {
+    "foreknowledge": "Knowing before t1 that a request will occur at t1.",
+    "request_event": "The actual performance of the petition at t1.",
+    "authorization": "A normative permission that may be constituted by an actual invitation under an applicable norm.",
+    "answering_relation": "The response at t2 stands in a relation to the performed request, not merely to prior knowledge of its content."
+  },
+  "premises": [
+    {"id": "P1", "claim": "Some legitimate permissions are constituted by the actual invitation or consent, not by an observer's evidence that such an act will occur.", "status": "substantive hinge; unverified against literature"},
+    {"id": "P2", "claim": "Knowledge of a future speech act is not identical to performance of that act; the normative fact may be indexed to occurrence.", "status": "conceptual distinction; requires source and counterargument testing"},
+    {"id": "P3", "claim": "A temporal agent can adopt a conditional policy that waits for an invitation despite knowing it will occur.", "status": "model assumption; compatible with foreknowledge in the stipulated case, but does not solve all foreknowledge/free-will debates"},
+    {"id": "P4", "claim": "After the invitation, the same action can be permitted and count as an answer without the request adding information.", "status": "follows only if P1 and the policy apply"},
+    {"id": "P5", "claim": "Omniscience alone does not entail that future permissions already obtain or that event-performance is reducible to knowledge.", "status": "limited modal premise; requires closest-source tests"}
+  ],
+  "inference": [
+    {"from": ["P1", "P2", "P3"], "to": "P4", "type": "conditional application to the temporal model"},
+    {"from": ["P4", "P5"], "to": "C", "type": "defeats entailment from omniscience to normative idleness"}
+  ],
+  "conclusion_id": "C",
+  "strongest_objection": {
+    "id": "O1",
+    "claim": "Perfect goodness and foreknowledge already include all relevant facts; a divine agent has no need for human consent norms, while timelessness excludes a before/after authorization change.",
+    "reply": "O1 needs premises beyond omniscience. The argument preserves only the temporal-model possibility and concedes that O1 may defeat application to particular divine conceptions.",
+    "residual_risk": "No timeless response relation or divine consent norm has been defended here."
+  },
+  "worked_case": {
+    "times": ["t0: listener knows the future request", "t1: actual request is performed", "t2: listener gives a stipulated welfare-neutral acknowledgment"],
+    "controlled_features": ["no new information to listener", "same words and material result stipulated", "permission and response-description may differ"],
+    "purpose": "Test the inference from foreknowledge to normative redundancy; not evidence about actual divine action."
+  },
+  "assessor_engagement": [
+    {"source": "assessor-astra/idea-031.json", "contribution_id": "astra-assessment-idea-031", "challenge": "Can authorization matter when it is timelessly or infallibly known?", "response": "Answer only the temporal infallible-foreknowledge case; timelessness remains unresolved."},
+    {"source": "assessor-sol/idea-031.json", "challenge": "Perfect goodness and foreknowledge may eliminate the timing distinction, and finite-human consent may not transfer.", "response": "Treat as a possible defeat of divine application; do not infer that the analogy establishes the theological claim."},
+    {"source": "selection-120-24/reasons/idea-031.json", "origin": "root AI selection reason", "challenge": "Specify temporality and divine agency; test prayer precedents.", "response": "Bound thesis to temporal agency and reserve source work for the next probe."}
+  ]
+}

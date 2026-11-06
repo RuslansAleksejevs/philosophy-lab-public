@@ -1,0 +1,573 @@
+# Asking Makes You Answerable: The Question as a Normative Power
+
+**Abstract.** There is now a small literature on the norms of asking, and every norm in it concerns
+how things stand *before* the answer arrives: what the asker may already believe or know, what the
+addressee must know, whether the question intrudes. Nothing in it governs what the asker owes the
+answerer afterwards. I argue that asking is a normative power with a downstream face: it authorises
+the addressee to speak, burdens them with a need to respond, and makes the asker answerable to them
+for what becomes of the answer. The argument turns on what answering is — not a commodity handed
+over but a judgment staked, receivable only through its content and on its author's authority. An
+asker who has foreclosed that reception has proposed a joint undertaking he is not party to, so the
+burden he purported to impose does not arise, though the authorisation he issued does.
+
+---
+
+## 1. Then why are you asking?
+
+Three complaints, none of which is a complaint about being lied to.
+
+**Consultation.** A council publishes a draft scheme and invites residents to comment. The scheme
+has in fact been fixed; the comments will be read, counted and filed, and everybody knows it.
+Residents comment anyway, or bitterly decline. Nobody has been deceived or coerced. And yet the
+exercise is a paradigm of public bad faith.
+
+**Advice.** You ask what I think you should do about your marriage. I give you an hour and tell you
+something hard. You had already decided; you say so afterwards, cheerfully. I feel used — though I
+cannot easily say I was harmed, since the hour was freely given, nor that you were insincere, since
+you did want to hear me.
+
+**Interrogation.** A courteous interlocutor asks me, in public, for evidence of a claim I have made.
+I supply it; he asks again, slightly differently; this continues. He is unfailingly polite and has
+misrepresented nothing. But whatever I produce will meet another question, and the eventual verdict
+— his and the audience's — was settled before the first one.
+
+In each case the natural retort is the same, and it sounds curiously *constitutive* rather than
+moral: **then why are you asking?** Not "you shouldn't have asked," which concedes that an asking
+occurred, but a demand to be shown that the act was one of its kind at all. I shall argue that
+asking a question of another person exercises a normative power whose burden-imposing side is
+conditional on the asker's own liability to account. Where the asker is not in a position to be
+answerable, the addressee owes no answer — and, what matters more, owes no excuse for not answering.
+
+## 2. Where the norms of asking now stand
+
+This territory is not untouched, and the shape of the gap is the shape of my contribution. Three
+norms on asking are in circulation, collected by Habgood-Coote as *Belief* ("one must: inquire into
+Q, only if one doesn't believe a complete answer to Q"; Friedman 2017), *Ignorance* (the same with
+"know"; Whitcomb 2017) and *Knowledge* ("only if one knows that the presuppositions of Q hold";
+Willard-Kyle 2023) (Habgood-Coote 2026, §5); his own *Common Belief*, *Shared Ignorance* and
+*Distributed Knowledge* replace those individual states with collective ones (§5). Haziza indexes a
+condition to the person asked: "inquirers should not ask addressees who fall short of a certain
+epistemic status," namely knowledge (Haziza 2023, abstract).<sup>[1]</sup> Millson and Risjord are
+reported to hold that asking "either commits the speaker to having an interrogative attitude to a
+question, or commits the hearer to answering that question" (Habgood-Coote 2026, n. 2). Berstler
+argues, in a paper I have read only in abstract, that intrusive questions can violate privacy
+rights, since "when you ask me a question, you sometimes undermine my effective control over
+whether to reveal the answer to you" (Berstler 2023, abstract). And there is a recent ethics of
+defective questioning: Whitcomb and then Robinson, Alfano and Astola on bullshit questions, Claeys
+on sealioning, Berenstain on the extraction of epistemic labour from the marginalised.
+
+Sort these and a pattern appears. They are conditions on the asker's prior epistemic state, or the
+addressee's, or on intrusion, or on the asker's attitude when asking — every one satisfied or
+violated by the time the question leaves his mouth. None says anything about what he owes the
+answerer once the answer is in. Habgood-Coote comes closest, from an unexpected direction:
+"second-person directives generate a commitment to non-interference," so that one who says "pass the
+salt!" and then knocks the salt from the addressee's hand is "open to legitimate criticism ... that
+goes beyond general norms against impoliteness"; he "might even be generating a commitment to help"
+(2026, §4). That is a speaker-side commitment of exactly the family I want, but he states it for
+directives without transposing it to asking, and his commitments are discharged while the answering
+goes on, not after. He also marks my question as open: "there's an interesting question how we ought
+to make sense of question-asking in non-cooperative contexts in which neither speaker or hearer
+wants to find out the answer to the question asked" (n. 31).
+
+So the narrow claim I need: nothing in this literature is owed by asker to answerer about what
+becomes of the answer once given. The remaining neighbour is zetetic — Friedman's principle that "if
+one wants to figure out Q?, then one ought to take the necessary means to figuring out Q?" (Friedman
+2020, §1; author's PDF, 2) — and asking somebody is usually the cheapest means, so what the inquirer
+owes the person leaned on is a question that formulation does not reach either.
+
+## 3. Three families of diagnosis that get part of it
+
+The first family goes quickly. Perhaps the asker was **insincere**. But the council is genuinely
+curious what residents think, and my interlocutor may be interested in my evidence in the way a
+collector is interested in specimens; wanting to hear is not wanting to be moved, and sincerity
+attaches to the state an act expresses, whereas the trouble lies in what the asker will *do*. Or
+perhaps he **deceived** me. But the wrong survives disclosure: stipulate that the council prints
+"our decision is final," that my friend says "I've decided, but tell me anyway," that my
+interlocutor announces nothing will change his mind, and the exercise is worse rather than better. A
+wrong aggravated by being announced is not a species of deception. Nor is it **cost**, since the
+complaint survives its absence: "do you mind if I bring my dog?" — "not at all"; if I had already
+loaded the dog into the car I have wronged you, and not by costing you a syllable. The complaint
+tracks *uptake*, not *expenditure*.
+
+The second family, and the strongest rival, is **exploitation**. Berenstain: "epistemic exploitation
+occurs when privileged persons compel marginalized persons to produce an education or explanation
+about the nature of the oppression they face," marked by "unrecognized, uncompensated, emotionally
+taxing, coerced epistemic labor" (2016, §2). She has the demand-and-dismissal pattern squarely — the privileged "demand the
+epistemic labor of the marginalized" and then "dismiss[] the knowledge produced" (§2) — sees that
+such demands "may appear to be invitations to participate in knowledge production" while what is
+offered is "not taken to be genuine contributions to knowledge" (§5), lists "just asking a question"
+among the euphemisms the practice travels under (§2), and asks my question almost verbatim: "how can
+we make sense of the fact that the privileged demand labor from the marginalized and then fail to
+make use of the fruits of that labor?" (§5). Her answer is functional, and right for her cases: the
+pattern persists because of "the role that epistemic exploitation plays in upholding the active
+ignorance of the dominantly situated" (§5). But it does not reach the council, the friend or the
+examiner, where the pattern recurs with no domination in play. Berenstain has the phenomenon and has
+it first; what I add is an explanation internal to the act rather than to the system it serves.
+
+The third family treats the fault as **hostility or insouciance**: Claeys on sealioning as fusing
+"persistent questioning ... with a loudly-insisted-upon commitment to reasonable debate" (Johnson
+2017, 13, quoted in Claeys 2024) in service of "the political goal of forestalling action on the one
+hand, and the epistemic goal of undermining the victim's authority on the other"; Robinson, Alfano
+and Astola on the bullshit question, where "the speaker does not care about the truth of the
+answer," "intends to perform a non-interrogative illocutionary act by means of the utterance," and
+"intends to obscure the nature or existence" of that act (2025, §3.2), thereby using "the
+interlocutor as a mere prop" and disrespecting them "as an epistemic agent ... offering testimony
+that is likely to receive uptake" (§4). Both are persuasive for their cases and the second is a near
+relative of mine. But the council harasses nobody, and my friend is not in bad faith about herself;
+she is careless about what she has done to me. And in the bullshit account concealment is a
+conjunct: strip it away and the transparent council and the candid friend — my flagship cases — fall
+outside the analysis. Nor is that account directed; the wrong is a vice assessed in the round, with
+no obligation owed *to* the answerer that she could waive or demand in her own name, whereas what
+the sealioned target needs is a standing she can invoke. All three diagnoses treat the asking as
+normatively inert and look for the wrong *around* it. My proposal is that the asking is not inert.
+
+## 4. Asking as a normative power
+
+A normative power is a capacity, exercised intentionally and recognised as such, to change the
+normative situation by exercising it. Promising is the standard case: "a special sort of power we
+have over our normative circumstances, the power to invoke obligations by promissory utterance,"
+distinguished by the fact that "promisors obligate themselves directly, by their own powers,"
+rather than via convention or engendered expectation (Habib 2022, §1). Consenting is another.
+
+*First, asking burdens.* After a question has been put to me, my silence needs a licence. I may
+answer, or say "I'd rather not," or "look it up" — but some such move is now called for, and simple
+non-response is a small offence that it was not a moment earlier. Contrast being told something: I
+may receive an assertion in silence without owing anybody anything.<sup>[2]</sup> The burden is
+defeasible and often tiny, but normative rather than merely social, as is shown by the fact that
+"you didn't answer my question" is a rebuke, and that our most formal institutions — the subpoena,
+the parliamentary question — are elaborations of it rather than exceptions. Habgood-Coote, who
+rejects classifying asking as a directive, grants the burden anyway: "asking calls for a response —
+either a direct answer ('the bus comes at 11.30') or an excuse ('I don't know')" (2026, §1). I need
+no more: on his own view asking is a proposal, and a proposal calls for acceptance or refusal.
+
+*Second, it authorises.* A question confers on its addressee a standing to speak on a matter they
+may not otherwise have had. "You asked" is a complete defence to the charge of offering an unwanted
+opinion. This is easy to miss because the power is benign, but it is a power: the asker opens a
+door, and what comes through it enters licensed.
+
+*Third — the thesis — it makes the asker answerable.* Having summoned the answer, the asker owes the
+answerer both that the answer be allowed to bear and an account, if asked, of how it bore.
+
+Two notions make the third mark precise. First, every ask directs the answer somewhere. Call the
+**bearing point** of an ask the attitude or decision to which answers of the kind it calls for are
+addressed, in the setting in which it is put. This is not the asker's private purpose; it is fixed
+publicly, by what would count as answering the question together with where answers of that kind go
+in that setting. "What time is it?" is addressed to the asker's belief about the time; "may I borrow
+your car?" to his decision whether to take it; an examiner's "what is the capital of Mali?" not to
+his belief about Mali but to his assessment of the candidate — which is why Searle's distinction
+between "requesting information" and "requesting that the hearer display knowledge" (Cross and
+Roelofsen 2026, §1.1) marks a difference of bearing point rather than a list of exceptions.
+
+Second, there is a way of taking in an answer that is not receiving it as one. An answer bears *as
+an answer* only if it bears through its content, taken on the answerer's authority — if the
+answerer's say-so does the work. Call this **answer-reception**, and contrast **symptom-use**:
+treating the utterance as evidence about the answerer, or about how an audience will react, rather
+than as a claim advanced on the answerer's own credit. A council that reads consultation responses
+to predict which objections will generate litigation is certainly putting them to use, and could
+give a crisp account of the use; but it is not receiving them as answers to the question it asked.
+It is reading them as symptoms.
+
+> **Live Dependence (LD).** At the time of asking, the asker is positioned to let the answer bear,
+> by answer-reception, on the ask's bearing point; and there are two answers within the range the
+> asker takes the addressee might give between which the bearing-point attitude, so formed, would
+> differ.
+
+> **Accounting (AC).** The asker is disposed, on the addressee's request and within reasonable
+> limits, to say how the answer bore on the bearing point.
+
+> **Standing (ST).** The asker is entitled to impose on this addressee the burden that answering
+> would involve, given who they are, who the addressee is, how available the answer is elsewhere,
+> and how often it has already been given.
+
+> **Fair Terms (FT).** The ask is not so structured that every available response is costly to the
+> addressee.
+
+LD, ST and FT are conditions on the burden-imposing side of the power; AC is an obligation generated
+by an exercise that meets them, so failing it is a breach rather than a nullity. Two clarifications,
+since the thesis is easily over-read. LD does not require that the asker be undecided or likely to
+change his mind: he may be ninety-five per cent sure and satisfy it comfortably, since it requires
+only that the answer be *positioned* to make a difference where answers of that kind belong. And AC
+requires no justification, only that the asker show the answer was received as an answer rather than
+noise. Searle's preparatory condition on requests gestures at ST — "the act must have a point"
+(Searle 1965, 12) — but only gestures; turning pointlessness into a condition of *entitlement to
+impose a burden on this person* is my extension, not his.
+
+## 5. Why the asker is answerable: the argument from staked judgment
+
+Why should soliciting an answer bind the solicitor? Commands do not bind the commander; requests for
+objects do not oblige the requester to use them.
+
+The answer lies in what an answer is. Compare asking you to pass the salt with asking you where the
+salt is. In the first you supply a thing, and the thing is indifferent to your supplying it. In the
+second you supply *your judgment*: you advance a claim on your own authority and invite me to take
+it on your say-so. You stake yourself. If you are wrong you are on the hook in a way no conduit is
+— "you told me it was in the cupboard" is a reproach — and "I don't know" is itself a self-report
+that exposes you.
+
+> **P1.** In answering, one does not transfer a commodity but advances a judgment on one's own
+> authority, assuming a liability for its truth, its competence, or its candour.
+>
+> **P2.** To ask is to induce the addressee to assume that liability.
+>
+> **P3.** That liability is assumed for a consideration fixed by the act rather than by either
+> party's wishes: that the judgment advanced be received as a judgment and allowed to bear where the
+> question directed it — answer-reception at the bearing point.
+>
+> **P4.** It is wrong to induce another to assume a liability while having foreclosed the very
+> consideration for which, by the nature of the act, it is assumed, unless they release you.
+>
+> **C.** So an asker who has foreclosed answer-reception at the bearing point wrongs the answerer,
+> absent the answerer's release.
+
+P3 is where an earlier version of this argument went wrong, and the repair is the one LD needed too.
+If the consideration is fixed by the *asker's* purposes, a litigation-minded council satisfies the
+premise: it had a purpose and the answers served it. If it is fixed by the *answerer's* interest in
+being heeded, the argument proves too much, since not every disappointed answerer has been wronged.
+Fixed by the act — by where answers of the kind solicited are addressed, and by the only mode in
+which a judgment can be received as a judgment — it is the same for both parties, and public.
+
+P4 is the moral engine, and not peculiar to speech: it is why soliciting tenders for a contract
+already awarded is a fraud on the bidders even if their costs are trivial, and why inviting
+applications to a filled post wrongs the applicants even if they enjoyed writing them. The general
+form is an inducement principle — where A's invitation is the reason B incurs an exposure, A owes B
+the conditions under which that exposure has the point A's invitation gave it. I do not derive this
+from anything deeper; I offer it as a principle of a familiar family, supported by cases across the
+contractual, the institutional and the conversational.
+
+What makes asking unlike commanding is P1 with P3. A command treats the addressee as an agent whose
+*doing* is wanted, and a doing can be received while its author is ignored. A question treats them
+as an agent whose *take* is wanted, and a take cannot be received while its author is bypassed, in
+the way a wrench can be received while its fetcher is ignored. Call this the **alienability
+asymmetry**: the deliverable of an ask is inseparable from the deliverer's standing as one who
+judges, which is what makes symptom-use a failure of reception rather than a different mode of it.
+Discard the judgment and you have not merely declined to use a good; you have solicited a person's
+credit and declined to bank it. The wrong is not theft of labour but **exposure without reception**,
+which explains the gradient of complaint in §1: the cost of a syllable is nil, but in answering "not
+at all" you made yourself the author of a permission, and what you resent when the dog turns out to
+have been in the car already is that your authorship was counterfeit.
+
+One case tests the apparatus. A mentor runs a practice viva; nothing hangs on it. The student
+assumes the full liability of answering, and the benefit for which candidates ordinarily answer
+interview questions — that their performance count towards a decision — is foreclosed in advance, as
+both know. This is plainly no wrong, and free acceptance is not what makes it innocent: the student
+would not be wronged even had a supervisor press-ganged him into it. In that setting, answers of the
+kind called for are addressed to the mentor's assessment, which depends on them and is given back —
+and it is the setting, publicly available to both, that fixes this, not a redescription of the
+mentor's purposes after the fact.
+
+## 6. The participation argument, and what fails when it fails
+
+A second argument shows something about the act, not just about the asker. Habgood-Coote holds that
+"a speaker S asks a hearer H a question Q iff either: i) S proposes that S and H adopt a shared
+intention that H answer Q," or the same with S answering, or with both (2026, §4). I take over the
+structure without the semantics, because it supplies a mechanism my thesis needs and he does not
+use: a shared intention "generates obligations for everyone who participates in it, but its content
+can concern just one person," and it is "the fact that a speaker participates in a shared intention
+that a hearer does something" that "explains her obligation to not interfere" (§4).
+
+> **The Participation Argument.** To ask B a question is to propose that B and the asker jointly see
+> to it that the question is answered — at a minimum, that B's answer be put where answers of that
+> kind go. A proposal for a joint undertaking is defective *as a proposal* if its proposer is not
+> party to the undertaking proposed: one who says "let's go to the cinema" having made it impossible
+> for himself to go has not proposed a joint plan, whatever else he has done. An asker who has
+> foreclosed answer-reception at the bearing point is not party to the undertaking his ask proposes.
+> So no share of that undertaking falls to B, and B's burden does not arise.
+
+What fails here is participation, not sincerity, so this does not collapse into insincerity with a
+wider object; and it survives transparency, being exhibited by it — announcing "our decision is
+final" does not cure a non-participatory proposal but displays one, exactly as "let's go to the
+cinema, though I shan't be coming" does. It also identifies what the retort of §1 demands: to be
+shown the asker's share.
+
+An earlier version argued instead that the non-responsive asker occupied both sides of a
+contradiction in a presupposition, supported by the analogy "I promise to come, though I have no
+intention of coming." That analogy was wrong. The insincere promise is the standard illustration of
+an Austinian *abuse*, an act that comes off and then fails a standard: "here I have promised all
+right, but the act is not felicitous because it is not sincere" (Green 2020, §2.2). The apt
+comparison is Green's other case: "I cannot bet you $100 on who will win the election unless you
+accept that bet. If you do not accept that bet, then I have tried to bet but have not succeeded in
+betting" (§2.2). A bet fails for want of the addressee's participation; the burden of an ask fails
+for want of the asker's. Both are two-party structural defects, and neither is about anyone's state
+of mind. But a failed bet is nothing at all, and an ask is not nothing at all. Here the strong
+verdict ran two claims together.
+
+> **Asymmetric failure.** A non-participatory ask still authorises. It does not burden.
+
+Authorisation runs on the public face of the act. The resident who commented was invited to comment
+and is entitled to have spoken; it would be perverse if the council's own defect stripped her of the
+defence "you asked." Generally: a defective exercise of a normative power may not be pleaded by its
+author against someone who relied on its face — which is why a promisor cannot escape by pointing to
+a formal flaw in his own promise that the promisee took at face value. The burden is different
+because it is a *share in a joint undertaking*, and one cannot come to have a share in an
+undertaking nobody has entered. This also meets a difficulty about access: the bearing point is
+often invisible to the addressee, and a permission whose trigger she cannot see is no use to her.
+But she need not establish the trigger. She needs a right to demand it.
+
+> **Challenge.** The addressee of an ask may require the asker to state its bearing point and his
+> position to let the answer bear there. While the demand stands unanswered, the burden of response
+> is suspended. If it is refused, or cannot be met, the burden lapses. If it is met, it revives.
+
+Claeys identifies the double bind of the sealioned: the target "is left with the choice to either
+respond (and tire herself needlessly) or seem either unreasonable or unwilling" (Claeys 2024), and
+Robinson, Alfano and Astola describe the same trap. The bind exists because refusal reads as a
+normative default — she was asked and did not answer. Challenge dissolves that default without
+requiring her to prove anything about her interlocutor's mind or motives: she is not declining to
+discharge a duty but declining to incur one that has not been shown to have arisen. But I should be
+exact about how much this buys. It removes the *normative* default, not the social penalty.
+Berenstain's double bind is largely a social fact — Amina knows that refusing to explain herself
+"runs the risk of being painted as overly emotional, irrational, hypersensitive, unfriendly, and
+aggressive" (2016, §3) — and no account of felicity conditions will stop that. What it does is deny
+the demand its normative cover, the cover Berenstain describes it as travelling under: the
+appearance of an invitation to participate.
+
+Reflective practice has found both halves of this necessary. English administrative law recognises
+four conditions on lawful consultation, the "Sedley criteria," endorsed by the Supreme Court in *R
+(Moseley) v Haringey LBC*, the fourth being "that the product of consultation must be
+conscientiously taken into account in finalising any statutory proposals" ([2014] UKSC 56, [25],
+quoting *R v Brent LBC, ex p Gunning* (1985) 84 LGR 168, 189); and Lord Reed grounds the duty in
+"public participation in the local authority's decision-making process" ([38]), treating certain
+conditions as "minimum requirements" for participation and voiding the exercise where they fail
+([39], [42]). That is evidence that an uptake requirement and a participation-based validity
+condition are both felt to be needed. It is not more than evidence: the requirements that actually
+failed in *Moseley* were informational, so the case does not independently vindicate a verdict on
+uptake failure, and an earlier version of this essay wrongly claimed that it did.
+
+## 7. Sorting the failures
+
+| Pathology | What fails | Consequence |
+|---|---|---|
+| Sham consultation; the rigged hearing; the interview whose verdict is fixed | Live Dependence | burden lapses; authorisation stands |
+| The litigation-risk council; "Do you accept these terms?" | Live Dependence, via bearing-point drift | burden lapses; authorisation stands |
+| "We've taken your views on board", and nothing further, ever | Accounting | breach of an obligation owed to the answerer |
+| Sealioning; demanding that the marginalised explain their own oppression | Standing and Fair Terms, often with Live Dependence | burden lapses on each ground independently |
+| "Is the Pope a Catholic?" | no answer solicited | not an ask; nobody is exposed, nothing is owed |
+| "I'm just asking whether X", answer solicited | Live Dependence, via bearing-point drift | burden lapses; an unacknowledged assertion stands |
+
+**Bearing-point drift** — where the advertised bearing point is inert and the operative use is
+symptom-use — is not a fifth pathology alongside LD failure but its commonest species. The clearest
+published example is not mine: Robinson, Alfano and Astola's terms-and-conditions question, where
+the company asking "do you accept the terms and services listed above?" does "not actually expect us
+to have read it all," and "by asking, they get legal coverage from litigation" (2025, §3.3). They
+call this *minimally obscure* bullshit and note that "here, we have no real deception." Just so:
+nothing is concealed, and the defect is that your considered acceptance is inert while their
+liability exposure — the operative bearing point — is a place where your standing as a judge has no
+purchase. My account reaches it without needing obscurity, and reaches the transparent council by
+the same route.
+
+"Just asking questions" divides. Where no answer is solicited there is no ask and nobody is exposed.
+Where an answer *is* solicited, as when a journalist puts a question to a press secretary to harvest
+a clip, the defect is drift: assertion and asking each have a price — answerability for the truth of
+what one says, answerability for what one does with the answer — and this JAQ-er pays neither. The
+overlapping row, finally, does the most explanatory work. Berenstain's cases fail three conditions
+at once — ST, FT, and LD, since the answer is wanted as "fodder for skeptical responses" (2016, §5),
+which is symptom-use — and that overdetermination explains why refusing such demands one ground at a
+time never settles anything.
+
+## 8. Objections
+
+**(i) This is Gricean implicature.** Perhaps asking merely *implicates* openness, cancellably. But
+the right test is not whether cancelling sounds absurd; it is whether cancelling removes the act's
+characteristic normative upshot while leaving the words intact. Cancel a genuine implicature and the
+upshot survives: "some of the students passed — in fact all of them did" is still an assertion, still
+answerable for its truth. Cancel LD — "what do you think? Though nothing you say will make any
+difference to anything I believe or do" — and the speaker can no longer rebuke his addressee with
+"you didn't answer my question."
+
+**(ii) Over-demandingness.** If every question puts me on the hook, people will ask less, and asking
+is epistemically precious. But the obligation is graded and usually trivial — for most asks AC costs
+a sentence, and for many it is waived by default — and it is owed *to* the addressee and so is
+theirs to waive: "ask away, you needn't tell me what you do with it" is a real and common release.
+The counterfactual is also wrong. The alternative to answerable asking is not more genuine asking
+but more sham asking, which is self-consuming; where consultation is known to be ornamental people
+stop consulting and stop responding, the mechanism Green notes for promising, that "a pattern of
+abuses of speech act institutions might deprive a person of an ability to perform speech acts"
+(2020, §9).
+
+**(iii) The examiner, the lawyer, the therapist.** Bearing points handle these without special
+pleading: the examiner's is the grade, cross-examination's is the tribunal's finding rather than the
+questioner's belief, the therapist's is her understanding of the patient. Each receives the answer as
+an answer; an examiner whose grade was fixed in advance is running a sham, and a tribunal whose
+finding is fixed is a kangaroo court. There is a comparative advantage worth claiming. Robinson,
+Alfano and Astola save the exam question by arguing that examiners can be surprised, since "quizzing
+that starts as a test of knowledge can transform ... into a case where the questioner becomes
+informed of unexpected answers" (2025, §3.1). That is fragile: an examiner asking a routine question
+against a known mark scheme will not be surprised, and on their account he must be convicted. The
+bearing-point treatment needs no surprise, because the grade genuinely depends on the answer, taken
+on the candidate's authority as his. Willingness to be surprised is good evidence of LD, not what LD
+consists in.
+
+**(iv) Isn't Live Dependence just good faith?** Claeys quotes Sullivan and colleagues: one argues in
+good faith when "one is willing to change their views considering some conceivable evidence or
+argument that one's opponent might offer" (Claeys 2024, quoting Sullivan et al. 2020). The
+resemblance is real, but three things are added. That formulation, and Robinson, Alfano and Astola's
+surprisability, are marks of a virtue of debaters; mine is a condition on a normative power, which
+is what delivers the lapse of the burden and hence the permission to refuse. They index openness to
+the asker's *views*; mine indexes it to a bearing point often not a view at all, which is why mine
+handles examiners, consent and the litigation-risk council. And neither has a counterpart of AC,
+which is where most ordinary wrongdoing here lies: most bad asking is not rigged, it is unaccounted
+for. If I had to name the contribution among my conditions, it would be that one, not LD.
+
+**(v) Broadcast and machine asks.** Broadcast asks are owed severally and may be discharged jointly:
+each respondent is owed the account and may demand it in her own name, but one published response to
+comments can discharge what is owed to all at once, which is why institutions that take consultation
+seriously invent such documents. The machine case is more instructive: querying a database generates
+no obligation of uptake, because the obligation tracks the exposure of an agent who stakes a
+judgment, and where nobody is exposed nothing is owed. A theory locating the wrong in wasted labour
+or deception would strain here.
+
+**(vi) Self-directed and rhetorical asking.** Habgood-Coote's counterexamples to the standard view
+look prima facie like counterexamples to mine: Douglass asking "what, to the American slave, is your
+4th of July?" and answering it himself; Hilbert setting problems for a discipline. These mark my
+scope rather than refuting me. My thesis concerns asks that recruit an answer from the addressee,
+clause (i) above; self-directed asking, clause (ii), recruits nothing and exposes nobody. Notice
+which way it cuts, though: Habgood-Coote says of Douglass that "he is generating a conversational
+commitment for himself: if at the end of the speech he hadn't answered, he would have let the
+audience down" (2026, §3.2) — an asker-side commitment created by asking, the family of thing I argue
+for. Shared asking, clause (iii), recruits both parties, and the account rightly predicts
+obligations running both ways.
+
+## 9. What follows
+
+The standard defence of consultation is instrumental: it produces better decisions. That is
+insufficient even when true, since it leaves the consultee's complaint unexplained — an ignored
+consultee whose view was wrong has still been wronged — and predicts the wrong remedy. If the point
+were information, the remedy for bad consultation would be better information-gathering; if it is
+answerability, the remedy is publication of how the responses bore. That is a testable difference in
+institutional design. In epistemology, the zetetic instrumental principle unqualified licenses
+free-riding on other people's labour, and the norms of asking are a candidate constraint of the
+right shape: they do not forbid leaning on others, they price it.
+
+Darwall's circle, finally, runs from authority to accountability: "the authority to demand implies,
+not just a reason for the addressee to comply, but also his being responsible for doing so," these
+notions forming "an interdefinable circle" (Darwall 2006, ch. 1, 16–17, course PDF). As stated, the
+circle makes the *addressee* accountable. Asking shows that for at least one power the implication
+runs the other way too. Which others are held on similar terms? Demanding an apology, calling
+someone to account and issuing a reproach each solicit from another an exercise of agency that
+exposes them. Perhaps powers to recruit another's agency are, as a class, held in trust for the
+exercise they recruit.
+
+---
+
+## Notes
+
+[1] I have read Haziza 2023 only in the publisher's landing page saved locally, which carries the
+abstract, the footnote apparatus and the references but not the body. A footnote there formulates
+the norm as "one may ask addressee A the question Q only if A knows Q"; Habgood-Coote's report
+(2026, n. 33) is consistent with it, and I make no claim about the paper's argument. Whitcomb 2017,
+Whitcomb 2023, Friedman 2017, Willard-Kyle 2023, Millson and Risjord, Johnson 2017 and Sullivan et
+al. 2020 I have not read at all; each is cited as reported by a source I did read, and the
+bibliography says which. Bibliographic details for the first five are as Habgood-Coote's reference
+list, which I read, gives them.
+
+[2] This needs a qualification I cannot defend here: in some contexts receiving an assertion
+silently does incur something, since silence can be read as assent. Goldberg (2020) develops a
+notion of conversational pressure covering both directions of a speech exchange and is plainly
+adjacent to the present proposal. I could not obtain the book by any route I tried and so place no
+weight on it; the overlap is flagged rather than exploited, and it remains the most likely place for
+a prior claim on this thesis that I have not been able to check.
+
+---
+
+# Bibliography
+
+Austin, J. L. 1975. *How to Do Things with Words*. 2nd edn. Cambridge, MA: Harvard University
+Press. [Not accessed. Cited only as reported in Green 2020 and Darwall 2006, ch. 1, the latter of
+which cites this edition.]
+
+Åqvist, Lennart. 1965. *A New Approach to the Logical Theory of Interrogatives*, Pt. 1, *Analysis*.
+University of Uppsala. [Not accessed; cited only as reported in Cross and Roelofsen 2026, §1.1.
+Details from Habgood-Coote's reference list.]
+
+Berenstain, Nora. 2016. "Epistemic Exploitation." *Ergo* 3(22): 569–90. Read in full in the
+archived capture at
+https://web.archive.org/web/2020/https://quod.lib.umich.edu/e/ergo/12405314.0003.022/--epistemic-exploitation?rgn=main;view=fulltext
+(capture of 6 January 2021). The archived text carries section numbering but not printed
+pagination, so citations are by section.
+
+Berstler, Sam. 2023. "Bad Question!" *Philosophy & Public Affairs* 51(4): 413–49. [Abstract only,
+read at https://samberstler.com/research/. The paper itself was refused by Wiley, PhilPapers and
+PhilArchive.]
+
+Claeys, Martha. 2024. "Just Asking! On 'Friendly' Forms of Harassment." *Hypatia* 39(3): 449–64.
+https://doi.org/10.1017/hyp.2023.120 [Read in full via the Cambridge open-access HTML; the
+extraction carries no printed pagination, so citations are by section.]
+
+Cross, Charles, and Floris Roelofsen. 2026. "Questions." *The Stanford Encyclopedia of Philosophy*.
+First published 11 February 2014; substantive revision 26 May 2026.
+https://plato.stanford.edu/entries/questions/
+
+Darwall, Stephen. 2006. *The Second-Person Standpoint: Morality, Respect, and Accountability*.
+Cambridge, MA: Harvard University Press. [Chapter 1 read in the PDF posted at
+https://www.princeton.edu/~msmith/mycourses/darwall-ch1-2006.pdf; page references are to that PDF
+and I have not verified them against the printed edition.]
+
+Friedman, Jane. 2017. "Inquiry and Belief." *Noûs* 53: 296–315. [Not accessed; the *Belief* norm is
+cited as reported in Habgood-Coote 2026, §5, and these details are as his reference list gives
+them.]
+
+Friedman, Jane. 2020. "The Epistemic and the Zetetic." *Philosophical Review* 129(4): 501–36.
+[Author's PDF, dated 07|2020, at https://jfriedmanphilo.github.io/E&Z.pdf; citations to that PDF's
+pagination.]
+
+Goldberg, Sanford C. 2020. *Conversational Pressure: Normativity in Speech Exchanges*. Oxford:
+Oxford University Press. [Not consulted; no open route found. Noted as adjacent work only.]
+
+Green, Mitchell. 2020. "Speech Acts." *The Stanford Encyclopedia of Philosophy*. First published
+3 July 2007; substantive revision 24 September 2020.
+https://plato.stanford.edu/entries/speech-acts/
+
+Habgood-Coote, Joshua. 2026. "Asking a Question is a Proposal in Shared Inquiry." *Australasian
+Journal of Philosophy*. https://doi.org/10.1080/00048402.2026.2680296 [Read in full in the CC-BY
+repository copy at
+https://eprints.whiterose.ac.uk/id/eprint/231356/12/Asking%20a%20Question%20is%20a%20Proposal%20in%20Shared%20Inquiry.pdf;
+section references are to that typeset text.]
+
+Habib, Allen. 2022. "Promises." *The Stanford Encyclopedia of Philosophy*. First published
+10 October 2008; substantive revision 17 June 2022. https://plato.stanford.edu/entries/promises/
+
+Haziza, Eliran. 2023. "Questioning and Addressee Knowledge." *Synthese* 201: 1–23.
+https://doi.org/10.1007/s11229-023-04113-6 [Abstract, footnotes and references read in the saved
+landing page; body not obtained. See note 1.]
+
+Johnson, Amy. 2017. "The multiple harms of sea-lioning." In *Perspectives on harmful speech
+online*. Harmful Speech Online Project. Cambridge, MA: Berkman Klein Center for Internet and
+Society, Harvard University. [Not accessed; cited as quoted in Claeys 2024, which gives the page.]
+
+Millson, Jared, and Mark Risjord. Forthcoming. "Asking Questions in the Space of Reasons." In *Why
+and How We Give and Ask for Reasons*, ed. P. Stovall and L. Koreň. Oxford: Oxford University Press.
+[Not accessed; known only as reported in Habgood-Coote 2026, n. 2, and these details are as his
+reference list gives them.]
+
+*R (Moseley) v London Borough of Haringey* [2014] UKSC 56.
+https://www.bailii.org/uk/cases/UKSC/2014/56.html [Read in full in the BAILII HTML; paragraph
+numbers taken from the `LI VALUE` markers in the raw HTML.]
+
+*R v Brent London Borough Council, ex p Gunning* (1985) 84 LGR 168. [Not accessed; quoted in
+*Moseley* at [25].]
+
+Robinson, Brian, Mark Alfano, and Mandi Astola. 2025. "Is this a bullshit question? Just asking!"
+*Synthese* 206: 185. https://doi.org/10.1007/s11229-025-05130-3 [Read in full; the extraction
+carries no printed pagination, so citations are by section.]
+
+Searle, John R. 1965. "What is a Speech Act?" Page references are to the anthology reprint
+(pp. 1–16) at
+https://www.jwood.faculty.unlv.edu/unlv/Articles/SearleWhatIsASpeechAct.pdf
+
+Searle, John R. 1969. *Speech Acts: An Essay in the Philosophy of Language*. Cambridge: Cambridge
+University Press. [Not accessed; cited only as reported in Cross and Roelofsen 2026, §1.1 and
+Habgood-Coote 2026.]
+
+Sullivan, Emily, Max Sondag, Ignaz Rutter, Wouter Meulemans, Scott Cunningham, Bettina Speckmann,
+and Mark Alfano. 2020. "Can Real Social Epistemic Networks Deliver the Wisdom of Crowds?" In
+*Oxford Studies in Experimental Philosophy*, vol. 1, ed. Tania Lombrozo, Joshua Knobe, and Shaun
+Nichols. Oxford: Oxford University Press. [Not accessed; cited as quoted in Claeys 2024.]
+
+Whitcomb, Dennis. 2017. "One Kind of Asking." *Philosophical Quarterly* 67: 148–68. [Not accessed;
+cited only as reported in Habgood-Coote 2026, §5.]
+
+Whitcomb, Dennis. 2023. "Bullshit Questions." *Analysis* 83: 299–304. [Not accessed; cited only as
+reported in Robinson, Alfano and Astola 2025, §1, and in Habgood-Coote 2026, §2.]
+
+Willard-Kyle, Christopher. 2023. "The Knowledge Norm for Inquiry." *Journal of Philosophy* 120:
+615–40. [Not accessed; the *Knowledge* norm is cited as reported in Habgood-Coote 2026, §5, and
+these details are as his reference list gives them.]

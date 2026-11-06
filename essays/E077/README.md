@@ -1,5 +1,7 @@
 # E077 · Privacy Should Not Leave Us Alone
 
+[Original research files and revision evidence](../../docs/essay-evidence/E077.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

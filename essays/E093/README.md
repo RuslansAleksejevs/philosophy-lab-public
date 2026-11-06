@@ -1,5 +1,7 @@
 # E093 · Unfinished Wrongs: Apology and the Settlement of the Past
 
+[Original research files and revision evidence](../../docs/essay-evidence/E093.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

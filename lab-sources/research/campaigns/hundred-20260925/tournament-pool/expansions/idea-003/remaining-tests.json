@@ -1,0 +1,51 @@
+{
+  "schema": "hundred-expansion-remaining-tests-v1",
+  "stage": "expansion-001",
+  "literature_status": "No literature search, source retrieval, or primary-source reading occurred in this stage.",
+  "source_evidence_manifest": [],
+  "priority_tests": [
+    {
+      "id": "source-1",
+      "type": "primary-source comparison",
+      "question": "Do primary accounts of ex ante fair choice and procedural legitimacy already recognize a timing-based claim with the same standing, trigger, and remedy?",
+      "method": "In a separately prepared source phase, read bounded primary passages on ex ante impartial choice and procedural justice; save exact source bytes, retrieval records, query log, and coverage. Compare premise by premise.",
+      "decision_rule": "If the claim is only an application of an established procedural right, narrow it to a diagnostic distinction or set it aside; do not call it original."
+    },
+    {
+      "id": "source-2",
+      "type": "primary-source comparison",
+      "question": "Does the distinction survive comparison with primary discussions of rights to know/not know, informed consent, confidentiality, and collective information governance?",
+      "method": "Read actual primary texts and relevant institutional instruments; distinguish normative arguments from legal or professional rules. Do not rely on snippets or secondary summaries as proof of novelty.",
+      "decision_rule": "If existing accounts cover release timing under the same authority and limits, identify the overlap precisely and revise the contribution."
+    },
+    {
+      "id": "argument-1",
+      "type": "restoration test",
+      "question": "Can simultaneous disclosure, blind administration, or a neutral post-disclosure procedure restore the alleged fair option?",
+      "method": "For each case specify the available rule before disclosure, the exact choice foreclosed after it, and whether an alternative restores it.",
+      "decision_rule": "If a less restrictive alternative restores equal standing, no delay claim is established for that case."
+    },
+    {
+      "id": "argument-2",
+      "type": "standing test",
+      "question": "Can the group and claimant be identified independently of the answer, and what rule authorizes the hold?",
+      "method": "Vary the case: dissenting participant, non-member affected person, absent participant, disputed membership, and no prior charter.",
+      "decision_rule": "If standing or authority depends on choosing a favorable group after learning the answer, reject the hold; without a pre-authorized neutral process, the current claim does not apply."
+    },
+    {
+      "id": "argument-3",
+      "type": "harm and relevance test",
+      "question": "Is the information genuinely harmless, and is it irrelevant to selecting the fair rule?",
+      "method": "Vary urgency, safety, rights-relevant facts, bargaining effects, and the possibility that information reveals legitimate needs.",
+      "decision_rule": "Urgent disclosure or information needed for a responsible rule defeats or narrows the pause."
+    },
+    {
+      "id": "argument-4",
+      "type": "abuse test",
+      "question": "Can the bounded trigger be used to suppress evidence or impose indefinite delay?",
+      "method": "Model one trigger, deadline, neutral review, preset default, and appeal; test repeated requests and power asymmetries.",
+      "decision_rule": "If safeguards fail to prevent strategic suppression, reject the right or require a stricter pre-authorized rule."
+    }
+  ],
+  "later_probe_inputs": "Only this exact expanded proposal, its explicitly selected ancestry, an assigned primary-source packet, and specifically selected source-phase outputs. This is not a completed essay or independently sourced work."
+}

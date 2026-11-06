@@ -1,0 +1,18 @@
+{
+  "id": "claude-batch-v2",
+  "stages": [
+    "question",
+    "sources",
+    "contribution",
+    "critique",
+    "decision"
+  ],
+  "status": "REPAIRED_IMPLEMENTATION_PENDING_LIVE_PROBE",
+  "purpose": "One manually started Claude dispatcher runs a reviewed finite task graph; children have fresh contexts, task-specific inputs and explicit model/effort.",
+  "archive_policy": "Structured native assistant text is captured, checked and materialized mechanically. Hooks never force retries on an impossible file requirement. Final canonical import and research acceptance remain separate.",
+  "capture_boundary": "Exact selected native visible fragments plus separately normalized metadata; hidden reasoning, injected/internal records and unrelated sessions excluded. Unknown shapes or missing identity/configuration block progression.",
+  "control": "Codex defines task graph/configuration/inputs. Claude dispatcher performs mechanical scheduling only; hooks replace dispatch prompts with bound bytes. No automatic quota consumption or scheduler.",
+  "limitations": "Fresh contexts and hook access checks are not OS isolation. Parent UI mode is distinct from child native effort. Live Desktop capability must be tested before research release. No campaign authorized by this build.",
+  "change_reason": "Live v3 exposed a native report Write restriction, obsolete resume assumptions and repeated stop-hook loops.",
+  "applies_from": "New native_text packets only; old bound packets remain unchanged."
+}

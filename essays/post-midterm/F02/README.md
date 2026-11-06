@@ -1,5 +1,7 @@
 # F02 · Perfectly Proportioned, Poorly Informed
 
+[Original research files and revision evidence](../../../docs/essay-evidence/F02.md)
+
 **Working version, October 19 comparison:** [read the checked text](../../selection-20261018/F02.md). The first separate R1 review led to one additional repair, followed by a fresh review of the new manuscript. It later received a main reading place.
 
 [Later independent review](../../../evidence/final-selection/updates/20261031/preselection/roles/F02/review-final/output/REVIEW_RU.txt) · [Preparation decision](../../../evidence/final-selection/updates/20261031/preselection/decisions/F02.json) · [Selection reasons](../../../docs/selection.md).

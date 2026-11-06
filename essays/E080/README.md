@@ -1,5 +1,7 @@
 # E080 · Keeping a Way to Change Your Mind
 
+[Original research files and revision evidence](../../docs/essay-evidence/E080.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

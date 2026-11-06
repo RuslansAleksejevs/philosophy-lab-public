@@ -1,5 +1,7 @@
 # E034 · The Man Who Was Not in the Letter
 
+[Original research files and revision evidence](../../docs/essay-evidence/E034.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md) · [English translation](translation.en.md)
 
 ## How this essay was made

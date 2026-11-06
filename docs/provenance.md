@@ -1,4 +1,4 @@
-[Home](../README.md) · [Read](final-shortlist.md) · [Method](method.md) · [History](timeline.md) · [Archive](../logs/README.md)
+[Home](../README.md) · [Read](current-selection.md) · [Method](method.md) · [History](timeline.md) · [Archive](../logs/README.md)
 
 # The research record
 
@@ -32,7 +32,11 @@ A local Python collector was built to save visible messages and available metada
 
 The collector does not infer an essay's causal history. That needs explicit links from idea to draft, critique, revision, selection, and final. An early set of “biographies” was mostly technical cards; a user objection led to readable narratives for the Claude series.
 
-The repository keeps both layers: readable histories for navigation, original text and machine-readable records for close inspection. The [conversation bundle manifest](../logs/bundles/manifest.json) lists the indexed conversation and tool bundles. The [late-receipts manifest](../logs/updates/20261031-late-receipts/MANIFEST.json) and [final-delta manifest](../logs/updates/20261031-final-verification/MANIFEST.json) separately list their supplemental bundles, members and checksums. Together these lists cover 40 unique bundle files: 37 in the global manifest, one late bundle and two final supplemental bundles.
+The repository keeps both layers: readable histories for navigation, original text and machine-readable records for close inspection. The [conversation bundle manifest](../logs/bundles/manifest.json) lists the indexed conversation and tool bundles. The [late-receipts manifest](../logs/updates/20261031-late-receipts/MANIFEST.json) and [final-delta manifest](../logs/updates/20261031-final-verification/MANIFEST.json) separately list their supplemental bundles, members and checksums. Those historical lists cover 40 unique bundles. The [current inventory](../logs/archive-inventory.json) includes all 43 log bundles, adding the three November supplements. The [unified catalogue](../logs/catalogue.json) joins every retained session fragment.
+
+## November 5 source expansion
+
+The [original source collection](../lab-sources/README.md) adds exact histories, research artifacts, methods, code and tests. [Essay evidence routes](essay-evidence.md) connect those files to all 107 candidates. The [new log supplement](../logs/updates/20261105-archive/README.md) brings the visible union to 15,722 records in 3,424 sessions at its fixed cutoff. This improves access to existing evidence; submitted manuscripts and PDFs remain unchanged.
 
 ## November 1 submitted edition
 

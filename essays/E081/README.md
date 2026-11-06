@@ -1,5 +1,7 @@
 # E081 · When an Institution Must Stop Speaking for a Claim
 
+[Original research files and revision evidence](../../docs/essay-evidence/E081.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made

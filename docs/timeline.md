@@ -1,4 +1,4 @@
-[Home](../README.md) · [Read](final-shortlist.md) · [Method](method.md) · [History](timeline.md) · [Archive](../logs/README.md)
+[Home](../README.md) · [Read](current-selection.md) · [Method](method.md) · [History](timeline.md) · [Archive](../logs/README.md)
 
 # A working history
 

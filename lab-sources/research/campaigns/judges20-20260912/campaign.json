@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "id": "judges20-20260912",
+  "authorization_run": "bridge-judges20-20260912",
+  "status": "PREPARING",
+  "size": 20,
+  "essay_numbers": [
+    51,
+    70
+  ],
+  "method": "methods/judges-v1.json",
+  "default_provider": "Codex",
+  "model_requested": "inherit active configuration",
+  "root_observed_model": "gpt-6-astra",
+  "root_observed_effort": "ultra",
+  "model_observation_limit": "Each actual research session must record its own observation; no hidden routing claim.",
+  "language": "English essays; Russian catalogue",
+  "word_limit_excluding_bibliography": 6000,
+  "minimum_words": null,
+  "independence": "fresh author and two separate fresh judge-critic contexts per essay, only own artifacts",
+  "allocation_origin": "AI, assigned before new essay outputs; fields are not theses",
+  "essays": [
+    {
+      "number": 51,
+      "field": "Epistemology: justification, evidence and inquiry",
+      "style": "CLEAR",
+      "reviewers": [
+        "branden_fitelson",
+        "daniel_greco"
+      ],
+      "author_agent_path": "/root/author_51"
+    },
+    {
+      "number": 52,
+      "field": "Agency: intentions, time and practical commitment",
+      "style": "CLEAR",
+      "reviewers": [
+        "john_hawthorne",
+        "jake_nebel"
+      ],
+      "author_agent_path": "/root/author_52"
+    },
+    {
+      "number": 53,
+      "field": "Moral responsibility in organized social life",
+      "style": "CLEAR",
+      "reviewers": [
+        "herman_cappelen",
+        "simon_goldstein"
+      ],
+      "author_agent_path": "/root/author_53"
+    },
+    {
+      "number": 54,
+      "field": "Political philosophy: legitimacy and disagreement",
+      "style": "CLEAR",
+      "reviewers": [
+        "hilary_greaves",
+        "christian_tarsney"
+      ],
+      "author_agent_path": "/root/author_54"
+    },
+    {
+      "number": 55,
+      "field": "Philosophy of language: public meaning and interpretation",
+      "style": "CLEAR",
+      "reviewers": [
+        "matthew_mandelkern",
+        "rachel_sterken"
+      ],
+      "author_agent_path": "/root/author_55"
+    },
+    {
+      "number": 56,
+      "field": "Aesthetics: attention, interpretation and artistic value",
+      "style": "CLEAR",
+      "reviewers": [
+        "josh_dever",
+        "cian_dorr"
+      ],
+      "author_agent_path": "/root/author_56"
+    },
+    {
+      "number": 57,
+      "field": "Philosophy of science: measurement and explanatory practice",
+      "style": "CLEAR",
+      "reviewers": [
+        "kenny_easwaran",
+        "branden_fitelson"
+      ],
+      "author_agent_path": "/root/author_57"
+    },
+    {
+      "number": 58,
+      "field": "Social epistemology: testimony and collective inquiry",
+      "style": "CLEAR",
+      "reviewers": [
+        "daniel_greco",
+        "john_hawthorne"
+      ],
+      "author_agent_path": "/root/author_58"
+    },
+    {
+      "number": 59,
+      "field": "Philosophy of mind: consciousness and explanation",
+      "style": "CLEAR",
+      "reviewers": [
+        "david_chalmers",
+        "karina_vold"
+      ],
+      "author_agent_path": "/root/author_59"
+    },
+    {
+      "number": 60,
+      "field": "Ethics: collective action and risk",
+      "style": "CLEAR",
+      "reviewers": [
+        "christian_tarsney",
+        "hilary_greaves"
+      ],
+      "author_agent_path": "/root/author_60"
+    },
+    {
+      "number": 61,
+      "field": "Philosophy of technology: delegation and algorithmic authority",
+      "style": "CLEAR",
+      "reviewers": [
+        "karina_vold",
+        "simon_goldstein"
+      ],
+      "author_agent_path": "/root/author_61"
+    },
+    {
+      "number": 62,
+      "field": "Metaphysics: dependence, individuation and explanation",
+      "style": "CLEAR",
+      "reviewers": [
+        "cian_dorr",
+        "jens_jaeger"
+      ],
+      "author_agent_path": "/root/author_62"
+    },
+    {
+      "number": 63,
+      "field": "Philosophy of law: evidence, interpretation and authority",
+      "style": "CLEAR",
+      "reviewers": [
+        "matthew_mandelkern",
+        "herman_cappelen"
+      ],
+      "author_agent_path": "/root/author_63"
+    },
+    {
+      "number": 64,
+      "field": "Philosophy of history: narrative and understanding",
+      "style": "CLEAR",
+      "reviewers": [
+        "josh_dever",
+        "rachel_sterken"
+      ],
+      "author_agent_path": "/root/author_64"
+    },
+    {
+      "number": 65,
+      "field": "Animal ethics: minds, communication and moral attention",
+      "style": "CLEAR",
+      "reviewers": [
+        "david_chalmers",
+        "jake_nebel"
+      ],
+      "author_agent_path": "/root/author_65"
+    },
+    {
+      "number": 66,
+      "field": "Ethics across time: mortality and future persons",
+      "style": "CLEAR",
+      "reviewers": [
+        "jake_nebel",
+        "hilary_greaves"
+      ],
+      "author_agent_path": "/root/author_66"
+    },
+    {
+      "number": 67,
+      "field": "Formal epistemology: norms of rational belief",
+      "style": "TECHNICAL_OPEN",
+      "reviewers": [
+        "branden_fitelson",
+        "kenny_easwaran"
+      ],
+      "author_agent_path": "/root/author_67"
+    },
+    {
+      "number": 68,
+      "field": "Decision theory: choice under uncertainty",
+      "style": "TECHNICAL_OPEN",
+      "reviewers": [
+        "kenny_easwaran",
+        "christian_tarsney"
+      ],
+      "author_agent_path": "/root/author_68"
+    },
+    {
+      "number": 69,
+      "field": "Philosophy of logic: inference and its norms",
+      "style": "TECHNICAL_OPEN",
+      "reviewers": [
+        "matthew_mandelkern",
+        "jens_jaeger"
+      ],
+      "author_agent_path": "/root/author_69"
+    },
+    {
+      "number": 70,
+      "field": "Value theory: aggregation and comparison",
+      "style": "TECHNICAL_OPEN",
+      "reviewers": [
+        "jake_nebel",
+        "cian_dorr"
+      ],
+      "author_agent_path": "/root/author_70"
+    }
+  ]
+}

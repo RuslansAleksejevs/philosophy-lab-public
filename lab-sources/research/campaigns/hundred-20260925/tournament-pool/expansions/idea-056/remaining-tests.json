@@ -1,0 +1,49 @@
+{
+  "schema": "hundred-remaining-tests-v1",
+  "candidate": "idea-056",
+  "version": "expansion-001",
+  "status": "open",
+  "literature_check_performed": false,
+  "originality": "UNKNOWN",
+  "tests": [
+    {
+      "id": "T1-fixed-desert-vs-relational-desert",
+      "priority": 1,
+      "method": "Retrieve and read primary texts defending fixed retributive desert and communicative or relational accounts of punishment; extract each account's stated ground of desert and whether later answerability changes desert or only permission to punish.",
+      "pass_condition": "At least one clearly formulated primary account supports a present answerability-based desert claim, and the proposal accurately identifies its conditions.",
+      "fail_condition": "The closest theories all make deserved punitive hardship invariant once the offense is complete, leaving only mercy or policy to explain leniency.",
+      "coverage_required": "Save exact retrieved source bytes, retrieval metadata, and the passages actually read; distinguish full and excerpt reading."
+    },
+    {
+      "id": "T2-nonpunitive-answerability",
+      "priority": 1,
+      "method": "Compare primary accounts of communicative punishment and restorative justice to test whether truthful public acknowledgment and feasible repair can complete accountability without imposed hardship.",
+      "pass_condition": "An account explains how non-punitive conduct can satisfy the relevant answerability relation while preserving condemnation and guilt.",
+      "fail_condition": "Punitive hardship itself is necessary to answer the wrong on every defensible account in scope.",
+      "coverage_required": "Record the closest passages and counterpassages actually read; do not treat a general policy preference as a desert premise."
+    },
+    {
+      "id": "T3-mercy-and-permissibility-discriminator",
+      "priority": 1,
+      "method": "Use matched cases that hold fixed original culpability, elapsed time, harm, social consequences, forgiveness, and protective need while varying only independently verified accountability; ask which normative premise makes the desert claim differ.",
+      "pass_condition": "A non-circular premise explains the difference as a change in the ground or satisfaction condition of desert, not merely lower utility or compassion.",
+      "fail_condition": "The verdict can be explained only by mercy, proportionality, or institutional convenience, with no defensible internal desert difference."
+    },
+    {
+      "id": "T4-evasion-and-timing-fairness",
+      "priority": 1,
+      "method": "Compare self-disclosure before detection, confession after detection, continued concealment, and earlier imposition followed by later reform; include unequal resources and barriers to making repair.",
+      "pass_condition": "A public, conduct-based criterion distinguishes accountability from strategic evasion and gives a fair account of delayed cases without rewarding concealment.",
+      "fail_condition": "The exception systematically rewards evasion or depends on wealth, eloquence, disability-insensitive participation, or victim emotional labor."
+    },
+    {
+      "id": "T5-conceptual-expiry-vs-satisfaction",
+      "priority": 2,
+      "method": "Determine whether the best account describes non-punitive accountability as satisfying the original claim, changing its object, or expiring an unfulfilled punitive claim; retain the original term only if the distinctions are defensible.",
+      "pass_condition": "The proposal can state exactly what expires and why it is not merely forgiveness, equivalent payment, a statute of limitations, or a discretionary bar.",
+      "fail_condition": "The idea's distinctive expiry claim collapses into ordinary satisfaction or an external legal/permissibility rule."
+    }
+  ],
+  "source_evidence_manifest": "research/campaigns/hundred-20260925/tournament-pool/expansions/idea-056/source-evidence-manifest.json",
+  "next_action": "A fresh source-probe context should first test T1 and T2 against saved primary sources, then attempt T3 and T4. Do not treat this proposal as a completed essay or as literature-vetted."
+}

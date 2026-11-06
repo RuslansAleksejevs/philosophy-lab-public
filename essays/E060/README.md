@@ -1,5 +1,7 @@
 # E060 · What a Truthful Relay Can Owe Its Audience
 
+[Original research files and revision evidence](../../docs/essay-evidence/E060.md)
+
 [Essay catalogue](../README.md) · [Original manuscript](original.md)
 
 ## How this essay was made
